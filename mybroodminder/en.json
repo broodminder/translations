@@ -1,0 +1,609 @@
+{
+	"LOGIN":{
+		"LOGIN_MENU":"Login",
+		"REGISTER_MENU":"Register",
+		"LOGIN":{
+			"TITLE":"Login to existing account",
+			"EMAIL":"Email",
+			"PASSWORD":"Password",
+			"LOGIN_BTN":"Login with email",
+			"FORGOT_LINK":"Forgot password",
+			"RESET":"Send reset email",
+            "RESET_SUCCESS":"Reset email sent to {{value}}",
+			"RESET_ERROR":"Error, email not sent.",
+            "ERROR":{
+                "GENERAL":"Login failed.",
+                "PASSWORD":"Incorrect username/password.",
+                "EMAIL":"No account exists for this email."
+            }
+		},
+		"REGISTER":{
+			"TITLE":"Register new account",
+			"EMAIL":"Email",
+			"PASSWORD":"Password",
+			"REGISTER_BTN":"Register email",
+			"EULA":{
+				"TITLE":"Beekeeping.io EULA (End User License Agreement) v1.1",
+				"DESCRIPTION":"We ask then you agree to the following statements to use this SaaS beekeeping software:",
+				"POINT_1":"I am placing the data that I upload or enter into this service into the Public Domain. As such, beekeeping.io may use the data, in anonymous form, to share with the general public.",
+				"POINT_2":"I understand that beekeeping.io will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that beekeeping.io can not be held responsible for hacking or other methods of data exposure.",
+				"POINT_3":"I understand that beekeeing.io will use best efforts to store and backup all data uploaded or entered into it, but that beekeeping.io can not be held responsible for data loss.",
+				"POINT_4":"I understand that beekeeping.io is a separate company from other vendors that may integrate their devices into beekeeping.io, and that beekeeping.io is not liable for those vendors actions.",
+				"POINT_5":"I understand that beekeeping.io is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of beekeeping.io.",
+				"AGREE":"I agree"
+			},
+			"ERROR":{
+                "DUPLICATE":"The email address is already in use by another account.",
+                "GENERAL":"Cannot create account.",
+                "PASSWORD":"Password not strong enough.",
+                "EMAIL":"The email address is badly formatted."
+            }
+		}
+	},
+	"SIDEBAR":{
+		"HOME":"Home",
+		"APIARIES":"Apiaries",
+		"CONFIGURE":"Configure",
+        "APIARIES_CONTEXT":
+        {
+            "NEW":"New Apiary"
+        },
+		"APIARY_CONTEXT":
+		{
+			"EDIT":"Edit {{value}}",
+			"NEW_HIVE":"New Hive",
+			"SHARE":"Share",
+            "BEECOUNTED":"BeeCounted"
+            
+		},
+		"HIVE_CONTEXT":
+		{
+			"EDIT":"Edit {{value}}",
+			"NEW_DEVICE":"Add New Device",
+			"EXISTING_DEVICE":"Add Existing Device",
+            "BEECOUNTED":"BeeCounted"
+		},
+		"DEVICE_CONTEXT":
+		{
+			"EDIT":"Edit {{value}}",
+			"EDIT_LOCATION":"Edit Current Location",
+			"MOVE":"Move Device"
+		},
+		"HUB_TOOLTIP":"Hub",
+		"SHARED_TOOLTIP":"shared with me"
+	},
+	"TOP_MENU":{
+		"ACCOUNT":"Account",
+		"TOUR":"Tour",
+		"HELP":"Help",
+		"ADMIN":"Admin",
+		"LOGOUT":"Logout",
+        "LOGIN":"Sign In",
+        "REGISTER":"Register",
+        "RESOURCES":"Resources"
+	},
+	"RESOURCES":{
+		"TITLE":"Resources",
+		"SUBTITLE":"Here you will find many resources so that you can start contributing to learning more about our bees.",
+		"DESCRIPTION":"Thank you for joining the BroodMinder movement where we are learning and sharing information in order to improve our understanding and management of our precious honeybees.",
+		"DESCRIPTION_2":" Sincere thanks to Google and to <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  for their generous support of BroodMinder Citizen Science.",
+		"LINKS":
+			{
+				"TITLE":"Links",
+				"LOGIN":"Login",
+				"USER_GUIDE_VIDEO":"Video User Guides",
+				"USER_GUIDE_PDF":"Written User Guide (PDF)",
+				"BEECOUNTED":"BeeCounted",
+				"SUPPORT":"Support"
+			}
+	},
+	"VIDEO_GUIDES":{
+		"TITLE":"BroodMinder Video User Guide",
+		"HOW_TO":"How to use this manual",
+		"IN_PROGRESS":"In progress",
+		"INSTALLATION":{
+			"TITLE":"Installation",
+			"LINK_1":"Quick Start",
+			"LINK_2":"Which APP Should I Choose?",
+			"LINK_3":"BroodMinder Devices",
+			"LINK_4":"BroodMinder-CELL/WIFI"
+		},
+		"APIARY_APP":{
+			"TITLE":"Apiary App (cloud)",
+			"LINK_1":"Normal Use",
+			"LINK_2":"New - Hub Mode"
+		},
+		"BROODMINDER_APP":{
+			"TITLE":"Original App (standalone)",
+			"LINK_1":"Normal Use",
+			"LINK_2":"Data Exporting"
+		},
+		"CELL_APP":{
+			"TITLE":"CELL App",
+			"LINK_1":"Normal Use (see install)",
+			"LINK_2":"Diagnostics"
+		},
+		"MYBROODMINDER":{
+			"TITLE":"MyBroodMinder",
+			"LINK_1":"Getting Started",
+			"LINK_2":"The Data Views",
+			"LINK_3":"Configuration",
+			"LINK_4":"Moving Devices",
+			"LINK_5":"Cell, WIFI and Hub Monitoring",
+			"LINK_6":"Alternate Navigation"
+		},
+		"INTERPRETATION":{
+			"TITLE":"Data Interpretation",
+			"LINK_1":"Hive Temperature",
+			"LINK_2":"Hive Weight"
+		},
+		"TROUBLESHOOT":{
+			"TITLE":"Troubleshooting",
+			"LINK_1":"Annual Maintenance",
+			"LINK_2":"Batteries",
+			"LINK_3":"Bluetooth Connection",
+			"LINK_4":"Android Considerations",
+			"LINK_5":"Weight Fluctuations",
+			"LINK_6":"Corrosion",
+			"LINK_7":"T2 Firmware Update version 2.77"
+		}
+	},
+	"TOUR":{
+		"START":{
+			"TITLE":"Welcome!!",
+			"DESCRIPTION":"Welcome to the new MyBroodMinder!",
+			"SKIP":"Skip",
+			"SEE":"See Features"
+		},
+		"FEATURES":{
+			"TITLE":"Feature Tour",
+			"SKIP":"Skip",
+			"NEXT":"Next",
+			"CLOSE":"Close",
+			"FEATURE_1":"First time, create hive",
+			"FEATURE_2":"Viewing data",
+			"FEATURE_3":"Configuring and moving devices",
+			"FEATURE_4":"View CELL/WiFi/Hub status"
+		}
+	},
+	"APIARY_PAGE":{
+		"SELECT":"Select a view",
+		"PREMIUM_EXP":"Time range selection for this view available with premium subscription.",
+		"TEXT":{
+			"TITLE":"Text",
+			"DESCRIPTION":"This view displays the most recent reading uploaded for every position in every hive."
+		},
+		"HIVE":{
+				"TITLE":"Hive",
+				"DESCRIPTION":"This view displays a quick chart view for every hive. Weight display precedence: heaviest value. Humidity and temperature display precedence: 1-Above Lower Brood Box 2-Above Upper Brood Box 3-Under Inner Cover 4-Other 5-Custom (highest value) 6-Outside Hive 7-Scale Under Hive"
+		},
+		"SUMMARY":{
+			"TITLE":"Summary",
+			"DESCRIPTION":"This view displays combined charts by data type. Specifics shown follow the defaults of the hive view, but can be set per hive in the hive settings.",
+			"PREMIUM_EXP":"This view available with premium subscription. Example shown below.",
+			"TEMP":{
+				"TITLE":"Apiary Temperatures",
+				"NONE":"No temperature data",
+				"LOADING":"Loading apiary temperature readings"
+			},
+            "HUMID":{
+				"TITLE":"Apiary Humidity",
+				"NONE":"No humidity data",
+				"LOADING":"Loading apiary humidity readings"
+			},
+			"WEIGHT":{
+				"TITLE":"Apiary Weights",
+				"NONE":"No weight data",
+				"LOADING":"Loading apiary weight readings"
+			},
+			"BATTERY":{
+				"TITLE":"Apiary Battery",
+				"NONE":"No battery data",
+				"LOADING":"Loading apiary battery readings"
+			},
+			"HIVES":"Hives"
+		}  
+	},
+    "HIVE_PAGE":{
+        "DATA_TOOLTIP":{
+            "UPDATE":"View needs update",
+            "BUILDING":"View building",
+            "OK":"View up to date"
+        },
+        "TEMP":{
+            "TITLE":"Temperature",
+            "NONE":"No temperature data",
+            "LOADING":"Loading hive temperature readings"
+        },
+        "HUMID":{
+            "TITLE":"Humidity",
+            "NONE":"No humidity data",
+            "LOADING":"Loading hive humidity readings"
+        },
+        "WEIGHT":{
+            "TITLE":"Weight",
+            "NONE":"No weight data",
+            "LOADING":"Loading hive weight readings",
+            "MULTI_SCALE":"Multiple scales",
+            "AVERAGE_SCALE":"Scales Averaged",
+            "INDIVIDUAL_SCALE":"Individual Scales"
+        },
+        "PRODUCTIVITY":{
+            "TITLE":"Honeybee Productivity",
+            "NONE":"No weight data for honeybee productivity",
+            "LOADING":"Loading honeybee productivity",
+            "INFO":"Bees adding/removing hive weight"
+        },
+        "BATTERY":{
+            "TITLE":"Battery",
+            "NONE":"No battery data",
+            "LOADING":"Loading hive battery readings"
+        },
+        "DEVICES":"Devices",
+        "DEVICE_WITH_DATA":"Data in charts, currently in hive",
+        "DEVICE_NO_DATA":"No data in charts, currently in hive",
+        "DEVICE_DATA_ONLY":"Data in charts, not currently in hive"
+    },
+    "DEVICE_PAGE":{
+        "DATA_TOOLTIP":{
+            "UPDATE":"View needs update",
+            "BUILDING":"View building",
+            "OK":"View up to date"
+        },
+        "TITLE":"Device Data - {{name}}",
+        "CHART_TITLE":"Device Summary for {{name}}",
+        "LOCATION_PIN_START":"S",
+        "LOCATION_PIN_END":"E",
+        "LOCATION_HISTORY":"Device Location History",
+        "LOCATION_ADD":"Add Location",
+        "LOADING":"Loading device sensor readings",
+        "DOWNLOAD":"Download CSV data",
+        "DOWNLOAD_PREMIUM":"Downloading device data available with premium subscription.",
+        "OUTLIER_SHOW":"Remove outliers",
+        "OUTLIER_HIDE":"Hide outlier editor",
+        "EDITOR":{
+            "TITLE":"Outlier Editor",
+            "DESCRIPTION":"Zoom chart or click point to filter readings below.",
+            "BUTTON_NONE":"Select readings to remove in table below",
+            "BUTTON_SELECTED":"Remove selected",
+            "REMOVE":"Remove",
+            "NONE":"No readings for this time period",
+            "TIMESTAMP":"Timestamp",
+            "EPOCH":"Epoch",
+            "SAMPLE":"Sample",
+            "SOURCE":"Source",
+            "BATTERY":"Battery",
+            "TEMP":"Temp",
+            "HUMID":"Humid",
+            "WEIGHT":"Weight",
+            "WEIGHT_L_R":"Weight Left Raw",
+            "WEIGHT_R_R":"Weight Right Raw",
+            "WEIGHT_L":"Weight Left",
+            "WEIGHT_R":"Weight Right",
+            "BALANCE":"L/R Balance",
+            "WEIGHT_SF":"Weight Scale Factor",
+            "CONFIRM_WINDOW":{
+               "TITLE":"Remove selected readings",
+               "MESSAGE":"Would you like to remove selected {{count}} readings?",
+               "CONFIRM":"Yes"
+            },
+            "SUCCESS":"Readings removed",
+            "FAIL":"Error, readings not removed",
+            "DISMISS":"Dismiss",
+            "OUTLIERS":{
+                "TITLE":"Readings marked as outliers",
+                "NONE":"No removed readings for this time period",
+                "MOVE":"Move Back",
+                "MESSAGE":"Message",
+                "USER_R":"User Removed",
+                "SYSTEM_R":"System Removed",
+                "BUTTON_NONE":"Select readings to add back as normal sensor readings",
+                "BUTTON_SELECTED":"Move back selected",
+                "CONFIRM_WINDOW":{
+                   "TITLE":"Move selected readings",
+                   "MESSAGE":"Would you like to re-add selected {{count}} readings back to normal sensor readings?",
+                   "CONFIRM":"Yes"
+                },
+                "SUCCESS":"Readings moved",
+                "FAIL":"Error, readings not moved"
+            }
+        }
+    },
+    "HUB_PAGE":{
+        "TITLE":"Hub {{name}}",
+        "NAME":"Device Location History",
+        "ADDRESS":"Device Address",
+        "MODEL":"Model",
+        "FIRMWARE":"Firmware",
+        "UPLOAD_TIME":"Last Upload Time",
+        "CHART_TITLE":"Hub Readings for {{name}}",
+        "READING_COUNT":"Readings graphed: {{count}}",
+        "CHART_LOADING":"Loading hub readings",
+        "CHART_READINGS_SENT":"Readings Sent",
+        "CHART_READINGS_LABEL":"readings",
+        "CHART_SIGNAL":"Signal"
+    },
+    "CONFIGURE_PAGE":{
+        "TITLE":"Configure",
+        "SEPARATE":"By type",
+        "NESTED":"Nested by Apiary",
+        "ACCOUNT_TITLE":"My Account",
+        "PREFERENCES_TITLE":"My Preferences",
+        "APIARIES_TITLE":"Apiaries",
+        "HIVES_TITLE":"Hives",
+        "DEVICES_TITLE":"Devices"
+    },
+	"FEATURES":{
+		"TITLE":"Feature Tour",
+		"SKIP":"Skip",
+		"NEXT":"Next",
+		"CLOSE":"Close",
+		"FEATURE_1":"First time, create hive",
+		"FEATURE_2":"Viewing data",
+		"FEATURE_3":"Configuring and moving devices",
+		"FEATURE_4":"View CELL/WiFi/Hub status"
+	},
+	"DATE_PICKER":{
+		"VIEWING":"Viewing",
+        "START":"Start",
+        "END":"End",
+        "APPLY":"Apply",
+		"HOURS_24":"Last 24 Hours",
+		"DAYS_3":"Last 3 days",
+		"DAYS_7":"Last 7 days",
+		"DAYS_14":"Last 14 days",
+		"DAYS_30":"Last 30 days",
+		"DAYS_90":"Last 90 days",
+		"DAYS_180":"Last 180 days",
+		"YEAR_1":"Last year",
+		"CUSTOM":"Custom range"
+	},
+	"NOTES":{
+		"TITLE":"{{value}} Notes",
+		"ADD_TOOLTIP":"Add Note",
+		"DOWNLOAD_TOOLTIP":"Download Notes",
+		"HIVE":"Hive",
+		"DATE":"Date",
+        "PIN":"Pin",
+		"DESCRIPTION":"Description",
+		"DELETE_WINDOW":{
+			"TITLE":"Delete note",
+			"MESSAGE":"Would you like to delete this note?",
+			"CONFIRM":"Yes"
+		},
+        "PREMIUM_EXP":"Downloading notes available with premium subscription.",
+        "NO_DESCRIPTION":"no description"
+	},
+    "CHARTS":{
+        "TEMP":"Temperature",
+        "TEMP_AXIS":"Temperature in {{tUnit}}",
+        "HUMID":"Humidity",
+        "HUMID_AXIS":"Humidity %",
+        "WEIGHT":"Weight",
+        "WEIGHT_AXIS":"Weight in {{wUnit}}",
+        "PRODUCTIVITY":"Honeybee Productivity",
+        "PRODUCTIVITY_AXIS":"Honeybee Productivity in {{wUnit}}",
+        "BATTERY":"Battery Charge",
+        "BATTERY_AXIS":"Charge %",
+        "BALANCE":"L/R Balance",
+        "WEATHER_TEMP":"Outside Temperature",
+        "WEATHER_HUMID":"Outside Humidity"
+    },
+    "LOCATION_HIST":{
+        "HIVE":"Hive",
+        "POSITION":"Position",
+        "DEVICE_NAME":"Device Name",
+        "DEVICE_ADDRESS":"Device Address",
+        "START":"Start",
+        "END":"End",
+        "CURRENT":"current",
+        "MOVE":"Move",
+        "DELETE_WINDOW":{
+            "TITLE":"Remove location",
+            "MESSAGE":"Would you like to remove this device location?",
+            "CONFIRM":"Yes"
+        }
+    },
+    "LOCATION_CRUD":{
+           "CREATE_TITLE":"Assign device",
+           "EDIT_TITLE":"Edit Location",
+           "MOVE_TITLE":"Move Device",
+           "MOVE_EXP":"This ends current location and starts a new one.",
+           "SELECT_DEVICE":"Select device",
+           "SELECT_APIARY":"Select apiary",
+           "SELECT_HIVE":"Select hive",
+           "SELECT_POSITION":"Select position",
+           "START_DAY":"Start day",
+           "START_TIME":"Start time",
+           "STOP_DAY":"Stop day",
+           "STOP_TIME":"Stop time",
+           "MOVED_DAY":"New location start day",
+           "MOVED_TIME":"Time",
+           "ERROR_DEVICE":"Device has a location overlapping this time",
+           "ERROR_HIVE":"Hive has device overlapping this position",
+           "ERROR_TIME":"Location has end time before start time",
+           "ERROR_GENERAL":"Error creating device location",
+           "ERROR_MOVE_TIME":"Cannot end location before start, set time to after {{currentEnd}}",
+           "SUCCESS_MOVED":"Device moved to hive",
+           "SUCCESS_ENDED":"Current location ended",
+           "CREATE":"Create"
+       },
+    "APIARY_CRUD":{
+        "CREATE_TITLE":"Create Apiary",
+        "EDIT_TITLE":"Edit Apiary",
+        "NAME":"Name",
+        "ZIPCODE":"Zipcode",
+        "EDIT_ZIP_EXP":"You cannot change location for an apiary that contains data.",
+        "COUNTRY":"Country Code",
+        "PRIVATE":"Private (Do not share data) Premium Feature",
+        "PRIVATE_TOOLTIP":"Please consider sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
+        "NOT_PRIVATE_TOOLTIP":"Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
+        "ERROR_COUNTRY":"Select valid country code",
+        "SUCCESS_CREATED":"Apiary created",
+        "SUCCESS_UPDATED":"Apiary updated"
+    },
+    "HIVE_CRUD":{
+        "CREATE_TITLE":"Create Hive",
+        "EDIT_TITLE":"Edit Hive",
+        "NAME":"Name",
+        "SELECT_APIARY":"Select apiary",
+        "DESCRIPTION":"Description",
+        "ERROR_APIARY":"Must select apiary",
+        "SUCCESS_CREATED":"Hive created",
+        "SUCCESS_UPDATED":"Hive updated",
+        "DISPLAY":{
+            "DESCRIPTION":"Apiary summary view settings",
+            "WEIGHT":{
+                "DESCRIPTION":"Weight device to graph on the Apiary Summary",
+                "AUTO":"Auto-select maximum scale weight",
+                "NONE":"Don't show a weight device on the Apiary Summary"
+            },
+            "TEMP":{
+                "DESCRIPTION":"Temperature device to graph on the Apiary Summar",
+                "AUTO":"Auto-select maximum temperature",
+                "NONE":"Don't show a temperature device on the Apiary Summary"
+            },
+            "HUMID":{
+                "DESCRIPTION":"Humidity device to graph on the Apiary Summary",
+                "AUTO":"Auto-select maximum humidity",
+                "NONE":"Don't show a humidity device on the Apiary Summary"
+            },
+            "BATTERY":{
+                "DESCRIPTION":"Battery device to graph on the Apiary Summary",
+                "AUTO":"Show lowest Device battery in the Hive on the Apiary Summary?",
+                "NONE":"Don't show a battery device on the Apiary Summary"
+            }
+        }
+    },
+    "DEVICE_CRUD":{
+        "CREATE_TITLE":"Create Device",
+        "EDIT_TITLE":"Edit Device",
+        "NAME":"Name",
+        "NAME_AUTO":"Use address above as name",
+        "MODEL":"Model number",
+        "SCALE":"This device is a scale",
+        "BIP_SEND":"Send data to the Bee Informed Partnership",
+        "BIP_AGREE":"Must agree to BIP",
+        "BIP_TERMS":"Terms of Use",
+        "ERROR_ADDRESS":"Please enter valid device address",
+        "ERROR_DUPLICATE":"Could not create, device with that address already exists",
+        "ERROR_BIP":"Must agree to BIP Terms of Use to enable sending",
+        "SUCCESS_CREATED":"Device created",
+        "SUCCESS_UPDATED":"Device updated",
+        "PLACE_TITLE":"Place Device",
+        "SELECT_POSITION":"Select position",
+        "SUCCESS_PLACED":"Device placed in hive"
+    },
+    "NOTE_CRUD":{
+        "CREATE_TITLE":"Create Note",
+        "EDIT_TITLE":"Edit Note",
+        "NO_HIVE":"No Hive",
+        "ADD_TAG":"Add tag",
+        "DATE":"Date",
+        "SUCCESS_CREATED":"Note created in hive",
+        "SUCCESS_UPDATED":"Note updated in hive",
+        "ERROR_TIME":"Invalid time"
+    },
+    "ACCOUNT":{
+        "TITLE":"Account Settings",
+        "USERNAME":"Username",
+        "FIRST_NAME":"First Name",
+        "LAST_NAME":"Last Name",
+        "SUBSCRIPTION":"Subscription Type",
+        "SUB_TYPES":{
+            "BASIC":"Basic",
+            "PREMIUM":"Premium",
+            "PREMIUM_WITH_EXP":"Premium expiring on {{value}}"
+        },
+        "PURCHASE":"Purchase Premium Membership",
+        "CONFIRM":"Confirm Premium Subscription Purchase",
+        "SAVE":"Save",
+        "CONFIRM_SUB_WINDOW":{
+            "TITLE":"Confirm Premium Subscription Purchase",
+            "DESCRIPTION":"Enter code from confirmation email",
+            "CONFIRMATION_NUMBER":"Confirmation Number",
+            "CONFIRM":"Confirm",
+            "VALID":"Valid Purchase",
+            "PURCHASED":"Purchased on",
+            "ERROR":{
+                "NOT_FOUND":"No subscription purchase found",
+                "USED_THIS_ACCOUNT":"Already confirmed for this account, expires on {{value}}",
+                "USED_OTHER_ACCOUNT":"Already confirmed with another account"
+            }
+        }
+    },
+    "PREFERENCES":{
+        "TIMEZONE":"Timezone",
+        "TIMEZONE_DEFAULT":"Browser Default",
+        "UNIT":"Unit",
+        "UNIT_DEFAULT":"Default",
+        "UNIT_METRIC":"Metric (Centigrade/Kilograms)",
+        "UNIT_IMPERIAL":"Imperial (Fahrenheit/Pounds)",
+        "INTERPOLATE":"Interpolate Charts (connect all points, even if data gaps over 8 hours)",
+        "SAVE":"Save"
+    },
+    "CONFIGURE_APIARIES":{
+        "ADD":"Add Apiary",
+        "NAME":"Apiary Name",
+        "ZIPCODE":"Zipcode",
+        "SHARE":"Share",
+        "ACTIVE":"Active",
+        "CONFIRM_DELETE_WINDOW":{
+           "TITLE":"Delete Apiary",
+           "MESSAGE":"Are you sure you want to delete apiary {{name}}? This permanantly deletes the apiary and it's associated data, including hives.",
+           "CONFIRM":"Yes"
+        },
+        "UPDATED_SUCCESS":"Apiary updated",
+        "DELETE_SUCCESS":"Apiary deleted",
+        "DELETE_ERROR":"Error deleting apiary"
+    },
+    "CONFIGURE_HIVES":{
+        "ADD":"Add Hive",
+        "NAME":"Hive Name",
+        "APIARY":"Apiary",
+        "LOCATION_HISTORY":"Location History",
+        "ACTIVE":"Active",
+        "CONFIRM_DELETE_WINDOW":{
+           "TITLE":"Delete Hive",
+           "MESSAGE":"Are you sure you want to delete hive {{name}}? This permanantly deletes the hive.",
+           "CONFIRM":"Yes"
+        },
+        "UPDATED_SUCCESS":"Hive updated",
+        "DELETE_SUCCESS":"Hive deleted",
+        "DELETE_ERROR":"Error deleting hive"
+    },
+    "CONFIGURE_DEVICES":{
+        "ADD":"Add Device",
+        "DOWNLOAD":"Download Devices",
+        "NAME":"Device Name",
+        "ADDRESS":"Device Address",
+        "LOCATION":"Current Location",
+        "DATA_RECEIVED":"Data Last Received",
+        "LOCATION_HISTORY":"Location History",
+        "ADD_LOCATION":"Add Location",
+        "ACTIVE":"Active",
+        "CONFIRM_DELETE_WINDOW":{
+           "TITLE":"Delete Device",
+           "MESSAGE":"Are you sure you want to delete device {{deviceName}}? This permanantly deletes the device and it's associated data.",
+           "CONFIRM":"Yes"
+        },
+        "UPDATED_SUCCESS":"Device updated",
+        "DELETE_SUCCESS":"Device deleted",
+        "DELETE_ERROR":"Error deleting device"
+    },
+    "UNAUTHORIZED_PAGE":{
+        "TITLE":"Unauthorized"
+    },
+    "COMMON":{
+        "SAVE":"Save",
+        "CREATE":"Create",
+        "EDIT":"Edit",
+        "DELETE":"Delete",
+        "CANCEL":"Cancel",
+        "DISMISS":"Dismiss",
+        "APIARY":"Apiary",
+        "HIVE":"Hive",
+        "DEVICE":"Device",
+        "POSITION":"Position"
+    }
+}
