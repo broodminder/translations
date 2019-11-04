@@ -541,6 +541,8 @@
         "UNIT_METRIC":"Metric (Centigrade/Kilograms)",
         "UNIT_IMPERIAL":"Imperial (Fahrenheit/Pounds)",
         "INTERPOLATE":"Interpolate Charts (connect all points, even if data gaps over 8 hours)",
+        "LANGUAGE":"Language",
+        "LANGUAGE_DEFAULT":"Browser Default",
         "SAVE":"Save"
     },
     "CONFIGURE_APIARIES":{
