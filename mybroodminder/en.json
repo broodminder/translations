@@ -23,13 +23,13 @@
 			"PASSWORD":"Password",
 			"REGISTER_BTN":"Register email",
 			"EULA":{
-				"TITLE":"Beekeeping.io EULA (End User License Agreement) v1.1",
+				"TITLE":"MyBroodMinder.com EULA (End User License Agreement) v1.1",
 				"DESCRIPTION":"We ask then you agree to the following statements to use this SaaS beekeeping software:",
-				"POINT_1":"I am placing the data that I upload or enter into this service into the Public Domain. As such, beekeeping.io may use the data, in anonymous form, to share with the general public.",
-				"POINT_2":"I understand that beekeeping.io will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that beekeeping.io can not be held responsible for hacking or other methods of data exposure.",
-				"POINT_3":"I understand that beekeeping.io will use best efforts to store and backup all data uploaded or entered into it, but that beekeeping.io can not be held responsible for data loss.",
-				"POINT_4":"I understand that beekeeping.io is a separate company from other vendors that may integrate their devices into beekeeping.io, and that beekeeping.io is not liable for those vendors actions.",
-				"POINT_5":"I understand that beekeeping.io is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of beekeeping.io.",
+				"POINT_1":"I am placing the data that I upload or enter into this service into the Public Domain. As such, mybroodminder.com may use the data, in anonymous form, to share with the general public.",
+				"POINT_2":"I understand that mybroodminder.com will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that mybroodminder.com can not be held responsible for hacking or other methods of data exposure.",
+				"POINT_3":"I understand that mybroodminder.com will use best efforts to store and backup all data uploaded or entered into it, but that mybroodminder.com can not be held responsible for data loss.",
+				"POINT_4":"I understand that mybroodminder.com is a separate company from other vendors that may integrate their devices into mybroodminder.com, and that mybroodminder.com is not liable for those vendors actions.",
+				"POINT_5":"I understand that mybroodminder.com is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of mybroodminder.com.",
 				"AGREE":"I agree"
 			},
 			"ERROR":{
@@ -423,6 +423,7 @@
            "ERROR_HIVE":"Hive has device overlapping this position",
            "ERROR_TIME":"Location has end time before start time",
            "ERROR_GENERAL":"Error creating device location",
+           "ERROR_INACTIVE_HIVE":"Location cannot have end time after hive inactive time",
            "ERROR_MOVE_TIME":"Cannot end location before start, set time to after {{currentEnd}}",
            "SUCCESS_MOVED":"Device moved to hive",
            "SUCCESS_ENDED":"Current location ended",
@@ -553,6 +554,11 @@
            "MESSAGE":"Are you sure you want to delete apiary {{name}}? This permanantly deletes the apiary and it's associated data, including hives.",
            "CONFIRM":"Yes"
         },
+        "CONFIRM_INACTIVE_WINDOW":{
+            "TITLE":"Set Apiary as Inactive",
+            "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?FThis sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
+            "CONFIRM":"Yes"
+         },
         "UPDATED_SUCCESS":"Apiary updated",
         "DELETE_SUCCESS":"Apiary deleted",
         "DELETE_ERROR":"Error deleting apiary"
@@ -560,6 +566,7 @@
     "CONFIGURE_HIVES":{
         "ADD":"Add Hive",
         "NAME":"Hive Name",
+        "CODE":"Hive Code",
         "APIARY":"Apiary",
         "LOCATION_HISTORY":"Location History",
         "ACTIVE":"Active",
@@ -568,6 +575,11 @@
            "MESSAGE":"Are you sure you want to delete hive {{name}}? This permanantly deletes the hive.",
            "CONFIRM":"Yes"
         },
+        "CONFIRM_INACTIVE_WINDOW":{
+            "TITLE":"Set Hive as Inactive",
+            "MESSAGE":"This ends all device locations in the hive and removes hive from your apiary views. Existing data will remain, however new data will no longer go to this hive. This cannot be undone. Set hive {{name}} to inactive?",
+            "CONFIRM":"Yes"
+         },
         "UPDATED_SUCCESS":"Hive updated",
         "DELETE_SUCCESS":"Hive deleted",
         "DELETE_ERROR":"Error deleting hive"
@@ -605,5 +617,138 @@
         "HIVE":"Hive",
         "DEVICE":"Device",
         "POSITION":"Position"
-    }
+    },
+    "BEECOUNTED":{
+    	"TITLE":"BeeCounted.org",
+    	"LINK":"View hive on BeeCounted.org ",
+    	"COPY_LINK_TOOLTIP":"Copy link",
+    	"LINK_COPIED":"Link copied",
+    	"EMBED":"Embed chart in webpage",
+    	"COPY_EMBED_TOOLTIP":"Copy embed code",
+    	"EMBED_COPIED":"Embed code copied",
+    	"PRIVATE_APIARY":"Hive data not shared with BeeCounted. This apiary, {{name}}, is not shared to BeeCounted.",
+    	"PRIVATE_HIVE":"Hive data not shared with BeeCounted."
+    },
+    "SHARING":{
+    	"TITLE":"{{name}} Sharing",
+    	"MBM_TITLE":"Share apiary to MyBroodMinder user",
+    	"EXT_SUBTITLE":"Share apiary to other sites",
+    	"USER":{
+    		"TITLE":"MyBroodMinder Users",
+    		"INFO":"The user must already have an account with MyBroodMinder. They will be allowed to see your apiary and hive data, but not make any changes.",
+    		"ADD_TOOLTIP":"Add user",
+    		"ADD_USER":"Enter Email",
+    		"SHARE_BUTTON":"Share",
+    		"ADD_SUCCESS":"User added",
+    		"ERROR_NO_USER":"User does not exist.",
+    		"REMOVE":"Remove",
+    		"REMOVE_SUCCESS":"User removed"
+    	},
+    	"BEECOUNTED":{
+    		"CHECKBOX":"BeeCounted.org",
+    		"CHANGED":"Apiary updated",
+    		"INFO_CHECKED":"Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
+			"INFO_UNCHECKED":"Please consider sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
+			"INFO_NON_PREMIUM":"All data stored for non-premium users is public domain. Data may be made private if you have a MyBroodMinder-Premium account. Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
+			"EXPIRED":"Premium membership elapsed. Data is private only before {{end}}."
+    	},
+    	"BIP":{
+    		"CHECKBOX":"Bee Informed Partnership",
+    		"CHANGED":"Apiary updated",
+    		"INFO":"Coming soon"
+    	},
+    	"MELLISPHERA":{
+    		"CHECKBOX":"Mellisphera(Beta)",
+    		"INFO_NO_ACCOUNT":"Account not connected to Mellisphera",
+    		"INFO_ACCOUNT":"Show apiary in my Mellisphera account",
+    		"CHANGED":"Apiary updated",
+    		"ACTIVE_WINDOW":{
+    			"TITLE":"Activate Mellisphera Account",
+    			"MESSAGE":"Click below to activate your Mellisphera account."
+    		}
+    	},
+    	"HIVES":{
+    		"TITLE":"Hives shared to other sites",
+    		"NAME":"Name",
+    		"DESCRIPTION":"Description",
+    		"SHARE":"Share",
+    		"CHANGED":"Hive updated",
+    		"SHARE_EXPIRED":"Premium membership elapsed. Data is private only before {{end}}."
+    	}
+    },
+    "POSITIONS":{
+        "UNDER_INNER_COVER": "Under Inner Cover",
+        "ABOVE_LOWER_BROOD_BOX": "Above Lower Brood Box",
+        "ABOVE_UPPER_BROOD_BOX":"Above Upper Brood Box",
+        "OUTSIDE_HIVE":"Outside Hive", 
+        "SCALE_UNDER_HIVE":"Scale Under Hive",
+        "SCALE_UNDER_HIVE_BACK":"Scale Under Hive (Back)",  
+        "OTHER":"Other",
+        "CUSTOM_1":"Custom (1)",
+        "CUSTOM_2":"Custom (2)",
+        "CUSTOM_3":"Custom (3)",
+        "CUSTOM_4":"Custom (4)",
+        "CUSTOM_5":"Custom (5)",
+        "CUSTOM_6":"Custom (6)",
+        "CUSTOM_7":"Custom (7)"    
+    },
+    "TAGS":[
+        "Hive Inspection",
+        "Entire Apiary Inspection",
+        "Custom Apiary Description",
+        "Custom Hive Description",
+        "Tested for mites - negative",
+        "Tested for mites - positive",
+        "Installed package",
+        "Installed Nuc",
+        "Split hive",
+        "Closed hive",
+        "Removed a frame of brood",
+        "Added a frame of brood",
+        "Removed frame of pollen and resources",
+        "Added frame of pollen and resources",
+        "Removed frame(s) of honey",
+        "Added frame(s) of honey",
+        "Replenished feeder",
+        "Swarmed",
+        "Colony Foraging",
+        "Queen Laying Eggs",
+        "Brood rearing slowed down\/stopped",
+        "Queen found",
+        "Queen absent",
+        "Brood robust",
+        "Brood moderate",
+        "Brood thin",
+        "No brood found",
+        "Inserted new queen",
+        "Found swarm cells",
+        "Found supersedure cells",
+        "Abundant drones",
+        "Few drones",
+        "Abundant drone comb",
+        "Drones kicked out for winter",
+        "Added brood box",
+        "Added super",
+        "Added quilt box",
+        "Added solid top",
+        "Closed screened bottom",
+        "Hive tipped over",
+        "Removed brood box",
+        "Removed super",
+        "Removed screened top",
+        "Removed quilt box",
+        "Removed solid top",
+        "Removed candy board",
+        "Removed hive top insulation",
+        "Removed solid top",
+        "Opened screened bottom",
+        "Replaced battery",
+        "Replaced device",
+        "Placed above lower brood box",
+        "Placed elsewhere",
+        "I love my BroodMinder!",
+        "Brood rearing started",
+        "Hive dead\/empty",
+        "Wrapped hive"
+    ]
 }
