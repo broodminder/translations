@@ -541,6 +541,8 @@
         "UNIT_METRIC":"Métrique (Celsius/Kilogrammes)",
         "UNIT_IMPERIAL":"Impérial (Fahrenheit/Livres)",
         "INTERPOLATE":"Interpoler les graphiques (relier tous les points, même si les données manquantes dépassent 8 heures)",
+        "LANGUAGE":"Langue",
+        "LANGUAGE_DEFAULT":"Navigateur par défaut",
         "SAVE":"Sauvegarder"
     },
     "CONFIGURE_APIARIES":{
