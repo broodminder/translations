@@ -25,10 +25,10 @@
 			"EULA":{
 				"TITLE":"MyBroodMinder.com EULA (End User License Agreement) v1.1",
 				"DESCRIPTION":"Nous vous demandons alors d'accepter les déclarations suivantes pour utiliser ce logiciel apicole SaaS :",
-				"POINT_1":"Je place les données que je télécharge ou entre dans ce service dans le domaine public. A ce titre, apiculture.io peut utiliser les données, sous une forme anonyme, pour les partager avec le grand public.",
-				"POINT_2":"Je comprends que beekpeeing.io fera tout ce qui est en son pouvoir pour ne pas exposer des informations personnellement identifiables (IPI) telles que mon nom d'utilisateur, mon mot de passe et mon code postal, mais que apiculture.io ne peut être tenu responsable du piratage ou d'autres méthodes d'exposition de données.",
-				"POINT_3":"Je comprends que mybroodminder.com fera de son mieux pour stocker et sauvegarder toutes les données téléchargées ou entrées, mais que beekeeing.io ne peut être tenu responsable de la perte de données.",
-				"POINT_4":"Je comprends que mybroodminder.com est une société distincte des autres fournisseurs qui peuvent intégrer leurs appareils dans beekping.io, et que beekping.io n'est pas responsable des actions de ces fournisseurs.",
+				"POINT_1":"Je place les données que je télécharge ou entre dans ce service dans le domaine public. A ce titre, mybroodminder.com peut utiliser les données, sous une forme anonyme, pour les partager avec le grand public.",
+				"POINT_2":"Je comprends que mybroodminder.com fera tout ce qui est en son pouvoir pour ne pas exposer des informations personnellement identifiables (IPI) telles que mon nom d'utilisateur, mon mot de passe et mon code postal, mais que mybroodminder.com ne peut être tenu responsable du piratage ou d'autres méthodes d'exposition de données.",
+				"POINT_3":"Je comprends que mybroodminder.com fera de son mieux pour stocker et sauvegarder toutes les données téléchargées ou entrées, mais que mybroodminder.com ne peut être tenu responsable de la perte de données.",
+				"POINT_4":"Je comprends que mybroodminder.com est une société distincte des autres fournisseurs qui peuvent intégrer leurs appareils dans mybroodminder.com, et que mybroodminder.com n'est pas responsable des actions de ces fournisseurs.",
 				"POINT_5":"Je comprends que mybroodminder.com est un lieu d'échange d'informations entre apiculteurs et entomologistes, et je me conduirai de manière courtoise à tout moment. Je comprends que si je ne le fais pas, mon compte pourrait être résilié à la seule digression du personnel de mybroodminder.com.",
 				"AGREE":"Je suis d'accord"
 			},
@@ -104,7 +104,7 @@
 		"INSTALLATION":{
 			"TITLE":"Installation",
 			"LINK_1":"Démarrage rapide",
-			"LINK_2":"Quel APP devrais-e-je choisir ?",
+			"LINK_2":"Quel APP devrais-je choisir ?",
 			"LINK_3":"Appareils de BroodMinder",
 			"LINK_4":"BroodMinder-CELL/WIFI"
 		},
@@ -453,7 +453,7 @@
         "SUCCESS_CREATED":"Ruche créée",
         "SUCCESS_UPDATED":"Ruche modifée",
         "DISPLAY":{
-            "DESCRIPTION":"Apiary summary view settings",
+            "DESCRIPTION":"Paramètres de vue sommaire du rucher",
             "WEIGHT":{
                 "DESCRIPTION":"Capteur de poids à afficher sur le Résumé du Rucher",
                 "AUTO":"Sélection automatique du poids maximum de la balance",
@@ -555,9 +555,9 @@
            "CONFIRM":"Oui"
         },
         "CONFIRM_INACTIVE_WINDOW":{
-            "TITLE":"Set Apiary as Inactive",
+            "TITLE":"Définir le rucher comme rucher inactif",
             "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?FThis sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
-            "CONFIRM":"Yes"
+            "CONFIRM":"Oui"
          },
         "UPDATED_SUCCESS":"Rucher modifié",
         "DELETE_SUCCESS":"Rucher supprimé",
@@ -566,7 +566,7 @@
     "CONFIGURE_HIVES":{
         "ADD":"Ajouter une ruche",
         "NAME":"Nom de la ruche",
-        "CODE":"Hive Code",
+        "CODE":"Code de la ruche",
         "APIARY":"Rucher",
         "LOCATION_HISTORY":"Historique des emplacements",
         "ACTIVE":"En marche",
@@ -577,7 +577,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Set Hive as Inactive",
-            "MESSAGE":"This ends all device locations in the hive and removes hive from your apiary views. Existing data will remain, however new data will no longer go to this hive. This cannot be undone. Set hive {{name}} to inactive?",
+            "MESSAGE":"Ceci place tous les ruches de ce rucher comme inactifs, termine tous les emplacements de périphérique dans chaque rucher, et supprime le rucher de vos vues. Les données existantes seront conservées, mais de nouvelles données ne seront plus transmises à ce rucher ou à ses ruches. Cela ne peut pas être défait. Mettre le rucher {{name}} sur inactif ? ",
             "CONFIRM":"Yes"
          },
         "UPDATED_SUCCESS":"Ruche modifiée",
@@ -684,13 +684,13 @@
         "SCALE_UNDER_HIVE":"Balance sous la ruche",
         "SCALE_UNDER_HIVE_BACK":"Balance sous la ruche (Derrière)",
         "OTHER":"Autre",
-        "CUSTOM_1":"Personnaliser (1)",
-        "CUSTOM_2":"Personnaliser (2)",
-        "CUSTOM_3":"Personnaliser (3)",
-        "CUSTOM_4":"Personnaliser (4)",
-        "CUSTOM_5":"Personnaliser (5)",
-        "CUSTOM_6":"Personnaliser (6)",
-        "CUSTOM_7":"Personnaliser (7)"
+        "CUSTOM_1":"Personnalisé (1)",
+        "CUSTOM_2":"Personnalisé (2)",
+        "CUSTOM_3":"Personnalisé (3)",
+        "CUSTOM_4":"Personnalisé (4)",
+        "CUSTOM_5":"Personnalisé (5)",
+        "CUSTOM_6":"Personnalisé (6)",
+        "CUSTOM_7":"Personnalisé (7)"
     },
     "TAGS":[
         "Inspection de la ruche",

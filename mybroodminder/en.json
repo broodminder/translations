@@ -556,7 +556,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Set Apiary as Inactive",
-            "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?FThis sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
+            "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
             "CONFIRM":"Yes"
          },
         "UPDATED_SUCCESS":"Apiary updated",
