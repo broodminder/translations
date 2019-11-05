@@ -558,7 +558,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Définir le rucher comme rucher inactif",
-            "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?FThis sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
+            "MESSAGE":"Ceci place tous les ruches de ce rucher comme inactifs, termine tous les emplacements de capteurs dans chaque rucher, et supprime le rucher de vos vues. Les données existantes seront conservées, mais de nouvelles données ne seront plus transmises à ce rucher ou à ses ruches. Cela ne peut pas être défait. Mettre le rucher {{name}} sur inactif ?",
             "CONFIRM":"Oui"
          },
         "UPDATED_SUCCESS":"Rucher modifié",
@@ -578,9 +578,9 @@
            "CONFIRM":"Oui"
         },
         "CONFIRM_INACTIVE_WINDOW":{
-            "TITLE":"Set Hive as Inactive",
-            "MESSAGE":"Ceci place tous les ruches de ce rucher comme inactifs, termine tous les emplacements de périphérique dans chaque rucher, et supprime le rucher de vos vues. Les données existantes seront conservées, mais de nouvelles données ne seront plus transmises à ce rucher ou à ses ruches. Cela ne peut pas être défait. Mettre le rucher {{name}} sur inactif ? ",
-            "CONFIRM":"Yes"
+            "TITLE":"Définir la ruche comme inactive",
+            "MESSAGE":"Ceci met fin à tous les emplacements de capteurs dans la ruche et supprime la ruche de vos vues du rucher. Les données existantes seront conservées, mais les nouvelles données n'iront plus dans cette ruche. Cela ne peut pas être défait. Mettre la ruche {{{name}} sur inactive ?",
+            "CONFIRM":"Oui"
          },
         "UPDATED_SUCCESS":"Ruche modifiée",
         "DELETE_SUCCESS":"Ruche supprimée",
