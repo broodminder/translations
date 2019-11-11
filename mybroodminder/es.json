@@ -1,0 +1,755 @@
+{
+	"LOGIN":{
+		"LOGIN_MENU":"Iniciar sesión",
+		"REGISTER_MENU":"Crear cuenta",
+		"LOGIN":{
+			"TITLE":"Iniciar sesión",
+			"EMAIL":"Email",
+			"PASSWORD":"Contraseña",
+			"LOGIN_BTN":"Login con email",
+			"FORGOT_LINK":"Contraseña olvidada?",
+			"RESET":"Enviar email para reinicializar",
+            "RESET_SUCCESS":"Email enviado {{value}}",
+			"RESET_ERROR":"Error, el email no ha sido enviado.",
+            "ERROR":{
+                "GENERAL":"usuario incorrecto.",
+                "PASSWORD":"usuario/contraseña incorrectos.",
+                "EMAIL":"ninguna cuenta existe para este email."
+            }
+		},
+		"REGISTER":{
+			"TITLE":"Crear nueva cuenta",
+			"EMAIL":"Email",
+			"PASSWORD":"Contraseña",
+			"REGISTER_BTN":"Inscripción",
+			"EULA":{
+				"TITLE":"MyBroodMinder.com EULA (End User License Agreement) v1.1",
+				"DESCRIPTION":"Le pedimos que acepte las siguientes declaraciones para utilizar este software de apicultura SaaS:",
+                "POINT_1": "Estoy colocando los datos que subo o ingreso en este servicio en el dominio público. Como tal, mybroodminder.com puede usar los datos, de forma anónima, para compartirlos con el público en general",
+                "POINT_2": "Entiendo que mybroodminder.com hará todo lo posible para no exponer ninguna información de identificación personal (PII) como mi nombre de usuario, contraseña y código postal, pero que mybroodminder.com no se hace responsable de la piratería u otros métodos de exposición de datos ",
+                "POINT_3": "Entiendo que mybroodminder.com hará todo lo posible para almacenar y hacer una copia de seguridad de todos los datos cargados o ingresados, pero que mybroodminder.com no se hace responsable de la pérdida de datos",
+                "POINT_4": "Entiendo que mybroodminder.com es una compañía separada de otros proveedores que pueden integrar sus dispositivos en mybroodminder.com, y que mybroodminder.com no es responsable de las acciones de esos proveedores",
+                "POINT_5": "Entiendo que mybroodminder.com es un espacio para que los apicultores y entomólogos intercambien información, y me comportaré de manera cortés en todo momento. Entiendo que no hacerlo puede hacer que mi cuenta se cancele por décisión exclusiva del personal de mybroodminder.com ",
+                "ACEPTO": "Estoy de acuerdo"
+			},
+			"ERROR":{
+                "DUPLICATE":"Este email ya esta siendo usado en una cuenta existente.",
+                "GENERAL":"No se pudo crear la cuenta.",
+                "PASSWORD":"Contraseña insuficiente.",
+                "EMAIL":"El email no tiene el buen formato."
+            }
+		}
+	},
+	"SIDEBAR":{
+		"HOME":"Inicio",
+		"APIARIES":"Colmenares",
+		"CONFIGURE":"Configurar",
+        "APIARIES_CONTEXT":
+        {
+            "NEW":"Crear Colmenar"
+        },
+		"APIARY_CONTEXT":
+		{
+			"EDIT":"Editar {{value}}",
+			"NEW_HIVE":"Crear Colmena",
+			"SHARE":"Compartir",
+            "BEECOUNTED":"BeeCounted"
+            
+		},
+		"HIVE_CONTEXT":
+		{
+			"EDIT":"Editar {{value}}",
+			"NEW_DEVICE":"Añadir sensor",
+			"EXISTING_DEVICE":"Añadir sensor existente",
+            "BEECOUNTED":"BeeCounted"
+		},
+		"DEVICE_CONTEXT":
+		{
+			"EDIT":"Editar {{value}}",
+			"EDIT_LOCATION":"Editar ubicación",
+			"MOVE":"Desplazar sensor"
+		},
+		"HUB_TOOLTIP":"Hub",
+		"SHARED_TOOLTIP":"compartido conmigo"
+	},
+	"TOP_MENU":{
+		"ACCOUNT":"Cuenta",
+		"TOUR":"Tour",
+		"HELP":"Ayuda",
+		"ADMIN":"Admin",
+		"LOGOUT":"Salir",
+        "LOGIN":"Iniciar sesion",
+        "REGISTER":"Crear cuenta",
+        "RESOURCES":"Recursos"
+	},
+	"RESOURCES":{
+		"TITLE":"Recursos",
+		"SUBTITLE":"Aquí encontrará recursos para que pueda comenzar a contribuir y aprender más sobre nuestras abejas..",
+		"DESCRIPTION":"Gracias por unirse al movimiento BroodMinder, donde estamos aprendiendo y compartiendo información para mejorar nuestra comprensión y gestión de nuestras preciosas abejas melíferas.",
+		"DESCRIPTION_2":" Agradecemos a Google y a <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  su soporte generoso al programa BroodMinder Citizen Science.",
+		"LINKS":
+			{
+				"TITLE":"Enlaces",
+				"LOGIN":"Login",
+				"USER_GUIDE_VIDEO":"Manuales Video",
+				"USER_GUIDE_PDF":"Manual del usuario(PDF)",
+				"BEECOUNTED":"BeeCounted",
+				"SUPPORT":"Soporte"
+			}
+	},
+	"VIDEO_GUIDES":{
+		"TITLE":"BroodMinder Manuales Video",
+		"HOW_TO":"Como usar este manual",
+		"IN_PROGRESS":"En curso",
+		"INSTALLATION":{
+			"TITLE":"Instalación",
+			"LINK_1":"Inicio Rápido",
+			"LINK_2":"Que APP debo utilizar?",
+			"LINK_3":"BroodMinder Sensores",
+			"LINK_4":"BroodMinder-Cell/WiFi"
+		},
+		"APIARY_APP":{
+			"TITLE":"Apiary App (cloud)",
+			"LINK_1":"Utilización normal",
+			"LINK_2":"Nuevo - Modo Hub"
+		},
+		"BROODMINDER_APP":{
+			"TITLE":"Broodminder App (standalone)",
+			"LINK_1":"Utilización normal",
+			"LINK_2":"Exportar Datos"
+		},
+		"CELL_APP":{
+			"TITLE":"Cell App",
+			"LINK_1":"Utilización normal (ver instalación)",
+			"LINK_2":"Análisis"
+		},
+		"MYBROODMINDER":{
+			"TITLE":"MyBroodMinder",
+			"LINK_1":"Empezar",
+			"LINK_2":"Datos",
+			"LINK_3":"Configuración",
+			"LINK_4":"Desplazar Sensores",
+			"LINK_5":"Monitoring con Cell, WiFi y Hub",
+			"LINK_6":"Navegación alternativa"
+		},
+		"INTERPRETATION":{
+			"TITLE":"Interpretación de datos",
+			"LINK_1":"Temperatura",
+			"LINK_2":"Peso"
+		},
+		"TROUBLESHOOT":{
+			"TITLE":"Solución de problemas",
+			"LINK_1":"Mantenimiento anual",
+			"LINK_2":"Baterías",
+			"LINK_3":"Conexión Bluetooth",
+			"LINK_4":"Usuarios de Android",
+			"LINK_5":"Fluctuaciones de peso",
+			"LINK_6":"Corrosión",
+			"LINK_7":"Actualización del Firmware T2 v2.77"
+		}
+	},
+	"TOUR":{
+		"START":{
+			"TITLE":"Hola!!",
+			"DESCRIPTION":"Bienvenidos al nuevo MyBroodMinder!",
+			"SKIP":"Pasar",
+			"SEE":"Ver funciones"
+		},
+		"FEATURES":{
+			"TITLE":"Tour de las funciones",
+			"SKIP":"Pasar",
+			"NEXT":"Siguiente",
+			"CLOSE":"Cerrar",
+			"FEATURE_1":"Primera vez, crear colmena",
+			"FEATURE_2":"Ver datos",
+			"FEATURE_3":"Configurar y desplazar sensores",
+			"FEATURE_4":"Ver estado CELL/WiFi/Hub"
+		}
+	},
+	"APIARY_PAGE":{
+		"SELECT":"Seleccionar vista",
+		"PREMIUM_EXP":"La selección del intervalo de tiempo para esta vista necesita une suscripción premium.",
+		"TEXT":{
+			"TITLE":"Texto",
+			"DESCRIPTION":"Esta vista muestra la lectura más reciente cargada para cada posición en cada colmena."
+		},
+		"HIVE":{
+				"TITLE":"Colmena",
+				"DESCRIPCIÓN": "Esta vista muestra una vista gráfica rápida para cada colmena. Precedencia en la indicación de peso: valor más alto. Prevalencia de visualización de la humedad y la temperatura: 1-Camara de cría 2-Alza 3-Cubierta Interior 4-Otros 5-Personalizado (valor más alto) 6-Exterior de la colmena 7-Bajo la colmena".		},
+		"SUMMARY":{
+			"TITLE":"Resumen",
+			"DESCRIPCIÓN": "Esta vista muestra gráficos combinados por tipo de datos. Las especificaciones que se muestran siguen los valores predeterminados de la vista de la colmena, pero se pueden establecer por colmena en la configuración de la colmena",
+			"PREMIUM_EXP": "Esta vista está disponible con suscripción premium. Un ejemplo  se muestra a continuación",
+			"TEMP":{
+				"TITLE":"Temperatura del colmenar",
+				"NONE":"No hay datos de temperatura",
+				"LOADING":"Cargando datos de temperatura del colmenar"
+			},
+            "HUMID":{
+				"TITLE":"Humedad del colmenar",
+				"NONE":"No hay datos de humedad",
+				"LOADING":"Cargando datos de humedad del colmenar"
+			},
+			"WEIGHT":{
+				"TITLE":"Peso del colmenar",
+				"NONE":"No hay datos de peso",
+				"LOADING":"Cargando datos de peso del colmenar"
+			},
+			"BATTERY":{
+				"TITLE":"Baterías del colmenar",
+				"NONE":"No hay datos de batería",
+				"LOADING":"Cargando datos de batería del colmenar"
+			},
+			"HIVES":"Colmenas"
+		}  
+	},
+    "HIVE_PAGE":{
+        "DATA_TOOLTIP":{
+            "UPDATE":"Actualizar vista",
+            "BUILDING":"Cargando vista",
+            "OK":"Vista actualizada"
+        },
+        "TEMP":{
+            "TITLE":"Temperatura",
+            "NONE":"No hay datos de temperatura",
+            "LOADING":"Cargando datos de temperatura"
+        },
+        "HUMID":{
+            "TITLE":"Humedad",
+            "NONE":"No hay datos de humedad",
+            "LOADING":"Cargando datos de humedad"
+        },
+        "WEIGHT":{
+            "TITLE":"Peso",
+            "NONE":"No hay datos de peso",
+            "LOADING":"Cargando datos de peso",
+            "MULTI_SCALE":"Básculas múltiples",
+            "AVERAGE_SCALE":"Básculas promedio",
+            "INDIVIDUAL_SCALE":"Báscula individual"
+        },
+        "PRODUCTIVITY":{
+            "TITLE":"Productividad",
+            "NONE":"No hay datos de peso para calcular la productividad",
+            "LOADING":"Cargando productividad",
+            "INFO":"Abejas añadiendo/quitando peso a la colmena"
+        },
+        "BATTERY":{
+            "TITLE":"Batería",
+            "NONE":"No hay datos de batería",
+            "LOADING":"Cargando datos de batería"
+        },
+        "DEVICES":"Sensores",
+        "DEVICE_WITH_DATA":"Datos en grafica, actualmente en la colmena",
+        "DEVICE_NO_DATA":"No hay datos en grafica, actualmente en la colmena",
+        "DEVICE_DATA_ONLY":"Datos en grafica, no está actualmente en la colmena"
+    },
+    "DEVICE_PAGE":{
+        "DATA_TOOLTIP":{
+            "UPDATE":"La vista necesita actualización",
+            "BUILDING":"Cargando vista",
+            "OK":"View actualizada"
+        },
+        "TITLE":"Datos del sensor - {{name}}",
+        "CHART_TITLE":"Resumen del sensor {{name}}",
+        "LOCATION_PIN_START":"S",
+        "LOCATION_PIN_END":"E",
+        "LOCATION_HISTORY":"Historial de ubicación del sensor",
+        "LOCATION_ADD":"Añadir ubicación",
+        "LOADING":"Cargando datos del sensor",
+        "DOWNLOAD":"Descargar datos CSV",
+        "DOWNLOAD_PREMIUM":"Descargar datos con abono premium.",
+        "OUTLIER_SHOW":"Eliminar valores anómalos",
+        "OUTLIER_HIDE":"Ocultar editor de valores anómalos",
+        "EDITOR":{
+            "TITLE":"Editor de valores anómalos",
+            "DESCRIPTION":"Aumentar el gráfico o hacer clic para filtrar los datos siguientes.",
+            "BUTTON_NONE":"Seleccionar datos a borrar en la siguiente tabla",
+            "BUTTON_SELECTED":"Borrar selección",
+            "REMOVE":"Borrar",
+            "NONE":"No hay datos para este periodo temporal",
+            "TIMESTAMP":"Timestamp",
+            "EPOCH":"Epoch",
+            "SAMPLE":"Sample",
+            "SOURCE":"Fuente",
+            "BATTERY":"Bat",
+            "TEMP":"Temp",
+            "HUMID":"Hum",
+            "WEIGHT":"Peso",
+            "WEIGHT_L_R":"Peso Izda Raw",
+            "WEIGHT_R_R":"Peso Dcha Raw",
+            "WEIGHT_L":"Peso Izda",
+            "WEIGHT_R":"Peso Dcha",
+            "BALANCE":"I/D Compensación",
+            "WEIGHT_SF":"Factor de calibración",
+            "CONFIRM_WINDOW":{
+               "TITLE":"Borrar datos seleccionados",
+               "MESSAGE":"Deseas borrar los {{count}} datos?",
+               "CONFIRM":"Si"
+            },
+            "SUCCESS":"Datos borrados",
+            "FAIL":"Error, datos no han sido borrados",
+            "DISMISS":"Salir",
+            "OUTLIERS":{
+                "TITLE":"Datos marcados como anómalos",
+                "NONE":"No hay datos borrados para este periodo de tiempo",
+                "MOVE":"Atrás",
+                "MESSAGE":"Mensaje",
+                "USER_R":"Usuario Borrado",
+                "SYSTEM_R":"Sistema Borrado",
+                "BUTTON_NONE":"Seleccionar datos para añadir de nuevo como datos normales",
+                "BUTTON_SELECTED":"Añadir selección",
+                "CONFIRM_WINDOW":{
+                   "TITLE":"Desplazar datos seleccionados",
+                   "MESSAGE":"¿Desea volver a añadir los datos seleccionados {{count}} a las lecturas normales de los sensores?",
+                   "CONFIRM":"Si"
+                },
+                "SUCCESS":"Datos desplazados",
+                "FAIL":"Error, los datos no han sido desplazados"
+            }
+        }
+    },
+    "HUB_PAGE":{
+        "TITLE":"Hub {{name}}",
+        "NAME":"Historial de ubicación del dispositivo",
+        "ADDRESS":"Dirección del dispositivo",
+        "MODEL":"Modelo",
+        "FIRMWARE":"Firmware",
+        "UPLOAD_TIME":"Ultima carga de datos",
+        "CHART_TITLE":"Datos para el Hub {{name}}",
+        "READING_COUNT":"Datos mostrados: {{count}}",
+        "CHART_LOADING":"Cargando datos del hub",
+        "CHART_READINGS_SENT":"Datos enviados",
+        "CHART_READINGS_LABEL":"lecturas",
+        "CHART_SIGNAL":"señal"
+    },
+    "CONFIGURE_PAGE":{
+        "TITLE":"Configurar",
+        "SEPARATE":"Por tipo",
+        "NESTED":"Incluido en el Colmenar",
+        "ACCOUNT_TITLE":"Mi Cuenta",
+        "PREFERENCES_TITLE":"Mis preferencias",
+        "APIARIES_TITLE":"Colmenares",
+        "HIVES_TITLE":"Colmenas",
+        "DEVICES_TITLE":"Sensores"
+    },
+	"FEATURES":{
+		"TITLE":"Tour de las funciones",
+		"SKIP":"Pasar",
+		"NEXT":"Siguiente",
+		"CLOSE":"Cerrar",
+		"FEATURE_1":"Primear vez, crear colmena",
+		"FEATURE_2":"Ver datos",
+		"FEATURE_3":"Configurar y desplazar sensores",
+		"FEATURE_4":"Ver status CELL/WiFi/Hub "
+	},
+	"DATE_PICKER":{
+		"VIEWING":"Ver",
+        "START":"Empezar",
+        "END":"Terminar",
+        "APPLY":"Aplicar",
+		"HOURS_24":"Ultimas 24 horas",
+		"DAYS_3":"Ultimos 3 días",
+		"DAYS_7":"Ultimos 7 días",
+		"DAYS_14":"Ultimos 14 días",
+		"DAYS_30":"Ultimos 30 días",
+		"DAYS_90":"Ultimos 90 días",
+		"DAYS_180":"Ultimos 180 días",
+		"YEAR_1":"Ultimo año",
+		"CUSTOM":"Personalizar duración"
+	},
+	"NOTES":{
+		"TITLE":"Notas de {{value}}",
+		"ADD_TOOLTIP":"Añadir Nota",
+		"DOWNLOAD_TOOLTIP":"Descargar Notas",
+		"HIVE":"Colmena",
+		"DATE":"Fecha",
+        "PIN":"Pin",
+		"DESCRIPTION":"Descripción",
+		"DELETE_WINDOW":{
+			"TITLE":"Borrar nota",
+			"MESSAGE":"¿Deseas borrar esta nota?",
+			"CONFIRM":"Si"
+		},
+        "PREMIUM_EXP":"Descargar notas con cuenta premium.",
+        "NO_DESCRIPTION":"sin descripcción"
+	},
+    "CHARTS":{
+        "TEMP":"Temperatura",
+        "TEMP_AXIS":"Temperatura en {{tUnit}}",
+        "HUMID":"Humedad",
+        "HUMID_AXIS":"Humedad %",
+        "WEIGHT":"Peso",
+        "WEIGHT_AXIS":"Peso en {{wUnit}}",
+        "PRODUCTIVITY":"Productividad",
+        "PRODUCTIVITY_AXIS":"Productividad en {{wUnit}}",
+        "BATTERY":"Carga de la batería",
+        "BATTERY_AXIS":"Carga %",
+        "BALANCE":"I/D Compensación",
+        "WEATHER_TEMP":"Temperatura exterior",
+        "WEATHER_HUMID":"Humedad exterior"
+    },
+    "LOCATION_HIST":{
+        "HIVE":"Colmena",
+        "POSITION":"Posición",
+        "DEVICE_NAME":"Nombre del sensor",
+        "DEVICE_ADDRESS":"Dirección del sensor",
+        "START":"Empezar",
+        "END":"Finalizar",
+        "CURRENT":"actual",
+        "MOVE":"Desplazar",
+        "DELETE_WINDOW":{
+            "TITLE":"Borrar ubicación",
+            "MESSAGE":"¿Borrar la ubicación de este sensor?",
+            "CONFIRM":"Si"
+        }
+    },
+    "LOCATION_CRUD":{
+           "CREATE_TITLE":"Asignar sensor",
+           "EDIT_TITLE":"Editar ubicación",
+           "MOVE_TITLE":"Desplazar sensor",
+           "MOVE_EXP":"Esto termina la ubicación actual e inicia una nueva.",
+           "SELECT_DEVICE":"Seleccionar sensor",
+           "SELECT_APIARY":"Seleccionar colmenar",
+           "SELECT_HIVE":"Seleccionar colmena",
+           "SELECT_POSITION":"Seleccionar posición",
+           "START_DAY":"Día de inicio",
+           "START_TIME":"Hora de inicio",
+           "STOP_DAY":"Día de fin",
+           "STOP_TIME":"Hora de fin",
+           "MOVED_DAY":"Día de inicio de la nueva ubicación",
+           "MOVED_TIME":"Hora",
+           "ERROR_DEVICE":"El sensor tiene una ubicación que se superpone con otra",
+           "ERROR_HIVE":"La colmena tiene un sensor que se superpone a esta ubicación",
+           "ERROR_TIME":"La ubicación tiene una hora de fin anterior a la hora de inicio",
+           "ERROR_GENERAL":"Error creando la ubicación",
+           "ERROR_INACTIVE_HIVE":"La ubicación no puede tener hora de fin posterior a la hora de inactividad de la colmena.",
+           "ERROR_MOVE_TIME":"No se puede terminar la ubicación antes de sui inicio, seleccionar una fecha posterior a {{currentEnd}}",
+           "SUCCESS_MOVED":"Sensor desplazado a la colmena",
+           "SUCCESS_ENDED":"Ubicación actual culminada",
+           "CREATE":"Crear"
+       },
+    "APIARY_CRUD":{
+        "CREATE_TITLE":"Crear Colmenar",
+        "EDIT_TITLE":"Editar Colmenar",
+        "NAME":"Nombre",
+        "ZIPCODE":"Código postal",
+        "EDIT_ZIP_EXP":"No puedes cambiar la ubicación de un colmenar que contiene datos.",
+        "COUNTRY":"Código país",
+        "PRIVATE":"Privado (no compartir datos) Función Premium",
+        "PRIVATE_TOOLTIP": "Por favor, considera compartir tus datos. Estás ayudando a los investigadores de todo el mundo a desarrollar los conocimientos sobre las abejas melíferas y el medio ambiente",
+        "NOT_PRIVATE_TOOLTIP": "Gracias por compartir sus datos. Estás ayudando a los investigadores de todo el mundo a desarrollar los conocimientos sobre las abejas melíferas y el medio ambiente",
+        "ERROR_COUNTRY":"Seleccionar un código país válido",
+        "SUCCESS_CREATED":"Colmenar creado",
+        "SUCCESS_UPDATED":"Colmenar actualizado"
+    },
+    "HIVE_CRUD":{
+        "CREATE_TITLE":"Crear Colmena",
+        "EDIT_TITLE":"Editar Colmena",
+        "NAME":"Nombre",
+        "SELECT_APIARY":"Seleccionar colmenar",
+        "DESCRIPTION":"Descripción",
+        "ERROR_APIARY":"Debes seleccionar un colmenar",
+        "SUCCESS_CREATED":"Colmena creada",
+        "SUCCESS_UPDATED":"Colmena actualizada",
+        "DISPLAY":{
+            "DESCRIPTION":"Configuración de la vista de resumen del colmenar",
+            "WEIGHT":{
+                "DESCRIPTION":"Sensor de peso a representar en el resumen del colmenar",
+                "AUTO":"Peso máximo automático",
+                "NONE":"No mostrar sensores de peso en el resumen del colmenar"
+            },
+            "TEMP":{
+                "DESCRIPTION":"Sensor de temperatura a representar en el resumen del colmenar",
+                "AUTO":"Temperatura máxima automática",
+                "NONE":"No mostrar sensores de temperatura en el resumen del colmenar"
+            },
+            "HUMID":{
+                "DESCRIPTION":"Sensor de humedad para representar en el resumen del colmenar",
+                "AUTO":"Humedad máxima automática",
+                "NONE":"No mostrar sensores de humedad en el resumen del colmenar"
+            },
+            "BATTERY":{
+                "DESCRIPTION":"Carga de batería para representar en el resumen del colmenar",
+                "AUTO":"Mostrar el sensor con la carga mas baja de batería en el resumen del colmenar",
+                "NONE":"No mostrar cargas de batería en el resumen del colmenar"
+            }
+        }
+    },
+    "DEVICE_CRUD":{
+        "CREATE_TITLE":"Crear Sensor",
+        "EDIT_TITLE":"Editar Sensor",
+        "NAME":"Nombre",
+        "NAME_AUTO":"guardar la dirección como nombre",
+        "MODEL":"Modelo",
+        "SCALE":"Este sensor es una báscula",
+        "BIP_SEND":"Enviar datos a Bee Informed Partnership",
+        "BIP_AGREE":"Debes aceptar las condiciones de utilización de BIP",
+        "BIP_TERMS":"Condiciones de utilización",
+        "ERROR_ADDRESS":"Entra una dirección de sensor válida",
+        "ERROR_DUPLICATE":"No se pudo crear, un sensor con esta dirección ya existe.",
+        "ERROR_BIP":"Debes aceptar las condiciones de utilización de BIP para permitir el envío",
+        "SUCCESS_CREATED":"Sensor creado",
+        "SUCCESS_UPDATED":"Sensor actualizado",
+        "PLACE_TITLE":"Posicionar sensor",
+        "SELECT_POSITION":"Seleccionar posición",
+        "SUCCESS_PLACED":"Sensor posicionado en la colmena"
+    },
+    "NOTE_CRUD":{
+        "CREATE_TITLE":"Crear Nota",
+        "EDIT_TITLE":"Editar Nota",
+        "NO_HIVE":"Sin referencia a una colmena",
+        "ADD_TAG":"Añadir un tag",
+        "DATE":"Fecha",
+        "SUCCESS_CREATED":"Nota creada",
+        "SUCCESS_UPDATED":"Nota actualizada",
+        "ERROR_TIME":"Fecha incorrecta"
+    },
+    "ACCOUNT":{
+        "TITLE":"Preferencias",
+        "USERNAME":"Usuario",
+        "FIRST_NAME":"Nombre",
+        "LAST_NAME":"Apellido",
+        "SUBSCRIPTION":"Tipo de Suscripción",
+        "SUB_TYPES":{
+            "BASIC":"Básica",
+            "PREMIUM":"Premium",
+            "PREMIUM_WITH_EXP":"Premium expira el {{value}}"
+        },
+        "PURCHASE":"Abonarse Premium",
+        "CONFIRM":"Confirmar Premium",
+        "SAVE":"Guardar",
+        "CONFIRM_SUB_WINDOW":{
+            "TITLE":"Confirmar Premium",
+            "DESCRIPTION":"Entrar el código del email de confirmación",
+            "CONFIRMATION_NUMBER":"Número de Confirmación",
+            "CONFIRM":"Confirmar",
+            "VALID":"Validar Compra",
+            "PURCHASED":"Comprado el",
+            "ERROR":{
+                "NOT_FOUND":"No se encontró abono premium",
+                "USED_THIS_ACCOUNT":"Confirmado para esta cuenta, expira el {{value}}",
+                "USED_OTHER_ACCOUNT":"Confirmado para otra cuenta"
+            }
+        }
+    },
+    "PREFERENCES":{
+        "TIMEZONE":"Zona horaria",
+        "TIMEZONE_DEFAULT":"predeterminado (navegador)",
+        "UNIT":"Unidades",
+        "UNIT_DEFAULT":"predeterminado (navegador)",
+        "UNIT_METRIC":"Metrico (Centigrada/Kilogramos)",
+        "UNIT_IMPERIAL":"Imperial (Fahrenheit/Pounds)",
+        "INTERPOLATE":"Interpolar gráficas (conectar todos los puntos, incluso con interrupciones superiores a 8 horas)",
+        "LANGUAGE":"Idioma",
+        "LANGUAGE_DEFAULT":"predeterminado (navegador)",
+        "SAVE":"Guardar"
+    },
+    "CONFIGURE_APIARIES":{
+        "ADD":"Añadir Colmenar",
+        "NAME":"Nombre del colmenar",
+        "ZIPCODE":"Código postal",
+        "SHARE":"Compartir",
+        "ACTIVE":"Activo",
+        "CONFIRM_DELETE_WINDOW":{
+           "TITLE":"Suprimir colmenar",
+           "MESSAGE":"¿Estás seguro de que deseas eliminar el colmenar {{name}}? El colmenar y sus datos asociados, incluyendo las colmenas, se eliminaran definitivamente.",
+           "CONFIRM":"Si"
+        },
+        "CONFIRM_INACTIVE_WINDOW":{
+            "TITLE":"Colmenar inactivo",
+            "MESSAGE":"Todas las colmenas del colmenar serán desactivadas, se terminarán todas las ubicaciones de dispositivos en cada colmena y se eliminara el colmenar de las vistas. Los datos existentes se mantendrán, sin embargo, los nuevos datos ya no irán a este colmenar o a sus colmenas. Esta acción es definitiva. ¿Desactivar el colmenar {{name}}?",
+            "CONFIRM":"Si"
+         },
+        "UPDATED_SUCCESS":"Colmenar actualizado",
+        "DELETE_SUCCESS":"Colmenar suprimido",
+        "DELETE_ERROR":"Error suprimiendo colmenar"
+    },
+    "CONFIGURE_HIVES":{
+        "ADD":"Añadir colmena",
+        "NAME":"Nombre de la colmena",
+        "CODE":"Codigo de la colmena",
+        "APIARY":"Colmenar",
+        "LOCATION_HISTORY":"Historial de ubicación",
+        "ACTIVE":"Activo",
+        "CONFIRM_DELETE_WINDOW":{
+           "TITLE":"Suprimir colmena",
+           "MESSAGE":"¿Está seguro de que desea eliminar la colmena {{name}}? La supresion sera definitiva.",
+           "CONFIRM":"Yes"
+        },
+        "CONFIRM_INACTIVE_WINDOW":{
+            "TITLE":"Colmena inactiva",
+            "MESSAGE":"Se terminaran todas las ubicaciones de los dispositivos en la colmena y se eliminaran la colmena de las vistas del colmenar. Los datos existentes se mantendrán, sin embargo, los nuevos datos ya no irán a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
+            "CONFIRM":"Yes"
+         },
+        "UPDATED_SUCCESS":"Colmena actualizada",
+        "DELETE_SUCCESS":"Colmena suprimida",
+        "DELETE_ERROR":"Error suprimiendo colmena"
+    },
+    "CONFIGURE_DEVICES":{
+        "ADD":"Añadir sensor",
+        "DOWNLOAD":"Descargar sensores",
+        "NAME":"Nombre del sensor",
+        "ADDRESS":"Dirección del sensor",
+        "LOCATION":"Ubicación actual",
+        "DATA_RECEIVED":"Ultimos datos recibidos",
+        "LOCATION_HISTORY":"Historial de ubicación",
+        "ADD_LOCATION":"Añadir ubicación",
+        "ACTIVE":"Activa",
+        "CONFIRM_DELETE_WINDOW":{
+           "TITLE":"Suprimir sensor",
+           "MESSAGE":"¿Estás seguro de que deseas eliminar el sensor {{deviceName}}? Se eliminaran definitivamente el sensor y sus datos asociados.",
+           "CONFIRM":"Si"
+        },
+        "UPDATED_SUCCESS":"Sensor actualizado",
+        "DELETE_SUCCESS":"Sensor suprimido",
+        "DELETE_ERROR":"Error suprimiendo sensor"
+    },
+    "UNAUTHORIZED_PAGE":{
+        "TITLE":"No autorizado"
+    },
+    "COMMON":{
+        "SAVE":"Guardar",
+        "CREATE":"Crear",
+        "EDIT":"Editar",
+        "DELETE":"Suprimir",
+        "CANCEL":"Cancelar",
+        "DISMISS":"Abandonar",
+        "APIARY":"Colmenar",
+        "HIVE":"Colmena",
+        "DEVICE":"Sensor",
+        "POSITION":"Ubicación"
+    },
+    "BEECOUNTED":{
+    	"TITLE":"BeeCounted.org",
+    	"LINK":"Ver colmena en BeeCounted.org ",
+    	"COPY_LINK_TOOLTIP":"Copiar enlace",
+    	"LINK_COPIED":"Enlace copiado",
+    	"EMBED":"Incrustar gráfico en la página web",
+    	"COPY_EMBED_TOOLTIP":"Copiar código de inserción",
+    	"EMBED_COPIED":"Insertar código",
+    	"PRIVATE_APIARY":"Datos de la colmena no compartidos con BeeCounted. Este colmenar, {{name}}, no se comparte con BeeCounted.",
+    	"PRIVATE_HIVE":"Datos de la colmena no compartidos con BeeCounted."
+    },
+    "SHARING":{
+    	"TITLE":"{{name}} Compartir",
+    	"MBM_TITLE":"Compartir colmenar con usuario MyBroodMinder",
+    	"EXT_SUBTITLE":"Compartir colmenar con otros sitios",
+    	"USER":{
+    		"TITLE":"Usuarios MyBroodMinder",
+    		"INFO":"El usuario  debe tener una cuenta en MyBroodMinder. Se les permitirá ver los datos de su colmenar y colmena, sin poder aportar cambios.",
+    		"ADD_TOOLTIP":"Añadir usuario",
+    		"ADD_USER":"Entrar email",
+    		"SHARE_BUTTON":"Compartir",
+    		"ADD_SUCCESS":"Usuario añadido",
+    		"ERROR_NO_USER":"El usuario no existe.",
+    		"REMOVE":"Retirar",
+    		"REMOVE_SUCCESS":"Usuario retirado"
+    	},
+    	"BEECOUNTED":{
+    		"CHECKBOX":"BeeCounted.org",
+            "CHANGED":"Colmenar actualizado",
+    		"INFO_CHECKED": "Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
+			"INFO_UNCHECKED": "Por favor, considere compartir sus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
+			"INFO_NON_PREMIUM": "Todos los datos almacenados para los usuarios con cuenta standard son de dominio público. Los datos pueden hacerse privados suscribiendo a una formula Premium. Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
+            "EXPIRED":"Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
+    	},
+    	"BIP":{
+    		"CHECKBOX":"Bee Informed Partnership",
+    		"CHANGED":"Colmenar actualizado",
+    		"INFO":"Proximamente"
+    	},
+    	"MELLISPHERA":{
+    		"CHECKBOX":"Mellisphera(Beta)",
+    		"INFO_NO_ACCOUNT":"Cuenta no sincronizada con Mellisphera",
+    		"INFO_ACCOUNT":"Mostrar colmenar en mi cuenta Mellisphera",
+    		"CHANGED":"Colmenar actualizado",
+    		"ACTIVE_WINDOW":{
+    			"TITLE":"Activar mi cuenta Mellisphera",
+    			"MESSAGE":"Haz click aqui para activar tu cuenta Mellisphera."
+    		}
+    	},
+    	"HIVES":{
+    		"TITLE":"Colmenas compartidas con otros sites",
+    		"NAME":"Nombre",
+    		"DESCRIPTION":"Descripción",
+    		"SHARE":"Compartir",
+    		"CHANGED":"Colmena actualizada",
+    		"SHARE_EXPIRED":"Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
+    	}
+    },
+    "POSITIONS":{
+        "UNDER_INNER_COVER": "Cubre cuadros",
+        "ABOVE_LOWER_BROOD_BOX": "Camara de cría",
+        "ABOVE_UPPER_BROOD_BOX":"Alza",
+        "OUTSIDE_HIVE":"Exterior de la colmena", 
+        "SCALE_UNDER_HIVE":"Báscula bajo la colmena",
+        "SCALE_UNDER_HIVE_BACK":"Báscula bajo la colmena (detrás)",  
+        "OTHER":"Otro",
+        "CUSTOM_1":"Custom (1)",
+        "CUSTOM_2":"Custom (2)",
+        "CUSTOM_3":"Custom (3)",
+        "CUSTOM_4":"Custom (4)",
+        "CUSTOM_5":"Custom (5)",
+        "CUSTOM_6":"Custom (6)",
+        "CUSTOM_7":"Custom (7)"    
+    },
+    "TAGS":[
+        "Inspección de la colmena",
+        "Inspección del colmenar",
+        "Descripción personalizada del colmenar",
+        "Descripción personalizada de la colmena",
+        "Test varroa - negativo",
+        "Test varroa - positivo",
+        "Enjambre instalado",
+        "Nuc instalado",
+        "División",
+        "Colmena clausurada",
+        "Retirar un cuadro de cría",
+        "Añadir  un cuadro de cría",
+        "retirar un cuadro de polen y reservas",
+        "añadir un cuadro de polen y reservas",
+        "Retirar cuadro(s) de miel",
+        "Añadir cuadro(s) de miel",
+        "Alimentador reabastecido",
+        "Enjambrada",
+        "Aportando reservas",
+        "La reina pone huevos",
+        "nueva cría ralentizada\/interrumpida",
+        "Reina vista",
+        "Reina ausente",
+        "Cría fuerte",
+        "Cría moderada",
+        "Cría débil",
+        "Sin cría",
+        "Inserción nueva reina",
+        "Células reales",
+        "Células de sustitución",
+        "Zánganos  abundantes",
+        "Zánganos  escasos",
+        "cría de zánganos  abundante",
+        "Zánganos  expulsados para el invierno",
+        "Añadido cámara de cría",
+        "Añadida alza",
+        "Añadido quilt box",
+        "Añadido techo solido",
+        "Cerrada base de la colmena",
+        "Colmena volcada",
+        "Retirada caja de cría",
+        "Retirada alza ",
+        "Retirada pantalla superior ",
+        "Retirado quilt box ",
+        "Retirada cubierta solida",
+        "Retirado alimentador",
+        "Retirado aislamiento superior",
+        "Retirada cubierta solida",
+        "Abierta pantalla tabla de vuelo",
+        "Cambio de batería",
+        "Cambio de sensor",
+        "Posicionado sobre la cámara de cría",
+        "Posicionado en otro sitio",
+        "Me gusta My BroodMinder!",
+        "Nueva cría iniciada",
+        "Colmena muerta\/vacía",
+        "Colmena desmantelada"
+    ]
+}
