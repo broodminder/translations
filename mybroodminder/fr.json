@@ -242,7 +242,11 @@
         "DEVICES":"Capteurs",
         "DEVICE_WITH_DATA":"Données dans les graphiques, actuellement dans la ruche",
         "DEVICE_NO_DATA":"Pas de données dans les graphiques, actuellement dans la ruche",
-        "DEVICE_DATA_ONLY":"Données dans les graphiques, pas actuellement dans la ruche"
+        "DEVICE_DATA_ONLY":"Données dans les graphiques, pas actuellement dans la ruche",
+        "DOWNLOAD":"Download CSV data",
+        "DOWNLOAD_WEATHER":"Download Weather CSV data",
+        "DOWNLOAD_PREMIUM":"Downloading hive data available with premium subscription.",
+        "DOWNLOAD_WEATHER_PREMIUM":"Downloading weather data available with premium subscription."
     },
     "DEVICE_PAGE":{
         "DATA_TOOLTIP":{
@@ -379,6 +383,7 @@
         "TEMP_AXIS":"Température en {{tUnit}}",
         "HUMID":"Humidité",
         "HUMID_AXIS":"humidité %",
+        "NORMAL_HUMIDITY":"Normal Humidity",
         "WEIGHT":"Poids",
         "WEIGHT_AXIS":"Poids en {{wUnit}}",
         "PRODUCTIVITY":"Productivité des abeilles",
