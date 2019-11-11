@@ -242,7 +242,11 @@
         "DEVICES":"Devices",
         "DEVICE_WITH_DATA":"Data in charts, currently in hive",
         "DEVICE_NO_DATA":"No data in charts, currently in hive",
-        "DEVICE_DATA_ONLY":"Data in charts, not currently in hive"
+        "DEVICE_DATA_ONLY":"Data in charts, not currently in hive",
+        "DOWNLOAD":"Download CSV data",
+        "DOWNLOAD_WEATHER":"Download Weather CSV data",
+        "DOWNLOAD_PREMIUM":"Downloading hive data available with premium subscription.",
+        "DOWNLOAD_WEATHER_PREMIUM":"Downloading weather data available with premium subscription."
     },
     "DEVICE_PAGE":{
         "DATA_TOOLTIP":{
@@ -379,6 +383,7 @@
         "TEMP_AXIS":"Temperature in {{tUnit}}",
         "HUMID":"Humidity",
         "HUMID_AXIS":"Humidity %",
+        "NORMAL_HUMIDITY":"Normal Humidity",
         "WEIGHT":"Weight",
         "WEIGHT_AXIS":"Weight in {{wUnit}}",
         "PRODUCTIVITY":"Honeybee Productivity",
