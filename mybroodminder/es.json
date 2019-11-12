@@ -382,7 +382,7 @@
         "TEMP_AXIS":"Temperatura en {{tUnit}}",
         "HUMID":"Humedad",
         "HUMID_AXIS":"Humedad %",
-        "NORMAL_HUMIDITY":"Normal Humidity",
+        "NORMAL_HUMIDITY":"Humedad normal",
         "WEIGHT":"Peso",
         "WEIGHT_AXIS":"Peso en {{wUnit}}",
         "PRODUCTIVITY":"Productividad",
