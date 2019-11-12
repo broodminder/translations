@@ -243,10 +243,10 @@
         "DEVICE_WITH_DATA":"Données dans les graphiques, actuellement dans la ruche",
         "DEVICE_NO_DATA":"Pas de données dans les graphiques, actuellement dans la ruche",
         "DEVICE_DATA_ONLY":"Données dans les graphiques, pas actuellement dans la ruche",
-        "DOWNLOAD":"Download CSV data",
-        "DOWNLOAD_WEATHER":"Download Weather CSV data",
-        "DOWNLOAD_PREMIUM":"Downloading hive data available with premium subscription.",
-        "DOWNLOAD_WEATHER_PREMIUM":"Downloading weather data available with premium subscription."
+        "DOWNLOAD":"Télécharger les données au format CSV",
+        "DOWNLOAD_WEATHER":"Télécharger les données météo au format CSV",
+        "DOWNLOAD_PREMIUM":"Téléchargement des données de la ruche disponible avec un abonnement premium.",
+        "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement premium."
     },
     "DEVICE_PAGE":{
         "DATA_TOOLTIP":{
@@ -382,8 +382,8 @@
         "TEMP":"Température",
         "TEMP_AXIS":"Température en {{tUnit}}",
         "HUMID":"Humidité",
-        "HUMID_AXIS":"humidité %",
-        "NORMAL_HUMIDITY":"Normal Humidity",
+        "HUMID_AXIS":"Humidité %",
+        "NORMAL_HUMIDITY":"Humidité normale",
         "WEIGHT":"Poids",
         "WEIGHT_AXIS":"Poids en {{wUnit}}",
         "PRODUCTIVITY":"Productivité des abeilles",
@@ -685,8 +685,8 @@
     },
     "POSITIONS":{
         "UNDER_INNER_COVER": "Sous le couvercle intérieur",
-        "ABOVE_LOWER_BROOD_BOX": "Au-dessus de la boîte à couvain inférieure",
-        "ABOVE_UPPER_BROOD_BOX":"Au-dessus de la boîte à couvain supérieure",
+        "ABOVE_LOWER_BROOD_BOX": "Chambre à couvain",
+        "ABOVE_UPPER_BROOD_BOX":"Dans la hausse",
         "OUTSIDE_HIVE":"À l'extérieur de la ruche",
         "SCALE_UNDER_HIVE":"Balance sous la ruche",
         "SCALE_UNDER_HIVE_BACK":"Balance sous la ruche (Derrière)",
