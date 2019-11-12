@@ -168,7 +168,7 @@
 	},
 	"APIARY_PAGE":{
 		"SELECT":"Seleccionar vista",
-		"PREMIUM_EXP":"La selección del intervalo de tiempo para esta vista necesita une suscripción premium.",
+		"PREMIUM_EXP":"La selección del intervalo de tiempo para esta vista necesita una suscripción premium.",
 		"TEXT":{
 			"TITLE":"Texto",
 			"DESCRIPTION":"Esta vista muestra la lectura más reciente cargada para cada posición en cada colmena."
@@ -242,10 +242,10 @@
         "DEVICE_WITH_DATA":"Datos en grafica, actualmente en la colmena",
         "DEVICE_NO_DATA":"No hay datos en grafica, actualmente en la colmena",
         "DEVICE_DATA_ONLY":"Datos en grafica, no está actualmente en la colmena",
-        "DOWNLOAD":"Download CSV data",
-        "DOWNLOAD_WEATHER":"Download Weather CSV data",
-        "DOWNLOAD_PREMIUM":"Downloading hive data available with premium subscription.",
-        "DOWNLOAD_WEATHER_PREMIUM":"Downloading weather data available with premium subscription."
+        "DOWNLOAD":"Descargar datos CSV",
+        "DOWNLOAD_WEATHER":"Descargar datos meteorológicos CSV",
+        "DOWNLOAD_PREMIUM":"Descargar datos de la colmena de la suscripcion Premium.",
+        "DOWNLOAD_WEATHER_PREMIUM":"Descargar datos meterológicos de la suscripcion Premium."
     },
     "DEVICE_PAGE":{
         "DATA_TOOLTIP":{
