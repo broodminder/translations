@@ -175,10 +175,11 @@
 		},
 		"HIVE":{
 				"TITLE":"Colmena",
-				"DESCRIPCIÓN": "Esta vista muestra una vista gráfica rápida para cada colmena. Precedencia en la indicación de peso: valor más alto. Prevalencia de visualización de la humedad y la temperatura: 1-Camara de cría 2-Alza 3-Cubierta Interior 4-Otros 5-Personalizado (valor más alto) 6-Exterior de la colmena 7-Bajo la colmena".		},
+                "DESCRIPTION": "Esta vista muestra una vista gráfica rápida para cada colmena. Precedencia en la indicación de peso: valor más alto. Prevalencia de visualización de la humedad y la temperatura: 1-Camara de cría 2-Alza 3-Cubierta Interior 4-Otros 5-Personalizado (valor más alto) 6-Exterior de la colmena 7-Bajo la colmena."		
+            },
 		"SUMMARY":{
 			"TITLE":"Resumen",
-			"DESCRIPCIÓN": "Esta vista muestra gráficos combinados por tipo de datos. Las especificaciones que se muestran siguen los valores predeterminados de la vista de la colmena, pero se pueden establecer por colmena en la configuración de la colmena",
+			"DESCRIPTION": "Esta vista muestra gráficos combinados por tipo de datos. Las especificaciones que se muestran siguen los valores predeterminados de la vista de la colmena, pero se pueden establecer por colmena en la configuración de la colmena",
 			"PREMIUM_EXP": "Esta vista está disponible con suscripción premium. Un ejemplo  se muestra a continuación",
 			"TEMP":{
 				"TITLE":"Temperatura del colmenar",
