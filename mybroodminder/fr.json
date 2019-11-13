@@ -288,7 +288,7 @@
             "WEIGHT_SF":"Facteur d'échelle de poids",
             "CONFIRM_WINDOW":{
                "TITLE":"Supprimer les relevés sélectionnés",
-               "MESSAGE":"Would you like to remove selected {{count}} readings?",
+               "MESSAGE":"Souhaitez-vous supprimer les reléves sélectionnés {{count}} ?",
                "CONFIRM":"Oui"
             },
             "SUCCESS":"Relevés supprimés",
@@ -417,7 +417,7 @@
            "SELECT_DEVICE":"Sélectionnez un capteur",
            "SELECT_APIARY":"Sélectionnez un rucher",
            "SELECT_HIVE":"Sélectionnez une ruche",
-           "SELECT_POSITION":"Sélect position",
+           "SELECT_POSITION":"Sélectionnez une position",
            "START_DAY":"Date de début",
            "START_TIME":"Heure de début",
            "STOP_DAY":"Date de fin",
