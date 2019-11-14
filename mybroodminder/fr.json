@@ -224,14 +224,14 @@
             "TITLE":"Poids",
             "NONE":"Pas de données de poids",
             "LOADING":"Chargement des relevés de poids de la ruche",
-            "MULTI_SCALE":"Multiple scales",
-            "AVERAGE_SCALE":"Scales Averaged",
-            "INDIVIDUAL_SCALE":"Individual Scales"
+            "MULTI_SCALE":"Balances multiples",
+            "AVERAGE_SCALE":"Moyenne des balances",
+            "INDIVIDUAL_SCALE":"Balances individuelles"
         },
         "PRODUCTIVITY":{
             "TITLE":"Productivité des abeilles",
             "NONE":"Pas de données de poids pour la productivité des abeilles",
-            "LOADING":"Chargement des relevés productivité des abeilles",
+            "LOADING":"Chargement des relevés de productivité des abeilles",
             "INFO":"Les abeilles ajoutent/enlèvent du poids à la ruche"
         },
         "BATTERY":{
@@ -305,7 +305,7 @@
                 "BUTTON_SELECTED":"Retourner à la sélection",
                 "CONFIRM_WINDOW":{
                    "TITLE":"Déplacer les relevés sélectionnés",
-                   "MESSAGE":"Souhaitez-vous réajouter les reléves sélectionnés {{{count}}} aux relevées normaux des capteurs ?",
+                   "MESSAGE":"Souhaitez-vous réajouter les reléves sélectionnés {{{count}}} aux relevés normaux des capteurs ?",
                    "CONFIRM":"Oui"
                 },
                 "SUCCESS":"Relevés déplacés",
@@ -323,7 +323,7 @@
         "CHART_TITLE":"Relevé du hub pour {{name}}",
         "READING_COUNT":"Relevés affichés: {{count}}",
         "CHART_LOADING":"Chargement des relevés du hub",
-        "CHART_READINGS_SENT":"Relevés envoyées",
+        "CHART_READINGS_SENT":"Relevés envoyés",
         "CHART_READINGS_LABEL":"Relevés",
         "CHART_SIGNAL":"Signal"
     },
@@ -608,7 +608,7 @@
         },
         "UPDATED_SUCCESS":"Capteur modifié",
         "DELETE_SUCCESS":"Capteur supprimé",
-        "DELETE_ERROR":"Erreur dee suppression du capteur"
+        "DELETE_ERROR":"Erreur de suppression du capteur"
     },
     "UNAUTHORIZED_PAGE":{
         "TITLE":"Non autorisé"
