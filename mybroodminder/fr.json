@@ -175,7 +175,7 @@
 		},
 		"HIVE":{
 				"TITLE":"Ruche",
-				"DESCRIPTION":"Cette vue affiche un graphique rapide pour chaque ruche. Priorité d'affichage du poids : valeur la plus élevée. Priorité d'affichage de l'humidité et de la température : 1-Au-dessus de la boîte à couvain inférieure 2-Au-dessus de la boîte à couvain supérieure 3-Sous le couvercle intérieur 4-Autre 5-Personnalisé (valeur la plus élevée) 6-A l'extérieur de la ruche 7-Balance sous la ruche"
+				"DESCRIPTION":"Cette vue affiche un graphique rapide pour chaque ruche. Priorité d'affichage du poids : valeur la plus élevée. Priorité d'affichage de l'humidité et de la température : 1-corps 2-hausse 3-Sous le nourrisseur 4-Autre 5-Personnalisé (valeur la plus élevée) 6-Extérieur 7-Balance"
 		},
 		"SUMMARY":{
 			"TITLE":"Résumé",
