@@ -1,7 +1,7 @@
 {
 	"LOGIN":{
 		"LOGIN_MENU":"Iniciar sesión",
-		"REGISTER_MENU":"Crear cuenta",
+		"REGISTER_MENU":"Nueva cuenta",
 		"LOGIN":{
 			"TITLE":"Iniciar sesión",
 			"EMAIL":"Email",
@@ -18,7 +18,7 @@
             }
 		},
 		"REGISTER":{
-			"TITLE":"Crear nueva cuenta",
+			"TITLE":"Nueva cuenta",
 			"EMAIL":"Email",
 			"PASSWORD":"Contraseña",
 			"REGISTER_BTN":"Inscripción",
@@ -46,7 +46,7 @@
 		"CONFIGURE":"Configurar",
         "APIARIES_CONTEXT":
         {
-            "NEW":"Crear Colmenar"
+            "NEW":"Nuevo Colmenar"
         },
 		"APIARY_CONTEXT":
 		{
@@ -330,7 +330,7 @@
     "CONFIGURE_PAGE":{
         "TITLE":"Configurar",
         "SEPARATE":"Por tipo",
-        "NESTED":"Incluido en el Colmenar",
+        "NESTED":"Por Colmenar",
         "ACCOUNT_TITLE":"Mi Cuenta",
         "PREFERENCES_TITLE":"Mis preferencias",
         "APIARIES_TITLE":"Colmenares",
@@ -432,10 +432,10 @@
            "ERROR_MOVE_TIME":"No se puede terminar la ubicación antes de sui inicio, seleccionar una fecha posterior a {{currentEnd}}",
            "SUCCESS_MOVED":"Sensor desplazado a la colmena",
            "SUCCESS_ENDED":"Ubicación actual culminada",
-           "CREATE":"Crear"
+           "CREATE":"Nuevo"
        },
     "APIARY_CRUD":{
-        "CREATE_TITLE":"Crear Colmenar",
+        "CREATE_TITLE":"Nuevo Colmenar",
         "EDIT_TITLE":"Editar Colmenar",
         "NAME":"Nombre",
         "ZIPCODE":"Código postal",
@@ -449,7 +449,7 @@
         "SUCCESS_UPDATED":"Colmenar actualizado"
     },
     "HIVE_CRUD":{
-        "CREATE_TITLE":"Crear Colmena",
+        "CREATE_TITLE":"Nueva Colmena",
         "EDIT_TITLE":"Editar Colmena",
         "NAME":"Nombre",
         "SELECT_APIARY":"Seleccionar colmenar",
@@ -482,7 +482,7 @@
         }
     },
     "DEVICE_CRUD":{
-        "CREATE_TITLE":"Crear Sensor",
+        "CREATE_TITLE":"Nuevo Sensor",
         "EDIT_TITLE":"Editar Sensor",
         "NAME":"Nombre",
         "NAME_AUTO":"guardar la dirección como nombre",
@@ -501,7 +501,7 @@
         "SUCCESS_PLACED":"Sensor posicionado en la colmena"
     },
     "NOTE_CRUD":{
-        "CREATE_TITLE":"Crear Nota",
+        "CREATE_TITLE":"Nueva Nota",
         "EDIT_TITLE":"Editar Nota",
         "NO_HIVE":"Sin referencia a una colmena",
         "ADD_TAG":"Añadir un tag",
@@ -515,7 +515,7 @@
         "USERNAME":"Usuario",
         "FIRST_NAME":"Nombre",
         "LAST_NAME":"Apellido",
-        "SUBSCRIPTION":"Tipo de Suscripción",
+        "SUBSCRIPTION":"Suscripción:",
         "SUB_TYPES":{
             "BASIC":"Básica",
             "PREMIUM":"Premium",
@@ -576,7 +576,7 @@
         "CODE":"Codigo de la colmena",
         "APIARY":"Colmenar",
         "LOCATION_HISTORY":"Historial de ubicación",
-        "ACTIVE":"Activo",
+        "ACTIVE":"Activa",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Suprimir colmena",
            "MESSAGE":"¿Está seguro de que desea eliminar la colmena {{name}}? La supresion sera definitiva.",
@@ -615,7 +615,7 @@
     },
     "COMMON":{
         "SAVE":"Guardar",
-        "CREATE":"Crear",
+        "CREATE":"Nuevo",
         "EDIT":"Editar",
         "DELETE":"Suprimir",
         "CANCEL":"Cancelar",
