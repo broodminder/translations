@@ -59,15 +59,15 @@
 		"HIVE_CONTEXT":
 		{
 			"EDIT":"Modifier {{value}}",
-			"NEW_DEVICE":"Ajouter un nouveau capteur",
-			"EXISTING_DEVICE":"Ajouter un capteur existant",
+			"NEW_DEVICE":"Nouveau capteur",
+			"EXISTING_DEVICE":"Déplacer capteur",
             "BEECOUNTED":"BeeCounted"
 		},
 		"DEVICE_CONTEXT":
 		{
 			"EDIT":"Modifier {{value}}",
 			"EDIT_LOCATION":"Modifier l'emplacement actuel",
-			"MOVE":"Déplacer un capteur"
+			"MOVE":"Déplacer le capteur"
 		},
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi"

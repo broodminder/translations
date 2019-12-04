@@ -51,7 +51,7 @@
 		"APIARY_CONTEXT":
 		{
 			"EDIT":"Editar {{value}}",
-			"NEW_HIVE":"Crear Colmena",
+			"NEW_HIVE":"Nueva Colmena",
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted"
             
@@ -60,7 +60,7 @@
 		{
 			"EDIT":"Editar {{value}}",
 			"NEW_DEVICE":"Añadir sensor",
-			"EXISTING_DEVICE":"Añadir sensor existente",
+			"EXISTING_DEVICE":"mover sensor",
             "BEECOUNTED":"BeeCounted"
 		},
 		"DEVICE_CONTEXT":
@@ -79,7 +79,7 @@
 		"ADMIN":"Admin",
 		"LOGOUT":"Salir",
         "LOGIN":"Iniciar sesion",
-        "REGISTER":"Crear cuenta",
+        "REGISTER":"Nueva cuenta",
         "RESOURCES":"Recursos"
 	},
 	"RESOURCES":{
