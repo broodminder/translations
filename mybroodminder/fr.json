@@ -61,13 +61,19 @@
 			"EDIT":"Modifier {{value}}",
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer capteur",
-            "BEECOUNTED":"BeeCounted"
+            "BEECOUNTED":"BeeCounted",
+            "RESEARCH_DOWNLOAD":"Researcher data download"
 		},
 		"DEVICE_CONTEXT":
 		{
 			"EDIT":"Modifier {{value}}",
 			"EDIT_LOCATION":"Modifier l'emplacement actuel",
 			"MOVE":"Déplacer le capteur"
+        },
+        "HUB_CONTEXT":
+        {
+            "REMOVE":"Remove {{value}} from menu"
+
 		},
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi"
@@ -276,6 +282,7 @@
             "EPOCH":"Période",
             "SAMPLE":"Echantillon",
             "SOURCE":"Source",
+            "RSSI":"Rssi",
             "BATTERY":"Batterie",
             "TEMP":"Temp",
             "HUMID":"Humid",
@@ -286,6 +293,7 @@
             "WEIGHT_R":"Poids Droite",
             "BALANCE":"G/D Balance",
             "WEIGHT_SF":"Facteur d'échelle de poids",
+            "SAMPLE_STATE":"T2 Sample State",
             "CONFIRM_WINDOW":{
                "TITLE":"Supprimer les relevés sélectionnés",
                "MESSAGE":"Souhaitez-vous supprimer les reléves sélectionnés {{count}} ?",
@@ -392,7 +400,17 @@
         "BATTERY_AXIS":"Charge %",
         "BALANCE":"G/D Balance",
         "WEATHER_TEMP":"Température extérieure",
-        "WEATHER_HUMID":"Humidité extérieure"
+        "WEATHER_HUMID":"Humidité extérieure",
+        "SWARM_S":{
+            "TITLE":"S",
+            "CHANGE_TO":{
+                "0":"Swarm montitoring stopped by system",
+                "1":"Swarm montitoring stopped by user",
+                "8":"Swarm montitoring stopped by system, too busy.",
+                "29":"Swarm detected",
+                "60":"Swarm detection complete"
+            }
+        }
     },
     "LOCATION_HIST":{
         "HIVE":"Ruche",
@@ -536,7 +554,15 @@
                 "USED_THIS_ACCOUNT":"Déjà confirmé pour ce compte, expire le {{value}}}.",
                 "USED_OTHER_ACCOUNT":"Déjà confirmé avec un autre compte"
             }
+        },
+        "EDIT_EMAIL":{
+            "BUTTON":"Change Account Email",
+            "TITLE":"Change Account Email",
+            "ERROR":"Error occured. Email not changed.",
+            "REFRESH_ERROR":"Changing your account email requires recent authentication. Log in again before retrying this change.",
+            "NEW_EMAIL":"New email"
         }
+
     },
     "PREFERENCES":{
         "TIMEZONE":"Fuseau horaire",
@@ -698,6 +724,14 @@
         "CUSTOM_5":"Personnalisé (5)",
         "CUSTOM_6":"Personnalisé (6)",
         "CUSTOM_7":"Personnalisé (7)"
+    },
+    "RESEARCH_DOWNLOAD":{
+        "H_NAME":"NAME",
+        "A_NAME":"NAME",
+        "LAST_DATA":"Latest Data",
+        "DOWNLOAD_STATUS":"Download Status",
+        "HIVE_DOWNLOAD_BUTTON":"Download",
+        "APIARY_DOWNLOAD_BUTTON":"Download Full Apiary"
     },
     "TAGS":[
         "Inspection de la ruche",

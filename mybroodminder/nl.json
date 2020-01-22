@@ -53,8 +53,8 @@
 			"EDIT":"Edit {{value}}",
 			"NEW_HIVE":"New Hive",
 			"SHARE":"Share",
-            "BEECOUNTED":"BeeCounted"
-            
+            "BEECOUNTED":"BeeCounted",
+            "RESEARCH_DOWNLOAD":"Researcher data download"
 		},
 		"HIVE_CONTEXT":
 		{
@@ -68,6 +68,11 @@
 			"EDIT":"Edit {{value}}",
 			"EDIT_LOCATION":"Edit Current Location",
 			"MOVE":"Move Device"
+        },
+        "HUB_CONTEXT":
+        {
+            "REMOVE":"Remove {{value}} from menu"
+
 		},
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"shared with me"
@@ -276,6 +281,7 @@
             "EPOCH":"Epoch",
             "SAMPLE":"Sample",
             "SOURCE":"Source",
+            "RSSI":"Rssi",
             "BATTERY":"Battery",
             "TEMP":"Temp",
             "HUMID":"Humid",
@@ -286,6 +292,7 @@
             "WEIGHT_R":"Weight Right",
             "BALANCE":"L/R Balance",
             "WEIGHT_SF":"Weight Scale Factor",
+            "SAMPLE_STATE":"T2 Sample State",
             "CONFIRM_WINDOW":{
                "TITLE":"Remove selected readings",
                "MESSAGE":"Would you like to remove selected {{count}} readings?",
@@ -392,7 +399,17 @@
         "BATTERY_AXIS":"Charge %",
         "BALANCE":"L/R Balance",
         "WEATHER_TEMP":"Outside Temperature",
-        "WEATHER_HUMID":"Outside Humidity"
+        "WEATHER_HUMID":"Outside Humidity",
+        "SWARM_S":{
+            "TITLE":"S",
+            "CHANGE_TO":{
+                "0":"Swarm montitoring stopped by system",
+                "1":"Swarm montitoring stopped by user",
+                "8":"Swarm montitoring stopped by system, too busy.",
+                "29":"Swarm detected",
+                "60":"Swarm detection complete"
+            }
+        }
     },
     "LOCATION_HIST":{
         "HIVE":"Hive",
@@ -536,6 +553,13 @@
                 "USED_THIS_ACCOUNT":"Already confirmed for this account, expires on {{value}}",
                 "USED_OTHER_ACCOUNT":"Already confirmed with another account"
             }
+        },
+        "EDIT_EMAIL":{
+            "BUTTON":"Change Account Email",
+            "TITLE":"Change Account Email",
+            "ERROR":"Error occured. Email not changed.",
+            "REFRESH_ERROR":"Changing your account email requires recent authentication. Log in again before retrying this change.",
+            "NEW_EMAIL":"New email"
         }
     },
     "PREFERENCES":{
@@ -698,6 +722,14 @@
         "CUSTOM_5":"Custom (5)",
         "CUSTOM_6":"Custom (6)",
         "CUSTOM_7":"Custom (7)"    
+    },
+    "RESEARCH_DOWNLOAD":{
+        "H_NAME":"NAME",
+        "A_NAME":"NAME",
+        "LAST_DATA":"Latest Data",
+        "DOWNLOAD_STATUS":"Download Status",
+        "HIVE_DOWNLOAD_BUTTON":"Download",
+        "APIARY_DOWNLOAD_BUTTON":"Download Full Apiary"
     },
     "TAGS":[
         "Hive Inspection",
