@@ -6,7 +6,7 @@
 			"TITLE":"Se connecter à un compte existant",
 			"EMAIL":"Email",
 			"PASSWORD":"Mot de passe",
-			"LOGIN_BTN":"Se connecter avec un email",
+			"LOGIN_BTN":"Se connecter",
 			"FORGOT_LINK":"Mot de passe oublié",
 			"RESET":"Envoyer un email de réinitialisation",
             "RESET_SUCCESS":"Email de réinitialisation envoyé à {{value}}",
@@ -62,7 +62,7 @@
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer capteur",
             "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Researcher data download"
+            "RESEARCH_DOWNLOAD":"Téléchargement de données pour les chercheurs"
 		},
 		"DEVICE_CONTEXT":
 		{
@@ -72,7 +72,7 @@
         },
         "HUB_CONTEXT":
         {
-            "REMOVE":"Remove {{value}} from menu"
+            "REMOVE":"Supprimer {{value}} du menu"
 
 		},
 		"HUB_TOOLTIP":"Hub",
@@ -293,7 +293,7 @@
             "WEIGHT_R":"Poids Droite",
             "BALANCE":"G/D Balance",
             "WEIGHT_SF":"Facteur d'échelle de poids",
-            "SAMPLE_STATE":"T2 Sample State",
+            "SAMPLE_STATE":"État de l'échantillon T2",
             "CONFIRM_WINDOW":{
                "TITLE":"Supprimer les relevés sélectionnés",
                "MESSAGE":"Souhaitez-vous supprimer les reléves sélectionnés {{count}} ?",
@@ -404,11 +404,11 @@
         "SWARM_S":{
             "TITLE":"S",
             "CHANGE_TO":{
-                "0":"Swarm montitoring stopped by system",
-                "1":"Swarm montitoring stopped by user",
-                "8":"Swarm montitoring stopped by system, too busy.",
-                "29":"Swarm detected",
-                "60":"Swarm detection complete"
+                "0":"Arrêt de la surveillance des essaimages par le système",
+                "1":"Surveillance des essaimages arrêtée par l'utilisateur",
+                "8":"Moniteur d'essaimage arrêté par le système, trop occupé.",
+                "29":"Un essaimage a été détecté",
+                "60":"Détection d'essaimage complète"
             }
         }
     },
@@ -556,11 +556,11 @@
             }
         },
         "EDIT_EMAIL":{
-            "BUTTON":"Change Account Email",
-            "TITLE":"Change Account Email",
-            "ERROR":"Error occured. Email not changed.",
-            "REFRESH_ERROR":"Changing your account email requires recent authentication. Log in again before retrying this change.",
-            "NEW_EMAIL":"New email"
+            "BUTTON":"Modifier l'email",
+            "TITLE":"Modifier l'email du compte",
+            "ERROR":"Une erreur s'est produite. L'email n'a pas été modifié.",
+            "REFRESH_ERROR":"La modification de l'email de votre compte nécessite une authentification récente. Connectez-vous à nouveau avant de réessayer ce changement.",
+            "NEW_EMAIL":"Nouveau email"
         }
 
     },
@@ -726,12 +726,12 @@
         "CUSTOM_7":"Personnalisé (7)"
     },
     "RESEARCH_DOWNLOAD":{
-        "H_NAME":"NAME",
-        "A_NAME":"NAME",
-        "LAST_DATA":"Latest Data",
-        "DOWNLOAD_STATUS":"Download Status",
-        "HIVE_DOWNLOAD_BUTTON":"Download",
-        "APIARY_DOWNLOAD_BUTTON":"Download Full Apiary"
+        "H_NAME":"NOM",
+        "A_NAME":"NOM",
+        "LAST_DATA":"Dernières données",
+        "DOWNLOAD_STATUS":"Statut de téléchargement",
+        "HIVE_DOWNLOAD_BUTTON":"Télécharger",
+        "APIARY_DOWNLOAD_BUTTON":"Télécharger le rucher complet"
     },
     "TAGS":[
         "Inspection de la ruche",
