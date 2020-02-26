@@ -21,7 +21,7 @@
 			"TITLE":"Créer un nouveau compte",
 			"EMAIL":"Email",
 			"PASSWORD":"Mot de passe",
-			"REGISTER_BTN":"S'incrire avec un email",
+			"REGISTER_BTN":"S'incrire",
 			"EULA":{
 				"TITLE":"MyBroodMinder.com EULA (End User License Agreement) v1.1",
 				"DESCRIPTION":"Nous vous demandons alors d'accepter les déclarations suivantes pour utiliser ce logiciel apicole SaaS :",
@@ -54,7 +54,7 @@
 			"NEW_HIVE":"Nouvelle ruche",
 			"SHARE":"Partager",
             "BEECOUNTED":"BeeCounted",
-            "MOVE":"Move Hive"
+            "MOVE":"Déplacer ruche"
 		},
 		"HIVE_CONTEXT":
 		{
@@ -178,7 +178,7 @@
 		"TEXT":{
 			"TITLE":"Texte",
             "DESCRIPTION":"Cette vue affiche le relevé le plus récent téléchargé pour chaque position dans chaque ruche.",
-            "MOVED_EXP":"Hive moved"
+            "MOVED_EXP":"Ruche déplacée"
 		},
 		"HIVE":{
 				"TITLE":"Ruche",
@@ -454,20 +454,20 @@
            "CREATE":"Créer"
     },
     "HIVE_APIARY_LOCATION_HIST":{
-        "APIARY":"Apiary",
-        "START":"Start",
-        "START_OPEN":"open",
-        "END":"End",
-        "END_OPEN":"current",
-        "MOVE":"Move",
+        "APIARY":"Rucher",
+        "START":"Début",
+        "START_OPEN":"ouvert",
+        "END":"Fin",
+        "END_OPEN":"Actuel",
+        "MOVE":"Déplacer",
         "EDIT":{
-            "ADD":"Add",
-            "SELECT_APIARY":"Select apiary",
-            "SUCCESS":"Changes saved",
-            "ERROR_INVALID_PREV_OVERLAP":"Time invalid, overlaps previous apiary location",
-            "ERROR_INVALID_NEXT_OVERLAP":"Time invalid, overlaps next apiary location",
-            "ERROR_LOCATION_REQUIRED":"Hive requires at least one apiary",
-            "ERROR_APIARY_REQUIRED":"Must select an apiary for all locations"
+            "ADD":"Ajouter",
+            "SELECT_APIARY":"Selectionner le rucher",
+            "SUCCESS":"Changement sauvegardé",
+            "ERROR_INVALID_PREV_OVERLAP":"Date non valable, chevauche l'emplacement du rucher précédent",
+            "ERROR_INVALID_NEXT_OVERLAP":"Date non valable, chevauche l'emplacement du rucher suivant",
+            "ERROR_LOCATION_REQUIRED":"La ruche nécessite au moins un rucher",
+            "ERROR_APIARY_REQUIRED":"Vous devez sélectionner un rucher pour toutes les localisations"
         }
     },
     "APIARY_CRUD":{
@@ -484,15 +484,15 @@
         "SUCCESS_CREATED":"Rucher créé",
         "SUCCESS_UPDATED":"Rucher modifié",
         "EDIT_LOCATION":{
-            "BUTTON":"Edit Location",
-            "COORDINATE":"Coordinate",
-            "TITLE":"Edit Apiary Location",
-            "INFO":"This location is used both to query weather and display your apiary to shared sites such as BeeCounted.org. This is disclosed with your public domain data and should not be the exact location of your apiary.",
-            "POSTAL_ERROR":"The coordinates you've selected are outside the apiary zipcode. This cannot be changed.",
+            "BUTTON":"Modifier localisation",
+            "COORDINATE":"Coordonnées",
+            "TITLE":"Modifier l'emplacement du rucher",
+            "INFO":"Cet emplacement est utilisé à la fois pour récupérer la météo et pour afficher votre rucher sur des sites partagés tels que BeeCounted.org. Il est divulgué avec vos données du domaine public et n'est pas forcemént l'emplacement exact de votre rucher.",
+            "POSTAL_ERROR":"Les coordonnées que vous avez sélectionnées sont en dehors du code postal du rucher. Cela ne peut pas être modifié.",
             "POSTAL_CHANGE":{
-                "TITLE":"Postal Code Change",
-                "TEXT":"Would you like to change apiary to new postal code {{value}}?",
-                "CONFIRM":"Yes"
+                "TITLE":"Changement de code postal",
+                "TEXT":"Souhaitez-vous changer le code postal du rucher par {{value}} ?",
+                "CONFIRM":"Oui"
             }
         }
     },
@@ -529,12 +529,12 @@
             }
         },
         "MOVE":{
-            "TITLE":"Move Hive",
-            "EXP":"All data in this hive stays the same, but this will place the hive in the selected apiary from this date forward. This is reflected in weather data and apiary views.",
-            "DAY":"New location start day",
-            "TIME":"Time",
-            "SELECT_APIARY":"Select apiary",
-            "SUCCESS":"Hive moved"
+            "TITLE":"Déplacer ruche",
+            "EXP":"Toutes les données de cette ruche restent les mêmes, mais la ruche sera placée dans le rucher sélectionné à partir de cette date. Cela se reflètera dans les données météorologiques et les vues du rucher.",
+            "DAY":"Jour de début de la nouvelle localisation",
+            "TIME":"Date",
+            "SELECT_APIARY":"Selectionner le rucher",
+            "SUCCESS":"Ruche déplacée"
         }
     },
     "DEVICE_CRUD":{
@@ -564,7 +564,7 @@
         "DATE":"Date",
         "SUCCESS_CREATED":"Note de ruche créée",
         "SUCCESS_UPDATED":"Note de ruche mise à jour",
-        "ERROR_TIME":"Heure non valide"
+        "ERROR_TIME":"Date non valide"
     },
     "ACCOUNT":{
         "TITLE":"Paramètres de compte",
@@ -658,7 +658,7 @@
          },
         "UPDATED_SUCCESS":"Ruche modifiée",
         "DELETE_SUCCESS":"Ruche supprimée",
-        "DELETE_ERROR":"Erreur de suppresion de la ruche"
+        "DELETE_ERROR":"Erreur de suppression de la ruche"
     },
     "CONFIGURE_DEVICES":{
         "ADD":"Ajouter un capteur",
@@ -734,7 +734,7 @@
             "INFO":"Bientôt disponible"
         },
         "MELLISPHERA":{
-            "CHECKBOX":"Mellisphera(Beta)",
+            "CHECKBOX":"Mellisphera (Beta)",
             "INFO_NO_ACCOUNT":"Compte non connecté à Mellisphera",
             "INFO_ACCOUNT":"Montrer le rucher sur mon compte Mellisphera",
             "CHANGED":"Rucher mis à jour",
@@ -758,7 +758,7 @@
         "ABOVE_UPPER_BROOD_BOX":"Dans la hausse",
         "OUTSIDE_HIVE":"À l'extérieur de la ruche",
         "SCALE_UNDER_HIVE":"Balance sous la ruche",
-        "SCALE_UNDER_HIVE_BACK":"Balance sous la ruche (Derrière)",
+        "SCALE_UNDER_HIVE_BACK":"Balance sous la ruche (derrière)",
         "OTHER":"Autre",
         "CUSTOM_1":"Personnalisé (1)",
         "CUSTOM_2":"Personnalisé (2)",

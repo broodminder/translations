@@ -6,7 +6,7 @@
 			"TITLE":"Iniciar sesión",
 			"EMAIL":"Email",
 			"PASSWORD":"Contraseña",
-			"LOGIN_BTN":"Login con email",
+			"LOGIN_BTN":"Login",
 			"FORGOT_LINK":"Contraseña olvidada?",
 			"RESET":"Enviar email para reinicializar",
             "RESET_SUCCESS":"Email enviado {{value}}",
