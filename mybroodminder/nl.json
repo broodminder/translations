@@ -1,793 +1,786 @@
 {
-	"LOGIN":{
-		"LOGIN_MENU":"Login",
-		"REGISTER_MENU":"Register",
-		"LOGIN":{
-			"TITLE":"Login to existing account",
-			"EMAIL":"Email",
-			"PASSWORD":"Password",
-			"LOGIN_BTN":"Login with email",
-			"FORGOT_LINK":"Forgot password",
-			"RESET":"Send reset email",
-            "RESET_SUCCESS":"Reset email sent to {{value}}",
-			"RESET_ERROR":"Error, email not sent.",
-            "ERROR":{
-                "GENERAL":"Login failed.",
-                "PASSWORD":"Incorrect username/password.",
-                "EMAIL":"No account exists for this email."
-            }
-		},
-		"REGISTER":{
-			"TITLE":"Register new account",
-			"EMAIL":"Email",
-			"PASSWORD":"Password",
-			"REGISTER_BTN":"Register email",
-			"EULA":{
-				"TITLE":"MyBroodMinder.com EULA (End User License Agreement) v1.1",
-				"DESCRIPTION":"We ask then you agree to the following statements to use this SaaS beekeeping software:",
-				"POINT_1":"I am placing the data that I upload or enter into this service into the Public Domain. As such, mybroodminder.com may use the data, in anonymous form, to share with the general public.",
-				"POINT_2":"I understand that mybroodminder.com will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that mybroodminder.com can not be held responsible for hacking or other methods of data exposure.",
-				"POINT_3":"I understand that mybroodminder.com will use best efforts to store and backup all data uploaded or entered into it, but that mybroodminder.com can not be held responsible for data loss.",
-				"POINT_4":"I understand that mybroodminder.com is a separate company from other vendors that may integrate their devices into mybroodminder.com, and that mybroodminder.com is not liable for those vendors actions.",
-				"POINT_5":"I understand that mybroodminder.com is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of mybroodminder.com.",
-				"AGREE":"I agree"
-			},
-			"ERROR":{
-                "DUPLICATE":"The email address is already in use by another account.",
-                "GENERAL":"Cannot create account.",
-                "PASSWORD":"Password not strong enough.",
-                "EMAIL":"The email address is badly formatted."
-            }
-		}
-	},
-	"SIDEBAR":{
-		"HOME":"Home",
-		"APIARIES":"Apiaries",
-		"CONFIGURE":"Configure",
-        "APIARIES_CONTEXT":
-        {
-            "NEW":"New Apiary"
+  "LOGIN": {
+    "LOGIN_MENU": "Login",
+    "REGISTER_MENU": "Registreren",
+    "LOGIN": {
+      "TITLE": "Login op je account",
+      "EMAIL": "Email",
+      "PASSWORD": "Wachtwoord",
+      "LOGIN_BTN": "Login met email",
+      "FORGOT_LINK": "Wachtwoord vergeten",
+      "RESET": "Wachtwoord opnieuw instellen",
+      "RESET_SUCCESS": "Email gestuurd aan {{value}}",
+      "RESET_ERROR": "Foutmelding, email niet verstuurd.",
+      "ERROR": {
+        "GENERAL": "Login mislukt.",
+        "PASSWORD": "Onjuiste gebruikersnaam of wachtwoord.",
+        "EMAIL": "Email onbekend."
+      }
+    },
+    "REGISTER": {
+      "TITLE": "Registreer een nieuw account",
+      "EMAIL": "Email",
+      "PASSWORD": "Wachtwoord",
+      "REGISTER_BTN": "Registreer",
+      "EULA": {
+        "TITLE": "MyBroodMinder.com Gebruikersovereenkomst v1.1",
+        "DESCRIPTION": "We vragen je akkoord te gaan met het volgende om deze SaaS bijenhouder software te gebruiken:",
+        "POINT_1": "Ik begrijp dat alle data die ik upload of gegevens die ik invoer in het publieke domein terechtkomen. mybroodminder.com mag als zodanig deze data geanonimiseerd gebruiken en delen.",
+        "POINT_2": "Ik begrijp dat mybroodminder.com zijn best doet om te voorkomen dat persoonlijke gegevens verspreid worden, zoals mijn gebruikersnaam, wachtwoord en postcode, maar dat mybroodminder.com niet verantwoordelijk is voor data diefstal door hacks of andere methoden.",
+        "POINT_3": "Ik begrijp dat mybroodminder.com zijn best doet om alle geuploade data en ingevoerde gegevens op te slaan en te backuppen, maar dat mybroodminder.com niet verantwoordelijk is voor verlies van data.",
+        "POINT_4": "Ik begrijp dat mybroodminder.com een zelfstandig bedrijf is en als zodanig niet verantwoordelijk is voor handelingen van andere bedrijven die hun instrumentatie integreren in mybroodminder.com.",
+        "POINT_5": "Ik begrijp dat mybroodminder.com een dienst voor informatieuitwisseling is voor bijenhouders en entomologen, en ik zal mij te allen tijde correct en beleefd gedragen. Ik begrijp dat wanneer ik dat niet do dit kan leiden tot het sluiten van mijn account, hetgeen ter beoordeling aan mybroodminder.com is.",
+        "AGREE": "Ik ga akkoord"
+      },
+      "ERROR": {
+        "DUPLICATE": "Email adres is al in gebruik.",
+        "GENERAL": "Account kon niet worden aangemaakt.",
+        "PASSWORD": "Wachtwoord niet sterk genoeg.",
+        "EMAIL": "Onjuist formaat voor email adres."
+      }
+    }
+  },
+  "SIDEBAR": {
+    "HOME": "Home",
+    "APIARIES": "Bijenstallen",
+    "CONFIGURE": "Configuren",
+    "APIARIES_CONTEXT": {
+      "NEW": "Nieuwe bijenstal"
+    },
+    "APIARY_CONTEXT": {
+      "EDIT": "Bewerk {{value}}",
+      "NEW_HIVE": "Nieuwe bijenkast",
+      "SHARE": "Delen",
+      "BEECOUNTED": "BeeCounted",
+      "RESEARCH_DOWNLOAD": "Onderzoeker data download"
+    },
+    "HIVE_CONTEXT": {
+      "EDIT": "Bewerk {{value}}",
+      "NEW_DEVICE": "Nieuwe sensor toevoegen",
+      "EXISTING_DEVICE": "Bestaande sensor toevoegen",
+      "BEECOUNTED": "BeeCounted"
+    },
+    "DEVICE_CONTEXT": {
+      "EDIT": "Bewerk {{value}}",
+      "EDIT_LOCATION": "Huidige locatie aanpassen",
+      "MOVE": "Sensor verplaatsen"
+    },
+    "HUB_CONTEXT": {
+      "REMOVE": "Verwijder {{value}} uit menu"
+    },
+    "HUB_TOOLTIP": "Hub",
+    "SHARED_TOOLTIP": "Gedeeld met mij"
+  },
+  "TOP_MENU": {
+    "ACCOUNT": "Account",
+    "TOUR": "Tour",
+    "HELP": "Help",
+    "ADMIN": "Admin",
+    "LOGOUT": "Uitloggen",
+    "LOGIN": "Aanmelden",
+    "REGISTER": "Registreren",
+    "RESOURCES": "Hulpmiddelen"
+  },
+  "RESOURCES": {
+    "TITLE": "Hulpmiddelen",
+    "SUBTITLE": "Hier vind je veel links en informatie zodat je bij kunt dragen aan meer te weten komen over bijen.",
+    "DESCRIPTION": "Dank je dat je je hebt aangesloten bij de BroodMinder beweging, waarin we informatie delen en leren van elkaar om ons begrip en het beheer van onze waardevolle bijen te verbeteren.",
+    "DESCRIPTION_2": "Veel dank aan Google en aan <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a> voor hun royale steun aan BroodMinder Citizen Science.",
+    "LINKS": {
+      "TITLE": "Links",
+      "LOGIN": "Login",
+      "USER_GUIDE_VIDEO": "Video Handleidingen",
+      "USER_GUIDE_PDF": "Geschreven Handleidingen (PDF)",
+      "BEECOUNTED": "BeeCounted",
+      "SUPPORT": "Support"
+    }
+  },
+  "VIDEO_GUIDES": {
+    "TITLE": "BroodMinder Video Handleidingen",
+    "HOW_TO": "Hoe deze handleiding te gebruiken",
+    "IN_PROGRESS": "Bezig",
+    "INSTALLATION": {
+      "TITLE": "Installatie",
+      "LINK_1": "Quick Start",
+      "LINK_2": "Welke APP moet ik gebruiken?",
+      "LINK_3": "BroodMinder Devices",
+      "LINK_4": "BroodMinder-CELL/WIFI"
+    },
+    "APIARY_APP": {
+      "TITLE": "Apiary App (cloud)",
+      "LINK_1": "Normaal gebruik",
+      "LINK_2": "Nieuw - Hub Mode"
+    },
+    "BROODMINDER_APP": {
+      "TITLE": "Originele App (standalone)",
+      "LINK_1": "Normaal gebruik",
+      "LINK_2": "Data Exporteren"
+    },
+    "CELL_APP": {
+      "TITLE": "CELL App",
+      "LINK_1": "Normaal gebruik (zie installatie)",
+      "LINK_2": "Diagnose"
+    },
+    "MYBROODMINDER": {
+      "TITLE": "MyBroodMinder",
+      "LINK_1": "Start hier",
+      "LINK_2": "Data Views",
+      "LINK_3": "Configuratie",
+      "LINK_4": "Apparaten verplaatsen",
+      "LINK_5": "Cell, WIFI en Hub Monitoring",
+      "LINK_6": "Alternatieve navigatie"
+    },
+    "INTERPRETATION": {
+      "TITLE": "Data Interpretatie",
+      "LINK_1": "Bijenkast Temperatuur",
+      "LINK_2": "Bijenkast Gewicht"
+    },
+    "TROUBLESHOOT": {
+      "TITLE": "Probleem oplossen",
+      "LINK_1": "Jaarlijks onderhoud",
+      "LINK_2": "Batterijen",
+      "LINK_3": "Bluetooth Verbinding",
+      "LINK_4": "Android overwegingen",
+      "LINK_5": "Gewichtsschommelingen",
+      "LINK_6": "Corrosie",
+      "LINK_7": "T2 Firmware Update versie 2.77"
+    }
+  },
+  "TOUR": {
+    "START": {
+      "TITLE": "Welkom!!",
+      "DESCRIPTION": "Welkom bij MyBroodMinder!",
+      "SKIP": "Overslaan",
+      "SEE": "Feature Tour"
+    },
+    "FEATURES": {
+      "TITLE": "",
+      "SKIP": "Overslaan",
+      "NEXT": "Volgende",
+      "CLOSE": "Sluiten",
+      "FEATURE_1": "Een eerste bijenkast aanmaken",
+      "FEATURE_2": "Data bekijken",
+      "FEATURE_3": "Apparaten configureren en toevoegen",
+      "FEATURE_4": "Status van CELL/WiFi/Hub"
+    }
+  },
+  "APIARY_PAGE": {
+    "SELECT": "Kies een overzicht",
+    "PREMIUM_EXP": "Tijdspanne is beschikbaar met een premium abonnement",
+    "TEXT": {
+      "TITLE": "Tekst",
+      "DESCRIPTION": "Dit overzicht laat de meest recent geuploade waarde van elke positie in elke bijenkast zien."
+    },
+    "HIVE": {
+      "TITLE": "Bijenkast",
+      "DESCRIPTION": "Dit overzicht laat een beknopte grafiek zien voor elke bijenkast. Gewichtsweergave: zwaarste waarde. Luchtvochtigheid en temperatuurweergave: 1-Boven onderste broedkamer 2-Boven bovenste broedkamer 3-Onder binnenste deksel 4-Anders 5-Custom (hoogste waarde) 6-Buiten de kast 7-Onder de kast"
+    },
+    "SUMMARY": {
+      "TITLE": "Samenvatting",
+      "DESCRIPTION": "Dit overzicht laat gecombineerde grafieken zien. Wat getoond wordt volgt de instellingen van het Bijenkast overzicht, maar kan per kast aangepast worden in de kastinstellingen.",
+      "PREMIUM_EXP": "Dit overzicht is beschikbaar met een premium abonnement. Hieronder een voorbeeld.",
+      "TEMP": {
+        "TITLE": "Bijenstal temperatuur",
+        "NONE": "Geen temperatuurmetingen",
+        "LOADING": "Bijenstal temperatuurmetingen worden geladen"
+      },
+      "HUMID": {
+        "TITLE": "Bijenstal luchtvochtigheid",
+        "NONE": "Geen luchtvochtigheidsmetingen",
+        "LOADING": "Bijenstal luchtvochtigheidsmetingen worden geladen"
+      },
+      "WEIGHT": {
+        "TITLE": "Bijenstal gewicht",
+        "NONE": "Geen gewichtmetingen",
+        "LOADING": "Bijenstal gewichtmetingen worden geladen"
+      },
+      "BATTERY": {
+        "TITLE": "Bijenstal batterij",
+        "NONE": "Geen batterijgegevens",
+        "LOADING": "Bijenstal batterijgegevens worden geladen"
+      },
+      "HIVES": "Bijenkasten"
+    }
+  },
+  "HIVE_PAGE": {
+    "DATA_TOOLTIP": {
+      "UPDATE": "Weergave moet geupdate",
+      "BUILDING": "Weergave wordt geupdate",
+      "OK": "Weergave up-to-date"
+    },
+    "TEMP": {
+      "TITLE": "Temperatuur",
+      "NONE": "Geen temperatuur data",
+      "LOADING": "Kast temperatuurmetingen laden"
+    },
+    "HUMID": {
+      "TITLE": "Luchtvochtigheid",
+      "NONE": "Geen luchtvochtigheidsdata",
+      "LOADING": "Kast luchtvochtigheidsmetingen laden"
+    },
+    "WEIGHT": {
+      "TITLE": "Gewicht",
+      "NONE": "Geen gewichtsdata",
+      "LOADING": "Kast gewichtsmetingen laden",
+      "MULTI_SCALE": "Meerdere weegschalen",
+      "AVERAGE_SCALE": "Gemiddelde van weegschalen",
+      "INDIVIDUAL_SCALE": "Afzonderlijke weegschalen"
+    },
+    "PRODUCTIVITY": {
+      "TITLE": "Honingbij productiviteit",
+      "NONE": "Geen gewichtsdata voor honingbij productiviteit",
+      "LOADING": "Honingbij productiviteit laden",
+      "INFO": "Bijen die gewicht laten toe- of afnemen"
+    },
+    "BATTERY": {
+      "TITLE": "Batterij",
+      "NONE": "Geen batterijdata",
+      "LOADING": "Batterijmetingen laden"
+    },
+    "DEVICES": "Instrumenten",
+    "DEVICE_WITH_DATA": "Data in grafiek, nu in een kast",
+    "DEVICE_NO_DATA": "Geen data in grafiek, nu in een kast",
+    "DEVICE_DATA_ONLY": "Data in grafiek, niet in een kast",
+    "DOWNLOAD": "CSV data downloaden",
+    "DOWNLOAD_WEATHER": "Weerdata als CSV downloaden",
+    "DOWNLOAD_PREMIUM": "Kastdata downloaden beschikbaar in Premium abonnement.",
+    "DOWNLOAD_WEATHER_PREMIUM": "Weerdata downloaden beschikbaar in Premium abonnement."
+  },
+  "DEVICE_PAGE": {
+    "DATA_TOOLTIP": {
+      "UPDATE": "Pagina moet geupdate",
+      "BUILDING": "Pagina wordt geupdate",
+      "OK": "Pagina is up-to-date"
+    },
+    "TITLE": "Sensordata - {{name}}",
+    "CHART_TITLE": "Samenvatting voor sensor {{name}}",
+    "LOCATION_PIN_START": "S",
+    "LOCATION_PIN_END": "E",
+    "LOCATION_HISTORY": "Sensor locatiegeschiedenis",
+    "LOCATION_ADD": "Locatie toevoegen",
+    "LOADING": "Sensormetingen laden",
+    "DOWNLOAD": "Download CSV data",
+    "DOWNLOAD_PREMIUM": "Downloaden van sensordata beschikbaar met premium abonnement.",
+    "OUTLIER_SHOW": "Verwijderen uitschieters",
+    "OUTLIER_HIDE": "Verbergen uitschieter bewerker",
+    "EDITOR": {
+      "TITLE": "Uitschieter bewerker",
+      "DESCRIPTION": "Zoom in op de grafiek of klik een punt om de metingen te filteren.",
+      "BUTTON_NONE": "Selecteer metingen om te verwijderen in de tabel",
+      "BUTTON_SELECTED": "Verwijder selectie",
+      "REMOVE": "Verwijder",
+      "NONE": "Geen metingen voor deze tijdspanne",
+      "TIMESTAMP": "Timestamp",
+      "EPOCH": "Eeuw",
+      "SAMPLE": "Voorbeeld",
+      "SOURCE": "Bron",
+      "RSSI": "Rssi",
+      "BATTERY": "Batterij",
+      "TEMP": "Temp.",
+      "HUMID": "Vocht.",
+      "WEIGHT": "Gewicht",
+      "WEIGHT_L_R": "Gewicht links ruw",
+      "WEIGHT_R_R": "Gewicht rechts ruw",
+      "WEIGHT_L": "Gewicht links",
+      "WEIGHT_R": "Gewicht rechts",
+      "BALANCE": "L/R Balans",
+      "WEIGHT_SF": "Gewicht schaalfactor",
+      "SAMPLE_STATE": "T2 Sample Status",
+      "CONFIRM_WINDOW": {
+        "TITLE": "Verwijderen van geselecteerde metingen",
+        "MESSAGE": "Wil je de geselecteerde {{count}} metingen verwijderen?",
+        "CONFIRM": "Ja"
+      },
+      "SUCCESS": "Metingen verwijderd",
+      "FAIL": "Fout, metingen niet verwijderd",
+      "DISMISS": "Sluiten",
+      "OUTLIERS": {
+        "TITLE": "Metingen gemarkeerd als uitschieters",
+        "NONE": "Geen verwijderde metingen voor deze periode",
+        "MOVE": "Terug",
+        "MESSAGE": "Bericht",
+        "USER_R": "Gebruiker verwijderd",
+        "SYSTEM_R": "Systeem verwijderd",
+        "BUTTON_NONE": "Selecteer metingen om te herstellen als normale waarden",
+        "BUTTON_SELECTED": "Herstel metingen",
+        "CONFIRM_WINDOW": {
+          "TITLE": "Herstel geselecteerde metingen",
+          "MESSAGE": "Wil je de geselecteerd {{count}} metingen weer toevoegen als normale waarden?",
+          "CONFIRM": "Ja"
         },
-		"APIARY_CONTEXT":
-		{
-			"EDIT":"Edit {{value}}",
-			"NEW_HIVE":"New Hive",
-			"SHARE":"Share",
-            "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Researcher data download"
-		},
-		"HIVE_CONTEXT":
-		{
-			"EDIT":"Edit {{value}}",
-			"NEW_DEVICE":"Add New Device",
-			"EXISTING_DEVICE":"Add Existing Device",
-            "BEECOUNTED":"BeeCounted"
-		},
-		"DEVICE_CONTEXT":
-		{
-			"EDIT":"Edit {{value}}",
-			"EDIT_LOCATION":"Edit Current Location",
-			"MOVE":"Move Device"
-        },
-        "HUB_CONTEXT":
-        {
-            "REMOVE":"Remove {{value}} from menu"
-
-		},
-		"HUB_TOOLTIP":"Hub",
-		"SHARED_TOOLTIP":"shared with me"
-	},
-	"TOP_MENU":{
-		"ACCOUNT":"Account",
-		"TOUR":"Tour",
-		"HELP":"Help",
-		"ADMIN":"Admin",
-		"LOGOUT":"Logout",
-        "LOGIN":"Sign In",
-        "REGISTER":"Register",
-        "RESOURCES":"Resources"
-	},
-	"RESOURCES":{
-		"TITLE":"Resources",
-		"SUBTITLE":"Here you will find many resources so that you can start contributing to learning more about our bees.",
-		"DESCRIPTION":"Thank you for joining the BroodMinder movement where we are learning and sharing information in order to improve our understanding and management of our precious honeybees.",
-		"DESCRIPTION_2":" Sincere thanks to Google and to <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  for their generous support of BroodMinder Citizen Science.",
-		"LINKS":
-			{
-				"TITLE":"Links",
-				"LOGIN":"Login",
-				"USER_GUIDE_VIDEO":"Video User Guides",
-				"USER_GUIDE_PDF":"Written User Guide (PDF)",
-				"BEECOUNTED":"BeeCounted",
-				"SUPPORT":"Support"
-			}
-	},
-	"VIDEO_GUIDES":{
-		"TITLE":"BroodMinder Video User Guide",
-		"HOW_TO":"How to use this manual",
-		"IN_PROGRESS":"In progress",
-		"INSTALLATION":{
-			"TITLE":"Installation",
-			"LINK_1":"Quick Start",
-			"LINK_2":"Which APP Should I Choose?",
-			"LINK_3":"BroodMinder Devices",
-			"LINK_4":"BroodMinder-CELL/WIFI"
-		},
-		"APIARY_APP":{
-			"TITLE":"Apiary App (cloud)",
-			"LINK_1":"Normal Use",
-			"LINK_2":"New - Hub Mode"
-		},
-		"BROODMINDER_APP":{
-			"TITLE":"Original App (standalone)",
-			"LINK_1":"Normal Use",
-			"LINK_2":"Data Exporting"
-		},
-		"CELL_APP":{
-			"TITLE":"CELL App",
-			"LINK_1":"Normal Use (see install)",
-			"LINK_2":"Diagnostics"
-		},
-		"MYBROODMINDER":{
-			"TITLE":"MyBroodMinder",
-			"LINK_1":"Getting Started",
-			"LINK_2":"The Data Views",
-			"LINK_3":"Configuration",
-			"LINK_4":"Moving Devices",
-			"LINK_5":"Cell, WIFI and Hub Monitoring",
-			"LINK_6":"Alternate Navigation"
-		},
-		"INTERPRETATION":{
-			"TITLE":"Data Interpretation",
-			"LINK_1":"Hive Temperature",
-			"LINK_2":"Hive Weight"
-		},
-		"TROUBLESHOOT":{
-			"TITLE":"Troubleshooting",
-			"LINK_1":"Annual Maintenance",
-			"LINK_2":"Batteries",
-			"LINK_3":"Bluetooth Connection",
-			"LINK_4":"Android Considerations",
-			"LINK_5":"Weight Fluctuations",
-			"LINK_6":"Corrosion",
-			"LINK_7":"T2 Firmware Update version 2.77"
-		}
-	},
-	"TOUR":{
-		"START":{
-			"TITLE":"Welcome!!",
-			"DESCRIPTION":"Welcome to the new MyBroodMinder!",
-			"SKIP":"Skip",
-			"SEE":"See Features"
-		},
-		"FEATURES":{
-			"TITLE":"Feature Tour",
-			"SKIP":"Skip",
-			"NEXT":"Next",
-			"CLOSE":"Close",
-			"FEATURE_1":"First time, create hive",
-			"FEATURE_2":"Viewing data",
-			"FEATURE_3":"Configuring and moving devices",
-			"FEATURE_4":"View CELL/WiFi/Hub status"
-		}
-	},
-	"APIARY_PAGE":{
-		"SELECT":"Select a view",
-		"PREMIUM_EXP":"Time range selection for this view available with premium subscription.",
-		"TEXT":{
-			"TITLE":"Text",
-			"DESCRIPTION":"This view displays the most recent reading uploaded for every position in every hive."
-		},
-		"HIVE":{
-				"TITLE":"Hive",
-				"DESCRIPTION":"This view displays a quick chart view for every hive. Weight display precedence: heaviest value. Humidity and temperature display precedence: 1-Above Lower Brood Box 2-Above Upper Brood Box 3-Under Inner Cover 4-Other 5-Custom (highest value) 6-Outside Hive 7-Scale Under Hive"
-		},
-		"SUMMARY":{
-			"TITLE":"Summary",
-			"DESCRIPTION":"This view displays combined charts by data type. Specifics shown follow the defaults of the hive view, but can be set per hive in the hive settings.",
-			"PREMIUM_EXP":"This view available with premium subscription. Example shown below.",
-			"TEMP":{
-				"TITLE":"Apiary Temperatures",
-				"NONE":"No temperature data",
-				"LOADING":"Loading apiary temperature readings"
-			},
-            "HUMID":{
-				"TITLE":"Apiary Humidity",
-				"NONE":"No humidity data",
-				"LOADING":"Loading apiary humidity readings"
-			},
-			"WEIGHT":{
-				"TITLE":"Apiary Weights",
-				"NONE":"No weight data",
-				"LOADING":"Loading apiary weight readings"
-			},
-			"BATTERY":{
-				"TITLE":"Apiary Battery",
-				"NONE":"No battery data",
-				"LOADING":"Loading apiary battery readings"
-			},
-			"HIVES":"Hives"
-		}  
-	},
-    "HIVE_PAGE":{
-        "DATA_TOOLTIP":{
-            "UPDATE":"View needs update",
-            "BUILDING":"View building",
-            "OK":"View up to date"
-        },
-        "TEMP":{
-            "TITLE":"Temperature",
-            "NONE":"No temperature data",
-            "LOADING":"Loading hive temperature readings"
-        },
-        "HUMID":{
-            "TITLE":"Humidity",
-            "NONE":"No humidity data",
-            "LOADING":"Loading hive humidity readings"
-        },
-        "WEIGHT":{
-            "TITLE":"Weight",
-            "NONE":"No weight data",
-            "LOADING":"Loading hive weight readings",
-            "MULTI_SCALE":"Multiple scales",
-            "AVERAGE_SCALE":"Scales Averaged",
-            "INDIVIDUAL_SCALE":"Individual Scales"
-        },
-        "PRODUCTIVITY":{
-            "TITLE":"Honeybee Productivity",
-            "NONE":"No weight data for honeybee productivity",
-            "LOADING":"Loading honeybee productivity",
-            "INFO":"Bees adding/removing hive weight"
-        },
-        "BATTERY":{
-            "TITLE":"Battery",
-            "NONE":"No battery data",
-            "LOADING":"Loading hive battery readings"
-        },
-        "DEVICES":"Devices",
-        "DEVICE_WITH_DATA":"Data in charts, currently in hive",
-        "DEVICE_NO_DATA":"No data in charts, currently in hive",
-        "DEVICE_DATA_ONLY":"Data in charts, not currently in hive",
-        "DOWNLOAD":"Download CSV data",
-        "DOWNLOAD_WEATHER":"Download Weather CSV data",
-        "DOWNLOAD_PREMIUM":"Downloading hive data available with premium subscription.",
-        "DOWNLOAD_WEATHER_PREMIUM":"Downloading weather data available with premium subscription."
+        "SUCCESS": "Metingen hersteld",
+        "FAIL": "Fout, metingen niet hersteld"
+      }
+    }
+  },
+  "HUB_PAGE": {
+    "TITLE": "Hub {{name}}",
+    "NAME": "Sensor locatiegeschiedenis",
+    "ADDRESS": "Sensor adres",
+    "MODEL": "Model",
+    "FIRMWARE": "Firmware",
+    "UPLOAD_TIME": "Laatst geupload",
+    "CHART_TITLE": "Hub metingen voor {{name}}",
+    "READING_COUNT": "{{count}} metingen in grafiek",
+    "CHART_LOADING": "Hub metingen laden",
+    "CHART_READINGS_SENT": "Metingen verstuurd",
+    "CHART_READINGS_LABEL": "metingen",
+    "CHART_SIGNAL": "Signaal"
+  },
+  "CONFIGURE_PAGE": {
+    "TITLE": "Instellingen",
+    "SEPARATE": "Per type",
+    "NESTED": "Per type per bijenstal",
+    "ACCOUNT_TITLE": "Mijn account",
+    "PREFERENCES_TITLE": "My voorkeuren",
+    "APIARIES_TITLE": "Bijenstallen",
+    "HIVES_TITLE": "Bijenkasten",
+    "DEVICES_TITLE": "Apparaten"
+  },
+  "FEATURES": {
+    "TITLE": "Feature Tour",
+    "SKIP": "Overslaan",
+    "NEXT": "Volgende",
+    "CLOSE": "Sluiten",
+    "FEATURE_1": "Eerste keer, kast aanmaken",
+    "FEATURE_2": "Data bekijken",
+    "FEATURE_3": "Apparaten instellen en verplaatsen",
+    "FEATURE_4": "CELL/WiFi/Hub status bekijken"
+  },
+  "DATE_PICKER": {
+    "VIEWING": "Bekijken",
+    "START": "Start",
+    "END": "Einde",
+    "APPLY": "Toepassen",
+    "HOURS_24": "24 uur",
+    "DAYS_3": "Laatste 3 dagen",
+    "DAYS_7": "Laatste 7 dagen",
+    "DAYS_14": "Laatste 14 dagen",
+    "DAYS_30": "Laatste 30 dagen",
+    "DAYS_90": "Laatste 90 dagen",
+    "DAYS_180": "Laatste 180 dagen",
+    "YEAR_1": "Laatste jaar",
+    "CUSTOM": "Keuze periode"
+  },
+  "NOTES": {
+    "TITLE": "{{value}} Notities",
+    "ADD_TOOLTIP": "Notitie toevoegen",
+    "DOWNLOAD_TOOLTIP": "Notities downloaden",
+    "HIVE": "Bijenkast",
+    "DATE": "Datum",
+    "PIN": "Pin",
+    "DESCRIPTION": "Omschrijving",
+    "DELETE_WINDOW": {
+      "TITLE": "Notitie verwijderen?",
+      "MESSAGE": "Wil je deze notitie verwijderen?",
+      "CONFIRM": "Ja"
     },
-    "DEVICE_PAGE":{
-        "DATA_TOOLTIP":{
-            "UPDATE":"View needs update",
-            "BUILDING":"View building",
-            "OK":"View up to date"
-        },
-        "TITLE":"Device Data - {{name}}",
-        "CHART_TITLE":"Device Summary for {{name}}",
-        "LOCATION_PIN_START":"S",
-        "LOCATION_PIN_END":"E",
-        "LOCATION_HISTORY":"Device Location History",
-        "LOCATION_ADD":"Add Location",
-        "LOADING":"Loading device sensor readings",
-        "DOWNLOAD":"Download CSV data",
-        "DOWNLOAD_PREMIUM":"Downloading device data available with premium subscription.",
-        "OUTLIER_SHOW":"Remove outliers",
-        "OUTLIER_HIDE":"Hide outlier editor",
-        "EDITOR":{
-            "TITLE":"Outlier Editor",
-            "DESCRIPTION":"Zoom chart or click point to filter readings below.",
-            "BUTTON_NONE":"Select readings to remove in table below",
-            "BUTTON_SELECTED":"Remove selected",
-            "REMOVE":"Remove",
-            "NONE":"No readings for this time period",
-            "TIMESTAMP":"Timestamp",
-            "EPOCH":"Epoch",
-            "SAMPLE":"Sample",
-            "SOURCE":"Source",
-            "RSSI":"Rssi",
-            "BATTERY":"Battery",
-            "TEMP":"Temp",
-            "HUMID":"Humid",
-            "WEIGHT":"Weight",
-            "WEIGHT_L_R":"Weight Left Raw",
-            "WEIGHT_R_R":"Weight Right Raw",
-            "WEIGHT_L":"Weight Left",
-            "WEIGHT_R":"Weight Right",
-            "BALANCE":"L/R Balance",
-            "WEIGHT_SF":"Weight Scale Factor",
-            "SAMPLE_STATE":"T2 Sample State",
-            "CONFIRM_WINDOW":{
-               "TITLE":"Remove selected readings",
-               "MESSAGE":"Would you like to remove selected {{count}} readings?",
-               "CONFIRM":"Yes"
-            },
-            "SUCCESS":"Readings removed",
-            "FAIL":"Error, readings not removed",
-            "DISMISS":"Dismiss",
-            "OUTLIERS":{
-                "TITLE":"Readings marked as outliers",
-                "NONE":"No removed readings for this time period",
-                "MOVE":"Move Back",
-                "MESSAGE":"Message",
-                "USER_R":"User Removed",
-                "SYSTEM_R":"System Removed",
-                "BUTTON_NONE":"Select readings to add back as normal sensor readings",
-                "BUTTON_SELECTED":"Move back selected",
-                "CONFIRM_WINDOW":{
-                   "TITLE":"Move selected readings",
-                   "MESSAGE":"Would you like to re-add selected {{count}} readings back to normal sensor readings?",
-                   "CONFIRM":"Yes"
-                },
-                "SUCCESS":"Readings moved",
-                "FAIL":"Error, readings not moved"
-            }
-        }
+    "PREMIUM_EXP": "Notities downloaden alleen beschikbaar met premium abonnement.",
+    "NO_DESCRIPTION": "geen omschrijving"
+  },
+  "CHARTS": {
+    "TEMP": "Temperatuur",
+    "TEMP_AXIS": "Temperatuur in {{tUnit}}",
+    "HUMID": "Luchtvochtigheid",
+    "HUMID_AXIS": "Luchtvochtigheids %",
+    "NORMAL_HUMIDITY": "Normale luchtvochtigheid",
+    "WEIGHT": "Gewicht",
+    "WEIGHT_AXIS": "Gewicht in {{wUnit}}",
+    "PRODUCTIVITY": "Honingbij productiviteit",
+    "PRODUCTIVITY_AXIS": "Honingbij productiviteit in {{wUnit}}",
+    "BATTERY": "Batterijlading",
+    "BATTERY_AXIS": "Lading %",
+    "BALANCE": "L/R Balasn",
+    "WEATHER_TEMP": "Buitentemperatuur",
+    "WEATHER_HUMID": "Buiten luchtvochtigheid",
+    "SWARM_S": {
+      "TITLE": "S",
+      "CHANGE_TO": {
+        "0": "Zwerm monitoring gestopt door systeem",
+        "1": "Zwerm monitoring gestopt door gebruiker",
+        "8": "Zwerm monitoring gestopt door systeem, te druk.",
+        "29": "Zwerm ontdekt",
+        "60": "Zwermzoeken afgerond"
+      }
+    }
+  },
+  "LOCATION_HIST": {
+    "HIVE": "Bijenkast",
+    "POSITION": "Positie",
+    "DEVICE_NAME": "Sensornaam",
+    "DEVICE_ADDRESS": "Sensor adres",
+    "START": "Start",
+    "END": "Einde",
+    "CURRENT": "stroom",
+    "MOVE": "Verplaatsen",
+    "DELETE_WINDOW": {
+      "TITLE": "Locatie verwijderen",
+      "MESSAGE": "Wil je de locatie van deze sensor verwijderen?",
+      "CONFIRM": "Ja"
+    }
+  },
+  "LOCATION_CRUD": {
+    "CREATE_TITLE": "Sensor toewijzen",
+    "EDIT_TITLE": "Locatie bewerken",
+    "MOVE_TITLE": "Sensor verplaatsen",
+    "MOVE_EXP": "Dit beëindigt de huidige locatie en start een nieuwe.",
+    "SELECT_DEVICE": "Sensor selecteren",
+    "SELECT_APIARY": "Bijenstal selecteren",
+    "SELECT_HIVE": "Kast selecteren",
+    "SELECT_POSITION": "Positie selecteren",
+    "START_DAY": "Startdag",
+    "START_TIME": "Starttijd",
+    "STOP_DAY": "Einddag",
+    "STOP_TIME": "Eindtijd",
+    "MOVED_DAY": "Startdag nieuwe locatie",
+    "MOVED_TIME": "Tijd",
+    "ERROR_DEVICE": "Sensor heeft een overlappende locatie op deze tijd",
+    "ERROR_HIVE": "Bijenkast heeft een overlappende sensor op deze positie",
+    "ERROR_TIME": "Locatie eindtijd ligt voor starttijd",
+    "ERROR_GENERAL": "Fout bij aanmaken sensorlocatie",
+    "ERROR_INACTIVE_HIVE": "Locatie kan geen eindtijd hebben na inactieve kast tijd",
+    "ERROR_MOVE_TIME": "Kan locatie niet beëindigen voor deze gestart is, zet tijd na {{currentEnd}}",
+    "SUCCESS_MOVED": "Sensor verplaatst naar kast",
+    "SUCCESS_ENDED": "Huidige locatie beëindigd",
+    "CREATE": "Aanmaken"
+  },
+  "APIARY_CRUD": {
+    "CREATE_TITLE": "Bijenstal aanmaken",
+    "EDIT_TITLE": "Bijenstal bewerken",
+    "NAME": "Naam",
+    "ZIPCODE": "Postcode",
+    "EDIT_ZIP_EXP": "Je kunt de locatie van een bijenstal met data niet wijzigen.",
+    "COUNTRY": "Landcode",
+    "PRIVATE": "Privé (data niet delen) - Premium Feature",
+    "PRIVATE_TOOLTIP": "Overweeg svp om je data te delen. Je helpt er onderzoekers over de hele wereld mee om ervan te leren en interventies te ontwikkelen voor onze kostbare honingbijen en natuur.",
+    "NOT_PRIVATE_TOOLTIP": "Dank voor het delen van je data. Je helpt er onderzoekers over de hele wereld mee om ervan te leren en interventies te ontwikkelen voor onze kostbare honingbijen en natuur.",
+    "ERROR_COUNTRY": "Selecteer een geldige landcode",
+    "SUCCESS_CREATED": "Bijenstal aangemaakt",
+    "SUCCESS_UPDATED": "Bijenstal geupdate"
+  },
+  "HIVE_CRUD": {
+    "CREATE_TITLE": "Bijenkast aanmaken",
+    "EDIT_TITLE": "Bijenkast bewerken",
+    "NAME": "Naam",
+    "SELECT_APIARY": "Bijenstal selecteren",
+    "DESCRIPTION": "Omschrijving",
+    "ERROR_APIARY": "Je moet een bijenstal selecteren",
+    "SUCCESS_CREATED": "Kast aangemaakt",
+    "SUCCESS_UPDATED": "Kast geupdate",
+    "DISPLAY": {
+      "DESCRIPTION": "Bijenstal overzichtsinstellingen",
+      "WEIGHT": {
+        "DESCRIPTION": "Weegschaal om te tonen op Bijenstal overzicht",
+        "AUTO": "Auto-selectie maximum weegschaal gewicht",
+        "NONE": "Geen weegschaal tonen op Bijenstal overzicht"
+      },
+      "TEMP": {
+        "DESCRIPTION": "Temperatuursensor om te tonen op Bijenstal overzicht",
+        "AUTO": "Auto-selectie maximum temperatuur",
+        "NONE": "Geen temperatuursensor tonen op Bijenstal overzicht"
+      },
+      "HUMID": {
+        "DESCRIPTION": "Hygrometer om te tonen op Bijenstal overzicht",
+        "AUTO": "Auto-selectie maximum luchtvochtigheid",
+        "NONE": "Geen hygrometer tonen op Bijenstal overzicht"
+      },
+      "BATTERY": {
+        "DESCRIPTION": "Batterijsensor om te tonen op Bijenstal overzicht",
+        "AUTO": "Laagste batterijspanning van bijenkast op het Bijenstal overzicht tonen?",
+        "NONE": "Geen batterijsensor op het Bijenstal overzicht tonen"
+      }
+    }
+  },
+  "DEVICE_CRUD": {
+    "CREATE_TITLE": "Sensor aanmaken",
+    "EDIT_TITLE": "Sensor bewerken",
+    "NAME": "Naam",
+    "NAME_AUTO": "Gebruik adres als naam",
+    "MODEL": "Model nummer",
+    "SCALE": "Deze sensor is een weegschaal",
+    "BIP_SEND": "Deel data met Bee Informed Partnership",
+    "BIP_AGREE": "Toestemming geven aan BIP",
+    "BIP_TERMS": "Gebruiksvoorwaarden",
+    "ERROR_ADDRESS": "Geef svp een geldig sensoradres op",
+    "ERROR_DUPLICATE": "Kon sensor niet aanmaken, sensor met dat adres bestaat al.",
+    "ERROR_BIP": "Toestemming met BIP gebruiksvoorwaarden nodig om te kunnen versturen",
+    "SUCCESS_CREATED": "Sensor aangemaakt",
+    "SUCCESS_UPDATED": "Sensor geupdate",
+    "PLACE_TITLE": "Plaats sensor",
+    "SELECT_POSITION": "Selecteer positie",
+    "SUCCESS_PLACED": "Sensor in hive geplaatst"
+  },
+  "NOTE_CRUD": {
+    "CREATE_TITLE": "Notitie aanmaken",
+    "EDIT_TITLE": "Notitie bewerken",
+    "NO_HIVE": "Geen bijenkast",
+    "ADD_TAG": "Tag toevoegen",
+    "DATE": "Datum",
+    "SUCCESS_CREATED": "Notitie aangemaakt voor bijenkast",
+    "SUCCESS_UPDATED": "Notitie bijgewerkt voor bijenkast",
+    "ERROR_TIME": "Ongeldige tijd"
+  },
+  "ACCOUNT": {
+    "TITLE": "Accountinstellingen",
+    "USERNAME": "Gebruikersnaam",
+    "FIRST_NAME": "Voornaam",
+    "LAST_NAME": "Achternaam",
+    "SUBSCRIPTION": "Type abonnement",
+    "SUB_TYPES": {
+      "BASIC": "Basic",
+      "PREMIUM": "Premium",
+      "PREMIUM_WITH_EXP": "Premium eindigt op {{value}}"
     },
-    "HUB_PAGE":{
-        "TITLE":"Hub {{name}}",
-        "NAME":"Device Location History",
-        "ADDRESS":"Device Address",
-        "MODEL":"Model",
-        "FIRMWARE":"Firmware",
-        "UPLOAD_TIME":"Last Upload Time",
-        "CHART_TITLE":"Hub Readings for {{name}}",
-        "READING_COUNT":"Readings graphed: {{count}}",
-        "CHART_LOADING":"Loading hub readings",
-        "CHART_READINGS_SENT":"Readings Sent",
-        "CHART_READINGS_LABEL":"readings",
-        "CHART_SIGNAL":"Signal"
+    "PURCHASE": "Premium Abonnement aanschaffen",
+    "CONFIRM": "Bevestig Premium Abonnement",
+    "SAVE": "Opslaan",
+    "CONFIRM_SUB_WINDOW": {
+      "TITLE": "Bestig aanschaf premium abonnement ",
+      "DESCRIPTION": "Vul code uit bevestigings email in",
+      "CONFIRMATION_NUMBER": "Bevstigingscode",
+      "CONFIRM": "Bevestigen",
+      "VALID": "Geldige code",
+      "PURCHASED": "Aangeschaft op",
+      "ERROR": {
+        "NOT_FOUND": "Geen aangeschaft abonnement gevonden",
+        "USED_THIS_ACCOUNT": "Al bevestigd voor dit account, loopt af op {{value}}",
+        "USED_OTHER_ACCOUNT": "Al bevestigd voor een ander account"
+      }
     },
-    "CONFIGURE_PAGE":{
-        "TITLE":"Configure",
-        "SEPARATE":"By type",
-        "NESTED":"Nested by Apiary",
-        "ACCOUNT_TITLE":"My Account",
-        "PREFERENCES_TITLE":"My Preferences",
-        "APIARIES_TITLE":"Apiaries",
-        "HIVES_TITLE":"Hives",
-        "DEVICES_TITLE":"Devices"
+    "EDIT_EMAIL": {
+      "BUTTON": "Change Account Email",
+      "TITLE": "Change Account Email",
+      "ERROR": "Error occured. Email not changed.",
+      "REFRESH_ERROR": "Changing your account email requires recent authentication. Log in again before retrying this change.",
+      "NEW_EMAIL": "New email"
+    }
+  },
+  "PREFERENCES": {
+    "TIMEZONE": "Tijdzone",
+    "TIMEZONE_DEFAULT": "Browser standaard",
+    "UNIT": "Eenheid",
+    "UNIT_DEFAULT": "Standaard",
+    "UNIT_METRIC": "Metrisch (Graden Celcius/Kilogrammen)",
+    "UNIT_IMPERIAL": "Imperial (Fahrenheit/Pounds)",
+    "INTERPOLATE": "Grafieken interpoleren (alle punten verbinden ook bij >8u ontbrekende data)",
+    "LANGUAGE": "Taal",
+    "LANGUAGE_DEFAULT": "Browser standaard",
+    "SAVE": "Opslaan"
+  },
+  "CONFIGURE_APIARIES": {
+    "ADD": "Bijenstal toevoegen",
+    "NAME": "Bijenstal naam",
+    "ZIPCODE": "Postcode",
+    "SHARE": "Delen",
+    "ACTIVE": "Actief",
+    "CONFIRM_DELETE_WINDOW": {
+      "TITLE": "Bijenstal verwijderen",
+      "MESSAGE": "Weet je zeker dat je bijenstal {{name}} wilt verwijderen? Dit verwijdert definitief alle data inclusief bijenkasten",
+      "CONFIRM": "Ja"
     },
-	"FEATURES":{
-		"TITLE":"Feature Tour",
-		"SKIP":"Skip",
-		"NEXT":"Next",
-		"CLOSE":"Close",
-		"FEATURE_1":"First time, create hive",
-		"FEATURE_2":"Viewing data",
-		"FEATURE_3":"Configuring and moving devices",
-		"FEATURE_4":"View CELL/WiFi/Hub status"
-	},
-	"DATE_PICKER":{
-		"VIEWING":"Viewing",
-        "START":"Start",
-        "END":"End",
-        "APPLY":"Apply",
-		"HOURS_24":"Last 24 Hours",
-		"DAYS_3":"Last 3 days",
-		"DAYS_7":"Last 7 days",
-		"DAYS_14":"Last 14 days",
-		"DAYS_30":"Last 30 days",
-		"DAYS_90":"Last 90 days",
-		"DAYS_180":"Last 180 days",
-		"YEAR_1":"Last year",
-		"CUSTOM":"Custom range"
-	},
-	"NOTES":{
-		"TITLE":"{{value}} Notes",
-		"ADD_TOOLTIP":"Add Note",
-		"DOWNLOAD_TOOLTIP":"Download Notes",
-		"HIVE":"Hive",
-		"DATE":"Date",
-        "PIN":"Pin",
-		"DESCRIPTION":"Description",
-		"DELETE_WINDOW":{
-			"TITLE":"Delete note",
-			"MESSAGE":"Would you like to delete this note?",
-			"CONFIRM":"Yes"
-		},
-        "PREMIUM_EXP":"Downloading notes available with premium subscription.",
-        "NO_DESCRIPTION":"no description"
-	},
-    "CHARTS":{
-        "TEMP":"Temperature",
-        "TEMP_AXIS":"Temperature in {{tUnit}}",
-        "HUMID":"Humidity",
-        "HUMID_AXIS":"Humidity %",
-        "NORMAL_HUMIDITY":"Normal Humidity",
-        "WEIGHT":"Weight",
-        "WEIGHT_AXIS":"Weight in {{wUnit}}",
-        "PRODUCTIVITY":"Honeybee Productivity",
-        "PRODUCTIVITY_AXIS":"Honeybee Productivity in {{wUnit}}",
-        "BATTERY":"Battery Charge",
-        "BATTERY_AXIS":"Charge %",
-        "BALANCE":"L/R Balance",
-        "WEATHER_TEMP":"Outside Temperature",
-        "WEATHER_HUMID":"Outside Humidity",
-        "SWARM_S":{
-            "TITLE":"S",
-            "CHANGE_TO":{
-                "0":"Swarm montitoring stopped by system",
-                "1":"Swarm montitoring stopped by user",
-                "8":"Swarm montitoring stopped by system, too busy.",
-                "29":"Swarm detected",
-                "60":"Swarm detection complete"
-            }
-        }
+    "CONFIRM_INACTIVE_WINDOW": {
+      "TITLE": "Archiveer bijenstal ",
+      "MESSAGE": "Dit archiveert alle kasten in deze bijenstal, beëindigt alle sensorlocaties in elke kast en verwijdert de bijenstal uit je overzichten. Bestaande data blijft bewaard, maar er zal geen nieuwe data meer bijkomen voor deze bijenstal en z'n bijenkasten. Archiveer bijenstal {{name}}?",
+      "CONFIRM": "Ja"
     },
-    "LOCATION_HIST":{
-        "HIVE":"Hive",
-        "POSITION":"Position",
-        "DEVICE_NAME":"Device Name",
-        "DEVICE_ADDRESS":"Device Address",
-        "START":"Start",
-        "END":"End",
-        "CURRENT":"current",
-        "MOVE":"Move",
-        "DELETE_WINDOW":{
-            "TITLE":"Remove location",
-            "MESSAGE":"Would you like to remove this device location?",
-            "CONFIRM":"Yes"
-        }
+    "UPDATED_SUCCESS": "Bijenstal bijgewerkt",
+    "DELETE_SUCCESS": "Bijenstal verwijderd",
+    "DELETE_ERROR": "Fout bij verwijderen bijenstal"
+  },
+  "CONFIGURE_HIVES": {
+    "ADD": "Bijenkast toevoegen",
+    "NAME": "Kastnaam",
+    "CODE": "Kastcode",
+    "APIARY": "Bijenstal",
+    "LOCATION_HISTORY": "Locatiegeschiedenis",
+    "ACTIVE": "Actief",
+    "CONFIRM_DELETE_WINDOW": {
+      "TITLE": "Kast verwijderen",
+      "MESSAGE": "Weet je zeker dat je kast {{name}} wilt verwijderen? Dit kan niet ongedaan gemaakt worden.",
+      "CONFIRM": "Ja"
     },
-    "LOCATION_CRUD":{
-           "CREATE_TITLE":"Assign device",
-           "EDIT_TITLE":"Edit Location",
-           "MOVE_TITLE":"Move Device",
-           "MOVE_EXP":"This ends current location and starts a new one.",
-           "SELECT_DEVICE":"Select device",
-           "SELECT_APIARY":"Select apiary",
-           "SELECT_HIVE":"Select hive",
-           "SELECT_POSITION":"Select position",
-           "START_DAY":"Start day",
-           "START_TIME":"Start time",
-           "STOP_DAY":"Stop day",
-           "STOP_TIME":"Stop time",
-           "MOVED_DAY":"New location start day",
-           "MOVED_TIME":"Time",
-           "ERROR_DEVICE":"Device has a location overlapping this time",
-           "ERROR_HIVE":"Hive has device overlapping this position",
-           "ERROR_TIME":"Location has end time before start time",
-           "ERROR_GENERAL":"Error creating device location",
-           "ERROR_INACTIVE_HIVE":"Location cannot have end time after hive inactive time",
-           "ERROR_MOVE_TIME":"Cannot end location before start, set time to after {{currentEnd}}",
-           "SUCCESS_MOVED":"Device moved to hive",
-           "SUCCESS_ENDED":"Current location ended",
-           "CREATE":"Create"
-       },
-    "APIARY_CRUD":{
-        "CREATE_TITLE":"Create Apiary",
-        "EDIT_TITLE":"Edit Apiary",
-        "NAME":"Name",
-        "ZIPCODE":"Zipcode",
-        "EDIT_ZIP_EXP":"You cannot change location for an apiary that contains data.",
-        "COUNTRY":"Country Code",
-        "PRIVATE":"Private (Do not share data) Premium Feature",
-        "PRIVATE_TOOLTIP":"Please consider sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
-        "NOT_PRIVATE_TOOLTIP":"Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
-        "ERROR_COUNTRY":"Select valid country code",
-        "SUCCESS_CREATED":"Apiary created",
-        "SUCCESS_UPDATED":"Apiary updated"
+    "CONFIRM_INACTIVE_WINDOW": {
+      "TITLE": "Archiveer bijenkast",
+      "MESSAGE": "Dit beëindigt alle sensorlocaties in de bijenkast en verwijdert de kast uit je overzichten. Bestaande data blijft bewaard, maar er zal geen nieuwe data voor deze kast bijkomen. Dit kan niet ongedaan gemaakt worden. Bijenkast {{name}} archiveren?",
+      "CONFIRM": "Ja"
     },
-    "HIVE_CRUD":{
-        "CREATE_TITLE":"Create Hive",
-        "EDIT_TITLE":"Edit Hive",
-        "NAME":"Name",
-        "SELECT_APIARY":"Select apiary",
-        "DESCRIPTION":"Description",
-        "ERROR_APIARY":"Must select apiary",
-        "SUCCESS_CREATED":"Hive created",
-        "SUCCESS_UPDATED":"Hive updated",
-        "DISPLAY":{
-            "DESCRIPTION":"Apiary summary view settings",
-            "WEIGHT":{
-                "DESCRIPTION":"Weight device to graph on the Apiary Summary",
-                "AUTO":"Auto-select maximum scale weight",
-                "NONE":"Don't show a weight device on the Apiary Summary"
-            },
-            "TEMP":{
-                "DESCRIPTION":"Temperature device to graph on the Apiary Summar",
-                "AUTO":"Auto-select maximum temperature",
-                "NONE":"Don't show a temperature device on the Apiary Summary"
-            },
-            "HUMID":{
-                "DESCRIPTION":"Humidity device to graph on the Apiary Summary",
-                "AUTO":"Auto-select maximum humidity",
-                "NONE":"Don't show a humidity device on the Apiary Summary"
-            },
-            "BATTERY":{
-                "DESCRIPTION":"Battery device to graph on the Apiary Summary",
-                "AUTO":"Show lowest Device battery in the Hive on the Apiary Summary?",
-                "NONE":"Don't show a battery device on the Apiary Summary"
-            }
-        }
+    "UPDATED_SUCCESS": "Kast geupdate",
+    "DELETE_SUCCESS": "Kast verwijderd",
+    "DELETE_ERROR": "Fout bij verwijderen kast"
+  },
+  "CONFIGURE_DEVICES": {
+    "ADD": "Sensor toevoegen",
+    "DOWNLOAD": "Sensors downloaden",
+    "NAME": "Sensor naam",
+    "ADDRESS": "Sensor adres",
+    "LOCATION": "Huidige locatie",
+    "DATA_RECEIVED": "Laatst ontvangen data",
+    "LOCATION_HISTORY": "Locatiegeschiedenis",
+    "ADD_LOCATION": "Locatie toevoegen",
+    "ACTIVE": "Actief",
+    "CONFIRM_DELETE_WINDOW": {
+      "TITLE": "Sensor verwijderen",
+      "MESSAGE": "Weet je zeker dat je sensor {{deviceName}} wilt verwijderen? Dit verwijdert de sensor en alle gekoppelde data definitief.",
+      "CONFIRM": "Ja"
     },
-    "DEVICE_CRUD":{
-        "CREATE_TITLE":"Create Device",
-        "EDIT_TITLE":"Edit Device",
-        "NAME":"Name",
-        "NAME_AUTO":"Use address above as name",
-        "MODEL":"Model number",
-        "SCALE":"This device is a scale",
-        "BIP_SEND":"Send data to the Bee Informed Partnership",
-        "BIP_AGREE":"Must agree to BIP",
-        "BIP_TERMS":"Terms of Use",
-        "ERROR_ADDRESS":"Please enter valid device address",
-        "ERROR_DUPLICATE":"Could not create, device with that address already exists",
-        "ERROR_BIP":"Must agree to BIP Terms of Use to enable sending",
-        "SUCCESS_CREATED":"Device created",
-        "SUCCESS_UPDATED":"Device updated",
-        "PLACE_TITLE":"Place Device",
-        "SELECT_POSITION":"Select position",
-        "SUCCESS_PLACED":"Device placed in hive"
+    "UPDATED_SUCCESS": "Sensor geupdate",
+    "DELETE_SUCCESS": "Sensor verwijderd",
+    "DELETE_ERROR": "Fout bij verwijderen sensor"
+  },
+  "UNAUTHORIZED_PAGE": {
+    "TITLE": "Niet toegestaan"
+  },
+  "COMMON": {
+    "SAVE": "Opslaan",
+    "CREATE": "Aanmaken",
+    "EDIT": "Bewerken",
+    "DELETE": "Verwijderen",
+    "CANCEL": "Annuleren",
+    "DISMISS": "Sluiten",
+    "APIARY": "Bijenstal",
+    "HIVE": "Bijenkast",
+    "DEVICE": "Sensor",
+    "POSITION": "Positie"
+  },
+  "BEECOUNTED": {
+    "TITLE": "BeeCounted.org",
+    "LINK": "Kast bekijken op BeeCounted.org ",
+    "COPY_LINK_TOOLTIP": "Link kopiëren",
+    "LINK_COPIED": "Link gekopieerd",
+    "EMBED": "Grafiek in webpagina invoegen",
+    "COPY_EMBED_TOOLTIP": "Invoegcode kopiëren",
+    "EMBED_COPIED": "Invoegcode gekopieerd",
+    "PRIVATE_APIARY": "Bijenkast data niet gedeeld met BeeCounted. Deze bijenstal, {{name}}, is niet gedeeld met BeeCounted.",
+    "PRIVATE_HIVE": "Bijenkast data niet gedeeld met BeeCounted."
+  },
+  "SHARING": {
+    "TITLE": "{{name}} Delen",
+    "MBM_TITLE": "Deel bijenstal met MyBroodMinder gebruiker",
+    "EXT_SUBTITLE": "Deel bijenstal met andere sites",
+    "USER": {
+      "TITLE": "MyBroodMinder Gebruikers",
+      "INFO": "De gebruiker moet al een account bij MyBroodMinder hebben. De gebruiker kan dan jouw bijenstal en bijenkastdata zien, maar geen wijzigingen maken.",
+      "ADD_TOOLTIP": "Gebruiker toevoegen",
+      "ADD_USER": "Email invoeren",
+      "SHARE_BUTTON": "Delen",
+      "ADD_SUCCESS": "Gebruiker toegevoegd",
+      "ERROR_NO_USER": "Gebruiker bestaat niet.",
+      "REMOVE": "Verwijderen",
+      "REMOVE_SUCCESS": "Gebruiker verwijderd"
     },
-    "NOTE_CRUD":{
-        "CREATE_TITLE":"Create Note",
-        "EDIT_TITLE":"Edit Note",
-        "NO_HIVE":"No Hive",
-        "ADD_TAG":"Add tag",
-        "DATE":"Date",
-        "SUCCESS_CREATED":"Note created in hive",
-        "SUCCESS_UPDATED":"Note updated in hive",
-        "ERROR_TIME":"Invalid time"
+    "BEECOUNTED": {
+      "CHECKBOX": "BeeCounted.org",
+      "CHANGED": "Bijenstal geupdate",
+      "INFO_CHECKED": "Dank voor het delen van je data. Je helpt er onderzoekers over de hele wereld mee om ervan te leren en interventies te ontwikkelen voor onze kostbare honingbijen en natuur.",
+      "INFO_UNCHECKED": "Overweeg svp om je data te delen. Je helpt er onderzoekers over de hele wereld mee om ervan te leren en interventies te ontwikkelen voor onze kostbare honingbijen en natuur.",
+      "INFO_NON_PREMIUM": "Alle data van gebruikers zonder Premium abonnement komt in het publieke domein. Data kan privé gemakat worden als je een MyBroodMinder-Premium abonnement hebt. Dank voor het delen van je data. Je helpt er onderzoekers over de hele wereld mee om ervan te leren en interventies te ontwikkelen voor onze kostbare honingbijen en natuur.",
+      "EXPIRED": "Premium abonnement is verlopen. Data is alleen privé voorafgaand aan {{end}}."
     },
-    "ACCOUNT":{
-        "TITLE":"Account Settings",
-        "USERNAME":"Username",
-        "FIRST_NAME":"First Name",
-        "LAST_NAME":"Last Name",
-        "SUBSCRIPTION":"Subscription Type",
-        "SUB_TYPES":{
-            "BASIC":"Basic",
-            "PREMIUM":"Premium",
-            "PREMIUM_WITH_EXP":"Premium expiring on {{value}}"
-        },
-        "PURCHASE":"Purchase Premium Membership",
-        "CONFIRM":"Confirm Premium Subscription Purchase",
-        "SAVE":"Save",
-        "CONFIRM_SUB_WINDOW":{
-            "TITLE":"Confirm Premium Subscription Purchase",
-            "DESCRIPTION":"Enter code from confirmation email",
-            "CONFIRMATION_NUMBER":"Confirmation Number",
-            "CONFIRM":"Confirm",
-            "VALID":"Valid Purchase",
-            "PURCHASED":"Purchased on",
-            "ERROR":{
-                "NOT_FOUND":"No subscription purchase found",
-                "USED_THIS_ACCOUNT":"Already confirmed for this account, expires on {{value}}",
-                "USED_OTHER_ACCOUNT":"Already confirmed with another account"
-            }
-        },
-        "EDIT_EMAIL":{
-            "BUTTON":"Change Account Email",
-            "TITLE":"Change Account Email",
-            "ERROR":"Error occured. Email not changed.",
-            "REFRESH_ERROR":"Changing your account email requires recent authentication. Log in again before retrying this change.",
-            "NEW_EMAIL":"New email"
-        }
+    "BIP": {
+      "CHECKBOX": "Bee Informed Partnership",
+      "CHANGED": "Bijenstal geupdate",
+      "INFO": "Binnenkort beschikbaar"
     },
-    "PREFERENCES":{
-        "TIMEZONE":"Timezone",
-        "TIMEZONE_DEFAULT":"Browser Default",
-        "UNIT":"Unit",
-        "UNIT_DEFAULT":"Default",
-        "UNIT_METRIC":"Metric (Centigrade/Kilograms)",
-        "UNIT_IMPERIAL":"Imperial (Fahrenheit/Pounds)",
-        "INTERPOLATE":"Interpolate Charts (connect all points, even if data gaps over 8 hours)",
-        "LANGUAGE":"Language",
-        "LANGUAGE_DEFAULT":"Browser Default",
-        "SAVE":"Save"
+    "MELLISPHERA": {
+      "CHECKBOX": "Mellisphera(Beta)",
+      "INFO_NO_ACCOUNT": "Account niet gekoppeld aan Mellisphera",
+      "INFO_ACCOUNT": "Bijenstal tonen in mijn Mellisphera account",
+      "CHANGED": "Bijenstal geupdate",
+      "ACTIVE_WINDOW": {
+        "TITLE": "Mellisphera Account activeren",
+        "MESSAGE": "Klik hieronder om je Mellisphera account te activeren."
+      }
     },
-    "CONFIGURE_APIARIES":{
-        "ADD":"Add Apiary",
-        "NAME":"Apiary Name",
-        "ZIPCODE":"Zipcode",
-        "SHARE":"Share",
-        "ACTIVE":"Active",
-        "CONFIRM_DELETE_WINDOW":{
-           "TITLE":"Delete Apiary",
-           "MESSAGE":"Are you sure you want to delete apiary {{name}}? This permanantly deletes the apiary and it's associated data, including hives.",
-           "CONFIRM":"Yes"
-        },
-        "CONFIRM_INACTIVE_WINDOW":{
-            "TITLE":"Set Apiary as Inactive",
-            "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
-            "CONFIRM":"Yes"
-         },
-        "UPDATED_SUCCESS":"Apiary updated",
-        "DELETE_SUCCESS":"Apiary deleted",
-        "DELETE_ERROR":"Error deleting apiary"
-    },
-    "CONFIGURE_HIVES":{
-        "ADD":"Add Hive",
-        "NAME":"Hive Name",
-        "CODE":"Hive Code",
-        "APIARY":"Apiary",
-        "LOCATION_HISTORY":"Location History",
-        "ACTIVE":"Active",
-        "CONFIRM_DELETE_WINDOW":{
-           "TITLE":"Delete Hive",
-           "MESSAGE":"Are you sure you want to delete hive {{name}}? This permanantly deletes the hive.",
-           "CONFIRM":"Yes"
-        },
-        "CONFIRM_INACTIVE_WINDOW":{
-            "TITLE":"Set Hive as Inactive",
-            "MESSAGE":"This ends all device locations in the hive and removes hive from your apiary views. Existing data will remain, however new data will no longer go to this hive. This cannot be undone. Set hive {{name}} to inactive?",
-            "CONFIRM":"Yes"
-         },
-        "UPDATED_SUCCESS":"Hive updated",
-        "DELETE_SUCCESS":"Hive deleted",
-        "DELETE_ERROR":"Error deleting hive"
-    },
-    "CONFIGURE_DEVICES":{
-        "ADD":"Add Device",
-        "DOWNLOAD":"Download Devices",
-        "NAME":"Device Name",
-        "ADDRESS":"Device Address",
-        "LOCATION":"Current Location",
-        "DATA_RECEIVED":"Data Last Received",
-        "LOCATION_HISTORY":"Location History",
-        "ADD_LOCATION":"Add Location",
-        "ACTIVE":"Active",
-        "CONFIRM_DELETE_WINDOW":{
-           "TITLE":"Delete Device",
-           "MESSAGE":"Are you sure you want to delete device {{deviceName}}? This permanantly deletes the device and it's associated data.",
-           "CONFIRM":"Yes"
-        },
-        "UPDATED_SUCCESS":"Device updated",
-        "DELETE_SUCCESS":"Device deleted",
-        "DELETE_ERROR":"Error deleting device"
-    },
-    "UNAUTHORIZED_PAGE":{
-        "TITLE":"Unauthorized"
-    },
-    "COMMON":{
-        "SAVE":"Save",
-        "CREATE":"Create",
-        "EDIT":"Edit",
-        "DELETE":"Delete",
-        "CANCEL":"Cancel",
-        "DISMISS":"Dismiss",
-        "APIARY":"Apiary",
-        "HIVE":"Hive",
-        "DEVICE":"Device",
-        "POSITION":"Position"
-    },
-    "BEECOUNTED":{
-    	"TITLE":"BeeCounted.org",
-    	"LINK":"View hive on BeeCounted.org ",
-    	"COPY_LINK_TOOLTIP":"Copy link",
-    	"LINK_COPIED":"Link copied",
-    	"EMBED":"Embed chart in webpage",
-    	"COPY_EMBED_TOOLTIP":"Copy embed code",
-    	"EMBED_COPIED":"Embed code copied",
-    	"PRIVATE_APIARY":"Hive data not shared with BeeCounted. This apiary, {{name}}, is not shared to BeeCounted.",
-    	"PRIVATE_HIVE":"Hive data not shared with BeeCounted."
-    },
-    "SHARING":{
-    	"TITLE":"{{name}} Sharing",
-    	"MBM_TITLE":"Share apiary to MyBroodMinder user",
-    	"EXT_SUBTITLE":"Share apiary to other sites",
-    	"USER":{
-    		"TITLE":"MyBroodMinder Users",
-    		"INFO":"The user must already have an account with MyBroodMinder. They will be allowed to see your apiary and hive data, but not make any changes.",
-    		"ADD_TOOLTIP":"Add user",
-    		"ADD_USER":"Enter Email",
-    		"SHARE_BUTTON":"Share",
-    		"ADD_SUCCESS":"User added",
-    		"ERROR_NO_USER":"User does not exist.",
-    		"REMOVE":"Remove",
-    		"REMOVE_SUCCESS":"User removed"
-    	},
-    	"BEECOUNTED":{
-    		"CHECKBOX":"BeeCounted.org",
-    		"CHANGED":"Apiary updated",
-    		"INFO_CHECKED":"Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
-			"INFO_UNCHECKED":"Please consider sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
-			"INFO_NON_PREMIUM":"All data stored for non-premium users is public domain. Data may be made private if you have a MyBroodMinder-Premium account. Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
-			"EXPIRED":"Premium membership elapsed. Data is private only before {{end}}."
-    	},
-    	"BIP":{
-    		"CHECKBOX":"Bee Informed Partnership",
-    		"CHANGED":"Apiary updated",
-    		"INFO":"Coming soon"
-    	},
-    	"MELLISPHERA":{
-    		"CHECKBOX":"Mellisphera(Beta)",
-    		"INFO_NO_ACCOUNT":"Account not connected to Mellisphera",
-    		"INFO_ACCOUNT":"Show apiary in my Mellisphera account",
-    		"CHANGED":"Apiary updated",
-    		"ACTIVE_WINDOW":{
-    			"TITLE":"Activate Mellisphera Account",
-    			"MESSAGE":"Click below to activate your Mellisphera account."
-    		}
-    	},
-    	"HIVES":{
-    		"TITLE":"Hives shared to other sites",
-    		"NAME":"Name",
-    		"DESCRIPTION":"Description",
-    		"SHARE":"Share",
-    		"CHANGED":"Hive updated",
-    		"SHARE_EXPIRED":"Premium membership elapsed. Data is private only before {{end}}."
-    	}
-    },
-    "POSITIONS":{
-        "UNDER_INNER_COVER": "Under Inner Cover",
-        "ABOVE_LOWER_BROOD_BOX": "Above Lower Brood Box",
-        "ABOVE_UPPER_BROOD_BOX":"Above Upper Brood Box",
-        "OUTSIDE_HIVE":"Outside Hive", 
-        "SCALE_UNDER_HIVE":"Scale Under Hive",
-        "SCALE_UNDER_HIVE_BACK":"Scale Under Hive (Back)",  
-        "OTHER":"Other",
-        "CUSTOM_1":"Custom (1)",
-        "CUSTOM_2":"Custom (2)",
-        "CUSTOM_3":"Custom (3)",
-        "CUSTOM_4":"Custom (4)",
-        "CUSTOM_5":"Custom (5)",
-        "CUSTOM_6":"Custom (6)",
-        "CUSTOM_7":"Custom (7)"    
-    },
-    "RESEARCH_DOWNLOAD":{
-        "H_NAME":"NAME",
-        "A_NAME":"NAME",
-        "LAST_DATA":"Latest Data",
-        "DOWNLOAD_STATUS":"Download Status",
-        "HIVE_DOWNLOAD_BUTTON":"Download",
-        "APIARY_DOWNLOAD_BUTTON":"Download Full Apiary"
-    },
-    "TAGS":[
-        "Hive Inspection",
-        "Entire Apiary Inspection",
-        "Custom Apiary Description",
-        "Custom Hive Description",
-        "Tested for mites - negative",
-        "Tested for mites - positive",
-        "Installed package",
-        "Installed Nuc",
-        "Split hive",
-        "Closed hive",
-        "Removed a frame of brood",
-        "Added a frame of brood",
-        "Removed frame of pollen and resources",
-        "Added frame of pollen and resources",
-        "Removed frame(s) of honey",
-        "Added frame(s) of honey",
-        "Replenished feeder",
-        "Swarmed",
-        "Colony Foraging",
-        "Queen Laying Eggs",
-        "Brood rearing slowed down\/stopped",
-        "Queen found",
-        "Queen absent",
-        "Brood robust",
-        "Brood moderate",
-        "Brood thin",
-        "No brood found",
-        "Inserted new queen",
-        "Found swarm cells",
-        "Found supersedure cells",
-        "Abundant drones",
-        "Few drones",
-        "Abundant drone comb",
-        "Drones kicked out for winter",
-        "Added brood box",
-        "Added super",
-        "Added quilt box",
-        "Added solid top",
-        "Closed screened bottom",
-        "Hive tipped over",
-        "Removed brood box",
-        "Removed super",
-        "Removed screened top",
-        "Removed quilt box",
-        "Removed solid top",
-        "Removed candy board",
-        "Removed hive top insulation",
-        "Removed solid top",
-        "Opened screened bottom",
-        "Replaced battery",
-        "Replaced device",
-        "Placed above lower brood box",
-        "Placed elsewhere",
-        "I love my BroodMinder!",
-        "Brood rearing started",
-        "Hive dead\/empty",
-        "Wrapped hive"
-    ]
+    "HIVES": {
+      "TITLE": "Bijenkasten gedeeld met andere sites",
+      "NAME": "Naam",
+      "DESCRIPTION": "Omschrijving",
+      "SHARE": "Delen",
+      "CHANGED": "Bijenkast geupdate",
+      "SHARE_EXPIRED": "Premium abonnement verlopen. Data is alleen privé voorafgaand aan {{end}}."
+    }
+  },
+  "POSITIONS": {
+    "UNDER_INNER_COVER": "Onder binnendeksel",
+    "ABOVE_LOWER_BROOD_BOX": "Boven onderste broedkist",
+    "ABOVE_UPPER_BROOD_BOX": "Boven bovenste broedkist",
+    "OUTSIDE_HIVE": "Buiten de bijenkast",
+    "SCALE_UNDER_HIVE": "Weegschaal onder kast",
+    "SCALE_UNDER_HIVE_BACK": "Weegschaal onder kast (Achter)",
+    "OTHER": "Anders",
+    "CUSTOM_1": "Custom (1)",
+    "CUSTOM_2": "Custom (2)",
+    "CUSTOM_3": "Custom (3)",
+    "CUSTOM_4": "Custom (4)",
+    "CUSTOM_5": "Custom (5)",
+    "CUSTOM_6": "Custom (6)",
+    "CUSTOM_7": "Custom (7)"
+  },
+  "RESEARCH_DOWNLOAD": {
+    "H_NAME": "NAAM",
+    "A_NAME": "NAAM",
+    "LAST_DATA": "Laatste data",
+    "DOWNLOAD_STATUS": "Download Status",
+    "HIVE_DOWNLOAD_BUTTON": "Download",
+    "APIARY_DOWNLOAD_BUTTON": "Download hele bijenstal"
+  },
+  "TAGS": [
+    "Bijenkast inspectie",
+    "Hele bijenstal inspectie",
+    "Aangepaste bijenstal omschrijving",
+    "Aangepaste bijenkast omschrijving",
+    "Getest op mijten - negatief",
+    "Getest op mijten - positief",
+    "Pakket geïnstalleerd",
+    "Nuc geïnstalleerd",
+    "Kast gesplitst",
+    "Kast gesloten",
+    "Een broedframe verwijderd",
+    "Een broedframe toegevoegd",
+    "Een frame met stuifmeel en voeding verwijderd",
+    "Een frame met stuifmeel en voeding toegevoegd",
+    "Frame(s) met honing verwijderd",
+    "Frame(s) met honing toegevoegd",
+    "Voeder bijgevuld",
+    "Gezwermd",
+    "Kolonie haalt voedsel",
+    "Koningin legt eitjes",
+    "Broedgroei vertraagd/gestopt",
+    "Koningin gevonden",
+    "Geen koningin",
+    "Broed robuust",
+    "Broed gemiddeld",
+    "Broed dun",
+    "Geen broed gevonden",
+    "Nieuwe koningin toegevoegd",
+    "Zwermcellen gevonden",
+    "Vervangende cellen gevonden",
+    "Te veel darren",
+    "Weinig darren",
+    "Overvloedig darrenraat",
+    "Darren weggestuurd voor de winter",
+    "Broedbak toegevoegd",
+    "Bovenbak toegevoegd",
+    "Quilt bak toegevoegd",
+    "Gesloten bovenkant toegevoegd",
+    "Gaasbodem gesloten",
+    "Kast omgevallen",
+    "Broedbak verwijderd",
+    "Super verwijderd",
+    "Gaasdek verwijderd",
+    "Quilt bak verwijderd",
+    "Gesloten bovenkant verwijderd",
+    "Suikerbord verwijderd",
+    "Kast bovenisolatie verwijderd",
+    "Gesloten bovenkant verwijderd",
+    "Gaasbodem geopend",
+    "Batterij vervangen",
+    "Sensor vervangen",
+    "Boven onderste broedbak geplaatst",
+    "Elders geplaatst",
+    "I love my BroodMinder!",
+    "Broedgroei begonnen",
+    "Bijenkast dood/leeg",
+    "Bijenkast verpakt"
+  ]
 }
