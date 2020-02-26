@@ -62,7 +62,8 @@
 			"EDIT":"Edit {{value}}",
 			"NEW_DEVICE":"Add New Device",
 			"EXISTING_DEVICE":"Add Existing Device",
-            "BEECOUNTED":"BeeCounted"
+            "BEECOUNTED":"BeeCounted",
+            "MOVE":"Move Hive"
 		},
 		"DEVICE_CONTEXT":
 		{
@@ -176,7 +177,8 @@
 		"PREMIUM_EXP":"Time range selection for this view available with premium subscription.",
 		"TEXT":{
 			"TITLE":"Text",
-			"DESCRIPTION":"This view displays the most recent reading uploaded for every position in every hive."
+            "DESCRIPTION":"This view displays the most recent reading uploaded for every position in every hive.",
+            "MOVED_EXP":"Hive moved"
 		},
 		"HIVE":{
 				"TITLE":"Hive",
@@ -451,6 +453,23 @@
            "SUCCESS_ENDED":"Current location ended",
            "CREATE":"Create"
        },
+    "HIVE_APIARY_LOCATION_HIST":{
+        "APIARY":"Apiary",
+        "START":"Start",
+        "START_OPEN":"open",
+        "END":"End",
+        "END_OPEN":"current",
+        "MOVE":"Move",
+        "EDIT":{
+            "ADD":"Add",
+            "SELECT_APIARY":"Select apiary",
+            "SUCCESS":"Changes saved",
+            "ERROR_INVALID_PREV_OVERLAP":"Time invalid, overlaps previous apiary location",
+            "ERROR_INVALID_NEXT_OVERLAP":"Time invalid, overlaps next apiary location",
+            "ERROR_LOCATION_REQUIRED":"Hive requires at least one apiary",
+            "ERROR_APIARY_REQUIRED":"Must select an apiary for all locations"
+        }
+    },
     "APIARY_CRUD":{
         "CREATE_TITLE":"Create Apiary",
         "EDIT_TITLE":"Edit Apiary",
@@ -463,7 +482,19 @@
         "NOT_PRIVATE_TOOLTIP":"Thank you for sharing your data. You are helping researchers around the world learn about and develop interventions for our precious honeybees and our environment.",
         "ERROR_COUNTRY":"Select valid country code",
         "SUCCESS_CREATED":"Apiary created",
-        "SUCCESS_UPDATED":"Apiary updated"
+        "SUCCESS_UPDATED":"Apiary updated",
+        "EDIT_LOCATION":{
+            "BUTTON":"Edit Location",
+            "COORDINATE":"Coordinate",
+            "TITLE":"Edit Apiary Location",
+            "INFO":"This location is used both to query weather and display your apiary to shared sites such as BeeCounted.org. This is disclosed with your public domain data and should not be the exact location of your apiary.",
+            "POSTAL_ERROR":"The coordinates you've selected are outside the apiary zipcode. This cannot be changed.",
+            "POSTAL_CHANGE":{
+                "TITLE":"Postal Code Change",
+                "TEXT":"Would you like to change apiary to new postal code {{value}}?",
+                "CONFIRM":"Yes"
+            }
+        }
     },
     "HIVE_CRUD":{
         "CREATE_TITLE":"Create Hive",
@@ -496,6 +527,14 @@
                 "AUTO":"Show lowest Device battery in the Hive on the Apiary Summary?",
                 "NONE":"Don't show a battery device on the Apiary Summary"
             }
+        },
+        "MOVE":{
+            "TITLE":"Move Hive",
+            "EXP":"All data in this hive stays the same, but this will place the hive in the selected apiary from this date forward. This is reflected in weather data and apiary views.",
+            "DAY":"New location start day",
+            "TIME":"Time",
+            "SELECT_APIARY":"Select apiary",
+            "SUCCESS":"Hive moved"
         }
     },
     "DEVICE_CRUD":{
@@ -582,9 +621,13 @@
         "ACTIVE":"Active",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Delete Apiary",
-           "MESSAGE":"Are you sure you want to delete apiary {{name}}? This permanantly deletes the apiary and it's associated data, including hives.",
+           "MESSAGE":"Are you sure you want to delete apiary {{name}}? This permanantly deletes the apiary.",
            "CONFIRM":"Yes"
         },
+        "CANNOT_DELETE_WINDOW":{
+            "TITLE":"Cannot Delete Apiary",
+            "MESSAGE":"This apiary contains the following hives: {{hives}} You cannot delete this apiary until you delete or move these hives."
+         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Set Apiary as Inactive",
             "MESSAGE":"This sets all hives in this apiary as inactive, ends all device locations in each hive, and removes the apiary from your views. Existing data will remain, however new data will no longer go to this apiary or it's hives. This cannot be undone. Set apiary {{name}} to inactive?",
@@ -599,7 +642,8 @@
         "NAME":"Hive Name",
         "CODE":"Hive Code",
         "APIARY":"Apiary",
-        "LOCATION_HISTORY":"Location History",
+        "LOCATION_HISTORY":"Device History",
+        "APIARY_HISTORY":"Apiary History",
         "ACTIVE":"Active",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Delete Hive",

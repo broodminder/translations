@@ -53,8 +53,8 @@
 			"EDIT":"Modifier {{value}}",
 			"NEW_HIVE":"Nouvelle ruche",
 			"SHARE":"Partager",
-            "BEECOUNTED":"BeeCounted"
-            
+            "BEECOUNTED":"BeeCounted",
+            "MOVE":"Move Hive"
 		},
 		"HIVE_CONTEXT":
 		{
@@ -177,7 +177,8 @@
 		"PREMIUM_EXP":"La sélection de plage horaire pour cette vue est disponible avec un abonnement premium.",
 		"TEXT":{
 			"TITLE":"Texte",
-			"DESCRIPTION":"Cette vue affiche le relevé le plus récent téléchargé pour chaque position dans chaque ruche."
+            "DESCRIPTION":"Cette vue affiche le relevé le plus récent téléchargé pour chaque position dans chaque ruche.",
+            "MOVED_EXP":"Hive moved"
 		},
 		"HIVE":{
 				"TITLE":"Ruche",
@@ -451,7 +452,24 @@
            "SUCCESS_MOVED":"Capteur déplacé vers la ruche",
            "SUCCESS_ENDED":"Emplacement actuel terminé",
            "CREATE":"Créer"
-       },
+    },
+    "HIVE_APIARY_LOCATION_HIST":{
+        "APIARY":"Apiary",
+        "START":"Start",
+        "START_OPEN":"open",
+        "END":"End",
+        "END_OPEN":"current",
+        "MOVE":"Move",
+        "EDIT":{
+            "ADD":"Add",
+            "SELECT_APIARY":"Select apiary",
+            "SUCCESS":"Changes saved",
+            "ERROR_INVALID_PREV_OVERLAP":"Time invalid, overlaps previous apiary location",
+            "ERROR_INVALID_NEXT_OVERLAP":"Time invalid, overlaps next apiary location",
+            "ERROR_LOCATION_REQUIRED":"Hive requires at least one apiary",
+            "ERROR_APIARY_REQUIRED":"Must select an apiary for all locations"
+        }
+    },
     "APIARY_CRUD":{
         "CREATE_TITLE":"Créer un rucher",
         "EDIT_TITLE":"Modifier un rucher",
@@ -464,7 +482,19 @@
         "NOT_PRIVATE_TOOLTIP":"Merci de partager vos données. Vous aidez les chercheurs du monde entier à découvrir et à mettre au point des mesures pour nos précieuses abeilles et notre environnement.",
         "ERROR_COUNTRY":"Sélectionnez un code postal valide",
         "SUCCESS_CREATED":"Rucher créé",
-        "SUCCESS_UPDATED":"Rucher modifié"
+        "SUCCESS_UPDATED":"Rucher modifié",
+        "EDIT_LOCATION":{
+            "BUTTON":"Edit Location",
+            "COORDINATE":"Coordinate",
+            "TITLE":"Edit Apiary Location",
+            "INFO":"This location is used both to query weather and display your apiary to shared sites such as BeeCounted.org. This is disclosed with your public domain data and should not be the exact location of your apiary.",
+            "POSTAL_ERROR":"The coordinates you've selected are outside the apiary zipcode. This cannot be changed.",
+            "POSTAL_CHANGE":{
+                "TITLE":"Postal Code Change",
+                "TEXT":"Would you like to change apiary to new postal code {{value}}?",
+                "CONFIRM":"Yes"
+            }
+        }
     },
     "HIVE_CRUD":{
         "CREATE_TITLE":"Ajouter une ruche",
@@ -497,6 +527,14 @@
                 "AUTO":"Afficher la batterie du capteur la plus faible dans la ruche sur le Résumé du Rucher ?",
                 "NONE":"N'affiche pas la batterie du capteur sur le Résumé du Rucher"
             }
+        },
+        "MOVE":{
+            "TITLE":"Move Hive",
+            "EXP":"All data in this hive stays the same, but this will place the hive in the selected apiary from this date forward. This is reflected in weather data and apiary views.",
+            "DAY":"New location start day",
+            "TIME":"Time",
+            "SELECT_APIARY":"Select apiary",
+            "SUCCESS":"Hive moved"
         }
     },
     "DEVICE_CRUD":{
@@ -587,6 +625,10 @@
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer le rucher {{name}} ? Ceci supprime définitivement le rucher et ses données associées, y compris les ruches.",
            "CONFIRM":"Oui"
         },
+        "CANNOT_DELETE_WINDOW":{
+            "TITLE":"Cannot Delete Apiary",
+            "MESSAGE":"This apiary contains the following hives: {{hives}} You cannot delete this apiary until you delete or move these hives."
+         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Définir le rucher comme rucher inactif",
             "MESSAGE":"Ceci place tous les ruches de ce rucher comme inactifs, termine tous les emplacements de capteurs dans chaque rucher, et supprime le rucher de vos vues. Les données existantes seront conservées, mais de nouvelles données ne seront plus transmises à ce rucher ou à ses ruches. Cela ne peut pas être défait. Mettre le rucher {{name}} sur inactif ?",
@@ -602,6 +644,7 @@
         "CODE":"Code de la ruche",
         "APIARY":"Rucher",
         "LOCATION_HISTORY":"Historique des emplacements",
+        "APIARY_HISTORY":"Apiary History",
         "ACTIVE":"En marche",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Supprimer la ruche",

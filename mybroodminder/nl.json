@@ -58,7 +58,8 @@
       "EDIT": "Bewerk {{value}}",
       "NEW_DEVICE": "Nieuwe sensor toevoegen",
       "EXISTING_DEVICE": "Bestaande sensor toevoegen",
-      "BEECOUNTED": "BeeCounted"
+      "BEECOUNTED": "BeeCounted",
+      "MOVE":"Move Hive"
     },
     "DEVICE_CONTEXT": {
       "EDIT": "Bewerk {{value}}",
@@ -173,7 +174,8 @@
     },
     "HIVE": {
       "TITLE": "Bijenkast",
-      "DESCRIPTION": "Dit overzicht laat een beknopte grafiek zien voor elke bijenkast. Gewichtsweergave: zwaarste waarde. Luchtvochtigheid en temperatuurweergave: 1-Boven onderste broedkamer 2-Boven bovenste broedkamer 3-Onder binnenste deksel 4-Anders 5-Custom (hoogste waarde) 6-Buiten de kast 7-Onder de kast"
+      "DESCRIPTION": "Dit overzicht laat een beknopte grafiek zien voor elke bijenkast. Gewichtsweergave: zwaarste waarde. Luchtvochtigheid en temperatuurweergave: 1-Boven onderste broedkamer 2-Boven bovenste broedkamer 3-Onder binnenste deksel 4-Anders 5-Custom (hoogste waarde) 6-Buiten de kast 7-Onder de kast",
+      "MOVED_EXP":"Hive moved"
     },
     "SUMMARY": {
       "TITLE": "Samenvatting",
@@ -444,6 +446,23 @@
     "SUCCESS_ENDED": "Huidige locatie beëindigd",
     "CREATE": "Aanmaken"
   },
+  "HIVE_APIARY_LOCATION_HIST":{
+    "APIARY":"Apiary",
+    "START":"Start",
+    "START_OPEN":"open",
+    "END":"End",
+    "END_OPEN":"current",
+    "MOVE":"Move",
+    "EDIT":{
+      "ADD":"Add",
+      "SELECT_APIARY":"Select apiary",
+      "SUCCESS":"Changes saved",
+      "ERROR_INVALID_PREV_OVERLAP":"Time invalid, overlaps previous apiary location",
+      "ERROR_INVALID_NEXT_OVERLAP":"Time invalid, overlaps next apiary location",
+      "ERROR_LOCATION_REQUIRED":"Hive requires at least one apiary",
+      "ERROR_APIARY_REQUIRED":"Must select an apiary for all locations"
+    }
+  },
   "APIARY_CRUD": {
     "CREATE_TITLE": "Bijenstal aanmaken",
     "EDIT_TITLE": "Bijenstal bewerken",
@@ -456,7 +475,19 @@
     "NOT_PRIVATE_TOOLTIP": "Dank voor het delen van je data. Je helpt er onderzoekers over de hele wereld mee om ervan te leren en interventies te ontwikkelen voor onze kostbare honingbijen en natuur.",
     "ERROR_COUNTRY": "Selecteer een geldige landcode",
     "SUCCESS_CREATED": "Bijenstal aangemaakt",
-    "SUCCESS_UPDATED": "Bijenstal geupdate"
+    "SUCCESS_UPDATED": "Bijenstal geupdate",
+    "EDIT_LOCATION":{
+      "BUTTON":"Edit Location",
+      "COORDINATE":"Coordinate",
+      "TITLE":"Edit Apiary Location",
+      "INFO":"This location is used both to query weather and display your apiary to shared sites such as BeeCounted.org. This is disclosed with your public domain data and should not be the exact location of your apiary.",
+      "POSTAL_ERROR":"The coordinates you've selected are outside the apiary zipcode. This cannot be changed.",
+      "POSTAL_CHANGE":{
+        "TITLE":"Postal Code Change",
+        "TEXT":"Would you like to change apiary to new postal code {{value}}?",
+        "CONFIRM":"Yes"
+      }
+    }
   },
   "HIVE_CRUD": {
     "CREATE_TITLE": "Bijenkast aanmaken",
@@ -489,6 +520,14 @@
         "AUTO": "Laagste batterijspanning van bijenkast op het Bijenstal overzicht tonen?",
         "NONE": "Geen batterijsensor op het Bijenstal overzicht tonen"
       }
+    },
+    "MOVE": {
+      "TITLE":"Move Hive",
+      "EXP":"All data in this hive stays the same, but this will place the hive in the selected apiary from this date forward. This is reflected in weather data and apiary views.",
+      "DAY":"New location start day",
+      "TIME":"Time",
+      "SELECT_APIARY":"Select apiary",
+      "SUCCESS":"Hive moved"
     }
   },
   "DEVICE_CRUD": {
@@ -578,6 +617,10 @@
       "MESSAGE": "Weet je zeker dat je bijenstal {{name}} wilt verwijderen? Dit verwijdert definitief alle data inclusief bijenkasten",
       "CONFIRM": "Ja"
     },
+    "CANNOT_DELETE_WINDOW":{
+      "TITLE":"Cannot Delete Apiary",
+      "MESSAGE":"This apiary contains the following hives: {{hives}} You cannot delete this apiary until you delete or move these hives."
+    },
     "CONFIRM_INACTIVE_WINDOW": {
       "TITLE": "Archiveer bijenstal ",
       "MESSAGE": "Dit archiveert alle kasten in deze bijenstal, beëindigt alle sensorlocaties in elke kast en verwijdert de bijenstal uit je overzichten. Bestaande data blijft bewaard, maar er zal geen nieuwe data meer bijkomen voor deze bijenstal en z'n bijenkasten. Archiveer bijenstal {{name}}?",
@@ -593,6 +636,7 @@
     "CODE": "Kastcode",
     "APIARY": "Bijenstal",
     "LOCATION_HISTORY": "Locatiegeschiedenis",
+    "APIARY_HISTORY":"Apiary History",
     "ACTIVE": "Actief",
     "CONFIRM_DELETE_WINDOW": {
       "TITLE": "Kast verwijderen",
