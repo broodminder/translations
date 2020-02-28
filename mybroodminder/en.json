@@ -405,9 +405,9 @@
         "SWARM_S":{
             "TITLE":"S",
             "CHANGE_TO":{
-                "0":"Swarm montitoring stopped by system",
-                "1":"Swarm montitoring stopped by user",
-                "8":"Swarm montitoring stopped by system, too busy.",
+                "0":"Swarm monitoring stopped by system",
+                "1":"Swarm monitoring stopped by user",
+                "8":"Swarm monitoring stopped by system, too busy.",
                 "29":"Swarm detected",
                 "60":"Swarm detection complete"
             }

@@ -62,7 +62,7 @@
 			"NEW_DEVICE":"Añadir sensor",
 			"EXISTING_DEVICE":"mover sensor",
             "BEECOUNTED":"BeeCounted",
-            "MOVE":"Move Hive"
+            "MOVE":"Desplazar colmena"
 		},
 		"DEVICE_CONTEXT":
 		{
@@ -72,7 +72,7 @@
         },
         "HUB_CONTEXT":
         {
-            "REMOVE":"Remove {{value}} from menu"
+            "REMOVE":"Eliminar {{value}} del menú"
 
 		},
 		"HUB_TOOLTIP":"Hub",
@@ -178,7 +178,7 @@
 		"TEXT":{
 			"TITLE":"Texto",
             "DESCRIPTION":"Esta vista muestra la lectura más reciente cargada para cada posición en cada colmena.",
-            "MOVED_EXP":"Hive moved"
+            "MOVED_EXP":"Colmena desplazada"
 		},
 		"HIVE":{
 				"TITLE":"Colmena",
@@ -359,7 +359,7 @@
 	"DATE_PICKER":{
 		"VIEWING":"Ver",
         "START":"Empezar",
-        "END":"Terminar",
+        "END":"Finalizar",
         "APPLY":"Aplicar",
 		"HOURS_24":"Ultimas 24 horas",
 		"DAYS_3":"Ultimos 3 días",
@@ -405,11 +405,11 @@
         "SWARM_S":{
             "TITLE":"S",
             "CHANGE_TO":{
-                "0":"Swarm montitoring stopped by system",
-                "1":"Swarm montitoring stopped by user",
-                "8":"Swarm montitoring stopped by system, too busy.",
-                "29":"Swarm detected",
-                "60":"Swarm detection complete"
+                "0":"El sistema detuvo la vigilancia de los enjambres",
+                "1":"La vigilancia de los enjambres fue detenida por el usuario",
+                "8":"La monitorización del enjambre se detuvo por el sistema, demasiado ocupado.",
+                "29":"Se detectó un enjambre",
+                "60":"Detección de enjambre completa"
             }
         }
     },
@@ -454,20 +454,20 @@
            "CREATE":"Nuevo"
     },
     "HIVE_APIARY_LOCATION_HIST":{
-        "APIARY":"Apiary",
-        "START":"Start",
-        "START_OPEN":"open",
-        "END":"End",
-        "END_OPEN":"current",
-        "MOVE":"Move",
+        "APIARY":"Colmenar",
+        "START":"Empezar",
+        "START_OPEN":"abrir",
+        "END":"Finalizar",
+        "END_OPEN":"actual",
+        "MOVE":"Desplazar",
         "EDIT":{
-            "ADD":"Add",
-            "SELECT_APIARY":"Select apiary",
-            "SUCCESS":"Changes saved",
-            "ERROR_INVALID_PREV_OVERLAP":"Time invalid, overlaps previous apiary location",
-            "ERROR_INVALID_NEXT_OVERLAP":"Time invalid, overlaps next apiary location",
-            "ERROR_LOCATION_REQUIRED":"Hive requires at least one apiary",
-            "ERROR_APIARY_REQUIRED":"Must select an apiary for all locations"
+            "ADD":"Añadir",
+            "SELECT_APIARY":"Seleccionar colmenar",
+            "SUCCESS":"Cambios guardados",
+            "ERROR_INVALID_PREV_OVERLAP":"El tiempo no es válido, se superpone a la ubicación anterior del colmenar",
+            "ERROR_INVALID_NEXT_OVERLAP":"El tiempo no es válido, se superpone a la siguiente ubicación del colmenar",
+            "ERROR_LOCATION_REQUIRED":"La colmena requiere al menos un colmenar",
+            "ERROR_APIARY_REQUIRED":"Debe seleccionar un colmenar para todos los lugares"
         }
     },
     "APIARY_CRUD":{
@@ -484,15 +484,15 @@
         "SUCCESS_CREATED":"Colmenar creado",
         "SUCCESS_UPDATED":"Colmenar actualizado",
         "EDIT_LOCATION":{
-            "BUTTON":"Edit Location",
-            "COORDINATE":"Coordinate",
-            "TITLE":"Edit Apiary Location",
-            "INFO":"This location is used both to query weather and display your apiary to shared sites such as BeeCounted.org. This is disclosed with your public domain data and should not be the exact location of your apiary.",
-            "POSTAL_ERROR":"The coordinates you've selected are outside the apiary zipcode. This cannot be changed.",
+            "BUTTON":"Editar Localización",
+            "COORDINATE":"Coordenadas",
+            "TITLE":"Editar Localización Colmenar",
+            "INFO":"Esta localización se utiliza tanto para consultar el tiempo como para mostrar su colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la localización exacta de su colmenar.",
+            "POSTAL_ERROR":"Las coordenadas que has seleccionado están fuera del código postal del apiario. Esto no puede ser cambiado.",
             "POSTAL_CHANGE":{
-                "TITLE":"Postal Code Change",
-                "TEXT":"Would you like to change apiary to new postal code {{value}}?",
-                "CONFIRM":"Yes"
+                "TITLE":"Cambiar Código Postal",
+                "TEXT":"¿Le gustaría cambiar el colmenar por un nuevo código postal {{value}}?",
+                "CONFIRM":"Sí"
             }
         }
     },
@@ -529,12 +529,12 @@
             }
         },
         "MOVE":{
-            "TITLE":"Move Hive",
-            "EXP":"All data in this hive stays the same, but this will place the hive in the selected apiary from this date forward. This is reflected in weather data and apiary views.",
-            "DAY":"New location start day",
-            "TIME":"Time",
-            "SELECT_APIARY":"Select apiary",
-            "SUCCESS":"Hive moved"
+            "TITLE":"Desplazar colmena",
+            "EXP":"Todos los datos de esta colmena permanecen iguales, pero esto colocará a la colmena en el colmenar seleccionado a partir de esta fecha. Esto se refleja en los datos meteorológicos y en las vistas del apiario.",
+            "DAY":"Nueva localización día de inicio",
+            "TIME":"Tiempo",
+            "SELECT_APIARY":"Seleccionar colmenar",
+            "SUCCESS":"Colmena desplazada"
         }
     },
     "DEVICE_CRUD":{
@@ -594,11 +594,11 @@
             }
         },
         "EDIT_EMAIL":{
-            "BUTTON":"Change Account Email",
-            "TITLE":"Change Account Email",
-            "ERROR":"Error occured. Email not changed.",
-            "REFRESH_ERROR":"Changing your account email requires recent authentication. Log in again before retrying this change.",
-            "NEW_EMAIL":"New email"
+            "BUTTON":"Cambiar Email Cuenta",
+            "TITLE":"Cambiar Email Cuenta",
+            "ERROR":"Ocurrió un error. El email no ha cambiado.",
+            "REFRESH_ERROR":"Cambiar el email de su cuenta requiere una autenticación reciente. Inicie sesión de nuevo antes de volver a intentar este cambio.",
+            "NEW_EMAIL":"Nuevo email"
         }
     },
     "PREFERENCES":{
@@ -768,12 +768,12 @@
         "CUSTOM_7":"Custom (7)"    
     },
     "RESEARCH_DOWNLOAD":{
-        "H_NAME":"NAME",
-        "A_NAME":"NAME",
-        "LAST_DATA":"Latest Data",
-        "DOWNLOAD_STATUS":"Download Status",
-        "HIVE_DOWNLOAD_BUTTON":"Download",
-        "APIARY_DOWNLOAD_BUTTON":"Download Full Apiary"
+        "H_NAME":"NOMBRE",
+        "A_NAME":"NOMBRE",
+        "LAST_DATA":"Últimos datos",
+        "DOWNLOAD_STATUS":"Estado Descarga",
+        "HIVE_DOWNLOAD_BUTTON":"Descargar",
+        "APIARY_DOWNLOAD_BUTTON":"Descargar Colmenar Completo"
     },
     "TAGS":[
         "Inspección de la colmena",
