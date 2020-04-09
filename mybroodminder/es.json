@@ -54,7 +54,7 @@
 			"NEW_HIVE":"Nueva Colmena",
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Researcher data download"
+            "RESEARCH_DOWNLOAD":"Export para Investigadores"
 		},
 		"HIVE_CONTEXT":
 		{
@@ -294,7 +294,7 @@
             "WEIGHT_R":"Peso Dcha",
             "BALANCE":"I/D Compensación",
             "WEIGHT_SF":"Factor de calibración",
-            "SAMPLE_STATE":"T2 Sample State",
+            "SAMPLE_STATE":"T2 Estado datos",
             "CONFIRM_WINDOW":{
                "TITLE":"Borrar datos seleccionados",
                "MESSAGE":"Deseas borrar los {{count}} datos?",
@@ -405,11 +405,11 @@
         "SWARM_S":{
             "TITLE":"S",
             "CHANGE_TO":{
-                "0":"El sistema detuvo la vigilancia de los enjambres",
-                "1":"La vigilancia de los enjambres fue detenida por el usuario",
-                "8":"La monitorización del enjambre se detuvo por el sistema, demasiado ocupado.",
-                "29":"Se detectó un enjambre",
-                "60":"Detección de enjambre completa"
+                "0":"Monitoring de enjambres detenido por el sistema",
+                "1":"Monitoring de enjambres detenido por el usuario",
+                "8":"Monitoring de enjambres detenido por el sistema, demasiado ocupado.",
+                "29":"Enjambre detectado",
+                "60":"Enjambre detectado - completo"
             }
         }
     },
@@ -625,8 +625,8 @@
            "CONFIRM":"Si"
         },
         "CANNOT_DELETE_WINDOW":{
-            "TITLE":"Cannot Delete Apiary",
-            "MESSAGE":"This apiary contains the following hives: {{hives}} You cannot delete this apiary until you delete or move these hives."
+            "TITLE":"No se puede suprimir el colmenar",
+            "MESSAGE":"Este colmenar contiene las colmenas: {{hives}} Deben ser borradas o desplazadas para poder suprimir el colmenar."
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Colmenar inactivo",
@@ -642,18 +642,18 @@
         "NAME":"Nombre de la colmena",
         "CODE":"Codigo de la colmena",
         "APIARY":"Colmenar",
-        "LOCATION_HISTORY":"Historial de ubicación",
-        "APIARY_HISTORY":"Apiary History",
+        "LOCATION_HISTORY":"Historial de sensores",
+        "APIARY_HISTORY":"Historial de colmenares",
         "ACTIVE":"Activa",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Suprimir colmena",
            "MESSAGE":"¿Está seguro de que desea eliminar la colmena {{name}}? La supresion sera definitiva.",
-           "CONFIRM":"Yes"
+           "CONFIRM":"Si"
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Colmena inactiva",
             "MESSAGE":"Se terminaran todas las ubicaciones de los dispositivos en la colmena y se eliminaran la colmena de las vistas del colmenar. Los datos existentes se mantendrán, sin embargo, los nuevos datos ya no irán a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
-            "CONFIRM":"Yes"
+            "CONFIRM":"Si"
          },
         "UPDATED_SUCCESS":"Colmena actualizada",
         "DELETE_SUCCESS":"Colmena suprimida",

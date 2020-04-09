@@ -54,7 +54,7 @@
 			"NEW_HIVE":"Nouvelle ruche",
 			"SHARE":"Partager",
             "BEECOUNTED":"BeeCounted",
-            "MOVE":"Déplacer ruche"
+            "RESEARCH_DOWNLOAD":"Export Chercheurs"
 		},
 		"HIVE_CONTEXT":
 		{
@@ -62,13 +62,13 @@
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer capteur",
             "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Téléchargement de données pour les chercheurs"
+            "RESEARCH_DOWNLOAD":"Déplacer ruche"
 		},
 		"DEVICE_CONTEXT":
 		{
 			"EDIT":"Modifier {{value}}",
-			"EDIT_LOCATION":"Modifier l'emplacement actuel",
-			"MOVE":"Déplacer le capteur"
+			"EDIT_LOCATION":"Modifier emplacement actuel",
+			"MOVE":"Déplacer capteur"
         },
         "HUB_CONTEXT":
         {
@@ -110,7 +110,7 @@
 		"INSTALLATION":{
 			"TITLE":"Installation",
 			"LINK_1":"Démarrage rapide",
-			"LINK_2":"Quel APP devrais-je choisir ?",
+			"LINK_2":"Quelle APP devrais-je choisir ?",
 			"LINK_3":"Appareils de BroodMinder",
 			"LINK_4":"BroodMinder-CELL/WIFI"
 		},
@@ -405,11 +405,11 @@
         "SWARM_S":{
             "TITLE":"S",
             "CHANGE_TO":{
-                "0":"Arrêt de la surveillance des essaimages par le système",
-                "1":"Surveillance des essaimages arrêtée par l'utilisateur",
-                "8":"Moniteur d'essaimage arrêté par le système, trop occupé.",
-                "29":"Un essaimage a été détecté",
-                "60":"Détection d'essaimage complète"
+                "0":"Surveillance essaimage arrêtée par le système",
+                "1":"Surveillance essaimages arrêtée par l'utilisateur",
+                "8":"Surveillance essaimage arrêté par le système, trop occupé.",
+                "29":"Essaimage détecté",
+                "60":"Essaimahe détecté - complété"
             }
         }
     },
@@ -447,7 +447,7 @@
            "ERROR_HIVE":"La ruche a un capteur qui chevauche cette position",
            "ERROR_TIME":"L'emplacement possède une heure de fin plus récente que l'heure de début",
            "ERROR_GENERAL":"Erreur lors de la création de l'emplacement du capteur",
-           "ERROR_INACTIVE_HIVE":"Location cannot have end time after hive inactive time",
+           "ERROR_INACTIVE_HIVE":"L'emplacement ne peut avoir une date de fin après une période d'inactivité",
            "ERROR_MOVE_TIME":"Impossible de terminer l'emplacement avant le début, régler l'heure après {{{currentEnd}}}.",
            "SUCCESS_MOVED":"Capteur déplacé vers la ruche",
            "SUCCESS_ENDED":"Emplacement actuel terminé",
@@ -626,8 +626,8 @@
            "CONFIRM":"Oui"
         },
         "CANNOT_DELETE_WINDOW":{
-            "TITLE":"Cannot Delete Apiary",
-            "MESSAGE":"This apiary contains the following hives: {{hives}} You cannot delete this apiary until you delete or move these hives."
+            "TITLE":"Impossible d'effacer rucher",
+            "MESSAGE":"Ce rucher contient les ruches : {{hives}} qui doivent être supprimées ou déplacées pour pouvoir effacer le rucher."
          },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Définir le rucher comme rucher inactif",
@@ -643,8 +643,8 @@
         "NAME":"Nom de la ruche",
         "CODE":"Code de la ruche",
         "APIARY":"Rucher",
-        "LOCATION_HISTORY":"Historique des emplacements",
-        "APIARY_HISTORY":"Apiary History",
+        "LOCATION_HISTORY":"Historique capteurs",
+        "APIARY_HISTORY":"Historique ruchers",
         "ACTIVE":"En marche",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Supprimer la ruche",
@@ -753,10 +753,10 @@
         }
     },
     "POSITIONS":{
-        "UNDER_INNER_COVER": "Sous le couvercle intérieur",
-        "ABOVE_LOWER_BROOD_BOX": "Chambre à couvain",
-        "ABOVE_UPPER_BROOD_BOX":"Dans la hausse",
-        "OUTSIDE_HIVE":"À l'extérieur de la ruche",
+        "UNDER_INNER_COVER": "Sous le couvre-cadres",
+        "ABOVE_LOWER_BROOD_BOX": "Corps",
+        "ABOVE_UPPER_BROOD_BOX":"Hausse",
+        "OUTSIDE_HIVE":"Extérieur de la ruche",
         "SCALE_UNDER_HIVE":"Balance sous la ruche",
         "SCALE_UNDER_HIVE_BACK":"Balance sous la ruche (derrière)",
         "OTHER":"Autre",
