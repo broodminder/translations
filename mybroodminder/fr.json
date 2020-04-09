@@ -538,10 +538,10 @@
         }
     },
     "DEVICE_CRUD":{
-        "CREATE_TITLE":"Ajouter un capteur",
-        "EDIT_TITLE":"Modifier un capteur",
+        "CREATE_TITLE":"Ajouter capteur",
+        "EDIT_TITLE":"Modifier capteur",
         "NAME":"Nom",
-        "NAME_AUTO":"Utiliser l'adresse ci-dessus comme nom",
+        "NAME_AUTO":"Utiliser l'adresse comme nom",
         "MODEL":"Numéro de modèle",
         "SCALE":"Ce capteur est une balance",
         "BIP_SEND":"Envoyer les données à 'Bee Informed Partnership'",
@@ -619,7 +619,7 @@
         "NAME":"Nom du rucher",
         "ZIPCODE":"Code Postal",
         "SHARE":"Partager",
-        "ACTIVE":"En marche",
+        "ACTIVE":"Actif",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Supprimer le rucher",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer le rucher {{name}} ? Ceci supprime définitivement le rucher et ses données associées, y compris les ruches.",
@@ -645,7 +645,7 @@
         "APIARY":"Rucher",
         "LOCATION_HISTORY":"Historique capteurs",
         "APIARY_HISTORY":"Historique ruchers",
-        "ACTIVE":"En marche",
+        "ACTIVE":"Active",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Supprimer la ruche",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer la ruche {{name}} ? Ceci supprime définitivement la ruche.",
@@ -661,15 +661,15 @@
         "DELETE_ERROR":"Erreur de suppression de la ruche"
     },
     "CONFIGURE_DEVICES":{
-        "ADD":"Ajouter un capteur",
-        "DOWNLOAD":"Téléchargement des capteurs",
+        "ADD":"Ajouter capteur",
+        "DOWNLOAD":"Télécharger capteurs",
         "NAME":"Nom du capteur",
         "ADDRESS":"Référence du capteur",
         "LOCATION":"Emplacement actuel",
         "DATA_RECEIVED":"Dernières données reçues",
-        "LOCATION_HISTORY":"Historique des emplacements",
-        "ADD_LOCATION":"Ajouter un emplacement",
-        "ACTIVE":"En marche",
+        "LOCATION_HISTORY":"Historique emplacements",
+        "ADD_LOCATION":"Ajouter emplacement",
+        "ACTIVE":"Active",
         "CONFIRM_DELETE_WINDOW":{
            "TITLE":"Supprimer le capteur",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer le capteur {{deviceName}} ? Ceci supprime définitivement le capteur et ses données associées.",
@@ -707,13 +707,13 @@
     },
     "SHARING":{
         "TITLE":"{{name}} Partage",
-        "MBM_TITLE":"Partager un rucher avec un utilisateur de MyBroodMinder",
+        "MBM_TITLE":"Partager le rucher avec un utilisateur MyBroodMinder",
         "EXT_SUBTITLE":"Partager le rucher avec d'autres sites",
         "USER":{
-            "TITLE":"Utilisateurs de MyBroodMinder",
-            "INFO":"L'utilisateur doit déjà avoir un compte MyBroodMinder. Ils seront autorisés à voir les données de vos ruchers et de vos ruches, mais n'y apporteront aucune modification.",
-            "ADD_TOOLTIP":"Ajouter un utilisateur",
-            "ADD_USER":"Entrer votre email",
+            "TITLE":"Utilisateurs MyBroodMinder",
+            "INFO":"L'utilisateur doit avoir un compte MyBroodMinder. Il sera autorisé à voir les données de vos ruchers et de vos ruches, sans pouvoir y apporter de modification.",
+            "ADD_TOOLTIP":"Ajouter utilisateur",
+            "ADD_USER":"Entrer email utilisateur",
             "SHARE_BUTTON":"Partager",
             "ADD_SUCCESS":"Utilisateur ajouté",
             "ERROR_NO_USER":"L'utilisateur n'existe pas.",
