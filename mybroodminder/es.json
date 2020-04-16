@@ -630,7 +630,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Colmenar inactivo",
-            "MESSAGE":"Todas las colmenas del colmenar serán desactivadas, se terminarán todas las ubicaciones de dispositivos en cada colmena y se eliminara el colmenar de las vistas. Los datos existentes se mantendrán, sin embargo, los nuevos datos ya no irán a este colmenar o a sus colmenas. Esta acción es definitiva. ¿Desactivar el colmenar {{name}}?",
+            "MESSAGE":"Todas las colmenas del colmenar serán desactivadas, se terminarán todas las ubicaciones de los sensores de cada colmena y se eliminara el colmenar de las vistas. Los datos existentes se mantendrán pero no se podran enviar nuevos datos a este colmenar. Esta acción es definitiva. ¿Desactivar el colmenar {{name}}?",
             "CONFIRM":"Si"
          },
         "UPDATED_SUCCESS":"Colmenar actualizado",
@@ -652,7 +652,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW":{
             "TITLE":"Colmena inactiva",
-            "MESSAGE":"Se terminaran todas las ubicaciones de los dispositivos en la colmena y se eliminaran la colmena de las vistas del colmenar. Los datos existentes se mantendrán, sin embargo, los nuevos datos ya no irán a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
+            "MESSAGE":"Se terminará la ubicacion de los sensores en la colmena y se eliminara la colmena de las vista del colmenar. Los datos existentes se mantendrán pero no se podran enviar nuevos datos a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
             "CONFIRM":"Si"
          },
         "UPDATED_SUCCESS":"Colmena actualizada",
