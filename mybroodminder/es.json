@@ -752,12 +752,12 @@
     	}
     },
     "POSITIONS":{
-        "UNDER_INNER_COVER": "Cubre cuadros",
-        "ABOVE_LOWER_BROOD_BOX": "Camara de cría",
+        "UNDER_INNER_COVER":"Cubre cuadros",
+        "ABOVE_LOWER_BROOD_BOX":"Camara de cría",
         "ABOVE_UPPER_BROOD_BOX":"Alza",
         "OUTSIDE_HIVE":"Exterior", 
-        "SCALE_UNDER_HIVE":"Báscula",
-        "SCALE_UNDER_HIVE_BACK":"Báscula (detrás)",  
+        "SCALE_UNDER_HIVE":"Báscula delante",
+        "SCALE_UNDER_HIVE_BACK":"Báscula detrás",  
         "OTHER":"Otro",
         "CUSTOM_1":"Custom (1)",
         "CUSTOM_2":"Custom (2)",

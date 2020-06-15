@@ -753,12 +753,12 @@
         }
     },
     "POSITIONS":{
-        "UNDER_INNER_COVER": "Sous le couvre-cadres",
-        "ABOVE_LOWER_BROOD_BOX": "Corps",
-        "ABOVE_UPPER_BROOD_BOX":"Hausse",
-        "OUTSIDE_HIVE":"Extérieur de la ruche",
-        "SCALE_UNDER_HIVE":"Balance sous la ruche",
-        "SCALE_UNDER_HIVE_BACK":"Balance sous la ruche (derrière)",
+        "UNDER_INNER_COVER":"Sonde couvre-cadres",
+        "ABOVE_LOWER_BROOD_BOX":"Sonde corps",
+        "ABOVE_UPPER_BROOD_BOX":"Sonde hausse",
+        "OUTSIDE_HIVE":"Extérieur",
+        "SCALE_UNDER_HIVE":"Balance AV",
+        "SCALE_UNDER_HIVE_BACK":"Balance AR",
         "OTHER":"Autre",
         "CUSTOM_1":"Personnalisé (1)",
         "CUSTOM_2":"Personnalisé (2)",
