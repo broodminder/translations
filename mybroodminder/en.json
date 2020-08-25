@@ -43,7 +43,8 @@
 	"SIDEBAR":{
 		"HOME":"Home",
 		"APIARIES":"Apiaries",
-		"CONFIGURE":"Configure",
+        "CONFIGURE":"Configure",
+        "MEMBERSHIPS":"Membership Options",
         "APIARIES_CONTEXT":
         {
             "NEW":"New Apiary"
@@ -91,7 +92,9 @@
 	"RESOURCES":{
 		"TITLE":"Resources",
 		"SUBTITLE":"Here you will find many resources so that you can start contributing to learning more about our bees.",
-		"DESCRIPTION":"Thank you for joining the BroodMinder movement where we are learning and sharing information in order to improve our understanding and management of our precious honeybees.",
+        "DESCRIPTION":"Thank you for joining the BroodMinder movement where we are learning and sharing information in order to improve our understanding and management of our precious honeybees.",
+        "DESCRIPTION_1":"Check out our Spring 2020 updates including 'SwarmMinder' updates for your BroodMinder-T2 devices. Watch the video ",
+        "DESCRIPTION_1_LINK":"here.",
 		"DESCRIPTION_2":" Sincere thanks to Google and to <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  for their generous support of BroodMinder Citizen Science.",
 		"LINKS":
 			{
@@ -113,7 +116,13 @@
 			"LINK_2":"Which APP Should I Choose?",
 			"LINK_3":"BroodMinder Devices",
 			"LINK_4":"BroodMinder-CELL/WIFI"
-		},
+        },
+        "UPDATES_2020":{
+            "TITLE":"2020 Updates",
+			"LINK_1":"Update Overview",
+			"LINK_2":"Cell/WiFi updates",
+			"LINK_3":"Troubleshooting T2 Updates"
+        },
 		"APIARY_APP":{
 			"TITLE":"Apiary App (cloud)",
 			"LINK_1":"Normal Use",
@@ -269,7 +278,8 @@
         "LOCATION_ADD":"Add Location",
         "LOADING":"Loading device sensor readings",
         "DOWNLOAD":"Download CSV data",
-        "DOWNLOAD_PREMIUM":"Downloading device data available with premium subscription.",
+        "DOWNLOAD_VIEW":"Download displayed timespan",
+        "DOWNLOAD_HIST":"Download full history",
         "OUTLIER_SHOW":"Remove outliers",
         "OUTLIER_HIDE":"Hide outlier editor",
         "EDITOR":{
@@ -324,7 +334,7 @@
     },
     "HUB_PAGE":{
         "TITLE":"Hub {{name}}",
-        "NAME":"Device Location History",
+        "NAME":"Name",
         "ADDRESS":"Device Address",
         "MODEL":"Model",
         "FIRMWARE":"Firmware",
@@ -344,7 +354,8 @@
         "PREFERENCES_TITLE":"My Preferences",
         "APIARIES_TITLE":"Apiaries",
         "HIVES_TITLE":"Hives",
-        "DEVICES_TITLE":"Devices"
+        "DEVICES_TITLE":"Devices",
+        "HUBS_TITLE":"Hubs"
     },
 	"FEATURES":{
 		"TITLE":"Feature Tour",
@@ -369,7 +380,8 @@
 		"DAYS_90":"Last 90 days",
 		"DAYS_180":"Last 180 days",
 		"YEAR_1":"Last year",
-		"CUSTOM":"Custom range"
+        "CUSTOM":"Custom range",
+        "INFO":"Premium or pro membership required to view data older than one year. You can access older data by csv download on the device view."
 	},
 	"NOTES":{
 		"TITLE":"{{value}} Notes",
@@ -402,15 +414,10 @@
         "BALANCE":"L/R Balance",
         "WEATHER_TEMP":"Outside Temperature",
         "WEATHER_HUMID":"Outside Humidity",
+        "SWARM_STATE":"T2 Sample State",
         "SWARM_S":{
-            "TITLE":"S",
-            "CHANGE_TO":{
-                "0":"Swarm monitoring stopped by system",
-                "1":"Swarm monitoring stopped by user",
-                "8":"Swarm monitoring stopped by system, too busy.",
-                "29":"Swarm detected",
-                "60":"Swarm detection complete"
-            }
+            "TITLE":"T",
+            "GENERIC":"Temperature Event"
         }
     },
     "LOCATION_HIST":{
@@ -566,18 +573,42 @@
         "SUCCESS_UPDATED":"Note updated in hive",
         "ERROR_TIME":"Invalid time"
     },
+    "HUB_CRUD":{
+        "CREATE_TITLE":"Create Hub",
+        "EDIT_TITLE":"Edit Hub",
+        "NAME":"Name",
+        "NAME_AUTO":"Use address above as name",
+        "MODEL":"Model number",
+        "ERROR_ADDRESS":"Please enter valid hub address",
+        "ERROR_DUPLICATE":"Could not create, hub with that address already exists",
+        "SUCCESS_CREATED":"Hub created",
+        "SUCCESS_UPDATED":"Hub updated",
+        "USERID":"User ID",
+        "SIM":{
+            "TITLE":"Add sim",
+            "ID":"Sim ID",
+            "TELECOM":"Telecom"
+        }
+    },
     "ACCOUNT":{
-        "TITLE":"Account Settings",
-        "USERNAME":"Username",
+        "TITLE":"My Account",
+        "EMAIL":"Email",
         "FIRST_NAME":"First Name",
         "LAST_NAME":"Last Name",
-        "SUBSCRIPTION":"Subscription Type",
+        "MEMBERSHIP":"Membership",
         "SUB_TYPES":{
-            "BASIC":"Basic",
-            "PREMIUM":"Premium",
-            "PREMIUM_WITH_EXP":"Premium expiring on {{value}}"
+            "FREE":"Free",
+            "HOBBY":"Hobby",
+            "PREMIUM":"Premium renewing on {{expiration}}",
+            "PREMIUM_CANCELLED":"Premium expiring on {{expiration}}",
+            "PREMIUM_EXPIRED":"Premium expired on {{expiration}}",
+            "PRO":"Pro renewing on {{expiration}}",
+            "PRO_CANCELLED":"Pro expiring on {{expiration}}",
+            "PRO_EXPIRED":"Pro expired on {{expiration}}",
+            "TRIAL":"Trial membership, expires on {{expiration}}"
         },
         "PURCHASE":"Purchase Premium Membership",
+        "PREMIUM_LANDING":"View Membership Options",
         "CONFIRM":"Confirm Premium Subscription Purchase",
         "SAVE":"Save",
         "CONFIRM_SUB_WINDOW":{
@@ -598,7 +629,18 @@
             "TITLE":"Change Account Email",
             "ERROR":"Error occured. Email not changed.",
             "REFRESH_ERROR":"Changing your account email requires recent authentication. Log in again before retrying this change.",
-            "NEW_EMAIL":"New email"
+            "CURRENT_EMAIL":"Current email",
+            "NEW_EMAIL":"New email",
+            "SAVE_BUTTON":"Save Email"
+        },
+        "EDIT_PASSWORD":{
+            "HEADER":"Password",
+            "BUTTON":"Change Password",
+            "TITLE":"Change Password",
+            "ERROR":"Error occured. Password not changed.",
+            "CURRENT_PASSWORD":"Current Password",
+            "NEW_PASSWORD":"New Password",
+            "SAVE_BUTTON":"Save Change"
         }
     },
     "PREFERENCES":{
@@ -609,6 +651,7 @@
         "UNIT_METRIC":"Metric (Centigrade/Kilograms)",
         "UNIT_IMPERIAL":"Imperial (Fahrenheit/Pounds)",
         "INTERPOLATE":"Interpolate Charts (connect all points, even if data gaps over 8 hours)",
+        "ALERTS_EMAIL":"Alerts email [BETA]",
         "LANGUAGE":"Language",
         "LANGUAGE_DEFAULT":"Browser Default",
         "SAVE":"Save"
@@ -658,6 +701,72 @@
         "UPDATED_SUCCESS":"Hive updated",
         "DELETE_SUCCESS":"Hive deleted",
         "DELETE_ERROR":"Error deleting hive"
+    },
+    "CONFIGURE_HUBS":{
+        "NAME":"Name",
+        "APIARY":"Apiary",
+        "LAST_UPLOAD":"Last Upload",
+        "TELECOM":"Telecom",
+        "SIM":"SIM",
+        "EXPIRING":"Expiring",
+        "HUB":"Hub",
+        "EXP_UNASSIGNED":"Unassigned",
+        "EDIT":"Manage",
+        "MANAGE":{
+            "TITLE":"Manage",
+            "CLOSE":"Done",
+            "SELECT_APIARY":"Select apiary",
+            "REMOVE_CREDIT":"Remove credit from {{item}}",
+            "CANCEL_CREDIT":"Cancel credit (remove from subscription)",
+            "REACTIVATE_CREDIT":"Reactivate credit",
+            "SELECT_CREDIT":"Select Credit",
+            "PURCHASE_CREDIT":"Purchase New",
+            "UPDATED_SUCCESS":"Hub updated",
+            "BACK_BUTTON":"Back",
+            "REMOVE":{
+                "TITLE":"Remove Credit",
+                "CONFIRM":"Are you sure you want to remove credit from {{item}}?",
+                "OK":"Yes, remove this credit",
+                "GENERAL_ERROR":"Error occured. Credit not removed"
+            },
+            "CANCEL":{
+                "TITLE":"Cancel Credit",
+                "CONFIRM":"This removes the credit from your subscription. Your new {{frequency}} subscription price is ${{amount}}. After the expiration date({{expiration}}) data from this hub will no longer be accepted to MyBroodMinder. Are you sure you want to cancel this credit?",
+                "OK":"Yes, cancel this credit",
+                "ERROR_1":"This is a free subscription, credit cannot be cancelled",
+                "ERROR_2":"This subscription is cancelled, credit cannot be cancelled",
+                "ERROR_3":"This is a free credit and cannot be cancelled",
+                "ERROR_4":"This credit is not auto-renew and cannot be cancelled",
+                "ERROR_5":"This credit has already been cancelled",
+                "ERROR_6":"This credit is free with your subscription and cannot be cancelled. Visit account page if you would like to cancel you premium membership",
+                "GENERAL_ERROR":"Error occured. Credit not cancelled"
+            },
+            "REACTIVATE":{
+                "TITLE":"Reactivate Credit",
+                "CONFIRM":"This adds the cancelled credit back to your subscription. You will be charged nothing now, since you've already paid for this period. Your new {{frequency}} subscription price is ${{amount}}. Are you sure you want to reactivate this credit?",
+                "OK":"Yes, reactivate this credit",
+                "ERROR_1":"This is a free subscription, credit cannot be reactivated",
+                "ERROR_2":"This subscription is cancelled, credit cannot be reactivated",
+                "ERROR_3":"This is a free credit and cannot be reactivated",
+                "ERROR_4":"This credit is not auto-renew and cannot be reactivated",
+                "ERROR_5":"This credit has already expired and cannot be reactivated",
+                "GENERAL_ERROR":"Error occured. Credit not reactivated"
+            },
+            "PURCHASE":{
+                "TITLE":"Purchase Credit",
+                "AUTO":"Auto-renew",
+                "ONCE":"One-time",
+                "QUANTITY":"Quantity",
+                "MONTHS":"Months",
+                "MONTH_SELECT":"months",    
+                "OK":"Purchase",
+                "ERROR_1":"You must first purchase a premium membership. View options",
+                "ERROR_1_LINK":"here",
+                "CHARGED":"Charged now",
+                "TOTAL":"Total subscription {{frequency}} price",
+                "GENERAL_ERROR":"Error occured. Credit not purchased"
+            }
+        }
     },
     "CONFIGURE_DEVICES":{
         "ADD":"Add Device",
@@ -774,6 +883,152 @@
         "DOWNLOAD_STATUS":"Download Status",
         "HIVE_DOWNLOAD_BUTTON":"Download",
         "APIARY_DOWNLOAD_BUTTON":"Download Full Apiary"
+    },
+    "SUBS":{
+        "EXP":{
+            "TRIAL":"Trial membership, expires on {{expiration}}",
+            "NOT_ACTIVE":"Not Active",
+            "SUB_CANCELLED":"Cancelled, expires on {{expiration}}",
+            "SUB_RENEWING":"Renews on {{expiration}}",
+            "SUB_EXPIRED":"Expired on {{expiration}}",
+            "SUB_EXPIRING":"Expires on {{expiration}}",
+            "CREDIT_CANCELLED":"Cancelled, expires on {{expiration}}",
+            "CREDIT_FREE_RENEWING":"Free, expires on {{expiration}}",
+            "CREDIT_EXPIRED":"Expired on {{expiration}}",
+            "CREDIT_EXPIRING":"Expires on {{expiration}}",
+            "PENDING":"Payment Pending"
+        },
+        "COMMON":{
+            "MONTHLY":"monthly",
+            "YEARLY":"yearly",
+            "FREE":"free",
+            "MONTHLY_CAP":"Monthly",
+            "YEARLY_CAP":"Yearly",
+            "FREE_CAP":"Free"
+        }
+    },
+    "MEMBERSHIP":{
+        "YEARLY":"YEARLY",
+        "MONTHLY":"MONTHLY",
+        "HOBBY":"HOBBY",
+        "PREMIUM":"PREMIUM",
+        "PRO":"PRO",
+        "HOBBY_PRICE":"FREE",
+        "YEAR":"Year",
+        "MONTH":"Month",
+        "FREE_STORAGE":"FREE STORAGE ON CLOUD",
+        "DATA_DISPLAY":"DATA DISPLAY",
+        "12_MONTH":"12 months",
+        "FULL_HIST":"full history",
+        "PUBLIC_APIARY":"PUBLIC APIARY",
+        "PUBLIC_INFO":"on BeeCounted.org",
+        "PRIVATE_APIARY":"PRIVATE APIARY",
+        "APIARY_VIEW":"APIARY VIEW",
+        "PRODUCTIVITY_VIEW":"PRODUCTIVITY VIEW",
+        "COLONY_BROOD":"COLONY BROOD",
+        "COLONY_FITNESS":"COLONY FITNESS",
+        "DAILY_ALERTS":"DAILY ALERTS",
+        "EMAIL_SUMMARY":"EMAIL SUMMARY",
+        "TITLE_2":"BROODMINDER DEVICES & APIARY APP",
+        "UNLIMITED_DEVICES":"UNLIMITED DEVICES",
+        "DATA_UPLOADING":"DATA UPLOADING",
+        "1_DEVICE":"1 device at a time",
+        "ALL_DEVICE":"all devices at once",
+        "HUB_MODE":"HUB MODE",
+        "HUB_INFO":"Possibility to use a smartphone instead of a hub to upload real time data",
+        "HUB_SUBSCRIPTION":"HUB SUBSCRIPTION",
+        "1_WIFI":"1 wifi hub",	 
+        "1_HUB_SIM":"1 cell hub (hub + SIM)",
+        "REALTIME_ALERTS":"REAL TIME ALERTS",
+        "SUPPORT":"SUPPORT",
+        "FULL_SUPPORT":"24/7 SUPPORT",
+        "BUY":"Buy Now",
+        "LOGIN":"Log In/Register",
+        "ADD_HUB":"Additional Hubs (Wifi or Cell)",
+        "ADD_SIM":"Additional SIM Card",
+        "ADD_YEAR":"year",
+        "ADD_HUB_P":"hub",
+        "ADD_SIM_P":"sim",
+        "PRO_PURCHASED":"You have a pro membership",
+        "PREMIUM_PURCHASED":"You have a premium membership"
+    },
+    "PURCHASE":{
+        "SUMMARY":{
+            "TITLE":"Purchasing Premium Subscription  ",
+            "YEAR_PREM":" Year Premium Subscription - Auto Renewing",
+            "MONTH_PREM":" Month Premium Subscription - Auto Renewing",
+            "YEAR_PRO":" Year Pro Subscription - Auto Renewing",
+            "MONTH_PRO":" Month Pro Subscription - Auto Renewing",
+            "PRICE":" Membership Price (US Dollars)",
+            "QUANTITY":"1 membership with {{quantity}} additional credits",
+            "TOTAL":"Total",
+            "ERROR_1":"You have already purchased a membership. Click",
+            "ERROR_LINK":"here",
+            "ERROR_2":"to view memberships."
+        },
+        "PAY":{
+            "TITLE":"Payment Information",
+            "VERIFY_BUTTON":"Verify Payment Method",
+            "PAY_BUTTON":"Make Payment",
+            "COMPLETE":{
+                "ID":"OrderID",
+                "STATUS":"Status",
+                "TOTAL":"Total Paid",
+                "RECIEPT":"Reciept Sent"
+            },
+            "ADDRESS_ERROR":"Missing required fields"
+        },
+        "CUSTOMER":{
+            "EMAIL":"Email",
+            "FIRST_NAME":"First Name",
+            "LAST_NAME":"Last Name"
+        },
+        "BILLING":{
+            "TITLE":"Billing Address",
+            "STREET_ADDRESS_1":"Street Address",
+            "STREET_ADDRESS_2":"Street Address 2",
+            "LOCALITY":"City",
+            "REGION":"State",
+            "POSTAL_CODE":"Postal Code",
+            "COUNTRY_CODE":"Country Code"
+        },
+        "ACCOUNT":{
+            "TITLE":"Subscription",
+            "YEAR_SUB":"Year Membership Subscription - Auto Renewing",
+            "MONTH_SUB":"Month Membership Subscription - Auto Renewing",
+            "PRICE":"Membership Price (US Dollars)",
+            "STATUS":"Status",
+            "AMOUNT":"Auto-renew Amount",
+            "DATE":"Auto-renew Date",
+            "CANCEL_BUTTON":"Cancel Subscription",
+            "CANCEL":{
+                "SUCCESS":"Subscription Cancelled",
+                "GENERAL_ERROR":"Error occured. Subscription not cancelled",
+                "CONFIRM_WINDOW":{
+                    "TITLE":"Cancel MyBroodMinder Premium Subscription",
+                    "MESSAGE":"This cancels future payments. Your membership and hubs will still be functional until {{expiration}}. Would you like to cancel?",
+                    "CONFIRM":"Yes",
+                    "CANCEL":"No"
+                 }
+            },
+            "PAYMENT":{
+                "TITLE":"Payment Method  ",
+                "CARD":"{{type}} ending in {{last4}}",
+                "CARD_UPDATE_BUTTON":"Update Payment Method",
+                "BILLING":"Billing Address",
+                "BILLING_UPDATE":"Update Billing Address",
+                "NOT_FOUND":"Not Found",
+                "EDIT":{
+                    "TITLE":"Update Payment Method",
+                    "WARN":"Deleting subscription payment method without first verifying and updating to a new one will cancel your subscription.",
+                    "UPDATE_BUTTON":"Update Payment"
+                }
+            },
+            "BILLING":{
+                "TITLE":"Update Billing Address",
+                "UPDATE":"Update"
+            }
+        }
     },
     "TAGS":[
         "Hive Inspection",
