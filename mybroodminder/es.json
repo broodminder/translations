@@ -43,7 +43,8 @@
 	"SIDEBAR":{
 		"HOME":"Inicio",
 		"APIARIES":"Colmenares",
-		"CONFIGURE":"Configurar",
+        "CONFIGURE":"Configurar",
+        "MEMBERSHIPS":"Membership Options",
         "APIARIES_CONTEXT":
         {
             "NEW":"Nuevo Colmenar"
@@ -91,7 +92,9 @@
 	"RESOURCES":{
 		"TITLE":"Recursos",
 		"SUBTITLE":"Aquí encontrará recursos para que pueda comenzar a contribuir y aprender más sobre nuestras abejas..",
-		"DESCRIPTION":"Gracias por unirte al movimiento BroodMinder. Estamos aprendiendo y compartiendo información para mejorar la comprensión y gestión de las abejas.",
+        "DESCRIPTION":"Gracias por unirte al movimiento BroodMinder. Estamos aprendiendo y compartiendo información para mejorar la comprensión y gestión de las abejas.",
+        "DESCRIPTION_1":"Check out our Spring 2020 updates including 'SwarmMinder' updates for your BroodMinder-T2 devices. Watch the video ",
+        "DESCRIPTION_1_LINK":"here.",
 		"DESCRIPTION_2":" Agradecemos a Google y a <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  su soporte generoso al programa BroodMinder Citizen Science.",
 		"LINKS":
 			{
@@ -113,7 +116,13 @@
 			"LINK_2":"Que APP debo utilizar?",
 			"LINK_3":"BroodMinder Sensores",
 			"LINK_4":"BroodMinder-Cell/WiFi"
-		},
+        },
+        "UPDATES_2020":{
+            "TITLE":"2020 Updates",
+			"LINK_1":"Update Overview",
+			"LINK_2":"Cell/WiFi updates",
+			"LINK_3":"Troubleshooting T2 Updates"
+        },
 		"APIARY_APP":{
 			"TITLE":"Apiary App (cloud)",
 			"LINK_1":"Utilización normal",
@@ -269,7 +278,8 @@
         "LOCATION_ADD":"Añadir ubicación",
         "LOADING":"Cargando datos del sensor",
         "DOWNLOAD":"Descargar datos CSV",
-        "DOWNLOAD_PREMIUM":"Descargar datos con abono premium.",
+        "DOWNLOAD_VIEW":"Download displayed timespan",
+        "DOWNLOAD_HIST":"Download full history",
         "OUTLIER_SHOW":"Eliminar valores anómalos",
         "OUTLIER_HIDE":"Ocultar editor de valores anómalos",
         "EDITOR":{
@@ -324,7 +334,7 @@
     },
     "HUB_PAGE":{
         "TITLE":"Hub {{name}}",
-        "NAME":"Historial de ubicación del dispositivo",
+        "NAME":"Name",
         "ADDRESS":"Dirección del dispositivo",
         "MODEL":"Modelo",
         "FIRMWARE":"Firmware",
@@ -344,7 +354,8 @@
         "PREFERENCES_TITLE":"Mis preferencias",
         "APIARIES_TITLE":"Colmenares",
         "HIVES_TITLE":"Colmenas",
-        "DEVICES_TITLE":"Sensores"
+        "DEVICES_TITLE":"Sensores",
+        "HUBS_TITLE":"Hubs"
     },
 	"FEATURES":{
 		"TITLE":"Tour de las funciones",
@@ -369,7 +380,8 @@
 		"DAYS_90":"Ultimos 90 días",
 		"DAYS_180":"Ultimos 180 días",
 		"YEAR_1":"Ultimo año",
-		"CUSTOM":"Personalizar duración"
+		"CUSTOM":"Personalizar duración",
+        "INFO":"Premium or pro membership required to view data older than one year. You can access older data by csv download on the device view."
 	},
 	"NOTES":{
 		"TITLE":"Notas de {{value}}",
@@ -402,15 +414,10 @@
         "BALANCE":"I/D Compensación",
         "WEATHER_TEMP":"Temperatura exterior",
         "WEATHER_HUMID":"Humedad exterior",
+        "SWARM_STATE":"T2 Sample State",
         "SWARM_S":{
-            "TITLE":"S",
-            "CHANGE_TO":{
-                "0":"Monitoring de enjambres detenido por el sistema",
-                "1":"Monitoring de enjambres detenido por el usuario",
-                "8":"Monitoring de enjambres detenido por el sistema, demasiado ocupado.",
-                "29":"Enjambre detectado",
-                "60":"Enjambre detectado - completo"
-            }
+            "TITLE":"T",
+            "GENERIC":"Temperature Event"
         }
     },
     "LOCATION_HIST":{
@@ -566,18 +573,42 @@
         "SUCCESS_UPDATED":"Nota actualizada",
         "ERROR_TIME":"Fecha incorrecta"
     },
+    "HUB_CRUD":{
+        "CREATE_TITLE":"Create Hub",
+        "EDIT_TITLE":"Edit Hub",
+        "NAME":"Name",
+        "NAME_AUTO":"Use address above as name",
+        "MODEL":"Model number",
+        "ERROR_ADDRESS":"Please enter valid hub address",
+        "ERROR_DUPLICATE":"Could not create, hub with that address already exists",
+        "SUCCESS_CREATED":"Hub created",
+        "SUCCESS_UPDATED":"Hub updated",
+        "USERID":"User ID",
+        "SIM":{
+            "TITLE":"Add sim",
+            "ID":"Sim ID",
+            "TELECOM":"Telecom"
+        }
+    },
     "ACCOUNT":{
-        "TITLE":"Preferencias",
-        "USERNAME":"Usuario",
+        "TITLE":"My Account",
+        "EMAIL":"Email",
         "FIRST_NAME":"Nombre",
         "LAST_NAME":"Apellido",
-        "SUBSCRIPTION":"Suscripción:",
+        "MEMBERSHIP":"Membership",
         "SUB_TYPES":{
-            "BASIC":"Básica",
-            "PREMIUM":"Premium",
-            "PREMIUM_WITH_EXP":"Premium expira el {{value}}"
+            "FREE":"Free",
+            "HOBBY":"Hobby",
+            "PREMIUM":"Premium renewing on {{expiration}}",
+            "PREMIUM_CANCELLED":"Premium expiring on {{expiration}}",
+            "PREMIUM_EXPIRED":"Premium expired on {{expiration}}",
+            "PRO":"Pro renewing on {{expiration}}",
+            "PRO_CANCELLED":"Pro expiring on {{expiration}}",
+            "PRO_EXPIRED":"Pro expired on {{expiration}}",
+            "TRIAL":"Trial membership, expires on {{expiration}}"
         },
         "PURCHASE":"Abonarse Premium",
+        "PREMIUM_LANDING":"View Membership Options",
         "CONFIRM":"Confirmar Premium",
         "SAVE":"Guardar",
         "CONFIRM_SUB_WINDOW":{
@@ -598,7 +629,18 @@
             "TITLE":"Cambiar Email Cuenta",
             "ERROR":"Ocurrió un error. El email no ha cambiado.",
             "REFRESH_ERROR":"Cambiar el email de su cuenta requiere una autenticación reciente. Inicie sesión de nuevo antes de volver a intentar este cambio.",
-            "NEW_EMAIL":"Nuevo email"
+            "CURRENT_EMAIL":"Current email",
+            "NEW_EMAIL":"Nuevo email",
+            "SAVE_BUTTON":"Save Email"
+        },
+        "EDIT_PASSWORD":{
+            "HEADER":"Password",
+            "BUTTON":"Change Password",
+            "TITLE":"Change Password",
+            "ERROR":"Error occured. Password not changed.",
+            "CURRENT_PASSWORD":"Current Password",
+            "NEW_PASSWORD":"New Password",
+            "SAVE_BUTTON":"Save Change"
         }
     },
     "PREFERENCES":{
@@ -609,6 +651,7 @@
         "UNIT_METRIC":"Metrico (Centigrada/Kilogramos)",
         "UNIT_IMPERIAL":"Imperial (Fahrenheit/Pounds)",
         "INTERPOLATE":"Interpolar gráficas (conectar todos los puntos, incluso con interrupciones superiores a 8 horas)",
+        "ALERTS_EMAIL":"Alerts email [BETA]",
         "LANGUAGE":"Idioma",
         "LANGUAGE_DEFAULT":"predeterminado (navegador)",
         "SAVE":"Guardar"
@@ -658,6 +701,72 @@
         "UPDATED_SUCCESS":"Colmena actualizada",
         "DELETE_SUCCESS":"Colmena suprimida",
         "DELETE_ERROR":"Error suprimiendo colmena"
+    },
+    "CONFIGURE_HUBS":{
+        "NAME":"Name",
+        "APIARY":"Apiary",
+        "LAST_UPLOAD":"Last Upload",
+        "TELECOM":"Telecom",
+        "SIM":"SIM",
+        "EXPIRING":"Expiring",
+        "HUB":"Hub",
+        "EXP_UNASSIGNED":"Unassigned",
+        "EDIT":"Manage",
+        "MANAGE":{
+            "TITLE":"Manage",
+            "CLOSE":"Done",
+            "SELECT_APIARY":"Select apiary",
+            "REMOVE_CREDIT":"Remove credit from {{item}}",
+            "CANCEL_CREDIT":"Remove credit from auto-renew",
+            "REACTIVATE_CREDIT":"Reactivate credit",
+            "SELECT_CREDIT":"Select Credit",
+            "PURCHASE_CREDIT":"Purchase New",
+            "UPDATED_SUCCESS":"Hub updated",
+            "BACK_BUTTON":"Back",
+            "REMOVE":{
+                "TITLE":"Remove Credit",
+                "CONFIRM":"Are you sure you want to remove credit from {{item}}?",
+                "OK":"Yes, remove this credit",
+                "GENERAL_ERROR":"Error occured. Credit not removed"
+            },
+            "CANCEL":{
+                "TITLE":"Cancel Credit",
+                "CONFIRM":"This removes the credit from your subscription. Your new {{frequency}} subscription price is ${{amount}}. After the expiration date({{expiration}}) data from this hub will no longer be accepted to MyBroodMinder. Are you sure you want to cancel this credit?",
+                "OK":"Yes, cancel this credit",
+                "ERROR_1":"This is a free subscription, credit cannot be cancelled",
+                "ERROR_2":"This subscription is cancelled, credit cannot be cancelled",
+                "ERROR_3":"This is a free credit and cannot be cancelled",
+                "ERROR_4":"This credit is not auto-renew and cannot be cancelled",
+                "ERROR_5":"This credit has already been cancelled",
+                "ERROR_6":"This credit is free with your subscription and cannot be cancelled. Visit account page if you would like to cancel you premium membership",
+                "GENERAL_ERROR":"Error occured. Credit not cancelled"
+            },
+            "REACTIVATE":{
+                "TITLE":"Reactivate Credit",
+                "CONFIRM":"This adds the cancelled credit back to your subscription. You will be charged nothing now, since you've already paid for this period. Your new {{frequency}} subscription price is ${{amount}}. Are you sure you want to reactivate this credit?",
+                "OK":"Yes, reactivate this credit",
+                "ERROR_1":"This is a free subscription, credit cannot be reactivated",
+                "ERROR_2":"This subscription is cancelled, credit cannot be reactivated",
+                "ERROR_3":"This is a free credit and cannot be reactivated",
+                "ERROR_4":"This credit is not auto-renew and cannot be reactivated",
+                "ERROR_5":"This credit has already expired and cannot be reactivated",
+                "GENERAL_ERROR":"Error occured. Credit not reactivated"
+            },
+            "PURCHASE":{
+                "TITLE":"Purchase Credit",
+                "AUTO":"Auto-renew",
+                "ONCE":"One-time",
+                "QUANTITY":"Quantity",
+                "MONTHS":"Months",
+                "MONTHS_SELECT":"months",    
+                "OK":"Purchase",
+                "ERROR_1":"You must first purchase a premium membership. View options",
+                "ERROR_1_LINK":"here",
+                "CHARGED":"Charged now",
+                "TOTAL":"Total subscription {{frequency}} price",
+                "GENERAL_ERROR":"Error occured. Credit not purchased"
+            }
+        }
     },
     "CONFIGURE_DEVICES":{
         "ADD":"Añadir sensor",
@@ -774,6 +883,160 @@
         "DOWNLOAD_STATUS":"Estado Descarga",
         "HIVE_DOWNLOAD_BUTTON":"Descargar",
         "APIARY_DOWNLOAD_BUTTON":"Descargar Colmenar Completo"
+    },
+    "SUBS":{
+        "EXP":{
+            "TRIAL":"Trial membership, expires on {{expiration}}",
+            "NOT_ACTIVE":"Not Active",
+            "SUB_CANCELLED":"Cancelled, expires on {{expiration}}",
+            "SUB_RENEWING":"Renews on {{expiration}}",
+            "SUB_EXPIRED":"Expired on {{expiration}}",
+            "SUB_EXPIRING":"Expires on {{expiration}}",
+            "CREDIT_CANCELLED":"Cancelled, expires on {{expiration}}",
+            "CREDIT_FREE_RENEWING":"Free, expires on {{expiration}}",
+            "CREDIT_EXPIRED":"Expired on {{expiration}}",
+            "CREDIT_EXPIRING":"Expires on {{expiration}}",
+            "PENDING":"Payment Pending"
+        },
+        "COMMON":{
+            "MONTHLY":"monthly",
+            "YEARLY":"yearly",
+            "FREE":"free",
+            "MONTHLY_CAP":"Monthly",
+            "YEARLY_CAP":"Yearly",
+            "FREE_CAP":"Free"
+        }
+    },
+    "MEMBERSHIP":{
+        "YEARLY":"YEARLY",
+        "MONTHLY":"MONTHLY",
+        "HOBBY":"HOBBY",
+        "PREMIUM":"PREMIUM",
+        "PRO":"PRO",
+        "HOBBY_PRICE":"FREE",
+        "YEAR":"Year",
+        "MONTH":"Month",
+        "FREE_STORAGE":"FREE STORAGE ON CLOUD",
+        "DATA_DISPLAY":"DATA DISPLAY",
+        "12_MONTH":"12 months",
+        "FULL_HIST":"full history",
+        "PUBLIC_APIARY":"PUBLIC APIARY",
+        "PUBLIC_INFO":"on BeeCounted.org",
+        "PRIVATE_APIARY":"PRIVATE APIARY",
+        "MS_VIEWS":"MELLISPHERA VIEWS",
+        "MBM_VIEWS":"MYBROODMINDER PREMIUM VIEWS",
+        "MBM_VIEWS_INFO":"Apiary and productivity views/charts",
+        "COLONY_BROOD":"COLONY BROOD",
+        "COLONY_FITNESS":"COLONY FITNESS",
+        "DAILY_ALERTS":"DAILY ALERTS",
+        "EMAIL_SUMMARY":"EMAIL SUMMARY",
+        "TITLE_2":"BROODMINDER DEVICES & APIARY APP",
+        "UNLIMITED_DEVICES":"UNLIMITED DEVICES",
+        "DATA_UPLOADING":"DATA UPLOADING",
+        "1_DEVICE":"1 device at a time",
+        "ALL_DEVICE":"all devices at once",
+        "HUB_MODE":"HUB MODE",
+        "HUB_INFO":"Possibility to use a smartphone instead of a hub to upload real time data",
+        "HUB_SUBSCRIPTION":"HUB SUBSCRIPTION",
+        "1_WIFI":"1 wifi hub",	 
+        "1_HUB_SIM":"1 cell hub (hub + SIM)",
+        "REALTIME_ALERTS":"REAL TIME ALERTS",
+        "SUPPORT":"SUPPORT",
+        "FULL_SUPPORT":"PREMIUM SUPPORT",
+        "BUY":"Buy Now",
+        "LOGIN":"Log In/Register",
+        "ADD_HUB":"Additional Hubs (Wifi or Cell)",
+        "ADD_SIM":"Additional SIM Card",
+        "ADD_YEAR":"year",
+        "ADD_HUB_P":"hub",
+        "ADD_SIM_P":"sim",
+        "PRO_PURCHASED":"You have a pro membership",
+        "PREMIUM_PURCHASED":"You have a premium membership"
+    },
+    "PURCHASE":{
+        "SUMMARY":{
+            "TITLE":"Purchasing Premium Subscription  ",
+            "YEAR_PREM":" Year Premium Subscription - Auto Renewing",
+            "MONTH_PREM":" Month Premium Subscription - Auto Renewing",
+            "YEAR_PRO":" Year Pro Subscription - Auto Renewing",
+            "MONTH_PRO":" Month Pro Subscription - Auto Renewing",
+            "PRICE":" Membership Price (US Dollars)",
+            "QUANTITY":"1 membership with {{quantity}} additional credits",
+            "TOTAL":"Total",
+            "ERROR_1":"You have already purchased a membership. Click",
+            "ERROR_LINK":"here",
+            "ERROR_2":"to view memberships."
+        },
+        "PAY":{
+            "TITLE":"Payment Information",
+            "RENEW_DISCLAIMER":"Auto-renewing subscription. You will be charged {{amount}} {{frequency}}.",
+            "VERIFY_BUTTON":"Verify Payment Method",
+            "PAY_BUTTON":"Make Payment",
+            "COMPLETE":{
+                "ID":"OrderID",
+                "STATUS":"Status",
+                "TAX":"Tax",
+                "TOTAL":"Total Paid",
+                "RECIEPT":"Reciept Sent",
+                "AR_DATE":"Auto-renew Date",
+                "AR_AMOUNT":"Auto-renew Amount",
+                "LINK_1":"Purchase complete. Click",
+                "LINK_LINK":"here",
+                "LINK_2":"to view memberships."
+            },
+            "ADDRESS_ERROR":"Missing required fields"
+        },
+        "CUSTOMER":{
+            "EMAIL":"Email",
+            "FIRST_NAME":"First Name",
+            "LAST_NAME":"Last Name"
+        },
+        "BILLING":{
+            "TITLE":"Billing Address",
+            "STREET_ADDRESS_1":"Street Address",
+            "STREET_ADDRESS_2":"Street Address 2",
+            "LOCALITY":"City",
+            "REGION":"State",
+            "POSTAL_CODE":"Postal Code",
+            "COUNTRY_CODE":"Country Code"
+        },
+        "ACCOUNT":{
+            "TITLE":"Subscription",
+            "YEAR_SUB":"Year Membership Subscription - Auto Renewing",
+            "MONTH_SUB":"Month Membership Subscription - Auto Renewing",
+            "PRICE":"Membership Price (US Dollars)",
+            "STATUS":"Status",
+            "AMOUNT":"Auto-renew Amount",
+            "DATE":"Auto-renew Date",
+            "CANCEL_BUTTON":"Cancel Subscription",
+            "CANCEL":{
+                "SUCCESS":"Subscription Cancelled",
+                "GENERAL_ERROR":"Error occured. Subscription not cancelled",
+                "CONFIRM_WINDOW":{
+                    "TITLE":"Cancel MyBroodMinder Premium Subscription",
+                    "MESSAGE":"This cancels future payments. Your membership and hubs will still be functional until {{expiration}}. Would you like to cancel?",
+                    "CONFIRM":"Yes",
+                    "CANCEL":"No"
+                 }
+            },
+            "PAYMENT":{
+                "TITLE":"Payment Method  ",
+                "CARD":"{{type}} ending in {{last4}}",
+                "CARD_UPDATE_BUTTON":"Update Payment Method",
+                "BILLING":"Billing Address",
+                "BILLING_UPDATE":"Update Billing Address",
+                "NOT_FOUND":"Not Found",
+                "EDIT":{
+                    "TITLE":"Update Payment Method",
+                    "WARN":"Deleting subscription payment method without first verifying and updating to a new one will cancel your subscription.",
+                    "UPDATE_BUTTON":"Update Payment"
+                }
+            },
+            "BILLING":{
+                "TITLE":"Update Billing Address",
+                "UPDATE":"Update"
+            }
+        }
     },
     "TAGS":[
         "Inspección de la colmena",
