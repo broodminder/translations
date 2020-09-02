@@ -56,6 +56,7 @@
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Export para Investigadores"
+
 		},
 		"HIVE_CONTEXT":
 		{
@@ -74,7 +75,6 @@
         "HUB_CONTEXT":
         {
             "REMOVE":"Eliminar {{value}} del menú"
-
 		},
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"compartido conmigo"
@@ -716,44 +716,44 @@
             "TITLE":"Gestionar",
             "CLOSE":"Hecho",
             "SELECT_APIARY":"Selecciona colmenar",
-            "REMOVE_CREDIT":"Retirar crédito de {{item}}",
-            "CANCEL_CREDIT":"Retirar crédito de auto-renov",
-            "REACTIVATE_CREDIT":"Reactivar crédito",
-            "SELECT_CREDIT":"Seleccionar crédito",
+            "REMOVE_CREDIT":"Retirar ficha de {{item}}",
+            "CANCEL_CREDIT":"Retirar ficha de auto-renov",
+            "REACTIVATE_CREDIT":"Reactivar ficha",
+            "SELECT_CREDIT":"Seleccionar ficha",
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
             "BACK_BUTTON":"Atras",
             "REMOVE":{
-                "TITLE":"Retirar Crédito",
-                "CONFIRM":"Estás seguro de que quieres retirar el crédito de {{item}}?",
-                "OK":"Si, retirar este crédito",
-                "GENERAL_ERROR":"Error : El crédito no se pudo eliminar"
+                "TITLE":"Retirar Ficha",
+                "CONFIRM":"Estás seguro de que quieres retirar el ficha de {{item}}?",
+                "OK":"Si, retirar este ficha",
+                "GENERAL_ERROR":"Error : El ficha no se pudo eliminar"
             },
             "CANCEL":{
-                "TITLE":"Cancelar crédito",
-                "CONFIRM":"Esto elimina el crédito de su suscripción. El importe de su nueva suscripción {{Frequency}} es de ${{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
-                "OK":"Si, retirar crédito",
-                "ERROR_1":"Esta es una suscripción gratuita, el crédito no se puede cancelar",
-                "ERROR_2":"Esta suscripción está cancelada, el crédito no se puede cancelar",
-                "ERROR_3":"Este es un crédito gratuito y no se puede cancelar.",
-                "ERROR_4":"Este crédito no se renueva automáticamente y no se puede cancelar",
-                "ERROR_5":"Este crédito ya ha sido cancelado",
-                "ERROR_6":"Este crédito es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
-                "GENERAL_ERROR":"Error : El crédito no se pudo cancelar"
+                "TITLE":"Cancelar ficha",
+                "CONFIRM":"Esto elimina el ficha de su suscripción. El importe de su nueva suscripción {{Frequency}} es de ${{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
+                "OK":"Si, retirar ficha",
+                "ERROR_1":"Esta es una suscripción gratuita, el ficha no se puede cancelar",
+                "ERROR_2":"Esta suscripción está cancelada, el ficha no se puede cancelar",
+                "ERROR_3":"Este es un ficha gratuito y no se puede cancelar.",
+                "ERROR_4":"Este ficha no se renueva automáticamente y no se puede cancelar",
+                "ERROR_5":"Este ficha ya ha sido cancelado",
+                "ERROR_6":"Este ficha es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
+                "GENERAL_ERROR":"Error : El ficha no se pudo cancelar"
             },
             "REACTIVATE":{
-                "TITLE":"Reactivar Crédito",
-                "CONFIRM":"Esto agrega el crédito cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es $ {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
-                "OK":"Si, reactivar crédito",
-                "ERROR_1":"Esta es una suscripción gratuita, el crédito no se puede reactivar",
-                "ERROR_2":"Esta suscripción está cancelada, el crédito no se puede reactivar",
-                "ERROR_3":"Este es un crédito gratuito y no se puede reactivar",
-                "ERROR_4":"Este crédito no se renueva automáticamente y no se puede reactivar",
-                "ERROR_5":"Este crédito ya venció y no se puede reactivar.",
-                "GENERAL_ERROR":"Error : El crédito no se pudo reactivar"
+                "TITLE":"Reactivar Ficha",
+                "CONFIRM":"Esto agrega el ficha cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es $ {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
+                "OK":"Si, reactivar ficha",
+                "ERROR_1":"Esta es una suscripción gratuita, el ficha no se puede reactivar",
+                "ERROR_2":"Esta suscripción está cancelada, el ficha no se puede reactivar",
+                "ERROR_3":"Este es un ficha gratuito y no se puede reactivar",
+                "ERROR_4":"Este ficha no se renueva automáticamente y no se puede reactivar",
+                "ERROR_5":"Este ficha ya venció y no se puede reactivar.",
+                "GENERAL_ERROR":"Error : El ficha no se pudo reactivar"
             },
             "PURCHASE":{
-                "TITLE":"Comprar Crédito",
+                "TITLE":"Comprar Ficha",
                 "AUTO":"Renovar auto",
                 "ONCE":"Una sola vez",
                 "QUANTITY":"Cantidad",
@@ -764,7 +764,7 @@
                 "ERROR_1_LINK":"aquí",
                 "CHARGED":"Pagado ahora",
                 "TOTAL":"Importe total del abono {{frequency}}",
-                "GENERAL_ERROR":"Error : No se pudo comprar crédito"
+                "GENERAL_ERROR":"Error : No se pudo comprar ficha"
             }
         }
     },
@@ -945,11 +945,8 @@
         "FULL_SUPPORT":"SOPORTE PREMIUM",
         "BUY":"Comprar ahora",
         "LOGIN":"Login/Registrar",
-        "ADD_HUB":"Hubs adicionales (Wifi or Cell)",
-        "ADD_SIM":"SIMs adicionales",
-        "ADD_YEAR":"año",
-        "ADD_HUB_P":"hub",
-        "ADD_SIM_P":"sim",
+        "TOKEN_REQUIRED":"Se requieren fichas adicionales para cada Hub (Wifi o Cell) y cada SIM",
+        "TOKEN_REQUIRED_2":"Coste de la ficha: $54/año o $5/mes",
         "PRO_PURCHASED":"Tienes una cuenta Pro",
         "PREMIUM_PURCHASED":"Tienes una cuenta Premium"
     },
@@ -961,7 +958,7 @@
             "YEAR_PRO":" Suscripción Pro anual - Renovación automática",
             "MONTH_PRO":" Suscripción Pro mensual - Renovación automática",
             "PRICE":" Importe de la Suscripción (US Dollars)",
-            "QUANTITY":"1 Suscripción con {{quantity}} créditos adicionales",
+            "QUANTITY":"1 Suscripción con {{quantity}} fichas adicionales",
             "TOTAL":"Total",
             "ERROR_1":"Ya has comprado una suscripción. Haz clic",
             "ERROR_LINK":"aqui",
