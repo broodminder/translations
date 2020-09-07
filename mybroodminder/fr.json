@@ -1,8 +1,8 @@
 {
-	"LOGIN":{
+	"LOGIN": {
 		"LOGIN_MENU":"Identifiant",
 		"REGISTER_MENU":"S'inscrire",
-		"LOGIN":{
+		"LOGIN": {
 			"TITLE":"Se connecter à un compte existant",
 			"EMAIL":"Email",
 			"PASSWORD":"Mot de passe",
@@ -11,18 +11,18 @@
 			"RESET":"Envoyer un email de réinitialisation",
             "RESET_SUCCESS":"Email de réinitialisation envoyé à {{value}}",
 			"RESET_ERROR":"Erreur, email non envoyé.",
-            "ERROR":{
+            "ERROR": {
                 "GENERAL":"La connexion a échoué.",
                 "PASSWORD":"Nom d'utilisateur ou mot de passe incorrect.",
                 "EMAIL":"Il n'existe pas de compte pour cet email."
             }
 		},
-		"REGISTER":{
+		"REGISTER": {
 			"TITLE":"Créer un nouveau compte",
 			"EMAIL":"Email",
 			"PASSWORD":"Mot de passe",
 			"REGISTER_BTN":"S'incrire",
-			"EULA":{
+			"EULA": {
 				"TITLE":"MyBroodMinder.com EULA (Contrat de licence utilisateur) v1.1",
 				"DESCRIPTION":"Nous vous demandons alors d'accepter les déclarations suivantes pour utiliser ce logiciel apicole SaaS :",
 				"POINT_1":"Je place les données que je télécharge ou entre dans ce service dans le domaine public. A ce titre, mybroodminder.com peut utiliser les données, sous une forme anonyme, pour les partager avec le grand public.",
@@ -32,7 +32,7 @@
 				"POINT_5":"Je comprends que mybroodminder.com est un lieu d'échange d'informations entre apiculteurs et entomologistes, et je me conduirai de manière courtoise à tout moment. Je comprends que si je ne le fais pas, mon compte pourrait être résilié à la seule digression du personnel de mybroodminder.com.",
 				"AGREE":"Je suis d'accord"
 			},
-			"ERROR":{
+			"ERROR": {
                 "DUPLICATE":"L'adresse email est déjà utilisée par un autre compte.",
                 "GENERAL":"Impossible de créer un compte.",
                 "PASSWORD":"Le mot de passe n'est pas assez fort.",
@@ -40,46 +40,40 @@
             }
 		}
 	},
-	"SIDEBAR":{
+	"SIDEBAR": {
 		"HOME":"Accueil",
 		"APIARIES":"Ruchers",
         "CONFIGURE":"Configurer",
         "MEMBERSHIPS":"Membership Options",
-        "APIARIES_CONTEXT":
-        {
+        "APIARIES_CONTEXT": {
             "NEW":"Nouveau Rucher"
         },
-		"APIARY_CONTEXT":
-		{
+		"APIARY_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
 			"NEW_HIVE":"Nouvelle ruche",
 			"SHARE":"Partager",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Export Chercheurs"
 		},
-		"HIVE_CONTEXT":
-		{
+		"HIVE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer capteur",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Déplacer ruche"
 		},
-		"DEVICE_CONTEXT":
-		{
+		"DEVICE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
 			"EDIT_LOCATION":"Modifier emplacement actuel",
 			"MOVE":"Déplacer capteur"
         },
-        "HUB_CONTEXT":
-        {
+        "HUB_CONTEXT": {
             "REMOVE":"Supprimer {{value}} du menu"
-
 		},
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi"
 	},
-	"TOP_MENU":{
+	"TOP_MENU": {
 		"ACCOUNT":"Compte",
 		"TOUR":"Visite",
 		"HELP":"Aide",
@@ -89,15 +83,14 @@
         "REGISTER":"S'inscrire",
         "RESOURCES":"Ressources"
 	},
-	"RESOURCES":{
+	"RESOURCES": {
 		"TITLE":"Ressources",
 		"SUBTITLE":"Vous trouverez ici de nombreuses ressources pour que vous puissiez commencer à contribuer à en apprendre davantage sur nos abeilles.",
 		"DESCRIPTION":"Merci de vous joindre au mouvement BroodMinder où nous apprenons et partageons de l'information afin d'améliorer notre compréhension et notre gestion de nos précieuses abeilles.",
         "DESCRIPTION_1":"Consultez nos mises à jour du printemps 2020, y compris les mises à jour 'SwarmMinder' pour vos appareils BroodMinder-T2. Voir la vidéo",
         "DESCRIPTION_1_LINK":"ici.",
         "DESCRIPTION_2":" Un grand merci à Google et à <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a> pour leur généreux soutien à BroodMinder Citizen Science.",
-		"LINKS":
-			{
+		"LINKS": {
 				"TITLE":"Liens",
 				"LOGIN":"Connexion",
 				"USER_GUIDE_VIDEO":"Guides vidéo de l'utilisateur",
@@ -106,39 +99,39 @@
 				"SUPPORT":"Support"
 			}
 	},
-	"VIDEO_GUIDES":{
+	"VIDEO_GUIDES": {
 		"TITLE":"Guides vidéo de l'utilisateur",
 		"HOW_TO":"Comment utiliser ce manuel",
 		"IN_PROGRESS":"En cours",
-		"INSTALLATION":{
+		"INSTALLATION": {
 			"TITLE":"Installation",
 			"LINK_1":"Démarrage rapide",
 			"LINK_2":"Quelle APP devrais-je choisir ?",
 			"LINK_3":"Appareils de BroodMinder",
 			"LINK_4":"BroodMinder-CELL/WIFI"
         },
-        "UPDATES_2020":{
+        "UPDATES_2020": {
             "TITLE":"Mises à jour 2020",
 			"LINK_1":"Contenu de la mise à jour",
 			"LINK_2":"Mise à jour du Cell/WiFi",
 			"LINK_3":"Diagnostics pour le T2"
         },
-		"APIARY_APP":{
+		"APIARY_APP": {
 			"TITLE":"Apiary App (cloud)",
 			"LINK_1":"Utilisation normale",
 			"LINK_2":"Nouveau - Mode Hub"
 		},
-		"BROODMINDER_APP":{
+		"BROODMINDER_APP": {
 			"TITLE":"App Originale (autonome)",
 			"LINK_1":"Utilisation normale",
 			"LINK_2":"Export des données"
 		},
-		"CELL_APP":{
+		"CELL_APP": {
 			"TITLE":"CELL App",
 			"LINK_1":"Utilisation normale (voir l'installation)",
 			"LINK_2":"Diagnostics"
 		},
-		"MYBROODMINDER":{
+		"MYBROODMINDER": {
 			"TITLE":"MyBroodMinder",
 			"LINK_1":"Prise en main",
 			"LINK_2":"La visualisation des données",
@@ -147,12 +140,12 @@
 			"LINK_5":"Vérification du Cell, WIFI et Hub",
 			"LINK_6":"Navigation alternative"
 		},
-		"INTERPRETATION":{
+		"INTERPRETATION": {
 			"TITLE":"Interprétation des données",
 			"LINK_1":"Température de la ruche",
 			"LINK_2":"Poids de la ruche"
 		},
-		"TROUBLESHOOT":{
+		"TROUBLESHOOT": {
 			"TITLE":"Dépannage",
 			"LINK_1":"Entretien annuel",
 			"LINK_2":"Batteries",
@@ -163,14 +156,14 @@
 			"LINK_7":"Mise à jour du micrologiciel T2 version 2.77"
 		}
 	},
-	"TOUR":{
-		"START":{
+	"TOUR": {
+		"START": {
 			"TITLE":"Bienvenue!!",
 			"DESCRIPTION":"Bienvenue sur le nouveau MyBroodMinder!",
 			"SKIP":"Passer",
 			"SEE":"Voir les fonctionnalités"
 		},
-		"FEATURES":{
+		"FEATURES": {
 			"TITLE":"Tour d'Horizon",
 			"SKIP":"Passer",
 			"NEXT":"Suivant",
@@ -181,38 +174,38 @@
 			"FEATURE_4":"Afficher l'état du CELL/WiFi/Hub"
 		}
 	},
-	"APIARY_PAGE":{
+	"APIARY_PAGE": {
 		"SELECT":"Sélectionnez une vue",
 		"PREMIUM_EXP":"La sélection de plage horaire pour cette vue est disponible avec un abonnement premium.",
-		"TEXT":{
+		"TEXT": {
 			"TITLE":"Texte",
             "DESCRIPTION":"Cette vue affiche le relevé le plus récent téléchargé pour chaque position dans chaque ruche.",
             "MOVED_EXP":"Ruche déplacée"
 		},
-		"HIVE":{
+		"HIVE": {
 				"TITLE":"Ruche",
 				"DESCRIPTION":"Cette vue affiche un graphique rapide pour chaque ruche. Priorité d'affichage du poids : valeur la plus élevée. Priorité d'affichage de l'humidité et de la température : 1-corps 2-hausse 3-Sous le nourrisseur 4-Autre 5-Personnalisé (valeur la plus élevée) 6-Extérieur 7-Balance"
 		},
-		"SUMMARY":{
+		"SUMMARY": {
 			"TITLE":"Résumé",
 			"DESCRIPTION":"Cette vue affiche des graphiques combinés par type de données. Les détails affichés suivent les valeurs par défaut de la vue de la ruche, mais peuvent être définis par ruche dans les paramètres de la ruche",
 			"PREMIUM_EXP":"Cette vue est disponible avec un abonnement premium. Exemple illustré ci-dessous.",
-			"TEMP":{
+			"TEMP": {
 				"TITLE":"Températures du rucher",
 				"NONE":"Pas de données de température",
 				"LOADING":"Chargement des relevés de température du rucher"
 			},
-            "HUMID":{
+            "HUMID": {
 				"TITLE":"Humidités du rucher",
 				"NONE":"Pas de données d'humidité",
 				"LOADING":"Chargement des relevés d'humidité du rucher"
 			},
-			"WEIGHT":{
+			"WEIGHT": {
 				"TITLE":"Poids du rucher",
 				"NONE":"Pas de données de poids",
 				"LOADING":"Chargement des relevés de poids du rucher"
 			},
-			"BATTERY":{
+			"BATTERY": {
 				"TITLE":"Batteries du rucher",
 				"NONE":"Pas de données de batterie",
 				"LOADING":"Chargement des relevés de batterie du rucher"
@@ -220,23 +213,23 @@
 			"HIVES":"Ruches"
 		}  
 	},
-    "HIVE_PAGE":{
-        "DATA_TOOLTIP":{
+    "HIVE_PAGE": {
+        "DATA_TOOLTIP": {
             "UPDATE":"Voir les mises à jour nécessaires",
             "BUILDING":"Voir la construction",
             "OK":"Afficher les dernières mises à jour"
         },
-        "TEMP":{
+        "TEMP": {
             "TITLE":"Température",
             "NONE":"Pas de données de température",
             "LOADING":"Chargement des relevés de température de la ruche"
         },
-        "HUMID":{
+        "HUMID": {
             "TITLE":"Humidité",
             "NONE":"Pas de données d'humidité",
             "LOADING":"Chargement des relevés d'humidité de la ruche"
         },
-        "WEIGHT":{
+        "WEIGHT": {
             "TITLE":"Poids",
             "NONE":"Pas de données de poids",
             "LOADING":"Chargement des relevés de poids de la ruche",
@@ -244,13 +237,13 @@
             "AVERAGE_SCALE":"Moyenne des balances",
             "INDIVIDUAL_SCALE":"Balances individuelles"
         },
-        "PRODUCTIVITY":{
+        "PRODUCTIVITY": {
             "TITLE":"Productivité des abeilles",
             "NONE":"Pas de données de poids pour la productivité des abeilles",
             "LOADING":"Chargement des relevés de productivité des abeilles",
             "INFO":"Les abeilles ajoutent/enlèvent du poids à la ruche"
         },
-        "BATTERY":{
+        "BATTERY": {
             "TITLE":"Batterie",
             "NONE":"Pas de données de batterie",
             "LOADING":"Chargement des relevés de batterie de la ruche"
@@ -264,8 +257,8 @@
         "DOWNLOAD_PREMIUM":"Téléchargement des données de la ruche disponible avec un abonnement premium.",
         "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement premium."
     },
-    "DEVICE_PAGE":{
-        "DATA_TOOLTIP":{
+    "DEVICE_PAGE": {
+        "DATA_TOOLTIP": {
             "UPDATE":"Voir les mises à jour nécessaires",
             "BUILDING":"Voir la construction",
             "OK":"Afficher les dernères mises à jour"
@@ -282,7 +275,7 @@
         "DOWNLOAD_HIST":"Télécharger tout l'historique",
         "OUTLIER_SHOW":"Supprimer les valeurs aberrantes",
         "OUTLIER_HIDE":"Masquer l'éditeur de valeurs aberrantes",
-        "EDITOR":{
+        "EDITOR": {
             "TITLE":"Éditeur des valeurs aberrantes",
             "DESCRIPTION":"Zoomez le graphique ou cliquez sur le point pour filtrer les relevés ci-dessous.",
             "BUTTON_NONE":"Sélectionner les relevés à supprimer dans le tableau ci-dessous",
@@ -305,7 +298,7 @@
             "BALANCE":"G/D Balance",
             "WEIGHT_SF":"Facteur d'échelle de poids",
             "SAMPLE_STATE":"État de l'échantillon T2",
-            "CONFIRM_WINDOW":{
+            "CONFIRM_WINDOW": {
                "TITLE":"Supprimer les relevés sélectionnés",
                "MESSAGE":"Souhaitez-vous supprimer les reléves sélectionnés {{count}} ?",
                "CONFIRM":"Oui"
@@ -313,7 +306,7 @@
             "SUCCESS":"Relevés supprimés",
             "FAIL":"Erreur, relevés non supprimés",
             "DISMISS":"Rejeter",
-            "OUTLIERS":{
+            "OUTLIERS": {
                 "TITLE":"Relevés marqués comme valeurs aberrantes",
                 "NONE":"Aucun relevé supprimé pour cette période de temps",
                 "MOVE":"Revenir en arrière",
@@ -322,7 +315,7 @@
                 "SYSTEM_R":"Système supprimé",
                 "BUTTON_NONE":"Sélectionner les relevés à ajouter en tant que relevés normaux du capteur",
                 "BUTTON_SELECTED":"Retourner à la sélection",
-                "CONFIRM_WINDOW":{
+                "CONFIRM_WINDOW": {
                    "TITLE":"Déplacer les relevés sélectionnés",
                    "MESSAGE":"Souhaitez-vous réajouter les reléves sélectionnés {{{count}}} aux relevés normaux des capteurs ?",
                    "CONFIRM":"Oui"
@@ -332,7 +325,7 @@
             }
         }
     },
-    "HUB_PAGE":{
+    "HUB_PAGE": {
         "TITLE":"Hub {{name}}",
         "NAME":"Nom",
         "ADDRESS":"Référence de l'appareil",
@@ -346,7 +339,7 @@
         "CHART_READINGS_LABEL":"Relevés",
         "CHART_SIGNAL":"Signal"
     },
-    "CONFIGURE_PAGE":{
+    "CONFIGURE_PAGE": {
         "TITLE":"Configurer",
         "SEPARATE":"Par catégorie",
         "NESTED":"Englobé par Rucher",
@@ -357,7 +350,7 @@
         "DEVICES_TITLE":"Capteurs",
         "HUBS_TITLE":"Hubs"
     },
-	"FEATURES":{
+	"FEATURES": {
 		"TITLE":"Tour d'horizon",
 		"SKIP":"Passer",
 		"NEXT":"Suivant",
@@ -367,7 +360,7 @@
 		"FEATURE_3":"Configuration et déplacement des capteurs",
 		"FEATURE_4":"Afficher l'état du CELL/WiFi/Hub"
 	},
-	"DATE_PICKER":{
+	"DATE_PICKER": {
 		"VIEWING":"Visualisation",
         "START":"Début",
         "END":"Fin",
@@ -383,7 +376,7 @@
 		"CUSTOM":"Personnaliser la plage",
         "INFO":"Abonnement Premium ou Pro requis pour visualiser les données de plus de 12 mois. Vous pouvez toujours télécharger l'ensemble de l'historique au format csv sur la vue du capteur."
 	},
-	"NOTES":{
+	"NOTES": {
 		"TITLE":"{{value}} Notes",
 		"ADD_TOOLTIP":"Ajouter une note",
 		"DOWNLOAD_TOOLTIP":"Télécharger les notes",
@@ -391,7 +384,7 @@
 		"DATE":"Date",
         "PIN":"Epingler",
 		"DESCRIPTION":"Description",
-		"DELETE_WINDOW":{
+		"DELETE_WINDOW": {
 			"TITLE":"Supprimer la note",
 			"MESSAGE":"Souhaitez-vous effacer cette note ?",
 			"CONFIRM":"Oui"
@@ -399,7 +392,7 @@
         "PREMIUM_EXP":"Téléchargement des notes disponible avec un abonnement premium.",
         "NO_DESCRIPTION":"Pas de description"
 	},
-    "CHARTS":{
+    "CHARTS": {
         "TEMP":"Température",
         "TEMP_AXIS":"Température en {{tUnit}}",
         "HUMID":"Humidité",
@@ -415,12 +408,12 @@
         "WEATHER_TEMP":"Température extérieure",
         "WEATHER_HUMID":"Humidité extérieure",
         "SWARM_STATE":"T2 Sample State",
-        "SWARM_S":{
+        "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Episode thermique"
         }
     },
-    "LOCATION_HIST":{
+    "LOCATION_HIST": {
         "HIVE":"Ruche",
         "POSITION":"Position",
         "DEVICE_NAME":"Nom du capteur",
@@ -429,13 +422,13 @@
         "END":"Fin",
         "CURRENT":"Actuel",
         "MOVE":"Déplacer",
-        "DELETE_WINDOW":{
+        "DELETE_WINDOW": {
             "TITLE":"Supprimer l'emplacement",
             "MESSAGE":"Souhaitez-vous supprimer cet emplacement du capteur ?",
             "CONFIRM":"Oui"
         }
     },
-    "LOCATION_CRUD":{
+    "LOCATION_CRUD": {
            "CREATE_TITLE":"Affecter un capteur",
            "EDIT_TITLE":"Modifier l'emplacement",
            "MOVE_TITLE":"Déplacer un capteur",
@@ -460,14 +453,14 @@
            "SUCCESS_ENDED":"Emplacement actuel terminé",
            "CREATE":"Créer"
     },
-    "HIVE_APIARY_LOCATION_HIST":{
+    "HIVE_APIARY_LOCATION_HIST": {
         "APIARY":"Rucher",
         "START":"Début",
         "START_OPEN":"ouvert",
         "END":"Fin",
         "END_OPEN":"Actuel",
         "MOVE":"Déplacer",
-        "EDIT":{
+        "EDIT": {
             "ADD":"Ajouter",
             "SELECT_APIARY":"Selectionner le rucher",
             "SUCCESS":"Changement sauvegardé",
@@ -477,7 +470,7 @@
             "ERROR_APIARY_REQUIRED":"Vous devez sélectionner un rucher pour toutes les localisations"
         }
     },
-    "APIARY_CRUD":{
+    "APIARY_CRUD": {
         "CREATE_TITLE":"Créer un rucher",
         "EDIT_TITLE":"Modifier un rucher",
         "NAME":"Nom",
@@ -490,20 +483,20 @@
         "ERROR_COUNTRY":"Sélectionnez un code postal valide",
         "SUCCESS_CREATED":"Rucher créé",
         "SUCCESS_UPDATED":"Rucher modifié",
-        "EDIT_LOCATION":{
+        "EDIT_LOCATION": {
             "BUTTON":"Modifier localisation",
             "COORDINATE":"Coordonnées",
             "TITLE":"Modifier l'emplacement du rucher",
             "INFO":"Cet emplacement est utilisé à la fois pour récupérer la météo et pour afficher votre rucher sur des sites partagés tels que BeeCounted.org. Il est divulgué avec vos données du domaine public et n'est pas forcemént l'emplacement exact de votre rucher.",
             "POSTAL_ERROR":"Les coordonnées que vous avez sélectionnées sont en dehors du code postal du rucher. Cela ne peut pas être modifié.",
-            "POSTAL_CHANGE":{
+            "POSTAL_CHANGE": {
                 "TITLE":"Changement de code postal",
                 "TEXT":"Souhaitez-vous changer le code postal du rucher par {{value}} ?",
                 "CONFIRM":"Oui"
             }
         }
     },
-    "HIVE_CRUD":{
+    "HIVE_CRUD": {
         "CREATE_TITLE":"Ajouter une ruche",
         "EDIT_TITLE":"Modifier une ruche",
         "NAME":"Nom",
@@ -512,30 +505,30 @@
         "ERROR_APIARY":"Vous devez choisir un rucher",
         "SUCCESS_CREATED":"Ruche créée",
         "SUCCESS_UPDATED":"Ruche modifée",
-        "DISPLAY":{
+        "DISPLAY": {
             "DESCRIPTION":"Paramètres de vue sommaire du rucher",
-            "WEIGHT":{
+            "WEIGHT": {
                 "DESCRIPTION":"Capteur de poids à afficher sur le Résumé du Rucher",
                 "AUTO":"Sélection automatique du poids maximum de la balance",
                 "NONE":"N'affiche pas de capteur de poids sur le Résumé du Rucher"
             },
-            "TEMP":{
+            "TEMP": {
                 "DESCRIPTION":"Capteur de température à afficher sur le Résumé du Rucher",
                 "AUTO":"Sélection automatique de la température maximale",
                 "NONE":"N'affiche pas de capteur de température sur le Résumé du Rucher"
             },
-            "HUMID":{
+            "HUMID": {
                 "DESCRIPTION":"Capteur d'humidité à afficher sur le Résumé du Rucher",
                 "AUTO":"Sélection automatique de l'humidité maximale",
                 "NONE":"N'affiche pas de capteur d'humidité sur le Résumé du Rucher"
             },
-            "BATTERY":{
+            "BATTERY": {
                 "DESCRIPTION":"Batterie du capteur à afficher sur le Résumé du Rucher",
                 "AUTO":"Afficher la batterie du capteur la plus faible dans la ruche sur le Résumé du Rucher ?",
                 "NONE":"N'affiche pas la batterie du capteur sur le Résumé du Rucher"
             }
         },
-        "MOVE":{
+        "MOVE": {
             "TITLE":"Déplacer ruche",
             "EXP":"Toutes les données de cette ruche restent les mêmes, mais la ruche sera placée dans le rucher sélectionné à partir de cette date. Cela se reflètera dans les données météorologiques et les vues du rucher.",
             "DAY":"Jour de début de la nouvelle localisation",
@@ -544,7 +537,7 @@
             "SUCCESS":"Ruche déplacée"
         }
     },
-    "DEVICE_CRUD":{
+    "DEVICE_CRUD": {
         "CREATE_TITLE":"Ajouter capteur",
         "EDIT_TITLE":"Modifier capteur",
         "NAME":"Nom",
@@ -563,7 +556,7 @@
         "SELECT_POSITION":"Choisir une position",
         "SUCCESS_PLACED":"Capteur placé dans la ruche"
     },
-    "NOTE_CRUD":{
+    "NOTE_CRUD": {
         "CREATE_TITLE":"Créer une note",
         "EDIT_TITLE":"Modifier la note",
         "NO_HIVE":"Pas de ruche",
@@ -573,7 +566,7 @@
         "SUCCESS_UPDATED":"Note de ruche mise à jour",
         "ERROR_TIME":"Date non valide"
     },
-    "HUB_CRUD":{
+    "HUB_CRUD": {
         "CREATE_TITLE":"Créer Hub",
         "EDIT_TITLE":"Editer Hub",
         "NAME":"Nom",
@@ -584,19 +577,19 @@
         "SUCCESS_CREATED":"Hub crée",
         "SUCCESS_UPDATED":"Hub mis à jour",
         "USERID":"User ID",
-        "SIM":{
+        "SIM": {
             "TITLE":"Ajouter sim",
             "ID":"Sim ID",
             "TELECOM":"Telecom"
         }
     },
-    "ACCOUNT":{
+    "ACCOUNT": {
         "TITLE":"My Account",
         "EMAIL":"Email",
         "FIRST_NAME":"Prénom",
         "LAST_NAME":"Nom de famille",
         "MEMBERSHIP":"Adhésion",
-        "SUB_TYPES":{
+        "SUB_TYPES": {
             "FREE":"Gratuit",
             "HOBBY":"Loisir",
             "PREMIUM":"Premium renouvelle le {{expiration}}",
@@ -611,20 +604,20 @@
         "PREMIUM_LANDING":"Voir les options d'Abonnement",
         "CONFIRM":"Confirmer l'achat d'un abonnement Premium",
         "SAVE":"Sauvegarder",
-        "CONFIRM_SUB_WINDOW":{
+        "CONFIRM_SUB_WINDOW": {
             "TITLE":"Confirmer l'achat d'un abonnement Premium",
             "DESCRIPTION":"Entrez le code de l'email de confirmation",
             "CONFIRMATION_NUMBER":"Numéro de confirmation",
             "CONFIRM":"Confirmer",
             "VALID":"Achat valide",
             "PURCHASED":"Acheté le",
-            "ERROR":{
+            "ERROR": {
                 "NOT_FOUND":"Aucun abonnement trouvé",
                 "USED_THIS_ACCOUNT":"Déjà confirmé pour ce compte, expire le {{value}}}.",
                 "USED_OTHER_ACCOUNT":"Déjà confirmé avec un autre compte"
             }
         },
-        "EDIT_EMAIL":{
+        "EDIT_EMAIL": {
             "BUTTON":"Modifier l'email",
             "TITLE":"Modifier l'email du compte",
             "ERROR":"Une erreur s'est produite. L'email n'a pas été modifié.",
@@ -633,7 +626,7 @@
             "NEW_EMAIL":"Nouveau email",
             "SAVE_BUTTON":"Sauvegarder email"
         },
-        "EDIT_PASSWORD":{
+        "EDIT_PASSWORD": {
             "HEADER":"Mot de passe",
             "BUTTON":"Changer mot de passe",
             "TITLE":"Changer mot de passe",
@@ -643,7 +636,7 @@
             "SAVE_BUTTON":"Enregistrer"
         }
     },
-    "PREFERENCES":{
+    "PREFERENCES": {
         "TIMEZONE":"Fuseau horaire",
         "TIMEZONE_DEFAULT":"Navigateur par défaut",
         "UNIT":"Unité",
@@ -656,22 +649,22 @@
         "LANGUAGE_DEFAULT":"Navigateur par défaut",
         "SAVE":"Sauvegarder"
     },
-    "CONFIGURE_APIARIES":{
+    "CONFIGURE_APIARIES": {
         "ADD":"Ajouter un rucher",
         "NAME":"Nom du rucher",
         "ZIPCODE":"Code Postal",
         "SHARE":"Partager",
         "ACTIVE":"Actif",
-        "CONFIRM_DELETE_WINDOW":{
+        "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Supprimer le rucher",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer le rucher {{name}} ? Ceci supprime définitivement le rucher et ses données associées, y compris les ruches.",
            "CONFIRM":"Oui"
         },
-        "CANNOT_DELETE_WINDOW":{
+        "CANNOT_DELETE_WINDOW": {
             "TITLE":"Impossible d'effacer rucher",
             "MESSAGE":"Ce rucher contient les ruches : {{hives}} qui doivent être supprimées ou déplacées pour pouvoir effacer le rucher."
          },
-        "CONFIRM_INACTIVE_WINDOW":{
+        "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Définir le rucher comme rucher inactif",
             "MESSAGE":"Ceci place tous les ruches de ce rucher comme inactifs, termine tous les emplacements de capteurs dans chaque rucher, et supprime le rucher de vos vues. Les données existantes seront conservées, mais de nouvelles données ne seront plus transmises à ce rucher ou à ses ruches. Cela ne peut pas être défait. Mettre le rucher {{name}} sur inactif ?",
             "CONFIRM":"Oui"
@@ -680,7 +673,7 @@
         "DELETE_SUCCESS":"Rucher supprimé",
         "DELETE_ERROR":"Erreur de suppression du rucher"
     },
-    "CONFIGURE_HIVES":{
+    "CONFIGURE_HIVES": {
         "ADD":"Ajouter une ruche",
         "NAME":"Nom de la ruche",
         "CODE":"Code de la ruche",
@@ -688,12 +681,12 @@
         "LOCATION_HISTORY":"Historique capteurs",
         "APIARY_HISTORY":"Historique ruchers",
         "ACTIVE":"Actif",
-        "CONFIRM_DELETE_WINDOW":{
+        "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Supprimer la ruche",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer la ruche {{name}} ? Ceci supprime définitivement la ruche.",
            "CONFIRM":"Oui"
         },
-        "CONFIRM_INACTIVE_WINDOW":{
+        "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Définir la ruche comme inactive",
             "MESSAGE":"Ceci met fin à tous les emplacements de capteurs dans la ruche et supprime la ruche de vos vues du rucher. Les données existantes seront conservées, mais les nouvelles données n'iront plus dans cette ruche. Cela ne peut pas être défait. Mettre la ruche {{{name}} sur inactive ?",
             "CONFIRM":"Oui"
@@ -702,7 +695,7 @@
         "DELETE_SUCCESS":"Ruche supprimée",
         "DELETE_ERROR":"Erreur de suppression de la ruche"
     },
-    "CONFIGURE_HUBS":{
+    "CONFIGURE_HUBS": {
         "NAME":"Nom",
         "APIARY":"Rucher",
         "LAST_UPLOAD":"dernier relevé",
@@ -712,7 +705,7 @@
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Non assigné",
         "EDIT":"Gérer",
-        "MANAGE":{
+        "MANAGE": {
             "TITLE":"Gérer",
             "CLOSE":"Terminé",
             "SELECT_APIARY":"Selectionner rucher",
@@ -723,13 +716,13 @@
             "PURCHASE_CREDIT":"Acheter nouveau jeton",
             "UPDATED_SUCCESS":"Hub mis à jour",
             "BACK_BUTTON":"Arrière",
-            "REMOVE":{
+            "REMOVE": {
                 "TITLE":"Retirer Jeton",
                 "CONFIRM":"Voulez-vous vraiment retirer le jeton de {{item}}?",
                 "OK":"Oui, retirer ce jeton",
                 "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être retiré"
             },
-            "CANCEL":{
+            "CANCEL": {
                 "TITLE":"Annuler le Jeton",
                 "CONFIRM":"Cela supprimera le jeton de votre abonnement. Le prix de votre nouvel abonnement à {{frequency}} est de ${{amount}}. Après la date d'expiration ({{expiration}}), les données de ce hub ne seront plus acceptées dans MyBroodMinder. Voulez-vous vraiment annuler ce jeton? ",
                 "OK":"Oui, annuler ce jeton",
@@ -741,7 +734,7 @@
                 "ERROR_6":"Ce jeton est gratuit avec votre abonnement et ne peut pas être annulé. Visitez la page du compte si vous souhaitez annuler votre abonnement premium",
                 "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être annulé"
             },
-            "REACTIVATE":{
+            "REACTIVATE": {
                 "TITLE":"Réactiver Jeton",
                 "CONFIRM":"Cela ajoutera le jeton annulé à votre abonnement. Rien ne vous sera facturé maintenant, car vous avez déjà payé pour cette période. Le prix de votre nouvel abonnement à {{frequency}} est de ${{amount}}. Voulez-vous vraiment réactiver ce jeton ?",
                 "OK":"Oui, réactiver ce jeton",
@@ -752,7 +745,7 @@
                 "ERROR_5":"Ce jeton a déjà expiré et ne peut pas être réactivé",
                 "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être réactivé"
             },
-            "PURCHASE":{
+            "PURCHASE": {
                 "TITLE":"Acheter Jeton",
                 "AUTO":"Renouvellement automatique",
                 "ONCE":"Une seule fois",
@@ -768,7 +761,7 @@
             }
         }
     },
-    "CONFIGURE_DEVICES":{
+    "CONFIGURE_DEVICES": {
         "ADD":"Ajouter capteur",
         "DOWNLOAD":"Télécharger capteurs",
         "NAME":"Nom du capteur",
@@ -778,7 +771,7 @@
         "LOCATION_HISTORY":"Historique emplacements",
         "ADD_LOCATION":"Ajouter emplacement",
         "ACTIVE":"Actif",
-        "CONFIRM_DELETE_WINDOW":{
+        "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Supprimer le capteur",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer le capteur {{deviceName}} ? Ceci supprime définitivement le capteur et ses données associées.",
            "CONFIRM":"Oui"
@@ -787,10 +780,10 @@
         "DELETE_SUCCESS":"Capteur supprimé",
         "DELETE_ERROR":"Erreur de suppression du capteur"
     },
-    "UNAUTHORIZED_PAGE":{
+    "UNAUTHORIZED_PAGE": {
         "TITLE":"Non autorisé"
     },
-    "COMMON":{
+    "COMMON": {
         "SAVE":"Sauvegarder",
         "CREATE":"Créer",
         "EDIT":"Modifier",
@@ -802,7 +795,7 @@
         "DEVICE":"Capteur",
         "POSITION":"Position"
     },
-    "BEECOUNTED":{
+    "BEECOUNTED": {
         "TITLE":"BeeCounted.org",
         "LINK":"Voir la ruche sur BeeCounted.org ",
         "COPY_LINK_TOOLTIP":"Copier le lien",
@@ -813,11 +806,11 @@
         "PRIVATE_APIARY":"Les données de la ruche ne sont pas partagées avec BeeCounted. Ce rucher, {{name}}, n'est pas partagé avec BeeCounted.",
         "PRIVATE_HIVE":"Les données de la ruche ne sont pas partagées avec BeeCounted."
     },
-    "SHARING":{
+    "SHARING": {
         "TITLE":"{{name}} Partage",
         "MBM_TITLE":"Partager le rucher avec un utilisateur MyBroodMinder",
         "EXT_SUBTITLE":"Partager le rucher avec d'autres sites",
-        "USER":{
+        "USER": {
             "TITLE":"Utilisateurs MyBroodMinder",
             "INFO":"L'utilisateur doit avoir un compte MyBroodMinder. Il sera autorisé à voir les données de vos ruchers et de vos ruches, sans pouvoir y apporter de modification.",
             "ADD_TOOLTIP":"Ajouter utilisateur",
@@ -828,7 +821,7 @@
             "REMOVE":"Supprimer",
             "REMOVE_SUCCESS":"Utilisateur supprimé"
         },
-        "BEECOUNTED":{
+        "BEECOUNTED": {
             "CHECKBOX":"BeeCounted.org",
             "CHANGED":"Rucher mis à jour",
             "INFO_CHECKED":"Merci de partager vos données. Vous aidez les chercheurs du monde entier à découvrir et à mettre au point des mesures pour nos précieuses abeilles et notre environnement.",
@@ -836,22 +829,22 @@
             "INFO_NON_PREMIUM":"Toutes les données stockées pour les utilisateurs non Premium sont du domaine public. Les données peuvent être rendues privées si vous avez un compte MyBroodMinder-Premium. Merci de partager vos données. Vous aidez les chercheurs du monde entier à découvrir et à mettre au point des mesures pour nos précieuses abeilles et notre environnement.",
             "EXPIRED":"Abonnement Premium écoulé. Les données ne sont privées qu'avant le {{end}}."
         },
-        "BIP":{
+        "BIP": {
             "CHECKBOX":"Bee Informed Partnership",
             "CHANGED":"Rucher mis à jour",
             "INFO":"Bientôt disponible"
         },
-        "MELLISPHERA":{
+        "MELLISPHERA": {
             "CHECKBOX":"Mellisphera (Beta)",
             "INFO_NO_ACCOUNT":"Compte non connecté à Mellisphera",
             "INFO_ACCOUNT":"Montrer le rucher sur mon compte Mellisphera",
             "CHANGED":"Rucher mis à jour",
-            "ACTIVE_WINDOW":{
+            "ACTIVE_WINDOW": {
                 "TITLE":"Activer le compte Mellisphera",
                 "MESSAGE":"Cliquez ci-dessous pour activer votre compte Mellisphera."
             }
         },
-        "HIVES":{
+        "HIVES": {
             "TITLE":"Ruches partagées avec d'autres sites",
             "NAME":"Nom",
             "DESCRIPTION":"Description",
@@ -860,7 +853,7 @@
             "SHARE_EXPIRED":"Abonnement Premium écoulé. Les données seront privées jusqu'au {{end}}."
         }
     },
-    "POSITIONS":{
+    "POSITIONS": {
         "UNDER_INNER_COVER":"Sonde couvre-cadres",
         "ABOVE_LOWER_BROOD_BOX":"Sonde corps",
         "ABOVE_UPPER_BROOD_BOX":"Sonde hausse",
@@ -876,7 +869,7 @@
         "CUSTOM_6":"Personnalisé (6)",
         "CUSTOM_7":"Personnalisé (7)"
     },
-    "RESEARCH_DOWNLOAD":{
+    "RESEARCH_DOWNLOAD": {
         "H_NAME":"NOM",
         "A_NAME":"NOM",
         "LAST_DATA":"Dernières données",
@@ -884,8 +877,8 @@
         "HIVE_DOWNLOAD_BUTTON":"Télécharger",
         "APIARY_DOWNLOAD_BUTTON":"Télécharger le rucher complet"
     },
-    "SUBS":{
-        "EXP":{
+    "SUBS": {
+        "EXP": {
             "TRIAL":"Période d'essai, expire le {{expiration}}",
             "NOT_ACTIVE":"Non Actif",
             "SUB_CANCELLED":"Annulé, expire le {{expiration}}",
@@ -898,7 +891,7 @@
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
             "PENDING":"En attente de paiement"
         },
-        "COMMON":{
+        "COMMON": {
             "MONTHLY":"mensuel",
             "YEARLY":"annuel",
             "FREE":"Gratuit",
@@ -907,7 +900,7 @@
             "FREE_CAP":"Gratuit"
         }
     },
-    "MEMBERSHIP":{
+    "MEMBERSHIP": {
         "YEARLY":"ANNUEL",
         "MONTHLY":"MENSUEL",
         "HOBBY":"LOISIR",
@@ -950,8 +943,8 @@
         "PRO_PURCHASED":"Vous avez un abonnement Pro",
         "PREMIUM_PURCHASED":"Vous avez un abonnement Premium"
     },
-    "PURCHASE":{
-        "SUMMARY":{
+    "PURCHASE": {
+        "SUMMARY": {
             "TITLE":"Achat d'un abonnement Premium  ",
             "YEAR_PREM":" Abonnement Premium annuel - Renouvellement auto",
             "MONTH_PREM":" Abonnement Premium mensuel - Renouvellement auto",
@@ -964,12 +957,12 @@
             "ERROR_LINK":"ici",
             "ERROR_2":"pour voir les abonnements."
         },
-        "PAY":{
+        "PAY": {
             "TITLE":"Information de paiement",
             "RENEW_DISCLAIMER":"Abonnement avec renouvellement automatique. Un montant de {{amount}} {{frequency}} vous sera facturé. ",
             "VERIFY_BUTTON":"Verifier le paiement",
             "PAY_BUTTON":"Régler",
-            "COMPLETE":{
+            "COMPLETE": {
                 "ID":"Ordre",
                 "STATUS":"Status",
                 "TAX":"Taxes",
@@ -983,12 +976,12 @@
             },
             "ADDRESS_ERROR":"Champs obligatoires manquants"
         },
-        "CUSTOMER":{
+        "CUSTOMER": {
             "EMAIL":"Email",
             "FIRST_NAME":"Prénom",
             "LAST_NAME":"Nom"
         },
-        "BILLING":{
+        "BILLING": {
             "TITLE":"Addresse de facturation",
             "STREET_ADDRESS_1":"Adresse 1",
             "STREET_ADDRESS_2":"Addresse 2",
@@ -997,7 +990,7 @@
             "POSTAL_CODE":"Code Postal",
             "COUNTRY_CODE":"Code Pays"
         },
-        "ACCOUNT":{
+        "ACCOUNT": {
             "TITLE":"Abonnement",
             "YEAR_SUB":"Abonnement annuel - Renouvellement auto",
             "MONTH_SUB":"Abonnement mensuel - Renouvellement auto",
@@ -1006,30 +999,30 @@
             "AMOUNT":"Montant renouvelé auto",
             "DATE":"Date de renouvelement",
             "CANCEL_BUTTON":"Résilier Abonnement",
-            "CANCEL":{
+            "CANCEL": {
                 "SUCCESS":"Anonnement Résilié",
                 "GENERAL_ERROR":"Erreur : Abonnement non résilié",
-                "CONFIRM_WINDOW":{
+                "CONFIRM_WINDOW": {
                     "TITLE":"Résilier l'abonnement Premium",
                     "MESSAGE":"Cela annule les paiements futurs. Votre abonnement et vos hubs seront toujours fonctionnels jusqu'au {{expiration}}. Souhaitez-vous annuler? ",
                     "CONFIRM":"Oui",
                     "CANCEL":"Non"
                  }
             },
-            "PAYMENT":{
+            "PAYMENT": {
                 "TITLE":"Moyen de paiement  ",
                 "CARD":"{{type}} expire le {{last4}}",
                 "CARD_UPDATE_BUTTON":"Mettre à jour le moyen de paiement",
                 "BILLING":"Addresse de facturation",
                 "BILLING_UPDATE":"Mettre à jour l'adresse de facturation",
                 "NOT_FOUND":"Pas trouvé",
-                "EDIT":{
+                "EDIT": {
                     "TITLE":"Mettre à jour le moyen de paiement",
                     "WARN":"La suppression du mode de paiement de l'abonnement sans vérification préalable et mise à jour vers un nouveau mode entraînera l'annulation de votre abonnement. ",
                     "UPDATE_BUTTON":"Mettre à jour le paiement"
                 }
             },
-            "BILLING":{
+            "BILLING": {
                 "TITLE":"Modifier l'adresse de facturation",
                 "UPDATE":"Actualiser"
             }

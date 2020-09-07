@@ -1,8 +1,8 @@
 {
-	"LOGIN":{
+	"LOGIN": {
 		"LOGIN_MENU":"Iniciar sesión",
 		"REGISTER_MENU":"Nueva cuenta",
-		"LOGIN":{
+		"LOGIN": {
 			"TITLE":"Iniciar sesión",
 			"EMAIL":"Email",
 			"PASSWORD":"Contraseña",
@@ -11,18 +11,18 @@
 			"RESET":"Enviar email para reinicializar",
             "RESET_SUCCESS":"Email enviado {{value}}",
 			"RESET_ERROR":"Error, el email no ha sido enviado.",
-            "ERROR":{
+            "ERROR": {
                 "GENERAL":"usuario incorrecto.",
                 "PASSWORD":"usuario/contraseña incorrectos.",
                 "EMAIL":"ninguna cuenta existe para este email."
             }
 		},
-		"REGISTER":{
+		"REGISTER": {
 			"TITLE":"Nueva cuenta",
 			"EMAIL":"Email",
 			"PASSWORD":"Contraseña",
 			"REGISTER_BTN":"Inscripción",
-			"EULA":{
+			"EULA": {
 				"TITLE":"MyBroodMinder.com EULA (End User License Agreement) v1.1",
 				"DESCRIPTION":"Le pedimos que acepte las siguientes declaraciones para utilizar este software de apicultura SaaS:",
                 "POINT_1": "Estoy colocando los datos que subo o ingreso en este servicio en el dominio público. Como tal, mybroodminder.com puede usar los datos, de forma anónima, para compartirlos con el público en general",
@@ -32,7 +32,7 @@
                 "POINT_5": "Entiendo que mybroodminder.com es un espacio para que los apicultores y entomólogos intercambien información, y me comportaré de manera cortés en todo momento. Entiendo que no hacerlo puede hacer que mi cuenta se cancele por décisión exclusiva del personal de mybroodminder.com ",
                 "ACEPTO": "Estoy de acuerdo"
 			},
-			"ERROR":{
+			"ERROR": {
                 "DUPLICATE":"Este email ya esta siendo usado en una cuenta existente.",
                 "GENERAL":"No se pudo crear la cuenta.",
                 "PASSWORD":"Contraseña insuficiente.",
@@ -40,46 +40,40 @@
             }
 		}
 	},
-	"SIDEBAR":{
+	"SIDEBAR": {
 		"HOME":"Inicio",
 		"APIARIES":"Colmenares",
         "CONFIGURE":"Configurar",
         "MEMBERSHIPS":"Planes",
-        "APIARIES_CONTEXT":
-        {
+        "APIARIES_CONTEXT": {
             "NEW":"Nuevo Colmenar"
         },
-		"APIARY_CONTEXT":
-		{
+		"APIARY_CONTEXT": {
 			"EDIT":"Editar {{value}}",
 			"NEW_HIVE":"Nueva Colmena",
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Export para Investigadores"
-
 		},
-		"HIVE_CONTEXT":
-		{
+		"HIVE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
 			"NEW_DEVICE":"Añadir sensor",
 			"EXISTING_DEVICE":"mover sensor",
             "BEECOUNTED":"BeeCounted",
             "MOVE":"Desplazar colmena"
 		},
-		"DEVICE_CONTEXT":
-		{
+		"DEVICE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
 			"EDIT_LOCATION":"Editar ubicación",
 			"MOVE":"Desplazar sensor"
         },
-        "HUB_CONTEXT":
-        {
+        "HUB_CONTEXT": {
             "REMOVE":"Eliminar {{value}} del menú"
 		},
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"compartido conmigo"
 	},
-	"TOP_MENU":{
+	"TOP_MENU": {
 		"ACCOUNT":"Cuenta",
 		"TOUR":"Tour",
 		"HELP":"Ayuda",
@@ -89,15 +83,14 @@
         "REGISTER":"Nueva cuenta",
         "RESOURCES":"Recursos"
 	},
-	"RESOURCES":{
+	"RESOURCES": {
 		"TITLE":"Recursos",
 		"SUBTITLE":"Aquí encontrará recursos para que pueda comenzar a contribuir y aprender más sobre nuestras abejas..",
         "DESCRIPTION":"Gracias por unirte al movimiento BroodMinder. Estamos aprendiendo y compartiendo información para mejorar la comprensión y gestión de las abejas.",
         "DESCRIPTION_1":"Consulte nuestras actualizaciones de primavera de 2020, incluidas las actualizaciones de 'SwarmMinder' para sus dispositivos BroodMinder-T2. Ver el vídeo ",
         "DESCRIPTION_1_LINK":"aqui.",
 		"DESCRIPTION_2":" Agradecemos a Google y a <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  su soporte generoso al programa BroodMinder Citizen Science.",
-		"LINKS":
-			{
+		"LINKS": {
 				"TITLE":"Enlaces",
 				"LOGIN":"Conexión",
 				"USER_GUIDE_VIDEO":"Manuales Video",
@@ -106,39 +99,39 @@
 				"SUPPORT":"Soporte"
 			}
 	},
-	"VIDEO_GUIDES":{
+	"VIDEO_GUIDES": {
 		"TITLE":"BroodMinder Manuales Video",
 		"HOW_TO":"Como usar este manual",
 		"IN_PROGRESS":"En curso",
-		"INSTALLATION":{
+		"INSTALLATION": {
 			"TITLE":"Instalación",
 			"LINK_1":"Inicio Rápido",
 			"LINK_2":"Que APP debo utilizar?",
 			"LINK_3":"BroodMinder Sensores",
 			"LINK_4":"BroodMinder-Cell/WiFi"
         },
-        "UPDATES_2020":{
+        "UPDATES_2020": {
             "TITLE":"Actualizaciones 2020",
 			"LINK_1":"Resumen de actualización",
 			"LINK_2":"Actualización Cell/WiFi",
 			"LINK_3":"Actualizar el T2"
         },
-		"APIARY_APP":{
+		"APIARY_APP": {
 			"TITLE":"App Apiary (cloud)",
 			"LINK_1":"Utilización normal",
 			"LINK_2":"Nuevo - Modo Hub"
 		},
-		"BROODMINDER_APP":{
+		"BROODMINDER_APP": {
 			"TITLE":"Broodminder App (standalone)",
 			"LINK_1":"Utilización normal",
 			"LINK_2":"Exportar Datos"
 		},
-		"CELL_APP":{
+		"CELL_APP": {
 			"TITLE":"Cell App",
 			"LINK_1":"Utilización normal (ver instalación)",
 			"LINK_2":"Análisis"
 		},
-		"MYBROODMINDER":{
+		"MYBROODMINDER": {
 			"TITLE":"MyBroodMinder",
 			"LINK_1":"Empezar",
 			"LINK_2":"Datos",
@@ -147,12 +140,12 @@
 			"LINK_5":"Monitoring con Cell, WiFi y Hub",
 			"LINK_6":"Navegación alternativa"
 		},
-		"INTERPRETATION":{
+		"INTERPRETATION": {
 			"TITLE":"Interpretación de datos",
 			"LINK_1":"Temperatura",
 			"LINK_2":"Peso"
 		},
-		"TROUBLESHOOT":{
+		"TROUBLESHOOT": {
 			"TITLE":"Solución de problemas",
 			"LINK_1":"Mantenimiento anual",
 			"LINK_2":"Baterías",
@@ -163,14 +156,14 @@
 			"LINK_7":"Actualización del Firmware T2 v2.77"
 		}
 	},
-	"TOUR":{
-		"START":{
+	"TOUR": {
+		"START": {
 			"TITLE":"Hola!!",
 			"DESCRIPTION":"Bienvenidos al nuevo MyBroodMinder!",
 			"SKIP":"Pasar",
 			"SEE":"Ver funciones"
 		},
-		"FEATURES":{
+		"FEATURES": {
 			"TITLE":"Tour de las funciones",
 			"SKIP":"Pasar",
 			"NEXT":"Siguiente",
@@ -181,38 +174,38 @@
 			"FEATURE_4":"Ver estado CELL/WiFi/Hub"
 		}
 	},
-	"APIARY_PAGE":{
+	"APIARY_PAGE": {
 		"SELECT":"Seleccionar vista",
 		"PREMIUM_EXP":"La selección del intervalo de tiempo para esta vista necesita una suscripción premium.",
-		"TEXT":{
+		"TEXT": {
 			"TITLE":"Texto",
             "DESCRIPTION":"Esta vista muestra la lectura más reciente cargada para cada posición en cada colmena.",
             "MOVED_EXP":"Colmena desplazada"
 		},
-		"HIVE":{
+		"HIVE": {
 				"TITLE":"Colmena",
                 "DESCRIPTION": "Esta vista muestra una vista gráfica rápida para cada colmena. Precedencia en la indicación de peso: valor más alto. Prevalencia de visualización de la humedad y la temperatura: 1-Camara de cría 2-Alza 3-Cubierta Interior 4-Otros 5-Personalizado (valor más alto) 6-Exterior de la colmena 7-Bajo la colmena."		
             },
-		"SUMMARY":{
+		"SUMMARY": {
 			"TITLE":"Resumen",
 			"DESCRIPTION": "Esta vista muestra gráficos combinados por tipo de datos. Las especificaciones que se muestran siguen los valores predeterminados de la vista de la colmena, pero se pueden establecer por colmena en la configuración de la colmena",
 			"PREMIUM_EXP": "Esta vista está disponible con suscripción premium. Un ejemplo  se muestra a continuación",
-			"TEMP":{
+			"TEMP": {
 				"TITLE":"Temperatura del colmenar",
 				"NONE":"No hay datos de temperatura",
 				"LOADING":"Cargando datos de temperatura del colmenar"
 			},
-            "HUMID":{
+            "HUMID": {
 				"TITLE":"Humedad del colmenar",
 				"NONE":"No hay datos de humedad",
 				"LOADING":"Cargando datos de humedad del colmenar"
 			},
-			"WEIGHT":{
+			"WEIGHT": {
 				"TITLE":"Peso del colmenar",
 				"NONE":"No hay datos de peso",
 				"LOADING":"Cargando datos de peso del colmenar"
 			},
-			"BATTERY":{
+			"BATTERY": {
 				"TITLE":"Baterías del colmenar",
 				"NONE":"No hay datos de batería",
 				"LOADING":"Cargando datos de batería del colmenar"
@@ -220,23 +213,23 @@
 			"HIVES":"Colmenas"
 		}  
 	},
-    "HIVE_PAGE":{
-        "DATA_TOOLTIP":{
+    "HIVE_PAGE": {
+        "DATA_TOOLTIP": {
             "UPDATE":"Actualizar vista",
             "BUILDING":"Cargando vista",
             "OK":"Vista actualizada"
         },
-        "TEMP":{
+        "TEMP": {
             "TITLE":"Temperatura",
             "NONE":"No hay datos de temperatura",
             "LOADING":"Cargando datos de temperatura"
         },
-        "HUMID":{
+        "HUMID": {
             "TITLE":"Humedad",
             "NONE":"No hay datos de humedad",
             "LOADING":"Cargando datos de humedad"
         },
-        "WEIGHT":{
+        "WEIGHT": {
             "TITLE":"Peso",
             "NONE":"No hay datos de peso",
             "LOADING":"Cargando datos de peso",
@@ -244,13 +237,13 @@
             "AVERAGE_SCALE":"Básculas promedio",
             "INDIVIDUAL_SCALE":"Báscula individual"
         },
-        "PRODUCTIVITY":{
+        "PRODUCTIVITY": {
             "TITLE":"Productividad",
             "NONE":"No hay datos de peso para calcular la productividad",
             "LOADING":"Cargando productividad",
             "INFO":"Abejas añadiendo/quitando peso a la colmena"
         },
-        "BATTERY":{
+        "BATTERY": {
             "TITLE":"Batería",
             "NONE":"No hay datos de batería",
             "LOADING":"Cargando datos de batería"
@@ -264,8 +257,8 @@
         "DOWNLOAD_PREMIUM":"Descargar datos de la colmena de la suscripcion Premium.",
         "DOWNLOAD_WEATHER_PREMIUM":"Descargar datos meterológicos de la suscripcion Premium."
     },
-    "DEVICE_PAGE":{
-        "DATA_TOOLTIP":{
+    "DEVICE_PAGE": {
+        "DATA_TOOLTIP": {
             "UPDATE":"La vista necesita actualización",
             "BUILDING":"Cargando vista",
             "OK":"View actualizada"
@@ -282,7 +275,7 @@
         "DOWNLOAD_HIST":"Download full history",
         "OUTLIER_SHOW":"Eliminar valores anómalos",
         "OUTLIER_HIDE":"Ocultar editor de valores anómalos",
-        "EDITOR":{
+        "EDITOR": {
             "TITLE":"Editor de valores anómalos",
             "DESCRIPTION":"Aumentar el gráfico o hacer clic para filtrar los datos siguientes.",
             "BUTTON_NONE":"Seleccionar datos a borrar en la siguiente tabla",
@@ -305,7 +298,7 @@
             "BALANCE":"I/D Compensación",
             "WEIGHT_SF":"Factor de calibración",
             "SAMPLE_STATE":"T2 Estado datos",
-            "CONFIRM_WINDOW":{
+            "CONFIRM_WINDOW": {
                "TITLE":"Borrar datos seleccionados",
                "MESSAGE":"Deseas borrar los {{count}} datos?",
                "CONFIRM":"Si"
@@ -313,7 +306,7 @@
             "SUCCESS":"Datos borrados",
             "FAIL":"Error, datos no han sido borrados",
             "DISMISS":"Salir",
-            "OUTLIERS":{
+            "OUTLIERS": {
                 "TITLE":"Datos marcados como anómalos",
                 "NONE":"No hay datos borrados para este periodo de tiempo",
                 "MOVE":"Atrás",
@@ -322,7 +315,7 @@
                 "SYSTEM_R":"Sistema Borrado",
                 "BUTTON_NONE":"Seleccionar datos para añadir de nuevo como datos normales",
                 "BUTTON_SELECTED":"Añadir selección",
-                "CONFIRM_WINDOW":{
+                "CONFIRM_WINDOW": {
                    "TITLE":"Desplazar datos seleccionados",
                    "MESSAGE":"¿Desea volver a añadir los datos seleccionados {{count}} a las lecturas normales de los sensores?",
                    "CONFIRM":"Si"
@@ -332,7 +325,7 @@
             }
         }
     },
-    "HUB_PAGE":{
+    "HUB_PAGE": {
         "TITLE":"Hub {{name}}",
         "NAME":"Nombre",
         "ADDRESS":"Dirección del dispositivo",
@@ -346,7 +339,7 @@
         "CHART_READINGS_LABEL":"lecturas",
         "CHART_SIGNAL":"señal"
     },
-    "CONFIGURE_PAGE":{
+    "CONFIGURE_PAGE": {
         "TITLE":"Configurar",
         "SEPARATE":"Por tipo",
         "NESTED":"Por Colmenar",
@@ -357,7 +350,7 @@
         "DEVICES_TITLE":"Sensores",
         "HUBS_TITLE":"Hubs"
     },
-	"FEATURES":{
+	"FEATURES": {
 		"TITLE":"Tour de las funciones",
 		"SKIP":"Pasar",
 		"NEXT":"Siguiente",
@@ -367,7 +360,7 @@
 		"FEATURE_3":"Configurar y desplazar sensores",
 		"FEATURE_4":"Ver status CELL/WiFi/Hub "
 	},
-	"DATE_PICKER":{
+	"DATE_PICKER": {
 		"VIEWING":"Ver",
         "START":"Empezar",
         "END":"Finalizar",
@@ -383,7 +376,7 @@
 		"CUSTOM":"Personalizar duración",
         "INFO":"Premium or pro membership required to view data older than one year. You can access older data by csv download on the device view."
 	},
-	"NOTES":{
+	"NOTES": {
 		"TITLE":"Notas de {{value}}",
 		"ADD_TOOLTIP":"Añadir Nota",
 		"DOWNLOAD_TOOLTIP":"Descargar Notas",
@@ -391,7 +384,7 @@
 		"DATE":"Fecha",
         "PIN":"Pin",
 		"DESCRIPTION":"Descripción",
-		"DELETE_WINDOW":{
+		"DELETE_WINDOW": {
 			"TITLE":"Borrar nota",
 			"MESSAGE":"¿Deseas borrar esta nota?",
 			"CONFIRM":"Si"
@@ -399,7 +392,7 @@
         "PREMIUM_EXP":"Descargar notas con cuenta premium.",
         "NO_DESCRIPTION":"sin descripcción"
 	},
-    "CHARTS":{
+    "CHARTS": {
         "TEMP":"Temperatura",
         "TEMP_AXIS":"Temperatura en {{tUnit}}",
         "HUMID":"Humedad",
@@ -415,12 +408,12 @@
         "WEATHER_TEMP":"Temperatura exterior",
         "WEATHER_HUMID":"Humedad exterior",
         "SWARM_STATE":"Estado del T2",
-        "SWARM_S":{
+        "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Evento de Temperatura"
         }
     },
-    "LOCATION_HIST":{
+    "LOCATION_HIST": {
         "HIVE":"Colmena",
         "POSITION":"Posición",
         "DEVICE_NAME":"Nombre del sensor",
@@ -429,13 +422,13 @@
         "END":"Finalizar",
         "CURRENT":"actual",
         "MOVE":"Desplazar",
-        "DELETE_WINDOW":{
+        "DELETE_WINDOW": {
             "TITLE":"Borrar ubicación",
             "MESSAGE":"¿Borrar la ubicación de este sensor?",
             "CONFIRM":"Si"
         }
     },
-    "LOCATION_CRUD":{
+    "LOCATION_CRUD": {
            "CREATE_TITLE":"Asignar sensor",
            "EDIT_TITLE":"Editar ubicación",
            "MOVE_TITLE":"Desplazar sensor",
@@ -460,14 +453,14 @@
            "SUCCESS_ENDED":"Ubicación actual culminada",
            "CREATE":"Nuevo"
     },
-    "HIVE_APIARY_LOCATION_HIST":{
+    "HIVE_APIARY_LOCATION_HIST": {
         "APIARY":"Colmenar",
         "START":"Empezar",
         "START_OPEN":"abrir",
         "END":"Finalizar",
         "END_OPEN":"actual",
         "MOVE":"Desplazar",
-        "EDIT":{
+        "EDIT": {
             "ADD":"Añadir",
             "SELECT_APIARY":"Seleccionar colmenar",
             "SUCCESS":"Cambios guardados",
@@ -477,7 +470,7 @@
             "ERROR_APIARY_REQUIRED":"Debe seleccionar un colmenar para todos los lugares"
         }
     },
-    "APIARY_CRUD":{
+    "APIARY_CRUD": {
         "CREATE_TITLE":"Nuevo Colmenar",
         "EDIT_TITLE":"Editar Colmenar",
         "NAME":"Nombre",
@@ -490,20 +483,20 @@
         "ERROR_COUNTRY":"Seleccionar un código país válido",
         "SUCCESS_CREATED":"Colmenar creado",
         "SUCCESS_UPDATED":"Colmenar actualizado",
-        "EDIT_LOCATION":{
+        "EDIT_LOCATION": {
             "BUTTON":"Editar Localización",
             "COORDINATE":"Coordenadas",
             "TITLE":"Editar Localización Colmenar",
             "INFO":"Esta localización se utiliza tanto para consultar el tiempo como para mostrar su colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la localización exacta de su colmenar.",
             "POSTAL_ERROR":"Las coordenadas que has seleccionado están fuera del código postal del apiario. Esto no puede ser cambiado.",
-            "POSTAL_CHANGE":{
+            "POSTAL_CHANGE": {
                 "TITLE":"Cambiar Código Postal",
                 "TEXT":"¿Le gustaría cambiar el colmenar por un nuevo código postal {{value}}?",
                 "CONFIRM":"Sí"
             }
         }
     },
-    "HIVE_CRUD":{
+    "HIVE_CRUD": {
         "CREATE_TITLE":"Nueva Colmena",
         "EDIT_TITLE":"Editar Colmena",
         "NAME":"Nombre",
@@ -512,30 +505,30 @@
         "ERROR_APIARY":"Debes seleccionar un colmenar",
         "SUCCESS_CREATED":"Colmena creada",
         "SUCCESS_UPDATED":"Colmena actualizada",
-        "DISPLAY":{
+        "DISPLAY": {
             "DESCRIPTION":"Configuración de la vista de resumen del colmenar",
-            "WEIGHT":{
+            "WEIGHT": {
                 "DESCRIPTION":"Sensor de peso a representar en el resumen del colmenar",
                 "AUTO":"Peso máximo automático",
                 "NONE":"No mostrar sensores de peso en el resumen del colmenar"
             },
-            "TEMP":{
+            "TEMP": {
                 "DESCRIPTION":"Sensor de temperatura a representar en el resumen del colmenar",
                 "AUTO":"Temperatura máxima automática",
                 "NONE":"No mostrar sensores de temperatura en el resumen del colmenar"
             },
-            "HUMID":{
+            "HUMID": {
                 "DESCRIPTION":"Sensor de humedad para representar en el resumen del colmenar",
                 "AUTO":"Humedad máxima automática",
                 "NONE":"No mostrar sensores de humedad en el resumen del colmenar"
             },
-            "BATTERY":{
+            "BATTERY": {
                 "DESCRIPTION":"Carga de batería para representar en el resumen del colmenar",
                 "AUTO":"Mostrar el sensor con la carga mas baja de batería en el resumen del colmenar",
                 "NONE":"No mostrar cargas de batería en el resumen del colmenar"
             }
         },
-        "MOVE":{
+        "MOVE": {
             "TITLE":"Desplazar colmena",
             "EXP":"Todos los datos de esta colmena permanecen iguales, pero esto colocará a la colmena en el colmenar seleccionado a partir de esta fecha. Esto se refleja en los datos meteorológicos y en las vistas del apiario.",
             "DAY":"Nueva localización día de inicio",
@@ -544,7 +537,7 @@
             "SUCCESS":"Colmena desplazada"
         }
     },
-    "DEVICE_CRUD":{
+    "DEVICE_CRUD": {
         "CREATE_TITLE":"Nuevo Sensor",
         "EDIT_TITLE":"Editar Sensor",
         "NAME":"Nombre",
@@ -563,7 +556,7 @@
         "SELECT_POSITION":"Seleccionar posición",
         "SUCCESS_PLACED":"Sensor posicionado en la colmena"
     },
-    "NOTE_CRUD":{
+    "NOTE_CRUD": {
         "CREATE_TITLE":"Nueva Nota",
         "EDIT_TITLE":"Editar Nota",
         "NO_HIVE":"Sin referencia a una colmena",
@@ -573,7 +566,7 @@
         "SUCCESS_UPDATED":"Nota actualizada",
         "ERROR_TIME":"Fecha incorrecta"
     },
-    "HUB_CRUD":{
+    "HUB_CRUD": {
         "CREATE_TITLE":"Crear Hub",
         "EDIT_TITLE":"Editar Hub",
         "NAME":"Nomnbre",
@@ -584,19 +577,19 @@
         "SUCCESS_CREATED":"Hub creado",
         "SUCCESS_UPDATED":"Hub actualizado",
         "USERID":"Usuario",
-        "SIM":{
+        "SIM": {
             "TITLE":"Añadir sim",
             "ID":"Sim ID",
             "TELECOM":"Telecom"
         }
     },
-    "ACCOUNT":{
+    "ACCOUNT": {
         "TITLE":"Mi Cuenta",
         "EMAIL":"Email",
         "FIRST_NAME":"Nombre",
         "LAST_NAME":"Apellido",
         "MEMBERSHIP":"Plan",
-        "SUB_TYPES":{
+        "SUB_TYPES": {
             "FREE":"Gratuito",
             "HOBBY":"Hobby",
             "PREMIUM":"Premium renueva el {{expiration}}",
@@ -611,20 +604,20 @@
         "PREMIUM_LANDING":"Ver Planes",
         "CONFIRM":"Confirmar Premium",
         "SAVE":"Guardar",
-        "CONFIRM_SUB_WINDOW":{
+        "CONFIRM_SUB_WINDOW": {
             "TITLE":"Confirmar Premium",
             "DESCRIPTION":"Entrar el código del email de confirmación",
             "CONFIRMATION_NUMBER":"Número de Confirmación",
             "CONFIRM":"Confirmar",
             "VALID":"Validar Compra",
             "PURCHASED":"Comprado el",
-            "ERROR":{
+            "ERROR": {
                 "NOT_FOUND":"No se encontró abono premium",
                 "USED_THIS_ACCOUNT":"Confirmado para esta cuenta, expira el {{value}}",
                 "USED_OTHER_ACCOUNT":"Confirmado para otra cuenta"
             }
         },
-        "EDIT_EMAIL":{
+        "EDIT_EMAIL": {
             "BUTTON":"Cambiar Email Cuenta",
             "TITLE":"Cambiar Email Cuenta",
             "ERROR":"Ocurrió un error. El email no ha cambiado.",
@@ -633,7 +626,7 @@
             "NEW_EMAIL":"Nuevo email",
             "SAVE_BUTTON":"Guardar Email"
         },
-        "EDIT_PASSWORD":{
+        "EDIT_PASSWORD": {
             "HEADER":"Password",
             "BUTTON":"Cambiar Password",
             "TITLE":"Cambiar Password",
@@ -643,7 +636,7 @@
             "SAVE_BUTTON":"Guardar Cambios"
         }
     },
-    "PREFERENCES":{
+    "PREFERENCES": {
         "TIMEZONE":"Zona horaria",
         "TIMEZONE_DEFAULT":"predeterminado (navegador)",
         "UNIT":"Unidades",
@@ -656,22 +649,22 @@
         "LANGUAGE_DEFAULT":"predeterminado (navegador)",
         "SAVE":"Guardar"
     },
-    "CONFIGURE_APIARIES":{
+    "CONFIGURE_APIARIES": {
         "ADD":"Añadir Colmenar",
         "NAME":"Nombre del colmenar",
         "ZIPCODE":"Código postal",
         "SHARE":"Compartir",
         "ACTIVE":"Activo",
-        "CONFIRM_DELETE_WINDOW":{
+        "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Suprimir colmenar",
            "MESSAGE":"¿Estás seguro de que deseas eliminar el colmenar {{name}}? El colmenar y sus datos asociados, incluyendo las colmenas, se eliminaran definitivamente.",
            "CONFIRM":"Si"
         },
-        "CANNOT_DELETE_WINDOW":{
+        "CANNOT_DELETE_WINDOW": {
             "TITLE":"No se puede suprimir el colmenar",
             "MESSAGE":"Este colmenar contiene las colmenas: {{hives}} Deben ser borradas o desplazadas para poder suprimir el colmenar."
         },
-        "CONFIRM_INACTIVE_WINDOW":{
+        "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Colmenar inactivo",
             "MESSAGE":"Todas las colmenas del colmenar serán desactivadas, se terminarán todas las ubicaciones de los sensores de cada colmena y se eliminara el colmenar de las vistas. Los datos existentes se mantendrán pero no se podran enviar nuevos datos a este colmenar. Esta acción es definitiva. ¿Desactivar el colmenar {{name}}?",
             "CONFIRM":"Si"
@@ -680,7 +673,7 @@
         "DELETE_SUCCESS":"Colmenar suprimido",
         "DELETE_ERROR":"Error suprimiendo colmenar"
     },
-    "CONFIGURE_HIVES":{
+    "CONFIGURE_HIVES": {
         "ADD":"Añadir colmena",
         "NAME":"Nombre de la colmena",
         "CODE":"Codigo de la colmena",
@@ -688,12 +681,12 @@
         "LOCATION_HISTORY":"Historial de sensores",
         "APIARY_HISTORY":"Historial de colmenares",
         "ACTIVE":"Activa",
-        "CONFIRM_DELETE_WINDOW":{
+        "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Suprimir colmena",
            "MESSAGE":"¿Está seguro de que desea eliminar la colmena {{name}}? La supresion sera definitiva.",
            "CONFIRM":"Si"
         },
-        "CONFIRM_INACTIVE_WINDOW":{
+        "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Colmena inactiva",
             "MESSAGE":"Se terminará la ubicacion de los sensores en la colmena y se eliminara la colmena de las vista del colmenar. Los datos existentes se mantendrán pero no se podran enviar nuevos datos a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
             "CONFIRM":"Si"
@@ -702,7 +695,7 @@
         "DELETE_SUCCESS":"Colmena suprimida",
         "DELETE_ERROR":"Error suprimiendo colmena"
     },
-    "CONFIGURE_HUBS":{
+    "CONFIGURE_HUBS": {
         "NAME":"Nombre",
         "APIARY":"Colmenar",
         "LAST_UPLOAD":"Ultima recepcción",
@@ -712,7 +705,7 @@
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Sin asignar",
         "EDIT":"Gestionar",
-        "MANAGE":{
+        "MANAGE": {
             "TITLE":"Gestionar",
             "CLOSE":"Hecho",
             "SELECT_APIARY":"Selecciona colmenar",
@@ -723,13 +716,13 @@
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
             "BACK_BUTTON":"Atras",
-            "REMOVE":{
+            "REMOVE": {
                 "TITLE":"Retirar Ficha",
                 "CONFIRM":"Estás seguro de que quieres retirar el ficha de {{item}}?",
                 "OK":"Si, retirar este ficha",
                 "GENERAL_ERROR":"Error : El ficha no se pudo eliminar"
             },
-            "CANCEL":{
+            "CANCEL": {
                 "TITLE":"Cancelar ficha",
                 "CONFIRM":"Esto elimina el ficha de su suscripción. El importe de su nueva suscripción {{Frequency}} es de ${{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
                 "OK":"Si, retirar ficha",
@@ -741,7 +734,7 @@
                 "ERROR_6":"Este ficha es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
                 "GENERAL_ERROR":"Error : El ficha no se pudo cancelar"
             },
-            "REACTIVATE":{
+            "REACTIVATE": {
                 "TITLE":"Reactivar Ficha",
                 "CONFIRM":"Esto agrega el ficha cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es $ {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
                 "OK":"Si, reactivar ficha",
@@ -752,7 +745,7 @@
                 "ERROR_5":"Este ficha ya venció y no se puede reactivar.",
                 "GENERAL_ERROR":"Error : El ficha no se pudo reactivar"
             },
-            "PURCHASE":{
+            "PURCHASE": {
                 "TITLE":"Comprar Ficha",
                 "AUTO":"Renovar auto",
                 "ONCE":"Una sola vez",
@@ -768,7 +761,7 @@
             }
         }
     },
-    "CONFIGURE_DEVICES":{
+    "CONFIGURE_DEVICES": {
         "ADD":"Añadir sensor",
         "DOWNLOAD":"Descargar sensores",
         "NAME":"Nombre del sensor",
@@ -778,7 +771,7 @@
         "LOCATION_HISTORY":"Historial de ubicación",
         "ADD_LOCATION":"Añadir ubicación",
         "ACTIVE":"Activa",
-        "CONFIRM_DELETE_WINDOW":{
+        "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Suprimir sensor",
            "MESSAGE":"¿Estás seguro de que deseas eliminar el sensor {{deviceName}}? Se eliminaran definitivamente el sensor y sus datos asociados.",
            "CONFIRM":"Si"
@@ -787,10 +780,10 @@
         "DELETE_SUCCESS":"Sensor suprimido",
         "DELETE_ERROR":"Error suprimiendo sensor"
     },
-    "UNAUTHORIZED_PAGE":{
+    "UNAUTHORIZED_PAGE": {
         "TITLE":"No autorizado"
     },
-    "COMMON":{
+    "COMMON": {
         "SAVE":"Guardar",
         "CREATE":"Nuevo",
         "EDIT":"Editar",
@@ -802,7 +795,7 @@
         "DEVICE":"Sensor",
         "POSITION":"Ubicación"
     },
-    "BEECOUNTED":{
+    "BEECOUNTED": {
     	"TITLE":"BeeCounted.org",
     	"LINK":"Ver colmena en BeeCounted.org ",
     	"COPY_LINK_TOOLTIP":"Copiar enlace",
@@ -813,11 +806,11 @@
     	"PRIVATE_APIARY":"Datos de la colmena no compartidos con BeeCounted. Este colmenar, {{name}}, no se comparte con BeeCounted.",
     	"PRIVATE_HIVE":"Datos de la colmena no compartidos con BeeCounted."
     },
-    "SHARING":{
+    "SHARING": {
     	"TITLE":"{{name}} Compartir",
     	"MBM_TITLE":"Compartir colmenar con usuario MyBroodMinder",
     	"EXT_SUBTITLE":"Compartir colmenar con otros sitios",
-    	"USER":{
+    	"USER": {
     		"TITLE":"Usuarios MyBroodMinder",
     		"INFO":"El usuario  debe tener una cuenta en MyBroodMinder. Se les permitirá ver los datos de su colmenar y colmena, sin poder aportar cambios.",
     		"ADD_TOOLTIP":"Añadir usuario",
@@ -828,7 +821,7 @@
     		"REMOVE":"Retirar",
     		"REMOVE_SUCCESS":"Usuario retirado"
     	},
-    	"BEECOUNTED":{
+    	"BEECOUNTED": {
     		"CHECKBOX":"BeeCounted.org",
             "CHANGED":"Colmenar actualizado",
     		"INFO_CHECKED": "Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
@@ -836,22 +829,22 @@
 			"INFO_NON_PREMIUM": "Todos los datos almacenados para los usuarios con cuenta standard son de dominio público. Los datos pueden hacerse privados suscribiendo a una formula Premium. Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
             "EXPIRED":"Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
     	},
-    	"BIP":{
+    	"BIP": {
     		"CHECKBOX":"Bee Informed Partnership",
     		"CHANGED":"Colmenar actualizado",
     		"INFO":"Proximamente"
     	},
-    	"MELLISPHERA":{
+    	"MELLISPHERA": {
     		"CHECKBOX":"Mellisphera(Beta)",
     		"INFO_NO_ACCOUNT":"Cuenta no sincronizada con Mellisphera",
     		"INFO_ACCOUNT":"Mostrar colmenar en mi cuenta Mellisphera",
     		"CHANGED":"Colmenar actualizado",
-    		"ACTIVE_WINDOW":{
+    		"ACTIVE_WINDOW": {
     			"TITLE":"Activar mi cuenta Mellisphera",
     			"MESSAGE":"Haz click aqui para activar tu cuenta Mellisphera."
     		}
     	},
-    	"HIVES":{
+    	"HIVES": {
     		"TITLE":"Colmenas compartidas con otros sites",
     		"NAME":"Nombre",
     		"DESCRIPTION":"Descripción",
@@ -860,7 +853,7 @@
     		"SHARE_EXPIRED":"Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
     	}
     },
-    "POSITIONS":{
+    "POSITIONS": {
         "UNDER_INNER_COVER":"Cubre cuadros",
         "ABOVE_LOWER_BROOD_BOX":"Camara de cría",
         "ABOVE_UPPER_BROOD_BOX":"Alza",
@@ -876,7 +869,7 @@
         "CUSTOM_6":"Custom (6)",
         "CUSTOM_7":"Custom (7)"    
     },
-    "RESEARCH_DOWNLOAD":{
+    "RESEARCH_DOWNLOAD": {
         "H_NAME":"NOMBRE",
         "A_NAME":"NOMBRE",
         "LAST_DATA":"Últimos datos",
@@ -884,8 +877,8 @@
         "HIVE_DOWNLOAD_BUTTON":"Descargar",
         "APIARY_DOWNLOAD_BUTTON":"Descargar Colmenar Completo"
     },
-    "SUBS":{
-        "EXP":{
+    "SUBS": {
+        "EXP": {
             "TRIAL":"Plan de prueba vence el {{expiration}}",
             "NOT_ACTIVE":"Inactivo",
             "SUB_CANCELLED":"Cancelado, vence el {{expiration}}",
@@ -898,7 +891,7 @@
             "CREDIT_EXPIRING":"Vence el {{expiration}}",
             "PENDING":"Pago Pendiente"
         },
-        "COMMON":{
+        "COMMON": {
             "MONTHLY":"mensual",
             "YEARLY":"anual",
             "FREE":"gratuito",
@@ -907,7 +900,7 @@
             "FREE_CAP":"Gratuito"
         }
     },
-    "MEMBERSHIP":{
+    "MEMBERSHIP": {
         "YEARLY":"ANUAL",
         "MONTHLY":"MENSUAL",
         "HOBBY":"HOBBY",
@@ -950,8 +943,8 @@
         "PRO_PURCHASED":"Tienes una cuenta Pro",
         "PREMIUM_PURCHASED":"Tienes una cuenta Premium"
     },
-    "PURCHASE":{
-        "SUMMARY":{
+    "PURCHASE": {
+        "SUMMARY": {
             "TITLE":"Compra de una suscripción premium  ",
             "YEAR_PREM":" Suscripción premium anual - Renovación automática",
             "MONTH_PREM":" Suscripción premium mensual - Renovación automática",
@@ -964,12 +957,12 @@
             "ERROR_LINK":"aqui",
             "ERROR_2":"para acceder a los planes."
         },
-        "PAY":{
+        "PAY": {
             "TITLE":"Información del pago",
             "RENEW_DISCLAIMER":"Suscripción con renovación automática. Se cobrarán {{amount}} {{frequency}}.",
             "VERIFY_BUTTON":"Verificar Metodo de Pago",
             "PAY_BUTTON":"Pagar",
-            "COMPLETE":{
+            "COMPLETE": {
                 "ID":"Transacción",
                 "STATUS":"Estado",
                 "TAX":"Impuestos & tasas",
@@ -983,12 +976,12 @@
             },
             "ADDRESS_ERROR":"Faltan campos obligatorios"
         },
-        "CUSTOMER":{
+        "CUSTOMER": {
             "EMAIL":"Email",
             "FIRST_NAME":"Nombre",
             "LAST_NAME":"Apellidos"
         },
-        "BILLING":{
+        "BILLING": {
             "TITLE":"Dirección de facturación",
             "STREET_ADDRESS_1":"Dirección 1",
             "STREET_ADDRESS_2":"Dirección 2",
@@ -997,7 +990,7 @@
             "POSTAL_CODE":"Código Postal",
             "COUNTRY_CODE":"Código País"
         },
-        "ACCOUNT":{
+        "ACCOUNT": {
             "TITLE":"Suscripción",
             "YEAR_SUB":"Suscripción anual - Renovación automática",
             "MONTH_SUB":"Suscripción mensual - Renovación automática",
@@ -1006,30 +999,30 @@
             "AMOUNT":"Importe de la renovación automática",
             "DATE":"Fecha de la renovación automática",
             "CANCEL_BUTTON":"Cancelar Suscripción",
-            "CANCEL":{
+            "CANCEL": {
                 "SUCCESS":"Suscripción Cancelada",
                 "GENERAL_ERROR":"Error : no se ha podido cancelar la suscripción",
-                "CONFIRM_WINDOW":{
+                "CONFIRM_WINDOW": {
                     "TITLE":"Cancelar la suscripción Premium",
                     "MESSAGE":"Esto cancela los pagos futuros. Tu suscripción y los hubs seguirán operando hasta el {{expiration}}. ¿Deseas cancelar?",
                     "CONFIRM":"Si",
                     "CANCEL":"No"
                  }
             },
-            "PAYMENT":{
+            "PAYMENT": {
                 "TITLE":"Método de pago  ",
                 "CARD":"{{type}} termina con {{last4}}",
                 "CARD_UPDATE_BUTTON":"Actualizar método de pago",
                 "BILLING":"Dirección de facturación",
                 "BILLING_UPDATE":"Actualizar la dirección de facturación",
                 "NOT_FOUND":"No encontrado",
-                "EDIT":{
+                "EDIT": {
                     "TITLE":"Actualizar el método de pago",
                     "WARN":"Eliminar el método de pago de la suscripción sin verificar primero y actualizar a uno nuevo cancelará su suscripción. ",
                     "UPDATE_BUTTON":"Actualizar Pago"
                 }
             },
-            "BILLING":{
+            "BILLING": {
                 "TITLE":"Actualizar la dirección de facturación",
                 "UPDATE":"Actualizar"
             }
