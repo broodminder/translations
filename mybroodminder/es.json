@@ -967,7 +967,7 @@
                 "STATUS":"Estado",
                 "TAX":"Impuestos & tasas",
                 "TOTAL":"Importe Total",
-                "RECIEPT":"Recibo Enviado",
+                "RECEIPT":"Recibo Enviado",
                 "AR_DATE":"Fecha de renovacion auto.",
                 "AR_AMOUNT":"Importe de renovacion auto",
                 "LINK_1":"Compra Completada. Hacer clic",

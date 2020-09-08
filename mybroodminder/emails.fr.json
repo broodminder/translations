@@ -36,7 +36,7 @@
             "SIM": "SIM"
         }
     },
-    "RECIEPT": {
+    "RECEIPT": {
         "PURCHASE": {
             "SUBJECT": "Abonnement MyBroodMinder-Mellisphera {{.type}} Acheté",
             "MESSAGE": "Merci d'avoir acheté un abonnement MyBroodMinder-Mellisphera {{.type}}."

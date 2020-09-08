@@ -1,7 +1,7 @@
 {
     "ACCOUNT": {
         "SUBJECT": "Estado de tu cuenta",
-        "MESSAGE_1": "Estimado {{.nombre}},",
+        "MESSAGE_1": "Estimado {{.name}},",
         "EXP_2W": "Una o más de tus suscripciones terminarán dentro de dos semanas",
         "EXP_TODAY": "Una o más de tus suscripciones terminan hoy",
         "MESSAGE_2_MEMBERSHIP_EXP": "Te agradecemos tu participación durante el último año. Tu contribució nos ayuda a soportar nuestro programa de ciencia ciudadana, así como a nuestro equipo técnico",
@@ -36,7 +36,7 @@
             "SIM": "SIM"
         }
     },
-    "RECIEPT": {
+    "RECEIPT": {
         "PURCHASE": {
             "SUBJECT": "Suscripción {{.type}} adquirida",
             "MESSAGE": "gracias por haber comprado una suscripcción {{.type}}."

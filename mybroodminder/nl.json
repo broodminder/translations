@@ -968,7 +968,7 @@
         "STATUS":"Status",
         "TAX":"Tax",
         "TOTAL":"Total Paid",
-        "RECIEPT":"Reciept Sent",
+        "RECEIPT":"Receipt Sent",
         "AR_DATE":"Auto-renew Date",
         "AR_AMOUNT":"Auto-renew Amount",
         "LINK_1":"Purchase complete. Click",
