@@ -44,7 +44,7 @@
 		"HOME":"Accueil",
 		"APIARIES":"Ruchers",
         "CONFIGURE":"Configurer",
-        "MEMBERSHIPS":"Membership Options",
+        "MEMBERSHIPS":"Options d'adhésion",
         "APIARIES_CONTEXT": {
             "NEW":"Nouveau Rucher"
         },
@@ -854,9 +854,9 @@
         }
     },
     "POSITIONS": {
-        "UNDER_INNER_COVER":"Sonde couvre-cadres",
-        "ABOVE_LOWER_BROOD_BOX":"Sonde corps",
-        "ABOVE_UPPER_BROOD_BOX":"Sonde hausse",
+        "UNDER_INNER_COVER":"sous le couvre-cadres",
+        "ABOVE_LOWER_BROOD_BOX":"Corps",
+        "ABOVE_UPPER_BROOD_BOX":"Hausse",
         "OUTSIDE_HIVE":"Extérieur",
         "SCALE_UNDER_HIVE":"Balance AV",
         "SCALE_UNDER_HIVE_BACK":"Balance AR",
