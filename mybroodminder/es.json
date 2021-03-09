@@ -58,7 +58,7 @@
 		"HIVE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
 			"NEW_DEVICE":"Añadir sensor",
-			"EXISTING_DEVICE":"mover sensor",
+			"EXISTING_DEVICE":"Mover sensor",
             "BEECOUNTED":"BeeCounted",
             "MOVE":"Desplazar colmena"
 		},
