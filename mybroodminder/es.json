@@ -108,7 +108,9 @@
 			"LINK_1":"Inicio Rápido",
 			"LINK_2":"Que APP debo utilizar?",
 			"LINK_3":"BroodMinder Sensores",
-			"LINK_4":"BroodMinder-Cell/WiFi"
+			"LINK_4":"BroodMinder-Cell/WiFi",
+            "LINK_5": "BroodMinder-SubHub",
+            "LINK_6": "T2/TH2 Battery Saver Mode"
         },
         "UPDATES_2020": {
             "TITLE":"Actualizaciones 2020",
@@ -348,7 +350,8 @@
         "APIARIES_TITLE":"Colmenares",
         "HIVES_TITLE":"Colmenas",
         "DEVICES_TITLE":"Sensores",
-        "HUBS_TITLE":"Hubs"
+        "HUBS_TITLE":"Hubs",
+        "LINKS_TITLE":"Public Links"
     },
 	"FEATURES": {
 		"TITLE":"Tour de las funciones",
@@ -582,6 +585,41 @@
             "ID":"Sim ID",
             "TELECOM":"Telecom"
         }
+    },
+    "SHARE_LINK_CRUD": {
+        "CREATE_TITLE": "Create Public Link",
+        "CREATE_SUBTITLE_1": "We will create a link that you can share with friends or paste in other applications such as Facebook.",
+        "CREATE_SUBTITLE_2": "People can see the data with no login, but they can not modify it or see data outside the time range.",
+        "EDIT_TITLE": "Edit Public Link",
+        "CREATE_SUCCESS_TITLE": "Public link created!",
+        "EDIT_SUCCESS_TITLE":  "Public link updated!",
+        "TIME_ZOOM":  "Share current view {{start}} to {{end}}",
+        "TIME_SET":  "Share data from {{start}} to {{end}}",
+        "TIME_RANGE": "(sliding range)",
+        "DESCRIPTION":"Description",
+        "NOTES":"Include Notes",
+        "UPDATE":"Update",
+        "CREATE":"Share",
+        "DELETE":"Delete",
+        "SUCCESS_CREATED": "Link created",
+        "SUCCESS_DELETED": "Link deleted",
+        "SUCCESS_UPDATED": "Link updated",
+        "ERROR": "Error creating link",
+        "DELETE_WINDOW": {
+            "TITLE": "Delete Public Link",
+            "MESSAGE": "Would you like to delete this public link? This action cannot be undone.",
+            "CONFIRM": "Delete"
+        },
+        "HISTORY":{
+            "TITLE":"Public Links for {{hiveName}}",
+            "LINK":"Link",
+            "CREATED":"Created"
+        }
+    },
+    "SHARE_BUTTON":{
+        "BUTTON":"Share",
+        "EDIT":"Edit Shared Links",
+        "SHARE_HIVE":"Share this Hive"
     },
     "ACCOUNT": {
         "TITLE":"Mi Cuenta",
