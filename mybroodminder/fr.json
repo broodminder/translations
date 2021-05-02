@@ -110,7 +110,7 @@
 			"LINK_3":"Appareils de BroodMinder",
 			"LINK_4":"BroodMinder-CELL/WIFI",
             "LINK_5": "BroodMinder-SubHub",
-            "LINK_6": "T2/TH2 Battery Saver Mode"
+            "LINK_6": "T2/TH2 Mode économe"
         },
         "UPDATES_2020": {
             "TITLE":"Mises à jour 2020",
@@ -278,7 +278,7 @@
         "OUTLIER_SHOW":"Supprimer les valeurs aberrantes",
         "OUTLIER_HIDE":"Masquer l'éditeur de valeurs aberrantes",
         "EDITOR": {
-            "TITLE":"Éditeur des valeurs aberrantes",
+            "TITLE":"Tableau des mesures",
             "DESCRIPTION":"Zoomez le graphique ou cliquez sur le point pour filtrer les relevés ci-dessous.",
             "BUTTON_NONE":"Sélectionner les relevés à supprimer dans le tableau ci-dessous",
             "BUTTON_SELECTED":"Supprimer la sélection",
@@ -587,45 +587,45 @@
         }
     },
     "SHARE_LINK_CRUD": {
-        "CREATE_TITLE": "Create Public Link",
-        "CREATE_SUBTITLE_1": "We will create a link that you can share with friends or paste in other applications such as Facebook.",
-        "CREATE_SUBTITLE_2": "People can see the data with no login, but they can not modify it or see data outside the time range.",
-        "EDIT_TITLE": "Edit Public Link",
-        "CREATE_SUCCESS_TITLE": "Public link created!",
-        "EDIT_SUCCESS_TITLE":  "Public link updated!",
-        "TIME_ZOOM":  "Share current view {{start}} to {{end}}",
-        "TIME_SET":  "Share data from {{start}} to {{end}}",
-        "TIME_RANGE": "(sliding range)",
-        "DESCRIPTION":"Description",
-        "NOTES":"Include Notes",
-        "UPDATE":"Update",
-        "CREATE":"Share",
-        "DELETE":"Delete",
-        "SUCCESS_CREATED": "Link created",
-        "SUCCESS_DELETED": "Link deleted",
-        "SUCCESS_UPDATED": "Link updated",
-        "ERROR": "Error creating link",
+        "CREATE_TITLE": "Créer un lien publique",
+        "CREATE_SUBTITLE_1": "Nous créerons un lien que vous pourrez partager avec vos amis ou coller dans d'autres applications telles que Facebook.",
+        "CREATE_SUBTITLE_2": "Les personnes peuvent voir les données sans avoir à se connecter, mais elles ne peuvent pas les modifier ou voir les données en dehors de la plage horaire.",
+        "EDIT_TITLE": "Editer le lien publique",
+        "CREATE_SUCCESS_TITLE": "Lien publique crée !",
+        "EDIT_SUCCESS_TITLE":  "Lien publique mis à jour !",
+        "TIME_ZOOM":  "Partager la vue actuelle {{start}} to {{end}}",
+        "TIME_SET":  "Partager du {{start}} au {{end}}",
+        "TIME_RANGE": "(plage glissante)",
+        "DESCRIPTION":"Déscription",
+        "NOTES":"Inclure les Notes",
+        "UPDATE":"Actualiser",
+        "CREATE":"Partager",
+        "DELETE":"Supprimer",
+        "SUCCESS_CREATED": "Lien crée",
+        "SUCCESS_DELETED": "Lien supprimé",
+        "SUCCESS_UPDATED": "Lien actualisé",
+        "ERROR": "Error à la création du lien",
         "DELETE_WINDOW": {
-            "TITLE": "Delete Public Link",
-            "MESSAGE": "Would you like to delete this public link? This action cannot be undone.",
-            "CONFIRM": "Delete"
+            "TITLE": "Supprimer lien publique",
+            "MESSAGE": "Vous souhaitez supprimer ce lien publique ? Cette action ne peut être annulée.",
+            "CONFIRM": "Supprimer"
         },
         "HISTORY":{
-            "TITLE":"Public Links for {{hiveName}}",
-            "LINK":"Link",
-            "CREATED":"Created"
+            "TITLE":"Liens publiques pour {{hiveName}}",
+            "LINK":"Lien",
+            "CREATED":"Crée"
         }
     },
     "SHARE_BUTTON":{
-        "BUTTON":"Share",
-        "EDIT":"Edit Shared Links",
-        "SHARE_HIVE":"Share this Hive"
+        "BUTTON":"Partager",
+        "EDIT":"Editer Liens Partagés",
+        "SHARE_HIVE":"Partager cette Ruche"
     },
     "ACCOUNT": {
-        "TITLE":"My Account",
+        "TITLE":"Mon compte",
         "EMAIL":"Email",
         "FIRST_NAME":"Prénom",
-        "LAST_NAME":"Nom de famille",
+        "LAST_NAME":"Nom",
         "MEMBERSHIP":"Adhésion",
         "SUB_TYPES": {
             "FREE":"Gratuit",
