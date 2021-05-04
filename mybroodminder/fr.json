@@ -292,7 +292,7 @@
             "BATTERY":"Batterie",
             "TEMP":"Temp",
             "HUMID":"Humid",
-            "WEIGHT":"Demi-Poids",
+            "WEIGHT":"Poids",
             "WEIGHT_L_R":"Poids Gauche Brut",
             "WEIGHT_R_R":"Poids Droit Brut",
             "WEIGHT_L":"Poids Gauche",
