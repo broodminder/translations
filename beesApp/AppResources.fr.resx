@@ -13,25 +13,25 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="TAB_DEVICES">
-		<value>Devices</value>
+		<value>Capteurs</value>
 	</data>
 	<data name="TAB_APIARIES">
-		<value>Apiaries</value>
+		<value>Ruchers</value>
 	</data>
 	<data name="TAB_HELP">
-		<value>Help</value>
+		<value>Aide</value>
 	</data>
 	<data name="TAB_SETTINGS">
-		<value>Settings</value>
+		<value>Réglages</value>
 	</data>
 	<data name="COMMON_APIARY">
-		<value>Apiary</value>
+		<value>Rucher</value>
 	</data>
 	<data name="COMMON_HIVE">
-		<value>Hive</value>
+		<value>Ruche</value>
 	</data>
 	<data name="COMMON_DEVICE">
-		<value>Device</value>
+		<value>Capteur</value>
 	</data>
 	<data name="COMMON_HUB">
 		<value>Hub</value>
@@ -40,730 +40,730 @@
 		<value>SubHub</value>
 	</data>
 	<data name="COMMON_CANCEL">
-		<value>Cancel</value>
+		<value>Annuler</value>
 	</data>
 	<data name="COMMON_OK">
 		<value>Ok</value>
 	</data>
 	<data name="COMMON_SAVE">
-		<value>Save</value>
+		<value>Enregistrer</value>
 	</data>
 	<data name="COMMON_BACK">
-		<value>Back</value>
+		<value>Retour</value>
 	</data>
 	<data name="COMMON_ERROR">
-		<value>Error</value>
+		<value>Erreur</value>
 	</data>
 	<data name="COMMON_LOADING">
-		<value>Loading</value>
+		<value>Chargement</value>
 	</data>
 	<data name="COMMON_TEMPERATURE">
-		<value>Temperature</value>
+		<value>Température</value>
 	</data>
 	<data name="COMMON_HUMIDITY">
-		<value>Humidity</value>
+		<value>Humidite</value>
 	</data>
 	<data name="COMMON_WEIGHT">
-		<value>Weight</value>
+		<value>Poids</value>
 	</data>
 	<data name="COMMON_BATTERY">
-		<value>Battery</value>
+		<value>Batterie</value>
 	</data>
 	<data name="COMMON_ALL">
-		<value>All</value>
+		<value>Tous</value>
 	</data>
 	<data name="COMMON_MODEL">
-		<value>Model</value>
+		<value>Modèle</value>
 	</data>
 	<data name="COMMON_WORKINGOFFLINE">
-		<value>Working Offline</value>
+		<value>Travailler hors ligne</value>
 	</data>
 	<data name="COMMON_COPIED">
-		<value>Copied to Clipboard</value>
+		<value>Copier dans le presse-papier</value>
 	</data>
 	<data name="SETTINGS_ACCOUNT">
-		<value>Account</value>
+		<value>Compte</value>
 	</data>
 	<data name="SETTINGS_USER">
-		<value>User</value>
+		<value>Utilisateur</value>
 	</data>
 	<data name="SETTINGS_PREFERENCES">
 		<value>Preferences</value>
 	</data>
 	<data name="SETTINGS_TIMEZONE">
-		<value>Timezone</value>
+		<value>Fuseau horaire</value>
 	</data>
 	<data name="SETTINGS_UNIT">
-		<value>Unit</value>
+		<value>Unité</value>
 	</data>
 	<data name="SETTINGS_LANGUAGE">
-		<value>Language</value>
+		<value>Langue</value>
 	</data>
 	<data name="SETTINGS_APP">
-		<value>App Settings</value>
+		<value>Réglage de l'app</value>
 	</data>
 	<data name="SETTINGS_FASTCONNECT">
-		<value>Fast Connect (will shorten battery life)</value>
+		<value>Connexion rapide (réduit la durée de vie de la batterie)</value>
 	</data>
 	<data name="SETTINGS_LOGIN">
-		<value>Log In</value>
+		<value>Connexion</value>
 	</data>
 	<data name="SETTINGS_EDITPREF">
-		<value>Edit Preferences</value>
+		<value>Modifier les preferences</value>
 	</data>
 	<data name="SETTINGS_LOGOUT">
-		<value>Log Out</value>
+		<value>Déconnexion</value>
 	</data>
 	<data name="SETTINGS_ADVANCED">
-		<value>Advanced</value>
+		<value>Avancé</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_TITLE">
-		<value>Logging out</value>
+		<value>Se déconnecter</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_KEEP">
-		<value>Keep all devices</value>
+		<value>Garder tous les capteurs</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_REMOVEALL">
-		<value>Remove all devices</value>
+		<value>Supprimer tous les capteurs</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_REMOVEACCOUNT">
-		<value>Remove devices on account {0}</value>
+		<value>Supprimer les capteurs du compte {0}</value>
 	</data>
 	<data name="SETTINGS_NOACCOUNT">
-		<value>no account attached</value>
+		<value>Pas de compte relié</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TITLE">
-		<value>Edit Preferences</value>
+		<value>Modifier les préférences</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
-		<value>Metric (Celcius/Kilograms)</value>
+		<value>Métriques (Celcius/Kilogrammes)</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_IMPERIAL">
-		<value>Imperial (Fahrenheit/Pounds)</value>
+		<value>Imperiales (Fahrenheit/Livres)</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TIMEZONE">
-		<value>Select Timezone</value>
+		<value>Sélectionner le fuseau horaire</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_UNITS">
-		<value>Select Units</value>
+		<value>Sélectionner les unités</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_LANGUAGE">
-		<value>Select Language</value>
+		<value>Sélectionner la langue</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_TITLE">
-		<value>Advanced</value>
+		<value>Avancé</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES">
-		<value>Remove devices not on my account</value>
+		<value>Supprimer les capteurs pas sur mon compte </value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB">
-		<value>Delete Database</value>
+		<value>Supprimer la base de données</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DOWNLOADLOG">
-		<value>Download Debug Log</value>
+		<value>Télécharger le journal de débogage</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_TURNOFFFULLDBL">
-		<value>Turn off full debug logging</value>
+		<value>Désactiver tous les journaux de débogage</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_MESSAGE">
-		<value>Remove devices not belonging to MyBroodMinder account {0}?</value>
+		<value>Supprimer les capteurs qui n'appartiennent pas à mon compte Broodminder {0}?</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_TITLE">
-		<value>Remove Devices</value>
+		<value>Supprimer les capteurs</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_CONFIRM">
-		<value>Yes, Remove Devices</value>
+		<value>Oui, Supprimer les capteurs</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB_MESSAGE">
-		<value>Are you sure you want to delete all local data?</value>
+		<value>Êtes-vous de vouloir effacer toutes les données locales ?</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB_TITLE">
-		<value>Delete Data</value>
+		<value>Effacer les données</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB_CONFIRM">
-		<value>Yes, Delete Data</value>
+		<value>Oui, effacer les données</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DOWNLOADLOG_COMPLETE">
-		<value>Downloaded Debug Log</value>
+		<value>Télécharger le journal de débogage</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DOWNLOADLOG_ERROR">
-		<value>Error Downloading Debug Log</value>
+		<value>Erreur du téléchargement du journal de débogage</value>
 	</data>
 	<data name="APIARIES_SELECT">
-		<value>Select Apiary</value>
+		<value>Sélectionner le rucher</value>
 	</data>
 	<data name="APIARIES_NONE">
-		<value>No Apiaries Found</value>
+		<value>Pas de ruchers trouvés</value>
 	</data>
 	<data name="APIARIES_TAP1">
-		<value>Tap</value>
+		<value>Appuyer</value>
 	</data>
 	<data name="APIARIES_TAP2">
-		<value>on top right to create an apiary</value>
+		<value>En haut à droite pour créer un rucher</value>
 	</data>
 	<data name="APIARIES_NOHIVES">
-		<value>No Hives Found</value>
+		<value>Pas de ruches trouvées</value>
 	</data>
 	<data name="APIARIES_TAPH1">
-		<value>Tap</value>
+		<value>Appuyer</value>
 	</data>
 	<data name="APIARIES_TAPH2">
-		<value>on top right to create a hive</value>
+		<value>En haut à droite pour créer une ruche</value>
 	</data>
 	<data name="APIARIES_NODEVICES">
-		<value>No Devices</value>
+		<value>Pas de capteurs</value>
 	</data>
 	<data name="APIARIES_CONTEXT_NEWAPIARY">
-		<value>New Apiary</value>
+		<value>Nouveau rucher</value>
 	</data>
 	<data name="APIARIES_CONTEXT_EDITAPIARY">
-		<value>Edit Apiary</value>
+		<value>Modifier le rucher</value>
 	</data>
 	<data name="APIARIES_CONTEXT_NEWHIVE">
-		<value>New Hive</value>
+		<value>Nouvelle ruche</value>
 	</data>
 	<data name="HIVE_CONTEXT_SYNC">
-		<value>Sync</value>
+		<value>Synchroniser</value>
 	</data>
 	<data name="HIVE_CONTEXT_ADDDEVICE">
-		<value>Add Device</value>
+		<value>Ajouter un capteur</value>
 	</data>
 	<data name="HIVE_CONTEXT_MOVEHIVE">
-		<value>Move Hive</value>
+		<value>Déplacer la ruche</value>
 	</data>
 	<data name="HIVE_CONTEXT_EDITHIVE">
-		<value>Edit Hive</value>
+		<value>Modifier la ruche</value>
 	</data>
 	<data name="HIVE_CONTEXT_OPEN">
-		<value>Open in Browser</value>
+		<value>Ouvrir dans le navigateur</value>
 	</data>
 	<data name="HIVE_CONTEXT_CHART">
-		<value>View Chart</value>
+		<value>Voir le graphique</value>
 	</data>
 	<data name="HIVE_CONTEXT_ADDNOTE">
-		<value>Add Note</value>
+		<value>Ajouter une note</value>
 	</data>
 	<data name="HIVE_SH_CONTEXT_DETAILS">
-		<value>Show Details</value>
+		<value>Afficher les détails</value>
 	</data>
 	<data name="HIVE_SH_STATUS">
-		<value>Updating in</value>
+		<value>Mettre à jour dans</value>
 	</data>
 	<data name="HIVE_SH_STATUS_SLEEP">
-		<value>Device in deep sleep.</value>
+		<value>Capteur en sommeil.</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNC">
-		<value>Sync</value>
+		<value>Synchroniser</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNCNEXT">
-		<value>Sync Next</value>
+		<value>Synchronisation suivante</value>
 	</data>
 	<data name="DEVICE_CONTEXT_REMOVESYNC">
-		<value>Remove Sync</value>
+		<value>Effacer la synchronisation</value>
 	</data>
 	<data name="DEVICE_CONTEXT_CANCEL">
-		<value>Cancel Sync</value>
+		<value>Annuler la synchronisation</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDIT">
-		<value>Edit Device</value>
+		<value>Modifier le capteur</value>
 	</data>
 	<data name="DEVICE_CONTEXT_MOVE">
-		<value>Move Device</value>
+		<value>Déplacer le capteur</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DETAILS">
-		<value>Show Details</value>
+		<value>Afficher les détails</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDITLOCATION">
-		<value>Edit Current Location</value>
+		<value>Modifier la position actuelle</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE">
-		<value>Delete Device</value>
+		<value>Effacer le capteur</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE_MESSAGE">
-		<value>Are you sure you want to delete all local data?</value>
+		<value>Êtes-vous sûr de vouloir supprimer toutes les données locales ?</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE_TITLE">
-		<value>Delete Data</value>
+		<value>Effacer les données</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE_CONFIRM">
-		<value>Yes, Delete Data</value>
+		<value>Oui, effacer les données</value>
 	</data>
 	<data name="DEVICE_CLAIM_MESSAGE">
-		<value>Claiming a device adds it to your MyBroodMinder account and uploads collected sensor readings. Do you wish to claim device {0}?</value>
+		<value>Déclarer un capteur l'ajoute à votre compte MyBroodminder et met à jour les mesures collectées par les capteurs. Voulez-vous déclarer un capteur {0}?</value>
 	</data>
 	<data name="DEVICE_CLAIM_CONFIRM">
-		<value>Yes, Claim device</value>
+		<value>Oui, Déclarer un capteur</value>
 	</data>
 	<data name="DEVICE_STATUS_UNAVAILABLE">
-		<value>Unavailable</value>
+		<value>Indisponible</value>
 	</data>
 	<data name="DEVICE_STATUS_NEARBY">
-		<value>Nearby</value>
+		<value>Proche</value>
 	</data>
 	<data name="DEVICE_STATUS_WAITING">
-		<value>Waiting</value>
+		<value>En attente</value>
 	</data>
 	<data name="DEVICE_STATUS_CONNECTING">
-		<value>Connecting</value>
+		<value>En cours de connexion</value>
 	</data>
 	<data name="DEVICE_STATUS_CONNECTED">
-		<value>Connected</value>
+		<value>Connecté</value>
 	</data>
 	<data name="DEVICE_STATUS_BLEERROR">
-		<value>BLE Error</value>
+		<value>Erreur BLE</value>
 	</data>
 	<data name="DEVICE_STATUS_SYNCERROR">
-		<value>Sync Error</value>
+		<value>Erreur synchronisation</value>
 	</data>
 	<data name="DEVICE_STATUS_NOTFOUND">
-		<value>Not Found</value>
+		<value>Non trouvé</value>
 	</data>
 	<data name="DEVICE_STATUS_CANCELLED">
-		<value>Cancelled</value>
+		<value>Annulé</value>
 	</data>
 	<data name="DEVICE_STATUS_COMPLETE">
-		<value>Complete</value>
+		<value>Terminer</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
-		<value>Cancel sync?</value>
+		<value>Annuler synchronisation ?</value>
 	</data>
 	<data name="SYNC_CANCEL_CONFIRM">
-		<value>Yes, Cancel sync</value>
+		<value>Oui, Annuler synchronisation</value>
 	</data>
 	<data name="SYNC_CANCEL_NO">
-		<value>No, Continue sync</value>
+		<value>Non, Continuer la synchronisation</value>
 	</data>
 	<data name="SYNC">
-		<value>Sync</value>
+		<value>Synchroniser</value>
 	</data>
 	<data name="SYNCING">
-		<value>Syncing</value>
+		<value>Synchronisation</value>
 	</data>
 	<data name="SYNC_NONE">
-		<value>No Apiary Selected</value>
+		<value>Pas de rucher sélectionné</value>
 	</data>
 	<data name="SYNC_NONE_SELECT">
-		<value>Select Apiary above, then retry sync.</value>
+		<value>Selectionner le rucher au-dessus, puis réessayer la synchronisation.</value>
 	</data>
 	<data name="SYNC_INPROGRESS">
-		<value>Apiary Sync Already in Progress</value>
+		<value>Synchronisation du rucher déjà en cours</value>
 	</data>
 	<data name="SYNC_INPROGRESS_CANCEL">
-		<value>Cancel Current Sync</value>
+		<value>Annuler la synchronisation en cours</value>
 	</data>
 	<data name="SYNC_INPROGRESS_DISMISS">
-		<value>Dismiss</value>
+		<value>Annuler</value>
 	</data>
 	<data name="SYNC_STATUS">
-		<value>Sync Status</value>
+		<value>État de la synchronisation</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETED">
-		<value>Completed</value>
+		<value>Terminée</value>
 	</data>
 	<data name="SYNC_STATUS_DEVNOT">
-		<value>{0} devices not synced</value>
+		<value>{0} sapteurs non synchronisés</value>
 	</data>
 	<data name="SYNC_STATUS_DEVCOMP">
-		<value>{0} devices completed</value>
+		<value>{0} capteurs synchronisés</value>
 	</data>
 	<data name="SYNC_STATUS_DEVCONN">
-		<value>{0} devices connected</value>
+		<value>{0} capteurs connectés</value>
 	</data>
 	<data name="SYNC_STATUS_DEVWAIT">
-		<value>{0} devices waiting</value>
+		<value>{0} capteurs en attente</value>
 	</data>
 	<data name="SYNC_STATUS_CANCELALL">
-		<value>Cancel All</value>
+		<value>Tout annuler</value>
 	</data>
 	<data name="SYNC_STATUS_CANCELLED">
-		<value>Cancelled</value>
+		<value>Annulé</value>
 	</data>
 	<data name="SYNC_STATUS_INPROGRESS">
-		<value>In Progress</value>
+		<value>En cours</value>
 	</data>
 	<data name="SYNC_STATUS_DEVNOTFOUND">
-		<value>Device not found</value>
+		<value>Capteur non trouvé</value>
 	</data>
 	<data name="SYNC_STATUS_ERRORCONNECTING">
-		<value>Error connecting</value>
+		<value>Erreur de connexion</value>
 	</data>
 	<data name="SYNC_STATUS_ERRORSYNCING">
-		<value>Error syncing</value>
+		<value>Erreur de synchronisation</value>
 	</data>
 	<data name="SYNC_STATUS_ERRORRETRY">
-		<value>Errored, awaiting retry</value>
+		<value>Échec, en attente de nouvelle tentative</value>
 	</data>
 	<data name="SYNC_STATUS_WAITING">
-		<value>Waiting</value>
+		<value>En attente</value>
 	</data>
 	<data name="SYNC_STATUS_UPLOADING">
-		<value>Sync complete, uploading</value>
+		<value>Synchronisation terminée, mise à jour</value>
 	</data>
 	<data name="SYNC_STATUS_SAVING">
-		<value>Completed, saving/uploading data</value>
+		<value>Sauvegarde/mise à jour des données terminée</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDLOCAL">
-		<value>Completed, saved {0} readings locally</value>
+		<value>Sauvegarde terminée {0} mesures internes</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDUPLOADED">
-		<value>Completed, saved and uploaded {0} readings</value>
+		<value>Termminé, sauvegardé et mis à jour {0} mesures</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDOFFLINE">
-		<value>Completed, saved {0} readings to retry upload when back online</value>
+		<value>Terminé, sauvegardé {0} mesures pour recommencer la mise à jour quand reconnecté</value>
 	</data>
 	<data name="NO_BLUETOOTH">
-		<value>Bluetooth off, app may not work as expected</value>
+		<value>Bluetooth désactivé, l'application pourrait ne pas fonctionner normalement</value>
 	</data>
 	<data name="NO_NETWORK">
-		<value>No network connection</value>
+		<value>Pas de connexion réseau</value>
 	</data>
 	<data name="TIMESPAN_24H">
 		<value>24h</value>
 	</data>
 	<data name="TIMESPAN_3D">
-		<value>3d</value>
+		<value>3j</value>
 	</data>
 	<data name="TIMESPAN_7D">
-		<value>7d</value>
+		<value>7j</value>
 	</data>
 	<data name="TIMESPAN_14D">
-		<value>14d</value>
+		<value>14j</value>
 	</data>
 	<data name="TIMESPAN_30D">
-		<value>30d</value>
+		<value>30j</value>
 	</data>
 	<data name="TIMESPAN_6M">
 		<value>6m</value>
 	</data>
 	<data name="TIMESPAN_1Y">
-		<value>1y</value>
+		<value>1a</value>
 	</data>
 	<data name="APIARY_CREATE_TITLE">
-		<value>Create Apiary</value>
+		<value>Créer un rucher</value>
 	</data>
 	<data name="APIARY_EDIT_TITLE">
-		<value>Edit {0}</value>
+		<value>Éditer {0}</value>
 	</data>
 	<data name="APIARY_CREATE_NAME">
-		<value>Name</value>
+		<value>Nom</value>
 	</data>
 	<data name="APIARY_CREATE_NAMEREQUIRED">
-		<value>*Name is required</value>
+		<value>*Nom requis</value>
 	</data>
 	<data name="APIARY_CREATE_POSTAL">
-		<value>Postal Code</value>
+		<value>Code postal</value>
 	</data>
 	<data name="APIARY_CREATE_POSTALREQUIRED">
-		<value>*Postal Code is required</value>
+		<value>*Code postal requis</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRY">
-		<value>Country Code</value>
+		<value>Code du pays</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRYSELECT">
-		<value>Select Country</value>
+		<value>Sélectionner le pays</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRYREQUIRED">
-		<value>*Country is required</value>
+		<value>*Pays requis</value>
 	</data>
 	<data name="APIARY_CREATE_CREATED">
-		<value>Apiary created</value>
+		<value>Rucher créé</value>
 	</data>
 	<data name="APIARY_CREATE_ERROR">
-		<value>Apiary not created</value>
+		<value>Rucher non créé</value>
 	</data>
 	<data name="APIARY_EDIT_UPDATED">
-		<value>Apiary updated</value>
+		<value>Rucher mis à jour</value>
 	</data>
 	<data name="APIARY_EDIT_ERROR">
-		<value>Apiary not updated</value>
+		<value>Rucher non mis à jour</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
-		<value>Move Hive</value>
+		<value>Déplacer la ruche</value>
 	</data>
 	<data name="MOVE_HIVE_MOVED">
-		<value>Hive moved</value>
+		<value>Ruche déplacée</value>
 	</data>
 	<data name="MOVE_HIVE_ERROR">
-		<value>Error, hive not moved</value>
+		<value>Erreur, ruche non déplacée</value>
 	</data>
 	<data name="MOVE_HIVE_TIMEERROR">
-		<value>Start time before current location start</value>
+		<value>Date de début avant date de début de la position actuelle</value>
 	</data>
 	<data name="MOVE_HIVE_APIARYERROR">
-		<value>*Apiary is required</value>
+		<value>*Rucher requis</value>
 	</data>
 	<data name="MOVE_HIVE_START">
-		<value>Starting</value>
+		<value>Démarrage</value>
 	</data>
 	<data name="MOVE_HIVE_MOVE">
-		<value>Move</value>
+		<value>Déplacer</value>
 	</data>
 	<data name="ADD_DEVICE_TITLE">
-		<value>Add Device to {0}</value>
+		<value>Ajouter un capteur à {0}</value>
 	</data>
 	<data name="ADD_DEVICE_TITLENONE">
-		<value>Add Device</value>
+		<value>Ajouter un capteur</value>
 	</data>
 	<data name="ADD_DEVICE_SUCCESS">
-		<value>Device moved</value>
+		<value>Capteur déplacé</value>
 	</data>
 	<data name="ADD_DEVICE_ERROR">
-		<value>Error, device not moved</value>
+		<value>Erreur, capteur non déplacé</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTDEVICE">
-		<value>Select Device</value>
+		<value>Sélectionner le capteur</value>
 	</data>
 	<data name="ADD_DEVICE_DEVICEREQUIRED">
-		<value>*Device is required</value>
+		<value>*Capteur requis</value>
 	</data>
 	<data name="ADD_DEVICE_REMOVEHIVE">
-		<value>Remove from hive</value>
+		<value>Supprimer de la ruche</value>
 	</data>
 	<data name="ADD_DEVICE_END">
-		<value>End</value>
+		<value>Fin</value>
 	</data>
 	<data name="ADD_DEVICE_MOVEHIVE">
-		<value>Move to another hive</value>
+		<value>Déplacer vers une autre ruche</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTHIVE">
-		<value>Select Hive</value>
+		<value>Sélectionner une ruche</value>
 	</data>
 	<data name="ADD_DEVICE_HIVEERROR">
-		<value>*Hive is required</value>
+		<value>*Ruche requise</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Location</value>
+		<value>Position</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
-		<value>Select Position</value>
+		<value>Sélectionner la position</value>
 	</data>
 	<data name="ADD_DEVICE_POSITIONERROR">
-		<value>*Position is required</value>
+		<value>*Position requise</value>
 	</data>
 	<data name="ADD_DEVICE_START">
-		<value>Start</value>
+		<value>Démarrer</value>
 	</data>
 	<data name="ADD_DEVICE_ADD">
-		<value>Add</value>
+		<value>Ajouter</value>
 	</data>
 	<data name="CLAIM_DEVICE_EDIT">
-		<value>Edit Device</value>
+		<value>Modifier le capteur</value>
 	</data>
 	<data name="CLAIM_DEVICE_ADD">
-		<value>Add Device</value>
+		<value>Ajouter un capteur</value>
 	</data>
 	<data name="CLAIM_DEVICE_CLAIM">
-		<value>Claim</value>
+		<value>Déclarer</value>
 	</data>
 	<data name="CLAIM_DEVICE_OWNED">
-		<value>Cannot add this device. It is owned by another user account.</value>
+		<value>Impossible d'ajouter ce capteur. Il appartient à un autre compte.</value>
 	</data>
 	<data name="CLAIM_DEVICE_EDIT_SUCCESS">
-		<value>Device updated</value>
+		<value>Capteur mis à jour</value>
 	</data>
 	<data name="CLAIM_DEVICE_EDIT_ERROR">
-		<value>Error, device not updated</value>
+		<value>Erreur, capteur non mis à jour</value>
 	</data>
 	<data name="CLAIM_DEVICE_ADD_SUCCESS">
-		<value>Device claimed</value>
+		<value>Capteur déclaré</value>
 	</data>
 	<data name="CLAIM_DEVICE_ADD_ERROR">
-		<value>Error, device not claimed</value>
+		<value>Erreur, capteur non déclaré</value>
 	</data>
 	<data name="CLAIM_DEVICE_NAME">
-		<value>Name</value>
+		<value>Nom</value>
 	</data>
 	<data name="CLAIM_DEVICE_NAMEERROR">
-		<value>*Name is required</value>
+		<value>*Nom requis</value>
 	</data>
 	<data name="DEVICE_DEBUGLOG_TITLE">
-		<value>Debug Log</value>
+		<value>journal de débogage</value>
 	</data>
 	<data name="DEVICE_DEBUGLOG_NONE">
-		<value>No logs for device</value>
+		<value>Pas de journaux pour le capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_REALTIME">
-		<value>View Realtime</value>
+		<value>Vue en temps réel</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_SETRATE">
 		<value>Set Rate</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
-		<value>Clear Device Log</value>
+		<value>Nettoyer le journal de débogage</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_TROUBLE">
-		<value>Troubleshooting</value>
+		<value>Dépannage</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
-		<value>Delete Local Data</value>
+		<value>Effacer les données locales</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_EVENT">
-		<value>Event</value>
+		<value>Évènement</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_UPDATE">
-		<value>Update</value>
+		<value>Mise à jour</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_UPLOAD">
-		<value>Upload Data</value>
+		<value>Mettre à jour les données</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_TE">
-		<value>Temperature Event:</value>
+		<value>Évènement de température:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_BS">
-		<value>Bluetooth Signal:</value>
+		<value>Signal Bluetooth:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_B">
-		<value>Battery:</value>
+		<value>Batterie:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_M">
-		<value>Model:</value>
+		<value>Modèle:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_FW">
-		<value>Firmware:</value>
+		<value>Micrologiciel:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_SC">
-		<value>Sample Count:</value>
+		<value>Nombre de relevés:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_NR">
-		<value>New Readings:</value>
+		<value>Nouvelles mesures:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMU">
-		<value>Last MBM Upload:</value>
+		<value>Dernière mise à jour MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMS">
-		<value>Last MBM Sample:</value>
+		<value>Dernier relevé MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LR">
-		<value>Latest Readings:</value>
+		<value>Dernières mesures:</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_SYNC">
-		<value>Sync {0} new readings, then update firmware</value>
+		<value>Synchroniser {0} nouvelles mesures, puis mettre à jour le micrologiciel</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_NOSYNC">
-		<value>Update firmware without sync (lose {0} readings)</value>
+		<value>Mettre à jour le micrologiciel sans synchroniser ( {0} perte de mesures)</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_TITLE">
-		<value>Upgrade Firmware</value>
+		<value>Mettre à jour le microlociciel</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_DEBUGLOG">
-		<value>View Debug Log</value>
+		<value>Voir le journal de débogage</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_READINGS">
-		<value>View Readings</value>
+		<value>Voir les mesures</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOAD_ERROR">
-		<value>Device Offline, not uploaded</value>
+		<value>Capteur hors ligne, non mis à jour</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S1">
-		<value>Read live data</value>
+		<value>Lire données en temps réel</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CONNECTING">
-		<value>Connecting to device</value>
+		<value>Connexion au capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S2">
-		<value>Error getting live data</value>
+		<value>Erreur lecture des données en temps réel</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_DISCONNECTING">
-		<value>Disconnecting device</value>
+		<value>Déconnexion capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_DISCONNECTED">
-		<value>Device disconnected</value>
+		<value>Capteur déconnecté</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_NOTFOUND">
-		<value>Device not found</value>
+		<value>Capteur non trouvé</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_PACKET">
-		<value>Live Data: Sample: {0} Bat:{1} Temp: {2} Humid: {3} Weight: {4}</value>
+		<value>Données temps réel: Relevé: {0} Bat:{1} Temp: {2} Humid: {3} Poids: {4}</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_STOP">
-		<value>Stop Realtime</value>
+		<value>Arrêter le temps réel</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S3">
-		<value>Setting time</value>
+		<value>Réglage temps</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S4">
-		<value>Error setting time</value>
+		<value>Erreur réglage temps</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE15">
 		<value>15 Minutes</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE1">
-		<value>1 Hour</value>
+		<value>1 Heure</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_SETTINGRATE">
-		<value>Setting Rate to {0} minutes</value>
+		<value>Réglage fréquence à {0} minutes</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATEERROR">
-		<value>Error setting rate</value>
+		<value>Erreur réglage fréquence</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATESET">
-		<value>Rate set to {0} minutes</value>
+		<value>Régler fréquence à {0} minutes</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG">
-		<value>Clear Sensor Log</value>
+		<value>Nettoyer le journal de donnée du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_MESSAGE">
-		<value>Are you sure you want to delete all sensor data? Ensure you have downloaded all data.</value>
+		<value>Êtes-vous sûr de vouloir effacer toutes les données du capteur? Assurez-vous d'avoir télécharger toutes les données.</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_CONFIRM">
-		<value>Yes, Device Clear log</value>
+		<value>Oui, nettoyer le journal de données du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_S1">
-		<value>Clearing device log</value>
+		<value>Nettoyage du journal de données du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_ERROR">
-		<value>Error clearing flash</value>
+		<value>Erreur nettoyage flash</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
-		<value>Device log cleared</value>
+		<value>Journal de données du capteur nettoyé</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
-		<value>Temperature Event</value>
+		<value>Évènement de température</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_RX">
 		<value>RX</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_MESSAGE">
-		<value>Are you sure you want to delete all local data?</value>
+		<value>Êtes-vous sûr de vouloir effacer toutes les données locales?</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE">
-		<value>Delete Data</value>
+		<value>Effacer les données</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_CONFIRM">
-		<value>Yes, Delete Data</value>
+		<value>Oui, Effacer les données</value>
 	</data>
 	<data name="DEVICES_NONE">
-		<value>No Devices Found</value>
+		<value>Pas de capteur trouvé</value>
 	</data>
 	<data name="DEVICES_PULL">
-		<value>Pull down to refresh</value>
+		<value>Glisser vers le bas pour rafaîchir</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOT">
-		<value>Troubleshoot</value>
+		<value>Dépannage</value>
 	</data>
 	<data name="DEVICES_NOTASSIGN">
-		<value>« Not assigned »</value>
+		<value>« Non assigné »</value>
 	</data>
 	<data name="DEVICES_CLAIM">
-		<value>Claim Device</value>
+		<value>Déclarer capteur</value>
 	</data>
 	<data name="DEVICES_ANOTHERACCOUNT">
-		<value>Device belongs to another account</value>
+		<value>Capteur appartenant à un autre compte</value>
 	</data>
 	<data name="DEVICES_FIRMWAREERROR">
-		<value>Firmware Update Error, Fix</value>
+		<value>Erreur de la mise à jour du micrologiciel, réparer</value>
 	</data>
 	<data name="DEVICES_FILTER_NAME">
-		<value>Name</value>
+		<value>Nom</value>
 	</data>
 	<data name="DEVICES_FILTER_NEARBY">
-		<value>Nearby</value>
+		<value>Proche</value>
 	</data>
 	<data name="DEVICES_FILTER_SCALES">
-		<value>Scales</value>
+		<value>Balances</value>
 	</data>
 	<data name="DEVICES_FILTER_TH">
-		<value>Temp/Humidity</value>
+		<value>Temp/Humidité</value>
 	</data>
 	<data name="DEVICES_FILTER_HUB">
 		<value>Hubs</value>
@@ -772,537 +772,537 @@
 		<value>SubHubs</value>
 	</data>
 	<data name="DEVICES_FILTER_LOWBATTERY">
-		<value>Low Battery</value>
+		<value>Batterie faible</value>
 	</data>
 	<data name="DEVICES_FILTER_APIARY">
-		<value>Apiary</value>
+		<value>Rucher</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOTING">
-		<value>Troubleshooting</value>
+		<value>Dépannage</value>
 	</data>
 	<data name="DEVICES_T1">
-		<value>Ensure your devices are on and near your phone</value>
+		<value>Assurez-vous que votre capteur est allumé et qu'il est près de votre téléphone</value>
 	</data>
 	<data name="DEVICES_T2">
-		<value>Check that bluetooth is enabled</value>
+		<value>Vérifiez que le Bluetooth est activé</value>
 	</data>
 	<data name="DEVICES_T3">
-		<value>Still no devices?</value>
+		<value>Toujours pas de capteur?</value>
 	</data>
 	<data name="DEVICES_T4">
-		<value>Toggle your phone's airplane mode to refresh bluetooth services.</value>
+		<value>Activez puis désactivez le mode avion de votre téléphone pour actualiser les services bluetooth.</value>
 	</data>
 	<data name="DEVICES_FILTERDEV">
-		<value>Filter Devices on</value>
+		<value>Filtrer les capteurs allumés</value>
 	</data>
 	<data name="DEVICES_FILTERNAME">
-		<value>Filter on Name</value>
+		<value>Filtrer par Nom</value>
 	</data>
 	<data name="DEVICES_FILTERNAMETEXT">
-		<value>Enter full or partial device name or id</value>
+		<value>Entrer le nom ou une partie du nom ou de l'identifiant du capteur</value>
 	</data>
 	<data name="EDITLOCATION_LOCATION">
-		<value>Location</value>
+		<value>Position</value>
 	</data>
 	<data name="EDITLOCATION_SELECT">
-		<value>Select Postition</value>
+		<value>Sélectionner la position</value>
 	</data>
 	<data name="EDITLOCATION_REQ">
-		<value>*Position is required</value>
+		<value>*Position requise</value>
 	</data>
 	<data name="EDITLOCATION_START">
-		<value>Start</value>
+		<value>Début</value>
 	</data>
 	<data name="EDITLOCATION_ENDLOCATION">
-		<value>End Location</value>
+		<value>Position Fin</value>
 	</data>
 	<data name="EDITLOCATION_END">
-		<value>End</value>
+		<value>Fin</value>
 	</data>
 	<data name="EDITLOCATION_TITLE">
-		<value>Edit Device Location</value>
+		<value>Modifier la positon du capteur</value>
 	</data>
 	<data name="EDITLOCATION_ERROR">
-		<value>Error, no current location to edit</value>
+		<value>Erreur, pas de position actuelle à modifier</value>
 	</data>
 	<data name="EDITLOCATION_MOVED">
-		<value>Device moved</value>
+		<value>Capteur déplacé</value>
 	</data>
 	<data name="EDITLOCATION_NOTMOVED">
-		<value>Error, device not moved</value>
+		<value>Erreur, capteur non déplacé</value>
 	</data>
 	<data name="EDITLOCATION_ERRORTIME">
-		<value>End time must be after start time.</value>
+		<value>La date de fin doit être supérieure à la date de début.</value>
 	</data>
 	<data name="MOVEDEVICE_FROM">
-		<value>Remove from</value>
+		<value>Supprimer de</value>
 	</data>
 	<data name="MOVEDEVICE_MOVE">
-		<value>Move to another hive</value>
+		<value>Déplacer vers une autre ruche</value>
 	</data>
 	<data name="FIRMWARE_CONNSTAT">
-		<value>Connection Status: </value>
+		<value>État de la connexion: </value>
 	</data>
 	<data name="FIRMWARE_PROG">
-		<value>Firmware Update Progress: </value>
+		<value>Mise à jours à jour du microlociciel en cours: </value>
 	</data>
 	<data name="FIRMWARE_BACK">
-		<value>Firmware update in progress. You must remain here for it to complete. Going back cancels the update and is not recommended.</value>
+		<value>Mise à jour du microlociciel en cours. Restez ici pour qu'elle soit terminée. Revenir en arrière annule la mise à jour et n'est pas recommandé.</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL">
-		<value>Cancel Update?</value>
+		<value>Annuler la mise à jour?</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL_CONFIRM">
-		<value>Yes, Cancel Update</value>
+		<value>Oui, Annuler la mise à jour</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL_CANCEL">
-		<value>No, Continue Update</value>
+		<value>Non, Continuer la mise à jour</value>
 	</data>
 	<data name="FIRMWARE_RETRIEVEDCOUNT">
-		<value>Retrieved {0} readings</value>
+		<value>{0} mesures récupérées</value>
 	</data>
 	<data name="FIRMWARE_RETRIEVEDALL">
-		<value>Retrieved All</value>
+		<value>Toutes récupérées</value>
 	</data>
 	<data name="FIRMWARE_SYNCCOMP">
-		<value>Sync Complete</value>
+		<value>Synchronisation terminée</value>
 	</data>
 	<data name="FIRMWARE_SYNCFAILED">
-		<value>Sync Failed</value>
+		<value>Synchronisation échouée</value>
 	</data>
 	<data name="FIRMWARE_CANCELLED">
-		<value>Firmware update cancelled</value>
+		<value>Mise à jour du microlociciel annulée</value>
 	</data>
 	<data name="FIRMWARE_CONNECTED">
-		<value>Connected to device</value>
+		<value>Connecté au capteur</value>
 	</data>
 	<data name="FIRMWARE_NOTSTART">
-		<value>Could not start update</value>
+		<value>La mise à jour n'a pas pu démarrer</value>
 	</data>
 	<data name="FIRMWARE_SUCCESS">
-		<value>Firmware update successful</value>
+		<value>Mise à jour du micrologiciel réalisée avec succès</value>
 	</data>
 	<data name="FIRMWARE_COMPLETE">
-		<value>Completed Successfully</value>
+		<value>Réalisé avec succès</value>
 	</data>
 	<data name="FIRMWARE_UNSUCCESS">
-		<value>Completed Unsuccessfully</value>
+		<value>Réalisé sans succès</value>
 	</data>
 	<data name="READINGSCSV_TITLE">
 		<value>CSV</value>
 	</data>
 	<data name="READINGSCSV_ADDR">
-		<value>Address</value>
+		<value>Adresse</value>
 	</data>
 	<data name="READINGSCSV_MODEL">
-		<value>Model</value>
+		<value>Modèle</value>
 	</data>
 	<data name="READINGSCSV_TIME">
-		<value>Unix_Time</value>
+		<value>Temps_Unix</value>
 	</data>
 	<data name="READINGSCSV_SAMPLE">
-		<value>Sample</value>
+		<value>Relevé</value>
 	</data>
 	<data name="READINGSCSV_WL">
-		<value>WeightL</value>
+		<value>PoidsG</value>
 	</data>
 	<data name="READINGSCSV_WR">
-		<value>WeightR</value>
+		<value>PoidsD</value>
 	</data>
 	<data name="READINGSCSV_WL2">
-		<value>WeightL2</value>
+		<value>PoidsG2</value>
 	</data>
 	<data name="READINGSCSV_WR2">
-		<value>WeightR2</value>
+		<value>PoidsD2</value>
 	</data>
 	<data name="READINGSCSV_WSF">
-		<value>WeightScaleFactor</value>
+		<value>FacteurMultiplicatifBalance</value>
 	</data>
 	<data name="READINGSCSV_SS">
-		<value>Swarm State</value>
+		<value>État essaimage</value>
 	</data>
 	<data name="READINGSCSV_NAME">
-		<value>readings</value>
+		<value>mesures</value>
 	</data>
 	<data name="READINGSCSV_SAVED">
-		<value>File Saved</value>
+		<value>Fichier enregistré</value>
 	</data>
 	<data name="SUBHUBDETAIL_OTA">
-		<value>OTA Error, Retry</value>
+		<value>Erreur OTA, Réessayez</value>
 	</data>
 	<data name="SUBHUBDETAIL_SHOW">
-		<value>Show All Devices</value>
+		<value>Afficher tous les capteurs</value>
 	</data>
 	<data name="SUBHUBDETAIL_UPDATE">
-		<value>Update</value>
+		<value>Mettre à jour</value>
 	</data>
 	<data name="SUBHUBDETAIL_UPLOAD">
-		<value>Upload Data</value>
+		<value>Charger les données</value>
 	</data>
 	<data name="SUBHUBDETAIL_CONTEXT_DELETECSV">
-		<value>Delete Subhub csvs</value>
+		<value>Effacer les csvs du Subhub</value>
 	</data>
 	<data name="SUBHUBDETAIL_CONTEXT_SYNCFULL">
-		<value>Sync Full SubHub Log</value>
+		<value>Synchroniser tous les journaux du subhub</value>
 	</data>
 	<data name="SUBHUBDETAIL_SYNCSINCE">
-		<value>Sync All Devices Since {0}</value>
+		<value>Synchroniser tous les capteurs depuis{0}</value>
 	</data>
 	<data name="SUBHUBDETAIL_SYNCALL">
-		<value>Sync All Devices</value>
+		<value>Synchroniser tous les capteurs</value>
 	</data>
 	<data name="SUBHUBDETAIL_SCANERROR">
-		<value>Firmware version 3.22 or greater is required for this feature.</value>
+		<value>La version du mircologiciel 3.22 ou supérieure est requise pour cette fonctionnalité.</value>
 	</data>
 	<data name="SUBHUBDETAIL_SCANUNAVAILABLE">
-		<value>Feature Unavailable</value>
+		<value>Fonctionnalité indisponible</value>
 	</data>
 	<data name="SUBHUBDETAIL_OFFLINE">
-		<value>Device Offline, not uploaded</value>
+		<value>Capteur hors ligne, données non chargées</value>
 	</data>
 	<data name="SUBHUBDETAIL_NOTRANGE">
-		<value>Device not in range</value>
+		<value>Capteur pas à portée</value>
 	</data>
 	<data name="SUBHUBDETAIL_FIRMWARE_NOSYNC">
-		<value>Update firmware without sync (lose subhub log since last sync)</value>
+		<value>Mettre à jour le micrologiciel sans synchroniser (Perdre le journal du subhub depuis la dernière synchronisation)</value>
 	</data>
 	<data name="SUBHUBREADINGS_SAVE">
-		<value>Save and upload selected items</value>
+		<value>Enregistrer et charger les éléments selectionnés</value>
 	</data>
 	<data name="SUBHUBREADINGS_DONE">
-		<value>Done</value>
+		<value>Effectué</value>
 	</data>
 	<data name="SUBHUBREADINGS_BACK">
-		<value>Device log read is not complete. If you leave now, you will need to start over to collect data.</value>
+		<value>Lecture des journaux des capteurs non terminé. Si vous quittez maintenant, vous devrez recommencer  pour collecter les données.</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVE">
-		<value>Data has not been saved. If you leave now, you will need to re-read the subhub log.</value>
+		<value>Les données n'ont pas été sauvegardées. Si vous partez maintenant, il faudra re-lire le journal du subhub.</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVEQUESTION">
-		<value>Leave Page?</value>
+		<value>Quitter la page?</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVEONFIRM">
-		<value>Yes, leave page</value>
+		<value>Oui, quitter la page</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVECANCEL">
-		<value>No, stay here.</value>
+		<value>Non, rester ici.</value>
 	</data>
 	<data name="SUBHUBREADINGS_SAVELOCAL">
-		<value>Saving locally</value>
+		<value>Enregistrer en local</value>
 	</data>
 	<data name="SUBHUBREADINGS_SAVEWEB">
-		<value>Saving to MyBroodMinder.com</value>
+		<value>Enregistré dans MyBroodMinder.com</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARY">
-		<value>Completed</value>
+		<value>Complété</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARYSAVED">
-		<value>Saved {0} readings from {1} devices</value>
+		<value>{0} relevés de {1} capteurs enregistrés</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARYIGNORED">
-		<value>Ignored {0} readings from {1} devices</value>
+		<value>{0} relevés de {1} capteurs ignorés</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARYERROR">
-		<value>Errored {0} readings from {1} devices</value>
+		<value>{0} relevés de {1} capteurs echoués</value>
 	</data>
 	<data name="SUBHUBREADINGS_READINGCOUNT">
-		<value>Readings</value>
+		<value>Relevés</value>
 	</data>
 	<data name="SUBHUBREADINGS_DEVNOTOWNER">
-		<value>Device belongs to another account, data will be local only</value>
+		<value>Le capteur appartient à un autre compte, les données seront uniquement locales</value>
 	</data>
 	<data name="SUBHUBREADINGS_DEVNOTMBM">
-		<value>Device not claimed, data will be local only</value>
+		<value>Capteur non déclaré, les données seront uniquement locales</value>
 	</data>
 	<data name="SUBHUBREADINGS_DEVNOTEXIST">
-		<value>Device does not exist, data will not be saved</value>
+		<value>Le capteur n'existe pas, les données ne seront pas enregistrées</value>
 	</data>
 	<data name="SUBHUBSCAN_BMONLY">
-		<value>BroodMinder Devices Only</value>
+		<value>Capteurs BroodMinder uniquement </value>
 	</data>
 	<data name="SUBHUBSCAN_SIGNAL">
 		<value>Signal</value>
 	</data>
 	<data name="SUBHUBSCAN_DEVICE">
-		<value>Device</value>
+		<value>Capteur</value>
 	</data>
 	<data name="SUBHUBSCAN_TIME">
 		<value>Timestamp</value>
 	</data>
 	<data name="SUBHUBSCAN_STOP">
-		<value>Stop Scanning</value>
+		<value>Arrêter la détection</value>
 	</data>
 	<data name="SUBHUBSCAN_START">
-		<value>Start Scanning</value>
+		<value>Démarrer le détection</value>
 	</data>
 	<data name="HELP_GUIDES">
 		<value>Guides</value>
 	</data>
 	<data name="HELP_GUIDES_STARTED">
-		<value>Getting started</value>
+		<value>Démarrage</value>
 	</data>
 	<data name="HELP_GUIDES_USER">
-		<value>User guide</value>
+		<value>Guide utilisateur</value>
 	</data>
 	<data name="HELP_GUIDES_VIDEO">
-		<value>Video guides</value>
+		<value>Guide video</value>
 	</data>
 	<data name="HELP_SUPPORT">
 		<value>Support</value>
 	</data>
 	<data name="HELP_SUPPORT_QUESTION">
-		<value>Send us your question</value>
+		<value>Posez nous vos questions</value>
 	</data>
 	<data name="HELP_SUPPORT_TO">
-		<value>To: support@broodminder.com</value>
+		<value>À: support@broodminder.com</value>
 	</data>
 	<data name="HELP_SUPPORT_FROM">
-		<value>From: </value>
+		<value>De: </value>
 	</data>
 	<data name="HELP_SUPPORT_ENTRY">
-		<value>Enter question/feedback here.</value>
+		<value>Écrivez vos questions/retours ici.</value>
 	</data>
 	<data name="HELP_SUPPORT_SEND">
-		<value>Send</value>
+		<value>Envoyer</value>
 	</data>
 	<data name="HELP_VERSION">
-		<value>App Version</value>
+		<value>Version de l'app</value>
 	</data>
 	<data name="HELP_LOGGING">
-		<value>Full debug logging enabled</value>
+		<value>Tous les journaux de débogage activés</value>
 	</data>
 	<data name="HELP_FROMERR">
-		<value>From field required</value>
+		<value>Champ requis</value>
 	</data>
 	<data name="HELP_EMPTYERR">
-		<value>Cannot leave feedback empty.</value>
+		<value>Impossible de laisser la case "retours" vide.</value>
 	</data>
 	<data name="HELP_SENDQUESTION">
-		<value>Send this message to BroodMinder support? A response will be sent to {0}.</value>
+		<value>Envoyer ce message au support BroodMinder ? Une réponse sera envoyée à {0}.</value>
 	</data>
 	<data name="HELP_SENT">
-		<value>Message Sent</value>
+		<value>Message Envoyé</value>
 	</data>
 	<data name="HELP_OFFLINE">
-		<value>Error Sending. App Offline</value>
+		<value>Erreur envoi. App Hors ligne</value>
 	</data>
 	<data name="HELP_NOTSENT">
-		<value>Error. Message not sent</value>
+		<value>Erreur. Message non envoyé</value>
 	</data>
 	<data name="HELP_NOTALLOWED">
-		<value>Not allowed</value>
+		<value>Non autorisé</value>
 	</data>
 	<data name="NOTE_DESCRIPTION">
 		<value>Description</value>
 	</data>
 	<data name="NOTE_DESCRIPTIONREQ">
-		<value>*Description is required</value>
+		<value>*Description requise</value>
 	</data>
 	<data name="NOTE_EDIT">
-		<value>Edit note in {0}</value>
+		<value>Modifier une note dans {0}</value>
 	</data>
 	<data name="NOTE_CREATE">
-		<value>Create note in {0}</value>
+		<value>Créeer une note dans {0}</value>
 	</data>
 	<data name="NOTE_CREATED">
-		<value>Note created</value>
+		<value>Note créée</value>
 	</data>
 	<data name="NOTE_NOTCREATED">
-		<value>Note not created</value>
+		<value>Note non créée</value>
 	</data>
 	<data name="NOTE_UPDATED">
-		<value>Note Updated</value>
+		<value>Note mise à jour</value>
 	</data>
 	<data name="NOTE_NOTUPDATED">
-		<value>Note not updated</value>
+		<value>Note non mise à jour</value>
 	</data>
 	<data name="HIVE_CU_UTITLE">
-		<value>Edit {0}</value>
+		<value>Modifier {0}</value>
 	</data>
 	<data name="HIVE_CU_CTITLE">
-		<value>Create Hive in {0}</value>
+		<value>Create une ruche dans {0}</value>
 	</data>
 	<data name="HIVE_CU_CTITLE2">
-		<value>Create Hive</value>
+		<value>Créer une ruche</value>
 	</data>
 	<data name="HIVE_CU_CREATED">
-		<value>Hive created</value>
+		<value>Ruche créée</value>
 	</data>
 	<data name="HIVE_CU_NOTCREATED">
-		<value>Hive not created</value>
+		<value>Ruche non créée</value>
 	</data>
 	<data name="HIVE_CU_UPDATED">
-		<value>Hive Updated</value>
+		<value>Ruche mise à jour</value>
 	</data>
 	<data name="HIVE_CU_NOTUPDATED">
-		<value>Hive not updated</value>
+		<value>Ruche non mise à jour</value>
 	</data>
 	<data name="HIVEDETAILS_ADDNOTE">
-		<value>Add Note</value>
+		<value>Ajouter une note</value>
 	</data>
 	<data name="FORGOTPASSWORD_TITLE">
-		<value>Forgot Password</value>
+		<value>Mot de passe oublié</value>
 	</data>
 	<data name="FORGOTPASSWORD_USERNAME">
-		<value>Username</value>
+		<value>Nom d'utilisateur</value>
 	</data>
 	<data name="FORGOTPASSWORD_SEND">
-		<value>Send Reset Email</value>
+		<value>Envoyer un email réinitialisation</value>
 	</data>
 	<data name="FORGOTPASSWORD_NOTFOUND">
-		<value>User not found</value>
+		<value>Utilisateur non trouvé</value>
 	</data>
 	<data name="FORGOTPASSWORD_SENT">
-		<value>Password reset email sent.</value>
+		<value>Email de réinitialisation du mot de passe envoyé.</value>
 	</data>
 	<data name="INITIAL_LOGIN">
-		<value>Login</value>
+		<value>Se connecter</value>
 	</data>
 	<data name="INITIAL_BASIC">
-		<value>Basic (no account)</value>
+		<value>Invité (pas de compte)</value>
 	</data>
 	<data name="INITIAL_CREATE">
-		<value>Create account</value>
+		<value>Créer un compte</value>
 	</data>
 	<data name="INITIAL_REGISTER_TITLE">
-		<value>Welcome!</value>
+		<value>Bienvenue!</value>
 	</data>
 	<data name="INITIAL_REGISTER_1">
-		<value>This is your first time with us.</value>
+		<value>C'est votre première connexion.</value>
 	</data>
 	<data name="INITIAL_REGISTER_2">
-		<value>One single account manages all</value>
+		<value>Un seul compte gère tout</value>
 	</data>
 	<data name="INITIAL_REGISTER_3">
-		<value>This App</value>
+		<value>Cette App</value>
 	</data>
 	<data name="INITIAL_REGISTER_CONFIRM">
-		<value>I want to create my account</value>
+		<value>Je veux créer mon compte</value>
 	</data>
 	<data name="INITIAL_TRYNOW_TITLE">
-		<value>Welcome!</value>
+		<value>Bienvenue!</value>
 	</data>
 	<data name="INITIAL_TRYNOW_1">
-		<value>This is your first time with us.</value>
+		<value>C'est votre première connexion.</value>
 	</data>
 	<data name="INITIAL_TRYNOW_2">
-		<value>Basic mode allows you to test the app and keep your data local, without uploading to MyBroodMinder.</value>
+		<value>Le mode invité vous permet de tester l'application et de garder vos données locale, sans les charger dans MyBroodMinder.</value>
 	</data>
 	<data name="INITIAL_TRYNOW_3">
-		<value>Some features are not available without an account.</value>
+		<value>Certaines fonctionalités ne sont pas disponibles sans un compte.</value>
 	</data>
 	<data name="INITIAL_TRYNOW_CONTINUE">
-		<value>Continue without account</value>
+		<value>Continuer sans compte</value>
 	</data>
 	<data name="LOGIN_BADPASSWORD">
-		<value>Incorrect password</value>
+		<value>Mot de passe érroné</value>
 	</data>
 	<data name="LOGIN_FAILED">
-		<value>Login failed</value>
+		<value>Connexion échouée</value>
 	</data>
 	<data name="REGISTER">
-		<value>Register</value>
+		<value>S'enregistrer</value>
 	</data>
 	<data name="REGISTER_EMAIL">
 		<value>Email</value>
 	</data>
 	<data name="REGISTER_PASSWORD">
-		<value>Password</value>
+		<value>Mot de passe</value>
 	</data>
 	<data name="REGISTER_PASSWORD2">
-		<value>Re-enter Password</value>
+		<value>Re-taper le mot de passe</value>
 	</data>
 	<data name="REGISTER_EULA1">
 		<value>MyBroodMinder.com EULA (End User License Agreement) v1.1</value>
 	</data>
 	<data name="REGISTER_EULA2">
-		<value>We ask then you agree to the following statements to use this SaaS beekeeping software:</value>
+		<value>Nous vous demandons d'accepter les conditions d'utilisation pour utiliser ce logiciel SaaS d'apiculture:</value>
 	</data>
 	<data name="REGISTER_EULA3">
-		<value>I am placing the data that I upload or enter into this service into the Public Domain. As such, mybroodminder.com may use the data, in anonymous form, to share with the general public.</value>
+		<value>Je mets les données que je charge ou que j'entre dans cette application dans le Domaine Public. En conséquence, mybroodminder.com peut utiliser vos données, de manière anonyme, pour partager avec le public.</value>
 	</data>
 	<data name="REGISTER_EULA4">
-		<value>I understand that mybroodminder.com will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that mybroodminder.com can not be held responsible for hacking or other methods of data exposure.</value>
+		<value>Je comprends que mybroodminder.com fera au mieux pour ne divulguer aucune information personnelle (PII) comme le nom d'utilsisateur, le mote de passe, et le code postal, mais que mybroodminder.com ne pas être tenu responsable d'un piratage ou autre méthodes de divulgation de données.</value>
 	</data>
 	<data name="REGISTER_EULA5">
-		<value>I understand that mybroodminder.com will use best efforts to store and backup all data uploaded or entered into it, but that mybroodminder.com can not be held responsible for data loss.</value>
+		<value>Je comprends que mybroodminder.com fera au mieux pour stocker et sauvegarder toutes les données chargées ou entrées dans l'application, mais que mybroodminder.com ne peut être tenu pour responsable pour les pertes de données.</value>
 	</data>
 	<data name="REGISTER_EULA6">
-		<value>I understand that mybroodminder.com is a separate company from other vendors that may integrate their devices into mybroodminder.com, and that mybroodminder.com is not liable for those vendors actions.</value>
+		<value>Je comprends que mybroodminder.com est une entreprise séparée des autres vendeurs qui pourraient intégrer leur capteurs dans mybroodminder.com, et que mybroodminder.com n'est pas lié aux actions de ces vendeurs.</value>
 	</data>
 	<data name="REGISTER_EULA7">
-		<value>I understand that mybroodminder.com is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of mybroodminder.com.</value>
+		<value>Je comprends que mybroodminder.com est un endroit pour les apiculteurs et les entomologistes pour échanger des informations, et je me conduierai toujours de manière courtoise. Je comprends que sinon, cela pourrait causer la fermeture de mon compte.</value>
 	</data>
 	<data name="REGISTER_EULAAGREE">
-		<value>I agree to terms</value>
+		<value>j'accepte les conditions</value>
 	</data>
 	<data name="REGISTER_CREATE">
-		<value>Create Account</value>
+		<value>Créer un compte</value>
 	</data>
 	<data name="REGISTER_INVALIDEMAIL">
-		<value>Invalid email</value>
+		<value>Email invalide</value>
 	</data>
 	<data name="REGISTER_PASSWORDMATCH">
-		<value>Passwords do not match</value>
+		<value>Les mots de passe ne correspondent pas</value>
 	</data>
 	<data name="REGISTER_TERMSERROR">
-		<value>Must agree to terms to create an account</value>
+		<value>Vous devez accepter les conditions pour créer un compte</value>
 	</data>
 	<data name="REGISTER_EMAILINVALID">
-		<value>Email address not valid</value>
+		<value>Adresse email non valide</value>
 	</data>
 	<data name="REGISTER_PASSWORDSTRONG">
-		<value>Password not strong enough</value>
+		<value>Mot de passe pas assez fort</value>
 	</data>
 	<data name="REGISTER_EMAILUSED">
-		<value>Email already in use</value>
+		<value>Email déjà utilisé</value>
 	</data>
 	<data name="REGISTER_FAIL">
-		<value>Account failed</value>
+		<value>Compte échoué</value>
 	</data>
 	<data name="APP_LOGINFORFEATURE">
-		<value>Login or register to use this feature</value>
+		<value>Connectez-vous ou créez un compte pour utiliser cette fonctionnalité</value>
 	</data>
 	<data name="APP_NOTALLOWED">
-		<value>Not Allowed</value>
+		<value>Non autorisé</value>
 	</data>
 	<data name="APP_EXIT">
-		<value>Do you want to exit?</value>
+		<value>Voulez-vous quitter?</value>
 	</data>
 	<data name="APP_EXITCONFIRM">
-		<value>Exit</value>
+		<value>Quitter</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICESTITLE">
-		<value>Devices</value>
+		<value>Capteurs</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICES1">
-		<value>The Devices Tab displays all BroodMinder devices on your account and all nearby devices. Pull down on the list to refresh bluetooth scanning.</value>
+		<value>L'onglet capteurs affiche tous les capteurs BroodMinder sur votre compte et tous les capteurs proches. Glissez vers le bas de la liste pour actualiser la détection bluetooth.</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICES2">
-		<value>Tap the filter icon on the top right. Then select options to narrow down your displayed devices.</value>
+		<value>Appuyez sur l'icone filtre en haut à droite. Puis selectionnez options pour filtrer l'affichage des capteurs.</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICES3">
-		<value>Tap the more icon to the right of a device to sync an indidual device, configure a device, view details, and other options.</value>
+		<value>Appuyer sur l'icone "plus" à droite d'un capteur pour synchroniser un capteur isolé, configurer un capteur, voir les détails, et d'autres options.</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIESSTITLE">
-		<value>Apiaries</value>
+		<value>Ruchers</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIES1">
-		<value>The Apiaries Tab displays your apiaries and hives. This can be used to quickly view hive stats and sync all devices in an apiary at once.</value>
+		<value>L'onglet Rucher affiche vos ruchers et ruches. Cela peut être utilisé pour voir rapidemment les statistiques des ruches et synchroniser tous les capteurs d'un rucher d'un coup.</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIES2">
-		<value>Tap the apiary selector on top to select one of your apiaries.</value>
+		<value>Appuyez sur le selecteur de ruchers en haut pour selectionner un de vos ruchers.</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIES3">
-		<value>Tap the hive to expand the view and see the contained devices.</value>
+		<value>Cliquez sur la ruche pour étendre la vue et voir les capteurs contenus.</value>
 	</data>
 	<data name="GETTINGSTARTED_SYNCTITLE">
-		<value>Collecting Data</value>
+		<value>Récupération des données</value>
 	</data>
 	<data name="GETTINGSTARTED_SYNC1">
-		<value>Tap the sync icon on the top right to sync all devices in your apiary.</value>
+		<value>Appuyer sur l'icone "sync" en haut à droite pour synchroniser tous les capteurs de votre rucher.</value>
 	</data>
 	<data name="GETTINGSTARTED_SYNC2">
-		<value>Tap the sync summary to view a more detailed list of each devices sync status.</value>
+		<value>Appuyer sur le sommaire des synchronisations pour avoir une liste plus détaillée des statuts de synchronisation de chaque capteur.</value>
 	</data>
 </root>
