@@ -60,7 +60,7 @@
 			"NEW_DEVICE":"Añadir sensor",
 			"EXISTING_DEVICE":"Mover sensor",
             "BEECOUNTED":"BeeCounted",
-            "MOVE":"Desplazar colmena"
+            "MOVE":"Desplazar Colmena"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Editar {{value}}",

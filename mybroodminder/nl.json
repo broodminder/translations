@@ -60,7 +60,7 @@
       "NEW_DEVICE": "Nieuwe sensor toevoegen",
       "EXISTING_DEVICE": "Bestaande sensor toevoegen",
       "BEECOUNTED": "BeeCounted",
-      "MOVE":"Move Hive"
+      "MOVE":"Bijenkorf verplaatsen"
     },
     "DEVICE_CONTEXT": {
       "EDIT": "Bewerk {{value}}",

@@ -60,7 +60,7 @@
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer capteur",
             "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Déplacer ruche"
+            "MOVE": "Déplacer la Ruche"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
@@ -924,7 +924,7 @@
             "SUB_EXPIRED":"Expire le {{expiration}}",
             "SUB_EXPIRING":"Expire le {{expiration}}",
             "CREDIT_CANCELLED":"Annulé, expire le {{expiration}}",
-            "CREDIT_FREE_RENEWING":"Loisir, expire le {{expiration}}",
+            "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
             "CREDIT_EXPIRED":"Expiré le{{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
             "PENDING":"En attente de paiement"
