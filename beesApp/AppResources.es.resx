@@ -13,25 +13,25 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="TAB_DEVICES">
-		<value>Devices</value>
+		<value>Sensores</value>
 	</data>
 	<data name="TAB_APIARIES">
-		<value>Apiaries</value>
+		<value>Colmenares</value>
 	</data>
 	<data name="TAB_HELP">
-		<value>Help</value>
+		<value>Ayuda</value>
 	</data>
 	<data name="TAB_SETTINGS">
-		<value>Settings</value>
+		<value>Configurar</value>
 	</data>
 	<data name="COMMON_APIARY">
-		<value>Apiary</value>
+		<value>Colmenar</value>
 	</data>
 	<data name="COMMON_HIVE">
-		<value>Hive</value>
+		<value>Colmena</value>
 	</data>
 	<data name="COMMON_DEVICE">
-		<value>Device</value>
+		<value>Sensor</value>
 	</data>
 	<data name="COMMON_HUB">
 		<value>Hub</value>
@@ -40,382 +40,382 @@
 		<value>SubHub</value>
 	</data>
 	<data name="COMMON_CANCEL">
-		<value>Cancel</value>
+		<value>Cancelar</value>
 	</data>
 	<data name="COMMON_OK">
 		<value>Ok</value>
 	</data>
 	<data name="COMMON_SAVE">
-		<value>Save</value>
+		<value>Guardar</value>
 	</data>
 	<data name="COMMON_BACK">
-		<value>Back</value>
+		<value>Atras</value>
 	</data>
 	<data name="COMMON_ERROR">
 		<value>Error</value>
 	</data>
 	<data name="COMMON_LOADING">
-		<value>Loading</value>
+		<value>Cargando</value>
 	</data>
 	<data name="COMMON_TEMPERATURE">
-		<value>Temperature</value>
+		<value>Temperatura</value>
 	</data>
 	<data name="COMMON_HUMIDITY">
-		<value>Humidity</value>
+		<value>Humedad</value>
 	</data>
 	<data name="COMMON_WEIGHT">
-		<value>Weight</value>
+		<value>Peso</value>
 	</data>
 	<data name="COMMON_BATTERY">
-		<value>Battery</value>
+		<value>Bateria</value>
 	</data>
 	<data name="COMMON_ALL">
-		<value>All</value>
+		<value>Todo</value>
 	</data>
 	<data name="COMMON_MODEL">
-		<value>Model</value>
+		<value>Modelo</value>
 	</data>
 	<data name="COMMON_WORKINGOFFLINE">
-		<value>Working Offline</value>
+		<value>Modo Offline</value>
 	</data>
 	<data name="COMMON_COPIED">
-		<value>Copied to Clipboard</value>
+		<value>Copiado en el portapapeles</value>
 	</data>
 	<data name="SETTINGS_ACCOUNT">
-		<value>Account</value>
+		<value>Cuenta</value>
 	</data>
 	<data name="SETTINGS_USER">
-		<value>User</value>
+		<value>Usuario</value>
 	</data>
 	<data name="SETTINGS_PREFERENCES">
-		<value>Preferences</value>
-	</data>
+		<value>Ajustes</value>
+	</data
 	<data name="SETTINGS_TIMEZONE">
-		<value>Timezone</value>
+		<value>Zona Horaria</value>
 	</data>
 	<data name="SETTINGS_UNIT">
-		<value>Unit</value>
+		<value>Unidades</value>
 	</data>
 	<data name="SETTINGS_LANGUAGE">
-		<value>Language</value>
+		<value>Idioma</value>
 	</data>
 	<data name="SETTINGS_APP">
-		<value>App Settings</value>
+		<value>Ajustes de Applicación</value>
 	</data>
 	<data name="SETTINGS_FASTCONNECT">
-		<value>Fast Connect (will shorten battery life)</value>
+		<value>Conexión rápida (acortará la vida útil de la batería)</value>
 	</data>
 	<data name="SETTINGS_LOGIN">
-		<value>Log In</value>
+		<value>Iniciar sesión</value>
 	</data>
 	<data name="SETTINGS_EDITPREF">
-		<value>Edit Preferences</value>
+		<value>Editar Ajustes</value>
 	</data>
 	<data name="SETTINGS_LOGOUT">
-		<value>Log Out</value>
+		<value>Cerrar sesión</value>
 	</data>
 	<data name="SETTINGS_ADVANCED">
-		<value>Advanced</value>
+		<value>Avanzado</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_TITLE">
-		<value>Logging out</value>
+		<value>Saliendo de la cuenta</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_KEEP">
-		<value>Keep all devices</value>
+		<value>Mantener todos los sensores</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_REMOVEALL">
-		<value>Remove all devices</value>
+		<value>Eliminar todos los sensores</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_REMOVEACCOUNT">
-		<value>Remove devices on account {0}</value>
+		<value>Eliminar sensores de la cuenta {0}</value>
 	</data>
 	<data name="SETTINGS_NOACCOUNT">
-		<value>no account attached</value>
+		<value>ninguna cuenta asociada</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TITLE">
-		<value>Edit Preferences</value>
+		<value>Editar Ajustes</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
-		<value>Metric (Celcius/Kilograms)</value>
+		<value>Metrico (Celsius/Kilograms)</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_IMPERIAL">
 		<value>Imperial (Fahrenheit/Pounds)</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TIMEZONE">
-		<value>Select Timezone</value>
+		<value>Seleccionar Zona Horaria</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_UNITS">
-		<value>Select Units</value>
+		<value>Seleccionar Unidades</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_LANGUAGE">
-		<value>Select Language</value>
+		<value>Seleccionar Idioma</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_TITLE">
-		<value>Advanced</value>
+		<value>Avanzado</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES">
-		<value>Remove devices not on my account</value>
+		<value>Eliminar dispositivos que no están en mi cuenta</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB">
-		<value>Delete Database</value>
+		<value>Suprimir base de datos local</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DOWNLOADLOG">
-		<value>Download Debug Log</value>
+		<value>Descargar Debug Log</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_TURNOFFFULLDBL">
-		<value>Turn off full debug logging</value>
+		<value>Desactivar full debug logging</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_MESSAGE">
-		<value>Remove devices not belonging to MyBroodMinder account {0}?</value>
+		<value>Suprimir dispositivos que no pertenecen a la cuenta MyBroodMinder {0}?</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_TITLE">
-		<value>Remove Devices</value>
+		<value>Suprimir Sensores</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_CONFIRM">
-		<value>Yes, Remove Devices</value>
+		<value>Si, Suprimir Sensores</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB_MESSAGE">
-		<value>Are you sure you want to delete all local data?</value>
+		<value>¿Estás seguro de que deseas suprimir todos los datos locales?</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB_TITLE">
-		<value>Delete Data</value>
+		<value>Suprimir Datos</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB_CONFIRM">
-		<value>Yes, Delete Data</value>
+		<value>Si, Suprimir Datos</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DOWNLOADLOG_COMPLETE">
-		<value>Downloaded Debug Log</value>
+		<value>Debug Log Descargado</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DOWNLOADLOG_ERROR">
-		<value>Error Downloading Debug Log</value>
+		<value>Error Descargando Debug Log</value>
 	</data>
 	<data name="APIARIES_SELECT">
-		<value>Select Apiary</value>
+		<value>Seleccionar Colmenar</value>
 	</data>
 	<data name="APIARIES_NONE">
-		<value>No Apiaries Found</value>
+		<value>Ningun Colmenar</value>
 	</data>
 	<data name="APIARIES_TAP1">
-		<value>Tap</value>
+		<value>Tocar</value>
 	</data>
 	<data name="APIARIES_TAP2">
-		<value>on top right to create an apiary</value>
+		<value>en la parte superior derecha para crear un colmenar</value>
 	</data>
 	<data name="APIARIES_NOHIVES">
-		<value>No Hives Found</value>
+		<value>Ninguna Colmena</value>
 	</data>
 	<data name="APIARIES_TAPH1">
-		<value>Tap</value>
+		<value>Tocar</value>
 	</data>
 	<data name="APIARIES_TAPH2">
-		<value>on top right to create a hive</value>
+		<value>en la parte superior derecha para crear una colmena</value>
 	</data>
 	<data name="APIARIES_NODEVICES">
-		<value>No Devices</value>
+		<value>Ningun Sensor</value>
 	</data>
 	<data name="APIARIES_CONTEXT_NEWAPIARY">
-		<value>New Apiary</value>
+		<value>Nuevo Colmenar</value>
 	</data>
 	<data name="APIARIES_CONTEXT_EDITAPIARY">
-		<value>Edit Apiary</value>
+		<value>Editar Colmenar</value>
 	</data>
 	<data name="APIARIES_CONTEXT_NEWHIVE">
-		<value>New Hive</value>
+		<value>Nueva Colmena</value>
 	</data>
 	<data name="HIVE_CONTEXT_SYNC">
-		<value>Sync</value>
+		<value>Sinc</value>
 	</data>
 	<data name="HIVE_CONTEXT_ADDDEVICE">
-		<value>Add Device</value>
+		<value>Nuevo Sensor</value>
 	</data>
 	<data name="HIVE_CONTEXT_MOVEHIVE">
-		<value>Move Hive</value>
+		<value>Desplazar Colmena</value>
 	</data>
 	<data name="HIVE_CONTEXT_EDITHIVE">
-		<value>Edit Hive</value>
+		<value>Editar Colmena</value>
 	</data>
 	<data name="HIVE_CONTEXT_OPEN">
-		<value>Open in Browser</value>
+		<value>Abrir en Navegador</value>
 	</data>
 	<data name="HIVE_CONTEXT_CHART">
-		<value>View Chart</value>
+		<value>Ver Gráfica</value>
 	</data>
 	<data name="HIVE_CONTEXT_ADDNOTE">
-		<value>Add Note</value>
+		<value>Añadir Nota</value>
 	</data>
 	<data name="HIVE_SH_CONTEXT_DETAILS">
-		<value>Show Details</value>
+		<value>Ver Detalles</value>
 	</data>
 	<data name="HIVE_SH_STATUS">
-		<value>Updating in</value>
+		<value>Actualizando en</value>
 	</data>
 	<data name="HIVE_SH_STATUS_SLEEP">
-		<value>Device in deep sleep.</value>
+		<value>Sensor en modo Deep Sleep.</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNC">
-		<value>Sync</value>
+		<value>Sinc</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNCNEXT">
-		<value>Sync Next</value>
+		<value>Sinc Siguiente</value>
 	</data>
 	<data name="DEVICE_CONTEXT_REMOVESYNC">
-		<value>Remove Sync</value>
+		<value>Suprimir Sinc</value>
 	</data>
 	<data name="DEVICE_CONTEXT_CANCEL">
-		<value>Cancel Sync</value>
+		<value>Cancelar Sinc</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDIT">
-		<value>Edit Device</value>
+		<value>Editar Sensor</value>
 	</data>
 	<data name="DEVICE_CONTEXT_MOVE">
-		<value>Move Device</value>
+		<value>Mover Sensor</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DETAILS">
-		<value>Show Details</value>
+		<value>Ver Detalles</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDITLOCATION">
-		<value>Edit Current Location</value>
+		<value>Editar Posición Actual</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE">
-		<value>Delete Device</value>
+		<value>Suprimir Sensor</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE_MESSAGE">
-		<value>Are you sure you want to delete all local data?</value>
+		<value>¿Estás seguro de que deseas eliminar todos los datos locales?</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE_TITLE">
-		<value>Delete Data</value>
+		<value>Suprimir Datos</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE_CONFIRM">
-		<value>Yes, Delete Data</value>
+		<value>Si, Suprimir Datos</value>
 	</data>
 	<data name="DEVICE_CLAIM_MESSAGE">
-		<value>Claiming a device adds it to your MyBroodMinder account and uploads collected sensor readings. Do you wish to claim device {0}?</value>
+		<value>Récuperar un sensor lo agrega a tu cuenta MyBroodMinder y carga las lecturas recopiladas. ¿Deseas récuperar el sensor? {0}?</value>
 	</data>
 	<data name="DEVICE_CLAIM_CONFIRM">
-		<value>Yes, Claim device</value>
+		<value>Si, Récuperar sensor</value>
 	</data>
 	<data name="DEVICE_STATUS_UNAVAILABLE">
-		<value>Unavailable</value>
+		<value>Indisponible</value>
 	</data>
 	<data name="DEVICE_STATUS_NEARBY">
-		<value>Nearby</value>
+		<value>Cercanos</value>
 	</data>
 	<data name="DEVICE_STATUS_WAITING">
-		<value>Waiting</value>
+		<value>Esperando</value>
 	</data>
 	<data name="DEVICE_STATUS_CONNECTING">
-		<value>Connecting</value>
+		<value>Conectando</value>
 	</data>
 	<data name="DEVICE_STATUS_CONNECTED">
-		<value>Connected</value>
+		<value>Conectado</value>
 	</data>
 	<data name="DEVICE_STATUS_BLEERROR">
-		<value>BLE Error</value>
+		<value>Error BLE</value>
 	</data>
 	<data name="DEVICE_STATUS_SYNCERROR">
-		<value>Sync Error</value>
+		<value>Error Sinc</value>
 	</data>
 	<data name="DEVICE_STATUS_NOTFOUND">
-		<value>Not Found</value>
+		<value>No Encontrado</value>
 	</data>
 	<data name="DEVICE_STATUS_CANCELLED">
-		<value>Cancelled</value>
+		<value>Cancelado</value>
 	</data>
 	<data name="DEVICE_STATUS_COMPLETE">
-		<value>Complete</value>
+		<value>Completo</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
-		<value>Cancel sync?</value>
+		<value>Cancelar la sincro?</value>
 	</data>
 	<data name="SYNC_CANCEL_CONFIRM">
-		<value>Yes, Cancel sync</value>
+		<value>Si, Cancelar la sincro</value>
 	</data>
 	<data name="SYNC_CANCEL_NO">
-		<value>No, Continue sync</value>
+		<value>No, Continuar la sincro</value>
 	</data>
 	<data name="SYNC">
-		<value>Sync</value>
+		<value>Sincro</value>
 	</data>
 	<data name="SYNCING">
-		<value>Syncing</value>
+		<value>Sincronizando</value>
 	</data>
 	<data name="SYNC_NONE">
-		<value>No Apiary Selected</value>
+		<value>Ningun Colmenar Seleccionado</value>
 	</data>
 	<data name="SYNC_NONE_SELECT">
-		<value>Select Apiary above, then retry sync.</value>
+		<value>Selecciona Colmenar arriba y vuelve a intentar la sincro.</value>
 	</data>
 	<data name="SYNC_INPROGRESS">
-		<value>Apiary Sync Already in Progress</value>
+		<value>Sincronización de colmenar en curso</value>
 	</data>
 	<data name="SYNC_INPROGRESS_CANCEL">
-		<value>Cancel Current Sync</value>
+		<value>Cancelar Syncro Actual</value>
 	</data>
 	<data name="SYNC_INPROGRESS_DISMISS">
-		<value>Dismiss</value>
+		<value>Abandonar</value>
 	</data>
 	<data name="SYNC_STATUS">
-		<value>Sync Status</value>
+		<value>Status de la Sincro</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETED">
-		<value>Completed</value>
+		<value>Completado</value>
 	</data>
 	<data name="SYNC_STATUS_DEVNOT">
-		<value>{0} devices not synced</value>
+		<value>{0} sensores sin sincronizar</value>
 	</data>
 	<data name="SYNC_STATUS_DEVCOMP">
-		<value>{0} devices completed</value>
+		<value>{0} sensores completados</value>
 	</data>
 	<data name="SYNC_STATUS_DEVCONN">
-		<value>{0} devices connected</value>
+		<value>{0} sensores conectados</value>
 	</data>
 	<data name="SYNC_STATUS_DEVWAIT">
-		<value>{0} devices waiting</value>
+		<value>{0} sensores en espera</value>
 	</data>
 	<data name="SYNC_STATUS_CANCELALL">
-		<value>Cancel All</value>
+		<value>Cancelar Todo</value>
 	</data>
 	<data name="SYNC_STATUS_CANCELLED">
-		<value>Cancelled</value>
+		<value>Cancelado</value>
 	</data>
 	<data name="SYNC_STATUS_INPROGRESS">
-		<value>In Progress</value>
+		<value>En Curso</value>
 	</data>
 	<data name="SYNC_STATUS_DEVNOTFOUND">
-		<value>Device not found</value>
+		<value>Sensor inexistente</value>
 	</data>
 	<data name="SYNC_STATUS_ERRORCONNECTING">
-		<value>Error connecting</value>
+		<value>Error conectando</value>
 	</data>
 	<data name="SYNC_STATUS_ERRORSYNCING">
-		<value>Error syncing</value>
+		<value>Error sincronizando</value>
 	</data>
 	<data name="SYNC_STATUS_ERRORRETRY">
-		<value>Errored, awaiting retry</value>
+		<value>Erroneo, esperando nueva tentativa</value>
 	</data>
 	<data name="SYNC_STATUS_WAITING">
-		<value>Waiting</value>
+		<value>Esperando</value>
 	</data>
 	<data name="SYNC_STATUS_UPLOADING">
-		<value>Sync complete, uploading</value>
+		<value>Sincro completa, subiendo</value>
 	</data>
 	<data name="SYNC_STATUS_SAVING">
-		<value>Completed, saving/uploading data</value>
+		<value>Completo, guardando/subiendo datos</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDLOCAL">
-		<value>Completed, saved {0} readings locally</value>
+		<value>Completo, {0} datos guardados localmente</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDUPLOADED">
-		<value>Completed, saved and uploaded {0} readings</value>
+		<value>Completo, {0} datos guardados y subidos</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDOFFLINE">
-		<value>Completed, saved {0} readings to retry upload when back online</value>
+		<value>Completo, {0} datos para cargar cuando vuelva a estar online</value>
 	</data>
 	<data name="NO_BLUETOOTH">
-		<value>Bluetooth off, app may not work as expected</value>
+		<value>Bluetooth apagado, es posible que la aplicación no funcione</value>
 	</data>
 	<data name="NO_NETWORK">
-		<value>No network connection</value>
+		<value>Sin conexion a la red</value>
 	</data>
 	<data name="TIMESPAN_24H">
 		<value>24h</value>
@@ -436,247 +436,247 @@
 		<value>6m</value>
 	</data>
 	<data name="TIMESPAN_1Y">
-		<value>1y</value>
+		<value>1a</value>
 	</data>
 	<data name="APIARY_CREATE_TITLE">
-		<value>Create Apiary</value>
+		<value>Crear Colmenar</value>
 	</data>
 	<data name="APIARY_EDIT_TITLE">
-		<value>Edit {0}</value>
+		<value>Editar {0}</value>
 	</data>
 	<data name="APIARY_CREATE_NAME">
-		<value>Name</value>
+		<value>Nombre</value>
 	</data>
 	<data name="APIARY_CREATE_NAMEREQUIRED">
-		<value>*Name is required</value>
+		<value>*Entrar un Nombre</value>
 	</data>
 	<data name="APIARY_CREATE_POSTAL">
-		<value>Postal Code</value>
+		<value>Código Postal</value>
 	</data>
 	<data name="APIARY_CREATE_POSTALREQUIRED">
-		<value>*Postal Code is required</value>
+		<value>*Entrar un código Postal</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRY">
-		<value>Country Code</value>
+		<value>Código País</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRYSELECT">
-		<value>Select Country</value>
+		<value>Selecciona País</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRYREQUIRED">
-		<value>*Country is required</value>
+		<value>*Entrar País</value>
 	</data>
 	<data name="APIARY_CREATE_CREATED">
-		<value>Apiary created</value>
+		<value>Colmenar creado</value>
 	</data>
 	<data name="APIARY_CREATE_ERROR">
-		<value>Apiary not created</value>
+		<value>Colmenar no se pudo crear</value>
 	</data>
 	<data name="APIARY_EDIT_UPDATED">
-		<value>Apiary updated</value>
+		<value>Colmenar actualizado</value>
 	</data>
 	<data name="APIARY_EDIT_ERROR">
-		<value>Apiary not updated</value>
+		<value>Colmenar no se pudo actualizar</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
-		<value>Move Hive</value>
+		<value>Desplazar Colmena</value>
 	</data>
 	<data name="MOVE_HIVE_MOVED">
-		<value>Hive moved</value>
+		<value>Colmena desplazada</value>
 	</data>
 	<data name="MOVE_HIVE_ERROR">
-		<value>Error, hive not moved</value>
+		<value>Error, la colmena no se ha podido desplazar</value>
 	</data>
 	<data name="MOVE_HIVE_TIMEERROR">
-		<value>Start time before current location start</value>
+		<value>La hora de inicio es anterior a la de la ubicación actual</value>
 	</data>
 	<data name="MOVE_HIVE_APIARYERROR">
-		<value>*Apiary is required</value>
+		<value>*Entrar Colmenar</value>
 	</data>
 	<data name="MOVE_HIVE_START">
-		<value>Starting</value>
+		<value>Inicio</value>
 	</data>
 	<data name="MOVE_HIVE_MOVE">
-		<value>Move</value>
+		<value>Mover</value>
 	</data>
 	<data name="ADD_DEVICE_TITLE">
-		<value>Add Device to {0}</value>
+		<value>Añadir Sensor a {0}</value>
 	</data>
 	<data name="ADD_DEVICE_TITLENONE">
-		<value>Add Device</value>
+		<value>Añadir Sensor</value>
 	</data>
 	<data name="ADD_DEVICE_SUCCESS">
-		<value>Device moved</value>
+		<value>Sensor desplazado</value>
 	</data>
 	<data name="ADD_DEVICE_ERROR">
-		<value>Error, device not moved</value>
+		<value>Error, el sensor no se ha podido desplazar</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTDEVICE">
-		<value>Select Device</value>
+		<value>Seleccionar Sensor</value>
 	</data>
 	<data name="ADD_DEVICE_DEVICEREQUIRED">
-		<value>*Device is required</value>
+		<value>*Entrar Sensor</value>
 	</data>
 	<data name="ADD_DEVICE_REMOVEHIVE">
-		<value>Remove from hive</value>
+		<value>Suprimir de la colmena</value>
 	</data>
 	<data name="ADD_DEVICE_END">
-		<value>End</value>
+		<value>Fin</value>
 	</data>
 	<data name="ADD_DEVICE_MOVEHIVE">
-		<value>Move to another hive</value>
+		<value>Mover hacia otra colmena</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTHIVE">
-		<value>Select Hive</value>
+		<value>Seleccionar Colmena</value>
 	</data>
 	<data name="ADD_DEVICE_HIVEERROR">
-		<value>*Hive is required</value>
+		<value>*Entrar colmena</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Location</value>
+		<value>Localización</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
-		<value>Select Position</value>
+		<value>Seleccionar Posición</value>
 	</data>
 	<data name="ADD_DEVICE_POSITIONERROR">
-		<value>*Position is required</value>
+		<value>*Entrar Posición</value>
 	</data>
 	<data name="ADD_DEVICE_START">
-		<value>Start</value>
+		<value>Inicio</value>
 	</data>
 	<data name="ADD_DEVICE_ADD">
-		<value>Add</value>
+		<value>Añadir</value>
 	</data>
 	<data name="CLAIM_DEVICE_EDIT">
-		<value>Edit Device</value>
+		<value>Editar Sensor</value>
 	</data>
 	<data name="CLAIM_DEVICE_ADD">
-		<value>Add Device</value>
+		<value>Añadir Sensor</value>
 	</data>
 	<data name="CLAIM_DEVICE_CLAIM">
-		<value>Claim</value>
+		<value>Récupérar</value>
 	</data>
 	<data name="CLAIM_DEVICE_OWNED">
-		<value>Cannot add this device. It is owned by another user account.</value>
+		<value>No se puede agregar este dispositivo. Pertenece a otro usuario.</value>
 	</data>
 	<data name="CLAIM_DEVICE_EDIT_SUCCESS">
-		<value>Device updated</value>
+		<value>Sensor actualizado</value>
 	</data>
 	<data name="CLAIM_DEVICE_EDIT_ERROR">
-		<value>Error, device not updated</value>
+		<value>Error, el sensor no se pudo actualizar</value>
 	</data>
 	<data name="CLAIM_DEVICE_ADD_SUCCESS">
-		<value>Device claimed</value>
+		<value>Recuperar Sensor</value>
 	</data>
 	<data name="CLAIM_DEVICE_ADD_ERROR">
-		<value>Error, device not claimed</value>
+		<value>Error, el sensor no se pudo recuperar</value>
 	</data>
 	<data name="CLAIM_DEVICE_NAME">
-		<value>Name</value>
+		<value>Nombre</value>
 	</data>
 	<data name="CLAIM_DEVICE_NAMEERROR">
-		<value>*Name is required</value>
+		<value>*Entrar Nombre</value>
 	</data>
 	<data name="DEVICE_DEBUGLOG_TITLE">
 		<value>Debug Log</value>
 	</data>
 	<data name="DEVICE_DEBUGLOG_NONE">
-		<value>No logs for device</value>
+		<value>No hay logs para el sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_REALTIME">
-		<value>View Realtime</value>
+		<value>Ver en Tiempo Real</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_SETRATE">
-		<value>Set Rate</value>
+		<value>Ajustar frecuencia</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
-		<value>Clear Device Log</value>
+		<value>Vaciar el Log del Sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_TROUBLE">
-		<value>Troubleshooting</value>
+		<value>Solucionar problemas</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
-		<value>Delete Local Data</value>
+		<value>Eliminar Datos Locales</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_EVENT">
-		<value>Event</value>
+		<value>Evento</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_UPDATE">
-		<value>Update</value>
+		<value>Actualizar</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_UPLOAD">
-		<value>Upload Data</value>
+		<value>Subir Datos</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_TE">
-		<value>Temperature Event:</value>
+		<value>Evento de Temperatura:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_BS">
-		<value>Bluetooth Signal:</value>
+		<value>Señal Bluetooth:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_B">
-		<value>Battery:</value>
+		<value>Batería:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_M">
-		<value>Model:</value>
+		<value>Modelo:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_FW">
 		<value>Firmware:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_SC">
-		<value>Sample Count:</value>
+		<value>N° de datos:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_NR">
-		<value>New Readings:</value>
+		<value>Nuevos datos:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMU">
-		<value>Last MBM Upload:</value>
+		<value>Ultima conexión a MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMS">
-		<value>Last MBM Sample:</value>
+		<value>Ultimo dato en MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LR">
-		<value>Latest Readings:</value>
+		<value>Ultimos Datos:</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_SYNC">
-		<value>Sync {0} new readings, then update firmware</value>
+		<value>Sincro. {0} nuevos datos antes de actualizar firmware</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_NOSYNC">
-		<value>Update firmware without sync (lose {0} readings)</value>
+		<value>Actualizar firmware sin sincronizar (perder {0} datos)</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_TITLE">
-		<value>Upgrade Firmware</value>
+		<value>Actualizar Firmware</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_DEBUGLOG">
-		<value>View Debug Log</value>
+		<value>Ver Debug Log</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_READINGS">
-		<value>View Readings</value>
+		<value>Ver Datos</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOAD_ERROR">
-		<value>Device Offline, not uploaded</value>
+		<value>Sensor Offline, no se pudo cargar</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S1">
-		<value>Read live data</value>
+		<value>Ver datos en tiempo real</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CONNECTING">
-		<value>Connecting to device</value>
+		<value>Connectando al sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S2">
-		<value>Error getting live data</value>
+		<value>Error recuperando datos en tiempo real</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_DISCONNECTING">
-		<value>Disconnecting device</value>
+		<value>Desconectando sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_DISCONNECTED">
-		<value>Device disconnected</value>
+		<value>Sensor desconectado</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_NOTFOUND">
-		<value>Device not found</value>
+		<value>No se encontró el sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_PACKET">
-		<value>Live Data: Sample: {0} Bat:{1} Temp: {2} Humid: {3} Weight: {4}</value>
+		<value>Live Data: Sample: {0} Bat:{1} Temp: {2} Humid: {3} Peso: {4}</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_STOP">
-		<value>Stop Realtime</value>
+		<value>Detener Realtime</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S3">
 		<value>Setting time</value>
@@ -685,85 +685,85 @@
 		<value>Error setting time</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE15">
-		<value>15 Minutes</value>
+		<value>15 Minutos</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE1">
-		<value>1 Hour</value>
+		<value>1 Hora</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_SETTINGRATE">
-		<value>Setting Rate to {0} minutes</value>
+		<value>Ajustar frecuencia a {0} minutos</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATEERROR">
-		<value>Error setting rate</value>
+		<value>Error ajustando frecuencia</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATESET">
-		<value>Rate set to {0} minutes</value>
+		<value>Frecuencia de {0} minutos</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG">
-		<value>Clear Sensor Log</value>
+		<value>Vaciar Log del Sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_MESSAGE">
-		<value>Are you sure you want to delete all sensor data? Ensure you have downloaded all data.</value>
+		<value>¿Estás seguro de que deseas eliminar todos los datos del sensor? Asegúrate de haber descargado todos los datos.</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_CONFIRM">
-		<value>Yes, Device Clear log</value>
+		<value>Si, Vaciar log del sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_S1">
-		<value>Clearing device log</value>
+		<value>Vaciando log del sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_ERROR">
-		<value>Error clearing flash</value>
+		<value>Error vaciando flash</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
-		<value>Device log cleared</value>
+		<value>Log del sensor vaciado</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
-		<value>Temperature Event</value>
+		<value>Evento de Temperatura</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_RX">
 		<value>RX</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_MESSAGE">
-		<value>Are you sure you want to delete all local data?</value>
+		<value>¿Está seguro de que desea eliminar todos los datos locales?</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE">
-		<value>Delete Data</value>
+		<value>Vaciar Datos</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_CONFIRM">
-		<value>Yes, Delete Data</value>
+		<value>Si, Vaciar Datos</value>
 	</data>
 	<data name="DEVICES_NONE">
-		<value>No Devices Found</value>
+		<value>No se encuentra ningun sensor</value>
 	</data>
 	<data name="DEVICES_PULL">
-		<value>Pull down to refresh</value>
+		<value>deslizar abajo para actualizar</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOT">
 		<value>Troubleshoot</value>
 	</data>
 	<data name="DEVICES_NOTASSIGN">
-		<value>« Not assigned »</value>
+		<value>« Sin asignar »</value>
 	</data>
 	<data name="DEVICES_CLAIM">
-		<value>Claim Device</value>
+		<value>Recuperar Sensor</value>
 	</data>
 	<data name="DEVICES_ANOTHERACCOUNT">
-		<value>Device belongs to another account</value>
+		<value>El sensor pertenece a otro usuario</value>
 	</data>
 	<data name="DEVICES_FIRMWAREERROR">
-		<value>Firmware Update Error, Fix</value>
+		<value>Error al actualizar el Firmware</value>
 	</data>
 	<data name="DEVICES_FILTER_NAME">
-		<value>Name</value>
+		<value>Nombre</value>
 	</data>
 	<data name="DEVICES_FILTER_NEARBY">
-		<value>Nearby</value>
+		<value>Cercanos</value>
 	</data>
 	<data name="DEVICES_FILTER_SCALES">
-		<value>Scales</value>
+		<value>Básculas</value>
 	</data>
 	<data name="DEVICES_FILTER_TH">
-		<value>Temp/Humidity</value>
+		<value>Temp/Humedad</value>
 	</data>
 	<data name="DEVICES_FILTER_HUB">
 		<value>Hubs</value>
@@ -772,130 +772,130 @@
 		<value>SubHubs</value>
 	</data>
 	<data name="DEVICES_FILTER_LOWBATTERY">
-		<value>Low Battery</value>
+		<value>Batería baja</value>
 	</data>
 	<data name="DEVICES_FILTER_APIARY">
-		<value>Apiary</value>
+		<value>Colmenar</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOTING">
 		<value>Troubleshooting</value>
 	</data>
 	<data name="DEVICES_T1">
-		<value>Ensure your devices are on and near your phone</value>
+		<value>Asegúrate de que el sensor esté encendidos y cerca de tu teléfono</value>
 	</data>
 	<data name="DEVICES_T2">
-		<value>Check that bluetooth is enabled</value>
+		<value>Vérifica que el bluetooth esté activado</value>
 	</data>
 	<data name="DEVICES_T3">
-		<value>Still no devices?</value>
+		<value>Todavía sin sensores?</value>
 	</data>
 	<data name="DEVICES_T4">
-		<value>Toggle your phone's airplane mode to refresh bluetooth services.</value>
+		<value>Alternar el modo avión de su teléfono para actualizar los servicios bluetooth</value>
 	</data>
 	<data name="DEVICES_FILTERDEV">
-		<value>Filter Devices on</value>
+		<value>Filtro de Sensores activo</value>
 	</data>
 	<data name="DEVICES_FILTERNAME">
-		<value>Filter on Name</value>
+		<value>Filtrar por Nombre</value>
 	</data>
 	<data name="DEVICES_FILTERNAMETEXT">
-		<value>Enter full or partial device name or id</value>
+		<value>Nombre o identificación completa o parcial del dispositivo</value>
 	</data>
 	<data name="EDITLOCATION_LOCATION">
-		<value>Location</value>
+		<value>Ubicación</value>
 	</data>
 	<data name="EDITLOCATION_SELECT">
-		<value>Select Postition</value>
+		<value>Selecciona Posición</value>
 	</data>
 	<data name="EDITLOCATION_REQ">
-		<value>*Position is required</value>
+		<value>*Entrar una Posición</value>
 	</data>
 	<data name="EDITLOCATION_START">
-		<value>Start</value>
+		<value>Inicio</value>
 	</data>
 	<data name="EDITLOCATION_ENDLOCATION">
-		<value>End Location</value>
+		<value>Fin de la Ubicación</value>
 	</data>
 	<data name="EDITLOCATION_END">
-		<value>End</value>
+		<value>Fin</value>
 	</data>
 	<data name="EDITLOCATION_TITLE">
-		<value>Edit Device Location</value>
+		<value>Editar Ubicación del sensor</value>
 	</data>
 	<data name="EDITLOCATION_ERROR">
-		<value>Error, no current location to edit</value>
+		<value>Error, no hay ubicación</value>
 	</data>
 	<data name="EDITLOCATION_MOVED">
-		<value>Device moved</value>
+		<value>Sensor desplazado</value>
 	</data>
 	<data name="EDITLOCATION_NOTMOVED">
-		<value>Error, device not moved</value>
+		<value>Error, el sensor no se ha podido desplazar</value>
 	</data>
 	<data name="EDITLOCATION_ERRORTIME">
-		<value>End time must be after start time.</value>
+		<value>La fecha de fin debe ser posterior a la de inicio.</value>
 	</data>
 	<data name="MOVEDEVICE_FROM">
-		<value>Remove from</value>
+		<value>Suprimir de</value>
 	</data>
 	<data name="MOVEDEVICE_MOVE">
-		<value>Move to another hive</value>
+		<value>Mover hacia otra colmena</value>
 	</data>
 	<data name="FIRMWARE_CONNSTAT">
-		<value>Connection Status: </value>
+		<value>Conexion: </value>
 	</data>
 	<data name="FIRMWARE_PROG">
-		<value>Firmware Update Progress: </value>
+		<value>Actualización del Firmware: </value>
 	</data>
 	<data name="FIRMWARE_BACK">
-		<value>Firmware update in progress. You must remain here for it to complete. Going back cancels the update and is not recommended.</value>
+		<value>Actualización de firmware en curso. Debes permanecer a proximidad para que se complete. Atras cancela la actualización (no se recomienda).</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL">
-		<value>Cancel Update?</value>
+		<value>Cancelar Actualización?</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL_CONFIRM">
-		<value>Yes, Cancel Update</value>
+		<value>Si, Cancelar Actualización</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL_CANCEL">
-		<value>No, Continue Update</value>
+		<value>No, Continuar Actualización</value>
 	</data>
 	<data name="FIRMWARE_RETRIEVEDCOUNT">
-		<value>Retrieved {0} readings</value>
+		<value>Se han recuperado {0} datos</value>
 	</data>
 	<data name="FIRMWARE_RETRIEVEDALL">
-		<value>Retrieved All</value>
+		<value>Recuperar Todo</value>
 	</data>
 	<data name="FIRMWARE_SYNCCOMP">
-		<value>Sync Complete</value>
+		<value>Sincro Completa</value>
 	</data>
 	<data name="FIRMWARE_SYNCFAILED">
-		<value>Sync Failed</value>
+		<value>Sincro Fallida</value>
 	</data>
 	<data name="FIRMWARE_CANCELLED">
-		<value>Firmware update cancelled</value>
+		<value>Actualización del firmware cancelada</value>
 	</data>
 	<data name="FIRMWARE_CONNECTED">
-		<value>Connected to device</value>
+		<value>Connectado al sensor</value>
 	</data>
 	<data name="FIRMWARE_NOTSTART">
-		<value>Could not start update</value>
+		<value>No se pudo iniciar la actualización</value>
 	</data>
 	<data name="FIRMWARE_SUCCESS">
-		<value>Firmware update successful</value>
+		<value>Firmware actualizado</value>
 	</data>
 	<data name="FIRMWARE_COMPLETE">
-		<value>Completed Successfully</value>
+		<value>Completado con Exito</value>
 	</data>
 	<data name="FIRMWARE_UNSUCCESS">
-		<value>Completed Unsuccessfully</value>
+		<value>No se ha podido Completar</value>
 	</data>
 	<data name="READINGSCSV_TITLE">
 		<value>CSV</value>
 	</data>
 	<data name="READINGSCSV_ADDR">
-		<value>Address</value>
+		<value>Dirección</value>
 	</data>
 	<data name="READINGSCSV_MODEL">
-		<value>Model</value>
+		<value>Modelo</value>
 	</data>
 	<data name="READINGSCSV_TIME">
 		<value>Unix_Time</value>
@@ -925,52 +925,52 @@
 		<value>readings</value>
 	</data>
 	<data name="READINGSCSV_SAVED">
-		<value>File Saved</value>
+		<value>Archivo Guardado</value>
 	</data>
 	<data name="SUBHUBDETAIL_OTA">
-		<value>OTA Error, Retry</value>
+		<value>Error OTA, Reintentar</value>
 	</data>
 	<data name="SUBHUBDETAIL_SHOW">
-		<value>Show All Devices</value>
+		<value>Mostrar todos los Dispositivos</value>
 	</data>
 	<data name="SUBHUBDETAIL_UPDATE">
-		<value>Update</value>
+		<value>Actualizar</value>
 	</data>
 	<data name="SUBHUBDETAIL_UPLOAD">
-		<value>Upload Data</value>
+		<value>Cargar Datos</value>
 	</data>
 	<data name="SUBHUBDETAIL_CONTEXT_DELETECSV">
-		<value>Delete Subhub csvs</value>
+		<value>Vaciar csvs del Subhub</value>
 	</data>
 	<data name="SUBHUBDETAIL_CONTEXT_SYNCFULL">
-		<value>Sync Full SubHub Log</value>
+		<value>Sincro integral del SubHub Log</value>
 	</data>
 	<data name="SUBHUBDETAIL_SYNCSINCE">
-		<value>Sync All Devices Since {0}</value>
+		<value>Sincro todos los sensores desde {0}</value>
 	</data>
 	<data name="SUBHUBDETAIL_SYNCALL">
-		<value>Sync All Devices</value>
+		<value>Sincro Todos los Sensores</value>
 	</data>
 	<data name="SUBHUBDETAIL_SCANERROR">
-		<value>Firmware version 3.22 or greater is required for this feature.</value>
+		<value>Se requiere la versión de firmware 3.22 o superior para esta función.</value>
 	</data>
 	<data name="SUBHUBDETAIL_SCANUNAVAILABLE">
-		<value>Feature Unavailable</value>
+		<value>Funcion Indisponible</value>
 	</data>
 	<data name="SUBHUBDETAIL_OFFLINE">
-		<value>Device Offline, not uploaded</value>
+		<value>Dispositivo sin conexión, no cargado</value>
 	</data>
 	<data name="SUBHUBDETAIL_NOTRANGE">
-		<value>Device not in range</value>
+		<value>Dispositivo fuera del alcance</value>
 	</data>
 	<data name="SUBHUBDETAIL_FIRMWARE_NOSYNC">
-		<value>Update firmware without sync (lose subhub log since last sync)</value>
+		<value>Actualizar el firmware sin sincro. (pierda el registro del subhub desde la última sincro.)</value>
 	</data>
 	<data name="SUBHUBREADINGS_SAVE">
-		<value>Save and upload selected items</value>
+		<value>Guardar y cargar elementos seleccionados</value>
 	</data>
 	<data name="SUBHUBREADINGS_DONE">
-		<value>Done</value>
+		<value>Hecho</value>
 	</data>
 	<data name="SUBHUBREADINGS_BACK">
 		<value>Device log read is not complete. If you leave now, you will need to start over to collect data.</value>

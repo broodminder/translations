@@ -154,7 +154,7 @@
 		<value>Avancé</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES">
-		<value>Supprimer les capteurs pas sur mon compte </value>
+		<value>Supprimer les capteurs non associés à mon compte </value>
 	</data>
 	<data name="SETTINGS_ADVANCED_DELETEDB">
 		<value>Supprimer la base de données</value>
@@ -322,7 +322,7 @@
 		<value>Annulé</value>
 	</data>
 	<data name="DEVICE_STATUS_COMPLETE">
-		<value>Terminer</value>
+		<value>Terminé</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
 		<value>Annuler synchronisation ?</value>
@@ -586,7 +586,7 @@
 		<value>Vue en temps réel</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_SETRATE">
-		<value>Set Rate</value>
+		<value>Définir Fréquence</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
 		<value>Nettoyer le journal de débogage</value>
@@ -712,7 +712,7 @@
 		<value>Nettoyage du journal de données du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_ERROR">
-		<value>Erreur nettoyage flash</value>
+		<value>Erreur en effaçant flash</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
 		<value>Journal de données du capteur nettoyé</value>
@@ -919,7 +919,7 @@
 		<value>FacteurMultiplicatifBalance</value>
 	</data>
 	<data name="READINGSCSV_SS">
-		<value>État essaimage</value>
+		<value>Code état essaimage</value>
 	</data>
 	<data name="READINGSCSV_NAME">
 		<value>mesures</value>

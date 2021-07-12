@@ -136,7 +136,7 @@
 		<value>Edit Preferences</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
-		<value>Metric (Celcius/Kilograms)</value>
+		<value>Metric (Celsius/Kilograms)</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_IMPERIAL">
 		<value>Imperial (Fahrenheit/Pounds)</value>
@@ -805,7 +805,7 @@
 		<value>Location</value>
 	</data>
 	<data name="EDITLOCATION_SELECT">
-		<value>Select Postition</value>
+		<value>Select Position</value>
 	</data>
 	<data name="EDITLOCATION_REQ">
 		<value>*Position is required</value>
