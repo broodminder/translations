@@ -973,235 +973,235 @@
 		<value>Hecho</value>
 	</data>
 	<data name="SUBHUBREADINGS_BACK">
-		<value>Device log read is not complete. If you leave now, you will need to start over to collect data.</value>
+		<value>La lectura del registro del dispositivo no está completa. Si abandonas, deberás comenzar de nuevo a cargar datos.</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVE">
-		<value>Data has not been saved. If you leave now, you will need to re-read the subhub log.</value>
+		<value>No se han guardado los datos. Si abandonas, deberás volver a leer el registro del subhub.</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVEQUESTION">
-		<value>Leave Page?</value>
+		<value>Abandonar la pagina?</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVEONFIRM">
-		<value>Yes, leave page</value>
+		<value>Si, abandonar pagina</value>
 	</data>
 	<data name="SUBHUBREADINGS_LEAVECANCEL">
-		<value>No, stay here.</value>
+		<value>No, permanecer aquí.</value>
 	</data>
 	<data name="SUBHUBREADINGS_SAVELOCAL">
-		<value>Saving locally</value>
+		<value>Guardando localmente</value>
 	</data>
 	<data name="SUBHUBREADINGS_SAVEWEB">
-		<value>Saving to MyBroodMinder.com</value>
+		<value>Guardando en MyBroodMinder.com</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARY">
-		<value>Completed</value>
+		<value>Completado</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARYSAVED">
-		<value>Saved {0} readings from {1} devices</value>
+		<value>{0} datos guardados de {1} sensor</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARYIGNORED">
-		<value>Ignored {0} readings from {1} devices</value>
+		<value>{0} datos ignorados de {1} sensor</value>
 	</data>
 	<data name="SUBHUBREADINGS_SUMMARYERROR">
-		<value>Errored {0} readings from {1} devices</value>
+		<value>{0} datos erronéos de {1} sensor</value>
 	</data>
 	<data name="SUBHUBREADINGS_READINGCOUNT">
-		<value>Readings</value>
+		<value>Datos</value>
 	</data>
 	<data name="SUBHUBREADINGS_DEVNOTOWNER">
-		<value>Device belongs to another account, data will be local only</value>
+		<value>El dispositivo pertenece a otra cuenta, los datos serán solo locales</value>
 	</data>
 	<data name="SUBHUBREADINGS_DEVNOTMBM">
-		<value>Device not claimed, data will be local only</value>
+		<value>Dispositivo sin afectar, los datos serán solo locales</value>
 	</data>
 	<data name="SUBHUBREADINGS_DEVNOTEXIST">
-		<value>Device does not exist, data will not be saved</value>
+		<value>El dispositivo no existe, los datos no se guardarán</value>
 	</data>
 	<data name="SUBHUBSCAN_BMONLY">
-		<value>BroodMinder Devices Only</value>
+		<value>Solo dispositivos BroodMinder</value>
 	</data>
 	<data name="SUBHUBSCAN_SIGNAL">
-		<value>Signal</value>
+		<value>Señal</value>
 	</data>
 	<data name="SUBHUBSCAN_DEVICE">
-		<value>Device</value>
+		<value>Sensor</value>
 	</data>
 	<data name="SUBHUBSCAN_TIME">
 		<value>Timestamp</value>
 	</data>
 	<data name="SUBHUBSCAN_STOP">
-		<value>Stop Scanning</value>
+		<value>Detener Exploración</value>
 	</data>
 	<data name="SUBHUBSCAN_START">
-		<value>Start Scanning</value>
+		<value>Iniciar Exploración</value>
 	</data>
 	<data name="HELP_GUIDES">
-		<value>Guides</value>
+		<value>Guías</value>
 	</data>
 	<data name="HELP_GUIDES_STARTED">
-		<value>Getting started</value>
+		<value>Empezar con el dispositivo</value>
 	</data>
 	<data name="HELP_GUIDES_USER">
-		<value>User guide</value>
+		<value>Guía del Usuario</value>
 	</data>
 	<data name="HELP_GUIDES_VIDEO">
-		<value>Video guides</value>
+		<value>Guía video</value>
 	</data>
 	<data name="HELP_SUPPORT">
-		<value>Support</value>
+		<value>Soporte</value>
 	</data>
 	<data name="HELP_SUPPORT_QUESTION">
-		<value>Send us your question</value>
+		<value>Mándanos tu pregunta</value>
 	</data>
 	<data name="HELP_SUPPORT_TO">
-		<value>To: support@broodminder.com</value>
+		<value>A: support@broodminder.com</value>
 	</data>
 	<data name="HELP_SUPPORT_FROM">
-		<value>From: </value>
+		<value>De: </value>
 	</data>
 	<data name="HELP_SUPPORT_ENTRY">
-		<value>Enter question/feedback here.</value>
+		<value>Escribe tu pregunta / comentario aquí.</value>
 	</data>
 	<data name="HELP_SUPPORT_SEND">
-		<value>Send</value>
+		<value>Enviar</value>
 	</data>
 	<data name="HELP_VERSION">
-		<value>App Version</value>
+		<value>Version del App</value>
 	</data>
 	<data name="HELP_LOGGING">
-		<value>Full debug logging enabled</value>
+		<value>Debug Log activado</value>
 	</data>
 	<data name="HELP_FROMERR">
-		<value>From field required</value>
+		<value>Introduce Remitente</value>
 	</data>
 	<data name="HELP_EMPTYERR">
-		<value>Cannot leave feedback empty.</value>
+		<value>Introduce comentario.</value>
 	</data>
 	<data name="HELP_SENDQUESTION">
-		<value>Send this message to BroodMinder support? A response will be sent to {0}.</value>
+		<value>¿Enviar este mensaje al soporte de BroodMinder? Se enviará una respuesta a {0}.</value>
 	</data>
 	<data name="HELP_SENT">
-		<value>Message Sent</value>
+		<value>Mensaje Enviado</value>
 	</data>
 	<data name="HELP_OFFLINE">
-		<value>Error Sending. App Offline</value>
+		<value>Error Enviando. App Offline</value>
 	</data>
 	<data name="HELP_NOTSENT">
-		<value>Error. Message not sent</value>
+		<value>Error. El mensaje no se ha enviado</value>
 	</data>
 	<data name="HELP_NOTALLOWED">
-		<value>Not allowed</value>
+		<value>Prohibido</value>
 	</data>
 	<data name="NOTE_DESCRIPTION">
-		<value>Description</value>
+		<value>Descripción</value>
 	</data>
 	<data name="NOTE_DESCRIPTIONREQ">
-		<value>*Description is required</value>
+		<value>*Entrar Descripción</value>
 	</data>
 	<data name="NOTE_EDIT">
-		<value>Edit note in {0}</value>
+		<value>Editar nota en {0}</value>
 	</data>
 	<data name="NOTE_CREATE">
-		<value>Create note in {0}</value>
+		<value>Crear nota en {0}</value>
 	</data>
 	<data name="NOTE_CREATED">
-		<value>Note created</value>
+		<value>Nota creada</value>
 	</data>
 	<data name="NOTE_NOTCREATED">
-		<value>Note not created</value>
+		<value>La Nota no se ha creado</value>
 	</data>
 	<data name="NOTE_UPDATED">
-		<value>Note Updated</value>
+		<value>Nota Actualizada</value>
 	</data>
 	<data name="NOTE_NOTUPDATED">
-		<value>Note not updated</value>
+		<value>La Nota no se ha actualizado</value>
 	</data>
 	<data name="HIVE_CU_UTITLE">
-		<value>Edit {0}</value>
+		<value>Editar {0}</value>
 	</data>
 	<data name="HIVE_CU_CTITLE">
-		<value>Create Hive in {0}</value>
+		<value>Crear Colmena en {0}</value>
 	</data>
 	<data name="HIVE_CU_CTITLE2">
-		<value>Create Hive</value>
+		<value>Crear Colmena</value>
 	</data>
 	<data name="HIVE_CU_CREATED">
-		<value>Hive created</value>
+		<value>Colmena creada</value>
 	</data>
 	<data name="HIVE_CU_NOTCREATED">
-		<value>Hive not created</value>
+		<value>La Colmena no se pudo crear</value>
 	</data>
 	<data name="HIVE_CU_UPDATED">
-		<value>Hive Updated</value>
+		<value>Colmena actualizada</value>
 	</data>
 	<data name="HIVE_CU_NOTUPDATED">
-		<value>Hive not updated</value>
+		<value>La colmena no se pudo actualizar</value>
 	</data>
 	<data name="HIVEDETAILS_ADDNOTE">
-		<value>Add Note</value>
+		<value>Añadir Nota</value>
 	</data>
 	<data name="FORGOTPASSWORD_TITLE">
-		<value>Forgot Password</value>
+		<value>Password Olvidado</value>
 	</data>
 	<data name="FORGOTPASSWORD_USERNAME">
-		<value>Username</value>
+		<value>Nombre de usuario</value>
 	</data>
 	<data name="FORGOTPASSWORD_SEND">
-		<value>Send Reset Email</value>
+		<value>Enviar Email de reinicialización</value>
 	</data>
 	<data name="FORGOTPASSWORD_NOTFOUND">
-		<value>User not found</value>
+		<value>No se encontró usuario</value>
 	</data>
 	<data name="FORGOTPASSWORD_SENT">
-		<value>Password reset email sent.</value>
+		<value>Email de reinicialización del password enviado.</value>
 	</data>
 	<data name="INITIAL_LOGIN">
 		<value>Login</value>
 	</data>
 	<data name="INITIAL_BASIC">
-		<value>Basic (no account)</value>
+		<value>Básica (sin cuenta)</value>
 	</data>
 	<data name="INITIAL_CREATE">
-		<value>Create account</value>
+		<value>Crear cuenta</value>
 	</data>
 	<data name="INITIAL_REGISTER_TITLE">
-		<value>Welcome!</value>
+		<value>Bienvenido!</value>
 	</data>
 	<data name="INITIAL_REGISTER_1">
-		<value>This is your first time with us.</value>
+		<value>Es tu primera vez con nosotros!</value>
 	</data>
 	<data name="INITIAL_REGISTER_2">
-		<value>One single account manages all</value>
+		<value>Una sola cuenta lo gestiona todo.</value>
 	</data>
 	<data name="INITIAL_REGISTER_3">
-		<value>This App</value>
+		<value>Esta App</value>
 	</data>
 	<data name="INITIAL_REGISTER_CONFIRM">
-		<value>I want to create my account</value>
+		<value>Quiero crear una cuenta</value>
 	</data>
 	<data name="INITIAL_TRYNOW_TITLE">
-		<value>Welcome!</value>
+		<value>Bienvenido!</value>
 	</data>
 	<data name="INITIAL_TRYNOW_1">
-		<value>This is your first time with us.</value>
+		<value>Es tu primera vez con nosotros!</value>
 	</data>
 	<data name="INITIAL_TRYNOW_2">
-		<value>Basic mode allows you to test the app and keep your data local, without uploading to MyBroodMinder.</value>
+		<value>El modo Básico le permite probar la aplicación y mantener tus datos locales, sin subirlos a MyBroodMinder.</value>
 	</data>
 	<data name="INITIAL_TRYNOW_3">
-		<value>Some features are not available without an account.</value>
+		<value>Algunas funciones no están disponibles sin una cuenta.</value>
 	</data>
 	<data name="INITIAL_TRYNOW_CONTINUE">
-		<value>Continue without account</value>
+		<value>Continuar sin cuenta</value>
 	</data>
 	<data name="LOGIN_BADPASSWORD">
-		<value>Incorrect password</value>
+		<value>Password Incorrecto</value>
 	</data>
 	<data name="LOGIN_FAILED">
-		<value>Login failed</value>
+		<value>El Login falló</value>
 	</data>
 	<data name="REGISTER">
-		<value>Register</value>
+		<value>Registrar</value>
 	</data>
 	<data name="REGISTER_EMAIL">
 		<value>Email</value>
@@ -1210,99 +1210,99 @@
 		<value>Password</value>
 	</data>
 	<data name="REGISTER_PASSWORD2">
-		<value>Re-enter Password</value>
+		<value>Vuelve a introducir tu password</value>
 	</data>
 	<data name="REGISTER_EULA1">
 		<value>MyBroodMinder.com EULA (End User License Agreement) v1.1</value>
 	</data>
 	<data name="REGISTER_EULA2">
-		<value>We ask then you agree to the following statements to use this SaaS beekeeping software:</value>
+		<value>Le pedimos que acepte las siguientes declaraciones para utilizar este software de apicultura SaaS:</value>
 	</data>
 	<data name="REGISTER_EULA3">
-		<value>I am placing the data that I upload or enter into this service into the Public Domain. As such, mybroodminder.com may use the data, in anonymous form, to share with the general public.</value>
+		<value>Estoy colocando los datos que subo o ingreso a este servicio en el dominio público. Como tal, mybroodminder.com puede usar los datos, de forma anónima, para compartirlos con el público en general.</value>
 	</data>
 	<data name="REGISTER_EULA4">
-		<value>I understand that mybroodminder.com will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that mybroodminder.com can not be held responsible for hacking or other methods of data exposure.</value>
+		<value>Entiendo que mybroodminder.com hará todo lo posible para no exponer ninguna información de identificación personal (PII) como mi nombre de usuario, contraseña y código postal, pero que mybroodminder.com no se hace responsable de piratería u otros métodos de exposición de datos.</value>
 	</data>
 	<data name="REGISTER_EULA5">
-		<value>I understand that mybroodminder.com will use best efforts to store and backup all data uploaded or entered into it, but that mybroodminder.com can not be held responsible for data loss.</value>
+		<value>Entiendo que mybroodminder.com hará todo lo posible para almacenar y hacer una copia de seguridad de todos los datos cargados o ingresados, pero mybroodminder.com no se hace responsable de la pérdida de datos.</value>
 	</data>
 	<data name="REGISTER_EULA6">
-		<value>I understand that mybroodminder.com is a separate company from other vendors that may integrate their devices into mybroodminder.com, and that mybroodminder.com is not liable for those vendors actions.</value>
+		<value>Entiendo que mybroodminder.com es una empresa separada de otros proveedores que pueden integrar sus dispositivos en mybroodminder.com, y que mybroodminder.com no es responsable de las acciones de esos proveedores.</value>
 	</data>
 	<data name="REGISTER_EULA7">
-		<value>I understand that mybroodminder.com is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of mybroodminder.com.</value>
+		<value>Entiendo que mybroodminder.com es un lugar para que los apicultores y entomólogos intercambien información, y me comportaré de manera cortés en todo momento. Entiendo que no hacerlo puede causar que mi cuenta sea cancelada por la sola digresión del personal de mybroodminder.com.</value>
 	</data>
 	<data name="REGISTER_EULAAGREE">
-		<value>I agree to terms</value>
+		<value>Acepto las condiciones</value>
 	</data>
 	<data name="REGISTER_CREATE">
-		<value>Create Account</value>
+		<value>Crear Cuenta</value>
 	</data>
 	<data name="REGISTER_INVALIDEMAIL">
-		<value>Invalid email</value>
+		<value>Email invalido</value>
 	</data>
 	<data name="REGISTER_PASSWORDMATCH">
-		<value>Passwords do not match</value>
+		<value>Los passwords no corresponden</value>
 	</data>
 	<data name="REGISTER_TERMSERROR">
-		<value>Must agree to terms to create an account</value>
+		<value>Debes aceptar las condiciones</value>
 	</data>
 	<data name="REGISTER_EMAILINVALID">
-		<value>Email address not valid</value>
+		<value>Email invalido</value>
 	</data>
 	<data name="REGISTER_PASSWORDSTRONG">
-		<value>Password not strong enough</value>
+		<value>El Password no suficientemente seguro</value>
 	</data>
 	<data name="REGISTER_EMAILUSED">
-		<value>Email already in use</value>
+		<value>El email ya existe</value>
 	</data>
 	<data name="REGISTER_FAIL">
-		<value>Account failed</value>
+		<value>La cuenta falló</value>
 	</data>
 	<data name="APP_LOGINFORFEATURE">
-		<value>Login or register to use this feature</value>
+		<value>Inicie sesión o regístrese para utilizar esta función</value>
 	</data>
 	<data name="APP_NOTALLOWED">
-		<value>Not Allowed</value>
+		<value>No Permitido</value>
 	</data>
 	<data name="APP_EXIT">
-		<value>Do you want to exit?</value>
+		<value>Quieres salir?</value>
 	</data>
 	<data name="APP_EXITCONFIRM">
-		<value>Exit</value>
+		<value>Salir</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICESTITLE">
-		<value>Devices</value>
+		<value>Sensores</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICES1">
-		<value>The Devices Tab displays all BroodMinder devices on your account and all nearby devices. Pull down on the list to refresh bluetooth scanning.</value>
+		<value>La pestaña Dispositivos muestra todos los dispositivos BroodMinder en tu cuenta y todos los dispositivos cercanos. Desliza la lista hacia abajo para actualizar el escaneo de bluetooth.</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICES2">
-		<value>Tap the filter icon on the top right. Then select options to narrow down your displayed devices.</value>
+		<value>Toca el icono de filtro en la parte superior derecha. Luego, selecciona las opciones para filtrar los dispositivos que se muestran.</value>
 	</data>
 	<data name="GETTINGSTARTED_DEVICES3">
-		<value>Tap the more icon to the right of a device to sync an indidual device, configure a device, view details, and other options.</value>
+		<value>Toca el icono de más a la derecha de un dispositivo para sincronizar un dispositivo individual, configurar un dispositivo, ver detalles y otras opciones.</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIESSTITLE">
-		<value>Apiaries</value>
+		<value>Colmenares</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIES1">
-		<value>The Apiaries Tab displays your apiaries and hives. This can be used to quickly view hive stats and sync all devices in an apiary at once.</value>
+		<value>La pestaña Colmenares muestra tus colmenares y colmenas. Se puede usar para ver rápidamente las estadísticas de la colmena y sincronizar todos los sensores a la vez.</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIES2">
-		<value>Tap the apiary selector on top to select one of your apiaries.</value>
+		<value>Toca el selector de colmenares en la parte superior para seleccionar uno de tus colmenares.</value>
 	</data>
 	<data name="GETTINGSTARTED_APIARIES3">
-		<value>Tap the hive to expand the view and see the contained devices.</value>
+		<value>Toca la colmena para expandir la vista y ver los sensores asociados.</value>
 	</data>
 	<data name="GETTINGSTARTED_SYNCTITLE">
-		<value>Collecting Data</value>
+		<value>Recolectando datos</value>
 	</data>
 	<data name="GETTINGSTARTED_SYNC1">
-		<value>Tap the sync icon on the top right to sync all devices in your apiary.</value>
+		<value>Toca el icono de sincronización en la parte superior derecha para sincronizar todos los dispositivos en tu colmenar.</value>
 	</data>
 	<data name="GETTINGSTARTED_SYNC2">
-		<value>Tap the sync summary to view a more detailed list of each devices sync status.</value>
+		<value>Toca el resumen de sincronización para ver una lista más detallada del estado de sincronización de cada sensor.</value>
 	</data>
 </root>
