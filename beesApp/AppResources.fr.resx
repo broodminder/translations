@@ -88,7 +88,7 @@
 		<value>Utilisateur</value>
 	</data>
 	<data name="SETTINGS_PREFERENCES">
-		<value>Preferences</value>
+		<value>Préférences</value>
 	</data>
 	<data name="SETTINGS_TIMEZONE">
 		<value>Fuseau horaire</value>
@@ -106,7 +106,7 @@
 		<value>Connexion rapide (réduit la durée de vie de la batterie)</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
-		<value>Save CSV on SubHub sync</value>
+		<value>Enregistrer CSV avec la sync du SubHub</value>
 	</data>
 	<data name="SETTINGS_LOGIN">
 		<value>Connexion</value>
@@ -805,31 +805,31 @@
 		<value>Entrer le nom ou une partie du nom ou de l'identifiant du capteur</value>
 	</data>
 	<data name="DEVICES_SAMPLES">
-		<value>{0} total, {0} new</value>
+		<value>{0} total, {0} nouveaux</value>
 	</data>
 	<data name="DEVICES_LASTSYNC">
-		<value>Last Sync: {0}</value>
+		<value>Dernière Sync: {0}</value>
 	</data>
 	<data name="DEVICES_OFFLINEREADINGS">
-		<value>Device has offline readings</value>
+		<value>Le capteur a des mesures hors-ligne</value>
 	</data>
 	<data name="DEVICES_SIGNAL">
 		<value>Signal</value>
 	</data>
 	<data name="DEVICES_TEMPEVENT">
-		<value>Event at {0}</value>
+		<value>Evènement au {0}</value>
 	</data>
 	<data name="DEVICES_CELL_SAMPLES">
-		<value>{0} devices, {1} samples to send</value>
+		<value>{0} capteur, {1} relevés à transférer</value>
 	</data>
 	<data name="DEVICES_CELLUPDATING">
-		<value>Updating in {0}</value>
+		<value>Mise à jour dans {0}</value>
 	</data>
 	<data name="DEVICES_CELL_SLEEP1">
-		<value>Device in deep sleep.</value>
+		<value>Capteur en mode veille.</value>
 	</data>
 	<data name="DEVICES_CELL_SLEEP2">
-		<value>Tap here to enable.</value>
+		<value>Toucher pour activer.</value>
 	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Position</value>

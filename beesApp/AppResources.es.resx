@@ -106,7 +106,7 @@
 		<value>Conexión rápida (acortará la vida útil de la batería)</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
-		<value>Save CSV on SubHub sync</value>
+		<value>Guardar CSV al sincronizar el SubHub</value>
 	</data>
 	<data name="SETTINGS_LOGIN">
 		<value>Iniciar sesión</value>
@@ -805,31 +805,31 @@
 		<value>Nombre o identificación completa o parcial del dispositivo</value>
 	</data>
 	<data name="DEVICES_SAMPLES">
-		<value>{0} total, {0} new</value>
+		<value>{0} total, {0} nuevos</value>
 	</data>
 	<data name="DEVICES_LASTSYNC">
-		<value>Last Sync: {0}</value>
+		<value>Ultima Sincro: {0}</value>
 	</data>
 	<data name="DEVICES_OFFLINEREADINGS">
-		<value>Device has offline readings</value>
+		<value>El sensor tiene datos offline</value>
 	</data>
 	<data name="DEVICES_SIGNAL">
-		<value>Signal</value>
+		<value>Señal</value>
 	</data>
 	<data name="DEVICES_TEMPEVENT">
-		<value>Event at {0}</value>
+		<value>Evento el {0}</value>
 	</data>
 	<data name="DEVICES_CELL_SAMPLES">
-		<value>{0} devices, {1} samples to send</value>
+		<value>{0} sensor, {1} datos para subir</value>
 	</data>
 	<data name="DEVICES_CELLUPDATING">
-		<value>Updating in {0}</value>
+		<value>Actualizando en {0}</value>
 	</data>
 	<data name="DEVICES_CELL_SLEEP1">
-		<value>Device in deep sleep.</value>
+		<value>Sensor en modo inactivo.</value>
 	</data>
 	<data name="DEVICES_CELL_SLEEP2">
-		<value>Tap here to enable.</value>
+		<value>Tocar para activar.</value>
 	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Ubicación</value>
