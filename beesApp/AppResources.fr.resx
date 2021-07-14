@@ -58,10 +58,10 @@
 		<value>Chargement</value>
 	</data>
 	<data name="COMMON_TEMPERATURE">
-		<value>Température</value>
+		<value>Temp</value>
 	</data>
 	<data name="COMMON_HUMIDITY">
-		<value>Humidite</value>
+		<value>Hygro</value>
 	</data>
 	<data name="COMMON_WEIGHT">
 		<value>Poids</value>
@@ -610,7 +610,7 @@
 		<value>Mettre à jour les données</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_TE">
-		<value>Évènement de température:</value>
+		<value>Évènement thermique:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_BS">
 		<value>Signal Bluetooth:</value>
@@ -640,10 +640,10 @@
 		<value>Dernières mesures:</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_SYNC">
-		<value>Synchroniser {0} nouvelles mesures, puis mettre à jour le micrologiciel</value>
+		<value>Sync {0} nouvelles mesures, puis MàJ du micrologiciel</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_NOSYNC">
-		<value>Mettre à jour le micrologiciel sans synchroniser ( {0} perte de mesures)</value>
+		<value>MàJ du micrologiciel sans sync (perdre {0} mesures)</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_TITLE">
 		<value>Mettre à jour le microlociciel</value>
@@ -721,7 +721,7 @@
 		<value>Journal de données du capteur nettoyé</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
-		<value>Évènement de température</value>
+		<value>Évènement thermique</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_RX">
 		<value>RX</value>
@@ -736,7 +736,7 @@
 		<value>Oui, Effacer les données</value>
 	</data>
 	<data name="DEVICES_NONE">
-		<value>Pas de capteur trouvé</value>
+		<value>Aucun capteur trouvé</value>
 	</data>
 	<data name="DEVICES_PULL">
 		<value>Glisser vers le bas pour rafaîchir</value>
@@ -748,25 +748,25 @@
 		<value>« Non assigné »</value>
 	</data>
 	<data name="DEVICES_CLAIM">
-		<value>Déclarer capteur</value>
+		<value>Réclamer capteur</value>
 	</data>
 	<data name="DEVICES_ANOTHERACCOUNT">
 		<value>Capteur appartenant à un autre compte</value>
 	</data>
 	<data name="DEVICES_FIRMWAREERROR">
-		<value>Erreur de la mise à jour du micrologiciel, réparer</value>
+		<value>Erreur de mise à jour du micrologiciel, réparer</value>
 	</data>
 	<data name="DEVICES_FILTER_NAME">
-		<value>Nom</value>
+		<value>Designation</value>
 	</data>
 	<data name="DEVICES_FILTER_NEARBY">
-		<value>Proche</value>
+		<value>A Proximité</value>
 	</data>
 	<data name="DEVICES_FILTER_SCALES">
 		<value>Balances</value>
 	</data>
 	<data name="DEVICES_FILTER_TH">
-		<value>Temp/Humidité</value>
+		<value>Temp/Hygro</value>
 	</data>
 	<data name="DEVICES_FILTER_HUB">
 		<value>Hubs</value>
@@ -778,7 +778,7 @@
 		<value>Batterie faible</value>
 	</data>
 	<data name="DEVICES_FILTER_APIARY">
-		<value>Rucher</value>
+		<value>Par Rucher</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOTING">
 		<value>Dépannage</value>
@@ -874,7 +874,7 @@
 		<value>État de la connexion: </value>
 	</data>
 	<data name="FIRMWARE_PROG">
-		<value>Mise à jours à jour du microlociciel en cours: </value>
+		<value>Mise à jour du microlociciel en cours: </value>
 	</data>
 	<data name="FIRMWARE_BACK">
 		<value>Mise à jour du microlociciel en cours. Restez ici pour qu'elle soit terminée. Revenir en arrière annule la mise à jour et n'est pas recommandé.</value>
