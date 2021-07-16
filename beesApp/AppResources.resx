@@ -1335,4 +1335,52 @@
 	<data name="GETTINGSTARTED_SYNC2">
 		<value>Tap the sync summary to view a more detailed list of each devices sync status.</value>
 	</data>
+	<data name="FIRMWARESTATUS_NOTFOUND">
+		<value>Firmware update not found</value>
+	</data>
+	<data name="FIRMWARESTATUS_CONNECTING">
+		<value>Connecting, may take 60 seconds</value>
+	</data>
+	<data name="FIRMWARESTATUS_CONNECTIONTIMEOUT">
+		<value>BLE error - Connection timeout</value>
+	</data>
+	<data name="FIRMWARESTATUS_CONNECTED">
+		<value>Connected</value>
+	</data>
+	<data name="FIRMWARESTATUS_BLEERROR">
+		<value>BLE error</value>
+	</data>
+	<data name="FIRMWARESTATUS_BLETIMEOUT">
+		<value>BLE error - Timeout</value>
+	</data>
+	<data name="FIRMWARESTATUS_OTAMODE">
+		<value>Putting device into OTA mode</value>
+	</data>
+	<data name="FIRMWARESTATUS_READYRECONNECT">
+		<value>Getting ready to reconnect</value>
+	</data>
+	<data name="FIRMWARESTATUS_CANCELLED">
+		<value>Cancelled</value>
+	</data>
+	<data name="FIRMWARESTATUS_ERRORRECONNECT">
+		<value>Error reconnecting or uploading firmware</value>
+	</data>
+	<data name="FIRMWARESTATUS_CONNECTIONLOST">
+		<value>Connection lost</value>
+	</data>
+	<data name="FIRMWARESTATUS_RECONNECT">
+		<value>Reconnecting in OTA mode</value>
+	</data>
+	<data name="FIRMWARESTATUS_RECONNECTERROR">
+		<value>Error - could not reconnect</value>
+	</data>
+	<data name="FIRMWARESTATUS_UPLOAD">
+		<value>Starting file upload</value>
+	</data>
+	<data name="FIRMWARESTATUS_UPLOADSUCCESS">
+		<value>Upload Success</value>
+	</data>
+	<data name="FIRMWARESTATUS_UPLOADFAIL">
+		<value>Upload Fail</value>
+	</data>
 </root>
