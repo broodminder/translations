@@ -1336,16 +1336,16 @@
 		<value>Appuyer sur le sommaire des synchronisations pour avoir une liste plus détaillée des statuts de synchronisation de chaque capteur.</value>
 	</data>
 	<data name="FIRMWARESTATUS_NOTFOUND">
-		<value>Firmware update not found</value>
+		<value>MàJ introuvable</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTING">
-		<value>Connecting, may take 60 seconds</value>
+		<value>Connexion, peut prendre 60 sec</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTIONTIMEOUT">
-		<value>BLE error - Connection timeout</value>
+		<value>BLE error - temps de liaison épuisé</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTED">
-		<value>Connected</value>
+		<value>Connecté</value>
 	</data>
 	<data name="FIRMWARESTATUS_BLEERROR">
 		<value>BLE error</value>
@@ -1354,33 +1354,33 @@
 		<value>BLE error - Timeout</value>
 	</data>
 	<data name="FIRMWARESTATUS_OTAMODE">
-		<value>Putting device into OTA mode</value>
+		<value>Dispositif en mode OTA</value>
 	</data>
 	<data name="FIRMWARESTATUS_READYRECONNECT">
-		<value>Getting ready to reconnect</value>
+		<value>Prêt pour se reconnecter</value>
 	</data>
 	<data name="FIRMWARESTATUS_CANCELLED">
-		<value>Cancelled</value>
+		<value>Annulé</value>
 	</data>
 	<data name="FIRMWARESTATUS_ERRORRECONNECT">
-		<value>Error reconnecting or uploading firmware</value>
+		<value>Erreur à la reconnexion ou au chargement du logiciel</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTIONLOST">
-		<value>Connection lost</value>
+		<value>Liaision perdue</value>
 	</data>
 	<data name="FIRMWARESTATUS_RECONNECT">
-		<value>Reconnecting in OTA mode</value>
+		<value>Reconnexion en mode OTA</value>
 	</data>
 	<data name="FIRMWARESTATUS_RECONNECTERROR">
-		<value>Error - could not reconnect</value>
+		<value>Erreur - impossible de se reconnecter</value>
 	</data>
 	<data name="FIRMWARESTATUS_UPLOAD">
-		<value>Starting file upload</value>
+		<value>Début du chargement</value>
 	</data>
 	<data name="FIRMWARESTATUS_UPLOADSUCCESS">
-		<value>Upload Success</value>
+		<value>Chargement Réussi</value>
 	</data>
 	<data name="FIRMWARESTATUS_UPLOADFAIL">
-		<value>Upload Fail</value>
+		<value>Chargement échoué</value>
 	</data>
 </root>

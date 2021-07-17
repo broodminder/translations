@@ -1336,16 +1336,16 @@
 		<value>Toca el resumen de sincronización para ver una lista más detallada del estado de sincronización de cada sensor.</value>
 	</data>
 	<data name="FIRMWARESTATUS_NOTFOUND">
-		<value>Firmware update not found</value>
+		<value>No se encontró actualización del firmware</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTING">
-		<value>Connecting, may take 60 seconds</value>
+		<value>Conectando, puede tardar 60 seg.</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTIONTIMEOUT">
-		<value>BLE error - Connection timeout</value>
+		<value>BLE error - Timeout de conexión</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTED">
-		<value>Connected</value>
+		<value>Conectado</value>
 	</data>
 	<data name="FIRMWARESTATUS_BLEERROR">
 		<value>BLE error</value>
@@ -1354,33 +1354,33 @@
 		<value>BLE error - Timeout</value>
 	</data>
 	<data name="FIRMWARESTATUS_OTAMODE">
-		<value>Putting device into OTA mode</value>
+		<value>Basculando el dispositivo en modo OTA</value>
 	</data>
 	<data name="FIRMWARESTATUS_READYRECONNECT">
-		<value>Getting ready to reconnect</value>
+		<value>Preparando la reconexión</value>
 	</data>
 	<data name="FIRMWARESTATUS_CANCELLED">
-		<value>Cancelled</value>
+		<value>Cancelado</value>
 	</data>
 	<data name="FIRMWARESTATUS_ERRORRECONNECT">
-		<value>Error reconnecting or uploading firmware</value>
+		<value>Error reconectando o descargando firmware</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTIONLOST">
-		<value>Connection lost</value>
+		<value>Conexión interrumpida</value>
 	</data>
 	<data name="FIRMWARESTATUS_RECONNECT">
-		<value>Reconnecting in OTA mode</value>
+		<value>Reconectando en modo OTA</value>
 	</data>
 	<data name="FIRMWARESTATUS_RECONNECTERROR">
-		<value>Error - could not reconnect</value>
+		<value>Error - no se pudo reconectar</value>
 	</data>
 	<data name="FIRMWARESTATUS_UPLOAD">
-		<value>Starting file upload</value>
+		<value>Preparando descarga del archivo</value>
 	</data>
 	<data name="FIRMWARESTATUS_UPLOADSUCCESS">
-		<value>Upload Success</value>
+		<value>Descarga completada</value>
 	</data>
 	<data name="FIRMWARESTATUS_UPLOADFAIL">
-		<value>Upload Fail</value>
+		<value>Descarga fallida</value>
 	</data>
 </root>
