@@ -805,7 +805,7 @@
 		<value>Nombre o identificación completa o parcial del dispositivo</value>
 	</data>
 	<data name="DEVICES_SAMPLES">
-		<value>{0} total, {0} nuevos</value>
+		<value>{0} total, {1} nuevos</value>
 	</data>
 	<data name="DEVICES_LASTSYNC">
 		<value>Ultima Sincro: {0}</value>

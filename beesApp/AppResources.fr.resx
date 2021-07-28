@@ -805,7 +805,7 @@
 		<value>Entrer le nom ou une partie du nom ou de l'identifiant du capteur</value>
 	</data>
 	<data name="DEVICES_SAMPLES">
-		<value>{0} total, {0} nouveaux</value>
+		<value>{0} total, {1} nouveaux</value>
 	</data>
 	<data name="DEVICES_LASTSYNC">
 		<value>Dernière Sync: {0}</value>

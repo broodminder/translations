@@ -805,7 +805,7 @@
 		<value>Enter full or partial device name or id</value>
 	</data>
 	<data name="DEVICES_SAMPLES">
-		<value>{0} total, {0} new</value>
+		<value>{0} total, {1} new</value>
 	</data>
 	<data name="DEVICES_LASTSYNC">
 		<value>Last Sync: {0}</value>
