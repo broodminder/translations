@@ -796,7 +796,7 @@
 		<value>Activez puis désactivez le mode avion de votre téléphone pour actualiser les services bluetooth.</value>
 	</data>
 	<data name="DEVICES_FILTERDEV">
-		<value>Filtrer les capteurs allumés</value>
+		<value>Filtrer capteurs par</value>
 	</data>
 	<data name="DEVICES_FILTERNAME">
 		<value>Filtrer par Nom</value>

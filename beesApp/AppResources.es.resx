@@ -796,7 +796,7 @@
 		<value>Alternar el modo avión de su teléfono para actualizar los servicios bluetooth</value>
 	</data>
 	<data name="DEVICES_FILTERDEV">
-		<value>Filtro de Sensores activo</value>
+		<value>Filtro de Sensores</value>
 	</data>
 	<data name="DEVICES_FILTERNAME">
 		<value>Filtrar por Nombre</value>
