@@ -380,7 +380,7 @@
         "INFO":"Se requiere una abono Premium o Pro para ver los datos de más de un año. Puede acceder a los datos más antiguos mediante la descarga de csv en la vista del dispositivo."
 	},
 	"NOTES": {
-		"TITLE":"Notas de {{value}}",
+		"TITLE":"{{value}} Notas",
 		"ADD_TOOLTIP":"Añadir Nota",
 		"DOWNLOAD_TOOLTIP":"Descargar Notas",
 		"HIVE":"Colmena",
