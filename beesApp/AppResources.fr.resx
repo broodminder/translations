@@ -139,7 +139,7 @@
 		<value>Modifier les préférences</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
-		<value>Métriques (Celcius/Kilogrammes)</value>
+		<value>Métriques (Celsius/Kilogrammes)</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_IMPERIAL">
 		<value>Imperiales (Fahrenheit/Livres)</value>
@@ -460,7 +460,7 @@
 		<value>*Code postal requis</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRY">
-		<value>Code du pays</value>
+		<value>Code pays</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRYSELECT">
 		<value>Sélectionner le pays</value>
