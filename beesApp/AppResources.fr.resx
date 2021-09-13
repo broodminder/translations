@@ -592,7 +592,7 @@
 		<value>Définir Fréquence</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
-		<value>Nettoyer le journal de débogage</value>
+		<value>Vider la mémoire du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_TROUBLE">
 		<value>Dépannage</value>
@@ -703,22 +703,22 @@
 		<value>Régler fréquence à {0} minutes</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG">
-		<value>Nettoyer le journal de donnée du capteur</value>
+		<value>Effacer la mémoire du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_MESSAGE">
-		<value>Êtes-vous sûr de vouloir effacer toutes les données du capteur? Assurez-vous d'avoir télécharger toutes les données.</value>
+		<value>Êtes-vous sûr de vouloir effacer la mémoire du capteur? Assurez-vous d'avoir téléchargé toutes les données.</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_CONFIRM">
-		<value>Oui, nettoyer le journal de données du capteur</value>
+		<value>Oui, effacer la mémoire</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_S1">
-		<value>Nettoyage du journal de données du capteur</value>
+		<value>Effacement de la mémoire du capteur</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_ERROR">
 		<value>Erreur en effaçant flash</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
-		<value>Journal de données du capteur nettoyé</value>
+		<value>Mémoire du capteur vidée</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
 		<value>Évènement thermique</value>

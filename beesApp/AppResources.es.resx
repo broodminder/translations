@@ -592,7 +592,7 @@
 		<value>Ajustar frecuencia</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
-		<value>Vaciar el Log del Sensor</value>
+		<value>Vaciar la memoria del sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_TROUBLE">
 		<value>Solucionar problemas</value>
@@ -703,16 +703,16 @@
 		<value>Frecuencia de {0} minutos</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG">
-		<value>Vaciar Log del Sensor</value>
+		<value>Vaciar la memoria Sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_MESSAGE">
-		<value>¿Estás seguro de que deseas eliminar todos los datos del sensor? Asegúrate de haber descargado todos los datos.</value>
+		<value>¿Estás seguro de que deseas vaciar la memoria del sensor? Asegúrate de haber descargado todos los datos.</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_CONFIRM">
-		<value>Si, Vaciar log del sensor</value>
+		<value>Si, Vaciar memoria</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_S1">
-		<value>Vaciando log del sensor</value>
+		<value>Vaciando memoria del sensor</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_ERROR">
 		<value>Error vaciando flash</value>
