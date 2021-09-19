@@ -275,8 +275,8 @@
         "DOWNLOAD":"Télécharger les données au format CSV",
         "DOWNLOAD_VIEW":"Télécharger les relevés sur la durée affichéé",
         "DOWNLOAD_HIST":"Télécharger tout l'historique",
-        "OUTLIER_SHOW":"Supprimer les valeurs aberrantes",
-        "OUTLIER_HIDE":"Masquer l'éditeur de valeurs aberrantes",
+        "OUTLIER_SHOW":"Afficher l'editeur de données",
+        "OUTLIER_HIDE":"Masquer l'éditeur de données",
         "EDITOR": {
             "TITLE":"Tableau des mesures",
             "DESCRIPTION":"Zoomez le graphique ou cliquez sur le point pour filtrer les relevés ci-dessous.",

@@ -275,8 +275,8 @@
         "DOWNLOAD":"Descargar datos CSV",
         "DOWNLOAD_VIEW":"Descargar el intervalo visible",
         "DOWNLOAD_HIST":"Descargar historial completo",
-        "OUTLIER_SHOW":"Eliminar valores anómalos",
-        "OUTLIER_HIDE":"Ocultar editor de valores anómalos",
+        "OUTLIER_SHOW":"Mostrar editor de datos",
+        "OUTLIER_HIDE":"Ocultar editor de datos",
         "EDITOR": {
             "TITLE":"Tabla de valores",
             "DESCRIPTION":"Aumentar el gráfico o hacer clic para filtrar los datos siguientes.",
