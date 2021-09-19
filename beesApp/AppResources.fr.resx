@@ -367,7 +367,7 @@
 		<value>Terminée</value>
 	</data>
 	<data name="SYNC_STATUS_DEVNOT">
-		<value>{0} sapteurs non synchronisés</value>
+		<value>{0} capteurs non synchronisés</value>
 	</data>
 	<data name="SYNC_STATUS_DEVCOMP">
 		<value>{0} capteurs synchronisés</value>
