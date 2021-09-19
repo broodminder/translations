@@ -216,6 +216,9 @@
 	<data name="APIARIES_NODEVICES">
 		<value>Ningun Sensor</value>
 	</data>
+	<data name="APIARIES_FILTERSENSOR">
+		<value>View current readings</value>
+	</data>
 	<data name="APIARIES_CONTEXT_NEWAPIARY">
 		<value>Nuevo Colmenar</value>
 	</data>
@@ -719,6 +722,27 @@
 	</data>
 	<data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
 		<value>Log del sensor vaciado</value>
+	</data>
+		<data name="DEVICEDETAIL_LIVE_HEADER_TIMESTAMP">
+		<value>Timestamp</value>
+	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_SAMPLE">
+		<value>Sample</value>
+	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_BATTERY">
+		<value>Bat</value>
+	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_TEMPERATURE">
+		<value>Temp</value>
+	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_WEIGHT">
+		<value>Weight</value>
+	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_LEFTRIGHTBALANCE">
+		<value>L/R</value>
+	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_HUMIDITY">
+		<value>Humid</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
 		<value>Evento de Temperatura</value>
