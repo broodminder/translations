@@ -1407,4 +1407,124 @@
 	<data name="FIRMWARESTATUS_UPLOADFAIL">
 		<value>Chargement échoué</value>
 	</data>
+	<data name="HUBDETAIL_LASTUPLOAD">
+		<value>MBM Last Upload</value>
+	</data>
+	<data name="HUBDETAIL_BATTERY">
+		<value>Battery</value>
+	</data>
+	<data name="HUBDETAIL_WIFISIGNAL">
+		<value>Wifi Signal</value>
+	</data>
+	<data name="HUBDETAIL_STATUS">
+		<value>Status</value>
+	</data>
+	<data name="HUBDETAIL_STATUS_CANTCONNECT">
+		<value>Cannot connect</value>
+	</data>
+	<data name="HUBDETAIL_STATUS_UPLDFAILED">
+		<value>Upload failed</value>
+	</data>
+	<data name="HUBDETAIL_STATUS_NORMAL">
+		<value>Normal operation</value>
+	</data>
+	<data name="HUBDETAIL_DEVICECOUNT">
+		<value>Devices Seen</value>
+	</data>
+	<data name="HUBDETAIL_UPLOADATTEMPTS">
+		<value>Upload Attempts</value>
+	</data>
+	<data name="HUBDETAIL_UPLOADFAILURE">
+		<value>Upload Failures</value>
+	</data>
+	<data name="HUBDETAIL_UPLOADSUCCESS">
+		<value>Upload Successes</value>
+	</data>
+	<data name="HUBDETAIL_CONFIGUREWIFI">
+		<value>Configure Wifi</value>
+	</data>
+	<data name="WIFICONFIGURE_UPLOADNOW">
+		<value>Upload Now</value>
+	</data>
+	<data name="WIFICONFIGURE_SCAN">
+		<value>Scan</value>
+	</data>
+	<data name="WIFICONFIGURE_SELECTNET">
+		<value>Select Network</value>
+	</data>
+	<data name="WIFICONFIGURE_NETWORK">
+		<value>Network</value>
+	</data>
+	<data name="WIFICONFIGURE_PASSWORD">
+		<value>Password</value>
+	</data>
+	<data name="WIFICONFIGURE_STARTINGSCAN">
+		<value>Starting Scan</value>
+	</data>
+	<data name="WIFICONFIGURE_SENDINGSCAN">
+		<value>Error sending scan request</value>
+	</data>
+	<data name="WIFICONFIGURE_SCANNINGFORN">
+		<value>Scanning for networks</value>
+	</data>
+	<data name="WIFICONFIGURE_ERRORSCANTIMEOUT">
+		<value>Error scanning networks. No networks recieved in 40 seconds.</value>
+	</data>
+	<data name="WIFICONFIGURE_CONNECTINGDEVICE">
+		<value>Connecting to device</value>
+	</data>
+	<data name="WIFICONFIGURE_ERRORDEVICECONNECTTIMEOUT">
+		<value>Could not connect to device, taking too long</value>
+	</data>
+	<data name="WIFICONFIGURE_NOTCONNECTDEVICE">
+		<value>Could not connect to device</value>
+	</data>
+	<data name="WIFICONFIGURE_MUSTBENEARBY">
+		<value>Must be near device to edit connection</value>
+	</data>
+	<data name="WIFICONFIGURE_CUSTOM">
+		<value>Custom</value>
+	</data>
+	<data name="WIFICONFIGURE_NONEWORKS">
+		<value>No networks found</value>
+	</data>
+	<data name="WIFICONFIGURE_ERRORSCANNINGNET">
+		<value>Error scanning for networks</value>
+	</data>
+	<data name="WIFICONFIGURE_NETREQUIRED">
+		<value>Network required</value>
+	</data>
+	<data name="WIFICONFIGURE_NETWORKLENGTH">
+		<value>Network name must be less than 33 characters</value>
+	</data>
+	<data name="WIFICONFIGURE_PASSWORDLENGTH">
+		<value>Password must be less than 64 characters</value>
+	</data>
+	<data name="WIFICONFIGURE_SETTINGCREDS">
+		<value>Setting credentials</value>
+	</data>
+	<data name="WIFICONFIGURE_ERRORSETTINGNET">
+		<value>Error setting network</value>
+	</data>
+	<data name="WIFICONFIGURE_ERRORSETTINGPASS">
+		<value>Error setting password</value>
+	</data>
+	<data name="WIFICONFIGURE_NETWORKSUCCESS">
+		<value>Network set successfully</value>
+	</data>
+	<data name="WIFICONFIGURE_NETWORKFAILURE">
+		<value>Could not connect to network</value>
+	</data>
+	<data name="WIFICONFIGURE_NETWORKERROR">
+		<value>Error connecting to network</value>
+	</data>
+	<data name="WIFICONFIGURE_TRIGGERUPLOAD">
+		<value>Triggering Upload</value>
+	</data>
+	<data name="WIFICONFIGURE_TRIGGERUPLOADERROR">
+		<value>Error triggering upload</value>
+	</data>
+	<data name="WIFICONFIGURE_DEVICEUPLOADING">
+		<value>Device attempting upload</value>
+	</data>
 </root>
