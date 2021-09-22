@@ -1527,4 +1527,16 @@
 	<data name="WIFICONFIGURE_DEVICEUPLOADING">
 		<value>Device attempting upload</value>
 	</data>
+	<data name="LOCATIONSERVICES_TITLE">
+		<value>Location Services</value>
+	</data>
+	<data name="LOCATIONSERVICES_MESSAGES">
+		<value>Location Services disabled. Bluetooth may not function correctly until location services are enabled.</value>
+	</data>
+	<data name="LOCATIONSERVICES_OK">
+		<value>Ok</value>
+	</data>
+	<data name="LOCATIONSERVICES_OPEN">
+		<value>Open Location Settings</value>
+	</data>
 </root>
