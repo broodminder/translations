@@ -1408,135 +1408,135 @@
 		<value>Descarga fallida</value>
 	</data>
 	<data name="HUBDETAIL_LASTUPLOAD">
-		<value>MBM Last Upload</value>
+		<value>MBM última carga</value>
 	</data>
 	<data name="HUBDETAIL_BATTERY">
-		<value>Battery</value>
+		<value>Bateria</value>
 	</data>
 	<data name="HUBDETAIL_WIFISIGNAL">
-		<value>Wifi Signal</value>
+		<value>Señal Wifi</value>
 	</data>
 	<data name="HUBDETAIL_STATUS">
-		<value>Status</value>
+		<value>Estado</value>
 	</data>
 	<data name="HUBDETAIL_STATUS_CANTCONNECT">
-		<value>Cannot connect</value>
+		<value>No se puede conectar</value>
 	</data>
 	<data name="HUBDETAIL_STATUS_UPLDFAILED">
-		<value>Upload failed</value>
+		<value>Error en la carga</value>
 	</data>
 	<data name="HUBDETAIL_STATUS_NORMAL">
-		<value>Normal operation</value>
+		<value>Operación Nominal</value>
 	</data>
 	<data name="HUBDETAIL_DEVICECOUNT">
-		<value>Devices Seen</value>
+		<value>Dispositivos encontrados</value>
 	</data>
 	<data name="HUBDETAIL_UPLOADATTEMPTS">
-		<value>Upload Attempts</value>
+		<value>Tentativas de Carga</value>
 	</data>
 	<data name="HUBDETAIL_UPLOADFAILURE">
-		<value>Upload Failures</value>
+		<value>Cargas fallidas</value>
 	</data>
 	<data name="HUBDETAIL_UPLOADSUCCESS">
-		<value>Upload Successes</value>
+		<value>Cargas conseguidas</value>
 	</data>
 	<data name="HUBDETAIL_CONFIGUREWIFI">
-		<value>Configure Wifi</value>
+		<value>Configurar Wifi</value>
 	</data>
 	<data name="WIFICONFIGURE_UPLOADNOW">
-		<value>Upload Now</value>
+		<value>Cargar Ahora</value>
 	</data>
 	<data name="WIFICONFIGURE_SCAN">
-		<value>Scan</value>
+		<value>Ecanear</value>
 	</data>
 	<data name="WIFICONFIGURE_SELECTNET">
-		<value>Select Network</value>
+		<value>Seleccionar Red</value>
 	</data>
 	<data name="WIFICONFIGURE_NETWORK">
-		<value>Network</value>
+		<value>Red</value>
 	</data>
 	<data name="WIFICONFIGURE_PASSWORD">
 		<value>Password</value>
 	</data>
 	<data name="WIFICONFIGURE_STARTINGSCAN">
-		<value>Starting Scan</value>
+		<value>Inicio de la busqueda</value>
 	</data>
 	<data name="WIFICONFIGURE_SENDINGSCAN">
-		<value>Error sending scan request</value>
+		<value>Error al enviar la solicitud de búsqueda</value>
 	</data>
 	<data name="WIFICONFIGURE_SCANNINGFORN">
-		<value>Scanning for networks</value>
+		<value>Buscando redes</value>
 	</data>
 	<data name="WIFICONFIGURE_ERRORSCANTIMEOUT">
-		<value>Error scanning networks. No networks recieved in 40 seconds.</value>
+		<value>Error buscando redes. Ninguna red encontrada en 40 segundos.</value>
 	</data>
 	<data name="WIFICONFIGURE_CONNECTINGDEVICE">
-		<value>Connecting to device</value>
+		<value>Connectando al dispositivo</value>
 	</data>
 	<data name="WIFICONFIGURE_ERRORDEVICECONNECTTIMEOUT">
-		<value>Could not connect to device, taking too long</value>
+		<value>No se ha podido conectar con el dispositivo, ha tardado demasiado</value>
 	</data>
 	<data name="WIFICONFIGURE_NOTCONNECTDEVICE">
-		<value>Could not connect to device</value>
+		<value>No se ha podido conectar con el dispositivo,</value>
 	</data>
 	<data name="WIFICONFIGURE_MUSTBENEARBY">
-		<value>Must be near device to edit connection</value>
+		<value>Debe estar cerca del dispositivo para editar la conexión</value>
 	</data>
 	<data name="WIFICONFIGURE_CUSTOM">
-		<value>Custom</value>
+		<value>Personalizado</value>
 	</data>
 	<data name="WIFICONFIGURE_NONEWORKS">
-		<value>No networks found</value>
+		<value>Ninguna red encontrada</value>
 	</data>
 	<data name="WIFICONFIGURE_ERRORSCANNINGNET">
-		<value>Error scanning for networks</value>
+		<value>Error buscando redes</value>
 	</data>
 	<data name="WIFICONFIGURE_NETREQUIRED">
-		<value>Network required</value>
+		<value>Se requiere Red</value>
 	</data>
 	<data name="WIFICONFIGURE_NETWORKLENGTH">
-		<value>Network name must be less than 33 characters</value>
+		<value>El nombre de la red debe tener menos de 33 caracteres</value>
 	</data>
 	<data name="WIFICONFIGURE_PASSWORDLENGTH">
-		<value>Password must be less than 64 characters</value>
+		<value>La contraseña debe tener menos de 64 caracteres</value>
 	</data>
 	<data name="WIFICONFIGURE_SETTINGCREDS">
-		<value>Setting credentials</value>
+		<value>Estableciendo credenciales</value>
 	</data>
 	<data name="WIFICONFIGURE_ERRORSETTINGNET">
-		<value>Error setting network</value>
+		<value>Error estableciendo red</value>
 	</data>
 	<data name="WIFICONFIGURE_ERRORSETTINGPASS">
-		<value>Error setting password</value>
+		<value>Error estableciendo contraseña</value>
 	</data>
 	<data name="WIFICONFIGURE_NETWORKSUCCESS">
-		<value>Network set successfully</value>
+		<value>Red configurada con éxito</value>
 	</data>
 	<data name="WIFICONFIGURE_NETWORKFAILURE">
-		<value>Could not connect to network</value>
+		<value>No se pudo conectar a la red</value>
 	</data>
 	<data name="WIFICONFIGURE_NETWORKERROR">
-		<value>Error connecting to network</value>
+		<value>Error conectando a la red</value>
 	</data>
 	<data name="WIFICONFIGURE_TRIGGERUPLOAD">
-		<value>Triggering Upload</value>
+		<value>Lanzando carga</value>
 	</data>
 	<data name="WIFICONFIGURE_TRIGGERUPLOADERROR">
-		<value>Error triggering upload</value>
+		<value>Error lanzando carga</value>
 	</data>
 	<data name="WIFICONFIGURE_DEVICEUPLOADING">
-		<value>Device attempting upload</value>
+		<value>Dispositivo intentando carga</value>
 	</data>
 	<data name="LOCATIONSERVICES_TITLE">
-		<value>Location Services</value>
+		<value>Servicio de localización</value>
 	</data>
 	<data name="LOCATIONSERVICES_MESSAGES">
-		<value>Location Services disabled. Bluetooth may not function correctly until location services are enabled.</value>
+		<value>Servicio de localización desactivado. Es posible que el Bluetooth no funcione correctamente sin el servicio de localización.</value>
 	</data>
 	<data name="LOCATIONSERVICES_OK">
 		<value>Ok</value>
 	</data>
 	<data name="LOCATIONSERVICES_OPEN">
-		<value>Open Location Settings</value>
+		<value>Abrir preferencias de localización</value>
 	</data>
 </root>
