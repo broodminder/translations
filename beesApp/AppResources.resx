@@ -1462,7 +1462,7 @@
 		<value>Starting Scan</value>
 	</data>
 	<data name="WIFICONFIGURE_SENDINGSCAN">
-		<value>Error sending scan request</value>
+		<value>Error scanning, please retry</value>
 	</data>
 	<data name="WIFICONFIGURE_SCANNINGFORN">
 		<value>Scanning for networks</value>

@@ -724,25 +724,19 @@
 		<value>Log del sensor vaciado</value>
 	</data>
 		<data name="DEVICEDETAIL_LIVE_HEADER_TIMESTAMP">
-		<value>Timestamp</value>
+		<value>time</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_HEADER_SAMPLE">
-		<value>Sample</value>
-	</data>
-	<data name="DEVICEDETAIL_LIVE_HEADER_BATTERY">
-		<value>Bat</value>
+		<value>sampl</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_HEADER_TEMPERATURE">
-		<value>Temp</value>
+		<value>T</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_HEADER_WEIGHT">
-		<value>Weight</value>
-	</data>
-	<data name="DEVICEDETAIL_LIVE_HEADER_LEFTRIGHTBALANCE">
-		<value>L/R</value>
+		<value>W</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_HEADER_HUMIDITY">
-		<value>Humid</value>
+		<value>H</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
 		<value>Evento de Temperatura</value>
