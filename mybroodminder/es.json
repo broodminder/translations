@@ -224,7 +224,8 @@
         "TEMP": {
             "TITLE":"Temperatura",
             "NONE":"No hay datos de temperatura",
-            "LOADING":"Cargando datos de temperatura"
+            "LOADING":"Cargando datos de temperatura",
+            "HIDE_SWARM_FLAGS":"Hide temperature events"
         },
         "HUMID": {
             "TITLE":"Humedad",
@@ -324,7 +325,9 @@
                 },
                 "SUCCESS":"Datos desplazados",
                 "FAIL":"Error, los datos no han sido desplazados"
-            }
+            },
+            "REMOVE_DUPLICATES_BUTTON":"Remove Duplicates",
+            "REMOVE_DUPLICATES_TITLE":"Removed Duplicates"
         }
     },
     "HUB_PAGE": {
@@ -454,7 +457,15 @@
            "ERROR_MOVE_TIME":"No se puede terminar la ubicación antes de sui inicio, seleccionar una fecha posterior a {{currentEnd}}",
            "SUCCESS_MOVED":"Sensor desplazado a la colmena",
            "SUCCESS_ENDED":"Ubicación actual culminada",
-           "CREATE":"Nuevo"
+           "CREATE":"Nuevo",
+           "ADVANCED":{
+               "ADVANCED":"Advanced",
+               "USE_ALL":"Use all readings",
+               "INCLUDE_TEMP":"Include Temperature",
+               "SCALE_FACTOR":"Scale Factor",
+               "SCALE_FACTOR_REQUIRED":"Weight scale factor value required",
+               "ADMIN_SELECT":"Select"
+           }
     },
     "HIVE_APIARY_LOCATION_HIST": {
         "APIARY":"Colmenar",
@@ -620,6 +631,38 @@
         "BUTTON":"Compartir",
         "EDIT":"Editar enlaces compartidos",
         "SHARE_HIVE":"Compartir esta colmena"
+    },
+    "DUPLICATE_CLEANUP":{
+        "TITLE":"Cleanup Duplicate Readings",
+        "CREATE_SUBTITLE_1": "This will remove duplicates (from multiple sources) and cleanup data for this device.",
+        "TIME_ZOOM": "Remove duplicates for current view {{start}} to {{end}}",
+        "TIME_SET": "Remove duplicates from {{start}} to {{end}}",
+        "NOTES":"Notes (optional)",
+        "RUN_CLEANUP": "Run cleanup",
+        "RUNNING":"Running Cleanup",
+        "TOTAL":"Total",
+        "REMOVED":"Removed",
+        "CLOSE":"Close",
+        "GROUPS":{
+           "TITLE":"Cleanup Groups",
+           "CREATED":"Created",
+           "ID":"ID",
+           "FROM":"From",
+           "TO":"To",
+           "TOTAL":"Total Readings",
+           "REMOVED":"Removed Readings",
+           "STATUS":"Status",
+           "ROLLBACK":"Rollback",
+           "STATUS_RUNNING":"running",
+           "STATUS_ROLLING":"rolling back",
+           "STATUS_ROLLED":"rolled back",
+           "STATUS_COMPLETE":"complete",
+           "ROLLBACK_DIALOG":{
+                "TITLE": "Rollback Duplicate Cleanup",
+                "MESSAGE": "Would you like to rollback this duplicate cleanup?",
+                "CONFIRM": "Yes"
+            }
+        }
     },
     "ACCOUNT": {
         "TITLE":"Mi Cuenta",
