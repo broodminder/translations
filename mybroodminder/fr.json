@@ -267,7 +267,7 @@
             "OK":"Afficher les dernères mises à jour"
         },
         "TITLE":"Données du capteur - {{name}}",
-        "CHART_TITLE":"Résumé de capteur pour {{name}}",
+        "CHART_TITLE":"Résumé du capteur {{name}}",
         "LOCATION_PIN_START":"D",
         "LOCATION_PIN_END":"F",
         "LOCATION_HISTORY":"Historique des emplacements du capteur",
