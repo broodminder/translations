@@ -303,7 +303,7 @@
             "SAMPLE_STATE":"État de l'échantillon T2",
             "CONFIRM_WINDOW": {
                "TITLE":"Supprimer les relevés sélectionnés",
-               "MESSAGE":"Souhaitez-vous supprimer les reléves sélectionnés {{count}} ?",
+               "MESSAGE":"Souhaitez-vous supprimer les {{count}} reléves sélectionnés ?",
                "CONFIRM":"Oui"
             },
             "SUCCESS":"Relevés supprimés",
@@ -966,7 +966,7 @@
             "SUB_RENEWING":"Renouvelle le {{expiration}}",
             "SUB_EXPIRED":"Expire le {{expiration}}",
             "SUB_EXPIRING":"Expire le {{expiration}}",
-            "CREDIT_CANCELLED":"Annulé, expire le {{expiration}}",
+            "CREDIT_CANCELLED":"Expire le {{expiration}}",
             "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
             "CREDIT_EXPIRED":"Expiré le{{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
