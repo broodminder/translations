@@ -225,7 +225,7 @@
             "TITLE":"Température",
             "NONE":"Pas de données de température",
             "LOADING":"Chargement des relevés de température de la ruche",
-            "HIDE_SWARM_FLAGS":"Hide temperature events"
+            "HIDE_SWARM_FLAGS":"Masquer les événements thermiques"
         },
         "HUMID": {
             "TITLE":"Humidité",
@@ -320,14 +320,14 @@
                 "BUTTON_SELECTED":"Retourner à la sélection",
                 "CONFIRM_WINDOW": {
                    "TITLE":"Déplacer les relevés sélectionnés",
-                   "MESSAGE":"Souhaitez-vous réajouter les reléves sélectionnés {{{count}}} aux relevés normaux des capteurs ?",
+                   "MESSAGE":"Souhaitez-vous réajouter les {{{count}}} reléves sélectionnés aux relevés normaux des capteurs ?",
                    "CONFIRM":"Oui"
                 },
                 "SUCCESS":"Relevés déplacés",
                 "FAIL":"Erreur, relevés non déplacés"
             },
-            "REMOVE_DUPLICATES_BUTTON":"Remove Duplicates",
-            "REMOVE_DUPLICATES_TITLE":"Removed Duplicates"
+            "REMOVE_DUPLICATES_BUTTON":"Supprimer doublons",
+            "REMOVE_DUPLICATES_TITLE":"Doublons supprimés"
         }
     },
     "HUB_PAGE": {
@@ -336,7 +336,7 @@
         "ADDRESS":"Référence de l'appareil",
         "MODEL":"Modèle",
         "FIRMWARE":"Micrologiciel",
-        "UPLOAD_TIME":"Dernière heure de téléchargement",
+        "UPLOAD_TIME":"Dernier téléchargement",
         "CHART_TITLE":"Relevé du hub pour {{name}}",
         "READING_COUNT":"Relevés affichés: {{count}}",
         "CHART_LOADING":"Chargement des relevés du hub",
@@ -354,7 +354,7 @@
         "HIVES_TITLE":"Ruches",
         "DEVICES_TITLE":"Capteurs",
         "HUBS_TITLE":"Hubs",
-        "LINKS_TITLE":"Public Links"
+        "LINKS_TITLE":"Liens Publiques"
     },
 	"FEATURES": {
 		"TITLE":"Tour d'horizon",
@@ -459,12 +459,12 @@
            "SUCCESS_ENDED":"Emplacement actuel terminé",
            "CREATE":"Créer",
            "ADVANCED":{
-               "ADVANCED":"Advanced",
-               "USE_ALL":"Use all readings",
-               "INCLUDE_TEMP":"Include Temperature",
-               "SCALE_FACTOR":"Scale Factor",
-               "SCALE_FACTOR_REQUIRED":"Weight scale factor value required",
-               "ADMIN_SELECT":"Select"
+               "ADVANCED":"Avancé",
+               "USE_ALL":"Utiliser toutes les mesures",
+               "INCLUDE_TEMP":"Inclure la Température",
+               "SCALE_FACTOR":"Facteur d'échelle",
+               "SCALE_FACTOR_REQUIRED":"Une valeur de facteur d'échelle est requise",
+               "ADMIN_SELECT":"Sélectionner"
            }
     },
     "HIVE_APIARY_LOCATION_HIST": {
@@ -633,34 +633,34 @@
         "SHARE_HIVE":"Partager cette Ruche"
     },
     "DUPLICATE_CLEANUP":{
-        "TITLE":"Cleanup Duplicate Readings",
-        "CREATE_SUBTITLE_1": "This will remove duplicates (from multiple sources) and cleanup data for this device.",
-        "TIME_ZOOM": "Remove duplicates for current view {{start}} to {{end}}",
-        "TIME_SET": "Remove duplicates from {{start}} to {{end}}",
-        "NOTES":"Notes (optional)",
-        "RUN_CLEANUP": "Run cleanup",
-        "RUNNING":"Running Cleanup",
+        "TITLE":"Nettoyer les doublons",
+        "CREATE_SUBTITLE_1": "Cela supprimera les doublons (provenant de plusieurs sources) et nettoiera les données pour ce dispositif.",
+        "TIME_ZOOM": "Suppression des doublons pour la vue actuelle {{start}} à {{end}}",
+        "TIME_SET": "Suppression des doublons {{start}} à {{end}}",
+        "NOTES":"Notes (optionnel)",
+        "RUN_CLEANUP": "Lancer nettoyage",
+        "RUNNING":"En train de nettoyer!",
         "TOTAL":"Total",
-        "REMOVED":"Removed",
-        "CLOSE":"Close",
+        "REMOVED":"Effacés",
+        "CLOSE":"Fermer",
         "GROUPS":{
-           "TITLE":"Cleanup Groups",
-           "CREATED":"Created",
+           "TITLE":"Groupes nettoyés",
+           "CREATED":"Crée",
            "ID":"ID",
-           "FROM":"From",
-           "TO":"To",
-           "TOTAL":"Total Readings",
-           "REMOVED":"Removed Readings",
+           "FROM":"De",
+           "TO":"à",
+           "TOTAL":"Nombre Total de mesures",
+           "REMOVED":"Mesures effacées",
            "STATUS":"Status",
-           "ROLLBACK":"Rollback",
-           "STATUS_RUNNING":"running",
-           "STATUS_ROLLING":"rolling back",
-           "STATUS_ROLLED":"rolled back",
-           "STATUS_COMPLETE":"complete",
+           "ROLLBACK":"Retour en arrière",
+           "STATUS_RUNNING":"en cours",
+           "STATUS_ROLLING":"retour en arrière",
+           "STATUS_ROLLED":"restaurés",
+           "STATUS_COMPLETE":"complet",
            "ROLLBACK_DIALOG":{
-                "TITLE": "Rollback Duplicate Cleanup",
-                "MESSAGE": "Would you like to rollback this duplicate cleanup?",
-                "CONFIRM": "Yes"
+                "TITLE": "Restaurer nettoyage des doublons",
+                "MESSAGE": "Voulez-vous annuler ce nettoyage ?",
+                "CONFIRM": "Oui"
             }
         }
     },

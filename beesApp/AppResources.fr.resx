@@ -412,7 +412,7 @@
 		<value>Sauvegarde terminée {0} mesures internes</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDUPLOADED">
-		<value>Termminé, sauvegardé et mis à jour {0} mesures</value>
+		<value>Terminé, sauvegardé et mis à jour {0} mesures</value>
 	</data>
 	<data name="SYNC_STATUS_COMPLETEDOFFLINE">
 		<value>Terminé, sauvegardé {0} mesures pour recommencer la mise à jour quand reconnecté</value>
@@ -631,7 +631,7 @@
 		<value>Nombre de relevés:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_NR">
-		<value>Nouvelles mesures:</value>
+		<value>Nouveaux relevés:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMU">
 		<value>Dernière mise à jour MBM:</value>
@@ -640,13 +640,13 @@
 		<value>Dernier relevé MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LR">
-		<value>Dernières mesures:</value>
+		<value>Dernièr relevé:</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_SYNC">
-		<value>Sync {0} nouvelles mesures, puis MàJ du micrologiciel</value>
+		<value>Sync {0} nouveaux relevés, puis MàJ micrologiciel</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_NOSYNC">
-		<value>MàJ du micrologiciel sans sync (perdre {0} mesures)</value>
+		<value>MàJ micrologiciel sans sync (perdre {0} relevés)</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_TITLE">
 		<value>Mettre à jour le microlociciel</value>
@@ -655,7 +655,7 @@
 		<value>Voir le journal de débogage</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_READINGS">
-		<value>Voir les mesures</value>
+		<value>Voir les relevés</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOAD_ERROR">
 		<value>Capteur hors ligne, non mis à jour</value>
@@ -1132,7 +1132,7 @@
 		<value>Message Envoyé</value>
 	</data>
 	<data name="HELP_OFFLINE">
-		<value>Erreur envoi. App Hors ligne</value>
+		<value>Erreur d'envoi. App hors ligne</value>
 	</data>
 	<data name="HELP_NOTSENT">
 		<value>Erreur. Message non envoyé</value>
@@ -1147,10 +1147,10 @@
 		<value>*Description requise</value>
 	</data>
 	<data name="NOTE_EDIT">
-		<value>Modifier une note dans {0}</value>
+		<value>Modifier note dans {0}</value>
 	</data>
 	<data name="NOTE_CREATE">
-		<value>Créeer une note dans {0}</value>
+		<value>Créeer note dans {0}</value>
 	</data>
 	<data name="NOTE_CREATED">
 		<value>Note créée</value>
@@ -1168,10 +1168,10 @@
 		<value>Modifier {0}</value>
 	</data>
 	<data name="HIVE_CU_CTITLE">
-		<value>Create une ruche dans {0}</value>
+		<value>Créer ruche dans {0}</value>
 	</data>
 	<data name="HIVE_CU_CTITLE2">
-		<value>Créer une ruche</value>
+		<value>Créer ruche</value>
 	</data>
 	<data name="HIVE_CU_CREATED">
 		<value>Ruche créée</value>

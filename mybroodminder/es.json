@@ -459,12 +459,12 @@
            "SUCCESS_ENDED":"Ubicación actual culminada",
            "CREATE":"Nuevo",
            "ADVANCED":{
-               "ADVANCED":"Advanced",
-               "USE_ALL":"Use all readings",
-               "INCLUDE_TEMP":"Include Temperature",
-               "SCALE_FACTOR":"Scale Factor",
-               "SCALE_FACTOR_REQUIRED":"Weight scale factor value required",
-               "ADMIN_SELECT":"Select"
+               "ADVANCED":"Avanzado",
+               "USE_ALL":"Usar todos lors canales",
+               "INCLUDE_TEMP":"Incluir Temperatura",
+               "SCALE_FACTOR":"Factor de escala",
+               "SCALE_FACTOR_REQUIRED":"Se requiere un factor de escala",
+               "ADMIN_SELECT":"Seleccionar"
            }
     },
     "HIVE_APIARY_LOCATION_HIST": {
@@ -633,34 +633,34 @@
         "SHARE_HIVE":"Compartir esta colmena"
     },
     "DUPLICATE_CLEANUP":{
-        "TITLE":"Cleanup Duplicate Readings",
-        "CREATE_SUBTITLE_1": "This will remove duplicates (from multiple sources) and cleanup data for this device.",
-        "TIME_ZOOM": "Remove duplicates for current view {{start}} to {{end}}",
-        "TIME_SET": "Remove duplicates from {{start}} to {{end}}",
-        "NOTES":"Notes (optional)",
-        "RUN_CLEANUP": "Run cleanup",
-        "RUNNING":"Running Cleanup",
+        "TITLE":"Limpiar lecturas duplicadas",
+        "CREATE_SUBTITLE_1": "Se eliminarán los duplicados (de múltiples fuentes) y limpiarán los datos de este sensor.",
+        "TIME_ZOOM": "Eliminar los duplicados de la vista actual {{start}} hasta {{end}}",
+        "TIME_SET": "Eliminar los duplicados desde {{start}} hasta {{end}}",
+        "NOTES":"Notas (opcional)",
+        "RUN_CLEANUP": "Lanzar limpieza",
+        "RUNNING":"Limpiando",
         "TOTAL":"Total",
-        "REMOVED":"Removed",
-        "CLOSE":"Close",
+        "REMOVED":"Eliminado",
+        "CLOSE":"Cerrar",
         "GROUPS":{
-           "TITLE":"Cleanup Groups",
-           "CREATED":"Created",
+           "TITLE":"Grupos de Limpieza",
+           "CREATED":"Creado",
            "ID":"ID",
-           "FROM":"From",
-           "TO":"To",
-           "TOTAL":"Total Readings",
-           "REMOVED":"Removed Readings",
+           "FROM":"Desde",
+           "TO":"Hasta",
+           "TOTAL":"Total datos",
+           "REMOVED":"Datos limpiados",
            "STATUS":"Status",
-           "ROLLBACK":"Rollback",
-           "STATUS_RUNNING":"running",
-           "STATUS_ROLLING":"rolling back",
-           "STATUS_ROLLED":"rolled back",
-           "STATUS_COMPLETE":"complete",
+           "ROLLBACK":"volver atras",
+           "STATUS_RUNNING":"procesando",
+           "STATUS_ROLLING":"restableciendo",
+           "STATUS_ROLLED":"restablecido",
+           "STATUS_COMPLETE":"completo",
            "ROLLBACK_DIALOG":{
-                "TITLE": "Rollback Duplicate Cleanup",
-                "MESSAGE": "Would you like to rollback this duplicate cleanup?",
-                "CONFIRM": "Yes"
+                "TITLE": "Restablecer limpieza de duplicados",
+                "MESSAGE": "Deseas restablecer la limpieza de duplicados?",
+                "CONFIRM": "Si"
             }
         }
     },
@@ -926,7 +926,7 @@
     		}
     	},
     	"HIVES": {
-    		"TITLE":"Colmenas compartidas con otros sites",
+    		"TITLE":"Colmenas compartidas con otros sitios",
     		"NAME":"Nombre",
     		"DESCRIPTION":"Descripción",
     		"SHARE":"Compartir",
