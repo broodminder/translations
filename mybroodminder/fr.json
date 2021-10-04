@@ -497,15 +497,15 @@
         "ERROR_COUNTRY":"Sélectionnez un code postal valide",
         "SUCCESS_CREATED":"Rucher créé",
         "SUCCESS_UPDATED":"Rucher modifié",
-        "ZIP_INFO":" Zipcode is used for weather services. To get the most of your MyBroodMinder data please enter a valid zipcode.",
+        "ZIP_INFO":" Le code postal est utilisé pour les services météorologiques. Pour tirer le meilleur parti de vos données MyBroodMinder, veuillez saisir un code postal valide..",
         "ZIP_SELECTION":{
-            "NOT_FOUND":"Zipcode not found",
-            "CHECK":"Check again",
-            "SELECT":"Select location on map",
-            "SKIP":"Skip and Create",
-            "LOCATION":"Location",
-            "CREATE_WITH_LOC":"Create with this location",
-            "CANCEL":"Cancel"
+            "NOT_FOUND":"Code postal non trouvé",
+            "CHECK":"Vérifier à nouveau",
+            "SELECT":"Sélectionner un emplacement",
+            "SKIP":"Passer et créer",
+            "LOCATION":"Emplacement",
+            "CREATE_WITH_LOC":"Créer avec cet emplacement",
+            "CANCEL":"Annuler"
         },
         "EDIT_LOCATION": {
             "BUTTON":"Modifier localisation",

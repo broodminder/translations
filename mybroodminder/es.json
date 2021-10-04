@@ -497,21 +497,21 @@
         "ERROR_COUNTRY":"Seleccionar un código país válido",
         "SUCCESS_CREATED":"Colmenar creado",
         "SUCCESS_UPDATED":"Colmenar actualizado",
-        "ZIP_INFO":" Zipcode is used for weather services. To get the most of your MyBroodMinder data please enter a valid zipcode.",
+        "ZIP_INFO":" El código postal se utiliza para los servicios meteorológicos. Para aprovechar al máximo los datos de MyBroodMinder, introduzca un código postal válido.",
         "ZIP_SELECTION":{
-            "NOT_FOUND":"Zipcode not found",
-            "CHECK":"Check again",
-            "SELECT":"Select location on map",
-            "SKIP":"Skip and Create",
-            "LOCATION":"Location",
-            "CREATE_WITH_LOC":"Create with this location",
-            "CANCEL":"Cancel"
+            "NOT_FOUND":"Código postal no existe",
+            "CHECK":"Verificar de nuevo",
+            "SELECT":"Selecciona una ubicación en el mapa",
+            "SKIP":"Pasar y crear",
+            "LOCATION":"Ubicación",
+            "CREATE_WITH_LOC":"Crear con esta ubicación",
+            "CANCEL":"Cancelar"
         },
         "EDIT_LOCATION": {
-            "BUTTON":"Editar Localización",
+            "BUTTON":"Editar ubicación",
             "COORDINATE":"Coordenadas",
-            "TITLE":"Editar Localización Colmenar",
-            "INFO":"Esta localización se utiliza tanto para consultar el tiempo como para mostrar su colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la localización exacta de su colmenar.",
+            "TITLE":"Editar ubicación Colmenar",
+            "INFO":"Esta ubicación se utiliza tanto para consultar el tiempo como para mostrar su colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la ubicación exacta de su colmenar.",
             "POSTAL_ERROR":"Las coordenadas que has seleccionado están fuera del código postal del apiario. Esto no puede ser cambiado.",
             "POSTAL_CHANGE": {
                 "TITLE":"Cambiar Código Postal",
@@ -555,7 +555,7 @@
         "MOVE": {
             "TITLE":"Desplazar colmena",
             "EXP":"Todos los datos de esta colmena permanecen iguales, pero esto colocará a la colmena en el colmenar seleccionado a partir de esta fecha. Esto se refleja en los datos meteorológicos y en las vistas del apiario.",
-            "DAY":"Nueva localización día de inicio",
+            "DAY":"Nueva ubicación día de inicio",
             "TIME":"Tiempo",
             "SELECT_APIARY":"Seleccionar colmenar",
             "SUCCESS":"Colmena desplazada"
