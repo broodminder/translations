@@ -498,6 +498,16 @@
         "ERROR_COUNTRY": "Select valid country code",
         "SUCCESS_CREATED": "Apiary created",
         "SUCCESS_UPDATED": "Apiary updated",
+        "ZIP_INFO":" Zipcode is used for weather services. To get the most of your MyBroodMinder data please enter a valid zipcode.",
+        "ZIP_SELECTION":{
+            "NOT_FOUND":"Zipcode not found",
+            "CHECK":"Check again",
+            "SELECT":"Select location on map",
+            "SKIP":"Skip and Create",
+            "LOCATION":"Location",
+            "CREATE_WITH_LOC":"Create with this location",
+            "CANCEL":"Cancel"
+        },
         "EDIT_LOCATION": {
             "BUTTON": "Edit Location",
             "COORDINATE": "Coordinate",
