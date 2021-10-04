@@ -769,7 +769,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Définir la ruche comme inactive",
-            "MESSAGE":"Ceci met fin à tous les emplacements de capteurs dans la ruche et supprime la ruche de vos vues du rucher. Les données existantes seront conservées, mais les nouvelles données n'iront plus dans cette ruche. Cela ne peut pas être défait. Mettre la ruche {{{name}} sur inactive ?",
+            "MESSAGE":"Ceci met fin à tous les emplacements de capteurs dans la ruche et supprime la ruche de vos vues du rucher. Les relevés existants seront conservées, mais les nouveaux relevés n'iront plus dans cette ruche. Cela ne peut pas être défait. Désactiver la ruche {{name}}?",
             "CONFIRM":"Oui"
          },
         "UPDATED_SUCCESS":"Ruche modifiée",
