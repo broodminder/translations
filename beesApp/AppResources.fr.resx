@@ -1533,4 +1533,25 @@
 	<data name="LOCATIONSERVICES_OPEN">
 		<value>Ouvrer les préférences de Localisation</value>
 	</data>
+	<data name="DEVICEALERT_TITLE">
+		<value>Device Alerts</value>
+	</data>
+	<data name="DEVICEALERT_DISMISS">
+		<value>Dismiss</value>
+	</data>
+	<data name="DEVICEALERT_UPDATE">
+		<value>Update</value>
+	</data>
+	<data name="DEVICEALERT_FIX">
+		<value>Fix</value>
+	</data>
+	<data name="DEVICEALERT_BATTERY">
+		<value>Low battery</value>
+	</data>
+	<data name="DEVICEALERT_FIRMWARE">
+		<value>Firmware update available</value>
+	</data>
+	<data name="DEVICEALERT_SAMPLELIMIT">
+		<value>Device near sample limit</value>
+	</data>
 </root>
