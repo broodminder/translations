@@ -841,7 +841,7 @@
 		<value>{0} capteur, {1} relevés à transférer</value>
 	</data>
 	<data name="DEVICES_CELLUPDATING">
-		<value>Mise à jour dans {0}</value>
+		<value>MàJ dans {0}</value>
 	</data>
 	<data name="DEVICES_CELL_SLEEP1">
 		<value>Capteur en mode veille.</value>
