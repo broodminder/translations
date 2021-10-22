@@ -1531,27 +1531,27 @@
 		<value>Ok</value>
 	</data>
 	<data name="LOCATIONSERVICES_OPEN">
-		<value>Ouvrer les préférences de Localisation</value>
+		<value>Ouvrir les préférences de Localisation</value>
 	</data>
 	<data name="DEVICEALERT_TITLE">
-		<value>Device Alerts</value>
+		<value>Alertes Capteurs</value>
 	</data>
 	<data name="DEVICEALERT_DISMISS">
-		<value>Dismiss</value>
+		<value>Vu</value>
 	</data>
 	<data name="DEVICEALERT_UPDATE">
-		<value>Update</value>
+		<value>Actualiser</value>
 	</data>
 	<data name="DEVICEALERT_FIX">
-		<value>Fix</value>
+		<value>Réparer</value>
 	</data>
 	<data name="DEVICEALERT_BATTERY">
-		<value>Low battery</value>
+		<value>Batterie faible</value>
 	</data>
 	<data name="DEVICEALERT_FIRMWARE">
-		<value>Firmware update available</value>
+		<value>MàJ logiciel disponible</value>
 	</data>
 	<data name="DEVICEALERT_SAMPLELIMIT">
-		<value>Device near sample limit</value>
+		<value>Limite de relevés proche</value>
 	</data>
 </root>

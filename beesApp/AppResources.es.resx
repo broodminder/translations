@@ -1534,24 +1534,24 @@
 		<value>Abrir preferencias de localización</value>
 	</data>
 	<data name="DEVICEALERT_TITLE">
-		<value>Device Alerts</value>
+		<value>Alertas sensores</value>
 	</data>
 	<data name="DEVICEALERT_DISMISS">
-		<value>Dismiss</value>
+		<value>ok</value>
 	</data>
 	<data name="DEVICEALERT_UPDATE">
-		<value>Update</value>
+		<value>Actualizar</value>
 	</data>
 	<data name="DEVICEALERT_FIX">
-		<value>Fix</value>
+		<value>Resolver</value>
 	</data>
 	<data name="DEVICEALERT_BATTERY">
-		<value>Low battery</value>
+		<value>Bateria baja</value>
 	</data>
 	<data name="DEVICEALERT_FIRMWARE">
-		<value>Firmware update available</value>
+		<value>Actualización firmware</value>
 	</data>
 	<data name="DEVICEALERT_SAMPLELIMIT">
-		<value>Device near sample limit</value>
+		<value>Límite de memoria</value>
 	</data>
 </root>
