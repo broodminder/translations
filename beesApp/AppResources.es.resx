@@ -603,6 +603,9 @@
 	<data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
 		<value>Eliminar Datos Locales</value>
 	</data>
+	<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
+		<value>Upload Local Data</value>
+	</data>
 	<data name="DEVICEDETAIL_NOTIF_EVENT">
 		<value>Evento</value>
 	</data>
@@ -752,6 +755,27 @@
 	</data>
 	<data name="DEVICEDETAIL_DELETE_CONFIRM">
 		<value>Si, Vaciar Datos</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_NONE">
+		<value>No offline data found for {0}</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_TITLE">
+		<value>Upload local data?</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_CONFIRM">
+		<value>Upload now</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_MESSAGE">
+		<value>Found {0} local-only readings for {1}. Upload these to MyBroodminder.com now?</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_SUCCESS">
+		<value>Readings uploaded</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_FAILURE">
+		<value>Readings not uploaded</value>
+	</data>
+	<data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
+		<value>Not allowed to upload data for this device</value>
 	</data>
 	<data name="DEVICES_NONE">
 		<value>No se encuentra ningun sensor</value>
