@@ -973,11 +973,11 @@
     "EXP":{
       "TRIAL":"Trial membership, expires on {{expiration}}",
       "NOT_ACTIVE":"Not Active",
-      "SUB_CANCELLED":"Cancelled, expires on {{expiration}}",
+      "SUB_CANCELLED":"Non-renewing, expires on {{expiration}}",
       "SUB_RENEWING":"Renews on {{expiration}}",
       "SUB_EXPIRED":"Expired on {{expiration}}",
       "SUB_EXPIRING":"Expires on {{expiration}}",
-      "CREDIT_CANCELLED":"Cancelled, expires on {{expiration}}",
+      "CREDIT_CANCELLED":"Non-renewing, expires on {{expiration}}",
       "CREDIT_FREE_RENEWING":"Free, expires on {{expiration}}",
       "CREDIT_EXPIRED":"Expired on {{expiration}}",
       "CREDIT_EXPIRING":"Expires on {{expiration}}",
