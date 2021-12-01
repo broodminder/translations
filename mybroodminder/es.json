@@ -354,7 +354,8 @@
         "HIVES_TITLE":"Colmenas",
         "DEVICES_TITLE":"Sensores",
         "HUBS_TITLE":"Hubs",
-        "LINKS_TITLE":"Public Links"
+        "LINKS_TITLE":"Public Links",
+        "THIRD_PARTY_TITLE":"Third Party Devices"
     },
 	"FEATURES": {
 		"TITLE":"Tour de las funciones",
@@ -578,7 +579,18 @@
         "SUCCESS_UPDATED":"Sensor actualizado",
         "PLACE_TITLE":"Posicionar sensor",
         "SELECT_POSITION":"Seleccionar posición",
-        "SUCCESS_PLACED":"Sensor posicionado en la colmena"
+        "SUCCESS_PLACED":"Sensor posicionado en la colmena",
+        "THIRD_PARTY":{
+            "TITLE":"Add Third Party Device",
+            "PROVIDER":"Choose Provider",
+            "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
+            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+            "NAME_REQUIRED":"Name required",
+            "YOLINK_SN_REQUIRED":"YoLink SN required",
+            "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
+            "ERROR_YOLINK_OTHER_USER":"YoLink device already registered with another account",
+            "ERROR_GENERAL":"Error adding device"
+        }
     },
     "NOTE_CRUD": {
         "CREATE_TITLE":"Nueva Nota",
@@ -796,6 +808,7 @@
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Sin asignar",
         "EDIT":"Gestionar",
+        "THIRD_PARTY_DEVICE":"Third Party Device",
         "MANAGE": {
             "TITLE":"Gestionar",
             "CLOSE":"Hecho",
@@ -804,6 +817,7 @@
             "CANCEL_CREDIT":"Retirar ficha de auto-renov",
             "REACTIVATE_CREDIT":"Reactivar ficha",
             "SELECT_CREDIT":"Seleccionar ficha",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
             "BACK_BUTTON":"Atras",
@@ -869,7 +883,13 @@
         },
         "UPDATED_SUCCESS":"Sensor actualizado",
         "DELETE_SUCCESS":"Sensor suprimido",
-        "DELETE_ERROR":"Error suprimiendo sensor"
+        "DELETE_ERROR":"Error suprimiendo sensor",
+        "THIRD_PARTY":{
+            "ADD":"Add Third Party Device",
+            "ERROR_NO_CREDIT":"No token assigned, data not being collected",
+            "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
+            "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+        }
     },
     "UNAUTHORIZED_PAGE": {
         "TITLE":"No autorizado"

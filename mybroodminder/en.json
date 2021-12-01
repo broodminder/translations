@@ -328,7 +328,6 @@
             },
             "REMOVE_DUPLICATES_BUTTON":"Remove Duplicates",
             "REMOVE_DUPLICATES_TITLE":"Removed Duplicates"
-
         }
     },
     "HUB_PAGE": {
@@ -355,7 +354,8 @@
         "HIVES_TITLE": "Hives",
         "DEVICES_TITLE": "Devices",
         "HUBS_TITLE": "Hubs",
-        "LINKS_TITLE":"Public Links"
+        "LINKS_TITLE":"Public Links",
+        "THIRD_PARTY_TITLE":"Third Party Devices"
     },
     "FEATURES": {
         "TITLE": "Feature Tour",
@@ -579,7 +579,18 @@
         "SUCCESS_UPDATED": "Device updated",
         "PLACE_TITLE": "Place Device",
         "SELECT_POSITION": "Select position",
-        "SUCCESS_PLACED": "Device placed in hive"
+        "SUCCESS_PLACED": "Device placed in hive",
+        "THIRD_PARTY":{
+            "TITLE":"Add Third Party Device",
+            "PROVIDER":"Choose Provider",
+            "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
+            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+            "NAME_REQUIRED":"Name required",
+            "YOLINK_SN_REQUIRED":"YoLink SN required",
+            "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
+            "ERROR_YOLINK_OTHER_USER":"YoLink device already registered with another account",
+            "ERROR_GENERAL":"Error adding device"
+        }
     },
     "NOTE_CRUD": {
         "CREATE_TITLE": "Create Note",
@@ -797,6 +808,7 @@
         "HUB": "Hub",
         "EXP_UNASSIGNED": "None",
         "EDIT": "Manage",
+        "THIRD_PARTY_DEVICE":"Third Party Device",
         "MANAGE": {
             "TITLE": "Manage",
             "CLOSE": "Done",
@@ -805,6 +817,7 @@
             "CANCEL_CREDIT": "Remove token from auto-renew",
             "REACTIVATE_CREDIT": "Reactivate token",
             "SELECT_CREDIT": "Select Token",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
             "PURCHASE_CREDIT": "Purchase New",
             "UPDATED_SUCCESS": "Hub updated",
             "BACK_BUTTON": "Back",
@@ -870,7 +883,13 @@
         },
         "UPDATED_SUCCESS": "Device updated",
         "DELETE_SUCCESS": "Device deleted",
-        "DELETE_ERROR": "Error deleting device"
+        "DELETE_ERROR": "Error deleting device",
+        "THIRD_PARTY":{
+            "ADD":"Add Third Party Device",
+            "ERROR_NO_CREDIT":"No token assigned, data not being collected",
+            "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
+            "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+        }
     },
     "UNAUTHORIZED_PAGE": {
         "TITLE": "Unauthorized"

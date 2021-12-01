@@ -354,7 +354,8 @@
     "HIVES_TITLE": "Bijenkasten",
     "DEVICES_TITLE": "Apparaten",
     "HUBS_TITLE":"Hubs",
-    "LINKS_TITLE":"Public Links"
+    "LINKS_TITLE":"Public Links",
+    "THIRD_PARTY_TITLE":"Third Party Devices"
   },
   "FEATURES": {
     "TITLE": "Feature Tour",
@@ -578,7 +579,18 @@
     "SUCCESS_UPDATED": "Sensor geupdate",
     "PLACE_TITLE": "Plaats sensor",
     "SELECT_POSITION": "Selecteer positie",
-    "SUCCESS_PLACED": "Sensor in hive geplaatst"
+    "SUCCESS_PLACED": "Sensor in hive geplaatst",
+    "THIRD_PARTY":{
+        "TITLE":"Add Third Party Device",
+        "PROVIDER":"Choose Provider",
+        "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
+        "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+        "NAME_REQUIRED":"Name required",
+        "YOLINK_SN_REQUIRED":"YoLink SN required",
+        "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
+        "ERROR_YOLINK_OTHER_USER":"YoLink device already registered with another account",
+        "ERROR_GENERAL":"Error adding device"
+    }
   },
   "NOTE_CRUD": {
     "CREATE_TITLE": "Notitie aanmaken",
@@ -797,6 +809,7 @@
     "HUB":"Hub",
     "EXP_UNASSIGNED":"None",
     "EDIT":"Manage",
+    "THIRD_PARTY_DEVICE":"Third Party Device",
     "MANAGE":{
       "TITLE":"Manage",
       "CLOSE":"Done",
@@ -805,6 +818,7 @@
       "CANCEL_CREDIT":"Remove token from auto-renew",
       "REACTIVATE_CREDIT":"Reactivate token",
       "SELECT_CREDIT":"Select Token",
+      "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
       "PURCHASE_CREDIT":"Purchase New",
       "UPDATED_SUCCESS":"Hub updated",
       "BACK_BUTTON":"Back",
@@ -870,7 +884,13 @@
     },
     "UPDATED_SUCCESS": "Sensor geupdate",
     "DELETE_SUCCESS": "Sensor verwijderd",
-    "DELETE_ERROR": "Fout bij verwijderen sensor"
+    "DELETE_ERROR": "Fout bij verwijderen sensor",
+    "THIRD_PARTY":{
+        "ADD":"Add Third Party Device",
+        "ERROR_NO_CREDIT":"No token assigned, data not being collected",
+        "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
+        "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+    }
   },
   "UNAUTHORIZED_PAGE": {
     "TITLE": "Niet toegestaan"

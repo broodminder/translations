@@ -354,7 +354,8 @@
         "HIVES_TITLE":"Ruches",
         "DEVICES_TITLE":"Capteurs",
         "HUBS_TITLE":"Hubs",
-        "LINKS_TITLE":"Liens Publiques"
+        "LINKS_TITLE":"Liens Publiques",
+        "THIRD_PARTY_TITLE":"Third Party Devices"
     },
 	"FEATURES": {
 		"TITLE":"Tour d'horizon",
@@ -578,7 +579,18 @@
         "SUCCESS_UPDATED":"Capteur modifié",
         "PLACE_TITLE":"Placer le capteur",
         "SELECT_POSITION":"Choisir une position",
-        "SUCCESS_PLACED":"Capteur placé dans la ruche"
+        "SUCCESS_PLACED":"Capteur placé dans la ruche",
+        "THIRD_PARTY":{
+            "TITLE":"Add Third Party Device",
+            "PROVIDER":"Choose Provider",
+            "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
+            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+            "NAME_REQUIRED":"Name required",
+            "YOLINK_SN_REQUIRED":"YoLink SN required",
+            "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
+            "ERROR_YOLINK_OTHER_USER":"YoLink device already registered with another account",
+            "ERROR_GENERAL":"Error adding device"
+        }
     },
     "NOTE_CRUD": {
         "CREATE_TITLE":"Créer une note",
@@ -796,6 +808,7 @@
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Non assigné",
         "EDIT":"Gérer",
+        "THIRD_PARTY_DEVICE":"Third Party Device",
         "MANAGE": {
             "TITLE":"Gérer",
             "CLOSE":"Terminé",
@@ -804,6 +817,7 @@
             "CANCEL_CREDIT":"Retirer jeton de renouv. auto",
             "REACTIVATE_CREDIT":"Réactiver jeton",
             "SELECT_CREDIT":"Sélectionner jeton",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
             "PURCHASE_CREDIT":"Acheter nouveau jeton",
             "UPDATED_SUCCESS":"Hub mis à jour",
             "BACK_BUTTON":"Arrière",
@@ -869,7 +883,13 @@
         },
         "UPDATED_SUCCESS":"Capteur modifié",
         "DELETE_SUCCESS":"Capteur supprimé",
-        "DELETE_ERROR":"Erreur de suppression du capteur"
+        "DELETE_ERROR":"Erreur de suppression du capteur",
+        "THIRD_PARTY":{
+            "ADD":"Add Third Party Device",
+            "ERROR_NO_CREDIT":"No token assigned, data not being collected",
+            "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
+            "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+        }
     },
     "UNAUTHORIZED_PAGE": {
         "TITLE":"Non autorisé"
