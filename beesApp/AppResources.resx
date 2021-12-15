@@ -741,11 +741,17 @@
 	<data name="DEVICEDETAIL_LIVE_HEADER_HUMIDITY">
 		<value>H</value>
 	</data>
+	<data name="DEVICEDETAIL_LIVE_HEADER_BALANCE">
+		<value>bal%</value>
+	</data>
 	<data name="DEVICEDETAIL_CHART_TEMPEVENT">
 		<value>Temperature Event</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_RX">
 		<value>RX</value>
+	</data>
+	<data name="DEVICEDETAIL_CHART_BROODZONE">
+		<value>Brood Zone</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_MESSAGE">
 		<value>Are you sure you want to delete all local data?</value>
@@ -1427,6 +1433,9 @@
 	</data>
 	<data name="HUBDETAIL_LASTUPLOAD">
 		<value>MBM Last Upload</value>
+	</data>
+	<data name="HUBDETAIL_LASTUPLOADNEVER">
+		<value>Never</value>
 	</data>
 	<data name="HUBDETAIL_BATTERY">
 		<value>Battery</value>
