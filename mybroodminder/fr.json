@@ -418,7 +418,9 @@
         "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Episode thermique"
-        }
+        },
+        "BROOD_ZONE":"Brood Zone",
+        "HUMIDITY_NORMAL":"Normal"
     },
     "LOCATION_HIST": {
         "HIVE":"Ruche",

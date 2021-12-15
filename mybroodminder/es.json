@@ -418,7 +418,9 @@
         "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Evento de Temperatura"
-        }
+        },
+        "BROOD_ZONE":"Brood Zone",
+        "HUMIDITY_NORMAL":"Normal"
     },
     "LOCATION_HIST": {
         "HIVE":"Colmena",
