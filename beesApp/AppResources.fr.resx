@@ -217,7 +217,7 @@
 		<value>Pas de capteurs</value>
 	</data>
 	<data name="APIARIES_FILTERSENSOR">
-		<value>View current readings</value>
+		<value>Voir les mesures actuelles</value>
 	</data>
 	<data name="APIARIES_CONTEXT_NEWAPIARY">
 		<value>Nouveau rucher</value>
@@ -295,10 +295,10 @@
 		<value>Oui, effacer les données</value>
 	</data>
 	<data name="DEVICE_CLAIM_MESSAGE">
-		<value>Déclarer un capteur l'ajoute à votre compte MyBroodminder et met à jour les mesures collectées par les capteurs. Voulez-vous déclarer un capteur {0}?</value>
+		<value>Réclamer un capteur l'ajoute à votre compte MyBroodminder et actualise ses relevés. Voulez-vous réclamer le capteur {0}?</value>
 	</data>
 	<data name="DEVICE_CLAIM_CONFIRM">
-		<value>Oui, Déclarer un capteur</value>
+		<value>Oui, Réclamer le capteur</value>
 	</data>
 	<data name="DEVICE_STATUS_UNAVAILABLE">
 		<value>Indisponible</value>
@@ -493,7 +493,7 @@
 		<value>Erreur, ruche non déplacée</value>
 	</data>
 	<data name="MOVE_HIVE_TIMEERROR">
-		<value>Date de début avant date de début de la position actuelle</value>
+		<value>Date de début antérieure au début de la position actuelle</value>
 	</data>
 	<data name="MOVE_HIVE_APIARYERROR">
 		<value>*Rucher requis</value>
@@ -559,7 +559,7 @@
 		<value>Ajouter un capteur</value>
 	</data>
 	<data name="CLAIM_DEVICE_CLAIM">
-		<value>Déclarer</value>
+		<value>Réclamer</value>
 	</data>
 	<data name="CLAIM_DEVICE_OWNED">
 		<value>Impossible d'ajouter ce capteur. Il appartient à un autre compte.</value>
@@ -604,7 +604,7 @@
 		<value>Effacer les données locales</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
-		<value>Upload Local Data</value>
+		<value>Télécharger Données Locales</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_EVENT">
 		<value>Évènement</value>
@@ -751,7 +751,7 @@
 		<value>RX</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_BROODZONE">
-		<value>Brood Zone</value>
+		<value>Zone de Couvain</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_MESSAGE">
 		<value>Êtes-vous sûr de vouloir effacer toutes les données locales?</value>
@@ -763,25 +763,25 @@
 		<value>Oui, Effacer les données</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_NONE">
-		<value>No offline data found for {0}</value>
+		<value>Aucune donnée hors ligne trouvée pour {0}</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_TITLE">
-		<value>Upload local data?</value>
+		<value>Télécharger les données locales?</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_CONFIRM">
-		<value>Upload now</value>
+		<value>Télécharger maintenant</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_MESSAGE">
-		<value>Found {0} local-only readings for {1}. Upload these to MyBroodminder.com now?</value>
+		<value>{0} relevés locaux trouvés pour {1}. les télécharger vers MyBroodminder.com?</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_SUCCESS">
-		<value>Readings uploaded</value>
+		<value>Relevés téléchargés</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_FAILURE">
-		<value>Readings not uploaded</value>
+		<value>Relevés non téléchargés</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
-		<value>Not allowed to upload data for this device</value>
+		<value>Non autorisé à télécharger des données pour ce capteur</value>
 	</data>
 	<data name="DEVICES_NONE">
 		<value>Aucun capteur trouvé</value>
@@ -910,7 +910,7 @@
 		<value>Erreur, capteur non déplacé</value>
 	</data>
 	<data name="EDITLOCATION_ERRORTIME">
-		<value>La date de fin doit être supérieure à la date de début.</value>
+		<value>La date de fin doit être posterieure à la date de début.</value>
 	</data>
 	<data name="MOVEDEVICE_FROM">
 		<value>Supprimer de</value>
