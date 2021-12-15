@@ -274,7 +274,7 @@
         "LOCATION_ADD":"Ajouter un emplacement",
         "LOADING":"Chargement des reléves du capteur",
         "DOWNLOAD":"Télécharger les données au format CSV",
-        "DOWNLOAD_VIEW":"Télécharger les relevés sur la durée affichéé",
+        "DOWNLOAD_VIEW":"Télécharger la periode affichéé",
         "DOWNLOAD_HIST":"Télécharger tout l'historique",
         "OUTLIER_SHOW":"Afficher l'editeur de données",
         "OUTLIER_HIDE":"Masquer l'éditeur de données",
