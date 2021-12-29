@@ -105,12 +105,11 @@
 		"IN_PROGRESS":"En curso",
 		"INSTALLATION": {
 			"TITLE":"Instalación",
-			"LINK_1":"Inicio Rápido",
+			"LINK_1":"Inicio Rápido CS Kit",
 			"LINK_2":"Que APP debo utilizar?",
-			"LINK_3":"BroodMinder Sensores",
+			"LINK_3":"Instalación BroodMinder ASP",
 			"LINK_4":"BroodMinder-Cell/WiFi",
-            "LINK_5": "BroodMinder-SubHub",
-            "LINK_6": "T2/TH2 Modo Eco"
+            "LINK_5": "BroodMinder-SubHub"
         },
         "UPDATES_2020": {
             "TITLE":"Actualizaciones 2020",
@@ -586,7 +585,7 @@
             "TITLE":"Add Third Party Device",
             "PROVIDER":"Choose Provider",
             "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
-            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from third party devices",
             "NAME_REQUIRED":"Name required",
             "YOLINK_SN_REQUIRED":"YoLink SN required",
             "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
