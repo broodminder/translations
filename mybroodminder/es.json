@@ -104,18 +104,13 @@
 		"HOW_TO":"Como usar este manual",
 		"IN_PROGRESS":"En curso",
 		"INSTALLATION": {
-			"TITLE":"Instalación",
+			"TITLE":"",
 			"LINK_1":"Inicio Rápido CS Kit",
 			"LINK_2":"Que APP debo utilizar?",
 			"LINK_3":"Instalación BroodMinder ASP",
-			"LINK_4":"BroodMinder-Cell/WiFi",
-            "LINK_5": "BroodMinder-SubHub"
-        },
-        "UPDATES_2020": {
-            "TITLE":"Actualizaciones 2020",
-			"LINK_1":"Resumen de actualización",
-			"LINK_2":"Actualización Cell/WiFi",
-			"LINK_3":"Actualizar el T2"
+			"LINK_4": "BroodMinder-SubHub",            
+            "LINK_5": "BroodMinder-WIFI",
+            "LINK_6": "BroodMinder-CELL"
         },
 		"APIARY_APP": {
 			"TITLE":"App Apiary (cloud)",
@@ -155,7 +150,11 @@
 			"LINK_5":"Fluctuaciones de peso",
 			"LINK_6":"Corrosión",
 			"LINK_7":"Actualización del Firmware T2 v2.77"
-		}
+		},
+        "DISCONTINUED": {
+            "TITLE": "Discontinued",
+            "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+        }
 	},
 	"TOUR": {
 		"START": {

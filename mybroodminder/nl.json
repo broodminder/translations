@@ -108,14 +108,9 @@
       "LINK_1": "Quick Start CS Kit",
       "LINK_2": "Welke APP moet ik gebruiken?",
       "LINK_3": "Installatie BroodMinder ASP",
-      "LINK_4": "BroodMinder-CELL/WIFI",
-      "LINK_5": "BroodMinder-SubHub"
-    },
-    "UPDATES_2020":{
-      "TITLE":"2020 Updates",
-      "LINK_1":"Update Overview",
-      "LINK_2":"Cell/WiFi updates",
-      "LINK_3":"Troubleshooting T2 Updates"
+      "LINK_4": "BroodMinder-SubHub",            
+      "LINK_5": "BroodMinder-WIFI",
+      "LINK_6": "BroodMinder-CELL"
     },
     "APIARY_APP": {
       "TITLE": "Apiary App (cloud)",
@@ -155,6 +150,10 @@
       "LINK_5": "Gewichtsschommelingen",
       "LINK_6": "Corrosie",
       "LINK_7": "T2 Firmware Update versie 2.77"
+    },
+    "DISCONTINUED": {
+        "TITLE": "Discontinued",
+        "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
     }
   },
   "TOUR": {
