@@ -110,23 +110,9 @@
 			"LINK_3":"Instalación BroodMinder ASP",
 			"LINK_4": "BroodMinder-SubHub",            
             "LINK_5": "BroodMinder-WIFI",
-            "LINK_6": "BroodMinder-CELL"
+            "LINK_6": "BroodMinder-CELL",
+            "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
         },
-		"APIARY_APP": {
-			"TITLE":"App Apiary (cloud)",
-			"LINK_1":"Utilización normal",
-			"LINK_2":"Nuevo - Modo Hub"
-		},
-		"BROODMINDER_APP": {
-			"TITLE":"Broodminder App (standalone)",
-			"LINK_1":"Utilización normal",
-			"LINK_2":"Exportar Datos"
-		},
-		"CELL_APP": {
-			"TITLE":"Cell App",
-			"LINK_1":"Utilización normal (ver instalación)",
-			"LINK_2":"Análisis"
-		},
 		"MYBROODMINDER": {
 			"TITLE":"MyBroodMinder",
 			"LINK_1":"Empezar",
@@ -136,24 +122,51 @@
 			"LINK_5":"Monitoring con Cell, WiFi y Hub",
 			"LINK_6":"Navegación alternativa"
 		},
-		"INTERPRETATION": {
-			"TITLE":"Interpretación de datos",
-			"LINK_1":"Temperatura",
-			"LINK_2":"Peso"
-		},
-		"TROUBLESHOOT": {
-			"TITLE":"Solución de problemas",
-			"LINK_1":"Mantenimiento anual",
-			"LINK_2":"Baterías",
-			"LINK_3":"Conexión Bluetooth",
-			"LINK_4":"Usuarios de Android",
-			"LINK_5":"Fluctuaciones de peso",
-			"LINK_6":"Corrosión",
-			"LINK_7":"Actualización del Firmware T2 v2.77"
-		},
+		"APPS": {
+            "TITLE": "Apps",
+            "LINK_1": "S1:E14 The BroodMinder-Bees App",
+            "LINK_2": "Apiary App - Modo Hub"
+        },
+        "INTERPRETATION": {
+            "TITLE":"Interpretación de datos",
+            "LINK_1": "S1:E4 BroodMinder and Mellisphera",
+            "LINK_2": "S1:E3 Colony size vs temperature",
+            "LINK_3": "S1:E8 Swarm Detection presentation"
+        },
+        "MAINTENANCE": {
+            "TITLE": "Maintenance",
+            "LINK_1": "S1:E1 Hive Monitoring Spring Maintenance",
+            "LINK_2": "S1:E18 Batteries"
+        },
         "DISCONTINUED": {
-            "TITLE": "Discontinued",
-            "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+            "TITLE": "Discontinued Products",
+            "APIARY_APP": {
+                "TITLE":"App Apiary (cloud)",
+                "LINK_1":"Utilización normal",
+                "LINK_2":"Nuevo - Modo Hub"
+            },
+            "BROODMINDER_APP": {
+                "TITLE":"Broodminder App (standalone)",
+                "LINK_1":"Utilización normal",
+                "LINK_2":"Exportar Datos"
+            },
+            "CELL_APP": {
+                "TITLE":"Cell App",
+                "LINK_1":"Análisis"
+            },
+            "TROUBLESHOOT": {
+                "TITLE":"Solución de problemas",
+                "LINK_1":"Mantenimiento anual",
+                "LINK_2":"Baterías",
+                "LINK_3":"Actualización del Firmware T2 v2.77"
+            },
+            "ORIGINAL_CELL_WIFI": {
+                "TITLE": "Original CELL/WIFI",
+                "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+            }
+        },
+        "BLOGMINDER": {
+            "TITLE": "BlogMinder Videos"
         }
 	},
 	"TOUR": {
