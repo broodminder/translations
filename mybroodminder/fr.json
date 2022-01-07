@@ -105,34 +105,14 @@
 		"IN_PROGRESS":"En cours",
 		"INSTALLATION": {
 			"TITLE":"Installation",
-			"LINK_1":"Démarrage rapide",
+			"LINK_1":"Démarrage rapide CS Kit",
 			"LINK_2":"Quelle APP devrais-je choisir ?",
-			"LINK_3":"Appareils de BroodMinder",
-			"LINK_4":"BroodMinder-CELL/WIFI",
-            "LINK_5": "BroodMinder-SubHub",
-            "LINK_6": "T2/TH2 Mode économe"
+			"LINK_3":"Installation BroodMinder ASP",
+			"LINK_4": "BroodMinder-SubHub",            
+            "LINK_5": "BroodMinder-WIFI",
+            "LINK_6": "BroodMinder-CELL",
+            "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
         },
-        "UPDATES_2020": {
-            "TITLE":"Mises à jour 2020",
-			"LINK_1":"Contenu de la mise à jour",
-			"LINK_2":"Mise à jour du Cell/WiFi",
-			"LINK_3":"Diagnostics pour le T2"
-        },
-		"APIARY_APP": {
-			"TITLE":"Apiary App (cloud)",
-			"LINK_1":"Utilisation normale",
-			"LINK_2":"Nouveau - Mode Hub"
-		},
-		"BROODMINDER_APP": {
-			"TITLE":"App Originale (autonome)",
-			"LINK_1":"Utilisation normale",
-			"LINK_2":"Export des données"
-		},
-		"CELL_APP": {
-			"TITLE":"CELL App",
-			"LINK_1":"Utilisation normale (voir l'installation)",
-			"LINK_2":"Diagnostics"
-		},
 		"MYBROODMINDER": {
 			"TITLE":"MyBroodMinder",
 			"LINK_1":"Prise en main",
@@ -142,21 +122,52 @@
 			"LINK_5":"Vérification du Cell, WIFI et Hub",
 			"LINK_6":"Navigation alternative"
 		},
-		"INTERPRETATION": {
-			"TITLE":"Interprétation des données",
-			"LINK_1":"Température de la ruche",
-			"LINK_2":"Poids de la ruche"
-		},
-		"TROUBLESHOOT": {
-			"TITLE":"Dépannage",
-			"LINK_1":"Entretien annuel",
-			"LINK_2":"Batteries",
-			"LINK_3":"Connexion Bluetooth",
-			"LINK_4":"Considérations sur Android",
-			"LINK_5":"Fluctuations de poids",
-			"LINK_6":"Corrosion",
-			"LINK_7":"Mise à jour du micrologiciel T2 version 2.77"
-		}
+		"APPS": {
+            "TITLE": "Apps",
+            "LINK_1": "S1:E14 The BroodMinder-Bees App",
+            "LINK_2": "Apiary App - Mode Hub"
+        },
+        "INTERPRETATION": {
+            "TITLE":"Interprétation des données",
+            "LINK_1": "S1:E4 BroodMinder and Mellisphera",
+            "LINK_2": "S1:E3 Colony size vs temperature",
+            "LINK_3": "S1:E8 Swarm Detection presentation"
+        },
+        "MAINTENANCE": {
+            "TITLE": "Maintenance",
+            "LINK_1": "S1:E1 Hive Monitoring Spring Maintenance",
+            "LINK_2": "S1:E18 Batteries"
+        },
+        "DISCONTINUED": {
+            "TITLE": "Discontinued Products",
+            "APIARY_APP": {
+                "TITLE":"Apiary App (cloud)",
+                "LINK_1":"Utilisation normale",
+                "LINK_2":"Nouveau - Mode Hub"
+            },
+            "BROODMINDER_APP": {
+                "TITLE":"App Originale (autonome)",
+                "LINK_1":"Utilisation normale",
+                "LINK_2":"Export des données"
+            },
+            "CELL_APP": {
+                "TITLE":"CELL App",
+                "LINK_1":"Diagnostics"
+            },
+            "TROUBLESHOOT": {
+                "TITLE":"Dépannage",
+                "LINK_1":"Entretien annuel",
+                "LINK_2":"Batteries",
+                "LINK_3":"Mise à jour du micrologiciel T2 version 2.77"
+            },
+            "ORIGINAL_CELL_WIFI": {
+                "TITLE": "CELL/WIFI Originale",
+                "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+            }
+        },
+        "BLOGMINDER": {
+            "TITLE": "BlogMinder Videos"
+        }
 	},
 	"TOUR": {
 		"START": {
@@ -586,7 +597,7 @@
             "TITLE":"Add Third Party Device",
             "PROVIDER":"Choose Provider",
             "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
-            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from third party devices",
             "NAME_REQUIRED":"Name required",
             "YOLINK_SN_REQUIRED":"YoLink SN required",
             "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",

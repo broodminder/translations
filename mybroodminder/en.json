@@ -105,33 +105,13 @@
         "IN_PROGRESS": "In progress",
         "INSTALLATION": {
             "TITLE": "Installation",
-            "LINK_1": "Quick Start",
+            "LINK_1": "Quick Start with CS Kit",
             "LINK_2": "Which APP Should I Choose?",
-            "LINK_3": "BroodMinder Devices",
-            "LINK_4": "BroodMinder-CELL/WIFI",
-            "LINK_5": "BroodMinder-SubHub",
-            "LINK_6": "T2/TH2 Battery Saver Mode"
-        },
-        "UPDATES_2020": {
-            "TITLE": "2020 Updates",
-            "LINK_1": "Update Overview",
-            "LINK_2": "Cell/WiFi updates",
-            "LINK_3": "Troubleshooting T2 Updates"
-        },
-        "APIARY_APP": {
-            "TITLE": "Apiary App (cloud)",
-            "LINK_1": "Normal Use",
-            "LINK_2": "New - Hub Mode"
-        },
-        "BROODMINDER_APP": {
-            "TITLE": "Original App (standalone)",
-            "LINK_1": "Normal Use",
-            "LINK_2": "Data Exporting"
-        },
-        "CELL_APP": {
-            "TITLE": "CELL App",
-            "LINK_1": "Normal Use (see install)",
-            "LINK_2": "Diagnostics"
+            "LINK_3": "BroodMinder ASP Installation",
+            "LINK_4": "BroodMinder-SubHub",            
+            "LINK_5": "BroodMinder-WIFI",
+            "LINK_6": "BroodMinder-CELL",
+            "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
         },
         "MYBROODMINDER": {
             "TITLE": "MyBroodMinder",
@@ -142,20 +122,51 @@
             "LINK_5": "Cell, WIFI and Hub Monitoring",
             "LINK_6": "Alternate Navigation"
         },
+        "APPS": {
+            "TITLE": "Apps",
+            "LINK_1": "S1:E14 The BroodMinder-Bees App",
+            "LINK_2": "Apiary App - Hub Mode"
+        },
         "INTERPRETATION": {
             "TITLE": "Data Interpretation",
-            "LINK_1": "Hive Temperature",
-            "LINK_2": "Hive Weight"
+            "LINK_1": "S1:E4 BroodMinder and Mellisphera",
+            "LINK_2": "S1:E3 Colony size vs temperature",
+            "LINK_3": "S1:E8 Swarm Detection presentation"
         },
-        "TROUBLESHOOT": {
-            "TITLE": "Troubleshooting",
-            "LINK_1": "Annual Maintenance",
-            "LINK_2": "Batteries",
-            "LINK_3": "Bluetooth Connection",
-            "LINK_4": "Android Considerations",
-            "LINK_5": "Weight Fluctuations",
-            "LINK_6": "Corrosion",
-            "LINK_7": "T2 Firmware Update version 2.77"
+        "MAINTENANCE": {
+            "TITLE": "Maintenance",
+            "LINK_1": "S1:E1 Hive Monitoring Spring Maintenance",
+            "LINK_2": "S1:E18 Batteries"
+        },
+        "DISCONTINUED": {
+            "TITLE": "Discontinued Products",
+            "APIARY_APP": {
+                "TITLE": "Apiary App (cloud)",
+                "LINK_1": "Normal Use",
+                "LINK_2": "New - Hub Mode"
+            },
+            "BROODMINDER_APP": {
+                "TITLE": "Original App (standalone)",
+                "LINK_1": "Normal Use",
+                "LINK_2": "Data Exporting"
+            },
+            "CELL_APP": {
+                "TITLE": "CELL App",
+                "LINK_1": "Diagnostics"
+            },
+            "TROUBLESHOOT": {
+                "TITLE": "Troubleshooting",
+                "LINK_1": "Annual Maintenance",
+                "LINK_2": "Batteries",
+                "LINK_3": "T2 Firmware Update version 2.77"
+            },
+            "ORIGINAL_CELL_WIFI": {
+                "TITLE": "Original CELL/WIFI",
+                "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+            }
+        },
+        "BLOGMINDER": {
+            "TITLE": "BlogMinder Videos"
         }
     },
     "TOUR": {
@@ -540,7 +551,7 @@
                 "NONE": "Don't show a weight device on the Apiary Summary"
             },
             "TEMP": {
-                "DESCRIPTION": "Temperature device to graph on the Apiary Summar",
+                "DESCRIPTION": "Temperature device to graph on the Apiary Summary",
                 "AUTO": "Auto-select maximum temperature",
                 "NONE": "Don't show a temperature device on the Apiary Summary"
             },
@@ -586,7 +597,7 @@
             "TITLE":"Add Third Party Device",
             "PROVIDER":"Choose Provider",
             "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
-            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from a third party device",
+            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from third party devices",
             "NAME_REQUIRED":"Name required",
             "YOLINK_SN_REQUIRED":"YoLink SN required",
             "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
