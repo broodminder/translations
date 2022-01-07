@@ -193,24 +193,24 @@
 			"DESCRIPTION": "Esta vista muestra gráficos combinados por tipo de datos. Las especificaciones que se muestran siguen los valores predeterminados de la vista de la colmena, pero se pueden establecer por colmena en la configuración de la colmena",
 			"PREMIUM_EXP": "Esta vista está disponible con suscripción premium. Un ejemplo  se muestra a continuación",
 			"TEMP": {
-				"TITLE":"Temperatura del colmenar",
+				"TITLE":"Temperatura de las colmenas",
 				"NONE":"No hay datos de temperatura",
 				"LOADING":"Cargando datos de temperatura del colmenar"
 			},
             "HUMID": {
-				"TITLE":"Humedad del colmenar",
+				"TITLE":"Humedad de las colmenas",
 				"NONE":"No hay datos de humedad",
 				"LOADING":"Cargando datos de humedad del colmenar"
 			},
 			"WEIGHT": {
-				"TITLE":"Peso del colmenar",
+				"TITLE":"Peso de las colmenas",
 				"NONE":"No hay datos de peso",
 				"LOADING":"Cargando datos de peso del colmenar"
 			},
 			"BATTERY": {
-				"TITLE":"Baterías del colmenar",
+				"TITLE":"Batería de los sensores",
 				"NONE":"No hay datos de batería",
-				"LOADING":"Cargando datos de batería del colmenar"
+				"LOADING":"Cargando datos de batería de los sensores"
 			},
 			"HIVES":"Colmenas"
 		}  
