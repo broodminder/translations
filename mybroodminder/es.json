@@ -46,11 +46,11 @@
         "CONFIGURE":"Configurar",
         "MEMBERSHIPS":"Planes",
         "APIARIES_CONTEXT": {
-            "NEW":"Nuevo Colmenar"
+            "NEW":"Nuevo colmenar"
         },
 		"APIARY_CONTEXT": {
 			"EDIT":"Editar {{value}}",
-			"NEW_HIVE":"Nueva Colmena",
+			"NEW_HIVE":"Nueva colmena",
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Export para Investigadores"
@@ -60,7 +60,7 @@
 			"NEW_DEVICE":"Añadir sensor",
 			"EXISTING_DEVICE":"Mover sensor",
             "BEECOUNTED":"BeeCounted",
-            "MOVE":"Desplazar Colmena"
+            "MOVE":"Desplazar colmena"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
