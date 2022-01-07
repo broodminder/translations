@@ -112,7 +112,7 @@
 		<value>Iniciar sesión</value>
 	</data>
 	<data name="SETTINGS_EDITPREF">
-		<value>Editar Ajustes</value>
+		<value>Editar Preferencias</value>
 	</data>
 	<data name="SETTINGS_LOGOUT">
 		<value>Cerrar sesión</value>
@@ -136,7 +136,7 @@
 		<value>ninguna cuenta asociada</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TITLE">
-		<value>Editar Ajustes</value>
+		<value>Editar Preferencias</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
 		<value>Metrico (Celsius/Kilograms)</value>
