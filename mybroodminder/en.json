@@ -70,6 +70,10 @@
         "HUB_CONTEXT": {
             "REMOVE": "Remove {{value}} from menu"
         },
+        "WEATHER_CONTEXT": {
+            "NAME": "Weather",
+            "EDIT": "Edit Weather"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "shared with me"
     },
@@ -120,7 +124,8 @@
             "LINK_3": "Configuration",
             "LINK_4": "Moving Devices",
             "LINK_5": "Cell, WIFI and Hub Monitoring",
-            "LINK_6": "Alternate Navigation"
+            "LINK_6": "Alternate Navigation",
+            "LINK_7":"MyBroodMinder.com Premium"
         },
         "APPS": {
             "TITLE": "Apps",
@@ -353,7 +358,15 @@
         "CHART_LOADING": "Loading hub readings",
         "CHART_READINGS_SENT": "Readings Sent",
         "CHART_READINGS_LABEL": "readings",
-        "CHART_SIGNAL": "Signal"
+        "CHART_SIGNAL": "Signal",
+        "DEVICES":{
+            "TITLE": "Devices Uploaded",
+            "DEVICE":"Device",
+            "SIGNAL":"Signal",
+            "TIMESTAMP":"Upload Timestamp",
+            "HIVE":"Hive",
+            "POSITION":"Position"
+        }
     },
     "CONFIGURE_PAGE": {
         "TITLE": "Configure",
@@ -431,7 +444,8 @@
             "GENERIC": "Temperature Event"
         },
         "BROOD_ZONE":"Brood Zone",
-        "HUMIDITY_NORMAL":"Normal"
+        "HUMIDITY_NORMAL":"Normal",
+        "PRESSURE":"Pressure"
     },
     "LOCATION_HIST": {
         "HIVE": "Hive",
@@ -531,6 +545,23 @@
                 "TITLE": "Postal Code Change",
                 "TEXT": "Would you like to change apiary to new postal code {{value}}?",
                 "CONFIRM": "Yes"
+            }
+        },
+        "WEATHER":{
+            "TITLE":"Edit Weather",
+            "READING":"Reading",
+            "START": "Start",
+            "START_OPEN": "open",
+            "END": "End",
+            "END_OPEN": "current",
+            "DESCRIPTION":"Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
+            "EDIT": {
+                "ADD": "Add",
+                "SELECT_DEVICE": "Select device",
+                "SUCCESS": "Changes saved",
+                "ERROR_INVALID_PREV_OVERLAP": "Time invalid, overlaps previous apiary location",
+                "ERROR_INVALID_NEXT_OVERLAP": "Time invalid, overlaps next apiary location",
+                "ERROR_DEVICE_REQUIRED": "Must select a device for all weather sources"
             }
         }
     },
@@ -1055,7 +1086,7 @@
         "HUB_MODE": "HUB MODE",
         "HUB_INFO": "Possibility to use a smartphone instead of a hub to upload real time data",
         "HUB_SUBSCRIPTION": "HUB TOKENS",
-        "1_WIFI": "1 token (1 wifi hub)",
+        "1_WIFI": "1 token (1 wifi hub or third party devices)",
         "1_HUB_SIM": "2 tokens (1 cell hub + SIM)",
         "REALTIME_ALERTS": "REAL TIME ALERTS",
         "SUPPORT": "SUPPORT",
@@ -1063,7 +1094,8 @@
         "BUY": "Buy Now",
         "LOGIN": "Log In/Register",
         "TOKEN_REQUIRED": "Additional tokens required for each Hub (Wifi or Cell) and SIM card",
-        "TOKEN_REQUIRED_2": "Additional token cost: $54/year or $5/month",
+        "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
+        "TOKEN_REQUIRED_3": "Additional token cost: $54/year or $5/month",
         "PRO_PURCHASED": "You have a pro membership",
         "PREMIUM_PURCHASED": "You have a premium membership"
     },

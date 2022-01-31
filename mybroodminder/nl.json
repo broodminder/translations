@@ -70,6 +70,10 @@
         "HUB_CONTEXT": {
             "REMOVE": "Verwijder {{value}} uit menu"
         },
+        "WEATHER_CONTEXT": {
+            "NAME": "Weather",
+            "EDIT": "Edit Weather"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "Gedeeld met mij"
     },
@@ -120,7 +124,8 @@
             "LINK_3": "Configuratie",
             "LINK_4": "Apparaten verplaatsen",
             "LINK_5": "Cell, WIFI en Hub Monitoring",
-            "LINK_6": "Alternatieve navigatie"
+            "LINK_6": "Alternatieve navigatie",
+            "LINK_7":"MyBroodMinder.com Premium"
         },
         "APPS": {
             "TITLE": "Apps",
@@ -353,7 +358,15 @@
         "CHART_LOADING": "Hub metingen laden",
         "CHART_READINGS_SENT": "Metingen verstuurd",
         "CHART_READINGS_LABEL": "metingen",
-        "CHART_SIGNAL": "Signaal"
+        "CHART_SIGNAL": "Signaal",
+        "DEVICES":{
+            "TITLE": "Devices Uploaded",
+            "DEVICE":"Device",
+            "SIGNAL":"Signal",
+            "TIMESTAMP":"Upload Timestamp",
+            "HIVE":"Hive",
+            "POSITION":"Position"
+        }
     },
     "CONFIGURE_PAGE": {
         "TITLE": "Instellingen",
@@ -531,6 +544,23 @@
                 "TITLE": "Postal Code Change",
                 "TEXT": "Would you like to change apiary to new postal code {{value}}?",
                 "CONFIRM": "Yes"
+            }
+        },
+        "WEATHER":{
+            "TITLE":"Edit Weather",
+            "READING":"Reading",
+            "START": "Start",
+            "START_OPEN": "open",
+            "END": "End",
+            "END_OPEN": "current",
+            "DESCRIPTION":"Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
+            "EDIT": {
+                "ADD": "Add",
+                "SELECT_DEVICE": "Select device",
+                "SUCCESS": "Changes saved",
+                "ERROR_INVALID_PREV_OVERLAP": "Time invalid, overlaps previous apiary location",
+                "ERROR_INVALID_NEXT_OVERLAP": "Time invalid, overlaps next apiary location",
+                "ERROR_DEVICE_REQUIRED": "Must select a device for all weather sources"
             }
         }
     },
@@ -1064,7 +1094,8 @@
         "BUY": "Buy Now",
         "LOGIN": "Log In/Register",
         "TOKEN_REQUIRED": "Additional tokens required for each Hub (Wifi or Cell) and SIM card",
-        "TOKEN_REQUIRED_2": "Additional token cost: $54/year or $5/month",
+        "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
+        "TOKEN_REQUIRED_3": "Additional token cost: $54/year or $5/month",
         "PRO_PURCHASED": "You have a pro membership",
         "PREMIUM_PURCHASED": "You have a premium membership"
     },

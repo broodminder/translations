@@ -70,6 +70,10 @@
         "HUB_CONTEXT": {
             "REMOVE":"Supprimer {{value}} du menu"
 		},
+        "WEATHER_CONTEXT": {
+            "NAME": "Weather",
+            "EDIT": "Edit Weather"
+        },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi"
 	},
@@ -120,7 +124,8 @@
 			"LINK_3":"Configuration",
 			"LINK_4":"Déplacement des appareils",
 			"LINK_5":"Vérification du Cell, WIFI et Hub",
-			"LINK_6":"Navigation alternative"
+			"LINK_6":"Navigation alternative",
+            "LINK_7":"MyBroodMinder.com Premium"
 		},
 		"APPS": {
             "TITLE": "Apps",
@@ -353,7 +358,15 @@
         "CHART_LOADING":"Chargement des relevés du hub",
         "CHART_READINGS_SENT":"Relevés envoyés",
         "CHART_READINGS_LABEL":"Relevés",
-        "CHART_SIGNAL":"Signal"
+        "CHART_SIGNAL":"Signal",
+        "DEVICES":{
+            "TITLE": "Devices Uploaded",
+            "DEVICE":"Device",
+            "SIGNAL":"Signal",
+            "TIMESTAMP":"Upload Timestamp",
+            "HIVE":"Hive",
+            "POSITION":"Position"
+        }
     },
     "CONFIGURE_PAGE": {
         "TITLE":"Configurer",
@@ -531,6 +544,23 @@
                 "TITLE":"Changement de code postal",
                 "TEXT":"Souhaitez-vous changer le code postal du rucher par {{value}} ?",
                 "CONFIRM":"Oui"
+            }
+        },
+        "WEATHER":{
+            "TITLE":"Edit Weather",
+            "READING":"Reading",
+            "START": "Start",
+            "START_OPEN": "open",
+            "END": "End",
+            "END_OPEN": "current",
+            "DESCRIPTION":"Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
+            "EDIT": {
+                "ADD": "Add",
+                "SELECT_DEVICE": "Select device",
+                "SUCCESS": "Changes saved",
+                "ERROR_INVALID_PREV_OVERLAP": "Time invalid, overlaps previous apiary location",
+                "ERROR_INVALID_NEXT_OVERLAP": "Time invalid, overlaps next apiary location",
+                "ERROR_DEVICE_REQUIRED": "Must select a device for all weather sources"
             }
         }
     },
@@ -1063,7 +1093,8 @@
         "BUY":"Acheter",
         "LOGIN":"Se connecter/s'enregistrer",
         "TOKEN_REQUIRED":"Un jeton aditionnel est requis pour chaque Hub (Wifi ou Cell) et SIM card",
-        "TOKEN_REQUIRED_2":"Coût du jeton additionnel: $54/an ou $5/mois",
+        "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
+        "TOKEN_REQUIRED_3":"Coût du jeton additionnel: $54/an ou $5/mois",
         "PRO_PURCHASED":"Vous avez un abonnement Pro",
         "PREMIUM_PURCHASED":"Vous avez un abonnement Premium"
     },
