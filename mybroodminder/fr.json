@@ -344,10 +344,10 @@
     "HUB_PAGE": {
         "TITLE":"Hub {{name}}",
         "NAME":"Nom",
-        "ADDRESS":"Référence de l'appareil",
+        "ADDRESS":"Référence",
         "MODEL":"Modèle",
         "FIRMWARE":"Micrologiciel",
-        "UPLOAD_TIME":"Dernier téléchargement",
+        "UPLOAD_TIME":"Dernier envoi",
         "CHART_TITLE":"Relevé du hub pour {{name}}",
         "READING_COUNT":"Relevés affichés: {{count}}",
         "CHART_LOADING":"Chargement des relevés du hub",
