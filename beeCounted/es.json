@@ -1,0 +1,48 @@
+{
+    "SETTINGS":{
+        "TITLE":"Configurar",
+        "UNITS":{
+            "TITLE":"Unidades",
+            "METRIC":"Metrico (°C, kg)",
+            "IMPERIAL":"Imperial (°F, lbs)"
+        },
+        "LANGUAGE":{
+            "TITLE":"Idioma"
+        },
+        "TIMEZONE":{
+            "TITLE":"Zona horaria",
+            "BROWSER":"predeterminado (navegador)",
+            "APIARY":"Apiary Timezone"
+        }
+    },
+    "MAP":{
+        "LOADING":"Cargando",
+        "ACTIVE":"Informes activos de colmenar con {{number}} urticaria.",
+        "LAST_UPDATE":"Última actualización",
+        "CLICK":"Haga clic en la identificación de la colmena para ver los datos por hora.",
+        "HIVE_ID":"ID de colmena",
+        "UPPER":"Alza",
+        "LOWER":"Cuerpo",
+        "SCALE":"Báscula",
+        "NONE":"Actualmente no se han encontrado colmenas en este colmenar."
+    },
+    "HIVE_SUMMARY":{
+        "ENTITLEMENTS":"Soporte para este gráfico proporcionado por",
+        "CLOSE_WINDOW":"Cerrar ventana",
+        "TIMESPANS":{
+            "DAYS":"Últimos {{number}} días",
+            "YEAR":"El año pasado",
+            "YEARS":"Últimos {{number}} años"
+        },
+        "HIVE_TEMPERATURE":"Temperatura de la colmena",
+        "HIVE_HUMIDITY":"Humedad de la colmena",
+        "HIVE_WEIGHT":"Pesos de la colmena",
+        "OUTSIDE_TEMPERATURE":"Temperatura exterior",
+        "OUTSIDE_HUMIDITY":"Humedad exterior",
+        "BROOD_ZONE":"Zona de cría",
+        "NORMAL":"Normal",
+        "TEMPERATURE_IN":"Temperatura en {{units}}",
+        "WEIGHT_IN":"Pesos en {{units}}",
+        "HUMIDITY_IN":"Humedad %"
+    }
+}

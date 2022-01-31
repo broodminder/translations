@@ -1,0 +1,48 @@
+{
+    "SETTINGS":{
+        "TITLE":"Settings",
+        "UNITS":{
+            "TITLE":"Units",
+            "METRIC":"Metric (°C, kg)",
+            "IMPERIAL":"Imperial (°F, lbs)"
+        },
+        "LANGUAGE":{
+            "TITLE":"Language"
+        },
+        "TIMEZONE":{
+            "TITLE":"Timezone",
+            "BROWSER":"Browser Default",
+            "APIARY":"Apiary Timezone"
+        }
+    },
+    "MAP":{
+        "LOADING":"Loading",
+        "ACTIVE":"Actively reporting apiary with {{number}} hives.",
+        "LAST_UPDATE":"Last update",
+        "CLICK":"Click on a Hive's ID to see hourly data.",
+        "HIVE_ID":"Hive ID",
+        "UPPER":"Upper",
+        "LOWER":"Lower",
+        "SCALE":"Scale",
+        "NONE":"No hives currently found in this apiary."
+    },
+    "HIVE_SUMMARY":{
+        "ENTITLEMENTS":"Support for this graph provided by",
+        "CLOSE_WINDOW":"Close Window",
+        "TIMESPANS":{
+            "DAYS":"Last {{number}} days",
+            "YEAR":"Last year",
+            "YEARS":"Last {{number}} years"
+        },
+        "HIVE_TEMPERATURE":"Hive Temperature",
+        "HIVE_HUMIDITY":"Hive Humidity",
+        "HIVE_WEIGHT":"Hive Weight",
+        "OUTSIDE_TEMPERATURE":"Outside Temperature",
+        "OUTSIDE_HUMIDITY":"Outside Humidity",
+        "BROOD_ZONE":"Brood Zone",
+        "NORMAL":"Normal",
+        "TEMPERATURE_IN":"Temperature in {{units}}",
+        "WEIGHT_IN":"Weight in {{units}}",
+        "HUMIDITY_IN":"Humidity %"
+    }
+}

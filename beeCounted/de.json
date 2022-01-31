@@ -1,0 +1,48 @@
+{
+    "SETTINGS":{
+        "TITLE":"Einstellungen",
+        "UNITS":{
+            "TITLE":"Einheiten",
+            "METRIC":"Metrisch (°C, kg)",
+            "IMPERIAL":"Imperial (°F, lbs)"
+        },
+        "LANGUAGE":{
+            "TITLE":"Sprache"
+        },
+        "TIMEZONE":{
+            "TITLE":"Zeitzone",
+            "BROWSER":"Browser-Standard",
+            "APIARY":"Apiary Timezone"
+        }
+    },
+    "MAP":{
+        "LOADING":"Wird geladen",
+        "ACTIVE":"Bienenhaus aktiv melden mit {{number}} Nesselsucht.",
+        "LAST_UPDATE":"Letztes Update",
+        "CLICK":"Klicken Sie auf die ID eines Bienenstocks, um die stündlichen Daten anzuzeigen.",
+        "HIVE_ID":"Hive ID",
+        "UPPER":"Oberer, höher",
+        "LOWER":"Niedriger",
+        "SCALE":"Rahmen",
+        "NONE":"In diesem Bienenhaus wurden derzeit keine Bienenstöcke gefunden."
+    },
+    "HIVE_SUMMARY":{
+        "ENTITLEMENTS":"Unterstützung für diese Karte bereitgestellt von",
+        "CLOSE_WINDOW":"Fenster schließen",
+        "TIMESPANS":{
+            "DAYS":"Letzte {{number}} Tage",
+            "YEAR":"Letztes Jahr",
+            "YEARS":"Letzte {{number}} Jahre"
+        },
+        "HIVE_TEMPERATURE":"Bienenstocktemperaturen",
+        "HIVE_HUMIDITY":"Bienenstockfeuchtigkeit",
+        "HIVE_WEIGHT":"Bienenstockgewichte",
+        "OUTSIDE_TEMPERATURE":"Draußen",
+        "OUTSIDE_HUMIDITY":"Draußen",
+        "BROOD_ZONE":"Brutzone",
+        "NORMAL":"Normal",
+        "TEMPERATURE_IN":"Temperatur in {{units}}",
+        "WEIGHT_IN":"Gewicht in {{units}}",
+        "HUMIDITY_IN":"Luftfeuchtigkeit %"
+    }
+}

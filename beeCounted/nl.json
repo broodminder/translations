@@ -1,0 +1,48 @@
+{
+    "SETTINGS":{
+        "TITLE":"Instellingen",
+        "UNITS":{
+            "TITLE":"Eenheid",
+            "METRIC":"Metrisch (°C, kg)",
+            "IMPERIAL":"Imperial (°F, lbs)"
+        },
+        "LANGUAGE":{
+            "TITLE":"Taal"
+        },
+        "TIMEZONE":{
+            "TITLE":"Tijdzone",
+            "BROWSER":"Browser standaard",
+            "APIARY":"Apiary Timezone"
+        }
+    },
+    "MAP":{
+        "LOADING":"Bezig met laden",
+        "ACTIVE":"Bijenstal actief melden bij {{number}} netelroos.",
+        "LAST_UPDATE":"Laatste update",
+        "CLICK":"Klik op de ID van een Hive om uurlijkse gegevens te zien.",
+        "HIVE_ID":"Hive-ID",
+        "UPPER":"Bovenste",
+        "LOWER":"Lager",
+        "SCALE":"Schaal",
+        "NONE":"Momenteel geen netelroos gevonden in deze bijenstal."
+    },
+    "HIVE_SUMMARY":{
+        "ENTITLEMENTS":"Ondersteuning voor deze grafiek geleverd door:",
+        "CLOSE_WINDOW":"Venster sluiten",
+        "TIMESPANS":{
+            "DAYS":"Laatste {{number}} dagen",
+            "YEAR":"Afgelopen jaar",
+            "YEARS":"Laatste {{number}} jaar"
+        },
+        "HIVE_TEMPERATURE":"Bijenkorftemperatuur",
+        "HIVE_HUMIDITY":"Bijenkorfvochtigheid",
+        "HIVE_WEIGHT":"Bijenkorfgewichten",
+        "OUTSIDE_TEMPERATURE":"Buiten",
+        "OUTSIDE_HUMIDITY":"Buiten",
+        "BROOD_ZONE":"Broedzone",
+        "NORMAL":"normaal",
+        "TEMPERATURE_IN":"Temperatuur in {{units}}",
+        "WEIGHT_IN":"Gewicht in {{units}}",
+        "HUMIDITY_IN":"Vochtigheid %"
+    }
+}

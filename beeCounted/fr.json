@@ -1,0 +1,48 @@
+{
+    "SETTINGS":{
+        "TITLE":"Réglages",
+        "UNITS":{
+            "TITLE":"Unité",
+            "METRIC":"Métrique (°C, kg)",
+            "IMPERIAL":"Impérial (°F, lbs)"
+        },
+        "LANGUAGE":{
+            "TITLE":"Langue"
+        },
+        "TIMEZONE":{
+            "TITLE":"Fuseau horaire",
+            "BROWSER":"Navigateur par défaut",
+            "APIARY":"Apiary Timezone"
+        }
+    },
+    "MAP":{
+        "LOADING":"Loading",
+        "ACTIVE":"Rucher actif avec {{number}} ruches.",
+        "LAST_UPDATE":"Dernière mise à jour",
+        "CLICK":"Cliquer sur l'ID de la ruche pour voir les relevés horaires.",
+        "HIVE_ID":"ID de la ruche",
+        "UPPER":"Hausse",
+        "LOWER":"Corps",
+        "SCALE":"Balance",
+        "NONE":"Aucune ruche actuellement trouvée dans ce rucher."
+    },
+    "HIVE_SUMMARY":{
+        "ENTITLEMENTS":"Prise en charge de ce graphique fournie par",
+        "CLOSE_WINDOW":"Fermer la fenêtre",
+        "TIMESPANS":{
+            "DAYS":"{{number}} derniers jours",
+            "YEAR":"Année dernière",
+            "YEARS":"{{number}} dernières années"
+        },
+        "HIVE_TEMPERATURE":"Températures de la ruch",
+        "HIVE_HUMIDITY":"Humidité de la ruche",
+        "HIVE_WEIGHT":"Poids de la ruche",
+        "OUTSIDE_TEMPERATURE":"À l'extérieur",
+        "OUTSIDE_HUMIDITY":"À l'extérieur",
+        "BROOD_ZONE":"Zone de couvée",
+        "NORMAL":"Normal",
+        "TEMPERATURE_IN":"Température en {{units}}",
+        "WEIGHT_IN":"Poids en {{units}}",
+        "HUMIDITY_IN":"Humidité %"
+    }
+}
