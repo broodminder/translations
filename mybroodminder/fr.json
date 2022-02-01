@@ -112,7 +112,7 @@
 			"LINK_1":"Démarrage rapide CS Kit",
 			"LINK_2":"Quelle APP devrais-je choisir ?",
 			"LINK_3":"Installation BroodMinder ASP",
-			"LINK_4": "BroodMinder-SubHub",            
+			"LINK_4": "BroodMinder-SubHub",
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
             "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
@@ -144,7 +144,7 @@
             "LINK_2": "S1:E18 Batteries"
         },
         "DISCONTINUED": {
-            "TITLE": "Discontinued Products",
+            "TITLE": "Anciens Produits",
             "APIARY_APP": {
                 "TITLE":"Apiary App (cloud)",
                 "LINK_1":"Utilisation normale",
@@ -166,8 +166,8 @@
                 "LINK_3":"Mise à jour du micrologiciel T2 version 2.77"
             },
             "ORIGINAL_CELL_WIFI": {
-                "TITLE": "CELL/WIFI Originale",
-                "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+                "TITLE": "CELL/WIFI Original",
+                "LINK_1": "BroodMinder-CELL/WIFI (Juillet 2021)"
             }
         },
         "BLOGMINDER": {
@@ -360,11 +360,11 @@
         "CHART_READINGS_LABEL":"Relevés",
         "CHART_SIGNAL":"Signal",
         "DEVICES":{
-            "TITLE": "Devices Uploaded",
-            "DEVICE":"Device",
+            "TITLE": "Derniers Capteurs Téléchargés",
+            "DEVICE":"Capteur",
             "SIGNAL":"Signal",
-            "TIMESTAMP":"Upload Timestamp",
-            "HIVE":"Hive",
+            "TIMESTAMP":"Date",
+            "HIVE":"Ruche",
             "POSITION":"Position"
         }
     },
@@ -379,7 +379,7 @@
         "DEVICES_TITLE":"Capteurs",
         "HUBS_TITLE":"Hubs",
         "LINKS_TITLE":"Liens Publiques",
-        "THIRD_PARTY_TITLE":"Third Party Devices"
+        "THIRD_PARTY_TITLE":"Appareils tiers"
     },
 	"FEATURES": {
 		"TITLE":"Tour d'horizon",
@@ -443,8 +443,9 @@
             "TITLE":"T",
             "GENERIC":"Episode thermique"
         },
-        "BROOD_ZONE":"Brood Zone",
-        "HUMIDITY_NORMAL":"Normal"
+        "BROOD_ZONE":"Zone de couvain",
+        "HUMIDITY_NORMAL":"Normal",
+        "PRESSURE":"Pression"
     },
     "LOCATION_HIST": {
         "HIVE":"Ruche",
@@ -547,20 +548,20 @@
             }
         },
         "WEATHER":{
-            "TITLE":"Edit Weather",
+            "TITLE":"Editer Météo",
             "READING":"Reading",
-            "START": "Start",
-            "START_OPEN": "open",
-            "END": "End",
-            "END_OPEN": "current",
-            "DESCRIPTION":"Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
+            "START": "Début",
+            "START_OPEN": "ouvert",
+            "END": "Fin",
+            "END_OPEN": "actuel",
+            "DESCRIPTION":"Sélectionnez un capteur ou un hub comme source météo de votre rucher pour l'humidité et/ou la température. Toute plage horaire sans appareil sera par défaut sur Weather Source.",
             "EDIT": {
-                "ADD": "Add",
-                "SELECT_DEVICE": "Select device",
-                "SUCCESS": "Changes saved",
-                "ERROR_INVALID_PREV_OVERLAP": "Time invalid, overlaps previous apiary location",
-                "ERROR_INVALID_NEXT_OVERLAP": "Time invalid, overlaps next apiary location",
-                "ERROR_DEVICE_REQUIRED": "Must select a device for all weather sources"
+                "ADD": "Ajouter",
+                "SELECT_DEVICE": "Selectionner capteur",
+                "SUCCESS": "Changements enregistrés",
+                "ERROR_INVALID_PREV_OVERLAP": "Date invalide, chevauche l'emplacement du rucher précédent",
+                "ERROR_INVALID_NEXT_OVERLAP": "Date invalide, chevauche l'emplacement du rucher suivant",
+                "ERROR_DEVICE_REQUIRED": "Sélectionnez un appareil pour toutes les sources météorologiques"
             }
         }
     },
@@ -624,15 +625,15 @@
         "SELECT_POSITION":"Choisir une position",
         "SUCCESS_PLACED":"Capteur placé dans la ruche",
         "THIRD_PARTY":{
-            "TITLE":"Add Third Party Device",
-            "PROVIDER":"Choose Provider",
-            "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
-            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from third party devices",
-            "NAME_REQUIRED":"Name required",
-            "YOLINK_SN_REQUIRED":"YoLink SN required",
-            "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
-            "ERROR_YOLINK_OTHER_USER":"YoLink device already registered with another account",
-            "ERROR_GENERAL":"Error adding device"
+            "TITLE":"jouter un appareil tiers",
+            "PROVIDER":"Choisissez le fournisseur",
+            "YOLINK_EXPLANATION":"Scannez le code QR sur votre dispositif YoLink pour obtenir le SN à 32 chiffres.",
+            "CREDIT_EXPLANATION":"Un jeton d'adhésion premium est nécessaire pour collecter des données à partir de dispositifs tiers",
+            "NAME_REQUIRED":"Nom requis",
+            "YOLINK_SN_REQUIRED":"YoLink SN requis",
+            "ERROR_YOLINK_NOT_FOUND":"Dispositif YoLink introuvable, vérifiez que vous avez le bon SN",
+            "ERROR_YOLINK_OTHER_USER":"Le dispositif YoLink est déjà enregistré avec un autre compte",
+            "ERROR_GENERAL":"Erreur lors de l'ajout d'un appareil"
         }
     },
     "NOTE_CRUD": {
@@ -860,7 +861,7 @@
             "CANCEL_CREDIT":"Retirer jeton de renouv. auto",
             "REACTIVATE_CREDIT":"Réactiver jeton",
             "SELECT_CREDIT":"Sélectionner jeton",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Ce crédit peut être utilisé pour de nombreux appareils tiers",
             "PURCHASE_CREDIT":"Acheter nouveau jeton",
             "UPDATED_SUCCESS":"Hub mis à jour",
             "BACK_BUTTON":"Arrière",
@@ -928,10 +929,10 @@
         "DELETE_SUCCESS":"Capteur supprimé",
         "DELETE_ERROR":"Erreur de suppression du capteur",
         "THIRD_PARTY":{
-            "ADD":"Add Third Party Device",
-            "ERROR_NO_CREDIT":"No token assigned, data not being collected",
-            "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
-            "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+            "ADD":"Ajouter appareil tiers",
+            "ERROR_NO_CREDIT":"Aucun jeton attribué, les données ne sont pas collectées",
+            "ERROR_TOKEN_EXPIRED_SOFT":"Le jeton a expiré, les données cesseront bientôt d'être collectées",
+            "ERROR_TOKEN_EXPIRED":"Jeton expiré, les données ne sont pas collectées"
         }
     },
     "UNAUTHORIZED_PAGE": {
@@ -1093,7 +1094,7 @@
         "BUY":"Acheter",
         "LOGIN":"Se connecter/s'enregistrer",
         "TOKEN_REQUIRED":"Un jeton aditionnel est requis pour chaque Hub (Wifi ou Cell) et SIM card",
-        "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
+        "TOKEN_REQUIRED_2": "Jeton supplémentaire requis pour utiliser des appareils tiers",
         "TOKEN_REQUIRED_3":"Coût du jeton additionnel: $54/an ou $5/mois",
         "PRO_PURCHASED":"Vous avez un abonnement Pro",
         "PREMIUM_PURCHASED":"Vous avez un abonnement Premium"

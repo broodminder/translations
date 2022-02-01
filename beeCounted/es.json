@@ -12,23 +12,23 @@
         "TIMEZONE":{
             "TITLE":"Zona horaria",
             "BROWSER":"predeterminado (navegador)",
-            "APIARY":"Apiary Timezone"
+            "APIARY":"Zona horaria del colmenar"
         }
     },
     "MAP":{
         "LOADING":"Cargando",
-        "ACTIVE":"Informes activos de colmenar con {{number}} urticaria.",
+        "ACTIVE":"Colmenar activo con {{number}} colmenas.",
         "LAST_UPDATE":"Última actualización",
-        "CLICK":"Haga clic en la identificación de la colmena para ver los datos por hora.",
+        "CLICK":"Haga clic en la identificación de la colmena para ver los datos.",
         "HIVE_ID":"ID de colmena",
         "UPPER":"Alza",
         "LOWER":"Cuerpo",
         "SCALE":"Báscula",
-        "NONE":"Actualmente no se han encontrado colmenas en este colmenar."
+        "NONE":"Actualmente no hay colmenas en este colmenar."
     },
     "HIVE_SUMMARY":{
         "ENTITLEMENTS":"Soporte para este gráfico proporcionado por",
-        "CLOSE_WINDOW":"Cerrar ventana",
+        "CLOSE_WINDOW":"Cerrar",
         "TIMESPANS":{
             "DAYS":"Últimos {{number}} días",
             "YEAR":"El año pasado",
@@ -36,7 +36,7 @@
         },
         "HIVE_TEMPERATURE":"Temperatura de la colmena",
         "HIVE_HUMIDITY":"Humedad de la colmena",
-        "HIVE_WEIGHT":"Pesos de la colmena",
+        "HIVE_WEIGHT":"Peso de la colmena",
         "OUTSIDE_TEMPERATURE":"Temperatura exterior",
         "OUTSIDE_HUMIDITY":"Humedad exterior",
         "BROOD_ZONE":"Zona de cría",

@@ -12,11 +12,11 @@
         "TIMEZONE":{
             "TITLE":"Fuseau horaire",
             "BROWSER":"Navigateur par défaut",
-            "APIARY":"Apiary Timezone"
+            "APIARY":"Fuseau Horaire du rucher"
         }
     },
     "MAP":{
-        "LOADING":"Loading",
+        "LOADING":"Chargement",
         "ACTIVE":"Rucher actif avec {{number}} ruches.",
         "LAST_UPDATE":"Dernière mise à jour",
         "CLICK":"Cliquer sur l'ID de la ruche pour voir les relevés horaires.",
@@ -24,7 +24,7 @@
         "UPPER":"Hausse",
         "LOWER":"Corps",
         "SCALE":"Balance",
-        "NONE":"Aucune ruche actuellement trouvée dans ce rucher."
+        "NONE":"Aucune ruche actuellement dans ce rucher."
     },
     "HIVE_SUMMARY":{
         "ENTITLEMENTS":"Prise en charge de ce graphique fournie par",
@@ -34,13 +34,13 @@
             "YEAR":"Année dernière",
             "YEARS":"{{number}} dernières années"
         },
-        "HIVE_TEMPERATURE":"Températures de la ruch",
+        "HIVE_TEMPERATURE":"Températures de la ruche",
         "HIVE_HUMIDITY":"Humidité de la ruche",
         "HIVE_WEIGHT":"Poids de la ruche",
         "OUTSIDE_TEMPERATURE":"À l'extérieur",
         "OUTSIDE_HUMIDITY":"À l'extérieur",
-        "BROOD_ZONE":"Zone de couvée",
-        "NORMAL":"Normal",
+        "BROOD_ZONE":"Zone de couvain",
+        "NORMAL":"Normale",
         "TEMPERATURE_IN":"Température en {{units}}",
         "WEIGHT_IN":"Poids en {{units}}",
         "HUMIDITY_IN":"Humidité %"

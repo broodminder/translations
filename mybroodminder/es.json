@@ -71,8 +71,8 @@
             "REMOVE":"Eliminar {{value}} del menú"
 		},
         "WEATHER_CONTEXT": {
-            "NAME": "Weather",
-            "EDIT": "Edit Weather"
+            "NAME": "Meteo",
+            "EDIT": "Editar Meteo"
         },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"compartido conmigo"
@@ -139,12 +139,12 @@
             "LINK_3": "S1:E8 Swarm Detection presentation"
         },
         "MAINTENANCE": {
-            "TITLE": "Maintenance",
-            "LINK_1": "S1:E1 Hive Monitoring Spring Maintenance",
-            "LINK_2": "S1:E18 Batteries"
+            "TITLE": "Mantenimiento",
+            "LINK_1": "S1:E1 Mantenimiento de primavera",
+            "LINK_2": "S1:E18 Baterias"
         },
         "DISCONTINUED": {
-            "TITLE": "Discontinued Products",
+            "TITLE": "Productos anteriores",
             "APIARY_APP": {
                 "TITLE":"App Apiary (cloud)",
                 "LINK_1":"Utilización normal",
@@ -167,11 +167,11 @@
             },
             "ORIGINAL_CELL_WIFI": {
                 "TITLE": "Original CELL/WIFI",
-                "LINK_1": "BroodMinder-CELL/WIFI (Through July 2021)"
+                "LINK_1": "BroodMinder-CELL/WIFI (Julio 2021)"
             }
         },
         "BLOGMINDER": {
-            "TITLE": "BlogMinder Videos"
+            "TITLE": "BlogMinder Videos (EN)"
         }
 	},
 	"TOUR": {
@@ -342,8 +342,8 @@
                 "SUCCESS":"Datos desplazados",
                 "FAIL":"Error, los datos no han sido desplazados"
             },
-            "REMOVE_DUPLICATES_BUTTON":"Remove Duplicates",
-            "REMOVE_DUPLICATES_TITLE":"Removed Duplicates"
+            "REMOVE_DUPLICATES_BUTTON":"Eliminar los duplicados",
+            "REMOVE_DUPLICATES_TITLE":"Eliminar los duplicados"
         }
     },
     "HUB_PAGE": {
@@ -360,12 +360,12 @@
         "CHART_READINGS_LABEL":"lecturas",
         "CHART_SIGNAL":"señal",
         "DEVICES":{
-            "TITLE": "Devices Uploaded",
-            "DEVICE":"Device",
-            "SIGNAL":"Signal",
-            "TIMESTAMP":"Upload Timestamp",
-            "HIVE":"Hive",
-            "POSITION":"Position"
+            "TITLE": "Ultimos sensores cargados",
+            "DEVICE":"Sensor",
+            "SIGNAL":"Señal",
+            "TIMESTAMP":"Fecha",
+            "HIVE":"Colmena",
+            "POSITION":"Posición"
         }
     },
     "CONFIGURE_PAGE": {
@@ -378,8 +378,8 @@
         "HIVES_TITLE":"Colmenas",
         "DEVICES_TITLE":"Sensores",
         "HUBS_TITLE":"Hubs",
-        "LINKS_TITLE":"Public Links",
-        "THIRD_PARTY_TITLE":"Third Party Devices"
+        "LINKS_TITLE":"Enlaces Públicos",
+        "THIRD_PARTY_TITLE":"Dispositivos de terceros"
     },
 	"FEATURES": {
 		"TITLE":"Tour de las funciones",
@@ -443,8 +443,9 @@
             "TITLE":"T",
             "GENERIC":"Evento de Temperatura"
         },
-        "BROOD_ZONE":"Brood Zone",
-        "HUMIDITY_NORMAL":"Normal"
+        "BROOD_ZONE":"Zona de cría",
+        "HUMIDITY_NORMAL":"Normal",
+        "PRESSURE":"Presión"
     },
     "LOCATION_HIST": {
         "HIVE":"Colmena",
@@ -547,20 +548,20 @@
             }
         },
         "WEATHER":{
-            "TITLE":"Edit Weather",
-            "READING":"Reading",
-            "START": "Start",
-            "START_OPEN": "open",
-            "END": "End",
-            "END_OPEN": "current",
-            "DESCRIPTION":"Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
+            "TITLE":"Editar Meteo",
+            "READING":"Variable",
+            "START": "Inicio",
+            "START_OPEN": "abrir",
+            "END": "Fin",
+            "END_OPEN": "actual",
+            "DESCRIPTION":"Selecciona un sensor o un hub como fuente meteorológica del colmenar para la humedad y/o la temperatura. Cualquier rango de tiempo sin un dispositivo será por defecto atribuido a Weather Source. ",
             "EDIT": {
-                "ADD": "Add",
-                "SELECT_DEVICE": "Select device",
-                "SUCCESS": "Changes saved",
-                "ERROR_INVALID_PREV_OVERLAP": "Time invalid, overlaps previous apiary location",
-                "ERROR_INVALID_NEXT_OVERLAP": "Time invalid, overlaps next apiary location",
-                "ERROR_DEVICE_REQUIRED": "Must select a device for all weather sources"
+                "ADD": "Añadir",
+                "SELECT_DEVICE": "Seleccionar aparato",
+                "SUCCESS": "Cambios guardados",
+                "ERROR_INVALID_PREV_OVERLAP": "Hora inválida, se solapa con la anterior ubicación del colmenar",
+                "ERROR_INVALID_NEXT_OVERLAP": "Hora inválida, se solapa con la siguiente ubicación del colmenar",
+                "ERROR_DEVICE_REQUIRED": "Debe seleccionar un dispositivo para todas las fuentes meteorológicas"
             }
         }
     },
@@ -624,15 +625,15 @@
         "SELECT_POSITION":"Seleccionar posición",
         "SUCCESS_PLACED":"Sensor posicionado en la colmena",
         "THIRD_PARTY":{
-            "TITLE":"Add Third Party Device",
-            "PROVIDER":"Choose Provider",
-            "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
-            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from third party devices",
-            "NAME_REQUIRED":"Name required",
-            "YOLINK_SN_REQUIRED":"YoLink SN required",
-            "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
-            "ERROR_YOLINK_OTHER_USER":"YoLink device already registered with another account",
-            "ERROR_GENERAL":"Error adding device"
+            "TITULO": "Añadir dispositivo de terceros",
+            "PROVEEDOR": "Elegir proveedor",
+            "YOLINK_EXPLANATION": "Escanea el código QR de tu dispositivo YoLink para obtener el SN de 32 dígitos",
+            "CREDIT_EXPLANATION": "Se necesita un token Premium para recopilar datos de dispositivos de terceros",
+            "NAME_REQUIRED": "Nombre requerido",
+            "YOLINK_SN_REQUIRED": "Se requiere el SN de YoLink",
+            "ERROR_YOLINK_NOT_FOUND": "Dispositivo YoLink no encontrado, compruebe que tiene el sn correcto",
+            "ERROR_YOLINK_OTHER_USER": "Dispositivo YoLink ya registrado con otra cuenta",
+            "ERROR_GENERAL": "Error al añadir el dispositivo"
         }
     },
     "NOTE_CRUD": {
@@ -851,7 +852,7 @@
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Sin asignar",
         "EDIT":"Gestionar",
-        "THIRD_PARTY_DEVICE":"Third Party Device",
+        "THIRD_PARTY_DEVICE":"Dispositivo de terceros",
         "MANAGE": {
             "TITLE":"Gestionar",
             "CLOSE":"Hecho",
@@ -860,7 +861,7 @@
             "CANCEL_CREDIT":"Retirar ficha de auto-renov",
             "REACTIVATE_CREDIT":"Reactivar ficha",
             "SELECT_CREDIT":"Seleccionar ficha",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este credito se puede usar para dispositivos de terceros",
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
             "BACK_BUTTON":"Atras",
@@ -928,10 +929,10 @@
         "DELETE_SUCCESS":"Sensor suprimido",
         "DELETE_ERROR":"Error suprimiendo sensor",
         "THIRD_PARTY":{
-            "ADD":"Add Third Party Device",
-            "ERROR_NO_CREDIT":"No token assigned, data not being collected",
-            "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
-            "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+            "ADD": "Añadir dispositivo de terceros",
+            "ERROR_NO_CREDIT": "No hay token asignado, los datos no se están recogiendo",
+            "ERROR_TOKEN_EXPIRED_SOFT": "Token caducado, los datos dejarán de recogerse en breve",
+            "ERROR_TOKEN_EXPIRED": "Token caducado, los datos no se recogen"
         }
     },
     "UNAUTHORIZED_PAGE": {
@@ -1093,7 +1094,7 @@
         "BUY":"Comprar ahora",
         "LOGIN":"Login/Registrar",
         "TOKEN_REQUIRED":"Se requieren fichas adicionales para cada Hub (Wifi o Cell) y cada SIM",
-        "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
+        "TOKEN_REQUIRED_2": "Se requiere un token adicional para utilizar dispositivos de terceros",
         "TOKEN_REQUIRED_3":"Coste de la ficha: $54/año o $5/mes",
         "PRO_PURCHASED":"Tienes una cuenta Pro",
         "PREMIUM_PURCHASED":"Tienes una cuenta Premium"
