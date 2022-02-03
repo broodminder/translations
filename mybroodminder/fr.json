@@ -1036,11 +1036,11 @@
         "EXP": {
             "TRIAL":"Période d'essai, expire le {{expiration}}",
             "NOT_ACTIVE":"Non Actif",
-            "SUB_CANCELLED":"Annulé, expire le {{expiration}}",
+            "SUB_CANCELLED":"Non récurrent, expire le {{expiration}}",
             "SUB_RENEWING":"Renouvelle le {{expiration}}",
             "SUB_EXPIRED":"Expire le {{expiration}}",
             "SUB_EXPIRING":"Expire le {{expiration}}",
-            "CREDIT_CANCELLED":"Expire le {{expiration}}",
+            "CREDIT_CANCELLED":"Non récurrent, expire le {{expiration}}",
             "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
             "CREDIT_EXPIRED":"Expiré le{{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
@@ -1049,7 +1049,7 @@
         "COMMON": {
             "MONTHLY":"mensuel",
             "YEARLY":"annuel",
-            "FREE":"Gratuit",
+            "FREE":"gratuit",
             "MONTHLY_CAP":"Mensuel",
             "YEARLY_CAP":"Annuel",
             "FREE_CAP":"Gratuit"
