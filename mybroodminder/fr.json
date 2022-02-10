@@ -53,7 +53,8 @@
 			"NEW_HIVE":"Nouvelle ruche",
 			"SHARE":"Partager",
             "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Export Chercheurs"
+            "RESEARCH_DOWNLOAD":"Export Chercheurs",
+            "REMOVE_SHARED_APIARY":"Remove shared apiary"
 		},
 		"HIVE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
@@ -368,6 +369,13 @@
             "POSITION":"Position"
         }
     },
+    "WEATHER_PAGE":{
+        "TITLE":"Weather",
+        "DESCRIPTION":"This view displays the Weather Source weather data for your apiary location, along with any user set weather sources",
+        "SOURCES":"Weather Sources",
+        "TEMPERATURE":"Temperature",
+        "HUMIDITY":"Humidity"
+    },
     "CONFIGURE_PAGE": {
         "TITLE":"Configurer",
         "SEPARATE":"Par catégorie",
@@ -555,13 +563,27 @@
             "END": "Fin",
             "END_OPEN": "actuel",
             "DESCRIPTION":"Sélectionnez un capteur ou un hub comme source météo de votre rucher pour l'humidité et/ou la température. Toute plage horaire sans appareil sera par défaut sur Weather Source.",
+            "MEASUREMENT":"Measurement",
             "EDIT": {
-                "ADD": "Ajouter",
+                "EDIT_TEMPERATURE": "Edit Temperature Source",
+                "EDIT_HUMIDITY": "Edit Humidity Source",
+                "ADD_TEMPERATURE": "Add Temperature Source",
+                "ADD_HUMIDITY": "Add Humidity Source",
                 "SELECT_DEVICE": "Selectionner capteur",
+                "ENDING_CURRENT":"Ending Source",
                 "SUCCESS": "Changements enregistrés",
                 "ERROR_INVALID_PREV_OVERLAP": "Date invalide, chevauche l'emplacement du rucher précédent",
                 "ERROR_INVALID_NEXT_OVERLAP": "Date invalide, chevauche l'emplacement du rucher suivant",
-                "ERROR_DEVICE_REQUIRED": "Sélectionnez un appareil pour toutes les sources météorologiques"
+                "ERROR_DEVICE_REQUIRED": "Sélectionnez un appareil pour toutes les sources météorologiques",
+                "ERROR_START_REQUIRED":"Must select a start time for the weather source"
+            },
+            "DIALOG":{
+                "TITLE":"Edit Weather",
+                "SUCCESS_UPDATED":"Apiary weather updated",
+                "TEMPERATURE":"Temperature",
+                "HUMIDITY":"Humidity",
+                "ADD_TEMPERATURE":"Add Temperature",
+                "ADD_HUMIDITY":"Add Humidity"
             }
         }
     },
@@ -1006,6 +1028,13 @@
             "SHARE":"Partager",
             "CHANGED":"Ruche mise à jour",
             "SHARE_EXPIRED":"Abonnement Premium écoulé. Les données seront privées jusqu'au {{end}}."
+        },
+        "REMOVE_SELF":{
+            "TITLE":"Remove Shared Apiary",
+            "MESSAGE":"Would you like to remove the shared apiary {{name}} from your account?",
+            "CONFIRM":"Remove Apiary",
+            "SUCCESS_REMOVED":"Apiary removed",
+            "GENERIC_ERROR":"Error, apiary not removed"
         }
     },
     "POSITIONS": {

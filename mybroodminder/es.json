@@ -53,7 +53,8 @@
 			"NEW_HIVE":"Nueva colmena",
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted",
-            "RESEARCH_DOWNLOAD":"Export para Investigadores"
+            "RESEARCH_DOWNLOAD":"Export para Investigadores",
+            "REMOVE_SHARED_APIARY":"Remove shared apiary"
 		},
 		"HIVE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
@@ -368,6 +369,13 @@
             "POSITION":"Posición"
         }
     },
+    "WEATHER_PAGE":{
+        "TITLE":"Weather",
+        "DESCRIPTION":"This view displays the Weather Source weather data for your apiary location, along with any user set weather sources",
+        "SOURCES":"Weather Sources",
+        "TEMPERATURE":"Temperature",
+        "HUMIDITY":"Humidity"
+    },
     "CONFIGURE_PAGE": {
         "TITLE":"Configurar",
         "SEPARATE":"Por tipo",
@@ -555,13 +563,27 @@
             "END": "Fin",
             "END_OPEN": "actual",
             "DESCRIPTION":"Selecciona un sensor o un hub como fuente meteorológica del colmenar para la humedad y/o la temperatura. Cualquier rango de tiempo sin un dispositivo será por defecto atribuido a Weather Source. ",
+            "MEASUREMENT":"Measurement",
             "EDIT": {
-                "ADD": "Añadir",
+                "EDIT_TEMPERATURE": "Edit Temperature Source",
+                "EDIT_HUMIDITY": "Edit Humidity Source",
+                "ADD_TEMPERATURE": "Add Temperature Source",
+                "ADD_HUMIDITY": "Add Humidity Source",
                 "SELECT_DEVICE": "Seleccionar aparato",
+                "ENDING_CURRENT":"Ending Source",
                 "SUCCESS": "Cambios guardados",
                 "ERROR_INVALID_PREV_OVERLAP": "Hora inválida, se solapa con la anterior ubicación del colmenar",
                 "ERROR_INVALID_NEXT_OVERLAP": "Hora inválida, se solapa con la siguiente ubicación del colmenar",
-                "ERROR_DEVICE_REQUIRED": "Debe seleccionar un dispositivo para todas las fuentes meteorológicas"
+                "ERROR_DEVICE_REQUIRED": "Debe seleccionar un dispositivo para todas las fuentes meteorológicas",
+                "ERROR_START_REQUIRED":"Must select a start time for the weather source"
+            },
+            "DIALOG":{
+                "TITLE":"Edit Weather",
+                "SUCCESS_UPDATED":"Apiary weather updated",
+                "TEMPERATURE":"Temperature",
+                "HUMIDITY":"Humidity",
+                "ADD_TEMPERATURE":"Add Temperature",
+                "ADD_HUMIDITY":"Add Humidity"
             }
         }
     },
@@ -1006,7 +1028,14 @@
     		"SHARE":"Compartir",
     		"CHANGED":"Colmena actualizada",
     		"SHARE_EXPIRED":"Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
-    	}
+    	},
+        "REMOVE_SELF":{
+            "TITLE":"Remove Shared Apiary",
+            "MESSAGE":"Would you like to remove the shared apiary {{name}} from your account?",
+            "CONFIRM":"Remove Apiary",
+            "SUCCESS_REMOVED":"Apiary removed",
+            "GENERIC_ERROR":"Error, apiary not removed"
+        }
     },
     "POSITIONS": {
         "UNDER_INNER_COVER":"Cubre cuadros",
