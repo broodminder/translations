@@ -441,7 +441,7 @@
         "WEIGHT_AXIS":"Poids en {{wUnit}}",
         "PRODUCTIVITY":"Productivité des abeilles",
         "PRODUCTIVITY_AXIS":"Productivité des abeilles en {{wUnit}}",
-        "BATTERY":"Charge de la batterie",
+        "BATTERY":"Batterie",
         "BATTERY_AXIS":"Charge %",
         "BALANCE":"G/D Balance",
         "WEATHER_TEMP":"Température extérieure",

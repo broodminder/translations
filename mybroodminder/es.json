@@ -441,7 +441,7 @@
         "WEIGHT_AXIS":"Peso en {{wUnit}}",
         "PRODUCTIVITY":"Productividad",
         "PRODUCTIVITY_AXIS":"Productividad en {{wUnit}}",
-        "BATTERY":"Carga de la batería",
+        "BATTERY":"Batería",
         "BATTERY_AXIS":"Carga %",
         "BALANCE":"I/D Compensación",
         "WEATHER_TEMP":"Temperatura exterior",
