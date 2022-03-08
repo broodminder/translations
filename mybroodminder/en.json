@@ -116,7 +116,8 @@
             "LINK_4": "BroodMinder-SubHub",
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
+            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_8": "S1:E19 BroodMinder-DIY"
         },
         "MYBROODMINDER": {
             "TITLE": "MyBroodMinder",
@@ -895,7 +896,7 @@
             },
             "CANCEL": {
                 "TITLE": "Cancel Token",
-                "CONFIRM": "This removes the token from your subscription. Your new {{frequency}} subscription price is ${{amount}}. After the expiration date({{expiration}}) data from this hub will no longer be accepted to MyBroodMinder. Are you sure you want to cancel this token?",
+                "CONFIRM": "This removes the token from your subscription. Your new {{frequency}} subscription price is {{amount}}. After the expiration date({{expiration}}) data from this hub will no longer be accepted to MyBroodMinder. Are you sure you want to cancel this token?",
                 "OK": "Yes, cancel this token",
                 "ERROR_1": "This is a free subscription, token cannot be cancelled",
                 "ERROR_2": "This subscription is cancelled, token cannot be cancelled",
@@ -907,7 +908,7 @@
             },
             "REACTIVATE": {
                 "TITLE": "Reactivate Token",
-                "CONFIRM": "This adds the cancelled token back to your subscription. You will be charged nothing now, since you've already paid for this period. Your new {{frequency}} subscription price is ${{amount}}. Are you sure you want to reactivate this token?",
+                "CONFIRM": "This adds the cancelled token back to your subscription. You will be charged nothing now, since you've already paid for this period. Your new {{frequency}} subscription price is {{amount}}. Are you sure you want to reactivate this token?",
                 "OK": "Yes, reactivate this token",
                 "ERROR_1": "This is a free subscription, token cannot be reactivated",
                 "ERROR_2": "This subscription is cancelled, token cannot be reactivated",
@@ -1124,7 +1125,7 @@
         "LOGIN": "Log In/Register",
         "TOKEN_REQUIRED": "Additional tokens required for each Hub (Wifi or Cell) and SIM card",
         "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
-        "TOKEN_REQUIRED_3": "Additional token cost: $54/year or $5/month",
+        "TOKEN_REQUIRED_3": "Additional token cost: {{price_year}}/year or {{price_month}}/month",
         "PRO_PURCHASED": "You have a pro membership",
         "PREMIUM_PURCHASED": "You have a premium membership"
     },
@@ -1135,7 +1136,7 @@
             "MONTH_PREM": " Month Premium Subscription - Auto Renewing",
             "YEAR_PRO": " Year Pro Subscription - Auto Renewing",
             "MONTH_PRO": " Month Pro Subscription - Auto Renewing",
-            "PRICE": " Membership Price (US Dollars)",
+            "PRICE": " Membership Price",
             "QUANTITY": "1 membership with {{quantity}} additional tokens",
             "TOTAL": "Total",
             "ERROR_1": "You have already purchased a membership. Click",
@@ -1179,7 +1180,7 @@
             "TITLE": "Subscription",
             "YEAR_SUB": "Year Membership Subscription - Auto Renewing",
             "MONTH_SUB": "Month Membership Subscription - Auto Renewing",
-            "PRICE": "Membership Price (US Dollars)",
+            "PRICE": "Membership Price",
             "STATUS": "Status",
             "AMOUNT": "Auto-renew Amount",
             "DATE": "Auto-renew Date",

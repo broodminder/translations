@@ -116,7 +116,8 @@
 			"LINK_4": "BroodMinder-SubHub",
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
+            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_8": "S1:E19 BroodMinder-DIY"
         },
 		"MYBROODMINDER": {
 			"TITLE":"MyBroodMinder",
@@ -895,7 +896,7 @@
             },
             "CANCEL": {
                 "TITLE":"Annuler le Jeton",
-                "CONFIRM":"Cela supprimera le jeton de votre abonnement. Le prix de votre nouvel abonnement à {{frequency}} est de ${{amount}}. Après la date d'expiration ({{expiration}}), les données de ce hub ne seront plus acceptées dans MyBroodMinder. Voulez-vous vraiment annuler ce jeton? ",
+                "CONFIRM":"Cela supprimera le jeton de votre abonnement. Le prix de votre nouvel abonnement à {{frequency}} est de {{amount}}. Après la date d'expiration ({{expiration}}), les données de ce hub ne seront plus acceptées dans MyBroodMinder. Voulez-vous vraiment annuler ce jeton? ",
                 "OK":"Oui, annuler ce jeton",
                 "ERROR_1":"Ceci est un abonnement gratuit, le jeton ne peut pas être annulé",
                 "ERROR_2":"Cet abonnement est annulé, le jeton ne peut pas être annulé",
@@ -907,7 +908,7 @@
             },
             "REACTIVATE": {
                 "TITLE":"Réactiver Jeton",
-                "CONFIRM":"Cela ajoutera le jeton annulé à votre abonnement. Rien ne vous sera facturé maintenant, car vous avez déjà payé pour cette période. Le prix de votre nouvel abonnement à {{frequency}} est de ${{amount}}. Voulez-vous vraiment réactiver ce jeton ?",
+                "CONFIRM":"Cela ajoutera le jeton annulé à votre abonnement. Rien ne vous sera facturé maintenant, car vous avez déjà payé pour cette période. Le prix de votre nouvel abonnement à {{frequency}} est de {{amount}}. Voulez-vous vraiment réactiver ce jeton ?",
                 "OK":"Oui, réactiver ce jeton",
                 "ERROR_1":"Ceci est un abonnement gratuit, le jeton ne peut pas être réactivé",
                 "ERROR_2":"Cet abonnement est annulé, le jeton ne peut pas être réactivé",
@@ -1124,7 +1125,7 @@
         "LOGIN":"Se connecter/s'enregistrer",
         "TOKEN_REQUIRED":"Un jeton aditionnel est requis pour chaque Hub (Wifi ou Cell) et SIM card",
         "TOKEN_REQUIRED_2": "Jeton supplémentaire requis pour utiliser des appareils tiers",
-        "TOKEN_REQUIRED_3":"Coût du jeton additionnel: $54/an ou $5/mois",
+        "TOKEN_REQUIRED_3":"Coût du jeton additionnel: {{price_year}}/an ou {{price_month}}/mois",
         "PRO_PURCHASED":"Vous avez un abonnement Pro",
         "PREMIUM_PURCHASED":"Vous avez un abonnement Premium"
     },
@@ -1135,7 +1136,7 @@
             "MONTH_PREM":" Abonnement Premium mensuel - Renouvellement auto",
             "YEAR_PRO":" Abonnement Pro annuel - Renouvellement auto",
             "MONTH_PRO":" Abonnement Pro mensuel - Renouvellement auto",
-            "PRICE":" Abonnement (US Dollars)",
+            "PRICE":" Abonnement",
             "QUANTITY":"1 abonnement avec {{quantity}} jetons additionnels",
             "TOTAL":"Total",
             "ERROR_1":"Vous avez déjà acheté un abonnement. Cliquez",
@@ -1179,7 +1180,7 @@
             "TITLE":"Abonnement",
             "YEAR_SUB":"Abonnement annuel - Renouvellement auto",
             "MONTH_SUB":"Abonnement mensuel - Renouvellement auto",
-            "PRICE":"Montant de l'abonnement (US Dollars)",
+            "PRICE":"Montant de l'abonnement",
             "STATUS":"Status",
             "AMOUNT":"Montant renouvelé auto",
             "DATE":"Date de renouvelement",

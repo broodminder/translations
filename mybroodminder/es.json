@@ -116,7 +116,8 @@
 			"LINK_4": "BroodMinder-SubHub",            
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMInder-W3 Full Hive Scale"
+            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_8": "S1:E19 BroodMinder-DIY"
         },
 		"MYBROODMINDER": {
 			"TITLE":"MyBroodMinder",
@@ -895,7 +896,7 @@
             },
             "CANCEL": {
                 "TITLE":"Cancelar ficha",
-                "CONFIRM":"Esto elimina el ficha de su suscripción. El importe de su nueva suscripción {{Frequency}} es de ${{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
+                "CONFIRM":"Esto elimina el ficha de su suscripción. El importe de su nueva suscripción {{Frequency}} es de {{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
                 "OK":"Si, retirar ficha",
                 "ERROR_1":"Esta es una suscripción gratuita, el ficha no se puede cancelar",
                 "ERROR_2":"Esta suscripción está cancelada, el ficha no se puede cancelar",
@@ -907,7 +908,7 @@
             },
             "REACTIVATE": {
                 "TITLE":"Reactivar Ficha",
-                "CONFIRM":"Esto agrega el ficha cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es $ {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
+                "CONFIRM":"Esto agrega el ficha cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
                 "OK":"Si, reactivar ficha",
                 "ERROR_1":"Esta es una suscripción gratuita, el ficha no se puede reactivar",
                 "ERROR_2":"Esta suscripción está cancelada, el ficha no se puede reactivar",
@@ -1124,7 +1125,7 @@
         "LOGIN":"Login/Registrar",
         "TOKEN_REQUIRED":"Se requieren fichas adicionales para cada Hub (Wifi o Cell) y cada SIM",
         "TOKEN_REQUIRED_2": "Se requiere un token adicional para utilizar dispositivos de terceros",
-        "TOKEN_REQUIRED_3":"Coste de la ficha: $54/año o $5/mes",
+        "TOKEN_REQUIRED_3":"Coste de la ficha: {{price_year}}/año o {{price_month}}/mes",
         "PRO_PURCHASED":"Tienes una cuenta Pro",
         "PREMIUM_PURCHASED":"Tienes una cuenta Premium"
     },
@@ -1135,7 +1136,7 @@
             "MONTH_PREM":" Suscripción premium mensual - Renovación automática",
             "YEAR_PRO":" Suscripción Pro anual - Renovación automática",
             "MONTH_PRO":" Suscripción Pro mensual - Renovación automática",
-            "PRICE":" Importe de la Suscripción (US Dollars)",
+            "PRICE":" Importe de la Suscripción",
             "QUANTITY":"1 Suscripción con {{quantity}} fichas adicionales",
             "TOTAL":"Total",
             "ERROR_1":"Ya has comprado una suscripción. Haz clic",
@@ -1179,7 +1180,7 @@
             "TITLE":"Suscripción",
             "YEAR_SUB":"Suscripción anual - Renovación automática",
             "MONTH_SUB":"Suscripción mensual - Renovación automática",
-            "PRICE":"Importe de la Suscripción (US Dollars)",
+            "PRICE":"Importe de la Suscripción",
             "STATUS":"Estado",
             "AMOUNT":"Importe de la renovación automática",
             "DATE":"Fecha de la renovación automática",
