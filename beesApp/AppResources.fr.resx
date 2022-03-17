@@ -72,6 +72,12 @@
 	<data name="COMMON_ALL">
 		<value>Tous</value>
 	</data>
+	<data name="COMMON_AUDIO">
+		<value>Audio</value>
+	</data>
+	<data name="COMMON_RADAR">
+		<value>Radar</value>
+	</data>
 	<data name="COMMON_MODEL">
 		<value>Modèle</value>
 	</data>
@@ -693,6 +699,9 @@
 	<data name="DEVICEDETAIL_LIVE_S4">
 		<value>Erreur réglage temps</value>
 	</data>
+	<data name="DEVICEDETAIL_LIVE_RATE5">
+		<value>5 Minutes</value>
+	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE15">
 		<value>15 Minutes</value>
 	</data>
@@ -998,6 +1007,18 @@
 	</data>
 	<data name="READINGSCSV_SS">
 		<value>Code état essaimage</value>
+	</data>
+	<data name="READINGSCSV_AU1">
+		<value>Audio1</value>
+	</data>
+	<data name="READINGSCSV_RA1">
+		<value>Radar1</value>
+	</data>
+	<data name="READINGSCSV_AU2">
+		<value>Audio2</value>
+	</data>
+	<data name="READINGSCSV_RA2">
+		<value>Radar2</value>
 	</data>
 	<data name="READINGSCSV_NAME">
 		<value>mesures</value>

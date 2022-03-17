@@ -72,6 +72,12 @@
 	<data name="COMMON_ALL">
 		<value>Todo</value>
 	</data>
+	<data name="COMMON_AUDIO">
+		<value>Audio</value>
+	</data>
+	<data name="COMMON_RADAR">
+		<value>Radar</value>
+	</data>
 	<data name="COMMON_MODEL">
 		<value>Modelo</value>
 	</data>
@@ -112,7 +118,7 @@
 		<value>Iniciar sesión</value>
 	</data>
 	<data name="SETTINGS_EDITPREF">
-		<value>Editar Preferencias</value>
+		<value>Editar Ajustes</value>
 	</data>
 	<data name="SETTINGS_LOGOUT">
 		<value>Cerrar sesión</value>
@@ -136,7 +142,7 @@
 		<value>ninguna cuenta asociada</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TITLE">
-		<value>Editar Preferencias</value>
+		<value>Editar Ajustes</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
 		<value>Metrico (Celsius/Kilograms)</value>
@@ -693,6 +699,9 @@
 	<data name="DEVICEDETAIL_LIVE_S4">
 		<value>Error setting time</value>
 	</data>
+	<data name="DEVICEDETAIL_LIVE_RATE5">
+		<value>5 Minutos</value>
+	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE15">
 		<value>15 Minutos</value>
 	</data>
@@ -998,6 +1007,18 @@
 	</data>
 	<data name="READINGSCSV_SS">
 		<value>Swarm State</value>
+	</data>
+	<data name="READINGSCSV_AU1">
+		<value>Audio1</value>
+	</data>
+	<data name="READINGSCSV_RA1">
+		<value>Radar1</value>
+	</data>
+	<data name="READINGSCSV_AU2">
+		<value>Audio2</value>
+	</data>
+	<data name="READINGSCSV_RA2">
+		<value>Radar2</value>
 	</data>
 	<data name="READINGSCSV_NAME">
 		<value>readings</value>
