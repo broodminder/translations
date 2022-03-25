@@ -322,7 +322,7 @@
 		<value>Connected</value>
 	</data>
 	<data name="DEVICE_STATUS_BLEERROR">
-		<value>BLE Error</value>
+		<value>Bluetooth Error</value>
 	</data>
 	<data name="DEVICE_STATUS_SYNCERROR">
 		<value>Sync Error</value>
@@ -335,6 +335,9 @@
 	</data>
 	<data name="DEVICE_STATUS_COMPLETE">
 		<value>Complete</value>
+	</data>
+	<data name="DEVICE_STATUS_REMOTEHUB">
+		<value>Hub (Remote)</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
 		<value>Cancel sync?</value>
