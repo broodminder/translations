@@ -276,7 +276,8 @@
         "DOWNLOAD": "CSV data downloaden",
         "DOWNLOAD_WEATHER": "Weerdata als CSV downloaden",
         "DOWNLOAD_PREMIUM": "Kastdata downloaden beschikbaar in Premium abonnement.",
-        "DOWNLOAD_WEATHER_PREMIUM": "Weerdata downloaden beschikbaar in Premium abonnement."
+        "DOWNLOAD_WEATHER_PREMIUM": "Weerdata downloaden beschikbaar in Premium abonnement.",
+        "INACTIVE":"Inactive since {{date}}"
     },
     "DEVICE_PAGE": {
         "DATA_TOOLTIP": {
@@ -859,7 +860,15 @@
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE": "Archiveer bijenkast",
             "MESSAGE": "Dit beëindigt alle sensorlocaties in de bijenkast en verwijdert de kast uit je overzichten. Bestaande data blijft bewaard, maar er zal geen nieuwe data voor deze kast bijkomen. Dit kan niet ongedaan gemaakt worden. Bijenkast {{name}} archiveren?",
-            "CONFIRM": "Ja"
+            "CONFIRM": "Ja",
+            "REASON":"Select Reason",
+            "REASONS":{
+                "OTHER":"Other",
+                "DIED":"Died",
+                "ABSCONDED":"Absconded",
+                "COMBINED":"Combined with another colony"
+            },
+            "COMMENT":"Comment"
         },
         "UPDATED_SUCCESS": "Kast geupdate",
         "DELETE_SUCCESS": "Kast verwijderd",

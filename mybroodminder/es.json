@@ -276,7 +276,8 @@
         "DOWNLOAD":"Descargar datos CSV",
         "DOWNLOAD_WEATHER":"Descargar datos meteorológicos CSV",
         "DOWNLOAD_PREMIUM":"Descargar datos de la colmena de la suscripcion Premium.",
-        "DOWNLOAD_WEATHER_PREMIUM":"Descargar datos meterológicos de la suscripcion Premium."
+        "DOWNLOAD_WEATHER_PREMIUM":"Descargar datos meterológicos de la suscripcion Premium.",
+        "INACTIVE":"Inactive since {{date}}"
     },
     "DEVICE_PAGE": {
         "DATA_TOOLTIP": {
@@ -859,7 +860,15 @@
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Colmena inactiva",
             "MESSAGE":"Se terminará la ubicacion de los sensores en la colmena y se eliminara la colmena de las vista del colmenar. Los datos existentes se mantendrán pero no se podran enviar nuevos datos a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
-            "CONFIRM":"Si"
+            "CONFIRM":"Si",
+            "REASON":"Select Reason",
+            "REASONS":{
+                "OTHER":"Other",
+                "DIED":"Died",
+                "ABSCONDED":"Absconded",
+                "COMBINED":"Combined with another colony"
+            },
+            "COMMENT":"Comment"
          },
         "UPDATED_SUCCESS":"Colmena actualizada",
         "DELETE_SUCCESS":"Colmena suprimida",
