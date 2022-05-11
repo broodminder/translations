@@ -1081,7 +1081,7 @@
             "SUB_EXPIRING":"Expire le {{expiration}}",
             "CREDIT_CANCELLED":"Non récurrent, expire le {{expiration}}",
             "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
-            "CREDIT_EXPIRED":"Expiré le{{expiration}}",
+            "CREDIT_EXPIRED":"Expiré le {{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
             "PENDING":"En attente de paiement"
         },

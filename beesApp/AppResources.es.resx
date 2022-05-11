@@ -1258,7 +1258,7 @@
 		<value>Email de reinicialización del password enviado.</value>
 	</data>
 	<data name="INITIAL_LOGIN">
-		<value>Login</value>
+		<value>Conexión</value>
 	</data>
 	<data name="INITIAL_BASIC">
 		<value>Básica (sin cuenta)</value>
