@@ -235,7 +235,7 @@
 		<value>Nueva Colmena</value>
 	</data>
 	<data name="HIVE_CONTEXT_SYNC">
-		<value>Sinc</value>
+		<value>Sincronizar</value>
 	</data>
 	<data name="HIVE_CONTEXT_ADDDEVICE">
 		<value>Nuevo Sensor</value>
@@ -265,16 +265,16 @@
 		<value>Sensor en modo Deep Sleep.</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNC">
-		<value>Sinc</value>
+		<value>Sincronizar</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNCNEXT">
-		<value>Sinc Siguiente</value>
+		<value>Sincro Siguiente</value>
 	</data>
 	<data name="DEVICE_CONTEXT_REMOVESYNC">
-		<value>Suprimir Sinc</value>
+		<value>Suprimir ro</value>
 	</data>
 	<data name="DEVICE_CONTEXT_CANCEL">
-		<value>Cancelar Sinc</value>
+		<value>Cancelar Sincro</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDIT">
 		<value>Editar Sensor</value>
@@ -325,7 +325,7 @@
 		<value>Error Bluetooth</value>
 	</data>
 	<data name="DEVICE_STATUS_SYNCERROR">
-		<value>Error Sinc</value>
+		<value>Error Sincro</value>
 	</data>
 	<data name="DEVICE_STATUS_NOTFOUND">
 		<value>No Encontrado</value>
