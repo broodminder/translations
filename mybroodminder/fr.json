@@ -116,7 +116,7 @@
 			"LINK_4": "BroodMinder-SubHub",
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_7": "S1:E17 BroodMinder-W3 Balance intégrale",
             "LINK_8": "S1:E19 BroodMinder-DIY"
         },
 		"MYBROODMINDER": {
@@ -131,18 +131,18 @@
 		},
 		"APPS": {
             "TITLE": "Apps",
-            "LINK_1": "S1:E14 The BroodMinder-Bees App",
+            "LINK_1": "S1:E14 BroodMinder Bees App",
             "LINK_2": "Apiary App - Mode Hub"
         },
         "INTERPRETATION": {
             "TITLE":"Interprétation des données",
-            "LINK_1": "S1:E4 BroodMinder and Mellisphera",
-            "LINK_2": "S1:E3 Colony size vs temperature",
-            "LINK_3": "S1:E8 Swarm Detection presentation"
+            "LINK_1": "S1:E4 BroodMinder et Mellisphera",
+            "LINK_2": "S1:E3 Taille de la colinie vs température",
+            "LINK_3": "S1:E8 Détection d'essaimage"
         },
         "MAINTENANCE": {
             "TITLE": "Maintenance",
-            "LINK_1": "S1:E1 Hive Monitoring Spring Maintenance",
+            "LINK_1": "S1:E1 Maintenance de printemps",
             "LINK_2": "S1:E18 Batteries"
         },
         "DISCONTINUED": {
@@ -173,7 +173,7 @@
             }
         },
         "BLOGMINDER": {
-            "TITLE": "BlogMinder Videos"
+            "TITLE": "BlogMinder Vidéos"
         }
 	},
 	"TOUR": {
@@ -371,11 +371,11 @@
         }
     },
     "WEATHER_PAGE":{
-        "TITLE":"Weather",
-        "DESCRIPTION":"This view displays the Weather Source weather data for your apiary location, along with any user set weather sources",
-        "SOURCES":"Weather Sources",
-        "TEMPERATURE":"Temperature",
-        "HUMIDITY":"Humidity"
+        "TITLE":"Météo",
+        "DESCRIPTION":"Cette vue affiche les données météorologiques de WeatherSource pour l'emplacement de votre rucher, ainsi que toutes les sources météo définies par l'utilisateur",
+        "SOURCES":"Sources Météo",
+        "TEMPERATURE":"Température",
+        "HUMIDITY":"Humidité"
     },
     "CONFIGURE_PAGE": {
         "TITLE":"Configurer",
@@ -564,27 +564,27 @@
             "END": "Fin",
             "END_OPEN": "actuel",
             "DESCRIPTION":"Sélectionnez un capteur ou un hub comme source météo de votre rucher pour l'humidité et/ou la température. Toute plage horaire sans appareil sera par défaut sur Weather Source.",
-            "MEASUREMENT":"Measurement",
+            "MEASUREMENT":"Mesure",
             "EDIT": {
-                "EDIT_TEMPERATURE": "Edit Temperature Source",
-                "EDIT_HUMIDITY": "Edit Humidity Source",
-                "ADD_TEMPERATURE": "Add Temperature Source",
-                "ADD_HUMIDITY": "Add Humidity Source",
+                "EDIT_TEMPERATURE": "Editer Source de Température",
+                "EDIT_HUMIDITY": "Edit Source d'Humidité",
+                "ADD_TEMPERATURE": "Ajouter Source de Température",
+                "ADD_HUMIDITY": "Ajouter Source d'Humidité",
                 "SELECT_DEVICE": "Selectionner capteur",
-                "ENDING_CURRENT":"Ending Source",
+                "ENDING_CURRENT":"Terminant Source",
                 "SUCCESS": "Changements enregistrés",
                 "ERROR_INVALID_PREV_OVERLAP": "Date invalide, chevauche l'emplacement du rucher précédent",
                 "ERROR_INVALID_NEXT_OVERLAP": "Date invalide, chevauche l'emplacement du rucher suivant",
                 "ERROR_DEVICE_REQUIRED": "Sélectionnez un appareil pour toutes les sources météorologiques",
-                "ERROR_START_REQUIRED":"Must select a start time for the weather source"
+                "ERROR_START_REQUIRED":"Sélectionnez une heure de début pour la source météo"
             },
             "DIALOG":{
-                "TITLE":"Edit Weather",
-                "SUCCESS_UPDATED":"Apiary weather updated",
-                "TEMPERATURE":"Temperature",
-                "HUMIDITY":"Humidity",
-                "ADD_TEMPERATURE":"Add Temperature",
-                "ADD_HUMIDITY":"Add Humidity"
+                "TITLE":"Editer Météo",
+                "SUCCESS_UPDATED":"Météo du Rucher actualisée",
+                "TEMPERATURE":"Température",
+                "HUMIDITY":"Humidité",
+                "ADD_TEMPERATURE":"Ajouter Température",
+                "ADD_HUMIDITY":"Ajouter Humidité"
             }
         }
     },
@@ -1031,11 +1031,11 @@
             "SHARE_EXPIRED":"Abonnement Premium écoulé. Les données seront privées jusqu'au {{end}}."
         },
         "REMOVE_SELF":{
-            "TITLE":"Remove Shared Apiary",
-            "MESSAGE":"Would you like to remove the shared apiary {{name}} from your account?",
-            "CONFIRM":"Remove Apiary",
-            "SUCCESS_REMOVED":"Apiary removed",
-            "GENERIC_ERROR":"Error, apiary not removed"
+            "TITLE":"Effacer Rucher Partagé",
+            "MESSAGE":"Desirez vous effacer le rucher partagé {{name}} de votre compte?",
+            "CONFIRM":"Effacer Rucher",
+            "SUCCESS_REMOVED":"Rucher Effacé",
+            "GENERIC_ERROR":"Erreur, rucher non effacé"
         }
     },
     "POSITIONS": {

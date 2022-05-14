@@ -54,7 +54,7 @@
 			"SHARE":"Compartir",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Export para Investigadores",
-            "REMOVE_SHARED_APIARY":"Remove shared apiary"
+            "REMOVE_SHARED_APIARY":"Suprimir colmenar compartido"
 		},
 		"HIVE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
@@ -116,7 +116,7 @@
 			"LINK_4": "BroodMinder-SubHub",            
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_7": "S1:E17 BroodMinder-W3 Bascula integral",
             "LINK_8": "S1:E19 BroodMinder-DIY"
         },
 		"MYBROODMINDER": {
@@ -131,14 +131,14 @@
 		},
 		"APPS": {
             "TITLE": "Apps",
-            "LINK_1": "S1:E14 The BroodMinder-Bees App",
+            "LINK_1": "S1:E14 BroodMinder Bees App",
             "LINK_2": "Apiary App - Modo Hub"
         },
         "INTERPRETATION": {
             "TITLE":"Interpretación de datos",
-            "LINK_1": "S1:E4 BroodMinder and Mellisphera",
-            "LINK_2": "S1:E3 Colony size vs temperature",
-            "LINK_3": "S1:E8 Swarm Detection presentation"
+            "LINK_1": "S1:E4 BroodMinder y Mellisphera",
+            "LINK_2": "S1:E3 Talla de la colmena vs temperatura",
+            "LINK_3": "S1:E8 Detección de enjambrazon"
         },
         "MAINTENANCE": {
             "TITLE": "Mantenimiento",
@@ -371,11 +371,11 @@
         }
     },
     "WEATHER_PAGE":{
-        "TITLE":"Weather",
-        "DESCRIPTION":"This view displays the Weather Source weather data for your apiary location, along with any user set weather sources",
-        "SOURCES":"Weather Sources",
-        "TEMPERATURE":"Temperature",
-        "HUMIDITY":"Humidity"
+        "TITLE":"Meteo",
+        "DESCRIPTION":"Esta vista muestra los datos meteorológicos de WeatherSource para la ubicación del colmenar, junto con cualquier fuente meteorológica establecida por el usuario",
+        "SOURCES":"Fuentes Meteorológicas",
+        "TEMPERATURE":"Temperatura",
+        "HUMIDITY":"Humedad"
     },
     "CONFIGURE_PAGE": {
         "TITLE":"Configurar",
@@ -564,27 +564,27 @@
             "END": "Fin",
             "END_OPEN": "actual",
             "DESCRIPTION":"Selecciona un sensor o un hub como fuente meteorológica del colmenar para la humedad y/o la temperatura. Cualquier rango de tiempo sin un dispositivo será por defecto atribuido a Weather Source. ",
-            "MEASUREMENT":"Measurement",
+            "MEASUREMENT":"Variable",
             "EDIT": {
-                "EDIT_TEMPERATURE": "Edit Temperature Source",
-                "EDIT_HUMIDITY": "Edit Humidity Source",
-                "ADD_TEMPERATURE": "Add Temperature Source",
-                "ADD_HUMIDITY": "Add Humidity Source",
-                "SELECT_DEVICE": "Seleccionar aparato",
-                "ENDING_CURRENT":"Ending Source",
+                "EDIT_TEMPERATURE": "Editar FUente Temperatura",
+                "EDIT_HUMIDITY": "Editar Fuente Humedad",
+                "ADD_TEMPERATURE": "Añadir Fuente Temperatura",
+                "ADD_HUMIDITY": "Añadir Fuente Humedad",
+                "SELECT_DEVICE": "Seleccionar sensor",
+                "ENDING_CURRENT":"Terminando Fuente",
                 "SUCCESS": "Cambios guardados",
                 "ERROR_INVALID_PREV_OVERLAP": "Hora inválida, se solapa con la anterior ubicación del colmenar",
                 "ERROR_INVALID_NEXT_OVERLAP": "Hora inválida, se solapa con la siguiente ubicación del colmenar",
                 "ERROR_DEVICE_REQUIRED": "Debe seleccionar un dispositivo para todas las fuentes meteorológicas",
-                "ERROR_START_REQUIRED":"Must select a start time for the weather source"
+                "ERROR_START_REQUIRED":"Debes seleccionar una fecha de inicio para esta fuente"
             },
             "DIALOG":{
-                "TITLE":"Edit Weather",
-                "SUCCESS_UPDATED":"Apiary weather updated",
-                "TEMPERATURE":"Temperature",
-                "HUMIDITY":"Humidity",
-                "ADD_TEMPERATURE":"Add Temperature",
-                "ADD_HUMIDITY":"Add Humidity"
+                "TITLE":"Editar Meteo",
+                "SUCCESS_UPDATED":"Meteo del colmenar actualizada",
+                "TEMPERATURE":"Temperatura",
+                "HUMIDITY":"Humedad",
+                "ADD_TEMPERATURE":"Añadir Temperatura",
+                "ADD_HUMIDITY":"Añadir Humedad"
             }
         }
     },
@@ -1031,11 +1031,11 @@
     		"SHARE_EXPIRED":"Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
     	},
         "REMOVE_SELF":{
-            "TITLE":"Remove Shared Apiary",
-            "MESSAGE":"Would you like to remove the shared apiary {{name}} from your account?",
-            "CONFIRM":"Remove Apiary",
-            "SUCCESS_REMOVED":"Apiary removed",
-            "GENERIC_ERROR":"Error, apiary not removed"
+            "TITLE":"Suprimir Colmenar Compartido",
+            "MESSAGE":"¿Desea eliminar el colmenar compartido {{name}} de tu cuenta?",
+            "CONFIRM":"Suprimir Colmenar",
+            "SUCCESS_REMOVED":"Colmenar suprimido",
+            "GENERIC_ERROR":"Error, el colmenar no ha suprimido"
         }
     },
     "POSITIONS": {
@@ -1066,11 +1066,11 @@
         "EXP": {
             "TRIAL":"Plan de prueba vence el {{expiration}}",
             "NOT_ACTIVE":"Inactivo",
-            "SUB_CANCELLED":"Cancelado, vence el {{expiration}}",
+            "SUB_CANCELLED":"No se renueva, vence el {{expiration}}",
             "SUB_RENEWING":"Renueva el {{expiration}}",
             "SUB_EXPIRED":"Vencido el {{expiration}}",
             "SUB_EXPIRING":"Vence el {{expiration}}",
-            "CREDIT_CANCELLED":"Cancelado, vence el {{expiration}}",
+            "CREDIT_CANCELLED":"No se renueva, vence el {{expiration}}",
             "CREDIT_FREE_RENEWING":"Gratuito, vence el {{expiration}}",
             "CREDIT_EXPIRED":"Vencido el {{expiration}}",
             "CREDIT_EXPIRING":"Vence el {{expiration}}",
