@@ -861,14 +861,14 @@
             "TITLE":"Définir la ruche comme inactive",
             "MESSAGE":"Ceci met fin à tous les emplacements de capteurs dans la ruche et supprime la ruche de vos vues du rucher. Les relevés existants seront conservées, mais les nouveaux relevés n'iront plus dans cette ruche. Cela ne peut pas être défait. Désactiver la ruche {{name}}?",
             "CONFIRM":"Oui",
-            "REASON":"Select Reason",
+            "REASON":"Selectionner une Raison",
             "REASONS":{
-                "OTHER":"Other",
-                "DIED":"Died",
-                "ABSCONDED":"Absconded",
-                "COMBINED":"Combined with another colony"
+                "OTHER":"Autre",
+                "DIED":"Morte",
+                "ABSCONDED":"Abandonnée",
+                "COMBINED":"Fusionnée avec une autre colonie"
             },
-            "COMMENT":"Comment"
+            "COMMENT":"Commentaire"
          },
         "UPDATED_SUCCESS":"Ruche modifiée",
         "DELETE_SUCCESS":"Ruche supprimée",

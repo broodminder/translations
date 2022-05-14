@@ -861,14 +861,14 @@
             "TITLE":"Colmena inactiva",
             "MESSAGE":"Se terminará la ubicacion de los sensores en la colmena y se eliminara la colmena de las vista del colmenar. Los datos existentes se mantendrán pero no se podran enviar nuevos datos a esta colmena. Esta acción es definitiva. ¿Desactivar la colmena {{name}}?",
             "CONFIRM":"Si",
-            "REASON":"Select Reason",
+            "REASON":"Razón",
             "REASONS":{
-                "OTHER":"Other",
-                "DIED":"Died",
-                "ABSCONDED":"Absconded",
-                "COMBINED":"Combined with another colony"
+                "OTHER":"Otro",
+                "DIED":"Muerta",
+                "ABSCONDED":"Abandonada",
+                "COMBINED":"Combinada con otra colmena"
             },
-            "COMMENT":"Comment"
+            "COMMENT":"Commentario"
          },
         "UPDATED_SUCCESS":"Colmena actualizada",
         "DELETE_SUCCESS":"Colmena suprimida",
