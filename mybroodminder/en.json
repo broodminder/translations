@@ -276,7 +276,8 @@
         "DOWNLOAD": "Download CSV data",
         "DOWNLOAD_WEATHER": "Download Weather CSV data",
         "DOWNLOAD_PREMIUM": "Downloading hive data available with premium subscription.",
-        "DOWNLOAD_WEATHER_PREMIUM": "Downloading weather data available with premium subscription."
+        "DOWNLOAD_WEATHER_PREMIUM": "Downloading weather data available with premium subscription.",
+        "INACTIVE":"Inactive since {{date}}"
     },
     "DEVICE_PAGE": {
         "DATA_TOOLTIP": {
@@ -859,7 +860,15 @@
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE": "Set Hive as Inactive",
             "MESSAGE": "This ends all device locations in the hive and removes hive from your apiary views. Existing data will remain, however new data will no longer go to this hive. This cannot be undone. Set hive {{name}} to inactive?",
-            "CONFIRM": "Yes"
+            "CONFIRM": "Yes",
+            "REASON":"Select Reason",
+            "REASONS":{
+                "OTHER":"Other",
+                "DIED":"Died",
+                "ABSCONDED":"Absconded",
+                "COMBINED":"Combined with another colony"
+            },
+            "COMMENT":"Comment"
         },
         "UPDATED_SUCCESS": "Hive updated",
         "DELETE_SUCCESS": "Hive deleted",

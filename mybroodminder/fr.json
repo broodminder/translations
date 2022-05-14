@@ -276,7 +276,8 @@
         "DOWNLOAD":"Télécharger les données au format CSV",
         "DOWNLOAD_WEATHER":"Télécharger les données météo au format CSV",
         "DOWNLOAD_PREMIUM":"Téléchargement des données de la ruche disponible avec un abonnement premium.",
-        "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement premium."
+        "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement premium.",
+        "INACTIVE":"Inactive since {{date}}"
     },
     "DEVICE_PAGE": {
         "DATA_TOOLTIP": {
@@ -859,7 +860,15 @@
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE":"Définir la ruche comme inactive",
             "MESSAGE":"Ceci met fin à tous les emplacements de capteurs dans la ruche et supprime la ruche de vos vues du rucher. Les relevés existants seront conservées, mais les nouveaux relevés n'iront plus dans cette ruche. Cela ne peut pas être défait. Désactiver la ruche {{name}}?",
-            "CONFIRM":"Oui"
+            "CONFIRM":"Oui",
+            "REASON":"Select Reason",
+            "REASONS":{
+                "OTHER":"Other",
+                "DIED":"Died",
+                "ABSCONDED":"Absconded",
+                "COMBINED":"Combined with another colony"
+            },
+            "COMMENT":"Comment"
          },
         "UPDATED_SUCCESS":"Ruche modifiée",
         "DELETE_SUCCESS":"Ruche supprimée",
@@ -1072,7 +1081,7 @@
             "SUB_EXPIRING":"Expire le {{expiration}}",
             "CREDIT_CANCELLED":"Non récurrent, expire le {{expiration}}",
             "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
-            "CREDIT_EXPIRED":"Expiré le{{expiration}}",
+            "CREDIT_EXPIRED":"Expiré le {{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
             "PENDING":"En attente de paiement"
         },

@@ -72,6 +72,12 @@
 	<data name="COMMON_ALL">
 		<value>Todo</value>
 	</data>
+	<data name="COMMON_AUDIO">
+		<value>Audio</value>
+	</data>
+	<data name="COMMON_RADAR">
+		<value>Radar</value>
+	</data>
 	<data name="COMMON_MODEL">
 		<value>Modelo</value>
 	</data>
@@ -112,7 +118,7 @@
 		<value>Iniciar sesión</value>
 	</data>
 	<data name="SETTINGS_EDITPREF">
-		<value>Editar Preferencias</value>
+		<value>Editar Ajustes</value>
 	</data>
 	<data name="SETTINGS_LOGOUT">
 		<value>Cerrar sesión</value>
@@ -136,7 +142,7 @@
 		<value>ninguna cuenta asociada</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_TITLE">
-		<value>Editar Preferencias</value>
+		<value>Editar Ajustes</value>
 	</data>
 	<data name="SETTINGS_EDITPREF_METRIC">
 		<value>Metrico (Celsius/Kilograms)</value>
@@ -229,7 +235,7 @@
 		<value>Nueva Colmena</value>
 	</data>
 	<data name="HIVE_CONTEXT_SYNC">
-		<value>Sinc</value>
+		<value>Sincronizar</value>
 	</data>
 	<data name="HIVE_CONTEXT_ADDDEVICE">
 		<value>Nuevo Sensor</value>
@@ -259,16 +265,16 @@
 		<value>Sensor en modo Deep Sleep.</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNC">
-		<value>Sinc</value>
+		<value>Sincronizar</value>
 	</data>
 	<data name="DEVICE_CONTEXT_SYNCNEXT">
-		<value>Sinc Siguiente</value>
+		<value>Sincro Siguiente</value>
 	</data>
 	<data name="DEVICE_CONTEXT_REMOVESYNC">
-		<value>Suprimir Sinc</value>
+		<value>Suprimir ro</value>
 	</data>
 	<data name="DEVICE_CONTEXT_CANCEL">
-		<value>Cancelar Sinc</value>
+		<value>Cancelar Sincro</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDIT">
 		<value>Editar Sensor</value>
@@ -316,10 +322,10 @@
 		<value>Conectado</value>
 	</data>
 	<data name="DEVICE_STATUS_BLEERROR">
-		<value>Error BLE</value>
+		<value>Error Bluetooth</value>
 	</data>
 	<data name="DEVICE_STATUS_SYNCERROR">
-		<value>Error Sinc</value>
+		<value>Error Sincro</value>
 	</data>
 	<data name="DEVICE_STATUS_NOTFOUND">
 		<value>No Encontrado</value>
@@ -329,6 +335,9 @@
 	</data>
 	<data name="DEVICE_STATUS_COMPLETE">
 		<value>Completo</value>
+	</data>
+	<data name="DEVICE_STATUS_REMOTEHUB">
+		<value>Hub (Remote)</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
 		<value>Cancelar la sincro?</value>
@@ -693,6 +702,9 @@
 	<data name="DEVICEDETAIL_LIVE_S4">
 		<value>Error setting time</value>
 	</data>
+	<data name="DEVICEDETAIL_LIVE_RATE5">
+		<value>5 Minutos</value>
+	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE15">
 		<value>15 Minutos</value>
 	</data>
@@ -999,6 +1011,18 @@
 	<data name="READINGSCSV_SS">
 		<value>Swarm State</value>
 	</data>
+	<data name="READINGSCSV_AU1">
+		<value>Audio1</value>
+	</data>
+	<data name="READINGSCSV_RA1">
+		<value>Radar1</value>
+	</data>
+	<data name="READINGSCSV_AU2">
+		<value>Audio2</value>
+	</data>
+	<data name="READINGSCSV_RA2">
+		<value>Radar2</value>
+	</data>
 	<data name="READINGSCSV_NAME">
 		<value>readings</value>
 	</data>
@@ -1234,7 +1258,7 @@
 		<value>Email de reinicialización del password enviado.</value>
 	</data>
 	<data name="INITIAL_LOGIN">
-		<value>Login</value>
+		<value>Conexión</value>
 	</data>
 	<data name="INITIAL_BASIC">
 		<value>Básica (sin cuenta)</value>

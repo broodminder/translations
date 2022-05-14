@@ -72,6 +72,12 @@
 	<data name="COMMON_ALL">
 		<value>Tous</value>
 	</data>
+	<data name="COMMON_AUDIO">
+		<value>Audio</value>
+	</data>
+	<data name="COMMON_RADAR">
+		<value>Radar</value>
+	</data>
 	<data name="COMMON_MODEL">
 		<value>Modèle</value>
 	</data>
@@ -316,7 +322,7 @@
 		<value>Connecté</value>
 	</data>
 	<data name="DEVICE_STATUS_BLEERROR">
-		<value>Erreur BLE</value>
+		<value>Erreur Bluetooth</value>
 	</data>
 	<data name="DEVICE_STATUS_SYNCERROR">
 		<value>Erreur synchronisation</value>
@@ -329,6 +335,9 @@
 	</data>
 	<data name="DEVICE_STATUS_COMPLETE">
 		<value>Terminé</value>
+	</data>
+	<data name="DEVICE_STATUS_REMOTEHUB">
+		<value>Hub (Remote)</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
 		<value>Annuler synchronisation ?</value>
@@ -693,6 +702,9 @@
 	<data name="DEVICEDETAIL_LIVE_S4">
 		<value>Erreur réglage temps</value>
 	</data>
+	<data name="DEVICEDETAIL_LIVE_RATE5">
+		<value>5 Minutes</value>
+	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE15">
 		<value>15 Minutes</value>
 	</data>
@@ -998,6 +1010,18 @@
 	</data>
 	<data name="READINGSCSV_SS">
 		<value>Code état essaimage</value>
+	</data>
+	<data name="READINGSCSV_AU1">
+		<value>Audio1</value>
+	</data>
+	<data name="READINGSCSV_RA1">
+		<value>Radar1</value>
+	</data>
+	<data name="READINGSCSV_AU2">
+		<value>Audio2</value>
+	</data>
+	<data name="READINGSCSV_RA2">
+		<value>Radar2</value>
 	</data>
 	<data name="READINGSCSV_NAME">
 		<value>mesures</value>
