@@ -613,7 +613,7 @@
 		<value>Effacer les données locales</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
-		<value>Télécharger Données Locales</value>
+		<value>Envoyer Données Locales</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_EVENT">
 		<value>Évènement</value>
@@ -778,22 +778,22 @@
 		<value>Aucune donnée hors ligne trouvée pour {0}</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_TITLE">
-		<value>Télécharger les données locales?</value>
+		<value>Envoyer les données locales?</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_CONFIRM">
-		<value>Télécharger maintenant</value>
+		<value>Envoyer maintenant</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_MESSAGE">
-		<value>{0} relevés locaux trouvés pour {1}. les télécharger vers MyBroodminder.com?</value>
+		<value>{0} relevés locaux trouvés pour {1}. Voulez-vous les envoyer vers MyBroodminder.com?</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_SUCCESS">
-		<value>Relevés téléchargés</value>
+		<value>Relevés envoyés</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_FAILURE">
-		<value>Relevés non téléchargés</value>
+		<value>Relevés non envoyés</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
-		<value>Non autorisé à télécharger des données pour ce capteur</value>
+		<value>Non autorisé à envoyer des données pour ce capteur</value>
 	</data>
 	<data name="DEVICES_NONE">
 		<value>Aucun capteur trouvé</value>
