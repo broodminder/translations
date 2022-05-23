@@ -1611,4 +1611,43 @@
 	<data name="DEVICEALERT_SAMPLELIMIT">
 		<value>Device near sample limit</value>
 	</data>
+	<data name="HIVEINACTIVE_TITLE">
+		<value>Set Hive as Inactive	</value>
+	</data>
+	<data name="HIVEINACTIVE_MESSAGE">
+		<value>This ends all device locations in the hive and removes hive from your apiary views. Existing data will remain, however new data will no longer go to this hive. This cannot be undone. Set this hive to inactive?</value>
+	</data>
+	<data name="HIVEINACTIVE_CONFIRM">
+		<value>Yes</value>
+	</data>
+	<data name="HIVEINACTIVE_REASON">
+		<value>Select Reason</value>
+	</data>
+	<data name="HIVEINACTIVE_COMMENT">
+		<value>Comment</value>
+	</data>
+	<data name="HIVEINACTIVE_REASONS_OTHER">
+		<value>Other</value>
+	</data>
+	<data name="HIVEINACTIVE_REASONS_DIED">
+		<value>Died</value>
+	</data>
+	<data name="HIVEINACTIVE_REASONS_ABSCONDED">
+		<value>Absconded</value>
+	</data>
+	<data name="HIVEINACTIVE_REASONS_COMBINED">
+		<value>Combined with another colony</value>
+	</data>
+	<data name="HIVEINACTIVE_SUCCESS">
+		<value>Hive set as inactive</value>
+	</data>
+	<data name="HIVEINACTIVE_ERROR">
+		<value>Error, hive not set as inactive</value>
+	</data>
+	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION1">
+		<value>Hive set as inactive. It is no longer visible here, but is still available at </value>
+	</data>
+	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
+		<value>All hives can be found here </value>
+	</data>
 </root>
