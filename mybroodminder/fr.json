@@ -893,9 +893,11 @@
             "CANCEL_CREDIT":"Retirer jeton de renouv. auto",
             "REACTIVATE_CREDIT":"Réactiver jeton",
             "SELECT_CREDIT":"Sélectionner jeton",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Ce crédit peut être utilisé pour de nombreux appareils tiers",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Ce jeton peut être utilisé pour de nombreux appareils tiers",
             "PURCHASE_CREDIT":"Acheter nouveau jeton",
             "UPDATED_SUCCESS":"Hub mis à jour",
+            "ASSIGNMENT_SUCCESS":"Assignment updated",
+            "ASSIGNMENT_REMOVED":"Token removed",
             "BACK_BUTTON":"Arrière",
             "REMOVE": {
                 "TITLE":"Retirer Jeton",
@@ -913,7 +915,8 @@
                 "ERROR_4":"Ce jeton n'est pas renouvelé automatiquement et ne peut pas être annulé",
                 "ERROR_5":"Ce jeton a déjà été annulé",
                 "ERROR_6":"Ce jeton est gratuit avec votre abonnement et ne peut pas être annulé. Visitez la page du compte si vous souhaitez annuler votre abonnement premium",
-                "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être annulé"
+                "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être annulé",
+                "SUCCESS":"Token cancelled"
             },
             "REACTIVATE": {
                 "TITLE":"Réactiver Jeton",
@@ -1082,6 +1085,7 @@
             "CREDIT_CANCELLED":"Non récurrent, expire le {{expiration}}",
             "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
             "CREDIT_EXPIRED":"Expiré le {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Pre-paid, expires on {{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
             "PENDING":"En attente de paiement"
         },
@@ -1089,9 +1093,11 @@
             "MONTHLY":"mensuel",
             "YEARLY":"annuel",
             "FREE":"gratuit",
+            "PREPAID": "pre-paid",
             "MONTHLY_CAP":"Mensuel",
             "YEARLY_CAP":"Annuel",
-            "FREE_CAP":"Gratuit"
+            "FREE_CAP":"Gratuit",
+            "PREPAID_CAP":"Pre-paid"
         }
     },
     "MEMBERSHIP": {
@@ -1150,7 +1156,43 @@
             "TOTAL":"Total",
             "ERROR_1":"Vous avez déjà acheté un abonnement. Cliquez",
             "ERROR_LINK":"ici",
-            "ERROR_2":"pour voir les abonnements."
+            "ERROR_2":"pour voir les abonnements.",
+            "ADD_ERROR_1":"Click",
+            "ADD_ERROR_2":"here",
+            "ADD_ERROR_3":"to add tokens to current membership."
+        },
+        "TABLE":{
+            "HEADERS":{
+                "PRODUCT":"Product",
+                "START":"Starts on",
+                "RENEW":"Renews on",
+                "EXPIRES":"Expires on",
+                "PRICE":"Price",
+                "PRORATED_PRICE":"Prorated Price",
+                "AUTO":"Auto-renew"
+            },
+            "REMOVE_CART":"Remove from cart",
+            "SELECT_TOKEN":"Select token",
+            "ADD":"Add to cart",
+            "REMOVE":"Remove",
+            "NEW":"New Product",
+            "TOTAL":"Total",
+            "TOTAL_NOW":"Total (Due now)",
+            "TOTAL_YEAR":"Yearly Total (Due {{date}})",
+            "PURCHASE":"Purchase"
+        },
+        "ADDITIONAL":{
+            "TITLE":"Purchase Tokens",
+            "MESSAGE":"Purchased tokens are charged to your membership. {{amount}} will be charged to your the card on your subscription.",
+            "CONFIRM":"Make Payment"
+        },
+        "PRODUCTS":{
+            "MEMBERSHIP":"Premium Membership",
+            "WIFI_HUB_FREE":"Wifi Hub Token (Free)",
+            "WIFI_HUB":"Wifi Hub Token",
+            "CELL_HUB_SINGLE":"Cell Hub (Single Device) Token",
+            "CELL_HUB":"Cell Hub Token",
+            "THIRD_PARTY":"Third Party Devices Token"
         },
         "PAY": {
             "TITLE":"Information de paiement",
@@ -1165,7 +1207,8 @@
                 "RECEIPT":"Reçu transmis",
                 "AR_DATE":"Date de renouvellement automatique",
                 "AR_AMOUNT":"Montant",
-                "LINK_1":"Achat complété. Cliquez",
+                "SUCCESS":"Achat complété.",
+                "LINK_1": "Cliquez",
                 "LINK_LINK":"ici",
                 "LINK_2":"pour voir les abonnements."
             },
@@ -1222,6 +1265,50 @@
                 "UPDATE":"Actualiser"
             }
         }
+    },
+    "EDIT_SUBS":{
+        "SHOW_EXPIRED":"Show Expired",
+        "MEMEBERSHIPS":{
+            "TITLE":"Memberships",
+            "PRE_PAID":"Pre-Paid",
+            "FREE":"Free",
+            "TRIAL":"Trial Membership"
+        },
+        "TOKENS":{
+            "TITLE":"Tokens",
+            "REMOVE":"Remove Token from Membership",
+            "ASSIGN":{
+                "TITLE":"Assign",
+                "HUB":"Hub",
+                "THIRD_PARTY":"Third Party Devices"
+            },
+            "HUB_EDIT":{
+                "WARNING_DUP":"Hub has credit active until {{date}}. This will be replaced.",
+                "WARNING_SINGLE":"This is a single device hub token. Only one sensor device can be uploaded with this token.",
+                "WARNING_WIFI_TYPE":"Wifi hub will be running on a cell hub token.",
+                "WARNING_REMOVE":"This removes token from hub. Hub will stop uploading data."
+            },
+            "UPDATED":"Token updated",
+            "ERROR":"Error token not updated",
+            "CANCEL_TITLE":"Cancel Token",
+            "CANCEL_TEXT":"Are you sure?",
+            "CANCEL_CONFIRM":"Yes",
+            "CANCEL_SUCCESS":"Token cancelled"
+        },
+        "HEADERS":{
+            "NAME":"Name",
+            "START":"Starts on",
+            "RENEW":"Renews on",
+            "EXPIRES":"Expires on",
+            "AUTO":"Auto-renew",
+            "STATUS":"Status",
+            "ID":"ID",
+            "EDIT":"Edit",
+            "PRICE":"Price",
+            "SUB_ID":"Sub ID",
+            "ASSOCIATED":"Associated with"
+        },
+        "PURCHASE":"Purchase Products"
     },
     "TAGS":[
         "Inspection de la ruche",

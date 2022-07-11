@@ -893,9 +893,11 @@
             "CANCEL_CREDIT":"Retirar ficha de auto-renov",
             "REACTIVATE_CREDIT":"Reactivar ficha",
             "SELECT_CREDIT":"Seleccionar ficha",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este credito se puede usar para dispositivos de terceros",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este ficha se puede usar para dispositivos de terceros",
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
+            "ASSIGNMENT_SUCCESS":"Assignment updated",
+            "ASSIGNMENT_REMOVED":"Token removed",
             "BACK_BUTTON":"Atras",
             "REMOVE": {
                 "TITLE":"Retirar Ficha",
@@ -913,7 +915,8 @@
                 "ERROR_4":"Este ficha no se renueva automáticamente y no se puede cancelar",
                 "ERROR_5":"Este ficha ya ha sido cancelado",
                 "ERROR_6":"Este ficha es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
-                "GENERAL_ERROR":"Error : El ficha no se pudo cancelar"
+                "GENERAL_ERROR":"Error : El ficha no se pudo cancelar",
+                "SUCCESS":"Token cancelled"
             },
             "REACTIVATE": {
                 "TITLE":"Reactivar Ficha",
@@ -1081,6 +1084,7 @@
             "SUB_EXPIRING":"Vence el {{expiration}}",
             "CREDIT_CANCELLED":"No se renueva, vence el {{expiration}}",
             "CREDIT_FREE_RENEWING":"Gratuito, vence el {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Pre-paid, expires on {{expiration}}",
             "CREDIT_EXPIRED":"Vencido el {{expiration}}",
             "CREDIT_EXPIRING":"Vence el {{expiration}}",
             "PENDING":"Pago Pendiente"
@@ -1089,9 +1093,11 @@
             "MONTHLY":"mensual",
             "YEARLY":"anual",
             "FREE":"gratuito",
+            "PREPAID": "pre-paid",
             "MONTHLY_CAP":"Mensual",
             "YEARLY_CAP":"Anual",
-            "FREE_CAP":"Gratuito"
+            "FREE_CAP":"Gratuito",
+            "PREPAID_CAP":"Pre-paid"
         }
     },
     "MEMBERSHIP": {
@@ -1150,7 +1156,43 @@
             "TOTAL":"Total",
             "ERROR_1":"Ya has comprado una suscripción. Haz clic",
             "ERROR_LINK":"aqui",
-            "ERROR_2":"para acceder a los planes."
+            "ERROR_2":"para acceder a los planes.",
+            "ADD_ERROR_1":"Click",
+            "ADD_ERROR_2":"here",
+            "ADD_ERROR_3":"to add tokens to current membership."
+        },
+        "TABLE":{
+            "HEADERS":{
+                "PRODUCT":"Product",
+                "START":"Starts on",
+                "RENEW":"Renews on",
+                "EXPIRES":"Expires on",
+                "PRICE":"Price",
+                "PRORATED_PRICE":"Prorated Price",
+                "AUTO":"Auto-renew"
+            },
+            "REMOVE_CART":"Remove from cart",
+            "SELECT_TOKEN":"Select token",
+            "ADD":"Add to cart",
+            "REMOVE":"Remove",
+            "NEW":"New Product",
+            "TOTAL":"Total",
+            "TOTAL_NOW":"Total (Due now)",
+            "TOTAL_YEAR":"Yearly Total (Due {{date}})",
+            "PURCHASE":"Purchase"
+        },
+        "ADDITIONAL":{
+            "TITLE":"Purchase Tokens",
+            "MESSAGE":"Purchased tokens are charged to your membership. {{amount}} will be charged to your the card on your subscription.",
+            "CONFIRM":"Make Payment"
+        },
+        "PRODUCTS":{
+            "MEMBERSHIP":"Premium Membership",
+            "WIFI_HUB_FREE":"Wifi Hub Token (Free)",
+            "WIFI_HUB":"Wifi Hub Token",
+            "CELL_HUB_SINGLE":"Cell Hub (Single Device) Token",
+            "CELL_HUB":"Cell Hub Token",
+            "THIRD_PARTY":"Third Party Devices Token"
         },
         "PAY": {
             "TITLE":"Información del pago",
@@ -1165,7 +1207,8 @@
                 "RECEIPT":"Recibo Enviado",
                 "AR_DATE":"Fecha de renovacion auto.",
                 "AR_AMOUNT":"Importe de renovacion auto",
-                "LINK_1":"Compra Completada. Hacer clic",
+                "SUCCESS":"Compra Completada.",
+                "LINK_1": "Hacer clic",
                 "LINK_LINK":"aqui",
                 "LINK_2":"para acceder a los planes."
             },
@@ -1222,6 +1265,50 @@
                 "UPDATE":"Actualizar"
             }
         }
+    },
+    "EDIT_SUBS":{
+        "SHOW_EXPIRED":"Show Expired",
+        "MEMEBERSHIPS":{
+            "TITLE":"Memberships",
+            "PRE_PAID":"Pre-Paid",
+            "FREE":"Free",
+            "TRIAL":"Trial Membership"
+        },
+        "TOKENS":{
+            "TITLE":"Tokens",
+            "REMOVE":"Remove Token from Membership",
+            "ASSIGN":{
+                "TITLE":"Assign",
+                "HUB":"Hub",
+                "THIRD_PARTY":"Third Party Devices"
+            },
+            "HUB_EDIT":{
+                "WARNING_DUP":"Hub has credit active until {{date}}. This will be replaced.",
+                "WARNING_SINGLE":"This is a single device hub token. Only one sensor device can be uploaded with this token.",
+                "WARNING_WIFI_TYPE":"Wifi hub will be running on a cell hub token.",
+                "WARNING_REMOVE":"This removes token from hub. Hub will stop uploading data."
+            },
+            "UPDATED":"Token updated",
+            "ERROR":"Error token not updated",
+            "CANCEL_TITLE":"Cancel Token",
+            "CANCEL_TEXT":"Are you sure?",
+            "CANCEL_CONFIRM":"Yes",
+            "CANCEL_SUCCESS":"Token cancelled"
+        },
+        "HEADERS":{
+            "NAME":"Name",
+            "START":"Starts on",
+            "RENEW":"Renews on",
+            "EXPIRES":"Expires on",
+            "AUTO":"Auto-renew",
+            "STATUS":"Status",
+            "ID":"ID",
+            "EDIT":"Edit",
+            "PRICE":"Price",
+            "SUB_ID":"Sub ID",
+            "ASSOCIATED":"Associated with"
+        },
+        "PURCHASE":"Purchase Products"
     },
     "TAGS":[
         "Inspección de la colmena",
