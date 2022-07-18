@@ -1157,42 +1157,42 @@
             "ERROR_1":"Ya has comprado una suscripción. Haz clic",
             "ERROR_LINK":"aqui",
             "ERROR_2":"para acceder a los planes.",
-            "ADD_ERROR_1":"Click",
-            "ADD_ERROR_2":"here",
-            "ADD_ERROR_3":"to add tokens to current membership."
+            "ADD_ERROR_1":"Haz clic",
+            "ADD_ERROR_2":"aqui",
+            "ADD_ERROR_3":"para añadir tokens al abono actual."
         },
         "TABLE":{
             "HEADERS":{
-                "PRODUCT":"Product",
-                "START":"Starts on",
-                "RENEW":"Renews on",
-                "EXPIRES":"Expires on",
-                "PRICE":"Price",
-                "PRORATED_PRICE":"Prorated Price",
-                "AUTO":"Auto-renew"
+                "PRODUCT":"Producto",
+                "START":"Comienza",
+                "RENEW":"Renueva",
+                "EXPIRES":"Expira",
+                "PRICE":"Precio",
+                "PRORATED_PRICE":"Precio prorrateado",
+                "AUTO":"Renueva auto"
             },
-            "REMOVE_CART":"Remove from cart",
-            "SELECT_TOKEN":"Select token",
-            "ADD":"Add to cart",
-            "REMOVE":"Remove",
-            "NEW":"New Product",
+            "REMOVE_CART":"Retirar de la cesta",
+            "SELECT_TOKEN":"Selecciona token",
+            "ADD":"Añadir à la cesta",
+            "REMOVE":"Retirar",
+            "NEW":"Nuevo Producto",
             "TOTAL":"Total",
-            "TOTAL_NOW":"Total (Due now)",
-            "TOTAL_YEAR":"Yearly Total (Due {{date}})",
-            "PURCHASE":"Purchase"
+            "TOTAL_NOW":"Total (Vencimiento actual)",
+            "TOTAL_YEAR":"Total anual (vencimiento el {{date}})",
+            "PURCHASE":"Comprar"
         },
         "ADDITIONAL":{
-            "TITLE":"Purchase Tokens",
-            "MESSAGE":"Purchased tokens are charged to your membership. {{amount}} will be charged to your the card on your subscription.",
-            "CONFIRM":"Make Payment"
+            "TITLE":"Comprar Tokens",
+            "MESSAGE": "Los tokens comprados se cargan en tu abono. {{amount}} se cargará en la tarjeta con tu abono",
+            "CONFIRM":"Pagar"
         },
         "PRODUCTS":{
-            "MEMBERSHIP":"Premium Membership",
-            "WIFI_HUB_FREE":"Wifi Hub Token (Free)",
-            "WIFI_HUB":"Wifi Hub Token",
-            "CELL_HUB_SINGLE":"Cell Hub (Single Device) Token",
-            "CELL_HUB":"Cell Hub Token",
-            "THIRD_PARTY":"Third Party Devices Token"
+            "MEMBERSHIP":"Abono Premium",
+            "WIFI_HUB_FREE":"Token Hub Wifi (Gratuito)",
+            "WIFI_HUB":"Token Hub Wifi",
+            "CELL_HUB_SINGLE":"Token Hub 4G (un solo sensor)",
+            "CELL_HUB":"Token Hub 4G",
+            "THIRD_PARTY":"Token Dispositivos de terceros "
         },
         "PAY": {
             "TITLE":"Información del pago",
@@ -1267,48 +1267,48 @@
         }
     },
     "EDIT_SUBS":{
-        "SHOW_EXPIRED":"Show Expired",
+        "SHOW_EXPIRED":"Mostrar Caducados",
         "MEMEBERSHIPS":{
-            "TITLE":"Memberships",
-            "PRE_PAID":"Pre-Paid",
-            "FREE":"Free",
-            "TRIAL":"Trial Membership"
+            "TITLE":"Abonos",
+            "PRE_PAID":"Pre-Pago",
+            "FREE":"Gratuito",
+            "TRIAL":"Abono Test"
         },
         "TOKENS":{
             "TITLE":"Tokens",
-            "REMOVE":"Remove Token from Membership",
+            "REMOVE":"Retirar el token del abono",
             "ASSIGN":{
-                "TITLE":"Assign",
+                "TITLE":"Associar",
                 "HUB":"Hub",
-                "THIRD_PARTY":"Third Party Devices"
+                "THIRD_PARTY":"Dispositivos terceros"
             },
             "HUB_EDIT":{
-                "WARNING_DUP":"Hub has credit active until {{date}}. This will be replaced.",
-                "WARNING_SINGLE":"This is a single device hub token. Only one sensor device can be uploaded with this token.",
-                "WARNING_WIFI_TYPE":"Wifi hub will be running on a cell hub token.",
-                "WARNING_REMOVE":"This removes token from hub. Hub will stop uploading data."
+                "WARNING_DUP": "El hub tiene crédito activo hasta {{date}}. Esto será reemplazado",
+                "WARNING_SINGLE": "Este es un token de hub para un solo dispositivo. Sólo se puede cargar un dispositivo con este token",
+                "WARNING_WIFI_TYPE": "El hub Wifi se ejecutará en un token de hub 4G",
+                "WARNING_REMOVE": "Esto elimina el token del hub. El hub dejará de enviar datos"
             },
-            "UPDATED":"Token updated",
-            "ERROR":"Error token not updated",
-            "CANCEL_TITLE":"Cancel Token",
-            "CANCEL_TEXT":"Are you sure?",
-            "CANCEL_CONFIRM":"Yes",
-            "CANCEL_SUCCESS":"Token cancelled"
+            "UPDATED":"Token actualizado",
+            "ERROR":"Error token no se ha actualizado",
+            "CANCEL_TITLE":"Cancelar Token",
+            "CANCEL_TEXT":"Estas seguro?",
+            "CANCEL_CONFIRM":"Si",
+            "CANCEL_SUCCESS":"Token cancelado"
         },
         "HEADERS":{
-            "NAME":"Name",
-            "START":"Starts on",
-            "RENEW":"Renews on",
-            "EXPIRES":"Expires on",
-            "AUTO":"Auto-renew",
+            "NAME":"Nombre",
+            "START":"Comienza",
+            "RENEW":"Renueva",
+            "EXPIRES":"Expira",
+            "AUTO":"Auto-renueva",
             "STATUS":"Status",
             "ID":"ID",
-            "EDIT":"Edit",
-            "PRICE":"Price",
+            "EDIT":"Editar",
+            "PRICE":"Precio",
             "SUB_ID":"Sub ID",
-            "ASSOCIATED":"Associated with"
+            "ASSOCIATED":"Associado con"
         },
-        "PURCHASE":"Purchase Products"
+        "PURCHASE":"Comprar Productos"
     },
     "TAGS":[
         "Inspección de la colmena",

@@ -1158,41 +1158,41 @@
             "ERROR_LINK":"ici",
             "ERROR_2":"pour voir les abonnements.",
             "ADD_ERROR_1":"Click",
-            "ADD_ERROR_2":"here",
-            "ADD_ERROR_3":"to add tokens to current membership."
+            "ADD_ERROR_2":"ici",
+            "ADD_ERROR_3":"pour ajouter des jetons à l'abonnement actuel."
         },
         "TABLE":{
             "HEADERS":{
-                "PRODUCT":"Product",
-                "START":"Starts on",
-                "RENEW":"Renews on",
-                "EXPIRES":"Expires on",
-                "PRICE":"Price",
-                "PRORATED_PRICE":"Prorated Price",
-                "AUTO":"Auto-renew"
+                "PRODUCT":"Produit",
+                "START":"Démarre",
+                "RENEW":"Renouvelle",
+                "EXPIRES":"Expires",
+                "PRICE":"Prix",
+                "PRORATED_PRICE":"Prix Proratisé",
+                "AUTO":"Renouvelle auto"
             },
-            "REMOVE_CART":"Remove from cart",
-            "SELECT_TOKEN":"Select token",
-            "ADD":"Add to cart",
-            "REMOVE":"Remove",
-            "NEW":"New Product",
+            "REMOVE_CART":"Retirer du panier",
+            "SELECT_TOKEN":"Selectionner jeton",
+            "ADD":"Ajouter au panier",
+            "REMOVE":"Retirer",
+            "NEW":"Nouveau Produit",
             "TOTAL":"Total",
-            "TOTAL_NOW":"Total (Due now)",
-            "TOTAL_YEAR":"Yearly Total (Due {{date}})",
-            "PURCHASE":"Purchase"
+            "TOTAL_NOW":"Total (à payer)",
+            "TOTAL_YEAR":"Total anuel (à payer le {{date}})",
+            "PURCHASE":"Régler"
         },
         "ADDITIONAL":{
-            "TITLE":"Purchase Tokens",
-            "MESSAGE":"Purchased tokens are charged to your membership. {{amount}} will be charged to your the card on your subscription.",
-            "CONFIRM":"Make Payment"
+            "TITLE":"Acheter Jetons",
+            "MESSAGE":"Les jetons achetés sont facturés sur votre abonnement. {{amount}} sera débité de votre carte sur votre abonnement.",
+            "CONFIRM":"Paier"
         },
         "PRODUCTS":{
-            "MEMBERSHIP":"Premium Membership",
-            "WIFI_HUB_FREE":"Wifi Hub Token (Free)",
-            "WIFI_HUB":"Wifi Hub Token",
-            "CELL_HUB_SINGLE":"Cell Hub (Single Device) Token",
-            "CELL_HUB":"Cell Hub Token",
-            "THIRD_PARTY":"Third Party Devices Token"
+            "MEMBERSHIP":"Abonnement Premium",
+            "WIFI_HUB_FREE":"Jeton Hub Wifi (Gratuit)",
+            "WIFI_HUB":"Jeton Hub Wifi",
+            "CELL_HUB_SINGLE":"Jeton Hub 4G (Un seul capteur)",
+            "CELL_HUB":"Jeton Hub 4G",
+            "THIRD_PARTY":"Jeton Appareils tiers"
         },
         "PAY": {
             "TITLE":"Information de paiement",
@@ -1267,48 +1267,48 @@
         }
     },
     "EDIT_SUBS":{
-        "SHOW_EXPIRED":"Show Expired",
+        "SHOW_EXPIRED":"Montrer Echus",
         "MEMEBERSHIPS":{
-            "TITLE":"Memberships",
-            "PRE_PAID":"Pre-Paid",
-            "FREE":"Free",
-            "TRIAL":"Trial Membership"
+            "TITLE":"Abonnements",
+            "PRE_PAID":"Pre-Payé",
+            "FREE":"Gratuit",
+            "TRIAL":"Abonnement d'essai"
         },
         "TOKENS":{
-            "TITLE":"Tokens",
-            "REMOVE":"Remove Token from Membership",
+            "TITLE":"Jetons",
+            "REMOVE":"Retirer Jeton de l'abonement",
             "ASSIGN":{
-                "TITLE":"Assign",
+                "TITLE":"Associer",
                 "HUB":"Hub",
-                "THIRD_PARTY":"Third Party Devices"
+                "THIRD_PARTY":"Dispositifs tiers"
             },
             "HUB_EDIT":{
-                "WARNING_DUP":"Hub has credit active until {{date}}. This will be replaced.",
-                "WARNING_SINGLE":"This is a single device hub token. Only one sensor device can be uploaded with this token.",
-                "WARNING_WIFI_TYPE":"Wifi hub will be running on a cell hub token.",
-                "WARNING_REMOVE":"This removes token from hub. Hub will stop uploading data."
+                "WARNING_DUP":"Le hub a un crédit actif jusqu'à {{date}}. Il sera remplacé.",
+                "WARNING_SINGLE":"Ceci est un jeton de Hub à capteur unique. Un seul capteur peut être téléchargé avec ce jeton.",
+                "WARNING_WIFI_TYPE":"Le Hub Wifi fonctionnera sur un jeton de Hub 4G..",
+                "WARNING_REMOVE":"Cela retire le jeton du hub. Le hub arrêtera de télécharger des données."
             },
-            "UPDATED":"Token updated",
-            "ERROR":"Error token not updated",
-            "CANCEL_TITLE":"Cancel Token",
-            "CANCEL_TEXT":"Are you sure?",
-            "CANCEL_CONFIRM":"Yes",
-            "CANCEL_SUCCESS":"Token cancelled"
+            "UPDATED":"Jeton actualisé",
+            "ERROR":"Erreur, jeton non actualisé",
+            "CANCEL_TITLE":"Annuler Jeton",
+            "CANCEL_TEXT":"Etes-vous sûr?",
+            "CANCEL_CONFIRM":"Oui",
+            "CANCEL_SUCCESS":"Jeton annulé"
         },
         "HEADERS":{
-            "NAME":"Name",
-            "START":"Starts on",
-            "RENEW":"Renews on",
-            "EXPIRES":"Expires on",
-            "AUTO":"Auto-renew",
+            "NAME":"Nom",
+            "START":"Début",
+            "RENEW":"Renouvelle",
+            "EXPIRES":"Expire",
+            "AUTO":"Auto-renouvelle",
             "STATUS":"Status",
             "ID":"ID",
             "EDIT":"Edit",
-            "PRICE":"Price",
+            "PRICE":"Prix",
             "SUB_ID":"Sub ID",
-            "ASSOCIATED":"Associated with"
+            "ASSOCIATED":"Associé avec"
         },
-        "PURCHASE":"Purchase Products"
+        "PURCHASE":"Acheter Produits"
     },
     "TAGS":[
         "Inspection de la ruche",
