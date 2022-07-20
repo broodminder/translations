@@ -1137,6 +1137,8 @@
         "SUPPORT":"SUPPORT",
         "FULL_SUPPORT":"SUPPORT PREMIUM",
         "BUY":"Acheter",
+        "PURCHASE_MEMBERSHIP":"Achat d'un Abonnement Premium",
+        "PURHASE_TOKENS":"Acheter Jetons",
         "LOGIN":"Se connecter/s'enregistrer",
         "TOKEN_REQUIRED":"Un jeton aditionnel est requis pour chaque Hub (Wifi ou Cell) et SIM card",
         "TOKEN_REQUIRED_2": "Jeton supplémentaire requis pour utiliser des appareils tiers",
@@ -1147,6 +1149,7 @@
     "PURCHASE": {
         "SUMMARY": {
             "TITLE":"Achat d'un abonnement Premium  ",
+            "TITLE_ADDING":"Acheter jetons ",
             "YEAR_PREM":" Abonnement Premium annuel - Renouvellement auto",
             "MONTH_PREM":" Abonnement Premium mensuel - Renouvellement auto",
             "YEAR_PRO":" Abonnement Pro annuel - Renouvellement auto",
@@ -1267,6 +1270,7 @@
         }
     },
     "EDIT_SUBS":{
+        "MONTH_ERROR":"Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
         "SHOW_EXPIRED":"Montrer Echus",
         "MEMEBERSHIPS":{
             "TITLE":"Abonnements",

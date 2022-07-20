@@ -1137,6 +1137,8 @@
         "SUPPORT":"SOPORTE",
         "FULL_SUPPORT":"SOPORTE PREMIUM",
         "BUY":"Comprar ahora",
+        "PURCHASE_MEMBERSHIP":"Abonarse Premium",
+        "PURHASE_TOKENS":"Comprar Tokens",
         "LOGIN":"Login/Registrar",
         "TOKEN_REQUIRED":"Se requieren fichas adicionales para cada Hub (Wifi o Cell) y cada SIM",
         "TOKEN_REQUIRED_2": "Se requiere un token adicional para utilizar dispositivos de terceros",
@@ -1147,6 +1149,7 @@
     "PURCHASE": {
         "SUMMARY": {
             "TITLE":"Compra de una suscripción premium  ",
+            "TITLE_ADDING":"Comprar tokens ",
             "YEAR_PREM":" Suscripción premium anual - Renovación automática",
             "MONTH_PREM":" Suscripción premium mensual - Renovación automática",
             "YEAR_PRO":" Suscripción Pro anual - Renovación automática",
@@ -1267,6 +1270,7 @@
         }
     },
     "EDIT_SUBS":{
+        "MONTH_ERROR":"Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
         "SHOW_EXPIRED":"Mostrar Caducados",
         "MEMEBERSHIPS":{
             "TITLE":"Abonos",
