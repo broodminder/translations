@@ -1270,7 +1270,7 @@
         }
     },
     "EDIT_SUBS":{
-        "MONTH_ERROR":"Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
+        "MONTH_ERROR":"Las suscripciones mensuales ya no son compatibles con las nuevas compras. Para añadir tokens, debes cancelar tu suscripción actual y crear un nuevo abono Premium.",
         "SHOW_EXPIRED":"Mostrar Caducados",
         "MEMEBERSHIPS":{
             "TITLE":"Abonos",

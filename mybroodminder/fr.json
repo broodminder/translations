@@ -72,8 +72,8 @@
             "REMOVE":"Supprimer {{value}} du menu"
 		},
         "WEATHER_CONTEXT": {
-            "NAME": "Weather",
-            "EDIT": "Edit Weather"
+            "NAME": "Météo",
+            "EDIT": "Configurer Météo"
         },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi"
@@ -1270,7 +1270,7 @@
         }
     },
     "EDIT_SUBS":{
-        "MONTH_ERROR":"Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
+        "MONTH_ERROR":"Les abonnements mensuels ne sont plus pris en charge pour les nouveaux achats. Pour ajouter des jetons, vous devez annuler votre abonnement actuel et créer un nouvel abonnement Premium.",
         "SHOW_EXPIRED":"Montrer Echus",
         "MEMEBERSHIPS":{
             "TITLE":"Abonnements",
@@ -1307,7 +1307,7 @@
             "AUTO":"Auto-renouvelle",
             "STATUS":"Status",
             "ID":"ID",
-            "EDIT":"Edit",
+            "EDIT":"Editer",
             "PRICE":"Prix",
             "SUB_ID":"Sub ID",
             "ASSOCIATED":"Associé avec"
