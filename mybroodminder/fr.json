@@ -1273,7 +1273,7 @@
         "MONTH_ERROR":"Les abonnements mensuels ne sont plus pris en charge pour les nouveaux achats. Pour ajouter des jetons, vous devez annuler votre abonnement actuel et créer un nouvel abonnement Premium.",
         "SHOW_EXPIRED":"Montrer Echus",
         "MEMEBERSHIPS":{
-            "TITLE":"Abonnements",
+            "TITLE":"Adhésion",
             "PRE_PAID":"Pre-Payé",
             "FREE":"Gratuit",
             "TRIAL":"Abonnement d'essai"
