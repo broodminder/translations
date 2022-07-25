@@ -389,7 +389,8 @@
         "DEVICES_TITLE": "Apparaten",
         "HUBS_TITLE": "Hubs",
         "LINKS_TITLE": "Public Links",
-        "THIRD_PARTY_TITLE": "Third Party Devices"
+        "THIRD_PARTY_TITLE": "Third Party Devices",
+        "SUBSCRIPTIONS_TITLE":"My Subscriptions"
     },
     "FEATURES": {
         "TITLE": "Feature Tour",

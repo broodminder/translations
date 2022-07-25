@@ -389,7 +389,8 @@
         "DEVICES_TITLE":"Sensores",
         "HUBS_TITLE":"Hubs",
         "LINKS_TITLE":"Enlaces Públicos",
-        "THIRD_PARTY_TITLE":"Dispositivos de terceros"
+        "THIRD_PARTY_TITLE":"Dispositivos de terceros",
+        "SUBSCRIPTIONS_TITLE":"My Subscriptions"
     },
 	"FEATURES": {
 		"TITLE":"Tour de las funciones",
