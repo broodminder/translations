@@ -1131,9 +1131,10 @@
         "ALL_DEVICE":"todos los sensores a la vez",
         "HUB_MODE":"MODO HUB",
         "HUB_INFO":"Posibilidad de usar un smartphone en lugar de un hub para cargar datos en tiempo real",
-        "HUB_SUBSCRIPTION":"SUSCRIPCIÓN HUB",
-        "1_WIFI":"1 hub wifi",	 
-        "1_HUB_SIM":"1 hub cell (hub + SIM)",
+        "SUB_HUB":"SUBHUB",
+        "WIFI_HUB":"WIFI HUB",
+        "CELL_HUB":"CELL HUB",
+        "THIRD_PARTY":"THIRD PARTY DEVICES",
         "REALTIME_ALERTS":"ALERTAS EN TIEMPO REAL",
         "SUPPORT":"SOPORTE",
         "FULL_SUPPORT":"SOPORTE PREMIUM",
@@ -1141,11 +1142,8 @@
         "PURCHASE_MEMBERSHIP":"Abonarse Premium",
         "PURHASE_TOKENS":"Comprar Tokens",
         "LOGIN":"Login/Registrar",
-        "TOKEN_REQUIRED":"Se requieren fichas adicionales para cada Hub (Wifi o Cell) y cada SIM",
-        "TOKEN_REQUIRED_2": "Se requiere un token adicional para utilizar dispositivos de terceros",
-        "TOKEN_REQUIRED_3":"Coste de la ficha: {{price_year}}/año o {{price_month}}/mes",
-        "PRO_PURCHASED":"Tienes una cuenta Pro",
-        "PREMIUM_PURCHASED":"Tienes una cuenta Premium"
+        "INFO_1":"Membership includes a free token for wifi devices. Extra tokens to be purchased for cell hubs.",
+        "INFO_2":"Multiple Yolink devices can be added to your account (see user guide)"
     },
     "PURCHASE": {
         "SUMMARY": {

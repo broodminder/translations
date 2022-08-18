@@ -455,7 +455,8 @@
             "GENERIC": "Temperature Event"
         },
         "BROOD_ZONE": "Brood Zone",
-        "HUMIDITY_NORMAL": "Normal"
+        "HUMIDITY_NORMAL": "Normal",
+        "PRESSURE":"Pressure"
     },
     "LOCATION_HIST": {
         "HIVE": "Bijenkast",
@@ -757,7 +758,6 @@
     "ACCOUNT": {
         "TITLE": "My Account",
         "EMAIL": "Email",
-        "USERNAME": "Gebruikersnaam",
         "FIRST_NAME": "Voornaam",
         "LAST_NAME": "Achternaam",
         "MEMBERSHIP": "Membership",
@@ -894,7 +894,7 @@
             "CANCEL_CREDIT": "Remove token from auto-renew",
             "REACTIVATE_CREDIT": "Reactivate token",
             "SELECT_CREDIT": "Select Token",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This token can be used for many third party devices",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
             "PURCHASE_CREDIT": "Purchase New",
             "UPDATED_SUCCESS": "Hub updated",
             "ASSIGNMENT_SUCCESS":"Assignment updated",
@@ -1085,8 +1085,8 @@
             "SUB_EXPIRING": "Expires on {{expiration}}",
             "CREDIT_CANCELLED": "Non-renewing, expires on {{expiration}}",
             "CREDIT_FREE_RENEWING": "Free, expires on {{expiration}}",
-            "CREDIT_EXPIRED": "Expired on {{expiration}}",
             "CREDIT_PREPAID_RENEWING": "Pre-paid, expires on {{expiration}}",
+            "CREDIT_EXPIRED": "Expired on {{expiration}}",
             "CREDIT_EXPIRING": "Expires on {{expiration}}",
             "PENDING": "Payment Pending"
         },
@@ -1131,9 +1131,10 @@
         "ALL_DEVICE": "all devices at once",
         "HUB_MODE": "HUB MODE",
         "HUB_INFO": "Possibility to use a smartphone instead of a hub to upload real time data",
-        "HUB_SUBSCRIPTION": "HUB TOKENS",
-        "1_WIFI": "1 token (1 wifi hub)",
-        "1_HUB_SIM": "2 tokens (1 cell hub + SIM)",
+        "SUB_HUB":"SUBHUB",
+        "WIFI_HUB":"WIFI HUB",
+        "CELL_HUB":"CELL HUB",
+        "THIRD_PARTY":"THIRD PARTY DEVICES",
         "REALTIME_ALERTS": "REAL TIME ALERTS",
         "SUPPORT": "SUPPORT",
         "FULL_SUPPORT": "PREMIUM SUPPORT",
@@ -1141,15 +1142,12 @@
         "PURCHASE_MEMBERSHIP":"Purchase Membership",
         "PURHASE_TOKENS":"Purchase Tokens",
         "LOGIN": "Log In/Register",
-        "TOKEN_REQUIRED": "Additional tokens required for each Hub (Wifi or Cell) and SIM card",
-        "TOKEN_REQUIRED_2": "Additional token required to use third party devices",
-        "TOKEN_REQUIRED_3": "Additional token cost: {{price_year}}/year or {{price_month}}/month",
-        "PRO_PURCHASED": "You have a pro membership",
-        "PREMIUM_PURCHASED": "You have a premium membership"
+        "INFO_1":"Membership includes a free token for wifi devices. Extra tokens to be purchased for cell hubs.",
+        "INFO_2":"Multiple Yolink devices can be added to your account (see user guide)"
     },
     "PURCHASE": {
         "SUMMARY": {
-            "TITLE": "Purchasing Premium Subscription  ",
+            "TITLE": "Purchasing Premium Subscription",
             "TITLE_ADDING":"Purchasing Tokens",
             "YEAR_PREM": " Year Premium Subscription - Auto Renewing",
             "MONTH_PREM": " Month Premium Subscription - Auto Renewing",
@@ -1197,7 +1195,7 @@
             "CELL_HUB_SINGLE":"Cell Hub (Single Device) Token",
             "CELL_HUB":"Cell Hub Token",
             "THIRD_PARTY":"Third Party Devices Token"
-        },
+        }, 
         "PAY": {
             "TITLE": "Payment Information",
             "RENEW_DISCLAIMER": "Auto-renewing subscription. You will be charged {{amount}} {{frequency}}.",
@@ -1211,7 +1209,7 @@
                 "RECEIPT": "Receipt Sent",
                 "AR_DATE": "Auto-renew Date",
                 "AR_AMOUNT": "Auto-renew Amount",
-                "SUCCESS": "Purchase complete.",
+                "SUCCESS":"Purchase complete.",
                 "LINK_1": "Click",
                 "LINK_LINK": "here",
                 "LINK_2": "to view memberships."
