@@ -669,6 +669,9 @@
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_READINGS">
 		<value>Ver Datos</value>
 	</data>
+	<data name="DEVICEDETAIL_TROUBLESHOOTING_CALIBRATE">
+		<value>Calibrate Scale</value>
+	</data>
 	<data name="DEVICEDETAIL_UPLOAD_ERROR">
 		<value>Sensor Offline, no se pudo cargar</value>
 	</data>
@@ -1649,5 +1652,53 @@
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
 		<value>All hives can be found here </value>
+	</data>
+	<data name="CALIBRATION_SET">
+		<value>Set</value>
+	</data>
+	<data name="CALIBRATION_TARE_ALL">
+		<value>Tare All</value>
+	</data>
+	<data name="CALIBRATION_WARNING_MESSAGE">
+		<value>This is an advanced feature. Changes here will affect how your scale operates. Proceed with caution.</value>
+	</data>
+	<data name="CALIBRATION_WARNING_TITLE">
+		<value>Warning</value>
+	</data>
+	<data name="CALIBRATION_WARNING_CONTINUE">
+		<value>Continue</value>
+	</data>
+	<data name="CALIBRATION_TOTAL_WEIGHT">
+		<value>Total Weight</value>
+	</data>
+	<data name="CALIBRATION_SAMPLE">
+		<value>Sample</value>
+	</data>
+	<data name="CALIBRATION_ERROR_LIVE_DATA">
+		<value>Error getting weight data</value>
+	</data>
+	<data name="CALIBRATION_SETTING_J">
+		<value>Setting {0}</value>
+	</data>
+	<data name="CALIBRATION_JSET">
+		<value>{0} Set</value>
+	</data>
+	<data name="CALIBRATION_JSET_ERROR">
+		<value>Error setting {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_TARE">
+		<value>Setting Tare</value>
+	</data>
+	<data name="CALIBRATION_TARED">
+		<value>Scale Tared</value>
+	</data>
+	<data name="CALIBRATION_TARE_ERROR">
+		<value>Error taring scale</value>
+	</data>
+	<data name="CALIBRATION_DIVISOR">
+		<value>Divisor</value>
+	</data>
+	<data name="CALIBRATION_OFFSET">
+		<value>Offset</value>
 	</data>
 </root>
