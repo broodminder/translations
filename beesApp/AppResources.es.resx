@@ -1615,85 +1615,85 @@
 		<value>Límite de memoria</value>
 	</data>
 	<data name="HIVEINACTIVE_TITLE">
-		<value>Set Hive as Inactive	</value>
+		<value>Desactivar la colmena</value>
 	</data>
 	<data name="HIVEINACTIVE_MESSAGE">
-		<value>This ends all device locations in the hive and removes hive from your apiary views. Existing data will remain, however new data will no longer go to this hive. This cannot be undone. Set this hive to inactive?</value>
+		<value>Esto acaba con todas las ubicaciones de los sensores de la colmena y elimina la colmena de las vistas del colmenar. Los datos existentes se conservarán, pero los nuevos datos ya no se afectarán a esta colmena. Esta acción es irreversible. ¿Poner esta colmena como inactiva?</value>
 	</data>
 	<data name="HIVEINACTIVE_CONFIRM">
-		<value>Yes</value>
+		<value>Si</value>
 	</data>
 	<data name="HIVEINACTIVE_REASON">
-		<value>Select Reason</value>
+		<value>Selecciona una Razón</value>
 	</data>
 	<data name="HIVEINACTIVE_COMMENT">
-		<value>Comment</value>
+		<value>Nota</value>
 	</data>
 	<data name="HIVEINACTIVE_REASONS_OTHER">
-		<value>Other</value>
+		<value>Otro</value>
 	</data>
 	<data name="HIVEINACTIVE_REASONS_DIED">
-		<value>Died</value>
+		<value>Muerta</value>
 	</data>
 	<data name="HIVEINACTIVE_REASONS_ABSCONDED">
-		<value>Absconded</value>
+		<value>Desertada</value>
 	</data>
 	<data name="HIVEINACTIVE_REASONS_COMBINED">
-		<value>Combined with another colony</value>
+		<value>Combinada con otra colmena</value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS">
-		<value>Hive set as inactive</value>
+		<value>Colmena  desactivada</value>
 	</data>
 	<data name="HIVEINACTIVE_ERROR">
-		<value>Error, hive not set as inactive</value>
+		<value>Error, la colmena no se ha desactivado</value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION1">
-		<value>Hive set as inactive. It is no longer visible here, but is still available at </value>
+		<value>La colmena esta inactiva. Ya no es visible aquí, pero sigue estando disponible en </value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
-		<value>All hives can be found here </value>
+		<value>Todas las colmenas se encuentran aqui </value>
 	</data>
 	<data name="CALIBRATION_SET">
-		<value>Set</value>
+		<value>Definir</value>
 	</data>
 	<data name="CALIBRATION_TARE_ALL">
-		<value>Tare All</value>
+		<value>Tarar Todo</value>
 	</data>
 	<data name="CALIBRATION_WARNING_MESSAGE">
-		<value>This is an advanced feature. Changes here will affect how your scale operates. Proceed with caution.</value>
+		<value>Esta es una función avanzada. Los cambios realizados aquí afectarán al funcionamiento de su bascula. Proceda con precaución.</value>
 	</data>
 	<data name="CALIBRATION_WARNING_TITLE">
-		<value>Warning</value>
+		<value>Advertencia</value>
 	</data>
 	<data name="CALIBRATION_WARNING_CONTINUE">
-		<value>Continue</value>
+		<value>Continuar</value>
 	</data>
 	<data name="CALIBRATION_TOTAL_WEIGHT">
-		<value>Total Weight</value>
+		<value>Peso Total</value>
 	</data>
 	<data name="CALIBRATION_SAMPLE">
 		<value>Sample</value>
 	</data>
 	<data name="CALIBRATION_ERROR_LIVE_DATA">
-		<value>Error getting weight data</value>
+		<value>Error al recuperar el peso</value>
 	</data>
 	<data name="CALIBRATION_SETTING_J">
-		<value>Setting {0}</value>
+		<value>Ajuste {0}</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} Set</value>
 	</data>
 	<data name="CALIBRATION_JSET_ERROR">
-		<value>Error setting {0}</value>
+		<value>Error ajuste {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_TARE">
-		<value>Setting Tare</value>
+		<value>Ajuste Tara</value>
 	</data>
 	<data name="CALIBRATION_TARED">
-		<value>Scale Tared</value>
+		<value>Bascula Tarada</value>
 	</data>
 	<data name="CALIBRATION_TARE_ERROR">
-		<value>Error taring scale</value>
+		<value>Error al tarar la bascula</value>
 	</data>
 	<data name="CALIBRATION_DIVISOR">
 		<value>Divisor</value>
