@@ -928,7 +928,7 @@
 		<value>La date de fin doit être posterieure à la date de début.</value>
 	</data>
 	<data name="MOVEDEVICE_FROM">
-		<value>Supprimer de</value>
+		<value>Retirer de</value>
 	</data>
 	<data name="MOVEDEVICE_MOVE">
 		<value>Déplacer vers une autre ruche</value>

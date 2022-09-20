@@ -928,7 +928,7 @@
 		<value>La fecha de fin debe ser posterior a la de inicio.</value>
 	</data>
 	<data name="MOVEDEVICE_FROM">
-		<value>Suprimir de</value>
+		<value>Retirar de</value>
 	</data>
 	<data name="MOVEDEVICE_MOVE">
 		<value>Mover hacia otra colmena</value>
