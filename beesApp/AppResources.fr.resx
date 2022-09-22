@@ -1701,4 +1701,19 @@
 	<data name="CALIBRATION_OFFSET">
 		<value>Décalage</value>
 	</data>
+	<data name="CALIBRATION_SCALE_ALL">
+		<value>Scale all channels</value>
+	</data>
+	<data name="CALIBRATION_PERCENT">
+		<value>Percent</value>
+	</data>
+	<data name="CALIBRATION_SET_DIVISOR_ALL">
+		<value>Set divisor for all channels</value>
+	</data>
+	<data name="CALIBRATION_SCALING_ALL">
+		<value>Scaling all divisors by {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
+		<value>Setting all divisors to {0}</value>
+	</data>
 </root>
