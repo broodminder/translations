@@ -123,8 +123,8 @@
 	<data name="SETTINGS_LOGOUT">
 		<value>Cerrar sesión</value>
 	</data>
-	<data name="SETTINGS_ADVANCED">
-		<value>Avanzado</value>
+	<data name="SETTINGS_TROUBLESHOOTING">
+		<value>Solucionar problemas</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_TITLE">
 		<value>Saliendo de la cuenta</value>
@@ -1715,5 +1715,26 @@
 	</data>
 	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
 		<value>Setting all divisors to {0}</value>
+	</data>
+	<data name="DELETE_ACCOUNT_TITLE">
+		<value>Delete Account</value>
+	</data>
+	<data name="DELETE_ACCOUNT_DETAILS_1">
+		<value>To delete your MyBroodMinder Account, you must go to our website.</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LINK_BUTTON">
+		<value>Go to MyBroodMinder Account Page</value>
+	</data>
+	<data name="DELETE_ACCOUNT_DETAILS_2">
+		<value>Once you have deleted your account, you need to log out from the app here to remove your data from your device.</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
+		<value>Log Out and Delete Data</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_TITLE">
+		<value>Log out and delete all local data?</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
+		<value>Yes, delete all data</value>
 	</data>
 </root>
