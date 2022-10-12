@@ -63,7 +63,7 @@
         "ORDER_ID": "Référence de l'ordre",
         "STATUS": "Etat",
         "AR_DATE": "Date de renouv. auto",
-        "AR_AMOUNT": "Montant de renouv. auto",
+        "AR_AMOUNT": "Montant de renouv. auto"
     },
     "COMMON": {
         "LENGTH_YEAR": "Annuel",
@@ -75,5 +75,10 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         }
+    },
+    "ACCOUNT_DELETE":{
+        "SUBJECT": "Account Deletion Status",
+        "SUCCESS_MESSAGE": "Your MyBroodMinder account has been successfully deleted.",
+        "ERROR_MESSAGE": "There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{.id}})"
     }
 }
