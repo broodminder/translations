@@ -808,32 +808,32 @@
             "SAVE_BUTTON":"Guardar Cambios"
         },
         "DELETE":{
-            "SHOW":"Show options",
-            "HIDE":"Hide options",
-            "DELETE_BUTTON":"Delete Account",
-            "WARNING":"You are about to delete your account. This deletes all data, including what is specified below. Confirm this request to delete your account.",
+            "SHOW":"Mostrar opciones",
+            "HIDE":"Ocultar opciones",
+            "DELETE_BUTTON":"Borrar la cuenta",
+            "WARNING":"Estás a punto de borrar tu cuenta. Esto elimina todos los datos, incluyendo lo que se especifica a continuación. Confirma esta solicitud para eliminar tu cuenta.",
             "HEADERS":{
-                "REQUESTED":"Delete Requested",
-                "DEVICES":"Devices",
-                "HIVES":"Hives",
-                "APIARIES":"Apiaries",
+                "REQUESTED":"Eliminación solicitada",
+                "DEVICES":"Sensores",
+                "HIVES":"Colmenas",
+                "APIARIES":"Colmenares",
                 "HUBS":"Hubs",
-                "SUBS_TO_CANCEL":"Subscriptions to Cancel",
-                "STARTED":"Started",
-                "ACCOUNT":"Account",
-                "COMPLETED":"Completed"
+                "SUBS_TO_CANCEL":"Suscripciones a cancelar",
+                "STARTED":"Iniciado",
+                "ACCOUNT":"Cuenta",
+                "COMPLETED":"Completado"
             },
-            "CONFIRM_BUTTON_1":"Confirm Delete",
-            "STATUS":"Account Deletion Status",
-            "DELETE_REDIRECT":"Account deleted, you will be redirected in {{seconds}} seconds",
+            "CONFIRM_BUTTON_1":"Confirmar la supresión",
+            "STATUS":"Estado de supresión de la cuenta",
+            "DELETE_REDIRECT":"Cuenta eliminada, serás redirigido en {{seconds}} segundos",
             "CONFIRM_DIALOG":{
-                "TITLE":"Confirm Delete",
-                "MESSAGE":"Deleting your account deletes ALL DATA and CANNOT be recovered. Are you sure you want to delete your account?",
-                "CONFIRM":"DELETE ACCOUNT",
-                "EMAIL_ERROR":"This email does not match your account."
+                "TITLE":"Confirmar la eliminación",
+                "MESSAGE":"Al eliminar tu cuenta se borran TODOS los datos y no se pueden recuperar. Estás seguro de que quieres eliminar tu cuenta?",
+                "CONFIRM":"BORRAR CUENTA",
+                "EMAIL_ERROR":"Este correo electrónico no coincide con tu cuenta."
             },
-            "REQUEST_ERROR":"Error, request could not be made.",
-            "DELETE_ERROR":"There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{id}})"
+            "REQUEST_ERROR":"Error, no se ha podido realizar la solicitud.",
+            "DELETE_ERROR":"Se ha producido un error al eliminar su cuenta. Póngase en contacto con support@broodminder.com para finalizar la eliminación de la cuenta. (ReferenceID:{{id}})"
         }
     },
     "PREFERENCES": {
@@ -1162,7 +1162,7 @@
         "SUB_HUB":"SUBHUB",
         "WIFI_HUB":"WIFI HUB",
         "CELL_HUB":"CELL HUB",
-        "THIRD_PARTY":"THIRD PARTY DEVICES",
+        "THIRD_PARTY":"DISPOSITIVOS DE TERCEROS",
         "REALTIME_ALERTS":"ALERTAS EN TIEMPO REAL",
         "SUPPORT":"SOPORTE",
         "FULL_SUPPORT":"SOPORTE PREMIUM",
@@ -1170,8 +1170,8 @@
         "PURCHASE_MEMBERSHIP":"Abonarse Premium",
         "PURHASE_TOKENS":"Comprar Tokens",
         "LOGIN":"Login/Registrar",
-        "INFO_1":"Membership includes a free token for wifi devices. Extra tokens to be purchased for cell hubs.",
-        "INFO_2":"Multiple Yolink devices can be added to your account (see user guide)"
+        "INFO_1":"La afiliación incluye una ficha gratuita para los dispositivos wifi. Hay que comprar tokens adicionales para los hubs celulares.",
+        "INFO_2":"Se pueden añadir varios dispositivos Yolink a su cuenta (ver la guía del usuario)"
     },
     "PURCHASE": {
         "SUMMARY": {

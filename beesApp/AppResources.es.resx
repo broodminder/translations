@@ -646,7 +646,7 @@
 		<value>Nuevos datos:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMU">
-		<value>Ultima conexión a MBM:</value>
+		<value>Ultimo envio a MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMS">
 		<value>Ultimo dato en MBM:</value>
@@ -1462,7 +1462,7 @@
 		<value>MBM última carga</value>
 	</data>
 	<data name="HUBDETAIL_LASTUPLOADNEVER">
-		<value>Never</value>
+		<value>Nunca</value>
 	</data>
 	<data name="HUBDETAIL_BATTERY">
 		<value>Bateria</value>
@@ -1717,24 +1717,24 @@
 		<value>Setting all divisors to {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
-		<value>Delete Account</value>
+		<value>Eliminar la cuenta</value>
 	</data>
 	<data name="DELETE_ACCOUNT_DETAILS_1">
-		<value>To delete your MyBroodMinder Account, you must go to our website.</value>
+		<value>Para eliminar tu cuenta debes ir a mybroodminder.com</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LINK_BUTTON">
-		<value>Go to MyBroodMinder Account Page</value>
+		<value>Ir a la página de la cuenta MyBroodMinder</value>
 	</data>
 	<data name="DELETE_ACCOUNT_DETAILS_2">
-		<value>Once you have deleted your account, you need to log out from the app here to remove your data from your device.</value>
+		<value>Una vez que hayas eliminado tu cuenta, tienes que cerrar la sesión de esta aplicación aquí para eliminar los datos de tu dispositivo.</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
-		<value>Log Out and Delete Data</value>
+		<value>Cerrar la sesión y borrar los datos</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_TITLE">
-		<value>Log out and delete all local data?</value>
+		<value>¿Salir del sistema y borrar todos los datos locales?</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
-		<value>Yes, delete all data</value>
+		<value>Sí, borrar todos los datos</value>
 	</data>
 </root>

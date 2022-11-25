@@ -808,32 +808,32 @@
             "SAVE_BUTTON":"Enregistrer"
         },
         "DELETE":{
-            "SHOW":"Show options",
-            "HIDE":"Hide options",
-            "DELETE_BUTTON":"Delete Account",
-            "WARNING":"You are about to delete your account. This deletes all data, including what is specified below. Confirm this request to delete your account.",
+            "SHOW":"Montrer options",
+            "HIDE":"Masquer options",
+            "DELETE_BUTTON":"Supprimer le compte",
+            "WARNING":"Vous êtes sur le point de supprimer votre compte. Ceci supprime toutes les données, y compris celles spécifiées ci-dessous. Confirmez cette demande de suppression de votre compte.",
             "HEADERS":{
-                "REQUESTED":"Delete Requested",
-                "DEVICES":"Devices",
-                "HIVES":"Hives",
-                "APIARIES":"Apiaries",
+                "REQUESTED":"Suppression demandée",
+                "DEVICES":"Capteurs",
+                "HIVES":"Ruches",
+                "APIARIES":"Ruchers",
                 "HUBS":"Hubs",
-                "SUBS_TO_CANCEL":"Subscriptions to Cancel",
-                "STARTED":"Started",
-                "ACCOUNT":"Account",
-                "COMPLETED":"Completed"
+                "SUBS_TO_CANCEL":"Abonnements à annuler",
+                "STARTED":"Démarré",
+                "ACCOUNT":"Compte",
+                "COMPLETED":"Complété"
             },
-            "CONFIRM_BUTTON_1":"Confirm Delete",
-            "STATUS":"Account Deletion Status",
-            "DELETE_REDIRECT":"Account deleted, you will be redirected in {{seconds}} seconds",
+            "CONFIRM_BUTTON_1":"Confirmer Suppréssion",
+            "STATUS":"Statut de suppression du compte",
+            "DELETE_REDIRECT":"Compte supprimé, vous serez redirigé dans {{seconds}} secondes",
             "CONFIRM_DIALOG":{
-                "TITLE":"Confirm Delete",
-                "MESSAGE":"Deleting your account deletes ALL DATA and CANNOT be recovered. Are you sure you want to delete your account?",
-                "CONFIRM":"DELETE ACCOUNT",
-                "EMAIL_ERROR":"This email does not match your account."
+                "TITLE":"Confirmer Suppréssion",
+                "MESSAGE":"La suppression de votre compte supprime TOUTES LES DONNÉES et ne peut être récupérée. Êtes-vous sûr de vouloir supprimer votre compte ?",
+                "CONFIRM":"SUPPRIMER LE COMPTE",
+                "EMAIL_ERROR":"Cet email ne correspond pas à votre compte."
             },
-            "REQUEST_ERROR":"Error, request could not be made.",
-            "DELETE_ERROR":"There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{id}})"
+            "REQUEST_ERROR":"Erreur, la requête n'a pas pu être réalisée.",
+            "DELETE_ERROR":"Une erreur s'est produite lors de la suppression de votre compte. Veuillez contacter support@broodminder.com pour terminer la suppression du compte. (ReferenceID:{{id}})"
         }
     },
     "PREFERENCES": {
@@ -1170,8 +1170,8 @@
         "PURCHASE_MEMBERSHIP":"Achat d'un Abonnement Premium",
         "PURHASE_TOKENS":"Acheter Jetons",
         "LOGIN":"Se connecter/s'enregistrer",
-        "INFO_1":"Membership includes a free token for wifi devices. Extra tokens to be purchased for cell hubs.",
-        "INFO_2":"Multiple Yolink devices can be added to your account (see user guide)"
+        "INFO_1":"L'adhésion comprend un jeton gratuit pour les appareils wifi. Des jetons supplémentaires doivent être achetés pour les hubs cellulaires.",
+        "INFO_2":"Plusieurs appareils Yolink peuvent être ajoutés à votre compte (voir le guide d'utilisation)."
     },
     "PURCHASE": {
         "SUMMARY": {

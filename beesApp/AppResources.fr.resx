@@ -646,13 +646,13 @@
 		<value>Nouveaux relevés:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMU">
-		<value>Dernière mise à jour MBM:</value>
+		<value>Dernier envoi MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMS">
 		<value>Dernier relevé MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LR">
-		<value>Dernièr relevé:</value>
+		<value>Dernier relevé:</value>
 	</data>
 	<data name="DEVICEDETAIL_FIRMWARE_SYNC">
 		<value>Sync {0} nouveaux relevés, puis MàJ micrologiciel</value>
@@ -1459,10 +1459,10 @@
 		<value>Chargement échoué</value>
 	</data>
 	<data name="HUBDETAIL_LASTUPLOAD">
-		<value>MBM Dernier Téléchargement</value>
+		<value>MBM Dernier envoi</value>
 	</data>
 	<data name="HUBDETAIL_LASTUPLOADNEVER">
-		<value>Never</value>
+		<value>Jamais</value>
 	</data>
 	<data name="HUBDETAIL_BATTERY">
 		<value>Batterie</value>
@@ -1684,7 +1684,7 @@
 		<value>{0} Set</value>
 	</data>
 	<data name="CALIBRATION_JSET_ERROR">
-		<value>Erreur setting {0}</value>
+		<value>Error setting {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_TARE">
 		<value>Setting Tare</value>
@@ -1699,7 +1699,7 @@
 		<value>Diviseur</value>
 	</data>
 	<data name="CALIBRATION_OFFSET">
-		<value>Décalage</value>
+		<value>Offset</value>
 	</data>
 	<data name="CALIBRATION_SCALE_ALL">
 		<value>Scale all channels</value>
@@ -1717,24 +1717,24 @@
 		<value>Setting all divisors to {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
-		<value>Delete Account</value>
+		<value>Effacer le compte</value>
 	</data>
 	<data name="DELETE_ACCOUNT_DETAILS_1">
-		<value>To delete your MyBroodMinder Account, you must go to our website.</value>
+		<value>Pour supprimer votre compte, vous devez vous rendre sur MyBroodMinder.com</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LINK_BUTTON">
-		<value>Go to MyBroodMinder Account Page</value>
+		<value>Aller à la page du compte MyBroodMinder</value>
 	</data>
 	<data name="DELETE_ACCOUNT_DETAILS_2">
-		<value>Once you have deleted your account, you need to log out from the app here to remove your data from your device.</value>
+		<value>Une fois que vous avez supprimé votre compte, vous devez vous déconnecter de cette App pour supprimer les données de votre appareil.</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
-		<value>Log Out and Delete Data</value>
+		<value>Déconnexion et suppression des données</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_TITLE">
-		<value>Log out and delete all local data?</value>
+		<value>Se déconnecter et effacer toutes les données locales ?</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
-		<value>Yes, delete all data</value>
+		<value>Oui, effacer toutes les données</value>
 	</data>
 </root>
