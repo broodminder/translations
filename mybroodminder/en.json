@@ -806,6 +806,34 @@
             "CURRENT_PASSWORD": "Current Password",
             "NEW_PASSWORD": "New Password",
             "SAVE_BUTTON": "Save Change"
+        },
+        "DELETE":{
+            "SHOW":"Show options",
+            "HIDE":"Hide options",
+            "DELETE_BUTTON":"Delete Account",
+            "WARNING":"You are about to delete your account. This deletes all data, including what is specified below. Confirm this request to delete your account.",
+            "HEADERS":{
+                "REQUESTED":"Delete Requested",
+                "DEVICES":"Devices",
+                "HIVES":"Hives",
+                "APIARIES":"Apiaries",
+                "HUBS":"Hubs",
+                "SUBS_TO_CANCEL":"Subscriptions to Cancel",
+                "STARTED":"Started",
+                "ACCOUNT":"Account",
+                "COMPLETED":"Completed"
+            },
+            "CONFIRM_BUTTON_1":"Confirm Delete",
+            "STATUS":"Account Deletion Status",
+            "DELETE_REDIRECT":"Account deleted, you will be redirected in {{seconds}} seconds",
+            "CONFIRM_DIALOG":{
+                "TITLE":"Confirm Delete",
+                "MESSAGE":"Deleting your account deletes ALL DATA and CANNOT be recovered. Are you sure you want to delete your account?",
+                "CONFIRM":"DELETE ACCOUNT",
+                "EMAIL_ERROR":"This email does not match your account."
+            },
+            "REQUEST_ERROR":"Error, request could not be made.",
+            "DELETE_ERROR":"There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{id}})"
         }
     },
     "PREFERENCES": {

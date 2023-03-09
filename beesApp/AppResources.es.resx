@@ -123,8 +123,8 @@
 	<data name="SETTINGS_LOGOUT">
 		<value>Cerrar sesión</value>
 	</data>
-	<data name="SETTINGS_ADVANCED">
-		<value>Avanzado</value>
+	<data name="SETTINGS_TROUBLESHOOTING">
+		<value>Solucionar problemas</value>
 	</data>
 	<data name="SETTINGS_LOGOUT_TITLE">
 		<value>Saliendo de la cuenta</value>
@@ -646,7 +646,7 @@
 		<value>Nuevos datos:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMU">
-		<value>Ultima conexión a MBM:</value>
+		<value>Ultimo envio a MBM:</value>
 	</data>
 	<data name="DEVICEDETAIL_GRID_LMS">
 		<value>Ultimo dato en MBM:</value>
@@ -928,7 +928,7 @@
 		<value>La fecha de fin debe ser posterior a la de inicio.</value>
 	</data>
 	<data name="MOVEDEVICE_FROM">
-		<value>Suprimir de</value>
+		<value>Retirar de</value>
 	</data>
 	<data name="MOVEDEVICE_MOVE">
 		<value>Mover hacia otra colmena</value>
@@ -1462,7 +1462,7 @@
 		<value>MBM última carga</value>
 	</data>
 	<data name="HUBDETAIL_LASTUPLOADNEVER">
-		<value>Never</value>
+		<value>Nunca</value>
 	</data>
 	<data name="HUBDETAIL_BATTERY">
 		<value>Bateria</value>
@@ -1700,5 +1700,41 @@
 	</data>
 	<data name="CALIBRATION_OFFSET">
 		<value>Offset</value>
+	</data>
+	<data name="CALIBRATION_SCALE_ALL">
+		<value>Scale all channels</value>
+	</data>
+	<data name="CALIBRATION_PERCENT">
+		<value>Percent</value>
+	</data>
+	<data name="CALIBRATION_SET_DIVISOR_ALL">
+		<value>Set divisor for all channels</value>
+	</data>
+	<data name="CALIBRATION_SCALING_ALL">
+		<value>Scaling all divisors by {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
+		<value>Setting all divisors to {0}</value>
+	</data>
+	<data name="DELETE_ACCOUNT_TITLE">
+		<value>Eliminar la cuenta</value>
+	</data>
+	<data name="DELETE_ACCOUNT_DETAILS_1">
+		<value>Para eliminar tu cuenta debes ir a mybroodminder.com</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LINK_BUTTON">
+		<value>Ir a la página de la cuenta MyBroodMinder</value>
+	</data>
+	<data name="DELETE_ACCOUNT_DETAILS_2">
+		<value>Una vez que hayas eliminado tu cuenta, tienes que cerrar la sesión de esta aplicación aquí para eliminar los datos de tu dispositivo.</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
+		<value>Cerrar la sesión y borrar los datos</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_TITLE">
+		<value>¿Salir del sistema y borrar todos los datos locales?</value>
+	</data>
+	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
+		<value>Sí, borrar todos los datos</value>
 	</data>
 </root>
