@@ -8,9 +8,9 @@
         "MESSAGE_2_HUB_EXP": "Dispones de uno o más Hubs que siguen enviando datos. Por favor, actualiza tu suscripción y las fichas para poder procesar y ver los datos. Si ya no utiliza este hub, te recomendamos que lo apagues, retires la bateria pasándola en modo 'auto off'",
         "MESSAGE_4": "Puedes actualizar tu suscripción",
         "MESSAGE_4_LINK": "aquí",
-        "MESSAGE_5": "Durante los últimos cinco años hemos hecho tremendas inversiones en MyBroodMinder.com, BeeCounted.org, y Mellisphera.com. El equipo ha tomado en cuenta los comentarios de innumerables apicultores y ha hecho actualizaciones para facilitar la amplia variedad de instalaciones y colmenas en todo el mundo. Estamos encantados con el creciente número de usuarios y agradecemos profundamente la participación de todos",
+        "MESSAGE_5": "Durante los últimos cinco años hemos hecho tremendas inversiones en MyBroodMinder.com. Nuestro equipo ha tomado en cuenta los comentarios de innumerables apicultores y ha hecho actualizaciones para facilitar la amplia variedad de instalaciones y colmenas en todo el mundo. Estamos encantados con el creciente número de usuarios y agradecemos profundamente la participación de todos",
         "MESSAGE_6": "Seguimos comprometidos en proporcionar almacenamiento gratuito de datos en la nube a cambio de poner los datos a disposición de los investigadores de todo el mundo. Sin embargo, dado que nos auto-financiamos totalmente, esperamos que consideres/continúes suscribiéndose a nuestros servicios premium y en tiempo real para soportar el desarrollo continuo de software y aplicaciones",
-        "MESSAGE_7": "Esperamos que continúes usando y disfrutando de los servicios de BroodMinder, BeeCounted y Mellisphera. Contacte con Mike en Support@BroodMinder.com o Lorenzo Support@Mellisphera.com si tiene preguntas o comentarios",       
+        "MESSAGE_7": "Esperamos que continúes usando y disfrutando de los servicios de BroodMinder. Contacta con Mike o Lorenzo en Support@BroodMinder.com si tienes preguntas o comentarios",       
         "SUMMARY": {
             "NAME": "Nombre",
             "LAST": "Ultimo acceso",
@@ -39,7 +39,7 @@
     "RECEIPT": {
         "PURCHASE": {
             "SUBJECT": "Suscripción {{.type}} adquirida",
-            "MESSAGE": "gracias por haber comprado una suscripcción {{.type}}."
+            "MESSAGE": "gracias por haber comprado una suscripción {{.type}}."
         },
         "UPDATE": {
             "SUBJECT": "Modificar suscripción {{.type}}",
@@ -77,8 +77,8 @@
         }
     },
     "ACCOUNT_DELETE":{
-        "SUBJECT": "Account Deletion Status",
-        "SUCCESS_MESSAGE": "Your MyBroodMinder account has been successfully deleted.",
-        "ERROR_MESSAGE": "There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{.id}})"
+        "SUBJECT": "Estado de supresión de la cuenta",
+        "SUCCESS_MESSAGE": "Tu cuenta MyBroodMinder se ha cerrado correctamente.",
+        "ERROR_MESSAGE": "Se ha producido un error al eliminar su cuenta. Ponte en contacto con support@broodminder.com para finalizar la cancelación de la cuenta. (ReferenceID:{{.id}})"
     }
 }
