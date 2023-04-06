@@ -241,7 +241,7 @@
 		<value>Ajouter un capteur</value>
 	</data>
 	<data name="HIVE_CONTEXT_MOVEHIVE">
-		<value>Déplacer la ruche</value>
+		<value>Transhumer la ruche</value>
 	</data>
 	<data name="HIVE_CONTEXT_EDITHIVE">
 		<value>Modifier la ruche</value>
@@ -493,7 +493,7 @@
 		<value>Rucher non mis à jour</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
-		<value>Déplacer la ruche</value>
+		<value>Transhumer la ruche</value>
 	</data>
 	<data name="MOVE_HIVE_MOVED">
 		<value>Ruche déplacée</value>
