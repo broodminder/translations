@@ -42,12 +42,19 @@
 	},
 	"SIDEBAR": {
 		"HOME":"Accueil",
-		"APIARIES":"Ruchers",
         "CONFIGURE":"Configurer",
         "MEMBERSHIPS":"Options d'adhésion",
-        "APIARIES_CONTEXT": {
-            "NEW":"Nouveau Rucher"
+        "NEW":{
+            "TITLE":"New",
+            "APIARY":"Apiary",
+            "HIVE":"Hive",
+            "DEVICE":"Device",
+            "DASHBOARD":"Custom Dashboard",
+            "APIARY_NOTE":"Apiary Note",
+            "HIVE_NOTE":"Hive Note"
         },
+        "MULTI_SELECT":"Multi-Select",
+        "CLEAR_SEL":"Clear all selections",
 		"APIARY_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
 			"NEW_HIVE":"Nouvelle ruche",
@@ -71,12 +78,25 @@
         "HUB_CONTEXT": {
             "REMOVE":"Supprimer {{value}} du menu"
 		},
+        "WEATHER_SOURCE":"WeatherSource",
+        "LOCAL_SOURCE":"Local Source",
         "WEATHER_CONTEXT": {
             "NAME": "Météo",
-            "EDIT": "Configurer Météo"
+            "EDIT": "Configurer Météo",
+            "ADD_SOURCE":"Add Source",
+            "EDIT_SOURCES":"Edit Sources",
+            "INFO":"More Information"
+        },
+        "WEATHER_INFO":{
+            "TITLE":"WeatherSource Weather",
+            "TEXT":"This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
         },
 		"HUB_TOOLTIP":"Hub",
-		"SHARED_TOOLTIP":"Partagé avec moi"
+		"SHARED_TOOLTIP":"Partagé avec moi",
+        "NEW_FEATURES":"New Features",
+        "RESOURCES":"Resources",
+        "DOCUMENTATION":"Documentation",
+        "SUPPORT_EMAIL":"Email support@broodminder.com"
 	},
 	"TOP_MENU": {
 		"ACCOUNT":"Compte",
@@ -390,7 +410,9 @@
         "HUBS_TITLE":"Hubs",
         "LINKS_TITLE":"Liens Publiques",
         "THIRD_PARTY_TITLE":"Appareils tiers",
-        "SUBSCRIPTIONS_TITLE":"Mes Abonnements"
+        "SUBSCRIPTIONS_TITLE":"Mes Abonnements",
+        "DASHBOARDS_TITLE":"Dashboards",
+        "ALERTS_TITLE":"Alerts"
     },
 	"FEATURES": {
 		"TITLE":"Tour d'horizon",
@@ -408,6 +430,7 @@
         "END":"Fin",
         "APPLY":"Appliquer",
 		"HOURS_24":"Les 24 dernières heures",
+        "DAYS_1":"Le dernier jour",
 		"DAYS_3":"Les 3 derniers jours",
 		"DAYS_7":"Les 7 derniers jours",
 		"DAYS_14":"Les 14 derniers jours",
@@ -415,8 +438,26 @@
 		"DAYS_90":"Les 90 derniers jours",
 		"DAYS_180":"Les 180 derniers jours",
 		"YEAR_1":"L'année dernière",
+        "YEAR_2":"Les 2 dernières années",
 		"CUSTOM":"Personnaliser la plage",
-        "INFO":"Abonnement Premium ou Pro requis pour visualiser les données de plus de 12 mois. Vous pouvez toujours télécharger l'ensemble de l'historique au format csv sur la vue du capteur."
+        "INFO":"Abonnement Premium ou Pro requis pour visualiser les données de plus de 12 mois. Vous pouvez toujours télécharger l'ensemble de l'historique au format csv sur la vue du capteur.",
+        "FORECAST":{
+            "SHOW":"Show 10 day forecast",
+            "ON":"Forecast On",
+            "OFF":"Forecast Off"
+        }
+	},
+    "DATE_PICKER_SHORT": {
+		"HOURS_24":"24 heures",
+        "DAYS_1":"1 jour",
+		"DAYS_3":"3 jour",
+		"DAYS_7":"7 jour",
+		"DAYS_14":"14 jour",
+		"DAYS_30":"30 jour",
+		"DAYS_90":"90 jour",
+		"DAYS_180":"180 jour",
+		"YEAR_1":"1 année",
+        "YEAR_2":"2 année"
 	},
 	"NOTES": {
 		"TITLE":"{{value}} Notes",
@@ -669,7 +710,10 @@
         "DATE":"Date",
         "SUCCESS_CREATED":"Note de ruche créée",
         "SUCCESS_UPDATED":"Note de ruche mise à jour",
-        "ERROR_TIME":"Date non valide"
+        "ERROR_TIME":"Date non valide",
+        "APIARY":{
+            "STATE":"General State"
+        }
     },
     "HUB_CRUD": {
         "CREATE_TITLE":"Créer Hub",
@@ -716,6 +760,20 @@
             "TITLE":"Liens publiques pour {{hiveName}}",
             "LINK":"Lien",
             "CREATED":"Crée"
+        },
+        "DASHBOARD":"Dashboard",
+        "HIVES":"Hives",
+        "WEATHER":"Weather",
+        "FORECAST":"Include Forecast",
+        "UNITS":{
+            "TITLE":"Units",
+            "BROWSER":"Browser Default",
+            "METRIC":"Metric",
+            "IMPERIAL":"Imperial"
+        },
+        "TIMEZONE":{
+            "TITLE":"Timezone",
+            "BROWSER":"Browser Default"
         }
     },
     "SHARE_BUTTON":{
@@ -1341,63 +1399,651 @@
         },
         "PURCHASE":"Acheter Produits"
     },
-    "TAGS":[
-        "Inspection de la ruche",
-        "Inspection complète du rucher",
-        "Description personnalisée du rucher",
-        "Description personnalisée de la ruche",
-        "Test de dépistage des mites - négatif",
-        "Test de dépistage des mites - positif",
-        "Lot installé",
-        "Nuc installé",
-        "Ruche divisée",
-        "Ruche fermée",
-        "Enlevé un cadre de couvain",
-        "Ajouté un cadre de couvain",
-        "Suppression du cadre de pollen et des ressources",
-        "Ajout d'un cadre de pollen et de ressources",
-        "Cadre(s) de miel enlevé(s)",
-        "Cadre(s) de miel ajouté(s)",
-        "Alimentateur réapprovisionné",
-        "Essaimage",
-        "Recherche de nourriture pour les colonies",
-        "La reine pond des oeufs",
-        "L'élevage de la couvée ralentit\/arrêté",
-        "Reine trouvée",
-        "Reine absente",
-        "Couvain fort",
-        "Couvain modéré",
-        "Couvain faible",
-        "Aucun couvain trouvé",
-        "Nouvelle reine insérée",
-        "Cellules d'essaimage trouvées",
-        "Cellules de supersédure trouvées",
-        "Faux-bourdons abondants",
-        "Peu de faux-bourdons",
-        "Abondant peigne de faux-bourdons",
-        "Faux-bourdons chassés pour l'hiver",
-        "Boîte à couvain ajoutée",
-        "Ajout d'une hausse",
-        "Ajout d'une boîte de courtepointe",
-        "Ajout d'un plateau solide",
-        "Fond grillagé fermé",
-        "Ruche renversée",
-        "Boîte à couvain enlevée",
-        "Hausse retirée",
-        "Dessus du grillage enlevé",
-        "Boîte de courtepointe enlevée",
-        "Plateau solide retiré",
-        "Planche à nourrir enlevée",
-        "Suppression de l'isolation du dessus de la ruche",
-        "Plateau solide retiré",
-        "Fond grillagé ouvert",
-        "Batterie remplacée",
-        "Capteur remplacé",
-        "Placé au-dessus de la boîte à couvain inférieure",
-        "Placés ailleurs",
-        "J'adore my BroodMinder!",
-        "Début de l'élevage des couvées",
-        "Ruche morte\/vide",
-        "Ruche enveloppée"
-    ]
+    "FITNESS_CODE":{
+        "B1":{
+            "MSG":"Ruche morte"
+        },
+        "B2":{
+            "MSG":"Ruche volée"
+        },
+        "R1":{
+            "MSG":"Ruche très faible"
+        },
+        "O1":{
+            "MSG":"Ruche faible ou en fort déclin"
+        },
+        "O2":{
+            "MSG":"Potentiel essaimage"
+        },
+        "O3":{
+            "MSG":"Surchauffe"
+        },
+        "O4":{
+            "MSG":"Grand froid"
+        },
+        "O5":{
+            "MSG":"Perte de poids importante"
+        },
+        "G1":{
+            "MSG":"Bonne santé"
+        }
+    },
+    "CHART":{
+        "DATA_TYPES":{
+            "WEIGHT":{
+                "TITLE":"Weight",
+                "YAXIS":"Weight ({{label}})",
+                "FILTER":"Weight",
+                "FILTER_HOURLY":"Weight Hourly",
+                "FILTER_DAILY":"Weight Daily"
+            },
+            "PROD":{
+                "TITLE":"Productivity",
+                "YAXIS":"Weight ({{label}})",
+                "FILTER":"Productivity",
+                "FILTER_HOURLY":"Productivity Hourly",
+                "FILTER_DAILY":"Productivity Daily"
+            },
+            "BATTERY":{
+                "TITLE":"Battery",
+                "YAXIS":"Battery (%)",
+                "FILTER":"Battery"
+            },
+            "TEMP_EVENTS":{
+                "TITLE":"Temperature Events",
+                "YAXIS":"",
+                "FILTER":"Temperature Events"
+            },
+            "AUDIO":{
+                "TITLE":"Audio",
+                "YAXIS":"Audio ({{label}})",
+                "FILTER":"Audio"
+            },
+            "RADAR":{
+                "TITLE":"Radar",
+                "YAXIS":"Radar ({{label}})",
+                "FILTER":"Radar"
+            },
+            "BEECOUNT":{
+                "TITLE":"Bee Count",
+                "YAXIS":"Bee Count ({{label}})",
+                "FILTER":"Bee Count"
+            },
+            "BROOD":{
+                "TITLE":"Brood",
+                "YAXIS":"Brood (%)",
+                "FILTER":"Brood"
+            },
+            "TEMP_MIN":{
+                "TITLE":"Min Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Min Temperature"
+            },
+            "TEMP_MEAN":{
+                "TITLE":"Mean Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Mean Temperature"
+            },
+            "TEMP_MAX":{
+                "TITLE":"Max Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Max Temperature"
+            },
+            "TEMP_MIN_EXT":{
+                "TITLE":"Min External Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Min External Temperature"
+            },
+            "TEMP_MAX_EXT":{
+                "TITLE":"Max External Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Max External Temperature"
+            },
+            "HUMID_MIN":{
+                "TITLE":"Min Humidity",
+                "YAXIS":"Humidity (%)",
+                "FILTER":"Min Humidity"
+            },
+            "HUMID_MAX":{
+                "TITLE":"Max Humidity",
+                "YAXIS":"Humidity (%)",
+                "FILTER":"Max Humidity"
+            },
+            "GAIN":{
+                "TITLE":"Weight Gain",
+                "YAXIS":"Weight ({{label}})",
+                "FILTER":"Weight Gain"
+            },
+            "GAIN_CUMUL":{
+                "TITLE":"Cumulative Gain",
+                "YAXIS":"Weight ({{label}})",
+                "FILTER":"Cumulative Weight Gain"
+            },
+            "PROD_CUMUL":{
+                "TITLE":"Cumulative Productivity",
+                "YAXIS":"Weight ({{label}})",
+                "FILTER":"Cumulative Productivity"
+            },
+            "HUMID_MAX_EXT":{
+                "TITLE":"External Humidity Max",
+                "YAXIS":"Humidity (%)",
+                "FILTER":"External Humidity Max"
+            },
+            "HUMID_MIN_EXT":{
+                "TITLE":"External Humidity Min",
+                "YAXIS":"Humidity (%)",
+                "FILTER":"External Humidity Min"
+            },
+            "TEMP_MIN_WEATHER":{
+                "TITLE":"Min Weather Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Min Weather Temperature"
+            },
+            "TEMP_MAX_WEATHER":{
+                "TITLE":"Max Weather Temperature",
+                "YAXIS":"Temperature ({{label}})",
+                "FILTER":"Max Weather Temperature"
+            },
+            "HUMID_MIN_WEATHER":{
+                "TITLE":"Min Weather Humidity",
+                "YAXIS":"Humidity (%)",
+                "FILTER":""
+            },
+            "HUMID_MAX_WEATHER":{
+                "TITLE":"Max Weather Humidity",
+                "YAXIS":"Humidity (%)",
+                "FILTER":"Max Weather Humidity"
+            },
+            "WEATHER":{
+                "TITLE":"Weather",
+                "YAXIS":"",
+                "FILTER":"Weather Daily"
+            },
+            "WIND_MAX":{
+                "TITLE":"Max Wind",
+                "YAXIS":"Wind ({{label}})",
+                "FILTER":"Max Wind"
+            },
+            "HIVE_HEALTH":{
+                "TITLE":"Hive Health",
+                "YAXIS":"",
+                "FILTER":"Hive Health"
+            },
+            "LUNAR":{
+                "TITLE":"Lunar Calendar",
+                "YAXIS":"",
+                "FILTER":"Lunar Daily"
+            },
+            "ALERTS_NOTES":{
+                "TITLE":"Alerts and Notes",
+                "YAXIS":" ({{label}})",
+                "FILTER":"Alerts and Notes"
+            },
+            "ALERTS":{
+                "TITLE":"Alerts",
+                "YAXIS":"",
+                "FILTER":"Alerts"
+            },
+            "NOTES":{
+                "TITLE":"Notes",
+                "YAXIS":"",
+                "FILTER_APIARY":"Apiary Notes",
+                "FILTER_HIVE":"Hive Notes"
+            },
+            "PRECIP":{
+                "TITLE":"Precipitation",
+                "YAXIS":"Precipitation ({{label}})",
+                "FILTER":"Precipitation",
+                "FILTER_DAILY":"Precipitation Daily"
+            },
+            "TEMP":{
+                "TITLE":"Température",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Temperature",
+                "FILTER_HOURLY":"Temperature Hourly"
+            },
+            "WIND":{
+                "TITLE":"Vent",
+                "YAXIS":"Vent ({{label}})",
+                "FILTER":"Wind",
+                "FILTER_HOURLY":"Wind Hourly"
+            },
+            "RAIN":{
+                "TITLE":"Précipitations",
+                "YAXIS":"Précipitations ({{label}})",
+                "FILTER":"Rainfall",
+                "FILTER_HOURLY":"Rain Hourly"
+            },
+            "HUMID":{
+                "TITLE":"Humidité",
+                "YAXIS":"Humidité (%)",
+                "FILTER":"Humidity",
+                "FILTER_HOURLY":"Humidity Hourly"
+            },
+            "NECTAR":{
+                "TITLE":"Indice de Miellée",
+                "YAXIS":"Indice Miéllée (%)",
+                "FILTER":"Nectar flow"
+            },
+            "FLIGHT":{
+                "TITLE":"Indice de Butinage",
+                "YAXIS":"Indice Butinage (%)",
+                "FILTER":"Foraging index"
+            }
+        }
+    },
+    "CALENDAR_CHART":{
+        "MOON_PHASE":"Phase",
+        "MOON_PERIOD":"Période",
+        "SUNRISE":"Lever du soleil",
+        "SUNSET":"Coucher du soleil",
+        "DAYLENGTH":"Durée du jour",
+        "MOON":{
+            "1":"Pleine lune",
+            "2":"Nouvelle lune",
+            "3":"Dernier quartier",
+            "4":"Premier quartier",
+            "5":"Gibbeuse croissante",
+            "6":"Gibbeuse décroissante",
+            "7":"Dernier croissant",
+            "8":"Premier croissant",
+            "ASCENDING":"Ascending",
+            "DESCENDING":"Descending"
+        },
+        "WEATHER":{
+            "DESCR":{
+                "CLEAR":"Clear",
+                "FEW_CLOUDS":"Few clouds",
+                "SCATTERED_CLOUDS":"Scattered clouds",
+                "SHOWER_RAIN":"Shower rain",
+                "BROKEN_CLOUDS":"Broken clouds",
+                "SHOWER":"Shower",
+                "RAIN":"Rain",
+                "THUNDERSTORM":"Thunderstorm",
+                "SHOWER_SNOW":"Shower snow",
+                "SNOW":"Snow",
+                "MIST":"Mist",
+                "SMOKE":"Smoke",
+                "HAZE":"Haze",
+                "DUST":"Dust",
+                "FOG":"Fog",
+                "SAND":"Sand",
+                "ASH":"Ash",
+                "SQUALL":"Squall",
+                "TORNADO":"Tornado",
+                "CLOUDS":"Clouds"
+            }
+        }
+    },
+    "INSP_CONF":{
+        "APPLIES":{
+            "HIVE":"Ruche",
+            "APIARY":"Rucher"
+        },
+        "DEFAULT":"Default",
+        "SUPER+":"Ajout d'une hausse",
+        "SUPER-":"Retrait d'une hausse",
+        "QUEENINSERT":"Insertion reine",
+        "DIVISION":"Division",
+        "QUEENABSENT":"Reine absente",
+        "STOLEN":"Ruche volée",
+        "BROODADD":"Ajout de cadres de couvain",
+        "BROODREMOVE":"Retrait de cadres de couvain",
+        "COMBINEDHIVES":"Ruches combinées",
+        "SWARM":"Essaimage",
+        "CANDIFEED":"Nourrir Candi",
+        "SYRUPFEED":"Nourrir Sirop",
+        "PATTIESFEED":"Patties feeding",
+        "REQUEEN":"Remèrage",
+        "QUEENLINEAGE":"Marquage reine",
+        "HARVEST":"Récolte",
+        "INSTALLPKG":"Installer essaime d'abeilles",
+        "NUCLEUSHIVE":"Installed nucleus hive",
+        "SPLITQUEENREMOVE":"Divison avec retrait de la reine",
+        "NECTARFLOW":"Miellées",
+        "MITEOAVAPOR":"Traitement varroa acide oxalique Vap.",
+        "MITEOADRIBBLE":"Traitement varroa acide oxalique Deg.",
+        "MITEFORMICPRO":"Traitement varroa formique",
+        "MITESTRIPADD":"Traitement varroa ajout laniere",
+        "MITESTRIPREMOVE":"Traitement varroa retrait laniere",
+        "MITECOUNTLOUNGE":"Lange",
+        "MITECOUNTWASH":"Compteur de Varroa",
+        "STARTFEED":"Debut nourissage",
+        "STOPFEED":"Arret nourissage",
+        "SWARMMATEDQUEEN":"Essaim avec reine fecondée",
+        "VIRGINSWARM":"Essaim avec reine vierge",
+        "SWARMRETURN":"Essaim revenu à la ruche",
+        "QUEENSEEN":"Reine vue",
+        "NOBROOD":"Pas de couvain",
+        "LOWBROOD":"Niveau couvain faible ",
+        "NORMBROOD":"Niveau couvain normal",
+        "HIGHBROOD":"Niveau couvain elevé",
+        "SICK":"Malade",
+        "NOBEES":"Pas d'abeilles",
+        "LOWBEES":"Niveau d'abeilles faible",
+        "NORMBEES":"Niveau d'abeilles moyen",
+        "HIGHBEES":"Niveau d'abeilles élevé",
+        "NORES":"Pas de ressources",
+        "LOWRES":"Niveau de ressources faible",
+        "NORMRES":"Niveau de ressources moyen",
+        "HIGHRES":"Niveau de ressources élevé",
+        "EGG":"Présence d'oeufs",
+        "LARVA":"Présence de larves",
+        "PUPA":"Présence de couvain operculé",
+        "DRONEBROOD":"Présence de couvain de male",
+        "DRONE":"Présence de males",
+        "BUZZINGHIVE":"Bourdonneuse",
+        "MOSAICBROOD":"Mosaique couvain",
+        "QUEENCELLSEEN":"Présence de cellules royales"
+    },
+    "INSP_CATEG":{
+        "BEESBROODSTG":"Brood Stages",
+        "HEALTH":"Health",
+        "MITES":"Mites",
+        "MANAGE":"Manage"
+    },
+    "ALERTS_DESC":{
+        "HONEYDEW":"Miellée",
+        "HONEYDEW_DESC":"Déclenchée lorsque l'apport de poids dans la ruche dépasse le seuil choisi lors de la dernière semaine.",
+        "RAIN":"Possibles fortes précipitations",
+        "RAIN_DESC":"Déclenchée lorsque les précipitations pluvieuses dépassent le seuil choisi le prochain jour.",
+        "SWARM":"Essaimage",
+        "SWARM_DESC":"Déclenchée lorsque un potentiel essaimage est survenu (un Hub offre plus d'efficacité).",
+        "DCONNECT":"Déconnexion",
+        "DCONNECT_DESC":"Déclenchée lorsqu'un de vos capteurs ne transmet plus de données (ou ponctuellement) pendant chaque période choisie. Ne fonctionne qu'avec un Hub.",
+        "TMAX":"Forte temp. interne",
+        "TMAX_DESC":"Déclenchée lorsque la température interne dépasse le seuil choisi.",
+        "TMIN":"Faible temp. interne",
+        "TMIN_DESC":"Déclenchée lorsque la température interne est en dessous du seuil choisi.",
+        "LOWBROOD":"Faible niveau couvain",
+        "LOWBROOD_DESC":"Déclenchée quand le pourcentage de couvain est en dessous du seuil défini.",
+        "STOPWEATHER":"Station météo arrêtée",
+        "STOPWEATHER_DESC":"Déclenchée lorsque votre station météo s'arrête d'émettre des données. Nécessite sa propre station météo.",
+        "RSWARM":"Risque d'essaimage",
+        "RSWARM_DESC":"Déclenchée lorsque le risque d'essaimage est fort sur une de vos ruches le prochain jour.",
+        "WIPOS":"Gain poids élevé",
+        "WIPOS_DESC":"Déclenchée lorsque le poids entrants de la journée dans la ruche dépasse le seuil choisi.",
+        "WINEG":"Perte poids élevé",
+        "WINEG_DESC":"Déclenchée lorsque les abeilles consomment beaucoup plus de ressources qu'elles n'en ramènent dans la ruche. Le seuil de perte est réglable.",
+        "WLIM":"Seuil poids",
+        "WLIM_DESC":"Déclenchée lorsque le seuil de poids indiqué est dépassé.",
+        "SNOW":"Possible neige abdondante",
+        "SNOW_DESC":"Déclenchée lorsque les précipitations neigeuses dépassent le seuil choisi le prochain jour.",
+        "WIND":"Possible fort vent",
+        "WIND_DESC":"Déclenchée lorsque le vent dépassent le seuil choisi le prochain jour.",
+        "COLDDAY":"Possible journée froide à venir",
+        "COLDDAY_DESC":"Déclenchée lorsqu'une journée froide à venir est détectée, c’est-à-dire en dessous du seuil de température indiqué.",
+        "HOTDAY":"Possible journée chaude à venir",
+        "HOTDAY_DESC":"Déclenchée lorsqu'une journée chaude à venir est détectée, c’est-à-dire au dessus du seuil de température indiqué.",
+        "HMIN":"Faible humidité interne",
+        "HMIN_DESC":"Déclenchée lorsque l'humidité interne est en dessous du seuil choisi.",
+        "HMAX":"Forte humidité interne",
+        "HMAX_DESC":"Déclenchée lorsque l'humidité interne dépasse le seuil choisi.",
+        "STOLEN":"Ruche volée",
+        "STOLEN_DESC":"Déclenchée lorsque le poids de votre ruche devient anormalement faible.",
+        "DCONNECTT":"Déconnexion",
+        "DCONNECTT_DESC":"Déclenchée lorsque votre capteur de température ne transmets plus de données durant le dernier jour.",
+        "DCONNECTW":"Déconnexion",
+        "DCONNECTW_DESC":"Déclenchée lorsque votre capteur de poids ne transmets plus de données durant le dernier jour.",
+        "DCONNECTH":"Déconnexion",
+        "DCONNECTH_DESC":"Déclenchée lorsque votre Hub ne transmets plus de données durant le dernier jour.",
+        "POORSIGNALW":"Mauvais signal",
+        "POORSIGNALW_DESC":"Déclenchée lorsque votre capteur de poids transmets peu de données durant le dernier jour.",
+        "POORSIGNALT":"Mauvais signal",
+        "POORSIGNALT_DESC":"Déclenchée lorsque votre capteur de température transmets peu de données durant le dernier jour.",
+        "LOWBATTERYW":"Batterie faible",
+        "LOWBATTERYW_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur de poids est en dessous du seuil choisi.",
+        "LOWBATTERYT":"Batterie faible",
+        "LOWBATTERYT_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur de température est en dessous du seuil choisi.",
+        "SUPER+":"Ajout d'une hausse",
+        "SUPER+_DESC":"Indiquer le poids minimal d'une hausse vide.",
+        "SUPER-":"Retrait d'une hausse",
+        "SUPER-_DESC":"Indiquer le poids maximal d'une hausse pleine.",
+        "OXALIC":"Traitement à l'acide oxalique",
+        "OXALIC_DESC":"Déclenchée lorsque le couvain moyen de vos ruches est en dessous du seuil fixé. C’est une indication vous permettant de traiter vos ruches à l’acide oxalique au bon moment.",
+        "DEAD":"Ruche morte",
+        "DEAD_DESC":"Notre algorithme détecte chaque jour si votre ruche est morte en fonction de différents paramètres que nous avons fixés.",
+        "RAIN_MSG":"Les précipitations de pluie dépasseront {VAL}",
+        "SNOW_MSG":"Les précipitations de neige dépasseront {VAL} ",
+        "WIND_MSG":"Le vent dépassera {VAL}",
+        "COLDDAY_MSG":"Les températures seront inhabituellement froides",
+        "OXALIC_MSG":"C'est le moment pour traiter vos ruches",
+        "HOTDAY_MSG":"Les températures seront inhabituellement chaudes",
+        "TMAX_MSG":"Température interne dépassant {VAL}",
+        "TMIN_MSG":"Température interne en dessous de {VAL}",
+        "WIPOS_MSG":"Le gain de réserves dépasse {VAL}",
+        "WINEG_MSG":"La perte de réserves dépasse {VAL}",
+        "LOWBROOD_MSG":"Couvain en dessous de {VAL}",
+        "HMAX_MSG":"Humidité interne dépassant {VAL}",
+        "HMIN_MSG":"Humidité interne en dessous de {VAL}",
+        "HONEYDEW_MSG":"Poids entrants lors de la dernière semaine excédant {VAL}",
+        "WLIM_MSG":"Le poids de votre ruche dépasse {VAL}",
+        "SWARM_MSG":"Potentiel essaimage détecté vers 14:00",
+        "RSWARM_MSG":"Journée d'essaimages attendue",
+        "SUPER+_MSG":"Vous avez ajouté une hausse",
+        "SUPER-_MSG":"Vous avez retiré une hausse",
+        "LOWBATTERYT_MSG":"Remplacer la batterie de ",
+        "LOWBATTERYW_MSG":"Remplacer la batterie de ",
+        "DCONNECTT_MSG":"{REF} déconnecté depuis {DATE}",
+        "DCONNECTW_MSG":"{REF} déconnecté depuis {DATE}",
+        "DCONNECTH_MSG":"{REF} déconnecté depuis {DATE}",
+        "POORSIGNALT_MSG":"{REF} mauvais signal depuis {DATE}",
+        "POORSIGNALW_MSG":"{REF} mauvais signal depuis {DATE}",
+        "STOPWEATHER_MSG":"Erreur de transmission de données de votre station météo depuis le {DATE}",
+        "STOLEN_MSG":"Le poids de votre ruche est anormalement faible",
+        "DEAD_MSG":"Votre ruche a été détectée morte",
+        "REALTIME_SWARM_ALERT":"Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
+    },
+    "CONFIGURE_ALERTS": {
+        "REALTIME":"Realtime",
+        "SWARM_ALERT":"SwarmMinder",
+        "SENSORS": "Devices",
+        "WEATHER": "Weather",
+        "HIVE": "Hive",
+        "FREQUENCY_NEVER":"Alert summary email not sending",
+        "FREQUENCY_DAILY":"Alert summary email sent every day",
+        "FREQUENCY_WEEKLY":"Alert summary email sent every week",
+        "FREQUENCY_OTHER":"Alert summary email sent every {{value}} days",
+        "UPDATE_SUCCESS":"Alert settings updated",
+        "UPDATE_FAIL":"Error updating alert settings",
+        "EDIT": {
+            "TITLE": "Email Settings",
+            "MAIL": "Send email alert summary every",
+            "FREQUENCY": "Frequency",
+            "DAILY": "day",
+            "WEEKLY": "week",
+            "NEVER":"never",
+            "OTHER": "custom",
+            "EVERY": "every",
+            "DAY":"day",
+            "SUMMARY_INPUT":"Summary Email (Comma Separated)",
+            "REALTIME_INPUT":"Realtime Email (Comma Separated)",
+            "BTN_MAIL_TEST": "Send test email",
+            "EMAIL":{
+                "SUMMARY_BODY":"This is a test email for MyBroodMinder summary alerts.",
+                "REALTIME_BODY":"This is a test message for MyBroodMinder realtime alerts.",
+                "SUCCESS":"Email sent to {{email}}",
+                "FAIL":"Email failed to send to {{email}}"
+            }
+        }
+    },
+    "CONFIGURE_DASHBOARDS":{
+        "NAME":"Name",
+        "VISIBLE":"Visible",
+        "DUPLICATE_TOOLTIP":"Duplicate",
+        "DELETE":{
+            "TITLE":"Delete {{name}}",
+            "MESSAGE":"Are you sure you want to delete this dashboard ({{name}})?",
+            "WARNING":"There are {{count}} public shared links connected to this dashboard. Deleting will break these links.",
+            "CONFIRM":"Delete",
+            "CANCEL":"Cancel",
+            "SUCCESS":"Dashboard removed",
+            "FAIL":"Error removing dashboard"
+        },
+        "HIDE":{
+            "TITLE":"Hide {{name}}",
+            "MESSAGE":"Are you sure you want to hide this dashboard ({{name}})?",
+            "MESSAGE_2":"You can undo this from the Configure page.",
+            "CONFIRM":"Hide",
+            "CANCEL":"Cancel",
+            "HIDDEN":"Dashboard hidden",
+            "VISIBLE":"Dashboard visible"
+        },
+        "DUPLICATE":{
+            "TITLE":"Copy {{name}}",
+            "MESSAGE":"Would you like to create a copy of this dashboard ({{name}})?",
+            "CONFIRM":"Create",
+            "CANCEL":"Cancel",
+            "NAME_SUFFIX":"copy",
+            "SUCCESS":"Dashboard created",
+            "FAIL":"Error creating dashboard"
+        },
+        "DASHBOARD":{
+            "TITLE_CREATE":"Create Dashboard",
+            "TITLE_EDIT":"Edit {{name}}",
+            "NAME":"Name",
+            "WARNING":"There are {{count}} public shared links connected to this dashboard. Any changes you make will affect those links.",
+            "AVAILABLE":"Available Charts",
+            "ACTIVE":"Active Charts",
+            "DRAG":"Drag chart to add to dashboard",
+            "SUCCESS":"Dashboard updated",
+            "FAIL":"Error updating dashboard",
+            "CHART_NAMES":{
+                "WEIGHT":"Weight",
+                "PROD":"Productivity",
+                "TEMP":"Temperature",
+                "HUMID":"Humidity",
+                "BEECOUNT":"Bee Count",
+                "RAIN":"Rain",
+                "WIND":"Wind",
+                "BATTERY":"Battery",
+                "BROOD":"Brood",
+                "NOTES":"Notes",
+                "APIARY_IMAGE":"Apiary Image",
+                "APIARY_MAP":"Apiaries Map",
+                "FORAGING":"Foraging Index",
+                "NECTAR":"Nectar Flow Index"
+            }
+        },
+        "CHART":{
+            "TITLE_CREATE":"Create Chart",
+            "TITLE_EDIT":"Edit {{name}}",
+            "NAME":"Name",
+            "FILTERS":{
+                "AVAILABLE":"Available",
+                "ACTIVE":"Active"
+            },
+            "HEIGHT":"Height",
+            "DEFAULT":"Default ({{value}})",
+            "LEGEND":"Show Legend",
+            "BROOD_ZONE":"Show Brood Zone",
+            "NORMAL_HUMID":"Show Normal Humidity",
+            "APIARY_LOCATIONS":"Show Apiary Locations",
+            "TODAY_LINE":"Show Today Line",
+            "SUCCESS":"Chart updated",
+            "FAIL":"Error updating chart"
+        }
+    },
+    "DASHBOARD":{
+        "CONTEXT":{
+            "EDIT_DASH":"Edit Dashboard",
+            "HIDE_DASH":"Hide Dashboard",
+            "DELETE_DASH":"Delete Dashboard",
+            "SHARE_DASH":"Share Dashboard",
+            "EDIT_SHARE_DASH":"Edit Shared Links",
+            "DOWNLOAD":{
+                "MENU":"Download Options",
+                "TITLE":"Download",
+                "NOTES":"Notes CSV",
+                "HOURLY_READINGS":"Hourly Readings CSV",
+                "DAILY_READINGS":"Daily Readings CSV",
+                "HOURLY_WEATHER":"Hourly Weather CSV",
+                "DAILY_WEATHER":"Daily Weather CSV",
+                "DOWNLOAD":"Download",
+                "WARNING":"You need premium for hive csv downloads."
+            }
+        },
+        "CHART":{
+            "NO_DATA":"No data",
+            "EDIT_CHART":"Edit Chart",
+            "ZOOM_X":"X-Axis Zoom",
+            "ZOOM_Y":"Y-Axis Zoom",
+            "ZOOM_CANCEL":"Cancel Zoom",
+            "IMAGE":{
+                "ADD":"Add Picture",
+                "UPLOADING":"Uploading {{value}}%",
+                "ERROR_TYPE":"Image not allowed, jpeg and png only",
+                "ERROR_SIZE":"Image too large, 6MB allowed",
+                "SUCCESS":"File uploaded"
+            },
+            "MAP":{
+                "EDIT":"Edit Map"
+            },
+            "NOTES":{
+                "TITLE":"{{count}} Notes",
+                "ADD":"Add Note",
+                "ERROR":"Note details not found"
+            },
+            "ALERTS":{
+                "EDIT":{
+                    "TITLE":"Edit Alert",
+                    "SUCCESS":"Alert updated",
+                    "FAIL":"Error updating alert"
+                },
+                "ERROR":"Alert details not found"
+            },
+            "ALERT_NOTE_TABLE":{
+                "DATE":"Date",
+                "DESCRIPTION":"Description",
+                "NO_DESCR":"No description",
+                "TAGS":"Tags",
+                "DELETE_ALERT":{
+                    "TITLE":"Delete Alert",
+                    "MESSAGE":"Are you sure you want to delete this alert?",
+                    "CONFIRM":"Delete",
+                    "SUCCESS":"Alert deleted",
+                    "ERROR":"Error deleting alert"
+                }
+            },
+            "APIARY_OVERVIEW":{
+                "RAIN":"Rain",
+                "WIND":"Wind",
+                "MAX_TEMP":"Max Temp",
+                "NOTES":"Notes",
+                "ALERTS":"Alerts",
+                "NECTAR":"Nectar Idx",
+                "FORAGING":"Foraging Idx"
+            },
+            "HIVE_OVERVIEW":{
+                "NAME":"Name",
+                "DATE":"Date",
+                "FITNESS":"Fitness",
+                "BROOD":"Brood",
+                "WEIGHT":"Weight",
+                "PROD":"Productivity",
+                "ALERTS":"Alerts",
+                "NOTES":"Notes",
+                "HISTORY":"History",
+                "HISTORY_TOOLTIP":"History"
+            }
+        }
+    },
+    "GLOBAL_DASHBOARDS":{
+        "CLASSIC":{
+            "TITLE":"Classic",
+            "WEIGHT":"Weight",
+            "WEIGHT_CHANGE":"Weight Change",
+            "TEMP":"Temperature",
+            "HUMID":"Humidity",
+            "BATTERY":"Battery",
+            "RADAR":"Radar",
+            "AUDIO":"Audio"
+        },
+        "CALENDAR":{
+            "TITLE":"Calendar"
+        },
+        "WEATHER":{
+            "TITLE":"Weather"
+        }
+    }
 }
