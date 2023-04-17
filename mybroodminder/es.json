@@ -89,7 +89,7 @@
         },
         "WEATHER_INFO":{
             "TITLE":"WeatherSource Meteo",
-            "TEXT":"Estos datos meteorológicos provienen de WeatherSource. Se basa en el código ;ostal proporcionado en su colmenar"
+            "TEXT":"Estos datos meteorológicos provienen de WeatherSource. Se obtienen a partir del código postal indicado al crear tu colmenar"
         },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"compartido conmigo",
@@ -412,7 +412,7 @@
         "THIRD_PARTY_TITLE":"Dispositivos de terceros",
         "SUBSCRIPTIONS_TITLE":"Mis Abonos",
         "DASHBOARDS_TITLE":"Dashboards",
-        "ALERTS_TITLE":"Alerts"
+        "ALERTS_TITLE":"Alertas"
     },
 	"FEATURES": {
 		"TITLE":"Tour de las funciones",
@@ -971,50 +971,50 @@
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Sin asignar",
         "EDIT":"Gestionar",
-        "THIRD_PARTY_DEVICE":"Dispositivo de terceros",
+        "THIRD_PARTY_DEVICE":"Dispositivo Yolink",
         "MANAGE": {
             "TITLE":"Gestionar",
             "CLOSE":"Hecho",
             "SELECT_APIARY":"Selecciona colmenar",
-            "REMOVE_CREDIT":"Retirar ficha de {{item}}",
-            "CANCEL_CREDIT":"Retirar ficha de auto-renov",
-            "REACTIVATE_CREDIT":"Reactivar ficha",
-            "SELECT_CREDIT":"Seleccionar ficha",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este ficha se puede usar para dispositivos de terceros",
+            "REMOVE_CREDIT":"Retirar token de {{item}}",
+            "CANCEL_CREDIT":"Retirar token de auto-renov",
+            "REACTIVATE_CREDIT":"Reactivar token",
+            "SELECT_CREDIT":"Seleccionar token",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este token se puede usar para dispositivos de terceros",
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
             "ASSIGNMENT_SUCCESS":"Assignment updated",
             "ASSIGNMENT_REMOVED":"Token removed",
             "BACK_BUTTON":"Atras",
             "REMOVE": {
-                "TITLE":"Retirar Ficha",
-                "CONFIRM":"Estás seguro de que quieres retirar el ficha de {{item}}?",
-                "OK":"Si, retirar este ficha",
-                "GENERAL_ERROR":"Error : El ficha no se pudo eliminar"
+                "TITLE":"Retirar Token",
+                "CONFIRM":"Estás seguro de que quieres retirar el token de {{item}}?",
+                "OK":"Si, retirar este token",
+                "GENERAL_ERROR":"Error : El token no se pudo eliminar"
             },
             "CANCEL": {
-                "TITLE":"Cancelar ficha",
-                "CONFIRM":"Esto elimina el ficha de su suscripción. El importe de su nueva suscripción {{Frequency}} es de {{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
-                "OK":"Si, retirar ficha",
-                "ERROR_1":"Esta es una suscripción gratuita, el ficha no se puede cancelar",
-                "ERROR_2":"Esta suscripción está cancelada, el ficha no se puede cancelar",
-                "ERROR_3":"Este es un ficha gratuito y no se puede cancelar.",
-                "ERROR_4":"Este ficha no se renueva automáticamente y no se puede cancelar",
-                "ERROR_5":"Este ficha ya ha sido cancelado",
-                "ERROR_6":"Este ficha es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
-                "GENERAL_ERROR":"Error : El ficha no se pudo cancelar",
+                "TITLE":"Cancelar token",
+                "CONFIRM":"Esto elimina el token de su suscripción. El importe de su nueva suscripción {{Frequency}} es de {{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
+                "OK":"Si, retirar token",
+                "ERROR_1":"Esta es una suscripción gratuita, el token no se puede cancelar",
+                "ERROR_2":"Esta suscripción está cancelada, el token no se puede cancelar",
+                "ERROR_3":"Este es un token gratuito y no se puede cancelar.",
+                "ERROR_4":"Este token no se renueva automáticamente y no se puede cancelar",
+                "ERROR_5":"Este token ya ha sido cancelado",
+                "ERROR_6":"Este token es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
+                "GENERAL_ERROR":"Error : El token no se pudo cancelar",
                 "SUCCESS":"Token cancelled"
             },
             "REACTIVATE": {
                 "TITLE":"Reactivar Ficha",
-                "CONFIRM":"Esto agrega el ficha cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
-                "OK":"Si, reactivar ficha",
-                "ERROR_1":"Esta es una suscripción gratuita, el ficha no se puede reactivar",
-                "ERROR_2":"Esta suscripción está cancelada, el ficha no se puede reactivar",
-                "ERROR_3":"Este es un ficha gratuito y no se puede reactivar",
-                "ERROR_4":"Este ficha no se renueva automáticamente y no se puede reactivar",
-                "ERROR_5":"Este ficha ya venció y no se puede reactivar.",
-                "GENERAL_ERROR":"Error : El ficha no se pudo reactivar"
+                "CONFIRM":"Esto agrega el token cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
+                "OK":"Si, reactivar token",
+                "ERROR_1":"Esta es una suscripción gratuita, el token no se puede reactivar",
+                "ERROR_2":"Esta suscripción está cancelada, el token no se puede reactivar",
+                "ERROR_3":"Este es un token gratuito y no se puede reactivar",
+                "ERROR_4":"Este token no se renueva automáticamente y no se puede reactivar",
+                "ERROR_5":"Este token ya venció y no se puede reactivar.",
+                "GENERAL_ERROR":"Error : El token no se pudo reactivar"
             },
             "PURCHASE": {
                 "TITLE":"Comprar Ficha",
@@ -1028,7 +1028,7 @@
                 "ERROR_1_LINK":"aquí",
                 "CHARGED":"Pagado ahora",
                 "TOTAL":"Importe total del abono {{frequency}}",
-                "GENERAL_ERROR":"Error : No se pudo comprar ficha"
+                "GENERAL_ERROR":"Error : No se pudo comprar token"
             }
         }
     },
@@ -1228,7 +1228,7 @@
         "PURCHASE_MEMBERSHIP":"Abonarse Premium",
         "PURHASE_TOKENS":"Comprar Tokens",
         "LOGIN":"Login/Registrar",
-        "INFO_1":"La afiliación incluye una ficha gratuita para los dispositivos wifi. Hay que comprar tokens adicionales para los hubs celulares.",
+        "INFO_1":"La afiliación incluye una token gratuita para los dispositivos wifi. Hay que comprar tokens adicionales para los hubs celulares.",
         "INFO_2":"Se pueden añadir varios dispositivos Yolink a su cuenta (ver la guía del usuario)"
     },
     "PURCHASE": {
