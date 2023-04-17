@@ -45,56 +45,56 @@
         "CONFIGURE":"Configurer",
         "MEMBERSHIPS":"Options d'adhésion",
         "NEW":{
-            "TITLE":"New",
-            "APIARY":"Apiary",
-            "HIVE":"Hive",
-            "DEVICE":"Device",
-            "DASHBOARD":"Custom Dashboard",
-            "APIARY_NOTE":"Apiary Note",
-            "HIVE_NOTE":"Hive Note"
+            "TITLE":"Nouveau",
+            "APIARY":"Rucher",
+            "HIVE":"Ruche",
+            "DEVICE":"Capteur",
+            "DASHBOARD":"Tableau de bord personnalisé",
+            "APIARY_NOTE":"Note du rucher",
+            "HIVE_NOTE":"Note de la ruche"
         },
-        "MULTI_SELECT":"Multi-Select",
-        "CLEAR_SEL":"Clear all selections",
+        "MULTI_SELECT":"Sélection multiple",
+        "CLEAR_SEL":"Effacer les sélections",
 		"APIARY_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
 			"NEW_HIVE":"Nouvelle ruche",
 			"SHARE":"Partager",
             "BEECOUNTED":"BeeCounted",
             "RESEARCH_DOWNLOAD":"Export Chercheurs",
-            "REMOVE_SHARED_APIARY":"Remove shared apiary"
+            "REMOVE_SHARED_APIARY":"Supprimer le rucher partagé"
 		},
 		"HIVE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
 			"NEW_DEVICE":"Nouveau capteur",
-			"EXISTING_DEVICE":"Déplacer capteur",
+			"EXISTING_DEVICE":"Déplacer le capteur",
             "BEECOUNTED":"BeeCounted",
             "MOVE": "Déplacer la Ruche"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
-			"EDIT_LOCATION":"Modifier emplacement actuel",
-			"MOVE":"Déplacer capteur"
+			"EDIT_LOCATION":"Modifier l'emplacement actuel",
+			"MOVE":"Déplacer le capteur"
         },
         "HUB_CONTEXT": {
             "REMOVE":"Supprimer {{value}} du menu"
 		},
         "WEATHER_SOURCE":"WeatherSource",
-        "LOCAL_SOURCE":"Local Source",
+        "LOCAL_SOURCE":"Source locale",
         "WEATHER_CONTEXT": {
             "NAME": "Météo",
             "EDIT": "Configurer Météo",
-            "ADD_SOURCE":"Add Source",
-            "EDIT_SOURCES":"Edit Sources",
-            "INFO":"More Information"
+            "ADD_SOURCE":"Ajouter une source",
+            "EDIT_SOURCES":"Modifier les sources",
+            "INFO":"Plus d'information"
         },
         "WEATHER_INFO":{
             "TITLE":"WeatherSource Weather",
-            "TEXT":"This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
+            "TEXT":"Ces données météorologiques proviennent de WeatherSource. Elles sont basées sur le code postal fourni sur votre rucher."
         },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi",
-        "NEW_FEATURES":"New Features",
-        "RESOURCES":"Resources",
+        "NEW_FEATURES":"Nouvelles fonctionnalités",
+        "RESOURCES":"Ressources",
         "DOCUMENTATION":"Documentation",
         "SUPPORT_EMAIL":"Email support@broodminder.com"
 	},
@@ -102,7 +102,7 @@
 		"ACCOUNT":"Compte",
 		"TOUR":"Visite",
 		"HELP":"Aide",
-		"ADMIN":"Admin",
+		"ADMIN":"Administration",
 		"LOGOUT":"Déconnexion",
         "LOGIN":"Se connecter",
         "REGISTER":"S'inscrire",
@@ -208,14 +208,14 @@
 			"SKIP":"Passer",
 			"NEXT":"Suivant",
 			"CLOSE":"Fermer",
-			"FEATURE_1":"La première fois, créez une ruche",
+			"FEATURE_1":"La première fois, créer une ruche",
 			"FEATURE_2":"Visualisation des données",
 			"FEATURE_3":"Configuration et déplacement des capteurs",
 			"FEATURE_4":"Afficher l'état du CELL/WiFi/Hub"
 		}
 	},
 	"APIARY_PAGE": {
-		"SELECT":"Sélectionnez une vue",
+		"SELECT":"Sélectionner une vue",
 		"PREMIUM_EXP":"La sélection de plage horaire pour cette vue est disponible avec un abonnement premium.",
 		"TEXT": {
 			"TITLE":"Texte",
@@ -297,7 +297,7 @@
         "DOWNLOAD_WEATHER":"Télécharger les données météo au format CSV",
         "DOWNLOAD_PREMIUM":"Téléchargement des données de la ruche disponible avec un abonnement premium.",
         "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement premium.",
-        "INACTIVE":"Inactive since {{date}}"
+        "INACTIVE":"Inactif depuis le {{date}}"
     },
     "DEVICE_PAGE": {
         "DATA_TOOLTIP": {
@@ -319,7 +319,7 @@
         "OUTLIER_HIDE":"Masquer l'éditeur de données",
         "EDITOR": {
             "TITLE":"Tableau des mesures",
-            "DESCRIPTION":"Zoomez le graphique ou cliquez sur le point pour filtrer les relevés ci-dessous.",
+            "DESCRIPTION":"Zoomer le graphique ou cliquez sur le point pour filtrer les relevés ci-dessous.",
             "BUTTON_NONE":"Sélectionner les relevés à supprimer dans le tableau ci-dessous",
             "BUTTON_SELECTED":"Supprimer la sélection",
             "REMOVE":"Supprimer",
@@ -339,7 +339,7 @@
             "WEIGHT_R":"Poids D",
             "BALANCE":"G/D Balance",
             "WEIGHT_SF":"Facteur d'échelle de poids",
-            "SAMPLE_STATE":"Sample State",
+            "SAMPLE_STATE":"Echantillonnage",
             "CONFIRM_WINDOW": {
                "TITLE":"Supprimer les relevés sélectionnés",
                "MESSAGE":"Souhaitez-vous supprimer les {{count}} reléves sélectionnés ?",
@@ -409,10 +409,10 @@
         "DEVICES_TITLE":"Capteurs",
         "HUBS_TITLE":"Hubs",
         "LINKS_TITLE":"Liens Publiques",
-        "THIRD_PARTY_TITLE":"Appareils tiers",
+        "THIRD_PARTY_TITLE":"Dispositifs tiers",
         "SUBSCRIPTIONS_TITLE":"Mes Abonnements",
-        "DASHBOARDS_TITLE":"Dashboards",
-        "ALERTS_TITLE":"Alerts"
+        "DASHBOARDS_TITLE":"Tableaux de bord",
+        "ALERTS_TITLE":"Alertes"
     },
 	"FEATURES": {
 		"TITLE":"Tour d'horizon",
@@ -442,9 +442,9 @@
 		"CUSTOM":"Personnaliser la plage",
         "INFO":"Abonnement Premium ou Pro requis pour visualiser les données de plus de 12 mois. Vous pouvez toujours télécharger l'ensemble de l'historique au format csv sur la vue du capteur.",
         "FORECAST":{
-            "SHOW":"Show 10 day forecast",
-            "ON":"Forecast On",
-            "OFF":"Forecast Off"
+            "SHOW":"Voir les 10 jours de prévisions",
+            "ON":"Prévision activée",
+            "OFF":"Prévision désactivée"
         }
 	},
     "DATE_PICKER_SHORT": {
@@ -490,13 +490,13 @@
         "BALANCE":"G/D Balance",
         "WEATHER_TEMP":"Température extérieure",
         "WEATHER_HUMID":"Humidité extérieure",
-        "SWARM_STATE":"T2 Sample State",
+        "SWARM_STATE":"T2 echantillonnage",
         "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Episode thermique"
         },
         "BROOD_ZONE":"Zone de couvain",
-        "HUMIDITY_NORMAL":"Normal",
+        "HUMIDITY_NORMAL":"Normale",
         "PRESSURE":"Pression"
     },
     "LOCATION_HIST": {
@@ -519,10 +519,10 @@
            "EDIT_TITLE":"Modifier l'emplacement",
            "MOVE_TITLE":"Déplacer un capteur",
            "MOVE_EXP":"Ceci met fin à l'emplacement actuel et en commence un nouveau.",
-           "SELECT_DEVICE":"Sélectionnez un capteur",
-           "SELECT_APIARY":"Sélectionnez un rucher",
-           "SELECT_HIVE":"Sélectionnez une ruche",
-           "SELECT_POSITION":"Sélectionnez une position",
+           "SELECT_DEVICE":"Sélectionner un capteur",
+           "SELECT_APIARY":"Sélectionner un rucher",
+           "SELECT_HIVE":"Sélectionner une ruche",
+           "SELECT_POSITION":"Sélectionner une position",
            "START_DAY":"Date de début",
            "START_TIME":"Heure de début",
            "STOP_DAY":"Date de fin",
@@ -601,25 +601,25 @@
         },
         "WEATHER":{
             "TITLE":"Editer Météo",
-            "READING":"Reading",
+            "READING":"Mesure",
             "START": "Début",
             "START_OPEN": "ouvert",
             "END": "Fin",
             "END_OPEN": "actuel",
-            "DESCRIPTION":"Sélectionnez un capteur ou un hub comme source météo de votre rucher pour l'humidité et/ou la température. Toute plage horaire sans appareil sera par défaut sur Weather Source.",
+            "DESCRIPTION":"Sélectionner un capteur ou un hub comme source météo de votre rucher pour l'humidité et/ou la température. Toute plage horaire sans appareil sera par défaut sur Weather Source.",
             "MEASUREMENT":"Mesure",
             "EDIT": {
-                "EDIT_TEMPERATURE": "Editer Source de Température",
-                "EDIT_HUMIDITY": "Edit Source d'Humidité",
-                "ADD_TEMPERATURE": "Ajouter Source de Température",
-                "ADD_HUMIDITY": "Ajouter Source d'Humidité",
-                "SELECT_DEVICE": "Selectionner capteur",
-                "ENDING_CURRENT":"Terminant Source",
+                "EDIT_TEMPERATURE": "Modifier Source de Température",
+                "EDIT_HUMIDITY": "Modifier Source d'Humidité",
+                "ADD_TEMPERATURE": "Ajouter une Source de Température",
+                "ADD_HUMIDITY": "Ajouter une Source d'Humidité",
+                "SELECT_DEVICE": "Selectionner un capteur",
+                "ENDING_CURRENT":"Terminé la Source",
                 "SUCCESS": "Changements enregistrés",
                 "ERROR_INVALID_PREV_OVERLAP": "Date invalide, chevauche l'emplacement du rucher précédent",
                 "ERROR_INVALID_NEXT_OVERLAP": "Date invalide, chevauche l'emplacement du rucher suivant",
-                "ERROR_DEVICE_REQUIRED": "Sélectionnez un appareil pour toutes les sources météorologiques",
-                "ERROR_START_REQUIRED":"Sélectionnez une heure de début pour la source météo"
+                "ERROR_DEVICE_REQUIRED": "Sélectionner un appareil pour toutes les sources météorologiques",
+                "ERROR_START_REQUIRED":"Sélectionner une heure de début pour la source météo"
             },
             "DIALOG":{
                 "TITLE":"Editer Météo",
@@ -691,9 +691,9 @@
         "SELECT_POSITION":"Choisir une position",
         "SUCCESS_PLACED":"Capteur placé dans la ruche",
         "THIRD_PARTY":{
-            "TITLE":"jouter un appareil tiers",
-            "PROVIDER":"Choisissez le fournisseur",
-            "YOLINK_EXPLANATION":"Scannez le code QR sur votre dispositif YoLink pour obtenir le SN à 32 chiffres.",
+            "TITLE":"Ajouter un appareil tiers",
+            "PROVIDER":"Choisisser le fournisseur",
+            "YOLINK_EXPLANATION":"Scanner le code QR sur votre dispositif YoLink pour obtenir le SN à 32 chiffres.",
             "CREDIT_EXPLANATION":"Un jeton d'adhésion premium est nécessaire pour collecter des données à partir de dispositifs tiers",
             "NAME_REQUIRED":"Nom requis",
             "YOLINK_SN_REQUIRED":"YoLink SN requis",
@@ -712,7 +712,7 @@
         "SUCCESS_UPDATED":"Note de ruche mise à jour",
         "ERROR_TIME":"Date non valide",
         "APIARY":{
-            "STATE":"General State"
+            "STATE":"Etat général"
         }
     },
     "HUB_CRUD": {
@@ -721,15 +721,15 @@
         "NAME":"Nom",
         "NAME_AUTO":"Utiliser l'adresse comme nom",
         "MODEL":"Modèle",
-        "ERROR_ADDRESS":"Entrez une adresse de Hub valide",
+        "ERROR_ADDRESS":"Entrer une adresse de Hub valide",
         "ERROR_DUPLICATE":"Adresse déjà existante, le hub ne peut pas être crée",
         "SUCCESS_CREATED":"Hub crée",
         "SUCCESS_UPDATED":"Hub mis à jour",
-        "USERID":"User ID",
+        "USERID":"ID Utilisateur",
         "SIM": {
-            "TITLE":"Ajouter sim",
-            "ID":"Sim ID",
-            "TELECOM":"Telecom"
+            "TITLE":"Ajouter Sim",
+            "ID":"ID Sim",
+            "TELECOM":"Télécome"
         }
     },
     "SHARE_LINK_CRUD": {
@@ -750,7 +750,7 @@
         "SUCCESS_CREATED": "Lien crée",
         "SUCCESS_DELETED": "Lien supprimé",
         "SUCCESS_UPDATED": "Lien actualisé",
-        "ERROR": "Error à la création du lien",
+        "ERROR": "Erreur lors de la création du lien",
         "DELETE_WINDOW": {
             "TITLE": "Supprimer lien publique",
             "MESSAGE": "Vous souhaitez supprimer ce lien publique ? Cette action ne peut être annulée.",
@@ -761,19 +761,19 @@
             "LINK":"Lien",
             "CREATED":"Crée"
         },
-        "DASHBOARD":"Dashboard",
-        "HIVES":"Hives",
-        "WEATHER":"Weather",
-        "FORECAST":"Include Forecast",
+        "DASHBOARD":"Tableau de bord",
+        "HIVES":"Ruches",
+        "WEATHER":"Météo",
+        "FORECAST":"Inclure les prévisions",
         "UNITS":{
-            "TITLE":"Units",
-            "BROWSER":"Browser Default",
-            "METRIC":"Metric",
-            "IMPERIAL":"Imperial"
+            "TITLE":"Unités",
+            "BROWSER":"Navigateur par défaut",
+            "METRIC":"Métrique",
+            "IMPERIAL":"Impériale"
         },
         "TIMEZONE":{
-            "TITLE":"Timezone",
-            "BROWSER":"Browser Default"
+            "TITLE":"Fuseau horaire",
+            "BROWSER":"Navigateur par défaut"
         }
     },
     "SHARE_BUTTON":{
@@ -800,7 +800,7 @@
            "TO":"à",
            "TOTAL":"Nombre Total de mesures",
            "REMOVED":"Mesures effacées",
-           "STATUS":"Status",
+           "STATUS":"Statut",
            "ROLLBACK":"Retour en arrière",
            "STATUS_RUNNING":"en cours",
            "STATUS_ROLLING":"retour en arrière",
@@ -836,7 +836,7 @@
         "SAVE":"Sauvegarder",
         "CONFIRM_SUB_WINDOW": {
             "TITLE":"Confirmer l'achat d'un abonnement Premium",
-            "DESCRIPTION":"Entrez le code de l'email de confirmation",
+            "DESCRIPTION":"Entrer le code de l'email de confirmation",
             "CONFIRMATION_NUMBER":"Numéro de confirmation",
             "CONFIRM":"Confirmer",
             "VALID":"Achat valide",
@@ -852,7 +852,7 @@
             "TITLE":"Modifier l'email du compte",
             "ERROR":"Une erreur s'est produite. L'email n'a pas été modifié.",
             "REFRESH_ERROR":"La modification de l'email de votre compte nécessite une authentification récente. Connectez-vous à nouveau avant de réessayer ce changement.",
-            "CURRENT_EMAIL":"Current email",
+            "CURRENT_EMAIL":"Email actuel",
             "NEW_EMAIL":"Nouveau email",
             "SAVE_BUTTON":"Sauvegarder email"
         },
@@ -860,7 +860,7 @@
             "HEADER":"Mot de passe",
             "BUTTON":"Changer mot de passe",
             "TITLE":"Changer mot de passe",
-            "ERROR":"Error : mot de passe inchangé.",
+            "ERROR":"Erreur : mot de passe inchangé.",
             "CURRENT_PASSWORD":"Mot de passe actuel",
             "NEW_PASSWORD":"Nouveau mot de passe",
             "SAVE_BUTTON":"Enregistrer"
@@ -965,13 +965,13 @@
         "NAME":"Nom",
         "APIARY":"Rucher",
         "LAST_UPLOAD":"dernier relevé",
-        "TELECOM":"Telecom",
+        "TELECOM":"Télécom",
         "SIM":"SIM",
         "EXPIRING":"Etat des jetons",
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Non assigné",
         "EDIT":"Gérer",
-        "THIRD_PARTY_DEVICE":"Third Party Device",
+        "THIRD_PARTY_DEVICE":"Dispositifs tiers",
         "MANAGE": {
             "TITLE":"Gérer",
             "CLOSE":"Terminé",
@@ -983,8 +983,8 @@
             "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Ce jeton peut être utilisé pour de nombreux appareils tiers",
             "PURCHASE_CREDIT":"Acheter nouveau jeton",
             "UPDATED_SUCCESS":"Hub mis à jour",
-            "ASSIGNMENT_SUCCESS":"Assignment updated",
-            "ASSIGNMENT_REMOVED":"Token removed",
+            "ASSIGNMENT_SUCCESS":"Affectation mis à jour",
+            "ASSIGNMENT_REMOVED":"Jeton supprimé",
             "BACK_BUTTON":"Arrière",
             "REMOVE": {
                 "TITLE":"Retirer Jeton",
@@ -1003,7 +1003,7 @@
                 "ERROR_5":"Ce jeton a déjà été annulé",
                 "ERROR_6":"Ce jeton est gratuit avec votre abonnement et ne peut pas être annulé. Visitez la page du compte si vous souhaitez annuler votre abonnement premium",
                 "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être annulé",
-                "SUCCESS":"Token cancelled"
+                "SUCCESS":"Jeton annulé"
             },
             "REACTIVATE": {
                 "TITLE":"Réactiver Jeton",
@@ -1118,7 +1118,7 @@
             "CHANGED":"Rucher mis à jour",
             "ACTIVE_WINDOW": {
                 "TITLE":"Activer le compte Mellisphera",
-                "MESSAGE":"Cliquez ci-dessous pour activer votre compte Mellisphera."
+                "MESSAGE":"Cliquer ci-dessous pour activer votre compte Mellisphera."
             }
         },
         "HIVES": {
@@ -1172,7 +1172,7 @@
             "CREDIT_CANCELLED":"Non récurrent, expire le {{expiration}}",
             "CREDIT_FREE_RENEWING":"Expire le {{expiration}}",
             "CREDIT_EXPIRED":"Expiré le {{expiration}}",
-            "CREDIT_PREPAID_RENEWING": "Pre-paid, expires on {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Prépayé, expire le {{expiration}}",
             "CREDIT_EXPIRING":"Expire le {{expiration}}",
             "PENDING":"En attente de paiement"
         },
@@ -1180,11 +1180,11 @@
             "MONTHLY":"mensuel",
             "YEARLY":"annuel",
             "FREE":"gratuit",
-            "PREPAID": "pre-paid",
+            "PREPAID": "prépayé",
             "MONTHLY_CAP":"Mensuel",
             "YEARLY_CAP":"Annuel",
             "FREE_CAP":"Gratuit",
-            "PREPAID_CAP":"Pre-paid"
+            "PREPAID_CAP":"Prépayé"
         }
     },
     "MEMBERSHIP": {
@@ -1220,7 +1220,7 @@
         "SUB_HUB":"SUBHUB",
         "WIFI_HUB":"WIFI HUB",
         "CELL_HUB":"CELL HUB",
-        "THIRD_PARTY":"THIRD PARTY DEVICES",
+        "THIRD_PARTY":"APPAREILS TIERS",
         "REALTIME_ALERTS":"ALERTES EN TEMPS REEL",
         "SUPPORT":"SUPPORT",
         "FULL_SUPPORT":"SUPPORT PREMIUM",
@@ -1245,7 +1245,7 @@
             "ERROR_1":"Vous avez déjà acheté un abonnement. Cliquez",
             "ERROR_LINK":"ici",
             "ERROR_2":"pour voir les abonnements.",
-            "ADD_ERROR_1":"Click",
+            "ADD_ERROR_1":"Clic",
             "ADD_ERROR_2":"ici",
             "ADD_ERROR_3":"pour ajouter des jetons à l'abonnement actuel."
         },
@@ -1289,7 +1289,7 @@
             "PAY_BUTTON":"Régler",
             "COMPLETE": {
                 "ID":"Ordre",
-                "STATUS":"Status",
+                "STATUS":"Statut",
                 "TAX":"Taxes",
                 "TOTAL":"Total réglé",
                 "RECEIPT":"Reçu transmis",
@@ -1321,7 +1321,7 @@
             "YEAR_SUB":"Abonnement annuel - Renouvellement auto",
             "MONTH_SUB":"Abonnement mensuel - Renouvellement auto",
             "PRICE":"Montant de l'abonnement",
-            "STATUS":"Status",
+            "STATUS":"Statut",
             "AMOUNT":"Montant renouvelé auto",
             "DATE":"Date de renouvelement",
             "CANCEL_BUTTON":"Résilier Abonnement",
@@ -1390,7 +1390,7 @@
             "RENEW":"Renouvelle",
             "EXPIRES":"Expire",
             "AUTO":"Auto-renouvelle",
-            "STATUS":"Status",
+            "STATUS":"Statut",
             "ID":"ID",
             "EDIT":"Editer",
             "PRICE":"Prix",
@@ -1431,28 +1431,28 @@
     "CHART":{
         "DATA_TYPES":{
             "WEIGHT":{
-                "TITLE":"Weight",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Weight",
-                "FILTER_HOURLY":"Weight Hourly",
-                "FILTER_DAILY":"Weight Daily"
+                "TITLE":"Poids",
+                "YAXIS":"Poids ({{label}})",
+                "FILTER":"Poids",
+                "FILTER_HOURLY":"Poids horaire",
+                "FILTER_DAILY":"Poids journalier"
             },
             "PROD":{
-                "TITLE":"Productivity",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Productivity",
-                "FILTER_HOURLY":"Productivity Hourly",
-                "FILTER_DAILY":"Productivity Daily"
+                "TITLE":"Productivité",
+                "YAXIS":"Poids ({{label}})",
+                "FILTER":"Productivité",
+                "FILTER_HOURLY":"Productivité horaire",
+                "FILTER_DAILY":"Productivité journalière"
             },
             "BATTERY":{
-                "TITLE":"Battery",
-                "YAXIS":"Battery (%)",
-                "FILTER":"Battery"
+                "TITLE":"Batterie",
+                "YAXIS":"Batterie (%)",
+                "FILTER":"Batterie"
             },
             "TEMP_EVENTS":{
-                "TITLE":"Temperature Events",
+                "TITLE":"Evènements de température",
                 "YAXIS":"",
-                "FILTER":"Temperature Events"
+                "FILTER":"Evènements de température"
             },
             "AUDIO":{
                 "TITLE":"Audio",
@@ -1465,170 +1465,170 @@
                 "FILTER":"Radar"
             },
             "BEECOUNT":{
-                "TITLE":"Bee Count",
-                "YAXIS":"Bee Count ({{label}})",
-                "FILTER":"Bee Count"
+                "TITLE":"Compteur d'abeilles",
+                "YAXIS":"Compteur d'abeilles ({{label}})",
+                "FILTER":"Compteur d'abeilles"
             },
             "BROOD":{
-                "TITLE":"Brood",
-                "YAXIS":"Brood (%)",
-                "FILTER":"Brood"
+                "TITLE":"Couvain",
+                "YAXIS":"Couvain (%)",
+                "FILTER":"Couvain"
             },
             "TEMP_MIN":{
-                "TITLE":"Min Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min Temperature"
+                "TITLE":"Température minimale",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température minimale"
             },
             "TEMP_MEAN":{
-                "TITLE":"Mean Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Mean Temperature"
+                "TITLE":"Température moyenne",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température moyenne"
             },
             "TEMP_MAX":{
-                "TITLE":"Max Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max Temperature"
+                "TITLE":"Température maximale",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température maximale"
             },
             "TEMP_MIN_EXT":{
-                "TITLE":"Min External Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min External Temperature"
+                "TITLE":"Température extérieur minimale",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température extérieur minimale"
             },
             "TEMP_MAX_EXT":{
-                "TITLE":"Max External Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max External Temperature"
+                "TITLE":"Température extérieur maximale",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température extérieur maximale"
             },
             "HUMID_MIN":{
-                "TITLE":"Min Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Min Humidity"
+                "TITLE":"Humidité minimale",
+                "YAXIS":"Humidité (%)",
+                "FILTER":"Humidité minimale"
             },
             "HUMID_MAX":{
-                "TITLE":"Max Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Max Humidity"
+                "TITLE":"Humidité maximale",
+                "YAXIS":"Humidité (%)",
+                "FILTER":"Humidité maximale"
             },
             "GAIN":{
-                "TITLE":"Weight Gain",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Weight Gain"
+                "TITLE":"Gain de poids",
+                "YAXIS":"Poids ({{label}})",
+                "FILTER":"Gain de poids"
             },
             "GAIN_CUMUL":{
-                "TITLE":"Cumulative Gain",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Cumulative Weight Gain"
+                "TITLE":"Gain de poids cumulé",
+                "YAXIS":"Poids ({{label}})",
+                "FILTER":"Gain de poids cumulé"
             },
             "PROD_CUMUL":{
-                "TITLE":"Cumulative Productivity",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Cumulative Productivity"
+                "TITLE":"Productivité cumulée",
+                "YAXIS":"Poids ({{label}})",
+                "FILTER":"Productivité cumulée"
             },
             "HUMID_MAX_EXT":{
-                "TITLE":"External Humidity Max",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"External Humidity Max"
+                "TITLE":"Humidité extérieure maximale",
+                "YAXIS":"Humidité (%)",
+                "FILTER":"Humidité extérieure maximale"
             },
             "HUMID_MIN_EXT":{
-                "TITLE":"External Humidity Min",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"External Humidity Min"
+                "TITLE":"Humidité extérieure minimale",
+                "YAXIS":"Humidité (%)",
+                "FILTER":"Humidité extérieure minimale"
             },
             "TEMP_MIN_WEATHER":{
-                "TITLE":"Min Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min Weather Temperature"
+                "TITLE":"Température météo minimale",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température météo minimale"
             },
             "TEMP_MAX_WEATHER":{
-                "TITLE":"Max Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max Weather Temperature"
+                "TITLE":"Température météo maximale",
+                "YAXIS":"Température ({{label}})",
+                "FILTER":"Température météo maximale"
             },
             "HUMID_MIN_WEATHER":{
-                "TITLE":"Min Weather Humidity",
-                "YAXIS":"Humidity (%)",
+                "TITLE":"Humidité météo minimale",
+                "YAXIS":"Humidité (%)",
                 "FILTER":""
             },
             "HUMID_MAX_WEATHER":{
-                "TITLE":"Max Weather Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Max Weather Humidity"
+                "TITLE":"Humidité météo maximale",
+                "YAXIS":"Humidité (%)",
+                "FILTER":"Humidité météo maximale"
             },
             "WEATHER":{
-                "TITLE":"Weather",
+                "TITLE":"Météo",
                 "YAXIS":"",
-                "FILTER":"Weather Daily"
+                "FILTER":"Météo journalière"
             },
             "WIND_MAX":{
-                "TITLE":"Max Wind",
-                "YAXIS":"Wind ({{label}})",
-                "FILTER":"Max Wind"
+                "TITLE":"Rafale",
+                "YAXIS":"Vent ({{label}})",
+                "FILTER":"Rafale"
             },
             "HIVE_HEALTH":{
-                "TITLE":"Hive Health",
+                "TITLE":"Santé de la ruche",
                 "YAXIS":"",
-                "FILTER":"Hive Health"
+                "FILTER":"Santé de la ruche"
             },
             "LUNAR":{
-                "TITLE":"Lunar Calendar",
+                "TITLE":"Calendrier lunaire",
                 "YAXIS":"",
                 "FILTER":"Lunar Daily"
             },
             "ALERTS_NOTES":{
-                "TITLE":"Alerts and Notes",
+                "TITLE":"Alertes et Notes",
                 "YAXIS":" ({{label}})",
-                "FILTER":"Alerts and Notes"
+                "FILTER":"Alertes et Notes"
             },
             "ALERTS":{
-                "TITLE":"Alerts",
+                "TITLE":"Alertes",
                 "YAXIS":"",
-                "FILTER":"Alerts"
+                "FILTER":"Alertes"
             },
             "NOTES":{
                 "TITLE":"Notes",
                 "YAXIS":"",
-                "FILTER_APIARY":"Apiary Notes",
-                "FILTER_HIVE":"Hive Notes"
+                "FILTER_APIARY":"Notes du rucher",
+                "FILTER_HIVE":"Notes de la ruche"
             },
             "PRECIP":{
-                "TITLE":"Precipitation",
-                "YAXIS":"Precipitation ({{label}})",
-                "FILTER":"Precipitation",
-                "FILTER_DAILY":"Precipitation Daily"
+                "TITLE":"Précipitation",
+                "YAXIS":"Précipitation ({{label}})",
+                "FILTER":"Précipitation",
+                "FILTER_DAILY":"Précipitation journalière"
             },
             "TEMP":{
                 "TITLE":"Température",
                 "YAXIS":"Température ({{label}})",
-                "FILTER":"Temperature",
-                "FILTER_HOURLY":"Temperature Hourly"
+                "FILTER":"Température",
+                "FILTER_HOURLY":"Température horaire"
             },
             "WIND":{
                 "TITLE":"Vent",
                 "YAXIS":"Vent ({{label}})",
-                "FILTER":"Wind",
-                "FILTER_HOURLY":"Wind Hourly"
+                "FILTER":"Vent",
+                "FILTER_HOURLY":"Vent horaire"
             },
             "RAIN":{
                 "TITLE":"Précipitations",
                 "YAXIS":"Précipitations ({{label}})",
-                "FILTER":"Rainfall",
-                "FILTER_HOURLY":"Rain Hourly"
+                "FILTER":"Précipation",
+                "FILTER_HOURLY":"Précipation horaire"
             },
             "HUMID":{
                 "TITLE":"Humidité",
                 "YAXIS":"Humidité (%)",
-                "FILTER":"Humidity",
-                "FILTER_HOURLY":"Humidity Hourly"
+                "FILTER":"Humidité",
+                "FILTER_HOURLY":"Humidité horaire"
             },
             "NECTAR":{
                 "TITLE":"Indice de Miellée",
                 "YAXIS":"Indice Miéllée (%)",
-                "FILTER":"Nectar flow"
+                "FILTER":"Indice Miéllée "
             },
             "FLIGHT":{
                 "TITLE":"Indice de Butinage",
                 "YAXIS":"Indice Butinage (%)",
-                "FILTER":"Foraging index"
+                "FILTER":"Indice Butinage"
             }
         }
     },
@@ -1647,31 +1647,31 @@
             "6":"Gibbeuse décroissante",
             "7":"Dernier croissant",
             "8":"Premier croissant",
-            "ASCENDING":"Ascending",
-            "DESCENDING":"Descending"
+            "ASCENDING":"Ascendant",
+            "DESCENDING":"Descendant"
         },
         "WEATHER":{
             "DESCR":{
-                "CLEAR":"Clear",
-                "FEW_CLOUDS":"Few clouds",
-                "SCATTERED_CLOUDS":"Scattered clouds",
-                "SHOWER_RAIN":"Shower rain",
-                "BROKEN_CLOUDS":"Broken clouds",
-                "SHOWER":"Shower",
-                "RAIN":"Rain",
-                "THUNDERSTORM":"Thunderstorm",
-                "SHOWER_SNOW":"Shower snow",
-                "SNOW":"Snow",
-                "MIST":"Mist",
-                "SMOKE":"Smoke",
-                "HAZE":"Haze",
-                "DUST":"Dust",
-                "FOG":"Fog",
-                "SAND":"Sand",
-                "ASH":"Ash",
-                "SQUALL":"Squall",
-                "TORNADO":"Tornado",
-                "CLOUDS":"Clouds"
+                "CLEAR":"Ciel clair",
+                "FEW_CLOUDS":"Peu nuageux",
+                "SCATTERED_CLOUDS":"Nuages épars",
+                "SHOWER_RAIN":"Averses de pluie",
+                "BROKEN_CLOUDS":"Nuages brisé",
+                "SHOWER":"Averses",
+                "RAIN":"Pluie",
+                "THUNDERSTORM":"Orage",
+                "SHOWER_SNOW":"Averses de neige",
+                "SNOW":"Neige",
+                "MIST":"Brume",
+                "SMOKE":"Fumée",
+                "HAZE":"Brume sèche",
+                "DUST":"Poussière",
+                "FOG":"Brouillard",
+                "SAND":"Sable",
+                "ASH":"Cendres",
+                "SQUALL":"Rafales",
+                "TORNADO":"Tornade",
+                "CLOUDS":"Nuages"
             }
         }
     },
@@ -1680,7 +1680,7 @@
             "HIVE":"Ruche",
             "APIARY":"Rucher"
         },
-        "DEFAULT":"Default",
+        "DEFAULT":"Défaut",
         "SUPER+":"Ajout d'une hausse",
         "SUPER-":"Retrait d'une hausse",
         "QUEENINSERT":"Insertion reine",
@@ -1691,14 +1691,14 @@
         "BROODREMOVE":"Retrait de cadres de couvain",
         "COMBINEDHIVES":"Ruches combinées",
         "SWARM":"Essaimage",
-        "CANDIFEED":"Nourrir Candi",
-        "SYRUPFEED":"Nourrir Sirop",
-        "PATTIESFEED":"Patties feeding",
+        "CANDIFEED":"Alimentation au Candi",
+        "SYRUPFEED":"Alimentation au Sirop",
+        "PATTIESFEED":"Alimentation au pain d'abeilles",
         "REQUEEN":"Remèrage",
         "QUEENLINEAGE":"Marquage reine",
         "HARVEST":"Récolte",
-        "INSTALLPKG":"Installer essaime d'abeilles",
-        "NUCLEUSHIVE":"Installed nucleus hive",
+        "INSTALLPKG":"Essaim d'abeilles installé",
+        "NUCLEUSHIVE":"Nucleus installé dans la ruche",
         "SPLITQUEENREMOVE":"Divison avec retrait de la reine",
         "NECTARFLOW":"Miellées",
         "MITEOAVAPOR":"Traitement varroa acide oxalique Vap.",
@@ -1737,10 +1737,10 @@
         "QUEENCELLSEEN":"Présence de cellules royales"
     },
     "INSP_CATEG":{
-        "BEESBROODSTG":"Brood Stages",
-        "HEALTH":"Health",
-        "MITES":"Mites",
-        "MANAGE":"Manage"
+        "BEESBROODSTG":"Stades du couvain",
+        "HEALTH":"Santé",
+        "MITES":"Acariens",
+        "MANAGE":"Gérer"
     },
     "ALERTS_DESC":{
         "HONEYDEW":"Miellée",
@@ -1832,218 +1832,218 @@
         "STOPWEATHER_MSG":"Erreur de transmission de données de votre station météo depuis le {DATE}",
         "STOLEN_MSG":"Le poids de votre ruche est anormalement faible",
         "DEAD_MSG":"Votre ruche a été détectée morte",
-        "REALTIME_SWARM_ALERT":"Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
+        "REALTIME_SWARM_ALERT":"Événement de température calculé par l'appareil T2. Uniquement notifié pour les appareils au-dessus ou au-dessous des cadres à couvain utilisant un hub en temps réel."
     },
     "CONFIGURE_ALERTS": {
-        "REALTIME":"Realtime",
+        "REALTIME":"Temps-réel",
         "SWARM_ALERT":"SwarmMinder",
-        "SENSORS": "Devices",
-        "WEATHER": "Weather",
-        "HIVE": "Hive",
-        "FREQUENCY_NEVER":"Alert summary email not sending",
-        "FREQUENCY_DAILY":"Alert summary email sent every day",
-        "FREQUENCY_WEEKLY":"Alert summary email sent every week",
-        "FREQUENCY_OTHER":"Alert summary email sent every {{value}} days",
-        "UPDATE_SUCCESS":"Alert settings updated",
-        "UPDATE_FAIL":"Error updating alert settings",
+        "SENSORS": "Capteurs",
+        "WEATHER": "Météo",
+        "HIVE": "Ruche",
+        "FREQUENCY_NEVER":"Récapitulatif des alertes par mail non envoyé",
+        "FREQUENCY_DAILY":"Récapitulatif des alertes par mail envoyé tous les jours",
+        "FREQUENCY_WEEKLY":"Récapitulatif des alertes par mail envoyé toutes les semaines",
+        "FREQUENCY_OTHER":"Récapitulatif des alertes par mail envoyé chaque {{value}} jours",
+        "UPDATE_SUCCESS":"Paramètres des alertes mis à jour",
+        "UPDATE_FAIL":"Erreur lors de la mise à jour des paramètres des alertes",
         "EDIT": {
-            "TITLE": "Email Settings",
-            "MAIL": "Send email alert summary every",
-            "FREQUENCY": "Frequency",
-            "DAILY": "day",
-            "WEEKLY": "week",
-            "NEVER":"never",
-            "OTHER": "custom",
-            "EVERY": "every",
-            "DAY":"day",
-            "SUMMARY_INPUT":"Summary Email (Comma Separated)",
-            "REALTIME_INPUT":"Realtime Email (Comma Separated)",
-            "BTN_MAIL_TEST": "Send test email",
+            "TITLE": "Paramètres de messagerie",
+            "MAIL": "Envoyer le récapitulatif des alertes par mail chaque",
+            "FREQUENCY": "Fréquence",
+            "DAILY": "jour",
+            "WEEKLY": "semaine",
+            "NEVER":"jamais",
+            "OTHER": "personnalisé",
+            "EVERY": "chaque",
+            "DAY":"jour",
+            "SUMMARY_INPUT":"Email récapitulatif(séparateur ',')",
+            "REALTIME_INPUT":"Email temps-réel (séparateur ',')",
+            "BTN_MAIL_TEST": "Envoyer un mail de test",
             "EMAIL":{
-                "SUMMARY_BODY":"This is a test email for MyBroodMinder summary alerts.",
-                "REALTIME_BODY":"This is a test message for MyBroodMinder realtime alerts.",
-                "SUCCESS":"Email sent to {{email}}",
-                "FAIL":"Email failed to send to {{email}}"
+                "SUMMARY_BODY":"Ceci est un email de test pour le récapitulatif des alertes de MyBroodMinder.",
+                "REALTIME_BODY":"Ceci est un email de test pour les alertes en temps-réel de MyBroodMinder.",
+                "SUCCESS":"Email envoyé à {{email}}",
+                "FAIL":"Echec lors de l'envoie de l'email à {{email}}"
             }
         }
     },
     "CONFIGURE_DASHBOARDS":{
-        "NAME":"Name",
+        "NAME":"Nom",
         "VISIBLE":"Visible",
-        "DUPLICATE_TOOLTIP":"Duplicate",
+        "DUPLICATE_TOOLTIP":"Dupliqué",
         "DELETE":{
-            "TITLE":"Delete {{name}}",
-            "MESSAGE":"Are you sure you want to delete this dashboard ({{name}})?",
-            "WARNING":"There are {{count}} public shared links connected to this dashboard. Deleting will break these links.",
-            "CONFIRM":"Delete",
-            "CANCEL":"Cancel",
-            "SUCCESS":"Dashboard removed",
-            "FAIL":"Error removing dashboard"
+            "TITLE":"Supprimer {{name}}",
+            "MESSAGE":"Etes-vous sûr de vouloir supprimer le tableau de bord ({{name}})?",
+            "WARNING":"Il y a {{count}} liens publics partagés connectés à ce tableau de bord. La suppression rompra ces liens.",
+            "CONFIRM":"Supprimer",
+            "CANCEL":"Annuler",
+            "SUCCESS":"Tableau de bord supprimé",
+            "FAIL":"Erreur lors de la suppression du tableau de bord"
         },
         "HIDE":{
-            "TITLE":"Hide {{name}}",
-            "MESSAGE":"Are you sure you want to hide this dashboard ({{name}})?",
-            "MESSAGE_2":"You can undo this from the Configure page.",
-            "CONFIRM":"Hide",
-            "CANCEL":"Cancel",
-            "HIDDEN":"Dashboard hidden",
-            "VISIBLE":"Dashboard visible"
+            "TITLE":"Cacher {{name}}",
+            "MESSAGE":"Etes-vous sûr de vouloir cacher ce tableau de bord ({{name}})?",
+            "MESSAGE_2":"Vous pouvez annuler cette modification depuis la page Configurer.",
+            "CONFIRM":"Cacher",
+            "CANCEL":"Annuler",
+            "HIDDEN":"Tableau de bord caché",
+            "VISIBLE":"Tableau de bord visible"
         },
         "DUPLICATE":{
-            "TITLE":"Copy {{name}}",
-            "MESSAGE":"Would you like to create a copy of this dashboard ({{name}})?",
-            "CONFIRM":"Create",
-            "CANCEL":"Cancel",
-            "NAME_SUFFIX":"copy",
-            "SUCCESS":"Dashboard created",
-            "FAIL":"Error creating dashboard"
+            "TITLE":"Copier {{name}}",
+            "MESSAGE":"Souhaitez-vous créer une copie de ce tableau de bord ({{name}})?",
+            "CONFIRM":"Créer",
+            "CANCEL":"Annuler",
+            "NAME_SUFFIX":"copier",
+            "SUCCESS":"Tableau de bord créé",
+            "FAIL":"Erreur lors de la création du tableau de bord"
         },
         "DASHBOARD":{
-            "TITLE_CREATE":"Create Dashboard",
-            "TITLE_EDIT":"Edit {{name}}",
-            "NAME":"Name",
-            "WARNING":"There are {{count}} public shared links connected to this dashboard. Any changes you make will affect those links.",
-            "AVAILABLE":"Available Charts",
-            "ACTIVE":"Active Charts",
-            "DRAG":"Drag chart to add to dashboard",
-            "SUCCESS":"Dashboard updated",
-            "FAIL":"Error updating dashboard",
+            "TITLE_CREATE":"Créer un tableau de bord",
+            "TITLE_EDIT":"Modifier {{name}}",
+            "NAME":"Nom",
+            "WARNING":"Il ya {{count}} liens publics partagés connectés à ce tableau de bord. Chaque modification affectera ces liens.",
+            "AVAILABLE":"Graphiques disponibles",
+            "ACTIVE":"Graphiques actifs",
+            "DRAG":"Glisser un graphique pour l'ajouter au tableau de bord",
+            "SUCCESS":"Tableau de bord mis à jour",
+            "FAIL":"Erreur lors de la mise à jour du tableau de bord",
             "CHART_NAMES":{
-                "WEIGHT":"Weight",
-                "PROD":"Productivity",
-                "TEMP":"Temperature",
-                "HUMID":"Humidity",
-                "BEECOUNT":"Bee Count",
-                "RAIN":"Rain",
-                "WIND":"Wind",
-                "BATTERY":"Battery",
-                "BROOD":"Brood",
+                "WEIGHT":"Poids",
+                "PROD":"Productivité",
+                "TEMP":"Température",
+                "HUMID":"Humidité",
+                "BEECOUNT":"Compteur d'abeilles",
+                "RAIN":"Pluie",
+                "WIND":"Vent",
+                "BATTERY":"Batterie",
+                "BROOD":"Couvain",
                 "NOTES":"Notes",
-                "APIARY_IMAGE":"Apiary Image",
-                "APIARY_MAP":"Apiaries Map",
-                "FORAGING":"Foraging Index",
-                "NECTAR":"Nectar Flow Index"
+                "APIARY_IMAGE":"Image du rucher",
+                "APIARY_MAP":"Carte des ruchers",
+                "FORAGING":"Indice de buttinage",
+                "NECTAR":"Indice de miellée"
             }
         },
         "CHART":{
-            "TITLE_CREATE":"Create Chart",
-            "TITLE_EDIT":"Edit {{name}}",
-            "NAME":"Name",
+            "TITLE_CREATE":"Créer un graphique",
+            "TITLE_EDIT":"Modifier {{name}}",
+            "NAME":"Nom",
             "FILTERS":{
-                "AVAILABLE":"Available",
-                "ACTIVE":"Active"
+                "AVAILABLE":"Disponible",
+                "ACTIVE":"Actif"
             },
-            "HEIGHT":"Height",
-            "DEFAULT":"Default ({{value}})",
-            "LEGEND":"Show Legend",
-            "BROOD_ZONE":"Show Brood Zone",
-            "NORMAL_HUMID":"Show Normal Humidity",
-            "APIARY_LOCATIONS":"Show Apiary Locations",
-            "TODAY_LINE":"Show Today Line",
-            "SUCCESS":"Chart updated",
-            "FAIL":"Error updating chart"
+            "HEIGHT":"Hauteur",
+            "DEFAULT":"Défaut ({{value}})",
+            "LEGEND":"Afficher la légende",
+            "BROOD_ZONE":"Afficher la zone de Couvain",
+            "NORMAL_HUMID":"Afficher l'humidité normale",
+            "APIARY_LOCATIONS":"Afficher les ruchers",
+            "TODAY_LINE":"Afficher la ligne d'Aujourd'hui",
+            "SUCCESS":"Graphique mis à jour",
+            "FAIL":"Erreur lors de la mise à jour du graphique"
         }
     },
     "DASHBOARD":{
         "CONTEXT":{
-            "EDIT_DASH":"Edit Dashboard",
-            "HIDE_DASH":"Hide Dashboard",
-            "DELETE_DASH":"Delete Dashboard",
-            "SHARE_DASH":"Share Dashboard",
-            "EDIT_SHARE_DASH":"Edit Shared Links",
+            "EDIT_DASH":"Modifier le tableau de bord",
+            "HIDE_DASH":"Cacher le tableau de bord",
+            "DELETE_DASH":"Supprimer le tableau de bord",
+            "SHARE_DASH":"Partager le tableau de bord",
+            "EDIT_SHARE_DASH":"Modifier les liens partagés",
             "DOWNLOAD":{
-                "MENU":"Download Options",
-                "TITLE":"Download",
+                "MENU":"Options de téléchargement",
+                "TITLE":"Télécharger",
                 "NOTES":"Notes CSV",
-                "HOURLY_READINGS":"Hourly Readings CSV",
-                "DAILY_READINGS":"Daily Readings CSV",
-                "HOURLY_WEATHER":"Hourly Weather CSV",
-                "DAILY_WEATHER":"Daily Weather CSV",
-                "DOWNLOAD":"Download",
-                "WARNING":"You need premium for hive csv downloads."
+                "HOURLY_READINGS":"Données horaires CSV",
+                "DAILY_READINGS":"Données jouranlières CSV",
+                "HOURLY_WEATHER":"Météo horaire CSV",
+                "DAILY_WEATHER":"Météo journalière CSV",
+                "DOWNLOAD":"Télécharger",
+                "WARNING":"Vous avez besoin d'un abonnement premimum pour télécharger les données CSV de la ruche."
             }
         },
         "CHART":{
-            "NO_DATA":"No data",
-            "EDIT_CHART":"Edit Chart",
-            "ZOOM_X":"X-Axis Zoom",
-            "ZOOM_Y":"Y-Axis Zoom",
-            "ZOOM_CANCEL":"Cancel Zoom",
+            "NO_DATA":"Pas de données",
+            "EDIT_CHART":"Modifier le graphique",
+            "ZOOM_X":"Zoom axe X",
+            "ZOOM_Y":"Zoom axe Y",
+            "ZOOM_CANCEL":"Annuler le zoom",
             "IMAGE":{
-                "ADD":"Add Picture",
-                "UPLOADING":"Uploading {{value}}%",
-                "ERROR_TYPE":"Image not allowed, jpeg and png only",
-                "ERROR_SIZE":"Image too large, 6MB allowed",
-                "SUCCESS":"File uploaded"
+                "ADD":"Ajouter une image",
+                "UPLOADING":"Téléchargement {{value}}%",
+                "ERROR_TYPE":"Format de l'image non autorisé, jpeg et png seulement",
+                "ERROR_SIZE":"Taille de l'image trop grande, 6MB maximum autorisé",
+                "SUCCESS":"Fichier téléchargé"
             },
             "MAP":{
-                "EDIT":"Edit Map"
+                "EDIT":"Modifier la carte"
             },
             "NOTES":{
                 "TITLE":"{{count}} Notes",
-                "ADD":"Add Note",
-                "ERROR":"Note details not found"
+                "ADD":"Ajouter une note",
+                "ERROR":"Détails de la note non trouvés"
             },
             "ALERTS":{
                 "EDIT":{
-                    "TITLE":"Edit Alert",
-                    "SUCCESS":"Alert updated",
-                    "FAIL":"Error updating alert"
+                    "TITLE":"Modifier l'alerte",
+                    "SUCCESS":"Alerte mis à jour",
+                    "FAIL":"Erreur lors de la mise à jour de l'alerte"
                 },
-                "ERROR":"Alert details not found"
+                "ERROR":"Détails de l'alerte non trouvés"
             },
             "ALERT_NOTE_TABLE":{
                 "DATE":"Date",
                 "DESCRIPTION":"Description",
-                "NO_DESCR":"No description",
+                "NO_DESCR":"Pas de description",
                 "TAGS":"Tags",
                 "DELETE_ALERT":{
-                    "TITLE":"Delete Alert",
-                    "MESSAGE":"Are you sure you want to delete this alert?",
-                    "CONFIRM":"Delete",
-                    "SUCCESS":"Alert deleted",
-                    "ERROR":"Error deleting alert"
+                    "TITLE":"Supprimer l'alerte",
+                    "MESSAGE":"etes-vous sûr de vouloir supprimer l'alerte ?",
+                    "CONFIRM":"Supprimer",
+                    "SUCCESS":"Alerte supprimée",
+                    "ERROR":"Erreur lors de la suppression de l'alerte"
                 }
             },
             "APIARY_OVERVIEW":{
-                "RAIN":"Rain",
-                "WIND":"Wind",
-                "MAX_TEMP":"Max Temp",
+                "RAIN":"Pluie",
+                "WIND":"Vent",
+                "MAX_TEMP":"Temp max",
                 "NOTES":"Notes",
-                "ALERTS":"Alerts",
-                "NECTAR":"Nectar Idx",
-                "FORAGING":"Foraging Idx"
+                "ALERTS":"Alertes",
+                "NECTAR":"Miéllée",
+                "FORAGING":"Buttinage"
             },
             "HIVE_OVERVIEW":{
-                "NAME":"Name",
+                "NAME":"Nom",
                 "DATE":"Date",
-                "FITNESS":"Fitness",
-                "BROOD":"Brood",
-                "WEIGHT":"Weight",
-                "PROD":"Productivity",
-                "ALERTS":"Alerts",
+                "FITNESS":"Santé",
+                "BROOD":"Couvain",
+                "WEIGHT":"Poids",
+                "PROD":"Productivité",
+                "ALERTS":"Alertes",
                 "NOTES":"Notes",
-                "HISTORY":"History",
-                "HISTORY_TOOLTIP":"History"
+                "HISTORY":"Historiques",
+                "HISTORY_TOOLTIP":"Historiques"
             }
         }
     },
     "GLOBAL_DASHBOARDS":{
         "CLASSIC":{
-            "TITLE":"Classic",
-            "WEIGHT":"Weight",
-            "WEIGHT_CHANGE":"Weight Change",
-            "TEMP":"Temperature",
-            "HUMID":"Humidity",
-            "BATTERY":"Battery",
+            "TITLE":"Classique",
+            "WEIGHT":"Poids",
+            "WEIGHT_CHANGE":"Changement de poids",
+            "TEMP":"Température",
+            "HUMID":"Humidité",
+            "BATTERY":"Batterie",
             "RADAR":"Radar",
             "AUDIO":"Audio"
         },
         "CALENDAR":{
-            "TITLE":"Calendar"
+            "TITLE":"Calendrier"
         },
         "WEATHER":{
-            "TITLE":"Weather"
+            "TITLE":"Météo"
         }
     }
 }
