@@ -89,7 +89,7 @@
         },
         "WEATHER_INFO":{
             "TITLE":"WeatherSource Weather",
-            "TEXT":"This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
+            "TEXT":"This weather data is coming from WeatherSource. It is based off of the postal code provided on your apiary."
         },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "shared with me",

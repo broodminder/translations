@@ -45,16 +45,16 @@
         "CONFIGURE":"Configurar",
         "MEMBERSHIPS":"Planes",
         "NEW":{
-            "TITLE":"New",
-            "APIARY":"Apiary",
-            "HIVE":"Hive",
-            "DEVICE":"Device",
-            "DASHBOARD":"Custom Dashboard",
-            "APIARY_NOTE":"Apiary Note",
-            "HIVE_NOTE":"Hive Note"
+            "TITLE":"Nuevo",
+            "APIARY":"Colmenar",
+            "HIVE":"Colmena",
+            "DEVICE":"Sensor",
+            "DASHBOARD":"Panel de control",
+            "APIARY_NOTE":"Nota de Colmenar",
+            "HIVE_NOTE":"Nota de Colmena"
         },
         "MULTI_SELECT":"Multi-Select",
-        "CLEAR_SEL":"Clear all selections",
+        "CLEAR_SEL":"Borrar selección",
 		"APIARY_CONTEXT": {
 			"EDIT":"Editar {{value}}",
 			"NEW_HIVE":"Nueva colmena",
@@ -83,24 +83,24 @@
         "WEATHER_CONTEXT": {
             "NAME": "Meteo",
             "EDIT": "Editar Meteo",
-            "ADD_SOURCE":"Add Source",
-            "EDIT_SOURCES":"Edit Sources",
-            "INFO":"More Information"
+            "ADD_SOURCE":"Añadir Fuente",
+            "EDIT_SOURCES":"Editar Fuente",
+            "INFO":"Más Información"
         },
         "WEATHER_INFO":{
-            "TITLE":"WeatherSource Weather",
-            "TEXT":"This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
+            "TITLE":"WeatherSource Meteo",
+            "TEXT":"Estos datos meteorológicos provienen de WeatherSource. Se basa en el código ;ostal proporcionado en su colmenar"
         },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"compartido conmigo",
-        "NEW_FEATURES":"New Features",
-        "RESOURCES":"Resources",
-        "DOCUMENTATION":"Documentation",
+        "NEW_FEATURES":"Nuevas Funciones",
+        "RESOURCES":"Recursos",
+        "DOCUMENTATION":"Documentación",
         "SUPPORT_EMAIL":"Email support@broodminder.com"
 	},
 	"TOP_MENU": {
 		"ACCOUNT":"Cuenta",
-		"TOUR":"Tour",
+		"TOUR":"Visita",
 		"HELP":"Ayuda",
 		"ADMIN":"Admin",
 		"LOGOUT":"Salir",
@@ -1431,28 +1431,28 @@
     "CHART":{
         "DATA_TYPES":{
             "WEIGHT":{
-                "TITLE":"Weight",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Weight",
-                "FILTER_HOURLY":"Weight Hourly",
-                "FILTER_DAILY":"Weight Daily"
+                "TITLE":"Peso",
+                "YAXIS":"Peso ({{label}})",
+                "FILTER":"Peso",
+                "FILTER_HOURLY":"Peso Horario",
+                "FILTER_DAILY":"Peso Diario"
             },
             "PROD":{
-                "TITLE":"Productivity",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Productivity",
-                "FILTER_HOURLY":"Productivity Hourly",
-                "FILTER_DAILY":"Productivity Daily"
+                "TITLE":"Productividad",
+                "YAXIS":"Peso ({{label}})",
+                "FILTER":"Productividad",
+                "FILTER_HOURLY":"Productividad Horaria",
+                "FILTER_DAILY":"Productividad Diaria"
             },
             "BATTERY":{
-                "TITLE":"Battery",
-                "YAXIS":"Battery (%)",
-                "FILTER":"Battery"
+                "TITLE":"Battería",
+                "YAXIS":"Battería (%)",
+                "FILTER":"Battería"
             },
             "TEMP_EVENTS":{
-                "TITLE":"Temperature Events",
+                "TITLE":"Evento de Temperatura",
                 "YAXIS":"",
-                "FILTER":"Temperature Events"
+                "FILTER":"Eventos de Temperatura"
             },
             "AUDIO":{
                 "TITLE":"Audio",
@@ -1465,170 +1465,170 @@
                 "FILTER":"Radar"
             },
             "BEECOUNT":{
-                "TITLE":"Bee Count",
-                "YAXIS":"Bee Count ({{label}})",
-                "FILTER":"Bee Count"
+                "TITLE":"N° Abejas",
+                "YAXIS":"N° Abejas ({{label}})",
+                "FILTER":"N° Abejas"
             },
             "BROOD":{
-                "TITLE":"Brood",
-                "YAXIS":"Brood (%)",
-                "FILTER":"Brood"
+                "TITLE":"Cría",
+                "YAXIS":"Cría (%)",
+                "FILTER":"Cría"
             },
             "TEMP_MIN":{
-                "TITLE":"Min Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min Temperature"
+                "TITLE":"Temperatura Min",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Min"
             },
             "TEMP_MEAN":{
-                "TITLE":"Mean Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Mean Temperature"
+                "TITLE":"Temperature Media",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Media"
             },
             "TEMP_MAX":{
-                "TITLE":"Max Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max Temperature"
+                "TITLE":"Temperatura Max",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatur Max"
             },
             "TEMP_MIN_EXT":{
-                "TITLE":"Min External Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min External Temperature"
+                "TITLE":"Temperatura Externa Min",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Externa Min"
             },
             "TEMP_MAX_EXT":{
-                "TITLE":"Max External Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max External Temperature"
+                "TITLE":"Temperatura Externa Max",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Externa Max"
             },
             "HUMID_MIN":{
-                "TITLE":"Min Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Min Humidity"
+                "TITLE":"Humedad Min",
+                "YAXIS":"Humedad (%)",
+                "FILTER":"Humedad Min"
             },
             "HUMID_MAX":{
-                "TITLE":"Max Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Max Humidity"
+                "TITLE":"Humedad Max",
+                "YAXIS":"Humedad (%)",
+                "FILTER":"Humedad Max"
             },
             "GAIN":{
-                "TITLE":"Weight Gain",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Weight Gain"
+                "TITLE":"Ganancia de Peso",
+                "YAXIS":"Peso ({{label}})",
+                "FILTER":"Ganancia de Peso"
             },
             "GAIN_CUMUL":{
-                "TITLE":"Cumulative Gain",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Cumulative Weight Gain"
+                "TITLE":"Ganancia Acumulada",
+                "YAXIS":"Peso ({{label}})",
+                "FILTER":"Ganancia Acumulada"
             },
             "PROD_CUMUL":{
-                "TITLE":"Cumulative Productivity",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Cumulative Productivity"
+                "TITLE":"Productividad Acumulada",
+                "YAXIS":"Peso ({{label}})",
+                "FILTER":"Productividad Acumulada"
             },
             "HUMID_MAX_EXT":{
-                "TITLE":"External Humidity Max",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"External Humidity Max"
+                "TITLE":"Humedad Externa Max",
+                "YAXIS":"Humedad (%)",
+                "FILTER":"Humedad Externa Max"
             },
             "HUMID_MIN_EXT":{
-                "TITLE":"External Humidity Min",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"External Humidity Min"
+                "TITLE":"Humedad Externa Min",
+                "YAXIS":"Humedad (%)",
+                "FILTER":"Humedad Externa Min"
             },
             "TEMP_MIN_WEATHER":{
-                "TITLE":"Min Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min Weather Temperature"
+                "TITLE":"Temperatura Meteo Min",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Meteo Min"
             },
             "TEMP_MAX_WEATHER":{
-                "TITLE":"Max Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max Weather Temperature"
+                "TITLE":"Temperatura Meteo Max",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Meteo Max"
             },
             "HUMID_MIN_WEATHER":{
-                "TITLE":"Min Weather Humidity",
-                "YAXIS":"Humidity (%)",
+                "TITLE":"Humedad Meteo Min",
+                "YAXIS":"Humedad (%)",
                 "FILTER":""
             },
             "HUMID_MAX_WEATHER":{
-                "TITLE":"Max Weather Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Max Weather Humidity"
+                "TITLE":"Humedad Meteo Max",
+                "YAXIS":"Humedad (%)",
+                "FILTER":"Humedad Meteo Max"
             },
             "WEATHER":{
-                "TITLE":"Weather",
+                "TITLE":"Meteo",
                 "YAXIS":"",
-                "FILTER":"Weather Daily"
+                "FILTER":"Meteo Diaria"
             },
             "WIND_MAX":{
-                "TITLE":"Max Wind",
-                "YAXIS":"Wind ({{label}})",
-                "FILTER":"Max Wind"
+                "TITLE":"Viento Max",
+                "YAXIS":"Viento ({{label}})",
+                "FILTER":"Viento Max"
             },
             "HIVE_HEALTH":{
-                "TITLE":"Hive Health",
+                "TITLE":"Salud de la colmena",
                 "YAXIS":"",
-                "FILTER":"Hive Health"
+                "FILTER":"Salud de la colmena"
             },
             "LUNAR":{
-                "TITLE":"Lunar Calendar",
+                "TITLE":"Calendario Lunar",
                 "YAXIS":"",
-                "FILTER":"Lunar Daily"
+                "FILTER":"Calendario Lunar"
             },
             "ALERTS_NOTES":{
-                "TITLE":"Alerts and Notes",
+                "TITLE":"Alertas y Notas",
                 "YAXIS":" ({{label}})",
-                "FILTER":"Alerts and Notes"
+                "FILTER":"Alertas y Notas"
             },
             "ALERTS":{
-                "TITLE":"Alerts",
+                "TITLE":"Alertas",
                 "YAXIS":"",
-                "FILTER":"Alerts"
+                "FILTER":"Alertas"
             },
             "NOTES":{
-                "TITLE":"Notes",
+                "TITLE":"Notas",
                 "YAXIS":"",
-                "FILTER_APIARY":"Apiary Notes",
-                "FILTER_HIVE":"Hive Notes"
+                "FILTER_APIARY":"Notas del Colmenar",
+                "FILTER_HIVE":"Notas de la Colmena"
             },
             "PRECIP":{
-                "TITLE":"Precipitation",
-                "YAXIS":"Precipitation ({{label}})",
-                "FILTER":"Precipitation",
-                "FILTER_DAILY":"Precipitation Daily"
+                "TITLE":"Precipitación",
+                "YAXIS":"Precipitación ({{label}})",
+                "FILTER":"Precipitación",
+                "FILTER_DAILY":"Precipitación Diaria"
             },
             "TEMP":{
                 "TITLE":"Temperatura",
                 "YAXIS":"Temperatura ({{label}})",
-                "FILTER":"Temperature",
-                "FILTER_HOURLY":"Temperature Hourly"
+                "FILTER":"Temperatura",
+                "FILTER_HOURLY":"Temperatura Horaria"
             },
             "WIND":{
                 "TITLE":"Viento",
                 "YAXIS":"Viento ({{label}})",
-                "FILTER":"Wind",
-                "FILTER_HOURLY":"Wind Hourly"
+                "FILTER":"Viento",
+                "FILTER_HOURLY":"Viento Horario"
             },
             "RAIN":{
                 "TITLE":"Precipitación",
                 "YAXIS":"Precipitación ({{label}})",
                 "FILTER":"Precipitación",
-                "FILTER_HOURLY":"Rain Hourly"
+                "FILTER_HOURLY":"Precipitación Horaria"
             },
             "HUMID":{
                 "TITLE":"Humedad",
                 "YAXIS":"Humedad (%)",
-                "FILTER":"Humidity",
-                "FILTER_HOURLY":"Humidity Hourly"
+                "FILTER":"Humedad",
+                "FILTER_HOURLY":"Humedad Horaria"
             },
             "NECTAR":{
-                "TITLE":"Índice de flujo de néctar",
+                "TITLE":"Índice de Flujo de Néctar",
                 "YAXIS":"Flujo de néctar (%)",
-                "FILTER":"Nectar flow"
+                "FILTER":"Índice de Flujo de Néctar"
             },
             "FLIGHT":{
                 "TITLE":"Índice de pecoreo",
                 "YAXIS":"Pecoreo (%)",
-                "FILTER":"Foraging index"
+                "FILTER":"Índice de pecoreo"
             }
         }
     },
@@ -1647,31 +1647,31 @@
             "6":"Gibosa menguante",
             "7":"Creciente menguante",
             "8":"Creciente",
-            "ASCENDING":"Ascending",
-            "DESCENDING":"Descending"
+            "ASCENDING":"Ascendente",
+            "DESCENDING":"Descendente"
         },
         "WEATHER":{
             "DESCR":{
-                "CLEAR":"Clear",
-                "FEW_CLOUDS":"Few clouds",
-                "SCATTERED_CLOUDS":"Scattered clouds",
-                "SHOWER_RAIN":"Shower rain",
-                "BROKEN_CLOUDS":"Broken clouds",
+                "CLEAR":"Claro",
+                "FEW_CLOUDS":"Algunas nubes",
+                "SCATTERED_CLOUDS":"Nubes dispersas",
+                "SHOWER_RAIN":"Aguacero",
+                "BROKEN_CLOUDS":"Nubes rotas",
                 "SHOWER":"Shower",
-                "RAIN":"Rain",
-                "THUNDERSTORM":"Thunderstorm",
-                "SHOWER_SNOW":"Shower snow",
-                "SNOW":"Snow",
-                "MIST":"Mist",
-                "SMOKE":"Smoke",
-                "HAZE":"Haze",
-                "DUST":"Dust",
-                "FOG":"Fog",
-                "SAND":"Sand",
-                "ASH":"Ash",
-                "SQUALL":"Squall",
+                "RAIN":"Lluvia",
+                "THUNDERSTORM":"Tormenta eléctrica",
+                "SHOWER_SNOW":"Nieve abundante",
+                "SNOW":"Nieve",
+                "MIST":"Bruma",
+                "SMOKE":"Humo",
+                "HAZE":"Neblina",
+                "DUST":"Polvo",
+                "FOG":"Niebla",
+                "SAND":"Arena",
+                "ASH":"Cenizas",
+                "SQUALL":"Borrascas",
                 "TORNADO":"Tornado",
-                "CLOUDS":"Clouds"
+                "CLOUDS":"Nubes"
             }
         }
     },
@@ -1680,7 +1680,7 @@
             "HIVE":"Colmena",
             "APIARY":"Colmenar"
         },
-        "DEFAULT":"Default",
+        "DEFAULT":"Por Defecto",
         "SUPER+":"Añadir alza",
         "SUPER-":"Retirar alza",
         "QUEENINSERT":"Inserción de Reine",
@@ -1693,8 +1693,8 @@
         "SWARM":"Enjambrazón",
         "CANDIFEED":"Alim. Candi",
         "SYRUPFEED":"Alim. Sirope",
-        "PATTIESFEED":"Patties feeding",
-        "REQUEEN":"Nueva reine",
+        "PATTIESFEED":"Complemento alimentario",
+        "REQUEEN":"Nueva reina",
         "QUEENLINEAGE":"Marcar Reina",
         "HARVEST":"Cosecha",
         "INSTALLPKG":"Instalar colonia",
@@ -1737,11 +1737,11 @@
         "QUEENCELLSEEN":"Celula real"
     },
     "INSP_CATEG":{
-        "BEESBROODSTG":"Brood Stages",
-        "HEALTH":"Health",
-        "MITES":"Mites",
-        "MANAGE":"Manage",
-        "FEEDING":"Feeding"
+        "BEESBROODSTG":"Etapas de cría",
+        "HEALTH":"Salud",
+        "MITES":"Varroa",
+        "MANAGE":"Gestión",
+        "FEEDING":"Alimentación"
     },
     "ALERTS_DESC":{
         "HONEYDEW":"Producción de nectar",
@@ -1833,221 +1833,221 @@
         "STOPWEATHER_MSG":"Error de transmision de datos desde {DATE}",
         "STOLEN_MSG":"El peso de tu colmena es anormalmente bajo",
         "DEAD_MSG":"Tu colmena ha sido detectada muerta",
-        "REALTIME_SWARM_ALERT":"Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
+        "REALTIME_SWARM_ALERT":"Evento de temperatura calculado por el dispositivo T2. Solo se notifica a los dispositivos ubicados en las camaras de cría conectados en tiempo real con un Hub",
     },
     "CONFIGURE_ALERTS": {
-        "REALTIME":"Realtime",
+        "REALTIME":"Tiempo real",
         "SWARM_ALERT":"SwarmMinder",
-        "SENSORS": "Devices",
-        "WEATHER": "Weather",
-        "HIVE": "Hive",
-        "FREQUENCY_NEVER":"Alert summary email not sending",
-        "FREQUENCY_DAILY":"Alert summary email sent every day",
-        "FREQUENCY_WEEKLY":"Alert summary email sent every week",
-        "FREQUENCY_OTHER":"Alert summary email sent every {{value}} days",
-        "UPDATE_SUCCESS":"Alert settings updated",
-        "UPDATE_FAIL":"Error updating alert settings",
+        "SENSORS": "Sensores",
+        "WEATHER": "Meteo",
+        "HIVE": "Colmena",
+        "FREQUENCY_NEVER":"Email de alertas desactivado",
+        "FREQUENCY_DAILY":"Email de alertas diario",
+        "FREQUENCY_WEEKLY":"Email de alertas semanal",
+        "FREQUENCY_OTHER":"Email de alertas enviado cada {{value}} días",
+        "UPDATE_SUCCESS":"Configuración de alertas actualizada",
+        "UPDATE_FAIL":"Error al actualizar la configuración de alertas",
         "EDIT": {
-            "TITLE": "Email Settings",
-            "MAIL": "Send email alert summary every",
-            "FREQUENCY": "Frequency",
-            "DAILY": "day",
-            "HOURLY": "hour",
-            "WEEKLY": "week",
-            "NEVER":"never",
-            "OTHER": "custom",
-            "EVERY": "every",
-            "DAY":"day",
-            "SUMMARY_INPUT":"Summary Email (Comma Separated)",
-            "REALTIME_INPUT":"Realtime Email (Comma Separated)",
-            "BTN_MAIL_TEST": "Send test email",
+            "TITLE": "Email",
+            "MAIL": "Enviar email de alertas cada",
+            "FREQUENCY": "Frequencia",
+            "DAILY": "día",
+            "HOURLY": "hora",
+            "WEEKLY": "semana",
+            "NEVER":"nunca",
+            "OTHER": "personalizado",
+            "EVERY": "cada",
+            "DAY":"día",
+            "SUMMARY_INPUT":"Email de alertas (Separados por comas)",
+            "REALTIME_INPUT":"Email tiempo real (Separados por comas)",
+            "BTN_MAIL_TEST": "Enviar un email de verificación",
             "EMAIL":{
-                "SUMMARY_BODY":"This is a test email for MyBroodMinder summary alerts.",
-                "REALTIME_BODY":"This is a test message for MyBroodMinder realtime alerts.",
-                "SUCCESS":"Email sent to {{email}}",
-                "FAIL":"Email failed to send to {{email}}"
+                "SUMMARY_BODY":"Este es un email de pruebas para el envío de alertas de resumen de MyBroodMinder.",
+                "REALTIME_BODY":"Este es un email de prueba para el envío de alertas en tiempo real de MyBroodMinder.",
+                "SUCCESS":"Email enviado a {{email}}",
+                "FAIL":"Email no se pudo enviar a {{email}}"
             }
         }
     },
     "CONFIGURE_DASHBOARDS":{
-        "NAME":"Name",
+        "NAME":"Nombre",
         "VISIBLE":"Visible",
-        "DUPLICATE_TOOLTIP":"Duplicate",
+        "DUPLICATE_TOOLTIP":"Duplicar",
         "DELETE":{
-            "TITLE":"Delete {{name}}",
-            "MESSAGE":"Are you sure you want to delete this dashboard ({{name}})?",
-            "WARNING":"There are {{count}} public shared links connected to this dashboard. Deleting will break these links.",
-            "CONFIRM":"Delete",
-            "CANCEL":"Cancel",
-            "SUCCESS":"Dashboard removed",
-            "FAIL":"Error removing dashboard"
+            "TITLE":"Borrar {{name}}",
+            "MESSAGE":"¿Estás seguro de que quieres suprimir este panel ({{name}})?",
+            "WARNING":"Hay {{count}} enlaces compartidos conectados a este panel de control. La supresión romperá estos enlaces.",
+            "CONFIRM":"Borrar",
+            "CANCEL":"Cancelar",
+            "SUCCESS":"Panel suprimido",
+            "FAIL":"Error suprimiendo panel"
         },
         "HIDE":{
-            "TITLE":"Hide {{name}}",
-            "MESSAGE":"Are you sure you want to hide this dashboard ({{name}})?",
-            "MESSAGE_2":"You can undo this from the Configure page.",
-            "CONFIRM":"Hide",
-            "CANCEL":"Cancel",
-            "HIDDEN":"Dashboard hidden",
-            "VISIBLE":"Dashboard visible"
+            "TITLE":"Ocultar {{name}}",
+            "MESSAGE":"¿Seguro que quieres desactivar este panel ({{name}})?",
+            "MESSAGE_2":"Puede deshacer esto desde la página Configurar.",
+            "CONFIRM":"desactivado",
+            "CANCEL":"Cancelar",
+            "HIDDEN":"Panel desactivado",
+            "VISIBLE":"Panel visible"
         },
         "DUPLICATE":{
-            "TITLE":"Copy {{name}}",
-            "MESSAGE":"Would you like to create a copy of this dashboard ({{name}})?",
-            "CONFIRM":"Create",
-            "CANCEL":"Cancel",
-            "NAME_SUFFIX":"copy",
-            "SUCCESS":"Dashboard created",
-            "FAIL":"Error creating dashboard"
+            "TITLE":"Copiar {{name}}",
+            "MESSAGE":"¿Deseas crear una copia de este panel ({{name}})?",
+            "CONFIRM":"Crear",
+            "CANCEL":"Cancelar",
+            "NAME_SUFFIX":"copiar",
+            "SUCCESS":"Panel creado",
+            "FAIL":"Error creando panel"
         },
         "DASHBOARD":{
-            "TITLE_CREATE":"Create Dashboard",
-            "TITLE_EDIT":"Edit {{name}}",
-            "NAME":"Name",
-            "WARNING":"There are {{count}} public shared links connected to this dashboard. Any changes you make will affect those links.",
-            "AVAILABLE":"Available Charts",
-            "ACTIVE":"Active Charts",
-            "DRAG":"Drag chart to add to dashboard",
-            "SUCCESS":"Dashboard updated",
-            "FAIL":"Error updating dashboard",
+            "TITLE_CREATE":"Creatr Panel",
+            "TITLE_EDIT":"Editar {{name}}",
+            "NAME":"Nombre",
+            "WARNING":"Hay {{count}} enlaces compartidos conectados a este panel de control. Cualquier cambio que realices afectará a esos enlaces.",
+            "AVAILABLE":"Gráficos disponibles",
+            "ACTIVE":"Gráficos activos",
+            "DRAG":"Arrastre el gráfico para añadirlo al panel de control",
+            "SUCCESS":"Panel actualizado",
+            "FAIL":"Error actualizando panel",
             "CHART_NAMES":{
-                "WEIGHT":"Weight",
-                "PROD":"Productivity",
-                "TEMP":"Temperature",
-                "HUMID":"Humidity",
-                "BEECOUNT":"Bee Count",
-                "RAIN":"Rain",
-                "WIND":"Wind",
-                "BATTERY":"Battery",
-                "BROOD":"Brood",
-                "NOTES":"Notes",
-                "APIARY_IMAGE":"Apiary Image",
-                "APIARY_MAP":"Apiaries Map",
-                "FORAGING":"Foraging Index",
-                "NECTAR":"Nectar Flow Index"
+                "WEIGHT":"Peso",
+                "PROD":"Productividad",
+                "TEMP":"Temperatura",
+                "HUMID":"Humedad",
+                "BEECOUNT":"Contador abejas",
+                "RAIN":"Lluvia",
+                "WIND":"Viento",
+                "BATTERY":"Batería",
+                "BROOD":"Cria",
+                "NOTES":"Notas",
+                "APIARY_IMAGE":"Imagen Colmenar",
+                "APIARY_MAP":"Mapa de Colmenares",
+                "FORAGING":"Indice de Pecoreo",
+                "NECTAR":"Indice de Nectar"
             }
         },
         "CHART":{
-            "TITLE_CREATE":"Create Chart",
-            "TITLE_EDIT":"Edit {{name}}",
-            "NAME":"Name",
+            "TITLE_CREATE":"Crear Gráfico",
+            "TITLE_EDIT":"Editar {{name}}",
+            "NAME":"Nombre",
             "FILTERS":{
-                "AVAILABLE":"Available",
-                "ACTIVE":"Active"
+                "AVAILABLE":"Disponible",
+                "ACTIVE":"Activo"
             },
-            "HEIGHT":"Height",
-            "DEFAULT":"Default ({{value}})",
-            "LEGEND":"Show Legend",
-            "BROOD_ZONE":"Show Brood Zone",
-            "NORMAL_HUMID":"Show Normal Humidity",
-            "APIARY_LOCATIONS":"Show Apiary Locations",
-            "TODAY_LINE":"Show Today Line",
-            "SUCCESS":"Chart updated",
-            "FAIL":"Error updating chart"
+            "HEIGHT":"Altura",
+            "DEFAULT":"Predeterminado ({{value}})",
+            "LEGEND":"Mostrar Leyenda",
+            "BROOD_ZONE":"Mostrar Zona de Cría",
+            "NORMAL_HUMID":"Mostrar zona de Humedad",
+            "APIARY_LOCATIONS":"Mostrar localización de colmenares",
+            "TODAY_LINE":"Mostrar Linea Hoy ",
+            "SUCCESS":"Gráfico actualizado",
+            "FAIL":"Error actualizando gráfico"
         }
     },
     "DASHBOARD":{
         "CONTEXT":{
-            "EDIT_DASH":"Edit Dashboard",
-            "HIDE_DASH":"Hide Dashboard",
-            "DELETE_DASH":"Delete Dashboard",
-            "SHARE_DASH":"Share Dashboard",
-            "EDIT_SHARE_DASH":"Edit Shared Links",
+            "EDIT_DASH":"Editar Panel",
+            "HIDE_DASH":"Ocultar Panel",
+            "DELETE_DASH":"Suprimir Panel",
+            "SHARE_DASH":"Compartir Panel",
+            "EDIT_SHARE_DASH":"Editar Enlaces compartidos",
             "DOWNLOAD":{
-                "MENU":"Download Options",
-                "TITLE":"Download",
-                "NOTES":"Notes CSV",
-                "HOURLY_READINGS":"Hourly Readings CSV",
-                "DAILY_READINGS":"Daily Readings CSV",
-                "HOURLY_WEATHER":"Hourly Weather CSV",
-                "DAILY_WEATHER":"Daily Weather CSV",
-                "DOWNLOAD":"Download",
-                "WARNING":"You need premium for hive csv downloads."
+                "MENU":"Opciones de descarga",
+                "TITLE":"Descarga",
+                "NOTES":"Notas CSV",
+                "HOURLY_READINGS":"Lecturas horarias CSV",
+                "DAILY_READINGS":"Lecturas diarias CSV",
+                "HOURLY_WEATHER":"Meteo horaira CSV",
+                "DAILY_WEATHER":"Meteo diaria CSV",
+                "DOWNLOAD":"Descargar",
+                "WARNING":"Necesitas premium para descargar csv de colmenas."
             }
         },
         "CHART":{
-            "NO_DATA":"No data",
-            "EDIT_CHART":"Edit Chart",
-            "ZOOM_X":"X-Axis Zoom",
-            "ZOOM_Y":"Y-Axis Zoom",
-            "ZOOM_CANCEL":"Cancel Zoom",
+            "NO_DATA":"Sin datos",
+            "EDIT_CHART":"Editar Gráfico",
+            "ZOOM_X":"Zoom X ",
+            "ZOOM_Y":"Zoom Y",
+            "ZOOM_CANCEL":"Cancelar Zoom",
             "IMAGE":{
-                "ADD":"Add Picture",
-                "REMOVE":"Remove Picture",
-                "DROP":"Drop your custom picture here",
-                "UPLOADING":"Uploading {{value}}%",
-                "ERROR_TYPE":"Image not allowed, jpeg and png only",
-                "ERROR_SIZE":"Image too large, 6MB allowed",
-                "SUCCESS":"File uploaded"
+                "ADD":"Añadir imagen",
+                "REMOVE":"Suprimir imagen",
+                "DROP":"Arrastra aquí tu foto personalizada",
+                "UPLOADING":"Subiendo {{value}}%",
+                "ERROR_TYPE":"Imagen no permitida, sólo jpeg y png",
+                "ERROR_SIZE":"Imagen demasiado grande, 6MB permitidos",
+                "SUCCESS":"Imagen cargada"
             },
             "MAP":{
-                "EDIT":"Edit Map"
+                "EDIT":"Editar Mapa"
             },
             "NOTES":{
-                "TITLE":"{{count}} Notes",
-                "ADD":"Add Note",
-                "ERROR":"Note details not found"
+                "TITLE":"{{count}} Notas",
+                "ADD":"Añadir Nota",
+                "ERROR":"No se han encontrado los detalles de la nota"
             },
             "ALERTS":{
                 "EDIT":{
-                    "TITLE":"Edit Alert",
-                    "SUCCESS":"Alert updated",
-                    "FAIL":"Error updating alert"
+                    "TITLE":"Editar Alerta",
+                    "SUCCESS":"Alerta actualizada",
+                    "FAIL":"Error al actualizar alerta"
                 },
-                "ERROR":"Alert details not found"
+                "ERROR":"No se han encontrado los detalles de la alerta"
             },
             "ALERT_NOTE_TABLE":{
-                "DATE":"Date",
-                "DESCRIPTION":"Description",
-                "NO_DESCR":"No description",
-                "TAGS":"Tags",
+                "DATE":"Fecha",
+                "DESCRIPTION":"Descripción",
+                "NO_DESCR":"No descripción",
+                "TAGS":"Etiquetas",
                 "DELETE_ALERT":{
-                    "TITLE":"Delete Alert",
-                    "MESSAGE":"Are you sure you want to delete this alert?",
-                    "CONFIRM":"Delete",
-                    "SUCCESS":"Alert deleted",
-                    "ERROR":"Error deleting alert"
+                    "TITLE":"Suprimir Alerta",
+                    "MESSAGE":"¿Estás seguro de que quieres eliminar esta alerta?",
+                    "CONFIRM":"Eliminar",
+                    "SUCCESS":"Alerta eliminada",
+                    "ERROR":"Error borrando alerta"
                 }
             },
             "APIARY_OVERVIEW":{
-                "RAIN":"Rain",
-                "WIND":"Wind",
-                "MAX_TEMP":"Max Temp",
-                "NOTES":"Notes",
-                "ALERTS":"Alerts",
+                "RAIN":"Lluvia",
+                "WIND":"Viento",
+                "MAX_TEMP":"Temp. Max",
+                "NOTES":"Notas",
+                "ALERTS":"Alertas",
                 "NECTAR":"Nectar Idx",
-                "FORAGING":"Foraging Idx"
+                "FORAGING":"Pecoreo Idx"
             },
             "HIVE_OVERVIEW":{
-                "NAME":"Name",
-                "DATE":"Date",
+                "NAME":"Nombre",
+                "DATE":"Fecha",
                 "FITNESS":"Fitness",
-                "BROOD":"Brood",
-                "WEIGHT":"Weight",
-                "PROD":"Productivity",
-                "ALERTS":"Alerts",
-                "NOTES":"Notes",
-                "HISTORY":"History",
-                "HISTORY_TOOLTIP":"History"
+                "BROOD":"Cría",
+                "WEIGHT":"Peso",
+                "PROD":"Productividad",
+                "ALERTS":"Alertas",
+                "NOTES":"Notas",
+                "HISTORY":"Historial",
+                "HISTORY_TOOLTIP":"Historial"
             }
         }
     },
     "GLOBAL_DASHBOARDS":{
         "CLASSIC":{
-            "TITLE":"Classic",
-            "WEIGHT":"Weight",
-            "WEIGHT_CHANGE":"Weight Change",
-            "TEMP":"Temperature",
-            "HUMID":"Humidity",
-            "BATTERY":"Battery",
+            "TITLE":"Clásico",
+            "WEIGHT":"Peso",
+            "WEIGHT_CHANGE":"Variacion de Peso",
+            "TEMP":"Temperatura",
+            "HUMID":"Humedad",
+            "BATTERY":"Batería",
             "RADAR":"Radar",
             "AUDIO":"Audio"
         },
         "CALENDAR":{
-            "TITLE":"Calendar"
+            "TITLE":"Calendario"
         },
         "WEATHER":{
-            "TITLE":"Weather"
+            "TITLE":"Meteo"
         }
     }
 }
