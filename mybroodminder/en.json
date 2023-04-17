@@ -1034,12 +1034,15 @@
     },
     "CONFIGURE_DEVICES": {
         "ADD": "Add Device",
+        "FILTER_LOCATION":"Filter Location",
+        "FILTER_NAME":"Filter Name",
         "DOWNLOAD": "Download Devices",
         "NAME": "Device Name",
         "ADDRESS": "Device Address",
         "LOCATION": "Current Location",
         "DATA_RECEIVED": "Data Last Received",
         "LOCATION_HISTORY": "Location History",
+        "BATTERY": "Battery",
         "ADD_LOCATION": "Add Location",
         "ACTIVE": "Active",
         "CONFIRM_DELETE_WINDOW": {
@@ -2016,7 +2019,9 @@
                 "NOTES":"Notes",
                 "ALERTS":"Alerts",
                 "NECTAR":"Nectar Idx",
-                "FORAGING":"Foraging Idx"
+                "FORAGING":"Foraging Idx",
+                "MIN_TEMP":"Min Temp",
+                "WEATHER":"Weather"
             },
             "HIVE_OVERVIEW":{
                 "NAME":"Name",

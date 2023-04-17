@@ -1034,12 +1034,15 @@
     },
     "CONFIGURE_DEVICES": {
         "ADD":"Ajouter capteur",
+        "FILTER_LOCATION":"Filter Location",
+        "FILTER_NAME":"Filter Name",
         "DOWNLOAD":"Télécharger capteurs",
         "NAME":"Nom du capteur",
         "ADDRESS":"Référence du capteur",
         "LOCATION":"Emplacement actuel",
         "DATA_RECEIVED":"Dernières données reçues",
         "LOCATION_HISTORY":"Historique emplacements",
+        "BATTERY": "Battery",
         "ADD_LOCATION":"Ajouter emplacement",
         "ACTIVE":"Actif",
         "CONFIRM_DELETE_WINDOW": {
@@ -2016,7 +2019,9 @@
                 "NOTES":"Notes",
                 "ALERTS":"Alertes",
                 "NECTAR":"Miéllée",
-                "FORAGING":"Buttinage"
+                "FORAGING":"Buttinage",
+                "MIN_TEMP":"Min Temp",
+                "WEATHER":"Weather"
             },
             "HIVE_OVERVIEW":{
                 "NAME":"Nom",
