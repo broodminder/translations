@@ -1740,7 +1740,8 @@
         "BEESBROODSTG":"Brood Stages",
         "HEALTH":"Health",
         "MITES":"Mites",
-        "MANAGE":"Manage"
+        "MANAGE":"Manage",
+        "FEEDING":"Feeding"
     },
     "ALERTS_DESC":{
         "HONEYDEW":"Producción de nectar",
@@ -1851,6 +1852,7 @@
             "MAIL": "Send email alert summary every",
             "FREQUENCY": "Frequency",
             "DAILY": "day",
+            "HOURLY": "hour",
             "WEEKLY": "week",
             "NEVER":"never",
             "OTHER": "custom",
@@ -1971,6 +1973,8 @@
             "ZOOM_CANCEL":"Cancel Zoom",
             "IMAGE":{
                 "ADD":"Add Picture",
+                "REMOVE":"Remove Picture",
+                "DROP":"Drop your custom picture here",
                 "UPLOADING":"Uploading {{value}}%",
                 "ERROR_TYPE":"Image not allowed, jpeg and png only",
                 "ERROR_SIZE":"Image too large, 6MB allowed",

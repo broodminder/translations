@@ -1737,10 +1737,11 @@
         "QUEENCELLSEEN":"Présence de cellules royales"
     },
     "INSP_CATEG":{
-        "BEESBROODSTG":"Stades du couvain",
-        "HEALTH":"Santé",
-        "MITES":"Acariens",
-        "MANAGE":"Gérer"
+        "BEESBROODSTG":"Brood Stages",
+        "HEALTH":"Health",
+        "MITES":"Mites",
+        "MANAGE":"Manage",
+        "FEEDING":"Feeding"
     },
     "ALERTS_DESC":{
         "HONEYDEW":"Miellée",
@@ -1847,18 +1848,19 @@
         "UPDATE_SUCCESS":"Paramètres des alertes mis à jour",
         "UPDATE_FAIL":"Erreur lors de la mise à jour des paramètres des alertes",
         "EDIT": {
-            "TITLE": "Paramètres de messagerie",
-            "MAIL": "Envoyer le récapitulatif des alertes par mail chaque",
-            "FREQUENCY": "Fréquence",
-            "DAILY": "jour",
-            "WEEKLY": "semaine",
-            "NEVER":"jamais",
-            "OTHER": "personnalisé",
-            "EVERY": "chaque",
-            "DAY":"jour",
-            "SUMMARY_INPUT":"Email récapitulatif(séparateur ',')",
-            "REALTIME_INPUT":"Email temps-réel (séparateur ',')",
-            "BTN_MAIL_TEST": "Envoyer un mail de test",
+            "TITLE": "Email Settings",
+            "MAIL": "Send email alert summary every",
+            "FREQUENCY": "Frequency",
+            "DAILY": "day",
+            "HOURLY": "hour",
+            "WEEKLY": "week",
+            "NEVER":"never",
+            "OTHER": "custom",
+            "EVERY": "every",
+            "DAY":"day",
+            "SUMMARY_INPUT":"Summary Email (Comma Separated)",
+            "REALTIME_INPUT":"Realtime Email (Comma Separated)",
+            "BTN_MAIL_TEST": "Send test email",
             "EMAIL":{
                 "SUMMARY_BODY":"Ceci est un email de test pour le récapitulatif des alertes de MyBroodMinder.",
                 "REALTIME_BODY":"Ceci est un email de test pour les alertes en temps-réel de MyBroodMinder.",
@@ -1970,11 +1972,13 @@
             "ZOOM_Y":"Zoom axe Y",
             "ZOOM_CANCEL":"Annuler le zoom",
             "IMAGE":{
-                "ADD":"Ajouter une image",
-                "UPLOADING":"Téléchargement {{value}}%",
-                "ERROR_TYPE":"Format de l'image non autorisé, jpeg et png seulement",
-                "ERROR_SIZE":"Taille de l'image trop grande, 6MB maximum autorisé",
-                "SUCCESS":"Fichier téléchargé"
+                "ADD":"Add Picture",
+                "REMOVE":"Remove Picture",
+                "DROP":"Drop your custom picture here",
+                "UPLOADING":"Uploading {{value}}%",
+                "ERROR_TYPE":"Image not allowed, jpeg and png only",
+                "ERROR_SIZE":"Image too large, 6MB allowed",
+                "SUCCESS":"File uploaded"
             },
             "MAP":{
                 "EDIT":"Modifier la carte"

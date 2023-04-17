@@ -26,7 +26,7 @@
                 "TITLE": "MyBroodMinder.com EULA (End User License Agreement) v1.1",
                 "DESCRIPTION": "We ask then you agree to the following statements to use this SaaS beekeeping software:",
                 "POINT_1": "I am placing the data that I upload or enter into this service into the Public Domain. As such, mybroodminder.com may use the data, in anonymous form, to share with the general public.",
-                "POINT_2": "I understand that mybroodminder.com will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and zipcode, but that mybroodminder.com can not be held responsible for hacking or other methods of data exposure.",
+                "POINT_2": "I understand that mybroodminder.com will use best efforts to not expose any Personally identifiable information (PII) such as my username, password, and postal code, but that mybroodminder.com can not be held responsible for hacking or other methods of data exposure.",
                 "POINT_3": "I understand that mybroodminder.com will use best efforts to store and backup all data uploaded or entered into it, but that mybroodminder.com can not be held responsible for data loss.",
                 "POINT_4": "I understand that mybroodminder.com is a separate company from other vendors that may integrate their devices into mybroodminder.com, and that mybroodminder.com is not liable for those vendors actions.",
                 "POINT_5": "I understand that mybroodminder.com is a place for beekeepers and entomologists to exchange information, and I will conduct myself in a courteous manner at all times. I understand failing to do so may cause my account to be terminated at the sole digression of the staff of mybroodminder.com.",
@@ -568,7 +568,7 @@
         "CREATE_TITLE": "Create Apiary",
         "EDIT_TITLE": "Edit Apiary",
         "NAME": "Name",
-        "ZIPCODE": "Zipcode",
+        "ZIPCODE": "Postal Code",
         "EDIT_ZIP_EXP": "You cannot change location for an apiary that contains data.",
         "COUNTRY": "Country Code",
         "PRIVATE": "Private (Do not share data) Premium Feature",
@@ -577,9 +577,9 @@
         "ERROR_COUNTRY": "Select valid country code",
         "SUCCESS_CREATED": "Apiary created",
         "SUCCESS_UPDATED": "Apiary updated",
-        "ZIP_INFO":" Zipcode is used for weather services. To get the most of your MyBroodMinder data please enter a valid zipcode.",
+        "ZIP_INFO":" Postal code is used for weather services. To get the most of your MyBroodMinder data please enter a valid zipcode.",
         "ZIP_SELECTION":{
-            "NOT_FOUND":"Zipcode not found",
+            "NOT_FOUND":"Postal code not found",
             "CHECK":"Check again",
             "SELECT":"Select location on map",
             "SKIP":"Skip and Create",
@@ -592,7 +592,7 @@
             "COORDINATE": "Coordinate",
             "TITLE": "Edit Apiary Location",
             "INFO": "This location is used both to query weather and display your apiary to shared sites such as BeeCounted.org. This is disclosed with your public domain data and should not be the exact location of your apiary.",
-            "POSTAL_ERROR": "The coordinates you've selected are outside the apiary zipcode. This cannot be changed.",
+            "POSTAL_ERROR": "The coordinates you've selected are outside the apiary postal code. This cannot be changed.",
             "POSTAL_CHANGE": {
                 "TITLE": "Postal Code Change",
                 "TEXT": "Would you like to change apiary to new postal code {{value}}?",
@@ -910,7 +910,7 @@
     "CONFIGURE_APIARIES": {
         "ADD": "Add Apiary",
         "NAME": "Apiary Name",
-        "ZIPCODE": "Zipcode",
+        "ZIPCODE": "Postal Code",
         "SHARE": "Share",
         "ACTIVE": "Active",
         "CONFIRM_DELETE_WINDOW": {
@@ -1740,7 +1740,8 @@
         "BEESBROODSTG":"Brood Stages",
         "HEALTH":"Health",
         "MITES":"Mites",
-        "MANAGE":"Manage"
+        "MANAGE":"Manage",
+        "FEEDING":"Feeding"
     },
     "ALERTS_DESC":{
         "HONEYDEW":"Honeydew",
@@ -1851,6 +1852,7 @@
             "MAIL": "Send email alert summary every",
             "FREQUENCY": "Frequency",
             "DAILY": "day",
+            "HOURLY": "hour",
             "WEEKLY": "week",
             "NEVER":"never",
             "OTHER": "custom",
@@ -1971,6 +1973,8 @@
             "ZOOM_CANCEL":"Cancel Zoom",
             "IMAGE":{
                 "ADD":"Add Picture",
+                "REMOVE":"Remove Picture",
+                "DROP":"Drop your custom picture here",
                 "UPLOADING":"Uploading {{value}}%",
                 "ERROR_TYPE":"Image not allowed, jpeg and png only",
                 "ERROR_SIZE":"Image too large, 6MB allowed",
