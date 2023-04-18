@@ -442,9 +442,9 @@
 		"CUSTOM":"Personalizar duración",
         "INFO":"Se requiere una abono Premium o Pro para ver los datos de más de un año. Puede acceder a los datos más antiguos mediante la descarga de csv en la vista del dispositivo.",
         "FORECAST":{
-            "SHOW":"Show 10 day forecast",
-            "ON":"Forecast On",
-            "OFF":"Forecast Off"
+            "SHOW":"Mostrar previsión a 10 días",
+            "ON":"Previsión On",
+            "OFF":"Previsión Off"
         }
 	},
     "DATE_PICKER_SHORT": {
@@ -712,7 +712,7 @@
         "SUCCESS_UPDATED":"Nota actualizada",
         "ERROR_TIME":"Fecha incorrecta",
         "APIARY":{
-            "STATE":"General State"
+            "STATE":"Estado General"
         }
     },
     "HUB_CRUD": {
@@ -761,19 +761,19 @@
             "LINK":"Enlace",
             "CREATED":"Creado"
         },
-        "DASHBOARD":"Dashboard",
-        "HIVES":"Hives",
-        "WEATHER":"Weather",
-        "FORECAST":"Include Forecast",
+        "DASHBOARD":"Panel",
+        "HIVES":"Colmenas",
+        "WEATHER":"Meteo",
+        "FORECAST":"Incluir Previsión",
         "UNITS":{
-            "TITLE":"Units",
-            "BROWSER":"Browser Default",
-            "METRIC":"Metric",
+            "TITLE":"Unidades",
+            "BROWSER":"Idioma del Navegador",
+            "METRIC":"Metrico",
             "IMPERIAL":"Imperial"
         },
         "TIMEZONE":{
-            "TITLE":"Timezone",
-            "BROWSER":"Browser Default"
+            "TITLE":"Huso horaria",
+            "BROWSER":"Idioma del Navegador"
         }
     },
     "SHARE_BUTTON":{
@@ -962,8 +962,8 @@
         "DELETE_ERROR":"Error suprimiendo colmena"
     },
     "CONFIGURE_HUBS": {
-        "FILTER":"Filter",
-        "BATTERY": "Battery",
+        "FILTER":"Filtro",
+        "BATTERY": "Batería",
         "NAME":"Nombre",
         "APIARY":"Colmenar",
         "LAST_UPLOAD":"Ultima recepcción",
@@ -985,8 +985,8 @@
             "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este token se puede usar para dispositivos de terceros",
             "PURCHASE_CREDIT":"Comprar Nuevo",
             "UPDATED_SUCCESS":"Hub actualizado",
-            "ASSIGNMENT_SUCCESS":"Assignment updated",
-            "ASSIGNMENT_REMOVED":"Token removed",
+            "ASSIGNMENT_SUCCESS":"Asignación actualizada",
+            "ASSIGNMENT_REMOVED":"Token suprimido",
             "BACK_BUTTON":"Atras",
             "REMOVE": {
                 "TITLE":"Retirar Token",
@@ -1005,10 +1005,10 @@
                 "ERROR_5":"Este token ya ha sido cancelado",
                 "ERROR_6":"Este token es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
                 "GENERAL_ERROR":"Error : El token no se pudo cancelar",
-                "SUCCESS":"Token cancelled"
+                "SUCCESS":"Token cancelado"
             },
             "REACTIVATE": {
-                "TITLE":"Reactivar Ficha",
+                "TITLE":"Reactivar Token",
                 "CONFIRM":"Esto agrega el token cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
                 "OK":"Si, reactivar token",
                 "ERROR_1":"Esta es una suscripción gratuita, el token no se puede reactivar",
@@ -1019,7 +1019,7 @@
                 "GENERAL_ERROR":"Error : El token no se pudo reactivar"
             },
             "PURCHASE": {
-                "TITLE":"Comprar Ficha",
+                "TITLE":"Comprar Token",
                 "AUTO":"Renovar auto",
                 "ONCE":"Una sola vez",
                 "QUANTITY":"Cantidad",
@@ -1036,15 +1036,15 @@
     },
     "CONFIGURE_DEVICES": {
         "ADD":"Añadir sensor",
-        "FILTER_LOCATION":"Filter Location",
-        "FILTER_NAME":"Filter Name",
+        "FILTER_LOCATION":"Filtro por Localización",
+        "FILTER_NAME":"Filtro por Nombre",
         "DOWNLOAD":"Descargar sensores",
         "NAME":"Nombre del sensor",
         "ADDRESS":"Dirección del sensor",
         "LOCATION":"Ubicación actual",
         "DATA_RECEIVED":"Ultimos datos recibidos",
         "LOCATION_HISTORY":"Historial de ubicación",
-        "BATTERY": "Battery",
+        "BATTERY": "Batería",
         "ADD_LOCATION":"Añadir ubicación",
         "ACTIVE":"Activa",
         "CONFIRM_DELETE_WINDOW": {
@@ -1185,11 +1185,11 @@
             "MONTHLY":"mensual",
             "YEARLY":"anual",
             "FREE":"gratuito",
-            "PREPAID": "pre-paid",
+            "PREPAID": "pre-pago",
             "MONTHLY_CAP":"Mensual",
             "YEARLY_CAP":"Anual",
             "FREE_CAP":"Gratuito",
-            "PREPAID_CAP":"Pre-paid"
+            "PREPAID_CAP":"Pre-pago"
         }
     },
     "MEMBERSHIP": {
