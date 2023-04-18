@@ -962,6 +962,8 @@
         "DELETE_ERROR":"Error suprimiendo colmena"
     },
     "CONFIGURE_HUBS": {
+        "FILTER":"Filter",
+        "BATTERY": "Battery",
         "NAME":"Nombre",
         "APIARY":"Colmenar",
         "LAST_UPLOAD":"Ultima recepcción",
@@ -1470,7 +1472,8 @@
             "BEECOUNT":{
                 "TITLE":"N° Abejas",
                 "YAXIS":"N° Abejas ({{label}})",
-                "FILTER":"N° Abejas"
+                "FILTER":"N° Abejas",
+                "UNIT":"bees/min"
             },
             "BROOD":{
                 "TITLE":"Cría",

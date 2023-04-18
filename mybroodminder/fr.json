@@ -962,6 +962,8 @@
         "DELETE_ERROR":"Erreur de suppression de la ruche"
     },
     "CONFIGURE_HUBS": {
+        "FILTER":"Filter",
+        "BATTERY": "Battery",
         "NAME":"Nom",
         "APIARY":"Rucher",
         "LAST_UPLOAD":"Dernier relevé",
@@ -1470,7 +1472,8 @@
             "BEECOUNT":{
                 "TITLE":"Compteur d'abeilles",
                 "YAXIS":"Compteur d'abeilles ({{label}})",
-                "FILTER":"Compteur d'abeilles"
+                "FILTER":"Compteur d'abeilles",
+                "UNIT":"bees/min"
             },
             "BROOD":{
                 "TITLE":"Couvain",

@@ -962,6 +962,8 @@
         "DELETE_ERROR": "Error deleting hive"
     },
     "CONFIGURE_HUBS": {
+        "FILTER":"Filter",
+        "BATTERY": "Battery",
         "NAME": "Name",
         "APIARY": "Apiary",
         "LAST_UPLOAD": "Last Upload",
@@ -1458,19 +1460,20 @@
                 "FILTER":"Temperature Events"
             },
             "AUDIO":{
-                "TITLE":"Audio",
-                "YAXIS":"Audio ({{label}})",
-                "FILTER":"Audio"
+                "TITLE":"Audio Signal",
+                "YAXIS":"Audio Signal ({{label}})",
+                "FILTER":"Audio Signal"
             },
             "RADAR":{
-                "TITLE":"Radar",
-                "YAXIS":"Radar ({{label}})",
-                "FILTER":"Radar"
+                "TITLE":"Radar Signal",
+                "YAXIS":"Radar Signal ({{label}})",
+                "FILTER":"Radar Signal"
             },
             "BEECOUNT":{
                 "TITLE":"Bee Count",
-                "YAXIS":"Bee Count ({{label}})",
-                "FILTER":"Bee Count"
+                "YAXIS":"Bees ({{label}})",
+                "FILTER":"Bees",
+                "UNIT":"bees/min"
             },
             "BROOD":{
                 "TITLE":"Brood",
