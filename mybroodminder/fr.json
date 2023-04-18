@@ -964,14 +964,14 @@
     "CONFIGURE_HUBS": {
         "NAME":"Nom",
         "APIARY":"Rucher",
-        "LAST_UPLOAD":"dernier relevé",
+        "LAST_UPLOAD":"Dernier relevé",
         "TELECOM":"Télécom",
         "SIM":"SIM",
         "EXPIRING":"Etat des jetons",
         "HUB":"Hub",
         "EXP_UNASSIGNED":"Non assigné",
         "EDIT":"Gérer",
-        "THIRD_PARTY_DEVICE":"Dispositifs tiers",
+        "THIRD_PARTY_DEVICE":"Capteurs Yolink",
         "MANAGE": {
             "TITLE":"Gérer",
             "CLOSE":"Terminé",
