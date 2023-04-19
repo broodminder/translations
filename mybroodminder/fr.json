@@ -1979,7 +1979,7 @@
             "ZOOM_CANCEL":"Annuler le zoom",
             "IMAGE":{
                 "ADD":"Ajouter une image",
-                "REMOVE":"Supprimer une image",
+                "REMOVE":"Supprimer l'image",
                 "DROP":"Déposer votre image personnalisée ici",
                 "UPLOADING":"Téléchargement {{value}}%",
                 "ERROR_TYPE":"Format de l'image non autorisé, jpeg et png seulement",
