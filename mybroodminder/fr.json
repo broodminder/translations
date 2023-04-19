@@ -68,7 +68,7 @@
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer le capteur",
             "BEECOUNTED":"BeeCounted",
-            "MOVE": "Déplacer la Ruche"
+            "MOVE": "Transhumer la Ruche"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
