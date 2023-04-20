@@ -445,7 +445,10 @@
             "SHOW":"Mostrar previsión a 10 días",
             "ON":"Previsión On",
             "OFF":"Previsión Off"
-        }
+        },
+        "TODAY":"Hoy",
+        "YESTERDAY":"Ayer",
+        "TOMMOROW":"Mañana"
 	},
     "DATE_PICKER_SHORT": {
 		"HOURS_24":"24 horas",

@@ -445,7 +445,10 @@
             "SHOW":"Show 10 day forecast",
             "ON":"Forecast On",
             "OFF":"Forecast Off"
-        }
+        },
+        "TODAY":"Today",
+        "YESTERDAY":"Yesterday",
+        "TOMMOROW":"Tomorrow"
     },
     "DATE_PICKER_SHORT": {
         "HOURS_24": "24 Hours",

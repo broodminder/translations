@@ -445,7 +445,10 @@
             "SHOW":"Voir les 10 jours de prévisions",
             "ON":"Prévision activée",
             "OFF":"Prévision désactivée"
-        }
+        },
+        "TODAY":"Aujourd'hui",
+        "YESTERDAY":"Hier",
+        "TOMMOROW":"Demain"
 	},
     "DATE_PICKER_SHORT": {
 		"HOURS_24":"24 heures",
