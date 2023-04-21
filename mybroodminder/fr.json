@@ -2026,7 +2026,7 @@
                 "ALERTS":"Alertes",
                 "NECTAR":"Miéllée",
                 "FORAGING":"Buttinage",
-                "MIN_TEMP":"Min Temp",
+                "MIN_TEMP":"Temp min",
                 "WEATHER":"Météo"
             },
             "HIVE_OVERVIEW":{
