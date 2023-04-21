@@ -2052,5 +2052,90 @@
         "WEATHER":{
             "TITLE":"Weather"
         }
+    },
+    "F_TOUR":{
+        "NEXT":"Next",
+        "BACK":"Back",
+        "START":{
+            "TITLE":"New and Improved MyBroodMinder!",
+            "TEXT":"Welcome to the new and improved MyBroodMinder! We have added new features, charts, and data. Learn more here.",
+            "NAV_BUTTON":"Navigation",
+            "DASH_BUTTON":"Dashboards",
+            "EXTRAS_BUTTON":"Extras",
+            "DONE_BUTTON":"Done"
+        },
+        "NAV":{
+            "HOME":{
+                "TITLE":"Home Page",
+                "TEXT":"Visit the home page to view an overview of your active hives and apiaries."
+            },
+            "HIVE":{
+                "TITLE":"View a hive",
+                "TEXT_1":"Click on a hive name to view it on a dashboard",
+                "TEXT_2":"Click on the hive again to remove it."
+            },
+            "MULTI":{
+                "TITLE":"Enable Multi-Select",
+                "TEXT":"Click multi-select to display multiple hives at once."
+            },
+            "APIARY":{
+                "TITLE":"Click Apiary",
+                "TEXT":"Click an Apiary to add or remove its hives from your display."
+            }
+
+        },
+        "DASH":{
+            "DASHBOARDS":{
+                "TITLE":"New Views and Visualizations!",
+                "TEXT":"Click on a dashboard name to view your data in different ways!"                       
+            },
+            "NEW":{
+                "TITLE":"Custom Dashboards",
+                "TEXT":"Create your own dashboard. Add and arrange charts to suit your needs."
+            },
+            "DASH_OPT":{
+                "TITLE":"Dashboard Options",
+                "TEXT":"Click for more dashboard options."
+            },
+            "CHART_EDIT":{
+                "TITLE":"Chart Options",
+                "TEXT":"Click to edit chart options."
+            },
+            "CHART_FILTER":{
+                "TITLE":"Chart Filters",
+                "TEXT_1":"Click to zoom.",
+                "TEXT_2":"Click to remove and add data to your chart."
+            }
+        },
+        "EXTRAS":{
+            "DATE":{
+                "TITLE":"Date Range",
+                "TEXT":"Select date range and optionaly show forecast."
+            },
+            "CONF":{
+                "TITLE":"Advanced Options",
+                "TEXT":"Click configure to view more advanced options."
+            },
+            "CONF_DASH":{
+                "TITLE":"Advanced Dashboard Options",
+                "TEXT":"Edit, un-hide, duplicate, etc..."
+            },
+            "CONF_ALERT":{
+                "TITLE":"Advanced Alert Options",
+                "TEXT":"Edit alert settings, email, and frequency."
+            },
+            "HIVE_COLOR":{
+                "TITLE":"Customize Hive Color",
+                "TEXT_1":"Edit your hive to change the hive color. This is customizable so you can easily view multiple hives on the same dashboard.",
+                "TEXT_2":"This can also be done for each of your apiaries to specify the weather color."
+            }
+        },
+        "END":{
+            "TITLE":"That's All",
+            "TEXT_1":"For more help and information view our documentation.",
+            "TEXT_2":"We hope you enjoy it!!",
+            "TEXT_3":"-The BroodMinder Team",
+            "DONE":"Done"
+        }
     }
 }

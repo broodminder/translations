@@ -2060,5 +2060,90 @@
         "WEATHER":{
             "TITLE":"Meteo"
         }
+    },
+    "F_TOUR":{
+        "NEXT":"Próxima",
+        "BACK":"Atrás",
+        "START":{
+            "TITLE":"¡Nuevo y mejorado MyBroodMinder!",
+            "TEXT":"¡Bienvenido al nuevo y mejorado MyBroodMinder! Hemos añadido nuevas funciones, gráficos y datos. Obtenga más información aquí.",
+            "NAV_BUTTON":"Navigation",
+            "DASH_BUTTON":"Dashboards",
+            "EXTRAS_BUTTON":"Extras",
+            "DONE_BUTTON":"Hecho"
+        },
+        "NAV":{
+            "HOME":{
+                "TITLE":"Página de inicio",
+                "TEXT":"Visite la página de inicio para ver un resumen de sus colmenas y colmenares activos."
+            },
+            "HIVE":{
+                "TITLE":"Ver una colmena",
+                "TEXT_1":"Haga clic en el nombre de una colmena para verla en un panel.",
+                "TEXT_2":"Haga clic de nuevo en la colmena para eliminarla."
+            },
+            "MULTI":{
+                "TITLE":"Activar la selección múltiple",
+                "TEXT":"Haga clic en multiselección para visualizar varias colmenas a la vez."
+            },
+            "APIARY":{
+                "TITLE":"Haga clic en Colmenar",
+                "TEXT":"Haga clic en un colmenar para añadir o eliminar sus colmenas de la pantalla."
+            }
+
+        },
+        "DASH":{
+            "DASHBOARDS":{
+                "TITLE":"Nuevas vistas y visualizaciones",
+                "TEXT":"Haz clic en el nombre de un panel para ver los datos de distintas formas."                       
+            },
+            "NEW":{
+                "TITLE":"Cuadros de mando personalizados",
+                "TEXT":"Crea tu propio cuadro de mandos. Añade y organiza los gráficos según tus necesidades."
+            },
+            "DASH_OPT":{
+                "TITLE":"Opciones del cuadro de mandos",
+                "TEXT":"Haga clic para ver más opciones de cuadros de mando."
+            },
+            "CHART_EDIT":{
+                "TITLE":"Opciones de gráficos",
+                "TEXT":"Haga clic para editar las opciones del gráfico."
+            },
+            "CHART_FILTER":{
+                "TITLE":"Filtros de gráficos",
+                "TEXT_1":"Haz clic para ampliar.",
+                "TEXT_2":"Haga clic para eliminar y añadir datos a su gráfico."
+            }
+        },
+        "EXTRAS":{
+            "DATE":{
+                "TITLE":"Intervalo de fechas",
+                "TEXT":"Seleccione el intervalo de fechas y, opcionalmente, muestre la previsión."
+            },
+            "CONF":{
+                "TITLE":"Opciones avanzadas",
+                "TEXT":"Haz clic en configurar para ver más opciones avanzadas."
+            },
+            "CONF_DASH":{
+                "TITLE":"Opciones avanzadas del cuadro de mandos",
+                "TEXT":"Editar, desocultar, duplicar, etc..."
+            },
+            "CONF_ALERT":{
+                "TITLE":"Opciones avanzadas de alerta",
+                "TEXT":"Edita la configuración de las alertas, el correo electrónico y la frecuencia."
+            },
+            "HIVE_COLOR":{
+                "TITLE":"Personalizar el color de la colmena",
+                "TEXT_1":"Edite su colmena para cambiar el color. Esto es personalizable para que pueda ver fácilmente múltiples colmenas en el mismo tablero.",
+                "TEXT_2":"Esto también se puede hacer para cada uno de sus colmenares para especificar el color del tiempo."
+            }
+        },
+        "END":{
+            "TITLE":"Eso es todo",
+            "TEXT_1":"Para obtener más ayuda e información, consulte nuestra documentación.",
+            "TEXT_2":"Esperamos que lo disfrute.",
+            "TEXT_3":"-El equipo de BroodMinder",
+            "DONE":"Hecho"
+        }
     }
 }

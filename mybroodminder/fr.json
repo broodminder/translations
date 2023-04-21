@@ -2060,5 +2060,90 @@
         "WEATHER":{
             "TITLE":"Météo"
         }
+    },
+    "F_TOUR":{
+        "NEXT":"Suivante",
+        "BACK":"Retour",
+        "START":{
+            "TITLE":"Nouveau et amélioré MyBroodMinder !",
+            "TEXT":"Bienvenue sur la nouvelle version améliorée de MyBroodMinder ! Nous avons ajouté de nouvelles fonctionnalités, de nouveaux graphiques et de nouvelles données. Pour en savoir plus, cliquez ici.",
+            "NAV_BUTTON":"Navigation",
+            "DASH_BUTTON":"Tableaux de bord",
+            "EXTRAS_BUTTON":"Extras",
+            "DONE_BUTTON":"Terminé"
+        },
+        "NAV":{
+            "HOME":{
+                "TITLE":"Page d'accueil",
+                "TEXT":"Visitez la page d'accueil pour obtenir une vue d'ensemble de vos ruches et ruchers actifs."
+            },
+            "HIVE":{
+                "TITLE":"Voir une ruche",
+                "TEXT_1":"Cliquez sur le nom d'une ruche pour l'afficher sur un tableau de bord.",
+                "TEXT_2":"Cliquez à nouveau sur la ruche pour la supprimer."
+            },
+            "MULTI":{
+                "TITLE":"Activer la multi-sélection",
+                "TEXT":"Cliquez sur multi-sélection pour afficher plusieurs ruches à la fois."
+            },
+            "APIARY":{
+                "TITLE":"Cliquez sur Rucher",
+                "TEXT":"Cliquez sur un rucher pour ajouter ou supprimer ses ruches de votre présentation."
+            }
+
+        },
+        "DASH":{
+            "DASHBOARDS":{
+                "TITLE":"Nouvelles vues et visualisations !",
+                "TEXT":"Cliquez sur le nom d'un tableau de bord pour visualiser vos données de différentes manières !"                       
+            },
+            "NEW":{
+                "TITLE":"Tableaux de bord personnalisés",
+                "TEXT":"Créez votre propre tableau de bord. Ajoutez et organisez des graphiques en fonction de vos besoins."
+            },
+            "DASH_OPT":{
+                "TITLE":"Options du tableau de bord",
+                "TEXT":"Cliquez pour plus d'options de tableau de bord."
+            },
+            "CHART_EDIT":{
+                "TITLE":"Options graphiques",
+                "TEXT":"Cliquez sur pour modifier les options du graphique."
+            },
+            "CHART_FILTER":{
+                "TITLE":"Filtres graphiques",
+                "TEXT_1":"Cliquez pour agrandir.",
+                "TEXT_2":"Cliquez pour supprimer et ajouter des données à votre graphique."
+            }
+        },
+        "EXTRAS":{
+            "DATE":{
+                "TITLE":"Plage de dates",
+                "TEXT":"Sélectionnez une plage de dates et affichez éventuellement les prévisions."
+            },
+            "CONF":{
+                "TITLE":"Options avancées",
+                "TEXT":"Cliquez sur configurer pour afficher des options plus avancées."
+            },
+            "CONF_DASH":{
+                "TITLE":"Options avancées du tableau de bord",
+                "TEXT":"Modifier, dé-cacher, dupliquer, etc..."
+            },
+            "CONF_ALERT":{
+                "TITLE":"Options d'alerte avancées",
+                "TEXT":"Modifier les paramètres d'alerte, le courrier électronique et la fréquence."
+            },
+            "HIVE_COLOR":{
+                "TITLE":"Personnaliser la couleur de la ruche",
+                "TEXT_1":"Modifiez votre ruche pour en changer la couleur. Cette couleur est personnalisable afin que vous puissiez facilement visualiser plusieurs ruches sur le même tableau de bord.",
+                "TEXT_2":"Cette opération peut également être effectuée pour chacun de vos ruchers afin de spécifier la couleur du temps."
+            }
+        },
+        "END":{
+            "TITLE":"C'est tout",
+            "TEXT_1":"Pour plus d'aide et d'informations, consultez notre documentation.",
+            "TEXT_2":"Nous espérons que vous l'apprécierez !",
+            "TEXT_3":"-L'équipe BroodMinder",
+            "DONE":"Terminé"
+        }
     }
 }
