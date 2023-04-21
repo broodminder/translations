@@ -88,7 +88,7 @@
             "INFO":"Plus d'information"
         },
         "WEATHER_INFO":{
-            "TITLE":"WeatherSource Weather",
+            "TITLE":"Météo WeatherSource",
             "TEXT":"Ces données météorologiques proviennent de WeatherSource. Elles sont basées sur le code postal fourni sur votre rucher."
         },
 		"HUB_TOOLTIP":"Hub",
@@ -179,7 +179,7 @@
             },
             "CELL_APP": {
                 "TITLE":"CELL App",
-                "LINK_1":"Diagnostics"
+                "LINK_1":"Diagnostiques"
             },
             "TROUBLESHOOT": {
                 "TITLE":"Dépannage",
@@ -965,8 +965,8 @@
         "DELETE_ERROR":"Erreur de suppression de la ruche"
     },
     "CONFIGURE_HUBS": {
-        "FILTER":"Filter",
-        "BATTERY": "Battery",
+        "FILTER":"Filtre",
+        "BATTERY": "Batterie",
         "NAME":"Nom",
         "APIARY":"Rucher",
         "LAST_UPLOAD":"Dernier relevé",
@@ -1039,15 +1039,15 @@
     },
     "CONFIGURE_DEVICES": {
         "ADD":"Ajouter capteur",
-        "FILTER_LOCATION":"Filter Location",
-        "FILTER_NAME":"Filter Name",
+        "FILTER_LOCATION":"Filtrer par Localisation",
+        "FILTER_NAME":"Filtrer par Nom",
         "DOWNLOAD":"Télécharger capteurs",
         "NAME":"Nom du capteur",
         "ADDRESS":"Référence du capteur",
         "LOCATION":"Emplacement actuel",
         "DATA_RECEIVED":"Dernières données reçues",
         "LOCATION_HISTORY":"Historique emplacements",
-        "BATTERY": "Battery",
+        "BATTERY": "Batterie",
         "ADD_LOCATION":"Ajouter emplacement",
         "ACTIVE":"Actif",
         "CONFIRM_DELETE_WINDOW": {
@@ -1581,7 +1581,7 @@
             "LUNAR":{
                 "TITLE":"Calendrier lunaire",
                 "YAXIS":"",
-                "FILTER":"Lunar Daily"
+                "FILTER":"Calendrier lunaire"
             },
             "ALERTS_NOTES":{
                 "TITLE":"Alertes et Notes",
@@ -2026,8 +2026,8 @@
                 "ALERTS":"Alertes",
                 "NECTAR":"Miéllée",
                 "FORAGING":"Buttinage",
-                "MIN_TEMP":"Min Temp",
-                "WEATHER":"Weather"
+                "MIN_TEMP":"Temp min",
+                "WEATHER":"Météo"
             },
             "HIVE_OVERVIEW":{
                 "NAME":"Nom",
