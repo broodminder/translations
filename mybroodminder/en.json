@@ -2067,7 +2067,7 @@
         "START":{
             "TITLE":"New and Improved MyBroodMinder!",
             "TEXT":"Welcome to the new and improved MyBroodMinder! We have added new features, charts, and data. Learn more here.",
-            "NAV_BUTTON":"Navegación",
+            "NAV_BUTTON":"Navigation",
             "DASH_BUTTON":"Dashboards",
             "EXTRAS_BUTTON":"Extras",
             "DONE_BUTTON":"Done"
