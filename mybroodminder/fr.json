@@ -872,7 +872,7 @@
             "SHOW":"Montrer options",
             "HIDE":"Masquer options",
             "DELETE_BUTTON":"Supprimer le compte",
-            "WARNING":"Vous êtes sur le point de supprimer votre compte. Ceci supprime toutes les données, y compris celles spécifiées ci-dessous. Confirmez cette demande de suppression de votre compte.",
+            "WARNING":"Vous êtes sur le point de supprimer votre compte. Ceci efface toutes les données, y compris celles spécifiées ci-dessous. Confirmez cette demande de suppression de votre compte.",
             "HEADERS":{
                 "REQUESTED":"Suppression demandée",
                 "DEVICES":"Capteurs",
@@ -889,7 +889,7 @@
             "DELETE_REDIRECT":"Compte supprimé, vous serez redirigé dans {{seconds}} secondes",
             "CONFIRM_DIALOG":{
                 "TITLE":"Confirmer Suppréssion",
-                "MESSAGE":"La suppression de votre compte supprime TOUTES LES DONNÉES et ne peut être récupérée. Êtes-vous sûr de vouloir supprimer votre compte ?",
+                "MESSAGE":"La suppression de votre compte EFFACE TOUTES LES DONNÉES et ne peut être récupérée. Êtes-vous sûr de vouloir supprimer votre compte ?",
                 "CONFIRM":"SUPPRIMER LE COMPTE",
                 "EMAIL_ERROR":"Cet email ne correspond pas à votre compte."
             },
@@ -2062,7 +2062,7 @@
         }
     },
     "F_TOUR":{
-        "NEXT":"Suivante",
+        "NEXT":"Suivant",
         "BACK":"Retour",
         "START":{
             "TITLE":"Nouveau et amélioré MyBroodMinder !",
@@ -2080,15 +2080,15 @@
             "HIVE":{
                 "TITLE":"Voir une ruche",
                 "TEXT_1":"Cliquez sur le nom d'une ruche pour l'afficher sur un tableau de bord.",
-                "TEXT_2":"Cliquez à nouveau sur la ruche pour la supprimer."
+                "TEXT_2":"Cliquez à nouveau sur la ruche pour la retirer."
             },
             "MULTI":{
-                "TITLE":"Activer la multi-sélection",
-                "TEXT":"Cliquez sur multi-sélection pour afficher plusieurs ruches à la fois."
+                "TITLE":"Activer la sélection multiple",
+                "TEXT":"Cliquez sur Sélection multiple pour afficher plusieurs ruches à la fois."
             },
             "APIARY":{
                 "TITLE":"Cliquez sur Rucher",
-                "TEXT":"Cliquez sur un rucher pour ajouter ou supprimer ses ruches de votre présentation."
+                "TEXT":"Cliquez sur un rucher pour ajouter ou retirer ses ruches de votre présentation."
             }
 
         },
@@ -2122,7 +2122,7 @@
             },
             "CONF":{
                 "TITLE":"Options avancées",
-                "TEXT":"Cliquez sur configurer pour afficher des options plus avancées."
+                "TEXT":"Cliquez sur Configurer pour afficher des options plus avancées."
             },
             "CONF_DASH":{
                 "TITLE":"Options avancées du tableau de bord",
@@ -2130,12 +2130,12 @@
             },
             "CONF_ALERT":{
                 "TITLE":"Options d'alerte avancées",
-                "TEXT":"Modifier les paramètres d'alerte, le courrier électronique et la fréquence."
+                "TEXT":"Modifier les paramètres d'alerte, l'email et la fréquence."
             },
             "HIVE_COLOR":{
                 "TITLE":"Personnaliser la couleur de la ruche",
                 "TEXT_1":"Modifiez votre ruche pour en changer la couleur. Cette couleur est personnalisable afin que vous puissiez facilement visualiser plusieurs ruches sur le même tableau de bord.",
-                "TEXT_2":"Cette opération peut également être effectuée pour chacun de vos ruchers afin de spécifier la couleur du temps."
+                "TEXT_2":"Cette opération sert également à spécifier la couleur des données météo pour chaque rucher."
             }
         },
         "END":{
