@@ -2150,14 +2150,14 @@
         "HIVES":"Ruches",
         "APIARIES":"Ruchers",
         "EMPTY":{
-            "TEXT_1":"Welcome to MyBroodMinder! This is the home page!",
-            "TEXT_2":" This is a quick view for your hives and apiaries. Hives and apiaries are displayed here if they are active with devices assigned.",
-            "TEXT_3":"Shared apiaries are not shown here.",
-            "TEXT_4":"It appears you have nothing fitting this description.",
-            "TEXT_5":"From now on you can:",
-            "TEXT_LI_1A":"Use",
-            "TEXT_LI_1B":"on the top left to add hives, apiaries, and devices to your account",
-            "TEXT_LI_2":"Or download BroodMinder Bees app to manage them too."
+            "TEXT_1":"Bienvenue à MyBroodMinder v5 ! Voici la page d'accueil !",
+            "TEXT_2":" Celle-ci vous offre vue s’ensemble de vos ruches et ruches. Ils sont affichés sur cette page s'ils sont actifs et si des capteurs leur sont affectés.",
+            "TEXT_3":"Les ruchers partagés ne sont pas présentés ici.",
+            "TEXT_4":"Il semble que vous n'ayez rien qui corresponde à cette description.",
+            "TEXT_5":"Désormais, vous pouvez :",
+            "TEXT_LI_1A":"Utiliser",
+            "TEXT_LI_1B":"en haut à gauche pour ajouter des ruches, des ruchers et des capteurs à votre compte.",
+            "TEXT_LI_2":"Ou télécharger l'application BroodMinder Bees pour les gérer également."
         }
     }
 }
