@@ -2137,5 +2137,19 @@
             "TEXT_3":"-The BroodMinder Team",
             "DONE":"Done"
         }
+    },
+    "HOME":{
+        "HIVES":"Hives",
+        "APIARIES":"Apiaries",
+        "EMPTY":{
+            "TEXT_1":"Welcome to MyBroodMinder! This is the home page!",
+            "TEXT_2":" This is a quick view for your hives and apiaries. Hives and apiaries are displayed here if they are active with devices assigned.",
+            "TEXT_3":"Shared apiaries are not shown here.",
+            "TEXT_4":"It appears you have nothing fitting this description.",
+            "TEXT_5":"From now on you can:",
+            "TEXT_LI_1A":"Use",
+            "TEXT_LI_1B":"on the top left to add hives, apiaries, and devices to your account",
+            "TEXT_LI_2":"Or download BroodMinder Bees app to manage them too."
+        }
     }
 }
