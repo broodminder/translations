@@ -1434,6 +1434,9 @@
         },
         "G1":{
             "MSG":"Healthy"
+        },
+        "G2":{
+            "MSG":"Not computed"
         }
     },
     "CHART":{

@@ -1434,6 +1434,9 @@
         },
         "G1":{
             "MSG":"Bonne santé"
+        },
+        "G2":{
+            "MSG":"Non calculé"
         }
     },
     "CHART":{
