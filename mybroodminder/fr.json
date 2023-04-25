@@ -1434,6 +1434,9 @@
         },
         "G1":{
             "MSG":"Bonne santé"
+        },
+        "G2":{
+            "MSG":"Pas de données ou pas de météo"
         }
     },
     "CHART":{
