@@ -1436,7 +1436,7 @@
             "MSG":"Healthy"
         },
         "G2":{
-            "MSG":"Not computed"
+            "MSG":"No data or no weather"
         }
     },
     "CHART":{
