@@ -1548,6 +1548,11 @@
                 "YAXIS":"Humedad (%)",
                 "FILTER":"Humedad Externa Min"
             },
+            "TEMP_WEATHER":{
+                "TITLE":"Temperatura Meteo",
+                "YAXIS":"Temperatura ({{label}})",
+                "FILTER":"Temperatura Meteo"
+            },
             "TEMP_MIN_WEATHER":{
                 "TITLE":"Temperatura Meteo Min",
                 "YAXIS":"Temperatura ({{label}})",
