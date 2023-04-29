@@ -1479,9 +1479,9 @@
             },
             "BEECOUNT":{
                 "TITLE":"Compteur d'abeilles",
-                "YAXIS":"Compteur d'abeilles ({{label}})",
-                "FILTER":"Compteur d'abeilles",
-                "UNIT":"bees/min"
+                "YAXIS":"Abeilles ({{label}})",
+                "FILTER":"Abeilles",
+                "UNIT":"abeilles/min"
             },
             "BROOD":{
                 "TITLE":"Couvain",
