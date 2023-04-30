@@ -670,7 +670,7 @@
 		<value>Voir les relevés</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_CALIBRATE">
-		<value>Calibrate Scale</value>
+		<value>Calibrer Balance</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOAD_ERROR">
 		<value>Capteur hors ligne, non mis à jour</value>
@@ -1681,13 +1681,13 @@
 		<value>Réglage {0}</value>
 	</data>
 	<data name="CALIBRATION_JSET">
-		<value>{0} Set</value>
+		<value>{0} Réglé</value>
 	</data>
 	<data name="CALIBRATION_JSET_ERROR">
-		<value>Error setting {0}</value>
+		<value>Erreur réglage {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_TARE">
-		<value>Setting Tare</value>
+		<value>Tare en cours</value>
 	</data>
 	<data name="CALIBRATION_TARED">
 		<value>Balance Tarée</value>
@@ -1699,22 +1699,22 @@
 		<value>Diviseur</value>
 	</data>
 	<data name="CALIBRATION_OFFSET">
-		<value>Offset</value>
+		<value>Décalage</value>
 	</data>
 	<data name="CALIBRATION_SCALE_ALL">
-		<value>Scale all channels</value>
+		<value>Calibrer tous les canaux</value>
 	</data>
 	<data name="CALIBRATION_PERCENT">
-		<value>Percent</value>
+		<value>Pourcent</value>
 	</data>
 	<data name="CALIBRATION_SET_DIVISOR_ALL">
-		<value>Set divisor for all channels</value>
+		<value>Diviseur uniforme sur tous les canaux</value>
 	</data>
 	<data name="CALIBRATION_SCALING_ALL">
-		<value>Scaling all divisors by {0}</value>
+		<value>Mise à l'échelle de tous les diviseurs de {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-		<value>Setting all divisors to {0}</value>
+		<value>Réglage de tous les diviseurs sur {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
 		<value>Effacer le compte</value>
@@ -1726,7 +1726,7 @@
 		<value>Aller à la page du compte MyBroodMinder</value>
 	</data>
 	<data name="DELETE_ACCOUNT_DETAILS_2">
-		<value>Une fois que vous avez supprimé votre compte, vous devez vous déconnecter de cette App pour supprimer les données de votre appareil.</value>
+		<value>Une fois que vous aurez supprimé votre compte, vous devez vous déconnecter de cette App pour supprimer les données de votre appareil.</value>
 	</data>
 	<data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
 		<value>Déconnexion et suppression des données</value>

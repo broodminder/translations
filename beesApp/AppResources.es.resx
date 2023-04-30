@@ -766,7 +766,7 @@
 		<value>RX</value>
 	</data>
 	<data name="DEVICEDETAIL_CHART_BROODZONE">
-		<value>Brood Zone</value>
+		<value>Zona de Cría</value>
 	</data>
 	<data name="DEVICEDETAIL_DELETE_MESSAGE">
 		<value>¿Está seguro de que desea eliminar todos los datos locales?</value>
@@ -778,25 +778,25 @@
 		<value>Si, Vaciar Datos</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_NONE">
-		<value>No offline data found for {0}</value>
+		<value>No se han encontrado datos offline de {0}</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_TITLE">
-		<value>Upload local data?</value>
+		<value>Subir datos locales?</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_CONFIRM">
-		<value>Upload now</value>
+		<value>Subir ahora</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_MESSAGE">
-		<value>Found {0} local-only readings for {1}. Upload these to MyBroodminder.com now?</value>
+		<value>Se han encontrado {0} lecturas locales para {1}. ¿Subirlas a MyBroodminder.com ahora?</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_SUCCESS">
-		<value>Readings uploaded</value>
+		<value>Lecturas subidas</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_FAILURE">
-		<value>Readings not uploaded</value>
+		<value>No se pudieron subir las lecturas</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
-		<value>Not allowed to upload data for this device</value>
+		<value>No se permite cargar datos para este dispositivo</value>
 	</data>
 	<data name="DEVICES_NONE">
 		<value>No se encuentra ningun sensor</value>
@@ -805,7 +805,7 @@
 		<value>deslizar abajo para actualizar</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOT">
-		<value>Troubleshoot</value>
+		<value>Avanzado</value>
 	</data>
 	<data name="DEVICES_NOTASSIGN">
 		<value>« Sin asignar »</value>
@@ -844,7 +844,7 @@
 		<value>Colmenar</value>
 	</data>
 	<data name="DEVICES_TROUBLESHOOTING">
-		<value>Troubleshooting</value>
+		<value>Avanzado</value>
 	</data>
 	<data name="DEVICES_T1">
 		<value>Asegúrate de que el sensor esté encendidos y cerca de tu teléfono</value>
@@ -1702,19 +1702,19 @@
 		<value>Offset</value>
 	</data>
 	<data name="CALIBRATION_SCALE_ALL">
-		<value>Scale all channels</value>
+		<value>Calibrar todos los canales</value>
 	</data>
 	<data name="CALIBRATION_PERCENT">
-		<value>Percent</value>
+		<value>Porciento</value>
 	</data>
 	<data name="CALIBRATION_SET_DIVISOR_ALL">
-		<value>Set divisor for all channels</value>
+		<value>Fijar divisor para todos los canales</value>
 	</data>
 	<data name="CALIBRATION_SCALING_ALL">
-		<value>Scaling all divisors by {0}</value>
+		<value>Calibrando todos los divisores de {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-		<value>Setting all divisors to {0}</value>
+		<value>Fijar todos los divisores en {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
 		<value>Eliminar la cuenta</value>
