@@ -499,7 +499,7 @@
             "GENERIC":"Episode thermique"
         },
         "BROOD_ZONE":"Zone de couvain",
-        "HUMIDITY_NORMAL":"Normale",
+        "HUMIDITY_NORMAL":"Plage hygro int.",
         "PRESSURE":"Pression"
     },
     "LOCATION_HIST": {
@@ -1942,8 +1942,8 @@
                 "NOTES":"Notes",
                 "APIARY_IMAGE":"Image du rucher",
                 "APIARY_MAP":"Carte des ruchers",
-                "FORAGING":"Indice de buttinage",
-                "NECTAR":"Indice de miellée"
+                "FORAGING":"Indice de Butinage",
+                "NECTAR":"Indice de Miellée"
             }
         },
         "CHART":{
@@ -2057,7 +2057,7 @@
         "CLASSIC":{
             "TITLE":"Classique",
             "WEIGHT":"Poids",
-            "WEIGHT_CHANGE":"Changement de poids",
+            "WEIGHT_CHANGE":"Variation de poids",
             "TEMP":"Température",
             "HUMID":"Humidité",
             "BATTERY":"Batterie",
