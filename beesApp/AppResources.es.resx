@@ -1497,6 +1497,9 @@
 	<data name="HUBDETAIL_CONFIGUREWIFI">
 		<value>Configurar Wifi</value>
 	</data>
+	<data name="HUBDETAIL_CONFIGUREAPN">
+		<value>Configure Network (APN)</value>
+	</data>
 	<data name="WIFICONFIGURE_UPLOADNOW">
 		<value>Cargar Ahora</value>
 	</data>
@@ -1580,6 +1583,75 @@
 	</data>
 	<data name="WIFICONFIGURE_DEVICEUPLOADING">
 		<value>Dispositivo intentando carga</value>
+	</data>
+	<data name="APNCONFIGURE_LENGTH">
+		<value>Apn must be less than 30 characters</value>
+	</data>
+	<data name="APNCONFIGURE_APN_SHORT">
+		<value>Apn (first 7 char)</value>
+	</data>
+	<data name="APNCONFIGURE_STATUS">
+		<value>Status</value>
+	</data>
+	<data name="APNCONFIGURE_MINUTES_TO">
+		<value>Minutes Until Upload</value>
+	</data>
+	<data name="APNCONFIGURE_MINUTES_FROM">
+		<value>Minutes Since Upload</value>
+	</data>
+	<data name="APNCONFIGURE_SENTCOUNT">
+		<value>Samples Sent</value>
+	</data>
+	<data name="APNCONFIGURE_UPDATE_IN">
+		<value>Uploads in {0} min</value>
+	</data>
+	<data name="APNCONFIGURE_UPLOAD">
+		<value>Upload Now</value>
+	</data>
+	<data name="APNCONFIGURE_REBOOT">
+		<value>Reboot</value>
+	</data>
+	<data name="APNCONFIGURE_APN">
+		<value>APN</value>
+	</data>
+	<data name="APNCONFIGURE_SET_APN">
+		<value>Set APN</value>
+	</data>
+	<data name="APNCONFIGURE_APN_SET">
+		<value>APN set as {0}</value>
+	</data>
+	<data name="APNCONFIGURE_ELAPSED">
+		<value>Elapsed</value>
+	</data>
+	<data name="APNCONFIGURE_NETWORKSIGNAL">
+		<value>Network Signal</value>
+	</data>
+	<data name="APNCONFIGURE_LASTUPLOAD_SERVER">
+		<value>Last upload (remote)</value>
+	</data>
+	<data name="APNCONFIGURE_SETTING_APN">
+		<value>Setting APN</value>
+	</data>
+	<data name="APNCONFIGURE_SETTING_APN_ERROR">
+		<value>Error setting APN</value>
+	</data>
+	<data name="APNCONFIGURE_REBOOTING">
+		<value>Triggering reboot</value>
+	</data>
+	<data name="APNCONFIGURE_REBOOT_ERROR">
+		<value>Error triggering reboot</value>
+	</data>
+	<data name="APNCONFIGURE_RSSI">
+		<value>Bluetooth Signal</value>
+	</data>
+	<data name="APNCONFIGURE_COMPLETE">
+		<value>Complete</value>
+	</data>
+	<data name="APNCONFIGURE_DISCONNECT_ERROR">
+		<value>Error disconnecting</value>
+	</data>
+	<data name="APNCONFIGURE_">
+		<value></value>
 	</data>
 	<data name="LOCATIONSERVICES_TITLE">
 		<value>Servicio de localización</value>
