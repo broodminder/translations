@@ -1809,4 +1809,10 @@
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
 		<value>Yes, delete all data</value>
 	</data>
+	<data name="DIF_7AM_SHORT">
+		<value>7AM diff</value>
+	</data>
+	<data name="DIF_7AM_LONG">
+		<value>7AM weight diff:</value>
+	</data>
 </root>
