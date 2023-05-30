@@ -339,7 +339,7 @@
             "WEIGHT_R":"Peso Dcha",
             "BALANCE":"I/D Compensación",
             "WEIGHT_SF":"Factor de calibración",
-            "SAMPLE_STATE":"T2 Estado datos",
+            "SAMPLE_STATE":"SM datos",
             "CONFIRM_WINDOW": {
                "TITLE":"Borrar datos seleccionados",
                "MESSAGE":"Deseas borrar los {{count}} datos?",
@@ -493,7 +493,7 @@
         "BALANCE":"I/D Compensación",
         "WEATHER_TEMP":"Temperatura exterior",
         "WEATHER_HUMID":"Humedad exterior",
-        "SWARM_STATE":"Estado del T2",
+        "SWARM_STATE":"Estado del SM",
         "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Evento de Temperatura"

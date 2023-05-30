@@ -493,7 +493,7 @@
         "BALANCE":"G/D Balance",
         "WEATHER_TEMP":"Température extérieure",
         "WEATHER_HUMID":"Humidité extérieure",
-        "SWARM_STATE":"T2 echantillonnage",
+        "SWARM_STATE":"SM echantillonnage",
         "SWARM_S": {
             "TITLE":"T",
             "GENERIC":"Episode thermique"

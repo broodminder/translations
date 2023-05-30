@@ -339,7 +339,7 @@
             "WEIGHT_R": "Gewicht rechts",
             "BALANCE": "L/R Balans",
             "WEIGHT_SF": "Gewicht schaalfactor",
-            "SAMPLE_STATE": "T2 Sample Status",
+            "SAMPLE_STATE": "SM Status",
             "CONFIRM_WINDOW": {
                 "TITLE": "Verwijderen van geselecteerde metingen",
                 "MESSAGE": "Wil je de geselecteerde {{count}} metingen verwijderen?",
@@ -493,7 +493,7 @@
         "BALANCE": "L/R Balasn",
         "WEATHER_TEMP": "Buitentemperatuur",
         "WEATHER_HUMID": "Buiten luchtvochtigheid",
-        "SWARM_STATE": "T2 Sample State",
+        "SWARM_STATE": "SM State",
         "SWARM_S": {
             "TITLE": "T",
             "GENERIC": "Temperature Event"

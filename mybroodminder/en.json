@@ -339,7 +339,7 @@
             "WEIGHT_R": "Weight Right",
             "BALANCE": "L/R Balance",
             "WEIGHT_SF": "Weight Scale Factor",
-            "SAMPLE_STATE": "T2 Sample State",
+            "SAMPLE_STATE": "SM State",
             "CONFIRM_WINDOW": {
                 "TITLE": "Remove selected readings",
                 "MESSAGE": "Would you like to remove selected {{count}} readings?",
@@ -493,7 +493,7 @@
         "BALANCE": "L/R Balance",
         "WEATHER_TEMP": "Outside Temperature",
         "WEATHER_HUMID": "Outside Humidity",
-        "SWARM_STATE": "T2 Sample State",
+        "SWARM_STATE": "SM State",
         "SWARM_S": {
             "TITLE": "T",
             "GENERIC": "Temperature Event"
