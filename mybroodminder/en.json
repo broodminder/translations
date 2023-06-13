@@ -318,7 +318,7 @@
         "OUTLIER_SHOW": "Show data editor",
         "OUTLIER_HIDE": "Hide data editor",
         "EDITOR": {
-            "TITLE": "Outlier Editor",
+            "TITLE": "Data Editor",
             "DESCRIPTION": "Zoom chart or click point to filter readings below.",
             "BUTTON_NONE": "Select readings to remove in table below",
             "BUTTON_SELECTED": "Remove selected",
@@ -1710,7 +1710,7 @@
         "BROODREMOVE":"Removed brood frames",
         "COMBINEDHIVES":"Combined Hives",
         "SWARM":"Swarming",
-        "CANDIFEED":"Candi feeding",
+        "CANDIFEED":"Candy feeding",
         "SYRUPFEED":"Syrup feeding",
         "PATTIESFEED":"Patties feeding",
         "REQUEEN":"Requeening",
