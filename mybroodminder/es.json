@@ -429,6 +429,8 @@
         "START":"Empezar",
         "END":"Finalizar",
         "APPLY":"Aplicar",
+        "INVALID_START":"Fecha de inicio no válida",
+        "INVALID_END":"Fecha de finalización no válida",
 		"HOURS_24":"Ultimas 24 horas",
         "DAYS_1":"Ultimo 1 día",
 		"DAYS_3":"Ultimos 3 días",
