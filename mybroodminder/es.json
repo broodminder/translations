@@ -648,26 +648,26 @@
         "SUCCESS_CREATED":"Colmena creada",
         "SUCCESS_UPDATED":"Colmena actualizada",
         "DISPLAY": {
-            "DESCRIPTION":"Configuración de la vista de resumen del colmenar",
+            "DESCRIPTION":"Configuración de la vista de multi-select",
             "WEIGHT": {
-                "DESCRIPTION":"Sensor de peso a representar en el resumen del colmenar",
+                "DESCRIPTION":"Sensor de peso a representar en el modo de multi-select",
                 "AUTO":"Peso máximo automático",
-                "NONE":"No mostrar sensores de peso en el resumen del colmenar"
+                "NONE":"No mostrar sensores de peso en el modo de multi-select"
             },
             "TEMP": {
-                "DESCRIPTION":"Sensor de temperatura a representar en el resumen del colmenar",
+                "DESCRIPTION":"Sensor de temperatura a representar en el modo de multi-select",
                 "AUTO":"Temperatura máxima automática",
-                "NONE":"No mostrar sensores de temperatura en el resumen del colmenar"
+                "NONE":"No mostrar sensores de temperatura en el modo de multi-select"
             },
             "HUMID": {
-                "DESCRIPTION":"Sensor de humedad para representar en el resumen del colmenar",
+                "DESCRIPTION":"Sensor de humedad para representar en el modo de multi-select",
                 "AUTO":"Humedad máxima automática",
-                "NONE":"No mostrar sensores de humedad en el resumen del colmenar"
+                "NONE":"No mostrar sensores de humedad en el modo de multi-select"
             },
             "BATTERY": {
-                "DESCRIPTION":"Carga de batería para representar en el resumen del colmenar",
-                "AUTO":"Mostrar el sensor con la carga mas baja de batería en el resumen del colmenar",
-                "NONE":"No mostrar cargas de batería en el resumen del colmenar"
+                "DESCRIPTION":"Carga de batería para representar en el modo de multi-select",
+                "AUTO":"Mostrar el sensor con la carga mas baja de batería en el modo de multi-select",
+                "NONE":"No mostrar cargas de batería en el modo de multi-select"
             }
         },
         "MOVE": {

@@ -648,26 +648,26 @@
         "SUCCESS_CREATED": "Hive created",
         "SUCCESS_UPDATED": "Hive updated",
         "DISPLAY": {
-            "DESCRIPTION": "Apiary summary view settings",
+            "DESCRIPTION": "Multi-select view settings",
             "WEIGHT": {
-                "DESCRIPTION": "Weight device to graph on the Apiary Summary",
+                "DESCRIPTION": "Weight device to graph in multi-select mode",
                 "AUTO": "Auto-select maximum scale weight",
-                "NONE": "Don't show a weight device on the Apiary Summary"
+                "NONE": "Don't show a weight device in multi-select mode"
             },
             "TEMP": {
-                "DESCRIPTION": "Temperature device to graph on the Apiary Summary",
+                "DESCRIPTION": "Temperature device to graph in multi-select mode",
                 "AUTO": "Auto-select maximum temperature",
-                "NONE": "Don't show a temperature device on the Apiary Summary"
+                "NONE": "Don't show a temperature device in multi-select mode"
             },
             "HUMID": {
-                "DESCRIPTION": "Humidity device to graph on the Apiary Summary",
+                "DESCRIPTION": "Humidity device to graph in multi-select mode",
                 "AUTO": "Auto-select maximum humidity",
-                "NONE": "Don't show a humidity device on the Apiary Summary"
+                "NONE": "Don't show a humidity device in multi-select mode"
             },
             "BATTERY": {
-                "DESCRIPTION": "Battery device to graph on the Apiary Summary",
-                "AUTO": "Show lowest Device battery in the Hive on the Apiary Summary",
-                "NONE": "Don't show a battery device on the Apiary Summary"
+                "DESCRIPTION": "Battery device to graph in multi-select mode",
+                "AUTO": "Show lowest Device battery in the Hive in multi-select mode",
+                "NONE": "Don't show a battery device in multi-select mode"
             }
         },
         "MOVE": {

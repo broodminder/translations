@@ -648,26 +648,26 @@
         "SUCCESS_CREATED":"Ruche créée",
         "SUCCESS_UPDATED":"Ruche modifée",
         "DISPLAY": {
-            "DESCRIPTION":"Paramètres de vue sommaire du rucher",
+            "DESCRIPTION":"Paramètres de vue sélection multiple",
             "WEIGHT": {
-                "DESCRIPTION":"Capteur de poids à afficher sur le Résumé du Rucher",
+                "DESCRIPTION":"Capteur de poids à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique du poids maximum de la balance",
-                "NONE":"N'affiche pas de capteur de poids sur le Résumé du Rucher"
+                "NONE":"N'affiche pas de capteur de poids en mode sélection multiple"
             },
             "TEMP": {
-                "DESCRIPTION":"Capteur de température à afficher sur le Résumé du Rucher",
+                "DESCRIPTION":"Capteur de température à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique de la température maximale",
-                "NONE":"N'affiche pas de capteur de température sur le Résumé du Rucher"
+                "NONE":"N'affiche pas de capteur de température en mode sélection multiple"
             },
             "HUMID": {
-                "DESCRIPTION":"Capteur d'humidité à afficher sur le Résumé du Rucher",
+                "DESCRIPTION":"Capteur d'humidité à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique de l'humidité maximale",
-                "NONE":"N'affiche pas de capteur d'humidité sur le Résumé du Rucher"
+                "NONE":"N'affiche pas de capteur d'humidité en mode sélection multiple"
             },
             "BATTERY": {
-                "DESCRIPTION":"Batterie du capteur à afficher sur le Résumé du Rucher",
-                "AUTO":"Afficher la batterie du capteur la plus faible dans la ruche sur le Résumé du Rucher ?",
-                "NONE":"N'affiche pas la batterie du capteur sur le Résumé du Rucher"
+                "DESCRIPTION":"Batterie du capteur à afficher en mode sélection multiple",
+                "AUTO":"Afficher la batterie du capteur la plus faible dans la ruche en mode sélection multiple ?",
+                "NONE":"N'affiche pas la batterie du capteur en mode sélection multiple"
             }
         },
         "MOVE": {
