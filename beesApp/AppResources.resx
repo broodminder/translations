@@ -234,6 +234,9 @@
 	<data name="APIARIES_CONTEXT_NEWHIVE">
 		<value>New Hive</value>
 	</data>
+	<data name="APIARIES_CONTEXT_NEWNOTE">
+		<value>New Note</value>
+	</data>
 	<data name="HIVE_CONTEXT_SYNC">
 		<value>Sync</value>
 	</data>
@@ -837,6 +840,9 @@
 	<data name="DEVICES_FILTER_SUBHUB">
 		<value>SubHubs</value>
 	</data>
+	<data name="DEVICES_FILTER_BEEDAR">
+		<value>Beedar</value>
+	</data>
 	<data name="DEVICES_FILTER_LOWBATTERY">
 		<value>Low Battery</value>
 	</data>
@@ -1221,6 +1227,9 @@
 	<data name="NOTE_NOTUPDATED">
 		<value>Note not updated</value>
 	</data>
+	<data name="NOTE_APIARY_WARNING">
+		<value>Apiary notes are uploaded to your mybroodminder account and displayed on the website, but are not visible in this app.</value>
+	</data>
 	<data name="HIVE_CU_UTITLE">
 		<value>Edit {0}</value>
 	</data>
@@ -1472,6 +1481,12 @@
 	</data>
 	<data name="HUBDETAIL_STATUS">
 		<value>Status</value>
+	</data>
+	<data name="HUBDETAIL_NETWORKSIGNAL">
+		<value>Network Signal</value>
+	</data>
+	<data name="HUBDETAIL_NETWORKSIGNAL_UNKNOWN">
+		<value>Unknown</value>
 	</data>
 	<data name="HUBDETAIL_STATUS_CANTCONNECT">
 		<value>Cannot connect</value>

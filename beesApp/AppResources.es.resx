@@ -234,6 +234,9 @@
 	<data name="APIARIES_CONTEXT_NEWHIVE">
 		<value>Nueva Colmena</value>
 	</data>
+	<data name="APIARIES_CONTEXT_NEWNOTE">
+		<value>Nueva Nota</value>
+	</data>
 	<data name="HIVE_CONTEXT_SYNC">
 		<value>Sincronizar</value>
 	</data>
@@ -837,6 +840,9 @@
 	<data name="DEVICES_FILTER_SUBHUB">
 		<value>SubHubs</value>
 	</data>
+	<data name="DEVICES_FILTER_BEEDAR">
+		<value>Beedar</value>
+	</data>
 	<data name="DEVICES_FILTER_LOWBATTERY">
 		<value>Batería baja</value>
 	</data>
@@ -1221,6 +1227,9 @@
 	<data name="NOTE_NOTUPDATED">
 		<value>La Nota no se ha actualizado</value>
 	</data>
+	<data name="NOTE_APIARY_WARNING">
+		<value>Las notas del colmenar se cargan en su cuenta de mybroodminder y se muestran en el sitio web, pero no son visibles en esta aplicación.</value>
+	</data>
 	<data name="HIVE_CU_UTITLE">
 		<value>Editar {0}</value>
 	</data>
@@ -1472,6 +1481,12 @@
 	</data>
 	<data name="HUBDETAIL_STATUS">
 		<value>Estado</value>
+	</data>
+	<data name="HUBDETAIL_NETWORKSIGNAL">
+		<value>Señal de red</value>
+	</data>
+	<data name="HUBDETAIL_NETWORKSIGNAL_UNKNOWN">
+		<value>Desconocido</value>
 	</data>
 	<data name="HUBDETAIL_STATUS_CANTCONNECT">
 		<value>No se puede conectar</value>

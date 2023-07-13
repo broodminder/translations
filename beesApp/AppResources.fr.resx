@@ -234,6 +234,9 @@
 	<data name="APIARIES_CONTEXT_NEWHIVE">
 		<value>Nouvelle ruche</value>
 	</data>
+	<data name="APIARIES_CONTEXT_NEWNOTE">
+		<value>Nouvelle Note</value>
+	</data>
 	<data name="HIVE_CONTEXT_SYNC">
 		<value>Synchroniser</value>
 	</data>
@@ -837,6 +840,9 @@
 	<data name="DEVICES_FILTER_SUBHUB">
 		<value>SubHubs</value>
 	</data>
+	<data name="DEVICES_FILTER_BEEDAR">
+		<value>Beedar</value>
+	</data>
 	<data name="DEVICES_FILTER_LOWBATTERY">
 		<value>Batterie faible</value>
 	</data>
@@ -1221,6 +1227,9 @@
 	<data name="NOTE_NOTUPDATED">
 		<value>Note non mise à jour</value>
 	</data>
+	<data name="NOTE_APIARY_WARNING">
+		<value>Les notes du rucher sont téléchargées sur votre compte mybroodminder et affichées sur le site Web, mais ne sont pas visibles dans cette application.</value>
+	</data>
 	<data name="HIVE_CU_UTITLE">
 		<value>Modifier {0}</value>
 	</data>
@@ -1472,6 +1481,12 @@
 	</data>
 	<data name="HUBDETAIL_STATUS">
 		<value>Status</value>
+	</data>
+	<data name="HUBDETAIL_NETWORKSIGNAL">
+		<value>Signal réseau</value>
+	</data>
+	<data name="HUBDETAIL_NETWORKSIGNAL_UNKNOWN">
+		<value>Inconnu</value>
 	</data>
 	<data name="HUBDETAIL_STATUS_CANTCONNECT">
 		<value>Connexion impossible</value>
