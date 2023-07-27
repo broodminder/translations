@@ -1470,9 +1470,9 @@
                 "FILTER":"Temperature Events"
             },
             "AUDIO":{
-                "TITLE":"Audio Signal",
-                "YAXIS":"Audio Signal ({{label}})",
-                "FILTER":"Audio Signal"
+                "TITLE":"Vibration",
+                "YAXIS":"Vibration ({{label}})",
+                "FILTER":"Vibration"
             },
             "RADAR":{
                 "TITLE":"Radar Signal",
@@ -1640,6 +1640,12 @@
                 "YAXIS":"Humidity (%)",
                 "FILTER":"Humidity",
                 "FILTER_HOURLY":"Humidity Hourly"
+            },
+            "CLOUD_COVER":{
+                "TITLE":"Cloud Cover",
+                "YAXIS":"Cloud Cover (%)",
+                "FILTER":"Cloud Cover",
+                "FILTER_HOURLY":"Cloud Cover Hourly"
             },
             "NECTAR":{
                 "TITLE":"Nectar flow index",
@@ -1934,11 +1940,13 @@
             "CHART_NAMES":{
                 "WEIGHT":"Weight",
                 "PROD":"Productivity",
+                "WEIGHT_CHANGE":"Weight Change",
                 "TEMP":"Temperature",
                 "HUMID":"Humidity",
                 "BEECOUNT":"Bee Count",
                 "RAIN":"Rain",
                 "WIND":"Wind",
+                "CLOUD_COVER":"Cloud Cover",
                 "BATTERY":"Battery",
                 "BROOD":"Brood",
                 "NOTES":"Notes",
@@ -1989,6 +1997,7 @@
         "CHART":{
             "NO_DATA":"No data",
             "EDIT_CHART":"Edit Chart",
+            "DOWNLOAD_CHART":"Download Chart Image",
             "ZOOM_X":"X-Axis Zoom",
             "ZOOM_Y":"Y-Axis Zoom",
             "ZOOM_CANCEL":"Cancel Zoom",
@@ -2064,7 +2073,7 @@
             "HUMID":"Humidity",
             "BATTERY":"Battery",
             "RADAR":"Radar",
-            "AUDIO":"Audio"
+            "AUDIO":"Vibration"
         },
         "CALENDAR":{
             "TITLE":"Calendar"

@@ -1470,9 +1470,9 @@
                 "FILTER":"Evènements de température"
             },
             "AUDIO":{
-                "TITLE":"Audio",
-                "YAXIS":"Audio ({{label}})",
-                "FILTER":"Audio"
+                "TITLE":"Vibration",
+                "YAXIS":"Vibration ({{label}})",
+                "FILTER":"Vibration"
             },
             "RADAR":{
                 "TITLE":"Radar",
@@ -1640,6 +1640,12 @@
                 "YAXIS":"Humidité (%)",
                 "FILTER":"Humidité",
                 "FILTER_HOURLY":"Humidité horaire"
+            },
+            "CLOUD_COVER":{
+                "TITLE":"Couverture nuageuse",
+                "YAXIS":"Couverture nuageuse (%)",
+                "FILTER":"Couverture nuageuse",
+                "FILTER_HOURLY":"Couverture nuageuse horaire"
             },
             "NECTAR":{
                 "TITLE":"Indice de Miellée",
@@ -1934,11 +1940,13 @@
             "CHART_NAMES":{
                 "WEIGHT":"Poids",
                 "PROD":"Productivité",
+                "WEIGHT_CHANGE":"Variation de poids",
                 "TEMP":"Température",
                 "HUMID":"Humidité",
                 "BEECOUNT":"Compteur d'abeilles",
                 "RAIN":"Pluie",
                 "WIND":"Vent",
+                "CLOUD_COVER":"Couverture nuageuse",
                 "BATTERY":"Batterie",
                 "BROOD":"Couvain",
                 "NOTES":"Notes",
@@ -1989,6 +1997,7 @@
         "CHART":{
             "NO_DATA":"Pas de données",
             "EDIT_CHART":"Modifier le graphique",
+            "DOWNLOAD_CHART":"Télécharger l'image du graphique",
             "ZOOM_X":"Zoom axe X",
             "ZOOM_Y":"Zoom axe Y",
             "ZOOM_CANCEL":"Annuler le zoom",
@@ -2064,7 +2073,7 @@
             "HUMID":"Humidité",
             "BATTERY":"Batterie",
             "RADAR":"Radar",
-            "AUDIO":"Audio"
+            "AUDIO":"Vibration"
         },
         "CALENDAR":{
             "TITLE":"Calendrier"
