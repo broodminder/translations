@@ -450,7 +450,30 @@
         },
         "TODAY":"Hoy",
         "YESTERDAY":"Ayer",
-        "TOMMOROW":"Mañana"
+        "TOMMOROW":"Mañana",
+        "DAYS_SHORT":{
+            "0":"dom.",
+            "1":"lun.",
+            "2":"mar.",
+            "3":"mié.",
+            "4":"jue.",
+            "5":"vie.",
+            "6":"sáb."
+        },
+        "MONTHS_SHORT":{
+            "0":"ene.",
+            "1":"feb.",
+            "2":"mar.",
+            "3":"abr.",
+            "4":"may.",
+            "5":"jun.",
+            "6":"jul.",
+            "7":"ago.",
+            "8":"sep.",
+            "9":"oct.",
+            "10":"nov.",
+            "11":"dic."
+        }
 	},
     "DATE_PICKER_SHORT": {
 		"HOURS_24":"24 horas",
@@ -652,22 +675,26 @@
             "WEIGHT": {
                 "DESCRIPTION":"Sensor de peso a representar en el modo de multi-select",
                 "AUTO":"Peso máximo automático",
-                "NONE":"No mostrar sensores de peso en el modo de multi-select"
+                "NONE":"No mostrar sensores de peso en el modo de multi-select",
+                "ALL": "Show all weight devices in multi-select mode"
             },
             "TEMP": {
                 "DESCRIPTION":"Sensor de temperatura a representar en el modo de multi-select",
                 "AUTO":"Temperatura máxima automática",
-                "NONE":"No mostrar sensores de temperatura en el modo de multi-select"
+                "NONE":"No mostrar sensores de temperatura en el modo de multi-select",
+                "ALL": "Show all temperature devices in multi-select mode"
             },
             "HUMID": {
                 "DESCRIPTION":"Sensor de humedad para representar en el modo de multi-select",
                 "AUTO":"Humedad máxima automática",
-                "NONE":"No mostrar sensores de humedad en el modo de multi-select"
+                "NONE":"No mostrar sensores de humedad en el modo de multi-select",
+                "ALL": "Show all humidity devices in multi-select mode"
             },
             "BATTERY": {
                 "DESCRIPTION":"Carga de batería para representar en el modo de multi-select",
                 "AUTO":"Mostrar el sensor con la carga mas baja de batería en el modo de multi-select",
-                "NONE":"No mostrar cargas de batería en el modo de multi-select"
+                "NONE":"No mostrar cargas de batería en el modo de multi-select",
+                "ALL": "Show all devices in multi-select mode"
             }
         },
         "MOVE": {
@@ -2057,6 +2084,8 @@
                 "BROOD":"Cría",
                 "WEIGHT":"Peso",
                 "PROD":"Productividad",
+                "FORAG":"Foraging",
+                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
                 "ALERTS":"Alertas",
                 "NOTES":"Notas",
                 "HISTORY":"Historial",

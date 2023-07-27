@@ -450,7 +450,30 @@
         },
         "TODAY":"Today",
         "YESTERDAY":"Yesterday",
-        "TOMMOROW":"Tomorrow"
+        "TOMMOROW":"Tomorrow",
+        "DAYS_SHORT":{
+            "0":"Sun",
+            "1":"Mon",
+            "2":"Tue",
+            "3":"Wed",
+            "4":"Thu",
+            "5":"Fri",
+            "6":"Sat"
+        },
+        "MONTHS_SHORT":{
+            "0":"Jan",
+            "1":"Feb",
+            "2":"Mar",
+            "3":"Apr",
+            "4":"May",
+            "5":"Jun",
+            "6":"Jul",
+            "7":"Aug",
+            "8":"Sep",
+            "9":"Oct",
+            "10":"Nov",
+            "11":"Dev"
+        }
     },
     "DATE_PICKER_SHORT": {
         "HOURS_24": "24 Hours",
@@ -652,22 +675,26 @@
             "WEIGHT": {
                 "DESCRIPTION": "Weight device to graph in multi-select mode",
                 "AUTO": "Auto-select maximum scale weight",
-                "NONE": "Don't show a weight device in multi-select mode"
+                "NONE": "Don't show a weight device in multi-select mode",
+                "ALL": "Show all weight devices in multi-select mode"
             },
             "TEMP": {
                 "DESCRIPTION": "Temperature device to graph in multi-select mode",
                 "AUTO": "Auto-select maximum temperature",
-                "NONE": "Don't show a temperature device in multi-select mode"
+                "NONE": "Don't show a temperature device in multi-select mode",
+                "ALL": "Show all temperature devices in multi-select mode"
             },
             "HUMID": {
                 "DESCRIPTION": "Humidity device to graph in multi-select mode",
                 "AUTO": "Auto-select maximum humidity",
-                "NONE": "Don't show a humidity device in multi-select mode"
+                "NONE": "Don't show a humidity device in multi-select mode",
+                "ALL": "Show all humidity devices in multi-select mode"
             },
             "BATTERY": {
                 "DESCRIPTION": "Battery device to graph in multi-select mode",
                 "AUTO": "Show lowest Device battery in the Hive in multi-select mode",
-                "NONE": "Don't show a battery device in multi-select mode"
+                "NONE": "Don't show a battery device in multi-select mode",
+                "ALL": "Show all devices in multi-select mode"
             }
         },
         "MOVE": {
@@ -2057,6 +2084,8 @@
                 "BROOD":"Brood",
                 "WEIGHT":"Weight",
                 "PROD":"Productivity",
+                "FORAG":"Foraging",
+                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
                 "ALERTS":"Alerts",
                 "NOTES":"Notes",
                 "HISTORY":"History",

@@ -450,7 +450,30 @@
         },
         "TODAY":"Today",
         "YESTERDAY":"Yesterday",
-        "TOMMOROW":"Tomorrow"
+        "TOMMOROW":"Tomorrow",
+        "DAYS_SHORT":{
+            "0":"Sun",
+            "1":"Mon",
+            "2":"Tue",
+            "3":"Wed",
+            "4":"Thu",
+            "5":"Fri",
+            "6":"Sat"
+        },
+        "MONTHS_SHORT":{
+            "0":"Jan",
+            "1":"Feb",
+            "2":"Mar",
+            "3":"Apr",
+            "4":"May",
+            "5":"Jun",
+            "6":"Jul",
+            "7":"Aug",
+            "8":"Sep",
+            "9":"Oct",
+            "10":"Nov",
+            "11":"Dev"
+        }
     },
     "DATE_PICKER_SHORT": {
         "HOURS_24": "24 Hours",
@@ -652,22 +675,26 @@
             "WEIGHT": {
                 "DESCRIPTION": "Weegschaal om te tonen op Bijenstal overzicht",
                 "AUTO": "Auto-selectie maximum weegschaal gewicht",
-                "NONE": "Geen weegschaal tonen op Bijenstal overzicht"
+                "NONE": "Geen weegschaal tonen op Bijenstal overzicht",
+                "ALL": "Show all weight devices in multi-select mode"
             },
             "TEMP": {
                 "DESCRIPTION": "Temperatuursensor om te tonen op Bijenstal overzicht",
                 "AUTO": "Auto-selectie maximum temperatuur",
-                "NONE": "Geen temperatuursensor tonen op Bijenstal overzicht"
+                "NONE": "Geen temperatuursensor tonen op Bijenstal overzicht",
+                "ALL": "Show all temperature devices in multi-select mode"
             },
             "HUMID": {
                 "DESCRIPTION": "Hygrometer om te tonen op Bijenstal overzicht",
                 "AUTO": "Auto-selectie maximum luchtvochtigheid",
-                "NONE": "Geen hygrometer tonen op Bijenstal overzicht"
+                "NONE": "Geen hygrometer tonen op Bijenstal overzicht",
+                "ALL": "Show all humidity devices in multi-select mode"
             },
             "BATTERY": {
                 "DESCRIPTION": "Batterijsensor om te tonen op Bijenstal overzicht",
                 "AUTO": "Laagste batterijspanning van bijenkast op het Bijenstal overzicht tonen",
-                "NONE": "Geen batterijsensor op het Bijenstal overzicht tonen"
+                "NONE": "Geen batterijsensor op het Bijenstal overzicht tonen",
+                "ALL": "Show all devices in multi-select mode"
             }
         },
         "MOVE": {
@@ -969,6 +996,8 @@
         "DELETE_ERROR": "Fout bij verwijderen kast"
     },
     "CONFIGURE_HUBS": {
+        "FILTER":"Filter",
+        "BATTERY": "Battery",
         "NAME": "Name",
         "APIARY": "Apiary",
         "LAST_UPLOAD": "Last Upload",
@@ -1041,12 +1070,15 @@
     },
     "CONFIGURE_DEVICES": {
         "ADD": "Sensor toevoegen",
+        "FILTER_LOCATION":"Filter Location",
+        "FILTER_NAME":"Filter Name",
         "DOWNLOAD": "Sensors downloaden",
         "NAME": "Sensor naam",
         "ADDRESS": "Sensor adres",
         "LOCATION": "Huidige locatie",
         "DATA_RECEIVED": "Laatst ontvangen data",
         "LOCATION_HISTORY": "Locatiegeschiedenis",
+        "BATTERY": "Battery",
         "ADD_LOCATION": "Locatie toevoegen",
         "ACTIVE": "Actief",
         "CONFIRM_DELETE_WINDOW": {
@@ -1477,7 +1509,8 @@
             "BEECOUNT":{
                 "TITLE":"Bee Count",
                 "YAXIS":"Bee Count ({{label}})",
-                "FILTER":"Bee Count"
+                "FILTER":"Bee Count",
+                "UNIT":"bees/min"
             },
             "BROOD":{
                 "TITLE":"Brood",
@@ -2040,7 +2073,9 @@
                 "NOTES":"Notes",
                 "ALERTS":"Alerts",
                 "NECTAR":"Nectar Idx",
-                "FORAGING":"Foraging Idx"
+                "FORAGING":"Foraging Idx",
+                "MIN_TEMP":"Min Temp",
+                "WEATHER":"Weather"
             },
             "HIVE_OVERVIEW":{
                 "NAME":"Name",
@@ -2049,6 +2084,8 @@
                 "BROOD":"Brood",
                 "WEIGHT":"Weight",
                 "PROD":"Productivity",
+                "FORAG":"Foraging",
+                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
                 "ALERTS":"Alerts",
                 "NOTES":"Notes",
                 "HISTORY":"History",

@@ -450,7 +450,30 @@
         },
         "TODAY":"Aujourd'hui",
         "YESTERDAY":"Hier",
-        "TOMMOROW":"Demain"
+        "TOMMOROW":"Demain",
+        "DAYS_SHORT":{
+            "0":"dim.",
+            "1":"lun.",
+            "2":"mar.",
+            "3":"mer.",
+            "4":"jeu.",
+            "5":"ven.",
+            "6":"sam."
+        },
+        "MONTHS_SHORT":{
+            "0":"janv.",
+            "1":"févr.",
+            "2":"mars",
+            "3":"avr.",
+            "4":"mai",
+            "5":"juin",
+            "6":"juil.",
+            "7":"août",
+            "8":"sept.",
+            "9":"oct.",
+            "10":"nov.",
+            "11":"déc."
+        }
 	},
     "DATE_PICKER_SHORT": {
 		"HOURS_24":"24 heures",
@@ -652,22 +675,26 @@
             "WEIGHT": {
                 "DESCRIPTION":"Capteur de poids à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique du poids maximum de la balance",
-                "NONE":"N'affiche pas de capteur de poids en mode sélection multiple"
+                "NONE":"N'affiche pas de capteur de poids en mode sélection multiple",
+                "ALL": "Show all weight devices in multi-select mode"
             },
             "TEMP": {
                 "DESCRIPTION":"Capteur de température à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique de la température maximale",
-                "NONE":"N'affiche pas de capteur de température en mode sélection multiple"
+                "NONE":"N'affiche pas de capteur de température en mode sélection multiple",
+                "ALL": "Show all temperature devices in multi-select mode"
             },
             "HUMID": {
                 "DESCRIPTION":"Capteur d'humidité à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique de l'humidité maximale",
-                "NONE":"N'affiche pas de capteur d'humidité en mode sélection multiple"
+                "NONE":"N'affiche pas de capteur d'humidité en mode sélection multiple",
+                "ALL": "Show all humidity devices in multi-select mode"
             },
             "BATTERY": {
                 "DESCRIPTION":"Batterie du capteur à afficher en mode sélection multiple",
                 "AUTO":"Afficher la batterie du capteur la plus faible dans la ruche en mode sélection multiple ?",
-                "NONE":"N'affiche pas la batterie du capteur en mode sélection multiple"
+                "NONE":"N'affiche pas la batterie du capteur en mode sélection multiple",
+                "ALL": "Show all devices in multi-select mode"
             }
         },
         "MOVE": {
@@ -2057,6 +2084,8 @@
                 "BROOD":"Couvain",
                 "WEIGHT":"Poids",
                 "PROD":"Productivité",
+                "FORAG":"Foraging",
+                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
                 "ALERTS":"Alertes",
                 "NOTES":"Notes",
                 "HISTORY":"Historiques",
