@@ -2043,7 +2043,10 @@
             "NOTES":{
                 "TITLE":"{{count}} Notes",
                 "ADD":"Ajouter une note",
-                "ERROR":"Détails de la note non trouvés"
+                "ERROR":"Détails de la note non trouvés",
+                "MORE":"Charger plus",
+                "LOADING":"Chargement",
+                "SHOWING":"Montrant"
             },
             "ALERTS":{
                 "EDIT":{

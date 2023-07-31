@@ -2043,7 +2043,10 @@
             "NOTES":{
                 "TITLE":"{{count}} Notes",
                 "ADD":"Add Note",
-                "ERROR":"Note details not found"
+                "ERROR":"Note details not found",
+                "MORE":"Load More",
+                "LOADING":"Loading",
+                "SHOWING":"Showing"
             },
             "ALERTS":{
                 "EDIT":{
