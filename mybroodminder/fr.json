@@ -1694,10 +1694,10 @@
                 "UNIT":"heures"
             },
             "BC_FOR":{
-                "TITLE":"Voyages de Butinage",
-                "YAXIS":"Butinage (k voyages/jour)",
-                "FILTER":"Voyages de Butinage",
-                "UNIT":"voyages/jour"
+                "TITLE":"Trajets de Butinage",
+                "YAXIS":"Butinage (k trajets/jour)",
+                "FILTER":"Trajets de Butinage",
+                "UNIT":"trajets/jour"
             },
             "BC_WORK_PER":{
                 "TITLE":"Périodes de Butinage",

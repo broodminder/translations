@@ -1694,10 +1694,10 @@
                 "UNIT":"horas"
             },
             "BC_FOR":{
-                "TITLE":"Viajes de Pecoreo",
-                "YAXIS":"Pecoreo (k viajes/día)",
-                "FILTER":"Viajes de Pecoreo",
-                "UNIT":"viajes/día"
+                "TITLE":"Trayectos de Pecoreo",
+                "YAXIS":"Pecoreo (k trayectos/día)",
+                "FILTER":"Trayectos de Pecoreo",
+                "UNIT":"trayectos/día"
             },
             "BC_WORK_PER":{
                 "TITLE":"Períodos de Pecoreo",
@@ -1750,7 +1750,7 @@
                 "SCATTERED_CLOUDS":"Nubes dispersas",
                 "SHOWER_RAIN":"Aguacero",
                 "BROKEN_CLOUDS":"Nubes rotas",
-                "SHOWER":"Shower",
+                "SHOWER":"Chubasco",
                 "RAIN":"Lluvia",
                 "THUNDERSTORM":"Tormenta eléctrica",
                 "SHOWER_SNOW":"Nieve abundante",
@@ -2119,8 +2119,8 @@
                 "ALERTS":"Alertas",
                 "NECTAR":"Nectar Idx",
                 "FORAGING":"Pecoreo Idx",
-                "MIN_TEMP":"Min Temp",
-                "WEATHER":"Weather"
+                "MIN_TEMP":"Temp. Min",
+                "WEATHER":"Meteo"
             },
             "HIVE_OVERVIEW":{
                 "NAME":"Nombre",
@@ -2129,8 +2129,8 @@
                 "BROOD":"Cría",
                 "WEIGHT":"Peso",
                 "PROD":"Productividad",
-                "FORAG":"Foraging",
-                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
+                "FORAG":"Pecoreo",
+                "FORAG_DESC":"Trayectos de la jornada | Duración de pecoreo (horas) | Periodos de trabajo",
                 "ALERTS":"Alertas",
                 "NOTES":"Notas",
                 "HISTORY":"Historial",
@@ -2179,7 +2179,7 @@
         "START":{
             "TITLE":"¡Nuevo y mejorado MyBroodMinder!",
             "TEXT":"¡Bienvenido al nuevo y mejorado MyBroodMinder! Hemos añadido nuevas funciones, gráficos y datos. Obtenga más información aquí.",
-            "NAV_BUTTON":"Navigation",
+            "NAV_BUTTON":"Navegación",
             "DASH_BUTTON":"Dashboards",
             "EXTRAS_BUTTON":"Extras",
             "DONE_BUTTON":"Hecho"
