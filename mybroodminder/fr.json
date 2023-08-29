@@ -68,7 +68,8 @@
 			"NEW_DEVICE":"Nouveau capteur",
 			"EXISTING_DEVICE":"Déplacer le capteur",
             "BEECOUNTED":"BeeCounted",
-            "MOVE": "Transhumer la Ruche"
+            "MOVE": "Transhumer la Ruche",
+            "ARCHIVE":"Désactiver la ruche"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Modifier {{value}}",
@@ -525,7 +526,8 @@
         },
         "BROOD_ZONE":"Zone de couvain",
         "HUMIDITY_NORMAL":"Plage hygro int.",
-        "PRESSURE":"Pression"
+        "PRESSURE":"Pression",
+        "WIND_MAX":"Limite supérieure du vent"
     },
     "LOCATION_HIST": {
         "HIVE":"Ruche",
@@ -1660,7 +1662,8 @@
                 "TITLE":"Précipitations",
                 "YAXIS":"Précipitations ({{label}})",
                 "FILTER":"Précipation",
-                "FILTER_HOURLY":"Précipation horaire"
+                "FILTER_HOURLY":"Précipation horaire",
+                "FILTER_CUMULATIVE":"Précipitations cumulées"
             },
             "HUMID":{
                 "TITLE":"Humidité",
@@ -1683,6 +1686,42 @@
                 "TITLE":"Indice de Butinage",
                 "YAXIS":"Indice Butinage (%)",
                 "FILTER":"Indice Butinage"
+            },
+            "BC_ACTIV_DUR":{
+                "TITLE":"Durée de Butinage",
+                "YAXIS":"Durée de Butinage (heures)",
+                "FILTER":"Durée de Butinagen",
+                "UNIT":"heures"
+            },
+            "BC_FOR":{
+                "TITLE":"Voyages de Butinage",
+                "YAXIS":"Butinage (k voyages/jour)",
+                "FILTER":"Voyages de Butinage",
+                "UNIT":"voyages/jour"
+            },
+            "BC_WORK_PER":{
+                "TITLE":"Périodes de Butinage",
+                "YAXIS":"Périodes par jour",
+                "FILTER":"Périodes de Butinage",
+                "UNIT":"périodes/jour"
+            },
+            "MF_DUR":{
+                "TITLE":"Durée du vol d'accouplement",
+                "YAXIS":"Fenêtre de vol (heures)",
+                "FILTER":"Fenêtre de vol (heures)",
+                "UNIT":"heures"
+            },
+            "MF_COUNT":{
+                "TITLE":"Nombre de vols d'accouplement",
+                "YAXIS":"vols/jour",
+                "FILTER":"Nombre de vols d'accouplement",
+                "UNIT":"vols/jour"
+            },
+            "MF_SESS":{
+                "TITLE":"Séances de vol d'accouplement",
+                "YAXIS":"Séances/jour",
+                "FILTER":"Séances de vol d'accouplement",
+                "UNIT":"séances/jour"
             }
         }
     },
@@ -1974,13 +2013,16 @@
                 "RAIN":"Pluie",
                 "WIND":"Vent",
                 "CLOUD_COVER":"Couverture nuageuse",
+                "MATING_FLIGHTS":"Fenêtre de vol d'accouplement",
                 "BATTERY":"Batterie",
                 "BROOD":"Couvain",
                 "NOTES":"Notes",
                 "APIARY_IMAGE":"Image du rucher",
                 "APIARY_MAP":"Carte des ruchers",
                 "FORAGING":"Indice de Butinage",
-                "NECTAR":"Indice de Miellée"
+                "NECTAR":"Indice de Miellée",
+                "HIVE_TEXT":"Texte de la ruche",
+                "HIVE_TEXT_SUMMARY":"Texte"
             }
         },
         "CHART":{
@@ -2093,6 +2135,23 @@
                 "NOTES":"Notes",
                 "HISTORY":"Historiques",
                 "HISTORY_TOOLTIP":"Historiques"
+            },
+            "HIVE_TEXT":{
+                "NAME":"Nom",
+                "DATE":"Date",
+                "LOCATION":"Emplacement",
+                "LAST_SEEN":"Dernière fois",
+                "TEMP":"Température",
+                "HUMID":"Humidité",
+                "WEIGHT":"Poids",
+                "GAIN_S":"Gain (depuis le lever du soleil)",
+                "BEEDAR":"Beedar",
+                "BATTERY":"Batterie",
+                "NO_DATA":"Aucune donnée dans la plage horaire",
+                "GAIN":"Gain",
+                "SUNRISE":"Lever du soleil",
+                "INITIAL":"Initial",
+                "LATEST":"Dernier"
             }
         }
     },

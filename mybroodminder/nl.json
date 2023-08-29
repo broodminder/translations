@@ -68,7 +68,8 @@
             "NEW_DEVICE": "Nieuwe sensor toevoegen",
             "EXISTING_DEVICE": "Bestaande sensor toevoegen",
             "BEECOUNTED": "BeeCounted",
-            "MOVE": "Bijenkorf verplaatsen"
+            "MOVE": "Bijenkorf verplaatsen",
+            "ARCHIVE":"Set Hive as Inactive"
         },
         "DEVICE_CONTEXT": {
             "EDIT": "Bewerk {{value}}",
@@ -525,7 +526,8 @@
         },
         "BROOD_ZONE": "Brood Zone",
         "HUMIDITY_NORMAL": "Normal",
-        "PRESSURE":"Pressure"
+        "PRESSURE":"Pressure",
+        "WIND_MAX":"Wind upper limit"
     },
     "LOCATION_HIST": {
         "HIVE": "Bijenkast",
@@ -1660,7 +1662,8 @@
                 "TITLE":"Rainfall",
                 "YAXIS":"Rainfall ({{label}})",
                 "FILTER":"Rainfall",
-                "FILTER_HOURLY":"Rain Hourly"
+                "FILTER_HOURLY":"Rain Hourly",
+                "FILTER_CUMULATIVE":"Rain Cumulative"
             },
             "HUMID":{
                 "TITLE":"Humidity",
@@ -1683,6 +1686,42 @@
                 "TITLE":"Foraging index",
                 "YAXIS":"Foraging index (%)",
                 "FILTER":"Foraging index"
+            },
+            "BC_ACTIV_DUR":{
+                "TITLE":"Foraging Duration",
+                "YAXIS":"Foraging Duration (hours)",
+                "FILTER":"Foraging Duration",
+                "UNIT":"hours"
+            },
+            "BC_FOR":{
+                "TITLE":"Foraging Trips",
+                "YAXIS":"Foraging (k trips/day)",
+                "FILTER":"Foraging Trips",
+                "UNIT":"trips/day"
+            },
+            "BC_WORK_PER":{
+                "TITLE":"Foraging Periods",
+                "YAXIS":"Periods per day",
+                "FILTER":"Foraging Periods",
+                "UNIT":"periods/day"
+            },
+            "MF_DUR":{
+                "TITLE":"Mating Flight Duration",
+                "YAXIS":"Flight Window (hours)",
+                "FILTER":"Flight Window (hours)",
+                "UNIT":"hours"
+            },
+            "MF_COUNT":{
+                "TITLE":"Mating Flight Count",
+                "YAXIS":"flights/day",
+                "FILTER":"Mating Flight Count",
+                "UNIT":"flights/day"
+            },
+            "MF_SESS":{
+                "TITLE":"Mating Flight Sessions",
+                "YAXIS":"Sessions/day",
+                "FILTER":"Mating Flight Sessions",
+                "UNIT":"sessions/day"
             }
         }
     },
@@ -1974,13 +2013,16 @@
                 "RAIN":"Rain",
                 "WIND":"Wind",
                 "CLOUD_COVER":"Cloud Cover",
+                "MATING_FLIGHTS":"Mating Flight Window",
                 "BATTERY":"Battery",
                 "BROOD":"Brood",
                 "NOTES":"Notes",
                 "APIARY_IMAGE":"Apiary Image",
                 "APIARY_MAP":"Apiaries Map",
                 "FORAGING":"Foraging Index",
-                "NECTAR":"Nectar Flow Index"
+                "NECTAR":"Nectar Flow Index",
+                "HIVE_TEXT":"Hive Text",
+                "HIVE_TEXT_SUMMARY":"Text"
             }
         },
         "CHART":{
@@ -2093,6 +2135,23 @@
                 "NOTES":"Notes",
                 "HISTORY":"History",
                 "HISTORY_TOOLTIP":"History"
+            },
+            "HIVE_TEXT":{
+                "NAME":"Name",
+                "DATE":"Date",
+                "LOCATION":"Location",
+                "LAST_SEEN":"Last Seen",
+                "TEMP":"Temperature",
+                "HUMID":"Humidity",
+                "WEIGHT":"Weight",
+                "GAIN_S":"Gain (since sunrise)",
+                "BEEDAR":"Beedar",
+                "BATTERY":"Battery",
+                "NO_DATA":"No data in time range",
+                "GAIN":"Gain",
+                "SUNRISE":"Sunrise",
+                "INITIAL":"Initial",
+                "LATEST":"Latest"
             }
         }
     },

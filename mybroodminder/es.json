@@ -68,7 +68,8 @@
 			"NEW_DEVICE":"Añadir sensor",
 			"EXISTING_DEVICE":"Mover sensor",
             "BEECOUNTED":"BeeCounted",
-            "MOVE":"Desplazar colmena"
+            "MOVE":"Desplazar colmena",
+            "ARCHIVE":"Desactivar la colmena"
 		},
 		"DEVICE_CONTEXT": {
 			"EDIT":"Editar {{value}}",
@@ -525,7 +526,8 @@
         },
         "BROOD_ZONE":"Zona de cría",
         "HUMIDITY_NORMAL":"Normal",
-        "PRESSURE":"Presión"
+        "PRESSURE":"Presión",
+        "WIND_MAX":"Límite superior del viento"
     },
     "LOCATION_HIST": {
         "HIVE":"Colmena",
@@ -1660,7 +1662,8 @@
                 "TITLE":"Precipitación",
                 "YAXIS":"Precipitación ({{label}})",
                 "FILTER":"Precipitación",
-                "FILTER_HOURLY":"Precipitación Horaria"
+                "FILTER_HOURLY":"Precipitación Horaria",
+                "FILTER_CUMULATIVE":"Precipitación Acumulada"
             },
             "HUMID":{
                 "TITLE":"Humedad",
@@ -1683,6 +1686,42 @@
                 "TITLE":"Índice de pecoreo",
                 "YAXIS":"Pecoreo (%)",
                 "FILTER":"Índice de pecoreo"
+            },
+            "BC_ACTIV_DUR":{
+                "TITLE":"Duración de Pecoreo",
+                "YAXIS":"Duración de Pecoreo (horas)",
+                "FILTER":"Duración de Pecoreo",
+                "UNIT":"horas"
+            },
+            "BC_FOR":{
+                "TITLE":"Viajes de Pecoreo",
+                "YAXIS":"Pecoreo (k viajes/día)",
+                "FILTER":"Viajes de Pecoreo",
+                "UNIT":"viajes/día"
+            },
+            "BC_WORK_PER":{
+                "TITLE":"Períodos de Pecoreo",
+                "YAXIS":"Periodos por dia",
+                "FILTER":"Períodos de Pecoreo",
+                "UNIT":"periodos/dia"
+            },
+            "MF_DUR":{
+                "TITLE":"Duración del vuelo de apareamiento",
+                "YAXIS":"Ventana de vuelo (horas)",
+                "FILTER":"Ventana de vuelo (horas)",
+                "UNIT":"horas"
+            },
+            "MF_COUNT":{
+                "TITLE":"Recuento de vuelos de apareamiento",
+                "YAXIS":"vuelos/dia",
+                "FILTER":"Recuento de vuelos de apareamiento",
+                "UNIT":"vuelos/dia"
+            },
+            "MF_SESS":{
+                "TITLE":"Sesiones de vuelo de apareamiento",
+                "YAXIS":"Sesiones/día",
+                "FILTER":"Sesiones de vuelo de apareamiento",
+                "UNIT":"ssesiones/día"
             }
         }
     },
@@ -1974,13 +2013,16 @@
                 "RAIN":"Lluvia",
                 "WIND":"Viento",
                 "CLOUD_COVER":"Cubierto de nubes",
+                "MATING_FLIGHTS":"Ventana de vuelo de apareamiento",
                 "BATTERY":"Batería",
                 "BROOD":"Cria",
                 "NOTES":"Notas",
                 "APIARY_IMAGE":"Imagen Colmenar",
                 "APIARY_MAP":"Mapa de Colmenares",
                 "FORAGING":"Indice de Pecoreo",
-                "NECTAR":"Indice de Nectar"
+                "NECTAR":"Indice de Nectar",
+                "HIVE_TEXT":"Texto de la colmena",
+                "HIVE_TEXT_SUMMARY":"Texto"
             }
         },
         "CHART":{
@@ -2093,6 +2135,23 @@
                 "NOTES":"Notas",
                 "HISTORY":"Historial",
                 "HISTORY_TOOLTIP":"Historial"
+            },
+            "HIVE_TEXT":{
+                "NAME":"Nombre",
+                "DATE":"Fecha",
+                "LOCATION":"Ubicación",
+                "LAST_SEEN":"Ultima vez visto",
+                "TEMP":"Temperatura",
+                "HUMID":"Humedad",
+                "WEIGHT":"Peso",
+                "GAIN_S":"Ganancia (desde el amanecer)",
+                "BEEDAR":"Beedar",
+                "BATTERY":"Batería",
+                "NO_DATA":"No hay datos en el rango de tiempo",
+                "GAIN":"Ganancia",
+                "SUNRISE":"Amanecer",
+                "INITIAL":"Inicial",
+                "LATEST":"El último"
             }
         }
     },
