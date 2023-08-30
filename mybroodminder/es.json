@@ -264,7 +264,7 @@
             "TITLE":"Temperatura",
             "NONE":"No hay datos de temperatura",
             "LOADING":"Cargando datos de temperatura",
-            "HIDE_SWARM_FLAGS":"Hide temperature events"
+            "HIDE_SWARM_FLAGS":"Ocultar eventos de temperatura"
         },
         "HUMID": {
             "TITLE":"Humedad",
@@ -678,25 +678,25 @@
                 "DESCRIPTION":"Sensor de peso a representar en el modo de multi-select",
                 "AUTO":"Peso máximo automático",
                 "NONE":"No mostrar sensores de peso en el modo de multi-select",
-                "ALL": "Show all weight devices in multi-select mode"
+                "ALL": "Mostrar todos los sensores de peso en modo multi-select"
             },
             "TEMP": {
                 "DESCRIPTION":"Sensor de temperatura a representar en el modo de multi-select",
                 "AUTO":"Temperatura máxima automática",
                 "NONE":"No mostrar sensores de temperatura en el modo de multi-select",
-                "ALL": "Show all temperature devices in multi-select mode"
+                "ALL": "Mostrar todos los sensores de temperatura en modo multi-select"
             },
             "HUMID": {
                 "DESCRIPTION":"Sensor de humedad para representar en el modo de multi-select",
                 "AUTO":"Humedad máxima automática",
                 "NONE":"No mostrar sensores de humedad en el modo de multi-select",
-                "ALL": "Show all humidity devices in multi-select mode"
+                "ALL": "Mostrar todos los sensores de humedad en modo multi-select"
             },
             "BATTERY": {
                 "DESCRIPTION":"Carga de batería para representar en el modo de multi-select",
                 "AUTO":"Mostrar el sensor con la carga mas baja de batería en el modo de multi-select",
                 "NONE":"No mostrar cargas de batería en el modo de multi-select",
-                "ALL": "Show all devices in multi-select mode"
+                "ALL": "Mostrar todos los sensores en modo multi-select"
             }
         },
         "MOVE": {
@@ -1212,7 +1212,7 @@
             "SUB_EXPIRING":"Vence el {{expiration}}",
             "CREDIT_CANCELLED":"No se renueva, vence el {{expiration}}",
             "CREDIT_FREE_RENEWING":"Gratuito, vence el {{expiration}}",
-            "CREDIT_PREPAID_RENEWING": "Pre-paid, expires on {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Pre-pago, vence el {{expiration}}",
             "CREDIT_EXPIRED":"Vencido el {{expiration}}",
             "CREDIT_EXPIRING":"Vence el {{expiration}}",
             "PENDING":"Pago Pendiente"

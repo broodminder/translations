@@ -678,25 +678,25 @@
                 "DESCRIPTION":"Capteur de poids à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique du poids maximum de la balance",
                 "NONE":"N'affiche pas de capteur de poids en mode sélection multiple",
-                "ALL": "Show all weight devices in multi-select mode"
+                "ALL": "Afficher tous les capteurs de poids en mode multi-sélection"
             },
             "TEMP": {
                 "DESCRIPTION":"Capteur de température à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique de la température maximale",
                 "NONE":"N'affiche pas de capteur de température en mode sélection multiple",
-                "ALL": "Show all temperature devices in multi-select mode"
+                "ALL": "Afficher tous les capteurs de température en mode multisélection"
             },
             "HUMID": {
                 "DESCRIPTION":"Capteur d'humidité à afficher en mode sélection multiple",
                 "AUTO":"Sélection automatique de l'humidité maximale",
                 "NONE":"N'affiche pas de capteur d'humidité en mode sélection multiple",
-                "ALL": "Show all humidity devices in multi-select mode"
+                "ALL": "Afficher tous les capteurs d'humidité en mode multisélection"
             },
             "BATTERY": {
                 "DESCRIPTION":"Batterie du capteur à afficher en mode sélection multiple",
                 "AUTO":"Afficher la batterie du capteur la plus faible dans la ruche en mode sélection multiple ?",
                 "NONE":"N'affiche pas la batterie du capteur en mode sélection multiple",
-                "ALL": "Show all devices in multi-select mode"
+                "ALL": "Afficher tous les capteurs en mode multisélection"
             }
         },
         "MOVE": {
@@ -2129,8 +2129,8 @@
                 "BROOD":"Couvain",
                 "WEIGHT":"Poids",
                 "PROD":"Productivité",
-                "FORAG":"Foraging",
-                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
+                "FORAG":"Butinage",
+                "FORAG_DESC":"Activité (trajets/jour) | Durée de butinage (heures) | Périodes de travail (nb)",
                 "ALERTS":"Alertes",
                 "NOTES":"Notes",
                 "HISTORY":"Historiques",
