@@ -463,7 +463,7 @@
 		<value>Éditer {0}</value>
 	</data>
 	<data name="APIARY_CREATE_NAME">
-		<value>Nom</value>
+		<value>Nom du rucher</value>
 	</data>
 	<data name="APIARY_CREATE_NAMEREQUIRED">
 		<value>*Nom requis</value>

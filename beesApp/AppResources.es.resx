@@ -463,7 +463,7 @@
 		<value>Editar {0}</value>
 	</data>
 	<data name="APIARY_CREATE_NAME">
-		<value>Nombre</value>
+		<value>Nombre del colmenar</value>
 	</data>
 	<data name="APIARY_CREATE_NAMEREQUIRED">
 		<value>*Entrar un Nombre</value>

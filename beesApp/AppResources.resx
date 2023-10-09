@@ -463,7 +463,7 @@
 		<value>Edit {0}</value>
 	</data>
 	<data name="APIARY_CREATE_NAME">
-		<value>Name</value>
+		<value>Apiary Name</value>
 	</data>
 	<data name="APIARY_CREATE_NAMEREQUIRED">
 		<value>*Name is required</value>
