@@ -309,6 +309,15 @@
 	<data name="DEVICE_CLAIM_CONFIRM">
 		<value>Yes, Claim device</value>
 	</data>
+	<data name="DEVICE_CLAIM_AUTOMESSAGE">
+		<value>Device {0} was claimed successfully</value>
+	</data>
+	<data name="DEVICE_CLAIM_HIVE_NOW">
+		<value>Assign to hive now</value>
+	</data>
+	<data name="DEVICE_CLAIM_HIVE_LATER">
+		<value>Assign to hive later</value>
+	</data>
 	<data name="DEVICE_STATUS_UNAVAILABLE">
 		<value>Unavailable</value>
 	</data>
@@ -463,7 +472,7 @@
 		<value>Edit {0}</value>
 	</data>
 	<data name="APIARY_CREATE_NAME">
-		<value>Name</value>
+		<value>Apiary Name</value>
 	</data>
 	<data name="APIARY_CREATE_NAMEREQUIRED">
 		<value>*Name is required</value>
@@ -494,6 +503,12 @@
 	</data>
 	<data name="APIARY_EDIT_ERROR">
 		<value>Apiary not updated</value>
+	</data>
+	<data name="HIVE_CREATE_NAME">
+		<value>Hive Name</value>
+	</data>
+	<data name="HIVE_CREATE_DESCRIPTION">
+		<value>Description (optional)</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
 		<value>Move Hive</value>
@@ -1254,6 +1269,12 @@
 	<data name="HIVEDETAILS_ADDNOTE">
 		<value>Add Note</value>
 	</data>
+	<data name="LOGIN_USERNAME">
+		<value>Username</value>
+	</data>
+	<data name="LOGIN_PASSWORD">
+		<value>Password</value>
+	</data>
 	<data name="FORGOTPASSWORD_TITLE">
 		<value>Forgot Password</value>
 	</data>
@@ -1325,6 +1346,9 @@
 	</data>
 	<data name="REGISTER_PASSWORD2">
 		<value>Re-enter Password</value>
+	</data>
+	<data name="REGISTER_SHOW_EULA">
+		<value>View License Agreement</value>
 	</data>
 	<data name="REGISTER_EULA1">
 		<value>MyBroodMinder.com EULA (End User License Agreement) v1.1</value>
