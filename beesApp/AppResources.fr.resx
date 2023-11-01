@@ -310,13 +310,13 @@
 		<value>Oui, Réclamer le capteur</value>
 	</data>
 	<data name="DEVICE_CLAIM_AUTOMESSAGE">
-		<value>Device {0} was claimed successfully</value>
+		<value>Le capteur {0} a été réclamé avec succès</value>
 	</data>
 	<data name="DEVICE_CLAIM_HIVE_NOW">
-		<value>Assign to hive now</value>
+		<value>Assigner à une ruche maintenant</value>
 	</data>
 	<data name="DEVICE_CLAIM_HIVE_LATER">
-		<value>Assign to hive later</value>
+		<value>Assigner plus tard</value>
 	</data>
 	<data name="DEVICE_STATUS_UNAVAILABLE">
 		<value>Indisponible</value>
@@ -505,10 +505,10 @@
 		<value>Rucher non mis à jour</value>
 	</data>
 	<data name="HIVE_CREATE_NAME">
-		<value>Hive Name</value>
+		<value>Nom de la ruche</value>
 	</data>
 	<data name="HIVE_CREATE_DESCRIPTION">
-		<value>Description (optional)</value>
+		<value>Description (optionnel)</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
 		<value>Transhumer la ruche</value>
@@ -1273,7 +1273,7 @@
 		<value>Nom d'utilisateur</value>
 	</data>
 	<data name="LOGIN_PASSWORD">
-		<value>Password</value>
+		<value>Mot de passe</value>
 	</data>
 	<data name="FORGOTPASSWORD_TITLE">
 		<value>Mot de passe oublié</value>
@@ -1348,7 +1348,7 @@
 		<value>Re-taper le mot de passe</value>
 	</data>
 	<data name="REGISTER_SHOW_EULA">
-		<value>View License Agreement</value>
+		<value>Lire l'accord de licence</value>
 	</data>
 	<data name="REGISTER_EULA1">
 		<value>MyBroodMinder.com EULA (End User License Agreement) v1.1</value>
@@ -1624,28 +1624,28 @@
 		<value>Tentative de téléchargement du dispositif</value>
 	</data>
 	<data name="APNCONFIGURE_LENGTH">
-		<value>Apn must be less than 30 characters</value>
+		<value>L'Apn doit être inférieur à 30 caractères</value>
 	</data>
 	<data name="APNCONFIGURE_APN_SHORT">
-		<value>Apn (first 7 char)</value>
+		<value>Apn (premiers 7 car.)</value>
 	</data>
 	<data name="APNCONFIGURE_STATUS">
 		<value>Status</value>
 	</data>
 	<data name="APNCONFIGURE_MINUTES_TO">
-		<value>Minutes Until Upload</value>
+		<value>Minutes pour Publier</value>
 	</data>
 	<data name="APNCONFIGURE_MINUTES_FROM">
-		<value>Minutes Since Upload</value>
+		<value>Minutes depuis Publication</value>
 	</data>
 	<data name="APNCONFIGURE_SENTCOUNT">
-		<value>Samples Sent</value>
+		<value>Samples Envoyés</value>
 	</data>
 	<data name="APNCONFIGURE_UPDATE_IN">
-		<value>Uploads in {0} min</value>
+		<value>Publie dans {0} min</value>
 	</data>
 	<data name="APNCONFIGURE_UPLOAD">
-		<value>Upload Now</value>
+		<value>Publie Maintenant</value>
 	</data>
 	<data name="APNCONFIGURE_REBOOT">
 		<value>Reboot</value>
@@ -1654,40 +1654,40 @@
 		<value>APN</value>
 	</data>
 	<data name="APNCONFIGURE_SET_APN">
-		<value>Set APN</value>
+		<value>Régler l'APN</value>
 	</data>
 	<data name="APNCONFIGURE_APN_SET">
-		<value>APN set as {0}</value>
+		<value>APN défini comme {0}</value>
 	</data>
 	<data name="APNCONFIGURE_ELAPSED">
-		<value>Elapsed</value>
+		<value>Ecoulée</value>
 	</data>
 	<data name="APNCONFIGURE_NETWORKSIGNAL">
-		<value>Network Signal</value>
+		<value>Signal Réseau</value>
 	</data>
 	<data name="APNCONFIGURE_LASTUPLOAD_SERVER">
-		<value>Last upload (remote)</value>
+		<value>Dernière publication (remote)</value>
 	</data>
 	<data name="APNCONFIGURE_SETTING_APN">
-		<value>Setting APN</value>
+		<value>Définir APN</value>
 	</data>
 	<data name="APNCONFIGURE_SETTING_APN_ERROR">
-		<value>Error setting APN</value>
+		<value>Erreur de paramétrage de l'APN</value>
 	</data>
 	<data name="APNCONFIGURE_REBOOTING">
-		<value>Triggering reboot</value>
+		<value>Redémarrage</value>
 	</data>
 	<data name="APNCONFIGURE_REBOOT_ERROR">
-		<value>Error triggering reboot</value>
+		<value>Erreur lors du redémarrage</value>
 	</data>
 	<data name="APNCONFIGURE_RSSI">
-		<value>Bluetooth Signal</value>
+		<value>Signal Bluetooth</value>
 	</data>
 	<data name="APNCONFIGURE_COMPLETE">
-		<value>Complete</value>
+		<value>Complété</value>
 	</data>
 	<data name="APNCONFIGURE_DISCONNECT_ERROR">
-		<value>Error disconnecting</value>
+		<value>Error de déconnexion</value>
 	</data>
 	<data name="APNCONFIGURE_">
 		<value></value>
@@ -1849,9 +1849,9 @@
 		<value>Oui, effacer toutes les données</value>
 	</data>
 	<data name="DIF_7AM_SHORT">
-		<value>7AM diff</value>
+		<value>7:00 var.</value>
 	</data>
 	<data name="DIF_7AM_LONG">
-		<value>7AM weight diff:</value>
+		<value>7:00 var. poids:</value>
 	</data>
 </root>
