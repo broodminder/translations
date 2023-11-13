@@ -527,7 +527,8 @@
         "BROOD_ZONE": "Brood Zone",
         "HUMIDITY_NORMAL": "Normal",
         "PRESSURE":"Pressure",
-        "WIND_MAX":"Wind upper limit"
+        "WIND_MAX":"Wind upper limit",
+        "FIRMWARE":"Firmware"
     },
     "LOCATION_HIST": {
         "HIVE": "Bijenkast",
@@ -1151,6 +1152,12 @@
             "CHECKBOX": "Bee Informed Partnership",
             "CHANGED": "Bijenstal geupdate",
             "INFO": "Binnenkort beschikbaar"
+        },
+        "PH": {
+            "CHECKBOX": "Bee-life.eu",
+            "CHANGED": "Apiary updated",
+            "INFO": "Share your sensor data with Bee Life association through the European Union Pollinator Hub to improve pollinator policy by leveraging advanced technology and data-driven insights collected by beekepers.\n\nThe data being shared:\n- all devices in this apiary with their raw measurements.\n- a rough location of the apiary based on postal code.\n\nData is sent daily to BeeLife.",
+            "EXTERNAL_INFO":"Learn more"
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera(Beta)",

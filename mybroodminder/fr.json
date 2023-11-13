@@ -527,7 +527,8 @@
         "BROOD_ZONE":"Zone de couvain",
         "HUMIDITY_NORMAL":"Plage hygro int.",
         "PRESSURE":"Pression",
-        "WIND_MAX":"Limite supérieure du vent"
+        "WIND_MAX":"Limite supérieure du vent",
+        "FIRMWARE":"Firmware"
     },
     "LOCATION_HIST": {
         "HIVE":"Ruche",
@@ -1152,6 +1153,12 @@
             "CHANGED":"Rucher mis à jour",
             "INFO":"Bientôt disponible"
         },
+        "PH": {
+            "CHECKBOX": "Bee-life.eu",
+            "CHANGED": "Apiary updated",
+            "INFO": "Share your sensor data with Bee Life association through the European Union Pollinator Hub to improve pollinator policy by leveraging advanced technology and data-driven insights collected by beekepers.\n\nThe data being shared:\n- all devices in this apiary with their raw measurements.\n- a rough location of the apiary based on postal code.\n\nData is sent daily to BeeLife.",
+            "EXTERNAL_INFO":"Learn more"
+        },
         "MELLISPHERA": {
             "CHECKBOX":"Mellisphera (Beta)",
             "INFO_NO_ACCOUNT":"Compte non connecté à Mellisphera",
@@ -1703,7 +1710,7 @@
                 "TITLE":"Périodes de Butinage",
                 "YAXIS":"Périodes par jour",
                 "FILTER":"Périodes de Butinage",
-                "UNIT":"périodes/jour"
+                "UNIT":"périodes"
             },
             "MF_DUR":{
                 "TITLE":"Durée du vol d'accouplement",
