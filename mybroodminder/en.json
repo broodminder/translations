@@ -473,7 +473,7 @@
             "8":"Sep",
             "9":"Oct",
             "10":"Nov",
-            "11":"Dev"
+            "11":"Dec"
         }
     },
     "DATE_PICKER_SHORT": {
@@ -950,6 +950,7 @@
         "ZIPCODE": "Postal Code",
         "SHARE": "Share",
         "ACTIVE": "Active",
+        "SHOW_INACTIVE": "Show Inactive",
         "CONFIRM_DELETE_WINDOW": {
             "TITLE": "Delete Apiary",
             "MESSAGE": "Are you sure you want to delete apiary {{name}}? This permanantly deletes the apiary.",

@@ -950,6 +950,7 @@
         "ZIPCODE": "Postcode",
         "SHARE": "Delen",
         "ACTIVE": "Actief",
+        "SHOW_INACTIVE": "Toon inactief",
         "CONFIRM_DELETE_WINDOW": {
             "TITLE": "Bijenstal verwijderen",
             "MESSAGE": "Weet je zeker dat je bijenstal {{name}} wilt verwijderen? Dit verwijdert definitief alle data inclusief bijenkasten",

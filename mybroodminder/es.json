@@ -950,6 +950,7 @@
         "ZIPCODE":"Código postal",
         "SHARE":"Compartir",
         "ACTIVE":"Activo",
+        "SHOW_INACTIVE": "Mostrar inactivo",
         "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Suprimir colmenar",
            "MESSAGE":"¿Estás seguro de que deseas eliminar el colmenar {{name}}? El colmenar y sus datos asociados, incluyendo las colmenas, se eliminaran definitivamente.",

@@ -950,6 +950,7 @@
         "ZIPCODE":"Code Postal",
         "SHARE":"Partager",
         "ACTIVE":"Actif",
+        "SHOW_INACTIVE": "Afficher inactif",
         "CONFIRM_DELETE_WINDOW": {
            "TITLE":"Supprimer le rucher",
            "MESSAGE":"Êtes-vous sûr de vouloir supprimer le rucher {{name}} ? Ceci supprime définitivement le rucher et ses données associées, y compris les ruches.",
