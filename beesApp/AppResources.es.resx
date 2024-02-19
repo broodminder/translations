@@ -262,7 +262,7 @@
 		<value>Ver Detalles</value>
 	</data>
 	<data name="HIVE_SH_STATUS">
-		<value>Actualizando en</value>
+		<value>Actualiza en</value>
 	</data>
 	<data name="HIVE_SH_STATUS_SLEEP">
 		<value>Sensor en modo Deep Sleep.</value>
