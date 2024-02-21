@@ -1,0 +1,84 @@
+{
+    "ACCOUNT": {
+      "SUBJECT": "Status Ihres MyBroodMinder-Kontos",
+      "MESSAGE_1": "Liebe {{.name}},",
+      "EXP_2W": "Unsere Aufzeichnungen zeigen, dass eines oder mehrere Ihrer MyBroodMinder.com-Mitgliedschaften in zwei Wochen ablaufen.",
+      "EXP_TODAY": "Unsere Aufzeichnungen zeigen, dass eines oder mehrere Ihrer MyBroodMinder.com-Mitgliedschaften heute ablaufen.",
+      "MESSAGE_2_MEMBERSHIP_EXP": "Bitte nehmen Sie unseren Dank für Ihre Teilnahme im letzten Jahr an. Sie machen wirklich einen Unterschied. Wir hoffen, dass Sie unsere Citizen Science sowie unsere Programmierer mit Ihrer fortlaufenden Mitgliedschaft unterstützen werden.",
+      "MESSAGE_2_HUB_EXP": "Unsere Aufzeichnungen zeigen, dass Sie einen oder mehrere Hubs haben, die Daten an MyBroodMinder.com übermitteln. Aktualisieren Sie bitte Ihre Mitgliedschaften und Tokens, um die Daten zu verarbeiten und anzuzeigen. Wenn Sie diesen Hub nicht mehr verwenden, empfehlen wir, ihn auszuschalten und die Batterie aus dem 'Immer an'-Modus zu nehmen.",
+      "MESSAGE_4": "Sie können Ihre Mitgliedschaften aktualisieren",
+      "MESSAGE_4_LINK": "hier",
+      "MESSAGE_5": "In den letzten fünf Jahren haben wir enorme Investitionen in MyBroodMinder.com getätigt. Das Team hat Feedback von unzähligen Imkern aufgenommen und Aktualisierungen vorgenommen, um die Vielzahl von Installationen und Bienenständen auf der ganzen Welt zu erleichtern. Wir freuen uns über die wachsende Zahl von Benutzern und sind sehr dankbar für die Beteiligung aller.",
+      "MESSAGE_6": "Wir bleiben dem Versprechen treu, kostenlosen Cloud-Datenspeicher im Austausch für die Bereitstellung der Daten für Forscher weltweit anzubieten. Da wir jedoch vollständig selbstfinanziert sind, hoffen wir, dass Sie in Erwägung ziehen/weiterhin unsere Premium- und Echtzeitdienste abonnieren, um die fortlaufende Entwicklung von Software und Anwendungen zu finanzieren.",
+      "MESSAGE_7": "Wir hoffen, dass Sie die Dienste von BroodMinder weiterhin nutzen und genießen. Kontaktieren Sie Mike unter Support@BroodMinder.com, wenn Sie Fragen oder Kommentare haben.",
+      "SUMMARY": {
+        "NAME": "Name",
+        "LAST": "Zuletzt aufgerufen",
+        "LENGTH": "Dauer",
+        "MEMBERSHIP": "Mitgliedschaft",
+        "TOKENS": "Tokens",
+        "STATUS": "Status",
+        "STATUS_ACTIVE": "Aktiv",
+        "STATUS_CANCELLED": "Abgebrochen",
+        "STATUS_FAILED": "Überfällig",
+        "RENEWS": "Erneuert",
+        "EXPIRES": "Läuft ab",
+        "PRICE": "Preis",
+        "APIARIES": "Bienenstände",
+        "HIVES": "Bienenstöcke",
+        "SENSORS": "BroodMinder-Sensoren",
+        "HUBS": "Hub-Geräte",
+        "APIARY": "Bienenstand",
+        "APIARY_NONE": "Keiner",
+        "ID": "ID",
+        "VERSION": "Version",
+        "VERSION_UNKNOWN": "Unbekannt",
+        "SIM": "SIM"
+      }
+    },
+    "RECEIPT": {
+      "PURCHASE": {
+        "SUBJECT": "MyBroodMinder {{.type}} Mitgliedschaft gekauft",
+        "MESSAGE": "Vielen Dank für den Kauf einer MyBroodMinder {{.type}} Mitgliedschaft."
+      },
+      "UPDATE": {
+        "SUBJECT": "{{.type}} Mitgliedschaftsänderungen",
+        "MESSAGE": "Ihre MyBroodMinder {{.type}} Mitgliedschaft wurde aktualisiert."
+      },
+      "PURCHASE_OT_TOKENS": {
+        "SUBJECT": "MyBroodMinder Hub-Tokens gekauft",
+        "MESSAGE": "Ihre Tokens wurden hinzugefügt. {{.amount}} wurde Ihrem Konto belastet."
+      },
+      "ORDER_ID": "Bestellnummer",
+      "STATUS": "Status",
+      "TAX": "Steuer",
+      "TOTAL_NOW": "Gesamtbetrag jetzt bezahlt",
+      "AR_DATE": "Datum der automatischen Verlängerung",
+      "AR_AMOUNT": "Betrag der automatischen Verlängerung",
+      "MANAGE_LINK": "Mitgliedschaft verwalten unter"
+    },
+    "PAYMENT_FAIL": {
+      "SUBJECT": "Zahlung für MyBroodminder-Mitgliedschaft fehlgeschlagen",
+      "MESSAGE": "Die automatische Verlängerung Ihrer MyBroodMinder-Mitgliedschaftszahlung ist fehlgeschlagen. Bitte gehen Sie zu {{.url}}, um die Zahlungsinformationen zu korrigieren.",
+      "ORDER_ID": "Bestellnummer",
+      "STATUS": "Status",
+      "AR_DATE": "Datum der automatischen Verlängerung",
+      "AR_AMOUNT": "Betrag der automatischen Verlängerung"
+    },
+    "COMMON": {
+      "LENGTH_YEAR": "Jährlich",
+      "LENGTH_MONTH": "Monatlich",
+      "TYPE": {
+        "FREE": "Kostenlos",
+        "TRIAL": "Test",
+        "HOBBY": "Hobby",
+        "PREMIUM": "Premium",
+        "PRO": "Pro"
+      }
+    },
+    "ACCOUNT_DELETE": {
+      "SUBJECT": "Status der Kontolöschung",
+      "SUCCESS_MESSAGE": "Ihr MyBroodMinder-Konto wurde erfolgreich gelöscht.",
+      "ERROR_MESSAGE": "Es ist ein Fehler beim Löschen Ihres Kontos aufgetreten. Bitte kontaktieren Sie support@broodminder.com, um die Kontolöschung abzuschließen. (Referenz-ID: {{.id}})"
+    }
+  }

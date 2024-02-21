@@ -1,0 +1,84 @@
+{
+    "ACCOUNT": {
+        "SUBJECT": "Status da Conta MyBroodMinder",
+        "MESSAGE_1": "Caro(a) {{.name}},",
+        "EXP_2W": "Nossos registros mostram que um ou mais dos seus membros do MyBroodMinder.com estão prestes a expirar em duas semanas.",
+        "EXP_TODAY": "Nossos registros mostram que um ou mais dos seus membros do MyBroodMinder.com estão prestes a expirar hoje.",
+        "MESSAGE_2_MEMBERSHIP_EXP": "Agradecemos por sua participação no último ano. Você realmente faz a diferença. Esperamos que você continue apoiando nossa ciência cidadã e nossos programadores com sua assinatura contínua.",
+        "MESSAGE_2_HUB_EXP": "Nossos registros mostram que você possui um ou mais hubs enviando dados para o MyBroodMinder.com. Por favor, atualize seus membros e tokens para processar e visualizar os dados. Se você não estiver mais usando este hub, recomendamos desligá-lo e retirar a bateria do modo 'sempre ligado'.",
+        "MESSAGE_4": "Você pode atualizar seus membros",
+        "MESSAGE_4_LINK": "aqui",
+        "MESSAGE_5": "Nos últimos cinco anos, investimos muito no MyBroodMinder.com. A equipe recebeu feedback de inúmeros apicultores e fez atualizações para facilitar a ampla variedade de instalações e apiários ao redor do mundo. Estamos encantados com o crescente número de usuários e profundamente agradecidos pela participação de todos.",
+        "MESSAGE_6": "Continuamos comprometidos em fornecer armazenamento gratuito de dados na nuvem em troca de disponibilizar os dados para pesquisadores em todo o mundo. No entanto, como somos totalmente autofinanciados, esperamos que você considere/continue assinando nossos serviços premium e em tempo real para financiar o desenvolvimento contínuo de software e aplicativos.",
+        "MESSAGE_7": "Esperamos que você continue usando e desfrutando dos serviços da BroodMinder. Entre em contato com Mike em Support@BroodMinder.com se tiver dúvidas ou comentários.",
+        "SUMMARY": {
+            "NAME": "Nome",
+            "LAST": "Último acesso",
+            "LENGTH": "Duração",
+            "MEMBERSHIP": "Associação",
+            "TOKENS": "Tokens",
+            "STATUS": "Status",
+            "STATUS_ACTIVE": "Ativo",
+            "STATUS_CANCELLED": "Cancelado",
+            "STATUS_FAILED": "Atrasado",
+            "RENEWS": "Renova",
+            "EXPIRES": "Expira",
+            "PRICE": "Preço",
+            "APIARIES": "Apiários",
+            "HIVES": "Colmeias",
+            "SENSORS": "Sensores BroodMinder",
+            "HUBS": "Dispositivos Hub",
+            "APIARY": "Apiário",
+            "APIARY_NONE": "Nenhum",
+            "ID": "ID",
+            "VERSION": "Versão",
+            "VERSION_UNKNOWN": "Desconhecida",
+            "SIM": "SIM"
+        }
+    },
+    "RECEIPT": {
+        "PURCHASE": {
+            "SUBJECT": "Compra da Associação MyBroodMinder {{.type}}",
+            "MESSAGE": "Obrigado por comprar uma Associação MyBroodMinder {{.type}}."
+        },
+        "UPDATE": {
+            "SUBJECT": "Alterações na Associação {{.type}} MyBroodMinder",
+            "MESSAGE": "Sua Associação MyBroodMinder {{.type}} foi atualizada."
+        },
+        "PURCHASE_OT_TOKENS": {
+            "SUBJECT": "Compra de Tokens do Hub MyBroodMinder",
+            "MESSAGE": "Seus tokens foram adicionados. {{.amount}} foi cobrado em sua conta."
+        },
+        "ORDER_ID": "ID do Pedido",
+        "STATUS": "Status",
+        "TAX": "Imposto",
+        "TOTAL_NOW": "Total Pago Agora",
+        "AR_DATE": "Data de Renovação Automática",
+        "AR_AMOUNT": "Valor de Renovação Automática",
+        "MANAGE_LINK": "Gerenciar associação em"
+    },
+    "PAYMENT_FAIL": {
+        "SUBJECT": "Falha no Pagamento da Associação MyBroodminder",
+        "MESSAGE": "O pagamento automático da sua Associação MyBroodMinder falhou. Por favor, vá para {{.url}} para corrigir as informações de pagamento.",
+        "ORDER_ID": "ID do Pedido",
+        "STATUS": "Status",
+        "AR_DATE": "Data de Renovação Automática",
+        "AR_AMOUNT": "Valor de Renovação Automática"
+    },
+    "COMMON": {
+        "LENGTH_YEAR": "Anual",
+        "LENGTH_MONTH": "Mensal",
+        "TYPE": {
+            "FREE": "Grátis",
+            "TRIAL": "Teste",
+            "HOBBY": "Hobby",
+            "PREMIUM": "Premium",
+            "PRO": "Pro"
+        }
+    },
+    "ACCOUNT_DELETE": {
+        "SUBJECT": "Status de Exclusão de Conta",
+        "SUCCESS_MESSAGE": "Sua conta MyBroodMinder foi excluída com sucesso.",
+        "ERROR_MESSAGE": "Houve um erro ao excluir sua conta. Entre em contato com support@broodminder.com para concluir a exclusão da conta. (ID de Referência: {{.id}})"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "ACCOUNT": {
+        "SUBJECT": "MyBroodMinder Konto Status",
+        "MESSAGE_1": "Kjære {{.name}},",
+        "EXP_2W": "Våre registreringer viser at ett eller flere av dine MyBroodMinder.com-medlemskap utløper om to uker.",
+        "EXP_TODAY": "Våre registreringer viser at ett eller flere av dine MyBroodMinder.com-medlemskap utløper i dag.",
+        "MESSAGE_2_MEMBERSHIP_EXP": "Takk for at du har deltatt det siste året. Du gjør virkelig en forskjell. Vi håper du fortsetter å støtte vår borgerforskning, samt våre programmører, med ditt fortsatte medlemskap.",
+        "MESSAGE_2_HUB_EXP": "Våre registreringer viser at du har en eller flere huber som rapporterer data til MyBroodMinder.com. Vennligst oppdater medlemskapene og tokenene dine for å behandle og se dataene. Hvis du ikke lenger bruker denne huben, anbefaler vi at du slår den av og tar batteriet ut av 'alltid på'-modus.",
+        "MESSAGE_4": "Du kan oppdatere medlemskapene dine",
+        "MESSAGE_4_LINK": "her",
+        "MESSAGE_5": "I løpet av de siste fem årene har vi gjort enorme investeringer i MyBroodMinder.com. Teamet har tatt tilbakemeldinger fra utallige birøktere og gjort oppdateringer for å lette den brede variasjonen av installasjoner og bigårder over hele verden. Vi er begeistret for det økende antallet brukere og dypt takknemlige for alles engasjement.",
+        "MESSAGE_6": "Vi forplikter oss fortsatt til å tilby gratis datalagring i skyen i bytte mot å gjøre dataene tilgjengelige for forskere overalt. Imidlertid, siden vi er fullstendig selvfinansierte, håper vi at du vil vurdere/fortsette å abonnere på våre premium- og sanntidstjenester for å finansiere videreutviklingen av programvare og applikasjoner.",
+        "MESSAGE_7": "Vi håper du fortsetter å bruke og nyte BroodMinder-tjenestene. Kontakt Mike på Support@BroodMinder.com hvis du har spørsmål eller kommentarer.",
+        "SUMMARY": {
+            "NAME": "Navn",
+            "LAST": "Sist tilgjengelig",
+            "LENGTH": "Varighet",
+            "MEMBERSHIP": "Medlemskap",
+            "TOKENS": "Token",
+            "STATUS": "Status",
+            "STATUS_ACTIVE": "Aktiv",
+            "STATUS_CANCELLED": "Avbrutt",
+            "STATUS_FAILED": "Forfalt",
+            "RENEWS": "Fornyes",
+            "EXPIRES": "Utløper",
+            "PRICE": "Pris",
+            "APIARIES": "Bikuber",
+            "HIVES": "Bikuber",
+            "SENSORS": "BroodMinder-sensorer",
+            "HUBS": "Hub-enheter",
+            "APIARY": "Bikube",
+            "APIARY_NONE": "Ingen",
+            "ID": "ID",
+            "VERSION": "Versjon",
+            "VERSION_UNKNOWN": "Ukjent",
+            "SIM": "SIM"
+        }
+    },
+    "RECEIPT": {
+        "PURCHASE": {
+            "SUBJECT": "MyBroodMinder {{.type}} Medlemskap Kjøpt",
+            "MESSAGE": "Takk for at du kjøpte et MyBroodMinder {{.type}} medlemskap."
+        },
+        "UPDATE": {
+            "SUBJECT": "{{.type}} Medlemskapsendringer",
+            "MESSAGE": "Ditt MyBroodMinder {{.type}} medlemskap har blitt oppdatert."
+        },
+        "PURCHASE_OT_TOKENS": {
+            "SUBJECT": "MyBroodMinder Hub Tokens Kjøpt",
+            "MESSAGE": "Tokenene dine er lagt til. {{.amount}} er belastet kontoen din."
+        },
+        "ORDER_ID": "Ordrenummer",
+        "STATUS": "Status",
+        "TAX": "Skatt",
+        "TOTAL_NOW": "Totalt betalt nå",
+        "AR_DATE": "Auto-fornyet dato",
+        "AR_AMOUNT": "Auto-fornyet beløp",
+        "MANAGE_LINK": "Administrer medlemskap på"
+    },
+    "PAYMENT_FAIL": {
+        "SUBJECT": "Mislykket betaling for MyBroodminder Medlemskap",
+        "MESSAGE": "Den automatiske fornyelsen av ditt MyBroodMinder medlemskap mislyktes. Vennligst gå til {{.url}} for å rette opp betalingsinformasjonen.",
+        "ORDER_ID": "Ordrenummer",
+        "STATUS": "Status",
+        "AR_DATE": "Auto-fornyet dato",
+        "AR_AMOUNT": "Auto-fornyet beløp"
+    },
+    "COMMON": {
+        "LENGTH_YEAR": "Årlig",
+        "LENGTH_MONTH": "Månedlig",
+        "TYPE": {
+            "FREE": "Gratis",
+            "TRIAL": "Prøve",
+            "HOBBY": "Hobby",
+            "PREMIUM": "Premium",
+            "PRO": "Pro"
+        }
+    },
+    "ACCOUNT_DELETE": {
+        "SUBJECT": "Status for Konto Sletting",
+        "SUCCESS_MESSAGE": "Din MyBroodMinder-konto er vellykket slettet.",
+        "ERROR_MESSAGE": "Det oppstod en feil under slettingen av kontoen din. Vennligst kontakt support@broodminder.com for å fullføre konto-slettingen. (Referanse-ID: {{.id}})"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "ACCOUNT": {
+        "SUBJECT": "MyBroodMinder アカウントステータス",
+        "MESSAGE_1": "親愛なる{{.name}}様へ、",
+        "EXP_2W": "弊社の記録によれば、あなたの MyBroodMinder.com メンバーシップのいくつかが 2 週間後に終了します。",
+        "EXP_TODAY": "弊社の記録によれば、あなたの MyBroodMinder.com メンバーシップのいくつかが今日に終了します。",
+        "MESSAGE_2_MEMBERSHIP_EXP": "昨年中にご参加いただき、誠にありがとうございます。あなたの参加は本当に重要です。引き続きのメンバーシップで、市民科学およびプログラマーへのご支援をお願い申し上げます。",
+        "MESSAGE_2_HUB_EXP": "弊社の記録によれば、あなたは MyBroodMinder.com にデータを報告しているハブが 1 つまたは複数あります。データを処理および表示するためにメンバーシップとトークンを更新してください。このハブを使用していない場合は、電源を切り、 '常時オン' モードのバッテリーを取り外すことをお勧めします。",
+        "MESSAGE_4": "メンバーシップを更新できます",
+        "MESSAGE_4_LINK": "こちら",
+        "MESSAGE_5": "過去 5 年間で MyBroodMinder.com に莫大な投資をしてきました。チームは無数の養蜂家からのフィードバックを受けて、世界中のさまざまなインストールと養蜂場を容易にするために更新を行ってきました。ユーザー数の増加に喜んでおり、皆様のご参加に心から感謝しています。",
+        "MESSAGE_6": "私たちは引き続き、データを世界中の研究者に提供するための無料のクラウドデータストレージを提供することにコミットしています。ただし、私たちは完全に自己資金調達しているため、引き続きソフトウェアおよびアプリケーションの開発を資金調達するために、プレミアムおよびリアルタイムサービスの購読をご検討いただければと思います。",
+        "MESSAGE_7": "引き続き BroodMinder サービスをご利用いただければ幸いです。ご質問やご意見がある場合は、Support@BroodMinder.com までご連絡ください。",
+        "SUMMARY": {
+            "NAME": "名前",
+            "LAST": "最終アクセス",
+            "LENGTH": "期間",
+            "MEMBERSHIP": "メンバーシップ",
+            "TOKENS": "トークン",
+            "STATUS": "ステータス",
+            "STATUS_ACTIVE": "有効",
+            "STATUS_CANCELLED": "キャンセル",
+            "STATUS_FAILED": "期限切れ",
+            "RENEWS": "更新",
+            "EXPIRES": "有効期限",
+            "PRICE": "価格",
+            "APIARIES": "養蜂場",
+            "HIVES": "ハイブ",
+            "SENSORS": "BroodMinder センサー",
+            "HUBS": "ハブデバイス",
+            "APIARY": "養蜂場",
+            "APIARY_NONE": "なし",
+            "ID": "ID",
+            "VERSION": "バージョン",
+            "VERSION_UNKNOWN": "不明",
+            "SIM": "SIM"
+        }
+    },
+    "RECEIPT": {
+        "PURCHASE": {
+            "SUBJECT": "MyBroodMinder {{.type}} メンバーシップ購入済み",
+            "MESSAGE": "MyBroodMinder {{.type}} メンバーシップの購入、ありがとうございます。"
+        },
+        "UPDATE": {
+            "SUBJECT": "{{.type}} メンバーシップ変更",
+            "MESSAGE": "MyBroodMinder {{.type}} メンバーシップが更新されました。"
+        },
+        "PURCHASE_OT_TOKENS": {
+            "SUBJECT": "MyBroodMinder ハブトークン購入済み",
+            "MESSAGE": "トークンが追加されました。{{.amount}} がアカウントに請求されました。"
+        },
+        "ORDER_ID": "注文番号",
+        "STATUS": "ステータス",
+        "TAX": "税金",
+        "TOTAL_NOW": "現在の合計金額",
+        "AR_DATE": "自動更新日",
+        "AR_AMOUNT": "自動更新金額",
+        "MANAGE_LINK": "こちらでメンバーシップを管理"
+    },
+    "PAYMENT_FAIL": {
+        "SUBJECT": "MyBroodminder メンバーシップ支払い失敗",
+        "MESSAGE": "MyBroodMinder メンバーシップの自動更新支払いに失敗しました。支払い情報を修正するには、{{.url}} にアクセスしてください。",
+        "ORDER_ID": "注文番号",
+        "STATUS": "ステータス",
+        "AR_DATE": "自動更新日",
+        "AR_AMOUNT": "自動更新金額"
+    },
+    "COMMON": {
+        "LENGTH_YEAR": "年間",
+        "LENGTH_MONTH": "月間",
+        "TYPE": {
+            "FREE": "無料",
+            "TRIAL": "トライアル",
+            "HOBBY": "趣味",
+            "PREMIUM": "プレミアム",
+            "PRO": "プロ"
+        }
+    },
+    "ACCOUNT_DELETE": {
+        "SUBJECT": "アカウント削除ステータス",
+        "SUCCESS_MESSAGE": "MyBroodMinder アカウントは正常に削除されました。",
+        "ERROR_MESSAGE": "アカウントの削除中にエラーが発生しました。アカウントの削除を完了するには、support@broodminder.com にお問い合わせください。 (参照ID:{{.id}})"
+    }
+}
