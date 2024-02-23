@@ -1,0 +1,2282 @@
+{
+    "ACCOUNT": {
+        "CONFIRM": "Bestätigen Sie den Kauf des Premium-Abonnements",
+        "CONFIRM_SUB_WINDOW": {
+            "CONFIRM": "Bestätigen",
+            "CONFIRMATION_NUMBER": "Bestätigungsnummer",
+            "DESCRIPTION": "Geben Sie den Code aus der Bestätigungs-E-Mail ein",
+            "ERROR": {
+                "NOT_FOUND": "Kein Abonnementkauf gefunden",
+                "USED_OTHER_ACCOUNT": "Bereits mit einem anderen Konto bestätigt",
+                "USED_THIS_ACCOUNT": "Bereits für dieses Konto bestätigt, läuft ab am {{value}}"
+            },
+            "PURCHASED": "Gekauft am",
+            "TITLE": "Bestätigen Sie den Kauf des Premium-Abonnements",
+            "VALID": "Gültiger Kauf"
+        },
+        "DELETE": {
+            "CONFIRM_BUTTON_1": "Löschen bestätigen",
+            "CONFIRM_DIALOG": {
+                "CONFIRM": "KONTO LÖSCHEN",
+                "EMAIL_ERROR": "Diese E-Mail stimmt nicht mit Ihrem Konto überein.",
+                "MESSAGE": "Durch Löschen Ihres Kontos werden ALLE DATEN gelöscht und können NICHT wiederhergestellt werden. Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
+                "TITLE": "Löschen bestätigen"
+            },
+            "DELETE_BUTTON": "Konto löschen",
+            "DELETE_ERROR": "Beim Löschen Ihres Kontos ist ein Fehler aufgetreten. Bitte kontaktieren Sie support@broodminder.com, um den Kontolöschvorgang abzuschließen. (Referenz-ID:{{id}})",
+            "DELETE_REDIRECT": "Konto gelöscht, Sie werden in {{seconds}} Sekunden weitergeleitet",
+            "HEADERS": {
+                "ACCOUNT": "Konto",
+                "APIARIES": "Bienenstöcke",
+                "COMPLETED": "Abgeschlossen",
+                "DEVICES": "Geräte",
+                "HIVES": "Bienenstöcke",
+                "HUBS": "Hubs",
+                "REQUESTED": "Löschung angefordert",
+                "STARTED": "Gestartet",
+                "SUBS_TO_CANCEL": "Zu kündigende Abonnements"
+            },
+            "HIDE": "Optionen ausblenden",
+            "REQUEST_ERROR": "Fehler, Anforderung konnte nicht gemacht werden.",
+            "SHOW": "Optionen anzeigen",
+            "STATUS": "Status der Kontolöschung",
+            "WARNING": "Sie sind dabei, Ihr Konto zu löschen. Dies löscht alle Daten, einschließlich der unten angegebenen. Bestätigen Sie diese Anfrage, um Ihr Konto zu löschen."
+        },
+        "EDIT_EMAIL": {
+            "BUTTON": "Ändern Sie die E-Mail-Adresse des Kontos",
+            "CURRENT_EMAIL": "Aktuelle E-Mail",
+            "ERROR": "Fehler aufgetreten. E-Mail wurde nicht geändert.",
+            "NEW_EMAIL": "Neue E-Mail",
+            "REFRESH_ERROR": "Die Änderung der E-Mail-Adresse Ihres Kontos erfordert eine kürzliche Authentifizierung. Melden Sie sich erneut an, bevor Sie diese Änderung erneut versuchen.",
+            "SAVE_BUTTON": "E-Mail speichern",
+            "TITLE": "Ändern Sie die E-Mail-Adresse des Kontos"
+        },
+        "EDIT_PASSWORD": {
+            "BUTTON": "Passwort ändern",
+            "CURRENT_PASSWORD": "Aktuelles Passwort",
+            "ERROR": "Fehler aufgetreten. Passwort wurde nicht geändert.",
+            "HEADER": "Passwort",
+            "NEW_PASSWORD": "Neues Passwort",
+            "SAVE_BUTTON": "Änderung speichern",
+            "TITLE": "Passwort ändern"
+        },
+        "EMAIL": "E-Mail",
+        "FIRST_NAME": "Vorname",
+        "LAST_NAME": "Nachname",
+        "MEMBERSHIP": "Mitgliedschaft",
+        "PREMIUM_LANDING": "Mitgliedschaftsoptionen anzeigen",
+        "PURCHASE": "Premium-Mitgliedschaft kaufen",
+        "SAVE": "Speichern",
+        "SUB_TYPES": {
+            "FREE": "Kostenlos",
+            "HOBBY": "Hobby",
+            "PREMIUM": "Premium, verlängert am {{expiration}}",
+            "PREMIUM_CANCELLED": "Premium läuft am {{expiration}} ab",
+            "PREMIUM_EXPIRED": "Premium abgelaufen am {{expiration}}",
+            "PRO": "Pro, verlängert am {{expiration}}",
+            "PRO_CANCELLED": "Pro läuft am {{expiration}} ab",
+            "PRO_EXPIRED": "Pro abgelaufen am {{expiration}}",
+            "TRIAL": "Probe-Mitgliedschaft, läuft ab am {{expiration}}"
+        },
+        "TITLE": "Mein Konto"
+    },
+    "ALERTS_DESC": {
+        "COLDDAY": "Möglicherweise kalter Tag voraus",
+        "COLDDAY_DESC": "Ausgelöst, wenn ein bevorstehender kalter Tag erkannt wird, d.h. unterhalb des festgelegten Temperaturschwellenwerts.",
+        "COLDDAY_MSG": "Die Temperaturen werden ungewöhnlich kalt sein",
+        "DCONNECT": "Geräteverbindung unterbrochen",
+        "DCONNECT_DESC": "Ausgelöst, wenn einer Ihrer Sensoren während jedes ausgewählten Zeitraums keine Daten mehr überträgt (oder punktuell). Funktioniert nur mit einem Hub.",
+        "DCONNECTH": "Geräteverbindung unterbrochen",
+        "DCONNECTH_DESC": "Ausgelöst, wenn Ihr Hub während des letzten Tages keine Daten mehr überträgt.",
+        "DCONNECTH_MSG": "{REF} seit {DATE} getrennt",
+        "DCONNECTT": "Geräteverbindung unterbrochen",
+        "DCONNECTT_DESC": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages keine Daten mehr überträgt.",
+        "DCONNECTT_MSG": "{REF} seit {DATE} getrennt",
+        "DCONNECTW": "Geräteverbindung unterbrochen",
+        "DCONNECTW_DESC": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages keine Daten mehr überträgt.",
+        "DCONNECTW_MSG": "{REF} seit {DATE} getrennt",
+        "DEAD": "Tote Bienenkönigin",
+        "DEAD_DESC": "Unser Algorithmus erkennt jeden Tag, ob Ihr Bienenstock tot ist, basierend auf verschiedenen von uns festgelegten Parametern.",
+        "DEAD_MSG": "Ihr Bienenstock wurde als tot erkannt",
+        "HMAX": "Hohe interne Luftfeuchtigkeit",
+        "HMAX_DESC": "Ausgelöst, wenn die interne Luftfeuchtigkeit den ausgewählten Schwellenwert überschreitet.",
+        "HMAX_MSG": "Interne Luftfeuchtigkeit über {VAL}",
+        "HMIN": "Niedrige interne Luftfeuchtigkeit",
+        "HMIN_DESC": "Ausgelöst, wenn die interne Luftfeuchtigkeit unter den ausgewählten Schwellenwert fällt.",
+        "HMIN_MSG": "Interne Luftfeuchtigkeit unter {VAL}",
+        "HONEYDEW": "Honigtau",
+        "HONEYDEW_DESC": "Ausgelöst, wenn der Gewichtsbeitrag zum Bienenstock während der letzten Woche den ausgewählten Schwellenwert überschreitet.",
+        "HONEYDEW_MSG": "Eingehende Gewichte während der letzten Woche überschreiten {VAL}",
+        "HOTDAY": "Möglicherweise heißer Tag voraus",
+        "HOTDAY_DESC": "Ausgelöst, wenn ein bevorstehender heißer Tag erkannt wird, d.h. über dem festgelegten Temperaturschwellenwert.",
+        "HOTDAY_MSG": "Die Temperaturen werden ungewöhnlich warm sein",
+        "LOWBATTERYT": "Niedriger Batteriestand",
+        "LOWBATTERYT_DESC": "Ausgelöst, wenn der Batteriestand Ihres T-Sensors unter den ausgewählten Schwellenwert fällt.",
+        "LOWBATTERYT_MSG": "Ersetzen Sie die Batterie von ",
+        "LOWBATTERYW": "Niedriger Batteriestand",
+        "LOWBATTERYW_DESC": "Ausgelöst, wenn der Batteriestand Ihres W-Sensors unter den ausgewählten Schwellenwert fällt.",
+        "LOWBATTERYW_MSG": "Ersetzen Sie die Batterie von ",
+        "LOWBROOD": "Schwaches Brutniveau",
+        "LOWBROOD_DESC": "Ausgelöst, wenn der Prozentsatz der Brut unter den ausgewählten Schwellenwert fällt.",
+        "LOWBROOD_MSG": "Brut unter {VAL}",
+        "OXALIC": "Oxalsäurebehandlung",
+        "OXALIC_DESC": "Ausgelöst, wenn die durchschnittliche Brut in Ihren Bienenstöcken unter den festgelegten Schwellenwert fällt. Dies ist ein Hinweis darauf, dass Sie Ihre Bienenstöcke rechtzeitig mit Oxalsäure behandeln sollten.",
+        "OXALIC_MSG": "Es ist Zeit, Ihre Bienenstöcke zu behandeln",
+        "POORSIGNALT": "Schlechtes Signal",
+        "POORSIGNALT_DESC": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages nur wenig Daten überträgt.",
+        "POORSIGNALT_MSG": "{REF} schlechtes Signal seit {DATE}",
+        "POORSIGNALW": "Schlechtes Signal",
+        "POORSIGNALW_DESC": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages nur wenig Daten überträgt.",
+        "POORSIGNALW_MSG": "{REF} schlechtes Signal seit {DATE}",
+        "RAIN": "Möglicher starker Regenfall",
+        "RAIN_DESC": "Ausgelöst, wenn der Niederschlag am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
+        "RAIN_MSG": "Der Niederschlag wird {VAL} überschreiten",
+        "REALTIME_SWARM_ALERT": "Temperaturereignis berechnet vom T2-Gerät. Wird nur für Geräte über oder unter Brutkästen gemeldet, die einen Echtzeit-Hub verwenden.",
+        "RSWARM": "Schwarmrisiko",
+        "RSWARM_DESC": "Ausgelöst, wenn das Schwarmrisiko in einem Ihrer Bienenstöcke am nächsten Tag hoch ist.",
+        "RSWARM_MSG": "Schwärmtag erwartet",
+        "SNOW": "Möglicher starker Schneefall",
+        "SNOW_DESC": "Ausgelöst, wenn der Schneefall am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
+        "SNOW_MSG": "Der Schneefall wird {VAL} überschreiten ",
+        "STOLEN": "Gestohlener Bienenstock",
+        "STOLEN_DESC": "Ausgelöst, wenn das Gewicht Ihres Bienenstocks ungewöhnlich niedrig wird.",
+        "STOLEN_MSG": "Das Gewicht Ihres Bienenstocks ist ungewöhnlich niedrig",
+        "STOPWEATHER": "Wetterstation gestoppt",
+        "STOPWEATHER_DESC": "Ausgelöst, wenn Ihre Wetterstation aufhört, Daten zu übertragen. Erfordert eine eigene Wetterstation.",
+        "STOPWEATHER_MSG": "Datenübertragungsfehler von Ihrer Wetterstation seit {DATE}",
+        "SUPER+": "Hinzufügen eines Honigraums",
+        "SUPER+_DESC": "Geben Sie das Mindestgewicht eines leeren Honigraums an.",
+        "SUPER+_MSG": "Sie haben einen Honigraum hinzugefügt",
+        "SUPER-": "Entfernen eines Honigraums",
+        "SUPER-_DESC": "Geben Sie das maximale Gewicht eines vollen Honigraums an.",
+        "SUPER-_MSG": "Sie haben einen Honigraum entfernt",
+        "SWARM": "Schwarm",
+        "SWARM_DESC": "Ausgelöst, wenn ein möglicher Schwarm auftritt (Hub bietet mehr Effizienz).",
+        "SWARM_MSG": "Möglicher Schwarm um 14:00 Uhr erkannt",
+        "TMAX": "Hohe interne Temperatur",
+        "TMAX_DESC": "Ausgelöst, wenn die interne Temperatur den ausgewählten Schwellenwert überschreitet.",
+        "TMAX_MSG": "Interne Temperatur über {VAL}",
+        "TMIN": "Niedrige interne Temperatur",
+        "TMIN_DESC": "Ausgelöst, wenn die interne Temperatur unter den ausgewählten Schwellenwert fällt.",
+        "TMIN_MSG": "Interne Temperatur unter {VAL}",
+        "WIND": "Möglicher starker Wind",
+        "WIND_DESC": "Ausgelöst, wenn der Wind am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
+        "WIND_MSG": "Der Wind wird {VAL} überschreiten",
+        "WINEG": "Ressourcenerschöpfung",
+        "WINEG_DESC": "Ausgelöst, wenn Bienen viel mehr Ressourcen verbrauchen, als sie zum Bienenstock zurückbringen. Die Verlustschwelle ist einstellbar.",
+        "WINEG_MSG": "Der Verlust des Vorrats Ihrer Bienen übersteigt {VAL}",
+        "WIPOS": "Bedeutende Bereitstellung von Ressourcen",
+        "WIPOS_DESC": "Ausgelöst, wenn das eingehende Gewicht des Tages im Bienenstock den ausgewählten Schwellenwert überschreitet.",
+        "WIPOS_MSG": "Der Gewinn des Vorrats Ihrer Bienen übersteigt {VAL}",
+        "WLIM": "Gewichtslimit überschritten",
+        "WLIM_DESC": "Ausgelöst, wenn das angegebene Gewichtslimit überschritten wird.",
+        "WLIM_MSG": "Das Gewicht Ihres Bienenstocks übersteigt {VAL}"
+    },
+    "APIARY_CRUD": {
+        "COLOR": "Farbe",
+        "COUNTRY": "Ländercode",
+        "CREATE_TITLE": "Bienenstand erstellen",
+        "EDIT_LOCATION": {
+            "BUTTON": "Ort bearbeiten",
+            "COORDINATE": "Koordinate",
+            "INFO": "Dieser Standort wird sowohl zur Abfrage des Wetters als auch zur Anzeige Ihres Bienenstands auf gemeinsam genutzten Websites wie BeeCounted.org verwendet. Dies wird zusammen mit Ihren öffentlichen Domänendaten offengelegt und sollte nicht der genaue Standort Ihres Bienenstands sein.",
+            "POSTAL_CHANGE": {
+                "CONFIRM": "Ja",
+                "TEXT": "Möchten Sie den Bienenstand auf die neue Postleitzahl {{value}} ändern?",
+                "TITLE": "Postleitzahl ändern"
+            },
+            "POSTAL_ERROR": "Die ausgewählten Koordinaten liegen außerhalb der Postleitzahl des Bienenstands. Dies kann nicht geändert werden.",
+            "TITLE": "Bienenstandsort bearbeiten"
+        },
+        "EDIT_TITLE": "Bienenstand bearbeiten",
+        "EDIT_ZIP_EXP": "Sie können den Standort für einen Bienenstand, der Daten enthält, nicht ändern.",
+        "ERROR_COUNTRY": "Gültigen Ländercode auswählen",
+        "NAME": "Name",
+        "NOT_PRIVATE_TOOLTIP": "Vielen Dank, dass Sie Ihre Daten teilen. Sie helfen Forschern auf der ganzen Welt, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
+        "PRIVATE": "Privat (Daten nicht teilen) Premium-Funktion",
+        "PRIVATE_TOOLTIP": "Bitte erwägen Sie, Ihre Daten zu teilen. Sie helfen Forschern auf der ganzen Welt, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
+        "SUCCESS_CREATED": "Bienenstand erstellt",
+        "SUCCESS_UPDATED": "Bienenstand aktualisiert",
+        "WEATHER": {
+            "DESCRIPTION": "Wählen Sie ein Gerät oder einen Hub als Ihre Bienenstandswetterquelle für Luftfeuchtigkeit und/oder Temperatur aus. Jeder Zeitraum ohne ein Gerät wird standardmäßig auf Weather Source zurückgesetzt.",
+            "DIALOG": {
+                "ADD_HUMIDITY": "Luftfeuchtigkeit hinzufügen",
+                "ADD_TEMPERATURE": "Temperatur hinzufügen",
+                "HUMIDITY": "Luftfeuchtigkeit",
+                "SUCCESS_UPDATED": "Wetter des Bienenstands aktualisiert",
+                "TEMPERATURE": "Temperatur",
+                "TITLE": "Wetter bearbeiten"
+            },
+            "EDIT": {
+                "ADD_HUMIDITY": "Luftfeuchtigkeitsquelle hinzufügen",
+                "ADD_TEMPERATURE": "Temperaturquelle hinzufügen",
+                "EDIT_HUMIDITY": "Luftfeuchtigkeitsquelle bearbeiten",
+                "EDIT_TEMPERATURE": "Temperaturquelle bearbeiten",
+                "ENDING_CURRENT": "Endquelle",
+                "ERROR_DEVICE_REQUIRED": "Für alle Wettersensoren muss ein Gerät ausgewählt werden",
+                "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenstands",
+                "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenstands",
+                "ERROR_START_REQUIRED": "Für die Wettersensorquelle muss eine Startzeit ausgewählt werden",
+                "SELECT_DEVICE": "Gerät auswählen",
+                "SUCCESS": "Änderungen gespeichert"
+            },
+            "END": "Ende",
+            "END_OPEN": "aktuell",
+            "MEASUREMENT": "Messung",
+            "READING": "Lesung",
+            "START": "Start",
+            "START_OPEN": "offen",
+            "TITLE": "Wetter bearbeiten"
+        },
+        "ZIP_INFO": "Die Postleitzahl wird für Wetterdienste verwendet. Geben Sie eine gültige Postleitzahl ein, um das Beste aus Ihren MyBroodMinder-Daten zu machen.",
+        "ZIP_SELECTION": {
+            "CANCEL": "Abbrechen",
+            "CHECK": "Erneut überprüfen",
+            "CREATE_WITH_LOC": "Mit diesem Standort erstellen",
+            "LOCATION": "Ort",
+            "NOT_FOUND": "Postleitzahl nicht gefunden",
+            "SELECT": "Standort auf Karte auswählen",
+            "SKIP": "Überspringen und erstellen"
+        },
+        "ZIPCODE": "Postleitzahl"
+    },
+    "APIARY_PAGE": {
+        "HIVE": {
+            "DESCRIPTION": "Diese Ansicht zeigt eine schnelle Diagrammübersicht für jeden Bienenstock. Gewichtsanzeigereihenfolge: schwerster Wert. Luftfeuchtigkeit und Temperaturanzeigereihenfolge: 1-Above Lower Brood Box 2-Above Upper Brood Box 3-Under Inner Cover 4-Other 5-Custom (highest value) 6-Outside Hive 7-Scale Under Hive",
+            "TITLE": "Bienenstock"
+        },
+        "PREMIUM_EXP": "Zeitbereichsauswahl für diese Ansicht verfügbar mit Premium-Abonnement.",
+        "SELECT": "Wähle eine Ansicht",
+        "SUMMARY": {
+            "BATTERY": {
+                "LOADING": "Lade Bienenstock-Batteriemessungen",
+                "NONE": "Keine Batteriedaten",
+                "TITLE": "Bienenstock-Batterie"
+            },
+            "DESCRIPTION": "Diese Ansicht zeigt kombinierte Diagramme nach Datentypen. Die angezeigten Details folgen den Voreinstellungen der Bienenstockansicht, können jedoch pro Bienenstock in den Bienenstockeinstellungen festgelegt werden.",
+            "HIVES": "Bienenstöcke",
+            "HUMID": {
+                "LOADING": "Lade Bienenstock-Luftfeuchtigkeitsmessungen",
+                "NONE": "Keine Luftfeuchtigkeitsdaten",
+                "TITLE": "Bienenstock-Luftfeuchtigkeit"
+            },
+            "PREMIUM_EXP": "Diese Ansicht verfügbar mit Premium-Abonnement. Beispiel unten gezeigt.",
+            "TEMP": {
+                "LOADING": "Lade Bienenstock-Temperaturmessungen",
+                "NONE": "Keine Temperaturdaten",
+                "TITLE": "Bienenstock-Temperaturen"
+            },
+            "TITLE": "Zusammenfassung",
+            "WEIGHT": {
+                "LOADING": "Lade Bienenstock-Gewichtsmessungen",
+                "NONE": "Keine Gewichtsdaten",
+                "TITLE": "Bienenstock-Gewichte"
+            }
+        },
+        "TEXT": {
+            "DESCRIPTION": "Diese Ansicht zeigt die zuletzt hochgeladenen Messungen für jede Position in jedem Bienenstock.",
+            "MOVED_EXP": "Bienenstock bewegt",
+            "TITLE": "Text"
+        }
+    },
+    "BEECOUNTED": {
+        "COPY_EMBED_TOOLTIP": "Embed-Code kopieren",
+        "COPY_LINK_TOOLTIP": "Link kopieren",
+        "EMBED": "Diagramm in Webseite einbetten",
+        "EMBED_COPIED": "Embed-Code kopiert",
+        "LINK": "Bienenstock auf BeeCounted.org anzeigen",
+        "LINK_COPIED": "Link kopiert",
+        "PRIVATE_APIARY": "Bienenstockdaten nicht mit BeeCounted geteilt. Dieser Bienenstock, {{name}}, wird nicht mit BeeCounted geteilt.",
+        "PRIVATE_HIVE": "Bienenstockdaten nicht mit BeeCounted geteilt.",
+        "TITLE": "BeeCounted.org"
+    },
+    "CALENDAR_CHART": {
+        "DAYLENGTH": "Tageslicht",
+        "MOON": {
+            "1": "Vollmond",
+            "2": "Neumond",
+            "3": "Letztes Viertel",
+            "4": "Erstes Viertel",
+            "5": "Zunehmender Mond",
+            "6": "Abnehmender Mond",
+            "7": "Abnehmender Sichelmond",
+            "8": "Zunehmender Sichelmond",
+            "ASCENDING": "Aufsteigend",
+            "DESCENDING": "Absteigend"
+        },
+        "MOON_PERIOD": "Periode",
+        "MOON_PHASE": "Phase",
+        "SUNRISE": "Sonnenaufgang",
+        "SUNSET": "Sonnenuntergang",
+        "WEATHER": {
+            "DESCR": {
+                "ASH": "Asche",
+                "BROKEN_CLOUDS": "Zerbrochene Wolken",
+                "CLEAR": "Klar",
+                "CLOUDS": "Wolken",
+                "DUST": "Staub",
+                "FEW_CLOUDS": "Wenige Wolken",
+                "FOG": "Nebel",
+                "HAZE": "Nebel",
+                "MIST": "Nebel",
+                "RAIN": "Regen",
+                "SAND": "Sand",
+                "SCATTERED_CLOUDS": "Vereinzelte Wolken",
+                "SHOWER": "Schauer",
+                "SHOWER_RAIN": "Regenschauer",
+                "SHOWER_SNOW": "Schneeschauer",
+                "SMOKE": "Rauch",
+                "SNOW": "Schnee",
+                "SQUALL": "Windböe",
+                "THUNDERSTORM": "Gewitter",
+                "TORNADO": "Tornado"
+            }
+        }
+    },
+    "CHART": {
+        "DATA_TYPES": {
+            "ALERTS": {
+                "FILTER": "Alerts",
+                "TITLE": "Alerts",
+                "YAXIS": ""
+            },
+            "ALERTS_NOTES": {
+                "FILTER": "Alerts and Notes",
+                "TITLE": "Alerts and Notes",
+                "YAXIS": " ({{label}})"
+            },
+            "AUDIO": {
+                "FILTER": "Vibration",
+                "TITLE": "Vibration",
+                "YAXIS": "Vibration ({{label}})"
+            },
+            "BATTERY": {
+                "FILTER": "Battery",
+                "TITLE": "Battery",
+                "YAXIS": "Battery (%)"
+            },
+            "BC_ACTIV_DUR": {
+                "FILTER": "Foraging Duration",
+                "TITLE": "Foraging Duration",
+                "UNIT": "hours",
+                "YAXIS": "Foraging Duration (hours)"
+            },
+            "BC_FOR": {
+                "FILTER": "Foraging Trips",
+                "TITLE": "Foraging Trips",
+                "UNIT": "trips/day",
+                "YAXIS": "Foraging (k trips/day)"
+            },
+            "BC_WORK_PER": {
+                "FILTER": "Foraging Periods",
+                "TITLE": "Foraging Periods",
+                "UNIT": "working sessions",
+                "YAXIS": "Periods per day"
+            },
+            "BEECOUNT": {
+                "FILTER": "Bees",
+                "TITLE": "Bee Count",
+                "UNIT": "bees/min",
+                "YAXIS": "Bees ({{label}})"
+            },
+            "BROOD": {
+                "FILTER": "Brood",
+                "TITLE": "Brood",
+                "YAXIS": "Brood (%)"
+            },
+            "CLOUD_COVER": {
+                "FILTER": "Cloud Cover",
+                "FILTER_HOURLY": "Cloud Cover Hourly",
+                "TITLE": "Cloud Cover",
+                "YAXIS": "Cloud Cover (%)"
+            },
+            "FLIGHT": {
+                "FILTER": "Foraging index",
+                "TITLE": "Foraging index",
+                "YAXIS": "Foraging index (%)"
+            },
+            "GAIN": {
+                "FILTER": "Weight Gain",
+                "TITLE": "Weight Gain",
+                "YAXIS": "Weight ({{label}})"
+            },
+            "GAIN_CUMUL": {
+                "FILTER": "Cumulative Weight Gain",
+                "TITLE": "Cumulative Gain",
+                "YAXIS": "Weight ({{label}})"
+            },
+            "HIVE_HEALTH": {
+                "FILTER": "Hive Health",
+                "TITLE": "Hive Health",
+                "YAXIS": ""
+            },
+            "HUMID": {
+                "FILTER": "Humidity",
+                "FILTER_HOURLY": "Humidity Hourly",
+                "TITLE": "Humidity",
+                "YAXIS": "Humidity (%)"
+            },
+            "HUMID_MAX": {
+                "FILTER": "Max Humidity",
+                "TITLE": "Max Humidity",
+                "YAXIS": "Humidity (%)"
+            },
+            "HUMID_MAX_EXT": {
+                "FILTER": "External Humidity Max",
+                "TITLE": "External Humidity Max",
+                "YAXIS": "Humidity (%)"
+            },
+            "HUMID_MAX_WEATHER": {
+                "FILTER": "Max Weather Humidity",
+                "TITLE": "Max Weather Humidity",
+                "YAXIS": "Humidity (%)"
+            },
+            "HUMID_MIN": {
+                "FILTER": "Min Humidity",
+                "TITLE": "Min Humidity",
+                "YAXIS": "Humidity (%)"
+            },
+            "HUMID_MIN_EXT": {
+                "FILTER": "External Humidity Min",
+                "TITLE": "External Humidity Min",
+                "YAXIS": "Humidity (%)"
+            },
+            "HUMID_MIN_WEATHER": {
+                "FILTER": "",
+                "TITLE": "Min Weather Humidity",
+                "YAXIS": "Humidity (%)"
+            },
+            "LUNAR": {
+                "FILTER": "Lunar Daily",
+                "TITLE": "Lunar Calendar",
+                "YAXIS": ""
+            },
+            "MF_COUNT": {
+                "FILTER": "Mating Flight Count",
+                "TITLE": "Mating Flight Count",
+                "UNIT": "flights/day",
+                "YAXIS": "flights/day"
+            },
+            "MF_DUR": {
+                "FILTER": "Flight Window (hours)",
+                "TITLE": "Mating Flight Duration",
+                "UNIT": "hours",
+                "YAXIS": "Flight Window (hours)"
+            },
+            "MF_SESS": {
+                "FILTER": "Mating Flight Sessions",
+                "TITLE": "Mating Flight Sessions",
+                "UNIT": "sessions/day",
+                "YAXIS": "Sessions/day"
+            },
+            "NECTAR": {
+                "FILTER": "Nectar flow",
+                "TITLE": "Nectar flow index",
+                "YAXIS": "Nectar flow index (%)"
+            },
+            "NOTES": {
+                "FILTER_APIARY": "Apiary Notes",
+                "FILTER_HIVE": "Hive Notes",
+                "TITLE": "Notes",
+                "YAXIS": ""
+            },
+            "PRECIP": {
+                "FILTER": "Precipitation",
+                "FILTER_DAILY": "Precipitation Daily",
+                "TITLE": "Precipitation",
+                "YAXIS": "Precipitation ({{label}})"
+            },
+            "PROD": {
+                "FILTER": "Productivity",
+                "FILTER_DAILY": "Productivity Daily",
+                "FILTER_HOURLY": "Productivity Hourly",
+                "TITLE": "Productivity",
+                "YAXIS": "Weight ({{label}})"
+            },
+            "PROD_CUMUL": {
+                "FILTER": "Cumulative Productivity",
+                "TITLE": "Cumulative Productivity",
+                "YAXIS": "Weight ({{label}})"
+            },
+            "RADAR": {
+                "FILTER": "Radar Signal",
+                "TITLE": "Radar Signal",
+                "YAXIS": "Radar Signal ({{label}})"
+            },
+            "RAIN": {
+                "FILTER": "Rainfall",
+                "FILTER_CUMULATIVE": "Rain Cumulative",
+                "FILTER_HOURLY": "Rain Hourly",
+                "TITLE": "Rainfall",
+                "YAXIS": "Rainfall ({{label}})"
+            },
+            "TEMP": {
+                "FILTER": "Temperature",
+                "FILTER_HOURLY": "Temperature Hourly",
+                "TITLE": "Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_EVENTS": {
+                "FILTER": "Temperature Events",
+                "TITLE": "Temperature Events",
+                "YAXIS": ""
+            },
+            "TEMP_MAX": {
+                "FILTER": "Max Temperature",
+                "TITLE": "Max Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_MAX_EXT": {
+                "FILTER": "Max External Temperature",
+                "TITLE": "Max External Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_MAX_WEATHER": {
+                "FILTER": "Max Weather Temperature",
+                "TITLE": "Max Weather Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_MEAN": {
+                "FILTER": "Mean Temperature",
+                "TITLE": "Mean Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_MIN": {
+                "FILTER": "Min Temperature",
+                "TITLE": "Min Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_MIN_EXT": {
+                "FILTER": "Min External Temperature",
+                "TITLE": "Min External Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_MIN_WEATHER": {
+                "FILTER": "Min Weather Temperature",
+                "TITLE": "Min Weather Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "TEMP_WEATHER": {
+                "FILTER": "Weather Temperature",
+                "TITLE": "Weather Temperature",
+                "YAXIS": "Temperature ({{label}})"
+            },
+            "WEATHER": {
+                "FILTER": "Weather Daily",
+                "TITLE": "Weather",
+                "YAXIS": ""
+            },
+            "WEIGHT": {
+                "FILTER": "Weight",
+                "FILTER_DAILY": "Weight Daily",
+                "FILTER_HOURLY": "Weight Hourly",
+                "TITLE": "Weight",
+                "YAXIS": "Weight ({{label}})"
+            },
+            "WIND": {
+                "FILTER": "Wind",
+                "FILTER_HOURLY": "Wind Hourly",
+                "TITLE": "Wind",
+                "YAXIS": "Wind ({{label}})"
+            },
+            "WIND_MAX": {
+                "FILTER": "Max Wind",
+                "TITLE": "Max Wind",
+                "YAXIS": "Wind ({{label}})"
+            }
+        }
+    },
+    "CHARTS": {
+        "BALANCE": "L/R-Balance",
+        "BATTERY": "Batterieladung",
+        "BATTERY_AXIS": "Ladung %",
+        "BROOD_ZONE": "Brutzone",
+        "FIRMWARE": "Firmware",
+        "HUMID": "Luftfeuchtigkeit",
+        "HUMID_AXIS": "Luftfeuchtigkeit %",
+        "HUMIDITY_NORMAL": "Normal",
+        "NORMAL_HUMIDITY": "Normale Luftfeuchtigkeit",
+        "PRESSURE": "Luftdruck",
+        "PRODUCTIVITY": "Bienenproduktivität",
+        "PRODUCTIVITY_AXIS": "Bienenproduktivität in {{wUnit}}",
+        "SWARM_S": {
+            "GENERIC": "Temperaturereignis",
+            "TITLE": "T"
+        },
+        "SWARM_STATE": "SM-Status",
+        "TEMP": "Temperatur",
+        "TEMP_AXIS": "Temperatur in {{tUnit}}",
+        "WEATHER_HUMID": "Außenluftfeuchtigkeit",
+        "WEATHER_TEMP": "Außentemperatur",
+        "WEIGHT": "Gewicht",
+        "WEIGHT_AXIS": "Gewicht in {{wUnit}}",
+        "WIND_MAX": "Maximaler Wind"
+    },
+    "COMMON": {
+        "APIARY": "Bienenhaus",
+        "CANCEL": "Abbrechen",
+        "CREATE": "Erstellen",
+        "DELETE": "Löschen",
+        "DEVICE": "Gerät",
+        "DISMISS": "Abweisen",
+        "EDIT": "Bearbeiten",
+        "HIVE": "Bienenstock",
+        "POSITION": "Position",
+        "SAVE": "Speichern"
+    },
+    "CONFIGURE_ALERTS": {
+        "EDIT": {
+            "BTN_MAIL_TEST": "Test-E-Mail senden",
+            "DAILY": "Tag",
+            "DAY": "Tag",
+            "EMAIL": {
+                "FAIL": "E-Mail konnte nicht an {{email}} gesendet werden",
+                "REALTIME_BODY": "Dies ist eine Testnachricht für MyBroodMinder-Echtzeitalarme.",
+                "SUCCESS": "E-Mail an {{email}} gesendet",
+                "SUMMARY_BODY": "Dies ist eine Test-E-Mail für MyBroodMinder-Zusammenfassungsalarme."
+            },
+            "EVERY": "jede",
+            "FREQUENCY": "Frequenz",
+            "HOURLY": "Stunde",
+            "MAIL": "Sende E-Mail-Benachrichtigungszusammenfassung alle",
+            "NEVER": "nie",
+            "OTHER": "benutzerdefiniert",
+            "REALTIME_INPUT": "Echtzeit-E-Mail (durch Komma getrennt)",
+            "SUMMARY_INPUT": "Zusammenfassungs-E-Mail (durch Komma getrennt)",
+            "TITLE": "E-Mail-Einstellungen",
+            "WEEKLY": "Woche"
+        },
+        "FREQUENCY_DAILY": "Benachrichtigungszusammenfassung per E-Mail wird täglich gesendet",
+        "FREQUENCY_NEVER": "Benachrichtigungszusammenfassung per E-Mail wird nicht gesendet",
+        "FREQUENCY_OTHER": "Benachrichtigungszusammenfassung per E-Mail wird alle {{value}} Tage gesendet",
+        "FREQUENCY_WEEKLY": "Benachrichtigungszusammenfassung per E-Mail wird wöchentlich gesendet",
+        "HIVE": "Bienenstock",
+        "REALTIME": "Echtzeit",
+        "SENSORS": "Geräte",
+        "SWARM_ALERT": "SchwarmMinder",
+        "UPDATE_FAIL": "Fehler beim Aktualisieren der Alarmeinstellungen",
+        "UPDATE_SUCCESS": "Alarmeinstellungen aktualisiert",
+        "WEATHER": "Wetter"
+    },
+    "CONFIGURE_APIARIES": {
+        "ACTIVE": "Aktiv",
+        "ADD": "Bienenhaus hinzufügen",
+        "CANNOT_DELETE_WINDOW": {
+            "MESSAGE": "Dieses Bienenhaus enthält die folgenden Bienenstöcke: {{hives}} Sie können dieses Bienenhaus erst löschen, wenn Sie diese Bienenstöcke gelöscht oder verschoben haben.",
+            "TITLE": "Bienenhaus kann nicht gelöscht werden"
+        },
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "Ja",
+            "MESSAGE": "Möchten Sie das Bienenhaus {{name}} wirklich löschen? Dies löscht das Bienenhaus dauerhaft.",
+            "TITLE": "Bienenhaus löschen"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "CONFIRM": "Ja",
+            "MESSAGE": "Dies setzt alle Bienenstöcke in diesem Bienenhaus als inaktiv, beendet alle Gerätestandorte in jedem Bienenstock und entfernt das Bienenhaus aus Ihren Ansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenhaus oder seinen Bienenstöcken übertragen. Dies kann nicht rückgängig gemacht werden. Bienenhaus {{name}} als inaktiv festlegen?",
+            "TITLE": "Bienenhaus als inaktiv festlegen"
+        },
+        "DELETE_ERROR": "Fehler beim Löschen des Bienenhauses",
+        "DELETE_SUCCESS": "Bienenhaus gelöscht",
+        "NAME": "Name des Bienenhauses",
+        "SHARE": "Teilen",
+        "SHOW_INACTIVE": "Inaktive anzeigen",
+        "UPDATED_SUCCESS": "Bienenhaus aktualisiert",
+        "ZIPCODE": "Postleitzahl"
+    },
+    "CONFIGURE_DASHBOARDS": {
+        "CHART": {
+            "APIARY_LOCATIONS": "Apiarystandorte anzeigen",
+            "BROOD_ZONE": "Brutzone anzeigen",
+            "DEFAULT": "Standard ({{value}})",
+            "FAIL": "Fehler beim Aktualisieren des Diagramms",
+            "FILTERS": {
+                "ACTIVE": "Aktiv",
+                "AVAILABLE": "Verfügbar"
+            },
+            "HEIGHT": "Höhe",
+            "LEGEND": "Legende anzeigen",
+            "NAME": "Name",
+            "NORMAL_HUMID": "Normale Luftfeuchtigkeit anzeigen",
+            "SUCCESS": "Diagramm aktualisiert",
+            "TITLE_CREATE": "Diagramm erstellen",
+            "TITLE_EDIT": "{{name}} bearbeiten",
+            "TODAY_LINE": "Heutige Linie anzeigen"
+        },
+        "DASHBOARD": {
+            "ACTIVE": "Aktive Dashboards",
+            "AVAILABLE": "Verfügbare Dashboards",
+            "CHART_NAMES": {
+                "APIARY_IMAGE": "Bienenstandbild",
+                "APIARY_MAP": "Bienenstände Karte",
+                "BATTERY": "Batterie",
+                "BEECOUNT": "Bienenanzahl",
+                "BROOD": "Brut",
+                "CLOUD_COVER": "Wolkendecke",
+                "FORAGING": "Sammelindex",
+                "HIVE_TEXT": "Bienenstocktext",
+                "HIVE_TEXT_SUMMARY": "Text",
+                "HUMID": "Luftfeuchtigkeit",
+                "MATING_FLIGHTS": "Paarungsflugfenster",
+                "NECTAR": "Nektarflussindex",
+                "NOTES": "Notizen",
+                "PROD": "Produktivität",
+                "RAIN": "Regen",
+                "TEMP": "Temperatur",
+                "WEIGHT": "Gewicht",
+                "WEIGHT_CHANGE": "Gewichtsveränderung",
+                "WIND": "Wind"
+            },
+            "DRAG": "Diagramm ziehen, um es zum Dashboard hinzuzufügen",
+            "FAIL": "Fehler beim Aktualisieren des Dashboards",
+            "NAME": "Name",
+            "SUCCESS": "Dashboard aktualisiert",
+            "TITLE_CREATE": "Dashboard erstellen",
+            "TITLE_EDIT": "{{name}} bearbeiten",
+            "WARNING": "Es gibt {{count}} öffentliche freigegebene Links, die mit diesem Dashboard verbunden sind. Alle Änderungen, die Sie vornehmen, wirken sich auf diese Links aus."
+        },
+        "DELETE": {
+            "CANCEL": "Abbrechen",
+            "CONFIRM": "Löschen",
+            "FAIL": "Fehler beim Entfernen des Dashboards",
+            "MESSAGE": "Sind Sie sicher, dass Sie dieses Dashboard ({{name}}) löschen möchten?",
+            "SUCCESS": "Dashboard entfernt",
+            "TITLE": "{{name}} löschen",
+            "WARNING": "Es gibt {{count}} öffentliche freigegebene Links, die mit diesem Dashboard verbunden sind. Das Löschen wird diese Links brechen."
+        },
+        "DUPLICATE": {
+            "CANCEL": "Abbrechen",
+            "CONFIRM": "Erstellen",
+            "FAIL": "Fehler beim Erstellen des Dashboards",
+            "MESSAGE": "Möchten Sie eine Kopie dieses Dashboards ({{name}}) erstellen?",
+            "NAME_SUFFIX": "Kopie",
+            "SUCCESS": "Dashboard erstellt",
+            "TITLE": "{{name}} kopieren"
+        },
+        "DUPLICATE_TOOLTIP": "Duplizieren",
+        "HIDE": {
+            "CANCEL": "Abbrechen",
+            "CONFIRM": "Verbergen",
+            "HIDDEN": "Dashboard versteckt",
+            "MESSAGE": "Sind Sie sicher, dass Sie dieses Dashboard ({{name}}) verbergen möchten?",
+            "MESSAGE_2": "Sie können dies auf der Konfigurationsseite rückgängig machen.",
+            "TITLE": "{{name}} verbergen",
+            "VISIBLE": "Dashboard sichtbar"
+        },
+        "NAME": "Name",
+        "VISIBLE": "Sichtbar"
+    },
+    "CONFIGURE_DEVICES": {
+        "ACTIVE": "Aktiv",
+        "ADD": "Gerät hinzufügen",
+        "ADD_LOCATION": "Standort hinzufügen",
+        "ADDRESS": "Geräteadresse",
+        "BATTERY": "Batterie",
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "Ja",
+            "MESSAGE": "Möchten Sie das Gerät {{deviceName}} wirklich löschen? Dies löscht das Gerät und die zugehörigen Daten dauerhaft.",
+            "TITLE": "Gerät löschen"
+        },
+        "DATA_RECEIVED": "Letzte Datenübermittlung",
+        "DELETE_ERROR": "Fehler beim Löschen des Geräts",
+        "DELETE_SUCCESS": "Gerät gelöscht",
+        "DOWNLOAD": "Geräte herunterladen",
+        "FILTER_LOCATION": "Standort filtern",
+        "FILTER_NAME": "Name filtern",
+        "LOCATION": "Aktueller Standort",
+        "LOCATION_HISTORY": "Standorthistorie",
+        "NAME": "Gerätename",
+        "THIRD_PARTY": {
+            "ADD": "Drittanbietergerät hinzufügen",
+            "ERROR_NO_CREDIT": "Kein Token zugewiesen, Daten werden nicht erfasst",
+            "ERROR_TOKEN_EXPIRED": "Token abgelaufen, Daten werden nicht erfasst",
+            "ERROR_TOKEN_EXPIRED_SOFT": "Token abgelaufen, Daten werden bald nicht mehr erfasst"
+        },
+        "UPDATED_SUCCESS": "Gerät aktualisiert"
+    },
+    "CONFIGURE_HIVES": {
+        "ACTIVE": "Aktiv",
+        "ADD": "Bienenstock hinzufügen",
+        "APIARY": "Bienenhaus",
+        "APIARY_HISTORY": "Bienenhaus-Historie",
+        "CODE": "Bienenstock-Code",
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "Ja",
+            "MESSAGE": "Möchten Sie den Bienenstock {{name}} wirklich löschen? Dies löscht den Bienenstock dauerhaft.",
+            "TITLE": "Bienenstock löschen"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "COMMENT": "Kommentar",
+            "CONFIRM": "Ja",
+            "MESSAGE": "Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhausansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock {{name}} als inaktiv festlegen?",
+            "REASON": "Grund auswählen",
+            "REASONS": {
+                "ABSCONDED": "Abgewandert",
+                "COMBINED": "Mit einem anderen Volk vereinigt",
+                "DIED": "Gestorben",
+                "OTHER": "Andere"
+            },
+            "TITLE": "Bienenstock als inaktiv festlegen"
+        },
+        "DELETE_ERROR": "Fehler beim Löschen des Bienenstocks",
+        "DELETE_SUCCESS": "Bienenstock gelöscht",
+        "LOCATION_HISTORY": "Gerätehistorie",
+        "NAME": "Name des Bienenstocks",
+        "UPDATED_SUCCESS": "Bienenstock aktualisiert"
+    },
+    "CONFIGURE_HUBS": {
+        "APIARY": "Bienenhaus",
+        "BATTERY": "Batterie",
+        "EDIT": "Verwalten",
+        "EXP_UNASSIGNED": "Keine",
+        "EXPIRING": "Token-Status",
+        "FILTER": "Filter",
+        "HUB": "Hub",
+        "LAST_UPLOAD": "Letzter Upload",
+        "MANAGE": {
+            "ASSIGNMENT_REMOVED": "Token entfernt",
+            "ASSIGNMENT_SUCCESS": "Zuweisung aktualisiert",
+            "BACK_BUTTON": "Zurück",
+            "CANCEL": {
+                "CONFIRM": "Dies entfernt das Token aus Ihrem Abonnement. Ihr neuer {{frequency}} Abonnementpreis beträgt {{amount}}. Nach dem Ablaufdatum ({{expiration}}) werden Daten von diesem Hub nicht mehr in MyBroodMinder akzeptiert. Sind Sie sicher, dass Sie dieses Token stornieren möchten?",
+                "ERROR_1": "Dies ist ein kostenloses Abonnement, das Token kann nicht storniert werden",
+                "ERROR_2": "Dieses Abonnement ist storniert, das Token kann nicht storniert werden",
+                "ERROR_3": "Dies ist ein kostenloses Token und kann nicht storniert werden",
+                "ERROR_4": "Dieses Token wird nicht automatisch verlängert und kann nicht storniert werden",
+                "ERROR_5": "Dieses Token wurde bereits storniert",
+                "ERROR_6": "Dieses Token ist kostenlos in Ihrem Abonnement enthalten und kann nicht storniert werden. Besuchen Sie die Kontoseite, wenn Sie Ihre Premium-Mitgliedschaft kündigen möchten",
+                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht storniert",
+                "OK": "Ja, dieses Token stornieren",
+                "SUCCESS": "Token storniert",
+                "TITLE": "Token stornieren"
+            },
+            "CANCEL_CREDIT": "Token aus Auto-Verlängerung entfernen",
+            "CLOSE": "Fertig",
+            "PURCHASE": {
+                "AUTO": "Automatische Verlängerung",
+                "CHARGED": "Jetzt berechnet",
+                "ERROR_1": "Sie müssen zuerst eine Premium-Mitgliedschaft erwerben. Sehen Sie sich die Optionen",
+                "ERROR_1_LINK": "hier",
+                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht gekauft",
+                "MONTHS": "Monate",
+                "MONTHS_SELECT": "Monate",
+                "OK": "Kaufen",
+                "ONCE": "Einmalig",
+                "QUANTITY": "Anzahl der Token",
+                "TITLE": "Token kaufen",
+                "TOTAL": "Aktualisierter {{frequency}} Mitgliedschaftspreis"
+            },
+            "PURCHASE_CREDIT": "Neu kaufen",
+            "REACTIVATE": {
+                "CONFIRM": "Dies fügt das stornierte Token wieder zu Ihrem Abonnement hinzu. Sie werden jetzt nichts berechnet, da Sie bereits für diesen Zeitraum bezahlt haben. Ihr neuer {{frequency}} Abonnementpreis beträgt {{amount}}. Sind Sie sicher, dass Sie dieses Token reaktivieren möchten?",
+                "ERROR_1": "Dies ist ein kostenloses Abonnement, das Token kann nicht reaktiviert werden",
+                "ERROR_2": "Dieses Abonnement ist storniert, das Token kann nicht reaktiviert werden",
+                "ERROR_3": "Dies ist ein kostenloses Token und kann nicht reaktiviert werden",
+                "ERROR_4": "Dieses Token wird nicht automatisch verlängert und kann nicht reaktiviert werden",
+                "ERROR_5": "Dieses Token ist bereits abgelaufen und kann nicht reaktiviert werden",
+                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht reaktiviert",
+                "OK": "Ja, dieses Token reaktivieren",
+                "TITLE": "Token reaktivieren"
+            },
+            "REACTIVATE_CREDIT": "Token reaktivieren",
+            "REMOVE": {
+                "CONFIRM": "Sind Sie sicher, dass Sie das Token von {{item}} entfernen möchten?",
+                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht entfernt",
+                "OK": "Ja, dieses Token entfernen",
+                "TITLE": "Token entfernen"
+            },
+            "REMOVE_CREDIT": "Token von {{item}} entfernen",
+            "SELECT_APIARY": "Bienenhaus auswählen",
+            "SELECT_CREDIT": "Token auswählen",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Dieses Token kann für viele Geräte von Drittanbietern verwendet werden",
+            "TITLE": "Verwalten",
+            "UPDATED_SUCCESS": "Hub aktualisiert"
+        },
+        "NAME": "Name",
+        "SIM": "SIM",
+        "TELECOM": "Telekommunikation",
+        "THIRD_PARTY_DEVICE": "Gerät von Drittanbietern"
+    },
+    "CONFIGURE_PAGE": {
+        "ACCOUNT_TITLE": "Mein Konto",
+        "ALERTS_TITLE": "Benachrichtigungen",
+        "APIARIES_TITLE": "Bienenhöfe",
+        "DASHBOARDS_TITLE": "Dashboards",
+        "DEVICES_TITLE": "Geräte",
+        "HIVES_TITLE": "Bienenstöcke",
+        "HUBS_TITLE": "Hubs",
+        "LINKS_TITLE": "Öffentliche Links",
+        "NESTED": "Nach Bienenhof verschachtelt",
+        "PREFERENCES_TITLE": "Meine Einstellungen",
+        "SEPARATE": "Nach Typ",
+        "SUBSCRIPTIONS_TITLE": "Meine Abonnements",
+        "THIRD_PARTY_TITLE": "Geräte von Drittanbietern",
+        "TITLE": "Konfigurieren"
+    },
+    "DASHBOARD": {
+        "CHART": {
+            "ALERT_NOTE_TABLE": {
+                "DATE": "Datum",
+                "DELETE_ALERT": {
+                    "CONFIRM": "Löschen",
+                    "ERROR": "Fehler beim Löschen des Alarms",
+                    "MESSAGE": "Sind Sie sicher, dass Sie diesen Alarm löschen möchten?",
+                    "SUCCESS": "Alarm gelöscht",
+                    "TITLE": "Alarm löschen"
+                },
+                "DESCRIPTION": "Beschreibung",
+                "NO_DESCR": "Keine Beschreibung",
+                "TAGS": "Tags"
+            },
+            "ALERTS": {
+                "EDIT": {
+                    "FAIL": "Fehler beim Aktualisieren des Alarms",
+                    "SUCCESS": "Alarm aktualisiert",
+                    "TITLE": "Alarm bearbeiten"
+                },
+                "ERROR": "Alarmdetails nicht gefunden"
+            },
+            "APIARY_OVERVIEW": {
+                "ALERTS": "Warnungen",
+                "FORAGING": "Sammelindex",
+                "MAX_TEMP": "Max. Temperatur",
+                "MIN_TEMP": "Min. Temperatur",
+                "NECTAR": "Nektarindex",
+                "NOTES": "Notizen",
+                "RAIN": "Regen",
+                "WEATHER": "Wetter",
+                "WIND": "Wind"
+            },
+            "DOWNLOAD_CHART": "Diagrammbild herunterladen",
+            "EDIT_CHART": "Diagramm bearbeiten",
+            "HIVE_OVERVIEW": {
+                "ALERTS": "Warnungen",
+                "BROOD": "Brut",
+                "DATE": "Datum",
+                "FITNESS": "Fitness",
+                "FORAG": "Sammeln",
+                "FORAG_DESC": "Gesamtzahl der Bienenflüge pro Tag | Gesamtdauer des Sammelns (Stunden) | Arbeitsperioden über den Tag verteilt",
+                "HISTORY": "Verlauf",
+                "HISTORY_TOOLTIP": "Verlauf",
+                "NAME": "Name",
+                "NOTES": "Notizen",
+                "PROD": "Produktivität",
+                "WEIGHT": "Gewicht"
+            },
+            "HIVE_TEXT": {
+                "BATTERY": "Batterie",
+                "BEEDAR": "Beedar",
+                "DATE": "Datum",
+                "GAIN": "Gewinn",
+                "GAIN_S": "Gewinn (seit Sonnenaufgang)",
+                "HUMID": "Luftfeuchtigkeit",
+                "INITIAL": "Anfang",
+                "LAST_SEEN": "Zuletzt gesehen",
+                "LATEST": "Neueste",
+                "LOCATION": "Ort",
+                "NAME": "Name",
+                "NO_DATA": "Keine Daten im Zeitraum",
+                "SUNRISE": "Sonnenaufgang",
+                "TEMP": "Temperatur",
+                "WEIGHT": "Gewicht"
+            },
+            "IMAGE": {
+                "ADD": "Bild hinzufügen",
+                "DROP": "Lassen Sie Ihr benutzerdefiniertes Bild hier fallen",
+                "ERROR_SIZE": "Bild zu groß, 6 MB erlaubt",
+                "ERROR_TYPE": "Bild nicht erlaubt, nur jpeg und png",
+                "REMOVE": "Bild entfernen",
+                "SUCCESS": "Datei hochgeladen",
+                "UPLOADING": "Hochladen {{value}}%"
+            },
+            "MAP": {
+                "EDIT": "Karte bearbeiten"
+            },
+            "NO_DATA": "Keine Daten",
+            "NOTES": {
+                "ADD": "Notiz hinzufügen",
+                "ERROR": "Details zur Notiz nicht gefunden",
+                "LOADING": "Wird geladen",
+                "MORE": "Mehr laden",
+                "SHOWING": "Zeigt",
+                "TITLE": "{{count}} Notizen"
+            },
+            "ZOOM_CANCEL": "Zoom abbrechen",
+            "ZOOM_X": "X-Achsen-Zoom",
+            "ZOOM_Y": "Y-Achsen-Zoom"
+        },
+        "CONTEXT": {
+            "DELETE_DASH": "Dashboard löschen",
+            "DOWNLOAD": {
+                "DAILY_READINGS": "Tägliche Ablesungen CSV",
+                "DAILY_WEATHER": "Tägliches Wetter CSV",
+                "DOWNLOAD": "Herunterladen",
+                "HOURLY_READINGS": "Stündliche Ablesungen CSV",
+                "HOURLY_WEATHER": "Stündliches Wetter CSV",
+                "MENU": "Download-Optionen",
+                "NOTES": "Notizen CSV",
+                "TITLE": "Herunterladen",
+                "WARNING": "Für CSV-Downloads der Bienenstockdaten ist ein Premium-Account erforderlich."
+            },
+            "EDIT_DASH": "Dashboard bearbeiten",
+            "EDIT_SHARE_DASH": "Freigegebene Links bearbeiten",
+            "HIDE_DASH": "Dashboard verbergen",
+            "SHARE_DASH": "Dashboard teilen"
+        }
+    },
+    "DATE_PICKER": {
+        "APPLY": "Anwenden",
+        "CUSTOM": "Benutzerdefinierter Bereich",
+        "DAYS_1": "Letzte 1 Tage",
+        "DAYS_14": "Letzte 14 Tage",
+        "DAYS_180": "Letzte 180 Tage",
+        "DAYS_3": "Letzte 3 Tage",
+        "DAYS_30": "Letzte 30 Tage",
+        "DAYS_7": "Letzte 7 Tage",
+        "DAYS_90": "Letzte 90 Tage",
+        "DAYS_SHORT": {
+            "0": "So",
+            "1": "Mo",
+            "2": "Di",
+            "3": "Mi",
+            "4": "Do",
+            "5": "Fr",
+            "6": "Sa"
+        },
+        "END": "Ende",
+        "FORECAST": {
+            "OFF": "Wetterbericht Aus",
+            "ON": "Wetterbericht An",
+            "SHOW": "10-Tage-Wettervorhersage anzeigen"
+        },
+        "HOURS_24": "Letzte 24 Stunden",
+        "INFO": "Premium- oder Pro-Mitgliedschaft erforderlich, um Daten älter als ein Jahr anzuzeigen. Ältere Daten können durch CSV-Download auf der Geräteansicht abgerufen werden.",
+        "INVALID_END": "Ungültiges Enddatum",
+        "INVALID_START": "Ungültiges Startdatum",
+        "MONTHS_SHORT": {
+            "0": "Jan",
+            "1": "Feb",
+            "10": "Nov",
+            "11": "Dez",
+            "2": "Mär",
+            "3": "Apr",
+            "4": "Mai",
+            "5": "Jun",
+            "6": "Jul",
+            "7": "Aug",
+            "8": "Sep",
+            "9": "Okt"
+        },
+        "START": "Start",
+        "TODAY": "Heute",
+        "TOMMOROW": "Morgen",
+        "VIEWING": "Anzeigen",
+        "YEAR_1": "Letztes Jahr",
+        "YEAR_2": "Letzte 2 Jahre",
+        "YESTERDAY": "Gestern"
+    },
+    "DATE_PICKER_SHORT": {
+        "DAYS_1": "1 Tag",
+        "DAYS_14": "14 Tage",
+        "DAYS_180": "180 Tage",
+        "DAYS_3": "3 Tage",
+        "DAYS_30": "30 Tage",
+        "DAYS_7": "7 Tage",
+        "DAYS_90": "90 Tage",
+        "HOURS_24": "24 Stunden",
+        "YEAR_1": "1 Jahr",
+        "YEAR_2": "2 Jahre"
+    },
+    "DEVICE_CRUD": {
+        "BIP_AGREE": "Muss den BIP zustimmen",
+        "BIP_SEND": "Daten an die Bee Informed Partnership senden",
+        "BIP_TERMS": "Nutzungsbedingungen",
+        "CREATE_TITLE": "Gerät erstellen",
+        "EDIT_TITLE": "Gerät bearbeiten",
+        "ERROR_ADDRESS": "Bitte gültige Geräteadresse eingeben",
+        "ERROR_BIP": "Muss den Nutzungsbedingungen des BIP zustimmen, um das Senden zu aktivieren",
+        "ERROR_DUPLICATE": "Konnte nicht erstellt werden, Gerät mit dieser Adresse existiert bereits",
+        "MODEL": "Modellnummer",
+        "NAME": "Name",
+        "NAME_AUTO": "Oben stehende Adresse als Namen verwenden",
+        "PLACE_TITLE": "Gerät platzieren",
+        "SCALE": "Dieses Gerät ist eine Waage",
+        "SELECT_POSITION": "Position auswählen",
+        "SUCCESS_CREATED": "Gerät erstellt",
+        "SUCCESS_PLACED": "Gerät in der Beute platziert",
+        "SUCCESS_UPDATED": "Gerät aktualisiert",
+        "THIRD_PARTY": {
+            "CREDIT_EXPLANATION": "Für die Erfassung von Daten von Geräten Dritter ist ein Premium-Mitgliedschafts-Token erforderlich",
+            "ERROR_GENERAL": "Fehler beim Hinzufügen des Geräts",
+            "ERROR_YOLINK_NOT_FOUND": "YoLink-Gerät nicht gefunden, überprüfen Sie, ob Sie die richtige Seriennummer haben",
+            "ERROR_YOLINK_OTHER_USER": "YoLink-Gerät bereits bei einem anderen Konto registriert",
+            "NAME_REQUIRED": "Name erforderlich",
+            "PROVIDER": "Anbieter wählen",
+            "TITLE": "Gerät von Drittanbietern hinzufügen",
+            "YOLINK_EXPLANATION": "Scannen Sie den QR-Code auf Ihrem YoLink-Gerät, um die 32-stellige Seriennummer zu erhalten.",
+            "YOLINK_SN_REQUIRED": "YoLink-Seriennummer erforderlich"
+        }
+    },
+    "DEVICE_PAGE": {
+        "CHART_TITLE": "Geräteübersicht für {{name}}",
+        "DATA_TOOLTIP": {
+            "BUILDING": "Ansicht wird erstellt",
+            "OK": "Ansicht aktuell",
+            "UPDATE": "Ansicht muss aktualisiert werden"
+        },
+        "DOWNLOAD": "CSV-Daten herunterladen",
+        "DOWNLOAD_HIST": "Vollständige Historie herunterladen",
+        "DOWNLOAD_VIEW": "Angezeigten Zeitraum herunterladen",
+        "EDITOR": {
+            "BALANCE": "L/R Balance",
+            "BATTERY": "Battery",
+            "BUTTON_NONE": "Select readings to remove in table below",
+            "BUTTON_SELECTED": "Remove selected",
+            "CONFIRM_WINDOW": {
+                "CONFIRM": "Ja",
+                "MESSAGE": "Möchten Sie die ausgewählten {{count}} Messungen entfernen?",
+                "TITLE": "Ausgewählte Messungen entfernen"
+            },
+            "DESCRIPTION": "Zoom chart or click point to filter readings below.",
+            "DISMISS": "Verwerfen",
+            "EPOCH": "Epoch",
+            "FAIL": "Fehler, Messungen nicht entfernt",
+            "HUMID": "Feuchtigkeit",
+            "NONE": "Keine Messungen für diesen Zeitraum",
+            "OUTLIERS": {
+                "BUTTON_NONE": "Select readings to add back as normal sensor readings",
+                "BUTTON_SELECTED": "Move back selected",
+                "CONFIRM_WINDOW": {
+                    "CONFIRM": "Ja",
+                    "MESSAGE": "Möchten Sie die ausgewählten {{count}} Messungen wieder als normale Sensor-Messungen hinzufügen?",
+                    "TITLE": "Ausgewählte Messungen verschieben"
+                },
+                "FAIL": "Fehler, Messungen nicht verschoben",
+                "MESSAGE": "Nachricht",
+                "MOVE": "Zurückverschieben",
+                "NONE": "Keine entfernten Messungen für diesen Zeitraum",
+                "SUCCESS": "Messungen verschoben",
+                "SYSTEM_R": "System entfernt",
+                "TITLE": "Als Ausreißer markierte Messungen",
+                "USER_R": "Benutzer entfernt"
+            },
+            "REMOVE": "Entfernen",
+            "REMOVE_DUPLICATES_BUTTON": "Duplikate entfernen",
+            "REMOVE_DUPLICATES_TITLE": "Duplikate entfernt",
+            "RSSI": "Rssi",
+            "SAMPLE": "Probe",
+            "SAMPLE_STATE": "SM-Zustand",
+            "SOURCE": "Quelle",
+            "SUCCESS": "Messungen entfernt",
+            "TEMP": "Temp",
+            "TIMESTAMP": "Zeitstempel",
+            "TITLE": "Dateneditor",
+            "WEIGHT": "Gewicht",
+            "WEIGHT_L": "Gewicht Links",
+            "WEIGHT_L_R": "Gewicht Links Raw",
+            "WEIGHT_R": "Gewicht Rechts",
+            "WEIGHT_R_R": "Gewicht Rechts Raw",
+            "WEIGHT_SF": "Gewichtsmaßstab"
+        },
+        "LOADING": "Lade Gerätesensormessungen",
+        "LOCATION_ADD": "Standort hinzufügen",
+        "LOCATION_HISTORY": "Standorthistorie des Geräts",
+        "LOCATION_PIN_END": "E",
+        "LOCATION_PIN_START": "S",
+        "OUTLIER_HIDE": "Dateneditor ausblenden",
+        "OUTLIER_SHOW": "Dateneditor anzeigen",
+        "TITLE": "Gerätedaten - {{name}}"
+    },
+    "DUPLICATE_CLEANUP": {
+        "CLOSE": "Schließen",
+        "CREATE_SUBTITLE_1": "Dies entfernt Duplikate (aus mehreren Quellen) und bereinigt Daten für dieses Gerät.",
+        "GROUPS": {
+            "CREATED": "Erstellt",
+            "FROM": "Von",
+            "ID": "ID",
+            "REMOVED": "Entfernte Messungen",
+            "ROLLBACK": "Rückgängig machen",
+            "ROLLBACK_DIALOG": {
+                "CONFIRM": "Ja",
+                "MESSAGE": "Möchten Sie diese Bereinigung von Duplikaten rückgängig machen?",
+                "TITLE": "Duplikatbereinigung rückgängig machen"
+            },
+            "STATUS": "Status",
+            "STATUS_COMPLETE": "abgeschlossen",
+            "STATUS_ROLLED": "rückgängig gemacht",
+            "STATUS_ROLLING": "wird rückgängig gemacht",
+            "STATUS_RUNNING": "läuft",
+            "TITLE": "Bereinigungsgruppen",
+            "TO": "Nach",
+            "TOTAL": "Gesamtmessungen"
+        },
+        "NOTES": "Notizen (optional)",
+        "REMOVED": "Entfernt",
+        "RUN_CLEANUP": "Bereinigung durchführen",
+        "RUNNING": "Bereinigung läuft",
+        "TIME_SET": "Duplikate entfernen von {{start}} bis {{end}}",
+        "TIME_ZOOM": "Duplikate für die aktuelle Ansicht entfernen {{start}} bis {{end}}",
+        "TITLE": "Duplikate von Messungen bereinigen",
+        "TOTAL": "Gesamt"
+    },
+    "EDIT_SUBS": {
+        "HEADERS": {
+            "ASSOCIATED": "Associated with",
+            "AUTO": "Auto-renew",
+            "EDIT": "Edit",
+            "EXPIRES": "Expires on",
+            "ID": "ID",
+            "NAME": "Name",
+            "PRICE": "Price",
+            "RENEW": "Renews on",
+            "START": "Starts on",
+            "STATUS": "Status",
+            "SUB_ID": "Sub ID"
+        },
+        "MEMEBERSHIPS": {
+            "FREE": "Free",
+            "PRE_PAID": "Pre-Paid",
+            "TITLE": "Memberships",
+            "TRIAL": "Trial Membership"
+        },
+        "MONTH_ERROR": "Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
+        "PURCHASE": "Purchase Products",
+        "SHOW_EXPIRED": "Show Expired",
+        "TOKENS": {
+            "ASSIGN": {
+                "HUB": "Hub",
+                "THIRD_PARTY": "Third Party Devices",
+                "TITLE": "Assign"
+            },
+            "CANCEL_CONFIRM": "Yes",
+            "CANCEL_SUCCESS": "Token cancelled",
+            "CANCEL_TEXT": "Are you sure?",
+            "CANCEL_TITLE": "Cancel Token",
+            "ERROR": "Error token not updated",
+            "HUB_EDIT": {
+                "WARNING_DUP": "Hub has credit active until {{date}}. This will be replaced.",
+                "WARNING_REMOVE": "This removes token from hub. Hub will stop uploading data.",
+                "WARNING_SINGLE": "This is a single device hub token. Only one sensor device can be uploaded with this token.",
+                "WARNING_WIFI_TYPE": "Wifi hub will be running on a cell hub token."
+            },
+            "REMOVE": "Remove Token from Membership",
+            "TITLE": "Tokens",
+            "UPDATED": "Token updated"
+        }
+    },
+    "F_TOUR": {
+        "BACK": "Zurück",
+        "DASH": {
+            "CHART_EDIT": {
+                "TEXT": "Klicken Sie hier, um die Diagrammoptionen zu bearbeiten.",
+                "TITLE": "Diagrammoptionen"
+            },
+            "CHART_FILTER": {
+                "TEXT_1": "Klicken Sie hier, um zu zoomen.",
+                "TEXT_2": "Klicken Sie hier, um Daten aus Ihrem Diagramm zu entfernen und hinzuzufügen.",
+                "TITLE": "Diagrammfilter"
+            },
+            "DASH_OPT": {
+                "TEXT": "Klicken Sie hier für weitere Dashboard-Optionen.",
+                "TITLE": "Dashboard-Optionen"
+            },
+            "DASHBOARDS": {
+                "TEXT": "Klicken Sie auf den Namen eines Dashboards, um Ihre Daten auf verschiedene Arten anzuzeigen!",
+                "TITLE": "Neue Ansichten und Visualisierungen!"
+            },
+            "NEW": {
+                "TEXT": "Erstellen Sie Ihr eigenes Dashboard. Fügen Sie Diagramme hinzu und ordnen Sie sie nach Ihren Bedürfnissen an.",
+                "TITLE": "Benutzerdefinierte Dashboards"
+            }
+        },
+        "END": {
+            "DONE": "Fertig",
+            "TEXT_1": "Für weitere Hilfe und Informationen lesen Sie unsere Dokumentation.",
+            "TEXT_2": "Wir hoffen, es gefällt Ihnen!",
+            "TEXT_3": "- Das BroodMinder-Team",
+            "TITLE": "Das war's"
+        },
+        "EXTRAS": {
+            "CONF": {
+                "TEXT": "Klicken Sie auf Konfigurieren, um weitere erweiterte Optionen anzuzeigen.",
+                "TITLE": "Erweiterte Optionen"
+            },
+            "CONF_ALERT": {
+                "TEXT": "Alarmeinstellungen, E-Mail und Häufigkeit bearbeiten.",
+                "TITLE": "Erweiterte Alarmoptionen"
+            },
+            "CONF_DASH": {
+                "TEXT": "Bearbeiten, ausblenden, duplizieren usw...",
+                "TITLE": "Erweiterte Dashboard-Optionen"
+            },
+            "DATE": {
+                "TEXT": "Wählen Sie den Datumsbereich aus und zeigen Sie optional die Wettervorhersage an.",
+                "TITLE": "Datumsbereich"
+            },
+            "HIVE_COLOR": {
+                "TEXT_1": "Bearbeiten Sie Ihren Bienenstock, um die Bienenstockfarbe zu ändern. Dies ist anpassbar, damit Sie mehrere Bienenstöcke auf demselben Dashboard leicht anzeigen können.",
+                "TEXT_2": "Dies kann auch für jede Ihrer Bienenstandorte gemacht werden, um die Wettersymbolfarbe festzulegen.",
+                "TITLE": "Bienenstockfarbe anpassen"
+            }
+        },
+        "NAV": {
+            "APIARY": {
+                "TEXT": "Klicken Sie auf einen Bienenstand, um seine Bienenstöcke aus Ihrer Anzeige hinzuzufügen oder zu entfernen.",
+                "TITLE": "Bienenstand auswählen"
+            },
+            "HIVE": {
+                "TEXT_1": "Klicken Sie auf den Namen eines Bienenstocks, um ihn auf einem Dashboard anzuzeigen.",
+                "TEXT_2": "Klicken Sie erneut auf den Bienenstock, um ihn zu entfernen.",
+                "TITLE": "Einen Bienenstock anzeigen"
+            },
+            "HOME": {
+                "TEXT": "Besuchen Sie die Startseite, um eine Übersicht Ihrer aktiven Bienenstöcke und Bienenstände anzuzeigen.",
+                "TITLE": "Startseite"
+            },
+            "MULTI": {
+                "TEXT": "Klicken Sie auf Mehrfachauswahl, um mehrere Bienenstöcke gleichzeitig anzuzeigen.",
+                "TITLE": "Mehrfachauswahl aktivieren"
+            }
+        },
+        "NEXT": "Weiter",
+        "START": {
+            "DASH_BUTTON": "Dashboards",
+            "DONE_BUTTON": "Fertig",
+            "EXTRAS_BUTTON": "Extras",
+            "NAV_BUTTON": "Navigation",
+            "TEXT": "Willkommen beim neuen und verbesserten MyBroodMinder! Wir haben neue Funktionen, Diagramme und Daten hinzugefügt. Erfahren Sie mehr hier.",
+            "TITLE": "Neues und verbessertes MyBroodMinder!"
+        }
+    },
+    "FEATURES": {
+        "CLOSE": "Schließen",
+        "FEATURE_1": "Erstmalig, erstelle eine Beute",
+        "FEATURE_2": "Daten anzeigen",
+        "FEATURE_3": "Konfiguration und Bewegung von Geräten",
+        "FEATURE_4": "Anzeigen von CELL/WiFi/Hub-Status",
+        "NEXT": "Weiter",
+        "SKIP": "Überspringen",
+        "TITLE": "Führung durch Funktionen"
+    },
+    "FITNESS_CODE": {
+        "B1": {
+            "MSG": "Dead hive"
+        },
+        "B2": {
+            "MSG": "Stolen hive"
+        },
+        "G1": {
+            "MSG": "Healthy"
+        },
+        "G2": {
+            "MSG": "No data or no weather"
+        },
+        "O1": {
+            "MSG": "Weak hive or in strong decrease"
+        },
+        "O2": {
+            "MSG": "Potential swarm"
+        },
+        "O3": {
+            "MSG": "Overheating"
+        },
+        "O4": {
+            "MSG": "Extreme cold"
+        },
+        "O5": {
+            "MSG": "Rapid weight loss, being robbed"
+        },
+        "R1": {
+            "MSG": "Very weak hive"
+        }
+    },
+    "GLOBAL_DASHBOARDS": {
+        "CALENDAR": {
+            "TITLE": "Kalender"
+        },
+        "CLASSIC": {
+            "AUDIO": "Vibration",
+            "BATTERY": "Batterie",
+            "HUMID": "Luftfeuchtigkeit",
+            "RADAR": "Radar",
+            "TEMP": "Temperatur",
+            "TITLE": "Klassisch",
+            "WEIGHT": "Gewicht",
+            "WEIGHT_CHANGE": "Gewichtsveränderung"
+        },
+        "WEATHER": {
+            "TITLE": "Wetter"
+        }
+    },
+    "HIVE_APIARY_LOCATION_HIST": {
+        "APIARY": "Bienenstand",
+        "EDIT": {
+            "ADD": "Hinzufügen",
+            "ERROR_APIARY_REQUIRED": "Für alle Standorte muss ein Bienenstand ausgewählt werden",
+            "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenstands",
+            "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenstands",
+            "ERROR_LOCATION_REQUIRED": "Beute erfordert mindestens einen Bienenstand",
+            "SELECT_APIARY": "Bienenstand auswählen",
+            "SUCCESS": "Änderungen gespeichert"
+        },
+        "END": "Ende",
+        "END_OPEN": "aktuell",
+        "MOVE": "Bewegen",
+        "START": "Start",
+        "START_OPEN": "offen"
+    },
+    "HIVE_CRUD": {
+        "COLOR": "Farbe",
+        "CREATE_TITLE": "Beute erstellen",
+        "DESCRIPTION": "Beschreibung",
+        "DISPLAY": {
+            "BATTERY": {
+                "ALL": "Alle Geräte im Multiselect-Modus anzeigen",
+                "AUTO": "Niedrigste Gerätebatterie in der Beute im Multiselect-Modus anzeigen",
+                "DESCRIPTION": "Zu graphierendes Batteriegerät im Multiselect-Modus",
+                "NONE": "Kein Batteriegerät im Multiselect-Modus anzeigen"
+            },
+            "DESCRIPTION": "Einstellungen für die Mehrfachauswahlansicht",
+            "HUMID": {
+                "ALL": "Alle Luftfeuchtigkeitsgeräte im Multiselect-Modus anzeigen",
+                "AUTO": "Automatische Auswahl der maximalen Luftfeuchtigkeit",
+                "DESCRIPTION": "Zu graphierendes Luftfeuchtigkeitsgerät im Multiselect-Modus",
+                "NONE": "Kein Luftfeuchtigkeitsgerät im Multiselect-Modus anzeigen"
+            },
+            "TEMP": {
+                "ALL": "Alle Temperaturgeräte im Multiselect-Modus anzeigen",
+                "AUTO": "Automatische Auswahl der maximalen Temperatur",
+                "DESCRIPTION": "Zu graphierendes Temperaturgerät im Multiselect-Modus",
+                "NONE": "Kein Temperaturgerät im Multiselect-Modus anzeigen"
+            },
+            "WEIGHT": {
+                "ALL": "Alle Waagen im Multiselect-Modus anzeigen",
+                "AUTO": "Automatische Auswahl des maximalen Gewichts",
+                "DESCRIPTION": "Zu graphierendes Gewichtsgerät im Multiselect-Modus",
+                "NONE": "Kein Gewichtsgerät im Multiselect-Modus anzeigen"
+            }
+        },
+        "EDIT_TITLE": "Beute bearbeiten",
+        "ERROR_APIARY": "Bienenstand auswählen",
+        "MOVE": {
+            "DAY": "Neuer Standortstarttag",
+            "EXP": "Alle Daten in dieser Beute bleiben gleich, aber dies platziert die Beute ab diesem Datum im ausgewählten Bienenstand. Dies spiegelt sich in den Wetterdaten und Bienenstandansichten wider.",
+            "SELECT_APIARY": "Bienenstand auswählen",
+            "SUCCESS": "Beute bewegt",
+            "TIME": "Zeit",
+            "TITLE": "Beute bewegen"
+        },
+        "NAME": "Name",
+        "SELECT_APIARY": "Bienenstand auswählen",
+        "SUCCESS_CREATED": "Beute erstellt",
+        "SUCCESS_UPDATED": "Beute aktualisiert"
+    },
+    "HIVE_PAGE": {
+        "BATTERY": {
+            "LOADING": "Lade Bienenstock-Batteriemessungen",
+            "NONE": "Keine Batteriedaten",
+            "TITLE": "Batterie"
+        },
+        "DATA_TOOLTIP": {
+            "BUILDING": "Ansicht wird erstellt",
+            "OK": "Ansicht aktuell",
+            "UPDATE": "Ansicht muss aktualisiert werden"
+        },
+        "DEVICE_DATA_ONLY": "Daten in Diagrammen, derzeit nicht im Bienenstock",
+        "DEVICE_NO_DATA": "Keine Daten in Diagrammen, derzeit im Bienenstock",
+        "DEVICE_WITH_DATA": "Daten in Diagrammen, derzeit im Bienenstock",
+        "DEVICES": "Geräte",
+        "DOWNLOAD": "CSV-Daten herunterladen",
+        "DOWNLOAD_PREMIUM": "Herunterladen von Bienenstockdaten verfügbar mit Premium-Abonnement.",
+        "DOWNLOAD_WEATHER": "Wetter-Daten herunterladen",
+        "DOWNLOAD_WEATHER_PREMIUM": "Herunterladen von Wetterdaten verfügbar mit Premium-Abonnement.",
+        "HUMID": {
+            "LOADING": "Lade Bienenstock-Luftfeuchtigkeitsmessungen",
+            "NONE": "Keine Luftfeuchtigkeitsdaten",
+            "TITLE": "Luftfeuchtigkeit"
+        },
+        "INACTIVE": "Inaktiv seit {{date}}",
+        "PRODUCTIVITY": {
+            "INFO": "Bienen fügen / entfernen Gewicht hinzu",
+            "LOADING": "Lade Honigbienenproduktivität",
+            "NONE": "Keine Gewichtsdaten für Honigbienenproduktivität",
+            "TITLE": "Honigbienenproduktivität"
+        },
+        "TEMP": {
+            "HIDE_SWARM_FLAGS": "Temperaturereignisse ausblenden",
+            "LOADING": "Lade Bienenstock-Temperaturmessungen",
+            "NONE": "Keine Temperaturdaten",
+            "TITLE": "Temperatur"
+        },
+        "WEIGHT": {
+            "AVERAGE_SCALE": "Durchschnittliche Waagen",
+            "INDIVIDUAL_SCALE": "Einzelne Waagen",
+            "LOADING": "Lade Bienenstock-Gewichtsmessungen",
+            "MULTI_SCALE": "Mehrere Waagen",
+            "NONE": "Keine Gewichtsdaten",
+            "TITLE": "Gewicht"
+        }
+    },
+    "HOME": {
+        "APIARIES": "Bienenstände",
+        "EMPTY": {
+            "TEXT_1": "Willkommen bei MyBroodMinder! Dies ist die Startseite!",
+            "TEXT_2": " Hier sehen Sie eine Schnellansicht Ihrer Bienenstöcke und Bienenstände. Bienenstöcke und Bienenstände werden hier angezeigt, wenn sie aktiv mit zugewiesenen Geräten sind.",
+            "TEXT_3": "Geteilte Bienenstände werden hier nicht angezeigt.",
+            "TEXT_4": "Es scheint, als hätten Sie nichts, was dieser Beschreibung entspricht.",
+            "TEXT_5": "Ab jetzt können Sie:",
+            "TEXT_LI_1A": "Verwenden Sie",
+            "TEXT_LI_1B": "oben links, um Bienenstöcke, Bienenstände und Geräte zu Ihrem Konto hinzuzufügen",
+            "TEXT_LI_2": "Oder laden Sie die BroodMinder Bees-App herunter, um sie auch zu verwalten."
+        },
+        "HIVES": "Bienenstöcke"
+    },
+    "HUB_CRUD": {
+        "CREATE_TITLE": "Hub erstellen",
+        "EDIT_TITLE": "Hub bearbeiten",
+        "ERROR_ADDRESS": "Bitte geben Sie eine gültige Hub-Adresse ein",
+        "ERROR_DUPLICATE": "Konnte nicht erstellt werden, Hub mit dieser Adresse existiert bereits",
+        "MODEL": "Modellnummer",
+        "NAME": "Name",
+        "NAME_AUTO": "Verwenden Sie die oben angegebene Adresse als Namen",
+        "SIM": {
+            "ID": "Sim ID",
+            "TELECOM": "Telekom",
+            "TITLE": "Sim hinzufügen"
+        },
+        "SUCCESS_CREATED": "Hub erstellt",
+        "SUCCESS_UPDATED": "Hub aktualisiert",
+        "USERID": "Benutzer-ID"
+    },
+    "HUB_PAGE": {
+        "ADDRESS": "Geräteadresse",
+        "CHART_LOADING": "Lade Hub-Messungen",
+        "CHART_READINGS_LABEL": "Messungen",
+        "CHART_READINGS_SENT": "Gesendete Messungen",
+        "CHART_SIGNAL": "Signal",
+        "CHART_TITLE": "Hub Readings for {{name}}",
+        "DEVICES": {
+            "DEVICE": "Gerät",
+            "HIVE": "Bienenstock",
+            "POSITION": "Position",
+            "SIGNAL": "Signal",
+            "TIMESTAMP": "Upload-Zeitpunkt",
+            "TITLE": "Hochgeladene Geräte"
+        },
+        "FIRMWARE": "Firmware",
+        "MODEL": "Modell",
+        "NAME": "Name",
+        "READING_COUNT": "Grafische Messungen: {{count}}",
+        "TITLE": "Hub {{name}}",
+        "UPLOAD_TIME": "Letzter Upload-Zeitpunkt"
+    },
+    "INSP_CATEG": {
+        "BEESBROODSTG": "Brutstadien",
+        "FEEDING": "Fütterung",
+        "HEALTH": "Gesundheit",
+        "MANAGE": "Verwalten",
+        "MITES": "Milben"
+    },
+    "INSP_CONF": {
+        "APPLIES": {
+            "APIARY": "Bienenstand",
+            "HIVE": "Bienenstock"
+        },
+        "BROODADD": "Hinzugefügte Brutrahmen",
+        "BROODREMOVE": "Entfernte Brutrahmen",
+        "BUZZINGHIVE": "Bienenstock mit legender Arbeiterin",
+        "CANDIFEED": "Zuckerfütterung",
+        "COMBINEDHIVES": "Kombinierte Bienenstöcke",
+        "DEFAULT": "Standard",
+        "DIVISION": "Teilung",
+        "DRONE": "Anwesenheit von Drohnen",
+        "DRONEBROOD": "Anwesenheit von Drohnennachwuchs",
+        "EGG": "Anwesenheit von Eiern",
+        "HARVEST": "Ernte",
+        "HIGHBEES": "Hoher Bienenbestand",
+        "HIGHBROOD": "Hoher Brutbestand",
+        "HIGHRES": "Hoher Ressourcenbestand",
+        "INSTALLPKG": "Installiertes Paket",
+        "LARVA": "Anwesenheit von Larven",
+        "LOWBEES": "Niedriger Bienenbestand",
+        "LOWBROOD": "Niedriger Brutbestand",
+        "LOWRES": "Niedriger Ressourcenbestand",
+        "MITECOUNTLOUNGE": "Milbenzählung auf dem Klebefilm",
+        "MITECOUNTWASH": "Milbenzählung durch Waschen",
+        "MITEFORMICPRO": "Milbenbehandlung: Formic Pro",
+        "MITEOADRIBBLE": "Milbenbehandlung: Oxalsäureträufelung",
+        "MITEOAVAPOR": "Milbenbehandlung: Oxalsäureverdampfung",
+        "MITESTRIPADD": "Milbenbehandlung: Streifen hinzufügen",
+        "MITESTRIPREMOVE": "Milbenbehandlung: Streifen entfernen",
+        "MOSAICBROOD": "Verstreute Brut",
+        "NECTARFLOW": "Nektarfluss",
+        "NOBEES": "Keine Bienen",
+        "NOBROOD": "Keine Brut",
+        "NORES": "Keine Ressourcen",
+        "NORMBEES": "Mittlerer Bienenbestand",
+        "NORMBROOD": "Mittlerer Brutbestand",
+        "NORMRES": "Mittlerer Ressourcenbestand",
+        "NUCLEUSHIVE": "Installierter Kernbienenstock",
+        "PATTIESFEED": "Fütterung mit Pastillen",
+        "PUPA": "Anwesenheit von verdeckter Brut",
+        "QUEENABSENT": "Königin abwesend",
+        "QUEENCELLSEEN": "Königinnenzelle gesehen",
+        "QUEENINSERT": "Königin eingesetzt",
+        "QUEENLINEAGE": "Königinnenherkunft",
+        "QUEENSEEN": "Königin gesehen",
+        "REQUEEN": "Neue Königin",
+        "SICK": "Krank",
+        "SPLITQUEENREMOVE": "Teilung mit Entfernung der Königin",
+        "STARTFEED": "Fütterung beginnen",
+        "STOLEN": "Gestohlener Bienenstock",
+        "STOPFEED": "Fütterung beenden",
+        "SUPER+": "Super hinzugefügt",
+        "SUPER-": "Super entfernt",
+        "SWARM": "Schwarmbildung",
+        "SWARMMATEDQUEEN": "Schwarm mit begatteter Königin",
+        "SWARMRETURN": "Schwarm und Rückkehr zum Bienenstock",
+        "SYRUPFEED": "Fütterung mit Sirup",
+        "VIRGINSWARM": "Jungschwarm"
+    },
+    "LOCATION_CRUD": {
+        "ADVANCED": {
+            "ADMIN_SELECT": "Auswählen",
+            "ADVANCED": "Erweitert",
+            "INCLUDE_TEMP": "Temperatur einschließen",
+            "SCALE_FACTOR": "Skalierungsfaktor",
+            "SCALE_FACTOR_REQUIRED": "Wert für Gewichtsskalierungsfaktor erforderlich",
+            "USE_ALL": "Alle Messungen verwenden"
+        },
+        "CREATE": "Erstellen",
+        "CREATE_TITLE": "Gerät zuweisen",
+        "EDIT_TITLE": "Standort bearbeiten",
+        "ERROR_DEVICE": "Gerät hat einen Standort, der diesen Zeitpunkt überschneidet",
+        "ERROR_GENERAL": "Fehler beim Erstellen des Gerätestandorts",
+        "ERROR_HIVE": "Beute hat Gerät, das diese Position überschneidet",
+        "ERROR_INACTIVE_HIVE": "Der Standort kann keine Endzeit nach der Inaktivitätszeit der Beute haben",
+        "ERROR_MOVE_TIME": "Kann den Standort nicht vor dem Start beenden. Setzen Sie die Zeit auf nach {{currentEnd}}",
+        "ERROR_TIME": "Der Standort hat eine Endzeit vor der Startzeit",
+        "MOVE_EXP": "Dies beendet den aktuellen Standort und startet einen neuen.",
+        "MOVE_TITLE": "Gerät bewegen",
+        "MOVED_DAY": "Neuer Standortstarttag",
+        "MOVED_TIME": "Zeit",
+        "SELECT_APIARY": "Bienenstand auswählen",
+        "SELECT_DEVICE": "Gerät auswählen",
+        "SELECT_HIVE": "Beute auswählen",
+        "SELECT_POSITION": "Position auswählen",
+        "START_DAY": "Starttag",
+        "START_TIME": "Startzeit",
+        "STOP_DAY": "Endtag",
+        "STOP_TIME": "Endzeit",
+        "SUCCESS_ENDED": "Aktueller Standort beendet",
+        "SUCCESS_MOVED": "Gerät in Beute verschoben"
+    },
+    "LOCATION_HIST": {
+        "CURRENT": "aktuell",
+        "DELETE_WINDOW": {
+            "CONFIRM": "Ja",
+            "MESSAGE": "Möchten Sie diesen Standort des Geräts entfernen?",
+            "TITLE": "Standort entfernen"
+        },
+        "DEVICE_ADDRESS": "Geräteadresse",
+        "DEVICE_NAME": "Gerätename",
+        "END": "Ende",
+        "HIVE": "Beute",
+        "MOVE": "Verschieben",
+        "POSITION": "Position",
+        "START": "Anfang"
+    },
+    "LOGIN": {
+        "LOGIN": {
+            "EMAIL": "E-Mail",
+            "ERROR": {
+                "EMAIL": "Für diese E-Mail-Adresse existiert kein Konto.",
+                "GENERAL": "Anmeldung fehlgeschlagen.",
+                "PASSWORD": "Falscher Benutzername oder Passwort."
+            },
+            "FORGOT_LINK": "Passwort vergessen",
+            "LOGIN_BTN": "Mit E-Mail anmelden",
+            "PASSWORD": "Passwort",
+            "RESET": "Reset-E-Mail senden",
+            "RESET_ERROR": "Fehler, E-Mail nicht gesendet.",
+            "RESET_SUCCESS": "Reset-E-Mail an {{value}} gesendet",
+            "TITLE": "Anmelden in vorhandenem Konto"
+        },
+        "LOGIN_MENU": "Anmelden",
+        "REGISTER": {
+            "EMAIL": "E-Mail",
+            "ERROR": {
+                "DUPLICATE": "Die E-Mail-Adresse wird bereits von einem anderen Konto verwendet.",
+                "EMAIL": "Die E-Mail-Adresse ist schlecht formatiert.",
+                "GENERAL": "Konto kann nicht erstellt werden.",
+                "PASSWORD": "Passwort nicht stark genug."
+            },
+            "EULA": {
+                "AGREE": "Ich stimme zu",
+                "DESCRIPTION": "Wir bitten Sie, den folgenden Aussagen zuzustimmen, um diese SaaS-Bienenhaltungssoftware zu verwenden:",
+                "POINT_1": "Ich stelle die von mir hochgeladenen oder eingegebenen Daten in diesem Dienst in die Public Domain. Daher kann mybroodminder.com die Daten in anonymer Form verwenden, um sie mit der Allgemeinheit zu teilen.",
+                "POINT_2": "Mir ist bewusst, dass mybroodminder.com sich nach besten Kräften bemühen wird, keine persönlich identifizierbaren Informationen (PII) wie meinen Benutzernamen, mein Passwort und meine Postleitzahl preiszugeben, aber mybroodminder.com kann nicht für Hacking oder andere Methoden der Datenexposition verantwortlich gemacht werden.",
+                "POINT_3": "Mir ist bewusst, dass mybroodminder.com sich nach besten Kräften bemühen wird, alle hochgeladenen oder eingegebenen Daten zu speichern und zu sichern, aber mybroodminder.com kann nicht für Datenverlust verantwortlich gemacht werden.",
+                "POINT_4": "Mir ist bewusst, dass mybroodminder.com ein separates Unternehmen von anderen Anbietern ist, die ihre Geräte in mybroodminder.com integrieren können, und dass mybroodminder.com nicht haftbar ist für die Handlungen dieser Anbieter.",
+                "POINT_5": "Mir ist bewusst, dass mybroodminder.com ein Ort für Imker und Entomologen ist, um Informationen auszutauschen, und ich werde mich jederzeit höflich verhalten. Mir ist bewusst, dass ein Versäumnis dies zu tun, dazu führen kann, dass mein Konto nach alleinigem Ermessen des Personals von mybroodminder.com gekündigt wird.",
+                "TITLE": "MyBroodMinder.com EULA (Endbenutzer-Lizenzvereinbarung) v1.1"
+            },
+            "PASSWORD": "Passwort",
+            "REGISTER_BTN": "E-Mail registrieren",
+            "TITLE": "Neues Konto registrieren"
+        },
+        "REGISTER_MENU": "Registrieren"
+    },
+    "MEMBERSHIP": {
+        "12_MONTH": "12 Monate",
+        "1_DEVICE": "1 Gerät gleichzeitig",
+        "ALL_DEVICE": "alle Geräte gleichzeitig",
+        "BUY": "Jetzt kaufen",
+        "CELL_HUB": "CELL HUB",
+        "COLONY_BROOD": "VOLKSBRUT",
+        "COLONY_FITNESS": "VOLKSFITNESS",
+        "DAILY_ALERTS": "TÄGLICHE WARNUNGEN",
+        "DATA_DISPLAY": "DATENANZEIGE",
+        "DATA_UPLOADING": "DATENÜBERTRAGUNG",
+        "EMAIL_SUMMARY": "E-MAIL-ZUSAMMENFASSUNG",
+        "FREE_STORAGE": "KOSTENLOSER SPEICHER IN DER CLOUD",
+        "FULL_HIST": "vollständige Historie",
+        "FULL_SUPPORT": "PREMIUM SUPPORT",
+        "HOBBY": "HOBBY",
+        "HOBBY_PRICE": "KOSTENLOS",
+        "HUB_INFO": "Möglichkeit, ein Smartphone anstelle eines Hubs zu verwenden, um Echtzeitdaten hochzuladen",
+        "HUB_MODE": "HUB-MODUS",
+        "INFO_1": "Die Mitgliedschaft enthält einen kostenlosen Token für WLAN-Geräte. Zusätzliche Tokens müssen für Mobilhubs erworben werden.",
+        "INFO_2": "Mehrere Yolink-Geräte können zu Ihrem Konto hinzugefügt werden (siehe Benutzerhandbuch)",
+        "LOGIN": "Anmelden/Registrieren",
+        "MBM_VIEWS": "MYBROODMINDER PREMIUM ANSICHTEN",
+        "MBM_VIEWS_INFO": "Ansichten/Charts für Bienenstand und Produktivität",
+        "MONTH": "Monat",
+        "MONTHLY": "MONATLICH",
+        "MS_VIEWS": "MELLISPHERA ANSICHTEN",
+        "PREMIUM": "PREMIUM",
+        "PRIVATE_APIARY": "PRIVATE Bienenstand",
+        "PRO": "PRO",
+        "PUBLIC_APIARY": "ÖFFENTLICHER Bienenstand",
+        "PUBLIC_INFO": "auf BeeCounted.org",
+        "PURCHASE_MEMBERSHIP": "Mitgliedschaft kaufen",
+        "PURHASE_TOKENS": "Tokens kaufen",
+        "REALTIME_ALERTS": "Echtzeit-Warnungen",
+        "SUB_HUB": "UNTERHUB",
+        "SUPPORT": "SUPPORT",
+        "THIRD_PARTY": "GERÄTE VON DRITTANBIETERN",
+        "TITLE_2": "BROODMINDER-GERÄTE & Bienenstand-App",
+        "UNLIMITED_DEVICES": "UNBEGRENZTE GERÄTE",
+        "WIFI_HUB": "WIFI-HUB",
+        "YEAR": "Jahr",
+        "YEARLY": "JÄHRLICH"
+    },
+    "NOTE_CRUD": {
+        "ADD_TAG": "Tag hinzufügen",
+        "APIARY": {
+            "STATE": "Allgemeiner Zustand"
+        },
+        "CREATE_TITLE": "Notiz erstellen",
+        "DATE": "Datum",
+        "EDIT_TITLE": "Notiz bearbeiten",
+        "ERROR_TIME": "Ungültige Zeit",
+        "NO_HIVE": "Keine Beute",
+        "SUCCESS_CREATED": "Notiz in Beute erstellt",
+        "SUCCESS_UPDATED": "Notiz in Beute aktualisiert"
+    },
+    "NOTES": {
+        "ADD_TOOLTIP": "Notiz hinzufügen",
+        "DATE": "Datum",
+        "DELETE_WINDOW": {
+            "CONFIRM": "Ja",
+            "MESSAGE": "Möchten Sie diese Notiz löschen?",
+            "TITLE": "Notiz löschen"
+        },
+        "DESCRIPTION": "Beschreibung",
+        "DOWNLOAD_TOOLTIP": "Notizen herunterladen",
+        "HIVE": "Beute",
+        "NO_DESCRIPTION": "keine Beschreibung",
+        "PIN": "Pin",
+        "PREMIUM_EXP": "Herunterladen von Notizen mit Premium-Abonnement verfügbar.",
+        "TITLE": "{{value}} Notizen"
+    },
+    "POSITIONS": {
+        "ABOVE_LOWER_BROOD_BOX": "Über unterer Brutkiste",
+        "ABOVE_UPPER_BROOD_BOX": "Über oberer Brutkiste",
+        "CUSTOM_1": "Benutzerdefiniert (1)",
+        "CUSTOM_2": "Benutzerdefiniert (2)",
+        "CUSTOM_3": "Benutzerdefiniert (3)",
+        "CUSTOM_4": "Benutzerdefiniert (4)",
+        "CUSTOM_5": "Benutzerdefiniert (5)",
+        "CUSTOM_6": "Benutzerdefiniert (6)",
+        "CUSTOM_7": "Benutzerdefiniert (7)",
+        "OTHER": "Andere",
+        "OUTSIDE_HIVE": "Außerhalb des Bienenstocks",
+        "SCALE_UNDER_HIVE": "Waage unter dem Bienenstock",
+        "SCALE_UNDER_HIVE_BACK": "Waage unter dem Bienenstock (Hinten)",
+        "UNDER_INNER_COVER": "Unter dem inneren Deckel"
+    },
+    "PREFERENCES": {
+        "ALERTS_EMAIL": "E-Mail-Benachrichtigungen [BETA]",
+        "INTERPOLATE": "Diagramme interpolieren (alle Punkte verbinden, auch bei Datenlücken über 8 Stunden)",
+        "LANGUAGE": "Sprache",
+        "LANGUAGE_DEFAULT": "Standard des Browsers",
+        "SAVE": "Speichern",
+        "TIMEZONE": "Zeitzone",
+        "TIMEZONE_DEFAULT": "Standard des Browsers",
+        "UNIT": "Einheit",
+        "UNIT_DEFAULT": "Standard",
+        "UNIT_IMPERIAL": "Imperial (Fahrenheit/Pfund)",
+        "UNIT_METRIC": "Metrisch (Celsius/Kilogramm)"
+    },
+    "PURCHASE": {
+        "ACCOUNT": {
+            "AMOUNT": "Automatische Verlängerungsbetrag",
+            "BILLING": {
+                "TITLE": "Rechnungsadresse aktualisieren",
+                "UPDATE": "Aktualisieren"
+            },
+            "CANCEL": {
+                "CONFIRM_WINDOW": {
+                    "CANCEL": "Nein",
+                    "CONFIRM": "Ja",
+                    "MESSAGE": "Dies storniert zukünftige Zahlungen. Ihre Mitgliedschaft und Hubs bleiben bis {{expiration}} funktionsfähig. Möchten Sie stornieren?",
+                    "TITLE": "MyBroodMinder Premium-Abonnement stornieren"
+                },
+                "GENERAL_ERROR": "Fehler aufgetreten. Abonnement nicht storniert",
+                "SUCCESS": "Abonnement storniert"
+            },
+            "CANCEL_BUTTON": "Abonnement stornieren",
+            "DATE": "Automatische Verlängerungsdatum",
+            "MONTH_SUB": "Monats-Mitgliedschaftsabonnement - Automatische Verlängerung",
+            "PAYMENT": {
+                "BILLING": "Rechnungsadresse",
+                "BILLING_UPDATE": "Rechnungsadresse aktualisieren",
+                "CARD": "{{type}} endet in {{last4}}",
+                "CARD_UPDATE_BUTTON": "Zahlungsmethode aktualisieren",
+                "EDIT": {
+                    "TITLE": "Zahlungsmethode aktualisieren",
+                    "UPDATE_BUTTON": "Zahlung aktualisieren",
+                    "WARN": "Das Löschen der Abonnement-Zahlungsmethode ohne vorherige Überprüfung und Aktualisierung auf eine neue wird Ihr Abonnement stornieren."
+                },
+                "NOT_FOUND": "Nicht gefunden",
+                "TITLE": "Zahlungsmethode"
+            },
+            "PRICE": "Mitgliedschaftspreis",
+            "STATUS": "Status",
+            "TITLE": "Abonnement",
+            "YEAR_SUB": "Jahres-Mitgliedschaftsabonnement - Automatische Verlängerung"
+        },
+        "ADDITIONAL": {
+            "CONFIRM": "Bezahlen",
+            "MESSAGE": "Die gekauften Tokens werden Ihrer Mitgliedschaft belastet. {{amount}} wird Ihrer Karte auf Ihrer Abonnementrechnung belastet.",
+            "TITLE": "Tokens kaufen"
+        },
+        "BILLING": {
+            "COUNTRY_CODE": "Ländercode",
+            "LOCALITY": "Stadt",
+            "POSTAL_CODE": "PLZ",
+            "REGION": "Bundesland",
+            "STREET_ADDRESS_1": "Straßenadresse",
+            "STREET_ADDRESS_2": "Straßenadresse 2",
+            "TITLE": "Rechnungsadresse"
+        },
+        "CUSTOMER": {
+            "EMAIL": "E-Mail",
+            "FIRST_NAME": "Vorname",
+            "LAST_NAME": "Nachname"
+        },
+        "PAY": {
+            "ADDRESS_ERROR": "Fehlende Pflichtfelder",
+            "COMPLETE": {
+                "AR_AMOUNT": "Automatische Verlängerungsbetrag",
+                "AR_DATE": "Automatische Verlängerungsdatum",
+                "ID": "Bestellnummer",
+                "LINK_1": "Klicken Sie",
+                "LINK_2": "um Mitgliedschaften anzuzeigen.",
+                "LINK_LINK": "hier",
+                "RECEIPT": "Quittung gesendet",
+                "STATUS": "Status",
+                "SUCCESS": "Kauf abgeschlossen.",
+                "TAX": "Steuer",
+                "TOTAL": "Gesamtbetrag"
+            },
+            "PAY_BUTTON": "Bezahlen",
+            "RENEW_DISCLAIMER": "Automatische Verlängerung des Abonnements. Sie werden {{amount}} {{frequency}} belastet.",
+            "TITLE": "Zahlungsinformationen",
+            "VERIFY_BUTTON": "Zahlungsmethode überprüfen"
+        },
+        "PRODUCTS": {
+            "CELL_HUB": "Cell Hub Token",
+            "CELL_HUB_SINGLE": "Cell Hub (Einzelgerät) Token",
+            "MEMBERSHIP": "Premium-Mitgliedschaft",
+            "THIRD_PARTY": "Token für Geräte von Drittanbietern",
+            "WIFI_HUB": "Wifi Hub Token",
+            "WIFI_HUB_FREE": "Wifi Hub Token (Kostenlos)"
+        },
+        "SUMMARY": {
+            "ADD_ERROR_1": "Klicken Sie",
+            "ADD_ERROR_2": "hier",
+            "ADD_ERROR_3": "um Tokens zu Ihrer aktuellen Mitgliedschaft hinzuzufügen.",
+            "ERROR_1": "Sie haben bereits eine Mitgliedschaft gekauft. Klicken Sie",
+            "ERROR_2": "um Mitgliedschaften anzuzeigen.",
+            "ERROR_LINK": "hier",
+            "MONTH_PREM": " Monat Premium-Abonnement - Automatische Verlängerung",
+            "MONTH_PRO": " Monat Pro-Abonnement - Automatische Verlängerung",
+            "PRICE": " Mitgliedschaftspreis",
+            "QUANTITY": "1 Mitgliedschaft mit {{quantity}} zusätzlichen Tokens",
+            "TITLE": "Premium-Abonnement kaufen",
+            "TITLE_ADDING": "Tokens kaufen",
+            "TOTAL": "Gesamt",
+            "YEAR_PREM": " Jahr Premium-Abonnement - Automatische Verlängerung",
+            "YEAR_PRO": " Jahr Pro-Abonnement - Automatische Verlängerung"
+        },
+        "TABLE": {
+            "ADD": "In den Warenkorb legen",
+            "HEADERS": {
+                "AUTO": "Automatische Verlängerung",
+                "EXPIRES": "Läuft ab am",
+                "PRICE": "Preis",
+                "PRODUCT": "Produkt",
+                "PRORATED_PRICE": "Anteiliger Preis",
+                "RENEW": "Verlängert sich am",
+                "START": "Beginnt am"
+            },
+            "NEW": "Neues Produkt",
+            "PURCHASE": "Kaufen",
+            "REMOVE": "Entfernen",
+            "REMOVE_CART": "Aus dem Warenkorb entfernen",
+            "SELECT_TOKEN": "Token auswählen",
+            "TOTAL": "Gesamt",
+            "TOTAL_NOW": "Gesamt (Jetzt fällig)",
+            "TOTAL_YEAR": "Jahresgesamtbetrag (Fällig am {{date}})"
+        }
+    },
+    "RESEARCH_DOWNLOAD": {
+        "A_NAME": "NAME",
+        "APIARY_DOWNLOAD_BUTTON": "Gesamten Bienenstock herunterladen",
+        "DOWNLOAD_STATUS": "Download-Status",
+        "H_NAME": "NAME",
+        "HIVE_DOWNLOAD_BUTTON": "Herunterladen",
+        "LAST_DATA": "Neueste Daten"
+    },
+    "RESOURCES": {
+        "DESCRIPTION": "Vielen Dank, dass Sie sich der BroodMinder-Bewegung angeschlossen haben, in der wir Informationen lernen und teilen, um unser Verständnis und Management unserer kostbaren Honigbienen zu verbessern.",
+        "DESCRIPTION_1": "Schauen Sie sich unsere Frühjahrsaktualisierungen 2020 an, einschließlich der 'SwarmMinder'-Aktualisierungen für Ihre BroodMinder-T2-Geräte. Sehen Sie sich das Video ",
+        "DESCRIPTION_1_LINK": "hier an.",
+        "DESCRIPTION_2": " Herzlichen Dank an Google und an <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a> für ihre großzügige Unterstützung der BroodMinder Citizen Science.",
+        "LINKS": {
+            "BEECOUNTED": "BeeCounted",
+            "LOGIN": "Anmelden",
+            "SUPPORT": "Support",
+            "TITLE": "Links",
+            "USER_GUIDE_PDF": "Geschriebene Bedienungsanleitung (PDF)",
+            "USER_GUIDE_VIDEO": "Video-Benutzerhandbücher"
+        },
+        "SUBTITLE": "Hier finden Sie viele Ressourcen, damit Sie dazu beitragen können, mehr über unsere Bienen zu erfahren.",
+        "TITLE": "Ressourcen"
+    },
+    "SHARE_BUTTON": {
+        "BUTTON": "Teilen",
+        "EDIT": "Freigegebene Links bearbeiten",
+        "SHARE_HIVE": "Diesen Bienenstock teilen"
+    },
+    "SHARE_LINK_CRUD": {
+        "CREATE": "Teilen",
+        "CREATE_SUBTITLE_1": "Wir werden einen Link erstellen, den Sie mit Freunden teilen oder in anderen Anwendungen wie Facebook einfügen können.",
+        "CREATE_SUBTITLE_2": "Die Leute können die Daten ohne Anmeldung sehen, können sie jedoch nicht ändern oder Daten außerhalb des Zeitrahmens sehen.",
+        "CREATE_SUCCESS_TITLE": "Öffentlicher Link erstellt!",
+        "CREATE_TITLE": "Öffentlichen Link erstellen",
+        "DASHBOARD": "Dashboard",
+        "DELETE": "Löschen",
+        "DELETE_WINDOW": {
+            "CONFIRM": "Löschen",
+            "MESSAGE": "Möchten Sie diesen öffentlichen Link löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+            "TITLE": "Öffentlichen Link löschen"
+        },
+        "DESCRIPTION": "Beschreibung",
+        "EDIT_SUCCESS_TITLE": "Öffentlicher Link aktualisiert!",
+        "EDIT_TITLE": "Öffentlichen Link bearbeiten",
+        "ERROR": "Fehler beim Erstellen des Links",
+        "FORECAST": "Wettervorhersage einbeziehen",
+        "HISTORY": {
+            "CREATED": "Erstellt",
+            "LINK": "Link",
+            "TITLE": "Öffentliche Links für {{hiveName}}"
+        },
+        "HIVES": "Bienenstöcke",
+        "NOTES": "Notizen einbeziehen",
+        "SUCCESS_CREATED": "Link erstellt",
+        "SUCCESS_DELETED": "Link gelöscht",
+        "SUCCESS_UPDATED": "Link aktualisiert",
+        "TIME_RANGE": "(verschiebbarer Bereich)",
+        "TIME_SET": "Daten teilen von {{start}} bis {{end}}",
+        "TIME_ZOOM": "Aktuelle Ansicht teilen {{start}} bis {{end}}",
+        "TIMEZONE": {
+            "BROWSER": "Standard des Browsers",
+            "TITLE": "Zeitzone"
+        },
+        "UNITS": {
+            "BROWSER": "Standard des Browsers",
+            "IMPERIAL": "Imperial",
+            "METRIC": "Metrisch",
+            "TITLE": "Einheiten"
+        },
+        "UPDATE": "Aktualisieren",
+        "WEATHER": "Wetter"
+    },
+    "SHARING": {
+        "BEECOUNTED": {
+            "CHANGED": "Bienenstock aktualisiert",
+            "CHECKBOX": "BeeCounted.org",
+            "EXPIRED": "Premium-Mitgliedschaft abgelaufen. Daten sind nur vor {{end}} privat.",
+            "INFO_CHECKED": "Vielen Dank für das Teilen Ihrer Daten. Sie helfen Forschern auf der ganzen Welt dabei, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
+            "INFO_NON_PREMIUM": "Alle Daten, die für Nicht-Premium-Benutzer gespeichert sind, befinden sich im öffentlichen Bereich. Daten können privat gemacht werden, wenn Sie ein MyBroodMinder-Premium-Konto haben. Vielen Dank für das Teilen Ihrer Daten. Sie helfen Forschern auf der ganzen Welt dabei, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
+            "INFO_UNCHECKED": "Bitte erwägen Sie, Ihre Daten zu teilen. Sie helfen Forschern auf der ganzen Welt dabei, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln."
+        },
+        "BIP": {
+            "CHANGED": "Bienenstock aktualisiert",
+            "CHECKBOX": "Bee Informed Partnership",
+            "INFO": "Kommt bald"
+        },
+        "EXT_SUBTITLE": "Bienenstock auf anderen Websites teilen",
+        "HIVES": {
+            "CHANGED": "Bienenstock aktualisiert",
+            "DESCRIPTION": "Beschreibung",
+            "NAME": "Name",
+            "SHARE": "Teilen",
+            "SHARE_EXPIRED": "Premium-Mitgliedschaft abgelaufen. Daten sind nur vor {{end}} privat.",
+            "TITLE": "Auf anderen Websites geteilte Bienenstöcke"
+        },
+        "MBM_TITLE": "Bienenstock mit MyBroodMinder-Benutzer teilen",
+        "MELLISPHERA": {
+            "ACTIVE_WINDOW": {
+                "MESSAGE": "Klicken Sie unten, um Ihr Mellisphera-Konto zu aktivieren.",
+                "TITLE": "Mellisphera-Konto aktivieren"
+            },
+            "CHANGED": "Bienenstock aktualisiert",
+            "CHECKBOX": "Mellisphera (Beta)",
+            "INFO_ACCOUNT": "Zeige den Bienenstock in meinem Mellisphera-Konto",
+            "INFO_NO_ACCOUNT": "Konto nicht mit Mellisphera verbunden"
+        },
+        "PH": {
+            "CHANGED": "Bienenstock aktualisiert",
+            "CHECKBOX": "Bee-life.eu",
+            "EXTERNAL_INFO": "Erfahren Sie mehr",
+            "INFO": "Teilen Sie Ihre Sensordaten mit dem Bee Life-Verband über das European Union Pollinator Hub, um die Bestäuberpolitik durch Nutzung modernster Technologie und datengesteuerter Einblicke, die von Imkern gesammelt wurden, zu verbessern.\n\nDie geteilten Daten umfassen:\n- Alle Geräte in diesem Bienenstock mit ihren Rohmessungen.\n- Eine grobe Standortbestimmung des Bienenstocks anhand der Postleitzahl.\n\nDaten werden täglich an BeeLife gesendet."
+        },
+        "REMOVE_SELF": {
+            "CONFIRM": "Geteilten Bienenstock entfernen",
+            "GENERIC_ERROR": "Fehler, Bienenstock nicht entfernt",
+            "MESSAGE": "Möchten Sie den geteilten Bienenstock {{name}} aus Ihrem Konto entfernen?",
+            "SUCCESS_REMOVED": "Bienenstock entfernt",
+            "TITLE": "Geteilten Bienenstock entfernen"
+        },
+        "TITLE": "{{name}} Teilen",
+        "USER": {
+            "ADD_SUCCESS": "Benutzer hinzugefügt",
+            "ADD_TOOLTIP": "Benutzer hinzufügen",
+            "ADD_USER": "E-Mail eingeben",
+            "ERROR_NO_USER": "Benutzer existiert nicht.",
+            "INFO": "Der Benutzer muss bereits ein Konto bei MyBroodMinder haben. Er darf Ihre Bienenstock- und Stockdaten anzeigen, aber keine Änderungen vornehmen.",
+            "REMOVE": "Entfernen",
+            "REMOVE_SUCCESS": "Benutzer entfernt",
+            "SHARE_BUTTON": "Teilen",
+            "TITLE": "MyBroodMinder-Benutzer"
+        }
+    },
+    "SIDEBAR": {
+        "APIARY_CONTEXT": {
+            "BEECOUNTED": "BeeCounted",
+            "EDIT": "{{value}} bearbeiten",
+            "NEW_HIVE": "Neuer Bienenstock",
+            "REMOVE_SHARED_APIARY": "Geteilten Bienenstock entfernen",
+            "RESEARCH_DOWNLOAD": "Forscherdaten herunterladen",
+            "SHARE": "Teilen"
+        },
+        "CLEAR_SEL": "Alle Auswahlen löschen",
+        "CONFIGURE": "Konfigurieren",
+        "DEVICE_CONTEXT": {
+            "EDIT": "{{value}} bearbeiten",
+            "EDIT_LOCATION": "Aktuellen Standort bearbeiten",
+            "MOVE": "Gerät verschieben"
+        },
+        "DOCUMENTATION": "Dokumentation",
+        "HIVE_CONTEXT": {
+            "ARCHIVE": "Bienenstock als inaktiv markieren",
+            "BEECOUNTED": "BeeCounted",
+            "EDIT": "{{value}} bearbeiten",
+            "EXISTING_DEVICE": "Existierendes Gerät hinzufügen",
+            "MOVE": "Bienenstock verschieben",
+            "NEW_DEVICE": "Neues Gerät hinzufügen"
+        },
+        "HOME": "Startseite",
+        "HUB_CONTEXT": {
+            "REMOVE": "{{value}} aus dem Menü entfernen"
+        },
+        "HUB_TOOLTIP": "Hub",
+        "LOCAL_SOURCE": "Lokale Quelle",
+        "MEMBERSHIPS": "Mitgliedschaftsoptionen",
+        "MULTI_SELECT": "Mehrere auswählen",
+        "NEW": {
+            "APIARY": "Bienenstock",
+            "APIARY_NOTE": "Bienenstocknotiz",
+            "DASHBOARD": "Benutzerdefiniertes Dashboard",
+            "DEVICE": "Gerät",
+            "HIVE": "Bienenstock",
+            "HIVE_NOTE": "Bienenstocknotiz",
+            "TITLE": "Neu"
+        },
+        "NEW_FEATURES": "Neue Funktionen",
+        "RESSOURCES": "Ressourcen",
+        "SHARED_TOOLTIP": "Mit mir geteilt",
+        "SUPPORT_EMAIL": "E-Mail support@broodminder.com",
+        "WEATHER_CONTEXT": {
+            "ADD_SOURCE": "Quelle hinzufügen",
+            "EDIT": "Wetter bearbeiten",
+            "EDIT_SOURCES": "Quellen bearbeiten",
+            "INFO": "Weitere Informationen",
+            "NAME": "Wetter"
+        },
+        "WEATHER_INFO": {
+            "TEXT": "Diese Wetterdaten stammen von WeatherSource. Sie basieren auf der Postleitzahl, die in Ihrem Bienenstock angegeben ist.",
+            "TITLE": "WeatherSource Weather"
+        },
+        "WEATHER_SOURCE": "Wetterquelle"
+    },
+    "SUBS": {
+        "COMMON": {
+            "FREE": "kostenlos",
+            "FREE_CAP": "Kostenlos",
+            "MONTHLY": "monatlich",
+            "MONTHLY_CAP": "Monatlich",
+            "PREPAID": "vorausbezahlt",
+            "PREPAID_CAP": "Vorausbezahlt",
+            "YEARLY": "jährlich",
+            "YEARLY_CAP": "Jährlich"
+        },
+        "EXP": {
+            "CREDIT_CANCELLED": "Nicht erneuernd, endet am {{expiration}}",
+            "CREDIT_EXPIRED": "Abgelaufen am {{expiration}}",
+            "CREDIT_EXPIRING": "Läuft am {{expiration}} ab",
+            "CREDIT_FREE_RENEWING": "Kostenlos, endet am {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Vorausbezahlt, endet am {{expiration}}",
+            "NOT_ACTIVE": "Nicht aktiv",
+            "PENDING": "Zahlung ausstehend",
+            "SUB_CANCELLED": "Nicht erneuernd, endet am {{expiration}}",
+            "SUB_EXPIRED": "Abgelaufen am {{expiration}}",
+            "SUB_EXPIRING": "Läuft am {{expiration}} ab",
+            "SUB_RENEWING": "Verlängert sich am {{expiration}}",
+            "TRIAL": "Probe-Mitgliedschaft, endet am {{expiration}}"
+        }
+    },
+    "TOP_MENU": {
+        "ACCOUNT": "Konto",
+        "ADMIN": "Admin",
+        "HELP": "Hilfe",
+        "LOGIN": "Anmelden",
+        "LOGOUT": "Abmelden",
+        "REGISTER": "Registrieren",
+        "RESOURCES": "Ressourcen",
+        "TOUR": "Tour"
+    },
+    "TOUR": {
+        "FEATURES": {
+            "CLOSE": "Schließen",
+            "FEATURE_1": "Erstmaliges Erstellen eines Bienenstocks",
+            "FEATURE_2": "Daten anzeigen",
+            "FEATURE_3": "Konfigurieren und Verschieben von Geräten",
+            "FEATURE_4": "Status von CELL/WiFi/Hub anzeigen",
+            "NEXT": "Weiter",
+            "SKIP": "Überspringen",
+            "TITLE": "Feature Tour"
+        },
+        "START": {
+            "DESCRIPTION": "Willkommen im neuen MyBroodMinder!",
+            "SEE": "Funktionen anzeigen",
+            "SKIP": "Überspringen",
+            "TITLE": "Willkommen!!"
+        }
+    },
+    "UNAUTHORIZED_PAGE": {
+        "TITLE": "Nicht autorisiert"
+    },
+    "VIDEO_GUIDES": {
+        "APPS": {
+            "LINK_1": "S1:E14 Die BroodMinder-Bees App",
+            "LINK_2": "Apiary App - Hub Mode",
+            "TITLE": "Apps"
+        },
+        "BLOGMINDER": {
+            "TITLE": "BlogMinder Videos"
+        },
+        "DISCONTINUED": {
+            "APIARY_APP": {
+                "LINK_1": "Normaler Gebrauch",
+                "LINK_2": "Neu - Hub Mode",
+                "TITLE": "Apiary App (Cloud)"
+            },
+            "BROODMINDER_APP": {
+                "LINK_1": "Normaler Gebrauch",
+                "LINK_2": "Daten exportieren",
+                "TITLE": "Originale App (Standalone)"
+            },
+            "CELL_APP": {
+                "LINK_1": "Diagnose",
+                "TITLE": "CELL App"
+            },
+            "ORIGINAL_CELL_WIFI": {
+                "LINK_1": "BroodMinder-CELL/WIFI (Bis Juli 2021)",
+                "TITLE": "Originale CELL/WIFI"
+            },
+            "TITLE": "Eingestellte Produkte",
+            "TROUBLESHOOT": {
+                "LINK_1": "Jährliche Wartung",
+                "LINK_2": "Batterien",
+                "LINK_3": "T2 Firmware Update Version 2.77",
+                "TITLE": "Fehlerbehebung"
+            }
+        },
+        "HOW_TO": "Wie benutzt man dieses Handbuch",
+        "IN_PROGRESS": "In Bearbeitung",
+        "INSTALLATION": {
+            "LINK_1": "Schnellstart mit CS Kit",
+            "LINK_2": "Welche APP sollte ich wählen?",
+            "LINK_3": "BroodMinder ASP Installation",
+            "LINK_4": "BroodMinder-SubHub",
+            "LINK_5": "BroodMinder-WIFI",
+            "LINK_6": "BroodMinder-CELL",
+            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_8": "S1:E19 BroodMinder-DIY",
+            "TITLE": "Installation"
+        },
+        "INTERPRETATION": {
+            "LINK_1": "S1:E4 BroodMinder und Mellisphera",
+            "LINK_2": "S1:E3 Koloniegröße vs. Temperatur",
+            "LINK_3": "S1:E8 Schwarmerkennung Präsentation",
+            "TITLE": "Dateninterpretation"
+        },
+        "MAINTENANCE": {
+            "LINK_1": "S1:E1 Frühlingswartung der Bienenstocküberwachung",
+            "LINK_2": "S1:E18 Batterien",
+            "TITLE": "Wartung"
+        },
+        "MYBROODMINDER": {
+            "LINK_1": "Erste Schritte",
+            "LINK_2": "Die Datenansichten",
+            "LINK_3": "Konfiguration",
+            "LINK_4": "Verschieben von Geräten",
+            "LINK_5": "Cell, WIFI und Hub Überwachung",
+            "LINK_6": "Alternative Navigation",
+            "LINK_7": "MyBroodMinder.com Premium",
+            "TITLE": "MyBroodMinder"
+        },
+        "TITLE": "BroodMinder Video-Benutzerhandbuch"
+    },
+    "WEATHER_PAGE": {
+        "DESCRIPTION": "Diese Ansicht zeigt die Weather Source Wetterdaten für den Standort Ihres Bienenhofs sowie eventuell festgelegte Benutzerwetterquellen",
+        "HUMIDITY": "Luftfeuchtigkeit",
+        "SOURCES": "Wetterquellen",
+        "TEMPERATURE": "Temperatur",
+        "TITLE": "Wetter"
+    }
+}
