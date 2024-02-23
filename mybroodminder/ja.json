@@ -1,0 +1,2282 @@
+{
+    "ACCOUNT": {
+        "CONFIRM": "プレミアムサブスクリプションの購入を確認",
+        "CONFIRM_SUB_WINDOW": {
+            "CONFIRM": "確認",
+            "CONFIRMATION_NUMBER": "確認番号",
+            "DESCRIPTION": "確認メールからコードを入力してください",
+            "ERROR": {
+                "NOT_FOUND": "サブスクリプションの購入が見つかりません",
+                "USED_OTHER_ACCOUNT": "既に他のアカウントで確認済み",
+                "USED_THIS_ACCOUNT": "このアカウントで既に確認済み、有効期限は{{value}}"
+            },
+            "PURCHASED": "購入日",
+            "TITLE": "プレミアムサブスクリプションの購入を確認",
+            "VALID": "有効な購入"
+        },
+        "DELETE": {
+            "CONFIRM_BUTTON_1": "削除を確認",
+            "CONFIRM_DIALOG": {
+                "CONFIRM": "アカウントを削除",
+                "EMAIL_ERROR": "このメールアドレスはアカウントに一致しません。",
+                "MESSAGE": "アカウントを削除すると、すべてのデータが削除され、復元できません。本当にアカウントを削除しますか？",
+                "TITLE": "削除を確認"
+            },
+            "DELETE_BUTTON": "アカウントを削除",
+            "DELETE_ERROR": "アカウントの削除中にエラーが発生しました。アカウントの削除を完了するには、support@broodminder.com に連絡してください（参照ID：{{id}}）。",
+            "DELETE_REDIRECT": "アカウントが削除されました。{{seconds}}秒後にリダイレクトされます。",
+            "HEADERS": {
+                "ACCOUNT": "アカウント",
+                "APIARIES": "養蜂場",
+                "COMPLETED": "完了",
+                "DEVICES": "デバイス",
+                "HIVES": "ハイブ",
+                "HUBS": "ハブ",
+                "REQUESTED": "削除リクエスト済み",
+                "STARTED": "開始",
+                "SUBS_TO_CANCEL": "キャンセルするサブスクリプション"
+            },
+            "HIDE": "オプションを非表示",
+            "REQUEST_ERROR": "エラーが発生しました。リクエストを行うことができません。",
+            "SHOW": "オプションを表示",
+            "STATUS": "アカウント削除のステータス",
+            "WARNING": "アカウントを削除しようとしています。これにより、以下に指定されたすべてのデータが削除されます。このアカウントの削除リクエストを確認してください。"
+        },
+        "EDIT_EMAIL": {
+            "BUTTON": "アカウントのメールアドレスを変更",
+            "CURRENT_EMAIL": "現在のメールアドレス",
+            "ERROR": "エラーが発生しました。メールアドレスは変更されませんでした。",
+            "NEW_EMAIL": "新しいメールアドレス",
+            "REFRESH_ERROR": "アカウントのメールアドレスを変更するには最近の認証が必要です。再試行する前に再ログインしてください。",
+            "SAVE_BUTTON": "メールアドレスを保存",
+            "TITLE": "アカウントのメールアドレスを変更"
+        },
+        "EDIT_PASSWORD": {
+            "BUTTON": "パスワードを変更",
+            "CURRENT_PASSWORD": "現在のパスワード",
+            "ERROR": "エラーが発生しました。パスワードは変更されませんでした。",
+            "HEADER": "パスワード",
+            "NEW_PASSWORD": "新しいパスワード",
+            "SAVE_BUTTON": "変更を保存",
+            "TITLE": "パスワードを変更"
+        },
+        "EMAIL": "メールアドレス",
+        "FIRST_NAME": "名",
+        "LAST_NAME": "姓",
+        "MEMBERSHIP": "メンバーシップ",
+        "PREMIUM_LANDING": "メンバーシップオプションを表示",
+        "PURCHASE": "プレミアムメンバーシップを購入",
+        "SAVE": "保存",
+        "SUB_TYPES": {
+            "FREE": "無料",
+            "HOBBY": "趣味",
+            "PREMIUM": "{{expiration}}まで自動更新のプレミアム",
+            "PREMIUM_CANCELLED": "{{expiration}}に期限切れのプレミアム",
+            "PREMIUM_EXPIRED": "{{expiration}}に期限切れのプレミアム",
+            "PRO": "{{expiration}}まで自動更新のプロ",
+            "PRO_CANCELLED": "{{expiration}}に期限切れのプロ",
+            "PRO_EXPIRED": "{{expiration}}に期限切れのプロ",
+            "TRIAL": "トライアルメンバーシップ、{{expiration}}まで有効"
+        },
+        "TITLE": "マイアカウント"
+    },
+    "ALERTS_DESC": {
+        "COLDDAY": "可能な寒い日",
+        "COLDDAY_DESC": "指定された温度の閾値以下、つまり、予定された寒い日が検出された場合にトリガーされます。",
+        "COLDDAY_MSG": "気温が異常に低くなります",
+        "DCONNECT": "デバイスの切断",
+        "DCONNECT_DESC": "選択した期間中にセンサーのいずれかがデータを（または時折）送信しなくなった場合にトリガーされます。ハブが必要です。",
+        "DCONNECTH": "デバイスの切断",
+        "DCONNECTH_DESC": "過去の1日間、ハブがデータを送信しなくなった場合にトリガーされます。",
+        "DCONNECTH_MSG": "{DATE} 以降、{REF} が切断されています",
+        "DCONNECTT": "デバイスの切断",
+        "DCONNECTT_DESC": "過去の1日間、Tセンサーがデータを送信しなくなった場合にトリガーされます。",
+        "DCONNECTT_MSG": "{DATE} 以降、{REF} が切断されています",
+        "DCONNECTW": "デバイスの切断",
+        "DCONNECTW_DESC": "過去の1日間、Wセンサーがデータを送信しなくなった場合にトリガーされます。",
+        "DCONNECTW_MSG": "{DATE} 以降、{REF} が切断されています",
+        "DEAD": "死んだ巣",
+        "DEAD_DESC": "アルゴリズムは、巣がさまざまなパラメータに基づいて毎日死んでいるかどうかを検出します。",
+        "DEAD_MSG": "あなたの巣が死んでいることが検出されました",
+        "HMAX": "高い内部湿度",
+        "HMAX_DESC": "内部湿度が選択した閾値を超えた場合にトリガーされます。",
+        "HMAX_MSG": "内部湿度が {VAL} を超えています",
+        "HMIN": "低い内部湿度",
+        "HMIN_DESC": "内部湿度が選択した閾値よりも低い場合にトリガーされます。",
+        "HMIN_MSG": "内部湿度が {VAL} 未満です",
+        "HONEYDEW": "ハニーデュー",
+        "HONEYDEW_DESC": "過去1週間にわたって巣への寄与が選択した閾値を超えた場合にトリガーされます。",
+        "HONEYDEW_MSG": "過去1週間の重量が {VAL} を超える",
+        "HOTDAY": "可能な猛暑日",
+        "HOTDAY_DESC": "指定された温度の閾値を超える、つまり予定された猛暑日が検出された場合にトリガーされます。",
+        "HOTDAY_MSG": "気温が異常に高くなります",
+        "LOWBATTERYT": "低いバッテリー",
+        "LOWBATTERYT_DESC": "Tセンサーのバッテリーレベルが選択した閾値よりも低い場合にトリガーされます。",
+        "LOWBATTERYT_MSG": "バッテリーを交換してください",
+        "LOWBATTERYW": "低いバッテリー",
+        "LOWBATTERYW_DESC": "Wセンサーのバッテリーレベルが選択した閾値よりも低い場合にトリガーされます。",
+        "LOWBATTERYW_MSG": "バッテリーを交換してください",
+        "LOWBROOD": "弱い子供たち",
+        "LOWBROOD_DESC": "子供たちの割合が選択した閾値よりも低い場合にトリガーされます。",
+        "LOWBROOD_MSG": "子供たちが {VAL} 未満です",
+        "OXALIC": "オキシル酸治療",
+        "OXALIC_DESC": "巣の平均子供たちが設定された閾値よりも低い場合にトリガーされます。これは、適切なタイミングで巣をオキシル酸で治療するための指標です。",
+        "OXALIC_MSG": "巣を治療する時間です",
+        "POORSIGNALT": "弱い信号",
+        "POORSIGNALT_DESC": "Tセンサーが過去1日間にわずかなデータを送信するとトリガーされます。",
+        "POORSIGNALT_MSG": "{DATE} 以来、{REF} の信号が弱い",
+        "POORSIGNALW": "弱い信号",
+        "POORSIGNALW_DESC": "Wセンサーが過去1日間にわずかなデータを送信するとトリガーされます。",
+        "POORSIGNALW_MSG": "{DATE} 以来、{REF} の信号が弱い",
+        "RAIN": "可能な大雨",
+        "RAIN_DESC": "翌日の降雨が選択した閾値を超えた場合にトリガーされます。",
+        "RAIN_MSG": "降雨が {VAL} を超えます",
+        "REALTIME_SWARM_ALERT": "T2デバイスによって計算された温度イベント。リアルタイムハブを使用するデバイスにのみ通知されます。",
+        "RSWARM": "蜂の大群のリスク",
+        "RSWARM_DESC": "次の日において、蜂の大群のリスクが高いと検出された場合にトリガーされます。",
+        "RSWARM_MSG": "蜂の大群の予測日",
+        "SNOW": "可能な大雪",
+        "SNOW_DESC": "翌日の降雪が選択した閾値を超えた場合にトリガーされます。",
+        "SNOW_MSG": "降雪が {VAL} を超えます",
+        "STOLEN": "盗まれた巣",
+        "STOLEN_DESC": "巣の重さが異常に低くなった場合にトリガーされます。",
+        "STOLEN_MSG": "巣の重さが異常に低いです",
+        "STOPWEATHER": "気象観測所停止",
+        "STOPWEATHER_DESC": "気象観測所がデータの送信を停止した場合にトリガーされます。専用の気象観測所が必要です。",
+        "STOPWEATHER_MSG": "{DATE} 以来、気象観測所からのデータ送信エラー",
+        "SUPER+": "スーパーの追加",
+        "SUPER+_DESC": "空のスーパーの最小重量を示します。",
+        "SUPER+_MSG": "スーパーを追加しました",
+        "SUPER-": "スーパーの取り外し",
+        "SUPER-_DESC": "満杯のスーパーの最大重量を示します。",
+        "SUPER-_MSG": "スーパーを取り外しました",
+        "SWARM": "蜂の大群",
+        "SWARM_DESC": "潜在的な蜂の大群が発生した場合にトリガーされます（ハブがより効率的です）。",
+        "SWARM_MSG": "14:00ごろに潜在的な蜂の大群が検出されました",
+        "TMAX": "高い内部温度",
+        "TMAX_DESC": "内部温度が選択した閾値を超えた場合にトリガーされます。",
+        "TMAX_MSG": "内部温度が {VAL} を超えています",
+        "TMIN": "低い内部温度",
+        "TMIN_DESC": "内部温度が選択した閾値よりも低い場合にトリガーされます。",
+        "TMIN_MSG": "内部温度が {VAL} 未満です",
+        "WIND": "可能な強風",
+        "WIND_DESC": "翌日の風が選択した閾値を超えた場合にトリガーされます。",
+        "WIND_MSG": "風速が {VAL} を超えます",
+        "WINEG": "資源の枯渇",
+        "WINEG_DESC": "蜂が持ち帰るよりも多くのリソースを消費するとトリガーされます。損失の閾値は調整可能です。",
+        "WINEG_MSG": "蜂のストックの損失が {VAL} を超えています",
+        "WIPOS": "重要な資源供給",
+        "WIPOS_DESC": "巣への当日の入荷重量が選択した閾値を超えた場合にトリガーされます。",
+        "WIPOS_MSG": "蜂のストックの増加が {VAL} を超えています",
+        "WLIM": "重量制限超過",
+        "WLIM_DESC": "指定された重量の閾値を超えた場合にトリガーされます。",
+        "WLIM_MSG": "巣の重さが {VAL} を超えています"
+    },
+    "APIARY_CRUD": {
+        "COLOR": "色",
+        "COUNTRY": "国コード",
+        "CREATE_TITLE": "養蜂場を作成",
+        "EDIT_LOCATION": {
+            "BUTTON": "位置を編集",
+            "COORDINATE": "座標",
+            "INFO": "この場所は天気を調査し、BeeCounted.orgなどの共有サイトであなたの養蜂場を表示するために使用されます。これはあなたの公開ドメインデータで開示され、あなたの養蜂場の正確な位置ではないはずです。",
+            "POSTAL_CHANGE": {
+                "CONFIRM": "はい",
+                "TEXT": "この養蜂場を新しい郵便番号{{value}}に変更しますか？",
+                "TITLE": "郵便番号の変更"
+            },
+            "POSTAL_ERROR": "選択した座標は養蜂場の郵便番号外です。これは変更できません。",
+            "TITLE": "養蜂場の位置を編集"
+        },
+        "EDIT_TITLE": "養蜂場の編集",
+        "EDIT_ZIP_EXP": "データを含む養蜂場の位置は変更できません。",
+        "ERROR_COUNTRY": "有効な国コードを選択してください",
+        "NAME": "名前",
+        "NOT_PRIVATE_TOOLTIP": "データを共有していただきありがとうございます。これにより、世界中の研究者が貴重なミツバチと環境に関する介入策を学び、開発するのに役立ちます。",
+        "PRIVATE": "非公開（データを共有しない）プレミアム機能",
+        "PRIVATE_TOOLTIP": "データを共有いただくことを検討してください。これにより、世界中の研究者が貴重なミツバチと環境に関する介入策を学び、開発するのに役立ちます。",
+        "SUCCESS_CREATED": "養蜂場が作成されました",
+        "SUCCESS_UPDATED": "養蜂場が更新されました",
+        "WEATHER": {
+            "DESCRIPTION": "湿度および/または温度のための養蜂場の気象ソースとしてデバイスまたはハブを選択します。デバイスがない場合、任意の時間範囲は気象ソースにデフォルトします。",
+            "DIALOG": {
+                "ADD_HUMIDITY": "湿度を追加",
+                "ADD_TEMPERATURE": "温度を追加",
+                "HUMIDITY": "湿度",
+                "SUCCESS_UPDATED": "養蜂場の気象が更新されました",
+                "TEMPERATURE": "温度",
+                "TITLE": "気象の編集"
+            },
+            "EDIT": {
+                "ADD_HUMIDITY": "湿度ソースを追加",
+                "ADD_TEMPERATURE": "温度ソースを追加",
+                "EDIT_HUMIDITY": "湿度ソースを編集",
+                "EDIT_TEMPERATURE": "温度ソースを編集",
+                "ENDING_CURRENT": "終了ソース",
+                "ERROR_DEVICE_REQUIRED": "すべての気象ソースにデバイスを選択する必要があります",
+                "ERROR_INVALID_NEXT_OVERLAP": "時間が無効で、次の養蜂場の位置と重なります",
+                "ERROR_INVALID_PREV_OVERLAP": "時間が無効で、前の養蜂場の位置と重なります",
+                "ERROR_START_REQUIRED": "気象ソースの開始時間を選択する必要があります",
+                "SELECT_DEVICE": "デバイスを選択",
+                "SUCCESS": "変更内容が保存されました"
+            },
+            "END": "終了",
+            "END_OPEN": "現在",
+            "MEASUREMENT": "測定",
+            "READING": "読み取り",
+            "START": "開始",
+            "START_OPEN": "オープン",
+            "TITLE": "気象の編集"
+        },
+        "ZIP_INFO": "郵便番号は天気サービスに使用されます。MyBroodMinderデータを最大限に活用するには、有効な郵便番号を入力してください。",
+        "ZIP_SELECTION": {
+            "CANCEL": "キャンセル",
+            "CHECK": "再確認",
+            "CREATE_WITH_LOC": "この位置で作成",
+            "LOCATION": "位置",
+            "NOT_FOUND": "郵便番号が見つかりません",
+            "SELECT": "地図上で位置を選択",
+            "SKIP": "スキップして作成"
+        },
+        "ZIPCODE": "郵便番号"
+    },
+    "APIARY_PAGE": {
+        "HIVE": {
+            "DESCRIPTION": "このビューでは、すべてのハイブに対するクイックチャートビューが表示されます。重量の表示優先順位：最も重い値。湿度と温度の表示優先順位：1-下部子供箱の上 2-上部子供箱の上 3-インナーカバーの下 4-その他 5-カスタム（最高値）6-ハイブの外 7-ハイブの下のスケール",
+            "TITLE": "ハイブ"
+        },
+        "PREMIUM_EXP": "このビューのための時間範囲の選択はプレミアムサブスクリプションで利用可能です。",
+        "SELECT": "ビューを選択",
+        "SUMMARY": {
+            "BATTERY": {
+                "LOADING": "アピアリーバッテリーの読み込み中",
+                "NONE": "バッテリーデータなし",
+                "TITLE": "アピアリーバッテリー"
+            },
+            "DESCRIPTION": "このビューでは、データタイプごとの組み合わせたチャートが表示されます。表示される詳細は、ハイブビューのデフォルトに従いますが、ハイブの設定でハイブごとに設定できます。",
+            "HIVES": "ハイブ",
+            "HUMID": {
+                "LOADING": "アピアリー湿度の読み込み中",
+                "NONE": "湿度データなし",
+                "TITLE": "アピアリー湿度"
+            },
+            "PREMIUM_EXP": "このビューはプレミアムサブスクリプションで利用可能です。以下に例を示します。",
+            "TEMP": {
+                "LOADING": "アピアリー温度の読み込み中",
+                "NONE": "温度データなし",
+                "TITLE": "アピアリー温度"
+            },
+            "TITLE": "サマリー",
+            "WEIGHT": {
+                "LOADING": "アピアリー重量の読み込み中",
+                "NONE": "重量データなし",
+                "TITLE": "アピアリー重量"
+            }
+        },
+        "TEXT": {
+            "DESCRIPTION": "このビューでは、すべてのハイブの各位置にアップロードされた最新の読み取りが表示されます。",
+            "MOVED_EXP": "ハイブが移動しました",
+            "TITLE": "テキスト"
+        }
+    },
+    "BEECOUNTED": {
+        "COPY_EMBED_TOOLTIP": "埋め込みコードをコピー",
+        "COPY_LINK_TOOLTIP": "リンクをコピー",
+        "EMBED": "ウェブページにグラフを埋め込む",
+        "EMBED_COPIED": "埋め込みコードがコピーされました",
+        "LINK": "BeeCounted.orgでハイブを表示",
+        "LINK_COPIED": "リンクがコピーされました",
+        "PRIVATE_APIARY": "BeeCountedと共有されていないハイブデータ。このApiary、{{name}}はBeeCountedと共有されていません。",
+        "PRIVATE_HIVE": "BeeCountedと共有されていないハイブデータ。",
+        "TITLE": "BeeCounted.org"
+    },
+    "CALENDAR_CHART": {
+        "DAYLENGTH": "日照時間",
+        "MOON": {
+            "1": "満月",
+            "2": "新月",
+            "3": "下弦の月",
+            "4": "上弦の月",
+            "5": "弦月",
+            "6": "残りの弦月",
+            "7": "残りの三日月",
+            "8": "弦月",
+            "ASCENDING": "上昇",
+            "DESCENDING": "下降"
+        },
+        "MOON_PERIOD": "期間",
+        "MOON_PHASE": "位相",
+        "SUNRISE": "日の出",
+        "SUNSET": "日没",
+        "WEATHER": {
+            "DESCR": {
+                "ASH": "火山灰",
+                "BROKEN_CLOUDS": "破れた雲",
+                "CLEAR": "晴れ",
+                "CLOUDS": "雲",
+                "DUST": "ほこり",
+                "FEW_CLOUDS": "わずかな雲",
+                "FOG": "霧",
+                "HAZE": "もや",
+                "MIST": "もや",
+                "RAIN": "雨",
+                "SAND": "砂",
+                "SCATTERED_CLOUDS": "散在する雲",
+                "SHOWER": "にわか雨",
+                "SHOWER_RAIN": "にわか雨",
+                "SHOWER_SNOW": "にわか雪",
+                "SMOKE": "煙",
+                "SNOW": "雪",
+                "SQUALL": "スコール",
+                "THUNDERSTORM": "雷雨",
+                "TORNADO": "竜巻"
+            }
+        }
+    },
+    "CHART": {
+        "DATA_TYPES": {
+            "ALERTS": {
+                "FILTER": "アラート",
+                "TITLE": "アラート",
+                "YAXIS": ""
+            },
+            "ALERTS_NOTES": {
+                "FILTER": "アラートとノート",
+                "TITLE": "アラートとノート",
+                "YAXIS": "（{{label}}）"
+            },
+            "AUDIO": {
+                "FILTER": "振動",
+                "TITLE": "振動",
+                "YAXIS": "振動（{{label}}）"
+            },
+            "BATTERY": {
+                "FILTER": "バッテリー",
+                "TITLE": "バッテリー",
+                "YAXIS": "バッテリー（％）"
+            },
+            "BC_ACTIV_DUR": {
+                "FILTER": "餌採りの期間",
+                "TITLE": "餌採りの期間",
+                "UNIT": "時間",
+                "YAXIS": "餌採りの期間（時間）"
+            },
+            "BC_FOR": {
+                "FILTER": "餌採りトリップ",
+                "TITLE": "餌採りトリップ",
+                "UNIT": "トリップ/日",
+                "YAXIS": "餌採り（kトリップ/日）"
+            },
+            "BC_WORK_PER": {
+                "FILTER": "餌採りの期間",
+                "TITLE": "餌採りの期間",
+                "UNIT": "作業セッション",
+                "YAXIS": "1日あたりの期間"
+            },
+            "BEECOUNT": {
+                "FILTER": "蜂",
+                "TITLE": "蜂の数",
+                "UNIT": "蜂/分",
+                "YAXIS": "蜂（{{label}}）"
+            },
+            "BROOD": {
+                "FILTER": "子蜂",
+                "TITLE": "子蜂",
+                "YAXIS": "子蜂（％）"
+            },
+            "CLOUD_COVER": {
+                "FILTER": "雲量",
+                "FILTER_HOURLY": "1時間ごとの雲量",
+                "TITLE": "雲量",
+                "YAXIS": "雲量（％）"
+            },
+            "FLIGHT": {
+                "FILTER": "餌採り指数",
+                "TITLE": "餌採り指数",
+                "YAXIS": "餌採り指数（％）"
+            },
+            "GAIN": {
+                "FILTER": "体重増加",
+                "TITLE": "体重増加",
+                "YAXIS": "体重（{{label}}）"
+            },
+            "GAIN_CUMUL": {
+                "FILTER": "累積体重増加",
+                "TITLE": "累積増加",
+                "YAXIS": "体重（{{label}}）"
+            },
+            "HIVE_HEALTH": {
+                "FILTER": "巣箱の健康",
+                "TITLE": "巣箱の健康",
+                "YAXIS": ""
+            },
+            "HUMID": {
+                "FILTER": "湿度",
+                "FILTER_HOURLY": "1時間ごとの湿度",
+                "TITLE": "湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "HUMID_MAX": {
+                "FILTER": "最大湿度",
+                "TITLE": "最大湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "HUMID_MAX_EXT": {
+                "FILTER": "外部の最大湿度",
+                "TITLE": "外部の最大湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "HUMID_MAX_WEATHER": {
+                "FILTER": "最大気象湿度",
+                "TITLE": "最大気象湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "HUMID_MIN": {
+                "FILTER": "最小湿度",
+                "TITLE": "最小湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "HUMID_MIN_EXT": {
+                "FILTER": "外部の最小湿度",
+                "TITLE": "外部の最小湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "HUMID_MIN_WEATHER": {
+                "FILTER": "最小気象湿度",
+                "TITLE": "最小気象湿度",
+                "YAXIS": "湿度（％）"
+            },
+            "LUNAR": {
+                "FILTER": "月の日々",
+                "TITLE": "月のカレンダー",
+                "YAXIS": ""
+            },
+            "MF_COUNT": {
+                "FILTER": "交尾飛行回数",
+                "TITLE": "交尾飛行回数",
+                "UNIT": "飛行/日",
+                "YAXIS": "飛行/日"
+            },
+            "MF_DUR": {
+                "FILTER": "飛行ウィンドウ（時間）",
+                "TITLE": "交尾飛行時間",
+                "UNIT": "時間",
+                "YAXIS": "飛行ウィンドウ（時間）"
+            },
+            "MF_SESS": {
+                "FILTER": "交尾飛行セッション",
+                "TITLE": "交尾飛行セッション",
+                "UNIT": "セッション/日",
+                "YAXIS": "セッション/日"
+            },
+            "NECTAR": {
+                "FILTER": "花蜜流",
+                "TITLE": "花蜜流指数",
+                "YAXIS": "花蜜流指数（％）"
+            },
+            "NOTES": {
+                "FILTER_APIARY": "養蜂場のメモ",
+                "FILTER_HIVE": "巣箱のメモ",
+                "TITLE": "メモ",
+                "YAXIS": ""
+            },
+            "PRECIP": {
+                "FILTER": "降水量",
+                "FILTER_DAILY": "1日ごとの降水量",
+                "TITLE": "降水量",
+                "YAXIS": "降水量（{{label}}）"
+            },
+            "PROD": {
+                "FILTER": "生産性",
+                "FILTER_DAILY": "1日ごとの生産性",
+                "FILTER_HOURLY": "1時間ごとの生産性",
+                "TITLE": "生産性",
+                "YAXIS": "体重（{{label}}）"
+            },
+            "PROD_CUMUL": {
+                "FILTER": "累積生産性",
+                "TITLE": "累積生産性",
+                "YAXIS": "体重（{{label}}）"
+            },
+            "RADAR": {
+                "FILTER": "レーダーシグナル",
+                "TITLE": "レーダーシグナル",
+                "YAXIS": "レーダーシグナル（{{label}}）"
+            },
+            "RAIN": {
+                "FILTER": "降雨",
+                "FILTER_CUMULATIVE": "累積降雨",
+                "FILTER_HOURLY": "1時間ごとの降雨",
+                "TITLE": "降雨",
+                "YAXIS": "降雨（{{label}}）"
+            },
+            "TEMP": {
+                "FILTER": "温度",
+                "FILTER_HOURLY": "1時間ごとの温度",
+                "TITLE": "温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_EVENTS": {
+                "FILTER": "温度イベント",
+                "TITLE": "温度イベント",
+                "YAXIS": ""
+            },
+            "TEMP_MAX": {
+                "FILTER": "最高温度",
+                "TITLE": "最高温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_MAX_EXT": {
+                "FILTER": "外部の最高温度",
+                "TITLE": "外部の最高温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_MAX_WEATHER": {
+                "FILTER": "最高気象温度",
+                "TITLE": "最高気象温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_MEAN": {
+                "FILTER": "平均温度",
+                "TITLE": "平均温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_MIN": {
+                "FILTER": "最低温度",
+                "TITLE": "最低温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_MIN_EXT": {
+                "FILTER": "外部の最低温度",
+                "TITLE": "外部の最低温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_MIN_WEATHER": {
+                "FILTER": "最低気象温度",
+                "TITLE": "最低気象温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "TEMP_WEATHER": {
+                "FILTER": "気象温度",
+                "TITLE": "気象温度",
+                "YAXIS": "温度（{{label}}）"
+            },
+            "WEATHER": {
+                "FILTER": "毎日の天気",
+                "TITLE": "天気",
+                "YAXIS": ""
+            },
+            "WEIGHT": {
+                "FILTER": "体重",
+                "FILTER_DAILY": "1日ごとの体重",
+                "FILTER_HOURLY": "1時間ごとの体重",
+                "TITLE": "体重",
+                "YAXIS": "体重（{{label}}）"
+            },
+            "WIND": {
+                "FILTER": "風",
+                "FILTER_HOURLY": "1時間ごとの風",
+                "TITLE": "風",
+                "YAXIS": "風（{{label}}）"
+            },
+            "WIND_MAX": {
+                "FILTER": "最大風速",
+                "TITLE": "最大風速",
+                "YAXIS": "風（{{label}}）"
+            }
+        }
+    },
+    "CHARTS": {
+        "BALANCE": "バランス L/R",
+        "BATTERY": "バッテリー充電",
+        "BATTERY_AXIS": "充電 %",
+        "BROOD_ZONE": "育むゾーン",
+        "FIRMWARE": "ファームウェア",
+        "HUMID": "湿度",
+        "HUMID_AXIS": "湿度 %",
+        "HUMIDITY_NORMAL": "通常",
+        "NORMAL_HUMIDITY": "通常湿度",
+        "PRESSURE": "圧力",
+        "PRODUCTIVITY": "ハニービープロダクティビティ",
+        "PRODUCTIVITY_AXIS": "{{wUnit}}のハニービープロダクティビティ",
+        "SWARM_S": {
+            "GENERIC": "温度イベント",
+            "TITLE": "T"
+        },
+        "SWARM_STATE": "SM ステート",
+        "TEMP": "温度",
+        "TEMP_AXIS": "{{tUnit}}の温度",
+        "WEATHER_HUMID": "外部湿度",
+        "WEATHER_TEMP": "外部温度",
+        "WEIGHT": "重さ",
+        "WEIGHT_AXIS": "{{wUnit}}の重さ",
+        "WIND_MAX": "風の上限"
+    },
+    "COMMON": {
+        "APIARY": "養蜂場",
+        "CANCEL": "キャンセル",
+        "CREATE": "作成",
+        "DELETE": "削除",
+        "DEVICE": "デバイス",
+        "DISMISS": "閉じる",
+        "EDIT": "編集",
+        "HIVE": "ハイブ",
+        "POSITION": "位置",
+        "SAVE": "保存"
+    },
+    "CONFIGURE_ALERTS": {
+        "EDIT": {
+            "BTN_MAIL_TEST": "テストメールを送信",
+            "DAILY": "日",
+            "DAY": "日",
+            "EMAIL": {
+                "FAIL": "{{email}} へのメールの送信に失敗しました",
+                "REALTIME_BODY": "これはMyBroodMinderリアルタイムアラートのテストメッセージです。",
+                "SUCCESS": "{{email}} へのメールが送信されました",
+                "SUMMARY_BODY": "これはMyBroodMinderのサマリーアラートのテストメールです。"
+            },
+            "EVERY": "すべて",
+            "FREQUENCY": "頻度",
+            "HOURLY": "時間",
+            "MAIL": "{{value}}ごとにメールアラートサマリーを送信",
+            "NEVER": "なし",
+            "OTHER": "カスタム",
+            "REALTIME_INPUT": "リアルタイムメール（コンマ区切り）",
+            "SUMMARY_INPUT": "サマリーメール（コンマ区切り）",
+            "TITLE": "メール設定",
+            "WEEKLY": "週"
+        },
+        "FREQUENCY_DAILY": "アラートサマリーメールは毎日送信されます",
+        "FREQUENCY_NEVER": "アラートサマリーメールは送信されません",
+        "FREQUENCY_OTHER": "アラートサマリーメールは{{value}}日ごとに送信されます",
+        "FREQUENCY_WEEKLY": "アラートサマリーメールは毎週送信されます",
+        "HIVE": "巣",
+        "REALTIME": "リアルタイム",
+        "SENSORS": "デバイス",
+        "SWARM_ALERT": "SwarmMinder",
+        "UPDATE_FAIL": "アラート設定の更新エラー",
+        "UPDATE_SUCCESS": "アラート設定が更新されました",
+        "WEATHER": "天気"
+    },
+    "CONFIGURE_APIARIES": {
+        "ACTIVE": "アクティブ",
+        "ADD": "養蜂場を追加",
+        "CANNOT_DELETE_WINDOW": {
+            "MESSAGE": "この養蜂場には次のハイブが含まれています：{{hives}}これらのハイブを削除または移動しない限り、この養蜂場を削除することはできません。",
+            "TITLE": "養蜂場を削除できません"
+        },
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "はい",
+            "MESSAGE": "{{name}} 養蜂場を削除してもよろしいですか？これにより、養蜂場が永久に削除されます。",
+            "TITLE": "養蜂場を削除"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "CONFIRM": "はい",
+            "MESSAGE": "これにより、この養蜂場内のすべてのハイブが非アクティブに設定され、各ハイブのデバイス位置が終了され、養蜂場が表示から削除されます。既存のデータは残りますが、新しいデータはもはやこの養蜂場またはそのハイブに送信されません。これは元に戻せません。{{name}} 養蜂場を非アクティブに設定しますか？",
+            "TITLE": "養蜂場を非アクティブに設定"
+        },
+        "DELETE_ERROR": "養蜂場の削除中にエラーが発生しました",
+        "DELETE_SUCCESS": "養蜂場が削除されました",
+        "NAME": "養蜂場名",
+        "SHARE": "共有",
+        "SHOW_INACTIVE": "非アクティブを表示",
+        "UPDATED_SUCCESS": "養蜂場が更新されました",
+        "ZIPCODE": "郵便番号"
+    },
+    "CONFIGURE_DASHBOARDS": {
+        "CHART": {
+            "APIARY_LOCATIONS": "養蜂場の場所を表示",
+            "BROOD_ZONE": "孵化ゾーンを表示",
+            "DEFAULT": "デフォルト ({{value}})",
+            "FAIL": "チャートの更新エラー",
+            "FILTERS": {
+                "ACTIVE": "アクティブ",
+                "AVAILABLE": "利用可能"
+            },
+            "HEIGHT": "高さ",
+            "LEGEND": "凡例を表示",
+            "NAME": "名前",
+            "NORMAL_HUMID": "通常の湿度を表示",
+            "SUCCESS": "チャートが更新されました",
+            "TITLE_CREATE": "チャートを作成",
+            "TITLE_EDIT": "{{name}}を編集",
+            "TODAY_LINE": "今日のラインを表示"
+        },
+        "DASHBOARD": {
+            "ACTIVE": "アクティブなチャート",
+            "AVAILABLE": "利用可能なチャート",
+            "CHART_NAMES": {
+                "APIARY_IMAGE": "養蜂場画像",
+                "APIARY_MAP": "養蜂場マップ",
+                "BATTERY": "バッテリー",
+                "BEECOUNT": "蜜蜂の数",
+                "BROOD": "孵化",
+                "CLOUD_COVER": "雲の被覆",
+                "FORAGING": "採餌指数",
+                "HIVE_TEXT": "ハイブテキスト",
+                "HIVE_TEXT_SUMMARY": "テキスト",
+                "HUMID": "湿度",
+                "MATING_FLIGHTS": "交尾飛行ウィンドウ",
+                "NECTAR": "蜜指数",
+                "NOTES": "メモ",
+                "PROD": "生産性",
+                "RAIN": "雨",
+                "TEMP": "温度",
+                "WEIGHT": "重さ",
+                "WEIGHT_CHANGE": "重さの変化",
+                "WIND": "風"
+            },
+            "DRAG": "ダッシュボードに追加するにはチャートをドラッグ",
+            "FAIL": "ダッシュボードの更新エラー",
+            "NAME": "名前",
+            "SUCCESS": "ダッシュボードが更新されました",
+            "TITLE_CREATE": "ダッシュボードを作成",
+            "TITLE_EDIT": "{{name}}を編集",
+            "WARNING": "このダッシュボードには{{count}}件のパブリックな共有リンクが接続されています。行った変更はこれらのリンクに影響します。"
+        },
+        "DELETE": {
+            "CANCEL": "キャンセル",
+            "CONFIRM": "削除",
+            "FAIL": "ダッシュボードの削除エラー",
+            "MESSAGE": "このダッシュボード ({{name}}) を削除してもよろしいですか？",
+            "SUCCESS": "ダッシュボードが削除されました",
+            "TITLE": "{{name}}の削除",
+            "WARNING": "このダッシュボードには{{count}}件のパブリックな共有リンクが接続されています。削除するとこれらのリンクが無効になります。"
+        },
+        "DUPLICATE": {
+            "CANCEL": "キャンセル",
+            "CONFIRM": "作成",
+            "FAIL": "ダッシュボードの作成エラー",
+            "MESSAGE": "このダッシュボード ({{name}}) のコピーを作成しますか？",
+            "NAME_SUFFIX": "コピー",
+            "SUCCESS": "ダッシュボードが作成されました",
+            "TITLE": "{{name}}のコピー"
+        },
+        "DUPLICATE_TOOLTIP": "複製",
+        "HIDE": {
+            "CANCEL": "キャンセル",
+            "CONFIRM": "非表示",
+            "HIDDEN": "ダッシュボードが非表示になりました",
+            "MESSAGE": "このダッシュボード ({{name}}) を非表示にしてもよろしいですか？",
+            "MESSAGE_2": "Configureページから元に戻すことができます。",
+            "TITLE": "{{name}}の非表示",
+            "VISIBLE": "ダッシュボードが表示されています"
+        },
+        "NAME": "名前",
+        "VISIBLE": "表示"
+    },
+    "CONFIGURE_DEVICES": {
+        "ACTIVE": "アクティブ",
+        "ADD": "デバイスを追加",
+        "ADD_LOCATION": "位置を追加",
+        "ADDRESS": "デバイスの住所",
+        "BATTERY": "バッテリー",
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "はい",
+            "MESSAGE": "{{deviceName}} デバイスを削除してもよろしいですか？これにより、デバイスと関連するデータが永久に削除されます。",
+            "TITLE": "デバイスを削除"
+        },
+        "DATA_RECEIVED": "最後のデータ受信",
+        "DELETE_ERROR": "デバイスの削除中にエラーが発生しました",
+        "DELETE_SUCCESS": "デバイスが削除されました",
+        "DOWNLOAD": "デバイスをダウンロード",
+        "FILTER_LOCATION": "位置をフィルター",
+        "FILTER_NAME": "名前をフィルター",
+        "LOCATION": "現在の位置",
+        "LOCATION_HISTORY": "位置履歴",
+        "NAME": "デバイス名",
+        "THIRD_PARTY": {
+            "ADD": "サードパーティデバイスを追加",
+            "ERROR_NO_CREDIT": "トークンが割り当てられていないため、データが収集されていません",
+            "ERROR_TOKEN_EXPIRED": "トークンが期限切れのため、データが収集されていません",
+            "ERROR_TOKEN_EXPIRED_SOFT": "トークンが期限切れのため、データの収集がまもなく停止します"
+        },
+        "UPDATED_SUCCESS": "デバイスが更新されました"
+    },
+    "CONFIGURE_HIVES": {
+        "ACTIVE": "アクティブ",
+        "ADD": "ハイブを追加",
+        "APIARY": "養蜂場",
+        "APIARY_HISTORY": "養蜂場の履歴",
+        "CODE": "ハイブコード",
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "はい",
+            "MESSAGE": "{{name}} ハイブを削除してもよろしいですか？これにより、ハイブが永久に削除されます。",
+            "TITLE": "ハイブを削除"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "COMMENT": "コメント",
+            "CONFIRM": "はい",
+            "MESSAGE": "これにより、ハイブ内のすべてのデバイスの位置が終了され、ハイブがアプリケーションビューから削除されます。既存のデータは残りますが、新しいデータはもはやこのハイブに送信されません。これは元に戻せません。{{name}} ハイブを非アクティブに設定しますか？",
+            "REASON": "理由を選択",
+            "REASONS": {
+                "ABSCONDED": "逃亡",
+                "COMBINED": "他のコロニーと結合",
+                "DIED": "死亡",
+                "OTHER": "その他"
+            },
+            "TITLE": "ハイブを非アクティブに設定"
+        },
+        "DELETE_ERROR": "ハイブの削除中にエラーが発生しました",
+        "DELETE_SUCCESS": "ハイブが削除されました",
+        "LOCATION_HISTORY": "デバイスの履歴",
+        "NAME": "ハイブ名",
+        "UPDATED_SUCCESS": "ハイブが更新されました"
+    },
+    "CONFIGURE_HUBS": {
+        "APIARY": "養蜂場",
+        "BATTERY": "バッテリー",
+        "EDIT": "管理",
+        "EXP_UNASSIGNED": "なし",
+        "EXPIRING": "トークンのステータス",
+        "FILTER": "フィルター",
+        "HUB": "ハブ",
+        "LAST_UPLOAD": "最終アップロード",
+        "MANAGE": {
+            "ASSIGNMENT_REMOVED": "トークンが削除されました",
+            "ASSIGNMENT_SUCCESS": "割り当てが更新されました",
+            "BACK_BUTTON": "戻る",
+            "CANCEL": {
+                "CONFIRM": "これにより、トークンがサブスクリプションから削除されます。新しい {{frequency}} サブスクリプション価格は {{amount}} です。有効期限日（{{expiration}}）以降、このハブからのデータは MyBroodMinder に受け入れられなくなります。このトークンをキャンセルしますか？",
+                "ERROR_1": "これは無料のサブスクリプションですので、トークンをキャンセルできません",
+                "ERROR_2": "このサブスクリプションはキャンセルされていますので、トークンをキャンセルできません",
+                "ERROR_3": "これは無料のトークンであり、キャンセルできません",
+                "ERROR_4": "このトークンは自動更新されず、キャンセルできません",
+                "ERROR_5": "このトークンはすでにキャンセルされています",
+                "ERROR_6": "このトークンは無料でサブスクリプションに含まれており、キャンセルできません。プレミアムメンバーシップをキャンセルする場合は、アカウントページをご覧ください",
+                "GENERAL_ERROR": "エラーが発生しました。トークンはキャンセルされませんでした",
+                "OK": "はい、このトークンをキャンセルします",
+                "SUCCESS": "トークンがキャンセルされました",
+                "TITLE": "トークンをキャンセル"
+            },
+            "CANCEL_CREDIT": "自動更新からトークンを削除",
+            "CLOSE": "完了",
+            "PURCHASE": {
+                "AUTO": "自動更新",
+                "CHARGED": "現在の料金",
+                "ERROR_1": "まずプレミアムメンバーシップを購入する必要があります。オプションを表示",
+                "ERROR_1_LINK": "こちら",
+                "GENERAL_ERROR": "エラーが発生しました。トークンは購入されませんでした",
+                "MONTHS": "月",
+                "MONTHS_SELECT": "か月",
+                "OK": "購入",
+                "ONCE": "一回",
+                "QUANTITY": "トークンの数",
+                "TITLE": "トークンを購入",
+                "TOTAL": "{{frequency}}メンバーシップ価格の更新"
+            },
+            "PURCHASE_CREDIT": "新規購入",
+            "REACTIVATE": {
+                "CONFIRM": "これにより、キャンセルされたトークンがサブスクリプションに再追加されます。すでにこの期間に対して支払い済みなので、現在は請求されません。新しい {{frequency}} サブスクリプション価格は {{amount}} です。このトークンを再アクティブにしますか？",
+                "ERROR_1": "これは無料のサブスクリプションですので、トークンを再アクティブにできません",
+                "ERROR_2": "このサブスクリプションはキャンセルされていますので、トークンを再アクティブにできません",
+                "ERROR_3": "これは無料のトークンであり、再アクティブにできません",
+                "ERROR_4": "このトークンは自動更新されず、再アクティブにできません",
+                "ERROR_5": "このトークンはすでに期限切れで、再アクティブにできません",
+                "GENERAL_ERROR": "エラーが発生しました。トークンは再アクティブにされませんでした",
+                "OK": "はい、このトークンを再アクティブにします",
+                "TITLE": "トークンを再アクティブにする"
+            },
+            "REACTIVATE_CREDIT": "トークンを再アクティブにする",
+            "REMOVE": {
+                "CONFIRM": "本当に {{item}} からトークンを削除しますか？",
+                "GENERAL_ERROR": "エラーが発生しました。トークンは削除されませんでした",
+                "OK": "はい、このトークンを削除します",
+                "TITLE": "トークンを削除"
+            },
+            "REMOVE_CREDIT": "{{item}} からトークンを削除",
+            "SELECT_APIARY": "養蜂場を選択",
+            "SELECT_CREDIT": "トークンを選択",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "このトークンは多くのサードパーティデバイスに使用できます",
+            "TITLE": "管理",
+            "UPDATED_SUCCESS": "ハブが更新されました"
+        },
+        "NAME": "名前",
+        "SIM": "SIM",
+        "TELECOM": "通信",
+        "THIRD_PARTY_DEVICE": "Third Party Device"
+    },
+    "CONFIGURE_PAGE": {
+        "ACCOUNT_TITLE": "私のアカウント",
+        "ALERTS_TITLE": "アラート",
+        "APIARIES_TITLE": "アピアリー",
+        "DASHBOARDS_TITLE": "ダッシュボード",
+        "DEVICES_TITLE": "デバイス",
+        "HIVES_TITLE": "ハイブ",
+        "HUBS_TITLE": "ハブ",
+        "LINKS_TITLE": "公開リンク",
+        "NESTED": "アピアリーごとにネスト",
+        "PREFERENCES_TITLE": "私の設定",
+        "SEPARATE": "タイプごとに",
+        "SUBSCRIPTIONS_TITLE": "私のサブスクリプション",
+        "THIRD_PARTY_TITLE": "サードパーティデバイス",
+        "TITLE": "構成"
+    },
+    "DASHBOARD": {
+        "CHART": {
+            "ALERT_NOTE_TABLE": {
+                "DATE": "日付",
+                "DELETE_ALERT": {
+                    "CONFIRM": "削除",
+                    "ERROR": "アラートの削除エラー",
+                    "MESSAGE": "このアラートを削除してもよろしいですか？",
+                    "SUCCESS": "アラートが削除されました",
+                    "TITLE": "アラートの削除"
+                },
+                "DESCRIPTION": "説明",
+                "NO_DESCR": "説明なし",
+                "TAGS": "タグ"
+            },
+            "ALERTS": {
+                "EDIT": {
+                    "FAIL": "アラートの更新エラー",
+                    "SUCCESS": "アラートが更新されました",
+                    "TITLE": "アラートの編集"
+                },
+                "ERROR": "アラートの詳細が見つかりません"
+            },
+            "APIARY_OVERVIEW": {
+                "ALERTS": "アラート",
+                "FORAGING": "採餌指数",
+                "MAX_TEMP": "最高温度",
+                "MIN_TEMP": "最低温度",
+                "NECTAR": "蜜指数",
+                "NOTES": "メモ",
+                "RAIN": "雨",
+                "WEATHER": "天気",
+                "WIND": "風"
+            },
+            "DOWNLOAD_CHART": "チャート画像のダウンロード",
+            "EDIT_CHART": "チャートの編集",
+            "HIVE_OVERVIEW": {
+                "ALERTS": "アラート",
+                "BROOD": "孵化",
+                "DATE": "日付",
+                "FITNESS": "フィットネス",
+                "FORAG": "採餌",
+                "FORAG_DESC": "1日の合計蜜蜂の往復数 | 総採餌期間（時間） | 1日の作業期間",
+                "HISTORY": "履歴",
+                "HISTORY_TOOLTIP": "履歴",
+                "NAME": "名前",
+                "NOTES": "メモ",
+                "PROD": "生産性",
+                "WEIGHT": "重さ"
+            },
+            "HIVE_TEXT": {
+                "BATTERY": "バッテリー",
+                "BEEDAR": "ビーダー",
+                "DATE": "日付",
+                "GAIN": "ゲイン",
+                "GAIN_S": "日の出以来のゲイン",
+                "HUMID": "湿度",
+                "INITIAL": "初期",
+                "LAST_SEEN": "最終確認",
+                "LATEST": "最新",
+                "LOCATION": "場所",
+                "NAME": "名前",
+                "NO_DATA": "時間範囲内のデータなし",
+                "SUNRISE": "日の出",
+                "TEMP": "温度",
+                "WEIGHT": "重さ"
+            },
+            "IMAGE": {
+                "ADD": "画像の追加",
+                "DROP": "ここにカスタム画像をドロップ",
+                "ERROR_SIZE": "画像が大きすぎます。6MBまで許可されています",
+                "ERROR_TYPE": "画像が許可されていません。jpegおよびpngのみ",
+                "REMOVE": "画像の削除",
+                "SUCCESS": "ファイルがアップロードされました",
+                "UPLOADING": "{{value}}% アップロード中"
+            },
+            "MAP": {
+                "EDIT": "地図の編集"
+            },
+            "NO_DATA": "データなし",
+            "NOTES": {
+                "ADD": "メモの追加",
+                "ERROR": "メモの詳細が見つかりません",
+                "LOADING": "読み込み中",
+                "MORE": "もっと読み込む",
+                "SHOWING": "表示中",
+                "TITLE": "{{count}} 件のメモ"
+            },
+            "ZOOM_CANCEL": "ズームのキャンセル",
+            "ZOOM_X": "X軸のズーム",
+            "ZOOM_Y": "Y軸のズーム"
+        },
+        "CONTEXT": {
+            "DELETE_DASH": "ダッシュボードの削除",
+            "DOWNLOAD": {
+                "DAILY_READINGS": "毎日の読み取りCSV",
+                "DAILY_WEATHER": "毎日の天気CSV",
+                "DOWNLOAD": "ダウンロード",
+                "HOURLY_READINGS": "時間ごとの読み取りCSV",
+                "HOURLY_WEATHER": "時間ごとの天気CSV",
+                "MENU": "ダウンロードオプション",
+                "NOTES": "メモCSV",
+                "TITLE": "ダウンロード",
+                "WARNING": "ハイブのCSVダウンロードにはプレミアムが必要です。"
+            },
+            "EDIT_DASH": "ダッシュボードの編集",
+            "EDIT_SHARE_DASH": "共有リンクの編集",
+            "HIDE_DASH": "ダッシュボードの非表示",
+            "SHARE_DASH": "ダッシュボードの共有"
+        }
+    },
+    "DATE_PICKER": {
+        "APPLY": "適用",
+        "CUSTOM": "カスタム範囲",
+        "DAYS_1": "過去1日",
+        "DAYS_14": "過去14日",
+        "DAYS_180": "過去180日",
+        "DAYS_3": "過去3日",
+        "DAYS_30": "過去30日",
+        "DAYS_7": "過去7日",
+        "DAYS_90": "過去90日",
+        "DAYS_SHORT": {
+            "0": "日",
+            "1": "月",
+            "2": "火",
+            "3": "水",
+            "4": "木",
+            "5": "金",
+            "6": "土"
+        },
+        "END": "終了",
+        "FORECAST": {
+            "OFF": "予報オフ",
+            "ON": "予報オン",
+            "SHOW": "10日間の予報を表示"
+        },
+        "HOURS_24": "過去24時間",
+        "INFO": "1年より古いデータを表示するにはプレミアムまたはプロ会員資格が必要です。デバイスビューでCSVダウンロードできます。",
+        "INVALID_END": "無効な終了日",
+        "INVALID_START": "無効な開始日",
+        "MONTHS_SHORT": {
+            "0": "1月",
+            "1": "2月",
+            "10": "11月",
+            "11": "12月",
+            "2": "3月",
+            "3": "4月",
+            "4": "5月",
+            "5": "6月",
+            "6": "7月",
+            "7": "8月",
+            "8": "9月",
+            "9": "10月"
+        },
+        "START": "開始",
+        "TODAY": "今日",
+        "TOMMOROW": "明日",
+        "VIEWING": "表示中",
+        "YEAR_1": "昨年",
+        "YEAR_2": "過去2年",
+        "YESTERDAY": "昨日"
+    },
+    "DATE_PICKER_SHORT": {
+        "DAYS_1": "1日",
+        "DAYS_14": "14日",
+        "DAYS_180": "180日",
+        "DAYS_3": "3日",
+        "DAYS_30": "30日",
+        "DAYS_7": "7日",
+        "DAYS_90": "90日",
+        "HOURS_24": "24時間",
+        "YEAR_1": "1年",
+        "YEAR_2": "2年"
+    },
+    "DEVICE_CRUD": {
+        "BIP_AGREE": "BIPに同意する必要があります",
+        "BIP_SEND": "データをBee Informed Partnershipに送信",
+        "BIP_TERMS": "利用規約",
+        "CREATE_TITLE": "デバイスを作成",
+        "EDIT_TITLE": "デバイスの編集",
+        "ERROR_ADDRESS": "有効なデバイスアドレスを入力してください",
+        "ERROR_BIP": "送信を有効にするためにBIP利用規約に同意する必要があります",
+        "ERROR_DUPLICATE": "そのアドレスのデバイスはすでに存在しているため、作成できませんでした",
+        "MODEL": "モデル番号",
+        "NAME": "名前",
+        "NAME_AUTO": "上記のアドレスを名前として使用",
+        "PLACE_TITLE": "デバイスの配置",
+        "SCALE": "このデバイスはスケールです",
+        "SELECT_POSITION": "位置を選択",
+        "SUCCESS_CREATED": "デバイスが作成されました",
+        "SUCCESS_PLACED": "デバイスが巣に配置されました",
+        "SUCCESS_UPDATED": "デバイスが更新されました",
+        "THIRD_PARTY": {
+            "CREDIT_EXPLANATION": "サードパーティデバイスからデータを収集するには、プレミアムメンバーシップトークンが必要です",
+            "ERROR_GENERAL": "デバイスの追加中にエラーが発生しました",
+            "ERROR_YOLINK_NOT_FOUND": "YoLinkデバイスが見つかりません。正しいSNを持っているか確認してください",
+            "ERROR_YOLINK_OTHER_USER": "YoLinkデバイスはすでに別のアカウントで登録されています",
+            "NAME_REQUIRED": "名前は必須です",
+            "PROVIDER": "プロバイダーを選択",
+            "TITLE": "サードパーティデバイスの追加",
+            "YOLINK_EXPLANATION": "YoLinkデバイスの32桁のSNを取得するには、デバイス上のQRコードをスキャンしてください。",
+            "YOLINK_SN_REQUIRED": "YoLink SNが必要です"
+        }
+    },
+    "DEVICE_PAGE": {
+        "CHART_TITLE": "{{name}}のデバイスサマリー",
+        "DATA_TOOLTIP": {
+            "BUILDING": "ビューの構築",
+            "OK": "最新の表示",
+            "UPDATE": "ビューの更新が必要"
+        },
+        "DOWNLOAD": "CSVデータのダウンロード",
+        "DOWNLOAD_HIST": "フルヒストリのダウンロード",
+        "DOWNLOAD_VIEW": "表示されている時間範囲のダウンロード",
+        "EDITOR": {
+            "BALANCE": "左/右のバランス",
+            "BATTERY": "バッテリー",
+            "BUTTON_NONE": "下のテーブルから削除する読み取りを選択",
+            "BUTTON_SELECTED": "選択したものを削除",
+            "CONFIRM_WINDOW": {
+                "CONFIRM": "はい",
+                "MESSAGE": "選択した{{count}}の読み取りを削除しますか？",
+                "TITLE": "選択した読み取りを削除"
+            },
+            "DESCRIPTION": "チャートをズームするか、ポイントをクリックして以下の読み取りをフィルタリングします。",
+            "DISMISS": "却下",
+            "EPOCH": "エポック",
+            "FAIL": "エラー、読み取りが削除されませんでした",
+            "HUMID": "湿度",
+            "NONE": "この期間の読み取りはありません",
+            "OUTLIERS": {
+                "BUTTON_NONE": "通常のセンサー読み取りとして追加する読み取りを選択",
+                "BUTTON_SELECTED": "選択したものを元に戻す",
+                "CONFIRM_WINDOW": {
+                    "CONFIRM": "はい",
+                    "MESSAGE": "選択した{{count}}の読み取りを通常のセンサー読み取りに再追加しますか？",
+                    "TITLE": "選択した読み取りを移動"
+                },
+                "FAIL": "エラー、読み取りは移動しませんでした",
+                "MESSAGE": "メッセージ",
+                "MOVE": "戻す",
+                "NONE": "この期間の削除された読み取りはありません",
+                "SUCCESS": "読み取りが移動しました",
+                "SYSTEM_R": "システムによって削除",
+                "TITLE": "外れ値としてマークされた読み取り",
+                "USER_R": "ユーザーによって削除"
+            },
+            "REMOVE": "削除",
+            "REMOVE_DUPLICATES_BUTTON": "重複を削除",
+            "REMOVE_DUPLICATES_TITLE": "重複の削除",
+            "RSSI": "Rssi",
+            "SAMPLE": "サンプル",
+            "SAMPLE_STATE": "SMステート",
+            "SOURCE": "ソース",
+            "SUCCESS": "読み取りが削除されました",
+            "TEMP": "温度",
+            "TIMESTAMP": "タイムスタンプ",
+            "TITLE": "データエディタ",
+            "WEIGHT": "重量",
+            "WEIGHT_L": "左の重量",
+            "WEIGHT_L_R": "左の生の重量",
+            "WEIGHT_R": "右の重量",
+            "WEIGHT_R_R": "右の生の重量",
+            "WEIGHT_SF": "重量スケールファクター"
+        },
+        "LOADING": "デバイスセンサー読み取りの読み込み中",
+        "LOCATION_ADD": "場所の追加",
+        "LOCATION_HISTORY": "デバイスの位置履歴",
+        "LOCATION_PIN_END": "E",
+        "LOCATION_PIN_START": "S",
+        "OUTLIER_HIDE": "データエディタを非表示",
+        "OUTLIER_SHOW": "データエディタを表示",
+        "TITLE": "{{name}}のデバイスデータ"
+    },
+    "DUPLICATE_CLEANUP": {
+        "CLOSE": "閉じる",
+        "CREATE_SUBTITLE_1": "これにより、このデバイスの複製（複数のソースから）が削除され、データがクリーンアップされます。",
+        "GROUPS": {
+            "CREATED": "作成済み",
+            "FROM": "元",
+            "ID": "ID",
+            "REMOVED": "削除されたリーディング",
+            "ROLLBACK": "ロールバック",
+            "ROLLBACK_DIALOG": {
+                "CONFIRM": "はい",
+                "MESSAGE": "この重複クリーンアップをロールバックしますか？",
+                "TITLE": "重複クリーンアップのロールバック"
+            },
+            "STATUS": "ステータス",
+            "STATUS_COMPLETE": "完了",
+            "STATUS_ROLLED": "ロールバック済み",
+            "STATUS_ROLLING": "ロールバック中",
+            "STATUS_RUNNING": "実行中",
+            "TITLE": "クリーンアップグループ",
+            "TO": "先",
+            "TOTAL": "合計リーディング"
+        },
+        "NOTES": "ノート（オプション）",
+        "REMOVED": "削除済み",
+        "RUN_CLEANUP": "クリーンアップを実行",
+        "RUNNING": "クリーンアップ実行中",
+        "TIME_SET": "{{start}}から{{end}}までの重複を削除",
+        "TIME_ZOOM": "現在のビューの{{start}}から{{end}}までの重複を削除",
+        "TITLE": "重複したリーディングのクリーンアップ",
+        "TOTAL": "合計"
+    },
+    "EDIT_SUBS": {
+        "HEADERS": {
+            "ASSOCIATED": "関連付けられた",
+            "AUTO": "自動更新",
+            "EDIT": "編集",
+            "EXPIRES": "有効期限",
+            "ID": "ID",
+            "NAME": "名前",
+            "PRICE": "価格",
+            "RENEW": "更新日",
+            "START": "開始日",
+            "STATUS": "ステータス",
+            "SUB_ID": "サブ ID"
+        },
+        "MEMEBERSHIPS": {
+            "FREE": "無料",
+            "PRE_PAID": "前払い",
+            "TITLE": "会員資格",
+            "TRIAL": "トライアル会員資格"
+        },
+        "MONTH_ERROR": "新規購入の場合、月間サブスクリプションはサポートされていません。 トークンを追加するには、現在のサブスクリプションをキャンセルし、新しいプレミアム会員資格を作成する必要があります。",
+        "PURCHASE": "製品の購入",
+        "SHOW_EXPIRED": "期限切れを表示",
+        "TOKENS": {
+            "ASSIGN": {
+                "HUB": "ハブ",
+                "THIRD_PARTY": "サードパーティデバイス",
+                "TITLE": "割り当て"
+            },
+            "CANCEL_CONFIRM": "はい",
+            "CANCEL_SUCCESS": "トークンがキャンセルされました",
+            "CANCEL_TEXT": "本当によろしいですか？",
+            "CANCEL_TITLE": "トークンをキャンセル",
+            "ERROR": "エラー、トークンは更新されませんでした",
+            "HUB_EDIT": {
+                "WARNING_DUP": "ハブは{{date}}までクレジットが有効です。これが置き換えられます。",
+                "WARNING_REMOVE": "これにより、ハブからトークンが削除されます。ハブはデータのアップロードを停止します。",
+                "WARNING_SINGLE": "これは単一デバイスハブトークンです。このトークンでアップロードできるのは1つのセンサーデバイスのみです。",
+                "WARNING_WIFI_TYPE": "Wifiハブはセルハブトークンで動作します。"
+            },
+            "REMOVE": "メンバーシップからトークンを削除",
+            "TITLE": "トークン",
+            "UPDATED": "トークンが更新されました"
+        }
+    },
+    "F_TOUR": {
+        "BACK": "戻る",
+        "DASH": {
+            "CHART_EDIT": {
+                "TEXT": "チャートオプションの編集はこちらをクリックしてください。",
+                "TITLE": "チャートオプション"
+            },
+            "CHART_FILTER": {
+                "TEXT_1": "ズームするにはクリックしてください。",
+                "TEXT_2": "データを削除および追加するにはクリックしてください。",
+                "TITLE": "チャートフィルター"
+            },
+            "DASH_OPT": {
+                "TEXT": "詳細なダッシュボードオプションはこちらをクリックしてください。",
+                "TITLE": "ダッシュボードオプション"
+            },
+            "DASHBOARDS": {
+                "TEXT": "異なる方法でデータを表示するには、ダッシュボード名をクリックしてください！",
+                "TITLE": "新しいビューと可視化！"
+            },
+            "NEW": {
+                "TEXT": "独自のダッシュボードを作成します。必要に応じてチャートを追加および配置してください。",
+                "TITLE": "カスタムダッシュボード"
+            }
+        },
+        "END": {
+            "DONE": "完了",
+            "TEXT_1": "詳細なヘルプと情報については、ドキュメンテーションをご覧ください。",
+            "TEXT_2": "お楽しみいただければ幸いです！",
+            "TEXT_3": "- The BroodMinder Team",
+            "TITLE": "それで全てです"
+        },
+        "EXTRAS": {
+            "CONF": {
+                "TEXT": "詳細なオプションを表示するには、構成をクリックしてください。",
+                "TITLE": "詳細なオプション"
+            },
+            "CONF_ALERT": {
+                "TEXT": "アラート設定、メール、および頻度の編集。",
+                "TITLE": "詳細なアラートオプション"
+            },
+            "CONF_DASH": {
+                "TEXT": "編集、非表示、複製など...",
+                "TITLE": "詳細なダッシュボードオプション"
+            },
+            "DATE": {
+                "TEXT": "日付範囲の選択とオプションで予報を表示。",
+                "TITLE": "日付範囲"
+            },
+            "HIVE_COLOR": {
+                "TEXT_1": "ハイブの色を変更するには、ハイブを編集します。これにより、同じダッシュボードで複数のハイブを簡単に表示できます。",
+                "TEXT_2": "これは各養蜂場に対しても行うことができ、天気の色を指定できます。",
+                "TITLE": "ハイブの色をカスタマイズ"
+            }
+        },
+        "NAV": {
+            "APIARY": {
+                "TEXT": "養蜂場をクリックして、ディスプレイからハイブを追加または削除します。",
+                "TITLE": "養蜂場をクリック"
+            },
+            "HIVE": {
+                "TEXT_1": "ハイブ名をクリックしてダッシュボードで表示します。",
+                "TEXT_2": "再度クリックしてハイブを削除します。",
+                "TITLE": "ハイブの表示"
+            },
+            "HOME": {
+                "TEXT": "ホームページにアクセスして、アクティブなハイブと養蜂場の概要を表示します。",
+                "TITLE": "ホームページ"
+            },
+            "MULTI": {
+                "TEXT": "マルチセレクトをクリックして複数のハイブを表示します。",
+                "TITLE": "マルチセレクトの有効化"
+            }
+        },
+        "NEXT": "次へ",
+        "START": {
+            "DASH_BUTTON": "ダッシュボード",
+            "DONE_BUTTON": "完了",
+            "EXTRAS_BUTTON": "エクストラ",
+            "NAV_BUTTON": "ナビゲーション",
+            "TEXT": "新しく改良されたMyBroodMinderへようこそ！新しい機能、チャート、およびデータが追加されています。詳細はこちら。",
+            "TITLE": "新しく改良されたMyBroodMinder！"
+        }
+    },
+    "FEATURES": {
+        "CLOSE": "閉じる",
+        "FEATURE_1": "初めて、ハイブを作成",
+        "FEATURE_2": "データの表示",
+        "FEATURE_3": "デバイスの設定と移動",
+        "FEATURE_4": "CELL/WiFi/Hubのステータスの表示",
+        "NEXT": "次へ",
+        "SKIP": "スキップ",
+        "TITLE": "機能ツアー"
+    },
+    "FITNESS_CODE": {
+        "B1": {
+            "MSG": "死んだ巣"
+        },
+        "B2": {
+            "MSG": "盗まれた巣"
+        },
+        "G1": {
+            "MSG": "健康"
+        },
+        "G2": {
+            "MSG": "データなしまたは天気なし"
+        },
+        "O1": {
+            "MSG": "弱い巣または急激な減少"
+        },
+        "O2": {
+            "MSG": "潜在的な群れ"
+        },
+        "O3": {
+            "MSG": "過熱"
+        },
+        "O4": {
+            "MSG": "極端な寒さ"
+        },
+        "O5": {
+            "MSG": "急激な体重減少、略奪される"
+        },
+        "R1": {
+            "MSG": "非常に弱い巣"
+        }
+    },
+    "GLOBAL_DASHBOARDS": {
+        "CALENDAR": {
+            "TITLE": "カレンダー"
+        },
+        "CLASSIC": {
+            "AUDIO": "振動",
+            "BATTERY": "バッテリー",
+            "HUMID": "湿度",
+            "RADAR": "レーダー",
+            "TEMP": "温度",
+            "TITLE": "クラシック",
+            "WEIGHT": "重さ",
+            "WEIGHT_CHANGE": "重さの変化"
+        },
+        "WEATHER": {
+            "TITLE": "天気"
+        }
+    },
+    "HIVE_APIARY_LOCATION_HIST": {
+        "APIARY": "養蜂場",
+        "EDIT": {
+            "ADD": "追加",
+            "ERROR_APIARY_REQUIRED": "すべての位置に対して養蜂場を選択する必要があります",
+            "ERROR_INVALID_NEXT_OVERLAP": "時間が無効で、次の養蜂場の位置と重なります",
+            "ERROR_INVALID_PREV_OVERLAP": "時間が無効で、前の養蜂場の位置と重なります",
+            "ERROR_LOCATION_REQUIRED": "巣には少なくとも1つの養蜂場が必要です",
+            "SELECT_APIARY": "養蜂場を選択",
+            "SUCCESS": "変更内容が保存されました"
+        },
+        "END": "終了",
+        "END_OPEN": "現在",
+        "MOVE": "移動",
+        "START": "開始",
+        "START_OPEN": "オープン"
+    },
+    "HIVE_CRUD": {
+        "COLOR": "色",
+        "CREATE_TITLE": "巣を作成",
+        "DESCRIPTION": "説明",
+        "DISPLAY": {
+            "BATTERY": {
+                "ALL": "マルチセレクトモードですべてのデバイスを表示",
+                "AUTO": "マルチセレクトモードで巣内の最も低いデバイスバッテリーを表示",
+                "DESCRIPTION": "マルチセレクトモードでグラフに表示するバッテリーデバイス",
+                "NONE": "マルチセレクトモードでバッテリーデバイスを表示しない"
+            },
+            "DESCRIPTION": "マルチセレクトビューの設定",
+            "HUMID": {
+                "ALL": "マルチセレクトモードですべての湿度デバイスを表示",
+                "AUTO": "最大湿度を自動選択",
+                "DESCRIPTION": "マルチセレクトモードでグラフに表示する湿度デバイス",
+                "NONE": "マルチセレクトモードで湿度デバイスを表示しない"
+            },
+            "TEMP": {
+                "ALL": "マルチセレクトモードですべての温度デバイスを表示",
+                "AUTO": "最高温度を自動選択",
+                "DESCRIPTION": "マルチセレクトモードでグラフに表示する温度デバイス",
+                "NONE": "マルチセレクトモードで温度デバイスを表示しない"
+            },
+            "WEIGHT": {
+                "ALL": "マルチセレクトモードですべての重量デバイスを表示",
+                "AUTO": "最大スケール重量を自動選択",
+                "DESCRIPTION": "マルチセレクトモードでグラフに表示する重量デバイス",
+                "NONE": "マルチセレクトモードで重量デバイスを表示しない"
+            }
+        },
+        "EDIT_TITLE": "巣の編集",
+        "ERROR_APIARY": "養蜂場を選択する必要があります",
+        "MOVE": {
+            "DAY": "新しい位置の開始日",
+            "EXP": "この巣のすべてのデータは同じままですが、これによりこの日以降、巣が選択した養蜂場に配置されます。これは気象データと養蜂場のビューに反映されます。",
+            "SELECT_APIARY": "養蜂場を選択",
+            "SUCCESS": "巣が移動しました",
+            "TIME": "時間",
+            "TITLE": "巣を移動"
+        },
+        "NAME": "名前",
+        "SELECT_APIARY": "養蜂場を選択",
+        "SUCCESS_CREATED": "巣が作成されました",
+        "SUCCESS_UPDATED": "巣が更新されました"
+    },
+    "HIVE_PAGE": {
+        "BATTERY": {
+            "LOADING": "ハイブバッテリーの読み込み中",
+            "NONE": "バッテリーデータなし",
+            "TITLE": "バッテリー"
+        },
+        "DATA_TOOLTIP": {
+            "BUILDING": "ビューの構築",
+            "OK": "最新の表示",
+            "UPDATE": "ビューの更新が必要"
+        },
+        "DEVICE_DATA_ONLY": "チャートのデータ、現在はハイブにありません",
+        "DEVICE_NO_DATA": "チャートにデータなし、現在はハイブにあります",
+        "DEVICE_WITH_DATA": "チャートにデータがあり、現在はハイブにあります",
+        "DEVICES": "デバイス",
+        "DOWNLOAD": "CSVデータのダウンロード",
+        "DOWNLOAD_PREMIUM": "プレミアムサブスクリプションで利用可能なハイブデータをダウンロード中。",
+        "DOWNLOAD_WEATHER": "天気のCSVデータのダウンロード",
+        "DOWNLOAD_WEATHER_PREMIUM": "プレミアムサブスクリプションで利用可能な天気データをダウンロード中。",
+        "HUMID": {
+            "LOADING": "ハイブ湿度の読み込み中",
+            "NONE": "湿度データなし",
+            "TITLE": "湿度"
+        },
+        "INACTIVE": "{{date}}以来非アクティブ",
+        "PRODUCTIVITY": {
+            "INFO": "ミツバチがハイブの重量を追加/削除",
+            "LOADING": "ミツバチの生産性の読み込み中",
+            "NONE": "ミツバチの生産性の重量データなし",
+            "TITLE": "ミツバチの生産性"
+        },
+        "TEMP": {
+            "HIDE_SWARM_FLAGS": "温度イベントを非表示",
+            "LOADING": "ハイブ温度の読み込み中",
+            "NONE": "温度データなし",
+            "TITLE": "温度"
+        },
+        "WEIGHT": {
+            "AVERAGE_SCALE": "スケールの平均",
+            "INDIVIDUAL_SCALE": "個別のスケール",
+            "LOADING": "ハイブ重量の読み込み中",
+            "MULTI_SCALE": "複数のスケール",
+            "NONE": "重量データなし",
+            "TITLE": "重さ"
+        }
+    },
+    "HOME": {
+        "APIARIES": "養蜂場",
+        "EMPTY": {
+            "TEXT_1": "MyBroodMinderへようこそ！これがホームページです！",
+            "TEXT_2": "これはあなたのハイブと養蜂場のクイックビューです。ハイブと養蜂場は、デバイスが割り当てられている場合に表示されます。",
+            "TEXT_3": "共有された養蜂場はここに表示されません。",
+            "TEXT_4": "この説明に一致するものがないようです。",
+            "TEXT_5": "これからは、次の操作ができます：",
+            "TEXT_LI_1A": "左上の",
+            "TEXT_LI_1B": "を使用して、ハイブ、養蜂場、およびデバイスをアカウントに追加します",
+            "TEXT_LI_2": "または、BroodMinder Beesアプリをダウンロードしてそれらを管理します。"
+        },
+        "HIVES": "ハイブ"
+    },
+    "HUB_CRUD": {
+        "CREATE_TITLE": "ハブを作成",
+        "EDIT_TITLE": "ハブを編集",
+        "ERROR_ADDRESS": "有効なハブアドレスを入力してください",
+        "ERROR_DUPLICATE": "そのアドレスのハブは既に存在しているため、作成できませんでした",
+        "MODEL": "モデル番号",
+        "NAME": "名前",
+        "NAME_AUTO": "上記のアドレスを名前として使用",
+        "SIM": {
+            "ID": "SIM ID",
+            "TELECOM": "テレコム",
+            "TITLE": "SIMを追加"
+        },
+        "SUCCESS_CREATED": "ハブが作成されました",
+        "SUCCESS_UPDATED": "ハブが更新されました",
+        "USERID": "ユーザーID"
+    },
+    "HUB_PAGE": {
+        "ADDRESS": "デバイスアドレス",
+        "CHART_LOADING": "ハブ読み込み中",
+        "CHART_READINGS_LABEL": "読み取り",
+        "CHART_READINGS_SENT": "送信された読み取り",
+        "CHART_SIGNAL": "信号",
+        "CHART_TITLE": "{{name}}のハブ読み取り",
+        "DEVICES": {
+            "DEVICE": "デバイス",
+            "HIVE": "ハイブ",
+            "POSITION": "位置",
+            "SIGNAL": "信号",
+            "TIMESTAMP": "アップロードタイムスタンプ",
+            "TITLE": "アップロードされたデバイス"
+        },
+        "FIRMWARE": "ファームウェア",
+        "MODEL": "モデル",
+        "NAME": "名前",
+        "READING_COUNT": "グラフ化された読み取り：{{count}}",
+        "TITLE": "{{name}}のハブ",
+        "UPLOAD_TIME": "最終アップロード時間"
+    },
+    "INSP_CATEG": {
+        "BEESBROODSTG": "子供の段階",
+        "FEEDING": "給餌",
+        "HEALTH": "健康",
+        "MANAGE": "管理",
+        "MITES": "ダニ"
+    },
+    "INSP_CONF": {
+        "APPLIES": {
+            "APIARY": "養蜂場",
+            "HIVE": "巣"
+        },
+        "BROODADD": "子供フレームの追加",
+        "BROODREMOVE": "子供フレームの取り外し",
+        "BUZZINGHIVE": "働き蜂の産卵",
+        "CANDIFEED": "キャンディの給餌",
+        "COMBINEDHIVES": "結合された巣",
+        "DEFAULT": "デフォルト",
+        "DIVISION": "分割",
+        "DRONE": "ドローンの存在",
+        "DRONEBROOD": "ドローン子の存在",
+        "EGG": "卵の存在",
+        "HARVEST": "収穫",
+        "HIGHBEES": "高い蜂の数",
+        "HIGHBROOD": "高い子供の数",
+        "HIGHRES": "高いリソースの数",
+        "INSTALLPKG": "パッケージのインストール",
+        "LARVA": "幼虫の存在",
+        "LOWBEES": "低い蜂の数",
+        "LOWBROOD": "低い子供の数",
+        "LOWRES": "低いリソースの数",
+        "MITECOUNTLOUNGE": "ダニカウントスティッキーボード",
+        "MITECOUNTWASH": "ダニカウントウォッシュ",
+        "MITEFORMICPRO": "ダニ治療：フォーミックプロ",
+        "MITEOADRIBBLE": "ダニ治療：オキシル酸ドリブル",
+        "MITEOAVAPOR": "ダニ治療：オキシル酸ベーパー",
+        "MITESTRIPADD": "ダニ治療：ストリップ追加",
+        "MITESTRIPREMOVE": "ダニ治療：ストリップ取り外し",
+        "MOSAICBROOD": "散在する子供たち",
+        "NECTARFLOW": "花蜜の流れ",
+        "NOBEES": "蜂がいない",
+        "NOBROOD": "子供がいない",
+        "NORES": "リソースがない",
+        "NORMBEES": "普通の蜂の数",
+        "NORMBROOD": "普通の子供の数",
+        "NORMRES": "普通のリソースの数",
+        "NUCLEUSHIVE": "核巣の設置",
+        "PATTIESFEED": "パティの給餌",
+        "PUPA": "封じられた子供たちの存在",
+        "QUEENABSENT": "女王がいない",
+        "QUEENCELLSEEN": "女王のセルが見える",
+        "QUEENINSERT": "女王の挿入",
+        "QUEENLINEAGE": "女王の血統",
+        "QUEENSEEN": "女王が見える",
+        "REQUEEN": "再女王の交換",
+        "SICK": "病気",
+        "SPLITQUEENREMOVE": "女王のいない分裂",
+        "STARTFEED": "給餌の開始",
+        "STOLEN": "盗まれた巣",
+        "STOPFEED": "給餌の停止",
+        "SUPER+": "スーパーの追加",
+        "SUPER-": "スーパーの取り外し",
+        "SWARM": "蜂の大群",
+        "SWARMMATEDQUEEN": "蜂の大群と交尾済み女王",
+        "SWARMRETURN": "蜂の大群と巣への帰還",
+        "SYRUPFEED": "シロップの給餌",
+        "VIRGINSWARM": "未交尾の蜂の大群"
+    },
+    "LOCATION_CRUD": {
+        "ADVANCED": {
+            "ADMIN_SELECT": "選択",
+            "ADVANCED": "高度な",
+            "INCLUDE_TEMP": "温度を含む",
+            "SCALE_FACTOR": "スケールファクター",
+            "SCALE_FACTOR_REQUIRED": "重量のスケールファクター値が必要です",
+            "USE_ALL": "すべての読み取りを使用"
+        },
+        "CREATE": "作成",
+        "CREATE_TITLE": "デバイスを割り当てる",
+        "EDIT_TITLE": "位置の編集",
+        "ERROR_DEVICE": "デバイスがこの時間と重なる位置を持っています",
+        "ERROR_GENERAL": "デバイスの位置の作成中にエラーが発生しました",
+        "ERROR_HIVE": "巣がこの位置と重なるデバイスを持っています",
+        "ERROR_INACTIVE_HIVE": "位置の終了時間は、巣の非アクティブ時間の後であってはなりません",
+        "ERROR_MOVE_TIME": "{{currentEnd}}よりも前に位置を終了できません",
+        "ERROR_TIME": "位置には開始時間よりも前の終了時間があります",
+        "MOVE_EXP": "これにより現在の位置が終了し、新しい位置が開始されます。",
+        "MOVE_TITLE": "デバイスの移動",
+        "MOVED_DAY": "新しい位置の開始日",
+        "MOVED_TIME": "時間",
+        "SELECT_APIARY": "養蜂場を選択",
+        "SELECT_DEVICE": "デバイスを選択",
+        "SELECT_HIVE": "巣を選択",
+        "SELECT_POSITION": "位置を選択",
+        "START_DAY": "開始日",
+        "START_TIME": "開始時間",
+        "STOP_DAY": "終了日",
+        "STOP_TIME": "終了時間",
+        "SUCCESS_ENDED": "現在の位置が終了しました",
+        "SUCCESS_MOVED": "デバイスが巣に移動しました"
+    },
+    "LOCATION_HIST": {
+        "CURRENT": "現在",
+        "DELETE_WINDOW": {
+            "CONFIRM": "はい",
+            "MESSAGE": "このデバイスの位置を削除しますか？",
+            "TITLE": "位置を削除"
+        },
+        "DEVICE_ADDRESS": "デバイスアドレス",
+        "DEVICE_NAME": "デバイス名",
+        "END": "終了",
+        "HIVE": "ハイブ",
+        "MOVE": "移動",
+        "POSITION": "位置",
+        "START": "開始"
+    },
+    "LOGIN": {
+        "LOGIN": {
+            "EMAIL": "メールアドレス",
+            "ERROR": {
+                "EMAIL": "このメールアドレスに関連するアカウントは存在しません。",
+                "GENERAL": "ログインに失敗しました。",
+                "PASSWORD": "ユーザー名またはパスワードが正しくありません。"
+            },
+            "FORGOT_LINK": "パスワードをお忘れですか？",
+            "LOGIN_BTN": "メールでログイン",
+            "PASSWORD": "パスワード",
+            "RESET": "リセットメールを送信",
+            "RESET_ERROR": "エラー、メールが送信されませんでした。",
+            "RESET_SUCCESS": "{{value}} にリセットメールが送信されました",
+            "TITLE": "既存のアカウントにログイン"
+        },
+        "LOGIN_MENU": "ログイン",
+        "REGISTER": {
+            "EMAIL": "メールアドレス",
+            "ERROR": {
+                "DUPLICATE": "このメールアドレスはすでに他のアカウントで使用されています。",
+                "EMAIL": "メールアドレスの形式が正しくありません。",
+                "GENERAL": "アカウントを作成できません。",
+                "PASSWORD": "パスワードが十分に強力ではありません。"
+            },
+            "EULA": {
+                "AGREE": "同意する",
+                "DESCRIPTION": "このSaaS養蜂ソフトウェアを使用するには、以下のステートメントに同意していただくことをお願いします。",
+                "POINT_1": "このサービスにアップロードまたは入力したデータをパブリックドメインに配置しています。したがって、mybroodminder.comはデータを匿名の形で一般の人々と共有するためにデータを使用するかもしれません。",
+                "POINT_2": "mybroodminder.comは、ユーザー名、パスワード、郵便番号などの個人を特定できる情報（PII）を公開しないよう最善を尽くしますが、ハッキングやその他のデータ露出の手段については責任を負いません。",
+                "POINT_3": "mybroodminder.comは、アップロードまたは入力されたすべてのデータを保存およびバックアップするために最善を尽くしますが、データの損失については責任を負いません。",
+                "POINT_4": "mybroodminder.comは、その他のベンダーがデバイスをmybroodminder.comに統合する可能性がある別の会社であり、mybroodminder.comはこれらのベンダーの行動については責任を負いません。",
+                "POINT_5": "mybroodminder.comは養蜂家と昆虫学者が情報を交換する場であり、常に礼儀正しく行動することを約束します。そうしないと、mybroodminder.comのスタッフの唯一の裁量により、アカウントが終了される可能性があります。",
+                "TITLE": "MyBroodMinder.comエンドユーザーライセンス契約（EULA）v1.1"
+            },
+            "PASSWORD": "パスワード",
+            "REGISTER_BTN": "メールで登録",
+            "TITLE": "新しいアカウントを登録"
+        },
+        "REGISTER_MENU": "登録"
+    },
+    "MEMBERSHIP": {
+        "12_MONTH": "12ヶ月",
+        "1_DEVICE": "1デバイスずつ",
+        "ALL_DEVICE": "一度にすべてのデバイス",
+        "BUY": "今すぐ購入",
+        "CELL_HUB": "CELL HUB",
+        "COLONY_BROOD": "コロニーブルード",
+        "COLONY_FITNESS": "コロニーフィットネス",
+        "DAILY_ALERTS": "デイリーアラート",
+        "DATA_DISPLAY": "データ表示",
+        "DATA_UPLOADING": "データのアップロード",
+        "EMAIL_SUMMARY": "Eメールサマリー",
+        "FREE_STORAGE": "クラウド上の無料ストレージ",
+        "FULL_HIST": "完全な履歴",
+        "FULL_SUPPORT": "プレミアムサポート",
+        "HOBBY": "趣味",
+        "HOBBY_PRICE": "無料",
+        "HUB_INFO": "リアルタイムデータをアップロードするためにハブの代わりにスマートフォンを使用する可能性",
+        "HUB_MODE": "HUBモード",
+        "INFO_1": "メンバーシップにはwifiデバイス用の無料トークンが含まれています。 cell hub用の追加のトークンは購入する必要があります。",
+        "INFO_2": "複数のYolinkデバイスをアカウントに追加できます（ユーザーガイドを参照）",
+        "LOGIN": "ログイン/登録",
+        "MBM_VIEWS": "MYBROODMINDERプレミアムビュー",
+        "MBM_VIEWS_INFO": "養蜂場および生産性のビュー/チャート",
+        "MONTH": "月",
+        "MONTHLY": "月額",
+        "MS_VIEWS": "MELLISPHERAビュー",
+        "PREMIUM": "プレミアム",
+        "PRIVATE_APIARY": "プライベート養蜂場",
+        "PRO": "プロ",
+        "PUBLIC_APIARY": "パブリック養蜂場",
+        "PUBLIC_INFO": "BeeCounted.orgで",
+        "PURCHASE_MEMBERSHIP": "メンバーシップを購入",
+        "PURHASE_TOKENS": "トークンを購入",
+        "REALTIME_ALERTS": "リアルタイムアラート",
+        "SUB_HUB": "サブハブ",
+        "SUPPORT": "サポート",
+        "THIRD_PARTY": "サードパーティデバイス",
+        "TITLE_2": "BROODMINDERデバイス＆養蜂場アプリ",
+        "UNLIMITED_DEVICES": "無制限のデバイス",
+        "WIFI_HUB": "WIFI HUB",
+        "YEAR": "年",
+        "YEARLY": "年間"
+    },
+    "NOTE_CRUD": {
+        "ADD_TAG": "タグを追加",
+        "APIARY": {
+            "STATE": "一般的な状態"
+        },
+        "CREATE_TITLE": "ノートを作成",
+        "DATE": "日付",
+        "EDIT_TITLE": "ノートの編集",
+        "ERROR_TIME": "無効な時間",
+        "NO_HIVE": "巣がありません",
+        "SUCCESS_CREATED": "巣にノートが作成されました",
+        "SUCCESS_UPDATED": "巣でノートが更新されました"
+    },
+    "NOTES": {
+        "ADD_TOOLTIP": "ノートを追加",
+        "DATE": "日付",
+        "DELETE_WINDOW": {
+            "CONFIRM": "はい",
+            "MESSAGE": "このノートを削除しますか？",
+            "TITLE": "ノートを削除"
+        },
+        "DESCRIPTION": "説明",
+        "DOWNLOAD_TOOLTIP": "ノートのダウンロード",
+        "HIVE": "ハイブ",
+        "NO_DESCRIPTION": "説明なし",
+        "PIN": "ピン",
+        "PREMIUM_EXP": "プレミアムサブスクリプションでノートのダウンロードが可能です。",
+        "TITLE": "{{value}} ノート"
+    },
+    "POSITIONS": {
+        "ABOVE_LOWER_BROOD_BOX": "下部の育成ボックスの上",
+        "ABOVE_UPPER_BROOD_BOX": "上部の育成ボックスの上",
+        "CUSTOM_1": "カスタム (1)",
+        "CUSTOM_2": "カスタム (2)",
+        "CUSTOM_3": "カスタム (3)",
+        "CUSTOM_4": "カスタム (4)",
+        "CUSTOM_5": "カスタム (5)",
+        "CUSTOM_6": "カスタム (6)",
+        "CUSTOM_7": "カスタム (7)",
+        "OTHER": "その他",
+        "OUTSIDE_HIVE": "ハイブの外",
+        "SCALE_UNDER_HIVE": "ハイブの下にスケール",
+        "SCALE_UNDER_HIVE_BACK": "ハイブの下にスケール（後ろ）",
+        "UNDER_INNER_COVER": "インナーカバーの下"
+    },
+    "PREFERENCES": {
+        "ALERTS_EMAIL": "アラートのメール [BETA]",
+        "INTERPOLATE": "チャートを補間する（8時間を超えるデータのギャップも接続する）",
+        "LANGUAGE": "言語",
+        "LANGUAGE_DEFAULT": "ブラウザのデフォルト",
+        "SAVE": "保存",
+        "TIMEZONE": "タイムゾーン",
+        "TIMEZONE_DEFAULT": "ブラウザのデフォルト",
+        "UNIT": "単位",
+        "UNIT_DEFAULT": "デフォルト",
+        "UNIT_IMPERIAL": "インペリアル（華氏/ポンド）",
+        "UNIT_METRIC": "メトリック（摂氏/キログラム）"
+    },
+    "PURCHASE": {
+        "ACCOUNT": {
+            "AMOUNT": "自動更新金額",
+            "BILLING": {
+                "TITLE": "請求先住所を更新",
+                "UPDATE": "更新"
+            },
+            "CANCEL": {
+                "CONFIRM_WINDOW": {
+                    "CANCEL": "いいえ",
+                    "CONFIRM": "はい",
+                    "MESSAGE": "これにより将来の支払いがキャンセルされます。 {{expiration}} までメンバーシップとハブは引き続き機能します。 キャンセルしますか？",
+                    "TITLE": "MyBroodMinderプレミアムサブスクリプションのキャンセル"
+                },
+                "GENERAL_ERROR": "エラーが発生しました。 サブスクリプションはキャンセルされませんでした",
+                "SUCCESS": "サブスクリプションがキャンセルされました"
+            },
+            "CANCEL_BUTTON": "サブスクリプションをキャンセル",
+            "DATE": "自動更新日",
+            "MONTH_SUB": "月額メンバーシップサブスクリプション - 自動更新",
+            "PAYMENT": {
+                "BILLING": "請求先住所",
+                "BILLING_UPDATE": "請求先住所を更新",
+                "CARD": "{{type}}、{{last4}}で終わる",
+                "CARD_UPDATE_BUTTON": "支払い方法を更新",
+                "EDIT": {
+                    "TITLE": "支払い方法を更新",
+                    "UPDATE_BUTTON": "支払いを更新",
+                    "WARN": "新しい支払い方法に確認および更新せずにサブスクリプションの支払い方法を削除すると、サブスクリプションがキャンセルされます。"
+                },
+                "NOT_FOUND": "見つかりません",
+                "TITLE": "支払い方法"
+            },
+            "PRICE": "メンバーシップ価格",
+            "STATUS": "ステータス",
+            "TITLE": "サブスクリプション",
+            "YEAR_SUB": "年間メンバーシップサブスクリプション - 自動更新"
+        },
+        "ADDITIONAL": {
+            "CONFIRM": "支払いを行う",
+            "MESSAGE": "購入したトークンはメンバーシップに請求されます。 {{amount}} がサブスクリプションのカードに請求されます。",
+            "TITLE": "トークンの購入"
+        },
+        "BILLING": {
+            "COUNTRY_CODE": "国コード",
+            "LOCALITY": "市区町村",
+            "POSTAL_CODE": "郵便番号",
+            "REGION": "都道府県",
+            "STREET_ADDRESS_1": "住所",
+            "STREET_ADDRESS_2": "住所 2",
+            "TITLE": "請求先住所"
+        },
+        "CUSTOMER": {
+            "EMAIL": "メール",
+            "FIRST_NAME": "名",
+            "LAST_NAME": "姓"
+        },
+        "PAY": {
+            "ADDRESS_ERROR": "必須フィールドが不足しています",
+            "COMPLETE": {
+                "AR_AMOUNT": "自動更新金額",
+                "AR_DATE": "自動更新日",
+                "ID": "注文ID",
+                "LINK_1": "ここをクリック",
+                "LINK_2": "でメンバーシップを表示します。",
+                "LINK_LINK": "こちら",
+                "RECEIPT": "領収書が送信されました",
+                "STATUS": "ステータス",
+                "SUCCESS": "購入が完了しました。",
+                "TAX": "税金",
+                "TOTAL": "合計支払い"
+            },
+            "PAY_BUTTON": "支払いを行う",
+            "RENEW_DISCLAIMER": "自動更新のサブスクリプション。 {{amount}} {{frequency}} が請求されます。",
+            "TITLE": "支払い情報",
+            "VERIFY_BUTTON": "支払い方法を確認"
+        },
+        "PRODUCTS": {
+            "CELL_HUB": "Cell Hubトークン",
+            "CELL_HUB_SINGLE": "Cell Hub（単一デバイス）トークン",
+            "MEMBERSHIP": "プレミアムメンバーシップ",
+            "THIRD_PARTY": "サードパーティデバイストークン",
+            "WIFI_HUB": "Wifi Hubトークン",
+            "WIFI_HUB_FREE": "Wifi Hubトークン（無料）"
+        },
+        "SUMMARY": {
+            "ADD_ERROR_1": "クリック",
+            "ADD_ERROR_2": "こちら",
+            "ADD_ERROR_3": "現在のメンバーシップにトークンを追加します。",
+            "ERROR_1": "既にメンバーシップを購入しています。クリック",
+            "ERROR_2": "でメンバーシップを表示します。",
+            "ERROR_LINK": "こちら",
+            "MONTH_PREM": " 月額プレミアムサブスクリプション - 自動更新",
+            "MONTH_PRO": " 月額プロサブスクリプション - 自動更新",
+            "PRICE": " メンバーシップ価格",
+            "QUANTITY": "1メンバーシップと{{quantity}}の追加トークン",
+            "TITLE": "プレミアムサブスクリプションの購入",
+            "TITLE_ADDING": "トークンの購入",
+            "TOTAL": "合計",
+            "YEAR_PREM": " 年間プレミアムサブスクリプション - 自動更新",
+            "YEAR_PRO": " 年間プロサブスクリプション - 自動更新"
+        },
+        "TABLE": {
+            "ADD": "カートに追加",
+            "HEADERS": {
+                "AUTO": "自動更新",
+                "EXPIRES": "有効期限",
+                "PRICE": "価格",
+                "PRODUCT": "商品",
+                "PRORATED_PRICE": "比例価格",
+                "RENEW": "更新日",
+                "START": "開始日"
+            },
+            "NEW": "新しい製品",
+            "PURCHASE": "購入",
+            "REMOVE": "削除",
+            "REMOVE_CART": "カートから削除",
+            "SELECT_TOKEN": "トークンを選択",
+            "TOTAL": "合計",
+            "TOTAL_NOW": "合計（今すぐ支払う）",
+            "TOTAL_YEAR": "年間合計（{{date}} に支払う）"
+        }
+    },
+    "RESEARCH_DOWNLOAD": {
+        "A_NAME": "名前",
+        "APIARY_DOWNLOAD_BUTTON": "全アピアリーをダウンロード",
+        "DOWNLOAD_STATUS": "ダウンロードステータス",
+        "H_NAME": "名前",
+        "HIVE_DOWNLOAD_BUTTON": "ダウンロード",
+        "LAST_DATA": "最新データ"
+    },
+    "RESOURCES": {
+        "DESCRIPTION": "MyBroodMinderの動きに参加していただきありがとうございます。大切なミツバチの理解と管理を向上させるために情報を学び、共有しています。",
+        "DESCRIPTION_1": "Spring 2020のアップデートをチェックしてください。これには、BroodMinder-T2デバイ ス用の 'SwarmMinder'アップデートも含まれています。動画は",
+        "DESCRIPTION_1_LINK": "こちら",
+        "DESCRIPTION_2": "です。 Googleと<a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>には、BroodMinder Citizen Scienceの寛大なサポートに感謝します。",
+        "LINKS": {
+            "BEECOUNTED": "BeeCounted",
+            "LOGIN": "ログイン",
+            "SUPPORT": "サポート",
+            "TITLE": "リンク",
+            "USER_GUIDE_PDF": "書面のユーザーガイド（PDF）",
+            "USER_GUIDE_VIDEO": "ビデオユーザーガイド"
+        },
+        "SUBTITLE": "ここでは、多くのリソースを見つけることができますので、私たちのミツバチについてもっと学び始めることができます。",
+        "TITLE": "リソース"
+    },
+    "SHARE_BUTTON": {
+        "BUTTON": "共有",
+        "EDIT": "共有リンクを編集",
+        "SHARE_HIVE": "このハイブを共有"
+    },
+    "SHARE_LINK_CRUD": {
+        "CREATE": "共有",
+        "CREATE_SUBTITLE_1": "友達と共有したり、Facebookなどの他のアプリケーションに貼り付けることができるリンクを作成します。",
+        "CREATE_SUBTITLE_2": "人々はログインせずにデータを表示できますが、変更することはできませんし、時間の範囲外のデータは見ることができません。",
+        "CREATE_SUCCESS_TITLE": "公開リンクが作成されました！",
+        "CREATE_TITLE": "公開リンクを作成",
+        "DASHBOARD": "ダッシュボード",
+        "DELETE": "削除",
+        "DELETE_WINDOW": {
+            "CONFIRM": "削除",
+            "MESSAGE": "この公開リンクを削除しますか？このアクションは元に戻すことができません。",
+            "TITLE": "公開リンクの削除"
+        },
+        "DESCRIPTION": "説明",
+        "EDIT_SUCCESS_TITLE": "公開リンクが更新されました！",
+        "EDIT_TITLE": "公開リンクの編集",
+        "ERROR": "リンクの作成中にエラーが発生しました",
+        "FORECAST": "予報を含む",
+        "HISTORY": {
+            "CREATED": "作成日",
+            "LINK": "リンク",
+            "TITLE": "{{hiveName}}の公開リンク"
+        },
+        "HIVES": "ハイブ",
+        "NOTES": "ノートを含む",
+        "SUCCESS_CREATED": "リンクが作成されました",
+        "SUCCESS_DELETED": "リンクが削除されました",
+        "SUCCESS_UPDATED": "リンクが更新されました",
+        "TIME_RANGE": "（スライド範囲）",
+        "TIME_SET": "{{start}}から{{end}}までのデータを共有",
+        "TIME_ZOOM": "現在のビュー{{start}}から{{end}}までデータを共有",
+        "TIMEZONE": {
+            "BROWSER": "ブラウザのデフォルト",
+            "TITLE": "タイムゾーン"
+        },
+        "UNITS": {
+            "BROWSER": "ブラウザのデフォルト",
+            "IMPERIAL": "インペリアル",
+            "METRIC": "メトリック",
+            "TITLE": "単位"
+        },
+        "UPDATE": "更新",
+        "WEATHER": "天気"
+    },
+    "SHARING": {
+        "BEECOUNTED": {
+            "CHANGED": "アピアリーが更新されました",
+            "CHECKBOX": "BeeCounted.org",
+            "EXPIRED": "プレミアムメンバーシップが期限切れになりました。データは{{end}}までの間のみプライベートです。",
+            "INFO_CHECKED": "データを共有いただきありがとうございます。あなたの貴重なミツバチと環境に関するデータは、世界中の研究者が学び、介入策を開発するのに役立っています。",
+            "INFO_NON_PREMIUM": "非プレミアムユーザー向けに保存されたすべてのデータはパブリックドメインです。データはMyBroodMinder-Premiumアカウントをお持ちの場合にのみプライベートになります。データの共有をありがとうございます。あなたの貴重なミツバチと環境に関するデータは、世界中の研究者が学び、介入策を開発するのに役立っています。",
+            "INFO_UNCHECKED": "データの共有をご検討ください。あなたの貴重なミツバチと環境に関するデータは、世界中の研究者が学び、介入策を開発するのに役立っています。"
+        },
+        "BIP": {
+            "CHANGED": "アピアリーが更新されました",
+            "CHECKBOX": "Bee Informed Partnership",
+            "INFO": "近日公開"
+        },
+        "EXT_SUBTITLE": "他のサイトでアピアリーを共有",
+        "HIVES": {
+            "CHANGED": "ハイブが更新されました",
+            "DESCRIPTION": "説明",
+            "NAME": "名前",
+            "SHARE": "共有",
+            "SHARE_EXPIRED": "プレミアムメンバーシップが期限切れになりました。データは{{end}}までの間のみプライベートです。",
+            "TITLE": "他のサイトで共有されたハイブ"
+        },
+        "MBM_TITLE": "MyBroodMinderユーザーとアピアリーを共有",
+        "MELLISPHERA": {
+            "ACTIVE_WINDOW": {
+                "MESSAGE": "以下をクリックしてMellispheraアカウントをアクティブにします。",
+                "TITLE": "Mellispheraアカウントをアクティブにする"
+            },
+            "CHANGED": "アピアリーが更新されました",
+            "CHECKBOX": "Mellisphera (Beta)",
+            "INFO_ACCOUNT": "私のMellispheraアカウントでアピアリーを表示",
+            "INFO_NO_ACCOUNT": "Mellispheraに接続されていないアカウント"
+        },
+        "PH": {
+            "CHANGED": "アピアリーが更新されました",
+            "CHECKBOX": "Bee-life.eu",
+            "EXTERNAL_INFO": "詳細",
+            "INFO": "Bee Life協会を通じてヨーロッパ連合ポリネーターハブを介してデータを共有し、養蜂家によって収集された先進技術とデータ駆動の洞察を活用して、ミツバチ政策を改善します。\n\n共有されるデータ:\n- このアピアリーのすべてのデバイスとそれらの生の測定値。\n- 郵便番号に基づくアピアリーのおおよその位置。\n\nデータは毎日BeeLifeに送信されます。"
+        },
+        "REMOVE_SELF": {
+            "CONFIRM": "共有されたアピアリー{{name}}をアカウントから削除しますか？",
+            "GENERIC_ERROR": "エラー、アピアリーが削除されていません",
+            "MESSAGE": "Would you like to remove the shared apiary {{name}} from your account?",
+            "SUCCESS_REMOVED": "アピアリーが削除されました",
+            "TITLE": "共有されたアピアリーの削除"
+        },
+        "TITLE": "{{name}}の共有",
+        "USER": {
+            "ADD_SUCCESS": "ユーザーが追加されました",
+            "ADD_TOOLTIP": "ユーザーを追加",
+            "ADD_USER": "メールアドレスを入力",
+            "ERROR_NO_USER": "ユーザーが存在しません。",
+            "INFO": "ユーザーはすでにMyBroodMinderのアカウントを持っている必要があります。彼らはあなたのアピアリーやハイブのデータを見ることができますが、変更はできません。",
+            "REMOVE": "削除",
+            "REMOVE_SUCCESS": "ユーザーが削除されました",
+            "SHARE_BUTTON": "共有",
+            "TITLE": "MyBroodMinderユーザー"
+        }
+    },
+    "SIDEBAR": {
+        "APIARY_CONTEXT": {
+            "BEECOUNTED": "BeeCounted",
+            "EDIT": "{{value}}を編集",
+            "NEW_HIVE": "新しいハイブ",
+            "REMOVE_SHARED_APIARY": "共有養蜂場を削除",
+            "RESEARCH_DOWNLOAD": "研究者データのダウンロード",
+            "SHARE": "共有"
+        },
+        "CLEAR_SEL": "すべての選択をクリア",
+        "CONFIGURE": "設定",
+        "DEVICE_CONTEXT": {
+            "EDIT": "{{value}}を編集",
+            "EDIT_LOCATION": "現在の場所を編集",
+            "MOVE": "デバイスを移動"
+        },
+        "DOCUMENTATION": "ドキュメンテーション",
+        "HIVE_CONTEXT": {
+            "ARCHIVE": "ハイブを非アクティブに設定",
+            "BEECOUNTED": "BeeCounted",
+            "EDIT": "{{value}}を編集",
+            "EXISTING_DEVICE": "既存のデバイスを追加",
+            "MOVE": "ハイブを移動",
+            "NEW_DEVICE": "新しいデバイスを追加"
+        },
+        "HOME": "ホーム",
+        "HUB_CONTEXT": {
+            "REMOVE": "{{value}}をメニューから削除"
+        },
+        "HUB_TOOLTIP": "ハブ",
+        "LOCAL_SOURCE": "ローカルソース",
+        "MEMBERSHIPS": "メンバーシップオプション",
+        "MULTI_SELECT": "複数選択",
+        "NEW": {
+            "APIARY": "養蜂場",
+            "APIARY_NOTE": "養蜂場の注意",
+            "DASHBOARD": "カスタムダッシュボード",
+            "DEVICE": "デバイス",
+            "HIVE": "ハイブ",
+            "HIVE_NOTE": "ハイブの注意",
+            "TITLE": "新規"
+        },
+        "NEW_FEATURES": "新機能",
+        "RESOURCES": "リソース",
+        "SHARED_TOOLTIP": "共有された",
+        "SUPPORT_EMAIL": "メール support@broodminder.com",
+        "WEATHER_CONTEXT": {
+            "ADD_SOURCE": "ソースを追加",
+            "EDIT": "天気を編集",
+            "EDIT_SOURCES": "ソースを編集",
+            "INFO": "詳細情報",
+            "NAME": "天気"
+        },
+        "WEATHER_INFO": {
+            "TEXT": "この天気データはWeatherSourceから提供されています。これはあなたの養蜂場に提供された郵便番号に基づいています。",
+            "TITLE": "WeatherSource Weather"
+        },
+        "WEATHER_SOURCE": "WeatherSource"
+    },
+    "SUBS": {
+        "COMMON": {
+            "FREE": "無料",
+            "FREE_CAP": "無料",
+            "MONTHLY": "月額",
+            "MONTHLY_CAP": "月額",
+            "PREPAID": "前払い",
+            "PREPAID_CAP": "前払い",
+            "YEARLY": "年間",
+            "YEARLY_CAP": "年間"
+        },
+        "EXP": {
+            "CREDIT_CANCELLED": "非自動更新、{{expiration}}まで有効",
+            "CREDIT_EXPIRED": "{{expiration}}に期限切れ",
+            "CREDIT_EXPIRING": "{{expiration}}まで有効",
+            "CREDIT_FREE_RENEWING": "無料、{{expiration}}まで有効",
+            "CREDIT_PREPAID_RENEWING": "前払い、{{expiration}}まで有効",
+            "NOT_ACTIVE": "非アクティブ",
+            "PENDING": "保留中の支払い",
+            "SUB_CANCELLED": "非自動更新、{{expiration}}まで有効",
+            "SUB_EXPIRED": "{{expiration}}に期限切れ",
+            "SUB_EXPIRING": "{{expiration}}まで有効",
+            "SUB_RENEWING": "{{expiration}}に更新",
+            "TRIAL": "トライアルメンバーシップ、{{expiration}}まで有効"
+        }
+    },
+    "TOP_MENU": {
+        "ACCOUNT": "アカウント",
+        "ADMIN": "管理者",
+        "HELP": "ヘルプ",
+        "LOGIN": "サインイン",
+        "LOGOUT": "ログアウト",
+        "REGISTER": "登録",
+        "RESOURCES": "リソース",
+        "TOUR": "ツアー"
+    },
+    "TOUR": {
+        "FEATURES": {
+            "CLOSE": "閉じる",
+            "FEATURE_1": "初めて、ハイブを作成",
+            "FEATURE_2": "データの表示",
+            "FEATURE_3": "デバイスの設定と移動",
+            "FEATURE_4": "CELL/WiFi/Hubのステータスを表示",
+            "NEXT": "次へ",
+            "SKIP": "スキップ",
+            "TITLE": "機能ツアー"
+        },
+        "START": {
+            "DESCRIPTION": "新しいMyBroodMinderへようこそ！",
+            "SEE": "機能を見る",
+            "SKIP": "スキップ",
+            "TITLE": "ようこそ！！"
+        }
+    },
+    "UNAUTHORIZED_PAGE": {
+        "TITLE": "権限がありません"
+    },
+    "VIDEO_GUIDES": {
+        "APPS": {
+            "LINK_1": "S1:E14 BroodMinder-Beesアプリ",
+            "LINK_2": "Apiary App - Hub Mode",
+            "TITLE": "アプリ"
+        },
+        "BLOGMINDER": {
+            "TITLE": "BlogMinderビデオ"
+        },
+        "DISCONTINUED": {
+            "APIARY_APP": {
+                "LINK_1": "通常の使用",
+                "LINK_2": "新しい - Hub Mode",
+                "TITLE": "Apiary App (クラウド)"
+            },
+            "BROODMINDER_APP": {
+                "LINK_1": "通常の使用",
+                "LINK_2": "データのエクスポート",
+                "TITLE": "オリジナルアプリ（スタンドアロン）"
+            },
+            "CELL_APP": {
+                "LINK_1": "診断",
+                "TITLE": "CELLアプリ"
+            },
+            "ORIGINAL_CELL_WIFI": {
+                "LINK_1": "BroodMinder-CELL/WIFI（2021年7月まで）",
+                "TITLE": "オリジナルCELL/WIFI"
+            },
+            "TITLE": "廃止された製品",
+            "TROUBLESHOOT": {
+                "LINK_1": "年次メンテナンス",
+                "LINK_2": "バッテリー",
+                "LINK_3": "T2 Firmware Update version 2.77",
+                "TITLE": "トラブルシューティング"
+            }
+        },
+        "HOW_TO": "このマニュアルの使い方",
+        "IN_PROGRESS": "進行中",
+        "INSTALLATION": {
+            "LINK_1": "CSキットを使ったクイックスタート",
+            "LINK_2": "どのアプリを選ぶべきか？",
+            "LINK_3": "BroodMinder ASPのインストール",
+            "LINK_4": "BroodMinder-SubHub",
+            "LINK_5": "BroodMinder-WIFI",
+            "LINK_6": "BroodMinder-CELL",
+            "LINK_7": "S1:E17 BroodMinder-W3 フルハイブスケール",
+            "LINK_8": "S1:E19 BroodMinder-DIY",
+            "TITLE": "イン ストール"
+        },
+        "INTERPRETATION": {
+            "LINK_1": "S1:E4 BroodMinderとMellisphera",
+            "LINK_2": "S1:E3 コロニーサイズvs温度",
+            "LINK_3": "S1:E8 スウォーム検出のプレゼンテーション",
+            "TITLE": "データの解釈"
+        },
+        "MAINTENANCE": {
+            "LINK_1": "S1:E1 ハイブモニタリング春のメンテナンス",
+            "LINK_2": "S1:E18 バッテリー",
+            "TITLE": "メンテナンス"
+        },
+        "MYBROODMINDER": {
+            "LINK_1": "スタートガイド",
+            "LINK_2": "データビュー",
+            "LINK_3": "構成",
+            "LINK_4": "デバイスの移動",
+            "LINK_5": "Cell、WIFI、およびHubのモニタリング",
+            "LINK_6": "代替ナビゲーション",
+            "LINK_7": "MyBroodMinder.com プレミアム",
+            "TITLE": "MyBroodMinder"
+        },
+        "TITLE": "BroodMinderビデオユーザーガイド"
+    },
+    "WEATHER_PAGE": {
+        "DESCRIPTION": "このビューでは、アピアリーの場所のWeather Sourceの天候データが表示され、ユーザーが設定した天候ソースも表示されます。",
+        "HUMIDITY": "湿度",
+        "SOURCES": "天候ソース",
+        "TEMPERATURE": "温度",
+        "TITLE": "天気"
+    }
+}
