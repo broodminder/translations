@@ -1,0 +1,2283 @@
+{
+    "ACCOUNT": {
+        "CONFIRM": "Confirmar Compra de Assinatura Premium",
+        "CONFIRM_SUB_WINDOW": {
+            "CONFIRM": "Confirmar",
+            "CONFIRMATION_NUMBER": "Número de Confirmação",
+            "DESCRIPTION": "Digite o código do e-mail de confirmação",
+            "ERROR": {
+                "NOT_FOUND": "Nenhuma compra de assinatura encontrada",
+                "USED_OTHER_ACCOUNT": "Já confirmado com outra conta",
+                "USED_THIS_ACCOUNT": "Já confirmado para esta conta, expira em {{value}}"
+            },
+            "PURCHASED": "Comprado em",
+            "TITLE": "Confirmar Compra de Assinatura Premium",
+            "VALID": "Compra Válida"
+        },
+        "DELETE": {
+            "CONFIRM_BUTTON_1": "Confirmar Exclusão",
+            "CONFIRM_DIALOG": {
+                "CONFIRM": "EXCLUIR CONTA",
+                "EMAIL_ERROR": "Este e-mail não corresponde à sua conta.",
+                "MESSAGE": "Excluir sua conta apaga TODOS OS DADOS e NÃO PODE ser recuperado. Tem certeza de que deseja excluir sua conta?",
+                "TITLE": "Confirmar Exclusão"
+            },
+            "DELETE_BUTTON": "Excluir Conta",
+            "DELETE_ERROR": "Houve um erro ao excluir sua conta. Entre em contato com support@broodminder.com para concluir a exclusão da conta. (ID de referência: {{id}})",
+            "DELETE_REDIRECT": "Conta excluída, você será redirecionado em {{seconds}} segundos",
+            "HEADERS": {
+                "ACCOUNT": "Conta",
+                "APIARIES": "Apiários",
+                "COMPLETED": "Concluído",
+                "DEVICES": "Dispositivos",
+                "HIVES": "Colmeias",
+                "HUBS": "Hubs",
+                "REQUESTED": "Exclusão Solicitada",
+                "STARTED": "Iniciado",
+                "SUBS_TO_CANCEL": "Assinaturas a Cancelar"
+            },
+            "HIDE": "Ocultar opções",
+            "REQUEST_ERROR": "Erro, não foi possível fazer a solicitação.",
+            "SHOW": "Mostrar opções",
+            "STATUS": "Status de Exclusão de Conta",
+            "WARNING": "Você está prestes a excluir sua conta. Isso exclui todos os dados, incluindo o que está especificado abaixo. Confirme esta solicitação para excluir sua conta."
+        },
+        "EDIT_EMAIL": {
+            "BUTTON": "Alterar E-mail da Conta",
+            "CURRENT_EMAIL": "E-mail atual",
+            "ERROR": "Erro ocorreu. E-mail não alterado.",
+            "NEW_EMAIL": "Novo e-mail",
+            "REFRESH_ERROR": "A alteração do e-mail da sua conta requer autenticação recente. Faça login novamente antes de tentar essa alteração.",
+            "SAVE_BUTTON": "Salvar E-mail",
+            "TITLE": "Alterar E-mail da Conta"
+        },
+        "EDIT_PASSWORD": {
+            "BUTTON": "Alterar Senha",
+            "CURRENT_PASSWORD": "Senha Atual",
+            "ERROR": "Erro ocorreu. Senha não alterada.",
+            "HEADER": "Senha",
+            "NEW_PASSWORD": "Nova Senha",
+            "SAVE_BUTTON": "Salvar Alteração",
+            "TITLE": "Alterar Senha"
+        },
+        "EMAIL": "E-mail",
+        "FIRST_NAME": "Nome",
+        "LAST_NAME": "Sobrenome",
+        "MEMBERSHIP": "Associação",
+        "PREMIUM_LANDING": "Ver Opções de Associação",
+        "PURCHASE": "Comprar Associação Premium",
+        "SAVE": "Salvar",
+        "SUB_TYPES": {
+            "FREE": "Grátis",
+            "HOBBY": "Hobby",
+            "PREMIUM": "Premium renovando em {{expiration}}",
+            "PREMIUM_CANCELLED": "Premium expira em {{expiration}}",
+            "PREMIUM_EXPIRED": "Premium expirado em {{expiration}}",
+            "PRO": "Pro renovando em {{expiration}}",
+            "PRO_CANCELLED": "Pro expira em {{expiration}}",
+            "PRO_EXPIRED": "Pro expirado em {{expiration}}",
+            "TRIAL": "Associação de teste, expira em {{expiration}}"
+        },
+        "TITLE": "Minha Conta"
+    },
+    "ALERTS_DESC": {
+        "COLDDAY": "Possível dia frio à frente",
+        "COLDDAY_DESC": "Acionado quando é detectado um dia frio iminente, ou seja, abaixo do limiar de temperatura especificado.",
+        "COLDDAY_MSG": "As temperaturas estarão excepcionalmente baixas",
+        "DCONNECT": "Desconexão do dispositivo",
+        "DCONNECT_DESC": "Acionado quando um dos seus sensores não transmite mais dados (ou pontualmente) durante cada período escolhido. Funciona apenas com um Hub.",
+        "DCONNECTH": "Desconexão do dispositivo",
+        "DCONNECTH_DESC": "Acionado quando o seu Hub não transmite mais dados durante o último dia.",
+        "DCONNECTH_MSG": "{REF} desconectado desde {DATE}",
+        "DCONNECTT": "Desconexão do dispositivo",
+        "DCONNECTT_DESC": "Acionado quando o seu sensor T não transmite mais dados durante o último dia.",
+        "DCONNECTT_MSG": "{REF} desconectado desde {DATE}",
+        "DCONNECTW": "Desconexão do dispositivo",
+        "DCONNECTW_DESC": "Acionado quando o seu sensor W não transmite mais dados durante o último dia.",
+        "DCONNECTW_MSG": "{REF} desconectado desde {DATE}",
+        "DEAD": "Colmeia morta",
+        "DEAD_DESC": "Nosso algoritmo detecta todos os dias se sua colmeia está morta com base em vários parâmetros que definimos.",
+        "DEAD_MSG": "Sua colmeia foi detectada como morta",
+        "HMAX": "Umidade interna alta",
+        "HMAX_DESC": "Acionado quando a umidade interna excede o limiar escolhido.",
+        "HMAX_MSG": "Umidade interna acima de {VAL}",
+        "HMIN": "Umidade interna baixa",
+        "HMIN_DESC": "Acionado quando a umidade interna está abaixo do limiar escolhido.",
+        "HMIN_MSG": "Umidade interna abaixo de {VAL}",
+        "HONEYDEW": "Melada",
+        "HONEYDEW_DESC": "Acionado quando a contribuição de peso para a colmeia excede o limiar escolhido durante a última semana.",
+        "HONEYDEW_MSG": "Pesos recebidos durante a última semana excedendo {VAL}",
+        "HOTDAY": "Possível dia quente à frente",
+        "HOTDAY_DESC": "Acionado quando é detectado um dia quente iminente, ou seja, acima do limiar de temperatura especificado.",
+        "HOTDAY_MSG": "As temperaturas estarão excepcionalmente altas",
+        "LOWBATTERYT": "Bateria fraca",
+        "LOWBATTERYT_DESC": "Acionado quando o nível da bateria do seu sensor T está abaixo do limiar selecionado.",
+        "LOWBATTERYT_MSG": "Substitua a bateria de ",
+        "LOWBATTERYW": "Bateria fraca",
+        "LOWBATTERYW_DESC": "Acionado quando o nível da bateria do seu sensor W está abaixo do limiar selecionado.",
+        "LOWBATTERYW_MSG": "Substitua a bateria de ",
+        "LOWBROOD": "Cria fraca",
+        "LOWBROOD_DESC": "Acionado quando a porcentagem de cria está abaixo do limiar escolhido.",
+        "LOWBROOD_MSG": "Cria abaixo de {VAL}",
+        "OXALIC": "Tratamento com ácido oxálico",
+        "OXALIC_DESC": "Acionado quando a média de cria nas suas colmeias está abaixo do limiar estabelecido. Isso é um indicativo que permite tratar suas colmeias com ácido oxálico no momento certo.",
+        "OXALIC_MSG": "É hora de tratar suas colmeias",
+        "POORSIGNALT": "Sinal fraco",
+        "POORSIGNALT_DESC": "Acionado quando o seu sensor T transmite poucos dados durante o último dia. ",
+        "POORSIGNALT_MSG": "Sinal fraco em {REF} desde {DATE}",
+        "POORSIGNALW": "Sinal fraco",
+        "POORSIGNALW_DESC": "Acionado quando o seu sensor W transmite poucos dados durante o último dia.",
+        "POORSIGNALW_MSG": "Sinal fraco em {REF} desde {DATE}",
+        "RAIN": "Possível chuva intensa",
+        "RAIN_DESC": "Acionado quando a precipitação excede o limiar escolhido no próximo dia.",
+        "RAIN_MSG": "A precipitação excederá {VAL}",
+        "REALTIME_SWARM_ALERT": "Evento de temperatura calculado pelo dispositivo T2. Apenas notificado para dispositivos acima ou abaixo das caixas de criação usando um hub em tempo real.",
+        "RSWARM": "Risco de enxame",
+        "RSWARM_DESC": "Acionado quando o risco de enxame é alto em uma de suas colmeias no próximo dia.",
+        "RSWARM_MSG": "Dia de enxame esperado",
+        "SNOW": "Possível queda intensa de neve",
+        "SNOW_DESC": "Acionado quando a queda de neve excede o limiar escolhido no próximo dia.",
+        "SNOW_MSG": "A queda de neve excederá {VAL} ",
+        "STOLEN": "Colmeia roubada",
+        "STOLEN_DESC": "Acionado quando o peso da sua colmeia fica anormalmente baixo.",
+        "STOLEN_MSG": "O peso da sua colmeia está anormalmente baixo",
+        "STOPWEATHER": "Estação meteorológica parou",
+        "STOPWEATHER_DESC": "Acionado quando sua estação meteorológica para de transmitir dados. Requer sua própria estação meteorológica.",
+        "STOPWEATHER_MSG": "Erro na transmissão de dados da sua estação meteorológica desde {DATE}",
+        "SUPER+": "Adição de um sobrescrito",
+        "SUPER+_DESC": "Indique o peso mínimo de um sobrescrito vazio.",
+        "SUPER+_MSG": "Você adicionou um sobrescrito",
+        "SUPER-": "Remoção de um sobrescrito",
+        "SUPER-_DESC": "Indique o peso máximo de um sobrescrito cheio.",
+        "SUPER-_MSG": "Você removeu um sobrescrito",
+        "SWARM": "Enxame",
+        "SWARM_DESC": "Acionado quando um enxame potencial ocorre (o Hub oferece mais eficiência).",
+        "SWARM_MSG": "Enxame potencial detectado por volta das 14:00",
+        "TMAX": "Alta temperatura interna",
+        "TMAX_DESC": "Acionado quando a temperatura interna excede o limiar escolhido.",
+        "TMAX_MSG": "Temperatura interna acima de {VAL}",
+        "TMIN": "Baixa temperatura interna",
+        "TMIN_DESC": "Acionado quando a temperatura interna está abaixo do limiar escolhido.",
+        "TMIN_MSG": "Temperatura interna abaixo de {VAL}",
+        "WIND": "Possível ventania",
+        "WIND_DESC": "Acionado quando o vento excede o limiar escolhido no próximo dia.",
+        "WIND_MSG": "O vento excederá {VAL}",
+        "WINEG": "Depleção de recursos",
+        "WINEG_DESC": "Acionado quando as abelhas consomem muito mais recursos do que trazem de volta para a colmeia. O limite de perda é ajustável.",
+        "WINEG_MSG": "A perda do estoque das suas abelhas excede {VAL}",
+        "WIPOS": "Provisão significativa de recursos",
+        "WIPOS_DESC": "Acionado quando o peso recebido do dia na colmeia excede o limiar escolhido.",
+        "WIPOS_MSG": "O ganho do estoque das suas abelhas excede {VAL}",
+        "WLIM": "Limite de peso excedido",
+        "WLIM_DESC": "Acionado quando o limite de peso indicado é excedido.",
+        "WLIM_MSG": "O peso da sua colmeia excede {VAL}"
+    },
+    "APIARY_CRUD": {
+        "COLOR": "Cor",
+        "COUNTRY": "Código do País",
+        "CREATE_TITLE": "Criar Apiário",
+        "EDIT_LOCATION": {
+            "BUTTON": "Editar Localização",
+            "COORDINATE": "Coordenada",
+            "INFO": "Esta localização é usada tanto para consultar informações meteorológicas quanto para exibir seu apiário em sites compartilhados, como o BeeCounted.org. Isso é divulgado com seus dados de domínio público e não deve ser a localização exata do seu apiário.",
+            "POSTAL_CHANGE": {
+                "CONFIRM": "Sim",
+                "TEXT": "Gostaria de mudar o apiário para o novo código postal {{value}}?",
+                "TITLE": "Mudança de Código Postal"
+            },
+            "POSTAL_ERROR": "As coordenadas selecionadas estão fora do código postal do apiário. Isso não pode ser alterado.",
+            "TITLE": "Editar Localização do Apiário"
+        },
+        "EDIT_TITLE": "Editar Apiário",
+        "EDIT_ZIP_EXP": "Você não pode alterar a localização de um apiário que contém dados.",
+        "ERROR_COUNTRY": "Selecione um código de país válido",
+        "NAME": "Nome",
+        "NOT_PRIVATE_TOOLTIP": "Obrigado por compartilhar seus dados. Você está ajudando pesquisadores de todo o mundo a aprender sobre e desenvolver intervenções para nossas preciosas abelhas e nosso meio ambiente.",
+        "PRIVATE": "Privado (Não compartilhar dados) Recurso Premium",
+        "PRIVATE_TOOLTIP": "Considere compartilhar seus dados. Você está ajudando pesquisadores de todo o mundo a aprender sobre e desenvolver intervenções para nossas preciosas abelhas e nosso meio ambiente.",
+        "SUCCESS_CREATED": "Apiário criado",
+        "SUCCESS_UPDATED": "Apiário atualizado",
+        "WEATHER": {
+            "DESCRIPTION": "Selecione um dispositivo ou hub como sua fonte de dados meteorológicos para umidade e/ou temperatura. Qualquer intervalo de tempo sem um dispositivo usará a fonte meteorológica padrão.",
+            "DIALOG": {
+                "ADD_HUMIDITY": "Adicionar Umidade",
+                "ADD_TEMPERATURE": "Adicionar Temperatura",
+                "HUMIDITY": "Umidade",
+                "SUCCESS_UPDATED": "Dados meteorológicos do apiário atualizados",
+                "TEMPERATURE": "Temperatura",
+                "TITLE": "Editar Clima"
+            },
+            "EDIT": {
+                "ADD_HUMIDITY": "Adicionar Fonte de Umidade",
+                "ADD_TEMPERATURE": "Adicionar Fonte de Temperatura",
+                "EDIT_HUMIDITY": "Editar Fonte de Umidade",
+                "EDIT_TEMPERATURE": "Editar Fonte de Temperatura",
+                "ENDING_CURRENT": "Fim da Fonte",
+                "ERROR_DEVICE_REQUIRED": "É necessário selecionar um dispositivo para todas as fontes de dados meteorológicos",
+                "ERROR_INVALID_NEXT_OVERLAP": "Tempo inválido, sobrepõe a próxima localização do apiário",
+                "ERROR_INVALID_PREV_OVERLAP": "Tempo inválido, sobrepõe a localização anterior do apiário",
+                "ERROR_START_REQUIRED": "É necessário selecionar um horário de início para a fonte de dados meteorológicos",
+                "SELECT_DEVICE": "Selecione o dispositivo",
+                "SUCCESS": "Alterações salvas"
+            },
+            "END": "Fim",
+            "END_OPEN": "atual",
+            "MEASUREMENT": "Medição",
+            "READING": "Leitura",
+            "START": "Início",
+            "START_OPEN": "aberto",
+            "TITLE": "Editar Clima"
+        },
+        "ZIP_INFO": "O código postal é usado para serviços meteorológicos. Para obter o máximo dos seus dados MyBroodMinder, insira um código postal válido.",
+        "ZIP_SELECTION": {
+            "CANCEL": "Cancelar",
+            "CHECK": "Verificar novamente",
+            "CREATE_WITH_LOC": "Criar com esta localização",
+            "LOCATION": "Localização",
+            "NOT_FOUND": "Código postal não encontrado",
+            "SELECT": "Selecionar localização no mapa",
+            "SKIP": "Pular e Criar"
+        },
+        "ZIPCODE": "Código Postal"
+    },
+    "APIARY_PAGE": {
+        "HIVE": {
+            "DESCRIPTION": "Esta visualização exibe uma rápida visão gráfica para cada colmeia. Prioridade de exibição de peso: valor mais pesado. Umidade e temperatura exibem prioridade: 1-Acima da caixa inferior de criação 2-Acima da caixa superior de criação 3-Abaixo da tampa interna 4-Outro 5-Customizado (maior valor) 6-Fora da colmeia 7-Balança abaixo da colmeia",
+            "TITLE": "Colmeia"
+        },
+        "PREMIUM_EXP": "Seleção de intervalo de tempo para esta visualização disponível com assinatura premium.",
+        "SELECT": "Selecione uma visualização",
+        "SUMMARY": {
+            "BATTERY": {
+                "LOADING": "Carregando leituras de bateria da apiário",
+                "NONE": "Sem dados de bateria",
+                "TITLE": "Bateria do Apiário"
+            },
+            "DESCRIPTION": "Esta visualização exibe gráficos combinados por tipo de dados. As especificidades mostradas seguem as configurações padrão da visão da colmeia, mas podem ser configuradas por colmeia nas configurações da colmeia.",
+            "HIVES": "Colmeias",
+            "HUMID": {
+                "LOADING": "Carregando leituras de umidade do apiário",
+                "NONE": "Sem dados de umidade",
+                "TITLE": "Umidade do Apiário"
+            },
+            "PREMIUM_EXP": "Esta visualização está disponível com assinatura premium. Exemplo mostrado abaixo.",
+            "TEMP": {
+                "LOADING": "Carregando leituras de temperatura do apiário",
+                "NONE": "Sem dados de temperatura",
+                "TITLE": "Temperaturas do Apiário"
+            },
+            "TITLE": "Resumo",
+            "WEIGHT": {
+                "LOADING": "Carregando leituras de peso do apiário",
+                "NONE": "Sem dados de peso",
+                "TITLE": "Pesos do Apiário"
+            }
+        },
+        "TEXT": {
+            "DESCRIPTION": "Esta visualização exibe a leitura mais recente enviada para cada posição em cada colmeia.",
+            "MOVED_EXP": "Colmeia movida",
+            "TITLE": "Texto"
+        }
+    },
+    "BEECOUNTED": {
+        "COPY_EMBED_TOOLTIP": "Copiar código de incorporação",
+        "COPY_LINK_TOOLTIP": "Copiar link",
+        "EMBED": "Incorporar gráfico na página da web",
+        "EMBED_COPIED": "Código de incorporação copiado",
+        "LINK": "Ver colmeia em BeeCounted.org",
+        "LINK_COPIED": "Link copiado",
+        "PRIVATE_APIARY": "Dados da colmeia não compartilhados com BeeCounted. Esta colmeia, {{name}}, não é compartilhada com BeeCounted.",
+        "PRIVATE_HIVE": "Dados da colmeia não compartilhados com BeeCounted.",
+        "TITLE": "BeeCounted.org"
+    },
+    "CALENDAR_CHART": {
+        "DAYLENGTH": "Duração do dia",
+        "MOON": {
+            "1": "Lua cheia",
+            "2": "Lua nova",
+            "3": "Último quarto",
+            "4": "Primeiro quarto",
+            "5": "Gibosa crescente",
+            "6": "Gibosa minguante",
+            "7": "Crescente minguante",
+            "8": "Crescente",
+            "ASCENDING": "Ascendente",
+            "DESCENDING": "Descendente"
+        },
+        "MOON_PERIOD": "Período",
+        "MOON_PHASE": "Fase",
+        "SUNRISE": "Nascer do sol",
+        "SUNSET": "Pôr do sol",
+        "WEATHER": {
+            "DESCR": {
+                "ASH": "Cinzas",
+                "BROKEN_CLOUDS": "Nuvens quebradas",
+                "CLEAR": "Céu limpo",
+                "CLOUDS": "Nuvens",
+                "DUST": "Poeira",
+                "FEW_CLOUDS": "Algumas nuvens",
+                "FOG": "Neblina",
+                "HAZE": "Nevoeiro seco",
+                "MIST": "Névoa",
+                "RAIN": "Chuva",
+                "SAND": "Areia",
+                "SCATTERED_CLOUDS": "Nuvens dispersas",
+                "SHOWER": "Chuvisco",
+                "SHOWER_RAIN": "Chuva fraca",
+                "SHOWER_SNOW": "Neve fraca",
+                "SMOKE": "Fumaça",
+                "SNOW": "Neve",
+                "SQUALL": "Rajada de vento",
+                "THUNDERSTORM": "Tempestade",
+                "TORNADO": "Tornado"
+            }
+        }
+    },
+    "CHART": {
+        "DATA_TYPES": {
+            "ALERTS": {
+                "FILTER": "Alertas",
+                "TITLE": "Alertas",
+                "YAXIS": ""
+            },
+            "ALERTS_NOTES": {
+                "FILTER": "Alertas e Notas",
+                "TITLE": "Alertas e Notas",
+                "YAXIS": " ({{label}})"
+            },
+            "AUDIO": {
+                "FILTER": "Vibração",
+                "TITLE": "Vibração",
+                "YAXIS": "Vibração ({{label}})"
+            },
+            "BATTERY": {
+                "FILTER": "Bateria",
+                "TITLE": "Bateria",
+                "YAXIS": "Bateria (%)"
+            },
+            "BC_ACTIV_DUR": {
+                "FILTER": "Duração da Forrageamento",
+                "TITLE": "Duração da Forrageamento",
+                "UNIT": "horas",
+                "YAXIS": "Duração da Forrageamento (horas)"
+            },
+            "BC_FOR": {
+                "FILTER": "Viagens de Forrageamento",
+                "TITLE": "Viagens de Forrageamento",
+                "UNIT": "viagens/dia",
+                "YAXIS": "Forrageamento (k viagens/dia)"
+            },
+            "BC_WORK_PER": {
+                "FILTER": "Períodos de Forrageamento",
+                "TITLE": "Períodos de Forrageamento",
+                "UNIT": "sessões de trabalho",
+                "YAXIS": "Períodos por dia"
+            },
+            "BEECOUNT": {
+                "FILTER": "Abelhas",
+                "TITLE": "Contagem de Abelhas",
+                "UNIT": "abelhas/min",
+                "YAXIS": "Abelhas ({{label}})"
+            },
+            "BROOD": {
+                "FILTER": "Cria",
+                "TITLE": "Cria",
+                "YAXIS": "Cria (%)"
+            },
+            "CLOUD_COVER": {
+                "FILTER": "Cobertura de Nuvens",
+                "FILTER_HOURLY": "Cobertura de Nuvens por Hora",
+                "TITLE": "Cobertura de Nuvens",
+                "YAXIS": "Cobertura de Nuvens (%)"
+            },
+            "FLIGHT": {
+                "FILTER": "Índice de Forrageamento",
+                "TITLE": "Índice de Forrageamento",
+                "YAXIS": "Índice de Forrageamento (%)"
+            },
+            "GAIN": {
+                "FILTER": "Ganho de Peso",
+                "TITLE": "Ganho de Peso",
+                "YAXIS": "Peso ({{label}})"
+            },
+            "GAIN_CUMUL": {
+                "FILTER": "Ganho Cumulativo de Peso",
+                "TITLE": "Ganho Cumulativo",
+                "YAXIS": "Peso ({{label}})"
+            },
+            "HIVE_HEALTH": {
+                "FILTER": "Saúde da Colmeia",
+                "TITLE": "Saúde da Colmeia",
+                "YAXIS": ""
+            },
+            "HUMID": {
+                "FILTER": "Umidade",
+                "FILTER_HOURLY": "Umidade por Hora",
+                "TITLE": "Umidade",
+                "YAXIS": "Umidade (%)"
+            },
+            "HUMID_MAX": {
+                "FILTER": "Umidade Máxima",
+                "TITLE": "Umidade Máxima",
+                "YAXIS": "Umidade (%)"
+            },
+            "HUMID_MAX_EXT": {
+                "FILTER": "Umidade Externa Máxima",
+                "TITLE": "Umidade Externa Máxima",
+                "YAXIS": "Umidade (%)"
+            },
+            "HUMID_MAX_WEATHER": {
+                "FILTER": "Umidade Máxima do Tempo",
+                "TITLE": "Umidade Máxima do Tempo",
+                "YAXIS": "Umidade (%)"
+            },
+            "HUMID_MIN": {
+                "FILTER": "Umidade Mínima",
+                "TITLE": "Umidade Mínima",
+                "YAXIS": "Umidade (%)"
+            },
+            "HUMID_MIN_EXT": {
+                "FILTER": "Umidade Externa Mínima",
+                "TITLE": "Umidade Externa Mínima",
+                "YAXIS": "Umidade (%)"
+            },
+            "HUMID_MIN_WEATHER": {
+                "FILTER": "",
+                "TITLE": "Umidade Mínima do Tempo",
+                "YAXIS": "Umidade (%)"
+            },
+            "LUNAR": {
+                "FILTER": "Diário Lunar",
+                "TITLE": "Calendário Lunar",
+                "YAXIS": ""
+            },
+            "MF_COUNT": {
+                "FILTER": "Contagem de Voos de Acasalamento",
+                "TITLE": "Contagem de Voos de Acasalamento",
+                "UNIT": "voos/dia",
+                "YAXIS": "voos/dia"
+            },
+            "MF_DUR": {
+                "FILTER": "Janela de Voo (horas)",
+                "TITLE": "Duração do Voo de Acasalamento",
+                "UNIT": "horas",
+                "YAXIS": "Janela de Voo (horas)"
+            },
+            "MF_SESS": {
+                "FILTER": "Sessões de Voo de Acasalamento",
+                "TITLE": "Sessões de Voo de Acasalamento",
+                "UNIT": "sessões/dia",
+                "YAXIS": "Sessões/dia"
+            },
+            "NECTAR": {
+                "FILTER": "Fluxo de Néctar",
+                "TITLE": "Índice de Fluxo de Néctar",
+                "YAXIS": "Índice de Fluxo de Néctar (%)"
+            },
+            "NOTES": {
+                "FILTER_APIARY": "Notas do Apiário",
+                "FILTER_HIVE": "Notas da Colmeia",
+                "TITLE": "Notas",
+                "YAXIS": ""
+            },
+            "PRECIP": {
+                "FILTER": "Precipitação",
+                "FILTER_DAILY": "Precipitação Diária",
+                "TITLE": "Precipitação",
+                "YAXIS": "Precipitação ({{label}})"
+            },
+            "PROD": {
+                "FILTER": "Produtividade",
+                "FILTER_DAILY": "Produtividade Diária",
+                "FILTER_HOURLY": "Produtividade por Hora",
+                "TITLE": "Produtividade",
+                "YAXIS": "Peso ({{label}})"
+            },
+            "PROD_CUMUL": {
+                "FILTER": "Produtividade Cumulativa",
+                "TITLE": "Produtividade Cumulativa",
+                "YAXIS": "Peso ({{label}})"
+            },
+            "RADAR": {
+                "FILTER": "Sinal de Radar",
+                "TITLE": "Sinal de Radar",
+                "YAXIS": "Sinal de Radar ({{label}})"
+            },
+            "RAIN": {
+                "FILTER": "Chuva",
+                "FILTER_CUMULATIVE": "Chuva Cumulativa",
+                "FILTER_HOURLY": "Chuva por Hora",
+                "TITLE": "Chuva",
+                "YAXIS": "Chuva ({{label}})"
+            },
+            "TEMP": {
+                "FILTER": "Temperatura",
+                "FILTER_HOURLY": "Temperatura por Hora",
+                "TITLE": "Temperatura",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_EVENTS": {
+                "FILTER": "Eventos de Temperatura",
+                "TITLE": "Eventos de Temperatura",
+                "YAXIS": ""
+            },
+            "TEMP_MAX": {
+                "FILTER": "Temperatura Máxima",
+                "TITLE": "Temperatura Máxima",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_MAX_EXT": {
+                "FILTER": "Temperatura Externa Máxima",
+                "TITLE": "Temperatura Externa Máxima",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_MAX_WEATHER": {
+                "FILTER": "Temperatura Máxima do Tempo",
+                "TITLE": "Temperatura Máxima do Tempo",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_MEAN": {
+                "FILTER": "Temperatura Média",
+                "TITLE": "Temperatura Média",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_MIN": {
+                "FILTER": "Temperatura Mínima",
+                "TITLE": "Temperatura Mínima",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_MIN_EXT": {
+                "FILTER": "Temperatura Externa Mínima",
+                "TITLE": "Temperatura Externa Mínima",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_MIN_WEATHER": {
+                "FILTER": "Temperatura Mínima do Tempo",
+                "TITLE": "Temperatura Mínima do Tempo",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "TEMP_WEATHER": {
+                "FILTER": "Temperatura do Tempo",
+                "TITLE": "Temperatura do Tempo",
+                "YAXIS": "Temperatura ({{label}})"
+            },
+            "WEATHER": {
+                "FILTER": "Clima Diário",
+                "TITLE": "Clima",
+                "YAXIS": ""
+            },
+            "WEIGHT": {
+                "FILTER": "Peso",
+                "FILTER_DAILY": "Peso Diário",
+                "FILTER_HOURLY": "Peso por Hora",
+                "TITLE": "Peso",
+                "YAXIS": "Peso ({{label}})"
+            },
+            "WIND": {
+                "FILTER": "Vento",
+                "FILTER_HOURLY": "Vento por Hora",
+                "TITLE": "Vento",
+                "YAXIS": "Vento ({{label}})"
+            },
+            "WIND_MAX": {
+                "FILTER": "Vento Máximo",
+                "TITLE": "Vento Máximo",
+                "YAXIS": "Vento ({{label}})"
+            }
+        }
+    },
+    "CHARTS": {
+        "BALANCE": "Equilíbrio E/D",
+        "BATTERY": "Carga da bateria",
+        "BATTERY_AXIS": "Carga %",
+        "BROOD_ZONE": "Zona de Criação",
+        "FIRMWARE": "Firmware",
+        "HUMID": "Umidade",
+        "HUMID_AXIS": "Umidade %",
+        "HUMIDITY_NORMAL": "Normal",
+        "NORMAL_HUMIDITY": "Umidade normal",
+        "PRESSURE": "Pressão",
+        "PRODUCTIVITY": "Produtividade das abelhas",
+        "PRODUCTIVITY_AXIS": "Produtividade das abelhas em {{wUnit}}",
+        "SWARM_S": {
+            "GENERIC": "Evento de temperatura",
+            "TITLE": "T"
+        },
+        "SWARM_STATE": "Estado do SM",
+        "TEMP": "Temperatura",
+        "TEMP_AXIS": "Temperatura em {{tUnit}}",
+        "WEATHER_HUMID": "Umidade externa",
+        "WEATHER_TEMP": "Temperatura externa",
+        "WEIGHT": "Peso",
+        "WEIGHT_AXIS": "Peso em {{wUnit}}",
+        "WIND_MAX": "Limite superior do vento"
+    },
+    "COMMON": {
+        "APIARY": "Apiário",
+        "CANCEL": "Cancelar",
+        "CREATE": "Criar",
+        "DELETE": "Excluir",
+        "DEVICE": "Dispositivo",
+        "DISMISS": "Dispensar",
+        "EDIT": "Editar",
+        "HIVE": "Colmeia",
+        "POSITION": "Posição",
+        "SAVE": "Salvar"
+    },
+    "CONFIGURE_ALERTS": {
+        "EDIT": {
+            "BTN_MAIL_TEST": "Enviar email de teste",
+            "DAILY": "dia",
+            "DAY": "dia",
+            "EMAIL": {
+                "FAIL": "Falha ao enviar e-mail para {{email}}",
+                "REALTIME_BODY": "Esta é uma mensagem de teste para alertas em tempo real do MyBroodMinder.",
+                "SUCCESS": "Email enviado para {{email}}",
+                "SUMMARY_BODY": "Este é um e-mail de teste para alertas resumidos do MyBroodMinder."
+            },
+            "EVERY": "cada",
+            "FREQUENCY": "Frequência",
+            "HOURLY": "hora",
+            "MAIL": "Enviar resumo do alerta por e-mail a cada",
+            "NEVER": "nunca",
+            "OTHER": "personalizado",
+            "REALTIME_INPUT": "E-mail em tempo real (separado por vírgulas)",
+            "SUMMARY_INPUT": "E-mail de resumo (separado por vírgulas)",
+            "TITLE": "Configurações de e-mail",
+            "WEEKLY": "semana"
+        },
+        "FREQUENCY_DAILY": "E-mail de resumo do alerta enviado todos os dias",
+        "FREQUENCY_NEVER": "E-mail de resumo do alerta não enviado",
+        "FREQUENCY_OTHER": "E-mail de resumo do alerta enviado a cada {{value}} dias",
+        "FREQUENCY_WEEKLY": "E-mail de resumo do alerta enviado toda semana",
+        "HIVE": "Colmeia",
+        "REALTIME": "Tempo real",
+        "SENSORS": "Dispositivos",
+        "SWARM_ALERT": "SwarmMinder",
+        "UPDATE_FAIL": "Erro ao atualizar configurações de alerta",
+        "UPDATE_SUCCESS": "Configurações de alerta atualizadas",
+        "WEATHER": "Meteorologia"
+    },
+    "CONFIGURE_APIARIES": {
+        "ACTIVE": "Ativo",
+        "ADD": "Adicionar Apiário",
+        "CANNOT_DELETE_WINDOW": {
+            "MESSAGE": "Este apiário contém as seguintes colmeias: {{hives}} Você não pode excluir este apiário até excluir ou mover essas colmeias.",
+            "TITLE": "Não é Possível Excluir Apiário"
+        },
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "Sim",
+            "MESSAGE": "Tem certeza de que deseja excluir o apiário {{name}}? Isso exclui permanentemente o apiário.",
+            "TITLE": "Excluir Apiário"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "CONFIRM": "Sim",
+            "MESSAGE": "Isso define todas as colmeias deste apiário como inativas, encerra todas as posições do dispositivo em cada colmeia e remove o apiário de suas visualizações. Os dados existentes permanecerão, mas novos dados não serão mais enviados para este apiário ou suas colmeias. Isso não pode ser desfeito. Definir o apiário {{name}} como inativo?",
+            "TITLE": "Definir Apiário como Inativo"
+        },
+        "DELETE_ERROR": "Erro ao excluir apiário",
+        "DELETE_SUCCESS": "Apiário excluído",
+        "NAME": "Nome do Apiário",
+        "SHARE": "Compartilhar",
+        "SHOW_INACTIVE": "Mostrar Inativos",
+        "UPDATED_SUCCESS": "Apiário atualizado",
+        "ZIPCODE": "Código Postal"
+    },
+    "CONFIGURE_DASHBOARDS": {
+        "CHART": {
+            "APIARY_LOCATIONS": "Mostrar Localizações do Apiário",
+            "BROOD_ZONE": "Mostrar Zona de Criação",
+            "DEFAULT": "Padrão ({{value}})",
+            "FAIL": "Erro ao atualizar gráfico",
+            "FILTERS": {
+                "ACTIVE": "Ativo",
+                "AVAILABLE": "Disponível"
+            },
+            "HEIGHT": "Altura",
+            "LEGEND": "Mostrar Legenda",
+            "NAME": "Nome",
+            "NORMAL_HUMID": "Mostrar Umidade Normal",
+            "SUCCESS": "Gráfico atualizado",
+            "TITLE_CREATE": "Criar Gráfico",
+            "TITLE_EDIT": "Editar {{name}}",
+            "TODAY_LINE": "Mostrar Linha Atual"
+        },
+        "DASHBOARD": {
+            "ACTIVE": "Gráficos Ativos",
+            "AVAILABLE": "Gráficos Disponíveis",
+            "CHART_NAMES": {
+                "APIARY_IMAGE": "Imagem do Apiário",
+                "APIARY_MAP": "Mapa dos Apiários",
+                "BATTERY": "Bateria",
+                "BEECOUNT": "Contagem de Abelhas",
+                "BROOD": "Criação",
+                "CLOUD_COVER": "Cobertura de Nuvens",
+                "FORAGING": "Índice de Busca por Alimento",
+                "HIVE_TEXT": "Texto da Colmeia",
+                "HIVE_TEXT_SUMMARY": "Texto",
+                "HUMID": "Umidade",
+                "MATING_FLIGHTS": "Janelas de Acasalamento",
+                "NECTAR": "Índice de Fluxo de Néctar",
+                "NOTES": "Notas",
+                "PROD": "Produtividade",
+                "RAIN": "Chuva",
+                "TEMP": "Temperatura",
+                "WEIGHT": "Peso",
+                "WEIGHT_CHANGE": "Variação de Peso",
+                "WIND": "Vento"
+            },
+            "DRAG": "Arraste o gráfico para adicionar ao painel",
+            "FAIL": "Erro ao atualizar painel",
+            "NAME": "Nome",
+            "SUCCESS": "Painel atualizado",
+            "TITLE_CREATE": "Criar Painel",
+            "TITLE_EDIT": "Editar {{name}}",
+            "WARNING": "Existem {{count}} links públicos compartilhados conectados a este painel. Qualquer alteração que você fizer afetará esses links."
+        },
+        "DELETE": {
+            "CANCEL": "Cancelar",
+            "CONFIRM": "Excluir",
+            "FAIL": "Erro ao remover painel",
+            "MESSAGE": "Tem certeza de que deseja excluir este painel ({{name}})?",
+            "SUCCESS": "Painel removido",
+            "TITLE": "Excluir {{name}}",
+            "WARNING": "Existem {{count}} links públicos compartilhados conectados a este painel. Excluir irá quebrar esses links."
+        },
+        "DUPLICATE": {
+            "CANCEL": "Cancelar",
+            "CONFIRM": "Criar",
+            "FAIL": "Erro ao criar painel",
+            "MESSAGE": "Você deseja criar uma cópia deste painel ({{name}})?",
+            "NAME_SUFFIX": "cópia",
+            "SUCCESS": "Painel criado",
+            "TITLE": "Copiar {{name}}"
+        },
+        "DUPLICATE_TOOLTIP": "Duplicar",
+        "HIDE": {
+            "CANCEL": "Cancelar",
+            "CONFIRM": "Ocultar",
+            "HIDDEN": "Painel oculto",
+            "MESSAGE": "Tem certeza de que deseja ocultar este painel ({{name}})?",
+            "MESSAGE_2": "Você pode desfazer isso na página de Configurações.",
+            "TITLE": "Ocultar {{name}}",
+            "VISIBLE": "Painel visível"
+        },
+        "NAME": "Nome",
+        "VISIBLE": "Visível"
+    },
+    "CONFIGURE_DEVICES": {
+        "ACTIVE": "Ativo",
+        "ADD": "Adicionar Dispositivo",
+        "ADD_LOCATION": "Adicionar Localização",
+        "ADDRESS": "Endereço do Dispositivo",
+        "BATTERY": "Bateria",
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "Sim",
+            "MESSAGE": "Tem certeza de que deseja excluir o dispositivo {{deviceName}}? Isso exclui permanentemente o dispositivo e seus dados associados.",
+            "TITLE": "Excluir Dispositivo"
+        },
+        "DATA_RECEIVED": "Dados Recebidos pela Última Vez",
+        "DELETE_ERROR": "Erro ao excluir dispositivo",
+        "DELETE_SUCCESS": "Dispositivo excluído",
+        "DOWNLOAD": "Baixar Dispositivos",
+        "FILTER_LOCATION": "Filtrar Localização",
+        "FILTER_NAME": "Filtrar Nome",
+        "LOCATION": "Localização Atual",
+        "LOCATION_HISTORY": "Histórico de Localização",
+        "NAME": "Nome do Dispositivo",
+        "THIRD_PARTY": {
+            "ADD": "Adicionar Dispositivo de Terceiros",
+            "ERROR_NO_CREDIT": "Nenhum token atribuído, dados não estão sendo coletados",
+            "ERROR_TOKEN_EXPIRED": "Token expirado, dados não estão sendo coletados",
+            "ERROR_TOKEN_EXPIRED_SOFT": "Token expirado, os dados deixarão de ser coletados em breve"
+        },
+        "UPDATED_SUCCESS": "Dispositivo atualizado"
+    },
+    "CONFIGURE_HIVES": {
+        "ACTIVE": "Ativa",
+        "ADD": "Adicionar Colmeia",
+        "APIARY": "Apiário",
+        "APIARY_HISTORY": "Histórico do Apiário",
+        "CODE": "Código da Colmeia",
+        "CONFIRM_DELETE_WINDOW": {
+            "CONFIRM": "Sim",
+            "MESSAGE": "Tem certeza de que deseja excluir a colmeia {{name}}? Isso exclui permanentemente a colmeia.",
+            "TITLE": "Excluir Colmeia"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "COMMENT": "Comentário",
+            "CONFIRM": "Sim",
+            "MESSAGE": "Isso encerra todas as posições do dispositivo na colmeia e remove a colmeia de suas visualizações de apiário. Os dados existentes permanecerão, mas novos dados não serão mais enviados para esta colmeia. Isso não pode ser desfeito. Definir a colmeia {{name}} como inativa?",
+            "REASON": "Selecione o Motivo",
+            "REASONS": {
+                "ABSCONDED": "Fugiu",
+                "COMBINED": "Combinada com outra colônia",
+                "DIED": "Morreu",
+                "OTHER": "Outro"
+            },
+            "TITLE": "Definir Colmeia como Inativa"
+        },
+        "DELETE_ERROR": "Erro ao excluir colmeia",
+        "DELETE_SUCCESS": "Colmeia excluída",
+        "LOCATION_HISTORY": "Histórico do Dispositivo",
+        "NAME": "Nome da Colmeia",
+        "UPDATED_SUCCESS": "Colmeia atualizada"
+    },
+    "CONFIGURE_HUBS": {
+        "APIARY": "Apiário",
+        "BATTERY": "Bateria",
+        "EDIT": "Gerenciar",
+        "EXP_UNASSIGNED": "Nenhum",
+        "EXPIRING": "Status do Token",
+        "FILTER": "Filtrar",
+        "HUB": "Hub",
+        "LAST_UPLOAD": "Último Upload",
+        "MANAGE": {
+            "ASSIGNMENT_REMOVED": "Token removido",
+            "ASSIGNMENT_SUCCESS": "Atribuição atualizada",
+            "BACK_BUTTON": "Voltar",
+            "CANCEL": {
+                "CONFIRM": "Isso remove o token de sua assinatura. Seu novo preço de assinatura {{frequency}} é {{amount}}. Após a data de expiração ({{expiration}}), os dados deste hub não serão mais aceitos pelo MyBroodMinder. Tem certeza de que deseja cancelar este token?",
+                "ERROR_1": "Esta é uma assinatura gratuita, o token não pode ser cancelado",
+                "ERROR_2": "Esta assinatura está cancelada, o token não pode ser cancelado",
+                "ERROR_3": "Este é um token gratuito e não pode ser cancelado",
+                "ERROR_4": "Este token não é de renovação automática e não pode ser cancelado",
+                "ERROR_5": "Este token já foi cancelado",
+                "ERROR_6": "Este token é gratuito com sua assinatura e não pode ser cancelado. Visite a página da conta se quiser cancelar sua associação premium",
+                "GENERAL_ERROR": "Ocorreu um erro. Token não cancelado",
+                "OK": "Sim, cancelar este token",
+                "SUCCESS": "Token cancelado",
+                "TITLE": "Cancelar Token"
+            },
+            "CANCEL_CREDIT": "Remover token da renovação automática",
+            "CLOSE": "Concluído",
+            "PURCHASE": {
+                "AUTO": "Renovação automática",
+                "CHARGED": "Cobrado agora",
+                "ERROR_1": "Você deve primeiro comprar uma associação premium. Veja as opções",
+                "ERROR_1_LINK": "aqui",
+                "GENERAL_ERROR": "Ocorreu um erro. Token não comprado",
+                "MONTHS": "Meses",
+                "MONTHS_SELECT": "meses",
+                "OK": "Comprar",
+                "ONCE": "Única vez",
+                "QUANTITY": "Número de tokens",
+                "TITLE": "Comprar Token",
+                "TOTAL": "Preço atualizado da associação {{frequency}}"
+            },
+            "PURCHASE_CREDIT": "Comprar Novo",
+            "REACTIVATE": {
+                "CONFIRM": "Isso adiciona o token cancelado de volta à sua assinatura. Você não será cobrado nada agora, pois já pagou por este período. Seu novo preço de assinatura {{frequency}} é {{amount}}. Tem certeza de que deseja reativar este token?",
+                "ERROR_1": "Esta é uma assinatura gratuita, o token não pode ser reativado",
+                "ERROR_2": "Esta assinatura está cancelada, o token não pode ser reativado",
+                "ERROR_3": "Este é um token gratuito e não pode ser reativado",
+                "ERROR_4": "Este token não é de renovação automática e não pode ser reativado",
+                "ERROR_5": "Este token já expirou e não pode ser reativado",
+                "GENERAL_ERROR": "Ocorreu um erro. Token não reativado",
+                "OK": "Sim, reativar este token",
+                "TITLE": "Reativar Token"
+            },
+            "REACTIVATE_CREDIT": "Reativar token",
+            "REMOVE": {
+                "CONFIRM": "Tem certeza de que deseja remover o token de {{item}}?",
+                "GENERAL_ERROR": "Ocorreu um erro. Token não removido",
+                "OK": "Sim, remover este token",
+                "TITLE": "Remover Token"
+            },
+            "REMOVE_CREDIT": "Remover token de {{item}}",
+            "SELECT_APIARY": "Selecionar apiário",
+            "SELECT_CREDIT": "Selecionar Token",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este token pode ser usado para muitos dispositivos de terceiros",
+            "TITLE": "Gerenciar",
+            "UPDATED_SUCCESS": "Hub atualizado"
+        },
+        "NAME": "Nome",
+        "SIM": "SIM",
+        "TELECOM": "Telecom",
+        "THIRD_PARTY_DEVICE": "Third Party Device"
+    },
+    "CONFIGURE_PAGE": {
+        "ACCOUNT_TITLE": "Minha Conta",
+        "ALERTS_TITLE": "Alertas",
+        "APIARIES_TITLE": "Apiários",
+        "DASHBOARDS_TITLE": "Dashboards",
+        "DEVICES_TITLE": "Dispositivos",
+        "HIVES_TITLE": "Colmeias",
+        "HUBS_TITLE": "Concentradores",
+        "LINKS_TITLE": "Links Públicos",
+        "NESTED": "Por Apiário",
+        "PREFERENCES_TITLE": "Minhas Preferências",
+        "SEPARATE": "Por tipo",
+        "SUBSCRIPTIONS_TITLE": "Minhas Assinaturas",
+        "THIRD_PARTY_TITLE": "Dispositivos de Terceiros",
+        "TITLE": "Configurar"
+    },
+    "DASHBOARD": {
+        "CHART": {
+            "ALERT_NOTE_TABLE": {
+                "DATE": "Data",
+                "DELETE_ALERT": {
+                    "CONFIRM": "Excluir",
+                    "ERROR": "Erro ao excluir alerta",
+                    "MESSAGE": "Tem certeza de que deseja excluir este alerta?",
+                    "SUCCESS": "Alerta excluído",
+                    "TITLE": "Excluir Alerta"
+                },
+                "DESCRIPTION": "Descrição",
+                "NO_DESCR": "Sem descrição",
+                "TAGS": "Tags"
+            },
+            "ALERTS": {
+                "EDIT": {
+                    "FAIL": "Erro ao atualizar alerta",
+                    "SUCCESS": "Alerta atualizado",
+                    "TITLE": "Editar Alerta"
+                },
+                "ERROR": "Detalhes do alerta não encontrados"
+            },
+            "APIARY_OVERVIEW": {
+                "ALERTS": "Alertas",
+                "FORAGING": "Índice de Busca por Alimento",
+                "MAX_TEMP": "Temperatura Máxima",
+                "MIN_TEMP": "Temperatura Mínima",
+                "NECTAR": "Índice de Fluxo de Néctar",
+                "NOTES": "Notas",
+                "RAIN": "Chuva",
+                "WEATHER": "Clima",
+                "WIND": "Vento"
+            },
+            "DOWNLOAD_CHART": "Baixar Imagem do Gráfico",
+            "EDIT_CHART": "Editar Gráfico",
+            "HIVE_OVERVIEW": {
+                "ALERTS": "Alertas",
+                "BROOD": "Criação",
+                "DATE": "Data",
+                "FITNESS": "Forma Física",
+                "FORAG": "Busca por Alimento",
+                "FORAG_DESC": "Viagens totais de abelhas por dia | Duração total de busca por alimento (horas) | Períodos de trabalho ao longo do dia",
+                "HISTORY": "Histórico",
+                "HISTORY_TOOLTIP": "Histórico",
+                "NAME": "Nome",
+                "NOTES": "Notas",
+                "PROD": "Produtividade",
+                "WEIGHT": "Peso"
+            },
+            "HIVE_TEXT": {
+                "BATTERY": "Bateria",
+                "BEEDAR": "Beedar",
+                "DATE": "Data",
+                "GAIN": "Ganho",
+                "GAIN_S": "Ganho (desde o amanhecer)",
+                "HUMID": "Umidade",
+                "INITIAL": "Inicial",
+                "LAST_SEEN": "Visto pela última vez",
+                "LATEST": "Mais recente",
+                "LOCATION": "Localização",
+                "NAME": "Nome",
+                "NO_DATA": "Sem dados no intervalo de tempo",
+                "SUNRISE": "Nascer do sol",
+                "TEMP": "Temperatura",
+                "WEIGHT": "Peso"
+            },
+            "IMAGE": {
+                "ADD": "Adicionar Imagem",
+                "DROP": "Solte sua imagem personalizada aqui",
+                "ERROR_SIZE": "Imagem muito grande, permitido 6MB",
+                "ERROR_TYPE": "Tipo de imagem não permitido, apenas jpeg e png",
+                "REMOVE": "Remover Imagem",
+                "SUCCESS": "Arquivo enviado",
+                "UPLOADING": "Enviando {{value}}%"
+            },
+            "MAP": {
+                "EDIT": "Editar Mapa"
+            },
+            "NO_DATA": "Sem dados",
+            "NOTES": {
+                "ADD": "Adicionar Nota",
+                "ERROR": "Detalhes da nota não encontrados",
+                "LOADING": "Carregando",
+                "MORE": "Carregar Mais",
+                "SHOWING": "Exibindo",
+                "TITLE": "{{count}} Notas"
+            },
+            "ZOOM_CANCEL": "Cancelar Zoom",
+            "ZOOM_X": "Zoom no Eixo X",
+            "ZOOM_Y": "Zoom no Eixo Y"
+        },
+        "CONTEXT": {
+            "DELETE_DASH": "Excluir Painel",
+            "DOWNLOAD": {
+                "DAILY_READINGS": "Leituras Diárias CSV",
+                "DAILY_WEATHER": "Clima Diário CSV",
+                "DOWNLOAD": "Baixar",
+                "HOURLY_READINGS": "Leituras Horárias CSV",
+                "HOURLY_WEATHER": "Clima Horário CSV",
+                "MENU": "Opções de Download",
+                "NOTES": "Notas CSV",
+                "TITLE": "Baixar",
+                "WARNING": "Você precisa de uma assinatura premium para baixar arquivos CSV das colmeias."
+            },
+            "EDIT_DASH": "Editar Painel",
+            "EDIT_SHARE_DASH": "Editar Links Compartilhados",
+            "HIDE_DASH": "Ocultar Painel",
+            "SHARE_DASH": "Compartilhar Painel"
+        }
+    },
+    "DATE_PICKER": {
+        "APPLY": "Aplicar",
+        "CUSTOM": "Intervalo personalizado",
+        "DAYS_1": "Último 1 dia",
+        "DAYS_14": "Últimos 14 dias",
+        "DAYS_180": "Últimos 180 dias",
+        "DAYS_3": "Últimos 3 dias",
+        "DAYS_30": "Últimos 30 dias",
+        "DAYS_7": "Últimos 7 dias",
+        "DAYS_90": "Últimos 90 dias",
+        "DAYS_SHORT": {
+            "0": "Dom",
+            "1": "Seg",
+            "2": "Ter",
+            "3": "Qua",
+            "4": "Qui",
+            "5": "Sex",
+            "6": "Sáb"
+        },
+        "END": "Fim",
+        "FORECAST": {
+            "OFF": "Previsão Desligada",
+            "ON": "Previsão Ligada",
+            "SHOW": "Mostrar previsão de 10 dias"
+        },
+        "HOURS_24": "Últimas 24 horas",
+        "INFO": "É necessário uma assinatura premium ou pro para visualizar dados com mais de um ano. Você pode acessar dados mais antigos baixando o CSV na visualização do dispositivo.",
+        "INVALID_END": "Data final inválida",
+        "INVALID_START": "Data de início inválida",
+        "MONTHS_SHORT": {
+            "0": "Jan",
+            "1": "Fev",
+            "10": "Nov",
+            "11": "Dez",
+            "2": "Mar",
+            "3": "Abr",
+            "4": "Mai",
+            "5": "Jun",
+            "6": "Jul",
+            "7": "Ago",
+            "8": "Set",
+            "9": "Out"
+        },
+        "START": "Início",
+        "TODAY": "Hoje",
+        "TOMMOROW": "Amanhã",
+        "VIEWING": "Visualizando",
+        "YEAR_1": "Último ano",
+        "YEAR_2": "Últimos 2 anos",
+        "YESTERDAY": "Ontem"
+    },
+    "DATE_PICKER_SHORT": {
+        "DAYS_1": "1 dia",
+        "DAYS_14": "14 dias",
+        "DAYS_180": "180 dias",
+        "DAYS_3": "3 dias",
+        "DAYS_30": "30 dias",
+        "DAYS_7": "7 dias",
+        "DAYS_90": "90 dias",
+        "HOURS_24": "24 horas",
+        "YEAR_1": "1 ano",
+        "YEAR_2": "2 anos"
+    },
+    "DEVICE_CRUD": {
+        "BIP_AGREE": "É necessário concordar com BIP",
+        "BIP_SEND": "Enviar dados para a Bee Informed Partnership",
+        "BIP_TERMS": "Termos de Uso",
+        "CREATE_TITLE": "Criar Dispositivo",
+        "EDIT_TITLE": "Editar Dispositivo",
+        "ERROR_ADDRESS": "Por favor, insira um endereço de dispositivo válido",
+        "ERROR_BIP": "É necessário concordar com os Termos de Uso da BIP para habilitar o envio",
+        "ERROR_DUPLICATE": "Não foi possível criar, dispositivo com esse endereço já existe",
+        "MODEL": "Número do Modelo",
+        "NAME": "Nome",
+        "NAME_AUTO": "Usar o endereço acima como nome",
+        "PLACE_TITLE": "Colocar Dispositivo",
+        "SCALE": "Este dispositivo é uma balança",
+        "SELECT_POSITION": "Selecionar posição",
+        "SUCCESS_CREATED": "Dispositivo criado",
+        "SUCCESS_PLACED": "Dispositivo colocado na colmeia",
+        "SUCCESS_UPDATED": "Dispositivo atualizado",
+        "THIRD_PARTY": {
+            "CREDIT_EXPLANATION": "Um token de associação premium é necessário para coletar dados de dispositivos de terceiros",
+            "ERROR_GENERAL": "Erro ao adicionar dispositivo",
+            "ERROR_YOLINK_NOT_FOUND": "Dispositivo YoLink não encontrado, verifique se você possui o número de série correto (SN)",
+            "ERROR_YOLINK_OTHER_USER": "Dispositivo YoLink já registrado com outra conta",
+            "NAME_REQUIRED": "Nome obrigatório",
+            "PROVIDER": "Escolha o Provedor",
+            "TITLE": "Adicionar Dispositivo de Terceiros",
+            "YOLINK_EXPLANATION": "Escaneie o código QR no seu dispositivo YoLink para obter o SN de 32 dígitos.",
+            "YOLINK_SN_REQUIRED": "É necessário o SN do YoLink"
+        }
+    },
+    "DEVICE_PAGE": {
+        "CHART_TITLE": "Resumo do Dispositivo para {{name}}",
+        "DATA_TOOLTIP": {
+            "BUILDING": "Ver construção",
+            "OK": "Verificado atualizado",
+            "UPDATE": "Verificar precisa de atualização"
+        },
+        "DOWNLOAD": "Baixar dados CSV",
+        "DOWNLOAD_HIST": "Baixar histórico completo",
+        "DOWNLOAD_VIEW": "Baixar período exibido",
+        "EDITOR": {
+            "BALANCE": "Balanço E/D",
+            "BATTERY": "Bateria",
+            "BUTTON_NONE": "Selecione leituras para remover na tabela abaixo",
+            "BUTTON_SELECTED": "Remover selecionados",
+            "CONFIRM_WINDOW": {
+                "CONFIRM": "Sim",
+                "MESSAGE": "Você deseja remover as {{count}} leituras selecionadas?",
+                "TITLE": "Remover leituras selecionadas"
+            },
+            "DESCRIPTION": "Dê zoom no gráfico ou clique no ponto para filtrar as leituras abaixo.",
+            "DISMISS": "Dispensar",
+            "EPOCH": "Época",
+            "FAIL": "Erro, leituras não removidas",
+            "HUMID": "Umidade",
+            "NONE": "Sem leituras para este período",
+            "OUTLIERS": {
+                "BUTTON_NONE": "Selecione leituras para adicionar de volta como leituras normais do sensor",
+                "BUTTON_SELECTED": "Mover de volta selecionadas",
+                "CONFIRM_WINDOW": {
+                    "CONFIRM": "Sim",
+                    "MESSAGE": "Você deseja adicionar de volta as {{count}} leituras selecionadas como leituras normais do sensor?",
+                    "TITLE": "Mover leituras selecionadas"
+                },
+                "FAIL": "Erro, leituras não movidas",
+                "MESSAGE": "Mensagem",
+                "MOVE": "Mover de volta",
+                "NONE": "Nenhuma leitura removida para este período",
+                "SUCCESS": "Leituras movidas",
+                "SYSTEM_R": "Sistema Removido",
+                "TITLE": "Leituras marcadas como atípicas",
+                "USER_R": "Usuário Removido"
+            },
+            "REMOVE": "Remover",
+            "REMOVE_DUPLICATES_BUTTON": "Remover Duplicatas",
+            "REMOVE_DUPLICATES_TITLE": "Duplicatas Removidas",
+            "RSSI": "RSSI",
+            "SAMPLE": "Amostra",
+            "SAMPLE_STATE": "Estado SM",
+            "SOURCE": "Fonte",
+            "SUCCESS": "Leituras removidas",
+            "TEMP": "Temp",
+            "TIMESTAMP": "Carimbo de data/hora",
+            "TITLE": "Editor de Dados",
+            "WEIGHT": "Peso",
+            "WEIGHT_L": "Peso Esquerdo",
+            "WEIGHT_L_R": "Peso Esquerdo Bruto",
+            "WEIGHT_R": "Peso Direito",
+            "WEIGHT_R_R": "Peso Direito Bruto",
+            "WEIGHT_SF": "Fator de Escala de Peso"
+        },
+        "LOADING": "Carregando leituras de sensores do dispositivo",
+        "LOCATION_ADD": "Adicionar Localização",
+        "LOCATION_HISTORY": "Histórico de Localização do Dispositivo",
+        "LOCATION_PIN_END": "E",
+        "LOCATION_PIN_START": "S",
+        "OUTLIER_HIDE": "Ocultar editor de dados",
+        "OUTLIER_SHOW": "Mostrar editor de dados",
+        "TITLE": "Dados do Dispositivo - {{name}}"
+    },
+    "DUPLICATE_CLEANUP": {
+        "CLOSE": "Fechar",
+        "CREATE_SUBTITLE_1": "Isso removerá duplicatas (de várias fontes) e limpará dados para este dispositivo.",
+        "GROUPS": {
+            "CREATED": "Criado",
+            "FROM": "De",
+            "ID": "ID",
+            "REMOVED": "Leituras Removidas",
+            "ROLLBACK": "Desfazer",
+            "ROLLBACK_DIALOG": {
+                "CONFIRM": "Sim",
+                "MESSAGE": "Você gostaria de desfazer essa limpeza de duplicatas?",
+                "TITLE": "Desfazer Limpeza de Duplicatas"
+            },
+            "STATUS": "Status",
+            "STATUS_COMPLETE": "completo",
+            "STATUS_ROLLED": "desfeito",
+            "STATUS_ROLLING": "desfazendo",
+            "STATUS_RUNNING": "em execução",
+            "TITLE": "Grupos de Limpeza",
+            "TO": "Para",
+            "TOTAL": "Total de Leituras"
+        },
+        "NOTES": "Notas (opcional)",
+        "REMOVED": "Removido",
+        "RUN_CLEANUP": "Executar Limpeza",
+        "RUNNING": "Executando Limpeza",
+        "TIME_SET": "Remover duplicatas de {{start}} a {{end}}",
+        "TIME_ZOOM": "Remover duplicatas para a visualização atual de {{start}} a {{end}}",
+        "TITLE": "Limpar Leituras Duplicadas",
+        "TOTAL": "Total"
+    },
+    "EDIT_SUBS": {
+        "HEADERS": {
+            "ASSOCIATED": "Associado a",
+            "AUTO": "Renovação automática",
+            "EDIT": "Editar",
+            "EXPIRES": "Expira em",
+            "ID": "ID",
+            "NAME": "Nome",
+            "PRICE": "Preço",
+            "RENEW": "Renova em",
+            "START": "Inicia em",
+            "STATUS": "Status",
+            "SUB_ID": "ID do Assinante"
+        },
+        "MEMEBERSHIPS": {
+            "FREE": "Grátis",
+            "PRE_PAID": "Pré-pago",
+            "TITLE": "Associações",
+            "TRIAL": "Associação de Teste"
+        },
+        "MONTH_ERROR": "Assinaturas mensais não são mais suportadas para novas compras. Para adicionar tokens, você deve cancelar sua assinatura atual e criar uma nova Associação Premium.",
+        "PURCHASE": "Comprar Produtos",
+        "SHOW_EXPIRED": "Mostrar Expirados",
+        "TOKENS": {
+            "ASSIGN": {
+                "HUB": "Hub",
+                "THIRD_PARTY": "Dispositivos de Terceiros",
+                "TITLE": "Atribuir"
+            },
+            "CANCEL_CONFIRM": "Sim",
+            "CANCEL_SUCCESS": "Token cancelado",
+            "CANCEL_TEXT": "Você tem certeza?",
+            "CANCEL_TITLE": "Cancelar Token",
+            "ERROR": "Erro, token não foi atualizado",
+            "HUB_EDIT": {
+                "WARNING_DUP": "O hub tem crédito ativo até {{date}}. Isso será substituído.",
+                "WARNING_REMOVE": "Isso remove o token do hub. O hub deixará de enviar dados.",
+                "WARNING_SINGLE": "Este é um token de hub de dispositivo único. Apenas um dispositivo de sensor pode ser enviado com este token.",
+                "WARNING_WIFI_TYPE": "O hub Wi-Fi funcionará com um token de hub de celular."
+            },
+            "REMOVE": "Remover Token da Associação",
+            "TITLE": "Tokens",
+            "UPDATED": "Token atualizado"
+        }
+    },
+    "F_TOUR": {
+        "BACK": "Voltar",
+        "DASH": {
+            "CHART_EDIT": {
+                "TEXT": "Clique para editar as opções do gráfico.",
+                "TITLE": "Opções do Gráfico"
+            },
+            "CHART_FILTER": {
+                "TEXT_1": "Clique para dar zoom.",
+                "TEXT_2": "Clique para remover e adicionar dados ao seu gráfico.",
+                "TITLE": "Filtros do Gráfico"
+            },
+            "DASH_OPT": {
+                "TEXT": "Clique para mais opções do painel.",
+                "TITLE": "Opções do Painel"
+            },
+            "DASHBOARDS": {
+                "TEXT": "Clique no nome do painel para visualizar seus dados de maneiras diferentes!",
+                "TITLE": "Novas Visualizações e Visualizações!"
+            },
+            "NEW": {
+                "TEXT": "Crie seu próprio painel. Adicione e organize gráficos conforme sua necessidade.",
+                "TITLE": "Painéis Personalizados"
+            }
+        },
+        "END": {
+            "DONE": "Concluído",
+            "TEXT_1": "Para mais ajuda e informações, consulte nossa documentação.",
+            "TEXT_2": "Esperamos que você goste!!",
+            "TEXT_3": "- A Equipe BroodMinder",
+            "TITLE": "Isso é Tudo"
+        },
+        "EXTRAS": {
+            "CONF": {
+                "TEXT": "Clique em configurar para ver opções mais avançadas.",
+                "TITLE": "Opções Avançadas"
+            },
+            "CONF_ALERT": {
+                "TEXT": "Edite as configurações de alerta, e-mail e frequência.",
+                "TITLE": "Opções Avançadas de Alerta"
+            },
+            "CONF_DASH": {
+                "TEXT": "Edite, oculte, duplique, etc...",
+                "TITLE": "Opções Avançadas do Painel"
+            },
+            "DATE": {
+                "TEXT": "Selecione o intervalo de datas e, opcionalmente, mostre a previsão do tempo.",
+                "TITLE": "Intervalo de Datas"
+            },
+            "HIVE_COLOR": {
+                "TEXT_1": "Edite sua colmeia para alterar a cor da colmeia. Isso é personalizável para que você possa visualizar facilmente várias colmeias no mesmo painel.",
+                "TEXT_2": "Isso também pode ser feito para cada um de seus apiários para especificar a cor do clima.",
+                "TITLE": "Personalizar Cor da Colmeia"
+            }
+        },
+        "NAV": {
+            "APIARY": {
+                "TEXT": "Clique em um apiário para adicionar ou remover suas colmeias da sua visualização.",
+                "TITLE": "Clique no Apiário"
+            },
+            "HIVE": {
+                "TEXT_1": "Clique no nome de uma colmeia para visualizá-la em um painel.",
+                "TEXT_2": "Clique novamente na colmeia para removê-la.",
+                "TITLE": "Visualizar uma Colmeia"
+            },
+            "HOME": {
+                "TEXT": "Visite a página inicial para ver uma visão geral de suas colmeias e apiários ativos.",
+                "TITLE": "Página Inicial"
+            },
+            "MULTI": {
+                "TEXT": "Clique em seleção múltipla para exibir várias colmeias de uma vez.",
+                "TITLE": "Habilitar Seleção Múltipla"
+            }
+        },
+        "NEXT": "Próximo",
+        "START": {
+            "DASH_BUTTON": "Painéis",
+            "DONE_BUTTON": "Concluído",
+            "EXTRAS_BUTTON": "Extras",
+            "NAV_BUTTON": "Navegação",
+            "TEXT": "Bem-vindo ao novo e aprimorado MyBroodMinder! Adicionamos novos recursos, gráficos e dados. Saiba mais aqui.",
+            "TITLE": "MyBroodMinder Novo e Aprimorado!"
+        }
+    },
+    "FEATURES": {
+        "CLOSE": "Fechar",
+        "FEATURE_1": "Primeira vez, criar colmeia",
+        "FEATURE_2": "Visualizando dados",
+        "FEATURE_3": "Configurando e movendo dispositivos",
+        "FEATURE_4": "Ver status de CELULAR/WiFi/Hub",
+        "NEXT": "Próximo",
+        "SKIP": "Pular",
+        "TITLE": "Tour de Recursos"
+    },
+    "FITNESS_CODE": {
+        "B1": {
+            "MSG": "Colmeia morta"
+        },
+        "B2": {
+            "MSG": "Colmeia roubada"
+        },
+        "G1": {
+            "MSG": "Saudável"
+        },
+        "G2": {
+            "MSG": "Sem dados ou sem condições meteorológicas"
+        },
+        "O1": {
+            "MSG": "Colmeia fraca ou em forte declínio"
+        },
+        "O2": {
+            "MSG": "Possível enxame"
+        },
+        "O3": {
+            "MSG": "Super-aquecimento"
+        },
+        "O4": {
+            "MSG": "Frio extremo"
+        },
+        "O5": {
+            "MSG": "Perda rápida de peso, sendo saqueada"
+        },
+        "R1": {
+            "MSG": "Colmeia muito fraca"
+        }
+    },
+    "GLOBAL_DASHBOARDS": {
+        "CALENDAR": {
+            "TITLE": "Calendário"
+        },
+        "CLASSIC": {
+            "AUDIO": "Vibração",
+            "BATTERY": "Bateria",
+            "HUMID": "Umidade",
+            "RADAR": "Radar",
+            "TEMP": "Temperatura",
+            "TITLE": "Clássico",
+            "WEIGHT": "Peso",
+            "WEIGHT_CHANGE": "Variação de Peso"
+        },
+        "WEATHER": {
+            "TITLE": "Tempo"
+        }
+    },
+    "HIVE_APIARY_LOCATION_HIST": {
+        "APIARY": "Apiário",
+        "EDIT": {
+            "ADD": "Adicionar",
+            "ERROR_APIARY_REQUIRED": "É necessário selecionar um apiário para todas as localizações",
+            "ERROR_INVALID_NEXT_OVERLAP": "Tempo inválido, sobrepõe a próxima localização do apiário",
+            "ERROR_INVALID_PREV_OVERLAP": "Tempo inválido, sobrepõe a localização anterior do apiário",
+            "ERROR_LOCATION_REQUIRED": "A colme ia requer pelo menos um apiário",
+            "SELECT_APIARY": "Selecionar apiário",
+            "SUCCESS": "Alterações salvas"
+        },
+        "END": "Fim",
+        "END_OPEN": "atual",
+        "MOVE": "Mover",
+        "START": "Início",
+        "START_OPEN": "aberto"
+    },
+    "HIVE_CRUD": {
+        "COLOR": "Cor",
+        "CREATE_TITLE": "Criar Colmeia",
+        "DESCRIPTION": "Descrição",
+        "DISPLAY": {
+            "BATTERY": {
+                "ALL": "Mostrar todos os dispositivos no modo de seleção múltipla",
+                "AUTO": "Mostrar a bateria mais baixa do dispositivo na colmeia no modo de seleção múltipla",
+                "DESCRIPTION": "Dispositivo de bateria a ser exibido no modo de seleção múltipla",
+                "NONE": "Não mostrar um dispositivo de bateria no modo de seleção múltipla"
+            },
+            "DESCRIPTION": "Configurações de visualização de seleção múltipla",
+            "HUMID": {
+                "ALL": "Mostrar todos os dispositivos de umidade no modo de seleção múltipla",
+                "AUTO": "Selecionar automaticamente a umidade máxima",
+                "DESCRIPTION": "Dispositivo de umidade a ser exibido no modo de seleção múltipla",
+                "NONE": "Não mostrar um dispositivo de umidade no modo de seleção múltipla"
+            },
+            "TEMP": {
+                "ALL": "Mostrar todos os dispositivos de temperatura no modo de seleção múltipla",
+                "AUTO": "Selecionar automaticamente a temperatura máxima",
+                "DESCRIPTION": "Dispositivo de temperatura a ser exibido no modo de seleção múltipla",
+                "NONE": "Não mostrar um dispositivo de temperatura no modo de seleção múltipla"
+            },
+            "WEIGHT": {
+                "ALL": "Mostrar todos os dispositivos de peso no modo de seleção múltipla",
+                "AUTO": "Selecionar automaticamente o peso máximo da balança",
+                "DESCRIPTION": "Dispositivo de peso a ser exibido no modo de seleção múltipla",
+                "NONE": "Não mostrar um dispositivo de peso no modo de seleção múltipla"
+            }
+        },
+        "EDIT_TITLE": "Editar Colmeia",
+        "ERROR_APIARY": "É necessário selecionar um apiário",
+        "MOVE": {
+            "DAY": "Novo dia de início da localização",
+            "EXP": "Todos os dados nesta colmeia permanecem os mesmos, mas isso colocará a colmeia no apiário selecionado a partir desta data. Isso é refletido nos dados meteorológicos e visualizações do apiário.",
+            "SELECT_APIARY": "Selecionar apiário",
+            "SUCCESS": "Colmeia movida",
+            "TIME": "Hora",
+            "TITLE": "Mover Colmeia"
+        },
+        "NAME": "Nome",
+        "SELECT_APIARY": "Selecionar apiário",
+        "SUCCESS_CREATED": "Colmeia criada",
+        "SUCCESS_UPDATED": "Colmeia atualizada"
+    },
+    "HIVE_PAGE": {
+        "BATTERY": {
+            "LOADING": "Carregando leituras de bateria da colmeia",
+            "NONE": "Sem dados de bateria",
+            "TITLE": "Bateria"
+        },
+        "DATA_TOOLTIP": {
+            "BUILDING": "Ver construção",
+            "OK": "Verificado atualizado",
+            "UPDATE": "Verificar precisa de atualização"
+        },
+        "DEVICE_DATA_ONLY": "Dados em gráficos, não atualmente na colmeia",
+        "DEVICE_NO_DATA": "Sem dados em gráficos, atualmente na colmeia",
+        "DEVICE_WITH_DATA": "Dados em gráficos, atualmente na colmeia",
+        "DEVICES": "Dispositivos",
+        "DOWNLOAD": "Baixar dados CSV",
+        "DOWNLOAD_PREMIUM": "Download de dados da colmeia disponível com assinatura premium.",
+        "DOWNLOAD_WEATHER": "Baixar dados CSV de clima",
+        "DOWNLOAD_WEATHER_PREMIUM": "Download de dados de clima disponível com assinatura premium.",
+        "HUMID": {
+            "LOADING": "Carregando leituras de umidade da colmeia",
+            "NONE": "Sem dados de umidade",
+            "TITLE": "Umidade"
+        },
+        "INACTIVE": "Inativo desde {{date}}",
+        "PRODUCTIVITY": {
+            "INFO": "Abelhas adicionando/removendo peso da colmeia",
+            "LOADING": "Carregando produtividade das abelhas",
+            "NONE": "Sem dados de peso para produtividade das abelhas",
+            "TITLE": "Produtividade das Abelhas"
+        },
+        "TEMP": {
+            "HIDE_SWARM_FLAGS": "Ocultar eventos de temperatura",
+            "LOADING": "Carregando leituras de temperatura da colmeia",
+            "NONE": "Sem dados de temperatura",
+            "TITLE": "Temperatura"
+        },
+        "WEIGHT": {
+            "AVERAGE_SCALE": "Balances Médios",
+            "INDIVIDUAL_SCALE": "Balances Individuais",
+            "LOADING": "Carregando leituras de peso da colmeia",
+            "MULTI_SCALE": "Múltiplos balances",
+            "NONE": "Sem dados de peso",
+            "TITLE": "Peso"
+        }
+    },
+    "HIVES": "Colmeias",
+    "HOME": {
+        "APIARIES": "Apiários",
+        "EMPTY": {
+            "TEXT_1": "Bem-vindo ao MyBroodMinder! Esta é a página inicial!",
+            "TEXT_2": "Esta é uma visualização rápida de suas colmeias e apiários. Colmeias e apiários são exibidos aqui se estiverem ativos com dispositivos atribuídos.",
+            "TEXT_3": "Apiários compartilhados não são mostrados aqui.",
+            "TEXT_4": "Parece que você não tem nada que se encaixe nessa descrição.",
+            "TEXT_5": "A partir de agora, você pode:",
+            "TEXT_LI_1A": "Usar",
+            "TEXT_LI_1B": "no canto superior esquerdo para adicionar colmeias, apiários e dispositivos à sua conta",
+            "TEXT_LI_2": "Ou baixe o aplicativo BroodMinder Bees para gerenciá-los também."
+        },
+        "HIVES": "Hives"
+    },
+    "HUB_CRUD": {
+        "CREATE_TITLE": "Criar Hub",
+        "EDIT_TITLE": "Editar Hub",
+        "ERROR_ADDRESS": "Digite um endereço de hub válido",
+        "ERROR_DUPLICATE": "Não foi possível criar, hub com esse endereço já existe",
+        "MODEL": "Número do Modelo",
+        "NAME": "Nome",
+        "NAME_AUTO": "Usar o endereço acima como nome",
+        "SIM": {
+            "ID": "ID do Sim",
+            "TELECOM": "Telecom",
+            "TITLE": "Adicionar Sim"
+        },
+        "SUCCESS_CREATED": "Hub criado",
+        "SUCCESS_UPDATED": "Hub atualizado",
+        "USERID": "ID do Usuário"
+    },
+    "HUB_PAGE": {
+        "ADDRESS": "Endereço do Dispositivo",
+        "CHART_LOADING": "Carregando leituras do concentrador",
+        "CHART_READINGS_LABEL": "leituras",
+        "CHART_READINGS_SENT": "Leituras Enviadas",
+        "CHART_SIGNAL": "Sinal",
+        "CHART_TITLE": "Leituras do Concentrador para {{name}}",
+        "DEVICES": {
+            "DEVICE": "Dispositivo",
+            "HIVE": "Colmeia",
+            "POSITION": "Posição",
+            "SIGNAL": "Sinal",
+            "TIMESTAMP": "Carimbo de Data/Hora de Envio",
+            "TITLE": "Dispositivos Enviados"
+        },
+        "FIRMWARE": "Firmware",
+        "MODEL": "Modelo",
+        "NAME": "Nome",
+        "READING_COUNT": "Leituras no gráfico: {{count}}",
+        "TITLE": "Concentrador {{name}}",
+        "UPLOAD_TIME": "Último Horário de Envio"
+    },
+    "INSP_CATEG": {
+        "BEESBROODSTG": "Estágios da cria",
+        "FEEDING": "Alimentação",
+        "HEALTH": "Saúde",
+        "MANAGE": "Gerenciamento",
+        "MITES": "Ácaros"
+    },
+    "INSP_CONF": {
+        "APPLIES": {
+            "APIARY": "Apiário",
+            "HIVE": "Colmeia"
+        },
+        "BROODADD": "Adicionado quadro de cria",
+        "BROODREMOVE": "Removido quadro de cria",
+        "BUZZINGHIVE": "Operárias poedeiras",
+        "CANDIFEED": "Alimentação com açúcar",
+        "COMBINEDHIVES": "Colmeias combinadas",
+        "DEFAULT": "Padrão",
+        "DIVISION": "Divisão",
+        "DRONE": "Presença de zangões",
+        "DRONEBROOD": "Presença de cria de zangão",
+        "EGG": "Presença de ovos",
+        "HARVEST": "Colheita",
+        "HIGHBEES": "Alta atividade de abelhas",
+        "HIGHBROOD": "Alta atividade de cria",
+        "HIGHRES": "Alta atividade de recursos",
+        "INSTALLPKG": "Pacote instalado",
+        "LARVA": "Presença de larvas",
+        "LOWBEES": "Baixa atividade de abelhas",
+        "LOWBROOD": "Baixa atividade de cria",
+        "LOWRES": "Baixa atividade de recursos",
+        "MITECOUNTLOUNGE": "Contagem de ácaros no tabuleiro pegajoso",
+        "MITECOUNTWASH": "Contagem de ácaros na lavagem",
+        "MITEFORMICPRO": "Tratamento de ácaros: Formic Pro",
+        "MITEOADRIBBLE": "Tratamento de ácaros: Gotejamento de ácido oxálico",
+        "MITEOAVAPOR": "Tratamento de ácaros: Vapor de ácido oxálico",
+        "MITESTRIPADD": "Tratamento de ácaros: adição de tiras",
+        "MITESTRIPREMOVE": "Tratamento de ácaros: remoção de tiras",
+        "MOSAICBROOD": "Criação espalhada",
+        "NECTARFLOW": "Fluxo de néctar",
+        "NOBEES": "Sem abelhas",
+        "NOBROOD": "Sem cria",
+        "NORES": "Sem recursos",
+        "NORMBEES": "Atividade média de abelhas",
+        "NORMBROOD": "Atividade média de cria",
+        "NORMRES": "Atividade média de recursos",
+        "NUCLEUSHIVE": "Colmeia de núcleo instalada",
+        "PATTIESFEED": "Alimentação com bolos de néctar",
+        "PUPA": "Presença de pupas",
+        "QUEENABSENT": "Rainha ausente",
+        "QUEENCELLSEEN": "Célula real vista",
+        "QUEENINSERT": "Rainha inserida",
+        "QUEENLINEAGE": "Linhagem da rainha",
+        "QUEENSEEN": "Rainha vista",
+        "REQUEEN": "Recriação de rainha",
+        "SICK": "Doente",
+        "SPLITQUEENREMOVE": "Divisão com remoção da rainha",
+        "STARTFEED": "Iniciar alimentação",
+        "STOLEN": "Colmeia roubada",
+        "STOPFEED": "Parar alimentação",
+        "SUPER+": "Adição de sobrescrito",
+        "SUPER-": "Remoção de sobrescrito",
+        "SWARM": "Enxameamento",
+        "SWARMMATEDQUEEN": "Enxame com rainha acasalada",
+        "SWARMRETURN": "Enxame e retorno à colmeia",
+        "SYRUPFEED": "Alimentação com xarope",
+        "VIRGINSWARM": "Enxame virgem"
+    },
+    "LOCATION_CRUD": {
+        "ADVANCED": {
+            "ADMIN_SELECT": "Selecionar",
+            "ADVANCED": "Avançado",
+            "INCLUDE_TEMP": "Incluir Temperatura",
+            "SCALE_FACTOR": "Fator de Escala",
+            "SCALE_FACTOR_REQUIRED": "Valor do fator de escala de peso obrigatório",
+            "USE_ALL": "Usar todas as leituras"
+        },
+        "CREATE": "Criar",
+        "CREATE_TITLE": "Atribuir dispositivo",
+        "EDIT_TITLE": "Editar Localização",
+        "ERROR_DEVICE": "O dispositivo possui uma localização que se sobrepõe a este período",
+        "ERROR_GENERAL": "Erro ao criar localização do dispositivo",
+        "ERROR_HIVE": "A colmeia possui dispositivo que se sobrepõe a esta posição",
+        "ERROR_INACTIVE_HIVE": "A localização não pode ter uma hora de término após o tempo de inatividade da colmeia",
+        "ERROR_MOVE_TIME": "Não é possível encerrar a localização antes do início, defina o horário para depois de {{currentEnd}}",
+        "ERROR_TIME": "A localização possui hora de término antes da hora de início",
+        "MOVE_EXP": "Isso encerra a localização atual e inicia uma nova.",
+        "MOVE_TITLE": "Mover Dispositivo",
+        "MOVED_DAY": "Novo dia de início da localização",
+        "MOVED_TIME": "Hora",
+        "SELECT_APIARY": "Selecionar apiário",
+        "SELECT_DEVICE": "Selecionar dispositivo",
+        "SELECT_HIVE": "Selecionar colmeia",
+        "SELECT_POSITION": "Selecionar posição",
+        "START_DAY": "Dia de início",
+        "START_TIME": "Hora de início",
+        "STOP_DAY": "Dia de término",
+        "STOP_TIME": "Hora de término",
+        "SUCCESS_ENDED": "Localização atual encerrada",
+        "SUCCESS_MOVED": "Dispositivo movido para colmeia"
+    },
+    "LOCATION_HIST": {
+        "CURRENT": "atual",
+        "DELETE_WINDOW": {
+            "CONFIRM": "Sim",
+            "MESSAGE": "Deseja remover esta localização do dispositivo?",
+            "TITLE": "Remover localização"
+        },
+        "DEVICE_ADDRESS": "Endereço do dispositivo",
+        "DEVICE_NAME": "Nome do dispositivo",
+        "END": "Fim",
+        "HIVE": "Colmeia",
+        "MOVE": "Mover",
+        "POSITION": "Posição",
+        "START": "Início"
+    },
+    "LOGIN": {
+        "LOGIN": {
+            "EMAIL": "Email",
+            "ERROR": {
+                "EMAIL": "Nenhuma conta existe para este email.",
+                "GENERAL": "Falha no login.",
+                "PASSWORD": "Nome de usuário/senha incorretos."
+            },
+            "FORGOT_LINK": "Esqueceu a senha",
+            "LOGIN_BTN": "Entrar com email",
+            "PASSWORD": "Senha",
+            "RESET": "Enviar email de redefinição",
+            "RESET_ERROR": "Erro, email não enviado.",
+            "RESET_SUCCESS": "Email de redefinição enviado para {{value}}",
+            "TITLE": "Entrar na conta existente"
+        },
+        "LOGIN_MENU": "Login",
+        "REGISTER": {
+            "EMAIL": "Email",
+            "ERROR": {
+                "DUPLICATE": "O endereço de email já está em uso por outra conta.",
+                "EMAIL": "O endereço de email está formatado incorretamente.",
+                "GENERAL": "Não é possível criar a conta.",
+                "PASSWORD": "Senha não é forte o suficiente."
+            },
+            "EULA": {
+                "AGREE": "Eu concordo",
+                "DESCRIPTION": "Pedimos que você concorde com as seguintes declarações para usar este software de apicultura SaaS:",
+                "POINT_1": "Estou colocando os dados que faço upload ou insiro neste serviço no Domínio Público. Como tal, mybroodminder.com pode usar os dados, de forma anônima, para compartilhar com o público em geral.",
+                "POINT_2": "Entendo que o mybroodminder.com fará o melhor possível para não expor nenhuma informação de identificação pessoal (PII), como meu nome de usuário, senha e código postal, mas que o mybroodminder.com não pode ser responsabilizado por invasões ou outros métodos de exposição de dados.",
+                "POINT_3": "Entendo que o mybroodminder.com fará o melhor possível para armazenar e fazer backup de todos os dados enviados ou inseridos nele, mas que o mybroodminder.com não pode ser responsabilizado por perda de dados.",
+                "POINT_4": "Entendo que o mybroodminder.com é uma empresa separada de outros fornecedores que podem integrar seus dispositivos ao mybroodminder.com, e que o mybroodminder.com não é responsável pelas ações desses fornecedores.",
+                "POINT_5": "Entendo que o mybroodminder.com é um lugar para apicultores e entomologistas trocarem informações, e me comportarei de maneira cortês o tempo todo. Entendo que não fazer isso pode resultar no término da minha conta a critério exclusivo da equipe do mybroodminder.com.",
+                "TITLE": "MyBroodMinder.com EULA (Contrato de Licença do Usuário Final) v1.1"
+            },
+            "PASSWORD": "Senha",
+            "REGISTER_BTN": "Registrar email",
+            "TITLE": "Registrar nova conta"
+        },
+        "REGISTER_MENU": "Registrar",
+        "RESOURCES": {
+            "DESCRIPTION": "Obrigado por se juntar ao movimento BroodMinder, onde estamos aprendendo e compartilhando informações para melhorar nossa compreensão e gerenciamento de nossas preciosas abelhas.",
+            "DESCRIPTION_1": "Confira nossas atualizações da Primavera de 2020, incluindo atualizações 'SwarmMinder' para seus dispositivos BroodMinder-T2. Assista ao vídeo ",
+            "DESCRIPTION_1_LINK": "aqui.",
+            "DESCRIPTION_2": " Agradecemos sinceramente ao Google e à <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a> pelo generoso apoio à BroodMinder Citizen Science.",
+            "LINKS": {
+                "BEECOUNTED": "BeeCounted",
+                "LOGIN": "Entrar",
+                "SUPPORT": "Suporte",
+                "TITLE": "Links",
+                "USER_GUIDE_PDF": "Guia do Usuário Escrito (PDF)",
+                "USER_GUIDE_VIDEO": "Guias do Usuário em Vídeo"
+            },
+            "SUBTITLE": "Aqui você encontrará muitos recursos para começar a contribuir para aprender mais sobre nossas abelhas.",
+            "TITLE": "Recursos"
+        },
+        "SIDEBAR": {
+            "APIARY_CONTEXT": {
+                "BEECOUNTED": "BeeCounted",
+                "EDIT": "Editar {{value}}",
+                "NEW_HIVE": "Nova Colmeia",
+                "REMOVE_SHARED_APIARY": "Remover apiário compartilhado",
+                "RESEARCH_DOWNLOAD": "Download de dados do pesquisador",
+                "SHARE": "Compartilhar"
+            },
+            "CLEAR_SEL": "Limpar todas as seleções",
+            "CONFIGURE": "Configurar",
+            "DEVICE_CONTEXT": {
+                "EDIT": "Editar {{value}}",
+                "EDIT_LOCATION": "Editar Local Atual",
+                "MOVE": "Mover Dispositivo"
+            },
+            "DOCUMENTATION": "Documentação",
+            "HIVE_CONTEXT": {
+                "ARCHIVE": "Definir Colmeia como Inativa",
+                "BEECOUNTED": "BeeCounted",
+                "EDIT": "Editar {{value}}",
+                "EXISTING_DEVICE": "Adicionar Dispositivo Existente",
+                "MOVE": "Mover Colmeia",
+                "NEW_DEVICE": "Adicionar Novo Dispositivo"
+            },
+            "HOME": "Início",
+            "HUB_CONTEXT": {
+                "REMOVE": "Remover {{value}} do menu"
+            },
+            "HUB_TOOLTIP": "Hub",
+            "LOCAL_SOURCE": "Fonte Local",
+            "MEMBERSHIPS": "Opções de Associação",
+            "MULTI_SELECT": "Seleção Múltipla",
+            "NEW": {
+                "APIARY": "Apiário",
+                "APIARY_NOTE": "Nota do Apiário",
+                "DASHBOARD": "Painel Personalizado",
+                "DEVICE": "Dispositivo",
+                "HIVE": "Colmeia",
+                "HIVE_NOTE": "Nota da Colmeia",
+                "TITLE": "Novo"
+            },
+            "NEW_FEATURES": "Recursos Novos",
+            "RESOURCES": "Recursos",
+            "SHARED_TOOLTIP": "compartilhado comigo",
+            "SUPPORT_EMAIL": "Email support@broodminder.com",
+            "WEATHER_CONTEXT": {
+                "ADD_SOURCE": "Adicionar Fonte",
+                "EDIT": "Editar Clima",
+                "EDIT_SOURCES": "Editar Fontes",
+                "INFO": "Mais Informações",
+                "NAME": "Tempo"
+            },
+            "WEATHER_INFO": {
+                "TEXT": "Esses dados meteorológicos estão vindo da WeatherSource. Baseia-se no código postal fornecido no seu apiário.",
+                "TITLE": "Clima da Fonte de Clima"
+            },
+            "WEATHER_SOURCE": "Fonte de Clima"
+        },
+        "TOP_MENU": {
+            "ACCOUNT": "Conta",
+            "ADMIN": "Admin",
+            "HELP": "Ajuda",
+            "LOGIN": "Entrar",
+            "LOGOUT": "Sair",
+            "REGISTER": "Registrar",
+            "RESOURCES": "Recursos",
+            "TOUR": "Tour"
+        },
+        "TOUR": {
+            "FEATURES": {
+                "CLOSE": "Fechar",
+                "FEATURE_1": "Primeira vez, criar colmeia",
+                "FEATURE_2": "Visualizando dados",
+                "FEATURE_3": "Configurando e movendo dispositivos",
+                "FEATURE_4": "Visualizando status de CELL/WiFi/Hub",
+                "NEXT": "Próximo",
+                "SKIP": "Pular",
+                "TITLE": "Tour de Recursos"
+            },
+            "START": {
+                "DESCRIPTION": "Bem-vindo ao novo MyBroodMinder!",
+                "SEE": "Ver Recursos",
+                "SKIP": "Pular",
+                "TITLE": "Bem-vindo!!"
+            }
+        },
+        "VIDEO_GUIDES": {
+            "APPS": {
+                "LINK_1": "S1:E14 O Aplicativo BroodMinder-Bees",
+                "LINK_2": "Aplicativo de Apiário - Modo Hub",
+                "TITLE": "Aplicativos"
+            },
+            "BLOGMINDER": {
+                "TITLE": "Vídeos do BlogMinder"
+            },
+            "DISCONTINUED": {
+                "APIARY_APP": {
+                    "LINK_1": "Uso Normal",
+                    "LINK_2": "Novo - Modo Hub",
+                    "TITLE": "Aplicativo de Apiário (nuvem)"
+                },
+                "BROODMINDER_APP": {
+                    "LINK_1": "Uso Normal",
+                    "LINK_2": "Exportação de Dados",
+                    "TITLE": "Aplicativo Original (independente)"
+                },
+                "CELL_APP": {
+                    "LINK_1": "Diagnostics",
+                    "TITLE": "Aplicativo CELL"
+                },
+                "ORIGINAL_CELL_WIFI": {
+                    "LINK_1": "BroodMinder-CELL/WIFI (Até julho de 2021)",
+                    "TITLE": "CELL/WIFI Original"
+                },
+                "TITLE": "Produtos Descontinuados",
+                "TROUBLESHOOT": {
+                    "LINK_1": "Manutenção Anual",
+                    "LINK_2": "Baterias",
+                    "LINK_3": "Atualização de Firmware T2 versão 2.77",
+                    "TITLE": "Solução de Problemas"
+                }
+            },
+            "HOW_TO": "Como usar este manual",
+            "IN_PROGRESS": "Em progresso",
+            "INSTALLATION": {
+                "LINK_1": "Início Rápido com Kit CS",
+                "LINK_2": "Qual APP devo escolher?",
+                "LINK_3": "Instalação BroodMinder ASP",
+                "LINK_4": "BroodMinder-SubHub",
+                "LINK_5": "BroodMinder-WIFI",
+                "LINK_6": "BroodMinder-CELL",
+                "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+                "LINK_8": "S1:E19 BroodMinder-DIY",
+                "TITLE": "Instalação"
+            },
+            "INTERPRETATION": {
+                "LINK_1": "S1:E4 BroodMinder e Mellisphera",
+                "LINK_2": "S1:E3 Tamanho da colônia vs temperatura",
+                "LINK_3": "S1:E8 Apresentação de Detecção de Enxame",
+                "TITLE": "Interpretação de Dados"
+            },
+            "MAINTENANCE": {
+                "LINK_1": "S1:E1 Manutenção de Primavera para Monitoramento de Colmeia",
+                "LINK_2": "S1:E18 Baterias",
+                "TITLE": "Manutenção"
+            },
+            "MYBROODMINDER": {
+                "LINK_1": "Primeiros Passos",
+                "LINK_2": "As Vistas de Dados",
+                "LINK_3": "Configuração",
+                "LINK_4": "Movendo Dispositivos",
+                "LINK_5": "Monitoramento de Celular, WIFI e Hub",
+                "LINK_6": "Navegação Alternativa",
+                "LINK_7": "MyBroodMinder.com Premium",
+                "TITLE": "MyBroodMinder"
+            },
+            "TITLE": "Guia de Vídeo do BroodMinder"
+        }
+    },
+    "MEMBERSHIP": {
+        "12_MONTH": "12 meses",
+        "1_DEVICE": "1 dispositivo por vez",
+        "ALL_DEVICE": "todos os dispositivos de uma vez",
+        "BUY": "Comprar agora",
+        "CELL_HUB": "CELL HUB",
+        "COLONY_BROOD": "COLÔNIA DE CRIA",
+        "COLONY_FITNESS": "COLÔNIA DE FITNESS",
+        "DAILY_ALERTS": "ALERTAS DIÁRIOS",
+        "DATA_DISPLAY": "EXIBIÇÃO DE DADOS",
+        "DATA_UPLOADING": "UPLOAD DE DADOS",
+        "EMAIL_SUMMARY": "RESUMO POR E-MAIL",
+        "FREE_STORAGE": "ARMAZENAMENTO GRATUITO NA NUVEM",
+        "FULL_HIST": "histórico completo",
+        "FULL_SUPPORT": "SUPORTE PREMIUM",
+        "HOBBY": "HOBBY",
+        "HOBBY_PRICE": "GRÁTIS",
+        "HUB_INFO": "Possibilidade de usar um smartphone em vez de um hub para enviar dados em tempo real",
+        "HUB_MODE": "MODO HUB",
+        "INFO_1": "A associação inclui um token gratuito para dispositivos wifi. Tokens adicionais devem ser comprados para hubs celulares.",
+        "INFO_2": "Vários dispositivos Yolink podem ser adicionados à sua conta (consulte o guia do usuário)",
+        "LOGIN": "Entrar / Registrar",
+        "MBM_VIEWS": "VISÕES PREMIUM DO MYBROODMINDER",
+        "MBM_VIEWS_INFO": "Visões / gráficos de apiário e produtividade",
+        "MONTH": "Mês",
+        "MONTHLY": "MENSAL",
+        "MS_VIEWS": "VISÕES MELLISPHERA",
+        "PREMIUM": "PREMIUM",
+        "PRIVATE_APIARY": "APIÁRIO PRIVADO",
+        "PRO": "PRO",
+        "PUBLIC_APIARY": "APIÁRIO PÚBLICO",
+        "PUBLIC_INFO": "em BeeCounted.org",
+        "PURCHASE_MEMBERSHIP": "Comprar associação",
+        "PURHASE_TOKENS": "Comprar tokens",
+        "REALTIME_ALERTS": "ALERTAS EM TEMPO REAL",
+        "SUB_HUB": "SUBHUB",
+        "SUPPORT": "SUPORTE",
+        "THIRD_PARTY": "DISPOSITIVOS DE TERCEIROS",
+        "TITLE_2": "DISPOSITIVOS BROODMINDER E APLICATIVO DE APIÁRIO",
+        "UNLIMITED_DEVICES": "DISPOSITIVOS ILIMITADOS",
+        "WIFI_HUB": "HUB WIFI",
+        "YEAR": "Ano",
+        "YEARLY": "ANUAL"
+    },
+    "NOTE_CRUD": {
+        "ADD_TAG": "Adicionar tag",
+        "APIARY": {
+            "STATE": "Estado Geral"
+        },
+        "CREATE_TITLE": "Criar Nota",
+        "DATE": "Data",
+        "EDIT_TITLE": "Editar Nota",
+        "ERROR_TIME": "Tempo inválido",
+        "NO_HIVE": "Sem Colmeia",
+        "SUCCESS_CREATED": "Nota criada na colmeia",
+        "SUCCESS_UPDATED": "Nota atualizada na colmeia"
+    },
+    "NOTES": {
+        "ADD_TOOLTIP": "Adicionar Nota",
+        "DATE": "Data",
+        "DELETE_WINDOW": {
+            "CONFIRM": "Sim",
+            "MESSAGE": "Deseja excluir esta nota?",
+            "TITLE": "Excluir nota"
+        },
+        "DESCRIPTION": "Descrição",
+        "DOWNLOAD_TOOLTIP": "Baixar Notas",
+        "HIVE": "Colmeia",
+        "NO_DESCRIPTION": "sem descrição",
+        "PIN": "Fixar",
+        "PREMIUM_EXP": "Download de notas disponível com assinatura premium.",
+        "TITLE": "Notas de {{value}}"
+    },
+    "POSITIONS": {
+        "ABOVE_LOWER_BROOD_BOX": "Acima da caixa inferior de cria",
+        "ABOVE_UPPER_BROOD_BOX": "Acima da caixa superior de cria",
+        "CUSTOM_1": "Personalizado (1)",
+        "CUSTOM_2": "Personalizado (2)",
+        "CUSTOM_3": "Personalizado (3)",
+        "CUSTOM_4": "Personalizado (4)",
+        "CUSTOM_5": "Personalizado (5)",
+        "CUSTOM_6": "Personalizado (6)",
+        "CUSTOM_7": "Personalizado (7)",
+        "OTHER": "Outro",
+        "OUTSIDE_HIVE": "Fora da colmeia",
+        "SCALE_UNDER_HIVE": "Escala sob a colmeia",
+        "SCALE_UNDER_HIVE_BACK": "Escala sob a colmeia (atrás)",
+        "UNDER_INNER_COVER": "Sob a tampa interna"
+    },
+    "PREFERENCES": {
+        "ALERTS_EMAIL": "E-mails de Alerta [BETA]",
+        "INTERPOLATE": "Interpolar Gráficos (conectar todos os pontos, mesmo se houver lacunas de dados acima de 8 horas)",
+        "LANGUAGE": "Idioma",
+        "LANGUAGE_DEFAULT": "Padrão do Navegador",
+        "SAVE": "Salvar",
+        "TIMEZONE": "Fuso Horário",
+        "TIMEZONE_DEFAULT": "Padrão do Navegador",
+        "UNIT": "Unidade",
+        "UNIT_DEFAULT": "Padrão",
+        "UNIT_IMPERIAL": "Imperial (Fahrenheit/Libras)",
+        "UNIT_METRIC": "Métrico (Celsius/Quilogramas)"
+    },
+    "PURCHASE": {
+        "ACCOUNT": {
+            "AMOUNT": "Valor de renovação automática",
+            "BILLING": {
+                "TITLE": "Atualizar endereço de cobrança",
+                "UPDATE": "Atualizar"
+            },
+            "CANCEL": {
+                "CONFIRM_WINDOW": {
+                    "CANCEL": "Não",
+                    "CONFIRM": "Sim",
+                    "MESSAGE": "Isso cancelará os pagamentos futuros. Sua associação e hubs ainda funcionarão até {{expiration}}. Deseja cancelar?",
+                    "TITLE": "Cancelar assinatura Premium do MyBroodMinder"
+                },
+                "GENERAL_ERROR": "Erro ocorreu. Assinatura não cancelada",
+                "SUCCESS": "Assinatura cancelada"
+            },
+            "CANCEL_BUTTON": "Cancelar assinatura",
+            "DATE": "Data de renovação automática",
+            "MONTH_SUB": "Assinatura mensal - Renovação automática",
+            "PAYMENT": {
+                "BILLING": "Endereço de cobrança",
+                "BILLING_UPDATE": "Atualizar endereço de cobrança",
+                "CARD": "{{type}} terminando em {{last4}}",
+                "CARD_UPDATE_BUTTON": "Atualizar método de pagamento",
+                "EDIT": {
+                    "TITLE": "Atualizar método de pagamento",
+                    "UPDATE_BUTTON": "Atualizar pagamento",
+                    "WARN": "Excluir o método de pagamento da assinatura sem verificar e atualizar para um novo cancelará sua assinatura."
+                },
+                "NOT_FOUND": "Não encontrado",
+                "TITLE": "Método de pagamento"
+            },
+            "PRICE": "Preço da associação",
+            "STATUS": "Status",
+            "TITLE": "Assinatura",
+            "YEAR_SUB": "Assinatura anual - Renovação automática"
+        },
+        "ADDITIONAL": {
+            "CONFIRM": "Efetuar pagamento",
+            "MESSAGE": "Os tokens comprados serão cobrados da sua associação. {{amount}} será cobrado no seu cartão de assinatura.",
+            "TITLE": "Comprar tokens"
+        },
+        "BILLING": {
+            "COUNTRY_CODE": "Código do país",
+            "LOCALITY": "Cidade",
+            "POSTAL_CODE": "CEP",
+            "REGION": "Estado",
+            "STREET_ADDRESS_1": "Endereço",
+            "STREET_ADDRESS_2": "Endereço 2",
+            "TITLE": "Endereço de cobrança"
+        },
+        "CUSTOMER": {
+            "EMAIL": "E-mail",
+            "FIRST_NAME": "Nome",
+            "LAST_NAME": "Sobrenome"
+        },
+        "PAY": {
+            "ADDRESS_ERROR": "Campos obrigatórios ausentes",
+            "COMPLETE": {
+                "AR_AMOUNT": "Valor de renovação automática",
+                "AR_DATE": "Data de renovação automática",
+                "ID": "ID do pedido",
+                "LINK_1": "Clique",
+                "LINK_2": "para ver as associações.",
+                "LINK_LINK": "aqui",
+                "RECEIPT": "Recibo enviado",
+                "STATUS": "Status",
+                "SUCCESS": "Compra concluída.",
+                "TAX": "Imposto",
+                "TOTAL": "Total pago"
+            },
+            "PAY_BUTTON": "Efetuar pagamento",
+            "RENEW_DISCLAIMER": "Assinatura com renovação automática. Você será cobrado {{amount}} {{frequency}}.",
+            "TITLE": "Informações de pagamento",
+            "VERIFY_BUTTON": "Verificar método de pagamento"
+        },
+        "PRODUCTS": {
+            "CELL_HUB": "Token de hub celular",
+            "CELL_HUB_SINGLE": "Token de hub celular (dispositivo único)",
+            "MEMBERSHIP": "Associação Premium",
+            "THIRD_PARTY": "Token de dispositivos de terceiros",
+            "WIFI_HUB": "Token de hub wifi",
+            "WIFI_HUB_FREE": "Token de hub wifi (grátis)"
+        },
+        "SUMMARY": {
+            "ADD_ERROR_1": "Clique",
+            "ADD_ERROR_2": "aqui",
+            "ADD_ERROR_3": "para adicionar tokens à associação atual.",
+            "ERROR_1": "Você já comprou uma associação. Clique",
+            "ERROR_2": "para ver as associações.",
+            "ERROR_LINK": "aqui",
+            "MONTH_PREM": " Assinatura Premium de 1 mês - Renovação automática",
+            "MONTH_PRO": " Assinatura Pro de 1 mês - Renovação automática",
+            "PRICE": " Preço da associação",
+            "QUANTITY": "1 associação com {{quantity}} tokens adicionais",
+            "TITLE": "Comprando assinatura Premium",
+            "TITLE_ADDING": "Comprando tokens",
+            "TOTAL": "Total",
+            "YEAR_PREM": " Assinatura Premium de 1 ano - Renovação automática",
+            "YEAR_PRO": " Assinatura Pro de 1 ano - Renovação automática"
+        },
+        "TABLE": {
+            "ADD": "Adicionar ao carrinho",
+            "HEADERS": {
+                "AUTO": "Renovação automática",
+                "EXPIRES": "Expira em",
+                "PRICE": "Preço",
+                "PRODUCT": "Produto",
+                "PRORATED_PRICE": "Preço proporcional",
+                "RENEW": "Renova em",
+                "START": "Começa em"
+            },
+            "NEW": "Novo produto",
+            "PURCHASE": "Comprar",
+            "REMOVE": "Remover",
+            "REMOVE_CART": "Remover do carrinho",
+            "SELECT_TOKEN": "Selecionar token",
+            "TOTAL": "Total",
+            "TOTAL_NOW": "Total (Devido agora)",
+            "TOTAL_YEAR": "Total anual (Devido {{date}})"
+        }
+    },
+    "RESEARCH_DOWNLOAD": {
+        "A_NAME": "NOME",
+        "APIARY_DOWNLOAD_BUTTON": "Baixar Apiário Completo",
+        "DOWNLOAD_STATUS": "Status de download",
+        "H_NAME": "NOME",
+        "HIVE_DOWNLOAD_BUTTON": "Baixar",
+        "LAST_DATA": "Últimos dados"
+    },
+    "SHARE_BUTTON": {
+        "BUTTON": "Compartilhar",
+        "EDIT": "Editar Links Compartilhados",
+        "SHARE_HIVE": "Compartilhar esta Colmeia"
+    },
+    "SHARE_LINK_CRUD": {
+        "CREATE": "Compartilhar",
+        "CREATE_SUBTITLE_1": "Vamos criar um link que você pode compartilhar com amigos ou colar em outras aplicações como o Facebook.",
+        "CREATE_SUBTITLE_2": "As pessoas podem ver os dados sem fazer login, mas não podem modificá-los ou ver dados fora do intervalo de tempo.",
+        "CREATE_SUCCESS_TITLE": "Link público criado!",
+        "CREATE_TITLE": "Criar Link Público",
+        "DASHBOARD": "Painel de Controle",
+        "DELETE": "Excluir",
+        "DELETE_WINDOW": {
+            "CONFIRM": "Excluir",
+            "MESSAGE": "Gostaria de excluir este link público? Esta ação não pode ser desfeita.",
+            "TITLE": "Excluir Link Público"
+        },
+        "DESCRIPTION": "Descrição",
+        "EDIT_SUCCESS_TITLE": "Link público atualizado!",
+        "EDIT_TITLE": "Editar Link Público",
+        "ERROR": "Erro ao criar o link",
+        "FORECAST": "Incluir Previsão",
+        "HISTORY": {
+            "CREATED": "Criado",
+            "LINK": "Link",
+            "TITLE": "Links Públicos para {{hiveName}}"
+        },
+        "HIVES": "Colmeias",
+        "NOTES": "Incluir Notas",
+        "SUCCESS_CREATED": "Link criado",
+        "SUCCESS_DELETED": "Link excluído",
+        "SUCCESS_UPDATED": "Link atualizado",
+        "TIME_RANGE": "(intervalo deslizante)",
+        "TIME_SET": "Compartilhar dados de {{start}} a {{end}}",
+        "TIME_ZOOM": "Compartilhar visualização atual de {{start}} a {{end}}",
+        "TIMEZONE": {
+            "BROWSER": "Padrão do Navegador",
+            "TITLE": "Fuso Horário"
+        },
+        "UNITS": {
+            "BROWSER": "Padrão do Navegador",
+            "IMPERIAL": "Imperial",
+            "METRIC": "Métrico",
+            "TITLE": "Unidades"
+        },
+        "UPDATE": "Atualizar",
+        "WEATHER": "Tempo"
+    },
+    "SHARING": {
+        "BEECOUNTED": {
+            "CHANGED": "Apiário atualizado",
+            "CHECKBOX": "BeeCounted.org",
+            "EXPIRED": "A associação premium expirou. Os dados são privados apenas antes de {{end}}.",
+            "INFO_CHECKED": "Obrigado por compartilhar seus dados. Você está ajudando pesquisadores ao redor do mundo a aprender e desenvolver intervenções para nossas valiosas abelhas e nosso meio ambiente.",
+            "INFO_NON_PREMIUM": "Todos os dados armazenados para usuários não premium são de domínio público. Os dados podem ser tornados privados se você tiver uma conta MyBroodMinder Premium. Obrigado por compartilhar seus dados. Você está ajudando pesquisadores ao redor do mundo a aprender e desenvolver intervenções para nossas valiosas abelhas e nosso meio ambiente.",
+            "INFO_UNCHECKED": "Considere compartilhar seus dados. Você está ajudando pesquisadores ao redor do mundo a aprender e desenvolver intervenções para nossas valiosas abelhas e nosso meio ambiente."
+        },
+        "BIP": {
+            "CHANGED": "Apiário atualizado",
+            "CHECKBOX": "Bee Informed Partnership",
+            "INFO": "Em breve"
+        },
+        "EXT_SUBTITLE": "Compartilhar apiário com outros sites",
+        "HIVES": {
+            "CHANGED": "Colmeia atualizada",
+            "DESCRIPTION": "Descrição",
+            "NAME": "Nome",
+            "SHARE": "Compartilhar",
+            "SHARE_EXPIRED": "A associação premium expirou. Os dados são privados apenas antes de {{end}}.",
+            "TITLE": "Colmeias compartilhadas com outros sites"
+        },
+        "MBM_TITLE": "Compartilhar apiário com usuário MyBroodMinder",
+        "MELLISPHERA": {
+            "ACTIVE_WINDOW": {
+                "MESSAGE": "Clique abaixo para ativar sua conta Mellisphera.",
+                "TITLE": "Ativar Conta Mellisphera"
+            },
+            "CHANGED": "Apiário atualizado",
+            "CHECKBOX": "Mellisphera (Beta)",
+            "INFO_ACCOUNT": "Mostrar apiário na minha conta Mellisphera",
+            "INFO_NO_ACCOUNT": "Conta não conectada à Mellisphera"
+        },
+        "PH": {
+            "CHANGED": "Apiário atualizado",
+            "CHECKBOX": "Bee-life.eu",
+            "EXTERNAL_INFO": "Saiba mais",
+            "INFO": "Compartilhe seus dados de sensor com a Bee Life Association por meio do European Union Pollinator Hub para melhorar a política de polinizadores, aproveitando a tecnologia avançada e insights baseados em dados coletados por apicultores.\n\nOs dados compartilhados incluem:\n- todas as dispositivos neste apiário com suas medições brutas.\n- uma localização aproximada do apiário com base no código postal.\n\nOs dados são enviados diariamente para a BeeLife."
+        },
+        "REMOVE_SELF": {
+            "CONFIRM": "Remover Apiário",
+            "GENERIC_ERROR": "Erro, apiário não removido",
+            "MESSAGE": "Você gostaria de remover o apiário compartilhado {{name}} da sua conta?",
+            "SUCCESS_REMOVED": "Apiário removido",
+            "TITLE": "Remover Apiário Compartilhado"
+        },
+        "TITLE": "{{name}} Compartilhamento",
+        "USER": {
+            "ADD_SUCCESS": "Usuário adicionado",
+            "ADD_TOOLTIP": "Adicionar usuário",
+            "ADD_USER": "Digite o e-mail",
+            "ERROR_NO_USER": "Usuário não existe.",
+            "INFO": "O usuário deve ter uma conta MyBroodMinder. Eles poderão ver os dados do seu apiário e colmeia, mas não fazer alterações.",
+            "REMOVE": "Remover",
+            "REMOVE_SUCCESS": "Usuário removido",
+            "SHARE_BUTTON": "Compartilhar",
+            "TITLE": "Usuários MyBroodMinder"
+        }
+    },
+    "SUBS": {
+        "COMMON": {
+            "FREE": "grátis",
+            "FREE_CAP": "Grátis",
+            "MONTHLY": "mensal",
+            "MONTHLY_CAP": "Mensal",
+            "PREPAID": "pré-pago",
+            "PREPAID_CAP": "Pré-pago",
+            "YEARLY": "anual",
+            "YEARLY_CAP": "Anual"
+        },
+        "EXP": {
+            "CREDIT_CANCELLED": "Não renovável, expira em {{expiration}}",
+            "CREDIT_EXPIRED": "Expirou em {{expiration}}",
+            "CREDIT_EXPIRING": "Expira em {{expiration}}",
+            "CREDIT_FREE_RENEWING": "Grátis, expira em {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Pré-pago, expira em {{expiration}}",
+            "NOT_ACTIVE": "Não Ativo",
+            "PENDING": "Pagamento Pendente",
+            "SUB_CANCELLED": "Não renovável, expira em {{expiration}}",
+            "SUB_EXPIRED": "Expirou em {{expiration}}",
+            "SUB_EXPIRING": "Expira em {{expiration}}",
+            "SUB_RENEWING": "Renova em {{expiration}}",
+            "TRIAL": "Membro de teste, expira em {{expiration}}"
+        }
+    },
+    "UNAUTHORIZED_PAGE": {
+        "TITLE": "Não Autorizado"
+    },
+    "WEATHER_PAGE": {
+        "DESCRIPTION": "Esta visualização exibe os dados meteorológicos da Weather Source para a localização do seu apiário, juntamente com quaisquer fontes meteorológicas configuradas pelo usuário",
+        "HUMIDITY": "Umidade",
+        "SOURCES": "Fontes Meteorológicas",
+        "TEMPERATURE": "Temperatura",
+        "TITLE": "Clima"
+    }
+}
