@@ -660,7 +660,7 @@
     },
     "CONFIGURE_APIARIES": {
         "ACTIVE": "Attivo",
-        "ADD": "Aggiungi Alveare",
+        "ADD": "Aggiungi Apiario",
         "CANNOT_DELETE_WINDOW": {
             "MESSAGE": "Questo alveare contiene i seguenti alveari: {{hives}} Non è possibile eliminare questo alveare finché non si eliminano o spostano questi alveari.",
             "TITLE": "Impossibile eliminare l'alveare"
@@ -795,19 +795,19 @@
     },
     "CONFIGURE_HIVES": {
         "ACTIVE": "Attivo",
-        "ADD": "Aggiungi alveare",
-        "APIARY": "Alveare",
-        "APIARY_HISTORY": "Cronologia alveari",
-        "CODE": "Codice alveare",
+        "ADD": "Aggiungi Arnia",
+        "APIARY": "Apiario",
+        "APIARY_HISTORY": "Cronologia Apiari",
+        "CODE": "Codice Apiario",
         "CONFIRM_DELETE_WINDOW": {
             "CONFIRM": "Sì",
-            "MESSAGE": "Sei sicuro di voler eliminare l'alveare {{name}}? Questo elimina definitivamente l'alveare.",
-            "TITLE": "Elimina alveare"
+            "MESSAGE": "Sei sicuro di voler eliminare l'arnia {{name}}? Questo elimina definitivamente l'arnia.",
+            "TITLE": "Elimina arnia"
         },
         "CONFIRM_INACTIVE_WINDOW": {
             "COMMENT": "Commento",
             "CONFIRM": "Sì",
-            "MESSAGE": "Questo termina tutte le posizioni del dispositivo nell'alveare e rimuove l'alveare dalle tue visualizzazioni dell'alveare. I dati esistenti rimarranno, ma i nuovi dati non verranno più inviati a questo alveare. Questo non può essere annullato. Imposta l'alveare {{name}} come inattivo?",
+            "MESSAGE": "Questo termina tutte le posizioni del dispositivo nell'apiario e rimuove l'apiario dalle tue visualizzazioni dell'apiario. I dati esistenti rimarranno, ma i nuovi dati non verranno più inviati a questo alveare. Questo non può essere annullato. Imposta l'alveare {{name}} come inattivo?",
             "REASON": "Seleziona motivo",
             "REASONS": {
                 "ABSCONDED": "Fuggito",
@@ -815,16 +815,16 @@
                 "DIED": "Morto",
                 "OTHER": "Altro"
             },
-            "TITLE": "Imposta alveare come inattivo"
+            "TITLE": "Imposta apiario come inattivo"
         },
-        "DELETE_ERROR": "Errore nell'eliminazione dell'alveare",
-        "DELETE_SUCCESS": "Alveare eliminato",
+        "DELETE_ERROR": "Errore nell'eliminazione dell'apiario",
+        "DELETE_SUCCESS": "Apiario eliminato",
         "LOCATION_HISTORY": "Cronologia dispositivi",
-        "NAME": "Nome dell'alveare",
+        "NAME": "Nome dell'Arnia",
         "UPDATED_SUCCESS": "Alveare aggiornato"
     },
     "CONFIGURE_HUBS": {
-        "APIARY": "Alveare",
+        "APIARY": "Apiario",
         "BATTERY": "Batteria",
         "EDIT": "Gestisci",
         "EXP_UNASSIGNED": "Nessuno",
@@ -1528,7 +1528,7 @@
             "TEXT_LI_1B": "in alto a sinistra per aggiungere alveari, apiari e dispositivi al tuo account",
             "TEXT_LI_2": "O scarica l'app BroodMinder Bees per gestirli anche da lì."
         },
-        "HIVES": "Alveari"
+        "HIVES": "Arnie"
     },
     "HUB_CRUD": {
         "CREATE_TITLE": "Crea Hub",
@@ -1795,13 +1795,13 @@
         "DOWNLOAD_TOOLTIP": "Scarica Note",
         "HIVE": "Arnia",
         "NO_DESCRIPTION": "nessuna descrizione",
-        "PIN": "Perno",
+        "PIN": "PIN",
         "PREMIUM_EXP": "Scaricare le note è disponibile con l'abbonamento premium.",
         "TITLE": "Note {{value}}"
     },
     "POSITIONS": {
-        "ABOVE_LOWER_BROOD_BOX": "Sopra la scatola inferiore della covata",
-        "ABOVE_UPPER_BROOD_BOX": "Sopra la scatola superiore della covata",
+        "ABOVE_LOWER_BROOD_BOX": "Covata #1",
+        "ABOVE_UPPER_BROOD_BOX": "Covata #2",
         "CUSTOM_1": "Personalizzato (1)",
         "CUSTOM_2": "Personalizzato (2)",
         "CUSTOM_3": "Personalizzato (3)",
@@ -1811,8 +1811,8 @@
         "CUSTOM_7": "Personalizzato (7)",
         "OTHER": "Altro",
         "OUTSIDE_HIVE": "Fuori dall'arnia",
-        "SCALE_UNDER_HIVE": "Bilancia sotto l'arnia",
-        "SCALE_UNDER_HIVE_BACK": "Bilancia sotto l'arnia (Dietro)",
+        "SCALE_UNDER_HIVE": "Bilancia",
+        "SCALE_UNDER_HIVE_BACK": "Bilancia(Dietro)",
         "UNDER_INNER_COVER": "Sotto il coperchio interno"
     },
     "PREFERENCES": {
