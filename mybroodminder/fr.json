@@ -603,7 +603,7 @@
             "GENERIC": "Episode thermique",
             "TITLE": "T"
         },
-        "SWARM_STATE": "SM echantillonnage",
+        "SWARM_STATE": "SM status",
         "TEMP": "Température",
         "TEMP_AXIS": "Température en {{tUnit}}",
         "WEATHER_HUMID": "Humidité extérieure",
@@ -1164,7 +1164,7 @@
             "REMOVE_DUPLICATES_TITLE": "Doublons supprimés",
             "RSSI": "Rssi",
             "SAMPLE": "Echantillon",
-            "SAMPLE_STATE": "Echantillonnage",
+            "SAMPLE_STATE": "SM status",
             "SOURCE": "Source",
             "SUCCESS": "Relevés supprimés",
             "TEMP": "Temp",
