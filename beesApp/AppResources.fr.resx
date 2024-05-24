@@ -15,14 +15,20 @@
 	<data name="TAB_DEVICES">
 		<value>Capteurs</value>
 	</data>
+		<data name="TAB_MANAGE">
+		<value>Manage</value>
+	</data>
 	<data name="TAB_APIARIES">
 		<value>Ruchers</value>
 	</data>
-	<data name="TAB_HELP">
-		<value>Aide</value>
+	<data name="TAB_HIVES">
+		<value>Hives</value>
 	</data>
 	<data name="TAB_SETTINGS">
 		<value>Réglages</value>
+	</data>
+	<data name="TAB_NOTIFICATIONS">
+		<value>Notifications</value>
 	</data>
 	<data name="COMMON_APIARY">
 		<value>Rucher</value>
@@ -108,8 +114,11 @@
 	<data name="SETTINGS_APP">
 		<value>Réglage de l'app</value>
 	</data>
-	<data name="SETTINGS_FASTCONNECT">
-		<value>Connexion rapide (réduit la durée de vie de la batterie)</value>
+	<data name="SETTINGS_BATTERYSAVER">
+		<value>Enable/Disable Battery Saver</value>
+	</data>
+	<data name="SETTINGS_SHOWFIRMWARE">
+		<value>Show available firmware updates</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
 		<value>Enregistrer CSV avec la sync du SubHub</value>
@@ -202,13 +211,13 @@
 		<value>Sélectionner le rucher</value>
 	</data>
 	<data name="APIARIES_NONE">
-		<value>Pas de ruchers trouvés</value>
+		<value>No Apiary Selected</value>
 	</data>
 	<data name="APIARIES_TAP1">
 		<value>Appuyer</value>
 	</data>
 	<data name="APIARIES_TAP2">
-		<value>En haut à droite pour créer un rucher</value>
+		<value>above to select an apiary</value>
 	</data>
 	<data name="APIARIES_NOHIVES">
 		<value>Pas de ruches trouvées</value>
@@ -489,6 +498,9 @@
 	<data name="APIARY_CREATE_COUNTRYSELECT">
 		<value>Sélectionner le pays</value>
 	</data>
+	<data name="APIARY_CREATE_COLOR">
+		<value>Apiary Color</value>
+	</data>
 	<data name="APIARY_CREATE_COUNTRYREQUIRED">
 		<value>*Pays requis</value>
 	</data>
@@ -509,6 +521,9 @@
 	</data>
 	<data name="HIVE_CREATE_DESCRIPTION">
 		<value>Description (optionnel)</value>
+	</data>
+	<data name="HIVE_CREATE_COLOR">
+		<value>Hive Color</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
 		<value>Transhumer la ruche</value>
@@ -729,6 +744,9 @@
 	<data name="DEVICEDETAIL_LIVE_RATE15">
 		<value>15 Minutes</value>
 	</data>
+	<data name="DEVICEDETAIL_LIVE_RATE10">
+		<value>10 Minutes</value>
+	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE1">
 		<value>1 Heure</value>
 	</data>
@@ -816,6 +834,33 @@
 	<data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
 		<value>Non autorisé à envoyer des données pour ce capteur</value>
 	</data>
+	<data name="DEVICEDETAIL_BSICON">
+		<value>Battery Saver</value>
+	</data>
+	<data name="DEVICEDETAIL_ASICON">
+		<value>Activity Scheduling</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_READ">
+		<value>Battery Saver Info</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_READING">
+		<value>Getting battery saver state</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_RES_1">
+		<value>BS Info</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_RES_2">
+		<value>Device Time</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_RES_3">
+		<value>Start Time</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_RES_4">
+		<value>Daily Duration</value>
+	</data>
+	<data name="DEVICEDETAIL_BS_RES_5">
+		<value>Yearly Duration</value>
+	</data>
 	<data name="DEVICES_NONE">
 		<value>Aucun capteur trouvé</value>
 	</data>
@@ -902,6 +947,15 @@
 	</data>
 	<data name="DEVICES_TEMPEVENT">
 		<value>Evènement au {0}</value>
+	</data>
+	<data name="DEVICES_CHARGER">
+		<value>Charge Remaining</value>
+	</data>
+	<data name="DEVICES_BATTSAV">
+		<value>Battery Saver Enabled</value>
+	</data>
+	<data name="DEVICES_ACTSCHED">
+		<value>Activity Scheduling Enabled</value>
 	</data>
 	<data name="DEVICES_CELL_SAMPLES">
 		<value>{0} capteur, {1} relevés à transférer</value>
@@ -1269,6 +1323,18 @@
 	<data name="HIVEDETAILS_ADDNOTE">
 		<value>Ajouter une note</value>
 	</data>
+	<data name="LOGIN_TITLE">
+		<value>Log in</value>
+	</data>
+	<data name="LOGIN_FORG">
+		<value>Password forgotten?</value>
+	</data>
+	<data name="LOGIN_CR1">
+		<value>"Not registered yet?</value>
+	</data>
+	<data name="LOGIN_CR2">
+		<value>Create an account now</value>
+	</data>
 	<data name="LOGIN_USERNAME">
 		<value>Nom d'utilisateur</value>
 	</data>
@@ -1277,6 +1343,9 @@
 	</data>
 	<data name="FORGOTPASSWORD_TITLE">
 		<value>Mot de passe oublié</value>
+	</data>
+	<data name="FORGOTPASSWORD_TITLE2">
+		<value>Reset your password</value>
 	</data>
 	<data name="FORGOTPASSWORD_USERNAME">
 		<value>Nom d'utilisateur</value>
@@ -1329,6 +1398,33 @@
 	<data name="INITIAL_TRYNOW_CONTINUE">
 		<value>Continuer sans compte</value>
 	</data>
+	<data name="INITIAL_TITLE">
+		<value>Welcome to the Bees App!</value>
+	</data>
+	<data name="INITIAL_OR">
+		<value>or</value>
+	</data>
+	<data name="INITIAL_CHIP_1">
+		<value>Brood</value>
+	</data>
+	<data name="INITIAL_CHIP_2">
+		<value>Productivity</value>
+	</data>
+	<data name="INITIAL_CHIP_3">
+		<value>Colony Dynamics</value>
+	</data>
+	<data name="INITIAL_CHIP_4">
+		<value>Inspections</value>
+	</data>
+	<data name="INITIAL_CHIP_5">
+		<value>Weather Conditions</value>
+	</data>
+	<data name="INITIAL_CHIP_6">
+		<value>Alerts and Notifications</value>
+	</data>
+	<data name="INITIAL_CHIP_7">
+		<value>Blooming</value>
+	</data>
 	<data name="LOGIN_BADPASSWORD">
 		<value>Mot de passe érroné</value>
 	</data>
@@ -1337,6 +1433,18 @@
 	</data>
 	<data name="REGISTER">
 		<value>S'enregistrer</value>
+	</data>
+	<data name="REGISTER_TITLE">
+		<value>Create your MyBroodMinder account</value>
+	</data>
+	<data name="REGISTER_TOS">
+		<value>By clicking on the validation button you accept the terms and conditions.</value>
+	</data>
+	<data name="REGISTER_SS1">
+		<value>Already have an account?</value>
+	</data>
+	<data name="REGISTER_SS2">
+		<value>Sign in</value>
 	</data>
 	<data name="REGISTER_EMAIL">
 		<value>Email</value>
@@ -1854,4 +1962,409 @@
 	<data name="DIF_7AM_LONG">
 		<value>7:00 var. poids:</value>
 	</data>
+	<data name="NOTIFICATIONS_NONE">
+		<value>No Notifications</value>
+	</data>
+	<data name="INSP_T_DEFAULT">
+		<value>Défaut</value>
+	</data>
+	<data name="INSP_T_SUPERP">
+		<value>Ajout d'une hausse</value>
+	</data>
+	<data name="INSP_T_SUPERM">
+		<value>Retrait d'une hausse</value>
+	</data>
+	<data name="INSP_T_QUEENINSERT">
+		<value>Insertion reine</value>
+	</data>
+	<data name="INSP_T_DIVISION">
+		<value>Division</value>
+	</data>
+	<data name="INSP_T_QUEENABSENT">
+		<value>Reine absente</value>
+	</data>
+	<data name="INSP_T_STOLEN">
+		<value>Ruche volée</value>
+	</data>
+	<data name="INSP_T_BROODADD">
+		<value>Ajout de cadres de couvain</value>
+	</data>
+	<data name="INSP_T_BROODREMOVE">
+		<value>Retrait de cadres de couvain</value>
+	</data>
+	<data name="INSP_T_COMBINEDHIVES">
+		<value>Ruches combinées</value>
+	</data>
+	<data name="INSP_T_SWARM">
+		<value>Essaimage</value>
+	</data>
+	<data name="INSP_T_CANDIFEED">
+		<value>Alimentation au Candi</value>
+	</data>
+	<data name="INSP_T_SYRUPFEED">
+		<value>Alimentation au Sirop</value>
+	</data>
+	<data name="INSP_T_PATTIESFEED">
+		<value>Alimentation au pain d'abeilles</value>
+	</data>
+	<data name="INSP_T_REQUEEN">
+		<value>Remèrage</value>
+	</data>
+	<data name="INSP_T_QUEENLINEAGE">
+		<value>Marquage reine</value>
+	</data>
+	<data name="INSP_T_HARVEST">
+		<value>Récolte</value>
+	</data>
+	<data name="INSP_T_INSTALLPKG">
+		<value>Essaim d'abeilles installé</value>
+	</data>
+	<data name="INSP_T_NUCLEUSHIVE">
+		<value>Nucleus installé dans la ruche</value>
+	</data>
+	<data name="INSP_T_SPLITQUEENREMOVE">
+		<value>Divison avec retrait de la reine</value>
+	</data>
+	<data name="INSP_T_NECTARFLOW">
+		<value>Miellées</value>
+	</data>
+	<data name="INSP_T_MITEOAVAPOR">
+		<value>Traitement varroa acide oxalique Vap.</value>
+	</data>
+	<data name="INSP_T_MITEOADRIBBLE">
+		<value>Traitement varroa acide oxalique Deg.</value>
+	</data>
+	<data name="INSP_T_MITEFORMICPRO">
+		<value>Traitement varroa formique</value>
+	</data>
+	<data name="INSP_T_MITESTRIPADD">
+		<value>Traitement varroa ajout laniere</value>
+	</data>
+	<data name="INSP_T_MITESTRIPREMOVE">
+		<value>Traitement varroa retrait laniere</value>
+	</data>
+	<data name="INSP_T_MITECOUNTLOUNGE">
+		<value>Lange</value>
+	</data>
+	<data name="INSP_T_MITECOUNTWASH">
+		<value>Compteur de Varroa</value>
+	</data>
+	<data name="INSP_T_STARTFEED">
+		<value>Debut nourissage</value>
+	</data>
+	<data name="INSP_T_STOPFEED">
+		<value>Arret nourissage</value>
+	</data>
+	<data name="INSP_T_SWARMMATEDQUEEN">
+		<value>Essaim avec reine fecondée</value>
+	</data>
+	<data name="INSP_T_VIRGINSWARM">
+		<value>Essaim avec reine vierge</value>
+	</data>
+	<data name="INSP_T_SWARMRETURN">
+		<value>Essaim revenu à la ruche</value>
+	</data>
+	<data name="INSP_T_QUEENSEEN">
+		<value>Reine vue</value>
+	</data>
+	<data name="INSP_T_NOBROOD">
+		<value>Pas de couvain</value>
+	</data>
+	<data name="INSP_T_LOWBROOD">
+		<value>Niveau couvain faible </value>
+	</data>
+	<data name="INSP_T_NORMBROOD">
+		<value>Niveau couvain normal</value>
+	</data>
+	<data name="INSP_T_HIGHBROOD">
+		<value>Niveau couvain elevé</value>
+	</data>
+	<data name="INSP_T_SICK">
+		<value>Malade</value>
+	</data>
+	<data name="INSP_T_NOBEES">
+		<value>Pas d'abeilles</value>
+	</data>
+	<data name="INSP_T_LOWBEES">
+		<value>Niveau d'abeilles faible</value>
+	</data>
+	<data name="INSP_T_NORMBEES">
+		<value>Niveau d'abeilles moyen</value>
+	</data>
+	<data name="INSP_T_HIGHBEES">
+		<value>Niveau d'abeilles élevé</value>
+	</data>
+	<data name="INSP_T_NORES">
+		<value>Pas de ressources</value>
+	</data>
+	<data name="INSP_T_LOWRES">
+		<value>Niveau de ressources faible</value>
+	</data>
+	<data name="INSP_T_NORMRES">
+		<value>Niveau de ressources moyen</value>
+	</data>
+	<data name="INSP_T_HIGHRES">
+		<value>Niveau de ressources élevé</value>
+	</data>
+	<data name="INSP_T_EGG">
+		<value>Présence d'oeufs</value>
+	</data>
+	<data name="INSP_T_LARVA">
+		<value>Présence de larves</value>
+	</data>
+	<data name="INSP_T_PUPA">
+		<value>Présence de couvain operculé</value>
+	</data>
+	<data name="INSP_T_DRONEBROOD">
+		<value>Présence de couvain de male</value>
+	</data>
+	<data name="INSP_T_DRONE">
+		<value>Présence de males</value>
+	</data>
+	<data name="INSP_T_BUZZINGHIVE">
+		<value>Bourdonneuse</value>
+	</data>
+	<data name="INSP_T_MOSAICBROOD">
+		<value>Mosaique couvain</value>
+	</data>
+	<data name="INSP_T_QUEENCELLSEEN">
+		<value>Présence de cellules royales</value>
+	</data>
+	<data name="INSP_C_BEESBROODSTG">
+		<value>Etapes du Couvain</value>
+	</data>
+	<data name="INSP_C_HEALTH">
+		<value>Santé</value>
+	</data>
+	<data name="INSP_C_MITES">
+		<value>Acariens</value>
+	</data>
+	<data name="INSP_C_MANAGE">
+		<value>Gérer</value>
+	</data>
+	<data name="INSP_C_FEEDING">
+		<value>Alimentation</value>
+	</data>
+	<data name="FITNESS_C_B1">
+		<value>Ruche morte</value>
+	</data>
+	<data name="FITNESS_C_B2">
+		<value>Ruche volée</value>
+	</data>
+	<data name="FITNESS_C_R1">
+		<value>Ruche très faible</value>
+	</data>
+	<data name="FITNESS_C_O1">
+		<value>Ruche faible ou en fort déclin</value>
+	</data>
+	<data name="FITNESS_C_O2">
+		<value>Potentiel essaimage</value>
+	</data>
+	<data name="FITNESS_C_O3">
+		<value>Surchauffe</value>
+	</data>
+	<data name="FITNESS_C_O4">
+		<value>Grand froid</value>
+	</data>
+	<data name="FITNESS_C_O5">
+		<value>Perte de poids importante</value>
+	</data>
+	<data name="FITNESS_C_G1">
+		<value>Bonne santé</value>
+	</data>
+	<data name="FITNESS_C_G2">
+		<value>Pas de données ou pas de météo</value>
+	</data>
+	<data name="NOTES_TITLE">
+		<value>Notes</value>
+    </data>
+	<data name="NOTES_LIST_THIS">
+		<value>This week</value>
+    </data>
+	<data name="NOTES_LIST_LAST">
+		<value>Last week</value>
+    </data>
+	<data name="NOTES_LIST_OLDER">
+		<value>Older</value>
+    </data>
+	<data name="NOTES_LIST_EMPTY">
+		<value>none</value>
+    </data>
+	<data name="NOTES_LOAD">
+		<value>Load before {0}</value>
+    </data>
+	<data name="NOTES_DELETE_TITLE">
+		<value>Delete Note</value>
+    </data>
+	<data name="NOTES_DELETE_MESSAGE">
+		<value>Are you sure you want to delete this note? This cannot be undone.</value>
+    </data>
+	<data name="NOTES_DELETE_CONFIRM">
+		<value>Yes, delete note</value>
+    </data>
+	<data name="NOTES_NODESCR">
+		<value>No description</value>
+    </data>
+	<data name="ALERTS_TITLE">
+		<value>Alerts</value>
+    </data>
+	<data name="ALERTS_THIS">
+		<value>This week</value>
+    </data>
+	<data name="ALERTS_LAST">
+		<value>Last week</value>
+    </data>
+	<data name="ALERTS_EMPTY">
+		<value>none</value>
+    </data>
+	<data name="ALERTS_POPUP_ACTTKN">
+		<value>Action already taken</value>
+    </data>
+	<data name="NECTAR_TITLE">
+		<value>Nectar Flow Index</value>
+    </data>
+	<data name="WEATHER_TITLE">
+		<value>Weather</value>
+    </data>
+	<data name="WEATHER_Y_RAIN">
+		<value>Rain</value>
+    </data>
+	<data name="WEATHER_Y_WIND">
+		<value>Wind</value>
+    </data>
+	<data name="WEATHER_Y_MAXTEMP">
+		<value>Max Temp</value>
+    </data>
+	<data name="WEATHER_Y_MINTEMP">
+		<value>Min Temp</value>
+    </data>
+	<data name="WEATHER_Y_WEATHER">
+		<value>Weather</value>
+    </data>
+	<data name="WEATHER_Y_NECTAR">
+		<value>Nectar Index</value>
+    </data>
+	<data name="WEATHER_Y_FORAG">
+		<value>Foraging Index</value>
+    </data>
+	<data name="VAPIARY_NEWAPENOTE">
+		<value>New Apiary Note</value>
+    </data>
+	<data name="VAPIARY_NECTAR_TITLE">
+		<value>Nectar Idx Forecast</value>
+    </data>
+	<data name="VAPIARY_NECTAR_AVG">
+		<value>{0} days avg</value>
+    </data>
+	<data name="VAPIARY_NECTAR_NONE">
+		<value>No data</value>
+    </data>
+	<data name="VAPIARY_NOTES_TITLE">
+		<value>Last Inspection</value>
+    </data>
+	<data name="VAPIARY_NOTES_TIME">
+		<value>{0} days ago</value>
+    </data>
+	<data name="VAPIARY_NOTES_NONE">
+		<value>No inspections for 2 weeks.</value>
+    </data>
+	<data name="WEIGHT_TITLE">
+		<value>Weight</value>
+    </data>
+	<data name="PROD_TITLE">
+		<value>Productivity</value>
+    </data>
+	<data name="PROD_3D">
+		<value>3 day</value>
+    </data>
+	<data name="PROD_5D">
+		<value>5 day</value>
+    </data>
+	<data name="PROD_7D">
+		<value>7 day</value>
+    </data>
+	<data name="TEMP_TITLE">
+		<value>Temperature</value>
+    </data>
+	<data name="TEMP_MAX">
+		<value>max</value>
+    </data>
+	<data name="TEMP_MIN">
+		<value>min</value>
+    </data>
+	<data name="TEMP_VAR">
+		<value>var</value>
+    </data>
+	<data name="TEMP_BROODZONE">
+		<value>Brood Zone</value>
+    </data>
+	<data name="HUMID_TITLE">
+		<value>Humidity</value>
+    </data>
+	<data name="HUMID_MAX">
+		<value>max</value>
+    </data>
+	<data name="HUMID_MIN">
+		<value>min</value>
+    </data>
+	<data name="HUMID_VAR">
+		<value>var</value>
+    </data>
+	<data name="HUMID_NORMALZONE">
+		<value>Normal</value>
+    </data>
+	<data name="BROOD_TITLE">
+		<value>Brood</value>
+    </data>
+	<data name="VHIVE_DATA_REF">
+		<value>Refreshing data</value>
+    </data>
+	<data name="VHIVE_DATA_FOUND">
+		<value>Updated data found</value>
+    </data>
+	<data name="VHIVE_DATA_DELAY">
+		<value>Updated data delayed</value>
+    </data>
+	<data name="VHIVE_NOHIVE">
+		<value>Create or select Hive</value>
+    </data>
+	<data name="VHIVE_HNOTE">
+		<value>New Hive Note</value>
+    </data>
+	<data name="VHIVE_ANOTE">
+		<value>New Apiary Note</value>
+    </data>
+	<data name="ADDI_TITLE">
+		<value>Add Item</value>
+    </data>
+	<data name="ADDI_NOTE_APIARY">
+		<value>Add Apiary Note</value>
+    </data>
+	<data name="ADDI_NOTE_HIVE">
+		<value>Add Hive Note</value>
+    </data>
+	<data name="CU_NOTE_TITLE_U">
+		<value>{0} Note</value>
+    </data>
+	<data name="CU_NOTE_HIVETITLE">
+		<value>Create Hive Note</value>
+    </data>
+	<data name="CU_NOTE_HIVE_SEL">
+		<value>Select hives (creates note for each)</value>
+    </data>
+	<data name="CU_NOTE_HIVE_ERROR">
+		<value>*Hive required</value>
+    </data>
+	<data name="CU_NOTE_DATE">
+		<value>Date</value>
+    </data>
+	<data name="CU_NOTE_NOTE">
+		<value>Note</value>
+    </data>
+	<data name="CU_NOTE_NOTEPLACEHOLDER">
+		<value> Write something ...</value>
+    </data>
+	<data name="CU_NOTE_TAGS">
+		<value>Select tags</value>
+    </data>
 </root>
