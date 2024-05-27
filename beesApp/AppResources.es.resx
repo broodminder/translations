@@ -835,31 +835,31 @@
 		<value>No se permite cargar datos para este dispositivo</value>
 	</data>
 	<data name="DEVICEDETAIL_BSICON">
-		<value>Battery Saver</value>
+		<value>Ahorro de Batería</value>
 	</data>
 	<data name="DEVICEDETAIL_ASICON">
-		<value>Activity Scheduling</value>
+		<value>Programación de Actividad</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_READ">
-		<value>Battery Saver Info</value>
+		<value>Información de Ahorro de Batería</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_READING">
-		<value>Getting battery saver state</value>
+		<value>Obteniendo estado del ahorro de batería</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_RES_1">
-		<value>BS Info</value>
+		<value>Información de AB</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_RES_2">
-		<value>Device Time</value>
+		<value>Hora del Dispositivo</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_RES_3">
-		<value>Start Time</value>
+		<value>Hora de Inicio</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_RES_4">
-		<value>Daily Duration</value>
+		<value>Duración Diaria</value>
 	</data>
 	<data name="DEVICEDETAIL_BS_RES_5">
-		<value>Yearly Duration</value>
+		<value>Duración Anual</value>
 	</data>
 	<data name="DEVICES_NONE">
 		<value>No se encuentra ningun sensor</value>
@@ -949,13 +949,13 @@
 		<value>Evento el {0}</value>
 	</data>
 	<data name="DEVICES_CHARGER">
-		<value>Charge Remaining</value>
+		<value>Carga Restante</value>
 	</data>
 	<data name="DEVICES_BATTSAV">
-		<value>Battery Saver Enabled</value>
+		<value>Ahorro de Batería Activado</value>
 	</data>
 	<data name="DEVICES_ACTSCHED">
-		<value>Activity Scheduling Enabled</value>
+		<value>Programación de Actividad Activada</value>
 	</data>
 	<data name="DEVICES_CELL_SAMPLES">
 		<value>{0} sensor, {1} datos para subir</value>
@@ -1324,16 +1324,16 @@
 		<value>Añadir Nota</value>
 	</data>
 	<data name="LOGIN_TITLE">
-		<value>Log in</value>
+		<value>Iniciar sesión</value>
 	</data>
 	<data name="LOGIN_FORG">
-		<value>Password forgotten?</value>
+		<value>¿Olvidaste tu contraseña?</value>
 	</data>
 	<data name="LOGIN_CR1">
-		<value>"Not registered yet?</value>
+		<value>¿No estás registrado aún?</value>
 	</data>
 	<data name="LOGIN_CR2">
-		<value>Create an account now</value>
+		<value>Crea una cuenta ahora</value>
 	</data>
 	<data name="LOGIN_USERNAME">
 		<value>Nombre de usuario</value>
@@ -1345,7 +1345,7 @@
 		<value>Contraseña Olvidada</value>
 	</data>
 	<data name="FORGOTPASSWORD_TITLE2">
-		<value>Reset your password</value>
+		<value>Restablecer tu contraseña</value>
 	</data>
 	<data name="FORGOTPASSWORD_USERNAME">
 		<value>Nombre de usuario</value>
@@ -1399,31 +1399,31 @@
 		<value>Continuar sin cuenta</value>
 	</data>
 	<data name="INITIAL_TITLE">
-		<value>Welcome to the Bees App!</value>
+		<value>¡Bienvenido a Bees App!</value>
 	</data>
 	<data name="INITIAL_OR">
-		<value>or</value>
+		<value>o</value>
 	</data>
 	<data name="INITIAL_CHIP_1">
-		<value>Brood</value>
+		<value>Cría</value>
 	</data>
 	<data name="INITIAL_CHIP_2">
-		<value>Productivity</value>
+		<value>Productividad</value>
 	</data>
 	<data name="INITIAL_CHIP_3">
-		<value>Colony Dynamics</value>
+		<value>Dinámica de la Colonia</value>
 	</data>
 	<data name="INITIAL_CHIP_4">
-		<value>Inspections</value>
+		<value>Inspecciones</value>
 	</data>
 	<data name="INITIAL_CHIP_5">
-		<value>Weather Conditions</value>
+		<value>Metéorologia</value>
 	</data>
 	<data name="INITIAL_CHIP_6">
-		<value>Alerts and Notifications</value>
+		<value>Alertas y Notificaciones</value>
 	</data>
 	<data name="INITIAL_CHIP_7">
-		<value>Blooming</value>
+		<value>Floración</value>
 	</data>
 	<data name="LOGIN_BADPASSWORD">
 		<value>Contraseña Incorrecta</value>
@@ -1438,16 +1438,16 @@
 		<value>Create your MyBroodMinder account</value>
 	</data>
 	<data name="REGISTER_TOS">
-		<value>By clicking on the validation button you accept the terms and conditions.</value>
+		<value>Al hacer clic en el botón de validación, aceptas los términos y condiciones.</value>
 	</data>
 	<data name="REGISTER_SS1">
-		<value>Already have an account?</value>
+		<value>¿Ya tienes una cuenta?</value>
 	</data>
 	<data name="REGISTER_SS2">
-		<value>Sign in</value>
+		<value>Iniciar sesión</value>
 	</data>
 	<data name="REGISTER_EMAIL">
-		<value>Email</value>
+		<value>Correo electrónico</value>
 	</data>
 	<data name="REGISTER_PASSWORD">
 		<value>Contraseña</value>
@@ -2176,195 +2176,195 @@
 		<value>Sin datos o sin tiempo</value>
 	</data>
 	<data name="NOTES_TITLE">
-		<value>Notes</value>
-    </data>
+		<value>Notas</value>
+	</data>
 	<data name="NOTES_LIST_THIS">
-		<value>This week</value>
-    </data>
+		<value>Esta semana</value>
+	</data>
 	<data name="NOTES_LIST_LAST">
-		<value>Last week</value>
-    </data>
+		<value>La semana pasada</value>
+	</data>
 	<data name="NOTES_LIST_OLDER">
-		<value>Older</value>
-    </data>
+		<value>Más antiguas</value>
+	</data>
 	<data name="NOTES_LIST_EMPTY">
-		<value>none</value>
-    </data>
+		<value>ninguna</value>
+	</data>
 	<data name="NOTES_LOAD">
-		<value>Load before {0}</value>
-    </data>
+		<value>Cargar antes de {0}</value>
+	</data>
 	<data name="NOTES_DELETE_TITLE">
-		<value>Delete Note</value>
-    </data>
+		<value>Eliminar Nota</value>
+	</data>
 	<data name="NOTES_DELETE_MESSAGE">
-		<value>Are you sure you want to delete this note? This cannot be undone.</value>
-    </data>
+		<value>¿Estás seguro de que quieres eliminar esta nota? Esto no se puede deshacer.</value>
+	</data>
 	<data name="NOTES_DELETE_CONFIRM">
-		<value>Yes, delete note</value>
-    </data>
+		<value>Sí, eliminar nota</value>
+	</data>
 	<data name="NOTES_NODESCR">
-		<value>No description</value>
-    </data>
+		<value>Sin descripción</value>
+	</data>
 	<data name="ALERTS_TITLE">
-		<value>Alerts</value>
-    </data>
+		<value>Alertas</value>
+	</data>
 	<data name="ALERTS_THIS">
-		<value>This week</value>
-    </data>
+		<value>Esta semana</value>
+	</data>
 	<data name="ALERTS_LAST">
-		<value>Last week</value>
-    </data>
+		<value>La semana pasada</value>
+	</data>
 	<data name="ALERTS_EMPTY">
-		<value>none</value>
-    </data>
+		<value>ninguna</value>
+	</data>
 	<data name="ALERTS_POPUP_ACTTKN">
-		<value>Action already taken</value>
-    </data>
+		<value>Acción ya tomada</value>
+	</data>
 	<data name="NECTAR_TITLE">
-		<value>Nectar Flow Index</value>
-    </data>
+		<value>Índice de Flujo de Néctar</value>
+	</data>
 	<data name="WEATHER_TITLE">
-		<value>Weather</value>
-    </data>
+		<value>Clima</value>
+	</data>
 	<data name="WEATHER_Y_RAIN">
-		<value>Rain</value>
-    </data>
+		<value>Lluvia</value>
+	</data>
 	<data name="WEATHER_Y_WIND">
-		<value>Wind</value>
-    </data>
+		<value>Viento</value>
+	</data>
 	<data name="WEATHER_Y_MAXTEMP">
-		<value>Max Temp</value>
-    </data>
+		<value>Temp Máx</value>
+	</data>
 	<data name="WEATHER_Y_MINTEMP">
-		<value>Min Temp</value>
-    </data>
+		<value>Temp Mín</value>
+	</data>
 	<data name="WEATHER_Y_WEATHER">
-		<value>Weather</value>
-    </data>
+		<value>Clima</value>
+	</data>
 	<data name="WEATHER_Y_NECTAR">
-		<value>Nectar Index</value>
-    </data>
+		<value>Índice de Néctar</value>
+	</data>
 	<data name="WEATHER_Y_FORAG">
-		<value>Foraging Index</value>
-    </data>
+		<value>Índice de Forrajeo</value>
+	</data>
 	<data name="VAPIARY_NEWAPENOTE">
-		<value>New Apiary Note</value>
-    </data>
+		<value>Nueva Nota del Apiario</value>
+	</data>
 	<data name="VAPIARY_NECTAR_TITLE">
-		<value>Nectar Idx Forecast</value>
-    </data>
+		<value>Pronóstico del Índice de Néctar</value>
+	</data>
 	<data name="VAPIARY_NECTAR_AVG">
-		<value>{0} days avg</value>
-    </data>
+		<value>Promedio de {0} días</value>
+	</data>
 	<data name="VAPIARY_NECTAR_NONE">
-		<value>No data</value>
-    </data>
+		<value>Sin datos</value>
+	</data>
 	<data name="VAPIARY_NOTES_TITLE">
-		<value>Last Inspection</value>
-    </data>
+		<value>Última Inspección</value>
+	</data>
 	<data name="VAPIARY_NOTES_TIME">
-		<value>{0} days ago</value>
-    </data>
+		<value>Hace {0} días</value>
+	</data>
 	<data name="VAPIARY_NOTES_NONE">
-		<value>No inspections for 2 weeks.</value>
-    </data>
+		<value>Sin inspecciones en 2 semanas.</value>
+	</data>
 	<data name="WEIGHT_TITLE">
-		<value>Weight</value>
-    </data>
+		<value>Peso</value>
+	</data>
 	<data name="PROD_TITLE">
-		<value>Productivity</value>
-    </data>
+		<value>Productividad</value>
+	</data>
 	<data name="PROD_3D">
-		<value>3 day</value>
-    </data>
+		<value>3 días</value>
+	</data>
 	<data name="PROD_5D">
-		<value>5 day</value>
-    </data>
+		<value>5 días</value>
+	</data>
 	<data name="PROD_7D">
-		<value>7 day</value>
-    </data>
+		<value>7 días</value>
+	</data>
 	<data name="TEMP_TITLE">
-		<value>Temperature</value>
-    </data>
+		<value>Temperatura</value>
+	</data>
 	<data name="TEMP_MAX">
-		<value>max</value>
-    </data>
+		<value>máx</value>
+	</data>
 	<data name="TEMP_MIN">
-		<value>min</value>
-    </data>
+		<value>mín</value>
+	</data>
 	<data name="TEMP_VAR">
 		<value>var</value>
-    </data>
+	</data>
 	<data name="TEMP_BROODZONE">
-		<value>Brood Zone</value>
-    </data>
+		<value>Zona de Cría</value>
+	</data>
 	<data name="HUMID_TITLE">
-		<value>Humidity</value>
-    </data>
+		<value>Humedad</value>
+	</data>
 	<data name="HUMID_MAX">
-		<value>max</value>
-    </data>
+		<value>máx</value>
+	</data>
 	<data name="HUMID_MIN">
-		<value>min</value>
-    </data>
+		<value>mín</value>
+	</data>
 	<data name="HUMID_VAR">
 		<value>var</value>
-    </data>
+	</data>
 	<data name="HUMID_NORMALZONE">
 		<value>Normal</value>
-    </data>
+	</data>
 	<data name="BROOD_TITLE">
-		<value>Brood</value>
-    </data>
+		<value>Cría</value>
+	</data>
 	<data name="VHIVE_DATA_REF">
-		<value>Refreshing data</value>
-    </data>
+		<value>Actualizando datos</value>
+	</data>
 	<data name="VHIVE_DATA_FOUND">
-		<value>Updated data found</value>
-    </data>
+		<value>Datos actualizados encontrados</value>
+	</data>
 	<data name="VHIVE_DATA_DELAY">
-		<value>Updated data delayed</value>
-    </data>
+		<value>Datos actualizados retrasados</value>
+	</data>
 	<data name="VHIVE_NOHIVE">
-		<value>Create or select Hive</value>
-    </data>
+		<value>Crear o seleccionar Colmena</value>
+	</data>
 	<data name="VHIVE_HNOTE">
-		<value>New Hive Note</value>
-    </data>
+		<value>Nueva Nota de la Colmena</value>
+	</data>
 	<data name="VHIVE_ANOTE">
-		<value>New Apiary Note</value>
-    </data>
+		<value>Nueva Nota del Apiario</value>
+	</data>
 	<data name="ADDI_TITLE">
-		<value>Add Item</value>
-    </data>
+		<value>Nuevo Elemento</value>
+	</data>
 	<data name="ADDI_NOTE_APIARY">
-		<value>Add Apiary Note</value>
-    </data>
+		<value>Nueva Nota del Apiario</value>
+	</data>
 	<data name="ADDI_NOTE_HIVE">
-		<value>Add Hive Note</value>
-    </data>
+		<value>Nueva Nota de la Colmena</value>
+	</data>
 	<data name="CU_NOTE_TITLE_U">
-		<value>{0} Note</value>
-    </data>
+		<value>{0} Notas</value>
+	</data>
 	<data name="CU_NOTE_HIVETITLE">
-		<value>Create Hive Note</value>
-    </data>
+		<value>Crear Nota de la Colmena</value>
+	</data>
 	<data name="CU_NOTE_HIVE_SEL">
-		<value>Select hives (creates note for each)</value>
-    </data>
+		<value>Seleccionar colmenas (crea nota para cada una)</value>
+	</data>
 	<data name="CU_NOTE_HIVE_ERROR">
-		<value>*Hive required</value>
-    </data>
+		<value>*Colmena requerida</value>
+	</data>
 	<data name="CU_NOTE_DATE">
-		<value>Date</value>
-    </data>
+		<value>Fecha</value>
+	</data>
 	<data name="CU_NOTE_NOTE">
-		<value>Note</value>
-    </data>
+		<value>Nota</value>
+	</data>
 	<data name="CU_NOTE_NOTEPLACEHOLDER">
-		<value> Write something ...</value>
-    </data>
+		<value>Escribe algo ...</value>
+	</data>
 	<data name="CU_NOTE_TAGS">
-		<value>Select tags</value>
-    </data>
+		<value>Seleccionar etiquetas</value>
+	</data>
 </root>
