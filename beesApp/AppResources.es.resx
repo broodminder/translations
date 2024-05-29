@@ -2382,4 +2382,121 @@
 	<data name="APP_UPDATE_MORE">
 		<value>Más información</value>
 	</data>
+	<data name="BSCHANGE_EN_BTN">
+		<value>Enable/Update Battery Saver</value>
+    </data>
+	<data name="BSCHANGE_DIS_BTN">
+		<value>Disable Battery Saver</value>
+    </data>
+	<data name="BSCHANGE_SETUP">
+		<value>Setup</value>
+    </data>
+	<data name="BSCHANGE_CHOOSEOPT">
+		<value>Nothing in progress, choose an option above</value>
+    </data>
+	<data name="BSCHANGE_HUBMODE_EN">
+		<value>"Hub Present Mode Enabled</value>
+    </data>
+	<data name="BSCHANGE_HUBMODE_DIS">
+		<value>Hub Present Mode Disabled</value>
+    </data>
+	<data name="BSCHANGE_AS_EN">
+		<value>Activity Scheduling Enabled</value>
+    </data>
+	<data name="BSCHANGE_AS_SPAN">
+		<value>Activity running from {0} to {1} between {2} and {3}</value>
+    </data>
+	<data name="BSCHANGE_AS_DIS">
+		<value>Activity Scheduling Disabled</value>
+    </data>
+	<data name="BSCHANGE_INCL">
+		<value>Include ineligible</value>
+    </data>
+	<data name="BSCHANGE_CHANGEWARN">
+		<value>Changing settings may take 10 mintutes</value>
+    </data>
+	<data name="BSCHANGE_DISWARN">
+		<value>Disabling battery saver may take 10 minutes</value>
+    </data>
+	<data name="BSCHANGE_CANCELSYNC">
+		<value>Canceling apiary sync</value>
+    </data>
+	<data name="BSCHANGE_STARTING">
+		<value>Starting</value>
+    </data>
+	<data name="BSCHANGE_INCL_IN">
+		<value>Include ineligible</value>
+    </data>
+	<data name="BSCHANGE_ONLY_EL">
+		<value>Show only eligible</value>
+    </data>
+	<data name="BSCHANGE_NEEDSUPDATE">
+		<value>Needs firmware update</value>
+    </data>
+	<data name="BSCHANGE_NOTELIGIBLE">
+		<value>Not eligible</value>
+    </data>
+	<data name="BSCHANGE_ERR">
+		<value>Error - retrying</value>
+    </data>
+	<data name="BSCHANGE_CONNECTING_APPLYING">
+		<value>Connecting and applying settings</value>
+    </data>
+	<data name="BSCHANGE_FINISHED">
+		<value>Finished</value>
+    </data>
+	<data name="BSCHANGE_CONNECTING_OFF">
+		<value>Connecting and turning off BS</value>
+    </data>
+	<data name="BSCHANGE_SEEN_SECONDS">
+		<value>Seen {0} seconds ago</value>
+    </data>
+	<data name="BSCHANGE_SEEN_AGO">
+		<value>Seen {0} ago</value>
+    </data>
+	<data name="BSSET_HUBEN">
+		<value>Hub Present Mode Enabled</value>
+    </data>
+	<data name="BSSET_ASEN">
+		<value>Activity Scheduling Enabled</value>
+    </data>
+	<data name="BSSET_STARTON">
+		<value>Start On</value>
+    </data>
+	<data name="BSSET_STARTMONTH">
+		<value>Start Month</value>
+    </data>
+	<data name="BSSET_STARTDAY">
+		<value>Start Day</value>
+    </data>
+	<data name="BSSET_ENDON">
+		<value>End On</value>
+    </data>
+	<data name="BSSET_ENDMONTH">
+		<value>End Month</value>
+    </data>
+	<data name="BSSET_ENDDAY">
+		<value>End Day</value>
+    </data>
+	<data name="BSSET_FROM">
+		<value>From</value>
+    </data>
+	<data name="BSSET_TO">
+		<value>To</value>
+    </data>
+	<data name="BSSET_DONE">
+		<value>Done</value>
+    </data>
+	<data name="BSSET_EST">
+		<value>Battery Life Estimate</value>
+    </data>
+	<data name="BSSET_YEARS">
+		<value>years</value>
+    </data>
+	<data name="BSSET_HP_EXP_TITLE">
+		<value>Hub Present Mode</value>
+    </data>
+	<data name="BSSET_AS_EXP_TITLE">
+		<value>Activity Scheduling</value>
+    </data>
 </root>
