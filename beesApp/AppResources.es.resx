@@ -16,19 +16,19 @@
 		<value>Sensores</value>
 	</data>
 	<data name="TAB_MANAGE">
-		<value>Manage</value>
+		<value>Gestionar</value>
 	</data>
 	<data name="TAB_APIARIES">
-		<value>Colmenares</value>
+		<value>Apiarios</value>
 	</data>
 	<data name="TAB_HIVES">
-		<value>Hives</value>
+		<value>Colmenas</value>
 	</data>
 	<data name="TAB_SETTINGS">
 		<value>Configurar</value>
 	</data>
 	<data name="TAB_NOTIFICATIONS">
-		<value>Notifications</value>
+		<value>Notificaciones</value>
 	</data>
 	<data name="COMMON_APIARY">
 		<value>Colmenar</value>
@@ -2371,15 +2371,15 @@
 		<value>Seleccionar etiquetas</value>
 	</data>
 	<data name="APP_UPDATE_TITLE">
-		<value>New Features!</value>
-    </data>
+		<value>¡Nuevas Funciones!</value>
+	</data>
 	<data name="APP_UPDATE_DESC">
-		<value>We have updated the Bees app! Enjoy new visualizations of your hives with the new Apiaries and Hives tabs. And continue normal use of moving devices and uploading data in the Manage and Devices tab. </value>
-    </data>
+		<value>¡Hemos actualizado la aplicación Bees! Disfruta de nuevas visualizaciones de tus colmenas con las nuevas pestañas Apiarios y Colmenas. Y continúa usando como antes las pestañas Gestionar y Sensores.</value>
+	</data>
 	<data name="APP_UPDATE_OK">
-		<value>Done</value>
-    </data>
+		<value>Hecho</value>
+	</data>
 	<data name="APP_UPDATE_MORE">
-		<value>Learn more</value>
-    </data>
+		<value>Más información</value>
+	</data>
 </root>

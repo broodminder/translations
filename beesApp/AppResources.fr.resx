@@ -16,13 +16,13 @@
 		<value>Capteurs</value>
 	</data>
 		<data name="TAB_MANAGE">
-		<value>Manage</value>
+		<value>Gérer</value>
 	</data>
 	<data name="TAB_APIARIES">
 		<value>Ruchers</value>
 	</data>
 	<data name="TAB_HIVES">
-		<value>Hives</value>
+		<value>Ruches</value>
 	</data>
 	<data name="TAB_SETTINGS">
 		<value>Réglages</value>
@@ -2371,15 +2371,15 @@
 		<value>Sélectionner des étiquettes</value>
 	</data>
 	<data name="APP_UPDATE_TITLE">
-		<value>New Features!</value>
-    </data>
+		<value>Nouvelles fonctionnalités !</value>
+	</data>
 	<data name="APP_UPDATE_DESC">
-		<value>We have updated the Bees app! Enjoy new visualizations of your hives with the new Apiaries and Hives tabs. And continue normal use of moving devices and uploading data in the Manage and Devices tab. </value>
-    </data>
+		<value>Nous avons mis à jour l'application Bees ! Profitez de nouvelles visualisations de vos ruches avec les nouveaux onglets Ruchers et Ruches. Et continuez à utiliser normalement le déplacement des dispositifs et le téléchargement des données dans les onglets Gérer et Capteurs.</value>
+	</data>
 	<data name="APP_UPDATE_OK">
-		<value>Done</value>
-    </data>
+		<value>Terminé</value>
+	</data>
 	<data name="APP_UPDATE_MORE">
-		<value>Learn more</value>
-    </data>
+		<value>En savoir plus</value>
+	</data>
 </root>
