@@ -1330,7 +1330,7 @@
 		<value>Password forgotten?</value>
 	</data>
 	<data name="LOGIN_CR1">
-		<value>"Not registered yet?</value>
+		<value>Not registered yet?</value>
 	</data>
 	<data name="LOGIN_CR2">
 		<value>Create an account now</value>
@@ -2328,6 +2328,9 @@
 	<data name="VHIVE_NOHIVE">
 		<value>Create or select Hive</value>
     </data>
+	<data name="VHIVE_NEWHIVE">
+		<value>New Hive</value>
+    </data>
 	<data name="VHIVE_HNOTE">
 		<value>New Hive Note</value>
     </data>
@@ -2366,5 +2369,17 @@
     </data>
 	<data name="CU_NOTE_TAGS">
 		<value>Select tags</value>
+    </data>
+	<data name="APP_UPDATE_TITLE">
+		<value>New Features!</value>
+    </data>
+	<data name="APP_UPDATE_DESC">
+		<value>We have updated the Bees app! Enjoy new visualizations of your hives with the new Apiaries and Hives tabs. And continue normal use of moving devices and uploading data in the Manage and Devices tab. </value>
+    </data>
+	<data name="APP_UPDATE_OK">
+		<value>Done</value>
+    </data>
+	<data name="APP_UPDATE_MORE">
+		<value>Learn more</value>
     </data>
 </root>

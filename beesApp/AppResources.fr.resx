@@ -1324,16 +1324,16 @@
 		<value>Ajouter une note</value>
 	</data>
 	<data name="LOGIN_TITLE">
-		<value>Log in</value>
+		<value>Se connecter</value>
 	</data>
 	<data name="LOGIN_FORG">
-		<value>Password forgotten?</value>
+		<value>Mot de passe oublié?</value>
 	</data>
 	<data name="LOGIN_CR1">
-		<value>"Not registered yet?</value>
+		<value>Pas encore inscrit?</value>
 	</data>
 	<data name="LOGIN_CR2">
-		<value>Create an account now</value>
+		<value>Créez un compte maintenant</value>
 	</data>
 	<data name="LOGIN_USERNAME">
 		<value>Nom d'utilisateur</value>
@@ -2328,6 +2328,9 @@
 	<data name="VHIVE_NOHIVE">
 		<value>Créer ou sélectionner une Ruche</value>
 	</data>
+	<data name="VHIVE_NEWHIVE">
+		<value>Nouvelle Ruche</value>
+    </data>
 	<data name="VHIVE_HNOTE">
 		<value>Nouvelle Note Ruche</value>
 	</data>
@@ -2367,4 +2370,16 @@
 	<data name="CU_NOTE_TAGS">
 		<value>Sélectionner des étiquettes</value>
 	</data>
+	<data name="APP_UPDATE_TITLE">
+		<value>New Features!</value>
+    </data>
+	<data name="APP_UPDATE_DESC">
+		<value>We have updated the Bees app! Enjoy new visualizations of your hives with the new Apiaries and Hives tabs. And continue normal use of moving devices and uploading data in the Manage and Devices tab. </value>
+    </data>
+	<data name="APP_UPDATE_OK">
+		<value>Done</value>
+    </data>
+	<data name="APP_UPDATE_MORE">
+		<value>Learn more</value>
+    </data>
 </root>

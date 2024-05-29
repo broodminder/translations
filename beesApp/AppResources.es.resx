@@ -2328,6 +2328,9 @@
 	<data name="VHIVE_NOHIVE">
 		<value>Crear o seleccionar Colmena</value>
 	</data>
+	<data name="VHIVE_NEWHIVE">
+		<value>Nueva Colmena</value>
+    </data>
 	<data name="VHIVE_HNOTE">
 		<value>Nueva Nota de la Colmena</value>
 	</data>
@@ -2367,4 +2370,16 @@
 	<data name="CU_NOTE_TAGS">
 		<value>Seleccionar etiquetas</value>
 	</data>
+	<data name="APP_UPDATE_TITLE">
+		<value>New Features!</value>
+    </data>
+	<data name="APP_UPDATE_DESC">
+		<value>We have updated the Bees app! Enjoy new visualizations of your hives with the new Apiaries and Hives tabs. And continue normal use of moving devices and uploading data in the Manage and Devices tab. </value>
+    </data>
+	<data name="APP_UPDATE_OK">
+		<value>Done</value>
+    </data>
+	<data name="APP_UPDATE_MORE">
+		<value>Learn more</value>
+    </data>
 </root>
