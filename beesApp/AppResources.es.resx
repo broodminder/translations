@@ -115,10 +115,10 @@
 		<value>Ajustes de Applicación</value>
 	</data>
 	<data name="SETTINGS_BATTERYSAVER">
-		<value>Enable/Disable Battery Saver</value>
+		<value>Activar/Desactivar el ahorro de batería</value>
 	</data>
 	<data name="SETTINGS_SHOWFIRMWARE">
-		<value>Show available firmware updates</value>
+		<value>Mostrar actualizaciones de firmware disponibles</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
 		<value>Guardar CSV al sincronizar el SubHub</value>
@@ -211,13 +211,13 @@
 		<value>Seleccionar Colmenar</value>
 	</data>
 	<data name="APIARIES_NONE">
-		<value>No Apiary Selected</value>
+		<value>Ningún apiario seleccionado</value>
 	</data>
 	<data name="APIARIES_TAP1">
-		<value>Tocar</value>
+		<value>Toca</value>
 	</data>
 	<data name="APIARIES_TAP2">
-		<value>above to select an apiary</value>
+		<value>arriba para seleccionar un apiario</value>
 	</data>
 	<data name="APIARIES_NOHIVES">
 		<value>Ninguna Colmena</value>
@@ -232,7 +232,7 @@
 		<value>Ningun Sensor</value>
 	</data>
 	<data name="APIARIES_FILTERSENSOR">
-		<value>View current readings</value>
+		<value>Ver lecturas actuales</value>
 	</data>
 	<data name="APIARIES_CONTEXT_NEWAPIARY">
 		<value>Nuevo Colmenar</value>
@@ -358,7 +358,7 @@
 		<value>Completo</value>
 	</data>
 	<data name="DEVICE_STATUS_REMOTEHUB">
-		<value>Hub (Remote)</value>
+		<value>Hub (Remoto)</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
 		<value>Cancelar la sincro?</value>
@@ -499,7 +499,7 @@
 		<value>Selecciona País</value>
 	</data>
 	<data name="APIARY_CREATE_COLOR">
-		<value>Apiary Color</value>
+		<value>Color del colmenar</value>
 	</data>
 	<data name="APIARY_CREATE_COUNTRYREQUIRED">
 		<value>*Entrar País</value>
@@ -523,7 +523,7 @@
 		<value>Descripción (opcional)</value>
 	</data>
 	<data name="HIVE_CREATE_COLOR">
-		<value>Hive Color</value>
+		<value>Color de la colmena</value>
 	</data>
 	<data name="MOVE_HIVE_TITLE">
 		<value>Desplazar Colmena</value>
@@ -646,7 +646,7 @@
 		<value>Eliminar Datos Locales</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
-		<value>Upload Local Data</value>
+		<value>Subir datos locales</value>
 	</data>
 	<data name="DEVICEDETAIL_NOTIF_EVENT">
 		<value>Evento</value>
@@ -703,7 +703,7 @@
 		<value>Ver Datos</value>
 	</data>
 	<data name="DEVICEDETAIL_TROUBLESHOOTING_CALIBRATE">
-		<value>Calibrate Scale</value>
+		<value>Calibrar balanza</value>
 	</data>
 	<data name="DEVICEDETAIL_UPLOAD_ERROR">
 		<value>Sensor Offline, no se pudo cargar</value>
@@ -733,10 +733,10 @@
 		<value>Detener Realtime</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S3">
-		<value>Setting time</value>
+		<value>Configurando frecuencia</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_S4">
-		<value>Error setting time</value>
+		<value>Error al configurar la frecuencia</value>
 	</data>
 	<data name="DEVICEDETAIL_LIVE_RATE5">
 		<value>5 Minutos</value>
@@ -1459,7 +1459,7 @@
 		<value>Ver el Acuerdo de licencia</value>
 	</data>
 	<data name="REGISTER_EULA1">
-		<value>MyBroodMinder.com EULA (End User License Agreement) v1.1</value>
+		<value>MyBroodMinder.com EULA (Licencia de Usuario) v1.1</value>
 	</data>
 	<data name="REGISTER_EULA2">
 		<value>Le pedimos que acepte las siguientes declaraciones para utilizar este software de apicultura SaaS:</value>
@@ -1564,10 +1564,10 @@
 		<value>Conectado</value>
 	</data>
 	<data name="FIRMWARESTATUS_BLEERROR">
-		<value>BLE error</value>
+		<value>Error Bluetooth</value>
 	</data>
 	<data name="FIRMWARESTATUS_BLETIMEOUT">
-		<value>BLE error - Timeout</value>
+		<value>Error Bluetooth - Timeout</value>
 	</data>
 	<data name="FIRMWARESTATUS_OTAMODE">
 		<value>Basculando el dispositivo en modo OTA</value>
@@ -2383,120 +2383,120 @@
 		<value>Más información</value>
 	</data>
 	<data name="BSCHANGE_EN_BTN">
-		<value>Enable/Update Battery Saver</value>
-    </data>
+    	<value>Activar/Actualizar Ahorro de Batería</value>
+	</data>
 	<data name="BSCHANGE_DIS_BTN">
-		<value>Disable Battery Saver</value>
-    </data>
+		<value>Desactivar Ahorro de Batería</value>
+	</data>
 	<data name="BSCHANGE_SETUP">
-		<value>Setup</value>
-    </data>
+		<value>Configuración</value>
+	</data>
 	<data name="BSCHANGE_CHOOSEOPT">
-		<value>Nothing in progress, choose an option above</value>
-    </data>
+		<value>Nada en progreso, elija una opción arriba</value>
+	</data>
 	<data name="BSCHANGE_HUBMODE_EN">
-		<value>"Hub Present Mode Enabled</value>
-    </data>
+		<value>Modo de Presencia del Hub Activado</value>
+	</data>
 	<data name="BSCHANGE_HUBMODE_DIS">
-		<value>Hub Present Mode Disabled</value>
-    </data>
+		<value>Modo de Presencia del Hub Desactivado</value>
+	</data>
 	<data name="BSCHANGE_AS_EN">
-		<value>Activity Scheduling Enabled</value>
-    </data>
+		<value>Programación de Actividad Activada</value>
+	</data>
 	<data name="BSCHANGE_AS_SPAN">
-		<value>Activity running from {0} to {1} between {2} and {3}</value>
-    </data>
+		<value>Actividad en ejecución de {0} a {1} entre {2} y {3}</value>
+	</data>
 	<data name="BSCHANGE_AS_DIS">
-		<value>Activity Scheduling Disabled</value>
-    </data>
+		<value>Programación de Actividad Desactivada</value>
+	</data>
 	<data name="BSCHANGE_INCL">
-		<value>Include ineligible</value>
-    </data>
+		<value>Incluir no elegibles</value>
+	</data>
 	<data name="BSCHANGE_CHANGEWARN">
-		<value>Changing settings may take 10 mintutes</value>
-    </data>
+		<value>Cambiar la configuración puede tardar 10 minutos</value>
+	</data>
 	<data name="BSCHANGE_DISWARN">
-		<value>Disabling battery saver may take 10 minutes</value>
-    </data>
+		<value>Desactivar el ahorro de batería puede tardar 10 minutos</value>
+	</data>
 	<data name="BSCHANGE_CANCELSYNC">
-		<value>Canceling apiary sync</value>
-    </data>
+		<value>Cancelando sincronización del apiario</value>
+	</data>
 	<data name="BSCHANGE_STARTING">
-		<value>Starting</value>
-    </data>
+		<value>Iniciando</value>
+	</data>
 	<data name="BSCHANGE_INCL_IN">
-		<value>Include ineligible</value>
-    </data>
+		<value>Incluir no elegibles</value>
+	</data>
 	<data name="BSCHANGE_ONLY_EL">
-		<value>Show only eligible</value>
-    </data>
+		<value>Mostrar solo elegibles</value>
+	</data>
 	<data name="BSCHANGE_NEEDSUPDATE">
-		<value>Needs firmware update</value>
-    </data>
+		<value>Necesita actualización de firmware</value>
+	</data>
 	<data name="BSCHANGE_NOTELIGIBLE">
-		<value>Not eligible</value>
-    </data>
+		<value>No elegible</value>
+	</data>
 	<data name="BSCHANGE_ERR">
-		<value>Error - retrying</value>
-    </data>
+		<value>Error - reintento</value>
+	</data>
 	<data name="BSCHANGE_CONNECTING_APPLYING">
-		<value>Connecting and applying settings</value>
-    </data>
+		<value>Conectando y aplicando configuraciones</value>
+	</data>
 	<data name="BSCHANGE_FINISHED">
-		<value>Finished</value>
-    </data>
+		<value>Finalizado</value>
+	</data>
 	<data name="BSCHANGE_CONNECTING_OFF">
-		<value>Connecting and turning off BS</value>
-    </data>
+		<value>Conectando y desactivanto el ahorro de batería</value>
+	</data>
 	<data name="BSCHANGE_SEEN_SECONDS">
-		<value>Seen {0} seconds ago</value>
-    </data>
+		<value>Visto hace {0} segundos</value>
+	</data>
 	<data name="BSCHANGE_SEEN_AGO">
-		<value>Seen {0} ago</value>
-    </data>
+		<value>Visto hace {0}</value>
+	</data>
 	<data name="BSSET_HUBEN">
-		<value>Hub Present Mode Enabled</value>
-    </data>
+		<value>Modo de Presencia del Hub Activado</value>
+	</data>
 	<data name="BSSET_ASEN">
-		<value>Activity Scheduling Enabled</value>
-    </data>
+		<value>Programación de Actividad Activada</value>
+	</data>
 	<data name="BSSET_STARTON">
-		<value>Start On</value>
-    </data>
+		<value>Iniciar en</value>
+	</data>
 	<data name="BSSET_STARTMONTH">
-		<value>Start Month</value>
-    </data>
+		<value>Mes de Inicio</value>
+	</data>
 	<data name="BSSET_STARTDAY">
-		<value>Start Day</value>
-    </data>
+		<value>Día de Inicio</value>
+	</data>
 	<data name="BSSET_ENDON">
-		<value>End On</value>
-    </data>
+		<value>Finalizar en</value>
+	</data>
 	<data name="BSSET_ENDMONTH">
-		<value>End Month</value>
-    </data>
+		<value>Mes de Finalización</value>
+	</data>
 	<data name="BSSET_ENDDAY">
-		<value>End Day</value>
-    </data>
+		<value>Día de Finalización</value>
+	</data>
 	<data name="BSSET_FROM">
-		<value>From</value>
-    </data>
+		<value>Desde</value>
+	</data>
 	<data name="BSSET_TO">
-		<value>To</value>
-    </data>
+		<value>Hasta</value>
+	</data>
 	<data name="BSSET_DONE">
-		<value>Done</value>
-    </data>
+		<value>Hecho</value>
+	</data>
 	<data name="BSSET_EST">
-		<value>Battery Life Estimate</value>
-    </data>
+		<value>Estimación de Vida de la Batería</value>
+	</data>
 	<data name="BSSET_YEARS">
-		<value>years</value>
-    </data>
+		<value>años</value>
+	</data>
 	<data name="BSSET_HP_EXP_TITLE">
-		<value>Hub Present Mode</value>
-    </data>
+		<value>Modo de presencia del Hub</value>
+	</data>
 	<data name="BSSET_AS_EXP_TITLE">
-		<value>Activity Scheduling</value>
-    </data>
+		<value>Programación de Actividad</value>
+	</data>
 </root>

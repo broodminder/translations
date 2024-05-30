@@ -115,10 +115,10 @@
 		<value>Réglage de l'app</value>
 	</data>
 	<data name="SETTINGS_BATTERYSAVER">
-		<value>Enable/Disable Battery Saver</value>
+		<value>Activer/Désactiver l'économie de batterie</value>
 	</data>
 	<data name="SETTINGS_SHOWFIRMWARE">
-		<value>Show available firmware updates</value>
+		<value>Afficher les mises à jour du firmware disponibles</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
 		<value>Enregistrer CSV avec la sync du SubHub</value>
@@ -211,13 +211,13 @@
 		<value>Sélectionner le rucher</value>
 	</data>
 	<data name="APIARIES_NONE">
-		<value>No Apiary Selected</value>
+		<value>Aucun Rucher Sélectionné</value>
 	</data>
 	<data name="APIARIES_TAP1">
 		<value>Appuyer</value>
 	</data>
 	<data name="APIARIES_TAP2">
-		<value>above to select an apiary</value>
+		<value>ci-dessus pour sélectionner un rucher</value>
 	</data>
 	<data name="APIARIES_NOHIVES">
 		<value>Pas de ruches trouvées</value>
@@ -949,13 +949,13 @@
 		<value>Evènement au {0}</value>
 	</data>
 	<data name="DEVICES_CHARGER">
-		<value>Charge Remaining</value>
+		<value>Charge restante</value>
 	</data>
 	<data name="DEVICES_BATTSAV">
-		<value>Battery Saver Enabled</value>
+		<value>Économie de batterie activée</value>
 	</data>
 	<data name="DEVICES_ACTSCHED">
-		<value>Activity Scheduling Enabled</value>
+		<value>Planification des activités activée</value>
 	</data>
 	<data name="DEVICES_CELL_SAMPLES">
 		<value>{0} capteur, {1} relevés à transférer</value>
@@ -1459,7 +1459,7 @@
 		<value>Lire l'accord de licence</value>
 	</data>
 	<data name="REGISTER_EULA1">
-		<value>MyBroodMinder.com EULA (End User License Agreement) v1.1</value>
+		<value>MyBroodMinder.com EULA (Contrat de Licence Utilisateur) v1.1</value>
 	</data>
 	<data name="REGISTER_EULA2">
 		<value>Nous vous demandons d'accepter les conditions d'utilisation pour utiliser ce logiciel SaaS d'apiculture:</value>
@@ -2374,7 +2374,7 @@
 		<value>Nouvelles fonctionnalités !</value>
 	</data>
 	<data name="APP_UPDATE_DESC">
-		<value>Nous avons mis à jour l'application Bees ! Profitez de nouvelles visualisations de vos ruches avec les nouveaux onglets Ruchers et Ruches. Et continuez à utiliser normalement le déplacement des dispositifs et le téléchargement des données dans les onglets Gérer et Capteurs.</value>
+		<value>Nous avons mis à jour l'application Bees ! Profitez de nouvelles visualisations de vos ruches avec les nouveaux onglets Ruchers et Ruches. Et continuez à utiliser normalement la gestion des capteurs et le téléchargement des données dans les onglets Gérer et Capteurs.</value>
 	</data>
 	<data name="APP_UPDATE_OK">
 		<value>Terminé</value>
@@ -2383,120 +2383,120 @@
 		<value>En savoir plus</value>
 	</data>
 	<data name="BSCHANGE_EN_BTN">
-		<value>Enable/Update Battery Saver</value>
-    </data>
+		<value>Activer/Configurer l'économiseur de batterie</value>
+	</data>
 	<data name="BSCHANGE_DIS_BTN">
-		<value>Disable Battery Saver</value>
-    </data>
+		<value>Désactiver l'économiseur de batterie</value>
+	</data>
 	<data name="BSCHANGE_SETUP">
-		<value>Setup</value>
-    </data>
+		<value>Configuration</value>
+	</data>
 	<data name="BSCHANGE_CHOOSEOPT">
-		<value>Nothing in progress, choose an option above</value>
-    </data>
+		<value>Aucune activité en cours, choisissez une option ci-dessus</value>
+	</data>
 	<data name="BSCHANGE_HUBMODE_EN">
-		<value>"Hub Present Mode Enabled</value>
-    </data>
+		<value>Mode Présence du Hub Activé</value>
+	</data>
 	<data name="BSCHANGE_HUBMODE_DIS">
-		<value>Hub Present Mode Disabled</value>
-    </data>
+		<value>Mode Présence du Hub Désactivé</value>
+	</data>
 	<data name="BSCHANGE_AS_EN">
-		<value>Activity Scheduling Enabled</value>
-    </data>
+		<value>Planification d'activité Activée</value>
+	</data>
 	<data name="BSCHANGE_AS_SPAN">
-		<value>Activity running from {0} to {1} between {2} and {3}</value>
-    </data>
+		<value>Activité en cours de {0} à {1} entre {2} et {3}</value>
+	</data>
 	<data name="BSCHANGE_AS_DIS">
-		<value>Activity Scheduling Disabled</value>
-    </data>
+		<value>Planification d'activité Désactivée</value>
+	</data>
 	<data name="BSCHANGE_INCL">
-		<value>Include ineligible</value>
-    </data>
+		<value>Inclure les inéligibles</value>
+	</data>
 	<data name="BSCHANGE_CHANGEWARN">
-		<value>Changing settings may take 10 mintutes</value>
-    </data>
+		<value>La modification des paramètres peut prendre 10 minutes</value>
+	</data>
 	<data name="BSCHANGE_DISWARN">
-		<value>Disabling battery saver may take 10 minutes</value>
-    </data>
+		<value>La désactivation de l'économiseur de batterie peut prendre 10 minutes</value>
+	</data>
 	<data name="BSCHANGE_CANCELSYNC">
-		<value>Canceling apiary sync</value>
-    </data>
+		<value>Annulation de la synchronisation du rucher</value>
+	</data>
 	<data name="BSCHANGE_STARTING">
-		<value>Starting</value>
-    </data>
+		<value>Démarrage</value>
+	</data>
 	<data name="BSCHANGE_INCL_IN">
-		<value>Include ineligible</value>
-    </data>
+		<value>Inclure les inéligibles</value>
+	</data>
 	<data name="BSCHANGE_ONLY_EL">
-		<value>Show only eligible</value>
-    </data>
+		<value>Afficher uniquement les éligibles</value>
+	</data>
 	<data name="BSCHANGE_NEEDSUPDATE">
-		<value>Needs firmware update</value>
-    </data>
+		<value>Nécessite une mise à jour du firmware</value>
+	</data>
 	<data name="BSCHANGE_NOTELIGIBLE">
-		<value>Not eligible</value>
-    </data>
+		<value>Non éligible</value>
+	</data>
 	<data name="BSCHANGE_ERR">
-		<value>Error - retrying</value>
-    </data>
+		<value>Erreur - nouvelle tentative</value>
+	</data>
 	<data name="BSCHANGE_CONNECTING_APPLYING">
-		<value>Connecting and applying settings</value>
-    </data>
+		<value>Connexion et application des paramètres</value>
+	</data>
 	<data name="BSCHANGE_FINISHED">
-		<value>Finished</value>
-    </data>
+		<value>Terminé</value>
+	</data>
 	<data name="BSCHANGE_CONNECTING_OFF">
-		<value>Connecting and turning off BS</value>
-    </data>
+		<value>Connexion et désactivation de l'économiseur de batterie</value>
+	</data>
 	<data name="BSCHANGE_SEEN_SECONDS">
-		<value>Seen {0} seconds ago</value>
-    </data>
+		<value>Vu il y a {0} secondes</value>
+	</data>
 	<data name="BSCHANGE_SEEN_AGO">
-		<value>Seen {0} ago</value>
-    </data>
+		<value>Vu il y a {0}</value>
+	</data>
 	<data name="BSSET_HUBEN">
-		<value>Hub Present Mode Enabled</value>
-    </data>
+		<value>Mode Présence du Hub Activé</value>
+	</data>
 	<data name="BSSET_ASEN">
-		<value>Activity Scheduling Enabled</value>
-    </data>
+		<value>Planification d'activité Activée</value>
+	</data>
 	<data name="BSSET_STARTON">
-		<value>Start On</value>
-    </data>
+		<value>Démarrer le</value>
+	</data>
 	<data name="BSSET_STARTMONTH">
-		<value>Start Month</value>
-    </data>
+		<value>Mois de début</value>
+	</data>
 	<data name="BSSET_STARTDAY">
-		<value>Start Day</value>
-    </data>
+		<value>Jour de début</value>
+	</data>
 	<data name="BSSET_ENDON">
-		<value>End On</value>
-    </data>
+		<value>Fin le</value>
+	</data>
 	<data name="BSSET_ENDMONTH">
-		<value>End Month</value>
-    </data>
+		<value>Mois de fin</value>
+	</data>
 	<data name="BSSET_ENDDAY">
-		<value>End Day</value>
-    </data>
+		<value>Jour de fin</value>
+	</data>
 	<data name="BSSET_FROM">
-		<value>From</value>
-    </data>
+		<value>De</value>
+	</data>
 	<data name="BSSET_TO">
-		<value>To</value>
-    </data>
+		<value>À</value>
+	</data>
 	<data name="BSSET_DONE">
-		<value>Done</value>
-    </data>
+		<value>Terminé</value>
+	</data>
 	<data name="BSSET_EST">
-		<value>Battery Life Estimate</value>
-    </data>
+		<value>Estimation de la durée de vie de la batterie</value>
+	</data>
 	<data name="BSSET_YEARS">
-		<value>years</value>
-    </data>
+		<value>années</value>
+	</data>
 	<data name="BSSET_HP_EXP_TITLE">
-		<value>Hub Present Mode</value>
-    </data>
+		<value>Mode Présence du Hub</value>
+	</data>
 	<data name="BSSET_AS_EXP_TITLE">
-		<value>Activity Scheduling</value>
-    </data>
+		<value>Planification d'activité</value>
+	</data>
 </root>

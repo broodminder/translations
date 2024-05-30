@@ -1558,16 +1558,16 @@
 		<value>Connecting, may take 60 seconds</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTIONTIMEOUT">
-		<value>BLE error - Connection timeout</value>
+		<value>Bluetooth error - Connection timeout</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTED">
 		<value>Connected</value>
 	</data>
 	<data name="FIRMWARESTATUS_BLEERROR">
-		<value>BLE error</value>
+		<value>Bluetooth error</value>
 	</data>
 	<data name="FIRMWARESTATUS_BLETIMEOUT">
-		<value>BLE error - Timeout</value>
+		<value>Bluetooth error - Timeout</value>
 	</data>
 	<data name="FIRMWARESTATUS_OTAMODE">
 		<value>Putting device into OTA mode</value>
