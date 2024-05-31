@@ -1648,10 +1648,10 @@
 		<value>Configurar Red (APN)</value>
 	</data>
 	<data name="WIFICONFIGURE_UPLOADNOW">
-		<value>Cargar Ahora</value>
+		<value>Subir Datos Ahora</value>
 	</data>
 	<data name="WIFICONFIGURE_SCAN">
-		<value>Ecanear</value>
+		<value>Buscar Redes</value>
 	</data>
 	<data name="WIFICONFIGURE_SELECTNET">
 		<value>Seleccionar Red</value>
