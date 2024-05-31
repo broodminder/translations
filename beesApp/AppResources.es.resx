@@ -2224,7 +2224,7 @@
 		<value>Índice de Flujo de Néctar</value>
 	</data>
 	<data name="WEATHER_TITLE">
-		<value>Clima</value>
+		<value>Meteo</value>
 	</data>
 	<data name="WEATHER_Y_RAIN">
 		<value>Lluvia</value>
@@ -2248,7 +2248,7 @@
 		<value>Índice de Forrajeo</value>
 	</data>
 	<data name="VAPIARY_NEWAPENOTE">
-		<value>Nueva Nota del Apiario</value>
+		<value>Nueva Nota de Apiario</value>
 	</data>
 	<data name="VAPIARY_NECTAR_TITLE">
 		<value>Pronóstico del Índice de Néctar</value>
@@ -2332,25 +2332,25 @@
 		<value>Nueva Colmena</value>
     </data>
 	<data name="VHIVE_HNOTE">
-		<value>Nueva Nota de la Colmena</value>
+		<value>Nueva Nota de Colmena</value>
 	</data>
 	<data name="VHIVE_ANOTE">
-		<value>Nueva Nota del Apiario</value>
+		<value>Nueva Nota de Apiario</value>
 	</data>
 	<data name="ADDI_TITLE">
 		<value>Nuevo Elemento</value>
 	</data>
 	<data name="ADDI_NOTE_APIARY">
-		<value>Nueva Nota del Apiario</value>
+		<value>Nueva Nota de Apiario</value>
 	</data>
 	<data name="ADDI_NOTE_HIVE">
-		<value>Nueva Nota de la Colmena</value>
+		<value>Nueva Nota de Colmena</value>
 	</data>
 	<data name="CU_NOTE_TITLE_U">
-		<value>{0} Notas</value>
+		<value>Anotar en {0}</value>
 	</data>
 	<data name="CU_NOTE_HIVETITLE">
-		<value>Crear Nota de la Colmena</value>
+		<value>Crear Nota de Colmena</value>
 	</data>
 	<data name="CU_NOTE_HIVE_SEL">
 		<value>Seleccionar colmenas (crea nota para cada una)</value>
@@ -2368,7 +2368,7 @@
 		<value>Escribe algo ...</value>
 	</data>
 	<data name="CU_NOTE_TAGS">
-		<value>Seleccionar etiquetas</value>
+		<value>Selecciona etiquetas</value>
 	</data>
 	<data name="APP_UPDATE_TITLE">
 		<value>¡Nuevas Funciones!</value>
