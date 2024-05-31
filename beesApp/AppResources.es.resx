@@ -1219,7 +1219,7 @@
 		<value>Guías</value>
 	</data>
 	<data name="HELP_GUIDES_STARTED">
-		<value>Empezar con el dispositivo</value>
+		<value>Guía de inicio rápido</value>
 	</data>
 	<data name="HELP_GUIDES_USER">
 		<value>Guía del Usuario</value>
@@ -2221,7 +2221,7 @@
 		<value>Acción ya tomada</value>
 	</data>
 	<data name="NECTAR_TITLE">
-		<value>Índice de Flujo de Néctar</value>
+		<value>Índice de Néctar</value>
 	</data>
 	<data name="WEATHER_TITLE">
 		<value>Meteo</value>
@@ -2245,7 +2245,7 @@
 		<value>Índice de Néctar</value>
 	</data>
 	<data name="WEATHER_Y_FORAG">
-		<value>Índice de Forrajeo</value>
+		<value>Índice de Pecoreo</value>
 	</data>
 	<data name="VAPIARY_NEWAPENOTE">
 		<value>Nueva Nota de Apiario</value>
