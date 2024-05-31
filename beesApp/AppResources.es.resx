@@ -2274,6 +2274,12 @@
 	<data name="PROD_TITLE">
 		<value>Productividad</value>
 	</data>
+	<data name="PROD_PROD">
+		<value>Productividad</value>
+    </data>
+	<data name="PROD_CUMUL">
+		<value>Acumulado</value>
+    </data>
 	<data name="PROD_3D">
 		<value>3 días</value>
 	</data>
@@ -2382,11 +2388,14 @@
 	<data name="APP_UPDATE_MORE">
 		<value>Más información</value>
 	</data>
+	<data name="BSCHANGE_TITLE">
+		<value>Ahorro de Batería</value>
+    </data>
 	<data name="BSCHANGE_EN_BTN">
-    	<value>Activar/Actualizar Ahorro de Batería</value>
+    	<value>Activar/Actualizar</value>
 	</data>
 	<data name="BSCHANGE_DIS_BTN">
-		<value>Desactivar Ahorro de Batería</value>
+		<value>Desactivar</value>
 	</data>
 	<data name="BSCHANGE_SETUP">
 		<value>Configuración</value>
@@ -2454,11 +2463,14 @@
 	<data name="BSCHANGE_SEEN_AGO">
 		<value>Visto hace {0}</value>
 	</data>
+		<data name="BSSET_TITLE">
+		<value>Configuración de ahorro de batería</value>
+    </data>
 	<data name="BSSET_HUBEN">
-		<value>Modo de Presencia del Hub Activado</value>
+		<value>Hub presente en el apiario</value>
 	</data>
 	<data name="BSSET_ASEN">
-		<value>Programación de Actividad Activada</value>
+		<value>Programar detección de enjambre</value>
 	</data>
 	<data name="BSSET_STARTON">
 		<value>Iniciar en</value>
@@ -2498,5 +2510,29 @@
 	</data>
 	<data name="BSSET_AS_EXP_TITLE">
 		<value>Programación de Actividad</value>
+	</data>
+	<data name="BSSET_HP_EXP_MESSAGE">
+		<value>Seleccione esto si tiene un BroodMinder Hub en su apiario</value>
+    </data>
+	<data name="BSSET_AS_EXP_MESSAGE">
+		<value>Reducir el tiempo en que los sensores detectan enjambres prolongará la vida útil de la batería.</value>
+    </data>
+	<data name="BSSET_HELP">
+		<value>Ayuda</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_0">
+		<value>Puede extender la duración de la batería del sensor a más de 5 años de dos maneras.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_1">
+		<value>Si tiene un concentrador (SubHub, Cell, WiFi o LoRa), puede configurar sus dispositivos para reducir la publicidad. Esto agregará un año a sus dispositivos -T2 y -TH2 y más de 5 años a sus dispositivos -W.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_2">
+		<value>Dado que los enjambres sólo ocurren durante las horas del día y durante parte del año, se pueden ganar varios años de duración de la batería reduciendo el tiempo de detección.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_3">
+		<value>Para obtener más información, consulte la Guía del usuario de BroodMinder.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_LINK">
+		<value>Guía del Usuario</value>
 	</data>
 </root>

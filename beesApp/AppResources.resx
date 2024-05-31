@@ -2274,6 +2274,12 @@
 	<data name="PROD_TITLE">
 		<value>Productivity</value>
     </data>
+	<data name="PROD_PROD">
+		<value>Productivity</value>
+    </data>
+	<data name="PROD_CUMUL">
+		<value>Cummulative</value>
+    </data>
 	<data name="PROD_3D">
 		<value>3 day</value>
     </data>
@@ -2382,11 +2388,14 @@
 	<data name="APP_UPDATE_MORE">
 		<value>Learn more</value>
     </data>
+	<data name="BSCHANGE_TITLE">
+		<value>Battery Saver</value>
+    </data>
 	<data name="BSCHANGE_EN_BTN">
-		<value>Enable/Update Battery Saver</value>
+		<value>Enable/Update</value>
     </data>
 	<data name="BSCHANGE_DIS_BTN">
-		<value>Disable Battery Saver</value>
+		<value>Disable</value>
     </data>
 	<data name="BSCHANGE_SETUP">
 		<value>Setup</value>
@@ -2454,11 +2463,14 @@
 	<data name="BSCHANGE_SEEN_AGO">
 		<value>Seen {0} ago</value>
     </data>
+	<data name="BSSET_TITLE">
+		<value>Battery Saver Settings</value>
+    </data>
 	<data name="BSSET_HUBEN">
-		<value>Hub Present Mode Enabled</value>
+		<value>Hub Present in Apiary</value>
     </data>
 	<data name="BSSET_ASEN">
-		<value>Activity Scheduling Enabled</value>
+		<value>Schedule Swarm Detection</value>
     </data>
 	<data name="BSSET_STARTON">
 		<value>Start On</value>
@@ -2499,4 +2511,28 @@
 	<data name="BSSET_AS_EXP_TITLE">
 		<value>Activity Scheduling</value>
     </data>
+	<data name="BSSET_HP_EXP_MESSAGE">
+		<value>Select this if you have a BroodMinder Hub in your apiary</value>
+    </data>
+	<data name="BSSET_AS_EXP_MESSAGE">
+		<value>Reducing the time when your sensors are watching for swarms will extend battery life.</value>
+    </data>
+	<data name="BSSET_HELP">
+		<value>Help</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_0">
+		<value>You can extend the sensor battery life to 5+ years in two ways.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_1">
+		<value>If you have a hub (SubHub, Cell, WiFi, or LoRa), you can set your devices to reduce advertising. This will add a year to your -T2 and -TH2 devices and 5+ years to your -W devices.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_2">
+		<value>Since swarms only happen during daylight hours and during part of the year, several years of battery life can be gained by reducing the detection time.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_3">
+		<value>For more information, see the BroodMinder User Guide.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_LINK">
+		<value>User guide</value>
+	</data>
 </root>

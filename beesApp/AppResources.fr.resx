@@ -2274,6 +2274,12 @@
 	<data name="PROD_TITLE">
 		<value>Productivité</value>
 	</data>
+	<data name="PROD_PROD">
+		<value>Productivité</value>
+    </data>
+	<data name="PROD_CUMUL">
+		<value>Cummulé</value>
+    </data>
 	<data name="PROD_3D">
 		<value>3 jours</value>
 	</data>
@@ -2382,11 +2388,14 @@
 	<data name="APP_UPDATE_MORE">
 		<value>En savoir plus</value>
 	</data>
+	<data name="BSCHANGE_TITLE">
+		<value>Économie de Batterie</value>
+    </data>
 	<data name="BSCHANGE_EN_BTN">
-		<value>Activer/Configurer l'économiseur de batterie</value>
+		<value>Activer/Configurer</value>
 	</data>
 	<data name="BSCHANGE_DIS_BTN">
-		<value>Désactiver l'économiseur de batterie</value>
+		<value>Désactiver</value>
 	</data>
 	<data name="BSCHANGE_SETUP">
 		<value>Configuration</value>
@@ -2454,11 +2463,14 @@
 	<data name="BSCHANGE_SEEN_AGO">
 		<value>Vu il y a {0}</value>
 	</data>
+		<data name="BSSET_TITLE">
+		<value>Paramètres d'économie de batterie</value>
+    </data>
 	<data name="BSSET_HUBEN">
-		<value>Mode Présence du Hub Activé</value>
+		<value>Hub présent dans le rucher</value>
 	</data>
 	<data name="BSSET_ASEN">
-		<value>Planification d'activité Activée</value>
+		<value>Programmer la détection d'essaims</value>
 	</data>
 	<data name="BSSET_STARTON">
 		<value>Démarrer le</value>
@@ -2498,5 +2510,29 @@
 	</data>
 	<data name="BSSET_AS_EXP_TITLE">
 		<value>Planification d'activité</value>
+	</data>
+	<data name="BSSET_HP_EXP_MESSAGE">
+		<value>Sélectionnez ceci si vous avez un BroodMinder Hub dans votre rucher</value>
+    </data>
+	<data name="BSSET_AS_EXP_MESSAGE">
+		<value>Réduire le temps pendant lequel vos capteurs surveillent les essaims prolongera la durée de vie de la batterie.</value>
+    </data>
+	<data name="BSSET_HELP">
+		<value>Aide</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_0">
+		<value>Vous pouvez prolonger la durée de vie de la batterie du capteur à plus de 5 ans de deux manières.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_1">
+		<value>Si vous disposez d'un hub (SubHub, Cell, WiFi ou LoRa), vous pouvez configurer vos appareils pour réduire la publicité. Cela ajoutera un an à vos appareils -T2 et -TH2 et plus de 5 ans à vos appareils -W.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_2">
+		<value>Étant donné que les essaims ne se produisent que pendant la journée et pendant une partie de l’année, plusieurs années d’autonomie peuvent être gagnées en réduisant le temps de détection.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_3">
+		<value>Pour plus d'informations, consultez le Guide de l'utilisateur de BroodMinder.</value>
+	</data>
+	<data name="BSSET_HELP_DESCR_LINK">
+		<value>Guide utilisateur</value>
 	</data>
 </root>
