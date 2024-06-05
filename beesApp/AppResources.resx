@@ -2268,6 +2268,9 @@
 	<data name="VAPIARY_NOTES_NONE">
 		<value>No inspections for 2 weeks.</value>
     </data>
+	<data name="VAPIARY_REFRESH">
+		<value>Refresh Apiary Data</value>
+    </data>
 	<data name="WEIGHT_TITLE">
 		<value>Weight</value>
     </data>
@@ -2342,6 +2345,9 @@
     </data>
 	<data name="VHIVE_ANOTE">
 		<value>New Apiary Note</value>
+    </data>
+	<data name="VHIVE_REFRESH">
+		<value>Refresh Hive Data</value>
     </data>
 	<data name="ADDI_TITLE">
 		<value>Add Item</value>

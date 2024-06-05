@@ -2268,6 +2268,9 @@
 	<data name="VAPIARY_NOTES_NONE">
 		<value>Aucune inspection depuis 2 semaines.</value>
 	</data>
+	<data name="VAPIARY_REFRESH">
+		<value>Actualiser les données du rucher</value>
+    </data>
 	<data name="WEIGHT_TITLE">
 		<value>Poids</value>
 	</data>
@@ -2343,6 +2346,9 @@
 	<data name="VHIVE_ANOTE">
 		<value>Nouvelle Note Rucher</value>
 	</data>
+	<data name="VHIVE_REFRESH">
+		<value>Actualiser les données de la ruche</value>
+    </data>
 	<data name="ADDI_TITLE">
 		<value>Ajouter un Élement</value>
 	</data>
