@@ -298,7 +298,7 @@
 		<value>Ver Detalles</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDITLOCATION">
-		<value>Editar Posición Actual</value>
+		<value>Editar Ubicación Actual</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE">
 		<value>Suprimir Sensor</value>
@@ -580,13 +580,13 @@
 		<value>*Entrar colmena</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Localización</value>
+		<value>Ubicación en la colmena</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
-		<value>Seleccionar Posición</value>
+		<value>Seleccionar Ubicación</value>
 	</data>
 	<data name="ADD_DEVICE_POSITIONERROR">
-		<value>*Entrar Posición</value>
+		<value>*Entrar Ubicación</value>
 	</data>
 	<data name="ADD_DEVICE_START">
 		<value>Inicio</value>
@@ -973,10 +973,10 @@
 		<value>Ubicación</value>
 	</data>
 	<data name="EDITLOCATION_SELECT">
-		<value>Selecciona Posición</value>
+		<value>Selecciona Ubicación</value>
 	</data>
 	<data name="EDITLOCATION_REQ">
-		<value>*Entrar una Posición</value>
+		<value>*Entrar una Ubicación</value>
 	</data>
 	<data name="EDITLOCATION_START">
 		<value>Inicio</value>

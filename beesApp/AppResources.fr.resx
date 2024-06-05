@@ -298,7 +298,7 @@
 		<value>Afficher les détails</value>
 	</data>
 	<data name="DEVICE_CONTEXT_EDITLOCATION">
-		<value>Modifier la position actuelle</value>
+		<value>Modifier l'emplacement actuel</value>
 	</data>
 	<data name="DEVICE_CONTEXT_DELETE">
 		<value>Effacer le capteur</value>
@@ -535,7 +535,7 @@
 		<value>Erreur, ruche non déplacée</value>
 	</data>
 	<data name="MOVE_HIVE_TIMEERROR">
-		<value>Date de début antérieure au début de la position actuelle</value>
+		<value>Date de début antérieure au début de l'emplacement actuel</value>
 	</data>
 	<data name="MOVE_HIVE_APIARYERROR">
 		<value>*Rucher requis</value>
@@ -580,13 +580,13 @@
 		<value>*Ruche requise</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Position</value>
+		<value>Situation sur la ruche</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
-		<value>Sélectionner la position</value>
+		<value>Sélectionner la situation</value>
 	</data>
 	<data name="ADD_DEVICE_POSITIONERROR">
-		<value>*Position requise</value>
+		<value>*Situation requise</value>
 	</data>
 	<data name="ADD_DEVICE_START">
 		<value>Démarrer</value>
@@ -970,19 +970,19 @@
 		<value>Toucher pour activer.</value>
 	</data>
 	<data name="EDITLOCATION_LOCATION">
-		<value>Position</value>
+		<value>Situation sur la ruche</value>
 	</data>
 	<data name="EDITLOCATION_SELECT">
-		<value>Sélectionner la position</value>
+		<value>Sélectionner la situation</value>
 	</data>
 	<data name="EDITLOCATION_REQ">
-		<value>*Position requise</value>
+		<value>*Situation requise</value>
 	</data>
 	<data name="EDITLOCATION_START">
 		<value>Début</value>
 	</data>
 	<data name="EDITLOCATION_ENDLOCATION">
-		<value>Position Fin</value>
+		<value>Situation Fin</value>
 	</data>
 	<data name="EDITLOCATION_END">
 		<value>Fin</value>
@@ -991,7 +991,7 @@
 		<value>Modifier la positon du capteur</value>
 	</data>
 	<data name="EDITLOCATION_ERROR">
-		<value>Erreur, pas de position actuelle à modifier</value>
+		<value>Erreur, pas de situation actuelle à modifier</value>
 	</data>
 	<data name="EDITLOCATION_MOVED">
 		<value>Capteur déplacé</value>

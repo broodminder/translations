@@ -580,7 +580,7 @@
 		<value>*Hive is required</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Location</value>
+		<value>Location on the hive</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
 		<value>Select Position</value>
@@ -970,7 +970,7 @@
 		<value>Tap here to enable.</value>
 	</data>
 	<data name="EDITLOCATION_LOCATION">
-		<value>Location</value>
+		<value>Location on the hive</value>
 	</data>
 	<data name="EDITLOCATION_SELECT">
 		<value>Select Position</value>
