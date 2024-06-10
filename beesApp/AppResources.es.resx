@@ -2268,6 +2268,9 @@
 	<data name="VAPIARY_NOTES_NONE">
 		<value>Sin inspecciones en 2 semanas.</value>
 	</data>
+	<data name="VAPIARY_REFRESH">
+		<value>Actualizar datos del apiario</value>
+    </data>
 	<data name="WEIGHT_TITLE">
 		<value>Peso</value>
 	</data>
@@ -2343,6 +2346,9 @@
 	<data name="VHIVE_ANOTE">
 		<value>Nueva Nota de Apiario</value>
 	</data>
+	<data name="VHIVE_REFRESH">
+		<value>Actualizar datos de la colmena</value>
+    </data>
 	<data name="ADDI_TITLE">
 		<value>Nuevo Elemento</value>
 	</data>
