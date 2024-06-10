@@ -1336,7 +1336,7 @@
 		<value>Créez un compte maintenant</value>
 	</data>
 	<data name="LOGIN_USERNAME">
-		<value>Nom d'utilisateur</value>
+		<value>Email</value>
 	</data>
 	<data name="LOGIN_PASSWORD">
 		<value>Mot de passe</value>
@@ -1345,10 +1345,10 @@
 		<value>Mot de passe oublié</value>
 	</data>
 	<data name="FORGOTPASSWORD_TITLE2">
-		<value>Reset your password</value>
+		<value>Reinitialiser le mot de passe</value>
 	</data>
 	<data name="FORGOTPASSWORD_USERNAME">
-		<value>Nom d'utilisateur</value>
+		<value>Email</value>
 	</data>
 	<data name="FORGOTPASSWORD_SEND">
 		<value>Envoyer un email réinitialisation</value>
