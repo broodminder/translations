@@ -95,2614 +95,2450 @@
     </data>
     <data name="SETTINGS_ACCOUNT">
         <value>Conta</value>
-
-===================================
-<data name="SETTINGS_USER">
-    <value>Usuário</value>
-</data>
-<data name="SETTINGS_PREFERENCES">
-    <value>Preferências</value>
-</data>
-<data name="SETTINGS_TIMEZONE">
-    <value>Fuso Horário</value>
-</data>
-<data name="SETTINGS_UNIT">
-    <value>Unidade</value>
-</data>
-<data name="SETTINGS_LANGUAGE">
-    <value>Idioma</value>
-</data>
-<data name="SETTINGS_APP">
-    <value>Configurações do App</value>
-</data>
-<data name="SETTINGS_BATTERYSAVER">
-    <value>Ativar/Desativar Economizador de Bateria</value>
-</data>
-<data name="SETTINGS_SHOWFIRMWARE">
-    <value>Mostrar atualizações de firmware disponíveis</value>
-</data>
-<data name="SETTINGS_SUBHUBCSV">
-    <value>Salvar CSV na sincronização do SubHub</value>
-</data>
-<data name="SETTINGS_LOGIN">
-    <value>Entrar</value>
-</data>
-<data name="SETTINGS_EDITPREF">
-    <value>Editar Preferências</value>
-</data>
-<data name="SETTINGS_LOGOUT">
-    <value>Sair</value>
-</data>
-<data name="SETTINGS_TROUBLESHOOTING">
-    <value>Resolução de Problemas</value>
-</data>
-<data name="SETTINGS_LOGOUT_TITLE">
-    <value>Saindo</value>
-</data>
-<data name="SETTINGS_LOGOUT_KEEP">
-    <value>Manter todos os dispositivos</value>
-</data>
-<data name="SETTINGS_LOGOUT_REMOVEALL">
-    <value>Remover todos os dispositivos</value>
-</data>
-<data name="SETTINGS_LOGOUT_REMOVEACCOUNT">
-    <value>Remover dispositivos na conta {0}</value>
-</data>
-<data name="SETTINGS_NOACCOUNT">
-    <value>nenhuma conta anexada</value>
-</data>
-<data name="SETTINGS_EDITPREF_TITLE">
-    <value>Editar Preferências</value>
-</data>
-<data name="SETTINGS_EDITPREF_METRIC">
-    <value>Métrico (Celsius/Quilogramas)</value>
-</data>
-<data name="SETTINGS_EDITPREF_IMPERIAL">
-    <value>Imperial (Fahrenheit/Libras)</value>
-</data>
-<data name="SETTINGS_EDITPREF_TIMEZONE">
-    <value>Selecionar Fuso Horário</value>
-</data>
-<data name="SETTINGS_EDITPREF_UNITS">
-    <value>Selecionar Unidades</value>
-</data>
-<data name="SETTINGS_EDITPREF_LANGUAGE">
-    <value>Selecionar Idioma</value>
-</data>
-<data name="SETTINGS_ADVANCED_TITLE">
-    <value>Avançado</value>
-</data>
-<data name="SETTINGS_ADVANCED_REMOVEDEVICES">
-    <value>Remover dispositivos que não estão na minha conta</value>
-</data>
-<data name="SETTINGS_ADVANCED_DELETEDB">
-    <value>Deletar Banco de Dados</value>
-</data>
-<data name="SETTINGS_ADVANCED_DOWNLOADLOG">
-    <value>Baixar Log de Depuração</value>
-</data>
-<data name="SETTINGS_ADVANCED_TURNOFFFULLDBL">
-    <value>Desativar registro completo de depuração</value>
-</data>
-<data name="SETTINGS_ADVANCED_REMOVEDEVICES_MESSAGE">
-    <value>Remover dispositivos que não pertencem à conta MyBroodMinder {0}?</value>
-</data>
-<data name="SETTINGS_ADVANCED_REMOVEDEVICES_TITLE">
-    <value>Remover Dispositivos</value>
-</data>
-<data name="SETTINGS_ADVANCED_REMOVEDEVICES_CONFIRM">
-    <value>Sim, Remover Dispositivos</value>
-</data>
-<data name="SETTINGS_ADVANCED_DELETEDB_MESSAGE">
-    <value>Você tem certeza de que deseja excluir todos os dados locais?</value>
-</data>
-<data name="SETTINGS_ADVANCED_DELETEDB_TITLE">
-    <value>Excluir Dados</value>
-</data>
-<data name="SETTINGS_ADVANCED_DELETEDB_CONFIRM">
-    <value>Sim, Excluir Dados</value>
-</data>
-<data name="SETTINGS_ADVANCED_DOWNLOADLOG_COMPLETE">
-    <value>Log de Depuração Baixado</value>
-</data>
-<data name="SETTINGS_ADVANCED_DOWNLOADLOG_ERROR">
-    <value>Erro ao Baixar Log de Depuração</value>
-</data>
-<data name="APIARIES_SELECT">
-    <value>Selecionar Apiário/Meliponário</value>
-</data>
-<data name="APIARIES_NONE">
-    <value>Nenhum Apiário/Meliponário Selecionado</value>
-</data>
-<data name="APIARIES_TAP1">
-    <value>Toque</value>
-</data>
-<data name="APIARIES_TAP2">
-    <value>acima para selecionar um apiário/meliponário</value>
-</data>
-<data name="APIARIES_NOHIVES">
-    <value>Nenhuma Colmeia Encontrada</value>
-</data>
-<data name="APIARIES_TAPH1">
-    <value>Toque</value>
-</data>
-<data name="APIARIES_TAPH2">
-    <value>no canto superior direito para criar uma colmeia</value>
-</data>
-<data name="APIARIES_NODEVICES">
-    <value>Nenhum Dispositivo</value>
-</data>
-<data name="APIARIES_FILTERSENSOR">
-    <value>Ver leituras atuais</value>
-</data>
-<data name="APIARIES_CONTEXT_NEWAPIARY">
-    <value>Novo Apiário/Meliponário</value>
-</data>
-<data name="APIARIES_CONTEXT_EDITAPIARY">
-    <value>Editar Apiário/Meliponário</value>
-</data>
-<data name="APIARIES_CONTEXT_NEWHIVE">
-    <value>Nova Colmeia</value>
-</data>
-<data name="APIARIES_CONTEXT_NEWNOTE">
-    <value>Nova Nota</value>
-</data>
-<data name="HIVE_CONTEXT_SYNC">
-    <value>Sincronizar</value>
-</data>
-<data name="HIVE_CONTEXT_ADDDEVICE">
-    <value>Adicionar Dispositivo</value>
-</data>
-<data name="HIVE_CONTEXT_MOVEHIVE">
-    <value>Mover Colmeia</value>
-</data>
-<data name="HIVE_CONTEXT_EDITHIVE">
-    <value>Editar Colmeia</value>
-</data>
-<data name="HIVE_CONTEXT_OPEN">
-    <value>Abrir no Navegador</value>
-</data>
-<data name="HIVE_CONTEXT_CHART">
-    <value>Ver Gráfico</value>
-</data>
-<data name="HIVE_CONTEXT_ADDNOTE">
-    <value>Adicionar Nota</value>
-</data>
-<data name="HIVE_SH_CONTEXT_DETAILS">
-    <value>Mostrar Detalhes</value>
-</data>
-<data name="HIVE_SH_STATUS">
-    <value>Atualizando em</value>
-</data>
-<data name="HIVE_SH_STATUS_SLEEP">
-    <value>Dispositivo em sono profundo.</value>
-</data>
-<data name="DEVICE_CONTEXT_SYNC">
-    <value>Sincronizar</value>
-</data>
-<data name="DEVICE_CONTEXT_SYNCNEXT">
-    <value>Sincronizar Próximo</value>
-</data>
-<data name="DEVICE_CONTEXT_REMOVESYNC">
-    <value>Remover Sincronização</value>
-</data>
-<data name="DEVICE_CONTEXT_CANCEL">
-    <value>Cancelar Sincronização</value>
-</data>
-<data name="DEVICE_CONTEXT_EDIT">
-    <value>Editar Dispositivo</value>
-</data>
-<data name="DEVICE_CONTEXT_MOVE">
-    <value>Mover Dispositivo</value>
-</data>
-
-<data name="DEVICE_CONTEXT_MOVE">
-    <value>Mover Dispositivo</value>
-</data>
-<data name="DEVICE_CONTEXT_DETAILS">
-    <value>Mostrar Detalhes</value>
-</data>
-<data name="DEVICE_CONTEXT_EDITLOCATION">
-    <value>Editar Localização Atual</value>
-</data>
-<data name="DEVICE_CONTEXT_DELETE">
-    <value>Excluir Dispositivo</value>
-</data>
-<data name="DEVICE_CONTEXT_DELETE_MESSAGE">
-    <value>Você tem certeza de que deseja excluir todos os dados locais?</value>
-</data>
-<data name="DEVICE_CONTEXT_DELETE_TITLE">
-    <value>Excluir Dados</value>
-</data>
-<data name="DEVICE_CONTEXT_DELETE_CONFIRM">
-    <value>Sim, Excluir Dados</value>
-</data>
-<data name="DEVICE_CLAIM_MESSAGE">
-    <value>Reivindicar um dispositivo o adiciona à sua conta MyBroodMinder e carrega as leituras de sensores coletadas. Deseja reivindicar o dispositivo {0}?</value>
-</data>
-<data name="DEVICE_CLAIM_CONFIRM">
-    <value>Sim, Reivindicar dispositivo</value>
-</data>
-<data name="DEVICE_CLAIM_AUTOMESSAGE">
-    <value>Dispositivo {0} foi reivindicado com sucesso</value>
-</data>
-<data name="DEVICE_CLAIM_HIVE_NOW">
-    <value>Atribuir à colmeia agora</value>
-</data>
-<data name="DEVICE_CLAIM_HIVE_LATER">
-    <value>Atribuir à colmeia depois</value>
-</data>
-<data name="DEVICE_STATUS_UNAVAILABLE">
-    <value>Indisponível</value>
-</data>
-<data name="DEVICE_STATUS_NEARBY">
-    <value>Próximo</value>
-</data>
-<data name="DEVICE_STATUS_WAITING">
-    <value>Aguardando</value>
-</data>
-<data name="DEVICE_STATUS_CONNECTING">
-    <value>Conectando</value>
-</data>
-<data name="DEVICE_STATUS_CONNECTED">
-    <value>Conectado</value>
-</data>
-<data name="DEVICE_STATUS_BLEERROR">
-    <value>Erro de Bluetooth</value>
-</data>
-<data name="DEVICE_STATUS_SYNCERROR">
-    <value>Erro de Sincronização</value>
-</data>
-<data name="DEVICE_STATUS_NOTFOUND">
-    <value>Não Encontrado</value>
-</data>
-<data name="DEVICE_STATUS_CANCELLED">
-    <value>Cancelado</value>
-</data>
-<data name="DEVICE_STATUS_COMPLETE">
-    <value>Concluído</value>
-</data>
-<data name="DEVICE_STATUS_REMOTEHUB">
-    <value>Hub (Remoto)</value>
-</data>
-<data name="SYNC_CANCEL_MESSAGE">
-    <value>Cancelar sincronização?</value>
-</data>
-<data name="SYNC_CANCEL_CONFIRM">
-    <value>Sim, Cancelar sincronização</value>
-</data>
-<data name="SYNC_CANCEL_NO">
-    <value>Não, Continuar sincronização</value>
-</data>
-<data name="SYNC">
-    <value>Sincronizar</value>
-</data>
-<data name="SYNCING">
-    <value>Sincronizando</value>
-</data>
-<data name="SYNC_NONE">
-    <value>Nenhum Apiário ou Meliponário Selecionado</value>
-</data>
-<data name="SYNC_NONE_SELECT">
-    <value>Selecione Apiário ou Meliponário acima, depois tente sincronizar novamente.</value>
-</data>
-<data name="SYNC_INPROGRESS">
-    <value>Sincronização de Apiário ou Meliponário Já em Andamento</value>
-</data>
-<data name="SYNC_INPROGRESS_CANCEL">
-    <value>Cancelar Sincronização Atual</value>
-</data>
-
-<data name="SYNC_INPROGRESS_DISMISS">
-    <value>Dispensar</value>
-</data>
-<data name="SYNC_STATUS">
-    <value>Status de Sincronização</value>
-</data>
-<data name="SYNC_STATUS_COMPLETED">
-    <value>Concluído</value>
-</data>
-<data name="SYNC_STATUS_DEVNOT">
-    <value>{0} dispositivos não sincronizados</value>
-</data>
-<data name="SYNC_STATUS_DEVCOMP">
-    <value>{0} dispositivos concluídos</value>
-</data>
-<data name="SYNC_STATUS_DEVCONN">
-    <value>{0} dispositivos conectados</value>
-</data>
-<data name="SYNC_STATUS_DEVWAIT">
-    <value>{0} dispositivos aguardando</value>
-</data>
-<data name="SYNC_STATUS_CANCELALL">
-    <value>Cancelar Todos</value>
-</data>
-<data name="SYNC_STATUS_CANCELLED">
-    <value>Cancelado</value>
-</data>
-<data name="SYNC_STATUS_INPROGRESS">
-    <value>Em Progresso</value>
-</data>
-<data name="SYNC_STATUS_DEVNOTFOUND">
-    <value>Dispositivo não encontrado</value>
-</data>
-<data name="SYNC_STATUS_ERRORCONNECTING">
-    <value>Erro ao conectar</value>
-</data>
-<data name="SYNC_STATUS_ERRORSYNCING">
-    <value>Erro ao sincronizar</value>
-</data>
-<data name="SYNC_STATUS_ERRORRETRY">
-    <value>Erro, aguardando nova tentativa</value>
-</data>
-<data name="SYNC_STATUS_WAITING">
-    <value>Aguardando</value>
-</data>
-<data name="SYNC_STATUS_UPLOADING">
-    <value>Sincronização completa, carregando</value>
-</data>
-<data name="SYNC_STATUS_SAVING">
-    <value>Concluído, salvando/carregando dados</value>
-</data>
-<data name="SYNC_STATUS_COMPLETEDLOCAL">
-    <value>Concluído, {0} leituras salvas localmente</value>
-</data>
-<data name="SYNC_STATUS_COMPLETEDUPLOADED">
-    <value>Concluído, {0} leituras salvas e carregadas</value>
-</data>
-<data name="SYNC_STATUS_COMPLETEDOFFLINE">
-    <value>Concluído, {0} leituras salvas para tentar o upload quando voltar online</value>
-</data>
-<data name="NO_BLUETOOTH">
-    <value>Bluetooth desligado, o aplicativo pode não funcionar como esperado</value>
-</data>
-<data name="NO_NETWORK">
-    <value>Sem conexão de rede</value>
-</data>
-<data name="TIMESPAN_24H">
-    <value>24h</value>
-</data>
-<data name="TIMESPAN_3D">
-    <value>3d</value>
-</data>
-<data name="TIMESPAN_7D">
-    <value>7d</value>
-</data>
-<data name="TIMESPAN_14D">
-    <value>14d</value>
-</data>
-<data name="TIMESPAN_30D">
-    <value>30d</value>
-</data>
-<data name="TIMESPAN_6M">
-    <value>6m</value>
-</data>
-<data name="TIMESPAN_1Y">
-    <value>1a</value>
-</data>
-<data name="APIARY_CREATE_TITLE">
-    <value>Criar Apiário ou Meliponário</value>
-</data>
-<data name="APIARY_EDIT_TITLE">
-    <value>Editar {0}</value>
-</data>
-<data name="APIARY_CREATE_NAME">
-    <value>Nome do Apiário ou Meliponário</value>
-</data>
-<data name="APIARY_CREATE_NAMEREQUIRED">
-    <value>*Nome é obrigatório</value>
-</data>
-<data name="APIARY_CREATE_POSTAL">
-    <value>Código Postal</value>
-</data>
-<data name="APIARY_CREATE_POSTALREQUIRED">
-    <value>*Código Postal é obrigatório</value>
-</data>
-<data name="APIARY_CREATE_COUNTRY">
-    <value>Código do País</value>
-</data>
-<data name="APIARY_CREATE_COUNTRYSELECT">
-    <value>Selecionar País</value>
-</data>
-<data name="APIARY_CREATE_COLOR">
-    <value>Cor do Apiário ou Meliponário</value>
-</data>
-<data name="APIARY_CREATE_COUNTRYREQUIRED">
-    <value>*País é obrigatório</value>
-</data>
-<data name="APIARY_CREATE_CREATED">
-    <value>Apiário/Meliponário criado</value>
-</data>
-<data name="APIARY_CREATE_ERROR">
-    <value>Apiário/Meliponário não criado</value>
-</data>
-<data name="APIARY_EDIT_UPDATED">
-    <value>Apiário/Meliponário atualizado</value>
-</data>
-<data name="APIARY_EDIT_ERROR">
-    <value>Apiário/Meliponário não atualizado</value>
-</data>
-<data name="HIVE_CREATE_NAME">
-    <value>Nome da Colmeia</value>
-</data>
-<data name="HIVE_CREATE_DESCRIPTION">
-    <value>Descrição (opcional)</value>
-</data>
-<data name="HIVE_CREATE_COLOR">
-    <value>Cor da Colmeia</value>
-</data>
-<data name="MOVE_HIVE_TITLE">
-    <value>Mover Colmeia</value>
-</data>
-<data name="MOVE_HIVE_MOVED">
-    <value>Colmeia movida</value>
-</data>
-<data name="MOVE_HIVE_ERROR">
-    <value>Erro, colmeia não movida</value>
-</data>
-<data name="MOVE_HIVE_TIMEERROR">
-    <value>Hora de início antes do início da localização atual</value>
-</data>
-<data name="MOVE_HIVE_APIARYERROR">
-    <value>*Apiário/Meliponário é obrigatório</value>
-</data>
-<data name="MOVE_HIVE_START">
-    <value>Iniciando</value>
-</data>
-<data name="MOVE_HIVE_MOVE">
-    <value>Mover</value>
-</data>
-<data name="ADD_DEVICE_TITLE">
-    <value>Adicionar Dispositivo a {0}</value>
-</data>
-<data name="ADD_DEVICE_TITLENONE">
-    <value>Adicionar Dispositivo</value>
-</data>
-<data name="ADD_DEVICE_SUCCESS">
-    <value>Dispositivo movido</value>
-</data>
-<data name="ADD_DEVICE_ERROR">
-    <value>Erro, dispositivo não movido</value>
-</data>
-<data name="ADD_DEVICE_SELECTDEVICE">
-    <value>Selecionar Dispositivo</value>
-</data>
-<data name="ADD_DEVICE_DEVICEREQUIRED">
-    <value>*Dispositivo é obrigatório</value>
-</data>
-<data name="ADD_DEVICE_REMOVEHIVE">
-    <value>Remover da colmeia</value>
-</data>
-<data name="ADD_DEVICE_END">
-    <value>Terminar</value>
-</data>
-<data name="ADD_DEVICE_MOVEHIVE">
-    <value>Mover para outra colmeia</value>
-</data>
-<data name="ADD_DEVICE_SELECTHIVE">
-    <value>Selecionar Colmeia</value>
-</data>
-<data name="ADD_DEVICE_HIVEERROR">
-    <value>*Colmeia é obrigatória</value>
-</data>
-<data name="ADD_DEVICE_LOCATION">
-    <value>Localização na colmeia</value>
-</data>
-<data name="ADD_DEVICE_SELECTPOSITION">
-    <value>Selecionar Posição</value>
-</data>
-<data name="ADD_DEVICE_POSITIONERROR">
-    <value>*Posição é obrigatória</value>
-</data>
-<data name="ADD_DEVICE_START">
-    <value>Iniciar</value>
-</data>
-<data name="ADD_DEVICE_ADD">
-    <value>Adicionar</value>
-</data>
-<data name="CLAIM_DEVICE_EDIT">
-    <value>Editar Dispositivo</value>
-</data>
-<data name="CLAIM_DEVICE_ADD">
-    <value>Adicionar Dispositivo</value>
-</data>
-<data name="CLAIM_DEVICE_CLAIM">
-    <value>Reivindicar</value>
-</data>
-<data name="CLAIM_DEVICE_OWNED">
-    <value>Não é possível adicionar este dispositivo. Ele é propriedade de outra conta de usuário.</value>
-</data>
-<data name="CLAIM_DEVICE_EDIT_SUCCESS">
-    <value>Dispositivo atualizado</value>
-</data>
-<data name="CLAIM_DEVICE_EDIT_ERROR">
-    <value>Erro, dispositivo não atualizado</value>
-</data>
-<data name="CLAIM_DEVICE_ADD_SUCCESS">
-    <value>Dispositivo reivindicado</value>
-</data>
-<data name="CLAIM_DEVICE_ADD_ERROR">
-    <value>Erro, dispositivo não reivindicado</value>
-</data>
-<data name="CLAIM_DEVICE_NAME">
-    <value>Nome</value>
-</data>
-<data name="CLAIM_DEVICE_NAMEERROR">
-    <value>*Nome é obrigatório</value>
-</data>
-<data name="DEVICE_DEBUGLOG_TITLE">
-    <value>Log de Depuração</value>
-</data>
-<data name="DEVICE_DEBUGLOG_NONE">
-    <value>Sem logs para o dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_CONTEXT_REALTIME">
-    <value>Ver em Tempo Real</value>
-</data>
-<data name="DEVICEDETAIL_CONTEXT_SETRATE">
-    <value>Definir Taxa</value>
-</data>
-<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
-    <value>Limpar Log do Dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_CONTEXT_TROUBLE">
-    <value>Solução de Problemas</value>
-</data>
-<data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
-    <value>Excluir Dados Locais</value>
-</data>
-<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
-    <value>Carregar Dados Locais</value>
-</data>
-<data name="DEVICEDETAIL_NOTIF_EVENT">
-    <value>Evento</value>
-</data>
-<data name="DEVICEDETAIL_NOTIF_UPDATE">
-    <value>Atualização</value>
-</data>
-<data name="DEVICEDETAIL_NOTIF_UPLOAD">
-    <value>Carregar Dados</value>
-</data>
-<data name="DEVICEDETAIL_GRID_TE">
-    <value>Evento de Temperatura:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_BS">
-    <value>Sinal Bluetooth:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_B">
-    <value>Bateria:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_M">
-    <value>Modelo:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_FW">
-    <value>Firmware:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_SC">
-    <value>Contagem de Amostras:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_NR">
-    <value>Novas Leituras:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_LMU">
-    <value>Último Upload MBM:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_LMS">
-    <value>Última Amostra MBM:</value>
-</data>
-<data name="DEVICEDETAIL_GRID_LR">
-    <value>Últimas Leituras:</value>
-</data>
-<data name="DEVICEDETAIL_FIRMWARE_SYNC">
-    <value>Sincronizar {0} novas leituras e depois atualizar o firmware</value>
-</data>
-<data name="DEVICEDETAIL_FIRMWARE_NOSYNC">
-    <value>Atualizar firmware sem sincronização (perder {0} leituras)</value>
-</data>
-<data name="DEVICEDETAIL_FIRMWARE_TITLE">
-    <value>Atualizar Firmware</value>
-</data>
-<data name="DEVICEDETAIL_TROUBLESHOOTING_DEBUGLOG">
-    <value>Ver Log de Depuração</value>
-</data>
-<data name="DEVICEDETAIL_TROUBLESHOOTING_READINGS">
-    <value>Ver Leituras</value>
-</data>
-<data name="DEVICEDETAIL_TROUBLESHOOTING_CALIBRATE">
-    <value>Calibrar Escala</value>
-</data>
-<data name="DEVICEDETAIL_UPLOAD_ERROR">
-    <value>Dispositivo offline, não enviado</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_S1">
-    <value>Ver dados ao vivo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_CONNECTING">
-    <value>Conectando ao dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_S2">
-    <value>Erro ao obter dados ao vivo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_DISCONNECTING">
-    <value>Desconectando dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_DISCONNECTED">
-    <value>Dispositivo desconectado</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_NOTFOUND">
-    <value>Dispositivo não encontrado</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_PACKET">
-    <value>Dados ao Vivo: Amostra: {0} Bat:{1} Temp: {2} Umidade: {3} Peso: {4}</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_STOP">
-    <value>Parar em Tempo Real</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_S3">
-    <value>Configurando hora</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_S4">
-    <value>Erro ao configurar hora</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_RATE5">
-    <value>5 Minutos</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_RATE15">
-    <value>15 Minutos</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_RATE10">
-    <value>10 Minutos</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_RATE1">
-    <value>1 Hora</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_SETTINGRATE">
-    <value>Configurando taxa para {0} minutos</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_RATEERROR">
-    <value>Erro ao configurar taxa</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_RATESET">
-    <value>Taxa definida para {0} minutos</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_CLEARLOG">
-    <value>Limpar Log do Sensor</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_CLEARLOG_MESSAGE">
-    <value>Você tem certeza de que deseja excluir todos os dados do sensor? Certifique-se de ter baixado todos os dados.</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_CLEARLOG_CONFIRM">
-    <value>Sim, Limpar log do dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_CLEARLOG_S1">
-    <value>Limpando o log do dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_ERROR">
-    <value>Erro ao limpar flash</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
-    <value>Log do dispositivo limpo</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_HEADER_TIMESTAMP">
-    <value>hora</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_HEADER_SAMPLE">
-    <value>amostra</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_HEADER_TEMPERATURE">
-    <value>T</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_HEADER_WEIGHT">
-    <value>Peso</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_HEADER_HUMIDITY">
-    <value>Umidade</value>
-</data>
-<data name="DEVICEDETAIL_LIVE_HEADER_BALANCE">
-    <value>bal%</value>
-</data>
-<data name="DEVICEDETAIL_CHART_TEMPEVENT">
-    <value>Evento de temperatura</value>
-</data>
-<data name="DEVICEDETAIL_CHART_RX">
-    <value>RX</value>
-</data>
-<data name="DEVICEDETAIL_CHART_BROODZONE">
-    <value>Zona de criação</value>
-</data>
-<data name="DEVICEDETAIL_DELETE_MESSAGE">
-    <value>Tem certeza de que deseja excluir todos os dados locais?</value>
-</data>
-<data name="DEVICEDETAIL_DELETE">
-    <value>Excluir Dados</value>
-</data>
-<data name="DEVICEDETAIL_DELETE_CONFIRM">
-    <value>Sim, Excluir Dados</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_NONE">
-    <value>Nenhum dado offline encontrado para {0}</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_TITLE">
-    <value>Enviar dados locais?</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_CONFIRM">
-    <value>Enviar agora</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_MESSAGE">
-    <value>Encontradas {0} leituras somente locais para {1}. Enviar esses para MyBroodminder.com agora?</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_SUCCESS">
-    <value>Leituras enviadas</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_FAILURE">
-    <value>Leituras não enviadas</value>
-</data>
-<data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
-    <value>Não autorizado a enviar dados para este dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_BSICON">
-    <value>Economia de bateria</value>
-</data>
-<data name="DEVICEDETAIL_ASICON">
-    <value>Agendamento de atividades</value>
-</data>
-<data name="DEVICEDETAIL_BS_READ">
-    <value>Informações de economia de bateria</value>
-</data>
-<data name="DEVICEDETAIL_BS_READING">
-    <value>Obtendo estado de economia de bateria</value>
-</data>
-<data name="DEVICEDETAIL_BS_RES_1">
-    <value>Info de economia de bateria</value>
-</data>
-<data name="DEVICEDETAIL_BS_RES_2">
-    <value>Tempo do dispositivo</value>
-</data>
-<data name="DEVICEDETAIL_BS_RES_3">
-    <value>Tempo de início</value>
-</data>
-<data name="DEVICEDETAIL_BS_RES_4">
-    <value>Duração diária</value>
-</data>
-<data name="DEVICEDETAIL_BS_RES_5">
-    <value>Duração anual</value>
-</data>
-<data name="DEVICES_NONE">
-    <value>Nenhum dispositivo encontrado</value>
-</data>
-<data name="DEVICES_PULL">
-    <value>Arraste para atualizar</value>
-</data>
-<data name="DEVICES_TROUBLESHOOT">
-    <value>Solução de problemas</value>
-</data>
-<data name="DEVICES_NOTASSIGN">
-    <value>« Não atribuído »</value>
-</data>
-<data name="DEVICES_CLAIM">
-    <value>Reivindicar Dispositivo</value>
-</data>
-<data name="DEVICES_ANOTHERACCOUNT">
-    <value>O dispositivo pertence a outra conta</value>
-</data>
-<data name="DEVICES_FIRMWAREERROR">
-    <value>Erro na atualização de firmware, corrigir</value>
-</data>
-<data name="DEVICES_FILTER_NAME">
-    <value>Nome</value>
-</data>
-<data name="DEVICES_FILTER_NEARBY">
-    <value>Próximos</value>
-</data>
-<data name="DEVICES_FILTER_SCALES">
-    <value>Balanças</value>
-</data>
-<data name="DEVICES_FILTER_TH">
-    <value>Temp/Umidade</value>
-</data>
-<data name="DEVICES_FILTER_HUB">
-    <value>Hubs</value>
-</data>
-<data name="DEVICES_FILTER_SUBHUB">
-    <value>Subhubs</value>
-</data>
-<data name="DEVICES_FILTER_BEEDAR">
-    <value>Beedar</value>
-</data>
-<data name="DEVICES_FILTER_LOWBATTERY">
-    <value>Bateria Baixa</value>
-</data>
-<data name="DEVICES_FILTER_APIARY">
-    <value>Apiário/Meliponário</value>
-</data>
-<data name="DEVICES_TROUBLESHOOTING">
-    <value>Solução de problemas</value>
-</data>
-<data name="DEVICES_T1">
-    <value>Verifique se seus dispositivos estão ligados e próximos ao seu telefone</value>
-</data>
-<data name="DEVICES_T2">
-    <value>Verifique se o Bluetooth está ativado</value>
-</data>
-<data name="DEVICES_T3">
-    <value>Ainda sem dispositivos?</value>
-</data>
-<data name="DEVICES_T4">
-    <value>Alternar o modo avião do seu telefone para atualizar os serviços Bluetooth.</value>
-</data>
-<data name="DEVICES_FILTERDEV">
-    <value>Filtrar dispositivos por</value>
-</data>
-<data name="DEVICES_FILTERNAME">
-    <value>Filtrar por nome</value>
-</data>
-<data name="DEVICES_FILTERNAMETEXT">
-    <value>Insira o nome completo ou parcial do dispositivo ou ID</value>
-</data>
-<data name="DEVICES_SAMPLES">
-    <value>{0} no total, {1} novos</value>
-</data>
-<data name="DEVICES_LASTSYNC">
-    <value>Última sincronização: {0}</value>
-</data>
-<data name="DEVICES_OFFLINEREADINGS">
-    <value>O dispositivo tem leituras offline</value>
-</data>
-<data name="DEVICES_SIGNAL">
-    <value>Sinal</value>
-</data>
-<data name="DEVICES_TEMPEVENT">
-    <value>Evento em {0}</value>
-</data>
-<data name="DEVICES_CHARGER">
-    <value>Carga Restante</value>
-</data>
-<data name="DEVICES_BATTSAV">
-    <value>Economia de bateria ativada</value>
-</data>
-<data name="DEVICES_ACTSCHED">
-    <value>Agendamento de atividades ativado</value>
-</data>
-<data name="DEVICES_CELL_SAMPLES">
-    <value>{0} dispositivos, {1} amostras para enviar</value>
-</data>
-<data name="DEVICES_CELLUPDATING">
-    <value>Atualizando em {0}</value>
-</data>
-<data name="DEVICES_CELL_SLEEP1">
-    <value>Dispositivo em modo de suspensão profunda.</value>
-</data>
-<data name="DEVICES_CELL_SLEEP2">
-    <value>Toque aqui para ativar.</value>
-</data>
-<data name="EDITLOCATION_LOCATION">
-    <value>Localização na colmeia</value>
-</data>
-<data name="EDITLOCATION_SELECT">
-    <value>Selecionar Posição</value>
-</data>
-<data name="EDITLOCATION_REQ">
-    <value>*Posição é obrigatória</value>
-</data>
-<data name="EDITLOCATION_START">
-    <value>Iniciar</value>
-</data>
-<data name="EDITLOCATION_ENDLOCATION">
-    <value>Localização Final</value>
-</data>
-<data name="EDITLOCATION_END">
-    <value>Fim</value>
-</data>
-<data name="EDITLOCATION_TITLE">
-    <value>Editar Localização do Dispositivo</value>
-</data>
-<data name="EDITLOCATION_ERROR">
-    <value>Erro, nenhuma localização atual para editar</value>
-</data>
-<data name="EDITLOCATION_MOVED">
-    <value>Dispositivo movido</value>
-</data>
-<data name="EDITLOCATION_NOTMOVED">
-    <value>Erro, dispositivo não movido</value>
-</data>
-<data name="EDITLOCATION_ERRORTIME">
-    <value>O horário de término deve ser posterior ao horário de início.</value>
-</data>
-<data name="MOVEDEVICE_FROM">
-    <value>Remover de</value>
-</data>
-<data name="MOVEDEVICE_MOVE">
-    <value>Mover para outro apiário/meliponário</value>
-</data>
-<data name="FIRMWARE_CONNSTAT">
-    <value>Status de Conexão: </value>
-</data>
-<data name="FIRMWARE_PROG">
-    <value>Progresso da Atualização de Firmware: </value>
-</data>
-<data name="FIRMWARE_BACK">
-    <value>Atualização de firmware em andamento. Você deve permanecer aqui para que ela seja concluída. Voltar cancela a atualização e não é recomendado.</value>
-</data>
-<data name="FIRMWARE_BACKCANCEL">
-    <value>Cancelar Atualização?</value>
-</data>
-<data name="FIRMWARE_BACKCANCEL_CONFIRM">
-    <value>Sim, Cancelar Atualização</value>
-</data>
-<data name="FIRMWARE_BACKCANCEL_CANCEL">
-    <value>Não, Continuar Atualização</value>
-</data>
-<data name="FIRMWARE_RETRIEVEDCOUNT">
-    <value>{0} leituras recuperadas</value>
-</data>
-<data name="FIRMWARE_RETRIEVEDALL">
-    <value>Todas Recuperadas</value>
-</data>
-<data name="FIRMWARE_SYNCCOMP">
-    <value>Sincronização Completa</value>
-</data>
-<data name="FIRMWARE_SYNCFAILED">
-    <value>Falha na Sincronização</value>
-</data>
-<data name="FIRMWARE_CANCELLED">
-    <value>Atualização de firmware cancelada</value>
-</data>
-<data name="FIRMWARE_CONNECTED">
-    <value>Conectado ao dispositivo</value>
-</data>
-<data name="FIRMWARE_NOTSTART">
-    <value>Não foi possível iniciar a atualização</value>
-</data>
-<data name="FIRMWARE_SUCCESS">
-    <value>Atualização de firmware bem-sucedida</value>
-</data>
-<data name="FIRMWARE_COMPLETE">
-    <value>Concluído com Sucesso</value>
-</data>
-<data name="FIRMWARE_UNSUCCESS">
-    <value>Concluído sem Sucesso</value>
-</data>
-<data name="READINGSCSV_TITLE">
-    <value>CSV</value>
-</data>
-<data name="READINGSCSV_ADDR">
-    <value>Endereço</value>
-</data>
-<data name="READINGSCSV_MODEL">
-    <value>Modelo</value>
-</data>
-<data name="READINGSCSV_TIME">
-    <value>Tempo Unix</value>
-</data>
-<data name="READINGSCSV_SAMPLE">
-    <value>Amostra</value>
-</data>
-<data name="READINGSCSV_WL">
-    <value>PesoL</value>
-</data>
-<data name="READINGSCSV_WR">
-    <value>PesoR</value>
-</data>
-<data name="READINGSCSV_WL2">
-    <value>PesoL2</value>
-</data>
-<data name="READINGSCSV_WR2">
-    <value>PesoR2</value>
-</data>
-<data name="READINGSCSV_WSF">
-    <value>Fator de Escala de Peso</value>
-</data>
-<data name="READINGSCSV_SS">
-    <value>Estado de Enxame</value>
-</data>
-<data name="READINGSCSV_AU1">
-    <value>Áudio1</value>
-</data>
-<data name="READINGSCSV_RA1">
-    <value>Radar1</value>
-</data>
-<data name="READINGSCSV_AU2">
-    <value>Áudio2</value>
-</data>
-<data name="READINGSCSV_RA2">
-    <value>Radar2</value>
-</data>
-<data name="READINGSCSV_NAME">
-    <value>leituras</value>
-</data>
-<data name="READINGSCSV_SAVED">
-    <value>Arquivo Salvo</value>
-</data>
-<data name="SUBHUBDETAIL_OTA">
-    <value>Erro OTA, Tentar Novamente</value>
-</data>
-<data name="SUBHUBDETAIL_SHOW">
-    <value>Mostrar Todos os Dispositivos</value>
-</data>
-<data name="SUBHUBDETAIL_UPDATE">
-    <value>Atualizar</value>
-</data>
-<data name="SUBHUBDETAIL_UPLOAD">
-    <value>Enviar Dados</value>
-</data>
-<data name="SUBHUBDETAIL_CONTEXT_DELETECSV">
-    <value>Excluir arquivos CSV do Subhub</value>
-</data>
-<data name="SUBHUBDETAIL_CONTEXT_SYNCFULL">
-    <value>Sincronizar Log Completo do SubHub</value>
-</data>
-<data name="SUBHUBDETAIL_SYNCSINCE">
-    <value>Sincronizar Todos os Dispositivos Desde {0}</value>
-</data>
-<data name="SUBHUBDETAIL_SYNCALL">
-    <value>Sincronizar Todos os Dispositivos</value>
-</data>
-<data name="SUBHUBDETAIL_SCANERROR">
-    <value>Versão de firmware 3.22 ou superior é necessária para este recurso.</value>
-</data>
-<data name="SUBHUBDETAIL_SCANUNAVAILABLE">
-    <value>Recurso Indisponível</value>
-</data>
-<data name="SUBHUBDETAIL_OFFLINE">
-    <value>Dispositivo Offline, não enviado</value>
-</data>
-<data name="SUBHUBDETAIL_NOTRANGE">
-    <value>Dispositivo fora de alcance</value>
-</data>
-<data name="SUBHUBDETAIL_FIRMWARE_NOSYNC">
-    <value>Atualizar firmware sem sincronizar (perder log do subhub desde a última sincronização)</value>
-</data>
-<data name="SUBHUBREADINGS_SAVE">
-    <value>Salvar e enviar itens selecionados</value>
-</data>
-<data name="SUBHUBREADINGS_DONE">
-    <value>Concluído</value>
-</data>
-<data name="SUBHUBREADINGS_BACK">
-    <value>O registro do dispositivo não está completo. Se você sair agora, precisará recomeçar para coletar dados.</value>
-</data>
-<data name="SUBHUBREADINGS_LEAVE">
-    <value>Os dados não foram salvos. Se você sair agora, precisará ler novamente o registro do subhub.</value>
-</data>
-<data name="SUBHUBREADINGS_LEAVEQUESTION">
-    <value>Sair da página?</value>
-</data>
-<data name="SUBHUBREADINGS_LEAVEONFIRM">
-    <value>Sim, sair da página</value>
-</data>
-<data name="SUBHUBREADINGS_LEAVECANCEL">
-    <value>Não, permanecer aqui.</value>
-</data>
-<data name="SUBHUBREADINGS_SAVELOCAL">
-    <value>Salvando localmente</value>
-</data>
-<data name="SUBHUBREADINGS_SAVEWEB">
-    <value>Salvando em MyBroodMinder.com</value>
-</data>
-<data name="SUBHUBREADINGS_SUMMARY">
-    <value>Concluído</value>
-</data>
-<data name="SUBHUBREADINGS_SUMMARYSAVED">
-    <value>Salvou {0} leituras de {1} dispositivos</value>
-</data>
-<data name="SUBHUBREADINGS_SUMMARYIGNORED">
-    <value>Ignorou {0} leituras de {1} dispositivos</value>
-</data>
-<data name="SUBHUBREADINGS_SUMMARYERROR">
-    <value>Errou {0} leituras de {1} dispositivos</value>
-</data>
-<data name="SUBHUBREADINGS_READINGCOUNT">
-    <value>Leituras</value>
-</data>
-<data name="SUBHUBREADINGS_DEVNOTOWNER">
-    <value>O dispositivo pertence a outra conta, os dados serão apenas locais</value>
-</data>
-<data name="SUBHUBREADINGS_DEVNOTMBM">
-    <value>O dispositivo não está registrado, os dados serão apenas locais</value>
-</data>
-<data name="SUBHUBREADINGS_DEVNOTEXIST">
-    <value>O dispositivo não existe, os dados não serão salvos</value>
-</data>
-<data name="SUBHUBSCAN_BMONLY">
-    <value>Apenas dispositivos BroodMinder</value>
-</data>
-<data name="SUBHUBSCAN_SIGNAL">
-    <value>Sinal</value>
-</data>
-<data name="SUBHUBSCAN_DEVICE">
-    <value>Dispositivo</value>
-</data>
-<data name="SUBHUBSCAN_TIME">
-    <value>Carimbo de data/hora</value>
-</data>
-<data name="SUBHUBSCAN_STOP">
-    <value>Parar de Escanear</value>
-</data>
-<data name="SUBHUBSCAN_START">
-    <value>Iniciar Escaneamento</value>
-</data>
-<data name="HELP_GUIDES">
-    <value>Guias</value>
-</data>
-<data name="HELP_GUIDES_STARTED">
-    <value>Começando</value>
-</data>
-<data name="HELP_GUIDES_USER">
-    <value>Guia do Usuário</value>
-</data>
-<data name="HELP_GUIDES_VIDEO">
-    <value>Vídeos explicativos</value>
-</data>
-<data name="HELP_SUPPORT">
-    <value>Suporte</value>
-</data>
-<data name="HELP_SUPPORT_QUESTION">
-    <value>Envie sua pergunta</value>
-</data>
-<data name="HELP_SUPPORT_TO">
-    <value>Para: support@broodminder.com</value>
-</data>
-<data name="HELP_SUPPORT_FROM">
-    <value>De: </value>
-</data>
-<data name="HELP_SUPPORT_ENTRY">
-    <value>Insira sua pergunta/feedback aqui.</value>
-</data>
-<data name="HELP_SUPPORT_SEND">
-    <value>Enviar</value>
-</data>
-<data name="HELP_VERSION">
-    <value>Versão do Aplicativo</value>
-</data>
-<data name="HELP_LOGGING">
-    <value>Registro completo de depuração ativado</value>
-</data>
-<data name="HELP_FROMERR">
-    <value>Campo De é obrigatório</value>
-</data>
-<data name="HELP_EMPTYERR">
-    <value>Não é possível enviar feedback vazio.</value>
-</data>
-<data name="HELP_SENDQUESTION">
-    <value>Enviar esta mensagem para o suporte do BroodMinder? Uma resposta será enviada para {0}.</value>
-</data>
-<data name="HELP_SENT">
-    <value>Mensagem Enviada</value>
-</data>
-<data name="HELP_OFFLINE">
-    <value>Erro ao enviar. Aplicativo offline</value>
-</data>
-<data name="HELP_NOTSENT">
-    <value>Erro. Mensagem não enviada</value>
-</data>
-<data name="HELP_NOTALLOWED">
-    <value>Não permitido</value>
-</data>
-<data name="NOTE_DESCRIPTION">
-    <value>Descrição</value>
-</data>
-<data name="NOTE_DESCRIPTIONREQ">
-    <value>*Descrição obrigatória</value>
-</data>
-<data name="NOTE_EDIT">
-    <value>Editar nota em {0}</value>
-</data>
-<data name="NOTE_CREATE">
-    <value>Criar nota em {0}</value>
-</data>
-<data name="NOTE_CREATED">
-    <value>Nota criada</value>
-</data>
-<data name="NOTE_NOTCREATED">
-    <value>Nota não criada</value>
-</data>
-<data name="NOTE_UPDATED">
-    <value>Nota atualizada</value>
-</data>
-<data name="NOTE_NOTUPDATED">
-    <value>Nota não atualizada</value>
-</data>
-<data name="NOTE_APIARY_WARNING">
-    <value>Notas de apiário/meliponário são carregadas para sua conta MyBroodMinder e exibidas no site, mas não são visíveis neste aplicativo.</value>
-</data>
-<data name="HIVE_CU_UTITLE">
-    <value>Editar {0}</value>
-</data>
-<data name="HIVE_CU_CTITLE">
-    <value>Criar colmeia em {0}</value>
-</data>
-<data name="HIVE_CU_CTITLE2">
-    <value>Criar colmeia</value>
-</data>
-<data name="HIVE_CU_CREATED">
-    <value>Colmeia criada</value>
-</data>
-<data name="HIVE_CU_NOTCREATED">
-    <value>Colmeia não criada</value>
-</data>
-<data name="HIVE_CU_UPDATED">
-    <value>Colmeia atualizada</value>
-</data>
-<data name="HIVE_CU_NOTUPDATED">
-    <value>Colmeia não atualizada</value>
-</data>
-<data name="HIVEDETAILS_ADDNOTE">
-    <value>Adicionar nota</value>
-</data>
-<data name="LOGIN_TITLE">
-    <value>Entrar</value>
-</data>
-<data name="LOGIN_FORG">
-    <value>Esqueceu a senha?</value>
-</data>
-<data name="LOGIN_CR1">
-    <value>Ainda não está registrado?</value>
-</data>
-<data name="LOGIN_CR2">
-    <value>Crie uma conta agora</value>
-</data>
-<data name="LOGIN_USERNAME">
-    <value>Nome de usuário</value>
-</data>
-<data name="LOGIN_PASSWORD">
-    <value>Senha</value>
-</data>
-<data name="FORGOTPASSWORD_TITLE">
-    <value>Esqueci a Senha</value>
-</data>
-<data name="FORGOTPASSWORD_TITLE2">
-    <value>Redefina sua senha</value>
-</data>
-<data name="FORGOTPASSWORD_USERNAME">
-    <value>Nome de usuário</value>
-</data>
-<data name="FORGOTPASSWORD_SEND">
-    <value>Enviar E-mail de Redefinição</value>
-</data>
-<data name="FORGOTPASSWORD_NOTFOUND">
-    <value>Usuário não encontrado</value>
-</data>
-<data name="FORGOTPASSWORD_SENT">
-    <value>Email de redefinição de senha enviado.</value>
-</data>
-<data name="INITIAL_LOGIN">
-    <value>Entrar</value>
-</data>
-<data name="INITIAL_BASIC">
-    <value>Básico (sem conta)</value>
-</data>
-<data name="INITIAL_CREATE">
-    <value>Criar conta</value>
-</data>
-<data name="INITIAL_REGISTER_TITLE">
-    <value>Bem-vindo!</value>
-</data>
-<data name="INITIAL_REGISTER_1">
-    <value>Esta é sua primeira vez conosco.</value>
-</data>
-<data name="INITIAL_REGISTER_2">
-    <value>Uma única conta gerencia tudo</value>
-</data>
-<data name="INITIAL_REGISTER_3">
-    <value>Este App</value>
-</data>
-<data name="INITIAL_REGISTER_CONFIRM">
-    <value>Quero criar minha conta</value>
-</data>
-<data name="INITIAL_TRYNOW_TITLE">
-    <value>Bem-vindo!</value>
-</data>
-<data name="INITIAL_TRYNOW_1">
-    <value>Esta é sua primeira vez conosco.</value>
-</data>
-<data name="INITIAL_TRYNOW_2">
-    <value>O modo básico permite que você teste o aplicativo e mantenha seus dados localmente, sem fazer upload para o MyBroodMinder.</value>
-</data>
-<data name="INITIAL_TRYNOW_3">
-    <value>Alguns recursos não estão disponíveis sem uma conta.</value>
-</data>
-<data name="INITIAL_TRYNOW_CONTINUE">
-    <value>Continuar sem conta</value>
-</data>
-<data name="INITIAL_TITLE">
-    <value>Bem-vindo ao Bees App!</value>
-</data>
-<data name="INITIAL_OR">
-    <value>ou</value>
-</data>
-<data name="INITIAL_CHIP_1">
-    <value>Criação</value>
-</data>
-<data name="INITIAL_CHIP_2">
-    <value>Produtividade</value>
-</data>
-<data name="INITIAL_CHIP_3">
-    <value>Dinâmica da colônia</value>
-</data>
-<data name="INITIAL_CHIP_4">
-    <value>Inspetções</value>
-</data>
-<data name="INITIAL_CHIP_5">
-    <value>Condições climáticas</value>
-</data>
-<data name="INITIAL_CHIP_6">
-    <value>Alertas e notificações</value>
-</data>
-<data name="INITIAL_CHIP_7">
-    <value>Florescimento</value>
-</data>
-<data name="LOGIN_BADPASSWORD">
-    <value>Senha incorreta</value>
-</data>
-<data name="LOGIN_FAILED">
-    <value>Falha no login</value>
-</data>
-<data name="REGISTER">
-    <value>Registrar</value>
-</data>
-<data name="REGISTER_TITLE">
-    <value>Crie sua conta MyBroodMinder</value>
-</data>
-<data name="REGISTER_TOS">
-    <value>Ao clicar no botão de validação, você aceita os termos e condições.</value>
-</data>
-<data name="REGISTER_SS1">
-    <value>Já tem uma conta?</value>
-</data>
-<data name="REGISTER_SS2">
-    <value>Entrar</value>
-</data>
-<data name="REGISTER_EMAIL">
-    <value>Email</value>
-</data>
-<data name="REGISTER_PASSWORD">
-    <value>Senha</value>
-</data>
-<data name="REGISTER_PASSWORD2">
-    <value>Reinsira a senha</value>
-</data>
-<data name="REGISTER_SHOW_EULA">
-    <value>Visualizar Acordo de Licença</value>
-</data>
-<data name="REGISTER_EULA1">
-    <value>MyBroodMinder.com EULA (Contrato de Licença de Usuário Final) v1.1</value>
-</data>
-<data name="REGISTER_EULA2">
-    <value>Pedimos que você concorde com as seguintes declarações para usar este software de apicultura como serviço (SaaS):</value>
-</data>
-<data name="REGISTER_EULA3">
-    <value>Estou colocando os dados que faço upload ou insiro neste serviço em Domínio Público. Portanto, mybroodminder.com pode usar os dados, de forma anônima, para compartilhar com o público em geral.</value>
-</data>
-<data name="REGISTER_EULA4">
-    <value>Entendo que mybroodminder.com fará o melhor esforço para não expor quaisquer informações pessoalmente identificáveis (PII), como meu nome de usuário, senha e código postal, mas que mybroodminder.com não pode ser responsabilizado por invasões ou outros métodos de exposição de dados.</value>
-</data>
-<data name="REGISTER_EULA5">
-    <value>Entendo que mybroodminder.com fará o melhor esforço para armazenar e fazer backup de todos os dados enviados ou inseridos nele, mas que mybroodminder.com não pode ser responsabilizado por perda de dados.</value>
-</data>
-<data name="REGISTER_EULA6">
-    <value>Entendo que mybroodminder.com é uma empresa separada de outros fornecedores que podem integrar seus dispositivos ao mybroodminder.com, e que mybroodminder.com não é responsável pelas ações desses fornecedores.</value>
-</data>
-<data name="REGISTER_EULA7">
-    <value>Entendo que mybroodminder.com é um local para apicultores e entomologistas trocarem informações, e me comportarei de maneira cortês em todos os momentos. Entendo que o não cumprimento pode resultar no término da minha conta a critério exclusivo da equipe do mybroodminder.com.</value>
-</data>
-<data name="REGISTER_EULAAGREE">
-    <value>Concordo com os termos</value>
-</data>
-<data name="REGISTER_CREATE">
-    <value>Criar Conta</value>
-</data>
-<data name="REGISTER_INVALIDEMAIL">
-    <value>Email inválido</value>
-</data>
-<data name="REGISTER_PASSWORDMATCH">
-    <value>As senhas não correspondem</value>
-</data>
-<data name="REGISTER_TERMSERROR">
-    <value>É necessário concordar com os termos para criar uma conta</value>
-</data>
-<data name="REGISTER_EMAILINVALID">
-    <value>Endereço de email não válido</value>
-</data>
-<data name="REGISTER_PASSWORDSTRONG">
-    <value>Senha não é forte o suficiente</value>
-</data>
-<data name="REGISTER_EMAILUSED">
-    <value>Email já em uso</value>
-</data>
-<data name="REGISTER_FAIL">
-    <value>Falha ao criar conta</value>
-</data>
-<data name="APP_LOGINFORFEATURE">
-    <value>Entre ou registre-se para usar este recurso</value>
-</data>
-<data name="APP_NOTALLOWED">
-    <value>Não Permitido</value>
-</data>
-<data name="APP_EXIT">
-    <value>Deseja sair?</value>
-</data>
-<data name="APP_EXITCONFIRM">
-    <value>Sair</value>
-</data>
-<data name="GETTINGSTARTED_DEVICESTITLE">
-    <value>Dispositivos</value>
-</data>
-<data name="GETTINGSTARTED_DEVICES1">
-    <value>A guia Dispositivos exibe todos os dispositivos BroodMinder em sua conta e todos os dispositivos próximos. Deslize para baixo na lista para atualizar a varredura Bluetooth.</value>
-</data>
-<data name="GETTINGSTARTED_DEVICES2">
-    <value>Toque no ícone de filtro no canto superior direito. Em seguida, selecione opções para reduzir os dispositivos exibidos.</value>
-</data>
-<data name="GETTINGSTARTED_DEVICES3">
-    <value>Toque no ícone de mais à direita de um dispositivo para sincronizar um dispositivo individual, configurar um dispositivo, visualizar detalhes e outras opções.</value>
-</data>
-<data name="GETTINGSTARTED_APIARIESSTITLE">
-    <value>Apiários/Meliponários</value>
-</data>
-<data name="GETTINGSTARTED_APIARIES1">
-    <value>A guia Apiários/Meliponários exibe seus apiários/meliponários e colmeias. Isso pode ser usado para visualizar rapidamente estatísticas da colmeia e sincronizar todos os dispositivos em um apiário/meliponário de uma só vez.</value>
-</data>
-<data name="GETTINGSTARTED_APIARIES2">
-    <value>Toque no seletor de apiário/meliponário no topo para selecionar um dos seus apiários/meliponários.</value>
-</data>
-<data name="GETTINGSTARTED_APIARIES3">
-    <value>Toque na colmeia para expandir a visualização e ver os dispositivos contidos.</value>
-</data>
-<data name="GETTINGSTARTED_SYNCTITLE">
-    <value>Coletando Dados</value>
-</data>
-<data name="GETTINGSTARTED_SYNC1">
-    <value>Toque no ícone de sincronização no canto superior direito para sincronizar todos os dispositivos em seu apiário/meliponário.</value>
-</data>
-<data name="GETTINGSTARTED_SYNC2">
-    <value>Toque no resumo de sincronização para ver uma lista mais detalhada do status de sincronização de cada dispositivo.</value>
-</data>
-<data name="FIRMWARESTATUS_NOTFOUND">
-    <value>Atualização de firmware não encontrada</value>
-</data>
-<data name="FIRMWARESTATUS_CONNECTING">
-    <value>Conectando, pode levar 60 segundos</value>
-</data>
-<data name="FIRMWARESTATUS_CONNECTIONTIMEOUT">
-    <value>Erro Bluetooth - Tempo limite de conexão</value>
-</data>
-<data name="FIRMWARESTATUS_CONNECTED">
-    <value>Conectado</value>
-</data>
-<data name="FIRMWARESTATUS_BLEERROR">
-    <value>Erro Bluetooth</value>
-</data>
-<data name="FIRMWARESTATUS_BLETIMEOUT">
-    <value>Erro Bluetooth - Tempo limite</value>
-</data>
-<data name="FIRMWARESTATUS_OTAMODE">
-    <value>Colocando dispositivo no modo OTA</value>
-</data>
-<data name="FIRMWARESTATUS_READYRECONNECT">
-    <value>Preparando para reconectar</value>
-</data>
-<data name="FIRMWARESTATUS_CANCELLED">
-    <value>Cancelado</value>
-</data>
-<data name="FIRMWARESTATUS_ERRORRECONNECT">
-    <value>Erro ao reconectar ou enviar firmware</value>
-</data>
-<data name="FIRMWARESTATUS_CONNECTIONLOST">
-    <value>Conexão perdida</value>
-</data>
-<data name="FIRMWARESTATUS_RECONNECT">
-    <value>Reconectando no modo OTA</value>
-</data>
-<data name="FIRMWARESTATUS_RECONNECTERROR">
-    <value>Erro - não foi possível reconectar</value>
-</data>
-<data name="FIRMWARESTATUS_UPLOAD">
-    <value>Iniciando upload de arquivo</value>
-</data>
-<data name="FIRMWARESTATUS_UPLOADSUCCESS">
-    <value>Upload bem-sucedido</value>
-</data>
-<data name="FIRMWARESTATUS_UPLOADFAIL">
-    <value>Falha no upload</value>
-</data>
-<data name="HUBDETAIL_LASTUPLOAD">
-    <value>Último Upload MBM</value>
-</data>
-<data name="HUBDETAIL_LASTUPLOADNEVER">
-    <value>Nunca</value>
-</data>
-<data name="HUBDETAIL_BATTERY">
-    <value>Bateria</value>
-</data>
-<data name="HUBDETAIL_WIFISIGNAL">
-    <value>Sinal Wifi</value>
-</data>
-<data name="HUBDETAIL_STATUS">
-    <value>Status</value>
-</data>
-<data name="HUBDETAIL_NETWORKSIGNAL">
-    <value>Sinal da Rede</value>
-</data>
-<data name="HUBDETAIL_NETWORKSIGNAL_UNKNOWN">
-    <value>Desconhecido</value>
-</data>
-<data name="HUBDETAIL_STATUS_CANTCONNECT">
-    <value>Não é possível conectar</value>
-</data>
-<data name="HUBDETAIL_STATUS_UPLDFAILED">
-    <value>Falha no upload</value>
-</data>
-<data name="HUBDETAIL_STATUS_NORMAL">
-    <value>Operação normal</value>
-</data>
-<data name="HUBDETAIL_DEVICECOUNT">
-    <value>Dispositivos Vistos</value>
-</data>
-<data name="HUBDETAIL_UPLOADATTEMPTS">
-    <value>Tentativas de Upload</value>
-</data>
-<data name="HUBDETAIL_UPLOADFAILURE">
-    <value>Falhas de Upload</value>
-</data>
-<data name="HUBDETAIL_UPLOADSUCCESS">
-    <value>Uploads Bem-sucedidos</value>
-</data>
-<data name="HUBDETAIL_CONFIGUREWIFI">
-    <value>Configurar Wifi</value>
-<data name="HUBDETAIL_CONFIGUREAPN">
-    <value>Configurar Rede (APN)</value>
-</data>
-<data name="WIFICONFIGURE_UPLOADNOW">
-    <value>Enviar Agora</value>
-</data>
-<data name="WIFICONFIGURE_SCAN">
-    <value>Varredura</value>
-</data>
-<data name="WIFICONFIGURE_SELECTNET">
-    <value>Selecionar Rede</value>
-</data>
-<data name="WIFICONFIGURE_NETWORK">
-    <value>Rede</value>
-</data>
-<data name="WIFICONFIGURE_PASSWORD">
-    <value>Senha</value>
-</data>
-<data name="WIFICONFIGURE_STARTINGSCAN">
-    <value>Iniciando Varredura</value>
-</data>
-<data name="WIFICONFIGURE_SENDINGSCAN">
-    <value>Erro na varredura, por favor, tente novamente</value>
-</data>
-<data name="WIFICONFIGURE_SCANNINGFORN">
-    <value>Varrendo redes</value>
-</data>
-<data name="WIFICONFIGURE_ERRORSCANTIMEOUT">
-    <value>Erro ao varrer redes. Nenhuma rede recebida em 40 segundos.</value>
-</data>
-<data name="WIFICONFIGURE_CONNECTINGDEVICE">
-    <value>Conectando ao dispositivo</value>
-</data>
-<data name="WIFICONFIGURE_ERRORDEVICECONNECTTIMEOUT">
-    <value>Não foi possível conectar ao dispositivo, está demorando muito</value>
-</data>
-<data name="WIFICONFIGURE_NOTCONNECTDEVICE">
-    <value>Não foi possível conectar ao dispositivo</value>
-</data>
-<data name="WIFICONFIGURE_MUSTBENEARBY">
-    <value>Deve estar próximo ao dispositivo para editar a conexão</value>
-</data>
-<data name="WIFICONFIGURE_CUSTOM">
-    <value>Personalizado</value>
-</data>
-<data name="WIFICONFIGURE_NONEWORKS">
-    <value>Nenhuma rede encontrada</value>
-</data>
-<data name="WIFICONFIGURE_ERRORSCANNINGNET">
-    <value>Erro ao varrer redes</value>
-</data>
-<data name="WIFICONFIGURE_NETREQUIRED">
-    <value>Rede necessária</value>
-</data>
-<data name="WIFICONFIGURE_NETWORKLENGTH">
-    <value>O nome da rede deve ter menos de 33 caracteres</value>
-</data>
-<data name="WIFICONFIGURE_PASSWORDLENGTH">
-    <value>A senha deve ter menos de 64 caracteres</value>
-</data>
-<data name="WIFICONFIGURE_SETTINGCREDS">
-    <value>Configurando credenciais</value>
-</data>
-<data name="WIFICONFIGURE_ERRORSETTINGNET">
-    <value>Erro ao configurar rede</value>
-</data>
-<data name="WIFICONFIGURE_ERRORSETTINGPASS">
-    <value>Erro ao configurar senha</value>
-</data>
-<data name="WIFICONFIGURE_NETWORKSUCCESS">
-    <value>Rede configurada com sucesso</value>
-</data>
-<data name="WIFICONFIGURE_NETWORKFAILURE">
-    <value>Não foi possível conectar à rede</value>
-</data>
-<data name="WIFICONFIGURE_NETWORKERROR">
-    <value>Erro ao conectar à rede</value>
-</data>
-<data name="WIFICONFIGURE_TRIGGERUPLOAD">
-    <value>Desencadeando envio</value>
-</data>
-<data name="WIFICONFIGURE_TRIGGERUPLOADERROR">
-    <value>Erro ao desencadear envio</value>
-</data>
-<data name="WIFICONFIGURE_DEVICEUPLOADING">
-    <value>Dispositivo tentando enviar</value>
-</data>
-<data name="APNCONFIGURE_LENGTH">
-    <value>APN deve ter menos de 30 caracteres</value>
-</data>
-<data name="APNCONFIGURE_APN_SHORT">
-    <value>APN (primeiros 7 caracteres)</value>
-</data>
-<data name="APNCONFIGURE_STATUS">
-    <value>Status</value>
-</data>
-<data name="APNCONFIGURE_MINUTES_TO">
-    <value>Minutos para</value>
-</data>
-<data name="APNCONFIGURE_MINUTES_FROM">
-    <value>Minutos desde o Envio</value>
-</data>
-<data name="APNCONFIGURE_SENTCOUNT">
-    <value>Amostras Enviadas</value>
-</data>
-<data name="APNCONFIGURE_UPDATE_IN">
-    <value>Envios em {0} min</value>
-</data>
-<data name="APNCONFIGURE_UPLOAD">
-    <value>Enviar Agora</value>
-</data>
-<data name="APNCONFIGURE_REBOOT">
-    <value>Reiniciar</value>
-</data>
-<data name="APNCONFIGURE_APN">
-    <value>APN</value>
-</data>
-<data name="APNCONFIGURE_SET_APN">
-    <value>Definir APN</value>
-</data>
-<data name="APNCONFIGURE_APN_SET">
-    <value>APN definido como {0}</value>
-</data>
-<data name="APNCONFIGURE_ELAPSED">
-    <value>Decorrido</value>
-</data>
-<data name="APNCONFIGURE_NETWORKSIGNAL">
-    <value>Sinal da Rede</value>
-</data>
-<data name="APNCONFIGURE_LASTUPLOAD_SERVER">
-    <value>Último envio (remoto)</value>
-</data>
-<data name="APNCONFIGURE_SETTING_APN">
-    <value>Configurando APN</value>
-</data>
-<data name="APNCONFIGURE_SETTING_APN_ERROR">
-    <value>Erro ao definir APN</value>
-</data>
-<data name="APNCONFIGURE_REBOOTING">
-    <value>Desencadeando reinício</value>
-</data>
-<data name="APNCONFIGURE_REBOOT_ERROR">
-    <value>Erro ao desencadear reinício</value>
-</data>
-<data name="APNCONFIGURE_RSSI">
-    <value>Sinal Bluetooth</value>
-</data>
-<data name="APNCONFIGURE_COMPLETE">
-    <value>Completo</value>
-</data>
-<data name="APNCONFIGURE_DISCONNECT_ERROR">
-    <value>Erro ao desconectar</value>
-</data>
-<data name="LOCATIONSERVICES_TITLE">
-    <value>Serviços de Localização</value>
-</data>
-<data name="LOCATIONSERVICES_MESSAGES">
-    <value>Serviços de localização desativados. O Bluetooth pode não funcionar corretamente até que os serviços de localização sejam ativados.</value>
-</data>
-<data name="LOCATIONSERVICES_OK">
-    <value>Ok</value>
-</data>
-<data name="LOCATIONSERVICES_OPEN">
-    <value>Abrir Configurações de Localização</value>
-</data>
-<data name="DEVICEALERT_TITLE">
-    <value>Alertas do Dispositivo</value>
-</data>
-<data name="DEVICEALERT_DISMISS">
-    <value>Dispensar</value>
-</data>
-<data name="DEVICEALERT_UPDATE">
-    <value>Atualizar</value>
-</data>
-<data name="DEVICEALERT_FIX">
-    <value>Corrigir</value>
-</data>
-<data name="DEVICEALERT_BATTERY">
-    <value>Bateria fraca</value>
-</data>
-<data name="DEVICEALERT_FIRMWARE">
-    <value>Atualização de firmware disponível</value>
-</data>
-<data name="DEVICEALERT_SAMPLELIMIT">
-    <value>Dispositivo próximo ao limite de amostras</value>
-</data>
-<data name="HIVEINACTIVE_TITLE">
-    <value>Definir Colmeia como Inativa</value>
-</data>
-<data name="HIVEINACTIVE_MESSAGE">
-    <value>Isto termina todas as localizações dos dispositivos na colmeia e remove a colmeia das suas visualizações de apiário/meliponário. Os dados existentes permanecerão, mas novos dados não serão mais enviados para esta colmeia. Esta ação não pode ser desfeita. Definir esta colmeia como inativa?</value>
-</data>
-<data name="HIVEINACTIVE_CONFIRM">
-    <value>Confirmar</value>
-</data>
-<data name="HIVEINACTIVE_REASON">
-    <value>Selecionar Motivo</value>
-</data>
-<data name="HIVEINACTIVE_COMMENT">
-    <value>Comentário</value>
-</data>
-<data name="HIVEINACTIVE_REASONS_OTHER">
-    <value>Outro</value>
-</data>
-<data name="HIVEINACTIVE_REASONS_DIED">
-    <value>Morreu</value>
-</data>
-<data name="HIVEINACTIVE_REASONS_ABSCONDED">
-    <value>Abscondeu</value>
-</data>
-<data name="HIVEINACTIVE_REASONS_COMBINED">
-    <value>Combinada com outra colônia</value>
-</data>
-<data name="HIVEINACTIVE_SUCCESS">
-    <value>Colmeia definida como inativa</value>
-</data>
-<data name="HIVEINACTIVE_ERROR">
-    <value>Erro, colmeia não definida como inativa</value>
-</data>
-<data name="HIVEINACTIVE_SUCCESS_EXPLANATION1">
-    <value>Colmeia definida como inativa. Não é mais visível aqui, mas ainda está disponível em </value>
-</data>
-<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
-    <value>Todas as colmeias podem ser encontradas aqui </value>
-</data>
-<data name="CALIBRATION_SET">
-    <value>Definir</value>
-</data>
-<data name="CALIBRATION_TARE_ALL">
-    <value>Tarar Todos</value>
-</data>
-<data name="CALIBRATION_WARNING_MESSAGE">
-    <value>Esta é uma funcionalidade avançada. As alterações aqui afetarão o funcionamento da sua balança. Prossiga com cuidado.</value>
-</data>
-<data name="CALIBRATION_WARNING_TITLE">
-    <value>Aviso</value>
-</data>
-<data name="CALIBRATION_WARNING_CONTINUE">
-    <value>Continuar</value>
-</data>
-<data name="CALIBRATION_TOTAL_WEIGHT">
-    <value>Peso Total</value>
-</data>
-<data name="CALIBRATION_SAMPLE">
-    <value>Amostra</value>
-</data>
-<data name="CALIBRATION_ERROR_LIVE_DATA">
-    <value>Erro ao obter dados de peso</value>
-</data>
-<data name="CALIBRATION_SETTING_J">
-    <value>Definindo {0}</value>
-</data>
-<data name="CALIBRATION_JSET">
-    <value>{0} Definido</value>
-</data>
-<data name="CALIBRATION_JSET_ERROR">
-    <value>Erro ao definir {0}</value>
-</data>
-<data name="CALIBRATION_SETTING_TARE">
-    <value>Configurando Tare</value>
-</data>
-<data name="CALIBRATION_TARED">
-    <value>Balança Tarada</value>
-</data>
-<data name="CALIBRATION_TARE_ERROR">
-    <value>Erro ao tarar balança</value>
-</data>
-<data name="CALIBRATION_DIVISOR">
-    <value>Divisor</value>
-</data>
-<data name="CALIBRATION_OFFSET">
-    <value>Desvio</value>
-</data>
-<data name="CALIBRATION_SCALE_ALL">
-    <value>Escalar todos os canais</value>
-</data>
-<data name="CALIBRATION_PERCENT">
-    <value>Percentual</value>
-</data>
-<data name="CALIBRATION_SET_DIVISOR_ALL">
-    <value>Definir divisor para todos os canais</value>
-</data>
-<data name="CALIBRATION_SCALING_ALL">
-    <value>Escalar todos os divisores por {0}</value>
-</data>
-<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-    <value>Definindo todos os divisores para {0}</value>
-</data>
-<data name="DELETE_ACCOUNT_TITLE">
-    <value>Excluir Conta</value>
-</data>
-<data name="DELETE_ACCOUNT_DETAILS_1">
-    <value>Para excluir sua conta do MyBroodMinder, você deve acessar nosso site.</value>
-</data>
-<data name="DELETE_ACCOUNT_LINK_BUTTON">
-    <value>Ir para a página da conta MyBroodMinder</value>
-</data>
-<data name="DELETE_ACCOUNT_DETAILS_2">
-    <value>Depois de excluir sua conta, você precisa sair do aplicativo aqui para remover seus dados do dispositivo.</value>
-</data>
-<data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
-    <value>Sair e excluir dados</value>
-</data>
-<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_TITLE">
-    <value>Sair e excluir todos os dados locais?</value>
-</data>
-<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
-    <value>Sim, excluir todos os dados</value>
-</data>
-<data name="DIF_7AM_SHORT">
-    <value>Dif. 7h</value>
-</data>
-<data name="DIF_7AM_LONG">
-    <value>Diferença de peso às 7h:</value>
-</data>
-<data name="NOTIFICATIONS_NONE">
-    <value>Sem Notificações</value>
-</data>
-<data name="INSP_T_DEFAULT">
-    <value>Padrão</value>
-</data>
-<data name="INSP_T_SUPERP">
-    <value>Superação adicionada</value>
-</data>
-<data name="INSP_T_SUPERM">
-    <value>Superação removida</value>
-</data>
-<data name="INSP_T_QUEENINSERT">
-    <value>Rainha inserida</value>
-</data>
-<data name="INSP_T_DIVISION">
-    <value>Divisão</value>
-</data>
-<data name="INSP_T_QUEENABSENT">
-    <value>Rainha ausente</value>
-</data>
-<data name="INSP_T_STOLEN">
-    <value>Colmeia roubada</value>
-</data>
-<data name="INSP_T_BROODADD">
-    <value>Adicionadas quadros de cria</value>
-</data>
-<data name="INSP_T_BROODREMOVE">
-    <value>Removidos quadros de cria</value>
-</data>
-<data name="INSP_T_COMBINEDHIVES">
-    <value>Colmeias combinadas</value>
-</data>
-<data name="INSP_T_SWARM">
-    <value>Enxameação</value>
-</data>
-<data name="INSP_T_CANDIFEED">
-    <value>Alimentação com candy</value>
-</data>
-<data name="INSP_T_SYRUPFEED">
-    <value>Alimentação com xarope</value>
-</data>
-<data name="INSP_T_PATTIESFEED">
-    <value>Alimentação com pastilhas</value>
-</data>
-<data name="INSP_T_REQUEEN">
-    <value>Recriação de rainha</value>
-</data>
-<data name="INSP_T_QUEENLINEAGE">
-    <value>Linhagem da rainha</value>
-</data>
-<data name="INSP_T_HARVEST">
-    <value>Colheita</value>
-</data>
-<data name="INSP_T_INSTALLPKG">
-    <value>Instalação de pacote</value>
-</data>
-<data name="INSP_T_NUCLEUSHIVE">
-    <value>Instalada colmeia núcleo</value>
-</data>
-<data name="INSP_T_SPLITQUEENREMOVE">
-    <value>Divisão com remoção de rainha</value>
-</data>
-<data name="INSP_T_NECTARFLOW">
-    <value>Fluxo de néctar</value>
-</data>
-<data name="INSP_T_MITEOAVAPOR">
-    <value>Tratamento de ácido oxálico por vaporização</value>
-</data>
-<data name="INSP_T_MITEOADRIBBLE">
-    <value>Tratamento de ácido oxálico por gotejamento</value>
-</data>
-<data name="INSP_T_MITEFORMICPRO">
-    <value>Tratamento de ácaros: Formic Pro</value>
-</data>
-<data name="INSP_T_MITESTRIPADD">
-    <value>Tratamento de ácaros: Adicionadas tiras</value>
-</data>
-<data name="INSP_T_MITESTRIPREMOVE">
-    <value>Tratamento de ácaros: remoção de tiras</value>
-</data>
-<data name="INSP_T_MITECOUNTLOUNGE">
-    <value>Contagem de ácaros: placa adesiva</value>
-</data>
-<data name="INSP_T_MITECOUNTWASH">
-    <value>Contagem de ácaros: lavagem</value>
-</data>
-<data name="INSP_T_STARTFEED">
-    <value>Iniciar alimentação</value>
-</data>
-<data name="INSP_T_STOPFEED">
-    <value>Parar alimentação</value>
-</data>
-<data name="INSP_T_SWARMMATEDQUEEN">
-    <value>Enxame com rainha acasalada</value>
-</data>
-<data name="INSP_T_VIRGINSWARM">
-    <value>Enxame virgem</value>
-</data>
-<data name="INSP_T_SWARMRETURN">
-    <value>Enxame e retorno à colmeia</value>
-</data>
-<data name="INSP_T_QUEENSEEN">
-    <value>Rainha vista</value>
-</data>
-<data name="INSP_T_NOBROOD">
-    <value>Sem cria</value>
-</data>
-<data name="INSP_T_LOWBROOD">
-    <value>Nível baixo de cria</value>
-</data>
-<data name="INSP_T_NORMBROOD">
-    <value>Nível médio de cria</value>
-</data>
-<data name="INSP_T_HIGHBROOD">
-    <value>Nível alto de cria</value>
-</data>
-<data name="INSP_T_SICK">
-    <value>Doente</value>
-</data>
-<data name="INSP_T_NOBEES">
-    <value>Sem abelhas</value>
-</data>
-<data name="INSP_T_LOWBEES">
-    <value>Nível baixo de abelhas</value>
-</data>
-<data name="INSP_T_NORMBEES">
-    <value>Nível médio de abelhas</value>
-</data>
-<data name="INSP_T_HIGHBEES">
-    <value>Nível alto de abelhas</value>
-</data>
-<data name="INSP_T_NORES">
-    <value>Sem recursos</value>
-</data>
-<data name="INSP_T_LOWRES">
-    <value>Nível baixo de recursos</value>
-</data>
-<data name="INSP_T_NORMRES">
-    <value>Nível médio de recursos</value>
-</data>
-<data name="INSP_T_HIGHRES">
-    <value>Nível alto de recursos</value>
-</data>
-<data name="INSP_T_EGG">
-    <value>Presença de ovos</value>
-</data>
-<data name="INSP_T_LARVA">
-    <value>Presença de larvas</value>
-</data>
-<data name="INSP_T_PUPA">
-    <value>Presença de cria operculada</value>
-</data>
-<data name="INSP_T_DRONEBROOD">
-    <value>Presença de cria de zangão</value>
-</data>
-<data name="INSP_T_DRONE">
-    <value>Presença de zangões</value>
-</data>
-<data name="INSP_T_BUZZINGHIVE">
-    <value>Operárias poedeiras</value>
-</data>
-<data name="INSP_T_MOSAICBROOD">
-    <value>Cria espalhada</value>
-</data>
-<data name="INSP_T_QUEENCELLSEEN">
-    <value>Célula de rainha vista</value>
-</data>
-<data name="INSP_C_BEESBROODSTG">
-    <value>Estágios de cria</value>
-</data>
-<data name="NOTES_LIST_LAST">
-    <value>Semana passada</value>
-</data>
-<data name="NOTES_LIST_OLDER">
-    <value>Mais antigo</value>
-</data>
-<data name="NOTES_LIST_EMPTY">
-    <value>Nenhum</value>
-</data>
-<data name="NOTES_LOAD">
-    <value>Carregar antes de {0}</value>
-</data>
-<data name="NOTES_DELETE_TITLE">
-    <value>Excluir Nota</value>
-</data>
-<data name="NOTES_DELETE_MESSAGE">
-    <value>Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita.</value>
-</data>
-<data name="NOTES_DELETE_CONFIRM">
-    <value>Sim, excluir nota</value>
-</data>
-<data name="NOTES_NODESCR">
-    <value>Sem descrição</value>
-</data>
-<data name="ALERTS_TITLE">
-    <value>Alertas</value>
-</data>
-<data name="ALERTS_THIS">
-    <value>Esta semana</value>
-</data>
-<data name="ALERTS_LAST">
-    <value>Semana passada</value>
-</data>
-<data name="ALERTS_EMPTY">
-    <value>Nenhum</value>
-</data>
-<data name="ALERTS_POPUP_ACTTKN">
-    <value>Ação já realizada</value>
-</data>
-<data name="NECTAR_TITLE">
-    <value>Índice de Fluxo de Néctar</value>
-</data>
-<data name="WEATHER_TITLE">
-    <value>Tempo</value>
-</data>
-<data name="WEATHER_Y_RAIN">
-    <value>Chuva</value>
-</data>
-<data name="WEATHER_Y_WIND">
-    <value>Vento</value>
-</data>
-<data name="WEATHER_Y_TEMP">
-    <value>Temperatura</value>
-</data>
-<data name="WEATHER_Y_RH">
-    <value>Umidade Relativa</value>
-</data>
-<data name="WEATHER_Y_BAR">
-    <value>Pressão Barométrica</value>
-</data>
-<data name="WEATHER_TODAY">
-    <value>Hoje</value>
-</data>
-<data name="WEATHER_FORECAST">
-    <value>Previsão</value>
-</data>
-<data name="WEATHER_DAY">
-    <value>Dia</value>
-</data>
-<data name="WEATHER_DESCRIPTION">
-    <value>Descrição</value>
-</data>
-<data name="WEATHER_FORECAST_EMPTY">
-    <value>Sem previsão disponível</value>
-</data>
-<data name="WEATHER_UPDATE">
-    <value>Atualizar</value>
-</data>
-<data name="WEATHER_NOT_AVAILABLE">
-    <value>Dados meteorológicos não disponíveis</value>
-</data>
-<data name="CONNECTIVITY_TITLE">
-    <value>Conectividade</value>
-</data>
-<data name="CONNECTIVITY_CHECKING">
-    <value>Verificando conectividade...</value>
-</data>
-<data name="CONNECTIVITY_CONNECTED">
-    <value>Conectado</value>
-</data>
-<data name="CONNECTIVITY_DISCONNECTED">
-    <value>Desconectado</value>
-</data>
-<data name="CONNECTIVITY_ERROR">
-    <value>Erro ao verificar a conectividade</value>
-</data>
-<data name="LANGUAGE_TITLE">
-    <value>Idioma</value>
-</data>
-<data name="LANGUAGE_SELECT">
-    <value>Selecionar Idioma</value>
-</data>
-<data name="LANGUAGE_SELECTED">
-    <value>Idioma Selecionado</value>
-</data>
-<data name="LANGUAGE_APPLY">
-    <value>Aplicar</value>
-</data>
-<data name="LANGUAGE_ERROR">
-    <value>Erro ao selecionar o idioma</value>
-</data>
-<data name="SYNC_TITLE">
-    <value>Sincronização</value>
-</data>
-<data name="SYNC_LAST">
-    <value>Última sincronização</value>
-</data>
-<data name="SYNC_NOW">
-    <value>Sincronizar agora</value>
-</data>
-<data name="SYNC_ERROR">
-    <value>Erro ao sincronizar dados</value>
-</data>
-<data name="SYNC_SUCCESS">
-    <value>Sincronização bem-sucedida</value>
-</data>
-<data name="SYNC_NO_DATA">
-    <value>Sem novos dados para sincronizar</value>
-</data>
-<data name="RECORD_TITLE">
-    <value>Registro</value>
-</data>
-<data name="RECORD_DATE">
-    <value>Data</value>
-</data>
-<data name="RECORD_TIME">
-    <value>Hora</value>
-</data>
-<data name="RECORD_DETAILS">
-    <value>Detalhes</value>
-</data>
-<data name="RECORD_ADD">
-    <value>Adicionar</value>
-</data>
-<data name="RECORD_EDIT">
-    <value>Editar</value>
-</data>
-<data name="RECORD_DELETE">
-    <value>Excluir</value>
-</data>
-<data name="RECORD_DELETE_CONFIRM">
-    <value>Confirmar exclusão</value>
-</data>
-<data name="RECORD_DELETE_CONFIRM_MESSAGE">
-    <value>Tem certeza de que deseja excluir este registro? Esta ação não pode ser desfeita.</value>
-</data>
-<data name="RECORD_DELETE_SUCCESS">
-    <value>Registro excluído com sucesso</value>
-</data>
-<data name="RECORD_DELETE_ERROR">
-    <value>Erro ao excluir o registro</value>
-</data>
-<data name="INSP_C_HEALTH">
-    <value>Saúde</value>
-</data>
-<data name="INSP_C_MITES">
-    <value>Ácaros</value>
-</data>
-<data name="INSP_C_MANAGE">
-    <value>Gerenciar</value>
-</data>
-<data name="INSP_C_FEEDING">
-    <value>Alimentação</value>
-</data>
-<data name="FITNESS_C_B1">
-    <value>Colmeia morta</value>
-</data>
-<data name="FITNESS_C_B2">
-    <value>Colmeia roubada</value>
-</data>
-<data name="FITNESS_C_R1">
-    <value>Colmeia muito fraca</value>
-</data>
-<data name="FITNESS_C_O1">
-    <value>Colmeia fraca ou em forte declínio</value>
-</data>
-<data name="FITNESS_C_O2">
-    <value>Possível enxame</value>
-</data>
-<data name="FITNESS_C_O3">
-    <value>Sobreaquecimento</value>
-</data>
-<data name="FITNESS_C_O4">
-    <value>Frio extremo</value>
-</data>
-<data name="FITNESS_C_O5">
-    <value>Perda rápida de peso, sendo roubada</value>
-</data>
-<data name="FITNESS_C_G1">
-    <value>Saudável</value>
-</data>
-<data name="FITNESS_C_G2">
-    <value>Sem dados ou sem informações meteorológicas</value>
-</data>
-<data name="NOTES_TITLE">
-    <value>Notas</value>
-</data>
-<data name="NOTES_LIST_THIS">
-    <value>Esta semana</value>
-</data>
-<data name="NOTES_LIST_LAST">
-    <value>Semana passada</value>
-</data>
-<data name="NOTES_LIST_OLDER">
-    <value>Mais antiga</value>
-</data>
-<data name="NOTES_LIST_EMPTY">
-    <value>nada</value>
-</data>
-<data name="NOTES_LOAD">
-    <value>Carregar antes de {0}</value>
-</data>
-<data name="NOTES_DELETE_TITLE">
-    <value>Excluir nota</value>
-</data>
-<data name="NOTES_DELETE_MESSAGE">
-    <value>Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita.</value>
-</data>
-<data name="NOTES_DELETE_CONFIRM">
-    <value>Sim, excluir nota</value>
-</data>
-<data name="NOTES_NODESCR">
-    <value>Sem descrição</value>
-</data>
-<data name="ALERTS_TITLE">
-    <value>Alertas</value>
-</data>
-<data name="ALERTS_THIS">
-    <value>Esta semana</value>
-</data>
-<data name="ALERTS_LAST">
-    <value>Semana passada</value>
-</data>
-<data name="ALERTS_EMPTY">
-    <value>nada</value>
-</data>
-<data name="ALERTS_POPUP_ACTTKN">
-    <value>Ação já tomada</value>
-</data>
-<data name="NECTAR_TITLE">
-    <value>Índice de Fluxo de Néctar</value>
-</data>
-<data name="WEATHER_TITLE">
-    <value>Clima</value>
-</data>
-<data name="WEATHER_Y_RAIN">
-    <value>Chuva</value>
-</data>
-<data name="WEATHER_Y_WIND">
-    <value>Vento</value>
-</data>
-<data name="WEATHER_Y_MAXTEMP">
-    <value>Temp Máx</value>
-</data>
-<data name="WEATHER_Y_MINTEMP">
-    <value>Temp Mín</value>
-</data>
-<data name="WEATHER_Y_WEATHER">
-    <value>Clima</value>
-</data>
-<data name="WEATHER_Y_NECTAR">
-    <value>Índice de Néctar</value>
-</data>
-<data name="WEATHER_Y_FORAG">
-    <value>Índice de Coleta</value>
-</data>
-<data name="VAPIARY_NEWAPENOTE">
-    <value>Nova Nota de Apiário/Meliponário</value>
-</data>
-<data name="VAPIARY_NECTAR_TITLE">
-    <value>Previsão de Índice de Néctar</value>
-</data>
-<data name="VAPIARY_NECTAR_AVG">
-    <value>média de {0} dias</value>
-</data>
-<data name="VAPIARY_NECTAR_NONE">
-    <value>Sem dados</value>
-</data>
-<data name="VAPIARY_NOTES_TITLE">
-    <value>Última Inspeção</value>
-</data>
-<data name="VAPIARY_NOTES_TIME">
-    <value>{0} dias atrás</value>
-</data>
-<data name="VAPIARY_NOTES_NONE">
-    <value>Sem inspeções por 2 semanas.</value>
-</data>
-<data name="VAPIARY_REFRESH">
-    <value>Atualizar Dados do Apiário/Meliponário</value>
-</data>
-<data name="WEIGHT_TITLE">
-    <value>Peso</value>
-</data>
-<data name="PROD_TITLE">
-    <value>Produtividade</value>
-</data>
-<data name="PROD_PROD">
-    <value>Produtividade</value>
-</data>
-<data name="PROD_CUMUL">
-    <value>Acumulado</value>
-</data>
-<data name="PROD_3D">
-    <value>3 dias</value>
-</data>
-<data name="PROD_5D">
-    <value>5 dias</value>
-</data>
-<data name="PROD_7D">
-    <value>7 dias</value>
-</data>
-<data name="TEMP_TITLE">
-    <value>Temperatura</value>
-</data>
-<data name="TEMP_MAX">
-    <value>máx</value>
-</data>
-<data name="TEMP_MIN">
-    <value>mín</value>
-</data>
-<data name="TEMP_VAR">
-    <value>var</value>
-</data>
-<data name="TEMP_BROODZONE">
-    <value>Zona de Criação</value>
-</data>
-<data name="HUMID_TITLE">
-    <value>Umidade</value>
-</data>
-<data name="HUMID_MAX">
-    <value>máx</value>
-</data>
-<data name="HUMID_MIN">
-    <value>mín</value>
-</data>
-<data name="HUMID_VAR">
-    <value>var</value>
-</data>
-<data name="HUMID_NORMALZONE">
-    <value>Normal</value>
-</data>
-<data name="BROOD_TITLE">
-    <value>Criação</value>
-</data>
-<data name="VHIVE_DATA_REF">
-    <value>Atualizando dados</value>
-</data>
-<data name="VHIVE_DATA_FOUND">
-    <value>Dados atualizados encontrados</value>
-</data>
-<data name="VHIVE_DATA_DELAY">
-    <value>Dados atualizados atrasados</value>
-</data>
-<data name="VHIVE_NOHIVE">
-    <value>Criar ou selecionar Colmeia</value>
-</data>
-<data name="VHIVE_NEWHIVE">
-    <value>Nova Colmeia</value>
-</data>
-<data name="VHIVE_HNOTE">
-    <value>Nova Nota de Colmeia</value>
-</data>
-<data name="VHIVE_ANOTE">
-    <value>Nova Nota de Apiário/Meliponário</value>
-</data>
-<data name="VHIVE_REFRESH">
-    <value>Atualizar Dados da Colmeia</value>
-</data>
-<data name="ADDI_TITLE">
-    <value>Adicionar Item</value>
-</data>
-<data name="ADDI_NOTE_APIARY">
-    <value>Adicionar Nota de Apiário/Meliponário</value>
-</data>
-<data name="ADDI_NOTE_HIVE">
-    <value>Adicionar Nota de Colmeia</value>
-</data>
-<data name="CU_NOTE_TITLE_U">
-    <value>Nota {0}</value>
-</data>
-<data name="CU_NOTE_HIVETITLE">
-    <value>Criar Nota de Colmeia</value>
-</data>
-<data name="CU_NOTE_HIVE_SEL">
-    <value>Selecionar colmeias (cria nota para cada uma)</value>
-</data>
-<data name="CU_NOTE_HIVE_ERROR">
-    <value>*Colmeia necessária</value>
-</data>
-<data name="CU_NOTE_DATE">
-    <value>Data</value>
-</data>
-<data name="CU_NOTE_NOTE">
-    <value>Nota</value>
-</data>
-<data name="CU_NOTE_NOTEPLACEHOLDER">
-    <value>Escreva algo ...</value>
-</data>
-<data name="CU_NOTE_TAGS">
-    <value>Selecionar tags</value>
-</data>
-<data name="APP_UPDATE_TITLE">
-    <value>Novos Recursos!</value>
-</data>
-<data name="APP_UPDATE_DESC">
-    <value>Nós atualizamos o aplicativo Bees! Aproveite as novas visualizações das suas colmeias com as novas abas de Apiários/Meliponários e Colmeias. Continue usando normalmente para mover dispositivos e enviar dados na aba Gerenciar e Dispositivos.</value>
-</data>
-<data name="APP_UPDATE_OK">
-    <value>Feito</value>
-</data>
-<data name="APP_UPDATE_MORE">
-    <value>Saiba mais</value>
-</data>
-<data name="BSCHANGE_TITLE">
-    <value>Economia de Bateria</value>
-</data>
-<data name="BSCHANGE_EN_BTN">
-    <value>Ativar/Atualizar</value>
-</data>
-<data name="BSCHANGE_DIS_BTN">
-    <value>Desativar</value>
-</data>
-<data name="BSCHANGE_SETUP">
-    <value>Configuração</value>
-</data>
-<data name="BSCHANGE_CHOOSEOPT">
-    <value>Nada em progresso, escolha uma opção acima</value>
-</data>
-<data name="BSCHANGE_HUBMODE_EN">
-    <value>Modo de Presença do Hub Ativado</value>
-</data>
-<data name="BSCHANGE_HUBMODE_DIS">
-    <value>Modo de Presença do Hub Desativado</value>
-</data>
-<data name="BSCHANGE_AS_EN">
-    <value>Agendamento de Atividades Ativado</value>
-</data>
-<data name="BSCHANGE_AS_SPAN">
-    <value>Atividade ocorrendo de {0} a {1} entre {2} e {3}</value>
-</data>
-<data name="BSCHANGE_AS_DIS">
-    <value>Agendamento de Atividades Desativado</value>
-</data>
-<data name="BSCHANGE_INCL">
-    <value>Incluir inelegíveis</value>
-</data>
-<data name="BSCHANGE_CHANGEWARN">
-    <value>Alterar configurações pode levar 10 minutos</value>
-</data>
-<data name="BSCHANGE_DISWARN">
-    <value>Desativar economia de bateria pode levar 10 minutos</value>
-</data>
-<data name="BSCHANGE_CANCELSYNC">
-    <value>Cancelando sincronização do apiário/meliponário</value>
-</data>
-<data name="BSCHANGE_STARTING">
-    <value>Iniciando</value>
-</data>
-<data name="BSCHANGE_INCL_IN">
-    <value>Incluir inelegíveis</value>
-</data>
-<data name="BSCHANGE_ONLY_EL">
-    <value>Mostrar apenas elegíveis</value>
-</data>
-<data name="BSCHANGE_NEEDSUPDATE">
-    <value>Necessita de atualização de firmware</value>
-</data>
-<data name="BSCHANGE_NOTELIGIBLE">
-    <value>Não elegível</value>
-</data>
-<data name="BSCHANGE_ERR">
-    <value>Erro - tentando novamente</value>
-</data>
-<data name="BSCHANGE_CONNECTING_APPLYING">
-    <value>Conectando e aplicando configurações</value>
-</data>
-<data name="BSCHANGE_FINISHED">
-    <value>Concluído</value>
-</data>
-<data name="BSCHANGE_CONNECTING_OFF">
-    <value>Conectando e desligando economia de bateria</value>
-</data>
-<data name="BSCHANGE_SEEN_SECONDS">
-    <value>Visto há {0} segundos</value>
-</data>
-<data name="BSCHANGE_SEEN_AGO">
-    <value>Visto há {0}</value>
-</data>
-<data name="BSSET_TITLE">
-    <value>Configurações de Economia de Bateria</value>
-</data>
-<data name="BSSET_HUBEN">
-    <value>Hub Presente no Apiário/Meliponário</value>
-</data>
-<data name="BSSET_ASEN">
-    <value>Agendar Detecção de Enxame</value>
-</data>
-<data name="BSSET_STARTON">
-    <value>Iniciar Em</value>
-</data>
-<data name="BSSET_STARTMONTH">
-    <value>Mês de Início</value>
-</data>
-<data name="BSSET_STARTDAY">
-    <value>Dia de Início</value>
-</data>
-<data name="BSSET_ENDON">
-    <value>Encerrar Em</value>
-</data>
-<data name="BSSET_ENDMONTH">
-    <value>Mês de Encerramento</value>
-</data>
-<data name="BSSET_ENDDAY">
-    <value>Dia de Encerramento</value>
-</data>
-<data name="BSSET_FROM">
-    <value>De</value>
-</data>
-<data name="BSSET_TO">
-    <value>Para</value>
-</data>
-<data name="BSSET_DONE">
-    <value>Feito</value>
-</data>
-<data name="BSSET_EST">
-    <value>Estimativa de Vida da Bateria</value>
-</data>
-<data name="BSSET_YEARS">
-    <value>anos</value>
-</data>
-<data name="BSSET_HP_EXP_TITLE">
-    <value>Modo de Presença do Hub</value>
-</data>
-<data name="BSSET_AS_EXP_TITLE">
-    <value>Agendamento de Atividades</value>
-</data>
-<data name="BSSET_HP_EXP_MESSAGE">
-    <value>Selecione se você possui um Hub BroodMinder em seu apiário/meliponário</value>
-</data>
-<data name="BSSET_AS_EXP_MESSAGE">
-    <value>Reduzir o tempo em que seus sensores estão monitorando enxames prolongará a vida útil da bateria.</value>
-</data>
-<data name="BSSET_HELP">
-    <value>Ajuda</value>
-</data>
-<data name="BSSET_HELP_DESCR_0">
-    <value>Você pode estender a vida útil da bateria do sensor para mais de 5 anos de duas maneiras.</value>
-</data>
-<data name="BSSET_HELP_DESCR_1">
-    <value>Se você tiver um hub (SubHub, Cell, WiFi ou LoRa), pode configurar seus dispositivos para reduzir a publicidade. Isso adicionará um ano aos seus dispositivos -T2 e -TH2 e mais de 5 anos aos seus dispositivos -W.</value>
-</data>
-<data name="BSSET_HELP_DESCR_2">
-    <value>Como os enxames ocorrem apenas durante o dia e em parte do ano, é possível ganhar vários anos de vida útil da bateria reduzindo o tempo de detecção.</value>
-</data>
-<data name="BSSET_HELP_DESCR_3">
-    <value>Para mais informações, consulte o Guia do Usuário do BroodMinder.</value>
-</data>
-<data name="BSSET_HELP_DESCR_LINK">
-    <value>Guia do usuário</value>
-</data>
+        </data>
+    <data name="SETTINGS_USER">
+        <value>Usuário</value>
+    </data>
+    <data name="SETTINGS_PREFERENCES">
+        <value>Preferências</value>
+    </data>
+    <data name="SETTINGS_TIMEZONE">
+        <value>Fuso Horário</value>
+    </data>
+    <data name="SETTINGS_UNIT">
+        <value>Unidade</value>
+    </data>
+    <data name="SETTINGS_LANGUAGE">
+        <value>Idioma</value>
+    </data>
+    <data name="SETTINGS_APP">
+        <value>Configurações do App</value>
+    </data>
+    <data name="SETTINGS_BATTERYSAVER">
+        <value>Ativar/Desativar Economizador de Bateria</value>
+    </data>
+    <data name="SETTINGS_SHOWFIRMWARE">
+        <value>Mostrar atualizações de firmware disponíveis</value>
+    </data>
+    <data name="SETTINGS_SUBHUBCSV">
+        <value>Salvar CSV na sincronização do SubHub</value>
+    </data>
+    <data name="SETTINGS_LOGIN">
+        <value>Entrar</value>
+    </data>
+    <data name="SETTINGS_EDITPREF">
+        <value>Editar Preferências</value>
+    </data>
+    <data name="SETTINGS_LOGOUT">
+        <value>Sair</value>
+    </data>
+    <data name="SETTINGS_TROUBLESHOOTING">
+        <value>Resolução de Problemas</value>
+    </data>
+    <data name="SETTINGS_LOGOUT_TITLE">
+        <value>Saindo</value>
+    </data>
+    <data name="SETTINGS_LOGOUT_KEEP">
+        <value>Manter todos os dispositivos</value>
+    </data>
+    <data name="SETTINGS_LOGOUT_REMOVEALL">
+        <value>Remover todos os dispositivos</value>
+    </data>
+    <data name="SETTINGS_LOGOUT_REMOVEACCOUNT">
+        <value>Remover dispositivos na conta {0}</value>
+    </data>
+    <data name="SETTINGS_NOACCOUNT">
+        <value>nenhuma conta anexada</value>
+    </data>
+    <data name="SETTINGS_EDITPREF_TITLE">
+        <value>Editar Preferências</value>
+    </data>
+    <data name="SETTINGS_EDITPREF_METRIC">
+        <value>Métrico (Celsius/Quilogramas)</value>
+    </data>
+    <data name="SETTINGS_EDITPREF_IMPERIAL">
+        <value>Imperial (Fahrenheit/Libras)</value>
+    </data>
+    <data name="SETTINGS_EDITPREF_TIMEZONE">
+        <value>Selecionar Fuso Horário</value>
+    </data>
+    <data name="SETTINGS_EDITPREF_UNITS">
+        <value>Selecionar Unidades</value>
+    </data>
+    <data name="SETTINGS_EDITPREF_LANGUAGE">
+        <value>Selecionar Idioma</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_TITLE">
+        <value>Avançado</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_REMOVEDEVICES">
+        <value>Remover dispositivos que não estão na minha conta</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DELETEDB">
+        <value>Deletar Banco de Dados</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DOWNLOADLOG">
+        <value>Baixar Log de Depuração</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_TURNOFFFULLDBL">
+        <value>Desativar registro completo de depuração</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_REMOVEDEVICES_MESSAGE">
+        <value>Remover dispositivos que não pertencem à conta MyBroodMinder {0}?</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_REMOVEDEVICES_TITLE">
+        <value>Remover Dispositivos</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_REMOVEDEVICES_CONFIRM">
+        <value>Sim, Remover Dispositivos</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DELETEDB_MESSAGE">
+        <value>Você tem certeza de que deseja excluir todos os dados locais?</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DELETEDB_TITLE">
+        <value>Excluir Dados</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DELETEDB_CONFIRM">
+        <value>Sim, Excluir Dados</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DOWNLOADLOG_COMPLETE">
+        <value>Log de Depuração Baixado</value>
+    </data>
+    <data name="SETTINGS_ADVANCED_DOWNLOADLOG_ERROR">
+        <value>Erro ao Baixar Log de Depuração</value>
+    </data>
+    <data name="APIARIES_SELECT">
+        <value>Selecionar Apiário/Meliponário</value>
+    </data>
+    <data name="APIARIES_NONE">
+        <value>Nenhum Apiário/Meliponário Selecionado</value>
+    </data>
+    <data name="APIARIES_TAP1">
+        <value>Toque</value>
+    </data>
+    <data name="APIARIES_TAP2">
+        <value>acima para selecionar um apiário/meliponário</value>
+    </data>
+    <data name="APIARIES_NOHIVES">
+        <value>Nenhuma Colmeia Encontrada</value>
+    </data>
+    <data name="APIARIES_TAPH1">
+        <value>Toque</value>
+    </data>
+    <data name="APIARIES_TAPH2">
+        <value>no canto superior direito para criar uma colmeia</value>
+    </data>
+    <data name="APIARIES_NODEVICES">
+        <value>Nenhum Dispositivo</value>
+    </data>
+    <data name="APIARIES_FILTERSENSOR">
+        <value>Ver leituras atuais</value>
+    </data>
+    <data name="APIARIES_CONTEXT_NEWAPIARY">
+        <value>Novo Apiário/Meliponário</value>
+    </data>
+    <data name="APIARIES_CONTEXT_EDITAPIARY">
+        <value>Editar Apiário/Meliponário</value>
+    </data>
+    <data name="APIARIES_CONTEXT_NEWHIVE">
+        <value>Nova Colmeia</value>
+    </data>
+    <data name="APIARIES_CONTEXT_NEWNOTE">
+        <value>Nova Nota</value>
+    </data>
+    <data name="HIVE_CONTEXT_SYNC">
+        <value>Sincronizar</value>
+    </data>
+    <data name="HIVE_CONTEXT_ADDDEVICE">
+        <value>Adicionar Dispositivo</value>
+    </data>
+    <data name="HIVE_CONTEXT_MOVEHIVE">
+        <value>Mover Colmeia</value>
+    </data>
+    <data name="HIVE_CONTEXT_EDITHIVE">
+        <value>Editar Colmeia</value>
+    </data>
+    <data name="HIVE_CONTEXT_OPEN">
+        <value>Abrir no Navegador</value>
+    </data>
+    <data name="HIVE_CONTEXT_CHART">
+        <value>Ver Gráfico</value>
+    </data>
+    <data name="HIVE_CONTEXT_ADDNOTE">
+        <value>Adicionar Nota</value>
+    </data>
+    <data name="HIVE_SH_CONTEXT_DETAILS">
+        <value>Mostrar Detalhes</value>
+    </data>
+    <data name="HIVE_SH_STATUS">
+        <value>Atualizando em</value>
+    </data>
+    <data name="HIVE_SH_STATUS_SLEEP">
+        <value>Dispositivo em sono profundo.</value>
+    </data>
+    <data name="DEVICE_CONTEXT_SYNC">
+        <value>Sincronizar</value>
+    </data>
+    <data name="DEVICE_CONTEXT_SYNCNEXT">
+        <value>Sincronizar Próximo</value>
+    </data>
+    <data name="DEVICE_CONTEXT_REMOVESYNC">
+        <value>Remover Sincronização</value>
+    </data>
+    <data name="DEVICE_CONTEXT_CANCEL">
+        <value>Cancelar Sincronização</value>
+    </data>
+    <data name="DEVICE_CONTEXT_EDIT">
+        <value>Editar Dispositivo</value>
+    </data>
+    <data name="DEVICE_CONTEXT_MOVE">
+        <value>Mover Dispositivo</value>
+    </data>
+    <data name="DEVICE_CONTEXT_DETAILS">
+        <value>Mostrar Detalhes</value>
+    </data>
+    <data name="DEVICE_CONTEXT_EDITLOCATION">
+        <value>Editar Localização Atual</value>
+    </data>
+    <data name="DEVICE_CONTEXT_DELETE">
+        <value>Excluir Dispositivo</value>
+    </data>
+    <data name="DEVICE_CONTEXT_DELETE_MESSAGE">
+        <value>Você tem certeza de que deseja excluir todos os dados locais?</value>
+    </data>
+    <data name="DEVICE_CONTEXT_DELETE_TITLE">
+        <value>Excluir Dados</value>
+    </data>
+    <data name="DEVICE_CONTEXT_DELETE_CONFIRM">
+        <value>Sim, Excluir Dados</value>
+    </data>
+    <data name="DEVICE_CLAIM_MESSAGE">
+        <value>Reivindicar um dispositivo o adiciona à sua conta MyBroodMinder e carrega as leituras de sensores coletadas. Deseja reivindicar o dispositivo {0}?</value>
+    </data>
+    <data name="DEVICE_CLAIM_CONFIRM">
+        <value>Sim, Reivindicar dispositivo</value>
+    </data>
+    <data name="DEVICE_CLAIM_AUTOMESSAGE">
+        <value>Dispositivo {0} foi reivindicado com sucesso</value>
+    </data>
+    <data name="DEVICE_CLAIM_HIVE_NOW">
+        <value>Atribuir à colmeia agora</value>
+    </data>
+    <data name="DEVICE_CLAIM_HIVE_LATER">
+        <value>Atribuir à colmeia depois</value>
+    </data>
+    <data name="DEVICE_STATUS_UNAVAILABLE">
+        <value>Indisponível</value>
+    </data>
+    <data name="DEVICE_STATUS_NEARBY">
+        <value>Próximo</value>
+    </data>
+    <data name="DEVICE_STATUS_WAITING">
+        <value>Aguardando</value>
+    </data>
+    <data name="DEVICE_STATUS_CONNECTING">
+        <value>Conectando</value>
+    </data>
+    <data name="DEVICE_STATUS_CONNECTED">
+        <value>Conectado</value>
+    </data>
+    <data name="DEVICE_STATUS_BLEERROR">
+        <value>Erro de Bluetooth</value>
+    </data>
+    <data name="DEVICE_STATUS_SYNCERROR">
+        <value>Erro de Sincronização</value>
+    </data>
+    <data name="DEVICE_STATUS_NOTFOUND">
+        <value>Não Encontrado</value>
+    </data>
+    <data name="DEVICE_STATUS_CANCELLED">
+        <value>Cancelado</value>
+    </data>
+    <data name="DEVICE_STATUS_COMPLETE">
+        <value>Concluído</value>
+    </data>
+    <data name="DEVICE_STATUS_REMOTEHUB">
+        <value>Hub (Remoto)</value>
+    </data>
+    <data name="SYNC_CANCEL_MESSAGE">
+        <value>Cancelar sincronização?</value>
+    </data>
+    <data name="SYNC_CANCEL_CONFIRM">
+        <value>Sim, Cancelar sincronização</value>
+    </data>
+    <data name="SYNC_CANCEL_NO">
+        <value>Não, Continuar sincronização</value>
+    </data>
+    <data name="SYNC">
+        <value>Sincronizar</value>
+    </data>
+    <data name="SYNCING">
+        <value>Sincronizando</value>
+    </data>
+    <data name="SYNC_NONE">
+        <value>Nenhum Apiário ou Meliponário Selecionado</value>
+    </data>
+    <data name="SYNC_NONE_SELECT">
+        <value>Selecione Apiário ou Meliponário acima, depois tente sincronizar novamente.</value>
+    </data>
+    <data name="SYNC_INPROGRESS">
+        <value>Sincronização de Apiário ou Meliponário Já em Andamento</value>
+    </data>
+    <data name="SYNC_INPROGRESS_CANCEL">
+        <value>Cancelar Sincronização Atual</value>
+    </data>
+    <data name="SYNC_INPROGRESS_DISMISS">
+        <value>Dispensar</value>
+    </data>
+    <data name="SYNC_STATUS">
+        <value>Status de Sincronização</value>
+    </data>
+    <data name="SYNC_STATUS_COMPLETED">
+        <value>Concluído</value>
+    </data>
+    <data name="SYNC_STATUS_DEVNOT">
+        <value>{0} dispositivos não sincronizados</value>
+    </data>
+    <data name="SYNC_STATUS_DEVCOMP">
+        <value>{0} dispositivos concluídos</value>
+    </data>
+    <data name="SYNC_STATUS_DEVCONN">
+        <value>{0} dispositivos conectados</value>
+    </data>
+    <data name="SYNC_STATUS_DEVWAIT">
+        <value>{0} dispositivos aguardando</value>
+    </data>
+    <data name="SYNC_STATUS_CANCELALL">
+        <value>Cancelar Todos</value>
+    </data>
+    <data name="SYNC_STATUS_CANCELLED">
+        <value>Cancelado</value>
+    </data>
+    <data name="SYNC_STATUS_INPROGRESS">
+        <value>Em Progresso</value>
+    </data>
+    <data name="SYNC_STATUS_DEVNOTFOUND">
+        <value>Dispositivo não encontrado</value>
+    </data>
+    <data name="SYNC_STATUS_ERRORCONNECTING">
+        <value>Erro ao conectar</value>
+    </data>
+    <data name="SYNC_STATUS_ERRORSYNCING">
+        <value>Erro ao sincronizar</value>
+    </data>
+    <data name="SYNC_STATUS_ERRORRETRY">
+        <value>Erro, aguardando nova tentativa</value>
+    </data>
+    <data name="SYNC_STATUS_WAITING">
+        <value>Aguardando</value>
+    </data>
+    <data name="SYNC_STATUS_UPLOADING">
+        <value>Sincronização completa, carregando</value>
+    </data>
+    <data name="SYNC_STATUS_SAVING">
+        <value>Concluído, salvando/carregando dados</value>
+    </data>
+    <data name="SYNC_STATUS_COMPLETEDLOCAL">
+        <value>Concluído, {0} leituras salvas localmente</value>
+    </data>
+    <data name="SYNC_STATUS_COMPLETEDUPLOADED">
+        <value>Concluído, {0} leituras salvas e carregadas</value>
+    </data>
+    <data name="SYNC_STATUS_COMPLETEDOFFLINE">
+        <value>Concluído, {0} leituras salvas para tentar o upload quando voltar online</value>
+    </data>
+    <data name="NO_BLUETOOTH">
+        <value>Bluetooth desligado, o aplicativo pode não funcionar como esperado</value>
+    </data>
+    <data name="NO_NETWORK">
+        <value>Sem conexão de rede</value>
+    </data>
+    <data name="TIMESPAN_24H">
+        <value>24h</value>
+    </data>
+    <data name="TIMESPAN_3D">
+        <value>3d</value>
+    </data>
+    <data name="TIMESPAN_7D">
+        <value>7d</value>
+    </data>
+    <data name="TIMESPAN_14D">
+        <value>14d</value>
+    </data>
+    <data name="TIMESPAN_30D">
+        <value>30d</value>
+    </data>
+    <data name="TIMESPAN_6M">
+        <value>6m</value>
+    </data>
+    <data name="TIMESPAN_1Y">
+        <value>1a</value>
+    </data>
+    <data name="APIARY_CREATE_TITLE">
+        <value>Criar Apiário ou Meliponário</value>
+    </data>
+    <data name="APIARY_EDIT_TITLE">
+        <value>Editar {0}</value>
+    </data>
+    <data name="APIARY_CREATE_NAME">
+        <value>Nome do Apiário ou Meliponário</value>
+    </data>
+    <data name="APIARY_CREATE_NAMEREQUIRED">
+        <value>*Nome é obrigatório</value>
+    </data>
+    <data name="APIARY_CREATE_POSTAL">
+        <value>Código Postal</value>
+    </data>
+    <data name="APIARY_CREATE_POSTALREQUIRED">
+        <value>*Código Postal é obrigatório</value>
+    </data>
+    <data name="APIARY_CREATE_COUNTRY">
+        <value>Código do País</value>
+    </data>
+    <data name="APIARY_CREATE_COUNTRYSELECT">
+        <value>Selecionar País</value>
+    </data>
+    <data name="APIARY_CREATE_COLOR">
+        <value>Cor do Apiário ou Meliponário</value>
+    </data>
+    <data name="APIARY_CREATE_COUNTRYREQUIRED">
+        <value>*País é obrigatório</value>
+    </data>
+    <data name="APIARY_CREATE_CREATED">
+        <value>Apiário/Meliponário criado</value>
+    </data>
+    <data name="APIARY_CREATE_ERROR">
+        <value>Apiário/Meliponário não criado</value>
+    </data>
+    <data name="APIARY_EDIT_UPDATED">
+        <value>Apiário/Meliponário atualizado</value>
+    </data>
+    <data name="APIARY_EDIT_ERROR">
+        <value>Apiário/Meliponário não atualizado</value>
+    </data>
+    <data name="HIVE_CREATE_NAME">
+        <value>Nome da Colmeia</value>
+    </data>
+    <data name="HIVE_CREATE_DESCRIPTION">
+        <value>Descrição (opcional)</value>
+    </data>
+    <data name="HIVE_CREATE_COLOR">
+        <value>Cor da Colmeia</value>
+    </data>
+    <data name="MOVE_HIVE_TITLE">
+        <value>Mover Colmeia</value>
+    </data>
+    <data name="MOVE_HIVE_MOVED">
+        <value>Colmeia movida</value>
+    </data>
+    <data name="MOVE_HIVE_ERROR">
+        <value>Erro, colmeia não movida</value>
+    </data>
+    <data name="MOVE_HIVE_TIMEERROR">
+        <value>Hora de início antes do início da localização atual</value>
+    </data>
+    <data name="MOVE_HIVE_APIARYERROR">
+        <value>*Apiário/Meliponário é obrigatório</value>
+    </data>
+    <data name="MOVE_HIVE_START">
+        <value>Iniciando</value>
+    </data>
+    <data name="MOVE_HIVE_MOVE">
+        <value>Mover</value>
+    </data>
+    <data name="ADD_DEVICE_TITLE">
+        <value>Adicionar Dispositivo a {0}</value>
+    </data>
+    <data name="ADD_DEVICE_TITLENONE">
+        <value>Adicionar Dispositivo</value>
+    </data>
+    <data name="ADD_DEVICE_SUCCESS">
+        <value>Dispositivo movido</value>
+    </data>
+    <data name="ADD_DEVICE_ERROR">
+        <value>Erro, dispositivo não movido</value>
+    </data>
+    <data name="ADD_DEVICE_SELECTDEVICE">
+        <value>Selecionar Dispositivo</value>
+    </data>
+    <data name="ADD_DEVICE_DEVICEREQUIRED">
+        <value>*Dispositivo é obrigatório</value>
+    </data>
+    <data name="ADD_DEVICE_REMOVEHIVE">
+        <value>Remover da colmeia</value>
+    </data>
+    <data name="ADD_DEVICE_END">
+        <value>Terminar</value>
+    </data>
+    <data name="ADD_DEVICE_MOVEHIVE">
+        <value>Mover para outra colmeia</value>
+    </data>
+    <data name="ADD_DEVICE_SELECTHIVE">
+        <value>Selecionar Colmeia</value>
+    </data>
+    <data name="ADD_DEVICE_HIVEERROR">
+        <value>*Colmeia é obrigatória</value>
+    </data>
+    <data name="ADD_DEVICE_LOCATION">
+        <value>Localização na colmeia</value>
+    </data>
+    <data name="ADD_DEVICE_SELECTPOSITION">
+        <value>Selecionar Posição</value>
+    </data>
+    <data name="ADD_DEVICE_POSITIONERROR">
+        <value>*Posição é obrigatória</value>
+    </data>
+    <data name="ADD_DEVICE_START">
+        <value>Iniciar</value>
+    </data>
+    <data name="ADD_DEVICE_ADD">
+        <value>Adicionar</value>
+    </data>
+    <data name="CLAIM_DEVICE_EDIT">
+        <value>Editar Dispositivo</value>
+    </data>
+    <data name="CLAIM_DEVICE_ADD">
+        <value>Adicionar Dispositivo</value>
+    </data>
+    <data name="CLAIM_DEVICE_CLAIM">
+        <value>Reivindicar</value>
+    </data>
+    <data name="CLAIM_DEVICE_OWNED">
+        <value>Não é possível adicionar este dispositivo. Ele é propriedade de outra conta de usuário.</value>
+    </data>
+    <data name="CLAIM_DEVICE_EDIT_SUCCESS">
+        <value>Dispositivo atualizado</value>
+    </data>
+    <data name="CLAIM_DEVICE_EDIT_ERROR">
+        <value>Erro, dispositivo não atualizado</value>
+    </data>
+    <data name="CLAIM_DEVICE_ADD_SUCCESS">
+        <value>Dispositivo reivindicado</value>
+    </data>
+    <data name="CLAIM_DEVICE_ADD_ERROR">
+        <value>Erro, dispositivo não reivindicado</value>
+    </data>
+    <data name="CLAIM_DEVICE_NAME">
+        <value>Nome</value>
+    </data>
+    <data name="CLAIM_DEVICE_NAMEERROR">
+        <value>*Nome é obrigatório</value>
+    </data>
+    <data name="DEVICE_DEBUGLOG_TITLE">
+        <value>Log de Depuração</value>
+    </data>
+    <data name="DEVICE_DEBUGLOG_NONE">
+        <value>Sem logs para o dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_CONTEXT_REALTIME">
+        <value>Ver em Tempo Real</value>
+    </data>
+    <data name="DEVICEDETAIL_CONTEXT_SETRATE">
+        <value>Definir Taxa</value>
+    </data>
+    <data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
+        <value>Limpar Log do Dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_CONTEXT_TROUBLE">
+        <value>Solução de Problemas</value>
+    </data>
+    <data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
+        <value>Excluir Dados Locais</value>
+    </data>
+    <data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
+        <value>Carregar Dados Locais</value>
+    </data>
+    <data name="DEVICEDETAIL_NOTIF_EVENT">
+        <value>Evento</value>
+    </data>
+    <data name="DEVICEDETAIL_NOTIF_UPDATE">
+        <value>Atualização</value>
+    </data>
+    <data name="DEVICEDETAIL_NOTIF_UPLOAD">
+        <value>Carregar Dados</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_TE">
+        <value>Evento de Temperatura:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_BS">
+        <value>Sinal Bluetooth:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_B">
+        <value>Bateria:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_M">
+        <value>Modelo:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_FW">
+        <value>Firmware:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_SC">
+        <value>Contagem de Amostras:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_NR">
+        <value>Novas Leituras:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_LMU">
+        <value>Último Upload MBM:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_LMS">
+        <value>Última Amostra MBM:</value>
+    </data>
+    <data name="DEVICEDETAIL_GRID_LR">
+        <value>Últimas Leituras:</value>
+    </data>
+    <data name="DEVICEDETAIL_FIRMWARE_SYNC">
+        <value>Sincronizar {0} novas leituras e depois atualizar o firmware</value>
+    </data>
+    <data name="DEVICEDETAIL_FIRMWARE_NOSYNC">
+        <value>Atualizar firmware sem sincronização (perder {0} leituras)</value>
+    </data>
+    <data name="DEVICEDETAIL_FIRMWARE_TITLE">
+        <value>Atualizar Firmware</value>
+    </data>
+    <data name="DEVICEDETAIL_TROUBLESHOOTING_DEBUGLOG">
+        <value>Ver Log de Depuração</value>
+    </data>
+    <data name="DEVICEDETAIL_TROUBLESHOOTING_READINGS">
+        <value>Ver Leituras</value>
+    </data>
+    <data name="DEVICEDETAIL_TROUBLESHOOTING_CALIBRATE">
+        <value>Calibrar Escala</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOAD_ERROR">
+        <value>Dispositivo offline, não enviado</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_S1">
+        <value>Ver dados ao vivo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_CONNECTING">
+        <value>Conectando ao dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_S2">
+        <value>Erro ao obter dados ao vivo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_DISCONNECTING">
+        <value>Desconectando dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_DISCONNECTED">
+        <value>Dispositivo desconectado</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_NOTFOUND">
+        <value>Dispositivo não encontrado</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_PACKET">
+        <value>Dados ao Vivo: Amostra: {0} Bat:{1} Temp: {2} Umidade: {3} Peso: {4}</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_STOP">
+        <value>Parar em Tempo Real</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_S3">
+        <value>Configurando hora</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_S4">
+        <value>Erro ao configurar hora</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_RATE5">
+        <value>5 Minutos</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_RATE15">
+        <value>15 Minutos</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_RATE10">
+        <value>10 Minutos</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_RATE1">
+        <value>1 Hora</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_SETTINGRATE">
+        <value>Configurando taxa para {0} minutos</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_RATEERROR">
+        <value>Erro ao configurar taxa</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_RATESET">
+        <value>Taxa definida para {0} minutos</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_CLEARLOG">
+        <value>Limpar Log do Sensor</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_CLEARLOG_MESSAGE">
+        <value>Você tem certeza de que deseja excluir todos os dados do sensor? Certifique-se de ter baixado todos os dados.</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_CLEARLOG_CONFIRM">
+        <value>Sim, Limpar log do dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_CLEARLOG_S1">
+        <value>Limpando o log do dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_ERROR">
+        <value>Erro ao limpar flash</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_CLEARLOG_SUCCESS">
+        <value>Log do dispositivo limpo</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_HEADER_TIMESTAMP">
+        <value>hora</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_HEADER_SAMPLE">
+        <value>amostra</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_HEADER_TEMPERATURE">
+        <value>T</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_HEADER_WEIGHT">
+        <value>Peso</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_HEADER_HUMIDITY">
+        <value>Umidade</value>
+    </data>
+    <data name="DEVICEDETAIL_LIVE_HEADER_BALANCE">
+        <value>bal%</value>
+    </data>
+    <data name="DEVICEDETAIL_CHART_TEMPEVENT">
+        <value>Evento de temperatura</value>
+    </data>
+    <data name="DEVICEDETAIL_CHART_RX">
+        <value>RX</value>
+    </data>
+    <data name="DEVICEDETAIL_CHART_BROODZONE">
+        <value>Zona de criação</value>
+    </data>
+    <data name="DEVICEDETAIL_DELETE_MESSAGE">
+        <value>Tem certeza de que deseja excluir todos os dados locais?</value>
+    </data>
+    <data name="DEVICEDETAIL_DELETE">
+        <value>Excluir Dados</value>
+    </data>
+    <data name="DEVICEDETAIL_DELETE_CONFIRM">
+        <value>Sim, Excluir Dados</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_NONE">
+        <value>Nenhum dado offline encontrado para {0}</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_TITLE">
+        <value>Enviar dados locais?</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_CONFIRM">
+        <value>Enviar agora</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_MESSAGE">
+        <value>Encontradas {0} leituras somente locais para {1}. Enviar esses para MyBroodminder.com agora?</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_SUCCESS">
+        <value>Leituras enviadas</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_FAILURE">
+        <value>Leituras não enviadas</value>
+    </data>
+    <data name="DEVICEDETAIL_UPLOADLOCAL_PERMISSION">
+        <value>Não autorizado a enviar dados para este dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_BSICON">
+        <value>Economia de bateria</value>
+    </data>
+    <data name="DEVICEDETAIL_ASICON">
+        <value>Agendamento de atividades</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_READ">
+        <value>Informações de economia de bateria</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_READING">
+        <value>Obtendo estado de economia de bateria</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_RES_1">
+        <value>Info de economia de bateria</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_RES_2">
+        <value>Tempo do dispositivo</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_RES_3">
+        <value>Tempo de início</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_RES_4">
+        <value>Duração diária</value>
+    </data>
+    <data name="DEVICEDETAIL_BS_RES_5">
+        <value>Duração anual</value>
+    </data>
+    <data name="DEVICES_NONE">
+        <value>Nenhum dispositivo encontrado</value>
+    </data>
+    <data name="DEVICES_PULL">
+        <value>Arraste para atualizar</value>
+    </data>
+    <data name="DEVICES_TROUBLESHOOT">
+        <value>Solução de problemas</value>
+    </data>
+    <data name="DEVICES_NOTASSIGN">
+        <value>« Não atribuído »</value>
+    </data>
+    <data name="DEVICES_CLAIM">
+        <value>Reivindicar Dispositivo</value>
+    </data>
+    <data name="DEVICES_ANOTHERACCOUNT">
+        <value>O dispositivo pertence a outra conta</value>
+    </data>
+    <data name="DEVICES_FIRMWAREERROR">
+        <value>Erro na atualização de firmware, corrigir</value>
+    </data>
+    <data name="DEVICES_FILTER_NAME">
+        <value>Nome</value>
+    </data>
+    <data name="DEVICES_FILTER_NEARBY">
+        <value>Próximos</value>
+    </data>
+    <data name="DEVICES_FILTER_SCALES">
+        <value>Balanças</value>
+    </data>
+    <data name="DEVICES_FILTER_TH">
+        <value>Temp/Umidade</value>
+    </data>
+    <data name="DEVICES_FILTER_HUB">
+        <value>Hubs</value>
+    </data>
+    <data name="DEVICES_FILTER_SUBHUB">
+        <value>Subhubs</value>
+    </data>
+    <data name="DEVICES_FILTER_BEEDAR">
+        <value>Beedar</value>
+    </data>
+    <data name="DEVICES_FILTER_LOWBATTERY">
+        <value>Bateria Baixa</value>
+    </data>
+    <data name="DEVICES_FILTER_APIARY">
+        <value>Apiário/Meliponário</value>
+    </data>
+    <data name="DEVICES_TROUBLESHOOTING">
+        <value>Solução de problemas</value>
+    </data>
+    <data name="DEVICES_T1">
+        <value>Verifique se seus dispositivos estão ligados e próximos ao seu telefone</value>
+    </data>
+    <data name="DEVICES_T2">
+        <value>Verifique se o Bluetooth está ativado</value>
+    </data>
+    <data name="DEVICES_T3">
+        <value>Ainda sem dispositivos?</value>
+    </data>
+    <data name="DEVICES_T4">
+        <value>Alternar o modo avião do seu telefone para atualizar os serviços Bluetooth.</value>
+    </data>
+    <data name="DEVICES_FILTERDEV">
+        <value>Filtrar dispositivos por</value>
+    </data>
+    <data name="DEVICES_FILTERNAME">
+        <value>Filtrar por nome</value>
+    </data>
+    <data name="DEVICES_FILTERNAMETEXT">
+        <value>Insira o nome completo ou parcial do dispositivo ou ID</value>
+    </data>
+    <data name="DEVICES_SAMPLES">
+        <value>{0} no total, {1} novos</value>
+    </data>
+    <data name="DEVICES_LASTSYNC">
+        <value>Última sincronização: {0}</value>
+    </data>
+    <data name="DEVICES_OFFLINEREADINGS">
+        <value>O dispositivo tem leituras offline</value>
+    </data>
+    <data name="DEVICES_SIGNAL">
+        <value>Sinal</value>
+    </data>
+    <data name="DEVICES_TEMPEVENT">
+        <value>Evento em {0}</value>
+    </data>
+    <data name="DEVICES_CHARGER">
+        <value>Carga Restante</value>
+    </data>
+    <data name="DEVICES_BATTSAV">
+        <value>Economia de bateria ativada</value>
+    </data>
+    <data name="DEVICES_ACTSCHED">
+        <value>Agendamento de atividades ativado</value>
+    </data>
+    <data name="DEVICES_CELL_SAMPLES">
+        <value>{0} dispositivos, {1} amostras para enviar</value>
+    </data>
+    <data name="DEVICES_CELLUPDATING">
+        <value>Atualizando em {0}</value>
+    </data>
+    <data name="DEVICES_CELL_SLEEP1">
+        <value>Dispositivo em modo de suspensão profunda.</value>
+    </data>
+    <data name="DEVICES_CELL_SLEEP2">
+        <value>Toque aqui para ativar.</value>
+    </data>
+    <data name="EDITLOCATION_LOCATION">
+        <value>Localização na colmeia</value>
+    </data>
+    <data name="EDITLOCATION_SELECT">
+        <value>Selecionar Posição</value>
+    </data>
+    <data name="EDITLOCATION_REQ">
+        <value>*Posição é obrigatória</value>
+    </data>
+    <data name="EDITLOCATION_START">
+        <value>Iniciar</value>
+    </data>
+    <data name="EDITLOCATION_ENDLOCATION">
+        <value>Localização Final</value>
+    </data>
+    <data name="EDITLOCATION_END">
+        <value>Fim</value>
+    </data>
+    <data name="EDITLOCATION_TITLE">
+        <value>Editar Localização do Dispositivo</value>
+    </data>
+    <data name="EDITLOCATION_ERROR">
+        <value>Erro, nenhuma localização atual para editar</value>
+    </data>
+    <data name="EDITLOCATION_MOVED">
+        <value>Dispositivo movido</value>
+    </data>
+    <data name="EDITLOCATION_NOTMOVED">
+        <value>Erro, dispositivo não movido</value>
+    </data>
+    <data name="EDITLOCATION_ERRORTIME">
+        <value>O horário de término deve ser posterior ao horário de início.</value>
+    </data>
+    <data name="MOVEDEVICE_FROM">
+        <value>Remover de</value>
+    </data>
+    <data name="MOVEDEVICE_MOVE">
+        <value>Mover para outro apiário/meliponário</value>
+    </data>
+    <data name="FIRMWARE_CONNSTAT">
+        <value>Status de Conexão: </value>
+    </data>
+    <data name="FIRMWARE_PROG">
+        <value>Progresso da Atualização de Firmware: </value>
+    </data>
+    <data name="FIRMWARE_BACK">
+        <value>Atualização de firmware em andamento. Você deve permanecer aqui para que ela seja concluída. Voltar cancela a atualização e não é recomendado.</value>
+    </data>
+    <data name="FIRMWARE_BACKCANCEL">
+        <value>Cancelar Atualização?</value>
+    </data>
+    <data name="FIRMWARE_BACKCANCEL_CONFIRM">
+        <value>Sim, Cancelar Atualização</value>
+    </data>
+    <data name="FIRMWARE_BACKCANCEL_CANCEL">
+        <value>Não, Continuar Atualização</value>
+    </data>
+    <data name="FIRMWARE_RETRIEVEDCOUNT">
+        <value>{0} leituras recuperadas</value>
+    </data>
+    <data name="FIRMWARE_RETRIEVEDALL">
+        <value>Todas Recuperadas</value>
+    </data>
+    <data name="FIRMWARE_SYNCCOMP">
+        <value>Sincronização Completa</value>
+    </data>
+    <data name="FIRMWARE_SYNCFAILED">
+        <value>Falha na Sincronização</value>
+    </data>
+    <data name="FIRMWARE_CANCELLED">
+        <value>Atualização de firmware cancelada</value>
+    </data>
+    <data name="FIRMWARE_CONNECTED">
+        <value>Conectado ao dispositivo</value>
+    </data>
+    <data name="FIRMWARE_NOTSTART">
+        <value>Não foi possível iniciar a atualização</value>
+    </data>
+    <data name="FIRMWARE_SUCCESS">
+        <value>Atualização de firmware bem-sucedida</value>
+    </data>
+    <data name="FIRMWARE_COMPLETE">
+        <value>Concluído com Sucesso</value>
+    </data>
+    <data name="FIRMWARE_UNSUCCESS">
+        <value>Concluído sem Sucesso</value>
+    </data>
+    <data name="READINGSCSV_TITLE">
+        <value>CSV</value>
+    </data>
+    <data name="READINGSCSV_ADDR">
+        <value>Endereço</value>
+    </data>
+    <data name="READINGSCSV_MODEL">
+        <value>Modelo</value>
+    </data>
+    <data name="READINGSCSV_TIME">
+        <value>Tempo Unix</value>
+    </data>
+    <data name="READINGSCSV_SAMPLE">
+        <value>Amostra</value>
+    </data>
+    <data name="READINGSCSV_WL">
+        <value>PesoL</value>
+    </data>
+    <data name="READINGSCSV_WR">
+        <value>PesoR</value>
+    </data>
+    <data name="READINGSCSV_WL2">
+        <value>PesoL2</value>
+    </data>
+    <data name="READINGSCSV_WR2">
+        <value>PesoR2</value>
+    </data>
+    <data name="READINGSCSV_WSF">
+        <value>Fator de Escala de Peso</value>
+    </data>
+    <data name="READINGSCSV_SS">
+        <value>Estado de Enxame</value>
+    </data>
+    <data name="READINGSCSV_AU1">
+        <value>Áudio1</value>
+    </data>
+    <data name="READINGSCSV_RA1">
+        <value>Radar1</value>
+    </data>
+    <data name="READINGSCSV_AU2">
+        <value>Áudio2</value>
+    </data>
+    <data name="READINGSCSV_RA2">
+        <value>Radar2</value>
+    </data>
+    <data name="READINGSCSV_NAME">
+        <value>leituras</value>
+    </data>
+    <data name="READINGSCSV_SAVED">
+        <value>Arquivo Salvo</value>
+    </data>
+    <data name="SUBHUBDETAIL_OTA">
+        <value>Erro OTA, Tentar Novamente</value>
+    </data>
+    <data name="SUBHUBDETAIL_SHOW">
+        <value>Mostrar Todos os Dispositivos</value>
+    </data>
+    <data name="SUBHUBDETAIL_UPDATE">
+        <value>Atualizar</value>
+    </data>
+    <data name="SUBHUBDETAIL_UPLOAD">
+        <value>Enviar Dados</value>
+    </data>
+    <data name="SUBHUBDETAIL_CONTEXT_DELETECSV">
+        <value>Excluir arquivos CSV do Subhub</value>
+    </data>
+    <data name="SUBHUBDETAIL_CONTEXT_SYNCFULL">
+        <value>Sincronizar Log Completo do SubHub</value>
+    </data>
+    <data name="SUBHUBDETAIL_SYNCSINCE">
+        <value>Sincronizar Todos os Dispositivos Desde {0}</value>
+    </data>
+    <data name="SUBHUBDETAIL_SYNCALL">
+        <value>Sincronizar Todos os Dispositivos</value>
+    </data>
+    <data name="SUBHUBDETAIL_SCANERROR">
+        <value>Versão de firmware 3.22 ou superior é necessária para este recurso.</value>
+    </data>
+    <data name="SUBHUBDETAIL_SCANUNAVAILABLE">
+        <value>Recurso Indisponível</value>
+    </data>
+    <data name="SUBHUBDETAIL_OFFLINE">
+        <value>Dispositivo Offline, não enviado</value>
+    </data>
+    <data name="SUBHUBDETAIL_NOTRANGE">
+        <value>Dispositivo fora de alcance</value>
+    </data>
+    <data name="SUBHUBDETAIL_FIRMWARE_NOSYNC">
+        <value>Atualizar firmware sem sincronizar (perder log do subhub desde a última sincronização)</value>
+    </data>
+    <data name="SUBHUBREADINGS_SAVE">
+        <value>Salvar e enviar itens selecionados</value>
+    </data>
+    <data name="SUBHUBREADINGS_DONE">
+        <value>Concluído</value>
+    </data>
+    <data name="SUBHUBREADINGS_BACK">
+        <value>O registro do dispositivo não está completo. Se você sair agora, precisará recomeçar para coletar dados.</value>
+    </data>
+    <data name="SUBHUBREADINGS_LEAVE">
+        <value>Os dados não foram salvos. Se você sair agora, precisará ler novamente o registro do subhub.</value>
+    </data>
+    <data name="SUBHUBREADINGS_LEAVEQUESTION">
+        <value>Sair da página?</value>
+    </data>
+    <data name="SUBHUBREADINGS_LEAVEONFIRM">
+        <value>Sim, sair da página</value>
+    </data>
+    <data name="SUBHUBREADINGS_LEAVECANCEL">
+        <value>Não, permanecer aqui.</value>
+    </data>
+    <data name="SUBHUBREADINGS_SAVELOCAL">
+        <value>Salvando localmente</value>
+    </data>
+    <data name="SUBHUBREADINGS_SAVEWEB">
+        <value>Salvando em MyBroodMinder.com</value>
+    </data>
+    <data name="SUBHUBREADINGS_SUMMARY">
+        <value>Concluído</value>
+    </data>
+    <data name="SUBHUBREADINGS_SUMMARYSAVED">
+        <value>Salvou {0} leituras de {1} dispositivos</value>
+    </data>
+    <data name="SUBHUBREADINGS_SUMMARYIGNORED">
+        <value>Ignorou {0} leituras de {1} dispositivos</value>
+    </data>
+    <data name="SUBHUBREADINGS_SUMMARYERROR">
+        <value>Errou {0} leituras de {1} dispositivos</value>
+    </data>
+    <data name="SUBHUBREADINGS_READINGCOUNT">
+        <value>Leituras</value>
+    </data>
+    <data name="SUBHUBREADINGS_DEVNOTOWNER">
+        <value>O dispositivo pertence a outra conta, os dados serão apenas locais</value>
+    </data>
+    <data name="SUBHUBREADINGS_DEVNOTMBM">
+        <value>O dispositivo não está registrado, os dados serão apenas locais</value>
+    </data>
+    <data name="SUBHUBREADINGS_DEVNOTEXIST">
+        <value>O dispositivo não existe, os dados não serão salvos</value>
+    </data>
+    <data name="SUBHUBSCAN_BMONLY">
+        <value>Apenas dispositivos BroodMinder</value>
+    </data>
+    <data name="SUBHUBSCAN_SIGNAL">
+        <value>Sinal</value>
+    </data>
+    <data name="SUBHUBSCAN_DEVICE">
+        <value>Dispositivo</value>
+    </data>
+    <data name="SUBHUBSCAN_TIME">
+        <value>Carimbo de data/hora</value>
+    </data>
+    <data name="SUBHUBSCAN_STOP">
+        <value>Parar de Escanear</value>
+    </data>
+    <data name="SUBHUBSCAN_START">
+        <value>Iniciar Escaneamento</value>
+    </data>
+    <data name="HELP_GUIDES">
+        <value>Guias</value>
+    </data>
+    <data name="HELP_GUIDES_STARTED">
+        <value>Começando</value>
+    </data>
+    <data name="HELP_GUIDES_USER">
+        <value>Guia do Usuário</value>
+    </data>
+    <data name="HELP_GUIDES_VIDEO">
+        <value>Vídeos explicativos</value>
+    </data>
+    <data name="HELP_SUPPORT">
+        <value>Suporte</value>
+    </data>
+    <data name="HELP_SUPPORT_QUESTION">
+        <value>Envie sua pergunta</value>
+    </data>
+    <data name="HELP_SUPPORT_TO">
+        <value>Para: support@broodminder.com</value>
+    </data>
+    <data name="HELP_SUPPORT_FROM">
+        <value>De: </value>
+    </data>
+    <data name="HELP_SUPPORT_ENTRY">
+        <value>Insira sua pergunta/feedback aqui.</value>
+    </data>
+    <data name="HELP_SUPPORT_SEND">
+        <value>Enviar</value>
+    </data>
+    <data name="HELP_VERSION">
+        <value>Versão do Aplicativo</value>
+    </data>
+    <data name="HELP_LOGGING">
+        <value>Registro completo de depuração ativado</value>
+    </data>
+    <data name="HELP_FROMERR">
+        <value>Campo De é obrigatório</value>
+    </data>
+    <data name="HELP_EMPTYERR">
+        <value>Não é possível enviar feedback vazio.</value>
+    </data>
+    <data name="HELP_SENDQUESTION">
+        <value>Enviar esta mensagem para o suporte do BroodMinder? Uma resposta será enviada para {0}.</value>
+    </data>
+    <data name="HELP_SENT">
+        <value>Mensagem Enviada</value>
+    </data>
+    <data name="HELP_OFFLINE">
+        <value>Erro ao enviar. Aplicativo offline</value>
+    </data>
+    <data name="HELP_NOTSENT">
+        <value>Erro. Mensagem não enviada</value>
+    </data>
+    <data name="HELP_NOTALLOWED">
+        <value>Não permitido</value>
+    </data>
+    <data name="NOTE_DESCRIPTION">
+        <value>Descrição</value>
+    </data>
+    <data name="NOTE_DESCRIPTIONREQ">
+        <value>*Descrição obrigatória</value>
+    </data>
+    <data name="NOTE_EDIT">
+        <value>Editar nota em {0}</value>
+    </data>
+    <data name="NOTE_CREATE">
+        <value>Criar nota em {0}</value>
+    </data>
+    <data name="NOTE_CREATED">
+        <value>Nota criada</value>
+    </data>
+    <data name="NOTE_NOTCREATED">
+        <value>Nota não criada</value>
+    </data>
+    <data name="NOTE_UPDATED">
+        <value>Nota atualizada</value>
+    </data>
+    <data name="NOTE_NOTUPDATED">
+        <value>Nota não atualizada</value>
+    </data>
+    <data name="NOTE_APIARY_WARNING">
+        <value>Notas de apiário/meliponário são carregadas para sua conta MyBroodMinder e exibidas no site, mas não são visíveis neste aplicativo.</value>
+    </data>
+    <data name="HIVE_CU_UTITLE">
+        <value>Editar {0}</value>
+    </data>
+    <data name="HIVE_CU_CTITLE">
+        <value>Criar colmeia em {0}</value>
+    </data>
+    <data name="HIVE_CU_CTITLE2">
+        <value>Criar colmeia</value>
+    </data>
+    <data name="HIVE_CU_CREATED">
+        <value>Colmeia criada</value>
+    </data>
+    <data name="HIVE_CU_NOTCREATED">
+        <value>Colmeia não criada</value>
+    </data>
+    <data name="HIVE_CU_UPDATED">
+        <value>Colmeia atualizada</value>
+    </data>
+    <data name="HIVE_CU_NOTUPDATED">
+        <value>Colmeia não atualizada</value>
+    </data>
+    <data name="HIVEDETAILS_ADDNOTE">
+        <value>Adicionar nota</value>
+    </data>
+    <data name="LOGIN_TITLE">
+        <value>Entrar</value>
+    </data>
+    <data name="LOGIN_FORG">
+        <value>Esqueceu a senha?</value>
+    </data>
+    <data name="LOGIN_CR1">
+        <value>Ainda não está registrado?</value>
+    </data>
+    <data name="LOGIN_CR2">
+        <value>Crie uma conta agora</value>
+    </data>
+    <data name="LOGIN_USERNAME">
+        <value>Nome de usuário</value>
+    </data>
+    <data name="LOGIN_PASSWORD">
+        <value>Senha</value>
+    </data>
+    <data name="FORGOTPASSWORD_TITLE">
+        <value>Esqueci a Senha</value>
+    </data>
+    <data name="FORGOTPASSWORD_TITLE2">
+        <value>Redefina sua senha</value>
+    </data>
+    <data name="FORGOTPASSWORD_USERNAME">
+        <value>Nome de usuário</value>
+    </data>
+    <data name="FORGOTPASSWORD_SEND">
+        <value>Enviar E-mail de Redefinição</value>
+    </data>
+    <data name="FORGOTPASSWORD_NOTFOUND">
+        <value>Usuário não encontrado</value>
+    </data>
+    <data name="FORGOTPASSWORD_SENT">
+        <value>Email de redefinição de senha enviado.</value>
+    </data>
+    <data name="INITIAL_LOGIN">
+        <value>Entrar</value>
+    </data>
+    <data name="INITIAL_BASIC">
+        <value>Básico (sem conta)</value>
+    </data>
+    <data name="INITIAL_CREATE">
+        <value>Criar conta</value>
+    </data>
+    <data name="INITIAL_REGISTER_TITLE">
+        <value>Bem-vindo!</value>
+    </data>
+    <data name="INITIAL_REGISTER_1">
+        <value>Esta é sua primeira vez conosco.</value>
+    </data>
+    <data name="INITIAL_REGISTER_2">
+        <value>Uma única conta gerencia tudo</value>
+    </data>
+    <data name="INITIAL_REGISTER_3">
+        <value>Este App</value>
+    </data>
+    <data name="INITIAL_REGISTER_CONFIRM">
+        <value>Quero criar minha conta</value>
+    </data>
+    <data name="INITIAL_TRYNOW_TITLE">
+        <value>Bem-vindo!</value>
+    </data>
+    <data name="INITIAL_TRYNOW_1">
+        <value>Esta é sua primeira vez conosco.</value>
+    </data>
+    <data name="INITIAL_TRYNOW_2">
+        <value>O modo básico permite que você teste o aplicativo e mantenha seus dados localmente, sem fazer upload para o MyBroodMinder.</value>
+    </data>
+    <data name="INITIAL_TRYNOW_3">
+        <value>Alguns recursos não estão disponíveis sem uma conta.</value>
+    </data>
+    <data name="INITIAL_TRYNOW_CONTINUE">
+        <value>Continuar sem conta</value>
+    </data>
+    <data name="INITIAL_TITLE">
+        <value>Bem-vindo ao Bees App!</value>
+    </data>
+    <data name="INITIAL_OR">
+        <value>ou</value>
+    </data>
+    <data name="INITIAL_CHIP_1">
+        <value>Criação</value>
+    </data>
+    <data name="INITIAL_CHIP_2">
+        <value>Produtividade</value>
+    </data>
+    <data name="INITIAL_CHIP_3">
+        <value>Dinâmica da colônia</value>
+    </data>
+    <data name="INITIAL_CHIP_4">
+        <value>Inspetções</value>
+    </data>
+    <data name="INITIAL_CHIP_5">
+        <value>Condições climáticas</value>
+    </data>
+    <data name="INITIAL_CHIP_6">
+        <value>Alertas e notificações</value>
+    </data>
+    <data name="INITIAL_CHIP_7">
+        <value>Florescimento</value>
+    </data>
+    <data name="LOGIN_BADPASSWORD">
+        <value>Senha incorreta</value>
+    </data>
+    <data name="LOGIN_FAILED">
+        <value>Falha no login</value>
+    </data>
+    <data name="REGISTER">
+        <value>Registrar</value>
+    </data>
+    <data name="REGISTER_TITLE">
+        <value>Crie sua conta MyBroodMinder</value>
+    </data>
+    <data name="REGISTER_TOS">
+        <value>Ao clicar no botão de validação, você aceita os termos e condições.</value>
+    </data>
+    <data name="REGISTER_SS1">
+        <value>Já tem uma conta?</value>
+    </data>
+    <data name="REGISTER_SS2">
+        <value>Entrar</value>
+    </data>
+    <data name="REGISTER_EMAIL">
+        <value>Email</value>
+    </data>
+    <data name="REGISTER_PASSWORD">
+        <value>Senha</value>
+    </data>
+    <data name="REGISTER_PASSWORD2">
+        <value>Reinsira a senha</value>
+    </data>
+    <data name="REGISTER_SHOW_EULA">
+        <value>Visualizar Acordo de Licença</value>
+    </data>
+    <data name="REGISTER_EULA1">
+        <value>MyBroodMinder.com EULA (Contrato de Licença de Usuário Final) v1.1</value>
+    </data>
+    <data name="REGISTER_EULA2">
+        <value>Pedimos que você concorde com as seguintes declarações para usar este software de apicultura como serviço (SaaS):</value>
+    </data>
+    <data name="REGISTER_EULA3">
+        <value>Estou colocando os dados que faço upload ou insiro neste serviço em Domínio Público. Portanto, mybroodminder.com pode usar os dados, de forma anônima, para compartilhar com o público em geral.</value>
+    </data>
+    <data name="REGISTER_EULA4">
+        <value>Entendo que mybroodminder.com fará o melhor esforço para não expor quaisquer informações pessoalmente identificáveis (PII), como meu nome de usuário, senha e código postal, mas que mybroodminder.com não pode ser responsabilizado por invasões ou outros métodos de exposição de dados.</value>
+    </data>
+    <data name="REGISTER_EULA5">
+        <value>Entendo que mybroodminder.com fará o melhor esforço para armazenar e fazer backup de todos os dados enviados ou inseridos nele, mas que mybroodminder.com não pode ser responsabilizado por perda de dados.</value>
+    </data>
+    <data name="REGISTER_EULA6">
+        <value>Entendo que mybroodminder.com é uma empresa separada de outros fornecedores que podem integrar seus dispositivos ao mybroodminder.com, e que mybroodminder.com não é responsável pelas ações desses fornecedores.</value>
+    </data>
+    <data name="REGISTER_EULA7">
+        <value>Entendo que mybroodminder.com é um local para apicultores e entomologistas trocarem informações, e me comportarei de maneira cortês em todos os momentos. Entendo que o não cumprimento pode resultar no término da minha conta a critério exclusivo da equipe do mybroodminder.com.</value>
+    </data>
+    <data name="REGISTER_EULAAGREE">
+        <value>Concordo com os termos</value>
+    </data>
+    <data name="REGISTER_CREATE">
+        <value>Criar Conta</value>
+    </data>
+    <data name="REGISTER_INVALIDEMAIL">
+        <value>Email inválido</value>
+    </data>
+    <data name="REGISTER_PASSWORDMATCH">
+        <value>As senhas não correspondem</value>
+    </data>
+    <data name="REGISTER_TERMSERROR">
+        <value>É necessário concordar com os termos para criar uma conta</value>
+    </data>
+    <data name="REGISTER_EMAILINVALID">
+        <value>Endereço de email não válido</value>
+    </data>
+    <data name="REGISTER_PASSWORDSTRONG">
+        <value>Senha não é forte o suficiente</value>
+    </data>
+    <data name="REGISTER_EMAILUSED">
+        <value>Email já em uso</value>
+    </data>
+    <data name="REGISTER_FAIL">
+        <value>Falha ao criar conta</value>
+    </data>
+    <data name="APP_LOGINFORFEATURE">
+        <value>Entre ou registre-se para usar este recurso</value>
+    </data>
+    <data name="APP_NOTALLOWED">
+        <value>Não Permitido</value>
+    </data>
+    <data name="APP_EXIT">
+        <value>Deseja sair?</value>
+    </data>
+    <data name="APP_EXITCONFIRM">
+        <value>Sair</value>
+    </data>
+    <data name="GETTINGSTARTED_DEVICESTITLE">
+        <value>Dispositivos</value>
+    </data>
+    <data name="GETTINGSTARTED_DEVICES1">
+        <value>A guia Dispositivos exibe todos os dispositivos BroodMinder em sua conta e todos os dispositivos próximos. Deslize para baixo na lista para atualizar a varredura Bluetooth.</value>
+    </data>
+    <data name="GETTINGSTARTED_DEVICES2">
+        <value>Toque no ícone de filtro no canto superior direito. Em seguida, selecione opções para reduzir os dispositivos exibidos.</value>
+    </data>
+    <data name="GETTINGSTARTED_DEVICES3">
+        <value>Toque no ícone de mais à direita de um dispositivo para sincronizar um dispositivo individual, configurar um dispositivo, visualizar detalhes e outras opções.</value>
+    </data>
+    <data name="GETTINGSTARTED_APIARIESSTITLE">
+        <value>Apiários/Meliponários</value>
+    </data>
+    <data name="GETTINGSTARTED_APIARIES1">
+        <value>A guia Apiários/Meliponários exibe seus apiários/meliponários e colmeias. Isso pode ser usado para visualizar rapidamente estatísticas da colmeia e sincronizar todos os dispositivos em um apiário/meliponário de uma só vez.</value>
+    </data>
+    <data name="GETTINGSTARTED_APIARIES2">
+        <value>Toque no seletor de apiário/meliponário no topo para selecionar um dos seus apiários/meliponários.</value>
+    </data>
+    <data name="GETTINGSTARTED_APIARIES3">
+        <value>Toque na colmeia para expandir a visualização e ver os dispositivos contidos.</value>
+    </data>
+    <data name="GETTINGSTARTED_SYNCTITLE">
+        <value>Coletando Dados</value>
+    </data>
+    <data name="GETTINGSTARTED_SYNC1">
+        <value>Toque no ícone de sincronização no canto superior direito para sincronizar todos os dispositivos em seu apiário/meliponário.</value>
+    </data>
+    <data name="GETTINGSTARTED_SYNC2">
+        <value>Toque no resumo de sincronização para ver uma lista mais detalhada do status de sincronização de cada dispositivo.</value>
+    </data>
+    <data name="FIRMWARESTATUS_NOTFOUND">
+        <value>Atualização de firmware não encontrada</value>
+    </data>
+    <data name="FIRMWARESTATUS_CONNECTING">
+        <value>Conectando, pode levar 60 segundos</value>
+    </data>
+    <data name="FIRMWARESTATUS_CONNECTIONTIMEOUT">
+        <value>Erro Bluetooth - Tempo limite de conexão</value>
+    </data>
+    <data name="FIRMWARESTATUS_CONNECTED">
+        <value>Conectado</value>
+    </data>
+    <data name="FIRMWARESTATUS_BLEERROR">
+        <value>Erro Bluetooth</value>
+    </data>
+    <data name="FIRMWARESTATUS_BLETIMEOUT">
+        <value>Erro Bluetooth - Tempo limite</value>
+    </data>
+    <data name="FIRMWARESTATUS_OTAMODE">
+        <value>Colocando dispositivo no modo OTA</value>
+    </data>
+    <data name="FIRMWARESTATUS_READYRECONNECT">
+        <value>Preparando para reconectar</value>
+    </data>
+    <data name="FIRMWARESTATUS_CANCELLED">
+        <value>Cancelado</value>
+    </data>
+    <data name="FIRMWARESTATUS_ERRORRECONNECT">
+        <value>Erro ao reconectar ou enviar firmware</value>
+    </data>
+    <data name="FIRMWARESTATUS_CONNECTIONLOST">
+        <value>Conexão perdida</value>
+    </data>
+    <data name="FIRMWARESTATUS_RECONNECT">
+        <value>Reconectando no modo OTA</value>
+    </data>
+    <data name="FIRMWARESTATUS_RECONNECTERROR">
+        <value>Erro - não foi possível reconectar</value>
+    </data>
+    <data name="FIRMWARESTATUS_UPLOAD">
+        <value>Iniciando upload de arquivo</value>
+    </data>
+    <data name="FIRMWARESTATUS_UPLOADSUCCESS">
+        <value>Upload bem-sucedido</value>
+    </data>
+    <data name="FIRMWARESTATUS_UPLOADFAIL">
+        <value>Falha no upload</value>
+    </data>
+    <data name="HUBDETAIL_LASTUPLOAD">
+        <value>Último Upload MBM</value>
+    </data>
+    <data name="HUBDETAIL_LASTUPLOADNEVER">
+        <value>Nunca</value>
+    </data>
+    <data name="HUBDETAIL_BATTERY">
+        <value>Bateria</value>
+    </data>
+    <data name="HUBDETAIL_WIFISIGNAL">
+        <value>Sinal Wifi</value>
+    </data>
+    <data name="HUBDETAIL_STATUS">
+        <value>Status</value>
+    </data>
+    <data name="HUBDETAIL_NETWORKSIGNAL">
+        <value>Sinal da Rede</value>
+    </data>
+    <data name="HUBDETAIL_NETWORKSIGNAL_UNKNOWN">
+        <value>Desconhecido</value>
+    </data>
+    <data name="HUBDETAIL_STATUS_CANTCONNECT">
+        <value>Não é possível conectar</value>
+    </data>
+    <data name="HUBDETAIL_STATUS_UPLDFAILED">
+        <value>Falha no upload</value>
+    </data>
+    <data name="HUBDETAIL_STATUS_NORMAL">
+        <value>Operação normal</value>
+    </data>
+    <data name="HUBDETAIL_DEVICECOUNT">
+        <value>Dispositivos Vistos</value>
+    </data>
+    <data name="HUBDETAIL_UPLOADATTEMPTS">
+        <value>Tentativas de Upload</value>
+    </data>
+    <data name="HUBDETAIL_UPLOADFAILURE">
+        <value>Falhas de Upload</value>
+    </data>
+    <data name="HUBDETAIL_UPLOADSUCCESS">
+        <value>Uploads Bem-sucedidos</value>
+    </data>
+    <data name="HUBDETAIL_CONFIGUREWIFI">
+        <value>Configurar Wifi</value>
+    </data>
+    <data name="HUBDETAIL_CONFIGUREAPN">
+        <value>Configurar Rede (APN)</value>
+    </data>
+    <data name="WIFICONFIGURE_UPLOADNOW">
+        <value>Enviar Agora</value>
+    </data>
+    <data name="WIFICONFIGURE_SCAN">
+        <value>Varredura</value>
+    </data>
+    <data name="WIFICONFIGURE_SELECTNET">
+        <value>Selecionar Rede</value>
+    </data>
+    <data name="WIFICONFIGURE_NETWORK">
+        <value>Rede</value>
+    </data>
+    <data name="WIFICONFIGURE_PASSWORD">
+        <value>Senha</value>
+    </data>
+    <data name="WIFICONFIGURE_STARTINGSCAN">
+        <value>Iniciando Varredura</value>
+    </data>
+    <data name="WIFICONFIGURE_SENDINGSCAN">
+        <value>Erro na varredura, por favor, tente novamente</value>
+    </data>
+    <data name="WIFICONFIGURE_SCANNINGFORN">
+        <value>Varrendo redes</value>
+    </data>
+    <data name="WIFICONFIGURE_ERRORSCANTIMEOUT">
+        <value>Erro ao varrer redes. Nenhuma rede recebida em 40 segundos.</value>
+    </data>
+    <data name="WIFICONFIGURE_CONNECTINGDEVICE">
+        <value>Conectando ao dispositivo</value>
+    </data>
+    <data name="WIFICONFIGURE_ERRORDEVICECONNECTTIMEOUT">
+        <value>Não foi possível conectar ao dispositivo, está demorando muito</value>
+    </data>
+    <data name="WIFICONFIGURE_NOTCONNECTDEVICE">
+        <value>Não foi possível conectar ao dispositivo</value>
+    </data>
+    <data name="WIFICONFIGURE_MUSTBENEARBY">
+        <value>Deve estar próximo ao dispositivo para editar a conexão</value>
+    </data>
+    <data name="WIFICONFIGURE_CUSTOM">
+        <value>Personalizado</value>
+    </data>
+    <data name="WIFICONFIGURE_NONEWORKS">
+        <value>Nenhuma rede encontrada</value>
+    </data>
+    <data name="WIFICONFIGURE_ERRORSCANNINGNET">
+        <value>Erro ao varrer redes</value>
+    </data>
+    <data name="WIFICONFIGURE_NETREQUIRED">
+        <value>Rede necessária</value>
+    </data>
+    <data name="WIFICONFIGURE_NETWORKLENGTH">
+        <value>O nome da rede deve ter menos de 33 caracteres</value>
+    </data>
+    <data name="WIFICONFIGURE_PASSWORDLENGTH">
+        <value>A senha deve ter menos de 64 caracteres</value>
+    </data>
+    <data name="WIFICONFIGURE_SETTINGCREDS">
+        <value>Configurando credenciais</value>
+    </data>
+    <data name="WIFICONFIGURE_ERRORSETTINGNET">
+        <value>Erro ao configurar rede</value>
+    </data>
+    <data name="WIFICONFIGURE_ERRORSETTINGPASS">
+        <value>Erro ao configurar senha</value>
+    </data>
+    <data name="WIFICONFIGURE_NETWORKSUCCESS">
+        <value>Rede configurada com sucesso</value>
+    </data>
+    <data name="WIFICONFIGURE_NETWORKFAILURE">
+        <value>Não foi possível conectar à rede</value>
+    </data>
+    <data name="WIFICONFIGURE_NETWORKERROR">
+        <value>Erro ao conectar à rede</value>
+    </data>
+    <data name="WIFICONFIGURE_TRIGGERUPLOAD">
+        <value>Desencadeando envio</value>
+    </data>
+    <data name="WIFICONFIGURE_TRIGGERUPLOADERROR">
+        <value>Erro ao desencadear envio</value>
+    </data>
+    <data name="WIFICONFIGURE_DEVICEUPLOADING">
+        <value>Dispositivo tentando enviar</value>
+    </data>
+    <data name="APNCONFIGURE_LENGTH">
+        <value>APN deve ter menos de 30 caracteres</value>
+    </data>
+    <data name="APNCONFIGURE_APN_SHORT">
+        <value>APN (primeiros 7 caracteres)</value>
+    </data>
+    <data name="APNCONFIGURE_STATUS">
+        <value>Status</value>
+    </data>
+    <data name="APNCONFIGURE_MINUTES_TO">
+        <value>Minutos para</value>
+    </data>
+    <data name="APNCONFIGURE_MINUTES_FROM">
+        <value>Minutos desde o Envio</value>
+    </data>
+    <data name="APNCONFIGURE_SENTCOUNT">
+        <value>Amostras Enviadas</value>
+    </data>
+    <data name="APNCONFIGURE_UPDATE_IN">
+        <value>Envios em {0} min</value>
+    </data>
+    <data name="APNCONFIGURE_UPLOAD">
+        <value>Enviar Agora</value>
+    </data>
+    <data name="APNCONFIGURE_REBOOT">
+        <value>Reiniciar</value>
+    </data>
+    <data name="APNCONFIGURE_APN">
+        <value>APN</value>
+    </data>
+    <data name="APNCONFIGURE_SET_APN">
+        <value>Definir APN</value>
+    </data>
+    <data name="APNCONFIGURE_APN_SET">
+        <value>APN definido como {0}</value>
+    </data>
+    <data name="APNCONFIGURE_ELAPSED">
+        <value>Decorrido</value>
+    </data>
+    <data name="APNCONFIGURE_NETWORKSIGNAL">
+        <value>Sinal da Rede</value>
+    </data>
+    <data name="APNCONFIGURE_LASTUPLOAD_SERVER">
+        <value>Último envio (remoto)</value>
+    </data>
+    <data name="APNCONFIGURE_SETTING_APN">
+        <value>Configurando APN</value>
+    </data>
+    <data name="APNCONFIGURE_SETTING_APN_ERROR">
+        <value>Erro ao definir APN</value>
+    </data>
+    <data name="APNCONFIGURE_REBOOTING">
+        <value>Desencadeando reinício</value>
+    </data>
+    <data name="APNCONFIGURE_REBOOT_ERROR">
+        <value>Erro ao desencadear reinício</value>
+    </data>
+    <data name="APNCONFIGURE_RSSI">
+        <value>Sinal Bluetooth</value>
+    </data>
+    <data name="APNCONFIGURE_COMPLETE">
+        <value>Completo</value>
+    </data>
+    <data name="APNCONFIGURE_DISCONNECT_ERROR">
+        <value>Erro ao desconectar</value>
+    <data name="APNCONFIGURE_">
+		<value></value>
+	</data>
+    </data>
+    <data name="LOCATIONSERVICES_TITLE">
+        <value>Serviços de Localização</value>
+    </data>
+    <data name="LOCATIONSERVICES_MESSAGES">
+        <value>Serviços de localização desativados. O Bluetooth pode não funcionar corretamente até que os serviços de localização sejam ativados.</value>
+    </data>
+    <data name="LOCATIONSERVICES_OK">
+        <value>Ok</value>
+    </data>
+    <data name="LOCATIONSERVICES_OPEN">
+        <value>Abrir Configurações de Localização</value>
+    </data>
+    <data name="DEVICEALERT_TITLE">
+        <value>Alertas do Dispositivo</value>
+    </data>
+    <data name="DEVICEALERT_DISMISS">
+        <value>Dispensar</value>
+    </data>
+    <data name="DEVICEALERT_UPDATE">
+        <value>Atualizar</value>
+    </data>
+    <data name="DEVICEALERT_FIX">
+        <value>Corrigir</value>
+    </data>
+    <data name="DEVICEALERT_BATTERY">
+        <value>Bateria fraca</value>
+    </data>
+    <data name="DEVICEALERT_FIRMWARE">
+        <value>Atualização de firmware disponível</value>
+    </data>
+    <data name="DEVICEALERT_SAMPLELIMIT">
+        <value>Dispositivo próximo ao limite de amostras</value>
+    </data>
+    <data name="HIVEINACTIVE_TITLE">
+        <value>Definir Colmeia como Inativa</value>
+    </data>
+    <data name="HIVEINACTIVE_MESSAGE">
+        <value>Isto termina todas as localizações dos dispositivos na colmeia e remove a colmeia das suas visualizações de apiário/meliponário. Os dados existentes permanecerão, mas novos dados não serão mais enviados para esta colmeia. Esta ação não pode ser desfeita. Definir esta colmeia como inativa?</value>
+    </data>
+    <data name="HIVEINACTIVE_CONFIRM">
+        <value>Confirmar</value>
+    </data>
+    <data name="HIVEINACTIVE_REASON">
+        <value>Selecionar Motivo</value>
+    </data>
+    <data name="HIVEINACTIVE_COMMENT">
+        <value>Comentário</value>
+    </data>
+    <data name="HIVEINACTIVE_REASONS_OTHER">
+        <value>Outro</value>
+    </data>
+    <data name="HIVEINACTIVE_REASONS_DIED">
+        <value>Morreu</value>
+    </data>
+    <data name="HIVEINACTIVE_REASONS_ABSCONDED">
+        <value>Abscondeu</value>
+    </data>
+    <data name="HIVEINACTIVE_REASONS_COMBINED">
+        <value>Combinada com outra colônia</value>
+    </data>
+    <data name="HIVEINACTIVE_SUCCESS">
+        <value>Colmeia definida como inativa</value>
+    </data>
+    <data name="HIVEINACTIVE_ERROR">
+        <value>Erro, colmeia não definida como inativa</value>
+    </data>
+    <data name="HIVEINACTIVE_SUCCESS_EXPLANATION1">
+        <value>Colmeia definida como inativa. Não é mais visível aqui, mas ainda está disponível em </value>
+    </data>
+    <data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
+        <value>Todas as colmeias podem ser encontradas aqui </value>
+    </data>
+    <data name="CALIBRATION_SET">
+        <value>Definir</value>
+    </data>
+    <data name="CALIBRATION_TARE_ALL">
+        <value>Tarar Todos</value>
+    </data>
+    <data name="CALIBRATION_WARNING_MESSAGE">
+        <value>Esta é uma funcionalidade avançada. As alterações aqui afetarão o funcionamento da sua balança. Prossiga com cuidado.</value>
+    </data>
+    <data name="CALIBRATION_WARNING_TITLE">
+        <value>Aviso</value>
+    </data>
+    <data name="CALIBRATION_WARNING_CONTINUE">
+        <value>Continuar</value>
+    </data>
+    <data name="CALIBRATION_TOTAL_WEIGHT">
+        <value>Peso Total</value>
+    </data>
+    <data name="CALIBRATION_SAMPLE">
+        <value>Amostra</value>
+    </data>
+    <data name="CALIBRATION_ERROR_LIVE_DATA">
+        <value>Erro ao obter dados de peso</value>
+    </data>
+    <data name="CALIBRATION_SETTING_J">
+        <value>Definindo {0}</value>
+    </data>
+    <data name="CALIBRATION_JSET">
+        <value>{0} Definido</value>
+    </data>
+    <data name="CALIBRATION_JSET_ERROR">
+        <value>Erro ao definir {0}</value>
+    </data>
+    <data name="CALIBRATION_SETTING_TARE">
+        <value>Configurando Tare</value>
+    </data>
+    <data name="CALIBRATION_TARED">
+        <value>Balança Tarada</value>
+    </data>
+    <data name="CALIBRATION_TARE_ERROR">
+        <value>Erro ao tarar balança</value>
+    </data>
+    <data name="CALIBRATION_DIVISOR">
+        <value>Divisor</value>
+    </data>
+    <data name="CALIBRATION_OFFSET">
+        <value>Desvio</value>
+    </data>
+    <data name="CALIBRATION_SCALE_ALL">
+        <value>Escalar todos os canais</value>
+    </data>
+    <data name="CALIBRATION_PERCENT">
+        <value>Percentual</value>
+    </data>
+    <data name="CALIBRATION_SET_DIVISOR_ALL">
+        <value>Definir divisor para todos os canais</value>
+    </data>
+    <data name="CALIBRATION_SCALING_ALL">
+        <value>Escalar todos os divisores por {0}</value>
+    </data>
+    <data name="CALIBRATION_SETTING_DIVISORS_ALL">
+        <value>Definindo todos os divisores para {0}</value>
+    </data>
+    <data name="DELETE_ACCOUNT_TITLE">
+        <value>Excluir Conta</value>
+    </data>
+    <data name="DELETE_ACCOUNT_DETAILS_1">
+        <value>Para excluir sua conta do MyBroodMinder, você deve acessar nosso site.</value>
+    </data>
+    <data name="DELETE_ACCOUNT_LINK_BUTTON">
+        <value>Ir para a página da conta MyBroodMinder</value>
+    </data>
+    <data name="DELETE_ACCOUNT_DETAILS_2">
+        <value>Depois de excluir sua conta, você precisa sair do aplicativo aqui para remover seus dados do dispositivo.</value>
+    </data>
+    <data name="DELETE_ACCOUNT_LOGOUT_BUTTON">
+        <value>Sair e excluir dados</value>
+    </data>
+    <data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_TITLE">
+        <value>Sair e excluir todos os dados locais?</value>
+    </data>
+    <data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
+        <value>Sim, excluir todos os dados</value>
+    </data>
+    <data name="DIF_7AM_SHORT">
+        <value>Dif. 7h</value>
+    </data>
+    <data name="DIF_7AM_LONG">
+        <value>Diferença de peso às 7h:</value>
+    </data>
+    <data name="NOTIFICATIONS_NONE">
+        <value>Sem Notificações</value>
+    </data>
+    <data name="INSP_T_DEFAULT">
+        <value>Padrão</value>
+    </data>
+    <data name="INSP_T_SUPERP">
+        <value>Superação adicionada</value>
+    </data>
+    <data name="INSP_T_SUPERM">
+        <value>Superação removida</value>
+    </data>
+    <data name="INSP_T_QUEENINSERT">
+        <value>Rainha inserida</value>
+    </data>
+    <data name="INSP_T_DIVISION">
+        <value>Divisão</value>
+    </data>
+    <data name="INSP_T_QUEENABSENT">
+        <value>Rainha ausente</value>
+    </data>
+    <data name="INSP_T_STOLEN">
+        <value>Colmeia roubada</value>
+    </data>
+    <data name="INSP_T_BROODADD">
+        <value>Adicionadas quadros de cria</value>
+    </data>
+    <data name="INSP_T_BROODREMOVE">
+        <value>Removidos quadros de cria</value>
+    </data>
+    <data name="INSP_T_COMBINEDHIVES">
+        <value>Colmeias combinadas</value>
+    </data>
+    <data name="INSP_T_SWARM">
+        <value>Enxameação</value>
+    </data>
+    <data name="INSP_T_CANDIFEED">
+        <value>Alimentação com candy</value>
+    </data>
+    <data name="INSP_T_SYRUPFEED">
+        <value>Alimentação com xarope</value>
+    </data>
+    <data name="INSP_T_PATTIESFEED">
+        <value>Alimentação com pastilhas</value>
+    </data>
+    <data name="INSP_T_REQUEEN">
+        <value>Recriação de rainha</value>
+    </data>
+    <data name="INSP_T_QUEENLINEAGE">
+        <value>Linhagem da rainha</value>
+    </data>
+    <data name="INSP_T_HARVEST">
+        <value>Colheita</value>
+    </data>
+    <data name="INSP_T_INSTALLPKG">
+        <value>Instalação de pacote</value>
+    </data>
+    <data name="INSP_T_NUCLEUSHIVE">
+        <value>Instalada colmeia núcleo</value>
+    </data>
+    <data name="INSP_T_SPLITQUEENREMOVE">
+        <value>Divisão com remoção de rainha</value>
+    </data>
+    <data name="INSP_T_NECTARFLOW">
+        <value>Fluxo de néctar</value>
+    </data>
+    <data name="INSP_T_MITEOAVAPOR">
+        <value>Tratamento de ácido oxálico por vaporização</value>
+    </data>
+    <data name="INSP_T_MITEOADRIBBLE">
+        <value>Tratamento de ácido oxálico por gotejamento</value>
+    </data>
+    <data name="INSP_T_MITEFORMICPRO">
+        <value>Tratamento de ácaros: Formic Pro</value>
+    </data>
+    <data name="INSP_T_MITESTRIPADD">
+        <value>Tratamento de ácaros: Adicionadas tiras</value>
+    </data>
+    <data name="INSP_T_MITESTRIPREMOVE">
+        <value>Tratamento de ácaros: remoção de tiras</value>
+    </data>
+    <data name="INSP_T_MITECOUNTLOUNGE">
+        <value>Contagem de ácaros: placa adesiva</value>
+    </data>
+    <data name="INSP_T_MITECOUNTWASH">
+        <value>Contagem de ácaros: lavagem</value>
+    </data>
+    <data name="INSP_T_STARTFEED">
+        <value>Iniciar alimentação</value>
+    </data>
+    <data name="INSP_T_STOPFEED">
+        <value>Parar alimentação</value>
+    </data>
+    <data name="INSP_T_SWARMMATEDQUEEN">
+        <value>Enxame com rainha acasalada</value>
+    </data>
+    <data name="INSP_T_VIRGINSWARM">
+        <value>Enxame virgem</value>
+    </data>
+    <data name="INSP_T_SWARMRETURN">
+        <value>Enxame e retorno à colmeia</value>
+    </data>
+    <data name="INSP_T_QUEENSEEN">
+        <value>Rainha vista</value>
+    </data>
+    <data name="INSP_T_NOBROOD">
+        <value>Sem cria</value>
+    </data>
+    <data name="INSP_T_LOWBROOD">
+        <value>Nível baixo de cria</value>
+    </data>
+    <data name="INSP_T_NORMBROOD">
+        <value>Nível médio de cria</value>
+    </data>
+    <data name="INSP_T_HIGHBROOD">
+        <value>Nível alto de cria</value>
+    </data>
+    <data name="INSP_T_SICK">
+        <value>Doente</value>
+    </data>
+    <data name="INSP_T_NOBEES">
+        <value>Sem abelhas</value>
+    </data>
+    <data name="INSP_T_LOWBEES">
+        <value>Nível baixo de abelhas</value>
+    </data>
+    <data name="INSP_T_NORMBEES">
+        <value>Nível médio de abelhas</value>
+    </data>
+    <data name="INSP_T_HIGHBEES">
+        <value>Nível alto de abelhas</value>
+    </data>
+    <data name="INSP_T_NORES">
+        <value>Sem recursos</value>
+    </data>
+    <data name="INSP_T_LOWRES">
+        <value>Nível baixo de recursos</value>
+    </data>
+    <data name="INSP_T_NORMRES">
+        <value>Nível médio de recursos</value>
+    </data>
+    <data name="INSP_T_HIGHRES">
+        <value>Nível alto de recursos</value>
+    </data>
+    <data name="INSP_T_EGG">
+        <value>Presença de ovos</value>
+    </data>
+    <data name="INSP_T_LARVA">
+        <value>Presença de larvas</value>
+    </data>
+    <data name="INSP_T_PUPA">
+        <value>Presença de cria operculada</value>
+    </data>
+    <data name="INSP_T_DRONEBROOD">
+        <value>Presença de cria de zangão</value>
+    </data>
+    <data name="INSP_T_DRONE">
+        <value>Presença de zangões</value>
+    </data>
+    <data name="INSP_T_BUZZINGHIVE">
+        <value>Operárias poedeiras</value>
+    </data>
+    <data name="INSP_T_MOSAICBROOD">
+        <value>Cria espalhada</value>
+    </data>
+    <data name="INSP_T_QUEENCELLSEEN">
+        <value>Célula de rainha vista</value>
+    </data>
+    <data name="INSP_C_BEESBROODSTG">
+        <value>Estágios de cria</value>
+    </data>
+    <data name="INSP_C_HEALTH">
+        <value>Saúde</value>
+    </data>
+    <data name="INSP_C_MITES">
+        <value>Ácaros</value>
+    </data>
+    <data name="INSP_C_MANAGE">
+        <value>Gerenciar</value>
+    </data>
+    <data name="INSP_C_FEEDING">
+        <value>Alimentação</value>
+    </data>
+    <data name="FITNESS_C_B1">
+        <value>Colmeia morta</value>
+    </data>
+    <data name="FITNESS_C_B2">
+        <value>Colmeia roubada</value>
+    </data>
+    <data name="FITNESS_C_R1">
+        <value>Colmeia muito fraca</value>
+    </data>
+    <data name="FITNESS_C_O1">
+        <value>Colmeia fraca ou em forte declínio</value>
+    </data>
+    <data name="FITNESS_C_O2">
+        <value>Possível enxame</value>
+    </data>
+    <data name="FITNESS_C_O3">
+        <value>Sobreaquecimento</value>
+    </data>
+    <data name="FITNESS_C_O4">
+        <value>Frio extremo</value>
+    </data>
+    <data name="FITNESS_C_O5">
+        <value>Perda rápida de peso, sendo roubada</value>
+    </data>
+    <data name="FITNESS_C_G1">
+        <value>Saudável</value>
+    </data>
+    <data name="FITNESS_C_G2">
+        <value>Sem dados ou sem informações meteorológicas</value>
+    </data>
+    <data name="NOTES_TITLE">
+        <value>Notas</value>
+    </data>
+    <data name="NOTES_LIST_THIS">
+        <value>Esta semana</value>
+    </data>
+    <data name="NOTES_LIST_LAST">
+        <value>Semana passada</value>
+    </data>
+    <data name="NOTES_LIST_OLDER">
+        <value>Mais antiga</value>
+    </data>
+    <data name="NOTES_LIST_EMPTY">
+        <value>nada</value>
+    </data>
+    <data name="NOTES_LOAD">
+        <value>Carregar antes de {0}</value>
+    </data>
+    <data name="NOTES_DELETE_TITLE">
+        <value>Excluir nota</value>
+    </data>
+    <data name="NOTES_DELETE_MESSAGE">
+        <value>Tem certeza de que deseja excluir esta nota? Esta ação não pode ser desfeita.</value>
+    </data>
+    <data name="NOTES_DELETE_CONFIRM">
+        <value>Sim, excluir nota</value>
+    </data>
+    <data name="NOTES_NODESCR">
+        <value>Sem descrição</value>
+    </data>
+    <data name="ALERTS_TITLE">
+        <value>Alertas</value>
+    </data>
+    <data name="ALERTS_THIS">
+        <value>Esta semana</value>
+    </data>
+    <data name="ALERTS_LAST">
+        <value>Semana passada</value>
+    </data>
+    <data name="ALERTS_EMPTY">
+        <value>nada</value>
+    </data>
+    <data name="ALERTS_POPUP_ACTTKN">
+        <value>Ação já tomada</value>
+    </data>
+    <data name="NECTAR_TITLE">
+        <value>Índice de Fluxo de Néctar</value>
+    </data>
+    <data name="WEATHER_TITLE">
+        <value>Clima</value>
+    </data>
+    <data name="WEATHER_Y_RAIN">
+        <value>Chuva</value>
+    </data>
+    <data name="WEATHER_Y_WIND">
+        <value>Vento</value>
+    </data>
+    <data name="WEATHER_Y_MAXTEMP">
+        <value>Temp Máx</value>
+    </data>
+    <data name="WEATHER_Y_MINTEMP">
+        <value>Temp Mín</value>
+    </data>
+    <data name="WEATHER_Y_WEATHER">
+        <value>Clima</value>
+    </data>
+    <data name="WEATHER_Y_NECTAR">
+        <value>Índice de Néctar</value>
+    </data>
+    <data name="WEATHER_Y_FORAG">
+        <value>Índice de Coleta</value>
+    </data>
+    <data name="VAPIARY_NEWAPENOTE">
+        <value>Nova Nota de Apiário/Meliponário</value>
+    </data>
+    <data name="VAPIARY_NECTAR_TITLE">
+        <value>Previsão de Índice de Néctar</value>
+    </data>
+    <data name="VAPIARY_NECTAR_AVG">
+        <value>média de {0} dias</value>
+    </data>
+    <data name="VAPIARY_NECTAR_NONE">
+        <value>Sem dados</value>
+    </data>
+    <data name="VAPIARY_NOTES_TITLE">
+        <value>Última Inspeção</value>
+    </data>
+    <data name="VAPIARY_NOTES_TIME">
+        <value>{0} dias atrás</value>
+    </data>
+    <data name="VAPIARY_NOTES_NONE">
+        <value>Sem inspeções por 2 semanas.</value>
+    </data>
+    <data name="VAPIARY_REFRESH">
+        <value>Atualizar Dados do Apiário/Meliponário</value>
+    </data>
+    <data name="WEIGHT_TITLE">
+        <value>Peso</value>
+    </data>
+    <data name="PROD_TITLE">
+        <value>Produtividade</value>
+    </data>
+    <data name="PROD_PROD">
+        <value>Produtividade</value>
+    </data>
+    <data name="PROD_CUMUL">
+        <value>Acumulado</value>
+    </data>
+    <data name="PROD_3D">
+        <value>3 dias</value>
+    </data>
+    <data name="PROD_5D">
+        <value>5 dias</value>
+    </data>
+    <data name="PROD_7D">
+        <value>7 dias</value>
+    </data>
+    <data name="TEMP_TITLE">
+        <value>Temperatura</value>
+    </data>
+    <data name="TEMP_MAX">
+        <value>máx</value>
+    </data>
+    <data name="TEMP_MIN">
+        <value>mín</value>
+    </data>
+    <data name="TEMP_VAR">
+        <value>var</value>
+    </data>
+    <data name="TEMP_BROODZONE">
+        <value>Zona de Criação</value>
+    </data>
+    <data name="HUMID_TITLE">
+        <value>Umidade</value>
+    </data>
+    <data name="HUMID_MAX">
+        <value>máx</value>
+    </data>
+    <data name="HUMID_MIN">
+        <value>mín</value>
+    </data>
+    <data name="HUMID_VAR">
+        <value>var</value>
+    </data>
+    <data name="HUMID_NORMALZONE">
+        <value>Normal</value>
+    </data>
+    <data name="BROOD_TITLE">
+        <value>Criação</value>
+    </data>
+    <data name="VHIVE_DATA_REF">
+        <value>Atualizando dados</value>
+    </data>
+    <data name="VHIVE_DATA_FOUND">
+        <value>Dados atualizados encontrados</value>
+    </data>
+    <data name="VHIVE_DATA_DELAY">
+        <value>Dados atualizados atrasados</value>
+    </data>
+    <data name="VHIVE_NOHIVE">
+        <value>Criar ou selecionar Colmeia</value>
+    </data>
+    <data name="VHIVE_NEWHIVE">
+        <value>Nova Colmeia</value>
+    </data>
+    <data name="VHIVE_HNOTE">
+        <value>Nova Nota de Colmeia</value>
+    </data>
+    <data name="VHIVE_ANOTE">
+        <value>Nova Nota de Apiário/Meliponário</value>
+    </data>
+    <data name="VHIVE_REFRESH">
+        <value>Atualizar Dados da Colmeia</value>
+    </data>
+    <data name="ADDI_TITLE">
+        <value>Adicionar Item</value>
+    </data>
+    <data name="ADDI_NOTE_APIARY">
+        <value>Adicionar Nota de Apiário/Meliponário</value>
+    </data>
+    <data name="ADDI_NOTE_HIVE">
+        <value>Adicionar Nota de Colmeia</value>
+    </data>
+    <data name="CU_NOTE_TITLE_U">
+        <value>Nota {0}</value>
+    </data>
+    <data name="CU_NOTE_HIVETITLE">
+        <value>Criar Nota de Colmeia</value>
+    </data>
+    <data name="CU_NOTE_HIVE_SEL">
+        <value>Selecionar colmeias (cria nota para cada uma)</value>
+    </data>
+    <data name="CU_NOTE_HIVE_ERROR">
+        <value>*Colmeia necessária</value>
+    </data>
+    <data name="CU_NOTE_DATE">
+        <value>Data</value>
+    </data>
+    <data name="CU_NOTE_NOTE">
+        <value>Nota</value>
+    </data>
+    <data name="CU_NOTE_NOTEPLACEHOLDER">
+        <value>Escreva algo ...</value>
+    </data>
+    <data name="CU_NOTE_TAGS">
+        <value>Selecionar tags</value>
+    </data>
+    <data name="APP_UPDATE_TITLE">
+        <value>Novos Recursos!</value>
+    </data>
+    <data name="APP_UPDATE_DESC">
+        <value>Nós atualizamos o aplicativo Bees! Aproveite as novas visualizações das suas colmeias com as novas abas de Apiários/Meliponários e Colmeias. Continue usando normalmente para mover dispositivos e enviar dados na aba Gerenciar e Dispositivos.</value>
+    </data>
+    <data name="APP_UPDATE_OK">
+        <value>Feito</value>
+    </data>
+    <data name="APP_UPDATE_MORE">
+        <value>Saiba mais</value>
+    </data>
+    <data name="BSCHANGE_TITLE">
+        <value>Economia de Bateria</value>
+    </data>
+    <data name="BSCHANGE_EN_BTN">
+        <value>Ativar/Atualizar</value>
+    </data>
+    <data name="BSCHANGE_DIS_BTN">
+        <value>Desativar</value>
+    </data>
+    <data name="BSCHANGE_SETUP">
+        <value>Configuração</value>
+    </data>
+    <data name="BSCHANGE_CHOOSEOPT">
+        <value>Nada em progresso, escolha uma opção acima</value>
+    </data>
+    <data name="BSCHANGE_HUBMODE_EN">
+        <value>Modo de Presença do Hub Ativado</value>
+    </data>
+    <data name="BSCHANGE_HUBMODE_DIS">
+        <value>Modo de Presença do Hub Desativado</value>
+    </data>
+    <data name="BSCHANGE_AS_EN">
+        <value>Agendamento de Atividades Ativado</value>
+    </data>
+    <data name="BSCHANGE_AS_SPAN">
+        <value>Atividade ocorrendo de {0} a {1} entre {2} e {3}</value>
+    </data>
+    <data name="BSCHANGE_AS_DIS">
+        <value>Agendamento de Atividades Desativado</value>
+    </data>
+    <data name="BSCHANGE_INCL">
+        <value>Incluir inelegíveis</value>
+    </data>
+    <data name="BSCHANGE_CHANGEWARN">
+        <value>Alterar configurações pode levar 10 minutos</value>
+    </data>
+    <data name="BSCHANGE_DISWARN">
+        <value>Desativar economia de bateria pode levar 10 minutos</value>
+    </data>
+    <data name="BSCHANGE_CANCELSYNC">
+        <value>Cancelando sincronização do apiário/meliponário</value>
+    </data>
+    <data name="BSCHANGE_STARTING">
+        <value>Iniciando</value>
+    </data>
+    <data name="BSCHANGE_INCL_IN">
+        <value>Incluir inelegíveis</value>
+    </data>
+    <data name="BSCHANGE_ONLY_EL">
+        <value>Mostrar apenas elegíveis</value>
+    </data>
+    <data name="BSCHANGE_NEEDSUPDATE">
+        <value>Necessita de atualização de firmware</value>
+    </data>
+    <data name="BSCHANGE_NOTELIGIBLE">
+        <value>Não elegível</value>
+    </data>
+    <data name="BSCHANGE_ERR">
+        <value>Erro - tentando novamente</value>
+    </data>
+    <data name="BSCHANGE_CONNECTING_APPLYING">
+        <value>Conectando e aplicando configurações</value>
+    </data>
+    <data name="BSCHANGE_FINISHED">
+        <value>Concluído</value>
+    </data>
+    <data name="BSCHANGE_CONNECTING_OFF">
+        <value>Conectando e desligando economia de bateria</value>
+    </data>
+    <data name="BSCHANGE_SEEN_SECONDS">
+        <value>Visto há {0} segundos</value>
+    </data>
+    <data name="BSCHANGE_SEEN_AGO">
+        <value>Visto há {0}</value>
+    </data>
+    <data name="BSSET_TITLE">
+        <value>Configurações de Economia de Bateria</value>
+    </data>
+    <data name="BSSET_HUBEN">
+        <value>Hub Presente no Apiário/Meliponário</value>
+    </data>
+    <data name="BSSET_ASEN">
+        <value>Agendar Detecção de Enxame</value>
+    </data>
+    <data name="BSSET_STARTON">
+        <value>Iniciar Em</value>
+    </data>
+    <data name="BSSET_STARTMONTH">
+        <value>Mês de Início</value>
+    </data>
+    <data name="BSSET_STARTDAY">
+        <value>Dia de Início</value>
+    </data>
+    <data name="BSSET_ENDON">
+        <value>Encerrar Em</value>
+    </data>
+    <data name="BSSET_ENDMONTH">
+        <value>Mês de Encerramento</value>
+    </data>
+    <data name="BSSET_ENDDAY">
+        <value>Dia de Encerramento</value>
+    </data>
+    <data name="BSSET_FROM">
+        <value>De</value>
+    </data>
+    <data name="BSSET_TO">
+        <value>Para</value>
+    </data>
+    <data name="BSSET_DONE">
+        <value>Feito</value>
+    </data>
+    <data name="BSSET_EST">
+        <value>Estimativa de Vida da Bateria</value>
+    </data>
+    <data name="BSSET_YEARS">
+        <value>anos</value>
+    </data>
+    <data name="BSSET_HP_EXP_TITLE">
+        <value>Modo de Presença do Hub</value>
+    </data>
+    <data name="BSSET_AS_EXP_TITLE">
+        <value>Agendamento de Atividades</value>
+    </data>
+    <data name="BSSET_HP_EXP_MESSAGE">
+        <value>Selecione se você possui um Hub BroodMinder em seu apiário/meliponário</value>
+    </data>
+    <data name="BSSET_AS_EXP_MESSAGE">
+        <value>Reduzir o tempo em que seus sensores estão monitorando enxames prolongará a vida útil da bateria.</value>
+    </data>
+    <data name="BSSET_HELP">
+        <value>Ajuda</value>
+    </data>
+    <data name="BSSET_HELP_DESCR_0">
+        <value>Você pode estender a vida útil da bateria do sensor para mais de 5 anos de duas maneiras.</value>
+    </data>
+    <data name="BSSET_HELP_DESCR_1">
+        <value>Se você tiver um hub (SubHub, Cell, WiFi ou LoRa), pode configurar seus dispositivos para reduzir a publicidade. Isso adicionará um ano aos seus dispositivos -T2 e -TH2 e mais de 5 anos aos seus dispositivos -W.</value>
+    </data>
+    <data name="BSSET_HELP_DESCR_2">
+        <value>Como os enxames ocorrem apenas durante o dia e em parte do ano, é possível ganhar vários anos de vida útil da bateria reduzindo o tempo de detecção.</value>
+    </data>
+    <data name="BSSET_HELP_DESCR_3">
+        <value>Para mais informações, consulte o Guia do Usuário do BroodMinder.</value>
+    </data>
+    <data name="BSSET_HELP_DESCR_LINK">
+        <value>Guia do usuário</value>
+    </data>
 </root>
