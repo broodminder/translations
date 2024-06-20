@@ -19,13 +19,13 @@
         <value>Gerenciar</value>
     </data>
     <data name="TAB_APIARIES">
-        <value>Apiários/Meliponários</value>
+        <value>Apiários</value>
     </data>
     <data name="TAB_HIVES">
         <value>Colmeias</value>
     </data>
     <data name="TAB_SETTINGS">
-        <value>Configurações do Usuário</value>
+        <value>Usuário</value>
     </data>
     <data name="TAB_NOTIFICATIONS">
         <value>Notificações</value>
