@@ -80,5 +80,68 @@
         "SUBJECT": "Account Deletion Status",
         "SUCCESS_MESSAGE": "Your MyBroodMinder account has been successfully deleted.",
         "ERROR_MESSAGE": "There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{.id}})"
+    },
+    "DATA_SUMMARY": {
+        "STATUS": "Status",
+        "PAST_EVENTS": "Past events",
+        "FUTUR_EVENTS": "Upcoming events",
+        "APIARY": "Apiary",
+        "PRODUCTIVITY": "Productivity",
+        "BROOD": "Brood",
+        "ALERTS": "Alerts",
+        "FITNESS": "Fitness",
+        "NOFITNESS": "means that we do not have enough data to decide on the good health of the hive.",
+        "RANKING": "Ranking",
+        "HIVE": "Hive",
+        "DATE": "Date",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "Healthy"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Disturbed"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Weak"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Dead"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "Unavailable"
+            }
+        },
+        "LASTSYNC": "Last sync",
+        "NO_DATA": "No data available",
+        "YESTERDAY": "Yesterday",
+        "DAYS_AGO": "__DAY_SYNC__ days ago",
+        "BODY": {
+            "TITLE0": "Events in your apiaries",
+            "TITLECOND": "One week conditions forecast",
+            "TITLEPROD": "Productivity on %s %s %s",
+            "TITLEPROD_DAYS": "Productivity on the last %s days",
+            "TITLE1": "Events on %s %s %s",
+            "TITLE1_DAYS": "Last %s days",
+            "TITLE1BIS": "Upcoming events",
+            "TITLE2": "Hive status",
+            "TITLE3": "Device status",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>View hive data</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Edit hives and devices</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Change alert settings</a>",
+            "NOEVENTPAST": "No events detected since last sending",
+            "NOEVENTFUTUR": "No upcoming events at this time",
+            "NOSTATUS": "Your devices are all functional",
+            "NOHIVESTATUS": "No data",
+            "FEEDBACK": "Are those estimations accurate enough?<a href='mailto:support@broodminder.com' target='_blank'> Give us feedback.</a>",
+            "FITSYNC": "* hive(s) having a synchronization prior to the emitted duration"
+        },
+        "LINK": "Direct links",
+        "CONDITION": "Condition",
+        "NECTARIDX": "Nectar",
+        "FLIGHTIDX": "Foraging"
     }
 }

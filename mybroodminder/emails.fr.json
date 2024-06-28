@@ -80,5 +80,68 @@
         "SUBJECT": "Statut de suppression du compte",
         "SUCCESS_MESSAGE": "Votre compte MyBroodMinder a été supprimé avec succès.",
         "ERROR_MESSAGE": "Une erreur s'est produite lors de la suppression de votre compte. Veuillez contacter support@broodminder.com pour terminer la suppression du compte. (ReferenceID:{{.id}})"
+    },
+    "DATA_SUMMARY": {
+        "STATUS": "Statut",
+        "PAST_EVENTS": "Événements passés",
+        "FUTUR_EVENTS": "Événements à venir",
+        "APIARY": "Rucher",
+        "PRODUCTIVITY": "Productivité",
+        "BROOD": "Couvain",
+        "ALERTS": "Alertes",
+        "FITNESS": "Forme",
+        "NOFITNESS": "signifie que nous n'avons pas assez de données pour décider de la bonne santé de la ruche.",
+        "RANKING": "Classement",
+        "HIVE": "Ruche",
+        "DATE": "Date",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "En bonne santé"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Perturbée"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Faible"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Morte"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "Indisponible"
+            }
+        },
+        "LASTSYNC": "Dernière synchronisation",
+        "NO_DATA": "Aucune donnée disponible",
+        "YESTERDAY": "Hier",
+        "DAYS_AGO": "__DAY_SYNC__ jours",
+        "BODY": {
+            "TITLE0": "Événements dans vos ruchers",
+            "TITLECOND": "Prévisions des conditions pour une semaine",
+            "TITLEPROD": "Productivité sur %s %s %s",
+            "TITLEPROD_DAYS": "Productivité des derniers %s jours",
+            "TITLE1": "Événements du %s %s %s",
+            "TITLE1_DAYS": "Les derniers %s jours",
+            "TITLE1BIS": "Événements à venir",
+            "TITLE2": "Statut de la ruche",
+            "TITLE3": "Statut des appareils",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Voir les données de la ruche</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Modifier les ruches et appareils</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Changer les paramètres d'alerte</a>",
+            "NOEVENTPAST": "Aucun événement détecté depuis le dernier envoi",
+            "NOEVENTFUTUR": "Aucun événement à venir pour le moment",
+            "NOSTATUS": "Tous vos appareils sont fonctionnels",
+            "NOHIVESTATUS": "Aucune donnée",
+            "FEEDBACK": "Ces estimations sont-elles suffisamment précises ?<a href='mailto:support@broodminder.com' target='_blank'> Donnez-nous votre avis.</a>",
+            "FITSYNC": "* ruche(s) ayant une synchronisation antérieure à la durée émise"
+        },
+        "LINK": "Liens directs",
+        "CONDITION": "Condition",
+        "NECTARIDX": "Nectar",
+        "FLIGHTIDX": "Butinage"
     }
 }

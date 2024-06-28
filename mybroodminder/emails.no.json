@@ -80,5 +80,68 @@
         "SUBJECT": "Status for Konto Sletting",
         "SUCCESS_MESSAGE": "Din MyBroodMinder-konto er vellykket slettet.",
         "ERROR_MESSAGE": "Det oppstod en feil under slettingen av kontoen din. Vennligst kontakt support@broodminder.com for å fullføre konto-slettingen. (Referanse-ID: {{.id}})"
+    },
+    "DATA_SUMMARY": {
+        "STATUS": "Status",
+        "PAST_EVENTS": "Tidligere hendelser",
+        "FUTUR_EVENTS": "Kommende hendelser",
+        "APIARY": "Bikubeområde",
+        "PRODUCTIVITY": "Produktivitet",
+        "BROOD": "Yngel",
+        "ALERTS": "Varsler",
+        "FITNESS": "Helse",
+        "NOFITNESS": "betyr at vi ikke har nok data til å vurdere kubens helse.",
+        "RANKING": "Rangering",
+        "HIVE": "Bikube",
+        "DATE": "Dato",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "Sunn"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Forstyrret"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Svak"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Død"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "Utilgjengelig"
+            }
+        },
+        "LASTSYNC": "Siste synkronisering",
+        "NO_DATA": "Ingen data tilgjengelig",
+        "YESTERDAY": "I går",
+        "DAYS_AGO": "__DAY_SYNC__ dager siden",
+        "BODY": {
+            "TITLE0": "Hendelser i bikubeområdene dine",
+            "TITLECOND": "En ukes værmelding",
+            "TITLEPROD": "Produktivitet den %s %s %s",
+            "TITLEPROD_DAYS": "Produktivitet de siste %s dagene",
+            "TITLE1": "Hendelser den %s %s %s",
+            "TITLE1_DAYS": "De siste %s dagene",
+            "TITLE1BIS": "Kommende hendelser",
+            "TITLE2": "Bikubestatus",
+            "TITLE3": "Enhetsstatus",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Se bikubedata</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Rediger bikuber og enheter</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Endre varslingsinnstillinger</a>",
+            "NOEVENTPAST": "Ingen hendelser oppdaget siden siste sending",
+            "NOEVENTFUTUR": "Ingen kommende hendelser for øyeblikket",
+            "NOSTATUS": "Alle enhetene dine fungerer som de skal",
+            "NOHIVESTATUS": "Ingen data",
+            "FEEDBACK": "Er disse estimatene nøyaktige nok?<a href='mailto:support@broodminder.com' target='_blank'> Gi oss tilbakemelding.</a>",
+            "FITSYNC": "* bikuber med en synkronisering eldre enn den sendte varigheten"
+        },
+        "LINK": "Direkte linker",
+        "CONDITION": "Tilstand",
+        "NECTARIDX": "Nektar",
+        "FLIGHTIDX": "Nektarinnsamling"
     }
 }

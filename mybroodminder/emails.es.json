@@ -80,5 +80,68 @@
         "SUBJECT": "Estado de supresión de la cuenta",
         "SUCCESS_MESSAGE": "Tu cuenta MyBroodMinder se ha cerrado correctamente.",
         "ERROR_MESSAGE": "Se ha producido un error al eliminar su cuenta. Ponte en contacto con support@broodminder.com para finalizar la cancelación de la cuenta. (ReferenceID:{{.id}})"
+    },
+    "DATA_SUMMARY": {
+        "STATUS": "Estado",
+        "PAST_EVENTS": "Eventos pasados",
+        "FUTUR_EVENTS": "Próximos eventos",
+        "APIARY": "Colmenar",
+        "PRODUCTIVITY": "Productividad",
+        "BROOD": "Cría",
+        "ALERTS": "Alertas",
+        "FITNESS": "Condición",
+        "NOFITNESS": "significa que no tenemos suficientes datos para decidir sobre la buena salud de la colmena.",
+        "RANKING": "Clasificación",
+        "HIVE": "Colmena",
+        "DATE": "Fecha",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "Saludable"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Perturbada"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Débil"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Muerta"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "No disponible"
+            }
+        },
+        "LASTSYNC": "Última sincronización",
+        "NO_DATA": "No hay datos disponibles",
+        "YESTERDAY": "Ayer",
+        "DAYS_AGO": "hace __DAY_SYNC__ días",
+        "BODY": {
+            "TITLE0": "Eventos en tus colmenares",
+            "TITLECOND": "Pronóstico de condiciones para una semana",
+            "TITLEPROD": "Productividad en %s %s %s",
+            "TITLEPROD_DAYS": "Productividad en los últimos %s días",
+            "TITLE1": "Eventos en %s %s %s",
+            "TITLE1_DAYS": "Últimos %s días",
+            "TITLE1BIS": "Próximos eventos",
+            "TITLE2": "Estado de la colmena",
+            "TITLE3": "Estado del dispositivo",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Ver datos de la colmena</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Editar colmenas y dispositivos</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Cambiar configuración de alertas</a>",
+            "NOEVENTPAST": "No se detectaron eventos desde el último envío",
+            "NOEVENTFUTUR": "No hay próximos eventos en este momento",
+            "NOSTATUS": "Todos sus dispositivos están en funcionamiento",
+            "NOHIVESTATUS": "No hay datos",
+            "FEEDBACK": "¿Son estas estimaciones lo suficientemente precisas?<a href='mailto:support@broodminder.com' target='_blank'> Envíenos su opinión.</a>",
+            "FITSYNC": "* colmena(s) con una sincronización anterior a la duración emitida"
+        },
+        "LINK": "Enlaces directos",
+        "CONDITION": "Condición",
+        "NECTARIDX": "Néctar",
+        "FLIGHTIDX": "Forrajeo"
     }
 }

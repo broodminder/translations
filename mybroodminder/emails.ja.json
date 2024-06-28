@@ -80,5 +80,68 @@
         "SUBJECT": "アカウント削除ステータス",
         "SUCCESS_MESSAGE": "MyBroodMinder アカウントは正常に削除されました。",
         "ERROR_MESSAGE": "アカウントの削除中にエラーが発生しました。アカウントの削除を完了するには、support@broodminder.com にお問い合わせください。 (参照ID:{{.id}})"
+    },
+    "DATA_SUMMARY": {
+        "STATUS": "ステータス",
+        "PAST_EVENTS": "過去のイベント",
+        "FUTUR_EVENTS": "今後のイベント",
+        "APIARY": "養蜂場",
+        "PRODUCTIVITY": "生産性",
+        "BROOD": "育児",
+        "ALERTS": "アラート",
+        "FITNESS": "健康状態",
+        "NOFITNESS": "巣箱の健康状態を判断するのに十分なデータがありません。",
+        "RANKING": "ランキング",
+        "HIVE": "巣箱",
+        "DATE": "日付",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "健康"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "不安定"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "弱い"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "死亡"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "利用不可"
+            }
+        },
+        "LASTSYNC": "最終同期",
+        "NO_DATA": "データがありません",
+        "YESTERDAY": "昨日",
+        "DAYS_AGO": "__DAY_SYNC__日前",
+        "BODY": {
+            "TITLE0": "養蜂場のイベント",
+            "TITLECOND": "1週間の予報",
+            "TITLEPROD": "%s %s %sの生産性",
+            "TITLEPROD_DAYS": "過去%s日間の生産性",
+            "TITLE1": "%s %s %sのイベント",
+            "TITLE1_DAYS": "過去%s日間",
+            "TITLE1BIS": "今後のイベント",
+            "TITLE2": "巣箱のステータス",
+            "TITLE3": "デバイスのステータス",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>巣箱データを見る</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>巣箱とデバイスを編集する</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>アラート設定を変更する</a>",
+            "NOEVENTPAST": "前回の送信以降、イベントは検出されませんでした",
+            "NOEVENTFUTUR": "現在、今後のイベントはありません",
+            "NOSTATUS": "すべてのデバイスは正常に動作しています",
+            "NOHIVESTATUS": "データがありません",
+            "FEEDBACK": "これらの推定値は十分に正確ですか？<a href='mailto:support@broodminder.com' target='_blank'> フィードバックをお聞かせください。</a>",
+            "FITSYNC": "*発行された期間前に同期された巣箱"
+        },
+        "LINK": "直接リンク",
+        "CONDITION": "状態",
+        "NECTARIDX": "ネクター",
+        "FLIGHTIDX": "採餌"
     }
 }

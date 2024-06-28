@@ -80,5 +80,68 @@
       "SUBJECT": "Status der Kontolöschung",
       "SUCCESS_MESSAGE": "Ihr MyBroodMinder-Konto wurde erfolgreich gelöscht.",
       "ERROR_MESSAGE": "Es ist ein Fehler beim Löschen Ihres Kontos aufgetreten. Bitte kontaktieren Sie support@broodminder.com, um die Kontolöschung abzuschließen. (Referenz-ID: {{.id}})"
-    }
+    },
+    "DATA_SUMMARY": {
+      "STATUS": "Status",
+      "PAST_EVENTS": "Vergangene Ereignisse",
+      "FUTUR_EVENTS": "Kommende Ereignisse",
+      "APIARY": "Bienenstand",
+      "PRODUCTIVITY": "Produktivität",
+      "BROOD": "Brut",
+      "ALERTS": "Warnungen",
+      "FITNESS": "Fitness",
+      "NOFITNESS": "bedeutet, dass wir nicht genug Daten haben, um über die Gesundheit des Bienenstocks zu entscheiden.",
+      "RANKING": "Rangliste",
+      "HIVE": "Bienenstock",
+      "DATE": "Datum",
+      "FITCODE": {
+          "GREEN": {
+              "COLOR": "#008000",
+              "NAME": "Gesund"
+          },
+          "ORANGE": {
+              "COLOR": "#FFA500",
+              "NAME": "Gestört"
+          },
+          "RED": {
+              "COLOR": "#FF0000",
+              "NAME": "Schwach"
+          },
+          "BLACK": {
+              "COLOR": "#000000",
+              "NAME": "Tot"
+          },
+          "GREY": {
+              "COLOR": "#FFFFFF",
+              "NAME": "Nicht verfügbar"
+          }
+      },
+      "LASTSYNC": "Letzte Synchronisation",
+      "NO_DATA": "Keine Daten verfügbar",
+      "YESTERDAY": "Gestern",
+      "DAYS_AGO": "vor __DAY_SYNC__ Tagen",
+      "BODY": {
+          "TITLE0": "Ereignisse in Ihren Bienenständen",
+          "TITLECOND": "Wettervorhersage für eine Woche",
+          "TITLEPROD": "Produktivität am %s %s %s",
+          "TITLEPROD_DAYS": "Produktivität in den letzten %s Tagen",
+          "TITLE1": "Ereignisse am %s %s %s",
+          "TITLE1_DAYS": "Letzte %s Tage",
+          "TITLE1BIS": "Kommende Ereignisse",
+          "TITLE2": "Bienenstockstatus",
+          "TITLE3": "Gerätestatus",
+          "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Bienenstockdaten anzeigen</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Bienenstöcke und Geräte bearbeiten</a>",
+          "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Warnungseinstellungen ändern</a>",
+          "NOEVENTPAST": "Keine Ereignisse seit dem letzten Senden erkannt",
+          "NOEVENTFUTUR": "Derzeit keine kommenden Ereignisse",
+          "NOSTATUS": "Alle Ihre Geräte sind funktionsfähig",
+          "NOHIVESTATUS": "Keine Daten",
+          "FEEDBACK": "Sind diese Schätzungen genau genug?<a href='mailto:support@broodminder.com' target='_blank'> Geben Sie uns Feedback.</a>",
+          "FITSYNC": "* Bienenstock/Bienenstöcke mit einer Synchronisation vor der angegebenen Dauer"
+      },
+      "LINK": "Direkte Links",
+      "CONDITION": "Bedingung",
+      "NECTARIDX": "Nektar",
+      "FLIGHTIDX": "Flug"
   }
+}

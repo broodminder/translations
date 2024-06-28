@@ -80,5 +80,68 @@
         "SUBJECT": "Status accountverwijdering",
         "SUCCESS_MESSAGE": "Uw MyBroodMinder-account is succesvol verwijderd.",
         "ERROR_MESSAGE": "Er is een fout opgetreden bij het verwijderen van uw account. Neem contact op met support@broodminder.com om de accountverwijdering te voltooien. (Referentie-ID: {{.id}})"
+    },
+    "DATA_SUMMARY": {
+        "STATUS": "Status",
+        "PAST_EVENTS": "Afgelopen evenementen",
+        "FUTUR_EVENTS": "Toekomstige evenementen",
+        "APIARY": "Bijenstal",
+        "PRODUCTIVITY": "Productiviteit",
+        "BROOD": "Broed",
+        "ALERTS": "Waarschuwingen",
+        "FITNESS": "Conditie",
+        "NOFITNESS": "betekent dat we niet genoeg gegevens hebben om te beslissen over de gezondheid van de bijenkorf.",
+        "RANKING": "Ranglijst",
+        "HIVE": "Bijenkorf",
+        "DATE": "Datum",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "Gezond"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Verstoord"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Zwak"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Dood"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "Niet beschikbaar"
+            }
+        },
+        "LASTSYNC": "Laatste synchronisatie",
+        "NO_DATA": "Geen gegevens beschikbaar",
+        "YESTERDAY": "Gisteren",
+        "DAYS_AGO": "__DAY_SYNC__ dagen geleden",
+        "BODY": {
+            "TITLE0": "Evenementen in uw bijenstallen",
+            "TITLECOND": "Vooruitzichten voor de komende week",
+            "TITLEPROD": "Productiviteit op %s %s %s",
+            "TITLEPROD_DAYS": "Productiviteit in de laatste %s dagen",
+            "TITLE1": "Evenementen op %s %s %s",
+            "TITLE1_DAYS": "Laatste %s dagen",
+            "TITLE1BIS": "Toekomstige evenementen",
+            "TITLE2": "Status van de bijenkorf",
+            "TITLE3": "Status van het apparaat",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Bekijk bijenkorfgegevens</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Bewerk bijenkorven en apparaten</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Wijzig waarschuwingsinstellingen</a>",
+            "NOEVENTPAST": "Geen evenementen gedetecteerd sinds de laatste verzending",
+            "NOEVENTFUTUR": "Geen toekomstige evenementen op dit moment",
+            "NOSTATUS": "Uw apparaten functioneren allemaal",
+            "NOHIVESTATUS": "Geen gegevens",
+            "FEEDBACK": "Zijn deze schattingen nauwkeurig genoeg?<a href='mailto:support@broodminder.com' target='_blank'> Geef ons feedback.</a>",
+            "FITSYNC": "* bijenkorven met een synchronisatie van voor de uitgezonden duur"
+        },
+        "LINK": "Directe links",
+        "CONDITION": "Conditie",
+        "NECTARIDX": "Nectar",
+        "FLIGHTIDX": "Foerageren"
     }
 }

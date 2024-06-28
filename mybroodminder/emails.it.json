@@ -80,5 +80,68 @@
       "SUBJECT": "Stato cancellazione account",
       "SUCCESS_MESSAGE": "Il tuo account MyBroodMinder è stato cancellato con successo.",
       "ERROR_MESSAGE": "Si è verificato un errore durante la cancellazione del tuo account. Contatta support@broodminder.com per completare la cancellazione dell'account. (ID di riferimento: {{.id}})"
-    }
+    },
+    "DATA_SUMMARY": {
+      "STATUS": "Stato",
+      "PAST_EVENTS": "Eventi passati",
+      "FUTUR_EVENTS": "Prossimi eventi",
+      "APIARY": "Apiario",
+      "PRODUCTIVITY": "Produttività",
+      "BROOD": "Covata",
+      "ALERTS": "Avvisi",
+      "FITNESS": "Condizione",
+      "NOFITNESS": "significa che non abbiamo dati sufficienti per decidere sulla buona salute dell'alveare.",
+      "RANKING": "Classifica",
+      "HIVE": "Alveare",
+      "DATE": "Data",
+      "FITCODE": {
+          "GREEN": {
+              "COLOR": "#008000",
+              "NAME": "Sano"
+          },
+          "ORANGE": {
+              "COLOR": "#FFA500",
+              "NAME": "Disturbato"
+          },
+          "RED": {
+              "COLOR": "#FF0000",
+              "NAME": "Debole"
+          },
+          "BLACK": {
+              "COLOR": "#000000",
+              "NAME": "Morto"
+          },
+          "GREY": {
+              "COLOR": "#FFFFFF",
+              "NAME": "Non disponibile"
+          }
+      },
+      "LASTSYNC": "Ultima sincronizzazione",
+      "NO_DATA": "Nessun dato disponibile",
+      "YESTERDAY": "Ieri",
+      "DAYS_AGO": "__DAY_SYNC__ giorni fa",
+      "BODY": {
+          "TITLE0": "Eventi nei tuoi apiari",
+          "TITLECOND": "Previsioni delle condizioni per una settimana",
+          "TITLEPROD": "Produttività in %s %s %s",
+          "TITLEPROD_DAYS": "Produttività negli ultimi %s giorni",
+          "TITLE1": "Eventi in %s %s %s",
+          "TITLE1_DAYS": "Ultimi %s giorni",
+          "TITLE1BIS": "Prossimi eventi",
+          "TITLE2": "Stato dell'alveare",
+          "TITLE3": "Stato del dispositivo",
+          "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Visualizza i dati dell'alveare</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Modifica alveari e dispositivi</a>",
+          "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Modifica impostazioni degli avvisi</a>",
+          "NOEVENTPAST": "Nessun evento rilevato dall'ultimo invio",
+          "NOEVENTFUTUR": "Nessun evento futuro in questo momento",
+          "NOSTATUS": "Tutti i tuoi dispositivi sono funzionanti",
+          "NOHIVESTATUS": "Nessun dato",
+          "FEEDBACK": "Queste stime sono abbastanza precise?<a href='mailto:support@broodminder.com' target='_blank'> Dacci un feedback.</a>",
+          "FITSYNC": "* alveare(i) con una sincronizzazione precedente alla durata emessa"
+      },
+      "LINK": "Link diretti",
+      "CONDITION": "Condizione",
+      "NECTARIDX": "Nettare",
+      "FLIGHTIDX": "Foraggiamento"
+  }
 }
