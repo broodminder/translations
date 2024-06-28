@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "Der Niederschlag wird überschreiten ",
+            "SUBJECT": "Möglicher starker Regen"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "Der Schneefall wird überschreiten ",
+            "SUBJECT": "Möglicher starker Schneefall"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "Der Wind wird überschreiten ",
+            "SUBJECT": "Möglicher starker Wind"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "Die Temperaturen werden ungewöhnlich kalt sein",
+            "SUBJECT": "Möglicher kalter Tag"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "Es ist Zeit, Ihre Bienenstöcke zu behandeln",
+            "SUBJECT": "Oxalsäurebehandlung"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "Die Temperaturen werden ungewöhnlich warm sein",
+            "SUBJECT": "Möglicher heißer Tag"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Innere Temperatur über ",
+            "SUBJECT": "Hohe Innentemperatur"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Innere Temperatur unter ",
+            "SUBJECT": "Niedrige Innentemperatur"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "Der Zuwachs an Ihrem Bienenstock übersteigt ",
+            "SUBJECT": "Bedeutende Ressourcenzufuhr"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "Der Verlust an Ihrem Bienenstock übersteigt ",
+            "SUBJECT": "Ressourcenverlust"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Brut unter ",
+            "SUBJECT": "Schwache Brut"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Innere Feuchtigkeit über ",
+            "SUBJECT": "Hohe innere Feuchtigkeit"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Innere Feuchtigkeit unter ",
+            "SUBJECT": "Niedrige innere Feuchtigkeit"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Eingehendes Gewicht während der letzten Woche übersteigt ",
+            "SUBJECT": "Honigtau"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "Das Gewicht Ihres Bienenstocks übersteigt ",
+            "SUBJECT": "Gewichtsgrenze überschritten"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Thermisches Ereignis (x%i)",
+            "SUBJECT": "Thermisches Ereignis"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Potentieller Schwarm entdeckt",
+            "SUBJECT": "Schwarm"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Schwarmtag erwartet",
+            "SUBJECT": "Schwarmrisiko"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "Sie haben eine Zarge hinzugefügt",
+            "SUBJECT": "Hinzufügen einer Zarge"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "Sie haben eine Zarge entfernt",
+            "SUBJECT": "Entfernen einer Zarge"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Ersetzen Sie die Batterie von ",
+            "SUBJECT": "Niedriger Batteriestand"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Ersetzen Sie die Batterie von ",
+            "SUBJECT": "Niedriger Batteriestand"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Ersetzen Sie die Batterie von ",
+            "SUBJECT": "Niedriger Batteriestand"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " getrennt seit",
+            "SUBJECT": "Gerätetrennung",
+            "UNIT": " Tage"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " getrennt seit",
+            "SUBJECT": "Gerätetrennung",
+            "UNIT": " Tage"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " getrennt seit",
+            "SUBJECT": "Gerätetrennung",
+            "UNIT": " Tage"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " getrennt seit",
+            "SUBJECT": "Gerätetrennung",
+            "UNIT": " Tage"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " schwaches Signal seit",
+            "SUBJECT": "Schwaches Signal",
+            "UNIT": " Tage"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " schwaches Signal seit",
+            "SUBJECT": "Schwaches Signal",
+            "UNIT": " Tage"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " schwaches Signal seit",
+            "SUBJECT": "Schwaches Signal",
+            "UNIT": " Tage"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Datenübertragungsfehler von Ihrer Wetterstation",
+            "SUBJECT": "Wetterstation gestoppt"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "Das Gewicht Ihres Bienenstocks ist ungewöhnlich niedrig",
+            "SUBJECT": "Bienenstock gestohlen"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Ihr Bienenstock wurde als tot erkannt",
+            "SUBJECT": "Bienenstock tot"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "COLOR": "Orange",
+            "MESSAGE": "Schwaches Signal"
+        },
+        "O2": {
+            "COLOR": "Red",
+            "MESSAGE": "Niedriger Batteriestand"
+        },
+        "R": {
+            "COLOR": "Red",
+            "MESSAGE": "Sensor getrennt"
+        }
+    }
+}

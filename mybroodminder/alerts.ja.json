@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "降雨量が ",
+            "SUBJECT": "大雨の可能性"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "降雪量が ",
+            "SUBJECT": "大雪の可能性"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "風速が ",
+            "SUBJECT": "強風の可能性"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "気温が異常に寒くなります",
+            "SUBJECT": "寒い日が来る可能性"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "巣箱の処理の時間です",
+            "SUBJECT": "オキサリック酸処理"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "気温が異常に暑くなります",
+            "SUBJECT": "暑い日が来る可能性"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "内部温度が ",
+            "SUBJECT": "高内部温度"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "内部温度が ",
+            "SUBJECT": "低内部温度"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "蜂群の蓄積量が ",
+            "SUBJECT": "資源の大幅な提供"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "蜂群の蓄積量が ",
+            "SUBJECT": "資源の減少"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "ブロッドが ",
+            "SUBJECT": "弱いブロッド"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "内部湿度が ",
+            "SUBJECT": "高内部湿度"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "内部湿度が ",
+            "SUBJECT": "低内部湿度"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "先週の入重量が ",
+            "SUBJECT": "蜜露"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "巣箱の重さが ",
+            "SUBJECT": "重量制限超過"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "熱イベント (x%i)",
+            "SUBJECT": "熱イベント"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "潜在的な群れを検出",
+            "SUBJECT": "群れ"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "群れの日が予想されます",
+            "SUBJECT": "群れのリスク"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "スーパーを追加しました",
+            "SUBJECT": "スーパーの追加"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "スーパーを削除しました",
+            "SUBJECT": "スーパーの削除"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "のバッテリーを交換してください ",
+            "SUBJECT": "バッテリー残量が少ない"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "のバッテリーを交換してください ",
+            "SUBJECT": "バッテリー残量が少ない"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "のバッテリーを交換してください ",
+            "SUBJECT": "バッテリー残量が少ない"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " から切断されました",
+            "SUBJECT": "デバイスの切断",
+            "UNIT": " 日"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " から切断されました",
+            "SUBJECT": "デバイスの切断",
+            "UNIT": " 日"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " から切断されました",
+            "SUBJECT": "デバイスの切断",
+            "UNIT": " 日"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " から切断されました",
+            "SUBJECT": "デバイスの切断",
+            "UNIT": " 日"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " 信号が弱い ",
+            "SUBJECT": "弱い信号",
+            "UNIT": " 日"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " 信号が弱い ",
+            "SUBJECT": "弱い信号",
+            "UNIT": " 日"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " 信号が弱い ",
+            "SUBJECT": "弱い信号",
+            "UNIT": " 日"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "気象観測所からのデータ送信エラー",
+            "SUBJECT": "気象観測所の停止"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "巣箱の重量が異常に低い",
+            "SUBJECT": "巣箱が盗まれた"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "巣箱が死亡したと検出されました",
+            "SUBJECT": "死亡した巣箱"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "COLOR": "Orange",
+            "MESSAGE": "信号が弱い"
+        },
+        "O2": {
+            "COLOR": "Red",
+            "MESSAGE": "バッテリー残量が少ない"
+        },
+        "R": {
+            "COLOR": "Red",
+            "MESSAGE": "センサーが切断されました"
+        }
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "Le precipitazioni supereranno ",
+            "SUBJECT": "Possibile pioggia intensa"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "Le nevicate supereranno ",
+            "SUBJECT": "Possibile forte nevicata"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "Il vento supererà ",
+            "SUBJECT": "Possibile forte vento"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "Le temperature saranno insolitamente fredde",
+            "SUBJECT": "Possibile giornata fredda"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "È il momento di trattare i tuoi alveari",
+            "SUBJECT": "Trattamento con acido ossalico"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "Le temperature saranno insolitamente calde",
+            "SUBJECT": "Possibile giornata calda"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Temperatura interna superiore a ",
+            "SUBJECT": "Alta temperatura interna"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Temperatura interna inferiore a ",
+            "SUBJECT": "Bassa temperatura interna"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "Il guadagno dello stock delle tue api supera ",
+            "SUBJECT": "Significativa provvista di risorse"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "La perdita dello stock delle tue api supera ",
+            "SUBJECT": "Decremento delle risorse"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Covata inferiore a ",
+            "SUBJECT": "Covata debole"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Umidità interna superiore a ",
+            "SUBJECT": "Alta umidità interna"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Umidità interna inferiore a ",
+            "SUBJECT": "Bassa umidità interna"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Peso in entrata nell'ultima settimana superiore a ",
+            "SUBJECT": "Melata"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "Il peso del tuo alveare supera ",
+            "SUBJECT": "Limite di peso superato"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Evento termico (x%i)",
+            "SUBJECT": "Evento termico"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Sciame potenziale rilevato",
+            "SUBJECT": "Sciame"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Giornata di sciamatura prevista",
+            "SUBJECT": "Rischio di sciamatura"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "Hai aggiunto un melario",
+            "SUBJECT": "Aggiunta di un melario"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "Hai rimosso un melario",
+            "SUBJECT": "Rimozione di un melario"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Sostituire la batteria di ",
+            "SUBJECT": "Batteria scarica"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Sostituire la batteria di ",
+            "SUBJECT": "Batteria scarica"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Sostituire la batteria di ",
+            "SUBJECT": "Batteria scarica"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " disconnesso da",
+            "SUBJECT": "Disconnessione dispositivo",
+            "UNIT": " giorni"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " disconnesso da",
+            "SUBJECT": "Disconnessione dispositivo",
+            "UNIT": " giorni"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " disconnesso da",
+            "SUBJECT": "Disconnessione dispositivo",
+            "UNIT": " giorni"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " disconnesso da",
+            "SUBJECT": "Disconnessione dispositivo",
+            "UNIT": " giorni"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " segnale debole da",
+            "SUBJECT": "Segnale debole",
+            "UNIT": " giorni"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " segnale debole da",
+            "SUBJECT": "Segnale debole",
+            "UNIT": " giorni"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " segnale debole da",
+            "SUBJECT": "Segnale debole",
+            "UNIT": " giorni"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Errore di trasmissione dati dalla tua stazione meteorologica",
+            "SUBJECT": "Stazione meteorologica ferma"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "Il peso del tuo alveare è anormalmente basso",
+            "SUBJECT": "Alveare rubato"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Il tuo alveare è stato rilevato come morto",
+            "SUBJECT": "Alveare morto"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "COLOR": "Orange",
+            "MESSAGE": "Segnale debole"
+        },
+        "O2": {
+            "COLOR": "Red",
+            "MESSAGE": "Batteria scarica"
+        },
+        "R": {
+            "COLOR": "Red",
+            "MESSAGE": "Sensore disconnesso"
+        }
+    }
+}

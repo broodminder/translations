@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "A precipitação excederá ",
+            "SUBJECT": "Possível chuva forte"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "A queda de neve excederá ",
+            "SUBJECT": "Possível neve forte"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "O vento excederá ",
+            "SUBJECT": "Possível vento forte"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "As temperaturas estarão incomumente frias",
+            "SUBJECT": "Possível dia frio pela frente"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "É hora de tratar suas colmeias",
+            "SUBJECT": "Tratamento com ácido oxálico"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "As temperaturas estarão incomumente quentes",
+            "SUBJECT": "Possível dia quente pela frente"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Temperatura interna acima de ",
+            "SUBJECT": "Alta temperatura interna"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Temperatura interna abaixo de ",
+            "SUBJECT": "Baixa temperatura interna"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "O ganho de estoque das suas abelhas excede ",
+            "SUBJECT": "Provisão significativa de recursos"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "A perda de estoque das suas abelhas excede ",
+            "SUBJECT": "Esgotamento de recursos"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Ninhada abaixo de ",
+            "SUBJECT": "Ninhada fraca"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Umidade interna acima de ",
+            "SUBJECT": "Alta umidade interna"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Umidade interna abaixo de ",
+            "SUBJECT": "Baixa umidade interna"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Peso recebido durante a última semana excedendo ",
+            "SUBJECT": "Melada"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "O peso da sua colmeia excede ",
+            "SUBJECT": "Limite de peso excedido"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Evento térmico (x%i)",
+            "SUBJECT": "Evento térmico"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Enxame potencial detectado",
+            "SUBJECT": "Enxame"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Dia de enxameamento esperado",
+            "SUBJECT": "Risco de enxame"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "Você adicionou uma melgueira",
+            "SUBJECT": "Adicionando uma melgueira"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "Você removeu uma melgueira",
+            "SUBJECT": "Removendo uma melgueira"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Substitua a bateria de ",
+            "SUBJECT": "Bateria fraca"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Substitua a bateria de ",
+            "SUBJECT": "Bateria fraca"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Substitua a bateria de ",
+            "SUBJECT": "Bateria fraca"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " desconectado desde",
+            "SUBJECT": "Dispositivo desconectado",
+            "UNIT": " dias"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " desconectado desde",
+            "SUBJECT": "Dispositivo desconectado",
+            "UNIT": " dias"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " desconectado desde",
+            "SUBJECT": "Dispositivo desconectado",
+            "UNIT": " dias"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " desconectado desde",
+            "SUBJECT": "Dispositivo desconectado",
+            "UNIT": " dias"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " sinal fraco desde",
+            "SUBJECT": "Sinal fraco",
+            "UNIT": " dias"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " sinal fraco desde",
+            "SUBJECT": "Sinal fraco",
+            "UNIT": " dias"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " sinal fraco desde",
+            "SUBJECT": "Sinal fraco",
+            "UNIT": " dias"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Erro na transmissão de dados da sua estação meteorológica",
+            "SUBJECT": "Estação meteorológica parada"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "O peso da sua colmeia está anormalmente baixo",
+            "SUBJECT": "Colmeia roubada"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Sua colmeia foi detectada como morta",
+            "SUBJECT": "Colmeia morta"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "COLOR": "Orange",
+            "MESSAGE": "Sinal fraco"
+        },
+        "O2": {
+            "COLOR": "Red",
+            "MESSAGE": "Bateria fraca"
+        },
+        "R": {
+            "COLOR": "Red",
+            "MESSAGE": "Sensor desconectado"
+        }
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "De regenval zal ",
+            "SUBJECT": "Mogelijke zware regenval"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "De sneeuwval zal ",
+            "SUBJECT": "Mogelijke zware sneeuwval"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "De wind zal ",
+            "SUBJECT": "Mogelijke sterke wind"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "De temperaturen zullen ongebruikelijk koud zijn",
+            "SUBJECT": "Mogelijk koude dag in aantocht"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "Het is tijd om uw bijenkorven te behandelen",
+            "SUBJECT": "Behandeling met oxaalzuur"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "De temperaturen zullen ongebruikelijk warm zijn",
+            "SUBJECT": "Mogelijk warme dag in aantocht"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Interne temperatuur boven ",
+            "SUBJECT": "Hoge interne temperatuur"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Interne temperatuur onder ",
+            "SUBJECT": "Lage interne temperatuur"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "De toename van de voorraad van uw bijen overschrijdt ",
+            "SUBJECT": "Aanzienlijke aanvoer van middelen"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "Het verlies van de voorraad van uw bijen overschrijdt ",
+            "SUBJECT": "Middelen uitgeput"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Broedsel onder ",
+            "SUBJECT": "Zwak broedsel"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Interne vochtigheid boven ",
+            "SUBJECT": "Hoge interne vochtigheid"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Interne vochtigheid onder ",
+            "SUBJECT": "Lage interne vochtigheid"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Binnenkomend gewicht tijdens de afgelopen week boven ",
+            "SUBJECT": "Honingdauw"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "Het gewicht van uw bijenkorf overschrijdt ",
+            "SUBJECT": "Gewichtsgrens overschreden"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Thermisch evenement (x%i)",
+            "SUBJECT": "Thermisch evenement"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Potentiële zwerm gedetecteerd",
+            "SUBJECT": "Zwerm"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Zwermdag verwacht",
+            "SUBJECT": "Zwermrisico"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "U heeft een super toegevoegd",
+            "SUBJECT": "Super toegevoegd"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "U heeft een super verwijderd",
+            "SUBJECT": "Super verwijderd"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Vervang de batterij van ",
+            "SUBJECT": "Lage batterij"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Vervang de batterij van ",
+            "SUBJECT": "Lage batterij"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Vervang de batterij van ",
+            "SUBJECT": "Lage batterij"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " sinds losgekoppeld",
+            "SUBJECT": "Apparaat losgekoppeld",
+            "UNIT": " dagen"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " sinds losgekoppeld",
+            "SUBJECT": "Apparaat losgekoppeld",
+            "UNIT": " dagen"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " sinds losgekoppeld",
+            "SUBJECT": "Apparaat losgekoppeld",
+            "UNIT": " dagen"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " sinds losgekoppeld",
+            "SUBJECT": "Apparaat losgekoppeld",
+            "UNIT": " dagen"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " slecht signaal sinds",
+            "SUBJECT": "Slecht signaal",
+            "UNIT": " dagen"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " slecht signaal sinds",
+            "SUBJECT": "Slecht signaal",
+            "UNIT": " dagen"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " slecht signaal sinds",
+            "SUBJECT": "Slecht signaal",
+            "UNIT": " dagen"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Gegevensoverdrachtsfout van uw weerstation",
+            "SUBJECT": "Weerstation gestopt"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "Het gewicht van uw bijenkorf is abnormaal laag",
+            "SUBJECT": "Bijenkorf gestolen"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Uw bijenkorf is dood gedetecteerd",
+            "SUBJECT": "Dode bijenkorf"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "COLOR": "Orange",
+            "MESSAGE": "Slecht signaal"
+        },
+        "O2": {
+            "COLOR": "Red",
+            "MESSAGE": "Lage batterij"
+        },
+        "R": {
+            "COLOR": "Red",
+            "MESSAGE": "Sensor losgekoppeld"
+        }
+    }
+}

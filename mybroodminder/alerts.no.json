@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "Nedbør vil overstige ",
+            "SUBJECT": "Mulig kraftig nedbør"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "Snøfall vil overstige ",
+            "SUBJECT": "Mulig kraftig snøfall"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "Vinden vil overstige ",
+            "SUBJECT": "Mulig sterk vind"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "Temperaturene vil være uvanlig kalde",
+            "SUBJECT": "Mulig kald dag i vente"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "Det er på tide å behandle bikubene dine",
+            "SUBJECT": "Behandling med oksalsyre"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "Temperaturene vil være uvanlig varme",
+            "SUBJECT": "Mulig varm dag i vente"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Intern temperatur over ",
+            "SUBJECT": "Høy intern temperatur"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Intern temperatur under ",
+            "SUBJECT": "Lav intern temperatur"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "Økningen i bienes beholdning overstiger ",
+            "SUBJECT": "Betydelig tilførsel av ressurser"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "Tapet av bienes beholdning overstiger ",
+            "SUBJECT": "Ressursutarming"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Avkom under ",
+            "SUBJECT": "Svakt avkom"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Intern fuktighet over ",
+            "SUBJECT": "Høy intern fuktighet"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Intern fuktighet under ",
+            "SUBJECT": "Lav intern fuktighet"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Innkommende vekt i løpet av forrige uke overstiger ",
+            "SUBJECT": "Honningdugg"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "Vekten av bikuben din overstiger ",
+            "SUBJECT": "Vektgrense overskredet"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Termisk hendelse (x%i)",
+            "SUBJECT": "Termisk hendelse"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Potensiell sverm oppdaget",
+            "SUBJECT": "Sverm"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Svermedag forventet",
+            "SUBJECT": "Svermerisiko"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "Du la til en etasje",
+            "SUBJECT": "Legger til en etasje"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "Du fjernet en etasje",
+            "SUBJECT": "Fjerner en etasje"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Bytt batteriet på ",
+            "SUBJECT": "Lavt batteri"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Bytt batteriet på ",
+            "SUBJECT": "Lavt batteri"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Bytt batteriet på ",
+            "SUBJECT": "Lavt batteri"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " frakoblet siden",
+            "SUBJECT": "Enhet frakoblet",
+            "UNIT": " dager"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " frakoblet siden",
+            "SUBJECT": "Enhet frakoblet",
+            "UNIT": " dager"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " frakoblet siden",
+            "SUBJECT": "Enhet frakoblet",
+            "UNIT": " dager"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " frakoblet siden",
+            "SUBJECT": "Enhet frakoblet",
+            "UNIT": " dager"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " dårlig signal siden",
+            "SUBJECT": "Dårlig signal",
+            "UNIT": " dager"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " dårlig signal siden",
+            "SUBJECT": "Dårlig signal",
+            "UNIT": " dager"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " dårlig signal siden",
+            "SUBJECT": "Dårlig signal",
+            "UNIT": " dager"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Dataoverføringsfeil fra værstasjonen din",
+            "SUBJECT": "Værstasjon stoppet"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "Vekten av bikuben din er unormalt lav",
+            "SUBJECT": "Bikube stjålet"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Bikuben din er oppdaget død",
+            "SUBJECT": "Død bikube"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "COLOR": "Orange",
+            "MESSAGE": "Dårlig signal"
+        },
+        "O2": {
+            "COLOR": "Red",
+            "MESSAGE": "Lavt batteri"
+        },
+        "R": {
+            "COLOR": "Red",
+            "MESSAGE": "Sensor frakoblet"
+        }
+    }
+}

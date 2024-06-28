@@ -175,15 +175,15 @@
     },
     "DEVICE_STATUS": {
         "O1": {
-            "color": "Orange",
+            "COLOR": "Orange",
             "MESSAGE": "Mauvais signal"
         },
         "O2": {
-            "color": "Red",
+            "COLOR": "Red",
             "MESSAGE": "Batterie faible"
         },
         "R": {
-            "color": "Red",
+            "COLOR": "Red",
             "MESSAGE": "Capteur déconnecté"
         }
     }

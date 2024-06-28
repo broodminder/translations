@@ -175,15 +175,15 @@
     },
     "DEVICE_STATUS": {
         "O1": {
-            "color": "Orange",
+            "COLOR": "Orange",
             "MESSAGE": "Señal débil"
         },
         "O2": {
-            "color": "Red",
+            "COLOR": "Red",
             "MESSAGE": "Batería baja"
         },
         "R": {
-            "color": "Red",
+            "COLOR": "Red",
             "MESSAGE": "Sensor desconectado"
         }
     }
