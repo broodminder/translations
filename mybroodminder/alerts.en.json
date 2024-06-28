@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "Rainfall will exceed ",
+            "SUBJECT": "Possible heavy rainfall"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "Snowfall will exceed ",
+            "SUBJECT": "Possible heavy snowfall"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "The wind will exceed ",
+            "SUBJECT": "Possible strong wind"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "Temperatures will be unusually cold",
+            "SUBJECT": "Possible cold day ahead"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "It's time to treat your hives",
+            "SUBJECT": "Oxalic acid treatment"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "Temperatures will be unusually warm",
+            "SUBJECT": "Possible hot day ahead"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Internal temperature over ",
+            "SUBJECT": "High internal temperature"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Internal temperature below ",
+            "SUBJECT": "Low internal temperature"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "The gain of your bees' stock exceeds ",
+            "SUBJECT": "Significant provision of resources"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "The loss of your bees' stock exceeds ",
+            "SUBJECT": "Resource depletion"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Brood below ",
+            "SUBJECT": "Weak brood"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Internal humidity over ",
+            "SUBJECT": "High internal humidity"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Internal humidity below ",
+            "SUBJECT": "Low internal humidity"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Incoming weight during the last week exceeding ",
+            "SUBJECT": "Honeydew"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "The weight of your hive exceeds ",
+            "SUBJECT": "Weight limit exceeded"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Thermal event (x%i)",
+            "SUBJECT": "Thermal event"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Potential swarm detected",
+            "SUBJECT": "Swarm"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Swarming day expected",
+            "SUBJECT": "Swarm risk"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "You added a super",
+            "SUBJECT": "Adding a super"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "You removed a super",
+            "SUBJECT": "Removing a super"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Replace the battery of ",
+            "SUBJECT": "Low battery"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Replace the battery of ",
+            "SUBJECT": "Low battery"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Replace the battery of ",
+            "SUBJECT": "Low battery"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " disconnected since",
+            "SUBJECT": "Device disconnect",
+            "UNIT": " days"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " disconnected since",
+            "SUBJECT": "Device disconnect",
+            "UNIT": " days"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " disconnected since",
+            "SUBJECT": "Device disconnect",
+            "UNIT": " days"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " disconnected since",
+            "SUBJECT": "Device disconnect",
+            "UNIT": " days"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " poor signal since",
+            "SUBJECT": "Poor signal",
+            "UNIT": " days"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " poor signal since",
+            "SUBJECT": "Poor signal",
+            "UNIT": " days"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " poor signal since",
+            "SUBJECT": "Poor signal",
+            "UNIT": " days"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Data transmission error from your weather station",
+            "SUBJECT": "Weather station stopped"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "The weight of your hive is abnormally low",
+            "SUBJECT": "Stolen hive"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Your hive has been detected dead",
+            "SUBJECT": "Dead hive"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "color": "Orange",
+            "MESSAGE": "Poor signal"
+        },
+        "O2": {
+            "color": "Red",
+            "MESSAGE": "Low battery"
+        },
+        "R": {
+            "color": "Red",
+            "MESSAGE": "Sensor disconnected"
+        }
+    }
+}

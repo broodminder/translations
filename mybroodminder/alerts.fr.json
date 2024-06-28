@@ -1,0 +1,190 @@
+{
+    "CODE": {
+        "201": {
+            "ICON": "Rain",
+            "MESSAGE": "Les précipitations dépasseront ",
+            "SUBJECT": "Possibilité de fortes pluies"
+        },
+        "202": {
+            "ICON": "Snow",
+            "MESSAGE": "Les chutes de neige dépasseront ",
+            "SUBJECT": "Possibilité de fortes chutes de neige"
+        },
+        "203": {
+            "ICON": "Wind",
+            "MESSAGE": "Le vent dépassera ",
+            "SUBJECT": "Possibilité de vents forts"
+        },
+        "204": {
+            "ICON": "ColdDay",
+            "MESSAGE": "Les températures seront exceptionnellement froides",
+            "SUBJECT": "Possibilité de journée froide"
+        },
+        "205": {
+            "ICON": "Oxalic",
+            "MESSAGE": "Il est temps de traiter vos ruches",
+            "SUBJECT": "Traitement à l'acide oxalique"
+        },
+        "206": {
+            "ICON": "HotDay",
+            "MESSAGE": "Les températures seront exceptionnellement chaudes",
+            "SUBJECT": "Possibilité de journée chaude"
+        },
+        "301": {
+            "ICON": "Tmax",
+            "MESSAGE": "Température interne supérieure à ",
+            "SUBJECT": "Température interne élevée"
+        },
+        "302": {
+            "ICON": "Tmin",
+            "MESSAGE": "Température interne inférieure à ",
+            "SUBJECT": "Température interne basse"
+        },
+        "303": {
+            "ICON": "WIpos",
+            "MESSAGE": "Le gain de stock de vos abeilles dépasse ",
+            "SUBJECT": "Provision significative de ressources"
+        },
+        "304": {
+            "ICON": "WIneg",
+            "MESSAGE": "La perte de stock de vos abeilles dépasse ",
+            "SUBJECT": "Épuisement des ressources"
+        },
+        "305": {
+            "ICON": "LowBrood",
+            "MESSAGE": "Couvain inférieur à ",
+            "SUBJECT": "Couvain faible"
+        },
+        "306": {
+            "ICON": "Hmax",
+            "MESSAGE": "Humidité interne supérieure à ",
+            "SUBJECT": "Humidité interne élevée"
+        },
+        "307": {
+            "ICON": "Hmin",
+            "MESSAGE": "Humidité interne inférieure à ",
+            "SUBJECT": "Humidité interne basse"
+        },
+        "311": {
+            "ICON": "Honeydew",
+            "MESSAGE": "Poids entrant pendant la dernière semaine supérieur à ",
+            "SUBJECT": "Miellée"
+        },
+        "312": {
+            "ICON": "Wlim",
+            "MESSAGE": "Le poids de votre ruche dépasse ",
+            "SUBJECT": "Limite de poids dépassée"
+        },
+        "320": {
+            "ICON": "Tevent",
+            "MESSAGE": "Événement thermique (x%i)",
+            "SUBJECT": "Événement thermique"
+        },
+        "321": {
+            "ICON": "Swarm",
+            "MESSAGE": "Essaim potentiel détecté",
+            "SUBJECT": "Essaim"
+        },
+        "322": {
+            "ICON": "Rswarm",
+            "MESSAGE": "Journée d'essaimage attendue",
+            "SUBJECT": "Risque d'essaimage"
+        },
+        "323": {
+            "ICON": "Super+",
+            "MESSAGE": "Vous avez ajouté une hausse",
+            "SUBJECT": "Ajout d'une hausse"
+        },
+        "324": {
+            "ICON": "Super-",
+            "MESSAGE": "Vous avez retiré une hausse",
+            "SUBJECT": "Retrait d'une hausse"
+        },
+        "401a": {
+            "ICON": "LowBatteryT",
+            "MESSAGE": "Remplacez la batterie de ",
+            "SUBJECT": "Batterie faible"
+        },
+        "401b": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Remplacez la batterie de ",
+            "SUBJECT": "Batterie faible"
+        },
+        "401c": {
+            "ICON": "LowBatteryBC",
+            "MESSAGE": "Remplacez la batterie de ",
+            "SUBJECT": "Batterie faible"
+        },
+        "402a": {
+            "ICON": "DConnectT",
+            "MESSAGE": " déconnecté depuis",
+            "SUBJECT": "Déconnexion de l'appareil",
+            "UNIT": " jours"
+        },
+        "402b": {
+            "ICON": "DConnectW",
+            "MESSAGE": " déconnecté depuis",
+            "SUBJECT": "Déconnexion de l'appareil",
+            "UNIT": " jours"
+        },
+        "402c": {
+            "ICON": "DConnectH",
+            "MESSAGE": " déconnecté depuis",
+            "SUBJECT": "Déconnexion de l'appareil",
+            "UNIT": " jours"
+        },
+        "402d": {
+            "ICON": "DConnectBC",
+            "MESSAGE": " déconnecté depuis",
+            "SUBJECT": "Déconnexion de l'appareil",
+            "UNIT": " jours"
+        },
+        "403a": {
+            "ICON": "PoorSignalT",
+            "MESSAGE": " signal faible depuis",
+            "SUBJECT": "Signal faible",
+            "UNIT": " jours"
+        },
+        "403b": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " signal faible depuis",
+            "SUBJECT": "Signal faible",
+            "UNIT": " jours"
+        },
+        "403c": {
+            "ICON": "PoorSignalBC",
+            "MESSAGE": " signal faible depuis",
+            "SUBJECT": "Signal faible",
+            "UNIT": " jours"
+        },
+        "404": {
+            "ICON": "StopWeather",
+            "MESSAGE": "Erreur de transmission des données de votre station météo",
+            "SUBJECT": "Station météo arrêtée"
+        },
+        "405": {
+            "ICON": "Stolen",
+            "MESSAGE": "Le poids de votre ruche est anormalement bas",
+            "SUBJECT": "Ruche volée"
+        },
+        "406": {
+            "ICON": "Dead",
+            "MESSAGE": "Votre ruche a été détectée comme morte",
+            "SUBJECT": "Ruche morte"
+        }
+    },
+    "DEVICE_STATUS": {
+        "O1": {
+            "color": "Orange",
+            "MESSAGE": "Mauvais signal"
+        },
+        "O2": {
+            "color": "Red",
+            "MESSAGE": "Batterie faible"
+        },
+        "R": {
+            "color": "Red",
+            "MESSAGE": "Capteur déconnecté"
+        }
+    }
+}
