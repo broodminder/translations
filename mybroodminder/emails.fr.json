@@ -139,6 +139,20 @@
             "FEEDBACK": "Ces estimations sont-elles suffisamment précises ?<a href='mailto:support@broodminder.com' target='_blank'> Donnez-nous votre avis.</a>",
             "FITSYNC": "* ruche(s) ayant une synchronisation antérieure à la durée émise"
         },
+        "MONTH": {
+            "JANUARY": "Janvier",
+            "FEBRUARY": "Février",
+            "MARCH": "Mars",
+            "APRIL": "Avril",
+            "MAY": "Mai",
+            "JUNE": "Juin",
+            "JULY": "Juillet",
+            "AUGUST": "Août",
+            "SEPTEMBER": "Septembre",
+            "OCTOBER": "Octobre",
+            "NOVEMBER": "Novembre",
+            "DECEMBER": "Décembre"
+        },
         "LINK": "Liens directs",
         "CONDITION": "Condition",
         "NECTARIDX": "Nectar",

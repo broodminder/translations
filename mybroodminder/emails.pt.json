@@ -139,6 +139,20 @@
             "FEEDBACK": "Essas estimativas são precisas o suficiente?<a href='mailto:support@broodminder.com' target='_blank'> Dê-nos feedback.</a>",
             "FITSYNC": "* colmeia(s) com uma sincronização anterior à duração emitida"
         },
+        "MONTH": {
+            "JANUARY": "Janeiro",
+            "FEBRUARY": "Fevereiro",
+            "MARCH": "Março",
+            "APRIL": "Abril",
+            "MAY": "Maio",
+            "JUNE": "Junho",
+            "JULY": "Julho",
+            "AUGUST": "Agosto",
+            "SEPTEMBER": "Setembro",
+            "OCTOBER": "Outubro",
+            "NOVEMBER": "Novembro",
+            "DECEMBER": "Dezembro"
+        },
         "LINK": "Links diretos",
         "CONDITION": "Condição",
         "NECTARIDX": "Néctar",

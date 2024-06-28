@@ -139,6 +139,20 @@
             "FEEDBACK": "Are those estimations accurate enough?<a href='mailto:support@broodminder.com' target='_blank'> Give us feedback.</a>",
             "FITSYNC": "* hive(s) having a synchronization prior to the emitted duration"
         },
+        "MONTH": {
+            "JANUARY": "January",
+            "FEBRUARY": "February",
+            "MARCH": "March",
+            "APRIL": "April",
+            "MAY": "May",
+            "JUNE": "June",
+            "JULY": "July",
+            "AUGUST": "August",
+            "SEPTEMBER": "September",
+            "OCTOBER": "October",
+            "NOVEMBER": "November",
+            "DECEMBER": "December"
+        },
         "LINK": "Direct links",
         "CONDITION": "Condition",
         "NECTARIDX": "Nectar",

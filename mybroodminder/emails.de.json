@@ -139,6 +139,20 @@
           "FEEDBACK": "Sind diese Schätzungen genau genug?<a href='mailto:support@broodminder.com' target='_blank'> Geben Sie uns Feedback.</a>",
           "FITSYNC": "* Bienenstock/Bienenstöcke mit einer Synchronisation vor der angegebenen Dauer"
       },
+      "MONTH": {
+        "JANUARY": "Januar",
+        "FEBRUARY": "Februar",
+        "MARCH": "März",
+        "APRIL": "April",
+        "MAY": "Mai",
+        "JUNE": "Juni",
+        "JULY": "Juli",
+        "AUGUST": "August",
+        "SEPTEMBER": "September",
+        "OCTOBER": "Oktober",
+        "NOVEMBER": "November",
+        "DECEMBER": "Dezember"
+      },
       "LINK": "Direkte Links",
       "CONDITION": "Bedingung",
       "NECTARIDX": "Nektar",

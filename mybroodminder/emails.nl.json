@@ -139,6 +139,20 @@
             "FEEDBACK": "Zijn deze schattingen nauwkeurig genoeg?<a href='mailto:support@broodminder.com' target='_blank'> Geef ons feedback.</a>",
             "FITSYNC": "* bijenkorven met een synchronisatie van voor de uitgezonden duur"
         },
+        "MONTH": {
+            "JANUARY": "Januari",
+            "FEBRUARY": "Februari",
+            "MARCH": "Maart",
+            "APRIL": "April",
+            "MAY": "Mei",
+            "JUNE": "Juni",
+            "JULY": "Juli",
+            "AUGUST": "Augustus",
+            "SEPTEMBER": "September",
+            "OCTOBER": "Oktober",
+            "NOVEMBER": "November",
+            "DECEMBER": "December"
+        },
         "LINK": "Directe links",
         "CONDITION": "Conditie",
         "NECTARIDX": "Nectar",

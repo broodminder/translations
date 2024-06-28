@@ -139,6 +139,20 @@
             "FEEDBACK": "これらの推定値は十分に正確ですか？<a href='mailto:support@broodminder.com' target='_blank'> フィードバックをお聞かせください。</a>",
             "FITSYNC": "*発行された期間前に同期された巣箱"
         },
+        "MONTH": {
+            "JANUARY": "1月",
+            "FEBRUARY": "2月",
+            "MARCH": "3月",
+            "APRIL": "4月",
+            "MAY": "5月",
+            "JUNE": "6月",
+            "JULY": "7月",
+            "AUGUST": "8月",
+            "SEPTEMBER": "9月",
+            "OCTOBER": "10月",
+            "NOVEMBER": "11月",
+            "DECEMBER": "12月"
+        },
         "LINK": "直接リンク",
         "CONDITION": "状態",
         "NECTARIDX": "ネクター",

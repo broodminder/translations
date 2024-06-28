@@ -139,6 +139,20 @@
             "FEEDBACK": "Er disse estimatene nøyaktige nok?<a href='mailto:support@broodminder.com' target='_blank'> Gi oss tilbakemelding.</a>",
             "FITSYNC": "* bikuber med en synkronisering eldre enn den sendte varigheten"
         },
+        "MONTH": {
+            "JANUARY": "Januar",
+            "FEBRUARY": "Februar",
+            "MARCH": "Mars",
+            "APRIL": "April",
+            "MAY": "Mai",
+            "JUNE": "Juni",
+            "JULY": "Juli",
+            "AUGUST": "August",
+            "SEPTEMBER": "September",
+            "OCTOBER": "Oktober",
+            "NOVEMBER": "November",
+            "DECEMBER": "Desember"
+        },
         "LINK": "Direkte linker",
         "CONDITION": "Tilstand",
         "NECTARIDX": "Nektar",
