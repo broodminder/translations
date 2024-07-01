@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "Sensor frakoblet"
         }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub frakoblet",
+            "MESSAGE": "Huben ({deviceName}) ser ut til å være frakoblet siden {date}.",
+            "SUB_MESSAGE": "Følgende enheter vil ikke sende data: {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Enhet frakoblet",
+            "MESSAGE": "'{hivePosition}' sender ikke lenger data etter at sensoren ({deviceName}) ble slått av siden {date}."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Dårlig signal fra enhet",
+            "MESSAGE": "Tap av data på '{hivePosition}'! Bare {nbSamples} prøver ble mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - Blomstringskalibrering ferdig",
+            "MESSAGE": "{plantName} har en blomstringsmodell basert på {nbOBS} observasjoner.\nBegynnelsen av blomstringen er estimert til {bloomingDate}."
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - Kommende blomstring",
+            "MESSAGE": "Blomstringen av {plantName} nærmer seg, den er estimert til {bloomingDate}."
+        }
     }
 }

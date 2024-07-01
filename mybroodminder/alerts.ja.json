@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "センサーが切断されました"
         }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - ハブが切断されました",
+            "MESSAGE": "ハブ ({deviceName}) は {date} から切断されているようです。",
+            "SUB_MESSAGE": "次のデバイスはデータを送信しません: {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - デバイスが切断されました",
+            "MESSAGE": "'{hivePosition}' は {date} からそのセンサー ({deviceName}) のシャットダウンによりデータを送信していません。"
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - デバイスの信号が弱い",
+            "MESSAGE": "'{hivePosition}' でのデータ損失！今日受信したサンプルは {nbSamples} のみです。センサーの信号 ({deviceName}) が原因かもしれません。"
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",
+            "MESSAGE": "{plantName} は {nbOBS} 観測に基づく開花モデルを持っています。\n開花の開始は {bloomingDate} と推定されます。"
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - 開花が近づいています",
+            "MESSAGE": "{plantName} の開花が近づいており、 {bloomingDate} と推定されます。"
+        }
     }
 }

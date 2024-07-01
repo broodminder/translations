@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "Sensor disconnected"
         }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub disconnected",
+            "MESSAGE": "The Hub ({deviceName}) seems to be disconnected since {date}.",
+            "SUB_MESSAGE": "Following devices will not send their data: {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Device disconnected",
+            "MESSAGE": "'{hivePosition}' no longer transmits data following the shutdown of its sensor ({deviceName}) from {date}."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Poor device signal",
+            "MESSAGE": "Loss of data on '{hivePosition}! Only {nbSamples} samples were received today. The sensor signal ({deviceName}) may be the cause."
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - Blooming calibration finished",
+            "MESSAGE": "{plantName} has a flowering model based on {nbOBS} observations.\nThe start of flowering is estimated at {bloomingDate}."
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - Incoming blooming",
+            "MESSAGE": "The flowering of {plantName} is approaching, it is estimated at {bloomingDate}."
+        }
     }
 }

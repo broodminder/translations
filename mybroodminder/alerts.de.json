@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "Sensor getrennt"
         }
-    }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub getrennt",
+            "MESSAGE": "Der Hub ({deviceName}) scheint seit {date} getrennt zu sein.",
+            "SUB_MESSAGE": "Folgende Geräte werden keine Daten senden: {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Gerät getrennt",
+            "MESSAGE": "'{hivePosition}' übermittelt keine Daten mehr aufgrund der Abschaltung seines Sensors ({deviceName}) seit {date}."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Schwaches Gerätesignal",
+            "MESSAGE": "Datenverlust bei '{hivePosition}! Nur {nbSamples} Proben wurden heute empfangen. Das Sensorsignal ({deviceName}) könnte die Ursache sein."
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",
+            "MESSAGE": "{plantName} hat ein Blühmodell basierend auf {nbOBS} Beobachtungen.\nDer Beginn der Blüte wird auf {bloomingDate} geschätzt."
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - Kommende Blüte",
+            "MESSAGE": "Die Blüte von {plantName} nähert sich, sie wird auf {bloomingDate} geschätzt."
+        }
+    } 
 }

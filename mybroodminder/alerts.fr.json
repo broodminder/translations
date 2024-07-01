@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "Capteur déconnecté"
         }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub déconnecté",
+            "MESSAGE": "Le Hub ({deviceName}) semble être déconnecté depuis le {date}.",
+            "SUB_MESSAGE": "Les appareils suivants ne transmettront plus leurs données : {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Capteur déconnecté",
+            "MESSAGE": "'{hivePosition}' ne transmet plus de données suite à l'arrêt de son capteur ({deviceName}) depuis le {date}."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Mauvais signal d'un capteur",
+            "MESSAGE": "Perte de données sur '{hivePosition}' ! Seulement {nbSamples} échantillons ont été reçus aujourd'hui. Le signal du capteur ({deviceName}) pourrait en être la cause."
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - Calibration de la floraison terminée",
+            "MESSAGE": "{plantName} a un modèle de floraison basé sur {nbOBS} observations.\nLe début de la floraison est estimé au {bloomingDate}."
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - Floraison imminente",
+            "MESSAGE": "La floraison de {plantName} approche, elle est estimée au {bloomingDate}."
+        }
     }
 }

@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "Sensor losgekoppeld"
         }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub losgekoppeld",
+            "MESSAGE": "De Hub ({deviceName}) lijkt sinds {date} losgekoppeld te zijn.",
+            "SUB_MESSAGE": "De volgende apparaten zullen geen gegevens verzenden: {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Apparaat losgekoppeld",
+            "MESSAGE": "'{hivePosition}' verzendt geen gegevens meer vanwege de uitschakeling van zijn sensor ({deviceName}) sinds {date}."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Slecht signaal van apparaat",
+            "MESSAGE": "Gegevensverlies op '{hivePosition}'! Vandaag zijn slechts {nbSamples} monsters ontvangen. Het signaal van de sensor ({deviceName}) kan de oorzaak zijn."
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - Bloei kalibratie voltooid",
+            "MESSAGE": "{plantName} heeft een bloeimodel gebaseerd op {nbOBS} waarnemingen.\nHet begin van de bloei wordt geschat op {bloomingDate}."
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - Bloei komt eraan",
+            "MESSAGE": "De bloei van {plantName} nadert, deze wordt geschat op {bloomingDate}."
+        }
     }
 }

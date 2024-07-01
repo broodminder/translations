@@ -186,5 +186,28 @@
             "COLOR": "Red",
             "MESSAGE": "Sensore disconnesso"
         }
+    },
+    "NOTIFICATIONS": {
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub disconnesso",
+            "MESSAGE": "L'Hub ({deviceName}) sembra essere disconnesso dal {date}.",
+            "SUB_MESSAGE": "I seguenti dispositivi non invieranno i loro dati: {devicesList}."
+        },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Dispositivo disconnesso",
+            "MESSAGE": "'{hivePosition}' non trasmette più dati a causa dello spegnimento del suo sensore ({deviceName}) dal {date}."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Segnale del dispositivo debole",
+            "MESSAGE": "Perdita di dati su '{hivePosition}'! Oggi sono stati ricevuti solo {nbSamples} campioni. La causa potrebbe essere il segnale del sensore ({deviceName})."
+        },
+        "CALIBRATION_FINISHED": {
+            "TITLE": "{apiaryName} - Calibrazione della fioritura terminata",
+            "MESSAGE": "{plantName} ha un modello di fioritura basato su {nbOBS} osservazioni.\nL'inizio della fioritura è stimato per il {bloomingDate}."
+        },
+        "INCOMING_BLOOMING": {
+            "TITLE": "{apiaryName} - Fioritura imminente",
+            "MESSAGE": "La fioritura di {plantName} si avvicina, è stimata per il {bloomingDate}."
+        }
     }
 }
