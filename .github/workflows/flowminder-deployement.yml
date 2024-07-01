@@ -1,0 +1,20 @@
+name: Deploy Translations
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Translations on FlowMinder as a plugin
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        port: 1150
+        script: |
+          cd /mellisphera/production/flowminder/management/translations
+          git pull &>> github_CD_output.txt
