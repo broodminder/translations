@@ -1,4 +1,4 @@
-name: Deploy Translations
+name: Deploy on FlowMinder
 
 on:
   push:
