@@ -199,7 +199,7 @@
         },
         "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Segnale del dispositivo debole",
-            "MESSAGE": "Perdita di dati su '{hivePosition}'! Oggi sono stati ricevuti solo {nbSamples} campioni. La causa potrebbe essere il segnale del sensore ({deviceName})."
+            "MESSAGE": "Perdita di dati su '{hivePosition}'! Oggi è stato ricevuto solo il {nbSamples}% delle letture previste. La causa potrebbe essere il segnale del sensore ({deviceName})."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibrazione della fioritura terminata",

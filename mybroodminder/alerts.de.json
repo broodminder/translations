@@ -199,7 +199,7 @@
         },
         "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Schwaches Gerätesignal",
-            "MESSAGE": "Datenverlust bei '{hivePosition}! Nur {nbSamples} Proben wurden heute empfangen. Das Sensorsignal ({deviceName}) könnte die Ursache sein."
+            "MESSAGE": "Datenverlust bei '{hivePosition}! Nur {nbSamples}% der erwarteten Messwerte sind heute eingegangen. Das Sensorsignal ({deviceName}) könnte die Ursache sein."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",

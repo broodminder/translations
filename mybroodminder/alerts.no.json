@@ -199,7 +199,7 @@
         },
         "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Dårlig signal fra enhet",
-            "MESSAGE": "Tap av data på '{hivePosition}'! Bare {nbSamples} prøver ble mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
+            "MESSAGE": "Tap av data på '{hivePosition}'! Bare {nbSamples} % av de forventede målingene er mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blomstringskalibrering ferdig",

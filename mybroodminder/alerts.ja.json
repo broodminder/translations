@@ -199,7 +199,7 @@
         },
         "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - デバイスの信号が弱い",
-            "MESSAGE": "'{hivePosition}' でのデータ損失！今日受信したサンプルは {nbSamples} のみです。センサーの信号 ({deviceName}) が原因かもしれません。"
+            "MESSAGE": "'{hivePosition}' でのデータ損失！今日は予想される測定値の {nbSamples}% のみが受信されました。センサーの信号 ({deviceName}) が原因かもしれません。"
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",

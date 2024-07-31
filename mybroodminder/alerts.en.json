@@ -199,7 +199,7 @@
         },
         "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Poor device signal",
-            "MESSAGE": "Loss of data on '{hivePosition}! Only {nbSamples} samples were received today. The sensor signal ({deviceName}) may be the cause."
+            "MESSAGE": "Loss of data on '{hivePosition}! Only {nbSamples}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blooming calibration finished",

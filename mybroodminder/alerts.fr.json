@@ -199,7 +199,7 @@
         },
         "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Mauvais signal d'un capteur",
-            "MESSAGE": "Perte de données sur '{hivePosition}' ! Seulement {nbSamples} échantillons ont été reçus aujourd'hui. Le signal du capteur ({deviceName}) pourrait en être la cause."
+            "MESSAGE": "Perte de données sur '{hivePosition}' ! Seuls {nbSamples}% des enregistrements attendues ont été reçus aujourd'hui. Le signal du capteur ({deviceName}) pourrait en être la cause."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibration de la floraison terminée",
