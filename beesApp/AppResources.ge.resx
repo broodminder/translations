@@ -2379,6 +2379,9 @@
 	<data name="CU_NOTE_TAGS">
 		<value>Tags auswählen</value>
 	</data>
+	<data name="CU_NOTE_ADD_TAGS">
+		<value>Tags hinzufügen</value>
+    </data>
 	<data name="APP_UPDATE_TITLE">
 		<value>Neue Funktionen!</value>
 	</data>

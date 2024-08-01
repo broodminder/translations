@@ -2359,7 +2359,7 @@
 		<value>Add Hive Note</value>
     </data>
 	<data name="CU_NOTE_TITLE_U">
-		<value>{0} Note</value>
+		<value>Edit {0} Note</value>
     </data>
 	<data name="CU_NOTE_HIVETITLE">
 		<value>Create Hive Note</value>
@@ -2381,6 +2381,9 @@
     </data>
 	<data name="CU_NOTE_TAGS">
 		<value>Select tags</value>
+    </data>
+	<data name="CU_NOTE_ADD_TAGS">
+		<value>Add Tags</value>
     </data>
 	<data name="APP_UPDATE_TITLE">
 		<value>New Features!</value>

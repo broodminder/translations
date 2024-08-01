@@ -2382,6 +2382,9 @@
 	<data name="CU_NOTE_TAGS">
 		<value>Selecciona etiquetas</value>
 	</data>
+	<data name="CU_NOTE_ADD_TAGS">
+		<value>Agregar etiquetas</value>
+    </data>
 	<data name="APP_UPDATE_TITLE">
 		<value>¡Nuevas Funciones!</value>
 	</data>
