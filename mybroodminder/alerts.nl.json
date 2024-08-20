@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Bloei komt eraan",
             "MESSAGE": "De bloei van {plantName} nadert, deze wordt geschat op {bloomingDate}."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Start van nectarstroom",
+            "MESSAGE": "Er is een nectarstroom begonnen voor de bijenkorf {hiveName}."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Einde van nectarstroom",
+            "MESSAGE": "De nectarstroom voor de bijenkorf {hiveName} is gestopt."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Hervatting van nectarstroom",
+            "MESSAGE": "De nectarstroom voor de bijenkorf {hiveName} is hervat."
         }
     }
 }

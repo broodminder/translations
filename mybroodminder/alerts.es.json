@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Floración inminente",
             "MESSAGE": "La floración de {plantName} se está acercando, se estima en {bloomingDate}."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Inicio del flujo de néctar",
+            "MESSAGE": "Ha comenzado un flujo de néctar para la colmena {hiveName}."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Fin del flujo de néctar",
+            "MESSAGE": "El flujo de néctar para la colmena {hiveName} ha terminado."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Reinicio del flujo de néctar",
+            "MESSAGE": "El flujo de néctar para la colmena {hiveName} ha comenzado de nuevo."
         }
     }
 }

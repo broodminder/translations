@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Incoming blooming",
             "MESSAGE": "The flowering of {plantName} is approaching, it is estimated at {bloomingDate}."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Nectar Flow start",
+            "MESSAGE": "A nectar flow has started for the hive {hiveName}."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Nectar Flow stop",
+            "MESSAGE": "The nectar flow for the hive {hiveName} is finished."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Nectar Flow restart",
+            "MESSAGE": "The nectar flow for the hive {hiveName} has restarted."
         }
     }
 }

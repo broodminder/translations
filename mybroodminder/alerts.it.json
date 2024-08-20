@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Fioritura imminente",
             "MESSAGE": "La fioritura di {plantName} si avvicina, è stimata per il {bloomingDate}."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Inizio del flusso di nettare",
+            "MESSAGE": "Un flusso di nettare è iniziato per l'alveare {hiveName}."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Fine del flusso di nettare",
+            "MESSAGE": "Il flusso di nettare per l'alveare {hiveName} è terminato."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Ripresa del flusso di nettare",
+            "MESSAGE": "Il flusso di nettare per l'alveare {hiveName} è ripreso."
         }
     }
 }

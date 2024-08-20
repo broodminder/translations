@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Kommende Blüte",
             "MESSAGE": "Die Blüte von {plantName} nähert sich, sie wird auf {bloomingDate} geschätzt."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Beginn des Nektarflusses",
+            "MESSAGE": "Ein Nektarfluss hat für den Bienenstock {hiveName} begonnen."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Ende des Nektarflusses",
+            "MESSAGE": "Der Nektarfluss für den Bienenstock {hiveName} ist beendet."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Wiederaufnahme des Nektarflusses",
+            "MESSAGE": "Der Nektarfluss für den Bienenstock {hiveName} hat wieder begonnen."
         }
     } 
 }

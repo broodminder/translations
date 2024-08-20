@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Floraison imminente",
             "MESSAGE": "La floraison de {plantName} approche, elle est estimée au {bloomingDate}."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Début de Miellée",
+            "MESSAGE": "Une miellée a commencé pour la ruche {hiveName}."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Fin de Miellée",
+            "MESSAGE": "La miellée pour la ruche {hiveName} est terminée."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Reprise de Miellée",
+            "MESSAGE": "La miellée pour la ruche {hiveName} a repris."
         }
     }
 }

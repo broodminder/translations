@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - Kommende blomstring",
             "MESSAGE": "Blomstringen av {plantName} nærmer seg, den er estimert til {bloomingDate}."
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - Start av nektarstrøm",
+            "MESSAGE": "En nektarstrøm har startet for bikuben {hiveName}."
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - Slutt på nektarstrøm",
+            "MESSAGE": "Nektarstrømmen for bikuben {hiveName} er avsluttet."
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - Gjenopptakelse av nektarstrøm",
+            "MESSAGE": "Nektarstrømmen for bikuben {hiveName} har blitt gjenopptatt."
         }
     }
 }

@@ -208,6 +208,18 @@
         "INCOMING_BLOOMING": {
             "TITLE": "{apiaryName} - 開花が近づいています",
             "MESSAGE": "{plantName} の開花が近づいており、 {bloomingDate} と推定されます。"
+        },
+        "NECTAR_FLOW_ONSET": {
+            "TITLE": "{hiveName} - 蜜流の開始",
+            "MESSAGE": "巣箱 {hiveName} の蜜流が始まりました。"
+        },
+        "NECTAR_FLOW_STOP": {
+            "TITLE": "{hiveName} - 蜜流の終了",
+            "MESSAGE": "巣箱 {hiveName} の蜜流が終了しました。"
+        },
+        "NECTAR_FLOW_RESTART": {
+            "TITLE": "{hiveName} - 蜜流の再開",
+            "MESSAGE": "巣箱 {hiveName} の蜜流が再開しました。"
         }
     }
 }
