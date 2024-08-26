@@ -52,13 +52,13 @@
             "TITLE": "Cambiar Email Cuenta"
         },
         "EDIT_PASSWORD": {
-            "BUTTON": "Cambiar Password",
-            "CURRENT_PASSWORD": "Password vigente",
-            "ERROR": "Error : El password no se ha podido cambiar.",
-            "HEADER": "Password",
-            "NEW_PASSWORD": "Nuevo Password",
+            "BUTTON": "Cambiar Contraseña",
+            "CURRENT_PASSWORD": "Contraseña vigente",
+            "ERROR": "Error : La Contraseña no se ha podido cambiar.",
+            "HEADER": "Contraseña",
+            "NEW_PASSWORD": "Nueva Contraseña",
             "SAVE_BUTTON": "Guardar Cambios",
-            "TITLE": "Cambiar Password"
+            "TITLE": "Cambiar Contraseña"
         },
         "EMAIL": "Email",
         "FIRST_NAME": "Nombre",

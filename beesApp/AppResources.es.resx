@@ -271,7 +271,7 @@
 		<value>Ver Detalles</value>
 	</data>
 	<data name="HIVE_SH_STATUS">
-		<value>Actualizando en</value>
+		<value>Actualiza en</value>
 	</data>
 	<data name="HIVE_SH_STATUS_SLEEP">
 		<value>Sensor en modo Deep Sleep.</value>
@@ -961,7 +961,7 @@
 		<value>{0} sensor, {1} datos para subir</value>
 	</data>
 	<data name="DEVICES_CELLUPDATING">
-		<value>Actualizando en {0}</value>
+		<value>Actualiza en {0}</value>
 	</data>
 	<data name="DEVICES_CELL_SLEEP1">
 		<value>Sensor en modo inactivo.</value>
@@ -1012,7 +1012,7 @@
 		<value>Conexion: </value>
 	</data>
 	<data name="FIRMWARE_PROG">
-		<value>Actualización del Firmware: </value>
+		<value>Actualizando Firmware: </value>
 	</data>
 	<data name="FIRMWARE_BACK">
 		<value>Actualización de firmware en curso. Debes permanecer a proximidad para que se complete. Atras cancela la actualización (no se recomienda).</value>
@@ -1357,7 +1357,7 @@
 		<value>No se encontró usuario</value>
 	</data>
 	<data name="FORGOTPASSWORD_SENT">
-		<value>Email de reinicialización del password enviado.</value>
+		<value>Email de reinicialización de contraseña enviado.</value>
 	</data>
 	<data name="INITIAL_LOGIN">
 		<value>Conexión</value>
@@ -1489,7 +1489,7 @@
 		<value>Email invalido</value>
 	</data>
 	<data name="REGISTER_PASSWORDMATCH">
-		<value>Los passwords no corresponden</value>
+		<value>Las contraseñas no corresponden</value>
 	</data>
 	<data name="REGISTER_TERMSERROR">
 		<value>Debes aceptar las condiciones</value>
