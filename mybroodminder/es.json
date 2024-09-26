@@ -401,10 +401,6 @@
     },
     "CONFIGURE_PAGE": {
         "TITLE":"Configurar",
-        "SEPARATE":"Por tipo",
-        "NESTED":"Por Colmenar",
-        "ACCOUNT_TITLE":"Mi Cuenta",
-        "PREFERENCES_TITLE":"Mis preferencias",
         "APIARIES_TITLE":"Colmenares",
         "HIVES_TITLE":"Colmenas",
         "DEVICES_TITLE":"Sensores",
@@ -412,6 +408,8 @@
         "LINKS_TITLE":"Enlaces Públicos",
         "THIRD_PARTY_TITLE":"Dispositivos de terceros",
         "SUBSCRIPTIONS_TITLE":"Mis Abonos",
+        "SUBSCRIPTIONS_MOVED1":"Moved to",
+        "SUBSCRIPTIONS_MOVED2":"Account Page",
         "DASHBOARDS_TITLE":"Dashboards",
         "ALERTS_TITLE":"Alertas"
     },
@@ -442,6 +440,7 @@
 		"DAYS_180":"Ultimos 180 días",
 		"YEAR_1":"Ultimo año",
         "YEAR_2":"Ultimo 2 años",
+        "MONTHS_13":"Last 13 months",
 		"CUSTOM":"Personalizar duración",
         "INFO":"Se requiere una abono Premium o Pro para ver los datos de más de un año. Puede acceder a los datos más antiguos mediante la descarga de csv en la vista del dispositivo.",
         "FORECAST":{
@@ -486,7 +485,8 @@
 		"DAYS_90":"90 días",
 		"DAYS_180":"180 días",
 		"YEAR_1":"1 año",
-        "YEAR_2":"2 años"
+        "YEAR_2":"2 años",
+        "MONTHS_13":"13 months"
 	},
 	"NOTES": {
 		"TITLE":"{{value}} Notas",
@@ -852,38 +852,12 @@
     },
     "ACCOUNT": {
         "TITLE":"Mi Cuenta",
+        "DETAILS":"User Details",
+        "SETTINGS":"Regional Settings",
         "EMAIL":"Email",
         "FIRST_NAME":"Nombre",
         "LAST_NAME":"Apellido",
         "MEMBERSHIP":"Plan",
-        "SUB_TYPES": {
-            "FREE":"Gratuito",
-            "HOBBY":"Hobby",
-            "PREMIUM":"Premium renueva el {{expiration}}",
-            "PREMIUM_CANCELLED":"Premium vence el {{expiration}}",
-            "PREMIUM_EXPIRED":"Premium vencido el {{expiration}}",
-            "PRO":"Pro renueva el {{expiration}}",
-            "PRO_CANCELLED":"Pro vence el {{expiration}}",
-            "PRO_EXPIRED":"Pro vencido el {{expiration}}",
-            "TRIAL":"Plan de prueba, vence eln {{expiration}}"
-        },
-        "PURCHASE":"Abonarse Premium",
-        "PREMIUM_LANDING":"Ver Planes",
-        "CONFIRM":"Confirmar Premium",
-        "SAVE":"Guardar",
-        "CONFIRM_SUB_WINDOW": {
-            "TITLE":"Confirmar Premium",
-            "DESCRIPTION":"Entrar el código del email de confirmación",
-            "CONFIRMATION_NUMBER":"Número de Confirmación",
-            "CONFIRM":"Confirmar",
-            "VALID":"Validar Compra",
-            "PURCHASED":"Comprado el",
-            "ERROR": {
-                "NOT_FOUND":"No se encontró abono premium",
-                "USED_THIS_ACCOUNT":"Confirmado para esta cuenta, expira el {{value}}",
-                "USED_OTHER_ACCOUNT":"Confirmado para otra cuenta"
-            }
-        },
         "EDIT_EMAIL": {
             "BUTTON":"Cambiar Email Cuenta",
             "TITLE":"Cambiar Email Cuenta",
@@ -929,6 +903,28 @@
             },
             "REQUEST_ERROR":"Error, no se ha podido realizar la solicitud.",
             "DELETE_ERROR":"Se ha producido un error al eliminar su cuenta. Póngase en contacto con support@broodminder.com para finalizar la eliminación de la cuenta. (ReferenceID:{{id}})"
+        },
+        "TIER_SUB":{
+            "SUMMARY":{
+                "FREE":"Free membership",
+                "COMP":"Complimentary membership",
+                "PAID":"Membership subscription",
+                "ALLOWED":"{{count}} hives allowed"
+            },
+            "PAID":{
+                "TITLE":"Membership Subscription",
+                "PURCHASE":"Purchase Membership",
+                "ALLOWED":"Currently {{count}} hives allowed",
+                "NEXT":"Next Renewal ({{date}}), {{count}} hives allowed",
+                "CANCELED":"Canceled - Expires on {{date}}",
+                "CANCELED_PAST":"Canceled - Expired {{date}}"
+            },
+            "COMP":{
+                "TITLE":"Complimentary Membership",
+                "ALLOWED":"Hives Allowed",
+                "END":"End Date",
+                "EXPIRED":"expired"
+            }
         }
     },
     "PREFERENCES": {
@@ -1237,91 +1233,96 @@
         }
     },
     "MEMBERSHIP": {
-        "YEARLY":"ANUAL",
-        "MONTHLY":"MENSUAL",
-        "HOBBY":"HOBBY",
+        "TITLE":"MyBroodMinder Premium",
         "PREMIUM":"PREMIUM",
-        "PRO":"PRO",
-        "HOBBY_PRICE":"GRATUITO",
-        "YEAR":"Año",
-        "MONTH":"Més",
-        "FREE_STORAGE":"ALMACENAMIENTO GRATUITO EN LA NUBE",
-        "DATA_DISPLAY":"VISUALIZACIÓN DE DATOS",
-        "12_MONTH":"12 meses",
-        "FULL_HIST":"historial completo",
-        "PUBLIC_APIARY":"COLMENAR PUBLICO",
-        "PUBLIC_INFO":"en BeeCounted.org",
-        "PRIVATE_APIARY":"COLMENAR PRIVADO",
-        "MS_VIEWS":"ANALITICAS MELLISPHERA",
-        "MBM_VIEWS":"ANALITICAS MYBROODMINDER PREMIUM",
-        "MBM_VIEWS_INFO":"Gráficos integrales del Colmenar y Productividad",
-        "COLONY_BROOD":"VOLUMEN DE CRIA",
-        "COLONY_FITNESS":"SALUD DE LA COLMENA",
-        "DAILY_ALERTS":"ALERTAS DIARIAS",
-        "EMAIL_SUMMARY":"RESUMEN EMAIL",
-        "TITLE_2":"SENSORES BROODMINDER & APIARY APP",
-        "UNLIMITED_DEVICES":"NUMERO DE SENSORES ILIMITADO",
-        "DATA_UPLOADING":"TRANSMISION DE DATOS",
-        "1_DEVICE":"1 sensor a la vez",
-        "ALL_DEVICE":"todos los sensores a la vez",
-        "HUB_MODE":"MODO HUB",
-        "HUB_INFO":"Posibilidad de usar un smartphone en lugar de un hub para cargar datos en tiempo real",
-        "SUB_HUB":"SUBHUB",
-        "WIFI_HUB":"WIFI HUB",
-        "CELL_HUB":"CELL HUB",
-        "THIRD_PARTY":"DISPOSITIVOS DE TERCEROS",
-        "REALTIME_ALERTS":"ALERTAS EN TIEMPO REAL",
-        "SUPPORT":"SOPORTE",
-        "FULL_SUPPORT":"SOPORTE PREMIUM",
-        "BUY":"Comprar ahora",
+        "PREMIUM_PRICE": "Priced by hive count",
+        "FREE": "FREE",
+        "FREE_PRICE": "FREE",
+        "SECTION1": "Field proven sensors",
+        "SEC1_ITEM1":"BroodMinder-T2 temperature",
+        "SEC1_ITEM2":"BroodMinder-TH2 temperature/humidity",
+        "SEC1_ITEM3":"BroodMinder-W & W3 weights",
+        "SEC1_ITEM4":"BroodMinder-BeeDar entrance and colony  activity",
+        "SEC1_ITEM5":"BroodMinder-T91 weather",
+        "SEC1_ITEM6":"5 year sensor battery life",
+        "SEC1_ITEM7":"1 year warranty",
+        "SECTION2": "Bees App",
+        "SEC2_ITEM1":"Free app",
+        "SEC2_ITEM2":"Read sensorsc",
+        "SEC2_ITEM3":"Display data history",
+        "SEC2_ITEM4":"Logbook",
+        "SEC2_ITEM5":"Weather almanac",
+        "SEC2_ITEM6":"Manage hive/sensor locations",
+        "SEC2_ITEM7":"Weather forecast",
+        "SEC2_ITEM8":"Nectar forecast",
+        "SEC2_ITEM9":"Hive productivity",
+        "SEC2_ITEM10":"Brood estimator",
+        "SEC2_ITEM11":"Apiary and hive alerts",
+        "SECTION3": "MyBroodMinder.com",
+        "SEC3_ITEM1":"Data storage",
+        "SEC3_ITEM2":"Apiary/hive management",
+        "SEC3_ITEM3":"Logbook",
+        "SEC3_ITEM4":"Computed results - analytics",
+        "SEC3_ITEM5":"Dashboards",
+        "SEC3_ITEM6":"Multi-Hive select to compare hives & apiaries",
+        "SEC3_ITEM7":"Hive/apiary photos",
+        "SEC3_ITEM8":"Weather forecast",
+        "SEC3_ITEM9":"Sensor, hive, and weather alerts",
+        "SEC3_ITEM10":"Cell hub (real time data) support",
+        "SEC3_ITEM11":"WiFi hub (real time data) support",
+        "SEC3_ITEM12":"LoRa hub (real time data) support",
+        "SEC3_ITEM13":"Data download (CSV)",
+        "SEC3_ITEM14":"Data sharing",
+        "SEC3_ITEM15":"Shareable links",
+        "SEC3_ITEM16":"Blooming calendar",
+        "SEC3_ITEM17":"3rd party support (YoLink)",
+        "HIVE_LIMIT":"5 hives",
+        "MONTH_LIMIT":"13 months",
+        "DASHBOARD_LIMIT":"1 custom",
         "PURCHASE_MEMBERSHIP":"Abonarse Premium",
-        "PURHASE_TOKENS":"Comprar Tokens",
-        "LOGIN":"Login/Registrar",
-        "INFO_1":"La afiliación incluye una token gratuita para los dispositivos wifi. Hay que comprar tokens adicionales para los hubs celulares.",
-        "INFO_2":"Se pueden añadir varios dispositivos Yolink a su cuenta (ver la guía del usuario)"
+        "CHANGE_MEMBERSHIP":"Change Membership",
+        "LOGIN":"Login/Registrar"
     },
     "PURCHASE": {
         "SUMMARY": {
             "TITLE":"Compra de una suscripción premium  ",
-            "TITLE_ADDING":"Comprar tokens ",
-            "YEAR_PREM":" Suscripción premium anual - Renovación automática",
-            "MONTH_PREM":" Suscripción premium mensual - Renovación automática",
-            "YEAR_PRO":" Suscripción Pro anual - Renovación automática",
-            "MONTH_PRO":" Suscripción Pro mensual - Renovación automática",
-            "PRICE":" Importe de la Suscripción",
-            "QUANTITY":"1 Suscripción con {{quantity}} fichas adicionales",
             "TOTAL":"Total",
             "ERROR_1":"Ya has comprado una suscripción. Haz clic",
             "ERROR_LINK":"aqui",
             "ERROR_2":"para acceder a los planes.",
             "ADD_ERROR_1":"Haz clic",
             "ADD_ERROR_2":"aqui",
-            "ADD_ERROR_3":"para añadir tokens al abono actual."
+            "ADD_ERROR_3":"para añadir tokens al abono actual.",
+            "CANCELED1":"You have a cancelled subscription with {{count}} hives allowed.",
+            "CANCELED2":" It is valid until {{date}}. If you purchase a new membership before that date, you will overwrite your previous membership."
         },
-        "TABLE":{
-            "HEADERS":{
-                "PRODUCT":"Producto",
-                "START":"Comienza",
-                "RENEW":"Renueva",
-                "EXPIRES":"Expira",
-                "PRICE":"Precio",
-                "PRORATED_PRICE":"Precio prorrateado",
-                "AUTO":"Renueva auto"
-            },
-            "REMOVE_CART":"Retirar de la cesta",
-            "SELECT_TOKEN":"Selecciona token",
-            "ADD":"Añadir à la cesta",
-            "REMOVE":"Retirar",
-            "NEW":"Nuevo Producto",
+        "BUY":{
             "TOTAL":"Total",
             "TOTAL_NOW":"Total (Vencimiento actual)",
-            "TOTAL_YEAR":"Total anual (vencimiento el {{date}})",
-            "PURCHASE":"Comprar"
+            "NEXT_PAY":"Next Payment ({{date}})",
+            "PURCHASE":"Purchase",
+            "SELECT":"Select Hives Allowed",
+            "SELECTION":"{{count}} hives allowed",
+            "SELECTION_CURRENT":"(current)",
+            "INFO":"This is a recurring subscription. You can cancel at any time.",
+            "HIVE_ERROR":"Tier not available, you currently have {{count}} hives",
+            "CHARGING":"Total Charging Now",
+            "CONFIRM":"This is an auto-renewing subscription. You will be charged {{priceNow}} now and {{priceYearly}} yearly. Would you like to create this subscription?",
+            "COMPLETE":"Complete Purchase"
         },
         "ADDITIONAL":{
-            "TITLE":"Comprar Tokens",
-            "MESSAGE": "Los tokens comprados se cargan en tu abono. {{amount}} se cargará en la tarjeta con tu abono",
-            "CONFIRM":"Pagar"
+           "TITLE":"Edit Current Membership",
+            "DECREASE":"Hive decrease, you currently have {{count}} hives and will need to remove {{removeCount}} when subscription renews",
+            "INCREASE":"Increase, charging prorate",
+            "REINSTATE":"Reinstating, not charged at this time",
+            "DECREASE_OK":" Decreasing by {{count}} hives, will expire on renewal date",
+            "CHANGE":{
+                "TITLE":"Change Subscription",
+                "ADDITIONAL":"Tier change is charged to your membership. {{price}} will be charged now to your card on your subscription.",
+                "NONE":"You have not additional charge at this time. But your new renewal amount has increased to {{price}}.",
+                "DECREASE":"You have decreased your subscription level. You will continue at the higher level until your renewal date. Your renewal amount has decreased to {{price}}.",
+                "CONFIRM":"Make Payment"
+            }
         },
         "PRODUCTS":{
             "MEMBERSHIP":"Abono Premium",
@@ -1354,7 +1355,8 @@
         "CUSTOMER": {
             "EMAIL":"Email",
             "FIRST_NAME":"Nombre",
-            "LAST_NAME":"Apellidos"
+            "LAST_NAME":"Apellidos",
+            "COMPANY": "Company"
         },
         "BILLING": {
             "TITLE":"Dirección de facturación",
@@ -2030,7 +2032,9 @@
                 "FORAGING":"Indice de Pecoreo",
                 "NECTAR":"Indice de Nectar",
                 "HIVE_TEXT":"Texto de la colmena",
-                "HIVE_TEXT_SUMMARY":"Texto"
+                "HIVE_TEXT_SUMMARY":"Texto",
+                "BLOOM":"Bloom",
+                "BLOOM_FORECAST":"Bloom Forecast"
             }
         },
         "CHART":{
@@ -2278,6 +2282,27 @@
             "TEXT_LI_1A":"Hacer lic en",
             "TEXT_LI_1B":"en la parte superior izquierda para añadir colmenas, colmenares y sensores a tu cuenta.",
             "TEXT_LI_2":"O descargar la aplicación BroodMinder Bees para gestionarlas igualmente desde tu móvil."
+        },
+        "BLOCKED":{
+            "TITLE":"Home",
+            "MISSING":"What you're missing!",
+            "DESCR_HIVES":"A quick view of the current state of your hives. Showing notes, alerts, and health stats.",
+            "DESCR_APIARIES":"A quick view of the current state of your apiary. Showing notes, alerts, weather, and forecasts"
         }
+    },
+    "MEMBERSHIP_BLOCKS":{
+        "DASHBOARD_DATA":"This dashboard shows computed data. Your free membership does not include these analytics.",
+        "CHART_DATA":"This chart shows computed data. Your free membership does not include these analytics.",
+        "DASHBOARD_ADD":"Only one custom dashboard is allowed with your free membership",
+        "UNLOCK":"Upgrade your account to unlock this feature",
+        "HIVE_ADD_FREE":"You have {{activeHiveCount}} active hives. Your free membership allows {{hivesAllowed}}.",
+        "HIVE_ADD":"You have {{activeHiveCount}} active hives. Your membership allows {{hivesAllowed}}.",
+        "HOME_PAGE":"This view shows computed data. Your free membership does not include these analytics.",
+        "DATE_PICKER":"Range over 13 months and forecast is not available on a free membership.",
+        "HUB_DATA":"Hub data not uploaded with your free membership",
+        "THIRDPARTY_DATA":"Third party data not uploaded with your free membership",
+        "MISSING_FEATURE":"This feature is not available without a membership.",
+        "MISSING_FEATURE_CLOSE":"Close",
+        "MISSING_FEATURE_UPGRADE":"UPGRADE"
     }
 }
