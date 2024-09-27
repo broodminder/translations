@@ -1,45 +1,74 @@
 {
     "ACCOUNT": {
-        "SUBJECT": "Status da Conta MyBroodMinder",
-        "MESSAGE_1": "Caro(a) {{.name}},",
-        "EXP_2W": "Nossos registros mostram que um ou mais dos seus membros do MyBroodMinder.com estão prestes a expirar em duas semanas.",
-        "EXP_TODAY": "Nossos registros mostram que um ou mais dos seus membros do MyBroodMinder.com estão prestes a expirar hoje.",
-        "MESSAGE_2_MEMBERSHIP_EXP": "Agradecemos por sua participação no último ano. Você realmente faz a diferença. Esperamos que você continue apoiando nossa ciência cidadã e nossos programadores com sua assinatura contínua.",
-        "MESSAGE_2_HUB_EXP": "Nossos registros mostram que você possui um ou mais hubs enviando dados para o MyBroodMinder.com. Por favor, atualize seus membros e tokens para processar e visualizar os dados. Se você não estiver mais usando este hub, recomendamos desligá-lo e retirar a bateria do modo 'sempre ligado'.",
-        "MESSAGE_4": "Você pode atualizar seus membros",
-        "MESSAGE_4_LINK": "aqui",
-        "MESSAGE_5": "Nos últimos cinco anos, investimos muito no MyBroodMinder.com. A equipe recebeu feedback de inúmeros apicultores e fez atualizações para facilitar a ampla variedade de instalações e apiários ao redor do mundo. Estamos encantados com o crescente número de usuários e profundamente agradecidos pela participação de todos.",
-        "MESSAGE_6": "Continuamos comprometidos em fornecer armazenamento gratuito de dados na nuvem em troca de disponibilizar os dados para pesquisadores em todo o mundo. No entanto, como somos totalmente autofinanciados, esperamos que você considere/continue assinando nossos serviços premium e em tempo real para financiar o desenvolvimento contínuo de software e aplicativos.",
-        "MESSAGE_7": "Esperamos que você continue usando e desfrutando dos serviços da BroodMinder. Entre em contato com Mike em Support@BroodMinder.com se tiver dúvidas ou comentários.",
-        "SUMMARY": {
-            "NAME": "Nome",
-            "LAST": "Último acesso",
-            "LENGTH": "Duração",
-            "MEMBERSHIP": "Associação",
-            "TOKENS": "Tokens",
-            "STATUS": "Status",
-            "STATUS_ACTIVE": "Ativo",
-            "STATUS_CANCELLED": "Cancelado",
-            "STATUS_FAILED": "Atrasado",
-            "RENEWS": "Renova",
-            "EXPIRES": "Expira",
-            "PRICE": "Preço",
-            "APIARIES": "Apiários",
-            "HIVES": "Colmeias",
-            "SENSORS": "Sensores BroodMinder",
-            "HUBS": "Dispositivos Hub",
-            "APIARY": "Apiário",
-            "APIARY_NONE": "Nenhum",
-            "ID": "ID",
-            "VERSION": "Versão",
-            "VERSION_UNKNOWN": "Desconhecida",
-            "SIM": "SIM"
+        "CANCELED": {
+            "SUBJECT": "Expiração do MyBroodMinder Premium",
+            "SUBJECT_COMP": "Fim da Associação Premium Complementar do MyBroodMinder",
+            "MESSAGE1": "A sua Associação Premium do MyBroodMinder foi cancelada. Os seus benefícios premium cessarão em duas semanas.",
+            "MESSAGE1_COMP": "A sua Associação Premium Complementar do MybroodMinder está prestes a expirar. Os seus benefícios premium cessarão em duas semanas.",
+            "HEADER": "Se não fizer nada",
+            "MESSAGE2": "Se deseja subscrever novamente,",
+            "MESSAGE3": "siga este link.",
+            "MESSAGE4": "A sua subscrição ajuda a apoiar os nossos esforços contínuos de melhoria da apicultura. Muitos membros da nossa equipa trabalham generosamente como voluntários, mas também temos colegas mais jovens que se dedicam em tempo integral e dependem de um salário."
+        },
+        "EXPIRED": {
+            "SUBJECT": "A Associação Premium do MyBroodMinder Expirou",
+            "MESSAGE1": "A sua Associação Premium do MyBroodMinder expirou ontem. Os seus benefícios premium foram encerrados.",
+            "HEADER": "Sem uma adesão"
+        },
+        "RENEWAL": {
+            "SUBJECT": "MyBroodMinder Premium",
+            "MESSAGE1": "A sua Associação Premium do MyBroodMinder será renovada em duas semanas.",
+            "MESSAGE2": "Obrigado pelo seu apoio. Muitos membros da nossa equipa trabalham generosamente como voluntários, mas também temos colegas mais jovens dedicados em tempo integral e que dependem de um salário. O seu apoio permite-nos continuar a evoluir e a melhorar a solução líder mundial no monitoramento de colmeias.",
+            "PRODUCT": "Produto",
+            "PRODUCT_GENERIC": "Associação Premium do MyBroodminder ({{.count}} colmeias)"
+        },
+        "WARNING": {
+            "HUBS": "Os seus {{.count}} hubs deixarão de enviar dados.",
+            "HIVES": "Tem {{.count}} colmeias, mas a sua associação permite {{.allowCount}}. Terá de desativar {{.deactCount}} colmeias.",
+            "THIRD_PARTY": "Os seus {{.count}} dispositivos de terceiros deixarão de enviar dados.",
+            "ACCOUNT": "Deixará de ter acesso a funcionalidades Premium. Incluindo, mas não limitado a, dados calculados, alertas e previsões."
         }
     },
     "RECEIPT": {
         "PURCHASE": {
             "SUBJECT": "Compra da Associação MyBroodMinder {{.type}}",
-            "MESSAGE": "Obrigado por comprar uma Associação MyBroodMinder {{.type}}."
+            "MESSAGE1": "Obrigado por adquirir a Associação Premium do MyBroodMinder!",
+            "MESSAGE2": "Ao juntar-se a nós, não está apenas a apoiar a equipa do BroodMinder, mas também a contribuir para toda a comunidade do BroodMinder e, o mais importante, para o bem-estar das abelhas e o futuro da apicultura. O seu apoio é crucial, pois continuamos a melhorar a gestão de colmeias e a promover práticas sustentáveis que beneficiam as abelhas em todo o mundo.",
+            "MESSAGE3": "Embora muitos membros da nossa equipa trabalhem generosamente como voluntários, também temos colegas mais jovens que são dedicados em tempo integral e dependem de um salário. A sua associação ajuda-nos a evoluir e a manter a principal solução mundial no monitoramento de colmeias.",
+            "MESSAGE4": "Incentivamo-lo a explorar a nossa extensa documentação e biblioteca de vídeos. Projetamos o sistema para ser simples, mas poderoso, com muitos recursos disponíveis para ajudá-lo a desbloquear todo o seu potencial.",
+            "MESSAGE5": "Se precisar de assistência, não hesite em contactar-nos em support@broodminder.com."
+        },
+        "PAYMENT": {
+            "SUBJECT": "Pagamento Recebido",
+            "MESSAGE": "Obrigado, recebemos o pagamento pela sua Associação Premium do MyBroodMinder",
+            "PAID": "Pago em",
+            "PRODUCT": {
+                "TITLE": "Produtos",
+                "NEW": "Associação Premium do MyBroodminder {{.count}} colmeias por um ano. (Renova em {{.date}}) {{.amount}}",
+                "UPGRADE": "Atualização para Associação Premium do MyBroodminder para %v colmeias por ano. (Renova em %v) %v"
+            },
+            "CUSTOMER": {
+                "TITLE": "Cliente",
+                "EMAIL": "Email",
+                "NAME": "Nome",
+                "COMPANY": "Empresa"
+            },
+            "TRANSACTION": {
+                "TITLE": "Transação",
+                "TYPE": "Tipo",
+                "AMOUNT": "Valor",
+                "DATE": "Data",
+                "STATUS": "Estado",
+                "TRANSACTION_ID": "ID da Transação",
+                "TYPE_CREDIT": "Cartão de Crédito",
+                "CARD_TYPE": "Tipo de Cartão",
+                "CARD_HOLDER": "Nome do Titular do Cartão",
+                "CARD_NUMBER": "Número do Cartão de Crédito",
+                "TYPE_PAYPAL": "Conta PayPal",
+                "PAYPAL_EMAIL": "Email do Pagador",
+                "PAYPAL_FNAME": "Primeiro Nome do Pagador",
+                "PAYPAL_LNAME": "Sobrenome do Pagador"
+            }
         },
         "UPDATE": {
             "SUBJECT": "Alterações na Associação {{.type}} MyBroodMinder",
@@ -51,11 +80,18 @@
         },
         "ORDER_ID": "ID do Pedido",
         "STATUS": "Status",
-        "TAX": "Imposto",
+        "PRODUCT": "Produto",
+        "PRODUCT_GENERIC": "Associação Premium do MyBroodminder ({{.count}} colmeias)",
         "TOTAL_NOW": "Total Pago Agora",
         "AR_DATE": "Data de Renovação Automática",
         "AR_AMOUNT": "Valor de Renovação Automática",
         "MANAGE_LINK": "Gerenciar associação em"
+    },
+    "CANCEL": {
+        "SUBJECT": "Associação Premium do MyBroodMinder Cancelada",
+        "MESSAGE1": "A sua Associação Premium do MyBroodMinder foi cancelada.",
+        "MESSAGE2": "Os seus benefícios premium continuarão até {{.date}}. Enviaremos um lembrete duas semanas antes do término e você poderá se inscrever novamente se mudar de ideia.",
+        "MESSAGE3": "A sua subscrição ajuda a apoiar os nossos esforços contínuos de melhoria da apicultura. Muitos membros da nossa equipa trabalham generosamente como voluntários, mas também temos colegas mais jovens que são dedicados em tempo integral e dependem de um salário."
     },
     "PAYMENT_FAIL": {
         "SUBJECT": "Falha no Pagamento da Associação MyBroodminder",
@@ -74,7 +110,10 @@
             "HOBBY": "Hobby",
             "PREMIUM": "Premium",
             "PRO": "Pro"
-        }
+        },
+        "SIGNOFF1": "Lembre-se:",
+        "SIGNOFF2": "Cada Colmeia Conta",
+        "SIGNOFF3": "A Sua Equipa do BroodMinder"
     },
     "ACCOUNT_DELETE": {
         "SUBJECT": "Status de Exclusão de Conta",

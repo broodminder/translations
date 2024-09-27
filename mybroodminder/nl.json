@@ -44,24 +44,24 @@
         "HOME": "Home",
         "CONFIGURE": "Configuren",
         "MEMBERSHIPS": "Membership Options",
-        "NEW":{
-            "TITLE":"New",
-            "APIARY":"Apiary",
-            "HIVE":"Hive",
-            "DEVICE":"Device",
-            "DASHBOARD":"Custom Dashboard",
-            "APIARY_NOTE":"Apiary Note",
-            "HIVE_NOTE":"Hive Note"
+        "NEW": {
+            "TITLE": "New",
+            "APIARY": "Apiary",
+            "HIVE": "Hive",
+            "DEVICE": "Device",
+            "DASHBOARD": "Custom Dashboard",
+            "APIARY_NOTE": "Apiary Note",
+            "HIVE_NOTE": "Hive Note"
         },
-        "MULTI_SELECT":"Multi-Select",
-        "CLEAR_SEL":"Clear all selections",
+        "MULTI_SELECT": "Multi-Select",
+        "CLEAR_SEL": "Clear all selections",
         "APIARY_CONTEXT": {
             "EDIT": "Bewerk {{value}}",
             "NEW_HIVE": "Nieuwe bijenkast",
             "SHARE": "Delen",
             "BEECOUNTED": "BeeCounted",
             "RESEARCH_DOWNLOAD": "Onderzoeker data download",
-            "REMOVE_SHARED_APIARY":"Remove shared apiary"
+            "REMOVE_SHARED_APIARY": "Remove shared apiary"
         },
         "HIVE_CONTEXT": {
             "EDIT": "Bewerk {{value}}",
@@ -69,7 +69,7 @@
             "EXISTING_DEVICE": "Bestaande sensor toevoegen",
             "BEECOUNTED": "BeeCounted",
             "MOVE": "Bijenkorf verplaatsen",
-            "ARCHIVE":"Set Hive as Inactive"
+            "ARCHIVE": "Set Hive as Inactive"
         },
         "DEVICE_CONTEXT": {
             "EDIT": "Bewerk {{value}}",
@@ -79,25 +79,25 @@
         "HUB_CONTEXT": {
             "REMOVE": "Verwijder {{value}} uit menu"
         },
-        "WEATHER_SOURCE":"WeatherSource",
-        "LOCAL_SOURCE":"Local Source",
+        "WEATHER_SOURCE": "WeatherSource",
+        "LOCAL_SOURCE": "Local Source",
         "WEATHER_CONTEXT": {
             "NAME": "Weather",
             "EDIT": "Edit Weather",
-            "ADD_SOURCE":"Add Source",
-            "EDIT_SOURCES":"Edit Sources",
-            "INFO":"More Information"
+            "ADD_SOURCE": "Add Source",
+            "EDIT_SOURCES": "Edit Sources",
+            "INFO": "More Information"
         },
-        "WEATHER_INFO":{
-            "TITLE":"WeatherSource Weather",
-            "TEXT":"This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
+        "WEATHER_INFO": {
+            "TITLE": "WeatherSource Weather",
+            "TEXT": "This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
         },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "Gedeeld met mij",
-        "NEW_FEATURES":"New Features",
-        "RESOURCES":"Resources",
-        "DOCUMENTATION":"Documentation",
-        "SUPPORT_EMAIL":"Email support@broodminder.com"
+        "NEW_FEATURES": "New Features",
+        "RESOURCES": "Resources",
+        "DOCUMENTATION": "Documentation",
+        "SUPPORT_EMAIL": "Email support@broodminder.com"
     },
     "TOP_MENU": {
         "ACCOUNT": "Account",
@@ -148,7 +148,7 @@
             "LINK_4": "Apparaten verplaatsen",
             "LINK_5": "Cell, WIFI en Hub Monitoring",
             "LINK_6": "Alternatieve navigatie",
-            "LINK_7":"MyBroodMinder.com Premium"
+            "LINK_7": "MyBroodMinder.com Premium"
         },
         "APPS": {
             "TITLE": "Apps",
@@ -220,12 +220,12 @@
         "PREMIUM_EXP": "Tijdspanne is beschikbaar met een premium abonnement",
         "TEXT": {
             "TITLE": "Tekst",
-            "DESCRIPTION": "Dit overzicht laat de meest recent geuploade waarde van elke positie in elke bijenkast zien."
+            "DESCRIPTION": "Dit overzicht laat de meest recent geuploade waarde van elke positie in elke bijenkast zien.",
+            "MOVED_EXP": "Kast verplaatst"
         },
         "HIVE": {
             "TITLE": "Bijenkast",
-            "DESCRIPTION": "Dit overzicht laat een beknopte grafiek zien voor elke bijenkast. Gewichtsweergave: zwaarste waarde. Luchtvochtigheid en temperatuurweergave: 1-Boven onderste broedkamer 2-Boven bovenste broedkamer 3-Onder binnenste deksel 4-Anders 5-Custom (hoogste waarde) 6-Buiten de kast 7-Onder de kast",
-            "MOVED_EXP": "Hive moved"
+            "DESCRIPTION": "Dit overzicht laat een beknopte grafiek zien voor elke bijenkast. Gewichtsweergave: zwaarste waarde. Luchtvochtigheid en temperatuurweergave: 1-Boven onderste broedkamer 2-Boven bovenste broedkamer 3-Onder binnenste deksel 4-Anders 5-Custom (hoogste waarde) 6-Buiten de kast 7-Onder de kast"
         },
         "SUMMARY": {
             "TITLE": "Samenvatting",
@@ -298,7 +298,7 @@
         "DOWNLOAD_WEATHER": "Weerdata als CSV downloaden",
         "DOWNLOAD_PREMIUM": "Kastdata downloaden beschikbaar in Premium abonnement.",
         "DOWNLOAD_WEATHER_PREMIUM": "Weerdata downloaden beschikbaar in Premium abonnement.",
-        "INACTIVE":"Inactive since {{date}}"
+        "INACTIVE": "Inactive since {{date}}"
     },
     "DEVICE_PAGE": {
         "DATA_TOOLTIP": {
@@ -383,37 +383,35 @@
         "CHART_READINGS_SENT": "Metingen verstuurd",
         "CHART_READINGS_LABEL": "metingen",
         "CHART_SIGNAL": "Signaal",
-        "DEVICES":{
+        "DEVICES": {
             "TITLE": "Devices Uploaded",
-            "DEVICE":"Device",
-            "SIGNAL":"Signal",
-            "TIMESTAMP":"Upload Timestamp",
-            "HIVE":"Hive",
-            "POSITION":"Position"
+            "DEVICE": "Device",
+            "SIGNAL": "Signal",
+            "TIMESTAMP": "Upload Timestamp",
+            "HIVE": "Hive",
+            "POSITION": "Position"
         }
     },
-    "WEATHER_PAGE":{
-        "TITLE":"Weather",
-        "DESCRIPTION":"This view displays the Weather Source weather data for your apiary location, along with any user set weather sources",
-        "SOURCES":"Weather Sources",
-        "TEMPERATURE":"Temperature",
-        "HUMIDITY":"Humidity"
+    "WEATHER_PAGE": {
+        "TITLE": "Weather",
+        "DESCRIPTION": "This view displays the Weather Source weather data for your apiary location, along with any user set weather sources",
+        "SOURCES": "Weather Sources",
+        "TEMPERATURE": "Temperature",
+        "HUMIDITY": "Humidity"
     },
     "CONFIGURE_PAGE": {
         "TITLE": "Instellingen",
-        "SEPARATE": "Per type",
-        "NESTED": "Per type per bijenstal",
-        "ACCOUNT_TITLE": "Mijn account",
-        "PREFERENCES_TITLE": "My voorkeuren",
         "APIARIES_TITLE": "Bijenstallen",
         "HIVES_TITLE": "Bijenkasten",
         "DEVICES_TITLE": "Apparaten",
         "HUBS_TITLE": "Hubs",
         "LINKS_TITLE": "Public Links",
         "THIRD_PARTY_TITLE": "Third Party Devices",
-        "SUBSCRIPTIONS_TITLE":"My Subscriptions",
-        "DASHBOARDS_TITLE":"Dashboards",
-        "ALERTS_TITLE":"Alerts"
+        "SUBSCRIPTIONS_TITLE": "My Subscriptions",
+        "SUBSCRIPTIONS_MOVED1": "Verplaatst naar",
+        "SUBSCRIPTIONS_MOVED2": "Accountpagina",
+        "DASHBOARDS_TITLE": "Dashboards",
+        "ALERTS_TITLE": "Alerts"
     },
     "FEATURES": {
         "TITLE": "Feature Tour",
@@ -430,8 +428,8 @@
         "START": "Start",
         "END": "Einde",
         "APPLY": "Toepassen",
-        "INVALID_START":"Invalid start date",
-        "INVALID_END":"Invalid end date",
+        "INVALID_START": "Invalid start date",
+        "INVALID_END": "Invalid end date",
         "HOURS_24": "24 uur",
         "DAYS_1": "Last 1 days",
         "DAYS_3": "Laatste 3 dagen",
@@ -442,38 +440,39 @@
         "DAYS_180": "Laatste 180 dagen",
         "YEAR_1": "Laatste jaar",
         "YEAR_2": "Last 2 years",
+        "MONTHS_13": "Laatste 13 maanden",
         "CUSTOM": "Keuze periode",
         "INFO": "Premium or pro membership required to view data older than one year. You can access older data by csv download on the device view.",
-        "FORECAST":{
-            "SHOW":"Show 10 day forecast",
-            "ON":"Forecast On",
-            "OFF":"Forecast Off"
+        "FORECAST": {
+            "SHOW": "Show 10 day forecast",
+            "ON": "Forecast On",
+            "OFF": "Forecast Off"
         },
-        "TODAY":"Today",
-        "YESTERDAY":"Yesterday",
-        "TOMMOROW":"Tomorrow",
-        "DAYS_SHORT":{
-            "0":"Sun",
-            "1":"Mon",
-            "2":"Tue",
-            "3":"Wed",
-            "4":"Thu",
-            "5":"Fri",
-            "6":"Sat"
+        "TODAY": "Today",
+        "YESTERDAY": "Yesterday",
+        "TOMMOROW": "Tomorrow",
+        "DAYS_SHORT": {
+            "0": "Sun",
+            "1": "Mon",
+            "2": "Tue",
+            "3": "Wed",
+            "4": "Thu",
+            "5": "Fri",
+            "6": "Sat"
         },
-        "MONTHS_SHORT":{
-            "0":"Jan",
-            "1":"Feb",
-            "2":"Mar",
-            "3":"Apr",
-            "4":"May",
-            "5":"Jun",
-            "6":"Jul",
-            "7":"Aug",
-            "8":"Sep",
-            "9":"Oct",
-            "10":"Nov",
-            "11":"Dev"
+        "MONTHS_SHORT": {
+            "0": "Jan",
+            "1": "Feb",
+            "2": "Mar",
+            "3": "Apr",
+            "4": "May",
+            "5": "Jun",
+            "6": "Jul",
+            "7": "Aug",
+            "8": "Sep",
+            "9": "Oct",
+            "10": "Nov",
+            "11": "Dev"
         }
     },
     "DATE_PICKER_SHORT": {
@@ -486,7 +485,8 @@
         "DAYS_90": "90 days",
         "DAYS_180": "180 days",
         "YEAR_1": "1 year",
-        "YEAR_2": "2 years"
+        "YEAR_2": "2 years",
+        "MONTHS_13": "13 maanden"
     },
     "NOTES": {
         "TITLE": "{{value}} Notities",
@@ -526,9 +526,9 @@
         },
         "BROOD_ZONE": "Brood Zone",
         "HUMIDITY_NORMAL": "Normal",
-        "PRESSURE":"Pressure",
-        "WIND_MAX":"Wind upper limit",
-        "FIRMWARE":"Firmware"
+        "PRESSURE": "Pressure",
+        "WIND_MAX": "Wind upper limit",
+        "FIRMWARE": "Firmware"
     },
     "LOCATION_HIST": {
         "HIVE": "Bijenkast",
@@ -599,7 +599,7 @@
         "CREATE_TITLE": "Bijenstal aanmaken",
         "EDIT_TITLE": "Bijenstal bewerken",
         "NAME": "Naam",
-        "COLOR":"Color",
+        "COLOR": "Color",
         "ZIPCODE": "Postcode",
         "EDIT_ZIP_EXP": "Je kunt de locatie van een bijenstal met data niet wijzigen.",
         "COUNTRY": "Landcode",
@@ -631,35 +631,35 @@
                 "CONFIRM": "Yes"
             }
         },
-        "WEATHER":{
-            "TITLE":"Edit Weather",
-            "READING":"Reading",
+        "WEATHER": {
+            "TITLE": "Edit Weather",
+            "READING": "Reading",
             "START": "Start",
             "START_OPEN": "open",
             "END": "End",
             "END_OPEN": "current",
-            "DESCRIPTION":"Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
-            "MEASUREMENT":"Measurement",
+            "DESCRIPTION": "Select a device or hub as your Apiary weather source for humidity and/or temperature. Any time range without a device will default to Weather Source. ",
+            "MEASUREMENT": "Measurement",
             "EDIT": {
                 "EDIT_TEMPERATURE": "Edit Temperature Source",
                 "EDIT_HUMIDITY": "Edit Humidity Source",
                 "ADD_TEMPERATURE": "Add Temperature Source",
                 "ADD_HUMIDITY": "Add Humidity Source",
                 "SELECT_DEVICE": "Select device",
-                "ENDING_CURRENT":"Ending Source",
+                "ENDING_CURRENT": "Ending Source",
                 "SUCCESS": "Changes saved",
                 "ERROR_INVALID_PREV_OVERLAP": "Time invalid, overlaps previous apiary location",
                 "ERROR_INVALID_NEXT_OVERLAP": "Time invalid, overlaps next apiary location",
                 "ERROR_DEVICE_REQUIRED": "Must select a device for all weather sources",
-                "ERROR_START_REQUIRED":"Must select a start time for the weather source"
+                "ERROR_START_REQUIRED": "Must select a start time for the weather source"
             },
-            "DIALOG":{
-                "TITLE":"Edit Weather",
-                "SUCCESS_UPDATED":"Apiary weather updated",
-                "TEMPERATURE":"Temperature",
-                "HUMIDITY":"Humidity",
-                "ADD_TEMPERATURE":"Add Temperature",
-                "ADD_HUMIDITY":"Add Humidity"
+            "DIALOG": {
+                "TITLE": "Edit Weather",
+                "SUCCESS_UPDATED": "Apiary weather updated",
+                "TEMPERATURE": "Temperature",
+                "HUMIDITY": "Humidity",
+                "ADD_TEMPERATURE": "Add Temperature",
+                "ADD_HUMIDITY": "Add Humidity"
             }
         }
     },
@@ -667,7 +667,7 @@
         "CREATE_TITLE": "Bijenkast aanmaken",
         "EDIT_TITLE": "Bijenkast bewerken",
         "NAME": "Naam",
-        "COLOR":"Color",
+        "COLOR": "Color",
         "SELECT_APIARY": "Bijenstal selecteren",
         "DESCRIPTION": "Omschrijving",
         "ERROR_APIARY": "Je moet een bijenstal selecteren",
@@ -748,8 +748,8 @@
         "SUCCESS_CREATED": "Notitie aangemaakt voor bijenkast",
         "SUCCESS_UPDATED": "Notitie bijgewerkt voor bijenkast",
         "ERROR_TIME": "Ongeldige tijd",
-        "APIARY":{
-            "STATE":"General State"
+        "APIARY": {
+            "STATE": "General State"
         }
     },
     "HUB_CRUD": {
@@ -798,19 +798,19 @@
             "LINK": "Link",
             "CREATED": "Created"
         },
-        "DASHBOARD":"Dashboard",
-        "HIVES":"Hives",
-        "WEATHER":"Weather",
-        "FORECAST":"Include Forecast",
-        "UNITS":{
-            "TITLE":"Units",
-            "BROWSER":"Browser Default",
-            "METRIC":"Metric",
-            "IMPERIAL":"Imperial"
+        "DASHBOARD": "Dashboard",
+        "HIVES": "Hives",
+        "WEATHER": "Weather",
+        "FORECAST": "Include Forecast",
+        "UNITS": {
+            "TITLE": "Units",
+            "BROWSER": "Browser Default",
+            "METRIC": "Metric",
+            "IMPERIAL": "Imperial"
         },
-        "TIMEZONE":{
-            "TITLE":"Timezone",
-            "BROWSER":"Browser Default"
+        "TIMEZONE": {
+            "TITLE": "Timezone",
+            "BROWSER": "Browser Default"
         }
     },
     "SHARE_BUTTON": {
@@ -852,38 +852,12 @@
     },
     "ACCOUNT": {
         "TITLE": "My Account",
+        "DETAILS": "Gebruikersgegevens",
+        "SETTINGS": "Regionale instellingen",
         "EMAIL": "Email",
         "FIRST_NAME": "Voornaam",
         "LAST_NAME": "Achternaam",
         "MEMBERSHIP": "Membership",
-        "SUB_TYPES": {
-            "FREE": "Free",
-            "HOBBY": "Hobby",
-            "PREMIUM": "Premium renewing on {{expiration}}",
-            "PREMIUM_CANCELLED": "Premium expiring on {{expiration}}",
-            "PREMIUM_EXPIRED": "Premium expired on {{expiration}}",
-            "PRO": "Pro renewing on {{expiration}}",
-            "PRO_CANCELLED": "Pro expiring on {{expiration}}",
-            "PRO_EXPIRED": "Pro expired on {{expiration}}",
-            "TRIAL": "Trial membership, expires on {{expiration}}"
-        },
-        "PURCHASE": "Premium Abonnement aanschaffen",
-        "PREMIUM_LANDING": "View Membership Options",
-        "CONFIRM": "Bevestig Premium Abonnement",
-        "SAVE": "Opslaan",
-        "CONFIRM_SUB_WINDOW": {
-            "TITLE": "Bestig aanschaf premium abonnement ",
-            "DESCRIPTION": "Vul code uit bevestigings email in",
-            "CONFIRMATION_NUMBER": "Bevstigingscode",
-            "CONFIRM": "Bevestigen",
-            "VALID": "Geldige code",
-            "PURCHASED": "Aangeschaft op",
-            "ERROR": {
-                "NOT_FOUND": "Geen aangeschaft abonnement gevonden",
-                "USED_THIS_ACCOUNT": "Al bevestigd voor dit account, loopt af op {{value}}",
-                "USED_OTHER_ACCOUNT": "Al bevestigd voor een ander account"
-            }
-        },
         "EDIT_EMAIL": {
             "BUTTON": "Change Account Email",
             "TITLE": "Change Account Email",
@@ -902,33 +876,55 @@
             "NEW_PASSWORD": "New Password",
             "SAVE_BUTTON": "Save Change"
         },
-        "DELETE":{
-            "SHOW":"Show options",
-            "HIDE":"Hide options",
-            "DELETE_BUTTON":"Delete Account",
-            "WARNING":"You are about to delete your account. This deletes all data, including what is specified below. Confirm this request to delete your account.",
-            "HEADERS":{
-                "REQUESTED":"Delete Requested",
-                "DEVICES":"Devices",
-                "HIVES":"Hives",
-                "APIARIES":"Apiaries",
-                "HUBS":"Hubs",
-                "SUBS_TO_CANCEL":"Subscriptions to Cancel",
-                "STARTED":"Started",
-                "ACCOUNT":"Account",
-                "COMPLETED":"Completed"
+        "DELETE": {
+            "SHOW": "Show options",
+            "HIDE": "Hide options",
+            "DELETE_BUTTON": "Delete Account",
+            "WARNING": "You are about to delete your account. This deletes all data, including what is specified below. Confirm this request to delete your account.",
+            "HEADERS": {
+                "REQUESTED": "Delete Requested",
+                "DEVICES": "Devices",
+                "HIVES": "Hives",
+                "APIARIES": "Apiaries",
+                "HUBS": "Hubs",
+                "SUBS_TO_CANCEL": "Subscriptions to Cancel",
+                "STARTED": "Started",
+                "ACCOUNT": "Account",
+                "COMPLETED": "Completed"
             },
-            "CONFIRM_BUTTON_1":"Confirm Delete",
-            "STATUS":"Account Deletion Status",
-            "DELETE_REDIRECT":"Account deleted, you will be redirected in {{seconds}} seconds",
-            "CONFIRM_DIALOG":{
-                "TITLE":"Confirm Delete",
-                "MESSAGE":"Deleting your account deletes ALL DATA and CANNOT be recovered. Are you sure you want to delete your account?",
-                "CONFIRM":"DELETE ACCOUNT",
-                "EMAIL_ERROR":"This email does not match your account."
+            "CONFIRM_BUTTON_1": "Confirm Delete",
+            "STATUS": "Account Deletion Status",
+            "DELETE_REDIRECT": "Account deleted, you will be redirected in {{seconds}} seconds",
+            "CONFIRM_DIALOG": {
+                "TITLE": "Confirm Delete",
+                "MESSAGE": "Deleting your account deletes ALL DATA and CANNOT be recovered. Are you sure you want to delete your account?",
+                "CONFIRM": "DELETE ACCOUNT",
+                "EMAIL_ERROR": "This email does not match your account."
             },
-            "REQUEST_ERROR":"Error, request could not be made.",
-            "DELETE_ERROR":"There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{id}})"
+            "REQUEST_ERROR": "Error, request could not be made.",
+            "DELETE_ERROR": "There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{id}})"
+        },
+        "TIER_SUB": {
+            "SUMMARY": {
+                "FREE": "Gratis lidmaatschap",
+                "COMP": "Complementair lidmaatschap",
+                "PAID": "Lidmaatschapabonnement",
+                "ALLOWED": "{{count}} kasten toegestaan"
+            },
+            "PAID": {
+                "TITLE": "Lidmaatschapsabonnement",
+                "PURCHASE": "Lidmaatschap kopen",
+                "ALLOWED": "Momenteel {{count}} kasten toegestaan",
+                "NEXT": "Volgende vernieuwing ({{date}}), {{count}} kasten toegestaan",
+                "CANCELED": "Geannuleerd - Verloopt op {{date}}",
+                "CANCELED_PAST": "Geannuleerd - Verlopen op {{date}}"
+            },
+            "COMP": {
+                "TITLE": "Complementair lidmaatschap",
+                "ALLOWED": "Toegestane kasten",
+                "END": "Einddatum",
+                "EXPIRED": "verlopen"
+            }
         }
     },
     "PREFERENCES": {
@@ -986,21 +982,21 @@
             "TITLE": "Archiveer bijenkast",
             "MESSAGE": "Dit beëindigt alle sensorlocaties in de bijenkast en verwijdert de kast uit je overzichten. Bestaande data blijft bewaard, maar er zal geen nieuwe data voor deze kast bijkomen. Dit kan niet ongedaan gemaakt worden. Bijenkast {{name}} archiveren?",
             "CONFIRM": "Ja",
-            "REASON":"Select Reason",
-            "REASONS":{
-                "OTHER":"Other",
-                "DIED":"Died",
-                "ABSCONDED":"Absconded",
-                "COMBINED":"Combined with another colony"
+            "REASON": "Select Reason",
+            "REASONS": {
+                "OTHER": "Other",
+                "DIED": "Died",
+                "ABSCONDED": "Absconded",
+                "COMBINED": "Combined with another colony"
             },
-            "COMMENT":"Comment"
+            "COMMENT": "Comment"
         },
         "UPDATED_SUCCESS": "Kast geupdate",
         "DELETE_SUCCESS": "Kast verwijderd",
         "DELETE_ERROR": "Fout bij verwijderen kast"
     },
     "CONFIGURE_HUBS": {
-        "FILTER":"Filter",
+        "FILTER": "Filter",
         "BATTERY": "Battery",
         "NAME": "Name",
         "APIARY": "Apiary",
@@ -1023,8 +1019,8 @@
             "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "This credit can be used for many third party devices",
             "PURCHASE_CREDIT": "Purchase New",
             "UPDATED_SUCCESS": "Hub updated",
-            "ASSIGNMENT_SUCCESS":"Assignment updated",
-            "ASSIGNMENT_REMOVED":"Token removed",
+            "ASSIGNMENT_SUCCESS": "Assignment updated",
+            "ASSIGNMENT_REMOVED": "Token removed",
             "BACK_BUTTON": "Back",
             "REMOVE": {
                 "TITLE": "Remove Token",
@@ -1043,7 +1039,7 @@
                 "ERROR_5": "This token has already been cancelled",
                 "ERROR_6": "This token is free with your subscription and cannot be cancelled. Visit account page if you would like to cancel you premium membership",
                 "GENERAL_ERROR": "Error occured. Token not cancelled",
-                "SUCCESS":"Token cancelled"
+                "SUCCESS": "Token cancelled"
             },
             "REACTIVATE": {
                 "TITLE": "Reactivate Token",
@@ -1074,8 +1070,8 @@
     },
     "CONFIGURE_DEVICES": {
         "ADD": "Sensor toevoegen",
-        "FILTER_LOCATION":"Filter Location",
-        "FILTER_NAME":"Filter Name",
+        "FILTER_LOCATION": "Filter Location",
+        "FILTER_NAME": "Filter Name",
         "DOWNLOAD": "Sensors downloaden",
         "NAME": "Sensor naam",
         "ADDRESS": "Sensor adres",
@@ -1158,7 +1154,7 @@
             "CHECKBOX": "Bee-life.eu",
             "CHANGED": "Apiary updated",
             "INFO": "Share your sensor data with Bee Life association through the European Union Pollinator Hub to improve pollinator policy by leveraging advanced technology and data-driven insights collected by beekepers.\n\nThe data being shared:\n- all devices in this apiary with their raw measurements.\n- a rough location of the apiary based on postal code.\n\nData is sent daily to BeeLife.",
-            "EXTERNAL_INFO":"Learn more"
+            "EXTERNAL_INFO": "Learn more"
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera(Beta)",
@@ -1178,12 +1174,12 @@
             "CHANGED": "Bijenkast geupdate",
             "SHARE_EXPIRED": "Premium abonnement verlopen. Data is alleen privé voorafgaand aan {{end}}."
         },
-        "REMOVE_SELF":{
-            "TITLE":"Remove Shared Apiary",
-            "MESSAGE":"Would you like to remove the shared apiary {{name}} from your account?",
-            "CONFIRM":"Remove Apiary",
-            "SUCCESS_REMOVED":"Apiary removed",
-            "GENERIC_ERROR":"Error, apiary not removed"
+        "REMOVE_SELF": {
+            "TITLE": "Remove Shared Apiary",
+            "MESSAGE": "Would you like to remove the shared apiary {{name}} from your account?",
+            "CONFIRM": "Remove Apiary",
+            "SUCCESS_REMOVED": "Apiary removed",
+            "GENERIC_ERROR": "Error, apiary not removed"
         }
     },
     "POSITIONS": {
@@ -1233,104 +1229,109 @@
             "MONTHLY_CAP": "Monthly",
             "YEARLY_CAP": "Yearly",
             "FREE_CAP": "Free",
-            "PREPAID_CAP":"Pre-paid"
+            "PREPAID_CAP": "Pre-paid"
         }
     },
     "MEMBERSHIP": {
-        "YEARLY": "YEARLY",
-        "MONTHLY": "MONTHLY",
-        "HOBBY": "HOBBY",
+        "TITLE": "MyBroodMinder Premium",
         "PREMIUM": "PREMIUM",
-        "PRO": "PRO",
-        "HOBBY_PRICE": "FREE",
-        "YEAR": "Year",
-        "MONTH": "Month",
-        "FREE_STORAGE": "FREE STORAGE ON CLOUD",
-        "DATA_DISPLAY": "DATA DISPLAY",
-        "12_MONTH": "12 months",
-        "FULL_HIST": "full history",
-        "PUBLIC_APIARY": "PUBLIC APIARY",
-        "PUBLIC_INFO": "on BeeCounted.org",
-        "PRIVATE_APIARY": "PRIVATE APIARY",
-        "MS_VIEWS": "MELLISPHERA VIEWS",
-        "MBM_VIEWS": "MYBROODMINDER PREMIUM VIEWS",
-        "MBM_VIEWS_INFO": "Apiary and productivity views/charts",
-        "COLONY_BROOD": "COLONY BROOD",
-        "COLONY_FITNESS": "COLONY FITNESS",
-        "DAILY_ALERTS": "DAILY ALERTS",
-        "EMAIL_SUMMARY": "EMAIL SUMMARY",
-        "TITLE_2": "BROODMINDER DEVICES & APIARY APP",
-        "UNLIMITED_DEVICES": "UNLIMITED DEVICES",
-        "DATA_UPLOADING": "DATA UPLOADING",
-        "1_DEVICE": "1 device at a time",
-        "ALL_DEVICE": "all devices at once",
-        "HUB_MODE": "HUB MODE",
-        "HUB_INFO": "Possibility to use a smartphone instead of a hub to upload real time data",
-        "SUB_HUB":"SUBHUB",
-        "WIFI_HUB":"WIFI HUB",
-        "CELL_HUB":"CELL HUB",
-        "THIRD_PARTY":"THIRD PARTY DEVICES",
-        "REALTIME_ALERTS": "REAL TIME ALERTS",
-        "SUPPORT": "SUPPORT",
-        "FULL_SUPPORT": "PREMIUM SUPPORT",
-        "BUY": "Buy Now",
-        "PURCHASE_MEMBERSHIP":"Purchase Membership",
-        "PURHASE_TOKENS":"Purchase Tokens",
-        "LOGIN": "Log In/Register",
-        "INFO_1":"Membership includes a free token for wifi devices. Extra tokens to be purchased for cell hubs.",
-        "INFO_2":"Multiple Yolink devices can be added to your account (see user guide)"
+        "PREMIUM_PRICE": "Geprijsd op basis van aantal kasten",
+        "FREE": "GRATIS",
+        "FREE_PRICE": "GRATIS",
+        "SECTION1": "Op het veld beproefde sensoren",
+        "SEC1_ITEM1": "BroodMinder-T2 temperatuur",
+        "SEC1_ITEM2": "BroodMinder-TH2 temperatuur/vochtigheid",
+        "SEC1_ITEM3": "BroodMinder-W & W3 gewichten",
+        "SEC1_ITEM4": "BroodMinder-BeeDar activiteit bij ingang en kolonie",
+        "SEC1_ITEM5": "BroodMinder-T91 weersensor",
+        "SEC1_ITEM6": "Levensduur batterij van 5 jaar voor sensor",
+        "SEC1_ITEM7": "1 jaar garantie",
+        "SECTION2": "Bijen-app",
+        "SEC2_ITEM1": "Gratis app",
+        "SEC2_ITEM2": "Sensoren uitlezen",
+        "SEC2_ITEM3": "Weergave van geschiedenisgegevens",
+        "SEC2_ITEM4": "Logboek",
+        "SEC2_ITEM5": "Weeralmanak",
+        "SEC2_ITEM6": "Beheren van kast-/sensorlocaties",
+        "SEC2_ITEM7": "Weersvoorspelling",
+        "SEC2_ITEM8": "Miellée voorspelling",
+        "SEC2_ITEM9": "Kastproductiviteit",
+        "SEC2_ITEM10": "Broedraming",
+        "SEC2_ITEM11": "Waarschuwingen voor rucher en kast",
+        "SECTION3": "MyBroodMinder.com",
+        "SEC3_ITEM1": "Gegevensopslag",
+        "SEC3_ITEM2": "Rucher/kast beheer",
+        "SEC3_ITEM3": "Logboek",
+        "SEC3_ITEM4": "Berekende resultaten - analyses",
+        "SEC3_ITEM5": "Dashboards",
+        "SEC3_ITEM6": "Multi-kast selectie om kasten & ruchers te vergelijken",
+        "SEC3_ITEM7": "Foto's van kasten/ruchers",
+        "SEC3_ITEM8": "Weersvoorspelling",
+        "SEC3_ITEM9": "Sensor-, kast- en weerwaarschuwingen",
+        "SEC3_ITEM10": "Cell hub (real time data) ondersteuning",
+        "SEC3_ITEM11": "WiFi hub (real time data) ondersteuning",
+        "SEC3_ITEM12": "LoRa hub (real time data) ondersteuning",
+        "SEC3_ITEM13": "Gegevensdownload (CSV)",
+        "SEC3_ITEM14": "Gegevens delen",
+        "SEC3_ITEM15": "Deelbare links",
+        "SEC3_ITEM16": "Bloeiende kalender",
+        "SEC3_ITEM17": "Ondersteuning van derden (YoLink)",
+        "HIVE_LIMIT": "5 bijenkorven",
+        "MONTH_LIMIT": "13 maanden",
+        "DASHBOARD_LIMIT": "1 aangepast",
+        "PURCHASE_MEMBERSHIP": "Purchase Membership",
+        "CHANGE_MEMBERSHIP": "Wijzig lidmaatschap",
+        "LOGIN": "Log In/Register"
     },
     "PURCHASE": {
         "SUMMARY": {
             "TITLE": "Purchasing Premium Subscription",
-            "TITLE_ADDING":"Purchasing Tokens",
-            "YEAR_PREM": " Year Premium Subscription - Auto Renewing",
-            "MONTH_PREM": " Month Premium Subscription - Auto Renewing",
-            "YEAR_PRO": " Year Pro Subscription - Auto Renewing",
-            "MONTH_PRO": " Month Pro Subscription - Auto Renewing",
-            "PRICE": " Membership Price",
-            "QUANTITY": "1 membership with {{quantity}} additional tokens",
             "TOTAL": "Total",
             "ERROR_1": "You have already purchased a membership. Click",
             "ERROR_LINK": "here",
             "ERROR_2": "to view memberships.",
-            "ADD_ERROR_1":"Click",
-            "ADD_ERROR_2":"here",
-            "ADD_ERROR_3":"to add tokens to current membership."
+            "ADD_ERROR_1": "Click",
+            "ADD_ERROR_2": "here",
+            "ADD_ERROR_3": "to add tokens to current membership.",
+            "CANCELED1": "Je hebt een geannuleerd abonnement met {{count}} toegestane bijenkorven.",
+            "CANCELED2": " Het is geldig tot {{date}}. Als je vóór die datum een nieuw lidmaatschap aanschaft, wordt je vorige lidmaatschap overschreven."
         },
-        "TABLE":{
-            "HEADERS":{
-                "PRODUCT":"Product",
-                "START":"Starts on",
-                "RENEW":"Renews on",
-                "EXPIRES":"Expires on",
-                "PRICE":"Price",
-                "PRORATED_PRICE":"Prorated Price",
-                "AUTO":"Auto-renew"
-            },
-            "REMOVE_CART":"Remove from cart",
-            "SELECT_TOKEN":"Select token",
-            "ADD":"Add to cart",
-            "REMOVE":"Remove",
-            "NEW":"New Product",
-            "TOTAL":"Total",
-            "TOTAL_NOW":"Total (Due now)",
-            "TOTAL_YEAR":"Yearly Total (Due {{date}})",
-            "PURCHASE":"Purchase"
+        "BUY": {
+            "TOTAL": "Totaal",
+            "TOTAL_NOW": "Totaal (Nu te betalen)",
+            "NEXT_PAY": "Volgende betaling ({{date}})",
+            "PURCHASE": "Aanschaffen",
+            "SELECT": "Selecteer Toegestane Bijenkorven",
+            "SELECTION": "{{count}} bijenkorven toegestaan",
+            "SELECTION_CURRENT": "(huidig)",
+            "INFO": "Dit is een terugkerend abonnement. Je kunt op elk moment annuleren.",
+            "HIVE_ERROR": "Niveau niet beschikbaar, je hebt momenteel {{count}} bijenkorven",
+            "CHARGING": "Totale kosten nu",
+            "CONFIRM": "Dit is een automatisch verlengend abonnement. Je wordt nu {{priceNow}} in rekening gebracht en jaarlijks {{priceYearly}}. Wil je dit abonnement aanmaken?",
+            "COMPLETE": "Aankoop voltooien"
         },
-        "ADDITIONAL":{
-            "TITLE":"Purchase Tokens",
-            "MESSAGE":"Purchased tokens are charged to your membership. {{amount}} will be charged to your the card on your subscription.",
-            "CONFIRM":"Make Payment"
+        "ADDITIONAL": {
+            "TITLE": "Purchase Tokens",
+            "DECREASE": "Verlaging bijenkorven, je hebt momenteel {{count}} bijenkorven en moet {{removeCount}} verwijderen bij de vernieuwing van het abonnement",
+            "INCREASE": "Verhoging, kosten naar verhouding",
+            "REINSTATE": "Herstellen, momenteel niet in rekening gebracht",
+            "DECREASE_OK": " Verlaging met {{count}} bijenkorven, vervalt op vernieuwingsdatum",
+            "CHANGE": {
+                "TITLE": "Abonnement wijzigen",
+                "ADDITIONAL": "Het wijzigen van niveau wordt in rekening gebracht op je lidmaatschap. Er wordt nu {{price}} in rekening gebracht op je kaart voor je abonnement.",
+                "NONE": "Je hebt op dit moment geen extra kosten. Maar het bedrag van je vernieuwing is verhoogd naar {{price}}.",
+                "DECREASE": "Je hebt je abonnementsniveau verlaagd. Je behoudt het hogere niveau tot je vernieuwingsdatum. Het vernieuwingsbedrag is verlaagd naar {{price}}.",
+                "CONFIRM": "Betaling uitvoeren"
+            }
         },
-        "PRODUCTS":{
-            "MEMBERSHIP":"Premium Membership",
-            "WIFI_HUB_FREE":"Wifi Hub Token (Free)",
-            "WIFI_HUB":"Wifi Hub Token",
-            "CELL_HUB_SINGLE":"Cell Hub (Single Device) Token",
-            "CELL_HUB":"Cell Hub Token",
-            "THIRD_PARTY":"Third Party Devices Token"
-        }, 
+        "PRODUCTS": {
+            "MEMBERSHIP": "Premium Membership",
+            "WIFI_HUB_FREE": "Wifi Hub Token (Free)",
+            "WIFI_HUB": "Wifi Hub Token",
+            "CELL_HUB_SINGLE": "Cell Hub (Single Device) Token",
+            "CELL_HUB": "Cell Hub Token",
+            "THIRD_PARTY": "Third Party Devices Token"
+        },
         "PAY": {
             "TITLE": "Payment Information",
             "RENEW_DISCLAIMER": "Auto-renewing subscription. You will be charged {{amount}} {{frequency}}.",
@@ -1344,7 +1345,7 @@
                 "RECEIPT": "Receipt Sent",
                 "AR_DATE": "Auto-renew Date",
                 "AR_AMOUNT": "Auto-renew Amount",
-                "SUCCESS":"Purchase complete.",
+                "SUCCESS": "Purchase complete.",
                 "LINK_1": "Click",
                 "LINK_LINK": "here",
                 "LINK_2": "to view memberships."
@@ -1354,7 +1355,8 @@
         "CUSTOMER": {
             "EMAIL": "Email",
             "FIRST_NAME": "First Name",
-            "LAST_NAME": "Last Name"
+            "LAST_NAME": "Last Name",
+            "COMPANY": "Bedrijf"
         },
         "BILLING": {
             "TITLE": "Billing Address",
@@ -1403,551 +1405,551 @@
             }
         }
     },
-    "EDIT_SUBS":{
-        "MONTH_ERROR":"Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
-        "SHOW_EXPIRED":"Show Expired",
-        "MEMEBERSHIPS":{
-            "TITLE":"Memberships",
-            "PRE_PAID":"Pre-Paid",
-            "FREE":"Free",
-            "TRIAL":"Trial Membership"
+    "EDIT_SUBS": {
+        "MONTH_ERROR": "Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
+        "SHOW_EXPIRED": "Show Expired",
+        "MEMEBERSHIPS": {
+            "TITLE": "Memberships",
+            "PRE_PAID": "Pre-Paid",
+            "FREE": "Free",
+            "TRIAL": "Trial Membership"
         },
-        "TOKENS":{
-            "TITLE":"Tokens",
-            "REMOVE":"Remove Token from Membership",
-            "ASSIGN":{
-                "TITLE":"Assign",
-                "HUB":"Hub",
-                "THIRD_PARTY":"Third Party Devices"
+        "TOKENS": {
+            "TITLE": "Tokens",
+            "REMOVE": "Remove Token from Membership",
+            "ASSIGN": {
+                "TITLE": "Assign",
+                "HUB": "Hub",
+                "THIRD_PARTY": "Third Party Devices"
             },
-            "HUB_EDIT":{
-                "WARNING_DUP":"Hub has credit active until {{date}}. This will be replaced.",
-                "WARNING_SINGLE":"This is a single device hub token. Only one sensor device can be uploaded with this token.",
-                "WARNING_WIFI_TYPE":"Wifi hub will be running on a cell hub token.",
-                "WARNING_REMOVE":"This removes token from hub. Hub will stop uploading data."
+            "HUB_EDIT": {
+                "WARNING_DUP": "Hub has credit active until {{date}}. This will be replaced.",
+                "WARNING_SINGLE": "This is a single device hub token. Only one sensor device can be uploaded with this token.",
+                "WARNING_WIFI_TYPE": "Wifi hub will be running on a cell hub token.",
+                "WARNING_REMOVE": "This removes token from hub. Hub will stop uploading data."
             },
-            "UPDATED":"Token updated",
-            "ERROR":"Error token not updated",
-            "CANCEL_TITLE":"Cancel Token",
-            "CANCEL_TEXT":"Are you sure?",
-            "CANCEL_CONFIRM":"Yes",
-            "CANCEL_SUCCESS":"Token cancelled"
+            "UPDATED": "Token updated",
+            "ERROR": "Error token not updated",
+            "CANCEL_TITLE": "Cancel Token",
+            "CANCEL_TEXT": "Are you sure?",
+            "CANCEL_CONFIRM": "Yes",
+            "CANCEL_SUCCESS": "Token cancelled"
         },
-        "HEADERS":{
-            "NAME":"Name",
-            "START":"Starts on",
-            "RENEW":"Renews on",
-            "EXPIRES":"Expires on",
-            "AUTO":"Auto-renew",
-            "STATUS":"Status",
-            "ID":"ID",
-            "EDIT":"Edit",
-            "PRICE":"Price",
-            "SUB_ID":"Sub ID",
-            "ASSOCIATED":"Associated with"
+        "HEADERS": {
+            "NAME": "Name",
+            "START": "Starts on",
+            "RENEW": "Renews on",
+            "EXPIRES": "Expires on",
+            "AUTO": "Auto-renew",
+            "STATUS": "Status",
+            "ID": "ID",
+            "EDIT": "Edit",
+            "PRICE": "Price",
+            "SUB_ID": "Sub ID",
+            "ASSOCIATED": "Associated with"
         },
-        "PURCHASE":"Purchase Products"
+        "PURCHASE": "Purchase Products"
     },
-    "FITNESS_CODE":{
-        "B1":{
-            "MSG":"Dead hive"
+    "FITNESS_CODE": {
+        "B1": {
+            "MSG": "Dead hive"
         },
-        "B2":{
-            "MSG":"Stolen hive"
+        "B2": {
+            "MSG": "Stolen hive"
         },
-        "R1":{
-            "MSG":"Very weak hive"
+        "R1": {
+            "MSG": "Very weak hive"
         },
-        "O1":{
-            "MSG":"Weak hive or in strong decrease"
+        "O1": {
+            "MSG": "Weak hive or in strong decrease"
         },
-        "O2":{
-            "MSG":"Potential swarm"
+        "O2": {
+            "MSG": "Potential swarm"
         },
-        "O3":{
-            "MSG":"Overheating"
+        "O3": {
+            "MSG": "Overheating"
         },
-        "O4":{
-            "MSG":"Extreme cold"
+        "O4": {
+            "MSG": "Extreme cold"
         },
-        "O5":{
-            "MSG":"Rapid weight loss, being robbed"
+        "O5": {
+            "MSG": "Rapid weight loss, being robbed"
         },
-        "G1":{
-            "MSG":"Healthy"
+        "G1": {
+            "MSG": "Healthy"
         },
-        "G2":{
-            "MSG":"No data or no weather"
+        "G2": {
+            "MSG": "No data or no weather"
         }
     },
-    "CHART":{
-        "DATA_TYPES":{
-            "WEIGHT":{
-                "TITLE":"Weight",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Weight",
-                "FILTER_HOURLY":"Weight Hourly",
-                "FILTER_DAILY":"Weight Daily"
+    "CHART": {
+        "DATA_TYPES": {
+            "WEIGHT": {
+                "TITLE": "Weight",
+                "YAXIS": "Weight ({{label}})",
+                "FILTER": "Weight",
+                "FILTER_HOURLY": "Weight Hourly",
+                "FILTER_DAILY": "Weight Daily"
             },
-            "PROD":{
-                "TITLE":"Productivity",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Productivity",
-                "FILTER_HOURLY":"Productivity Hourly",
-                "FILTER_DAILY":"Productivity Daily"
+            "PROD": {
+                "TITLE": "Productivity",
+                "YAXIS": "Weight ({{label}})",
+                "FILTER": "Productivity",
+                "FILTER_HOURLY": "Productivity Hourly",
+                "FILTER_DAILY": "Productivity Daily"
             },
-            "BATTERY":{
-                "TITLE":"Battery",
-                "YAXIS":"Battery (%)",
-                "FILTER":"Battery"
+            "BATTERY": {
+                "TITLE": "Battery",
+                "YAXIS": "Battery (%)",
+                "FILTER": "Battery"
             },
-            "TEMP_EVENTS":{
-                "TITLE":"Temperature Events",
-                "YAXIS":"",
-                "FILTER":"Temperature Events"
+            "TEMP_EVENTS": {
+                "TITLE": "Temperature Events",
+                "YAXIS": "",
+                "FILTER": "Temperature Events"
             },
-            "AUDIO":{
-                "TITLE":"Vibration",
-                "YAXIS":"Vibration ({{label}})",
-                "FILTER":"Vibration"
+            "AUDIO": {
+                "TITLE": "Vibration",
+                "YAXIS": "Vibration ({{label}})",
+                "FILTER": "Vibration"
             },
-            "RADAR":{
-                "TITLE":"Radar",
-                "YAXIS":"Radar ({{label}})",
-                "FILTER":"Radar"
+            "RADAR": {
+                "TITLE": "Radar",
+                "YAXIS": "Radar ({{label}})",
+                "FILTER": "Radar"
             },
-            "BEECOUNT":{
-                "TITLE":"Bee Count",
-                "YAXIS":"Bee Count ({{label}})",
-                "FILTER":"Bee Count",
-                "UNIT":"bees/min"
+            "BEECOUNT": {
+                "TITLE": "Bee Count",
+                "YAXIS": "Bee Count ({{label}})",
+                "FILTER": "Bee Count",
+                "UNIT": "bees/min"
             },
-            "BROOD":{
-                "TITLE":"Brood",
-                "YAXIS":"Brood (%)",
-                "FILTER":"Brood"
+            "BROOD": {
+                "TITLE": "Brood",
+                "YAXIS": "Brood (%)",
+                "FILTER": "Brood"
             },
-            "TEMP_MIN":{
-                "TITLE":"Min Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min Temperature"
+            "TEMP_MIN": {
+                "TITLE": "Min Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Min Temperature"
             },
-            "TEMP_MEAN":{
-                "TITLE":"Mean Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Mean Temperature"
+            "TEMP_MEAN": {
+                "TITLE": "Mean Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Mean Temperature"
             },
-            "TEMP_MAX":{
-                "TITLE":"Max Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max Temperature"
+            "TEMP_MAX": {
+                "TITLE": "Max Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Max Temperature"
             },
-            "TEMP_MIN_EXT":{
-                "TITLE":"Min External Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min External Temperature"
+            "TEMP_MIN_EXT": {
+                "TITLE": "Min External Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Min External Temperature"
             },
-            "TEMP_MAX_EXT":{
-                "TITLE":"Max External Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max External Temperature"
+            "TEMP_MAX_EXT": {
+                "TITLE": "Max External Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Max External Temperature"
             },
-            "HUMID_MIN":{
-                "TITLE":"Min Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Min Humidity"
+            "HUMID_MIN": {
+                "TITLE": "Min Humidity",
+                "YAXIS": "Humidity (%)",
+                "FILTER": "Min Humidity"
             },
-            "HUMID_MAX":{
-                "TITLE":"Max Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Max Humidity"
+            "HUMID_MAX": {
+                "TITLE": "Max Humidity",
+                "YAXIS": "Humidity (%)",
+                "FILTER": "Max Humidity"
             },
-            "GAIN":{
-                "TITLE":"Weight Gain",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Weight Gain"
+            "GAIN": {
+                "TITLE": "Weight Gain",
+                "YAXIS": "Weight ({{label}})",
+                "FILTER": "Weight Gain"
             },
-            "GAIN_CUMUL":{
-                "TITLE":"Cumulative Gain",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Cumulative Weight Gain"
+            "GAIN_CUMUL": {
+                "TITLE": "Cumulative Gain",
+                "YAXIS": "Weight ({{label}})",
+                "FILTER": "Cumulative Weight Gain"
             },
-            "PROD_CUMUL":{
-                "TITLE":"Cumulative Productivity",
-                "YAXIS":"Weight ({{label}})",
-                "FILTER":"Cumulative Productivity"
+            "PROD_CUMUL": {
+                "TITLE": "Cumulative Productivity",
+                "YAXIS": "Weight ({{label}})",
+                "FILTER": "Cumulative Productivity"
             },
-            "HUMID_MAX_EXT":{
-                "TITLE":"External Humidity Max",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"External Humidity Max"
+            "HUMID_MAX_EXT": {
+                "TITLE": "External Humidity Max",
+                "YAXIS": "Humidity (%)",
+                "FILTER": "External Humidity Max"
             },
-            "HUMID_MIN_EXT":{
-                "TITLE":"External Humidity Min",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"External Humidity Min"
+            "HUMID_MIN_EXT": {
+                "TITLE": "External Humidity Min",
+                "YAXIS": "Humidity (%)",
+                "FILTER": "External Humidity Min"
             },
-            "TEMP_WEATHER":{
-                "TITLE":"Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Weather Temperature"
+            "TEMP_WEATHER": {
+                "TITLE": "Weather Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Weather Temperature"
             },
-            "TEMP_MIN_WEATHER":{
-                "TITLE":"Min Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Min Weather Temperature"
+            "TEMP_MIN_WEATHER": {
+                "TITLE": "Min Weather Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Min Weather Temperature"
             },
-            "TEMP_MAX_WEATHER":{
-                "TITLE":"Max Weather Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Max Weather Temperature"
+            "TEMP_MAX_WEATHER": {
+                "TITLE": "Max Weather Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Max Weather Temperature"
             },
-            "HUMID_MIN_WEATHER":{
-                "TITLE":"Min Weather Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":""
+            "HUMID_MIN_WEATHER": {
+                "TITLE": "Min Weather Humidity",
+                "YAXIS": "Humidity (%)",
+                "FILTER": ""
             },
-            "HUMID_MAX_WEATHER":{
-                "TITLE":"Max Weather Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Max Weather Humidity"
+            "HUMID_MAX_WEATHER": {
+                "TITLE": "Max Weather Humidity",
+                "YAXIS": "Humidity (%)",
+                "FILTER": "Max Weather Humidity"
             },
-            "WEATHER":{
-                "TITLE":"Weather",
-                "YAXIS":"",
-                "FILTER":"Weather Daily"
+            "WEATHER": {
+                "TITLE": "Weather",
+                "YAXIS": "",
+                "FILTER": "Weather Daily"
             },
-            "WIND_MAX":{
-                "TITLE":"Max Wind",
-                "YAXIS":"Wind ({{label}})",
-                "FILTER":"Max Wind"
+            "WIND_MAX": {
+                "TITLE": "Max Wind",
+                "YAXIS": "Wind ({{label}})",
+                "FILTER": "Max Wind"
             },
-            "HIVE_HEALTH":{
-                "TITLE":"Hive Health",
-                "YAXIS":"",
-                "FILTER":"Hive Health"
+            "HIVE_HEALTH": {
+                "TITLE": "Hive Health",
+                "YAXIS": "",
+                "FILTER": "Hive Health"
             },
-            "LUNAR":{
-                "TITLE":"Lunar Calendar",
-                "YAXIS":"",
-                "FILTER":"Lunar Daily"
+            "LUNAR": {
+                "TITLE": "Lunar Calendar",
+                "YAXIS": "",
+                "FILTER": "Lunar Daily"
             },
-            "ALERTS_NOTES":{
-                "TITLE":"Alerts and Notes",
-                "YAXIS":" ({{label}})",
-                "FILTER":"Alerts and Notes"
+            "ALERTS_NOTES": {
+                "TITLE": "Alerts and Notes",
+                "YAXIS": " ({{label}})",
+                "FILTER": "Alerts and Notes"
             },
-            "ALERTS":{
-                "TITLE":"Alerts",
-                "YAXIS":"",
-                "FILTER":"Alerts"
+            "ALERTS": {
+                "TITLE": "Alerts",
+                "YAXIS": "",
+                "FILTER": "Alerts"
             },
-            "NOTES":{
-                "TITLE":"Notes",
-                "YAXIS":"",
-                "FILTER_APIARY":"Apiary Notes",
-                "FILTER_HIVE":"Hive Notes"
+            "NOTES": {
+                "TITLE": "Notes",
+                "YAXIS": "",
+                "FILTER_APIARY": "Apiary Notes",
+                "FILTER_HIVE": "Hive Notes"
             },
-            "PRECIP":{
-                "TITLE":"Precipitation",
-                "YAXIS":"Precipitation ({{label}})",
-                "FILTER":"Precipitation",
-                "FILTER_DAILY":"Precipitation Daily"
+            "PRECIP": {
+                "TITLE": "Precipitation",
+                "YAXIS": "Precipitation ({{label}})",
+                "FILTER": "Precipitation",
+                "FILTER_DAILY": "Precipitation Daily"
             },
-            "TEMP":{
-                "TITLE":"Temperature",
-                "YAXIS":"Temperature ({{label}})",
-                "FILTER":"Temperature",
-                "FILTER_HOURLY":"Temperature Hourly"
+            "TEMP": {
+                "TITLE": "Temperature",
+                "YAXIS": "Temperature ({{label}})",
+                "FILTER": "Temperature",
+                "FILTER_HOURLY": "Temperature Hourly"
             },
-            "WIND":{
-                "TITLE":"Wind",
-                "YAXIS":"Wind ({{label}})",
-                "FILTER":"Wind",
-                "FILTER_HOURLY":"Wind Hourly"
+            "WIND": {
+                "TITLE": "Wind",
+                "YAXIS": "Wind ({{label}})",
+                "FILTER": "Wind",
+                "FILTER_HOURLY": "Wind Hourly"
             },
-            "RAIN":{
-                "TITLE":"Rainfall",
-                "YAXIS":"Rainfall ({{label}})",
-                "FILTER":"Rainfall",
-                "FILTER_HOURLY":"Rain Hourly",
-                "FILTER_CUMULATIVE":"Rain Cumulative"
+            "RAIN": {
+                "TITLE": "Rainfall",
+                "YAXIS": "Rainfall ({{label}})",
+                "FILTER": "Rainfall",
+                "FILTER_HOURLY": "Rain Hourly",
+                "FILTER_CUMULATIVE": "Rain Cumulative"
             },
-            "HUMID":{
-                "TITLE":"Humidity",
-                "YAXIS":"Humidity (%)",
-                "FILTER":"Humidity",
-                "FILTER_HOURLY":"Humidity Hourly"
+            "HUMID": {
+                "TITLE": "Humidity",
+                "YAXIS": "Humidity (%)",
+                "FILTER": "Humidity",
+                "FILTER_HOURLY": "Humidity Hourly"
             },
-            "CLOUD_COVER":{
-                "TITLE":"Cloud Cover",
-                "YAXIS":"Cloud Cover (%)",
-                "FILTER":"Cloud Cover",
-                "FILTER_HOURLY":"Cloud Cover Hourly"
+            "CLOUD_COVER": {
+                "TITLE": "Cloud Cover",
+                "YAXIS": "Cloud Cover (%)",
+                "FILTER": "Cloud Cover",
+                "FILTER_HOURLY": "Cloud Cover Hourly"
             },
-            "NECTAR":{
-                "TITLE":"Nectar flow index",
-                "YAXIS":"Nectar flow index (%)",
-                "FILTER":"Nectar flow"
+            "NECTAR": {
+                "TITLE": "Nectar flow index",
+                "YAXIS": "Nectar flow index (%)",
+                "FILTER": "Nectar flow"
             },
-            "FLIGHT":{
-                "TITLE":"Foraging index",
-                "YAXIS":"Foraging index (%)",
-                "FILTER":"Foraging index"
+            "FLIGHT": {
+                "TITLE": "Foraging index",
+                "YAXIS": "Foraging index (%)",
+                "FILTER": "Foraging index"
             },
-            "BC_ACTIV_DUR":{
-                "TITLE":"Foraging Duration",
-                "YAXIS":"Foraging Duration (hours)",
-                "FILTER":"Foraging Duration",
-                "UNIT":"hours"
+            "BC_ACTIV_DUR": {
+                "TITLE": "Foraging Duration",
+                "YAXIS": "Foraging Duration (hours)",
+                "FILTER": "Foraging Duration",
+                "UNIT": "hours"
             },
-            "BC_FOR":{
-                "TITLE":"Foraging Trips",
-                "YAXIS":"Foraging (k trips/day)",
-                "FILTER":"Foraging Trips",
-                "UNIT":"trips/day"
+            "BC_FOR": {
+                "TITLE": "Foraging Trips",
+                "YAXIS": "Foraging (k trips/day)",
+                "FILTER": "Foraging Trips",
+                "UNIT": "trips/day"
             },
-            "BC_WORK_PER":{
-                "TITLE":"Foraging Periods",
-                "YAXIS":"Periods per day",
-                "FILTER":"Foraging Periods",
-                "UNIT":"periods/day"
+            "BC_WORK_PER": {
+                "TITLE": "Foraging Periods",
+                "YAXIS": "Periods per day",
+                "FILTER": "Foraging Periods",
+                "UNIT": "periods/day"
             },
-            "MF_DUR":{
-                "TITLE":"Mating Flight Duration",
-                "YAXIS":"Flight Window (hours)",
-                "FILTER":"Flight Window (hours)",
-                "UNIT":"hours"
+            "MF_DUR": {
+                "TITLE": "Mating Flight Duration",
+                "YAXIS": "Flight Window (hours)",
+                "FILTER": "Flight Window (hours)",
+                "UNIT": "hours"
             },
-            "MF_COUNT":{
-                "TITLE":"Mating Flight Count",
-                "YAXIS":"flights/day",
-                "FILTER":"Mating Flight Count",
-                "UNIT":"flights/day"
+            "MF_COUNT": {
+                "TITLE": "Mating Flight Count",
+                "YAXIS": "flights/day",
+                "FILTER": "Mating Flight Count",
+                "UNIT": "flights/day"
             },
-            "MF_SESS":{
-                "TITLE":"Mating Flight Sessions",
-                "YAXIS":"Sessions/day",
-                "FILTER":"Mating Flight Sessions",
-                "UNIT":"sessions/day"
+            "MF_SESS": {
+                "TITLE": "Mating Flight Sessions",
+                "YAXIS": "Sessions/day",
+                "FILTER": "Mating Flight Sessions",
+                "UNIT": "sessions/day"
             }
         }
     },
-    "CALENDAR_CHART":{
-        "MOON_PHASE":"Phase",
-        "MOON_PERIOD":"Period",
-        "SUNRISE":"Sunrise",
-        "SUNSET":"Sunset",
-        "DAYLENGTH":"Daylight",
-        "MOON":{
-            "1":"Full moon",
-            "2":"New moon",
-            "3":"Last quarter",
-            "4":"First quarter",
-            "5":"Waxing gibbous",
-            "6":"Waning gibbous",
-            "7":"Waning crescent",
-            "8":"Waxing crescent",
-            "ASCENDING":"Ascending",
-            "DESCENDING":"Descending"
+    "CALENDAR_CHART": {
+        "MOON_PHASE": "Phase",
+        "MOON_PERIOD": "Period",
+        "SUNRISE": "Sunrise",
+        "SUNSET": "Sunset",
+        "DAYLENGTH": "Daylight",
+        "MOON": {
+            "1": "Full moon",
+            "2": "New moon",
+            "3": "Last quarter",
+            "4": "First quarter",
+            "5": "Waxing gibbous",
+            "6": "Waning gibbous",
+            "7": "Waning crescent",
+            "8": "Waxing crescent",
+            "ASCENDING": "Ascending",
+            "DESCENDING": "Descending"
         },
-        "WEATHER":{
-            "DESCR":{
-                "CLEAR":"Clear",
-                "FEW_CLOUDS":"Few clouds",
-                "SCATTERED_CLOUDS":"Scattered clouds",
-                "SHOWER_RAIN":"Shower rain",
-                "BROKEN_CLOUDS":"Broken clouds",
-                "SHOWER":"Shower",
-                "RAIN":"Rain",
-                "THUNDERSTORM":"Thunderstorm",
-                "SHOWER_SNOW":"Shower snow",
-                "SNOW":"Snow",
-                "MIST":"Mist",
-                "SMOKE":"Smoke",
-                "HAZE":"Haze",
-                "DUST":"Dust",
-                "FOG":"Fog",
-                "SAND":"Sand",
-                "ASH":"Ash",
-                "SQUALL":"Squall",
-                "TORNADO":"Tornado",
-                "CLOUDS":"Clouds"
+        "WEATHER": {
+            "DESCR": {
+                "CLEAR": "Clear",
+                "FEW_CLOUDS": "Few clouds",
+                "SCATTERED_CLOUDS": "Scattered clouds",
+                "SHOWER_RAIN": "Shower rain",
+                "BROKEN_CLOUDS": "Broken clouds",
+                "SHOWER": "Shower",
+                "RAIN": "Rain",
+                "THUNDERSTORM": "Thunderstorm",
+                "SHOWER_SNOW": "Shower snow",
+                "SNOW": "Snow",
+                "MIST": "Mist",
+                "SMOKE": "Smoke",
+                "HAZE": "Haze",
+                "DUST": "Dust",
+                "FOG": "Fog",
+                "SAND": "Sand",
+                "ASH": "Ash",
+                "SQUALL": "Squall",
+                "TORNADO": "Tornado",
+                "CLOUDS": "Clouds"
             }
         }
     },
-    "INSP_CONF":{
-        "APPLIES":{
-            "HIVE":"Hive",
-            "APIARY":"Apiary"
+    "INSP_CONF": {
+        "APPLIES": {
+            "HIVE": "Hive",
+            "APIARY": "Apiary"
         },
-        "DEFAULT":"Default",
-        "SUPER+":"Added super",
-        "SUPER-":"Removed super",
-        "QUEENINSERT":"Queen inserted",
-        "DIVISION":"Split",
-        "QUEENABSENT":"Queen absent",
-        "STOLEN":"Stolen hive",
-        "BROODADD":"Added brood frames",
-        "BROODREMOVE":"Removed brood frames",
-        "COMBINEDHIVES":"Combined Hives",
-        "SWARM":"Swarming",
-        "CANDIFEED":"Candy feeding",
-        "SYRUPFEED":"Syrup feeding",
-        "PATTIESFEED":"Patties feeding",
-        "REQUEEN":"Requeening",
-        "QUEENLINEAGE":"Queen lineage",
-        "HARVEST":"Harvest",
-        "INSTALLPKG":"Installed package",
-        "NUCLEUSHIVE":"Installed nucleus hive",
-        "SPLITQUEENREMOVE":"Split with queen removal",
-        "NECTARFLOW":"Nectar flow",
-        "MITEOAVAPOR":"Mite treatment: Oxalic Acid Vapor",
-        "MITEOADRIBBLE":"Mite treatment: Oxalic Acid Dribble",
-        "MITEFORMICPRO":"Mite treatment: Formic Pro",
-        "MITESTRIPADD":"Mite treatment: strip add",
-        "MITESTRIPREMOVE":"Mite treatment: strip remove",
-        "MITECOUNTLOUNGE":"Mite count sticky board",
-        "MITECOUNTWASH":"Mite count wash",
-        "STARTFEED":"Start feeding",
-        "STOPFEED":"Stop feeding",
-        "SWARMMATEDQUEEN":"Swarm with mated queen",
-        "VIRGINSWARM":"Virgin swarm",
-        "SWARMRETURN":"Swarm and return to hive",
-        "QUEENSEEN":"Queen seen",
-        "NOBROOD":"No brood",
-        "LOWBROOD":"Low brood level",
-        "NORMBROOD":"Medium brood level",
-        "HIGHBROOD":"High brood level",
-        "SICK":"Sick",
-        "NOBEES":"No bees",
-        "LOWBEES":"Low bee level",
-        "NORMBEES":"Medium bee level",
-        "HIGHBEES":"High bee level",
-        "NORES":"No resources",
-        "LOWRES":"Low resources level",
-        "NORMRES":"Medium resources level",
-        "HIGHRES":"High resources level",
-        "EGG":"Egg presence",
-        "LARVA":"Larva presence",
-        "PUPA":"Capped brood presence",
-        "DRONEBROOD":"Drone brood presence",
-        "DRONE":"Drone presence",
-        "BUZZINGHIVE":"Laying workers",
-        "MOSAICBROOD":"Scattered brood",
-        "QUEENCELLSEEN":"Queen cell seen"
+        "DEFAULT": "Default",
+        "SUPER+": "Added super",
+        "SUPER-": "Removed super",
+        "QUEENINSERT": "Queen inserted",
+        "DIVISION": "Split",
+        "QUEENABSENT": "Queen absent",
+        "STOLEN": "Stolen hive",
+        "BROODADD": "Added brood frames",
+        "BROODREMOVE": "Removed brood frames",
+        "COMBINEDHIVES": "Combined Hives",
+        "SWARM": "Swarming",
+        "CANDIFEED": "Candy feeding",
+        "SYRUPFEED": "Syrup feeding",
+        "PATTIESFEED": "Patties feeding",
+        "REQUEEN": "Requeening",
+        "QUEENLINEAGE": "Queen lineage",
+        "HARVEST": "Harvest",
+        "INSTALLPKG": "Installed package",
+        "NUCLEUSHIVE": "Installed nucleus hive",
+        "SPLITQUEENREMOVE": "Split with queen removal",
+        "NECTARFLOW": "Nectar flow",
+        "MITEOAVAPOR": "Mite treatment: Oxalic Acid Vapor",
+        "MITEOADRIBBLE": "Mite treatment: Oxalic Acid Dribble",
+        "MITEFORMICPRO": "Mite treatment: Formic Pro",
+        "MITESTRIPADD": "Mite treatment: strip add",
+        "MITESTRIPREMOVE": "Mite treatment: strip remove",
+        "MITECOUNTLOUNGE": "Mite count sticky board",
+        "MITECOUNTWASH": "Mite count wash",
+        "STARTFEED": "Start feeding",
+        "STOPFEED": "Stop feeding",
+        "SWARMMATEDQUEEN": "Swarm with mated queen",
+        "VIRGINSWARM": "Virgin swarm",
+        "SWARMRETURN": "Swarm and return to hive",
+        "QUEENSEEN": "Queen seen",
+        "NOBROOD": "No brood",
+        "LOWBROOD": "Low brood level",
+        "NORMBROOD": "Medium brood level",
+        "HIGHBROOD": "High brood level",
+        "SICK": "Sick",
+        "NOBEES": "No bees",
+        "LOWBEES": "Low bee level",
+        "NORMBEES": "Medium bee level",
+        "HIGHBEES": "High bee level",
+        "NORES": "No resources",
+        "LOWRES": "Low resources level",
+        "NORMRES": "Medium resources level",
+        "HIGHRES": "High resources level",
+        "EGG": "Egg presence",
+        "LARVA": "Larva presence",
+        "PUPA": "Capped brood presence",
+        "DRONEBROOD": "Drone brood presence",
+        "DRONE": "Drone presence",
+        "BUZZINGHIVE": "Laying workers",
+        "MOSAICBROOD": "Scattered brood",
+        "QUEENCELLSEEN": "Queen cell seen"
     },
-    "INSP_CATEG":{
-        "BEESBROODSTG":"Brood Stages",
-        "HEALTH":"Health",
-        "MITES":"Mites",
-        "MANAGE":"Manage",
-        "FEEDING":"Feeding"
+    "INSP_CATEG": {
+        "BEESBROODSTG": "Brood Stages",
+        "HEALTH": "Health",
+        "MITES": "Mites",
+        "MANAGE": "Manage",
+        "FEEDING": "Feeding"
     },
-    "ALERTS_DESC":{
-        "HONEYDEW":"Honeydew",
-        "HONEYDEW_DESC":"Triggered when the weight contribution to the hive exceeds the chosen threshold during the last week.",
-        "RAIN":"Possible heavy rainfall",
-        "RAIN_DESC":"Triggered when rainfall exceeds the chosen threshold on the next day.",
-        "SWARM":"Swarm",
-        "SWARM_DESC":"Triggered when a potential swarm has occurred (Hub offers more efficiency).",
-        "DCONNECT":"Device disconnect",
-        "DCONNECT_DESC":"Triggered when one of your sensors no longer transmits data (or punctually) during each chosen period. Only works with a Hub.",
-        "TMAX":"High internal temperature",
-        "TMAX_DESC":"Triggered when the internal temperature exceeds the chosen threshold.",
-        "TMIN":"Low internal temperature",
-        "TMIN_DESC":"Triggered when the internal temperature is below the chosen threshold.",
-        "LOWBROOD":"Weak brood",
-        "LOWBROOD_DESC":"Triggered when the percentage of brood is below the chosen threshold.",
-        "STOPWEATHER":"Weather station stopped",
-        "STOPWEATHER_DESC":"Triggered when your weather station stops transmitting data. Requires its own weather station.",
-        "RSWARM":"Swarm risk",
-        "RSWARM_DESC":"Triggered when the risk of swarm is high on one of your hives on the next day.",
-        "WIPOS":"Significant provision of resources",
-        "WIPOS_DESC":"Triggered when the incoming weight of the day in the hive exceeds the chosen threshold.",
-        "WINEG":"Resource depletion",
-        "WINEG_DESC":"Triggered when bees consume many more resources than they bring back to the hive. The loss threshold is adjustable.",
-        "WLIM":"Weight limit exceeded",
-        "WLIM_DESC":"Triggered when the indicated weight threshold is exceeded.",
-        "SNOW":"Possible heavy snowfall",
-        "SNOW_DESC":"Triggered when snowfall exceeds the chosen threshold on the next day.",
-        "WIND":"Possible strong wind",
-        "WIND_DESC":"Triggered when the wind exceeds the chosen threshold on the next day.",
-        "COLDDAY":"Possible cold day ahead",
-        "COLDDAY_DESC":"Triggered when an upcoming cold day is detected, i.e. below the specified temperature threshold.",
-        "HOTDAY":"Possible hot day ahead",
-        "HOTDAY_DESC":"Triggered when an upcoming hot day is detected, i.e. above the specified temperature threshold.",
-        "HMIN":"Low internal humidity",
-        "HMIN_DESC":"Triggered when the internal humidity is below the chosen threshold.",
-        "HMAX":"High internal humidity",
-        "HMAX_DESC":"Triggered when the internal humidity exceeds the chosen threshold.",
-        "STOLEN":"Stolen hive",
-        "STOLEN_DESC":"Triggered when the weight of your hive becomes abnormally low.",
-        "DCONNECTT":"Device disconnect",
-        "DCONNECTT_DESC":"Triggered when your T sensor no longer transmits data during the last day.",
-        "DCONNECTW":"Device disconnect",
-        "DCONNECTW_DESC":"Triggered when your W sensor no longer transmits data during the last day.",
-        "DCONNECTH":"Device disconnect",
-        "DCONNECTH_DESC":"Triggered when your Hub no longer transmits data during the last day.",
-        "POORSIGNALW":"Poor signal",
-        "POORSIGNALW_DESC":"Triggered when your W sensor transmits little data during the last day.",
-        "POORSIGNALT":"Poor signal",
-        "POORSIGNALT_DESC":"Triggered when your T sensor transmits little data during the last day. ",
-        "LOWBATTERYW":"Low battery",
-        "LOWBATTERYW_DESC":"Triggered when the battery level of your W sensor is below the selected threshold.",
-        "LOWBATTERYT":"Low battery",
-        "LOWBATTERYT_DESC":"Triggered when the battery level of your T sensor is below the selected threshold.",
-        "SUPER+":"Adding a super",
-        "SUPER+_DESC":"Indicate the minimum weight of an empty super.",
-        "SUPER-":"Removing a super",
-        "SUPER-_DESC":"Indicate the maximum weight of a full super.",
-        "OXALIC":"Oxalic acid treatment",
-        "OXALIC_DESC":"Triggered when the average brood in your hives is below the set threshold. This is an indication that allows you to treat your hives with oxalic acid at the right time.",
-        "DEAD":"Dead hive",
-        "DEAD_DESC":"Our algorithm detects every day if your hive is dead based on various parameters we have set.",
-        "RAIN_MSG":"Rainfall will exceed {VAL}" ,
-        "SNOW_MSG":"Snowfall will exceed {VAL} " ,
-        "WIND_MSG":"The wind will exceed {VAL}" ,
-        "COLDDAY_MSG":"Temperatures will be unusually cold",
-        "OXALIC_MSG":"It's time to treat your hives",
-        "HOTDAY_MSG":"Temperatures will be unusually warm",
-        "TMAX_MSG":"Internal temperature over {VAL}" ,
-        "TMIN_MSG":"Internal temperature below {VAL}" ,
-        "WIPOS_MSG":"The gain of your bees' stock exceeds {VAL}",
-        "WINEG_MSG":"The loss of your bees' stock exceeds {VAL}",
-        "LOWBROOD_MSG":"Brood below {VAL}",
-        "HMAX_MSG":"Internal humidity over {VAL}",
-        "HMIN_MSG":"Internal humidity below {VAL}",
-        "HONEYDEW_MSG":"Incoming weights during the last week exceeding {VAL}",
-        "WLIM_MSG":"The weight of your hive exceeds {VAL}",
-        "SWARM_MSG":"Potential swarm detected around 14:00",
-        "RSWARM_MSG":"Swarming day expected",
-        "SUPER+_MSG":"You added a super",
-        "SUPER-_MSG":"You removed a super",
-        "LOWBATTERYT_MSG":"Replace the battery of ",
-        "LOWBATTERYW_MSG":"Replace the battery of ",
-        "DCONNECTT_MSG":"{REF} disconnected since {DATE}",
-        "DCONNECTW_MSG":"{REF} disconnected since {DATE}",
-        "DCONNECTH_MSG":"{REF} disconnected since {DATE}",
-        "POORSIGNALT_MSG":"{REF} poor signal since {DATE}",
-        "POORSIGNALW_MSG":"{REF} poor signal since {DATE}",
-        "STOPWEATHER_MSG":"Data transmission error from your weather station since {DATE}",
-        "STOLEN_MSG":"The weight of your hive is abnormally low",
-        "DEAD_MSG":"Your hive has been detected dead",
-        "REALTIME_SWARM_ALERT":"Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
+    "ALERTS_DESC": {
+        "HONEYDEW": "Honeydew",
+        "HONEYDEW_DESC": "Triggered when the weight contribution to the hive exceeds the chosen threshold during the last week.",
+        "RAIN": "Possible heavy rainfall",
+        "RAIN_DESC": "Triggered when rainfall exceeds the chosen threshold on the next day.",
+        "SWARM": "Swarm",
+        "SWARM_DESC": "Triggered when a potential swarm has occurred (Hub offers more efficiency).",
+        "DCONNECT": "Device disconnect",
+        "DCONNECT_DESC": "Triggered when one of your sensors no longer transmits data (or punctually) during each chosen period. Only works with a Hub.",
+        "TMAX": "High internal temperature",
+        "TMAX_DESC": "Triggered when the internal temperature exceeds the chosen threshold.",
+        "TMIN": "Low internal temperature",
+        "TMIN_DESC": "Triggered when the internal temperature is below the chosen threshold.",
+        "LOWBROOD": "Weak brood",
+        "LOWBROOD_DESC": "Triggered when the percentage of brood is below the chosen threshold.",
+        "STOPWEATHER": "Weather station stopped",
+        "STOPWEATHER_DESC": "Triggered when your weather station stops transmitting data. Requires its own weather station.",
+        "RSWARM": "Swarm risk",
+        "RSWARM_DESC": "Triggered when the risk of swarm is high on one of your hives on the next day.",
+        "WIPOS": "Significant provision of resources",
+        "WIPOS_DESC": "Triggered when the incoming weight of the day in the hive exceeds the chosen threshold.",
+        "WINEG": "Resource depletion",
+        "WINEG_DESC": "Triggered when bees consume many more resources than they bring back to the hive. The loss threshold is adjustable.",
+        "WLIM": "Weight limit exceeded",
+        "WLIM_DESC": "Triggered when the indicated weight threshold is exceeded.",
+        "SNOW": "Possible heavy snowfall",
+        "SNOW_DESC": "Triggered when snowfall exceeds the chosen threshold on the next day.",
+        "WIND": "Possible strong wind",
+        "WIND_DESC": "Triggered when the wind exceeds the chosen threshold on the next day.",
+        "COLDDAY": "Possible cold day ahead",
+        "COLDDAY_DESC": "Triggered when an upcoming cold day is detected, i.e. below the specified temperature threshold.",
+        "HOTDAY": "Possible hot day ahead",
+        "HOTDAY_DESC": "Triggered when an upcoming hot day is detected, i.e. above the specified temperature threshold.",
+        "HMIN": "Low internal humidity",
+        "HMIN_DESC": "Triggered when the internal humidity is below the chosen threshold.",
+        "HMAX": "High internal humidity",
+        "HMAX_DESC": "Triggered when the internal humidity exceeds the chosen threshold.",
+        "STOLEN": "Stolen hive",
+        "STOLEN_DESC": "Triggered when the weight of your hive becomes abnormally low.",
+        "DCONNECTT": "Device disconnect",
+        "DCONNECTT_DESC": "Triggered when your T sensor no longer transmits data during the last day.",
+        "DCONNECTW": "Device disconnect",
+        "DCONNECTW_DESC": "Triggered when your W sensor no longer transmits data during the last day.",
+        "DCONNECTH": "Device disconnect",
+        "DCONNECTH_DESC": "Triggered when your Hub no longer transmits data during the last day.",
+        "POORSIGNALW": "Poor signal",
+        "POORSIGNALW_DESC": "Triggered when your W sensor transmits little data during the last day.",
+        "POORSIGNALT": "Poor signal",
+        "POORSIGNALT_DESC": "Triggered when your T sensor transmits little data during the last day. ",
+        "LOWBATTERYW": "Low battery",
+        "LOWBATTERYW_DESC": "Triggered when the battery level of your W sensor is below the selected threshold.",
+        "LOWBATTERYT": "Low battery",
+        "LOWBATTERYT_DESC": "Triggered when the battery level of your T sensor is below the selected threshold.",
+        "SUPER+": "Adding a super",
+        "SUPER+_DESC": "Indicate the minimum weight of an empty super.",
+        "SUPER-": "Removing a super",
+        "SUPER-_DESC": "Indicate the maximum weight of a full super.",
+        "OXALIC": "Oxalic acid treatment",
+        "OXALIC_DESC": "Triggered when the average brood in your hives is below the set threshold. This is an indication that allows you to treat your hives with oxalic acid at the right time.",
+        "DEAD": "Dead hive",
+        "DEAD_DESC": "Our algorithm detects every day if your hive is dead based on various parameters we have set.",
+        "RAIN_MSG": "Rainfall will exceed {VAL}",
+        "SNOW_MSG": "Snowfall will exceed {VAL} ",
+        "WIND_MSG": "The wind will exceed {VAL}",
+        "COLDDAY_MSG": "Temperatures will be unusually cold",
+        "OXALIC_MSG": "It's time to treat your hives",
+        "HOTDAY_MSG": "Temperatures will be unusually warm",
+        "TMAX_MSG": "Internal temperature over {VAL}",
+        "TMIN_MSG": "Internal temperature below {VAL}",
+        "WIPOS_MSG": "The gain of your bees' stock exceeds {VAL}",
+        "WINEG_MSG": "The loss of your bees' stock exceeds {VAL}",
+        "LOWBROOD_MSG": "Brood below {VAL}",
+        "HMAX_MSG": "Internal humidity over {VAL}",
+        "HMIN_MSG": "Internal humidity below {VAL}",
+        "HONEYDEW_MSG": "Incoming weights during the last week exceeding {VAL}",
+        "WLIM_MSG": "The weight of your hive exceeds {VAL}",
+        "SWARM_MSG": "Potential swarm detected around 14:00",
+        "RSWARM_MSG": "Swarming day expected",
+        "SUPER+_MSG": "You added a super",
+        "SUPER-_MSG": "You removed a super",
+        "LOWBATTERYT_MSG": "Replace the battery of ",
+        "LOWBATTERYW_MSG": "Replace the battery of ",
+        "DCONNECTT_MSG": "{REF} disconnected since {DATE}",
+        "DCONNECTW_MSG": "{REF} disconnected since {DATE}",
+        "DCONNECTH_MSG": "{REF} disconnected since {DATE}",
+        "POORSIGNALT_MSG": "{REF} poor signal since {DATE}",
+        "POORSIGNALW_MSG": "{REF} poor signal since {DATE}",
+        "STOPWEATHER_MSG": "Data transmission error from your weather station since {DATE}",
+        "STOLEN_MSG": "The weight of your hive is abnormally low",
+        "DEAD_MSG": "Your hive has been detected dead",
+        "REALTIME_SWARM_ALERT": "Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
     },
     "CONFIGURE_ALERTS": {
-        "REALTIME":"Realtime",
-        "SWARM_ALERT":"SwarmMinder",
+        "REALTIME": "Realtime",
+        "SWARM_ALERT": "SwarmMinder",
         "SENSORS": "Devices",
         "WEATHER": "Weather",
         "HIVE": "Hive",
-        "FREQUENCY_NEVER":"Alert summary email not sending",
-        "FREQUENCY_DAILY":"Alert summary email sent every day",
-        "FREQUENCY_WEEKLY":"Alert summary email sent every week",
-        "FREQUENCY_OTHER":"Alert summary email sent every {{value}} days",
-        "UPDATE_SUCCESS":"Alert settings updated",
-        "UPDATE_FAIL":"Error updating alert settings",
+        "FREQUENCY_NEVER": "Alert summary email not sending",
+        "FREQUENCY_DAILY": "Alert summary email sent every day",
+        "FREQUENCY_WEEKLY": "Alert summary email sent every week",
+        "FREQUENCY_OTHER": "Alert summary email sent every {{value}} days",
+        "UPDATE_SUCCESS": "Alert settings updated",
+        "UPDATE_FAIL": "Error updating alert settings",
         "EDIT": {
             "TITLE": "Email Settings",
             "MAIL": "Send email alert summary every",
@@ -1955,329 +1957,351 @@
             "DAILY": "day",
             "HOURLY": "hour",
             "WEEKLY": "week",
-            "NEVER":"never",
+            "NEVER": "never",
             "OTHER": "custom",
             "EVERY": "every",
-            "DAY":"day",
-            "SUMMARY_INPUT":"Summary Email (Comma Separated)",
-            "REALTIME_INPUT":"Realtime Email (Comma Separated)",
+            "DAY": "day",
+            "SUMMARY_INPUT": "Summary Email (Comma Separated)",
+            "REALTIME_INPUT": "Realtime Email (Comma Separated)",
             "BTN_MAIL_TEST": "Send test email",
-            "EMAIL":{
-                "SUMMARY_BODY":"This is a test email for MyBroodMinder summary alerts.",
-                "REALTIME_BODY":"This is a test message for MyBroodMinder realtime alerts.",
-                "SUCCESS":"Email sent to {{email}}",
-                "FAIL":"Email failed to send to {{email}}"
+            "EMAIL": {
+                "SUMMARY_BODY": "This is a test email for MyBroodMinder summary alerts.",
+                "REALTIME_BODY": "This is a test message for MyBroodMinder realtime alerts.",
+                "SUCCESS": "Email sent to {{email}}",
+                "FAIL": "Email failed to send to {{email}}"
             }
         }
     },
-    "CONFIGURE_DASHBOARDS":{
-        "NAME":"Name",
-        "VISIBLE":"Visible",
-        "DUPLICATE_TOOLTIP":"Duplicate",
-        "DELETE":{
-            "TITLE":"Delete {{name}}",
-            "MESSAGE":"Are you sure you want to delete this dashboard ({{name}})?",
-            "WARNING":"There are {{count}} public shared links connected to this dashboard. Deleting will break these links.",
-            "CONFIRM":"Delete",
-            "CANCEL":"Cancel",
-            "SUCCESS":"Dashboard removed",
-            "FAIL":"Error removing dashboard"
+    "CONFIGURE_DASHBOARDS": {
+        "NAME": "Name",
+        "VISIBLE": "Visible",
+        "DUPLICATE_TOOLTIP": "Duplicate",
+        "DELETE": {
+            "TITLE": "Delete {{name}}",
+            "MESSAGE": "Are you sure you want to delete this dashboard ({{name}})?",
+            "WARNING": "There are {{count}} public shared links connected to this dashboard. Deleting will break these links.",
+            "CONFIRM": "Delete",
+            "CANCEL": "Cancel",
+            "SUCCESS": "Dashboard removed",
+            "FAIL": "Error removing dashboard"
         },
-        "HIDE":{
-            "TITLE":"Hide {{name}}",
-            "MESSAGE":"Are you sure you want to hide this dashboard ({{name}})?",
-            "MESSAGE_2":"You can undo this from the Configure page.",
-            "CONFIRM":"Hide",
-            "CANCEL":"Cancel",
-            "HIDDEN":"Dashboard hidden",
-            "VISIBLE":"Dashboard visible"
+        "HIDE": {
+            "TITLE": "Hide {{name}}",
+            "MESSAGE": "Are you sure you want to hide this dashboard ({{name}})?",
+            "MESSAGE_2": "You can undo this from the Configure page.",
+            "CONFIRM": "Hide",
+            "CANCEL": "Cancel",
+            "HIDDEN": "Dashboard hidden",
+            "VISIBLE": "Dashboard visible"
         },
-        "DUPLICATE":{
-            "TITLE":"Copy {{name}}",
-            "MESSAGE":"Would you like to create a copy of this dashboard ({{name}})?",
-            "CONFIRM":"Create",
-            "CANCEL":"Cancel",
-            "NAME_SUFFIX":"copy",
-            "SUCCESS":"Dashboard created",
-            "FAIL":"Error creating dashboard"
+        "DUPLICATE": {
+            "TITLE": "Copy {{name}}",
+            "MESSAGE": "Would you like to create a copy of this dashboard ({{name}})?",
+            "CONFIRM": "Create",
+            "CANCEL": "Cancel",
+            "NAME_SUFFIX": "copy",
+            "SUCCESS": "Dashboard created",
+            "FAIL": "Error creating dashboard"
         },
-        "DASHBOARD":{
-            "TITLE_CREATE":"Create Dashboard",
-            "TITLE_EDIT":"Edit {{name}}",
-            "NAME":"Name",
-            "WARNING":"There are {{count}} public shared links connected to this dashboard. Any changes you make will affect those links.",
-            "AVAILABLE":"Available Charts",
-            "ACTIVE":"Active Charts",
-            "DRAG":"Drag chart to add to dashboard",
-            "SUCCESS":"Dashboard updated",
-            "FAIL":"Error updating dashboard",
-            "CHART_NAMES":{
-                "WEIGHT":"Weight",
-                "PROD":"Productivity",
-                "WEIGHT_CHANGE":"Weight Change",
-                "TEMP":"Temperature",
-                "HUMID":"Humidity",
-                "BEECOUNT":"Bee Count",
-                "RAIN":"Rain",
-                "WIND":"Wind",
-                "CLOUD_COVER":"Cloud Cover",
-                "MATING_FLIGHTS":"Mating Flight Window",
-                "BATTERY":"Battery",
-                "BROOD":"Brood",
-                "NOTES":"Notes",
-                "APIARY_IMAGE":"Apiary Image",
-                "APIARY_MAP":"Apiaries Map",
-                "FORAGING":"Foraging Index",
-                "NECTAR":"Nectar Flow Index",
-                "HIVE_TEXT":"Hive Text",
-                "HIVE_TEXT_SUMMARY":"Text"
+        "DASHBOARD": {
+            "TITLE_CREATE": "Create Dashboard",
+            "TITLE_EDIT": "Edit {{name}}",
+            "NAME": "Name",
+            "WARNING": "There are {{count}} public shared links connected to this dashboard. Any changes you make will affect those links.",
+            "AVAILABLE": "Available Charts",
+            "ACTIVE": "Active Charts",
+            "DRAG": "Drag chart to add to dashboard",
+            "SUCCESS": "Dashboard updated",
+            "FAIL": "Error updating dashboard",
+            "CHART_NAMES": {
+                "WEIGHT": "Weight",
+                "PROD": "Productivity",
+                "WEIGHT_CHANGE": "Weight Change",
+                "TEMP": "Temperature",
+                "HUMID": "Humidity",
+                "BEECOUNT": "Bee Count",
+                "RAIN": "Rain",
+                "WIND": "Wind",
+                "CLOUD_COVER": "Cloud Cover",
+                "MATING_FLIGHTS": "Mating Flight Window",
+                "BATTERY": "Battery",
+                "BROOD": "Brood",
+                "NOTES": "Notes",
+                "APIARY_IMAGE": "Apiary Image",
+                "APIARY_MAP": "Apiaries Map",
+                "FORAGING": "Foraging Index",
+                "NECTAR": "Nectar Flow Index",
+                "HIVE_TEXT": "Hive Text",
+                "HIVE_TEXT_SUMMARY": "Text",
+                "BLOOM": "Bloei",
+                "BLOOM_FORECAST": "Bloei Voorspelling"
             }
         },
-        "CHART":{
-            "TITLE_CREATE":"Create Chart",
-            "TITLE_EDIT":"Edit {{name}}",
-            "NAME":"Name",
-            "FILTERS":{
-                "AVAILABLE":"Available",
-                "ACTIVE":"Active"
+        "CHART": {
+            "TITLE_CREATE": "Create Chart",
+            "TITLE_EDIT": "Edit {{name}}",
+            "NAME": "Name",
+            "FILTERS": {
+                "AVAILABLE": "Available",
+                "ACTIVE": "Active"
             },
-            "HEIGHT":"Height",
-            "DEFAULT":"Default ({{value}})",
-            "LEGEND":"Show Legend",
-            "BROOD_ZONE":"Show Brood Zone",
-            "NORMAL_HUMID":"Show Normal Humidity",
-            "APIARY_LOCATIONS":"Show Apiary Locations",
-            "TODAY_LINE":"Show Today Line",
-            "SUCCESS":"Chart updated",
-            "FAIL":"Error updating chart"
+            "HEIGHT": "Height",
+            "DEFAULT": "Default ({{value}})",
+            "LEGEND": "Show Legend",
+            "BROOD_ZONE": "Show Brood Zone",
+            "NORMAL_HUMID": "Show Normal Humidity",
+            "APIARY_LOCATIONS": "Show Apiary Locations",
+            "TODAY_LINE": "Show Today Line",
+            "SUCCESS": "Chart updated",
+            "FAIL": "Error updating chart"
         }
     },
-    "DASHBOARD":{
-        "CONTEXT":{
-            "EDIT_DASH":"Edit Dashboard",
-            "HIDE_DASH":"Hide Dashboard",
-            "DELETE_DASH":"Delete Dashboard",
-            "SHARE_DASH":"Share Dashboard",
-            "EDIT_SHARE_DASH":"Edit Shared Links",
-            "DOWNLOAD":{
-                "MENU":"Download Options",
-                "TITLE":"Download",
-                "NOTES":"Notes CSV",
-                "HOURLY_READINGS":"Hourly Readings CSV",
-                "DAILY_READINGS":"Daily Readings CSV",
-                "HOURLY_WEATHER":"Hourly Weather CSV",
-                "DAILY_WEATHER":"Daily Weather CSV",
-                "DOWNLOAD":"Download",
-                "WARNING":"You need premium for hive csv downloads."
+    "DASHBOARD": {
+        "CONTEXT": {
+            "EDIT_DASH": "Edit Dashboard",
+            "HIDE_DASH": "Hide Dashboard",
+            "DELETE_DASH": "Delete Dashboard",
+            "SHARE_DASH": "Share Dashboard",
+            "EDIT_SHARE_DASH": "Edit Shared Links",
+            "DOWNLOAD": {
+                "MENU": "Download Options",
+                "TITLE": "Download",
+                "NOTES": "Notes CSV",
+                "HOURLY_READINGS": "Hourly Readings CSV",
+                "DAILY_READINGS": "Daily Readings CSV",
+                "HOURLY_WEATHER": "Hourly Weather CSV",
+                "DAILY_WEATHER": "Daily Weather CSV",
+                "DOWNLOAD": "Download",
+                "WARNING": "You need premium for hive csv downloads."
             }
         },
-        "CHART":{
-            "NO_DATA":"No data",
-            "EDIT_CHART":"Edit Chart",
-            "DOWNLOAD_CHART":"Download Chart Image",
-            "ZOOM_X":"X-Axis Zoom",
-            "ZOOM_Y":"Y-Axis Zoom",
-            "ZOOM_CANCEL":"Cancel Zoom",
-            "IMAGE":{
-                "ADD":"Add Picture",
-                "REMOVE":"Remove Picture",
-                "DROP":"Drop your custom picture here",
-                "UPLOADING":"Uploading {{value}}%",
-                "ERROR_TYPE":"Image not allowed, jpeg and png only",
-                "ERROR_SIZE":"Image too large, 6MB allowed",
-                "SUCCESS":"File uploaded"
+        "CHART": {
+            "NO_DATA": "No data",
+            "EDIT_CHART": "Edit Chart",
+            "DOWNLOAD_CHART": "Download Chart Image",
+            "ZOOM_X": "X-Axis Zoom",
+            "ZOOM_Y": "Y-Axis Zoom",
+            "ZOOM_CANCEL": "Cancel Zoom",
+            "IMAGE": {
+                "ADD": "Add Picture",
+                "REMOVE": "Remove Picture",
+                "DROP": "Drop your custom picture here",
+                "UPLOADING": "Uploading {{value}}%",
+                "ERROR_TYPE": "Image not allowed, jpeg and png only",
+                "ERROR_SIZE": "Image too large, 6MB allowed",
+                "SUCCESS": "File uploaded"
             },
-            "MAP":{
-                "EDIT":"Edit Map"
+            "MAP": {
+                "EDIT": "Edit Map"
             },
-            "NOTES":{
-                "TITLE":"{{count}} Notes",
-                "ADD":"Add Note",
-                "ERROR":"Note details not found",
-                "MORE":"Load More",
-                "LOADING":"Loading",
-                "SHOWING":"Showing"
+            "NOTES": {
+                "TITLE": "{{count}} Notes",
+                "ADD": "Add Note",
+                "ERROR": "Note details not found",
+                "MORE": "Load More",
+                "LOADING": "Loading",
+                "SHOWING": "Showing"
             },
-            "ALERTS":{
-                "EDIT":{
-                    "TITLE":"Edit Alert",
-                    "SUCCESS":"Alert updated",
-                    "FAIL":"Error updating alert"
+            "ALERTS": {
+                "EDIT": {
+                    "TITLE": "Edit Alert",
+                    "SUCCESS": "Alert updated",
+                    "FAIL": "Error updating alert"
                 },
-                "ERROR":"Alert details not found"
+                "ERROR": "Alert details not found"
             },
-            "ALERT_NOTE_TABLE":{
-                "DATE":"Date",
-                "DESCRIPTION":"Description",
-                "NO_DESCR":"No description",
-                "TAGS":"Tags",
-                "DELETE_ALERT":{
-                    "TITLE":"Delete Alert",
-                    "MESSAGE":"Are you sure you want to delete this alert?",
-                    "CONFIRM":"Delete",
-                    "SUCCESS":"Alert deleted",
-                    "ERROR":"Error deleting alert"
+            "ALERT_NOTE_TABLE": {
+                "DATE": "Date",
+                "DESCRIPTION": "Description",
+                "NO_DESCR": "No description",
+                "TAGS": "Tags",
+                "DELETE_ALERT": {
+                    "TITLE": "Delete Alert",
+                    "MESSAGE": "Are you sure you want to delete this alert?",
+                    "CONFIRM": "Delete",
+                    "SUCCESS": "Alert deleted",
+                    "ERROR": "Error deleting alert"
                 }
             },
-            "APIARY_OVERVIEW":{
-                "RAIN":"Rain",
-                "WIND":"Wind",
-                "MAX_TEMP":"Max Temp",
-                "NOTES":"Notes",
-                "ALERTS":"Alerts",
-                "NECTAR":"Nectar Idx",
-                "FORAGING":"Foraging Idx",
-                "MIN_TEMP":"Min Temp",
-                "WEATHER":"Weather"
+            "APIARY_OVERVIEW": {
+                "RAIN": "Rain",
+                "WIND": "Wind",
+                "MAX_TEMP": "Max Temp",
+                "NOTES": "Notes",
+                "ALERTS": "Alerts",
+                "NECTAR": "Nectar Idx",
+                "FORAGING": "Foraging Idx",
+                "MIN_TEMP": "Min Temp",
+                "WEATHER": "Weather"
             },
-            "HIVE_OVERVIEW":{
-                "NAME":"Name",
-                "DATE":"Date",
-                "FITNESS":"Fitness",
-                "BROOD":"Brood",
-                "WEIGHT":"Weight",
-                "PROD":"Productivity",
-                "FORAG":"Foraging",
-                "FORAG_DESC":"Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
-                "ALERTS":"Alerts",
-                "NOTES":"Notes",
-                "HISTORY":"History",
-                "HISTORY_TOOLTIP":"History"
+            "HIVE_OVERVIEW": {
+                "NAME": "Name",
+                "DATE": "Date",
+                "FITNESS": "Fitness",
+                "BROOD": "Brood",
+                "WEIGHT": "Weight",
+                "PROD": "Productivity",
+                "FORAG": "Foraging",
+                "FORAG_DESC": "Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
+                "ALERTS": "Alerts",
+                "NOTES": "Notes",
+                "HISTORY": "History",
+                "HISTORY_TOOLTIP": "History"
             },
-            "HIVE_TEXT":{
-                "NAME":"Name",
-                "DATE":"Date",
-                "LOCATION":"Location",
-                "LAST_SEEN":"Last Seen",
-                "TEMP":"Temperature",
-                "HUMID":"Humidity",
-                "WEIGHT":"Weight",
-                "GAIN_S":"Gain (since sunrise)",
-                "BEEDAR":"Beedar",
-                "BATTERY":"Battery",
-                "NO_DATA":"No data in time range",
-                "GAIN":"Gain",
-                "SUNRISE":"Sunrise",
-                "INITIAL":"Initial",
-                "LATEST":"Latest"
+            "HIVE_TEXT": {
+                "NAME": "Name",
+                "DATE": "Date",
+                "LOCATION": "Location",
+                "LAST_SEEN": "Last Seen",
+                "TEMP": "Temperature",
+                "HUMID": "Humidity",
+                "WEIGHT": "Weight",
+                "GAIN_S": "Gain (since sunrise)",
+                "BEEDAR": "Beedar",
+                "BATTERY": "Battery",
+                "NO_DATA": "No data in time range",
+                "GAIN": "Gain",
+                "SUNRISE": "Sunrise",
+                "INITIAL": "Initial",
+                "LATEST": "Latest"
             }
         }
     },
-    "GLOBAL_DASHBOARDS":{
-        "CLASSIC":{
-            "TITLE":"Classic",
-            "WEIGHT":"Weight",
-            "WEIGHT_CHANGE":"Weight Change",
-            "TEMP":"Temperature",
-            "HUMID":"Humidity",
-            "BATTERY":"Battery",
-            "RADAR":"Radar",
-            "AUDIO":"Vibration"
+    "GLOBAL_DASHBOARDS": {
+        "CLASSIC": {
+            "TITLE": "Classic",
+            "WEIGHT": "Weight",
+            "WEIGHT_CHANGE": "Weight Change",
+            "TEMP": "Temperature",
+            "HUMID": "Humidity",
+            "BATTERY": "Battery",
+            "RADAR": "Radar",
+            "AUDIO": "Vibration"
         },
-        "CALENDAR":{
-            "TITLE":"Calendar"
+        "CALENDAR": {
+            "TITLE": "Calendar"
         },
-        "WEATHER":{
-            "TITLE":"Weather"
+        "WEATHER": {
+            "TITLE": "Weather"
         }
     },
-    "F_TOUR":{
-        "NEXT":"Next",
-        "BACK":"Back",
-        "START":{
-            "TITLE":"New and Improved MyBroodMinder!",
-            "TEXT":"Welcome to the new and improved MyBroodMinder! We have added new features, charts, and data. Learn more here.",
-            "NAV_BUTTON":"Navigation",
-            "DASH_BUTTON":"Dashboards",
-            "EXTRAS_BUTTON":"Extras",
-            "DONE_BUTTON":"Done"
+    "F_TOUR": {
+        "NEXT": "Next",
+        "BACK": "Back",
+        "START": {
+            "TITLE": "New and Improved MyBroodMinder!",
+            "TEXT": "Welcome to the new and improved MyBroodMinder! We have added new features, charts, and data. Learn more here.",
+            "NAV_BUTTON": "Navigation",
+            "DASH_BUTTON": "Dashboards",
+            "EXTRAS_BUTTON": "Extras",
+            "DONE_BUTTON": "Done"
         },
-        "NAV":{
-            "HOME":{
-                "TITLE":"Home Page",
-                "TEXT":"Visit the home page to view an overview of your active hives and apiaries."
+        "NAV": {
+            "HOME": {
+                "TITLE": "Home Page",
+                "TEXT": "Visit the home page to view an overview of your active hives and apiaries."
             },
-            "HIVE":{
-                "TITLE":"View a hive",
-                "TEXT_1":"Click on a hive name to view it on a dashboard",
-                "TEXT_2":"Click on the hive again to remove it."
+            "HIVE": {
+                "TITLE": "View a hive",
+                "TEXT_1": "Click on a hive name to view it on a dashboard",
+                "TEXT_2": "Click on the hive again to remove it."
             },
-            "MULTI":{
-                "TITLE":"Enable Multi-Select",
-                "TEXT":"Click multi-select to display multiple hives at once."
+            "MULTI": {
+                "TITLE": "Enable Multi-Select",
+                "TEXT": "Click multi-select to display multiple hives at once."
             },
-            "APIARY":{
-                "TITLE":"Click Apiary",
-                "TEXT":"Click an Apiary to add or remove its hives from your display."
-            }
-
-        },
-        "DASH":{
-            "DASHBOARDS":{
-                "TITLE":"New Views and Visualizations!",
-                "TEXT":"Click on a dashboard name to view your data in different ways!"                       
-            },
-            "NEW":{
-                "TITLE":"Custom Dashboards",
-                "TEXT":"Create your own dashboard. Add and arrange charts to suit your needs."
-            },
-            "DASH_OPT":{
-                "TITLE":"Dashboard Options",
-                "TEXT":"Click for more dashboard options."
-            },
-            "CHART_EDIT":{
-                "TITLE":"Chart Options",
-                "TEXT":"Click to edit chart options."
-            },
-            "CHART_FILTER":{
-                "TITLE":"Chart Filters",
-                "TEXT_1":"Click to zoom.",
-                "TEXT_2":"Click to remove and add data to your chart."
+            "APIARY": {
+                "TITLE": "Click Apiary",
+                "TEXT": "Click an Apiary to add or remove its hives from your display."
             }
         },
-        "EXTRAS":{
-            "DATE":{
-                "TITLE":"Date Range",
-                "TEXT":"Select date range and optionaly show forecast."
+        "DASH": {
+            "DASHBOARDS": {
+                "TITLE": "New Views and Visualizations!",
+                "TEXT": "Click on a dashboard name to view your data in different ways!"
             },
-            "CONF":{
-                "TITLE":"Advanced Options",
-                "TEXT":"Click configure to view more advanced options."
+            "NEW": {
+                "TITLE": "Custom Dashboards",
+                "TEXT": "Create your own dashboard. Add and arrange charts to suit your needs."
             },
-            "CONF_DASH":{
-                "TITLE":"Advanced Dashboard Options",
-                "TEXT":"Edit, un-hide, duplicate, etc..."
+            "DASH_OPT": {
+                "TITLE": "Dashboard Options",
+                "TEXT": "Click for more dashboard options."
             },
-            "CONF_ALERT":{
-                "TITLE":"Advanced Alert Options",
-                "TEXT":"Edit alert settings, email, and frequency."
+            "CHART_EDIT": {
+                "TITLE": "Chart Options",
+                "TEXT": "Click to edit chart options."
             },
-            "HIVE_COLOR":{
-                "TITLE":"Customize Hive Color",
-                "TEXT_1":"Edit your hive to change the hive color. This is customizable so you can easily view multiple hives on the same dashboard.",
-                "TEXT_2":"This can also be done for each of your apiaries to specify the weather color."
+            "CHART_FILTER": {
+                "TITLE": "Chart Filters",
+                "TEXT_1": "Click to zoom.",
+                "TEXT_2": "Click to remove and add data to your chart."
             }
         },
-        "END":{
-            "TITLE":"That's All",
-            "TEXT_1":"For more help and information view our documentation.",
-            "TEXT_2":"We hope you enjoy it!!",
-            "TEXT_3":"-The BroodMinder Team",
-            "DONE":"Done"
+        "EXTRAS": {
+            "DATE": {
+                "TITLE": "Date Range",
+                "TEXT": "Select date range and optionaly show forecast."
+            },
+            "CONF": {
+                "TITLE": "Advanced Options",
+                "TEXT": "Click configure to view more advanced options."
+            },
+            "CONF_DASH": {
+                "TITLE": "Advanced Dashboard Options",
+                "TEXT": "Edit, un-hide, duplicate, etc..."
+            },
+            "CONF_ALERT": {
+                "TITLE": "Advanced Alert Options",
+                "TEXT": "Edit alert settings, email, and frequency."
+            },
+            "HIVE_COLOR": {
+                "TITLE": "Customize Hive Color",
+                "TEXT_1": "Edit your hive to change the hive color. This is customizable so you can easily view multiple hives on the same dashboard.",
+                "TEXT_2": "This can also be done for each of your apiaries to specify the weather color."
+            }
+        },
+        "END": {
+            "TITLE": "That's All",
+            "TEXT_1": "For more help and information view our documentation.",
+            "TEXT_2": "We hope you enjoy it!!",
+            "TEXT_3": "-The BroodMinder Team",
+            "DONE": "Done"
         }
     },
-    "HOME":{
-        "HIVES":"Hives",
-        "APIARIES":"Apiaries",
-        "EMPTY":{
-            "TEXT_1":"Welcome to MyBroodMinder! This is the home page!",
-            "TEXT_2":" This is a quick view for your hives and apiaries. Hives and apiaries are displayed here if they are active with devices assigned.",
-            "TEXT_3":"Shared apiaries are not shown here.",
-            "TEXT_4":"It appears you have nothing fitting this description.",
-            "TEXT_5":"From now on you can:",
-            "TEXT_LI_1A":"Use",
-            "TEXT_LI_1B":"on the top left to add hives, apiaries, and devices to your account",
-            "TEXT_LI_2":"Or download BroodMinder Bees app to manage them too."
+    "HOME": {
+        "HIVES": "Hives",
+        "APIARIES": "Apiaries",
+        "EMPTY": {
+            "TEXT_1": "Welcome to MyBroodMinder! This is the home page!",
+            "TEXT_2": " This is a quick view for your hives and apiaries. Hives and apiaries are displayed here if they are active with devices assigned.",
+            "TEXT_3": "Shared apiaries are not shown here.",
+            "TEXT_4": "It appears you have nothing fitting this description.",
+            "TEXT_5": "From now on you can:",
+            "TEXT_LI_1A": "Use",
+            "TEXT_LI_1B": "on the top left to add hives, apiaries, and devices to your account",
+            "TEXT_LI_2": "Or download BroodMinder Bees app to manage them too."
+        },
+        "BLOCKED": {
+            "TITLE": "Thuis",
+            "MISSING": "Wat ontbreekt!",
+            "DESCR_HIVES": "Een snel overzicht van de huidige toestand van je bijenkorven. Toont notities, waarschuwingen en gezondheidsstatistieken.",
+            "DESCR_APIARIES": "Een snel overzicht van de huidige toestand van je bijenstand. Toont notities, waarschuwingen, weer en voorspellingen."
         }
+    },
+    "MEMBERSHIP_BLOCKS": {
+        "DASHBOARD_DATA": "Dit dashboard toont berekende gegevens. Je gratis lidmaatschap omvat deze analyses niet.",
+        "CHART_DATA": "Deze grafiek toont berekende gegevens. Je gratis lidmaatschap omvat deze analyses niet.",
+        "DASHBOARD_ADD": "Slechts één aangepast dashboard is toegestaan met je gratis lidmaatschap",
+        "UNLOCK": "Upgrade je account om deze functie te ontgrendelen",
+        "HIVE_ADD_FREE": "Je hebt {{activeHiveCount}} actieve bijenkorven. Je gratis lidmaatschap staat {{hivesAllowed}} toe.",
+        "HIVE_ADD": "Je hebt {{activeHiveCount}} actieve bijenkorven. Je lidmaatschap staat {{hivesAllowed}} toe.",
+        "HOME_PAGE": "Dit overzicht toont berekende gegevens. Je gratis lidmaatschap omvat deze analyses niet.",
+        "DATE_PICKER": "Reikwijdte van 13 maanden en voorspelling is niet beschikbaar bij een gratis lidmaatschap.",
+        "HUB_DATA": "Hubgegevens niet geüpload met je gratis lidmaatschap",
+        "THIRDPARTY_DATA": "Gegevens van derden niet geüpload met je gratis lidmaatschap",
+        "MISSING_FEATURE": "Deze functie is niet beschikbaar zonder lidmaatschap.",
+        "MISSING_FEATURE_CLOSE": "Sluiten",
+        "MISSING_FEATURE_UPGRADE": "UPGRADE"
     }
 }

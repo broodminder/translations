@@ -1,161 +1,200 @@
 {
     "ACCOUNT": {
-      "SUBJECT": "Stato dell'account MyBroodMinder",
-      "MESSAGE_1": "Caro {{.name}},",
-      "EXP_2W": "I nostri registri mostrano che uno o più dei tuoi abbonamenti a MyBroodMinder.com scadranno tra due settimane.",
-      "EXP_TODAY": "I nostri registri mostrano che uno o più dei tuoi abbonamenti a MyBroodMinder.com scadranno oggi.",
-      "MESSAGE_2_MEMBERSHIP_EXP": "Ti ringraziamo per aver partecipato nell'ultimo anno. Fai davvero la differenza. Speriamo che tu continui a sostenere la nostra citizen science, così come i nostri programmatori, con il tuo continuo abbonamento.",
-      "MESSAGE_2_HUB_EXP": "I nostri registri mostrano che hai uno o più hub che inviano dati a MyBroodMinder.com. Aggiorna i tuoi abbonamenti e i token per elaborare e visualizzare i dati. Se non stai più utilizzando questo hub, ti consigliamo di spegnerlo e di togliere la batteria dalla modalità 'sempre accesa'.",
-      "MESSAGE_4": "Puoi aggiornare i tuoi abbonamenti",
-      "MESSAGE_4_LINK": "qui",
-      "MESSAGE_5": "Negli ultimi cinque anni abbiamo fatto enormi investimenti in MyBroodMinder.com. Il team ha ricevuto feedback da innumerevoli apicoltori e ha apportato aggiornamenti per facilitare la vasta gamma di installazioni e apiari in tutto il mondo. Siamo entusiasti del crescente numero di utenti e profondamente grati per il coinvolgimento di tutti.",
-      "MESSAGE_6": "Rimanevamo impegnati nel fornire archiviazione gratuita dei dati nel cloud in cambio della disponibilità dei dati per i ricercatori di tutto il mondo. Tuttavia, poiché siamo completamente autofinanziati, speriamo che tu consideri/continui a iscriverti ai nostri servizi premium e in tempo reale per finanziare lo sviluppo continuo di software e applicazioni.",
-      "MESSAGE_7": "Speriamo che tu continui a utilizzare e apprezzare i servizi di BroodMinder. Contatta Mike all'indirizzo Support@BroodMinder.com se hai domande o commenti.",
-      "SUMMARY": {
-        "NAME": "Nome",
-        "LAST": "Ultimo accesso",
-        "LENGTH": "Durata",
-        "MEMBERSHIP": "Abbonamento",
-        "TOKENS": "Token",
-        "STATUS": "Stato",
-        "STATUS_ACTIVE": "Attivo",
-        "STATUS_CANCELLED": "Annullato",
-        "STATUS_FAILED": "In ritardo",
-        "RENEWS": "Rinnova",
-        "EXPIRES": "Scade",
-        "PRICE": "Prezzo",
-        "APIARIES": "Apiari",
-        "HIVES": "Arnie",
-        "SENSORS": "Sensori BroodMinder",
-        "HUBS": "Dispositivi Hub",
-        "APIARY": "Apiario",
-        "APIARY_NONE": "Nessuno",
-        "ID": "ID",
-        "VERSION": "Versione",
-        "VERSION_UNKNOWN": "Sconosciuto",
-        "SIM": "SIM"
-      }
+        "CANCELED": {
+            "SUBJECT": "Scadenza dell'abbonamento Premium MyBroodMinder",
+            "SUBJECT_COMP": "Scadenza dell'abbonamento Premium Complimentary MyBroodMinder",
+            "MESSAGE1": "Il tuo abbonamento Premium MyBroodMinder è stato annullato. I tuoi benefici premium termineranno tra due settimane.",
+            "MESSAGE1_COMP": "Il tuo abbonamento Premium Complimentary MyBroodMinder sta per scadere. I tuoi benefici premium termineranno tra due settimane.",
+            "HEADER": "Se non fai nulla",
+            "MESSAGE2": "Se desideri riabbonarti,",
+            "MESSAGE3": "segu questo link.",
+            "MESSAGE4": "Il tuo abbonamento aiuta a sostenere i nostri sforzi continui per migliorare l'apicoltura. Molti membri del nostro team lavorano volontariamente, ma abbiamo anche colleghi più giovani che sono dedicati a tempo pieno e dipendono da uno stipendio."
+        },
+        "EXPIRED": {
+            "SUBJECT": "Abbonamento Premium MyBroodMinder Scaduto",
+            "MESSAGE1": "Il tuo abbonamento Premium MyBroodMinder è scaduto ieri. I tuoi benefici premium sono terminati.",
+            "HEADER": "Senza abbonamento"
+        },
+        "RENEWAL": {
+            "SUBJECT": "Abbonamento Premium MyBroodMinder",
+            "MESSAGE1": "Il tuo abbonamento Premium MyBroodMinder si rinnoverà tra 2 settimane.",
+            "MESSAGE2": "Grazie per il tuo supporto. Molti membri del nostro team lavorano volontariamente, ma abbiamo anche colleghi più giovani che sono dedicati a tempo pieno e dipendono da uno stipendio. Il tuo sostegno ci permette di continuare a migliorare la soluzione leader nel monitoraggio delle arnie nel mondo.",
+            "PRODUCT": "Prodotto",
+            "PRODUCT_GENERIC": "Abbonamento Premium MyBroodminder ({{.count}} arnie)"
+        },
+        "WARNING": {
+            "HUBS": "I tuoi {{.count}} hub non caricheranno più dati.",
+            "HIVES": "Hai {{.count}} arnie, ma il tuo abbonamento permette {{.allowCount}}. Dovrai disattivare {{.deactCount}} arnie.",
+            "THIRD_PARTY": "I tuoi {{.count}} dispositivi di terze parti non caricheranno più dati.",
+            "ACCOUNT": "Non avrai più accesso alle funzionalità Premium. Ciò include, ma non è limitato a, dati calcolati, avvisi e previsioni."
+        }
     },
     "RECEIPT": {
-      "PURCHASE": {
-        "SUBJECT": "Abbonamento MyBroodMinder {{.type}} acquistato",
-        "MESSAGE": "Grazie per l'acquisto di un abbonamento MyBroodMinder {{.type}}."
-      },
-      "UPDATE": {
-        "SUBJECT": "Modifiche all'abbonamento {{.type}} di MyBroodMinder",
-        "MESSAGE": "Il tuo abbonamento MyBroodMinder {{.type}} è stato aggiornato."
-      },
-      "PURCHASE_OT_TOKENS": {
-        "SUBJECT": "Token Hub MyBroodMinder acquistati",
-        "MESSAGE": "I tuoi token sono stati aggiunti. Sono stati addebitati {{.amount}} sul tuo account."
-      },
-      "ORDER_ID": "ID ordine",
-      "STATUS": "Stato",
-      "TAX": "Imposta",
-      "TOTAL_NOW": "Totale pagato ora",
-      "AR_DATE": "Data di auto-rinnovo",
-      "AR_AMOUNT": "Importo di auto-rinnovo",
-      "MANAGE_LINK": "Gestisci l'abbonamento su"
+        "PURCHASE": {
+            "SUBJECT": "Abbonamento MyBroodMinder {{.type}} acquistato",
+            "MESSAGE1": "Grazie per l'acquisto dell'abbonamento Premium MyBroodMinder!",
+            "MESSAGE2": "Unendoti a noi, non solo supporti il team di BroodMinder, ma contribuisci anche all'intera comunità di BroodMinder e, soprattutto, al benessere delle api e al futuro dell'apicoltura. Il tuo supporto è cruciale mentre continuiamo a migliorare la gestione delle arnie e a promuovere pratiche sostenibili che beneficiano le api in tutto il mondo.",
+            "MESSAGE3": "Molti membri del nostro team lavorano volontariamente, ma abbiamo anche colleghi più giovani che sono dedicati a tempo pieno e dipendono da uno stipendio. Il tuo abbonamento ci aiuta a evolvere e mantenere la soluzione leader nel monitoraggio delle arnie nel mondo.",
+            "MESSAGE4": "Ti incoraggiamo a esplorare la nostra vasta documentazione e libreria video. Abbiamo progettato il sistema per essere semplice ma potente, con moltissime risorse disponibili per aiutarti a sbloccarne tutto il potenziale.",
+            "MESSAGE5": "Se hai bisogno di assistenza, non esitare a contattarci all'indirizzo support@broodminder.com."
+        },
+        "PAYMENT": {
+            "SUBJECT": "Pagamento Ricevuto",
+            "MESSAGE": "Grazie, abbiamo ricevuto il pagamento per il tuo abbonamento Premium MyBroodMinder",
+            "PAID": "Pagato il",
+            "PRODUCT": {
+                "TITLE": "Prodotti",
+                "NEW": "Abbonamento Premium MyBroodminder {{.count}} arnie per 1 anno. (Rinnova il {{.date}}) {{.amount}}",
+                "UPGRADE": "Abbonamento Premium MyBroodminder aggiornato a %v arnie all'anno. (Rinnova il %v) %v"
+            },
+            "CUSTOMER": {
+                "TITLE": "Cliente",
+                "EMAIL": "Email",
+                "NAME": "Nome",
+                "COMPANY": "Azienda"
+            },
+            "TRANSACTION": {
+                "TITLE": "Transazione",
+                "TYPE": "Tipo",
+                "AMOUNT": "Importo",
+                "DATE": "Data",
+                "STATUS": "Stato",
+                "TRANSACTION_ID": "ID Transazione",
+                "TYPE_CREDIT": "Carta di Credito",
+                "CARD_TYPE": "Tipo di Carta",
+                "CARD_HOLDER": "Nome del Titolare della Carta",
+                "CARD_NUMBER": "Numero della Carta di Credito",
+                "TYPE_PAYPAL": "Account PayPal",
+                "PAYPAL_EMAIL": "Email Pagante",
+                "PAYPAL_FNAME": "Nome del Pagante",
+                "PAYPAL_LNAME": "Cognome del Pagante"
+            }
+        },
+        "UPDATE": {
+            "SUBJECT": "Modifiche all'abbonamento {{.type}} di MyBroodMinder",
+            "MESSAGE": "Il tuo abbonamento MyBroodMinder {{.type}} è stato aggiornato."
+        },
+        "PURCHASE_OT_TOKENS": {
+            "SUBJECT": "Token Hub MyBroodMinder acquistati",
+            "MESSAGE": "I tuoi token sono stati aggiunti. Sono stati addebitati {{.amount}} sul tuo account."
+        },
+        "ORDER_ID": "ID ordine",
+        "STATUS": "Stato",
+        "PRODUCT": "Prodotto",
+        "PRODUCT_GENERIC": "Abbonamento Premium MyBroodminder ({{.count}} arnie)",
+        "TOTAL_NOW": "Totale pagato ora",
+        "AR_DATE": "Data di auto-rinnovo",
+        "AR_AMOUNT": "Importo di auto-rinnovo",
+        "MANAGE_LINK": "Gestisci l'abbonamento su"
+    },
+    "CANCEL": {
+        "SUBJECT": "Abbonamento Premium MyBroodMinder Annullato",
+        "MESSAGE1": "Il tuo abbonamento Premium MyBroodMinder è stato annullato.",
+        "MESSAGE2": "I tuoi benefici premium continueranno fino al {{.date}}. Inviaremo un promemoria due settimane prima della fine e potrai riabbonarti se cambierai idea.",
+        "MESSAGE3": "Il tuo abbonamento aiuta a sostenere i nostri sforzi continui per migliorare l'apicoltura. Molti membri del nostro team lavorano volontariamente, ma abbiamo anche colleghi più giovani che sono dedicati a tempo pieno e dipendono da uno stipendio."
     },
     "PAYMENT_FAIL": {
-      "SUBJECT": "Pagamento dell'abbonamento MyBroodminder fallito",
-      "MESSAGE": "Il pagamento automatico del tuo abbonamento MyBroodMinder è fallito. Vai su {{.url}} per correggere le informazioni di pagamento.",
-      "ORDER_ID": "ID ordine",
-      "STATUS": "Stato",
-      "AR_DATE": "Data di auto-rinnovo",
-      "AR_AMOUNT": "Importo di auto-rinnovo"
+        "SUBJECT": "Pagamento dell'abbonamento MyBroodminder fallito",
+        "MESSAGE": "Il pagamento automatico del tuo abbonamento MyBroodMinder è fallito. Vai su {{.url}} per correggere le informazioni di pagamento.",
+        "ORDER_ID": "ID ordine",
+        "STATUS": "Stato",
+        "AR_DATE": "Data di auto-rinnovo",
+        "AR_AMOUNT": "Importo di auto-rinnovo"
     },
     "COMMON": {
-      "LENGTH_YEAR": "Annuale",
-      "LENGTH_MONTH": "Mensile",
-      "TYPE": {
-        "FREE": "Gratuito",
-        "TRIAL": "Prova",
-        "HOBBY": "Hobby",
-        "PREMIUM": "Premium",
-        "PRO": "Pro"
-      }
+        "LENGTH_YEAR": "Annuale",
+        "LENGTH_MONTH": "Mensile",
+        "TYPE": {
+            "FREE": "Gratuito",
+            "TRIAL": "Prova",
+            "HOBBY": "Hobby",
+            "PREMIUM": "Premium",
+            "PRO": "Pro"
+        },
+        "SIGNOFF1": "Ricorda:",
+        "SIGNOFF2": "Ogni Alveare Conta",
+        "SIGNOFF3": "Il Tuo Team di BroodMinder"
     },
     "ACCOUNT_DELETE": {
-      "SUBJECT": "Stato cancellazione account",
-      "SUCCESS_MESSAGE": "Il tuo account MyBroodMinder è stato cancellato con successo.",
-      "ERROR_MESSAGE": "Si è verificato un errore durante la cancellazione del tuo account. Contatta support@broodminder.com per completare la cancellazione dell'account. (ID di riferimento: {{.id}})"
+        "SUBJECT": "Stato cancellazione account",
+        "SUCCESS_MESSAGE": "Il tuo account MyBroodMinder è stato cancellato con successo.",
+        "ERROR_MESSAGE": "Si è verificato un errore durante la cancellazione del tuo account. Contatta support@broodminder.com per completare la cancellazione dell'account. (ID di riferimento: {{.id}})"
     },
     "DATA_SUMMARY": {
-      "STATUS": "Stato",
-      "PAST_EVENTS": "Eventi passati",
-      "FUTUR_EVENTS": "Prossimi eventi",
-      "APIARY": "Apiario",
-      "PRODUCTIVITY": "Produttività",
-      "BROOD": "Covata",
-      "ALERTS": "Avvisi",
-      "FITNESS": "Condizione",
-      "NOFITNESS": "significa che non abbiamo dati sufficienti per decidere sulla buona salute dell'alveare.",
-      "RANKING": "Classifica",
-      "HIVE": "Alveare",
-      "DATE": "Data",
-      "FITCODE": {
-          "GREEN": {
-              "COLOR": "#008000",
-              "NAME": "Sano"
-          },
-          "ORANGE": {
-              "COLOR": "#FFA500",
-              "NAME": "Disturbato"
-          },
-          "RED": {
-              "COLOR": "#FF0000",
-              "NAME": "Debole"
-          },
-          "BLACK": {
-              "COLOR": "#000000",
-              "NAME": "Morto"
-          },
-          "GREY": {
-              "COLOR": "#FFFFFF",
-              "NAME": "Non disponibile"
-          }
-      },
-      "LASTSYNC": "Ultima sincronizzazione",
-      "NO_DATA": "Nessun dato disponibile",
-      "YESTERDAY": "Ieri",
-      "DAYS_AGO": "__DAY_SYNC__ giorni fa",
-      "BODY": {
-          "TITLE0": "Eventi nei tuoi apiari",
-          "TITLECOND": "Previsioni delle condizioni per una settimana",
-          "TITLEPROD": "Produttività in %s %s %s",
-          "TITLEPROD_DAYS": "Produttività negli ultimi %s giorni",
-          "TITLE1": "Eventi in %s %s %s",
-          "TITLE1_DAYS": "Ultimi %s giorni",
-          "TITLE1BIS": "Prossimi eventi",
-          "TITLE2": "Stato dell'alveare",
-          "TITLE3": "Stato del dispositivo",
-          "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Visualizza i dati dell'alveare</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Modifica alveari e dispositivi</a>",
-          "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Modifica impostazioni degli avvisi</a>",
-          "NOEVENTPAST": "Nessun evento rilevato dall'ultimo invio",
-          "NOEVENTFUTUR": "Nessun evento futuro in questo momento",
-          "NOSTATUS": "Tutti i tuoi dispositivi sono funzionanti",
-          "NOHIVESTATUS": "Nessun dato",
-          "FEEDBACK": "Queste stime sono abbastanza precise?<a href='mailto:support@broodminder.com' target='_blank'> Dacci un feedback.</a>",
-          "FITSYNC": "* alveare(i) con una sincronizzazione precedente alla durata emessa"
-      },
-      "MONTH": {
-        "JANUARY": "Gennaio",
-        "FEBRUARY": "Febbraio",
-        "MARCH": "Marzo",
-        "APRIL": "Aprile",
-        "MAY": "Maggio",
-        "JUNE": "Giugno",
-        "JULY": "Luglio",
-        "AUGUST": "Agosto",
-        "SEPTEMBER": "Settembre",
-        "OCTOBER": "Ottobre",
-        "NOVEMBER": "Novembre",
-        "DECEMBER": "Dicembre"
-      },
-      "LINK": "Link diretti",
-      "CONDITION": "Condizione",
-      "NECTARIDX": "Nettare",
-      "FLIGHTIDX": "Foraggiamento"
-  }
+        "STATUS": "Stato",
+        "PAST_EVENTS": "Eventi passati",
+        "FUTUR_EVENTS": "Prossimi eventi",
+        "APIARY": "Apiario",
+        "PRODUCTIVITY": "Produttività",
+        "BROOD": "Covata",
+        "ALERTS": "Avvisi",
+        "FITNESS": "Condizione",
+        "NOFITNESS": "significa che non abbiamo dati sufficienti per decidere sulla buona salute dell'alveare.",
+        "RANKING": "Classifica",
+        "HIVE": "Alveare",
+        "DATE": "Data",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "Sano"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Disturbato"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Debole"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Morto"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "Non disponibile"
+            }
+        },
+        "LASTSYNC": "Ultima sincronizzazione",
+        "NO_DATA": "Nessun dato disponibile",
+        "YESTERDAY": "Ieri",
+        "DAYS_AGO": "__DAY_SYNC__ giorni fa",
+        "BODY": {
+            "TITLE0": "Eventi nei tuoi apiari",
+            "TITLECOND": "Previsioni delle condizioni per una settimana",
+            "TITLEPROD": "Produttività in %s %s %s",
+            "TITLEPROD_DAYS": "Produttività negli ultimi %s giorni",
+            "TITLE1": "Eventi in %s %s %s",
+            "TITLE1_DAYS": "Ultimi %s giorni",
+            "TITLE1BIS": "Prossimi eventi",
+            "TITLE2": "Stato dell'alveare",
+            "TITLE3": "Stato del dispositivo",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Visualizza i dati dell'alveare</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Modifica alveari e dispositivi</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Modifica impostazioni degli avvisi</a>",
+            "NOEVENTPAST": "Nessun evento rilevato dall'ultimo invio",
+            "NOEVENTFUTUR": "Nessun evento futuro in questo momento",
+            "NOSTATUS": "Tutti i tuoi dispositivi sono funzionanti",
+            "NOHIVESTATUS": "Nessun dato",
+            "FEEDBACK": "Queste stime sono abbastanza precise?<a href='mailto:support@broodminder.com' target='_blank'> Dacci un feedback.</a>",
+            "FITSYNC": "* alveare(i) con una sincronizzazione precedente alla durata emessa"
+        },
+        "MONTH": {
+            "JANUARY": "Gennaio",
+            "FEBRUARY": "Febbraio",
+            "MARCH": "Marzo",
+            "APRIL": "Aprile",
+            "MAY": "Maggio",
+            "JUNE": "Giugno",
+            "JULY": "Luglio",
+            "AUGUST": "Agosto",
+            "SEPTEMBER": "Settembre",
+            "OCTOBER": "Ottobre",
+            "NOVEMBER": "Novembre",
+            "DECEMBER": "Dicembre"
+        },
+        "LINK": "Link diretti",
+        "CONDITION": "Condizione",
+        "NECTARIDX": "Nettare",
+        "FLIGHTIDX": "Foraggiamento"
+    }
 }

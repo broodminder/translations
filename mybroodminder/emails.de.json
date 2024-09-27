@@ -1,161 +1,200 @@
 {
     "ACCOUNT": {
-      "SUBJECT": "Status Ihres MyBroodMinder-Kontos",
-      "MESSAGE_1": "Liebe {{.name}},",
-      "EXP_2W": "Unsere Aufzeichnungen zeigen, dass eines oder mehrere Ihrer MyBroodMinder.com-Mitgliedschaften in zwei Wochen ablaufen.",
-      "EXP_TODAY": "Unsere Aufzeichnungen zeigen, dass eines oder mehrere Ihrer MyBroodMinder.com-Mitgliedschaften heute ablaufen.",
-      "MESSAGE_2_MEMBERSHIP_EXP": "Bitte nehmen Sie unseren Dank für Ihre Teilnahme im letzten Jahr an. Sie machen wirklich einen Unterschied. Wir hoffen, dass Sie unsere Citizen Science sowie unsere Programmierer mit Ihrer fortlaufenden Mitgliedschaft unterstützen werden.",
-      "MESSAGE_2_HUB_EXP": "Unsere Aufzeichnungen zeigen, dass Sie einen oder mehrere Hubs haben, die Daten an MyBroodMinder.com übermitteln. Aktualisieren Sie bitte Ihre Mitgliedschaften und Tokens, um die Daten zu verarbeiten und anzuzeigen. Wenn Sie diesen Hub nicht mehr verwenden, empfehlen wir, ihn auszuschalten und die Batterie aus dem 'Immer an'-Modus zu nehmen.",
-      "MESSAGE_4": "Sie können Ihre Mitgliedschaften aktualisieren",
-      "MESSAGE_4_LINK": "hier",
-      "MESSAGE_5": "In den letzten fünf Jahren haben wir enorme Investitionen in MyBroodMinder.com getätigt. Das Team hat Feedback von unzähligen Imkern aufgenommen und Aktualisierungen vorgenommen, um die Vielzahl von Installationen und Bienenständen auf der ganzen Welt zu erleichtern. Wir freuen uns über die wachsende Zahl von Benutzern und sind sehr dankbar für die Beteiligung aller.",
-      "MESSAGE_6": "Wir bleiben dem Versprechen treu, kostenlosen Cloud-Datenspeicher im Austausch für die Bereitstellung der Daten für Forscher weltweit anzubieten. Da wir jedoch vollständig selbstfinanziert sind, hoffen wir, dass Sie in Erwägung ziehen/weiterhin unsere Premium- und Echtzeitdienste abonnieren, um die fortlaufende Entwicklung von Software und Anwendungen zu finanzieren.",
-      "MESSAGE_7": "Wir hoffen, dass Sie die Dienste von BroodMinder weiterhin nutzen und genießen. Kontaktieren Sie Mike unter Support@BroodMinder.com, wenn Sie Fragen oder Kommentare haben.",
-      "SUMMARY": {
-        "NAME": "Name",
-        "LAST": "Zuletzt aufgerufen",
-        "LENGTH": "Dauer",
-        "MEMBERSHIP": "Mitgliedschaft",
-        "TOKENS": "Tokens",
-        "STATUS": "Status",
-        "STATUS_ACTIVE": "Aktiv",
-        "STATUS_CANCELLED": "Abgebrochen",
-        "STATUS_FAILED": "Überfällig",
-        "RENEWS": "Erneuert",
-        "EXPIRES": "Läuft ab",
-        "PRICE": "Preis",
-        "APIARIES": "Bienenstände",
-        "HIVES": "Bienenstöcke",
-        "SENSORS": "BroodMinder-Sensoren",
-        "HUBS": "Hub-Geräte",
-        "APIARY": "Bienenstand",
-        "APIARY_NONE": "Keiner",
-        "ID": "ID",
-        "VERSION": "Version",
-        "VERSION_UNKNOWN": "Unbekannt",
-        "SIM": "SIM"
-      }
+        "CANCELED": {
+            "SUBJECT": "Mein MyBroodMinder Premium läuft aus",
+            "SUBJECT_COMP": "Mein kostenloses MyBroodMinder Premium-Mitgliedschaft endet",
+            "MESSAGE1": "Ihre MyBroodMinder Premium-Mitgliedschaft wurde storniert. Ihre Premium-Vorteile enden in zwei Wochen.",
+            "MESSAGE1_COMP": "Ihre kostenlose MyBroodMinder Premium-Mitgliedschaft läuft aus. Ihre Premium-Vorteile enden in zwei Wochen.",
+            "HEADER": "Wenn Sie nichts tun",
+            "MESSAGE2": "Wenn Sie erneut abonnieren möchten,",
+            "MESSAGE3": "folgen Sie diesem Link.",
+            "MESSAGE4": "Ihr Abonnement unterstützt unsere fortlaufenden Bemühungen zur Verbesserung der Bienenhaltung. Viele unserer Teammitglieder arbeiten großzügig ehrenamtlich, aber wir haben auch jüngere Kollegen, die in Vollzeit arbeiten und auf ein Gehalt angewiesen sind."
+        },
+        "EXPIRED": {
+            "SUBJECT": "Meine MyBroodMinder Premium-Mitgliedschaft ist abgelaufen",
+            "MESSAGE1": "Ihre MyBroodMinder Premium-Mitgliedschaft ist gestern abgelaufen. Ihre Premium-Vorteile sind eingestellt.",
+            "HEADER": "Ohne Mitgliedschaft"
+        },
+        "RENEWAL": {
+            "SUBJECT": "Mein MyBroodMinder Premium",
+            "MESSAGE1": "Ihre MyBroodMinder Premium-Mitgliedschaft wird in 2 Wochen verlängert.",
+            "MESSAGE2": "Danke für Ihre Unterstützung. Viele unserer Teammitglieder arbeiten großzügig ehrenamtlich, aber wir haben auch jüngere Kollegen, die in Vollzeit arbeiten und auf ein Gehalt angewiesen sind. Ihre Unterstützung ermöglicht es uns, die führende Überwachungslösung für Bienenstöcke weltweit weiterzuentwickeln und zu verbessern.",
+            "PRODUCT": "Produkt",
+            "PRODUCT_GENERIC": "Meine MyBroodminder Premium-Mitgliedschaft ({{.count}} Stöcke)"
+        },
+        "WARNING": {
+            "HUBS": "Ihre {{.count}} Hubs werden keine Daten mehr hochladen.",
+            "HIVES": "Sie haben {{.count}} Stöcke, aber Ihr Abonnement erlaubt {{.allowCount}}. Sie müssen {{.deactCount}} Stöcke deaktivieren.",
+            "THIRD_PARTY": "Ihre {{.count}} Fremdgeräte werden keine Daten mehr hochladen.",
+            "ACCOUNT": "Sie haben keinen Zugriff mehr auf Premium-Funktionen. Dazu gehören unter anderem berechnete Daten, Warnungen und Prognosen."
+        }
     },
     "RECEIPT": {
-      "PURCHASE": {
-        "SUBJECT": "MyBroodMinder {{.type}} Mitgliedschaft gekauft",
-        "MESSAGE": "Vielen Dank für den Kauf einer MyBroodMinder {{.type}} Mitgliedschaft."
-      },
-      "UPDATE": {
-        "SUBJECT": "{{.type}} Mitgliedschaftsänderungen",
-        "MESSAGE": "Ihre MyBroodMinder {{.type}} Mitgliedschaft wurde aktualisiert."
-      },
-      "PURCHASE_OT_TOKENS": {
-        "SUBJECT": "MyBroodMinder Hub-Tokens gekauft",
-        "MESSAGE": "Ihre Tokens wurden hinzugefügt. {{.amount}} wurde Ihrem Konto belastet."
-      },
-      "ORDER_ID": "Bestellnummer",
-      "STATUS": "Status",
-      "TAX": "Steuer",
-      "TOTAL_NOW": "Gesamtbetrag jetzt bezahlt",
-      "AR_DATE": "Datum der automatischen Verlängerung",
-      "AR_AMOUNT": "Betrag der automatischen Verlängerung",
-      "MANAGE_LINK": "Mitgliedschaft verwalten unter"
+        "PURCHASE": {
+            "SUBJECT": "MyBroodMinder {{.type}} Mitgliedschaft gekauft",
+            "MESSAGE1": "Vielen Dank für den Kauf einer MyBroodMinder Premium-Mitgliedschaft!",
+            "MESSAGE2": "Durch Ihre Teilnahme unterstützen Sie nicht nur das BroodMinder-Team, sondern auch die gesamte BroodMinder-Community und vor allem das Wohlergehen der Bienen und die Zukunft der Imkerei. Ihre Unterstützung ist entscheidend, während wir die Bienenhaltung verbessern und nachhaltige Praktiken fördern, die Bienen weltweit zugutekommen.",
+            "MESSAGE3": "Während viele unserer Teammitglieder großzügig ehrenamtlich tätig sind, haben wir auch jüngere Kollegen, die in Vollzeit arbeiten und auf ein Gehalt angewiesen sind. Ihre Mitgliedschaft hilft uns, die weltweit führende Überwachungslösung für Bienenstöcke zu entwickeln und aufrechtzuerhalten.",
+            "MESSAGE4": "Wir laden Sie ein, unsere umfangreiche Dokumentation und Video-Bibliothek zu erkunden. Wir haben das System so konzipiert, dass es einfach und dennoch leistungsfähig ist, und es stehen Ihnen viele Ressourcen zur Verfügung, um sein volles Potenzial zu nutzen.",
+            "MESSAGE5": "Wenn Sie Hilfe benötigen, zögern Sie bitte nicht, uns unter support@broodminder.com zu kontaktieren."
+        },
+        "PAYMENT": {
+            "SUBJECT": "Zahlung erhalten",
+            "MESSAGE": "Vielen Dank, wir haben die Zahlung für Ihre MyBroodMinder Premium-Mitgliedschaft erhalten.",
+            "PAID": "Bezahlt am",
+            "PRODUCT": {
+                "TITLE": "Produkte",
+                "NEW": "Meine MyBroodminder Premium {{.count}} Stöcke für 1 Jahr. (Verlängert am {{.date}}) {{.amount}}",
+                "UPGRADE": "Meine MyBroodminder Premium-Upgrade auf %v Stöcke pro Jahr. (Verlängert am %v) %v"
+            },
+            "CUSTOMER": {
+                "TITLE": "Kunde",
+                "EMAIL": "E-Mail",
+                "NAME": "Name",
+                "COMPANY": "Unternehmen"
+            },
+            "TRANSACTION": {
+                "TITLE": "Transaktion",
+                "TYPE": "Typ",
+                "AMOUNT": "Betrag",
+                "DATE": "Datum",
+                "STATUS": "Status",
+                "TRANSACTION_ID": "Transaktions-ID",
+                "TYPE_CREDIT": "Kreditkarte",
+                "CARD_TYPE": "Kartentyp",
+                "CARD_HOLDER": "Karteninhaber",
+                "CARD_NUMBER": "Kreditkartennummer",
+                "TYPE_PAYPAL": "PayPal-Konto",
+                "PAYPAL_EMAIL": "E-Mail des Zahlers",
+                "PAYPAL_FNAME": "Vorname des Zahlers",
+                "PAYPAL_LNAME": "Nachname des Zahlers"
+            }
+        },
+        "UPDATE": {
+            "SUBJECT": "{{.type}} Mitgliedschaftsänderungen",
+            "MESSAGE": "Ihre MyBroodMinder {{.type}} Mitgliedschaft wurde aktualisiert."
+        },
+        "PURCHASE_OT_TOKENS": {
+            "SUBJECT": "MyBroodMinder Hub-Tokens gekauft",
+            "MESSAGE": "Ihre Tokens wurden hinzugefügt. {{.amount}} wurde Ihrem Konto belastet."
+        },
+        "ORDER_ID": "Bestellnummer",
+        "STATUS": "Status",
+        "PRODUCT": "Produkt",
+        "PRODUCT_GENERIC": "Meine MyBroodminder Premium-Mitgliedschaft ({{.count}} Stöcke)",
+        "TOTAL_NOW": "Gesamtbetrag jetzt bezahlt",
+        "AR_DATE": "Datum der automatischen Verlängerung",
+        "AR_AMOUNT": "Betrag der automatischen Verlängerung",
+        "MANAGE_LINK": "Mitgliedschaft verwalten unter"
+    },
+    "CANCEL": {
+        "SUBJECT": "Meine MyBroodMinder Premium-Mitgliedschaft wurde storniert",
+        "MESSAGE1": "Ihre MyBroodMinder Premium-Mitgliedschaft wurde storniert.",
+        "MESSAGE2": "Ihre Premium-Vorteile bleiben bis zum {{.date}} bestehen. Wir werden Sie zwei Wochen vor Ablauf daran erinnern, und Sie können sich bei Bedarf erneut anmelden.",
+        "MESSAGE3": "Ihr Abonnement unterstützt unsere fortlaufenden Bemühungen zur Verbesserung der Bienenhaltung. Viele unserer Teammitglieder arbeiten großzügig ehrenamtlich, aber wir haben auch jüngere Kollegen, die in Vollzeit arbeiten und auf ein Gehalt angewiesen sind."
     },
     "PAYMENT_FAIL": {
-      "SUBJECT": "Zahlung für MyBroodminder-Mitgliedschaft fehlgeschlagen",
-      "MESSAGE": "Die automatische Verlängerung Ihrer MyBroodMinder-Mitgliedschaftszahlung ist fehlgeschlagen. Bitte gehen Sie zu {{.url}}, um die Zahlungsinformationen zu korrigieren.",
-      "ORDER_ID": "Bestellnummer",
-      "STATUS": "Status",
-      "AR_DATE": "Datum der automatischen Verlängerung",
-      "AR_AMOUNT": "Betrag der automatischen Verlängerung"
+        "SUBJECT": "Zahlung für MyBroodminder-Mitgliedschaft fehlgeschlagen",
+        "MESSAGE": "Die automatische Verlängerung Ihrer MyBroodMinder-Mitgliedschaftszahlung ist fehlgeschlagen. Bitte gehen Sie zu {{.url}}, um die Zahlungsinformationen zu korrigieren.",
+        "ORDER_ID": "Bestellnummer",
+        "STATUS": "Status",
+        "AR_DATE": "Datum der automatischen Verlängerung",
+        "AR_AMOUNT": "Betrag der automatischen Verlängerung"
     },
     "COMMON": {
-      "LENGTH_YEAR": "Jährlich",
-      "LENGTH_MONTH": "Monatlich",
-      "TYPE": {
-        "FREE": "Kostenlos",
-        "TRIAL": "Test",
-        "HOBBY": "Hobby",
-        "PREMIUM": "Premium",
-        "PRO": "Pro"
-      }
+        "LENGTH_YEAR": "Jährlich",
+        "LENGTH_MONTH": "Monatlich",
+        "TYPE": {
+            "FREE": "Kostenlos",
+            "TRIAL": "Test",
+            "HOBBY": "Hobby",
+            "PREMIUM": "Premium",
+            "PRO": "Pro"
+        },
+        "SIGNOFF1": "Denken Sie daran:",
+        "SIGNOFF2": "Jeder Stock zählt",
+        "SIGNOFF3": "Ihr BroodMinder-Team"
     },
     "ACCOUNT_DELETE": {
-      "SUBJECT": "Status der Kontolöschung",
-      "SUCCESS_MESSAGE": "Ihr MyBroodMinder-Konto wurde erfolgreich gelöscht.",
-      "ERROR_MESSAGE": "Es ist ein Fehler beim Löschen Ihres Kontos aufgetreten. Bitte kontaktieren Sie support@broodminder.com, um die Kontolöschung abzuschließen. (Referenz-ID: {{.id}})"
+        "SUBJECT": "Status der Kontolöschung",
+        "SUCCESS_MESSAGE": "Ihr MyBroodMinder-Konto wurde erfolgreich gelöscht.",
+        "ERROR_MESSAGE": "Es ist ein Fehler beim Löschen Ihres Kontos aufgetreten. Bitte kontaktieren Sie support@broodminder.com, um die Kontolöschung abzuschließen. (Referenz-ID: {{.id}})"
     },
     "DATA_SUMMARY": {
-      "STATUS": "Status",
-      "PAST_EVENTS": "Vergangene Ereignisse",
-      "FUTUR_EVENTS": "Kommende Ereignisse",
-      "APIARY": "Bienenstand",
-      "PRODUCTIVITY": "Produktivität",
-      "BROOD": "Brut",
-      "ALERTS": "Warnungen",
-      "FITNESS": "Fitness",
-      "NOFITNESS": "bedeutet, dass wir nicht genug Daten haben, um über die Gesundheit des Bienenstocks zu entscheiden.",
-      "RANKING": "Rangliste",
-      "HIVE": "Bienenstock",
-      "DATE": "Datum",
-      "FITCODE": {
-          "GREEN": {
-              "COLOR": "#008000",
-              "NAME": "Gesund"
-          },
-          "ORANGE": {
-              "COLOR": "#FFA500",
-              "NAME": "Gestört"
-          },
-          "RED": {
-              "COLOR": "#FF0000",
-              "NAME": "Schwach"
-          },
-          "BLACK": {
-              "COLOR": "#000000",
-              "NAME": "Tot"
-          },
-          "GREY": {
-              "COLOR": "#FFFFFF",
-              "NAME": "Nicht verfügbar"
-          }
-      },
-      "LASTSYNC": "Letzte Synchronisation",
-      "NO_DATA": "Keine Daten verfügbar",
-      "YESTERDAY": "Gestern",
-      "DAYS_AGO": "vor __DAY_SYNC__ Tagen",
-      "BODY": {
-          "TITLE0": "Ereignisse in Ihren Bienenständen",
-          "TITLECOND": "Wettervorhersage für eine Woche",
-          "TITLEPROD": "Produktivität am %s %s %s",
-          "TITLEPROD_DAYS": "Produktivität in den letzten %s Tagen",
-          "TITLE1": "Ereignisse am %s %s %s",
-          "TITLE1_DAYS": "Letzte %s Tage",
-          "TITLE1BIS": "Kommende Ereignisse",
-          "TITLE2": "Bienenstockstatus",
-          "TITLE3": "Gerätestatus",
-          "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Bienenstockdaten anzeigen</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Bienenstöcke und Geräte bearbeiten</a>",
-          "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Warnungseinstellungen ändern</a>",
-          "NOEVENTPAST": "Keine Ereignisse seit dem letzten Senden erkannt",
-          "NOEVENTFUTUR": "Derzeit keine kommenden Ereignisse",
-          "NOSTATUS": "Alle Ihre Geräte sind funktionsfähig",
-          "NOHIVESTATUS": "Keine Daten",
-          "FEEDBACK": "Sind diese Schätzungen genau genug?<a href='mailto:support@broodminder.com' target='_blank'> Geben Sie uns Feedback.</a>",
-          "FITSYNC": "* Bienenstock/Bienenstöcke mit einer Synchronisation vor der angegebenen Dauer"
-      },
-      "MONTH": {
-        "JANUARY": "Januar",
-        "FEBRUARY": "Februar",
-        "MARCH": "März",
-        "APRIL": "April",
-        "MAY": "Mai",
-        "JUNE": "Juni",
-        "JULY": "Juli",
-        "AUGUST": "August",
-        "SEPTEMBER": "September",
-        "OCTOBER": "Oktober",
-        "NOVEMBER": "November",
-        "DECEMBER": "Dezember"
-      },
-      "LINK": "Direkte Links",
-      "CONDITION": "Bedingung",
-      "NECTARIDX": "Nektar",
-      "FLIGHTIDX": "Flug"
-  }
+        "STATUS": "Status",
+        "PAST_EVENTS": "Vergangene Ereignisse",
+        "FUTUR_EVENTS": "Kommende Ereignisse",
+        "APIARY": "Bienenstand",
+        "PRODUCTIVITY": "Produktivität",
+        "BROOD": "Brut",
+        "ALERTS": "Warnungen",
+        "FITNESS": "Fitness",
+        "NOFITNESS": "bedeutet, dass wir nicht genug Daten haben, um über die Gesundheit des Bienenstocks zu entscheiden.",
+        "RANKING": "Rangliste",
+        "HIVE": "Bienenstock",
+        "DATE": "Datum",
+        "FITCODE": {
+            "GREEN": {
+                "COLOR": "#008000",
+                "NAME": "Gesund"
+            },
+            "ORANGE": {
+                "COLOR": "#FFA500",
+                "NAME": "Gestört"
+            },
+            "RED": {
+                "COLOR": "#FF0000",
+                "NAME": "Schwach"
+            },
+            "BLACK": {
+                "COLOR": "#000000",
+                "NAME": "Tot"
+            },
+            "GREY": {
+                "COLOR": "#FFFFFF",
+                "NAME": "Nicht verfügbar"
+            }
+        },
+        "LASTSYNC": "Letzte Synchronisation",
+        "NO_DATA": "Keine Daten verfügbar",
+        "YESTERDAY": "Gestern",
+        "DAYS_AGO": "vor __DAY_SYNC__ Tagen",
+        "BODY": {
+            "TITLE0": "Ereignisse in Ihren Bienenständen",
+            "TITLECOND": "Wettervorhersage für eine Woche",
+            "TITLEPROD": "Produktivität am %s %s %s",
+            "TITLEPROD_DAYS": "Produktivität in den letzten %s Tagen",
+            "TITLE1": "Ereignisse am %s %s %s",
+            "TITLE1_DAYS": "Letzte %s Tage",
+            "TITLE1BIS": "Kommende Ereignisse",
+            "TITLE2": "Bienenstockstatus",
+            "TITLE3": "Gerätestatus",
+            "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>Bienenstockdaten anzeigen</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Bienenstöcke und Geräte bearbeiten</a>",
+            "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Warnungseinstellungen ändern</a>",
+            "NOEVENTPAST": "Keine Ereignisse seit dem letzten Senden erkannt",
+            "NOEVENTFUTUR": "Derzeit keine kommenden Ereignisse",
+            "NOSTATUS": "Alle Ihre Geräte sind funktionsfähig",
+            "NOHIVESTATUS": "Keine Daten",
+            "FEEDBACK": "Sind diese Schätzungen genau genug?<a href='mailto:support@broodminder.com' target='_blank'> Geben Sie uns Feedback.</a>",
+            "FITSYNC": "* Bienenstock/Bienenstöcke mit einer Synchronisation vor der angegebenen Dauer"
+        },
+        "MONTH": {
+            "JANUARY": "Januar",
+            "FEBRUARY": "Februar",
+            "MARCH": "März",
+            "APRIL": "April",
+            "MAY": "Mai",
+            "JUNE": "Juni",
+            "JULY": "Juli",
+            "AUGUST": "August",
+            "SEPTEMBER": "September",
+            "OCTOBER": "Oktober",
+            "NOVEMBER": "November",
+            "DECEMBER": "Dezember"
+        },
+        "LINK": "Direkte Links",
+        "CONDITION": "Bedingung",
+        "NECTARIDX": "Nektar",
+        "FLIGHTIDX": "Flug"
+    }
 }

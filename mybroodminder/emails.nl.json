@@ -1,45 +1,74 @@
 {
     "ACCOUNT": {
-        "SUBJECT": "Status van uw MyBroodMinder-account",
-        "MESSAGE_1": "Beste {{.name}},",
-        "EXP_2W": "Onze gegevens tonen aan dat een of meer van uw MyBroodMinder.com-lidmaatschappen over twee weken aflopen.",
-        "EXP_TODAY": "Onze gegevens tonen aan dat een of meer van uw MyBroodMinder.com-lidmaatschappen vandaag aflopen.",
-        "MESSAGE_2_MEMBERSHIP_EXP": "Wij danken u hartelijk voor uw deelname het afgelopen jaar. U maakt echt een verschil. We hopen dat u ons burgerwetenschapsproject en onze programmeurs blijft steunen met uw voortgezet lidmaatschap.",
-        "MESSAGE_2_HUB_EXP": "Onze gegevens tonen aan dat u een of meer hubs hebt die gegevens naar MyBroodMinder.com rapporteren. Werk uw lidmaatschappen en tokens bij om de gegevens te verwerken en bekijken. Als u deze hub niet meer gebruikt, raden we u aan deze uit te schakelen en de batterij uit de 'altijd aan'-modus te halen.",
-        "MESSAGE_4": "U kunt uw lidmaatschappen bijwerken",
-        "MESSAGE_4_LINK": "hier",
-        "MESSAGE_5": "Gedurende de laatste vijf jaar hebben we aanzienlijk geïnvesteerd in MyBroodMinder.com. Het team heeft feedback van talloze bijenhouders verwerkt en updates uitgebracht om de installaties en bijenstanden over de hele wereld te vergemakkelijken. We zijn verheugd over het groeiende aantal gebruikers en zeer dankbaar voor ieders betrokkenheid.",
-        "MESSAGE_6": "We blijven toegewijd aan het bieden van gratis gegevensopslag in de cloud in ruil voor het beschikbaar stellen van gegevens aan onderzoekers overal. Aangezien we volledig zelf gefinancierd zijn, hopen we dat u overweegt/verder gaat met het abonneren op onze premium- en real-time diensten om de voortzetting van software- en applicatieontwikkeling te financieren.",
-        "MESSAGE_7": "We hopen dat u blijft genieten van de diensten van BroodMinder. Neem contact op met Mike via Support@BroodMinder.com als u vragen of opmerkingen heeft.",
-        "SUMMARY": {
-            "NAME": "Naam",
-            "LAST": "Laatst bezocht",
-            "LENGTH": "Duur",
-            "MEMBERSHIP": "Lidmaatschap",
-            "TOKENS": "Tokens",
-            "STATUS": "Status",
-            "STATUS_ACTIVE": "Actief",
-            "STATUS_CANCELLED": "Geannuleerd",
-            "STATUS_FAILED": "Achterstallig",
-            "RENEWS": "Vernieuwt",
-            "EXPIRES": "Verloopt",
-            "PRICE": "Prijs",
-            "APIARIES": "Bijenstanden",
-            "HIVES": "Bijenkorven",
-            "SENSORS": "BroodMinder-sensoren",
-            "HUBS": "Hub-apparaten",
-            "APIARY": "Bijenstand",
-            "APIARY_NONE": "Geen",
-            "ID": "ID",
-            "VERSION": "Versie",
-            "VERSION_UNKNOWN": "Onbekend",
-            "SIM": "SIM"
+        "CANCELED": {
+            "SUBJECT": "Mijn MyBroodMinder Premium Abonnement Verloopt",
+            "SUBJECT_COMP": "Mijn MyBroodMinder Gratis Premium Lidmaatschap Beëindigen",
+            "MESSAGE1": "Uw MyBroodMinder Premium Lidmaatschap is geannuleerd. Uw premium voordelen stoppen over twee weken.",
+            "MESSAGE1_COMP": "Uw MybroodMinder Gratis Premium Lidmaatschap verloopt. Uw premium voordelen stoppen over twee weken.",
+            "HEADER": "Als u niets doet",
+            "MESSAGE2": "Als u opnieuw wilt abonneren,",
+            "MESSAGE3": "volg deze link.",
+            "MESSAGE4": "Uw abonnement helpt bij het ondersteunen van onze voortdurende inspanningen om de bijenteelt te verbeteren. Veel van onze teamleden bieden vrijwillig hun tijd en expertise aan, maar we hebben ook jongere collega's die fulltime toegewijd zijn en een salaris nodig hebben."
+        },
+        "EXPIRED": {
+            "SUBJECT": "Mijn MyBroodMinder Premium Lidmaatschap Verlopen",
+            "MESSAGE1": "Uw MyBroodMinder Premium Lidmaatschap is gisteren verlopen. Uw premium voordelen zijn gestopt.",
+            "HEADER": "Zonder lidmaatschap"
+        },
+        "RENEWAL": {
+            "SUBJECT": "Mijn MyBroodMinder Premium",
+            "MESSAGE1": "Uw MyBroodMinder Premium Lidmaatschap wordt over 2 weken verlengd.",
+            "MESSAGE2": "Bedankt voor uw steun. Veel van onze teamleden bieden vrijwillig hun tijd en expertise aan, maar we hebben ook jongere collega's die fulltime toegewijd zijn en een salaris nodig hebben. Uw steun stelt ons in staat om 's werelds toonaangevende bijenmonitoringoplossing verder te ontwikkelen en verbeteren.",
+            "PRODUCT": "Product",
+            "PRODUCT_GENERIC": "MyBroodminder Premium Lidmaatschap ({{.count}} kasten)"
+        },
+        "WARNING": {
+            "HUBS": "Uw {{.count}} hubs zullen geen gegevens meer uploaden.",
+            "HIVES": "U heeft {{.count}} kasten, maar uw lidmaatschap staat {{.allowCount}} toe. U zult {{.deactCount}} kasten moeten deactiveren.",
+            "THIRD_PARTY": "Uw {{.count}} apparaten van derden zullen geen gegevens meer uploaden.",
+            "ACCOUNT": "U heeft geen toegang meer tot Premium functies. Waaronder maar niet beperkt tot berekende gegevens, meldingen en vooruitzichten."
         }
     },
     "RECEIPT": {
         "PURCHASE": {
             "SUBJECT": "Aankoop MyBroodMinder {{.type}} Lidmaatschap",
-            "MESSAGE": "Bedankt voor het kopen van een MyBroodMinder {{.type}} Lidmaatschap."
+            "MESSAGE1": "Bedankt voor de aankoop van een MyBroodMinder Premium Lidmaatschap!",
+            "MESSAGE2": "Door lid te worden, ondersteunt u niet alleen het BroodMinder-team, maar draagt u ook bij aan de hele BroodMinder-community en, nog belangrijker, aan het welzijn van bijen en de toekomst van bijenteelt. Uw steun is cruciaal terwijl we blijven werken aan het verbeteren van het bijenbeheer en het promoten van duurzame praktijken die wereldwijd de bijen ten goede komen.",
+            "MESSAGE3": "Hoewel veel van onze teamleden vrijwillig hun tijd en expertise aanbieden, hebben we ook jongere collega's die fulltime toegewijd zijn en een salaris nodig hebben. Uw lidmaatschap helpt ons bij het evolueren en onderhouden van 's werelds toonaangevende bijenmonitoringoplossing.",
+            "MESSAGE4": "We moedigen u aan om onze uitgebreide documentatie en videobibliotheek te ontdekken. We hebben het systeem ontworpen om eenvoudig maar krachtig te zijn, met veel middelen beschikbaar om u te helpen het volledige potentieel ervan te benutten.",
+            "MESSAGE5": "Als u hulp nodig heeft, aarzel dan niet om contact met ons op te nemen via support@broodminder.com."
+        },
+        "PAYMENT": {
+            "SUBJECT": "Betaling Ontvangen",
+            "MESSAGE": "Dank u, wij hebben de betaling voor uw MyBroodMinder Premium Lidmaatschap ontvangen",
+            "PAID": "Betaald op",
+            "PRODUCT": {
+                "TITLE": "Producten",
+                "NEW": "MyBroodminder Premium {{.count}} kasten voor 1 jaar. (Vernieuwt op {{.date}}) {{.amount}}",
+                "UPGRADE": "MyBroodminder Premium upgrade naar %v kasten per jaar. (Vernieuwt op %v) %v"
+            },
+            "CUSTOMER": {
+                "TITLE": "Klant",
+                "EMAIL": "E-mail",
+                "NAME": "Naam",
+                "COMPANY": "Bedrijf"
+            },
+            "TRANSACTION": {
+                "TITLE": "Transactie",
+                "TYPE": "Type",
+                "AMOUNT": "Bedrag",
+                "DATE": "Datum",
+                "STATUS": "Status",
+                "TRANSACTION_ID": "Transactie-ID",
+                "TYPE_CREDIT": "Creditcard",
+                "CARD_TYPE": "Kaarttype",
+                "CARD_HOLDER": "Naam kaarthouder",
+                "CARD_NUMBER": "Creditcardnummer",
+                "TYPE_PAYPAL": "PayPal-account",
+                "PAYPAL_EMAIL": "E-mail betaler",
+                "PAYPAL_FNAME": "Voornaam betaler",
+                "PAYPAL_LNAME": "Achternaam betaler"
+            }
         },
         "UPDATE": {
             "SUBJECT": "{{.type}} Lidmaatschapswijzigingen",
@@ -51,11 +80,18 @@
         },
         "ORDER_ID": "Bestel-ID",
         "STATUS": "Status",
-        "TAX": "Belasting",
+        "PRODUCT": "Product",
+        "PRODUCT_GENERIC": "MyBroodminder Premium Lidmaatschap ({{.count}} kasten)",
         "TOTAL_NOW": "Totaal betaald nu",
         "AR_DATE": "Automatische vernieuwingsdatum",
         "AR_AMOUNT": "Automatisch vernieuwingsbedrag",
         "MANAGE_LINK": "Beheer lidmaatschap op"
+    },
+    "CANCEL": {
+        "SUBJECT": "Mijn MyBroodMinder Premium Lidmaatschap Geannuleerd",
+        "MESSAGE1": "Uw MyBroodMinder Premium Lidmaatschap is geannuleerd.",
+        "MESSAGE2": "Uw premium voordelen zullen doorgaan tot {{.date}}. We sturen twee weken van tevoren een herinnering en u kunt zich opnieuw abonneren als u van gedachten verandert.",
+        "MESSAGE3": "Uw abonnement helpt bij het ondersteunen van onze voortdurende inspanningen om de bijenteelt te verbeteren. Veel van onze teamleden bieden vrijwillig hun tijd en expertise aan, maar we hebben ook jongere collega's die fulltime toegewijd zijn en een salaris nodig hebben."
     },
     "PAYMENT_FAIL": {
         "SUBJECT": "Mislukte betaling MyBroodminder Lidmaatschap",
@@ -74,7 +110,10 @@
             "HOBBY": "Hobby",
             "PREMIUM": "Premium",
             "PRO": "Pro"
-        }
+        },
+        "SIGNOFF1": "Onthoud:",
+        "SIGNOFF2": "Elke Kast Telt",
+        "SIGNOFF3": "Uw BroodMinder Team"
     },
     "ACCOUNT_DELETE": {
         "SUBJECT": "Status accountverwijdering",

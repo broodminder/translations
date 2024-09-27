@@ -1,45 +1,74 @@
 {
     "ACCOUNT": {
-        "SUBJECT": "MyBroodMinder Konto Status",
-        "MESSAGE_1": "Kjære {{.name}},",
-        "EXP_2W": "Våre registreringer viser at ett eller flere av dine MyBroodMinder.com-medlemskap utløper om to uker.",
-        "EXP_TODAY": "Våre registreringer viser at ett eller flere av dine MyBroodMinder.com-medlemskap utløper i dag.",
-        "MESSAGE_2_MEMBERSHIP_EXP": "Takk for at du har deltatt det siste året. Du gjør virkelig en forskjell. Vi håper du fortsetter å støtte vår borgerforskning, samt våre programmører, med ditt fortsatte medlemskap.",
-        "MESSAGE_2_HUB_EXP": "Våre registreringer viser at du har en eller flere huber som rapporterer data til MyBroodMinder.com. Vennligst oppdater medlemskapene og tokenene dine for å behandle og se dataene. Hvis du ikke lenger bruker denne huben, anbefaler vi at du slår den av og tar batteriet ut av 'alltid på'-modus.",
-        "MESSAGE_4": "Du kan oppdatere medlemskapene dine",
-        "MESSAGE_4_LINK": "her",
-        "MESSAGE_5": "I løpet av de siste fem årene har vi gjort enorme investeringer i MyBroodMinder.com. Teamet har tatt tilbakemeldinger fra utallige birøktere og gjort oppdateringer for å lette den brede variasjonen av installasjoner og bigårder over hele verden. Vi er begeistret for det økende antallet brukere og dypt takknemlige for alles engasjement.",
-        "MESSAGE_6": "Vi forplikter oss fortsatt til å tilby gratis datalagring i skyen i bytte mot å gjøre dataene tilgjengelige for forskere overalt. Imidlertid, siden vi er fullstendig selvfinansierte, håper vi at du vil vurdere/fortsette å abonnere på våre premium- og sanntidstjenester for å finansiere videreutviklingen av programvare og applikasjoner.",
-        "MESSAGE_7": "Vi håper du fortsetter å bruke og nyte BroodMinder-tjenestene. Kontakt Mike på Support@BroodMinder.com hvis du har spørsmål eller kommentarer.",
-        "SUMMARY": {
-            "NAME": "Navn",
-            "LAST": "Sist tilgjengelig",
-            "LENGTH": "Varighet",
-            "MEMBERSHIP": "Medlemskap",
-            "TOKENS": "Token",
-            "STATUS": "Status",
-            "STATUS_ACTIVE": "Aktiv",
-            "STATUS_CANCELLED": "Avbrutt",
-            "STATUS_FAILED": "Forfalt",
-            "RENEWS": "Fornyes",
-            "EXPIRES": "Utløper",
-            "PRICE": "Pris",
-            "APIARIES": "Bikuber",
-            "HIVES": "Bikuber",
-            "SENSORS": "BroodMinder-sensorer",
-            "HUBS": "Hub-enheter",
-            "APIARY": "Bikube",
-            "APIARY_NONE": "Ingen",
-            "ID": "ID",
-            "VERSION": "Versjon",
-            "VERSION_UNKNOWN": "Ukjent",
-            "SIM": "SIM"
+        "CANCELED": {
+            "SUBJECT": "Min MyBroodMinder Premium utløper",
+            "SUBJECT_COMP": "Min MyBroodMinder Gratis Premium Medlemskap Avsluttes",
+            "MESSAGE1": "Ditt MyBroodMinder Premium medlemskap er avsluttet. Dine premium fordeler opphører om to uker.",
+            "MESSAGE1_COMP": "Ditt MyBroodMinder Gratis Premium Medlemskap utløper. Dine premium fordeler opphører om to uker.",
+            "HEADER": "Hvis du ikke gjør noe",
+            "MESSAGE2": "Hvis du ønsker å reabonnere,",
+            "MESSAGE3": "følg denne lenken.",
+            "MESSAGE4": "Ditt abonnement bidrar til å støtte våre vedvarende innsats for å forbedre birøkt. Mange av våre teammedlemmer bidrar sjenerøst med sin tid og ekspertise, men vi har også yngre kolleger som jobber fulltid og er avhengige av en lønn."
+        },
+        "EXPIRED": {
+            "SUBJECT": "Mitt MyBroodMinder Premium Medlemskap Har Utløpt",
+            "MESSAGE1": "Ditt MyBroodMinder Premium medlemskap utløp i går. Dine premium fordeler har opphørt.",
+            "HEADER": "Uten et medlemskap"
+        },
+        "RENEWAL": {
+            "SUBJECT": "Min MyBroodMinder Premium",
+            "MESSAGE1": "Ditt MyBroodMinder Premium medlemskap fornyes om 2 uker.",
+            "MESSAGE2": "Takk for din støtte. Mange av våre teammedlemmer bidrar sjenerøst med sin tid og ekspertise, men vi har også yngre kolleger som jobber fulltid og er avhengige av en lønn. Din støtte gjør at vi kan fortsette å utvikle og forbedre verdens ledende bikubeovervåkingsløsning.",
+            "PRODUCT": "Produkt",
+            "PRODUCT_GENERIC": "MyBroodminder Premium Medlemskap ({{.count}} bistader)"
+        },
+        "WARNING": {
+            "HUBS": "Dine {{.count}} nav vil ikke lenger laste opp data.",
+            "HIVES": "Du har {{.count}} bistader, men ditt medlemskap tillater {{.allowCount}}. Du må deaktivere {{.deactCount}} bistader.",
+            "THIRD_PARTY": "Dine {{.count}} tredjepartsenheter vil ikke lenger laste opp data.",
+            "ACCOUNT": "Du vil ikke lenger ha tilgang til Premium-funksjoner. Inkludert, men ikke begrenset til, beregnede data, varsler og prognoser."
         }
     },
     "RECEIPT": {
         "PURCHASE": {
             "SUBJECT": "MyBroodMinder {{.type}} Medlemskap Kjøpt",
-            "MESSAGE": "Takk for at du kjøpte et MyBroodMinder {{.type}} medlemskap."
+            "MESSAGE1": "Takk for at du kjøpte et MyBroodMinder Premium medlemskap!",
+            "MESSAGE2": "Ved å bli med oss støtter du ikke bare BroodMinder-teamet, men bidrar også til hele BroodMinder-fellesskapet, og viktigst av alt, til biens velferd og fremtiden for birøkt. Din støtte er avgjørende når vi fortsetter å forbedre jobben med biekolonien og fremme bærekraftige praksiser som gagner bier over hele verden.",
+            "MESSAGE3": "Mens mange av våre teammedlemmer sjenerøst bidrar med sin tid og ekspertise, har vi også yngre kolleger som jobber fulltid og er avhengige av en lønn. Ditt medlemskap hjelper oss med å utvikle og opprettholde verdens ledende overvåkingssystem for bikuber.",
+            "MESSAGE4": "Vi oppfordrer deg til å utforske vår omfattende dokumentasjon og videobibliotek. Vi har designet systemet for å være enkelt, men kraftig, med mange ressurser tilgjengelig for å hjelpe deg å låse opp dets fulle potensiale.",
+            "MESSAGE5": "Hvis du trenger hjelp, ikke nøl med å ta kontakt med oss på support@broodminder.com."
+        },
+        "PAYMENT": {
+            "SUBJECT": "Betaling Mottatt",
+            "MESSAGE": "Takk, vi har mottatt betalingen for ditt MyBroodMinder Premium medlemskap",
+            "PAID": "Betalt den",
+            "PRODUCT": {
+                "TITLE": "Produkter",
+                "NEW": "MyBroodminder Premium {{.count}} bistader for 1 år. (Fornyes {{.date}}) {{.amount}}",
+                "UPGRADE": "MyBroodminder Premium oppgradering til %v bistader per år. (Fornyes %v) %v"
+            },
+            "CUSTOMER": {
+                "TITLE": "Kunde",
+                "EMAIL": "E-post",
+                "NAME": "Navn",
+                "COMPANY": "Selskap"
+            },
+            "TRANSACTION": {
+                "TITLE": "Transaksjon",
+                "TYPE": "Type",
+                "AMOUNT": "Beløp",
+                "DATE": "Dato",
+                "STATUS": "Status",
+                "TRANSACTION_ID": "Transaksjons-ID",
+                "TYPE_CREDIT": "Kredittkort",
+                "CARD_TYPE": "Korttype",
+                "CARD_HOLDER": "Kortholders navn",
+                "CARD_NUMBER": "Kredittkortnummer",
+                "TYPE_PAYPAL": "PayPal-konto",
+                "PAYPAL_EMAIL": "Betalers e-post",
+                "PAYPAL_FNAME": "Betalers fornavn",
+                "PAYPAL_LNAME": "Betalers etternavn"
+            }
         },
         "UPDATE": {
             "SUBJECT": "{{.type}} Medlemskapsendringer",
@@ -51,11 +80,18 @@
         },
         "ORDER_ID": "Ordrenummer",
         "STATUS": "Status",
-        "TAX": "Skatt",
+        "PRODUCT": "Produkt",
+        "PRODUCT_GENERIC": "MyBroodminder Premium medlemskap ({{.count}} bistader)",
         "TOTAL_NOW": "Totalt betalt nå",
         "AR_DATE": "Auto-fornyet dato",
         "AR_AMOUNT": "Auto-fornyet beløp",
         "MANAGE_LINK": "Administrer medlemskap på"
+    },
+    "CANCEL": {
+        "SUBJECT": "Mitt MyBroodMinder Premium Medlemskap Avsluttet",
+        "MESSAGE1": "Ditt MyBroodMinder Premium medlemskap er blitt avsluttet.",
+        "MESSAGE2": "Dine premium fordeler vil fortsette frem til {{.date}}. Vi vil sende en påminnelse to uker før de utløper, og du kan resubscribere hvis du ombestemmer deg.",
+        "MESSAGE3": "Ditt abonnement bidrar til å støtte våre vedvarende innsats for å forbedre birøkt. Mange av våre teammedlemmer bidrar sjenerøst med sin tid og ekspertise, men vi har også yngre kolleger som jobber fulltid og er avhengige av en lønn."
     },
     "PAYMENT_FAIL": {
         "SUBJECT": "Mislykket betaling for MyBroodminder Medlemskap",
@@ -74,7 +110,10 @@
             "HOBBY": "Hobby",
             "PREMIUM": "Premium",
             "PRO": "Pro"
-        }
+        },
+        "SIGNOFF1": "Husk:",
+        "SIGNOFF2": "Hver Bistand Tellermo",
+        "SIGNOFF3": "Ditt BroodMinder Team"
     },
     "ACCOUNT_DELETE": {
         "SUBJECT": "Status for Konto Sletting",

@@ -21,3 +21,36 @@ Somme considerations to get you started :
 - ChatGPT can be of great help translating large parts of that file. Simply copy paste (200 lines at once)
 
 ![comparing files](./assets/translating_to_german.png)
+
+# How to translate json file
+
+## Initialization
+
+Requirements :
+- python 3.11.x
+- pyenv
+
+### 1 - Create environnement
+```
+pyenv virtualenv 3.11.2 translations
+cp .env.example .env
+```
+
+Fill the *.env* file with the configuration you want.
+
+### 2 - Activate environnement
+```
+pyenv activate translations
+```
+
+### 3 - Export python libraries
+```
+pip install -r requirements.txt
+```
+
+## How to use it ?
+```
+python translateFiles.py
+```
+
+You should have all translated files then you can make a verification and commit.

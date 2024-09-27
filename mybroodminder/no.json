@@ -1,1038 +1,456 @@
 {
-    "ACCOUNT": {
-        "CONFIRM": "Bekreft kjøp av Premium-abonnement",
-        "CONFIRM_SUB_WINDOW": {
-            "CONFIRM": "Bekreft",
-            "CONFIRMATION_NUMBER": "Bekreftelsesnummer",
-            "DESCRIPTION": "Skriv inn koden fra bekreftelses-e-posten",
+    "LOGIN": {
+        "LOGIN_MENU": "Logg inn",
+        "REGISTER_MENU": "Registrer",
+        "LOGIN": {
+            "TITLE": "Logg inn på eksisterende konto",
+            "EMAIL": "E-post",
+            "PASSWORD": "Passord",
+            "LOGIN_BTN": "Logg inn med e-post",
+            "FORGOT_LINK": "Glemt passord",
+            "RESET": "Send tilbakestillings-e-post",
+            "RESET_SUCCESS": "Tilbakestillings-e-post sendt til {{value}}",
+            "RESET_ERROR": "Feil, e-post ikke sendt.",
             "ERROR": {
-                "NOT_FOUND": "Ingen abonnementskjøp funnet",
-                "USED_OTHER_ACCOUNT": "Allerede bekreftet med en annen konto",
-                "USED_THIS_ACCOUNT": "Allerede bekreftet for denne kontoen, utløper på {{value}}"
+                "GENERAL": "Innlogging mislyktes.",
+                "PASSWORD": "Feil brukernavn/passord.",
+                "EMAIL": "Ingen konto eksisterer for denne e-posten."
+            }
+        },
+        "REGISTER": {
+            "TITLE": "Registrer ny konto",
+            "EMAIL": "E-post",
+            "PASSWORD": "Passord",
+            "REGISTER_BTN": "Registrer e-post",
+            "EULA": {
+                "TITLE": "MyBroodMinder.com EULA (Sluttbrukerlisensavtale) v1.1",
+                "DESCRIPTION": "Vi ber deg deretter om å være enig i følgende uttalelser for å bruke denne SaaS birøktprogramvaren:",
+                "POINT_1": "Jeg plasserer dataene jeg laster opp eller legger inn i denne tjenesten i Public Domain. Som sådan kan mybroodminder.com bruke dataene, i anonym form, til å dele med allmennheten.",
+                "POINT_2": "Jeg forstår at mybroodminder.com vil gjøre sitt beste for ikke å utsette noen personlig identifiserbar informasjon (PII) som brukernavnet mitt, passordet mitt og postnummeret mitt, men at mybroodminder.com ikke kan holdes ansvarlig for hacking eller andre metoder for dataeksponering.",
+                "POINT_3": "Jeg forstår at mybroodminder.com vil gjøre sitt beste for å lagre og sikkerhetskopiere all data som lastes opp eller legges inn i det, men at mybroodminder.com ikke kan holdes ansvarlig for datatap.",
+                "POINT_4": "Jeg forstår at mybroodminder.com er et separat selskap fra andre leverandører som kan integrere enhetene sine i mybroodminder.com, og at mybroodminder.com ikke er ansvarlig for de leverandørenes handlinger.",
+                "POINT_5": "Jeg forstår at mybroodminder.com er et sted der birøktere og entomologer kan utveksle informasjon, og jeg vil oppføre meg høflig til enhver tid. Jeg forstår at manglende overholdelse av dette kan føre til at kontoen min blir avsluttet etter personalets skjønn hos mybroodminder.com.",
+                "AGREE": "Jeg godtar"
             },
-            "PURCHASED": "Kjøpt den",
-            "TITLE": "Bekreft kjøp av Premium-abonnement",
-            "VALID": "Gyldig kjøp"
-        },
-        "DELETE": {
-            "CONFIRM_BUTTON_1": "Bekreft sletting",
-            "CONFIRM_DIALOG": {
-                "CONFIRM": "SLETT KONTO",
-                "EMAIL_ERROR": "Denne e-posten samsvarer ikke med kontoen din.",
-                "MESSAGE": "Sletting av kontoen sletter ALL DATA og KAN IKKE gjenopprettes. Er du sikker på at du vil slette kontoen din?",
-                "TITLE": "Bekreft sletting"
-            },
-            "DELETE_BUTTON": "Slett konto",
-            "DELETE_ERROR": "Det oppstod en feil under sletting av kontoen din. Vennligst kontakt support@broodminder.com for å fullføre slettingen av kontoen. (Referanse-ID:{{id}})",
-            "DELETE_REDIRECT": "Konto slettet, du vil bli omdirigert om {{seconds}} sekunder",
-            "HEADERS": {
-                "ACCOUNT": "Konto",
-                "APIARIES": "Bikuber",
-                "COMPLETED": "Fullført",
-                "DEVICES": "Enheter",
-                "HIVES": "Bikuber",
-                "HUBS": "Huber",
-                "REQUESTED": "Sletting forespurt",
-                "STARTED": "Startet",
-                "SUBS_TO_CANCEL": "Abonnementer å avbryte"
-            },
-            "HIDE": "Skjul alternativer",
-            "REQUEST_ERROR": "Feil, forespørselen kunne ikke gjennomføres.",
-            "SHOW": "Vis alternativer",
-            "STATUS": "Status for sletting av kontoen",
-            "WARNING": "Du er i ferd med å slette kontoen din. Dette sletter all data, inkludert det som er spesifisert nedenfor. Bekreft denne forespørselen for å slette kontoen din."
-        },
-        "EDIT_EMAIL": {
-            "BUTTON": "Endre konto-e-post",
-            "CURRENT_EMAIL": "Nåværende e-post",
-            "ERROR": "Feil oppstod. E-posten ble ikke endret.",
-            "NEW_EMAIL": "Ny e-post",
-            "REFRESH_ERROR": "Endring av konto-e-post krever nylig autentisering. Logg inn igjen før du prøver denne endringen på nytt.",
-            "SAVE_BUTTON": "Lagre e-post",
-            "TITLE": "Endre konto-e-post"
-        },
-        "EDIT_PASSWORD": {
-            "BUTTON": "Endre passord",
-            "CURRENT_PASSWORD": "Nåværende passord",
-            "ERROR": "Feil oppstod. Passordet ble ikke endret.",
-            "HEADER": "Passord",
-            "NEW_PASSWORD": "Nytt passord",
-            "SAVE_BUTTON": "Lagre endring",
-            "TITLE": "Endre passord"
-        },
-        "EMAIL": "E-post",
-        "FIRST_NAME": "Fornavn",
-        "LAST_NAME": "Etternavn",
-        "MEMBERSHIP": "Medlemskap",
-        "PREMIUM_LANDING": "Se medlemskapalternativer",
-        "PURCHASE": "Kjøp Premium-medlemskap",
-        "SAVE": "Lagre",
-        "SUB_TYPES": {
-            "FREE": "Gratis",
-            "HOBBY": "Hobby",
-            "PREMIUM": "Premium fornyes den {{expiration}}",
-            "PREMIUM_CANCELLED": "Premium utløper den {{expiration}}",
-            "PREMIUM_EXPIRED": "Premium utløp den {{expiration}}",
-            "PRO": "Pro fornyes den {{expiration}}",
-            "PRO_CANCELLED": "Pro utløper den {{expiration}}",
-            "PRO_EXPIRED": "Pro utløp den {{expiration}}",
-            "TRIAL": "Prøvemedlemskap, utløper den {{expiration}}"
-        },
-        "TITLE": "Min konto"
+            "ERROR": {
+                "DUPLICATE": "E-postadressen er allerede i bruk av en annen konto.",
+                "GENERAL": "Kan ikke opprette konto.",
+                "PASSWORD": "Passordet er ikke sterkt nok.",
+                "EMAIL": "E-postadressen er dårlig formatert."
+            }
+        }
     },
-    "ALERTS_DESC": {
-        "COLDDAY": "Mulig kald dag i vente",
-        "COLDDAY_DESC": "Utløses når en kommende kald dag oppdages, dvs. under den angitte temperaturgrensen.",
-        "COLDDAY_MSG": "Temperaturene vil være unormalt kalde",
-        "DCONNECT": "Enhet frakoblet",
-        "DCONNECT_DESC": "Utløses når en av sensorene dine ikke lenger sender data (eller punktuelt) i løpet av hver valgte periode. Fungerer bare med en Hub.",
-        "DCONNECTH": "Enhet frakoblet",
-        "DCONNECTH_DESC": "Utløses når din Hub ikke lenger sender data i løpet av siste dag.",
-        "DCONNECTH_MSG": "{REF} frakoblet siden {DATE}",
-        "DCONNECTT": "Enhet frakoblet",
-        "DCONNECTT_DESC": "Utløses når din T-sensor ikke lenger sender data i løpet av siste dag.",
-        "DCONNECTT_MSG": "{REF} frakoblet siden {DATE}",
-        "DCONNECTW": "Enhet frakoblet",
-        "DCONNECTW_DESC": "Utløses når din W-sensor ikke lenger sender data i løpet av siste dag.",
-        "DCONNECTW_MSG": "{REF} frakoblet siden {DATE}",
-        "DEAD": "Død kube",
-        "DEAD_DESC": "Algoritmen vår oppdager hver dag om kuben din er død basert på ulike parametere vi har satt.",
-        "DEAD_MSG": "Kuben din er oppdaget som død",
-        "HMAX": "Høy intern luftfuktighet",
-        "HMAX_DESC": "Utløses når den interne luftfuktigheten overstiger den valgte terskelen.",
-        "HMAX_MSG": "Intern luftfuktighet over {VAL}",
-        "HMIN": "Lav intern luftfuktighet",
-        "HMIN_DESC": "Utløses når den interne luftfuktigheten er under den valgte terskelen.",
-        "HMIN_MSG": "Intern luftfuktighet under {VAL}",
-        "HONEYDEW": "Honningdugg",
-        "HONEYDEW_DESC": "Utløses når vektkontribusjonen til kuben overstiger den valgte terskelen i løpet av den siste uken.",
-        "HONEYDEW_MSG": "Innkommende vekter i løpet av den siste uken overstiger {VAL}",
-        "HOTDAY": "Mulig varm dag i vente",
-        "HOTDAY_DESC": "Utløses når en kommende varm dag oppdages, dvs. over den angitte temperaturgrensen.",
-        "HOTDAY_MSG": "Temperaturene vil være unormalt varme",
-        "LOWBATTERYT": "Lavt batteri",
-        "LOWBATTERYT_DESC": "Utløses når batterinivået til T-sensoren er under den valgte terskelen.",
-        "LOWBATTERYT_MSG": "Bytt batteri på ",
-        "LOWBATTERYW": "Lavt batteri",
-        "LOWBATTERYW_DESC": "Utløses når batterinivået til W-sensoren er under den valgte terskelen.",
-        "LOWBATTERYW_MSG": "Bytt batteri på ",
-        "LOWBROOD": "Svak yngel",
-        "LOWBROOD_DESC": "Utløses når prosentandelen av yngel er under den valgte terskelen.",
-        "LOWBROOD_MSG": "Yngel under {VAL}",
-        "OXALIC": "Oxalsyrebehandling",
-        "OXALIC_DESC": "Utløses når gjennomsnittlig yngel i kubene dine er under den angitte terskelen. Dette er en indikasjon som lar deg behandle kubene dine med oksalsyre på riktig tidspunkt.",
-        "OXALIC_MSG": "Det er på tide å behandle kubene dine",
-        "POORSIGNALT": "Dårlig signal",
-        "POORSIGNALT_DESC": "Utløses når T-sensoren din sender lite data i løpet av den siste dagen. ",
-        "POORSIGNALT_MSG": "{REF} dårlig signal siden {DATE}",
-        "POORSIGNALW": "Dårlig signal",
-        "POORSIGNALW_DESC": "Utløses når W-sensoren din sender lite data i løpet av den siste dagen.",
-        "POORSIGNALW_MSG": "{REF} dårlig signal siden {DATE}",
-        "RAIN": "Mulig kraftig regn",
-        "RAIN_DESC": "Utløses når nedbøren overstiger den valgte terskelen neste dag.",
-        "RAIN_MSG": "Nedbøren vil overstige {VAL}",
-        "REALTIME_SWARM_ALERT": "Temperaturhendelse beregnet av T2-enheten. Bare varslet for enheter over eller under yngelkassene ved bruk av en sanntidshub.",
-        "RSWARM": "Svermrisiko",
-        "RSWARM_DESC": "Utløses når risikoen for sverming er høy på en av kubene dine neste dag.",
-        "RSWARM_MSG": "Forventet svermedag",
-        "SNOW": "Mulig kraftig snøfall",
-        "SNOW_DESC": "Utløses når snøfallet overstiger den valgte terskelen neste dag.",
-        "SNOW_MSG": "Snøfallet vil overstige {VAL} ",
-        "STOLEN": "Stjålet kube",
-        "STOLEN_DESC": "Utløses når vekten av kuben din blir unormalt lav.",
-        "STOLEN_MSG": "Vekten av kuben din er unormalt lav",
-        "STOPWEATHER": "Værstasjon stoppet",
-        "STOPWEATHER_DESC": "Utløses når værstasjonen din slutter å sende data. Krever egen værstasjon.",
-        "STOPWEATHER_MSG": "Datatransmisjonsfeil fra værstasjonen din siden {DATE}",
-        "SUPER+": "Legger til en ekstra boks",
-        "SUPER+_DESC": "Angi minimumsvekten på en tom ekstra boks.",
-        "SUPER+_MSG": "Du la til en ekstra boks",
-        "SUPER-": "Fjerner en ekstra boks",
-        "SUPER-_DESC": "Angi maksimalvekten på en full ekstra boks.",
-        "SUPER-_MSG": "Du fjernet en ekstra boks",
-        "SWARM": "Sverm",
-        "SWARM_DESC": "Utløses når det potensielt har skjedd en sverm (Hub gir mer effektivitet).",
-        "SWARM_MSG": "Potensiell sverm oppdaget rundt 14:00",
-        "TMAX": "Høy intern temperatur",
-        "TMAX_DESC": "Utløses når den interne temperaturen overstiger den valgte terskelen.",
-        "TMAX_MSG": "Intern temperatur over {VAL}",
-        "TMIN": "Lav intern temperatur",
-        "TMIN_DESC": "Utløses når den interne temperaturen er under den valgte terskelen.",
-        "TMIN_MSG": "Intern temperatur under {VAL}",
-        "WIND": "Mulig kraftig vind",
-        "WIND_DESC": "Utløses når vinden overstiger den valgte terskelen neste dag.",
-        "WIND_MSG": "Vinden vil overstige {VAL}",
-        "WINEG": "Ressursuttømming",
-        "WINEG_DESC": "Utløses når biene forbruker mye flere ressurser enn de bringer tilbake til kuben. Tapsterskelen kan justeres.",
-        "WINEG_MSG": "Tapet av biens beholdning overstiger {VAL}",
-        "WIPOS": "Betydelig tilførsel av ressurser",
-        "WIPOS_DESC": "Utløses når den innkommende vekten av dagen i kuben overstiger den valgte terskelen.",
-        "WIPOS_MSG": "Gebyret for biens beholdning overstiger {VAL}",
-        "WLIM": "Vektgrense overskredet",
-        "WLIM_DESC": "Utløses når den angitte vektgrensen overskrides.",
-        "WLIM_MSG": "Vekten av kuben din overstiger {VAL}"
+    "SIDEBAR": {
+        "HOME": "Hjem",
+        "CONFIGURE": "Konfigurer",
+        "MEMBERSHIPS": "Medlemsalternativer",
+        "NEW": {
+            "TITLE": "Nytt",
+            "APIARY": "Bikuplass",
+            "HIVE": "Kube",
+            "DEVICE": "Enhet",
+            "DASHBOARD": "Tilpasset Dashbord",
+            "APIARY_NOTE": "Bikup-notat",
+            "HIVE_NOTE": "Kube-notat"
+        },
+        "MULTI_SELECT": "Flere valg",
+        "CLEAR_SEL": "Fjern alle valg",
+        "APIARY_CONTEXT": {
+            "EDIT": "Rediger {{value}}",
+            "NEW_HIVE": "Ny kube",
+            "SHARE": "Del",
+            "BEECOUNTED": "BeeCounted",
+            "RESEARCH_DOWNLOAD": "Nedlasting av forskerdata",
+            "REMOVE_SHARED_APIARY": "Fjern delt bikuplass"
+        },
+        "HIVE_CONTEXT": {
+            "EDIT": "Rediger {{value}}",
+            "NEW_DEVICE": "Legg til ny enhet",
+            "EXISTING_DEVICE": "Legg til eksisterende enhet",
+            "BEECOUNTED": "BeeCounted",
+            "MOVE": "Flytt kube",
+            "ARCHIVE": "Sett kube som inaktiv"
+        },
+        "DEVICE_CONTEXT": {
+            "EDIT": "Rediger {{value}}",
+            "EDIT_LOCATION": "Rediger gjeldende plassering",
+            "MOVE": "Flytt enhet"
+        },
+        "HUB_CONTEXT": {
+            "REMOVE": "Fjern {{value}} fra meny"
+        },
+        "WEATHER_SOURCE": "Værkilde",
+        "LOCAL_SOURCE": "Lokal kilde",
+        "WEATHER_CONTEXT": {
+            "NAME": "Vær",
+            "EDIT": "Rediger vær",
+            "ADD_SOURCE": "Legg til kilde",
+            "EDIT_SOURCES": "Rediger kilder",
+            "INFO": "Mer informasjon"
+        },
+        "WEATHER_INFO": {
+            "TITLE": "WeatherSource Weather",
+            "TEXT": "Disse værdataene kommer fra WeatherSource. De er basert på postnummeret som er oppgitt på bikuplassen din."
+        },
+        "HUB_TOOLTIP": "Hub",
+        "SHARED_TOOLTIP": "delt med meg",
+        "NEW_FEATURES": "Nye funksjoner",
+        "RESOURCES": "Ressurser",
+        "DOCUMENTATION": "Dokumentasjon",
+        "SUPPORT_EMAIL": "E-post support@broodminder.com"
     },
-    "APIARY_CRUD": {
-        "COLOR": "Farge",
-        "COUNTRY": "Landkode",
-        "CREATE_TITLE": "Opprett Bihage",
-        "EDIT_LOCATION": {
-            "BUTTON": "Rediger plassering",
-            "COORDINATE": "Koordinat",
-            "INFO": "Denne plasseringen brukes både for å hente værinformasjon og vise bikuben din på delte nettsteder som BeeCounted.org. Dette deles med dine offentlige domenedata og bør ikke være nøyaktig plassering av bikuben din.",
-            "POSTAL_CHANGE": {
-                "CONFIRM": "Ja",
-                "TEXT": "Vil du endre bikube til nytt postnummer {{value}}?",
-                "TITLE": "Endre postnummer"
-            },
-            "POSTAL_ERROR": "Koordinatene du har valgt, er utenfor postnummeret til bikuben. Dette kan ikke endres.",
-            "TITLE": "Rediger Bihageplassering"
+    "TOP_MENU": {
+        "ACCOUNT": "Konto",
+        "TOUR": "Tur",
+        "HELP": "Hjelp",
+        "ADMIN": "Admin",
+        "LOGOUT": "Logg ut",
+        "LOGIN": "Logg inn",
+        "REGISTER": "Registrer",
+        "RESOURCES": "Ressurser"
+    },
+    "RESOURCES": {
+        "TITLE": "Ressurser",
+        "SUBTITLE": "Her finner du mange ressurser slik at du kan begynne å bidra til å lære mer om biene våre.",
+        "DESCRIPTION": "Takk for at du blir med i BroodMinder-bevegelsen der vi lærer og deler informasjon for å forbedre forståelsen og forvaltningen av våre dyrebare honningbier.",
+        "DESCRIPTION_1": "Sjekk ut våre oppdateringer for våren 2020, inkludert 'SwarmMinder' -oppdateringer for BroodMinder-T2-enhetene dine. Se videoen ",
+        "DESCRIPTION_1_LINK": "her.",
+        "DESCRIPTION_2": " Hjertelig takk til Google og <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a> for deres generøse støtte til BroodMinder Citizen Science.",
+        "LINKS": {
+            "TITLE": "Lenker",
+            "LOGIN": "Logg inn",
+            "USER_GUIDE_VIDEO": "Video Brukerveiledninger",
+            "USER_GUIDE_PDF": "Skrevet Brukerveiledning (PDF)",
+            "BEECOUNTED": "BeeCounted",
+            "SUPPORT": "Støtte"
+        }
+    },
+    "VIDEO_GUIDES": {
+        "TITLE": "BroodMinder Video Brukerveiledning",
+        "HOW_TO": "Hvordan bruke denne veiledningen",
+        "IN_PROGRESS": "Pågår",
+        "INSTALLATION": {
+            "TITLE": "Installasjon",
+            "LINK_1": "Hurtigstart med CS Kit",
+            "LINK_2": "Hvilken APP skal jeg velge?",
+            "LINK_3": "BroodMinder ASP-installasjon",
+            "LINK_4": "BroodMinder-SubHub",
+            "LINK_5": "BroodMinder-WIFI",
+            "LINK_6": "BroodMinder-CELL",
+            "LINK_7": "S1:E17 BroodMinder-W3 Full kube skala",
+            "LINK_8": "S1:E19 BroodMinder-DIY"
         },
-        "EDIT_TITLE": "Rediger Bihage",
-        "EDIT_ZIP_EXP": "Du kan ikke endre plassering for en bikube som inneholder data.",
-        "ERROR_COUNTRY": "Velg gyldig landkode",
-        "NAME": "Navn",
-        "NOT_PRIVATE_TOOLTIP": "Takk for at du deler dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle tiltak for våre dyrebare honningbier og miljøet vårt.",
-        "PRIVATE": "Privat (Ikke del data) Premium-funksjon",
-        "PRIVATE_TOOLTIP": "Vennligst vurder å dele dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle tiltak for våre dyrebare honningbier og miljøet vårt.",
-        "SUCCESS_CREATED": "Bihage opprettet",
-        "SUCCESS_UPDATED": "Bihage oppdatert",
-        "WEATHER": {
-            "DESCRIPTION": "Velg en enhet eller hub som værkilde for bikuben din for fuktighet og/eller temperatur. Alle tidsintervaller uten en enhet vil som standard bruke værkilden.",
-            "DIALOG": {
-                "ADD_HUMIDITY": "Legg til fuktighet",
-                "ADD_TEMPERATURE": "Legg til temperatur",
-                "HUMIDITY": "Fuktighet",
-                "SUCCESS_UPDATED": "Bihagevær oppdatert",
-                "TEMPERATURE": "Temperatur",
-                "TITLE": "Rediger vær"
-            },
-            "EDIT": {
-                "ADD_HUMIDITY": "Legg til fuktighetskilde",
-                "ADD_TEMPERATURE": "Legg til temperaturkilde",
-                "EDIT_HUMIDITY": "Rediger fuktighetskilde",
-                "EDIT_TEMPERATURE": "Rediger temperaturkilde",
-                "ENDING_CURRENT": "Sluttende kilde",
-                "ERROR_DEVICE_REQUIRED": "Må velge en enhet for alle værkilder",
-                "ERROR_INVALID_NEXT_OVERLAP": "Ugyldig tid, overlapper neste plassering for bikuben",
-                "ERROR_INVALID_PREV_OVERLAP": "Ugyldig tid, overlapper forrige plassering for bikuben",
-                "ERROR_START_REQUIRED": "Må velge starttid for værkilden",
-                "SELECT_DEVICE": "Velg enhet",
-                "SUCCESS": "Endringer lagret"
-            },
-            "END": "Slutt",
-            "END_OPEN": "nåværende",
-            "MEASUREMENT": "Måling",
-            "READING": "Lesing",
-            "START": "Start",
-            "START_OPEN": "åpen",
-            "TITLE": "Rediger vær"
+        "MYBROODMINDER": {
+            "TITLE": "MyBroodMinder",
+            "LINK_1": "Kom i gang",
+            "LINK_2": "Dataoversikter",
+            "LINK_3": "Konfigurasjon",
+            "LINK_4": "Flytte enheter",
+            "LINK_5": "Cell, WIFI og Hub-overvåking",
+            "LINK_6": "Alternativ navigasjon",
+            "LINK_7": "MyBroodMinder.com Premium"
         },
-        "ZIP_INFO": "Postnummer brukes til værtjenester. For å få mest mulig ut av MyBroodMinder-dataene dine, vennligst skriv inn et gyldig postnummer.",
-        "ZIP_SELECTION": {
-            "CANCEL": "Avbryt",
-            "CHECK": "Sjekk igjen",
-            "CREATE_WITH_LOC": "Opprett med denne plasseringen",
-            "LOCATION": "Plassering",
-            "NOT_FOUND": "Postnummer ikke funnet",
-            "SELECT": "Velg plassering på kartet",
-            "SKIP": "Hopp over og opprett"
+        "APPS": {
+            "TITLE": "Apper",
+            "LINK_1": "S1:E14 BroodMinder-Bees App",
+            "LINK_2": "Apiary App - Hub Mode"
         },
-        "ZIPCODE": "Postnummer"
+        "INTERPRETATION": {
+            "TITLE": "Datatolkning",
+            "LINK_1": "S1:E4 BroodMinder og Mellisphera",
+            "LINK_2": "S1:E3 Kolonistørrelse vs temperatur",
+            "LINK_3": "S1:E8 Svømmeoppdagelsespresentasjon"
+        },
+        "MAINTENANCE": {
+            "TITLE": "Vedlikehold",
+            "LINK_1": "S1:E1 Hiveovervåking vårvedlikehold",
+            "LINK_2": "S1:E18 Batterier"
+        },
+        "DISCONTINUED": {
+            "TITLE": "Utgåtte produkter",
+            "APIARY_APP": {
+                "TITLE": "Apiary App (sky)",
+                "LINK_1": "Normal bruk",
+                "LINK_2": "Ny - Hub Mode"
+            },
+            "BROODMINDER_APP": {
+                "TITLE": "Original App (stående alene)",
+                "LINK_1": "Normal bruk",
+                "LINK_2": "Dataeksport"
+            },
+            "CELL_APP": {
+                "TITLE": "CELL App",
+                "LINK_1": "Diagnostikk"
+            },
+            "TROUBLESHOOT": {
+                "TITLE": "Feilsøking",
+                "LINK_1": "Årlig vedlikehold",
+                "LINK_2": "Batterier",
+                "LINK_3": "T2 Firmware Update versjon 2.77"
+            },
+            "ORIGINAL_CELL_WIFI": {
+                "TITLE": "Original CELL/WIFI",
+                "LINK_1": "BroodMinder-CELL/WIFI (Gjennom juli 2021)"
+            }
+        },
+        "BLOGMINDER": {
+            "TITLE": "BlogMinder Videoer"
+        }
+    },
+    "TOUR": {
+        "START": {
+            "TITLE": "Velkommen!!",
+            "DESCRIPTION": "Velkommen til det nye MyBroodMinder!",
+            "SKIP": "Hopp over",
+            "SEE": "Se funksjoner"
+        },
+        "FEATURES": {
+            "TITLE": "Funksjonstur",
+            "SKIP": "Hopp over",
+            "NEXT": "Neste",
+            "CLOSE": "Lukk",
+            "FEATURE_1": "Første gang, opprett kube",
+            "FEATURE_2": "Se data",
+            "FEATURE_3": "Konfigurer og flytt enheter",
+            "FEATURE_4": "Vis CELL/WiFi/Hub-status"
+        }
     },
     "APIARY_PAGE": {
-        "HIVE": {
-            "DESCRIPTION": "Denne visningen viser et raskt diagram for hver kube. Vektprioritet for visning: tyngste verdi. Luftfuktighet og temperatur vises i rekkefølge: 1-Ovenfor nedre yngelkasse 2-Ovenfor øvre yngelkasse 3-Under indre lokk 4-Annet 5-Egendefinert (høyeste verdi) 6-Utenfor kube 7-Vekt under kube",
-            "TITLE": "Kube"
-        },
-        "PREMIUM_EXP": "Tidsintervallvalg for denne visningen tilgjengelig med premiumabonnement.",
         "SELECT": "Velg en visning",
+        "PREMIUM_EXP": "Tidsintervallvalg for denne visningen tilgjengelig med premiumabonnement.",
+        "TEXT": {
+            "TITLE": "Tekst",
+            "DESCRIPTION": "Denne visningen viser den mest nylige avlesningen lastet opp for hver posisjon i hver kube.",
+            "MOVED_EXP": "Kube flyttet"
+        },
+        "HIVE": {
+            "TITLE": "Kube",
+            "DESCRIPTION": "Denne visningen viser et raskt diagram for hver kube. Vektprioritet for visning: tyngste verdi. Luftfuktighet og temperatur vises i rekkefølge: 1-Ovenfor nedre yngelkasse 2-Ovenfor øvre yngelkasse 3-Under indre lokk 4-Annet 5-Egendefinert (høyeste verdi) 6-Utenfor kube 7-Vekt under kube"
+        },
         "SUMMARY": {
-            "BATTERY": {
-                "LOADING": "Laster apiary batteriavlesninger",
-                "NONE": "Ingen batteridata",
-                "TITLE": "Apiary Batteri"
-            },
+            "TITLE": "Sammendrag",
             "DESCRIPTION": "Denne visningen viser kombinerte diagrammer etter datatype. Spesifikasjoner som vises følger standardene for kubevisningen, men kan settes per kube i kubeinnstillingene.",
-            "HIVES": "Kuber",
-            "HUMID": {
-                "LOADING": "Laster apiary fuktighetsavlesninger",
-                "NONE": "Ingen fuktighetsdata",
-                "TITLE": "Apiary Fuktighet"
-            },
             "PREMIUM_EXP": "Denne visningen er tilgjengelig med premiumabonnement. Eksempel vist nedenfor.",
             "TEMP": {
-                "LOADING": "Laster apiary temperaturavlesninger",
+                "TITLE": "Apiary Temperaturer",
                 "NONE": "Ingen temperaturdata",
-                "TITLE": "Apiary Temperaturer"
-            },
-            "TITLE": "Sammendrag",
-            "WEIGHT": {
-                "LOADING": "Laster apiary vektavlesninger",
-                "NONE": "Ingen vektdata",
-                "TITLE": "Apiary Vekter"
-            }
-        },
-        "TEXT": {
-            "DESCRIPTION": "Denne visningen viser den mest nylige avlesningen lastet opp for hver posisjon i hver kube.",
-            "MOVED_EXP": "Kube flyttet",
-            "TITLE": "Tekst"
-        }
-    },
-    "BEECOUNTED": {
-        "COPY_EMBED_TOOLTIP": "Kopier innbyggingskode",
-        "COPY_LINK_TOOLTIP": "Kopier lenke",
-        "EMBED": "Bygg inn diagram på nettsiden",
-        "EMBED_COPIED": "Innbyggingskode kopiert",
-        "LINK": "Vis kube på BeeCounted.org",
-        "LINK_COPIED": "Lenke kopiert",
-        "PRIVATE_APIARY": "Kubedata deles ikke med BeeCounted. Denne kuben, {{name}}, deles ikke med BeeCounted.",
-        "PRIVATE_HIVE": "Kubedata deles ikke med BeeCounted.",
-        "TITLE": "BeeCounted.org"
-    },
-    "CALENDAR_CHART": {
-        "DAYLENGTH": "Dagslys",
-        "MOON": {
-            "1": "Fullmåne",
-            "2": "Nymåne",
-            "3": "Siste kvarter",
-            "4": "Første kvarter",
-            "5": "Økende månesigd",
-            "6": "Avtagende månesigd",
-            "7": "Avtagende månesigd",
-            "8": "Økende månesigd",
-            "ASCENDING": "Økende",
-            "DESCENDING": "Avtagende"
-        },
-        "MOON_PERIOD": "Periode",
-        "MOON_PHASE": "Fase",
-        "SUNRISE": "Soloppgang",
-        "SUNSET": "Solnedgang",
-        "WEATHER": {
-            "DESCR": {
-                "ASH": "Aske",
-                "BROKEN_CLOUDS": "Brytende skyer",
-                "CLEAR": "Klart",
-                "CLOUDS": "Skyer",
-                "DUST": "Støv",
-                "FEW_CLOUDS": "Noen få skyer",
-                "FOG": "Tåke",
-                "HAZE": "Tåke",
-                "MIST": "Tåke",
-                "RAIN": "Regn",
-                "SAND": "Sand",
-                "SCATTERED_CLOUDS": "Spredte skyer",
-                "SHOWER": "Byge",
-                "SHOWER_RAIN": "Byger av regn",
-                "SHOWER_SNOW": "Byger av snø",
-                "SMOKE": "Røyk",
-                "SNOW": "Snø",
-                "SQUALL": "Kastevind",
-                "THUNDERSTORM": "Tordenvær",
-                "TORNADO": "Tornado"
-            }
-        }
-    },
-    "CHART": {
-        "DATA_TYPES": {
-            "ALERTS": {
-                "FILTER": "Alarmer",
-                "TITLE": "Alarmer",
-                "YAXIS": ""
-            },
-            "ALERTS_NOTES": {
-                "FILTER": "Alarmer og notater",
-                "TITLE": "Alarmer og notater",
-                "YAXIS": " ({{label}})"
-            },
-            "AUDIO": {
-                "FILTER": "Vibrasjon",
-                "TITLE": "Vibrasjon",
-                "YAXIS": "Vibrasjon ({{label}})"
-            },
-            "BATTERY": {
-                "FILTER": "Batteri",
-                "TITLE": "Batteri",
-                "YAXIS": "Batteri (%)"
-            },
-            "BC_ACTIV_DUR": {
-                "FILTER": "Fourageringsvarighet",
-                "TITLE": "Fourageringsvarighet",
-                "UNIT": "timer",
-                "YAXIS": "Fourageringsvarighet (timer)"
-            },
-            "BC_FOR": {
-                "FILTER": "Fouragereturer",
-                "TITLE": "Fouragereturer",
-                "UNIT": "turer/dag",
-                "YAXIS": "Fouragering (k turer/dag)"
-            },
-            "BC_WORK_PER": {
-                "FILTER": "Fourageringsperioder",
-                "TITLE": "Fourageringsperioder",
-                "UNIT": "arbeidsøkter",
-                "YAXIS": "Perioder per dag"
-            },
-            "BEECOUNT": {
-                "FILTER": "Bier",
-                "TITLE": "Bieantall",
-                "UNIT": "bier/min",
-                "YAXIS": "Bier ({{label}})"
-            },
-            "BROOD": {
-                "FILTER": "Broy",
-                "TITLE": "Broy",
-                "YAXIS": "Broy (%)"
-            },
-            "CLOUD_COVER": {
-                "FILTER": "Skydekke",
-                "FILTER_HOURLY": "Timevis skydekke",
-                "TITLE": "Skydekke",
-                "YAXIS": "Skydekke (%)"
-            },
-            "FLIGHT": {
-                "FILTER": "Fourageringsindeks",
-                "TITLE": "Fourageringsindeks",
-                "YAXIS": "Fourageringsindeks (%)"
-            },
-            "GAIN": {
-                "FILTER": "Vektøkning",
-                "TITLE": "Vektøkning",
-                "YAXIS": "Vekt ({{label}})"
-            },
-            "GAIN_CUMUL": {
-                "FILTER": "Kumulativ vektøkning",
-                "TITLE": "Kumulativ økning",
-                "YAXIS": "Vekt ({{label}})"
-            },
-            "HIVE_HEALTH": {
-                "FILTER": "Kubehelse",
-                "TITLE": "Kubehelse",
-                "YAXIS": ""
+                "LOADING": "Laster apiary temperaturavlesninger"
             },
             "HUMID": {
-                "FILTER": "Luftfuktighet",
-                "FILTER_HOURLY": "Timevis luftfuktighet",
-                "TITLE": "Luftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "HUMID_MAX": {
-                "FILTER": "Maksimal luftfuktighet",
-                "TITLE": "Maksimal luftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "HUMID_MAX_EXT": {
-                "FILTER": "Maksimal ekstern luftfuktighet",
-                "TITLE": "Maksimal ekstern luftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "HUMID_MAX_WEATHER": {
-                "FILTER": "Maksimal værluftfuktighet",
-                "TITLE": "Maksimal værluftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "HUMID_MIN": {
-                "FILTER": "Minimal luftfuktighet",
-                "TITLE": "Minimal luftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "HUMID_MIN_EXT": {
-                "FILTER": "Minimal ekstern luftfuktighet",
-                "TITLE": "Minimal ekstern luftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "HUMID_MIN_WEATHER": {
-                "FILTER": "",
-                "TITLE": "Minimal værluftfuktighet",
-                "YAXIS": "Luftfuktighet (%)"
-            },
-            "LUNAR": {
-                "FILTER": "Lunardaglig",
-                "TITLE": "Månekalender",
-                "YAXIS": ""
-            },
-            "MF_COUNT": {
-                "FILTER": "Parringsflytelling",
-                "TITLE": "Parringsflytelling",
-                "UNIT": "flyturer/dag",
-                "YAXIS": "flyturer/dag"
-            },
-            "MF_DUR": {
-                "FILTER": "Flyvindu (timer)",
-                "TITLE": "Parringsflytdurasjon",
-                "UNIT": "timer",
-                "YAXIS": "Flyvindu (timer)"
-            },
-            "MF_SESS": {
-                "FILTER": "Parringsflytsesjoner",
-                "TITLE": "Parringsflytsesjoner",
-                "UNIT": "sesjoner/dag",
-                "YAXIS": "Sesjoner/dag"
-            },
-            "NECTAR": {
-                "FILTER": "Nektarstrøm",
-                "TITLE": "Nektarstrømindeks",
-                "YAXIS": "Nektarstrømindeks (%)"
-            },
-            "NOTES": {
-                "FILTER_APIARY": "Bigårdsnotater",
-                "FILTER_HIVE": "Kubenotater",
-                "TITLE": "Notater",
-                "YAXIS": ""
-            },
-            "PRECIP": {
-                "FILTER": "Nedbør",
-                "FILTER_DAILY": "Daglig nedbør",
-                "TITLE": "Nedbør",
-                "YAXIS": "Nedbør ({{label}})"
-            },
-            "PROD": {
-                "FILTER": "Produktivitet",
-                "FILTER_DAILY": "Daglig produktivitet",
-                "FILTER_HOURLY": "Timevis produktivitet",
-                "TITLE": "Produktivitet",
-                "YAXIS": "Vekt ({{label}})"
-            },
-            "PROD_CUMUL": {
-                "FILTER": "Kumulativ produktivitet",
-                "TITLE": "Kumulativ produktivitet",
-                "YAXIS": "Vekt ({{label}})"
-            },
-            "RADAR": {
-                "FILTER": "Radarignal",
-                "TITLE": "Radarignal",
-                "YAXIS": "Radarignal ({{label}})"
-            },
-            "RAIN": {
-                "FILTER": "Nedbør",
-                "FILTER_CUMULATIVE": "Kumulativ nedbør",
-                "FILTER_HOURLY": "Timevis nedbør",
-                "TITLE": "Nedbør",
-                "YAXIS": "Nedbør ({{label}})"
-            },
-            "TEMP": {
-                "FILTER": "Temperatur",
-                "FILTER_HOURLY": "Timevis temperatur",
-                "TITLE": "Temperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_EVENTS": {
-                "FILTER": "Temperaturhendelser",
-                "TITLE": "Temperaturhendelser",
-                "YAXIS": ""
-            },
-            "TEMP_MAX": {
-                "FILTER": "Maksimal temperatur",
-                "TITLE": "Maksimal temperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_MAX_EXT": {
-                "FILTER": "Maksimal ekstern temperatur",
-                "TITLE": "Maksimal ekstern temperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_MAX_WEATHER": {
-                "FILTER": "Maksimal værtemperatur",
-                "TITLE": "Maksimal værtemperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_MEAN": {
-                "FILTER": "Gjennomsnittstemperatur",
-                "TITLE": "Gjennomsnittstemperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_MIN": {
-                "FILTER": "Minimal temperatur",
-                "TITLE": "Minimal temperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_MIN_EXT": {
-                "FILTER": "Minimal ekstern temperatur",
-                "TITLE": "Minimal ekstern temperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_MIN_WEATHER": {
-                "FILTER": "Minimal værtemperatur",
-                "TITLE": "Minimal værtemperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "TEMP_WEATHER": {
-                "FILTER": "Værtemperatur",
-                "TITLE": "Værtemperatur",
-                "YAXIS": "Temperatur ({{label}})"
-            },
-            "WEATHER": {
-                "FILTER": "Værdaglig",
-                "TITLE": "Vær",
-                "YAXIS": ""
+                "TITLE": "Apiary Fuktighet",
+                "NONE": "Ingen fuktighetsdata",
+                "LOADING": "Laster apiary fuktighetsavlesninger"
             },
             "WEIGHT": {
-                "FILTER": "Vekt",
-                "FILTER_DAILY": "Daglig vekt",
-                "FILTER_HOURLY": "Timevis vekt",
-                "TITLE": "Vekt",
-                "YAXIS": "Vekt ({{label}})"
+                "TITLE": "Apiary Vekter",
+                "NONE": "Ingen vektdata",
+                "LOADING": "Laster apiary vektavlesninger"
             },
-            "WIND": {
-                "FILTER": "Vind",
-                "FILTER_HOURLY": "Timevis vind",
-                "TITLE": "Vind",
-                "YAXIS": "Vind ({{label}})"
+            "BATTERY": {
+                "TITLE": "Apiary Batteri",
+                "NONE": "Ingen batteridata",
+                "LOADING": "Laster apiary batteriavlesninger"
             },
-            "WIND_MAX": {
-                "FILTER": "Maksimal vind",
-                "TITLE": "Maksimal vind",
-                "YAXIS": "Vind ({{label}})"
-            }
+            "HIVES": "Kuber"
         }
     },
-    "CHARTS": {
-        "BALANCE": "L/R-balanse",
-        "BATTERY": "Batterilading",
-        "BATTERY_AXIS": "Ladings %",
-        "BROOD_ZONE": "Ynglesone",
-        "FIRMWARE": "Fastvare",
-        "HUMID": "Fuktighet",
-        "HUMID_AXIS": "Fuktighet %",
-        "HUMIDITY_NORMAL": "Normal",
-        "NORMAL_HUMIDITY": "Normal fuktighet",
-        "PRESSURE": "Trykk",
-        "PRODUCTIVITY": "Honningbieproduktivitet",
-        "PRODUCTIVITY_AXIS": "Honningbieproduktivitet i {{wUnit}}",
-        "SWARM_S": {
-            "GENERIC": "Temperaturhendelse",
-            "TITLE": "T"
+    "HIVE_PAGE": {
+        "DATA_TOOLTIP": {
+            "UPDATE": "Vis trenger oppdatering",
+            "BUILDING": "Vis bygging",
+            "OK": "Vis oppdatert"
         },
-        "SWARM_STATE": "SM-tilstand",
-        "TEMP": "Temperatur",
-        "TEMP_AXIS": "Temperatur i {{tUnit}}",
-        "WEATHER_HUMID": "Utendørs fuktighet",
-        "WEATHER_TEMP": "Utendørs temperatur",
-        "WEIGHT": "Vekt",
-        "WEIGHT_AXIS": "Vekt i {{wUnit}}",
-        "WIND_MAX": "Maks vind"
+        "TEMP": {
+            "TITLE": "Temperatur",
+            "NONE": "Ingen temperaturdata",
+            "LOADING": "Laster kube temperaturavlesninger",
+            "HIDE_SWARM_FLAGS": "Skjul temperaturhendelser"
+        },
+        "HUMID": {
+            "TITLE": "Fuktighet",
+            "NONE": "Ingen fuktighetsdata",
+            "LOADING": "Laster kube fuktighetsavlesninger"
+        },
+        "WEIGHT": {
+            "TITLE": "Vekt",
+            "NONE": "Ingen vektdata",
+            "LOADING": "Laster kube vektavlesninger",
+            "MULTI_SCALE": "Flere vekter",
+            "AVERAGE_SCALE": "Vekter gjennomsnittlig",
+            "INDIVIDUAL_SCALE": "Individuelle vekter"
+        },
+        "PRODUCTIVITY": {
+            "TITLE": "Honningbieproduktivitet",
+            "NONE": "Ingen vektdata for honningbieproduktivitet",
+            "LOADING": "Laster honningbieproduktivitet",
+            "INFO": "Bier legger til/fjerner kubevekt"
+        },
+        "BATTERY": {
+            "TITLE": "Batteri",
+            "NONE": "Ingen batteridata",
+            "LOADING": "Laster kube batteriavlesninger"
+        },
+        "DEVICES": "Enheter",
+        "DEVICE_WITH_DATA": "Data i diagrammer, for øyeblikket i kube",
+        "DEVICE_NO_DATA": "Ingen data i diagrammer, for øyeblikket i kube",
+        "DEVICE_DATA_ONLY": "Data i diagrammer, ikke for øyeblikket i kube",
+        "DOWNLOAD": "Last ned CSV-data",
+        "DOWNLOAD_WEATHER": "Last ned Weather CSV-data",
+        "DOWNLOAD_PREMIUM": "Nedlasting av kube-data tilgjengelig med premiumabonnement.",
+        "DOWNLOAD_WEATHER_PREMIUM": "Nedlasting av værdata tilgjengelig med premiumabonnement.",
+        "INACTIVE": "Inaktiv siden {{date}}"
     },
-    "COMMON": {
-        "APIARY": "Bigård",
-        "CANCEL": "Avbryt",
-        "CREATE": "Opprett",
-        "DELETE": "Slett",
-        "DEVICE": "Enhet",
-        "DISMISS": "Avvis",
-        "EDIT": "Rediger",
-        "HIVE": "Kube",
-        "POSITION": "Posisjon",
-        "SAVE": "Lagre"
-    },
-    "CONFIGURE_ALERTS": {
-        "EDIT": {
-            "BTN_MAIL_TEST": "Send test-e-post",
-            "DAILY": "dag",
-            "DAY": "dag",
-            "EMAIL": {
-                "FAIL": "E-posten kunne ikke sendes til {{email}}",
-                "REALTIME_BODY": "Dette er en testmelding for MyBroodMinder sanntidsvarsler.",
-                "SUCCESS": "E-post sendt til {{email}}",
-                "SUMMARY_BODY": "Dette er en test-e-post for MyBroodMinder sammendragsvarsler."
+    "DEVICE_PAGE": {
+        "DATA_TOOLTIP": {
+            "UPDATE": "Vis trenger oppdatering",
+            "BUILDING": "Vis bygging",
+            "OK": "Vis oppdatert"
+        },
+        "TITLE": "Enhetsdata - {{name}}",
+        "CHART_TITLE": "Enhetsoppsummering for {{name}}",
+        "LOCATION_PIN_START": "S",
+        "LOCATION_PIN_END": "E",
+        "LOCATION_HISTORY": "Enhetsplasseringshistorie",
+        "LOCATION_ADD": "Legg til sted",
+        "LOADING": "Laster avlesninger fra enhetssensor",
+        "DOWNLOAD": "Last ned CSV-data",
+        "DOWNLOAD_VIEW": "Last ned vist tidsperiode",
+        "DOWNLOAD_HIST": "Last ned full historie",
+        "OUTLIER_SHOW": "Vis dataredigerer",
+        "OUTLIER_HIDE": "Skjul dataredigerer",
+        "EDITOR": {
+            "TITLE": "Dataredigerer",
+            "DESCRIPTION": "Zoom inn diagrammet eller klikk på punkt for å filtrere avlesningene nedenfor.",
+            "BUTTON_NONE": "Velg avlesninger som skal fjernes i tabellen nedenfor",
+            "BUTTON_SELECTED": "Fjern valgte",
+            "REMOVE": "Fjern",
+            "NONE": "Ingen avlesninger for denne tidsperioden",
+            "TIMESTAMP": "Tidsstempel",
+            "EPOCH": "Epoch",
+            "SAMPLE": "Prøve",
+            "SOURCE": "Kilde",
+            "RSSI": "Rssi",
+            "BATTERY": "Batteri",
+            "TEMP": "Temp",
+            "HUMID": "Fuktig",
+            "WEIGHT": "Vekt",
+            "WEIGHT_L_R": "Vekt venstre rå",
+            "WEIGHT_R_R": "Vekt høyre rå",
+            "WEIGHT_L": "Vekt venstre",
+            "WEIGHT_R": "Vekt høyre",
+            "BALANCE": "L/R-balanse",
+            "WEIGHT_SF": "Vektskala faktor",
+            "SAMPLE_STATE": "SM-tilstand",
+            "CONFIRM_WINDOW": {
+                "TITLE": "Fjern valgte avlesninger",
+                "MESSAGE": "Vil du fjerne valgte {{count}} avlesninger?",
+                "CONFIRM": "Ja"
             },
-            "EVERY": "hver",
-            "FREQUENCY": "Frekvens",
-            "HOURLY": "time",
-            "MAIL": "Send e-postvarslingssammendrag hver",
-            "NEVER": "aldri",
-            "OTHER": "tilpasset",
-            "REALTIME_INPUT": "Sanntid E-post (kommaseparert)",
-            "SUMMARY_INPUT": "Sammendrag E-post (kommaseparert)",
-            "TITLE": "E-postinnstillinger",
-            "WEEKLY": "uke"
-        },
-        "FREQUENCY_DAILY": "Varslingsoppsummering sendt hver dag via e-post",
-        "FREQUENCY_NEVER": "Varslingsoppsummering sendes ikke via e-post",
-        "FREQUENCY_OTHER": "Varslingsoppsummering sendt hver {{value}} dager via e-post",
-        "FREQUENCY_WEEKLY": "Varslingsoppsummering sendt hver uke via e-post",
-        "HIVE": "Kube",
-        "REALTIME": "Sanntid",
-        "SENSORS": "Enheter",
-        "SWARM_ALERT": "SwarmMinder",
-        "UPDATE_FAIL": "Feil ved oppdatering av varslingsinnstillingene",
-        "UPDATE_SUCCESS": "Varslingsinnstillingene er oppdatert",
-        "WEATHER": "Vær"
-    },
-    "CONFIGURE_APIARIES": {
-        "ACTIVE": "Aktiv",
-        "ADD": "Legg til bigård",
-        "CANNOT_DELETE_WINDOW": {
-            "MESSAGE": "Denne bigården inneholder følgende kuber: {{hives}} Du kan ikke slette denne bigården før du sletter eller flytter disse kubeene.",
-            "TITLE": "Kan ikke slette bigård"
-        },
-        "CONFIRM_DELETE_WINDOW": {
-            "CONFIRM": "Ja",
-            "MESSAGE": "Er du sikker på at du vil slette bigård {{name}}? Dette sletter bigården permanent.",
-            "TITLE": "Slett bigård"
-        },
-        "CONFIRM_INACTIVE_WINDOW": {
-            "CONFIRM": "Ja",
-            "MESSAGE": "Dette setter alle kubene i denne bigården som inaktive, avslutter alle enhetsposisjoner i hver kube, og fjerner bigården fra visningene dine. Eksisterende data vil forbli, men ny data vil ikke lenger gå til denne bigården eller dens kuber. Dette kan ikke angres. Sett bigården {{name}} som inaktiv?",
-            "TITLE": "Sett bigård som inaktiv"
-        },
-        "DELETE_ERROR": "Feil ved sletting av bigård",
-        "DELETE_SUCCESS": "Bigård slettet",
-        "NAME": "Bigårdsnavn",
-        "SHARE": "Del",
-        "SHOW_INACTIVE": "Vis inaktive",
-        "UPDATED_SUCCESS": "Bigård oppdatert",
-        "ZIPCODE": "Postnummer"
-    },
-    "CONFIGURE_DASHBOARDS": {
-        "CHART": {
-            "APIARY_LOCATIONS": "Vis birøktlokasjoner",
-            "BROOD_ZONE": "Vis yngelområde",
-            "DEFAULT": "Standard ({{value}})",
-            "FAIL": "Feil ved oppdatering av diagram",
-            "FILTERS": {
-                "ACTIVE": "Aktiv",
-                "AVAILABLE": "Tilgjengelig"
+            "SUCCESS": "Avlesninger fjernet",
+            "FAIL": "Feil, avlesninger ble ikke fjernet",
+            "DISMISS": "Avvise",
+            "OUTLIERS": {
+                "TITLE": "Avlesninger merket som avvik",
+                "NONE": "Ingen fjernede avlesninger for denne tidsperioden",
+                "MOVE": "Flytt tilbake",
+                "MESSAGE": "Melding",
+                "USER_R": "Bruker fjernet",
+                "SYSTEM_R": "System fjernet",
+                "BUTTON_NONE": "Velg avlesninger som skal legges tilbake som normale sensoravlesninger",
+                "BUTTON_SELECTED": "Flytt tilbake valgte",
+                "CONFIRM_WINDOW": {
+                    "TITLE": "Flytt valgte avlesninger",
+                    "MESSAGE": "Vil du legge tilbake valgte {{count}} avlesninger som normale sensoravlesninger?",
+                    "CONFIRM": "Ja"
+                },
+                "SUCCESS": "Avlesninger flyttet",
+                "FAIL": "Feil, avlesninger ble ikke flyttet"
             },
-            "HEIGHT": "Høyde",
-            "LEGEND": "Vis forklaring",
-            "NAME": "Navn",
-            "NORMAL_HUMID": "Vis normal luftfuktighet",
-            "SUCCESS": "Diagram oppdatert",
-            "TITLE_CREATE": "Opprett diagram",
-            "TITLE_EDIT": "Rediger {{name}}",
-            "TODAY_LINE": "Vis dagens linje"
-        },
-        "DASHBOARD": {
-            "ACTIVE": "Aktive diagrammer",
-            "AVAILABLE": "Tilgjengelige diagrammer",
-            "CHART_NAMES": {
-                "APIARY_IMAGE": "Birøktbilde",
-                "APIARY_MAP": "Birøktskart",
-                "BATTERY": "Batteri",
-                "BEECOUNT": "Bieantall",
-                "BROOD": "Yngel",
-                "CLOUD_COVER": "Skydekke",
-                "FORAGING": "Samleindeks",
-                "HIVE_TEXT": "Biketekst",
-                "HIVE_TEXT_SUMMARY": "Tekst",
-                "HUMID": "Luftfuktighet",
-                "MATING_FLIGHTS": "Parringsflyvindu",
-                "NECTAR": "Nektarflytindeks",
-                "NOTES": "Notater",
-                "PROD": "Produktivitet",
-                "RAIN": "Regn",
-                "TEMP": "Temperatur",
-                "WEIGHT": "Vekt",
-                "WEIGHT_CHANGE": "Vektendring",
-                "WIND": "Vind"
-            },
-            "DRAG": "Dra diagrammet for å legge til på dashbordet",
-            "FAIL": "Feil ved oppdatering av dashbord",
-            "NAME": "Navn",
-            "SUCCESS": "Dashbord oppdatert",
-            "TITLE_CREATE": "Opprett dashbord",
-            "TITLE_EDIT": "Rediger {{name}}",
-            "WARNING": "Det er {{count}} offentlige delte lenker tilknyttet dette dashbordet. Alle endringer du gjør, vil påvirke disse lenkene."
-        },
-        "DELETE": {
-            "CANCEL": "Avbryt",
-            "CONFIRM": "Slett",
-            "FAIL": "Feil ved fjerning av dashbord",
-            "MESSAGE": "Er du sikker på at du vil slette dette dashbordet ({{name}})?",
-            "SUCCESS": "Dashbord fjernet",
-            "TITLE": "Slett {{name}}",
-            "WARNING": "Det er {{count}} offentlige delte lenker tilknyttet dette dashbordet. Å slette vil bryte disse lenkene."
-        },
-        "DUPLICATE": {
-            "CANCEL": "Avbryt",
-            "CONFIRM": "Opprett",
-            "FAIL": "Feil ved opprettelse av dashbord",
-            "MESSAGE": "Ønsker du å opprette en kopi av dette dashbordet ({{name}})?",
-            "NAME_SUFFIX": "kopi",
-            "SUCCESS": "Dashbord opprettet",
-            "TITLE": "Kopier {{name}}"
-        },
-        "DUPLICATE_TOOLTIP": "Dupliser",
-        "HIDE": {
-            "CANCEL": "Avbryt",
-            "CONFIRM": "Skjul",
-            "HIDDEN": "Dashbord skjult",
-            "MESSAGE": "Er du sikker på at du vil skjule dette dashbordet ({{name}})?",
-            "MESSAGE_2": "Du kan angre dette fra konfigurasjonssiden.",
-            "TITLE": "Skjul {{name}}",
-            "VISIBLE": "Dashbord synlig"
-        },
+            "REMOVE_DUPLICATES_BUTTON": "Fjern duplikater",
+            "REMOVE_DUPLICATES_TITLE": "Fjern duplikater"
+        }
+    },
+    "HUB_PAGE": {
+        "TITLE": "{{name}}s nav",
         "NAME": "Navn",
-        "VISIBLE": "Synlig"
-    },
-    "CONFIGURE_DEVICES": {
-        "ACTIVE": "Aktiv",
-        "ADD": "Legg til enhet",
-        "ADD_LOCATION": "Legg til posisjon",
         "ADDRESS": "Enhetsadresse",
-        "BATTERY": "Batteri",
-        "CONFIRM_DELETE_WINDOW": {
-            "CONFIRM": "Ja",
-            "MESSAGE": "Er du sikker på at du vil slette enhet {{deviceName}}? Dette sletter enheten og tilhørende data permanent.",
-            "TITLE": "Slett enhet"
-        },
-        "DATA_RECEIVED": "Data mottatt sist",
-        "DELETE_ERROR": "Feil ved sletting av enhet",
-        "DELETE_SUCCESS": "Enhet slettet",
-        "DOWNLOAD": "Last ned enheter",
-        "FILTER_LOCATION": "Filtrer posisjon",
-        "FILTER_NAME": "Filtrer navn",
-        "LOCATION": "Nåværende posisjon",
-        "LOCATION_HISTORY": "Posisjonshistorikk",
-        "NAME": "Enhetsnavn",
-        "THIRD_PARTY": {
-            "ADD": "Legg til tredjeparts enhet",
-            "ERROR_NO_CREDIT": "Ingen tildelt token, data samles ikke inn",
-            "ERROR_TOKEN_EXPIRED": "Token utløpt, data samles ikke inn",
-            "ERROR_TOKEN_EXPIRED_SOFT": "Token utløpt, data vil slutte å bli samlet inn snart"
-        },
-        "UPDATED_SUCCESS": "Enhet oppdatert"
+        "MODEL": "Modell",
+        "FIRMWARE": "Fastvare",
+        "UPLOAD_TIME": "Siste opplastingstidspunkt",
+        "CHART_TITLE": "Navavlesninger for {{name}}",
+        "READING_COUNT": "Grafiske avlesninger: {{count}}",
+        "CHART_LOADING": "Laster nav-avlesninger",
+        "CHART_READINGS_SENT": "Sendte avlesninger",
+        "CHART_READINGS_LABEL": "avlesninger",
+        "CHART_SIGNAL": "Signal",
+        "DEVICES": {
+            "TITLE": "Opplastede enheter",
+            "DEVICE": "Enhet",
+            "SIGNAL": "Signal",
+            "TIMESTAMP": "Opplastingstidspunkt",
+            "HIVE": "Kube",
+            "POSITION": "Posisjon"
+        }
     },
-    "CONFIGURE_HIVES": {
-        "ACTIVE": "Aktiv",
-        "ADD": "Legg til kube",
-        "APIARY": "Bigård",
-        "APIARY_HISTORY": "Bigårdhistorikk",
-        "CODE": "Kode for kube",
-        "CONFIRM_DELETE_WINDOW": {
-            "CONFIRM": "Ja",
-            "MESSAGE": "Er du sikker på at du vil slette kube {{name}}? Dette sletter kuben permanent.",
-            "TITLE": "Slett kube"
-        },
-        "CONFIRM_INACTIVE_WINDOW": {
-            "COMMENT": "Kommentar",
-            "CONFIRM": "Ja",
-            "MESSAGE": "Dette avslutter alle enhetsposisjoner i kuben og fjerner kuben fra bigårdsvisningene dine. Eksisterende data vil forbli, men ny data vil ikke lenger gå til denne kuben. Dette kan ikke angres. Sett kube {{name}} som inaktiv?",
-            "REASON": "Velg årsak",
-            "REASONS": {
-                "ABSCONDED": "Forsvunnet",
-                "COMBINED": "Kombinert med en annen koloni",
-                "DIED": "Død",
-                "OTHER": "Annet"
-            },
-            "TITLE": "Sett kube som inaktiv"
-        },
-        "DELETE_ERROR": "Feil ved sletting av kube",
-        "DELETE_SUCCESS": "Kube slettet",
-        "LOCATION_HISTORY": "Enhets historikk",
-        "NAME": "Kubenavn",
-        "UPDATED_SUCCESS": "Kube oppdatert"
-    },
-    "CONFIGURE_HUBS": {
-        "APIARY": "Bigård",
-        "BATTERY": "Batteri",
-        "EDIT": "Administrer",
-        "EXP_UNASSIGNED": "Ingen",
-        "EXPIRING": "Tokenstatus",
-        "FILTER": "Filtrer",
-        "HUB": "Hub",
-        "LAST_UPLOAD": "Siste opplasting",
-        "MANAGE": {
-            "ASSIGNMENT_REMOVED": "Token fjernet",
-            "ASSIGNMENT_SUCCESS": "Tildeling oppdatert",
-            "BACK_BUTTON": "Tilbake",
-            "CANCEL": {
-                "CONFIRM": "Dette fjerner tokenet fra abonnementet ditt. Din nye {{frequency}} abonnementspris er {{amount}}. Etter utløpsdatoen ({{expiration}}) vil data fra denne huben ikke lenger bli akseptert av MyBroodMinder. Er du sikker på at du vil avbryte dette tokenet?",
-                "ERROR_1": "Dette er et gratis abonnement, token kan ikke avbrytes",
-                "ERROR_2": "Dette abonnementet er avbrutt, token kan ikke avbrytes",
-                "ERROR_3": "Dette er et gratis token og kan ikke avbrytes",
-                "ERROR_4": "Dette tokenet er ikke auto-fornyet og kan ikke avbrytes",
-                "ERROR_5": "Dette tokenet er allerede avbrutt",
-                "ERROR_6": "Dette tokenet er gratis med ditt abonnement og kan ikke avbrytes. Besøk kontosiden hvis du vil avbryte premiummedlemskapet",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke avbrutt",
-                "OK": "Ja, avbryt dette tokenet",
-                "SUCCESS": "Token avbrutt",
-                "TITLE": "Avbryt token"
-            },
-            "CANCEL_CREDIT": "Fjern token fra auto-fornyelse",
-            "CLOSE": "Ferdig",
-            "PURCHASE": {
-                "AUTO": "Auto-forny",
-                "CHARGED": "Belastet nå",
-                "ERROR_1": "Du må først kjøpe et premium medlemskap. Se alternativer",
-                "ERROR_1_LINK": "her",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke kjøpt",
-                "MONTHS": "Måneder",
-                "MONTHS_SELECT": "måneder",
-                "OK": "Kjøp",
-                "ONCE": "Engang",
-                "QUANTITY": "Antall token",
-                "TITLE": "Kjøp token",
-                "TOTAL": "Oppdatert {{frequency}} medlemskapspris"
-            },
-            "PURCHASE_CREDIT": "Kjøp nytt",
-            "REACTIVATE": {
-                "CONFIRM": "Dette legger det avbrutte tokenet tilbake i abonnementet ditt. Du blir ikke belastet noe nå, siden du allerede har betalt for denne perioden. Din nye {{frequency}} abonnementspris er {{amount}}. Er du sikker på at du vil gjenaktivere dette tokenet?",
-                "ERROR_1": "Dette er et gratis abonnement, token kan ikke gjenaktiveres",
-                "ERROR_2": "Dette abonnementet er avbrutt, token kan ikke gjenaktiveres",
-                "ERROR_3": "Dette er et gratis token og kan ikke gjenaktiveres",
-                "ERROR_4": "Dette tokenet er ikke auto-fornyet og kan ikke gjenaktiveres",
-                "ERROR_5": "Dette tokenet har allerede utløpt og kan ikke gjenaktiveres",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke gjenaktivert",
-                "OK": "Ja, gjenaktiver dette tokenet",
-                "TITLE": "Gjenaktiver token"
-            },
-            "REACTIVATE_CREDIT": "Gjenaktiver token",
-            "REMOVE": {
-                "CONFIRM": "Er du sikker på at du vil fjerne tokenet fra {{item}}?",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke fjernet",
-                "OK": "Ja, fjern dette tokenet",
-                "TITLE": "Fjern token"
-            },
-            "REMOVE_CREDIT": "Fjern token fra {{item}}",
-            "SELECT_APIARY": "Velg bigård",
-            "SELECT_CREDIT": "Velg token",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Dette tokenet kan brukes for mange tredjepartsenheter",
-            "TITLE": "Administrer",
-            "UPDATED_SUCCESS": "Hub oppdatert"
-        },
-        "NAME": "Navn",
-        "SIM": "SIM",
-        "TELECOM": "Telekom",
-        "THIRD_PARTY_DEVICE": "Third Party Device"
+    "WEATHER_PAGE": {
+        "TITLE": "Vær",
+        "DESCRIPTION": "Denne visningen viser Weather Source værdata for bigårdens plassering, sammen med eventuelle brukerinnstilte værkilder",
+        "SOURCES": "Værkilder",
+        "TEMPERATURE": "Temperatur",
+        "HUMIDITY": "Luftfuktighet"
     },
     "CONFIGURE_PAGE": {
-        "ACCOUNT_TITLE": "Min konto",
-        "ALERTS_TITLE": "Varsler",
+        "TITLE": "Konfigurer",
         "APIARIES_TITLE": "Bigårder",
-        "DASHBOARDS_TITLE": "Dashboards",
-        "DEVICES_TITLE": "Enheter",
         "HIVES_TITLE": "Kuber",
+        "DEVICES_TITLE": "Enheter",
         "HUBS_TITLE": "Nav",
         "LINKS_TITLE": "Offentlige lenker",
-        "NESTED": "By Apiary",
-        "PREFERENCES_TITLE": "Mine innstillinger",
-        "SEPARATE": "Etter type",
-        "SUBSCRIPTIONS_TITLE": "Mine abonnementer",
         "THIRD_PARTY_TITLE": "Tredjepartsenheter",
-        "TITLE": "Konfigurer"
+        "SUBSCRIPTIONS_TITLE": "Mine abonnementer",
+        "SUBSCRIPTIONS_MOVED1": "Flyttet til",
+        "SUBSCRIPTIONS_MOVED2": "Kontoside",
+        "DASHBOARDS_TITLE": "Dashboards",
+        "ALERTS_TITLE": "Varsler"
     },
-    "DASHBOARD": {
-        "CHART": {
-            "ALERT_NOTE_TABLE": {
-                "DATE": "Dato",
-                "DELETE_ALERT": {
-                    "CONFIRM": "Slett",
-                    "ERROR": "Feil ved sletting av varsel",
-                    "MESSAGE": "Er du sikker på at du vil slette dette varselet?",
-                    "SUCCESS": "Varsel slettet",
-                    "TITLE": "Slett varsel"
-                },
-                "DESCRIPTION": "Beskrivelse",
-                "NO_DESCR": "Ingen beskrivelse",
-                "TAGS": "Merker"
-            },
-            "ALERTS": {
-                "EDIT": {
-                    "FAIL": "Feil ved oppdatering av varsel",
-                    "SUCCESS": "Varsel oppdatert",
-                    "TITLE": "Rediger varsel"
-                },
-                "ERROR": "Varseldetaljer ikke funnet"
-            },
-            "APIARY_OVERVIEW": {
-                "ALERTS": "Varsler",
-                "FORAGING": "Samleindeks",
-                "MAX_TEMP": "Maks temperatur",
-                "MIN_TEMP": "Min temperatur",
-                "NECTAR": "Nektarindeks",
-                "NOTES": "Notater",
-                "RAIN": "Regn",
-                "WEATHER": "Vær",
-                "WIND": "Vind"
-            },
-            "DOWNLOAD_CHART": "Last ned diagrambilde",
-            "EDIT_CHART": "Rediger diagram",
-            "HIVE_OVERVIEW": {
-                "ALERTS": "Varsler",
-                "BROOD": "Yngel",
-                "DATE": "Dato",
-                "FITNESS": "Fysisk form",
-                "FORAG": "Innhøsting",
-                "FORAG_DESC": "Totalt antall bieturer per dag | Samlet innsamlingsvarighet (timer) | Arbeidsperioder i løpet av dagen",
-                "HISTORY": "Historie",
-                "HISTORY_TOOLTIP": "Historie",
-                "NAME": "Navn",
-                "NOTES": "Notater",
-                "PROD": "Produktivitet",
-                "WEIGHT": "Vekt"
-            },
-            "HIVE_TEXT": {
-                "BATTERY": "Batteri",
-                "BEEDAR": "Biedar",
-                "DATE": "Dato",
-                "GAIN": "Geivinst",
-                "GAIN_S": "Geivinst (siden soloppgang)",
-                "HUMID": "Luftfuktighet",
-                "INITIAL": "Innledende",
-                "LAST_SEEN": "Sist sett",
-                "LATEST": "Nyeste",
-                "LOCATION": "Sted",
-                "NAME": "Navn",
-                "NO_DATA": "Ingen data i tidsområdet",
-                "SUNRISE": "Soloppgang",
-                "TEMP": "Temperatur",
-                "WEIGHT": "Vekt"
-            },
-            "IMAGE": {
-                "ADD": "Legg til bilde",
-                "DROP": "Slipp ditt egendefinerte bilde her",
-                "ERROR_SIZE": "Bilde for stort, 6 MB tillatt",
-                "ERROR_TYPE": "Bilde ikke tillatt, kun jpeg og png",
-                "REMOVE": "Fjern bilde",
-                "SUCCESS": "Fil lastet opp",
-                "UPLOADING": "Laster opp {{value}}%"
-            },
-            "MAP": {
-                "EDIT": "Rediger kart"
-            },
-            "NO_DATA": "Ingen data",
-            "NOTES": {
-                "ADD": "Legg til notat",
-                "ERROR": "Notatdetaljer ikke funnet",
-                "LOADING": "Laster",
-                "MORE": "Last mer",
-                "SHOWING": "Viser",
-                "TITLE": "{{count}} notater"
-            },
-            "ZOOM_CANCEL": "Avbryt zoom",
-            "ZOOM_X": "X-akse zoom",
-            "ZOOM_Y": "Y-akse zoom"
-        },
-        "CONTEXT": {
-            "DELETE_DASH": "Slett dashbord",
-            "DOWNLOAD": {
-                "DAILY_READINGS": "Daglige avlesninger CSV",
-                "DAILY_WEATHER": "Daglig vær CSV",
-                "DOWNLOAD": "Last ned",
-                "HOURLY_READINGS": "Timevise avlesninger CSV",
-                "HOURLY_WEATHER": "Timevist vær CSV",
-                "MENU": "Nedlastingsalternativer",
-                "NOTES": "Notater CSV",
-                "TITLE": "Last ned",
-                "WARNING": "Du trenger premium for kube-CSV-nedlastinger."
-            },
-            "EDIT_DASH": "Rediger dashbord",
-            "EDIT_SHARE_DASH": "Rediger delte lenker",
-            "HIDE_DASH": "Skjul dashbord",
-            "SHARE_DASH": "Del dashbord"
-        }
+    "FEATURES": {
+        "TITLE": "Funksjonstur",
+        "SKIP": "Hopp over",
+        "NEXT": "Neste",
+        "CLOSE": "Lukk",
+        "FEATURE_1": "Første gang, opprett kube",
+        "FEATURE_2": "Viser data",
+        "FEATURE_3": "Konfigurerer og flytter enheter",
+        "FEATURE_4": "Vis CELL/WiFi/Hub-status"
     },
     "DATE_PICKER": {
+        "VIEWING": "Viser",
+        "START": "Start",
+        "END": "Slutt",
         "APPLY": "Bruk",
-        "CUSTOM": "Egendefinert periode",
+        "INVALID_START": "Ugyldig startdato",
+        "INVALID_END": "Ugyldig sluttdato",
+        "HOURS_24": "Siste 24 timer",
         "DAYS_1": "Siste 1 dag",
-        "DAYS_14": "Siste 14 dager",
-        "DAYS_180": "Siste 180 dager",
         "DAYS_3": "Siste 3 dager",
-        "DAYS_30": "Siste 30 dager",
         "DAYS_7": "Siste 7 dager",
+        "DAYS_14": "Siste 14 dager",
+        "DAYS_30": "Siste 30 dager",
         "DAYS_90": "Siste 90 dager",
+        "DAYS_180": "Siste 180 dager",
+        "YEAR_1": "Siste år",
+        "YEAR_2": "Siste 2 år",
+        "MONTHS_13": "Siste 13 måneder",
+        "CUSTOM": "Egendefinert periode",
+        "INFO": "Premium- eller pro-medlemskap kreves for å vise data eldre enn ett år. Du kan få tilgang til eldre data ved å laste ned CSV på enhetsvisning.",
+        "FORECAST": {
+            "SHOW": "Vis 10 dagers prognose",
+            "ON": "Prognose på",
+            "OFF": "Prognose av"
+        },
+        "TODAY": "I dag",
+        "YESTERDAY": "I går",
+        "TOMMOROW": "I morgen",
         "DAYS_SHORT": {
             "0": "Søn",
             "1": "Man",
@@ -1042,21 +460,9 @@
             "5": "Fre",
             "6": "Lør"
         },
-        "END": "Slutt",
-        "FORECAST": {
-            "OFF": "Prognose av",
-            "ON": "Prognose på",
-            "SHOW": "Vis 10 dagers prognose"
-        },
-        "HOURS_24": "Siste 24 timer",
-        "INFO": "Premium- eller pro-medlemskap kreves for å vise data eldre enn ett år. Du kan få tilgang til eldre data ved å laste ned CSV på enhetsvisning.",
-        "INVALID_END": "Ugyldig sluttdato",
-        "INVALID_START": "Ugyldig startdato",
         "MONTHS_SHORT": {
             "0": "Jan",
             "1": "Feb",
-            "10": "Nov",
-            "11": "Des",
             "2": "Mar",
             "3": "Apr",
             "4": "Mai",
@@ -1064,298 +470,985 @@
             "6": "Jul",
             "7": "Aug",
             "8": "Sep",
-            "9": "Okt"
-        },
-        "START": "Start",
-        "TODAY": "I dag",
-        "TOMMOROW": "I morgen",
-        "VIEWING": "Viser",
-        "YEAR_1": "Siste år",
-        "YEAR_2": "Siste 2 år",
-        "YESTERDAY": "I går"
+            "9": "Okt",
+            "10": "Nov",
+            "11": "Des"
+        }
     },
     "DATE_PICKER_SHORT": {
-        "DAYS_1": "1 dag",
-        "DAYS_14": "14 dager",
-        "DAYS_180": "180 dager",
-        "DAYS_3": "3 dager",
-        "DAYS_30": "30 dager",
-        "DAYS_7": "7 dager",
-        "DAYS_90": "90 dager",
         "HOURS_24": "24 timer",
+        "DAYS_1": "1 dag",
+        "DAYS_3": "3 dager",
+        "DAYS_7": "7 dager",
+        "DAYS_14": "14 dager",
+        "DAYS_30": "30 dager",
+        "DAYS_90": "90 dager",
+        "DAYS_180": "180 dager",
         "YEAR_1": "1 år",
-        "YEAR_2": "2 år"
+        "YEAR_2": "2 år",
+        "MONTHS_13": "13 måneder"
+    },
+    "NOTES": {
+        "TITLE": "{{value}} Merknader",
+        "ADD_TOOLTIP": "Legg til merknad",
+        "DOWNLOAD_TOOLTIP": "Last ned notater",
+        "HIVE": "Kube",
+        "DATE": "Dato",
+        "PIN": "Pin",
+        "DESCRIPTION": "Beskrivelse",
+        "DELETE_WINDOW": {
+            "TITLE": "Slett merknad",
+            "MESSAGE": "Vil du slette denne merknaden?",
+            "CONFIRM": "Ja"
+        },
+        "PREMIUM_EXP": "Nedlasting av notater tilgjengelig med premium-abonnement.",
+        "NO_DESCRIPTION": "ingen beskrivelse"
+    },
+    "CHARTS": {
+        "TEMP": "Temperatur",
+        "TEMP_AXIS": "Temperatur i {{tUnit}}",
+        "HUMID": "Fuktighet",
+        "HUMID_AXIS": "Fuktighet %",
+        "NORMAL_HUMIDITY": "Normal fuktighet",
+        "WEIGHT": "Vekt",
+        "WEIGHT_AXIS": "Vekt i {{wUnit}}",
+        "PRODUCTIVITY": "Honningbieproduktivitet",
+        "PRODUCTIVITY_AXIS": "Honningbieproduktivitet i {{wUnit}}",
+        "BATTERY": "Batterilading",
+        "BATTERY_AXIS": "Ladings %",
+        "BALANCE": "L/R-balanse",
+        "WEATHER_TEMP": "Utendørs temperatur",
+        "WEATHER_HUMID": "Utendørs fuktighet",
+        "SWARM_STATE": "SM-tilstand",
+        "SWARM_S": {
+            "TITLE": "T",
+            "GENERIC": "Temperaturhendelse"
+        },
+        "BROOD_ZONE": "Ynglesone",
+        "HUMIDITY_NORMAL": "Normal",
+        "PRESSURE": "Trykk",
+        "WIND_MAX": "Maks vind",
+        "FIRMWARE": "Fastvare"
+    },
+    "LOCATION_HIST": {
+        "HIVE": "Kube",
+        "POSITION": "Posisjon",
+        "DEVICE_NAME": "Enhetsnavn",
+        "DEVICE_ADDRESS": "Enhetsadresse",
+        "START": "Start",
+        "END": "Slutt",
+        "CURRENT": "nåværende",
+        "MOVE": "Flytt",
+        "DELETE_WINDOW": {
+            "TITLE": "Fjern plassering",
+            "MESSAGE": "Vil du fjerne denne enhetsplasseringen?",
+            "CONFIRM": "Ja"
+        }
+    },
+    "LOCATION_CRUD": {
+        "CREATE_TITLE": "Tildel enhet",
+        "EDIT_TITLE": "Rediger plassering",
+        "MOVE_TITLE": "Flytt enhet",
+        "MOVE_EXP": "Dette avslutter gjeldende plassering og starter en ny.",
+        "SELECT_DEVICE": "Velg enhet",
+        "SELECT_APIARY": "Velg bihage",
+        "SELECT_HIVE": "Velg kube",
+        "SELECT_POSITION": "Velg posisjon",
+        "START_DAY": "Startdag",
+        "START_TIME": "Starttid",
+        "STOP_DAY": "Stoppdag",
+        "STOP_TIME": "Sluttid",
+        "MOVED_DAY": "Ny plassering startdag",
+        "MOVED_TIME": "Tid",
+        "ERROR_DEVICE": "Enheten har en plassering som overlapper denne tiden",
+        "ERROR_HIVE": "Kuben har enhet som overlapper denne posisjonen",
+        "ERROR_TIME": "Plassering har sluttid før starttid",
+        "ERROR_GENERAL": "Feil ved oppretting av enhetsplassering",
+        "ERROR_INACTIVE_HIVE": "Plassering kan ikke ha sluttid etter kube inaktiv tid",
+        "ERROR_MOVE_TIME": "Kan ikke avslutte plassering før start, sett tid til etter {{currentEnd}}",
+        "SUCCESS_MOVED": "Enhet flyttet til kube",
+        "SUCCESS_ENDED": "Gjeldende plassering avsluttet",
+        "CREATE": "Opprett",
+        "ADVANCED": {
+            "ADVANCED": "Avansert",
+            "USE_ALL": "Bruk alle avlesninger",
+            "INCLUDE_TEMP": "Inkluder temperatur",
+            "SCALE_FACTOR": "Skaleringsfaktor",
+            "SCALE_FACTOR_REQUIRED": "Vekt skaleringsfaktor verdi påkrevd",
+            "ADMIN_SELECT": "Velg"
+        }
+    },
+    "HIVE_APIARY_LOCATION_HIST": {
+        "APIARY": "Bihage",
+        "START": "Start",
+        "START_OPEN": "åpen",
+        "END": "Slutt",
+        "END_OPEN": "nåværende",
+        "MOVE": "Flytt",
+        "EDIT": {
+            "ADD": "Legg til",
+            "SELECT_APIARY": "Velg bihage",
+            "SUCCESS": "Endringer lagret",
+            "ERROR_INVALID_PREV_OVERLAP": "Ugyldig tid, overlapper forrige bihageplassering",
+            "ERROR_INVALID_NEXT_OVERLAP": "Ugyldig tid, overlapper neste bihageplassering",
+            "ERROR_LOCATION_REQUIRED": "Kuben krever minst én bihage",
+            "ERROR_APIARY_REQUIRED": "Må velge en bihage for alle steder"
+        }
+    },
+    "APIARY_CRUD": {
+        "CREATE_TITLE": "Opprett Bihage",
+        "EDIT_TITLE": "Rediger Bihage",
+        "NAME": "Navn",
+        "COLOR": "Farge",
+        "ZIPCODE": "Postnummer",
+        "EDIT_ZIP_EXP": "Du kan ikke endre plassering for en bikube som inneholder data.",
+        "COUNTRY": "Landkode",
+        "PRIVATE": "Privat (Ikke del data) Premium-funksjon",
+        "PRIVATE_TOOLTIP": "Vennligst vurder å dele dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle tiltak for våre dyrebare honningbier og miljøet vårt.",
+        "NOT_PRIVATE_TOOLTIP": "Takk for at du deler dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle tiltak for våre dyrebare honningbier og miljøet vårt.",
+        "ERROR_COUNTRY": "Velg gyldig landkode",
+        "SUCCESS_CREATED": "Bihage opprettet",
+        "SUCCESS_UPDATED": "Bihage oppdatert",
+        "ZIP_INFO": "Postnummer brukes til værtjenester. For å få mest mulig ut av MyBroodMinder-dataene dine, vennligst skriv inn et gyldig postnummer.",
+        "ZIP_SELECTION": {
+            "NOT_FOUND": "Postnummer ikke funnet",
+            "CHECK": "Sjekk igjen",
+            "SELECT": "Velg plassering på kartet",
+            "SKIP": "Hopp over og opprett",
+            "LOCATION": "Plassering",
+            "CREATE_WITH_LOC": "Opprett med denne plasseringen",
+            "CANCEL": "Avbryt"
+        },
+        "EDIT_LOCATION": {
+            "BUTTON": "Rediger plassering",
+            "COORDINATE": "Koordinat",
+            "TITLE": "Rediger Bihageplassering",
+            "INFO": "Denne plasseringen brukes både for å hente værinformasjon og vise bikuben din på delte nettsteder som BeeCounted.org. Dette deles med dine offentlige domenedata og bør ikke være nøyaktig plassering av bikuben din.",
+            "POSTAL_ERROR": "Koordinatene du har valgt, er utenfor postnummeret til bikuben. Dette kan ikke endres.",
+            "POSTAL_CHANGE": {
+                "TITLE": "Endre postnummer",
+                "TEXT": "Vil du endre bikube til nytt postnummer {{value}}?",
+                "CONFIRM": "Ja"
+            }
+        },
+        "WEATHER": {
+            "TITLE": "Rediger vær",
+            "READING": "Lesing",
+            "START": "Start",
+            "START_OPEN": "åpen",
+            "END": "Slutt",
+            "END_OPEN": "nåværende",
+            "DESCRIPTION": "Velg en enhet eller hub som værkilde for bikuben din for fuktighet og/eller temperatur. Alle tidsintervaller uten en enhet vil som standard bruke værkilden.",
+            "MEASUREMENT": "Måling",
+            "EDIT": {
+                "EDIT_TEMPERATURE": "Rediger temperaturkilde",
+                "EDIT_HUMIDITY": "Rediger fuktighetskilde",
+                "ADD_TEMPERATURE": "Legg til temperaturkilde",
+                "ADD_HUMIDITY": "Legg til fuktighetskilde",
+                "SELECT_DEVICE": "Velg enhet",
+                "ENDING_CURRENT": "Sluttende kilde",
+                "SUCCESS": "Endringer lagret",
+                "ERROR_INVALID_PREV_OVERLAP": "Ugyldig tid, overlapper forrige plassering for bikuben",
+                "ERROR_INVALID_NEXT_OVERLAP": "Ugyldig tid, overlapper neste plassering for bikuben",
+                "ERROR_DEVICE_REQUIRED": "Må velge en enhet for alle værkilder",
+                "ERROR_START_REQUIRED": "Må velge starttid for værkilden"
+            },
+            "DIALOG": {
+                "TITLE": "Rediger vær",
+                "SUCCESS_UPDATED": "Bihagevær oppdatert",
+                "TEMPERATURE": "Temperatur",
+                "HUMIDITY": "Fuktighet",
+                "ADD_TEMPERATURE": "Legg til temperatur",
+                "ADD_HUMIDITY": "Legg til fuktighet"
+            }
+        }
+    },
+    "HIVE_CRUD": {
+        "CREATE_TITLE": "Opprett kube",
+        "EDIT_TITLE": "Rediger kube",
+        "NAME": "Navn",
+        "COLOR": "Farge",
+        "SELECT_APIARY": "Velg bihage",
+        "DESCRIPTION": "Beskrivelse",
+        "ERROR_APIARY": "Må velge bihage",
+        "SUCCESS_CREATED": "Kube opprettet",
+        "SUCCESS_UPDATED": "Kube oppdatert",
+        "DISPLAY": {
+            "DESCRIPTION": "Innstillinger for flervalgsvisning",
+            "WEIGHT": {
+                "DESCRIPTION": "Vektenhet å vise i flervalgsmodus",
+                "AUTO": "Automatisk velg maksimal vekt på vekten",
+                "NONE": "Ikke vis en vektenhet i flervalgsmodus",
+                "ALL": "Vis alle vektenheter i flervalgsmodus"
+            },
+            "TEMP": {
+                "DESCRIPTION": "Temperatur enhet å vise i flervalgsmodus",
+                "AUTO": "Automatisk velg maksimal temperatur",
+                "NONE": "Ikke vis en temperatur-enhet i flervalgsmodus",
+                "ALL": "Vis alle temperatur-enheter i flervalgsmodus"
+            },
+            "HUMID": {
+                "DESCRIPTION": "Fuktighetsenhet å vise i flervalgsmodus",
+                "AUTO": "Automatisk velg maksimal fuktighet",
+                "NONE": "Ikke vis en fuktighetsenhet i flervalgsmodus",
+                "ALL": "Vis alle fuktighetsenheter i flervalgsmodus"
+            },
+            "BATTERY": {
+                "DESCRIPTION": "Batterienhet å vise i flervalgsmodus",
+                "AUTO": "Vis laveste enhetsbatteri i kuben i flervalgsmodus",
+                "NONE": "Ikke vis en batterienhet i flervalgsmodus",
+                "ALL": "Vis alle enheter i flervalgsmodus"
+            }
+        },
+        "MOVE": {
+            "TITLE": "Flytt kube",
+            "EXP": "All data i denne kuben forblir det samme, men dette vil plassere kuben i den valgte bihagen fra denne datoen og fremover. Dette gjenspeiles i værdata og bihagevisninger.",
+            "DAY": "Nytt sted startdag",
+            "TIME": "Tid",
+            "SELECT_APIARY": "Velg bihage",
+            "SUCCESS": "Kube flyttet"
+        }
     },
     "DEVICE_CRUD": {
-        "BIP_AGREE": "Må være enig med BIP",
-        "BIP_SEND": "Send data til Bee Informed Partnership",
-        "BIP_TERMS": "Bruksvilkår",
         "CREATE_TITLE": "Opprett enhet",
         "EDIT_TITLE": "Rediger enhet",
-        "ERROR_ADDRESS": "Vennligst skriv inn gyldig enhetsadresse",
-        "ERROR_BIP": "Må være enig med BIP bruksvilkår for å aktivere sending",
-        "ERROR_DUPLICATE": "Kunne ikke opprette, enhet med den adressen eksisterer allerede",
-        "MODEL": "Modellnummer",
         "NAME": "Navn",
         "NAME_AUTO": "Bruk adressen ovenfor som navn",
-        "PLACE_TITLE": "Plasser enhet",
+        "MODEL": "Modellnummer",
         "SCALE": "Denne enheten er en vekt",
-        "SELECT_POSITION": "Velg posisjon",
+        "BIP_SEND": "Send data til Bee Informed Partnership",
+        "BIP_AGREE": "Må være enig med BIP",
+        "BIP_TERMS": "Bruksvilkår",
+        "ERROR_ADDRESS": "Vennligst skriv inn gyldig enhetsadresse",
+        "ERROR_DUPLICATE": "Kunne ikke opprette, enhet med den adressen eksisterer allerede",
+        "ERROR_BIP": "Må være enig med BIP bruksvilkår for å aktivere sending",
         "SUCCESS_CREATED": "Enhet opprettet",
-        "SUCCESS_PLACED": "Enhet plassert i kuben",
         "SUCCESS_UPDATED": "Enhet oppdatert",
+        "PLACE_TITLE": "Plasser enhet",
+        "SELECT_POSITION": "Velg posisjon",
+        "SUCCESS_PLACED": "Enhet plassert i kuben",
         "THIRD_PARTY": {
+            "TITLE": "Legg til enhet fra tredjepart",
+            "PROVIDER": "Velg leverandør",
+            "YOLINK_EXPLANATION": "Skann QR-koden på YoLink-enheten din for å få 32-sifret SN.",
             "CREDIT_EXPLANATION": "En premium medlemskapstoken er nødvendig for å samle inn data fra enheter fra tredjeparter",
-            "ERROR_GENERAL": "Feil ved tillegg av enhet",
+            "NAME_REQUIRED": "Navn påkrevd",
+            "YOLINK_SN_REQUIRED": "YoLink SN påkrevd",
             "ERROR_YOLINK_NOT_FOUND": "YoLink-enheten ble ikke funnet, sjekk at du har riktig serienummer (SN)",
             "ERROR_YOLINK_OTHER_USER": "YoLink-enheten er allerede registrert med en annen konto",
-            "NAME_REQUIRED": "Navn påkrevd",
-            "PROVIDER": "Velg leverandør",
-            "TITLE": "Legg til enhet fra tredjepart",
-            "YOLINK_EXPLANATION": "Skann QR-koden på YoLink-enheten din for å få 32-sifret SN.",
-            "YOLINK_SN_REQUIRED": "YoLink SN påkrevd"
+            "ERROR_GENERAL": "Feil ved tillegg av enhet"
         }
     },
-    "DEVICE_PAGE": {
-        "CHART_TITLE": "Enhetsoppsummering for {{name}}",
-        "DATA_TOOLTIP": {
-            "BUILDING": "Vis bygging",
-            "OK": "Vis oppdatert",
-            "UPDATE": "Vis trenger oppdatering"
+    "NOTE_CRUD": {
+        "CREATE_TITLE": "Opprett merknad",
+        "EDIT_TITLE": "Rediger merknad",
+        "NO_HIVE": "Ingen kube",
+        "ADD_TAG": "Legg til tagg",
+        "DATE": "Dato",
+        "SUCCESS_CREATED": "Merknad opprettet i kube",
+        "SUCCESS_UPDATED": "Merknad oppdatert i kube",
+        "ERROR_TIME": "Ugyldig tid",
+        "APIARY": {
+            "STATE": "Generell tilstand"
+        }
+    },
+    "HUB_CRUD": {
+        "CREATE_TITLE": "Opprett hub",
+        "EDIT_TITLE": "Rediger hub",
+        "NAME": "Navn",
+        "NAME_AUTO": "Bruk adressen over som navn",
+        "MODEL": "Modellnummer",
+        "ERROR_ADDRESS": "Vennligst oppgi gyldig hub-adresse",
+        "ERROR_DUPLICATE": "Kunne ikke opprette, hub med den adressen eksisterer allerede",
+        "SUCCESS_CREATED": "Hub opprettet",
+        "SUCCESS_UPDATED": "Hub oppdatert",
+        "USERID": "Bruker-ID",
+        "SIM": {
+            "TITLE": "Legg til sim",
+            "ID": "Sim ID",
+            "TELECOM": "Telekom"
+        }
+    },
+    "SHARE_LINK_CRUD": {
+        "CREATE_TITLE": "Opprett offentlig lenke",
+        "CREATE_SUBTITLE_1": "Vi vil opprette en lenke som du kan dele med venner eller lime inn i andre applikasjoner som Facebook.",
+        "CREATE_SUBTITLE_2": "Folk kan se dataene uten innlogging, men de kan ikke endre det eller se data utenfor tidsområdet.",
+        "EDIT_TITLE": "Rediger offentlig lenke",
+        "CREATE_SUCCESS_TITLE": "Offentlig lenke opprettet!",
+        "EDIT_SUCCESS_TITLE": "Offentlig lenke oppdatert!",
+        "TIME_ZOOM": "Del gjeldende visning {{start}} til {{end}}",
+        "TIME_SET": "Del data fra {{start}} til {{end}}",
+        "TIME_RANGE": "(glidende rekkevidde)",
+        "DESCRIPTION": "Beskrivelse",
+        "NOTES": "Inkluder notater",
+        "UPDATE": "Oppdater",
+        "CREATE": "Del",
+        "DELETE": "Slett",
+        "SUCCESS_CREATED": "Lenke opprettet",
+        "SUCCESS_DELETED": "Lenke slettet",
+        "SUCCESS_UPDATED": "Lenke oppdatert",
+        "ERROR": "Feil ved opprettelse av lenke",
+        "DELETE_WINDOW": {
+            "TITLE": "Slett offentlig lenke",
+            "MESSAGE": "Ønsker du å slette denne offentlige lenken? Denne handlingen kan ikke angres.",
+            "CONFIRM": "Slett"
         },
-        "DOWNLOAD": "Last ned CSV-data",
-        "DOWNLOAD_HIST": "Last ned full historie",
-        "DOWNLOAD_VIEW": "Last ned vist tidsperiode",
-        "EDITOR": {
-            "BALANCE": "L/R-balanse",
-            "BATTERY": "Batteri",
-            "BUTTON_NONE": "Velg avlesninger som skal fjernes i tabellen nedenfor",
-            "BUTTON_SELECTED": "Fjern valgte",
-            "CONFIRM_WINDOW": {
-                "CONFIRM": "Ja",
-                "MESSAGE": "Vil du fjerne valgte {{count}} avlesninger?",
-                "TITLE": "Fjern valgte avlesninger"
-            },
-            "DESCRIPTION": "Zoom inn diagrammet eller klikk på punkt for å filtrere avlesningene nedenfor.",
-            "DISMISS": "Avvise",
-            "EPOCH": "Epoch",
-            "FAIL": "Feil, avlesninger ble ikke fjernet",
-            "HUMID": "Fuktig",
-            "NONE": "Ingen avlesninger for denne tidsperioden",
-            "OUTLIERS": {
-                "BUTTON_NONE": "Velg avlesninger som skal legges tilbake som normale sensoravlesninger",
-                "BUTTON_SELECTED": "Flytt tilbake valgte",
-                "CONFIRM_WINDOW": {
-                    "CONFIRM": "Ja",
-                    "MESSAGE": "Vil du legge tilbake valgte {{count}} avlesninger som normale sensoravlesninger?",
-                    "TITLE": "Flytt valgte avlesninger"
-                },
-                "FAIL": "Feil, avlesninger ble ikke flyttet",
-                "MESSAGE": "Melding",
-                "MOVE": "Flytt tilbake",
-                "NONE": "Ingen fjernede avlesninger for denne tidsperioden",
-                "SUCCESS": "Avlesninger flyttet",
-                "SYSTEM_R": "System fjernet",
-                "TITLE": "Avlesninger merket som avvik",
-                "USER_R": "Bruker fjernet"
-            },
-            "REMOVE": "Fjern",
-            "REMOVE_DUPLICATES_BUTTON": "Fjern duplikater",
-            "REMOVE_DUPLICATES_TITLE": "Fjern duplikater",
-            "RSSI": "Rssi",
-            "SAMPLE": "Prøve",
-            "SAMPLE_STATE": "SM-tilstand",
-            "SOURCE": "Kilde",
-            "SUCCESS": "Avlesninger fjernet",
-            "TEMP": "Temp",
-            "TIMESTAMP": "Tidsstempel",
-            "TITLE": "Dataredigerer",
-            "WEIGHT": "Vekt",
-            "WEIGHT_L": "Vekt venstre",
-            "WEIGHT_L_R": "Vekt venstre rå",
-            "WEIGHT_R": "Vekt høyre",
-            "WEIGHT_R_R": "Vekt høyre rå",
-            "WEIGHT_SF": "Vektskala faktor"
+        "HISTORY": {
+            "TITLE": "Offentlige lenker for {{hiveName}}",
+            "LINK": "Lenke",
+            "CREATED": "Opprettet"
         },
-        "LOADING": "Laster avlesninger fra enhetssensor",
-        "LOCATION_ADD": "Legg til sted",
-        "LOCATION_HISTORY": "Enhetsplasseringshistorie",
-        "LOCATION_PIN_END": "E",
-        "LOCATION_PIN_START": "S",
-        "OUTLIER_HIDE": "Skjul dataredigerer",
-        "OUTLIER_SHOW": "Vis dataredigerer",
-        "TITLE": "Enhetsdata - {{name}}"
+        "DASHBOARD": "Instrumentbord",
+        "HIVES": "Bikuber",
+        "WEATHER": "Vær",
+        "FORECAST": "Inkluder varsel",
+        "UNITS": {
+            "TITLE": "Enheter",
+            "BROWSER": "Nettleserstandard",
+            "METRIC": "Metrisk",
+            "IMPERIAL": "Imperial"
+        },
+        "TIMEZONE": {
+            "TITLE": "Tidssone",
+            "BROWSER": "Nettleserstandard"
+        }
+    },
+    "SHARE_BUTTON": {
+        "BUTTON": "Del",
+        "EDIT": "Rediger delte lenker",
+        "SHARE_HIVE": "Del denne bikuben"
     },
     "DUPLICATE_CLEANUP": {
-        "CLOSE": "Lukk",
+        "TITLE": "Rydd opp duplikatavlesninger",
         "CREATE_SUBTITLE_1": "Dette vil fjerne duplikater (fra flere kilder) og rydde opp data for denne enheten.",
-        "GROUPS": {
-            "CREATED": "Opprettet",
-            "FROM": "Fra",
-            "ID": "ID",
-            "REMOVED": "Fjernede avlesninger",
-            "ROLLBACK": "Rull tilbake",
-            "ROLLBACK_DIALOG": {
-                "CONFIRM": "Ja",
-                "MESSAGE": "Vil du rulle tilbake denne oppryddingen av duplikater?",
-                "TITLE": "Rull tilbake duplikatopprydding"
-            },
-            "STATUS": "Status",
-            "STATUS_COMPLETE": "fullført",
-            "STATUS_ROLLED": "rullet tilbake",
-            "STATUS_ROLLING": "ruller tilbake",
-            "STATUS_RUNNING": "kjører",
-            "TITLE": "Rydding grupper",
-            "TO": "Til",
-            "TOTAL": "Totalt antall avlesninger"
-        },
+        "TIME_ZOOM": "Fjern duplikater for gjeldende visning {{start}} til {{end}}",
+        "TIME_SET": "Fjern duplikater fra {{start}} til {{end}}",
         "NOTES": "Notater (valgfritt)",
-        "REMOVED": "Fjernet",
         "RUN_CLEANUP": "Kjør opprydding",
         "RUNNING": "Kjører opprydding",
-        "TIME_SET": "Fjern duplikater fra {{start}} til {{end}}",
-        "TIME_ZOOM": "Fjern duplikater for gjeldende visning {{start}} til {{end}}",
-        "TITLE": "Rydd opp duplikatavlesninger",
-        "TOTAL": "Totalt"
+        "TOTAL": "Totalt",
+        "REMOVED": "Fjernet",
+        "CLOSE": "Lukk",
+        "GROUPS": {
+            "TITLE": "Rydding grupper",
+            "CREATED": "Opprettet",
+            "ID": "ID",
+            "FROM": "Fra",
+            "TO": "Til",
+            "TOTAL": "Totalt antall avlesninger",
+            "REMOVED": "Fjernede avlesninger",
+            "STATUS": "Status",
+            "ROLLBACK": "Rull tilbake",
+            "STATUS_RUNNING": "kjører",
+            "STATUS_ROLLING": "ruller tilbake",
+            "STATUS_ROLLED": "rullet tilbake",
+            "STATUS_COMPLETE": "fullført",
+            "ROLLBACK_DIALOG": {
+                "TITLE": "Rull tilbake duplikatopprydding",
+                "MESSAGE": "Vil du rulle tilbake denne oppryddingen av duplikater?",
+                "CONFIRM": "Ja"
+            }
+        }
+    },
+    "ACCOUNT": {
+        "TITLE": "Min konto",
+        "DETAILS": "Brukerdetaljer",
+        "SETTINGS": "Regionale innstillinger",
+        "EMAIL": "E-post",
+        "FIRST_NAME": "Fornavn",
+        "LAST_NAME": "Etternavn",
+        "MEMBERSHIP": "Medlemskap",
+        "EDIT_EMAIL": {
+            "BUTTON": "Endre konto-e-post",
+            "TITLE": "Endre konto-e-post",
+            "ERROR": "Feil oppstod. E-posten ble ikke endret.",
+            "REFRESH_ERROR": "Endring av konto-e-post krever nylig autentisering. Logg inn igjen før du prøver denne endringen på nytt.",
+            "CURRENT_EMAIL": "Nåværende e-post",
+            "NEW_EMAIL": "Ny e-post",
+            "SAVE_BUTTON": "Lagre e-post"
+        },
+        "EDIT_PASSWORD": {
+            "HEADER": "Passord",
+            "BUTTON": "Endre passord",
+            "TITLE": "Endre passord",
+            "ERROR": "Feil oppstod. Passordet ble ikke endret.",
+            "CURRENT_PASSWORD": "Nåværende passord",
+            "NEW_PASSWORD": "Nytt passord",
+            "SAVE_BUTTON": "Lagre endring"
+        },
+        "DELETE": {
+            "SHOW": "Vis alternativer",
+            "HIDE": "Skjul alternativer",
+            "DELETE_BUTTON": "Slett konto",
+            "WARNING": "Du er i ferd med å slette kontoen din. Dette sletter all data, inkludert det som er spesifisert nedenfor. Bekreft denne forespørselen for å slette kontoen din.",
+            "HEADERS": {
+                "REQUESTED": "Sletting forespurt",
+                "DEVICES": "Enheter",
+                "HIVES": "Bikuber",
+                "APIARIES": "Bikuber",
+                "HUBS": "Huber",
+                "SUBS_TO_CANCEL": "Abonnementer å avbryte",
+                "STARTED": "Startet",
+                "ACCOUNT": "Konto",
+                "COMPLETED": "Fullført"
+            },
+            "CONFIRM_BUTTON_1": "Bekreft sletting",
+            "STATUS": "Status for sletting av kontoen",
+            "DELETE_REDIRECT": "Konto slettet, du vil bli omdirigert om {{seconds}} sekunder",
+            "CONFIRM_DIALOG": {
+                "TITLE": "Bekreft sletting",
+                "MESSAGE": "Sletting av kontoen sletter ALL DATA og KAN IKKE gjenopprettes. Er du sikker på at du vil slette kontoen din?",
+                "CONFIRM": "SLETT KONTO",
+                "EMAIL_ERROR": "Denne e-posten samsvarer ikke med kontoen din."
+            },
+            "REQUEST_ERROR": "Feil, forespørselen kunne ikke gjennomføres.",
+            "DELETE_ERROR": "Det oppstod en feil under sletting av kontoen din. Vennligst kontakt support@broodminder.com for å fullføre slettingen av kontoen. (Referanse-ID:{{id}})"
+        },
+        "TIER_SUB": {
+            "SUMMARY": {
+                "FREE": "Gratis medlemskap",
+                "COMP": "Gratis medlemskap",
+                "PAID": "Medlemskapssubskripsjon",
+                "ALLOWED": "{{count}} kuber tillatt"
+            },
+            "PAID": {
+                "TITLE": "Medlemskapssubskripsjon",
+                "PURCHASE": "Kjøp medlemskap",
+                "ALLOWED": "For øyeblikket tillatt med {{count}} kuber",
+                "NEXT": "Neste fornyelse ({{date}}), tillatt med {{count}} kuber",
+                "CANCELED": "Avbrutt - Utløper {{date}}",
+                "CANCELED_PAST": "Avbrutt - Utløpt {{date}}"
+            },
+            "COMP": {
+                "TITLE": "Gratis Medlemskap",
+                "ALLOWED": "Kuber Tillatt",
+                "END": "Sluttdato",
+                "EXPIRED": "utløpt"
+            }
+        }
+    },
+    "PREFERENCES": {
+        "TIMEZONE": "Tidssone",
+        "TIMEZONE_DEFAULT": "Nettleserstandard",
+        "UNIT": "Enhet",
+        "UNIT_DEFAULT": "Standard",
+        "UNIT_METRIC": "Metrisk (Celsius/Kilogram)",
+        "UNIT_IMPERIAL": "Imperial (Fahrenheit/Pounds)",
+        "INTERPOLATE": "Interpoler diagrammer (koble alle punkter, selv om det er datagap over 8 timer)",
+        "ALERTS_EMAIL": "Varsler via e-post [BETA]",
+        "LANGUAGE": "Språk",
+        "LANGUAGE_DEFAULT": "Nettleserstandard",
+        "SAVE": "Lagre"
+    },
+    "CONFIGURE_APIARIES": {
+        "ADD": "Legg til bigård",
+        "NAME": "Bigårdsnavn",
+        "ZIPCODE": "Postnummer",
+        "SHARE": "Del",
+        "ACTIVE": "Aktiv",
+        "SHOW_INACTIVE": "Vis inaktive",
+        "CONFIRM_DELETE_WINDOW": {
+            "TITLE": "Slett bigård",
+            "MESSAGE": "Er du sikker på at du vil slette bigård {{name}}? Dette sletter bigården permanent.",
+            "CONFIRM": "Ja"
+        },
+        "CANNOT_DELETE_WINDOW": {
+            "TITLE": "Kan ikke slette bigård",
+            "MESSAGE": "Denne bigården inneholder følgende kuber: {{hives}} Du kan ikke slette denne bigården før du sletter eller flytter disse kubeene."
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "TITLE": "Sett bigård som inaktiv",
+            "MESSAGE": "Dette setter alle kubene i denne bigården som inaktive, avslutter alle enhetsposisjoner i hver kube, og fjerner bigården fra visningene dine. Eksisterende data vil forbli, men ny data vil ikke lenger gå til denne bigården eller dens kuber. Dette kan ikke angres. Sett bigården {{name}} som inaktiv?",
+            "CONFIRM": "Ja"
+        },
+        "UPDATED_SUCCESS": "Bigård oppdatert",
+        "DELETE_SUCCESS": "Bigård slettet",
+        "DELETE_ERROR": "Feil ved sletting av bigård"
+    },
+    "CONFIGURE_HIVES": {
+        "ADD": "Legg til kube",
+        "NAME": "Kubenavn",
+        "CODE": "Kode for kube",
+        "APIARY": "Bigård",
+        "LOCATION_HISTORY": "Enhets historikk",
+        "APIARY_HISTORY": "Bigårdhistorikk",
+        "ACTIVE": "Aktiv",
+        "CONFIRM_DELETE_WINDOW": {
+            "TITLE": "Slett kube",
+            "MESSAGE": "Er du sikker på at du vil slette kube {{name}}? Dette sletter kuben permanent.",
+            "CONFIRM": "Ja"
+        },
+        "CONFIRM_INACTIVE_WINDOW": {
+            "TITLE": "Sett kube som inaktiv",
+            "MESSAGE": "Dette avslutter alle enhetsposisjoner i kuben og fjerner kuben fra bigårdsvisningene dine. Eksisterende data vil forbli, men ny data vil ikke lenger gå til denne kuben. Dette kan ikke angres. Sett kube {{name}} som inaktiv?",
+            "CONFIRM": "Ja",
+            "REASON": "Velg årsak",
+            "REASONS": {
+                "OTHER": "Annet",
+                "DIED": "Død",
+                "ABSCONDED": "Forsvunnet",
+                "COMBINED": "Kombinert med en annen koloni"
+            },
+            "COMMENT": "Kommentar"
+        },
+        "UPDATED_SUCCESS": "Kube oppdatert",
+        "DELETE_SUCCESS": "Kube slettet",
+        "DELETE_ERROR": "Feil ved sletting av kube"
+    },
+    "CONFIGURE_HUBS": {
+        "FILTER": "Filtrer",
+        "BATTERY": "Batteri",
+        "NAME": "Navn",
+        "APIARY": "Bigård",
+        "LAST_UPLOAD": "Siste opplasting",
+        "TELECOM": "Telekom",
+        "SIM": "SIM",
+        "EXPIRING": "Tokenstatus",
+        "HUB": "Hub",
+        "EXP_UNASSIGNED": "Ingen",
+        "EDIT": "Administrer",
+        "THIRD_PARTY_DEVICE": "Third Party Device",
+        "MANAGE": {
+            "TITLE": "Administrer",
+            "CLOSE": "Ferdig",
+            "SELECT_APIARY": "Velg bigård",
+            "REMOVE_CREDIT": "Fjern token fra {{item}}",
+            "CANCEL_CREDIT": "Fjern token fra auto-fornyelse",
+            "REACTIVATE_CREDIT": "Gjenaktiver token",
+            "SELECT_CREDIT": "Velg token",
+            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Dette tokenet kan brukes for mange tredjepartsenheter",
+            "PURCHASE_CREDIT": "Kjøp nytt",
+            "UPDATED_SUCCESS": "Hub oppdatert",
+            "ASSIGNMENT_SUCCESS": "Tildeling oppdatert",
+            "ASSIGNMENT_REMOVED": "Token fjernet",
+            "BACK_BUTTON": "Tilbake",
+            "REMOVE": {
+                "TITLE": "Fjern token",
+                "CONFIRM": "Er du sikker på at du vil fjerne tokenet fra {{item}}?",
+                "OK": "Ja, fjern dette tokenet",
+                "GENERAL_ERROR": "Feil oppstod. Token ikke fjernet"
+            },
+            "CANCEL": {
+                "TITLE": "Avbryt token",
+                "CONFIRM": "Dette fjerner tokenet fra abonnementet ditt. Din nye {{frequency}} abonnementspris er {{amount}}. Etter utløpsdatoen ({{expiration}}) vil data fra denne huben ikke lenger bli akseptert av MyBroodMinder. Er du sikker på at du vil avbryte dette tokenet?",
+                "OK": "Ja, avbryt dette tokenet",
+                "ERROR_1": "Dette er et gratis abonnement, token kan ikke avbrytes",
+                "ERROR_2": "Dette abonnementet er avbrutt, token kan ikke avbrytes",
+                "ERROR_3": "Dette er et gratis token og kan ikke avbrytes",
+                "ERROR_4": "Dette tokenet er ikke auto-fornyet og kan ikke avbrytes",
+                "ERROR_5": "Dette tokenet er allerede avbrutt",
+                "ERROR_6": "Dette tokenet er gratis med ditt abonnement og kan ikke avbrytes. Besøk kontosiden hvis du vil avbryte premiummedlemskapet",
+                "GENERAL_ERROR": "Feil oppstod. Token ikke avbrutt",
+                "SUCCESS": "Token avbrutt"
+            },
+            "REACTIVATE": {
+                "TITLE": "Gjenaktiver token",
+                "CONFIRM": "Dette legger det avbrutte tokenet tilbake i abonnementet ditt. Du blir ikke belastet noe nå, siden du allerede har betalt for denne perioden. Din nye {{frequency}} abonnementspris er {{amount}}. Er du sikker på at du vil gjenaktivere dette tokenet?",
+                "OK": "Ja, gjenaktiver dette tokenet",
+                "ERROR_1": "Dette er et gratis abonnement, token kan ikke gjenaktiveres",
+                "ERROR_2": "Dette abonnementet er avbrutt, token kan ikke gjenaktiveres",
+                "ERROR_3": "Dette er et gratis token og kan ikke gjenaktiveres",
+                "ERROR_4": "Dette tokenet er ikke auto-fornyet og kan ikke gjenaktiveres",
+                "ERROR_5": "Dette tokenet har allerede utløpt og kan ikke gjenaktiveres",
+                "GENERAL_ERROR": "Feil oppstod. Token ikke gjenaktivert"
+            },
+            "PURCHASE": {
+                "TITLE": "Kjøp token",
+                "AUTO": "Auto-forny",
+                "ONCE": "Engang",
+                "QUANTITY": "Antall token",
+                "MONTHS": "Måneder",
+                "MONTHS_SELECT": "måneder",
+                "OK": "Kjøp",
+                "ERROR_1": "Du må først kjøpe et premium medlemskap. Se alternativer",
+                "ERROR_1_LINK": "her",
+                "CHARGED": "Belastet nå",
+                "TOTAL": "Oppdatert {{frequency}} medlemskapspris",
+                "GENERAL_ERROR": "Feil oppstod. Token ikke kjøpt"
+            }
+        }
+    },
+    "CONFIGURE_DEVICES": {
+        "ADD": "Legg til enhet",
+        "FILTER_LOCATION": "Filtrer posisjon",
+        "FILTER_NAME": "Filtrer navn",
+        "DOWNLOAD": "Last ned enheter",
+        "NAME": "Enhetsnavn",
+        "ADDRESS": "Enhetsadresse",
+        "LOCATION": "Nåværende posisjon",
+        "DATA_RECEIVED": "Data mottatt sist",
+        "LOCATION_HISTORY": "Posisjonshistorikk",
+        "BATTERY": "Batteri",
+        "ADD_LOCATION": "Legg til posisjon",
+        "ACTIVE": "Aktiv",
+        "CONFIRM_DELETE_WINDOW": {
+            "TITLE": "Slett enhet",
+            "MESSAGE": "Er du sikker på at du vil slette enhet {{deviceName}}? Dette sletter enheten og tilhørende data permanent.",
+            "CONFIRM": "Ja"
+        },
+        "UPDATED_SUCCESS": "Enhet oppdatert",
+        "DELETE_SUCCESS": "Enhet slettet",
+        "DELETE_ERROR": "Feil ved sletting av enhet",
+        "THIRD_PARTY": {
+            "ADD": "Legg til tredjeparts enhet",
+            "ERROR_NO_CREDIT": "Ingen tildelt token, data samles ikke inn",
+            "ERROR_TOKEN_EXPIRED_SOFT": "Token utløpt, data vil slutte å bli samlet inn snart",
+            "ERROR_TOKEN_EXPIRED": "Token utløpt, data samles ikke inn"
+        }
+    },
+    "UNAUTHORIZED_PAGE": {
+        "TITLE": "Uautorisert"
+    },
+    "COMMON": {
+        "SAVE": "Lagre",
+        "CREATE": "Opprett",
+        "EDIT": "Rediger",
+        "DELETE": "Slett",
+        "CANCEL": "Avbryt",
+        "DISMISS": "Avvis",
+        "APIARY": "Bigård",
+        "HIVE": "Kube",
+        "DEVICE": "Enhet",
+        "POSITION": "Posisjon"
+    },
+    "BEECOUNTED": {
+        "TITLE": "BeeCounted.org",
+        "LINK": "Vis kube på BeeCounted.org",
+        "COPY_LINK_TOOLTIP": "Kopier lenke",
+        "LINK_COPIED": "Lenke kopiert",
+        "EMBED": "Bygg inn diagram på nettsiden",
+        "COPY_EMBED_TOOLTIP": "Kopier innbyggingskode",
+        "EMBED_COPIED": "Innbyggingskode kopiert",
+        "PRIVATE_APIARY": "Kubedata deles ikke med BeeCounted. Denne kuben, {{name}}, deles ikke med BeeCounted.",
+        "PRIVATE_HIVE": "Kubedata deles ikke med BeeCounted."
+    },
+    "SHARING": {
+        "TITLE": "{{name}} Deling",
+        "MBM_TITLE": "Del apiary til MyBroodMinder-bruker",
+        "EXT_SUBTITLE": "Del apiary til andre nettsteder",
+        "USER": {
+            "TITLE": "MyBroodMinder-brukere",
+            "INFO": "Brukeren må allerede ha en konto hos MyBroodMinder. De vil få lov til å se apiary- og kube-dataene dine, men ikke gjøre noen endringer.",
+            "ADD_TOOLTIP": "Legg til bruker",
+            "ADD_USER": "Skriv inn e-post",
+            "SHARE_BUTTON": "Del",
+            "ADD_SUCCESS": "Bruker lagt til",
+            "ERROR_NO_USER": "Brukeren eksisterer ikke.",
+            "REMOVE": "Fjern",
+            "REMOVE_SUCCESS": "Bruker fjernet"
+        },
+        "BEECOUNTED": {
+            "CHECKBOX": "BeeCounted.org",
+            "CHANGED": "Apiary oppdatert",
+            "INFO_CHECKED": "Takk for at du deler dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle intervensjoner for våre verdifulle honningbier og miljøet vårt.",
+            "INFO_UNCHECKED": "Vennligst vurder å dele dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle intervensjoner for våre verdifulle honningbier og miljøet vårt.",
+            "INFO_NON_PREMIUM": "Alle data som lagres for ikke-premiumbrukere, er offentlig eiendom. Data kan gjøres private hvis du har en MyBroodMinder Premium-konto. Takk for at du deler dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle intervensjoner for våre verdifulle honningbier og miljøet vårt.",
+            "EXPIRED": "Premium-medlemskapet er utløpt. Data er private bare før {{end}}."
+        },
+        "BIP": {
+            "CHECKBOX": "Bee Informed Partnership",
+            "CHANGED": "Apiary oppdatert",
+            "INFO": "Kommer snart"
+        },
+        "PH": {
+            "CHECKBOX": "Bee-life.eu",
+            "CHANGED": "Apiary oppdatert",
+            "INFO": "Del sensordataene dine med Bee Life Association gjennom European Union Pollinator Hub for å forbedre pollinatorpolitikken ved å dra nytte av avansert teknologi og datadrevne innsikter samlet inn av birøktere.\n\nData som deles:\n- alle enheter i denne apiary med råmålinger.\n- en grov plassering av apiary basert på postnummer.\n\nData sendes daglig til BeeLife.",
+            "EXTERNAL_INFO": "Lær mer"
+        },
+        "MELLISPHERA": {
+            "CHECKBOX": "Mellisphera (Beta)",
+            "INFO_NO_ACCOUNT": "Konto ikke tilknyttet Mellisphera",
+            "INFO_ACCOUNT": "Vis apiary i min Mellisphera-konto",
+            "CHANGED": "Apiary oppdatert",
+            "ACTIVE_WINDOW": {
+                "TITLE": "Aktiver Mellisphera-konto",
+                "MESSAGE": "Klikk nedenfor for å aktivere Mellisphera-kontoen din."
+            }
+        },
+        "HIVES": {
+            "TITLE": "Kuber delt til andre nettsteder",
+            "NAME": "Navn",
+            "DESCRIPTION": "Beskrivelse",
+            "SHARE": "Del",
+            "CHANGED": "Kube oppdatert",
+            "SHARE_EXPIRED": "Premium-medlemskapet er utløpt. Data er private bare før {{end}}."
+        },
+        "REMOVE_SELF": {
+            "TITLE": "Fjern delt apiary",
+            "MESSAGE": "Vil du fjerne den delte apiaryen {{name}} fra kontoen din?",
+            "CONFIRM": "Fjern Apiary",
+            "SUCCESS_REMOVED": "Apiary fjernet",
+            "GENERIC_ERROR": "Feil, apiary ikke fjernet"
+        }
+    },
+    "POSITIONS": {
+        "UNDER_INNER_COVER": "Under indre deksel",
+        "ABOVE_LOWER_BROOD_BOX": "Over nedre yngelkasse",
+        "ABOVE_UPPER_BROOD_BOX": "Over øvre yngelkasse",
+        "OUTSIDE_HIVE": "Utenfor kube",
+        "SCALE_UNDER_HIVE": "Skala under kube",
+        "SCALE_UNDER_HIVE_BACK": "Skala under kube (bak)",
+        "OTHER": "Annet",
+        "CUSTOM_1": "Tilpasset (1)",
+        "CUSTOM_2": "Tilpasset (2)",
+        "CUSTOM_3": "Tilpasset (3)",
+        "CUSTOM_4": "Tilpasset (4)",
+        "CUSTOM_5": "Tilpasset (5)",
+        "CUSTOM_6": "Tilpasset (6)",
+        "CUSTOM_7": "Tilpasset (7)"
+    },
+    "RESEARCH_DOWNLOAD": {
+        "H_NAME": "NAVN",
+        "A_NAME": "NAVN",
+        "LAST_DATA": "Siste data",
+        "DOWNLOAD_STATUS": "Nedlastingsstatus",
+        "HIVE_DOWNLOAD_BUTTON": "Last ned",
+        "APIARY_DOWNLOAD_BUTTON": "Last ned full apiary"
+    },
+    "SUBS": {
+        "EXP": {
+            "TRIAL": "Prøvemedlemskap, utløper {{expiration}}",
+            "NOT_ACTIVE": "Ikke aktiv",
+            "SUB_CANCELLED": "Ikke-fornyende, utløper {{expiration}}",
+            "SUB_RENEWING": "Fornyes {{expiration}}",
+            "SUB_EXPIRED": "Utløpt {{expiration}}",
+            "SUB_EXPIRING": "Utløper {{expiration}}",
+            "CREDIT_CANCELLED": "Ikke-fornyende, utløper {{expiration}}",
+            "CREDIT_FREE_RENEWING": "Gratis, utløper {{expiration}}",
+            "CREDIT_PREPAID_RENEWING": "Forhåndsbetalt, utløper {{expiration}}",
+            "CREDIT_EXPIRED": "Utløpt {{expiration}}",
+            "CREDIT_EXPIRING": "Utløper {{expiration}}",
+            "PENDING": "Betaling pågår"
+        },
+        "COMMON": {
+            "MONTHLY": "månedlig",
+            "YEARLY": "årlig",
+            "FREE": "gratis",
+            "PREPAID": "forhåndsbetalt",
+            "MONTHLY_CAP": "Månedlig",
+            "YEARLY_CAP": "Årlig",
+            "FREE_CAP": "Gratis",
+            "PREPAID_CAP": "Forhåndsbetalt"
+        }
+    },
+    "MEMBERSHIP": {
+        "TITLE": "MyBroodMinder Premium",
+        "PREMIUM": "PREMIUM",
+        "PREMIUM_PRICE": "Priset per kube",
+        "FREE": "GRATIS",
+        "FREE_PRICE": "GRATIS",
+        "SECTION1": "Feltsikre sensorer",
+        "SEC1_ITEM1": "BroodMinder-T2 temperatur",
+        "SEC1_ITEM2": "BroodMinder-TH2 temperatur/fuktighet",
+        "SEC1_ITEM3": "BroodMinder-W & W3 vekter",
+        "SEC1_ITEM4": "BroodMinder-BeeDar inngang og kolloniaktivitet",
+        "SEC1_ITEM5": "BroodMinder-T91 vær",
+        "SEC1_ITEM6": "Sensorbatteriets levetid på 5 år",
+        "SEC1_ITEM7": "1 års garanti",
+        "SECTION2": "Bier App",
+        "SEC2_ITEM1": "Gratis app",
+        "SEC2_ITEM2": "Les sensorer",
+        "SEC2_ITEM3": "Vis datalogg",
+        "SEC2_ITEM4": "Loggbok",
+        "SEC2_ITEM5": "Væralmanakk",
+        "SEC2_ITEM6": "Administrer kube/sensorplasseringer",
+        "SEC2_ITEM7": "Værvarsler",
+        "SEC2_ITEM8": "Nektarprognose",
+        "SEC2_ITEM9": "Kube produktivitet",
+        "SEC2_ITEM10": "Redetester",
+        "SEC2_ITEM11": "Rucher og kubevarsler",
+        "SECTION3": "MyBroodMinder.com",
+        "SEC3_ITEM1": "Data lagring",
+        "SEC3_ITEM2": "Rucher/kube administrasjon",
+        "SEC3_ITEM3": "Loggbok",
+        "SEC3_ITEM4": "Beregnede resultater - analyser",
+        "SEC3_ITEM5": "Dashbord",
+        "SEC3_ITEM6": "Velg flere kuber for å sammenligne kuber & rucher",
+        "SEC3_ITEM7": "Ruche/Kube bilder",
+        "SEC3_ITEM8": "Værvarsel",
+        "SEC3_ITEM9": "Sensor-, kube- og værvarsler",
+        "SEC3_ITEM10": "Cell-hub (sanntidsdata) støtte",
+        "SEC3_ITEM11": "WiFi-hub (sanntidsdata) støtte",
+        "SEC3_ITEM12": "LoRa-hub (sanntidsdata) støtte",
+        "SEC3_ITEM13": "Data nedlasting (CSV)",
+        "SEC3_ITEM14": "Data deling",
+        "SEC3_ITEM15": "Delbare lenker",
+        "SEC3_ITEM16": "Blomstringskalender",
+        "SEC3_ITEM17": "Støtte for tredjeparter (YoLink)",
+        "HIVE_LIMIT": "5 kuber",
+        "MONTH_LIMIT": "13 måneder",
+        "DASHBOARD_LIMIT": "1 tilpasset",
+        "PURCHASE_MEMBERSHIP": "Kjøp Medlemskap",
+        "CHANGE_MEMBERSHIP": "Endre medlemskap",
+        "LOGIN": "Logg Inn/Registrer"
+    },
+    "PURCHASE": {
+        "SUMMARY": {
+            "TITLE": "Kjøper Premium-abonnement",
+            "TOTAL": "Totalt",
+            "ERROR_1": "Du har allerede kjøpt et medlemskap. Klikk",
+            "ERROR_LINK": "her",
+            "ERROR_2": "for å se medlemskapene.",
+            "ADD_ERROR_1": "Klikk",
+            "ADD_ERROR_2": "her",
+            "ADD_ERROR_3": "for å legge til tokens i gjeldende medlemskap.",
+            "CANCELED1": "Du har et avsluttet abonnement med tillatelse for {{count}} kuber.",
+            "CANCELED2": "Det er gyldig til {{date}}. Hvis du kjøper et nytt medlemskap før den datoen, vil du overskrive ditt forrige medlemskap."
+        },
+        "BUY": {
+            "TOTAL": "Totalt",
+            "TOTAL_NOW": "Totalt (Forfall nå)",
+            "NEXT_PAY": "Neste betaling ({{date}})",
+            "PURCHASE": "Kjøp",
+            "SELECT": "Velg Tillatte Kuber",
+            "SELECTION": "{{count}} kuber tillatt",
+            "SELECTION_CURRENT": "(nåværende)",
+            "INFO": "Dette er et tilbakevendende abonnement. Du kan si opp når som helst.",
+            "HIVE_ERROR": "Nivå ikke tilgjengelig, du har for øyeblikket {{count}} kuber",
+            "CHARGING": "Total belastning nå",
+            "CONFIRM": "Dette er et fornybart abonnement. Du vil bli belastet {{priceNow}} nå og {{priceYearly}} årlig. Ønsker du å opprette dette abonnementet?",
+            "COMPLETE": "Fullfør kjøpet"
+        },
+        "ADDITIONAL": {
+            "TITLE": "Kjøp Tokens",
+            "DECREASE": "Kubenedgang, du har for øyeblikket {{count}} kuber og må fjerne {{removeCount}} ved fornyelse av abonnementet",
+            "INCREASE": "Økning, belastning prorata",
+            "REINSTATE": "Gjenoppretter, ikke belastet på dette tidspunktet",
+            "DECREASE_OK": " Reduserer med {{count}} kuber, vil utløpe ved fornyelsesdato",
+            "CHANGE": {
+                "TITLE": "Endre Abonnement",
+                "ADDITIONAL": "Tierskifte belastes ditt medlemskap. {{price}} vil bli belastet nå på kortet ditt for abonnementet.",
+                "NONE": "Du har ingen ekstra kostnad for øyeblikket. Men din nye fornyelsesbeløp har økt til {{price}}.",
+                "DECREASE": "Du har redusert abonnementsnivået ditt. Du vil fortsette på det høyere nivået til fornyelsesdatoen. Fornyelsesbeløpet ditt har blitt redusert til {{price}}.",
+                "CONFIRM": "Utfør betaling"
+            }
+        },
+        "PRODUCTS": {
+            "MEMBERSHIP": "Premiummedlemskap",
+            "WIFI_HUB_FREE": "Wifi Hub Token (Gratis)",
+            "WIFI_HUB": "Wifi Hub Token",
+            "CELL_HUB_SINGLE": "Cell Hub (Enhet) Token",
+            "CELL_HUB": "Cell Hub Token",
+            "THIRD_PARTY": "Tredjepartsenheter Token"
+        },
+        "PAY": {
+            "TITLE": "Betalingsinformasjon",
+            "RENEW_DISCLAIMER": "Automatisk fornyelse av abonnementet. Du blir belastet {{amount}} {{frequency}}.",
+            "VERIFY_BUTTON": "Bekreft betalingsmetode",
+            "PAY_BUTTON": "Utfør betaling",
+            "COMPLETE": {
+                "ID": "Ordrenummer",
+                "STATUS": "Status",
+                "TAX": "Skatt",
+                "TOTAL": "Totalt betalt",
+                "RECEIPT": "Kvittering sendt",
+                "AR_DATE": "Automatisk fornyelsesdato",
+                "AR_AMOUNT": "Automatisk fornyelsesbeløp",
+                "SUCCESS": "Kjøpet er fullført.",
+                "LINK_1": "Klikk",
+                "LINK_LINK": "her",
+                "LINK_2": "for å se medlemskapene."
+            },
+            "ADDRESS_ERROR": "Manglende påkrevde felt"
+        },
+        "CUSTOMER": {
+            "EMAIL": "E-post",
+            "FIRST_NAME": "Fornavn",
+            "LAST_NAME": "Etternavn",
+            "COMPANY": "Selskap"
+        },
+        "BILLING": {
+            "TITLE": "Faktureringsadresse",
+            "STREET_ADDRESS_1": "Gateadresse",
+            "STREET_ADDRESS_2": "Gateadresse 2",
+            "LOCALITY": "By",
+            "REGION": "Region",
+            "POSTAL_CODE": "Postnummer",
+            "COUNTRY_CODE": "Landkode"
+        },
+        "ACCOUNT": {
+            "TITLE": "Abonnement",
+            "YEAR_SUB": "Årsmedlemskap - Automatisk fornyelse",
+            "MONTH_SUB": "Månedsmedlemskap - Automatisk fornyelse",
+            "PRICE": "Medlemspris",
+            "STATUS": "Status",
+            "AMOUNT": "Automatisk fornyelsesbeløp",
+            "DATE": "Automatisk fornyelsesdato",
+            "CANCEL_BUTTON": "Avbryt abonnement",
+            "CANCEL": {
+                "SUCCESS": "Abonnementet ble kansellert",
+                "GENERAL_ERROR": "Feil oppstod. Abonnementet ble ikke kansellert",
+                "CONFIRM_WINDOW": {
+                    "TITLE": "Avbryt MyBroodMinder Premium-abonnement",
+                    "MESSAGE": "Dette avbryter fremtidige betalinger. Medlemskapet ditt og hubene vil fortsatt være funksjonelle til {{expiration}}. Vil du avbryte?",
+                    "CONFIRM": "Ja",
+                    "CANCEL": "Nei"
+                }
+            },
+            "PAYMENT": {
+                "TITLE": "Betalingsmetode",
+                "CARD": "{{type}} slutter på {{last4}}",
+                "CARD_UPDATE_BUTTON": "Oppdater betalingsmetode",
+                "BILLING": "Faktureringsadresse",
+                "BILLING_UPDATE": "Oppdater faktureringsadresse",
+                "NOT_FOUND": "Ikke funnet",
+                "EDIT": {
+                    "TITLE": "Oppdater betalingsmetode",
+                    "WARN": "Sletting av abonnementsbetalingsmetoden uten å først bekrefte og oppdatere til en ny vil kansellere abonnementet ditt.",
+                    "UPDATE_BUTTON": "Oppdater betaling"
+                }
+            },
+            "BILLING": {
+                "TITLE": "Oppdater faktureringsadresse",
+                "UPDATE": "Oppdater"
+            }
+        }
     },
     "EDIT_SUBS": {
-        "HEADERS": {
-            "ASSOCIATED": "Assosiert med",
-            "AUTO": "Automatisk fornyelse",
-            "EDIT": "Rediger",
-            "EXPIRES": "Utløper",
-            "ID": "ID",
-            "NAME": "Navn",
-            "PRICE": "Pris",
-            "RENEW": "Fornyes",
-            "START": "Starter",
-            "STATUS": "Status",
-            "SUB_ID": "Abonnements-ID"
-        },
+        "MONTH_ERROR": "Månedsabonnementer støttes ikke lenger for nye kjøp. For å legge til kreditter, må du avbryte ditt nåværende abonnement og opprette et nytt Premium-medlemskap.",
+        "SHOW_EXPIRED": "Vis utløpte",
         "MEMEBERSHIPS": {
-            "FREE": "Gratis",
-            "PRE_PAID": "Forhåndsbetalt",
             "TITLE": "Medlemskap",
+            "PRE_PAID": "Forhåndsbetalt",
+            "FREE": "Gratis",
             "TRIAL": "Prøveperiode"
         },
-        "MONTH_ERROR": "Månedsabonnementer støttes ikke lenger for nye kjøp. For å legge til kreditter, må du avbryte ditt nåværende abonnement og opprette et nytt Premium-medlemskap.",
-        "PURCHASE": "Kjøp produkter",
-        "SHOW_EXPIRED": "Vis utløpte",
         "TOKENS": {
+            "TITLE": "Tokens",
+            "REMOVE": "Fjern token fra medlemskap",
             "ASSIGN": {
+                "TITLE": "Tilordne",
                 "HUB": "Hub",
-                "THIRD_PARTY": "Tredjepartsenheter",
-                "TITLE": "Tilordne"
+                "THIRD_PARTY": "Tredjepartsenheter"
             },
-            "CANCEL_CONFIRM": "Ja",
-            "CANCEL_SUCCESS": "Token ble kansellert",
-            "CANCEL_TEXT": "Er du sikker?",
-            "CANCEL_TITLE": "Avbryt token",
-            "ERROR": "Feil, token ble ikke oppdatert",
             "HUB_EDIT": {
                 "WARNING_DUP": "Hubben har kreditt som varer til {{date}}. Dette vil bli erstattet.",
-                "WARNING_REMOVE": "Dette fjerner tokenet fra hubben. Hubben vil slutte å laste opp data.",
                 "WARNING_SINGLE": "Dette er et token for enkelt enhetshub. Kun én sensor-enhet kan lastes opp med dette tokenet.",
-                "WARNING_WIFI_TYPE": "Wifi-hub vil kjøre på et cellehub-token."
+                "WARNING_WIFI_TYPE": "Wifi-hub vil kjøre på et cellehub-token.",
+                "WARNING_REMOVE": "Dette fjerner tokenet fra hubben. Hubben vil slutte å laste opp data."
             },
-            "REMOVE": "Fjern token fra medlemskap",
-            "TITLE": "Tokens",
-            "UPDATED": "Token ble oppdatert"
-        }
-    },
-    "F_TOUR": {
-        "BACK": "Tilbake",
-        "DASH": {
-            "CHART_EDIT": {
-                "TEXT": "Klikk for å redigere diagramalternativer.",
-                "TITLE": "Diagramalternativer"
-            },
-            "CHART_FILTER": {
-                "TEXT_1": "Klikk for å zoome.",
-                "TEXT_2": "Klikk for å fjerne og legge til data på diagrammet ditt.",
-                "TITLE": "Diagramfiltre"
-            },
-            "DASH_OPT": {
-                "TEXT": "Klikk for flere dashbordalternativer.",
-                "TITLE": "Dashbordalternativer"
-            },
-            "DASHBOARDS": {
-                "TEXT": "Klikk på et dashbordnavn for å se dataene dine på forskjellige måter!",
-                "TITLE": "Nye visninger og visualiseringer!"
-            },
-            "NEW": {
-                "TEXT": "Opprett ditt eget dashbord. Legg til og ordne diagrammer etter dine behov.",
-                "TITLE": "Egendefinerte dashbord"
-            }
+            "UPDATED": "Token ble oppdatert",
+            "ERROR": "Feil, token ble ikke oppdatert",
+            "CANCEL_TITLE": "Avbryt token",
+            "CANCEL_TEXT": "Er du sikker?",
+            "CANCEL_CONFIRM": "Ja",
+            "CANCEL_SUCCESS": "Token ble kansellert"
         },
-        "END": {
-            "DONE": "Ferdig",
-            "TEXT_1": "For mer hjelp og informasjon, se dokumentasjonen vår.",
-            "TEXT_2": "Vi håper du liker det!!",
-            "TEXT_3": "- BroodMinder-teamet",
-            "TITLE": "Det er alt"
+        "HEADERS": {
+            "NAME": "Navn",
+            "START": "Starter",
+            "RENEW": "Fornyes",
+            "EXPIRES": "Utløper",
+            "AUTO": "Automatisk fornyelse",
+            "STATUS": "Status",
+            "ID": "ID",
+            "EDIT": "Rediger",
+            "PRICE": "Pris",
+            "SUB_ID": "Abonnements-ID",
+            "ASSOCIATED": "Assosiert med"
         },
-        "EXTRAS": {
-            "CONF": {
-                "TEXT": "Klikk for å konfigurere for å se flere avanserte alternativer.",
-                "TITLE": "Avanserte alternativer"
-            },
-            "CONF_ALERT": {
-                "TEXT": "Rediger varselinnstillinger, e-post og frekvens.",
-                "TITLE": "Avanserte varselalternativer"
-            },
-            "CONF_DASH": {
-                "TEXT": "Rediger, vis skjulte, dupliser, osv...",
-                "TITLE": "Avanserte dashbordalternativer"
-            },
-            "DATE": {
-                "TEXT": "Velg datoperiode og vis valgfritt varsel.",
-                "TITLE": "Datoperiode"
-            },
-            "HIVE_COLOR": {
-                "TEXT_1": "Rediger kuben for å endre kubeens farge. Dette er tilpassbart slik at du enkelt kan se flere kuber på samme dashbord.",
-                "TEXT_2": "Dette kan også gjøres for hver av bikubene dine for å spesifisere værfargen.",
-                "TITLE": "Tilpass kubeens farge"
-            }
-        },
-        "NAV": {
-            "APIARY": {
-                "TEXT": "Klikk på en birøkt for å legge til eller fjerne kuber fra visningen din.",
-                "TITLE": "Klikk på birøkt"
-            },
-            "HIVE": {
-                "TEXT_1": "Klikk på et kube navn for å vise det på et dashbord.",
-                "TEXT_2": "Klikk på kuben igjen for å fjerne den.",
-                "TITLE": "Vis en kube"
-            },
-            "HOME": {
-                "TEXT": "Besøk hjemmesiden for å se en oversikt over aktive kuber og birøkter.",
-                "TITLE": "Hjemmeside"
-            },
-            "MULTI": {
-                "TEXT": "Klikk på multivelger for å vise flere kuber samtidig.",
-                "TITLE": "Aktiver multivelger"
-            }
-        },
-        "NEXT": "Neste",
-        "START": {
-            "DASH_BUTTON": "Dashbord",
-            "DONE_BUTTON": "Ferdig",
-            "EXTRAS_BUTTON": "Ekstrautstyr",
-            "NAV_BUTTON": "Navigasjon",
-            "TEXT": "Velkommen til det nye og forbedrede MyBroodMinder! Vi har lagt til nye funksjoner, diagrammer og data. Les mer her.",
-            "TITLE": "Nye og forbedrede MyBroodMinder!"
-        }
-    },
-    "FEATURES": {
-        "CLOSE": "Lukk",
-        "FEATURE_1": "Første gang, opprett kube",
-        "FEATURE_2": "Viser data",
-        "FEATURE_3": "Konfigurerer og flytter enheter",
-        "FEATURE_4": "Vis CELL/WiFi/Hub-status",
-        "NEXT": "Neste",
-        "SKIP": "Hopp over",
-        "TITLE": "Funksjonstur"
+        "PURCHASE": "Kjøp produkter"
     },
     "FITNESS_CODE": {
         "B1": {
@@ -1364,11 +1457,8 @@
         "B2": {
             "MSG": "Stjålet kube"
         },
-        "G1": {
-            "MSG": "Frisk"
-        },
-        "G2": {
-            "MSG": "Ingen data eller ingen værforhold"
+        "R1": {
+            "MSG": "Veldig svak kube"
         },
         "O1": {
             "MSG": "Svak kube eller kraftig nedgang"
@@ -1385,138 +1475,802 @@
         "O5": {
             "MSG": "Rask vekttap, blir ranet"
         },
-        "R1": {
-            "MSG": "Veldig svak kube"
+        "G1": {
+            "MSG": "Frisk"
+        },
+        "G2": {
+            "MSG": "Ingen data eller ingen værforhold"
+        }
+    },
+    "CHART": {
+        "DATA_TYPES": {
+            "WEIGHT": {
+                "TITLE": "Vekt",
+                "YAXIS": "Vekt ({{label}})",
+                "FILTER": "Vekt",
+                "FILTER_HOURLY": "Timevis vekt",
+                "FILTER_DAILY": "Daglig vekt"
+            },
+            "PROD": {
+                "TITLE": "Produktivitet",
+                "YAXIS": "Vekt ({{label}})",
+                "FILTER": "Produktivitet",
+                "FILTER_HOURLY": "Timevis produktivitet",
+                "FILTER_DAILY": "Daglig produktivitet"
+            },
+            "BATTERY": {
+                "TITLE": "Batteri",
+                "YAXIS": "Batteri (%)",
+                "FILTER": "Batteri"
+            },
+            "TEMP_EVENTS": {
+                "TITLE": "Temperaturhendelser",
+                "YAXIS": "",
+                "FILTER": "Temperaturhendelser"
+            },
+            "AUDIO": {
+                "TITLE": "Vibrasjon",
+                "YAXIS": "Vibrasjon ({{label}})",
+                "FILTER": "Vibrasjon"
+            },
+            "RADAR": {
+                "TITLE": "Radarignal",
+                "YAXIS": "Radarignal ({{label}})",
+                "FILTER": "Radarignal"
+            },
+            "BEECOUNT": {
+                "TITLE": "Bieantall",
+                "YAXIS": "Bier ({{label}})",
+                "FILTER": "Bier",
+                "UNIT": "bier/min"
+            },
+            "BROOD": {
+                "TITLE": "Broy",
+                "YAXIS": "Broy (%)",
+                "FILTER": "Broy"
+            },
+            "TEMP_MIN": {
+                "TITLE": "Minimal temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Minimal temperatur"
+            },
+            "TEMP_MEAN": {
+                "TITLE": "Gjennomsnittstemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Gjennomsnittstemperatur"
+            },
+            "TEMP_MAX": {
+                "TITLE": "Maksimal temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Maksimal temperatur"
+            },
+            "TEMP_MIN_EXT": {
+                "TITLE": "Minimal ekstern temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Minimal ekstern temperatur"
+            },
+            "TEMP_MAX_EXT": {
+                "TITLE": "Maksimal ekstern temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Maksimal ekstern temperatur"
+            },
+            "HUMID_MIN": {
+                "TITLE": "Minimal luftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": "Minimal luftfuktighet"
+            },
+            "HUMID_MAX": {
+                "TITLE": "Maksimal luftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": "Maksimal luftfuktighet"
+            },
+            "GAIN": {
+                "TITLE": "Vektøkning",
+                "YAXIS": "Vekt ({{label}})",
+                "FILTER": "Vektøkning"
+            },
+            "GAIN_CUMUL": {
+                "TITLE": "Kumulativ økning",
+                "YAXIS": "Vekt ({{label}})",
+                "FILTER": "Kumulativ vektøkning"
+            },
+            "PROD_CUMUL": {
+                "TITLE": "Kumulativ produktivitet",
+                "YAXIS": "Vekt ({{label}})",
+                "FILTER": "Kumulativ produktivitet"
+            },
+            "HUMID_MAX_EXT": {
+                "TITLE": "Maksimal ekstern luftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": "Maksimal ekstern luftfuktighet"
+            },
+            "HUMID_MIN_EXT": {
+                "TITLE": "Minimal ekstern luftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": "Minimal ekstern luftfuktighet"
+            },
+            "TEMP_WEATHER": {
+                "TITLE": "Værtemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Værtemperatur"
+            },
+            "TEMP_MIN_WEATHER": {
+                "TITLE": "Minimal værtemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Minimal værtemperatur"
+            },
+            "TEMP_MAX_WEATHER": {
+                "TITLE": "Maksimal værtemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Maksimal værtemperatur"
+            },
+            "HUMID_MIN_WEATHER": {
+                "TITLE": "Minimal værluftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": ""
+            },
+            "HUMID_MAX_WEATHER": {
+                "TITLE": "Maksimal værluftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": "Maksimal værluftfuktighet"
+            },
+            "WEATHER": {
+                "TITLE": "Vær",
+                "YAXIS": "",
+                "FILTER": "Værdaglig"
+            },
+            "WIND_MAX": {
+                "TITLE": "Maksimal vind",
+                "YAXIS": "Vind ({{label}})",
+                "FILTER": "Maksimal vind"
+            },
+            "HIVE_HEALTH": {
+                "TITLE": "Kubehelse",
+                "YAXIS": "",
+                "FILTER": "Kubehelse"
+            },
+            "LUNAR": {
+                "TITLE": "Månekalender",
+                "YAXIS": "",
+                "FILTER": "Lunardaglig"
+            },
+            "ALERTS_NOTES": {
+                "TITLE": "Alarmer og notater",
+                "YAXIS": " ({{label}})",
+                "FILTER": "Alarmer og notater"
+            },
+            "ALERTS": {
+                "TITLE": "Alarmer",
+                "YAXIS": "",
+                "FILTER": "Alarmer"
+            },
+            "NOTES": {
+                "TITLE": "Notater",
+                "YAXIS": "",
+                "FILTER_APIARY": "Bigårdsnotater",
+                "FILTER_HIVE": "Kubenotater"
+            },
+            "PRECIP": {
+                "TITLE": "Nedbør",
+                "YAXIS": "Nedbør ({{label}})",
+                "FILTER": "Nedbør",
+                "FILTER_DAILY": "Daglig nedbør"
+            },
+            "TEMP": {
+                "TITLE": "Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Temperatur",
+                "FILTER_HOURLY": "Timevis temperatur"
+            },
+            "WIND": {
+                "TITLE": "Vind",
+                "YAXIS": "Vind ({{label}})",
+                "FILTER": "Vind",
+                "FILTER_HOURLY": "Timevis vind"
+            },
+            "RAIN": {
+                "TITLE": "Nedbør",
+                "YAXIS": "Nedbør ({{label}})",
+                "FILTER": "Nedbør",
+                "FILTER_HOURLY": "Timevis nedbør",
+                "FILTER_CUMULATIVE": "Kumulativ nedbør"
+            },
+            "HUMID": {
+                "TITLE": "Luftfuktighet",
+                "YAXIS": "Luftfuktighet (%)",
+                "FILTER": "Luftfuktighet",
+                "FILTER_HOURLY": "Timevis luftfuktighet"
+            },
+            "CLOUD_COVER": {
+                "TITLE": "Skydekke",
+                "YAXIS": "Skydekke (%)",
+                "FILTER": "Skydekke",
+                "FILTER_HOURLY": "Timevis skydekke"
+            },
+            "NECTAR": {
+                "TITLE": "Nektarstrømindeks",
+                "YAXIS": "Nektarstrømindeks (%)",
+                "FILTER": "Nektarstrøm"
+            },
+            "FLIGHT": {
+                "TITLE": "Fourageringsindeks",
+                "YAXIS": "Fourageringsindeks (%)",
+                "FILTER": "Fourageringsindeks"
+            },
+            "BC_ACTIV_DUR": {
+                "TITLE": "Fourageringsvarighet",
+                "YAXIS": "Fourageringsvarighet (timer)",
+                "FILTER": "Fourageringsvarighet",
+                "UNIT": "timer"
+            },
+            "BC_FOR": {
+                "TITLE": "Fouragereturer",
+                "YAXIS": "Fouragering (k turer/dag)",
+                "FILTER": "Fouragereturer",
+                "UNIT": "turer/dag"
+            },
+            "BC_WORK_PER": {
+                "TITLE": "Fourageringsperioder",
+                "YAXIS": "Perioder per dag",
+                "FILTER": "Fourageringsperioder",
+                "UNIT": "arbeidsøkter"
+            },
+            "MF_DUR": {
+                "TITLE": "Parringsflytdurasjon",
+                "YAXIS": "Flyvindu (timer)",
+                "FILTER": "Flyvindu (timer)",
+                "UNIT": "timer"
+            },
+            "MF_COUNT": {
+                "TITLE": "Parringsflytelling",
+                "YAXIS": "flyturer/dag",
+                "FILTER": "Parringsflytelling",
+                "UNIT": "flyturer/dag"
+            },
+            "MF_SESS": {
+                "TITLE": "Parringsflytsesjoner",
+                "YAXIS": "Sesjoner/dag",
+                "FILTER": "Parringsflytsesjoner",
+                "UNIT": "sesjoner/dag"
+            }
+        }
+    },
+    "CALENDAR_CHART": {
+        "MOON_PHASE": "Fase",
+        "MOON_PERIOD": "Periode",
+        "SUNRISE": "Soloppgang",
+        "SUNSET": "Solnedgang",
+        "DAYLENGTH": "Dagslys",
+        "MOON": {
+            "1": "Fullmåne",
+            "2": "Nymåne",
+            "3": "Siste kvarter",
+            "4": "Første kvarter",
+            "5": "Økende månesigd",
+            "6": "Avtagende månesigd",
+            "7": "Avtagende månesigd",
+            "8": "Økende månesigd",
+            "ASCENDING": "Økende",
+            "DESCENDING": "Avtagende"
+        },
+        "WEATHER": {
+            "DESCR": {
+                "CLEAR": "Klart",
+                "FEW_CLOUDS": "Noen få skyer",
+                "SCATTERED_CLOUDS": "Spredte skyer",
+                "SHOWER_RAIN": "Byger av regn",
+                "BROKEN_CLOUDS": "Brytende skyer",
+                "SHOWER": "Byge",
+                "RAIN": "Regn",
+                "THUNDERSTORM": "Tordenvær",
+                "SHOWER_SNOW": "Byger av snø",
+                "SNOW": "Snø",
+                "MIST": "Tåke",
+                "SMOKE": "Røyk",
+                "HAZE": "Tåke",
+                "DUST": "Støv",
+                "FOG": "Tåke",
+                "SAND": "Sand",
+                "ASH": "Aske",
+                "SQUALL": "Kastevind",
+                "TORNADO": "Tornado",
+                "CLOUDS": "Skyer"
+            }
+        }
+    },
+    "INSP_CONF": {
+        "APPLIES": {
+            "HIVE": "Kube",
+            "APIARY": "Bikupløkke"
+        },
+        "DEFAULT": "Standard",
+        "SUPER+": "La til ekstra boks",
+        "SUPER-": "Fjernet ekstra boks",
+        "QUEENINSERT": "Dronning satt inn",
+        "DIVISION": "Deling",
+        "QUEENABSENT": "Dronning fraværende",
+        "STOLEN": "Stjålet kube",
+        "BROODADD": "La til yngelrammer",
+        "BROODREMOVE": "Fjernet yngelrammer",
+        "COMBINEDHIVES": "Kombinerte kuber",
+        "SWARM": "Sverming",
+        "CANDIFEED": "Sukkerforing",
+        "SYRUPFEED": "Sirupforing",
+        "PATTIESFEED": "Foring med kaker",
+        "REQUEEN": "Gjeninnsettelse av dronning",
+        "QUEENLINEAGE": "Dronningens opphav",
+        "HARVEST": "Høsting",
+        "INSTALLPKG": "Installert pakke",
+        "NUCLEUSHIVE": "Installert kjernkube",
+        "SPLITQUEENREMOVE": "Splitt med dronningfjerning",
+        "NECTARFLOW": "Nektarstrøm",
+        "MITEOAVAPOR": "Middbehandling: Oksalsyre Damp",
+        "MITEOADRIBBLE": "Middbehandling: Oksalsyre Drypp",
+        "MITEFORMICPRO": "Middbehandling: Formic Pro",
+        "MITESTRIPADD": "Middbehandling: stripe tilføyd",
+        "MITESTRIPREMOVE": "Middbehandling: stripe fjernet",
+        "MITECOUNTLOUNGE": "Middtelling på klebrig brett",
+        "MITECOUNTWASH": "Middtelling ved vask",
+        "STARTFEED": "Start foring",
+        "STOPFEED": "Stopp foring",
+        "SWARMMATEDQUEEN": "Sverm med paret dronning",
+        "VIRGINSWARM": "Jomfrusverm",
+        "SWARMRETURN": "Sverm og tilbake til kube",
+        "QUEENSEEN": "Dronning sett",
+        "NOBROOD": "Ingen yngel",
+        "LOWBROOD": "Lav yngleaktivitet",
+        "NORMBROOD": "Moderat yngleaktivitet",
+        "HIGHBROOD": "Høy yngleaktivitet",
+        "SICK": "Syk",
+        "NOBEES": "Ingen bier",
+        "LOWBEES": "Lav bieaktivitet",
+        "NORMBEES": "Moderat bieaktivitet",
+        "HIGHBEES": "Høy bieaktivitet",
+        "NORES": "Ingen ressurser",
+        "LOWRES": "Lav ressursaktivitet",
+        "NORMRES": "Moderat ressursaktivitet",
+        "HIGHRES": "Høy ressursaktivitet",
+        "EGG": "Tilstedeværelse av egg",
+        "LARVA": "Tilstedeværelse av larver",
+        "PUPA": "Tilstedeværelse av forpuppede yngel",
+        "DRONEBROOD": "Tilstedeværelse av droneyngel",
+        "DRONE": "Tilstedeværelse av droner",
+        "BUZZINGHIVE": "Leggende arbeidere",
+        "MOSAICBROOD": "Spredt yngel",
+        "QUEENCELLSEEN": "Dronningcelle sett"
+    },
+    "INSP_CATEG": {
+        "BEESBROODSTG": "Yngelstadier",
+        "HEALTH": "Helse",
+        "MITES": "Midd",
+        "MANAGE": "Administrer",
+        "FEEDING": "Foring"
+    },
+    "ALERTS_DESC": {
+        "HONEYDEW": "Honningdugg",
+        "HONEYDEW_DESC": "Utløses når vektkontribusjonen til kuben overstiger den valgte terskelen i løpet av den siste uken.",
+        "RAIN": "Mulig kraftig regn",
+        "RAIN_DESC": "Utløses når nedbøren overstiger den valgte terskelen neste dag.",
+        "SWARM": "Sverm",
+        "SWARM_DESC": "Utløses når det potensielt har skjedd en sverm (Hub gir mer effektivitet).",
+        "DCONNECT": "Enhet frakoblet",
+        "DCONNECT_DESC": "Utløses når en av sensorene dine ikke lenger sender data (eller punktuelt) i løpet av hver valgte periode. Fungerer bare med en Hub.",
+        "TMAX": "Høy intern temperatur",
+        "TMAX_DESC": "Utløses når den interne temperaturen overstiger den valgte terskelen.",
+        "TMIN": "Lav intern temperatur",
+        "TMIN_DESC": "Utløses når den interne temperaturen er under den valgte terskelen.",
+        "LOWBROOD": "Svak yngel",
+        "LOWBROOD_DESC": "Utløses når prosentandelen av yngel er under den valgte terskelen.",
+        "STOPWEATHER": "Værstasjon stoppet",
+        "STOPWEATHER_DESC": "Utløses når værstasjonen din slutter å sende data. Krever egen værstasjon.",
+        "RSWARM": "Svermrisiko",
+        "RSWARM_DESC": "Utløses når risikoen for sverming er høy på en av kubene dine neste dag.",
+        "WIPOS": "Betydelig tilførsel av ressurser",
+        "WIPOS_DESC": "Utløses når den innkommende vekten av dagen i kuben overstiger den valgte terskelen.",
+        "WINEG": "Ressursuttømming",
+        "WINEG_DESC": "Utløses når biene forbruker mye flere ressurser enn de bringer tilbake til kuben. Tapsterskelen kan justeres.",
+        "WLIM": "Vektgrense overskredet",
+        "WLIM_DESC": "Utløses når den angitte vektgrensen overskrides.",
+        "SNOW": "Mulig kraftig snøfall",
+        "SNOW_DESC": "Utløses når snøfallet overstiger den valgte terskelen neste dag.",
+        "WIND": "Mulig kraftig vind",
+        "WIND_DESC": "Utløses når vinden overstiger den valgte terskelen neste dag.",
+        "COLDDAY": "Mulig kald dag i vente",
+        "COLDDAY_DESC": "Utløses når en kommende kald dag oppdages, dvs. under den angitte temperaturgrensen.",
+        "HOTDAY": "Mulig varm dag i vente",
+        "HOTDAY_DESC": "Utløses når en kommende varm dag oppdages, dvs. over den angitte temperaturgrensen.",
+        "HMIN": "Lav intern luftfuktighet",
+        "HMIN_DESC": "Utløses når den interne luftfuktigheten er under den valgte terskelen.",
+        "HMAX": "Høy intern luftfuktighet",
+        "HMAX_DESC": "Utløses når den interne luftfuktigheten overstiger den valgte terskelen.",
+        "STOLEN": "Stjålet kube",
+        "STOLEN_DESC": "Utløses når vekten av kuben din blir unormalt lav.",
+        "DCONNECTT": "Enhet frakoblet",
+        "DCONNECTT_DESC": "Utløses når din T-sensor ikke lenger sender data i løpet av siste dag.",
+        "DCONNECTW": "Enhet frakoblet",
+        "DCONNECTW_DESC": "Utløses når din W-sensor ikke lenger sender data i løpet av siste dag.",
+        "DCONNECTH": "Enhet frakoblet",
+        "DCONNECTH_DESC": "Utløses når din Hub ikke lenger sender data i løpet av siste dag.",
+        "POORSIGNALW": "Dårlig signal",
+        "POORSIGNALW_DESC": "Utløses når W-sensoren din sender lite data i løpet av den siste dagen.",
+        "POORSIGNALT": "Dårlig signal",
+        "POORSIGNALT_DESC": "Utløses når T-sensoren din sender lite data i løpet av den siste dagen. ",
+        "LOWBATTERYW": "Lavt batteri",
+        "LOWBATTERYW_DESC": "Utløses når batterinivået til W-sensoren er under den valgte terskelen.",
+        "LOWBATTERYT": "Lavt batteri",
+        "LOWBATTERYT_DESC": "Utløses når batterinivået til T-sensoren er under den valgte terskelen.",
+        "SUPER+": "Legger til en ekstra boks",
+        "SUPER+_DESC": "Angi minimumsvekten på en tom ekstra boks.",
+        "SUPER-": "Fjerner en ekstra boks",
+        "SUPER-_DESC": "Angi maksimalvekten på en full ekstra boks.",
+        "OXALIC": "Oxalsyrebehandling",
+        "OXALIC_DESC": "Utløses når gjennomsnittlig yngel i kubene dine er under den angitte terskelen. Dette er en indikasjon som lar deg behandle kubene dine med oksalsyre på riktig tidspunkt.",
+        "DEAD": "Død kube",
+        "DEAD_DESC": "Algoritmen vår oppdager hver dag om kuben din er død basert på ulike parametere vi har satt.",
+        "RAIN_MSG": "Nedbøren vil overstige {VAL}",
+        "SNOW_MSG": "Snøfallet vil overstige {VAL} ",
+        "WIND_MSG": "Vinden vil overstige {VAL}",
+        "COLDDAY_MSG": "Temperaturene vil være unormalt kalde",
+        "OXALIC_MSG": "Det er på tide å behandle kubene dine",
+        "HOTDAY_MSG": "Temperaturene vil være unormalt varme",
+        "TMAX_MSG": "Intern temperatur over {VAL}",
+        "TMIN_MSG": "Intern temperatur under {VAL}",
+        "WIPOS_MSG": "Gebyret for biens beholdning overstiger {VAL}",
+        "WINEG_MSG": "Tapet av biens beholdning overstiger {VAL}",
+        "LOWBROOD_MSG": "Yngel under {VAL}",
+        "HMAX_MSG": "Intern luftfuktighet over {VAL}",
+        "HMIN_MSG": "Intern luftfuktighet under {VAL}",
+        "HONEYDEW_MSG": "Innkommende vekter i løpet av den siste uken overstiger {VAL}",
+        "WLIM_MSG": "Vekten av kuben din overstiger {VAL}",
+        "SWARM_MSG": "Potensiell sverm oppdaget rundt 14:00",
+        "RSWARM_MSG": "Forventet svermedag",
+        "SUPER+_MSG": "Du la til en ekstra boks",
+        "SUPER-_MSG": "Du fjernet en ekstra boks",
+        "LOWBATTERYT_MSG": "Bytt batteri på ",
+        "LOWBATTERYW_MSG": "Bytt batteri på ",
+        "DCONNECTT_MSG": "{REF} frakoblet siden {DATE}",
+        "DCONNECTW_MSG": "{REF} frakoblet siden {DATE}",
+        "DCONNECTH_MSG": "{REF} frakoblet siden {DATE}",
+        "POORSIGNALT_MSG": "{REF} dårlig signal siden {DATE}",
+        "POORSIGNALW_MSG": "{REF} dårlig signal siden {DATE}",
+        "STOPWEATHER_MSG": "Datatransmisjonsfeil fra værstasjonen din siden {DATE}",
+        "STOLEN_MSG": "Vekten av kuben din er unormalt lav",
+        "DEAD_MSG": "Kuben din er oppdaget som død",
+        "REALTIME_SWARM_ALERT": "Temperaturhendelse beregnet av T2-enheten. Bare varslet for enheter over eller under yngelkassene ved bruk av en sanntidshub."
+    },
+    "CONFIGURE_ALERTS": {
+        "REALTIME": "Sanntid",
+        "SWARM_ALERT": "SwarmMinder",
+        "SENSORS": "Enheter",
+        "WEATHER": "Vær",
+        "HIVE": "Kube",
+        "FREQUENCY_NEVER": "Varslingsoppsummering sendes ikke via e-post",
+        "FREQUENCY_DAILY": "Varslingsoppsummering sendt hver dag via e-post",
+        "FREQUENCY_WEEKLY": "Varslingsoppsummering sendt hver uke via e-post",
+        "FREQUENCY_OTHER": "Varslingsoppsummering sendt hver {{value}} dager via e-post",
+        "UPDATE_SUCCESS": "Varslingsinnstillingene er oppdatert",
+        "UPDATE_FAIL": "Feil ved oppdatering av varslingsinnstillingene",
+        "EDIT": {
+            "TITLE": "E-postinnstillinger",
+            "MAIL": "Send e-postvarslingssammendrag hver",
+            "FREQUENCY": "Frekvens",
+            "DAILY": "dag",
+            "HOURLY": "time",
+            "WEEKLY": "uke",
+            "NEVER": "aldri",
+            "OTHER": "tilpasset",
+            "EVERY": "hver",
+            "DAY": "dag",
+            "SUMMARY_INPUT": "Sammendrag E-post (kommaseparert)",
+            "REALTIME_INPUT": "Sanntid E-post (kommaseparert)",
+            "BTN_MAIL_TEST": "Send test-e-post",
+            "EMAIL": {
+                "SUMMARY_BODY": "Dette er en test-e-post for MyBroodMinder sammendragsvarsler.",
+                "REALTIME_BODY": "Dette er en testmelding for MyBroodMinder sanntidsvarsler.",
+                "SUCCESS": "E-post sendt til {{email}}",
+                "FAIL": "E-posten kunne ikke sendes til {{email}}"
+            }
+        }
+    },
+    "CONFIGURE_DASHBOARDS": {
+        "NAME": "Navn",
+        "VISIBLE": "Synlig",
+        "DUPLICATE_TOOLTIP": "Dupliser",
+        "DELETE": {
+            "TITLE": "Slett {{name}}",
+            "MESSAGE": "Er du sikker på at du vil slette dette dashbordet ({{name}})?",
+            "WARNING": "Det er {{count}} offentlige delte lenker tilknyttet dette dashbordet. Å slette vil bryte disse lenkene.",
+            "CONFIRM": "Slett",
+            "CANCEL": "Avbryt",
+            "SUCCESS": "Dashbord fjernet",
+            "FAIL": "Feil ved fjerning av dashbord"
+        },
+        "HIDE": {
+            "TITLE": "Skjul {{name}}",
+            "MESSAGE": "Er du sikker på at du vil skjule dette dashbordet ({{name}})?",
+            "MESSAGE_2": "Du kan angre dette fra konfigurasjonssiden.",
+            "CONFIRM": "Skjul",
+            "CANCEL": "Avbryt",
+            "HIDDEN": "Dashbord skjult",
+            "VISIBLE": "Dashbord synlig"
+        },
+        "DUPLICATE": {
+            "TITLE": "Kopier {{name}}",
+            "MESSAGE": "Ønsker du å opprette en kopi av dette dashbordet ({{name}})?",
+            "CONFIRM": "Opprett",
+            "CANCEL": "Avbryt",
+            "NAME_SUFFIX": "kopi",
+            "SUCCESS": "Dashbord opprettet",
+            "FAIL": "Feil ved opprettelse av dashbord"
+        },
+        "DASHBOARD": {
+            "TITLE_CREATE": "Opprett dashbord",
+            "TITLE_EDIT": "Rediger {{name}}",
+            "NAME": "Navn",
+            "WARNING": "Det er {{count}} offentlige delte lenker tilknyttet dette dashbordet. Alle endringer du gjør, vil påvirke disse lenkene.",
+            "AVAILABLE": "Tilgjengelige diagrammer",
+            "ACTIVE": "Aktive diagrammer",
+            "DRAG": "Dra diagrammet for å legge til på dashbordet",
+            "SUCCESS": "Dashbord oppdatert",
+            "FAIL": "Feil ved oppdatering av dashbord",
+            "CHART_NAMES": {
+                "WEIGHT": "Vekt",
+                "PROD": "Produktivitet",
+                "WEIGHT_CHANGE": "Vektendring",
+                "TEMP": "Temperatur",
+                "HUMID": "Luftfuktighet",
+                "BEECOUNT": "Bieantall",
+                "RAIN": "Regn",
+                "WIND": "Vind",
+                "CLOUD_COVER": "Skydekke",
+                "MATING_FLIGHTS": "Parringsflyvindu",
+                "BATTERY": "Batteri",
+                "BROOD": "Yngel",
+                "NOTES": "Notater",
+                "APIARY_IMAGE": "Birøktbilde",
+                "APIARY_MAP": "Birøktskart",
+                "FORAGING": "Samleindeks",
+                "NECTAR": "Nektarflytindeks",
+                "HIVE_TEXT": "Biketekst",
+                "HIVE_TEXT_SUMMARY": "Tekst",
+                "BLOOM": "Blomst",
+                "BLOOM_FORECAST": "Blomsterprognose"
+            }
+        },
+        "CHART": {
+            "TITLE_CREATE": "Opprett diagram",
+            "TITLE_EDIT": "Rediger {{name}}",
+            "NAME": "Navn",
+            "FILTERS": {
+                "AVAILABLE": "Tilgjengelig",
+                "ACTIVE": "Aktiv"
+            },
+            "HEIGHT": "Høyde",
+            "DEFAULT": "Standard ({{value}})",
+            "LEGEND": "Vis forklaring",
+            "BROOD_ZONE": "Vis yngelområde",
+            "NORMAL_HUMID": "Vis normal luftfuktighet",
+            "APIARY_LOCATIONS": "Vis birøktlokasjoner",
+            "TODAY_LINE": "Vis dagens linje",
+            "SUCCESS": "Diagram oppdatert",
+            "FAIL": "Feil ved oppdatering av diagram"
+        }
+    },
+    "DASHBOARD": {
+        "CONTEXT": {
+            "EDIT_DASH": "Rediger dashbord",
+            "HIDE_DASH": "Skjul dashbord",
+            "DELETE_DASH": "Slett dashbord",
+            "SHARE_DASH": "Del dashbord",
+            "EDIT_SHARE_DASH": "Rediger delte lenker",
+            "DOWNLOAD": {
+                "MENU": "Nedlastingsalternativer",
+                "TITLE": "Last ned",
+                "NOTES": "Notater CSV",
+                "HOURLY_READINGS": "Timevise avlesninger CSV",
+                "DAILY_READINGS": "Daglige avlesninger CSV",
+                "HOURLY_WEATHER": "Timevist vær CSV",
+                "DAILY_WEATHER": "Daglig vær CSV",
+                "DOWNLOAD": "Last ned",
+                "WARNING": "Du trenger premium for kube-CSV-nedlastinger."
+            }
+        },
+        "CHART": {
+            "NO_DATA": "Ingen data",
+            "EDIT_CHART": "Rediger diagram",
+            "DOWNLOAD_CHART": "Last ned diagrambilde",
+            "ZOOM_X": "X-akse zoom",
+            "ZOOM_Y": "Y-akse zoom",
+            "ZOOM_CANCEL": "Avbryt zoom",
+            "IMAGE": {
+                "ADD": "Legg til bilde",
+                "REMOVE": "Fjern bilde",
+                "DROP": "Slipp ditt egendefinerte bilde her",
+                "UPLOADING": "Laster opp {{value}}%",
+                "ERROR_TYPE": "Bilde ikke tillatt, kun jpeg og png",
+                "ERROR_SIZE": "Bilde for stort, 6 MB tillatt",
+                "SUCCESS": "Fil lastet opp"
+            },
+            "MAP": {
+                "EDIT": "Rediger kart"
+            },
+            "NOTES": {
+                "TITLE": "{{count}} notater",
+                "ADD": "Legg til notat",
+                "ERROR": "Notatdetaljer ikke funnet",
+                "MORE": "Last mer",
+                "LOADING": "Laster",
+                "SHOWING": "Viser"
+            },
+            "ALERTS": {
+                "EDIT": {
+                    "TITLE": "Rediger varsel",
+                    "SUCCESS": "Varsel oppdatert",
+                    "FAIL": "Feil ved oppdatering av varsel"
+                },
+                "ERROR": "Varseldetaljer ikke funnet"
+            },
+            "ALERT_NOTE_TABLE": {
+                "DATE": "Dato",
+                "DESCRIPTION": "Beskrivelse",
+                "NO_DESCR": "Ingen beskrivelse",
+                "TAGS": "Merker",
+                "DELETE_ALERT": {
+                    "TITLE": "Slett varsel",
+                    "MESSAGE": "Er du sikker på at du vil slette dette varselet?",
+                    "CONFIRM": "Slett",
+                    "SUCCESS": "Varsel slettet",
+                    "ERROR": "Feil ved sletting av varsel"
+                }
+            },
+            "APIARY_OVERVIEW": {
+                "RAIN": "Regn",
+                "WIND": "Vind",
+                "MAX_TEMP": "Maks temperatur",
+                "NOTES": "Notater",
+                "ALERTS": "Varsler",
+                "NECTAR": "Nektarindeks",
+                "FORAGING": "Samleindeks",
+                "MIN_TEMP": "Min temperatur",
+                "WEATHER": "Vær"
+            },
+            "HIVE_OVERVIEW": {
+                "NAME": "Navn",
+                "DATE": "Dato",
+                "FITNESS": "Fysisk form",
+                "BROOD": "Yngel",
+                "WEIGHT": "Vekt",
+                "PROD": "Produktivitet",
+                "FORAG": "Innhøsting",
+                "FORAG_DESC": "Totalt antall bieturer per dag | Samlet innsamlingsvarighet (timer) | Arbeidsperioder i løpet av dagen",
+                "ALERTS": "Varsler",
+                "NOTES": "Notater",
+                "HISTORY": "Historie",
+                "HISTORY_TOOLTIP": "Historie"
+            },
+            "HIVE_TEXT": {
+                "NAME": "Navn",
+                "DATE": "Dato",
+                "LOCATION": "Sted",
+                "LAST_SEEN": "Sist sett",
+                "TEMP": "Temperatur",
+                "HUMID": "Luftfuktighet",
+                "WEIGHT": "Vekt",
+                "GAIN_S": "Geivinst (siden soloppgang)",
+                "BEEDAR": "Biedar",
+                "BATTERY": "Batteri",
+                "NO_DATA": "Ingen data i tidsområdet",
+                "GAIN": "Geivinst",
+                "SUNRISE": "Soloppgang",
+                "INITIAL": "Innledende",
+                "LATEST": "Nyeste"
+            }
         }
     },
     "GLOBAL_DASHBOARDS": {
-        "CALENDAR": {
-            "TITLE": "Kalender"
-        },
         "CLASSIC": {
-            "AUDIO": "Vibrasjon",
-            "BATTERY": "Batteri",
-            "HUMID": "Luftfuktighet",
-            "RADAR": "Radar",
-            "TEMP": "Temperatur",
             "TITLE": "Klassisk",
             "WEIGHT": "Vekt",
-            "WEIGHT_CHANGE": "Vektendring"
+            "WEIGHT_CHANGE": "Vektendring",
+            "TEMP": "Temperatur",
+            "HUMID": "Luftfuktighet",
+            "BATTERY": "Batteri",
+            "RADAR": "Radar",
+            "AUDIO": "Vibrasjon"
+        },
+        "CALENDAR": {
+            "TITLE": "Kalender"
         },
         "WEATHER": {
             "TITLE": "Vær"
         }
     },
-    "HIVE_APIARY_LOCATION_HIST": {
-        "APIARY": "Bihage",
-        "EDIT": {
-            "ADD": "Legg til",
-            "ERROR_APIARY_REQUIRED": "Må velge en bihage for alle steder",
-            "ERROR_INVALID_NEXT_OVERLAP": "Ugyldig tid, overlapper neste bihageplassering",
-            "ERROR_INVALID_PREV_OVERLAP": "Ugyldig tid, overlapper forrige bihageplassering",
-            "ERROR_LOCATION_REQUIRED": "Kuben krever minst én bihage",
-            "SELECT_APIARY": "Velg bihage",
-            "SUCCESS": "Endringer lagret"
+    "F_TOUR": {
+        "NEXT": "Neste",
+        "BACK": "Tilbake",
+        "START": {
+            "TITLE": "Nye og forbedrede MyBroodMinder!",
+            "TEXT": "Velkommen til det nye og forbedrede MyBroodMinder! Vi har lagt til nye funksjoner, diagrammer og data. Les mer her.",
+            "NAV_BUTTON": "Navigasjon",
+            "DASH_BUTTON": "Dashbord",
+            "EXTRAS_BUTTON": "Ekstrautstyr",
+            "DONE_BUTTON": "Ferdig"
         },
-        "END": "Slutt",
-        "END_OPEN": "nåværende",
-        "MOVE": "Flytt",
-        "START": "Start",
-        "START_OPEN": "åpen"
-    },
-    "HIVE_CRUD": {
-        "COLOR": "Farge",
-        "CREATE_TITLE": "Opprett kube",
-        "DESCRIPTION": "Beskrivelse",
-        "DISPLAY": {
-            "BATTERY": {
-                "ALL": "Vis alle enheter i flervalgsmodus",
-                "AUTO": "Vis laveste enhetsbatteri i kuben i flervalgsmodus",
-                "DESCRIPTION": "Batterienhet å vise i flervalgsmodus",
-                "NONE": "Ikke vis en batterienhet i flervalgsmodus"
+        "NAV": {
+            "HOME": {
+                "TITLE": "Hjemmeside",
+                "TEXT": "Besøk hjemmesiden for å se en oversikt over aktive kuber og birøkter."
             },
-            "DESCRIPTION": "Innstillinger for flervalgsvisning",
-            "HUMID": {
-                "ALL": "Vis alle fuktighetsenheter i flervalgsmodus",
-                "AUTO": "Automatisk velg maksimal fuktighet",
-                "DESCRIPTION": "Fuktighetsenhet å vise i flervalgsmodus",
-                "NONE": "Ikke vis en fuktighetsenhet i flervalgsmodus"
+            "HIVE": {
+                "TITLE": "Vis en kube",
+                "TEXT_1": "Klikk på et kube navn for å vise det på et dashbord.",
+                "TEXT_2": "Klikk på kuben igjen for å fjerne den."
             },
-            "TEMP": {
-                "ALL": "Vis alle temperatur-enheter i flervalgsmodus",
-                "AUTO": "Automatisk velg maksimal temperatur",
-                "DESCRIPTION": "Temperatur enhet å vise i flervalgsmodus",
-                "NONE": "Ikke vis en temperatur-enhet i flervalgsmodus"
+            "MULTI": {
+                "TITLE": "Aktiver multivelger",
+                "TEXT": "Klikk på multivelger for å vise flere kuber samtidig."
             },
-            "WEIGHT": {
-                "ALL": "Vis alle vektenheter i flervalgsmodus",
-                "AUTO": "Automatisk velg maksimal vekt på vekten",
-                "DESCRIPTION": "Vektenhet å vise i flervalgsmodus",
-                "NONE": "Ikke vis en vektenhet i flervalgsmodus"
+            "APIARY": {
+                "TITLE": "Klikk på birøkt",
+                "TEXT": "Klikk på en birøkt for å legge til eller fjerne kuber fra visningen din."
             }
         },
-        "EDIT_TITLE": "Rediger kube",
-        "ERROR_APIARY": "Må velge bihage",
-        "MOVE": {
-            "DAY": "Nytt sted startdag",
-            "EXP": "All data i denne kuben forblir det samme, men dette vil plassere kuben i den valgte bihagen fra denne datoen og fremover. Dette gjenspeiles i værdata og bihagevisninger.",
-            "SELECT_APIARY": "Velg bihage",
-            "SUCCESS": "Kube flyttet",
-            "TIME": "Tid",
-            "TITLE": "Flytt kube"
+        "DASH": {
+            "DASHBOARDS": {
+                "TITLE": "Nye visninger og visualiseringer!",
+                "TEXT": "Klikk på et dashbordnavn for å se dataene dine på forskjellige måter!"
+            },
+            "NEW": {
+                "TITLE": "Egendefinerte dashbord",
+                "TEXT": "Opprett ditt eget dashbord. Legg til og ordne diagrammer etter dine behov."
+            },
+            "DASH_OPT": {
+                "TITLE": "Dashbordalternativer",
+                "TEXT": "Klikk for flere dashbordalternativer."
+            },
+            "CHART_EDIT": {
+                "TITLE": "Diagramalternativer",
+                "TEXT": "Klikk for å redigere diagramalternativer."
+            },
+            "CHART_FILTER": {
+                "TITLE": "Diagramfiltre",
+                "TEXT_1": "Klikk for å zoome.",
+                "TEXT_2": "Klikk for å fjerne og legge til data på diagrammet ditt."
+            }
         },
-        "NAME": "Navn",
-        "SELECT_APIARY": "Velg bihage",
-        "SUCCESS_CREATED": "Kube opprettet",
-        "SUCCESS_UPDATED": "Kube oppdatert"
-    },
-    "HIVE_PAGE": {
-        "BATTERY": {
-            "LOADING": "Laster kube batteriavlesninger",
-            "NONE": "Ingen batteridata",
-            "TITLE": "Batteri"
+        "EXTRAS": {
+            "DATE": {
+                "TITLE": "Datoperiode",
+                "TEXT": "Velg datoperiode og vis valgfritt varsel."
+            },
+            "CONF": {
+                "TITLE": "Avanserte alternativer",
+                "TEXT": "Klikk for å konfigurere for å se flere avanserte alternativer."
+            },
+            "CONF_DASH": {
+                "TITLE": "Avanserte dashbordalternativer",
+                "TEXT": "Rediger, vis skjulte, dupliser, osv..."
+            },
+            "CONF_ALERT": {
+                "TITLE": "Avanserte varselalternativer",
+                "TEXT": "Rediger varselinnstillinger, e-post og frekvens."
+            },
+            "HIVE_COLOR": {
+                "TITLE": "Tilpass kubeens farge",
+                "TEXT_1": "Rediger kuben for å endre kubeens farge. Dette er tilpassbart slik at du enkelt kan se flere kuber på samme dashbord.",
+                "TEXT_2": "Dette kan også gjøres for hver av bikubene dine for å spesifisere værfargen."
+            }
         },
-        "DATA_TOOLTIP": {
-            "BUILDING": "Vis bygging",
-            "OK": "Vis oppdatert",
-            "UPDATE": "Vis trenger oppdatering"
-        },
-        "DEVICE_DATA_ONLY": "Data i diagrammer, ikke for øyeblikket i kube",
-        "DEVICE_NO_DATA": "Ingen data i diagrammer, for øyeblikket i kube",
-        "DEVICE_WITH_DATA": "Data i diagrammer, for øyeblikket i kube",
-        "DEVICES": "Enheter",
-        "DOWNLOAD": "Last ned CSV-data",
-        "DOWNLOAD_PREMIUM": "Nedlasting av kube-data tilgjengelig med premiumabonnement.",
-        "DOWNLOAD_WEATHER": "Last ned Weather CSV-data",
-        "DOWNLOAD_WEATHER_PREMIUM": "Nedlasting av værdata tilgjengelig med premiumabonnement.",
-        "HUMID": {
-            "LOADING": "Laster kube fuktighetsavlesninger",
-            "NONE": "Ingen fuktighetsdata",
-            "TITLE": "Fuktighet"
-        },
-        "INACTIVE": "Inaktiv siden {{date}}",
-        "PRODUCTIVITY": {
-            "INFO": "Bier legger til/fjerner kubevekt",
-            "LOADING": "Laster honningbieproduktivitet",
-            "NONE": "Ingen vektdata for honningbieproduktivitet",
-            "TITLE": "Honningbieproduktivitet"
-        },
-        "TEMP": {
-            "HIDE_SWARM_FLAGS": "Skjul temperaturhendelser",
-            "LOADING": "Laster kube temperaturavlesninger",
-            "NONE": "Ingen temperaturdata",
-            "TITLE": "Temperatur"
-        },
-        "WEIGHT": {
-            "AVERAGE_SCALE": "Vekter gjennomsnittlig",
-            "INDIVIDUAL_SCALE": "Individuelle vekter",
-            "LOADING": "Laster kube vektavlesninger",
-            "MULTI_SCALE": "Flere vekter",
-            "NONE": "Ingen vektdata",
-            "TITLE": "Vekt"
+        "END": {
+            "TITLE": "Det er alt",
+            "TEXT_1": "For mer hjelp og informasjon, se dokumentasjonen vår.",
+            "TEXT_2": "Vi håper du liker det!!",
+            "TEXT_3": "- BroodMinder-teamet",
+            "DONE": "Ferdig"
         }
     },
     "HOME": {
+        "HIVES": "Kuber",
         "APIARIES": "Birøkter",
         "EMPTY": {
             "TEXT_1": "Velkommen til MyBroodMinder! Dette er hjemmesiden!",
@@ -1528,755 +2282,26 @@
             "TEXT_LI_1B": "øverst til venstre for å legge til kuber, birøkter og enheter i kontoen din",
             "TEXT_LI_2": "Eller last ned BroodMinder Bees-appen for å administrere dem også."
         },
-        "HIVES": "Kuber"
-    },
-    "HUB_CRUD": {
-        "CREATE_TITLE": "Opprett hub",
-        "EDIT_TITLE": "Rediger hub",
-        "ERROR_ADDRESS": "Vennligst oppgi gyldig hub-adresse",
-        "ERROR_DUPLICATE": "Kunne ikke opprette, hub med den adressen eksisterer allerede",
-        "MODEL": "Modellnummer",
-        "NAME": "Navn",
-        "NAME_AUTO": "Bruk adressen over som navn",
-        "SIM": {
-            "ID": "Sim ID",
-            "TELECOM": "Telekom",
-            "TITLE": "Legg til sim"
-        },
-        "SUCCESS_CREATED": "Hub opprettet",
-        "SUCCESS_UPDATED": "Hub oppdatert",
-        "USERID": "Bruker-ID"
-    },
-    "HUB_PAGE": {
-        "ADDRESS": "Enhetsadresse",
-        "CHART_LOADING": "Laster nav-avlesninger",
-        "CHART_READINGS_LABEL": "avlesninger",
-        "CHART_READINGS_SENT": "Sendte avlesninger",
-        "CHART_SIGNAL": "Signal",
-        "CHART_TITLE": "Navavlesninger for {{name}}",
-        "DEVICES": {
-            "DEVICE": "Enhet",
-            "HIVE": "Kube",
-            "POSITION": "Posisjon",
-            "SIGNAL": "Signal",
-            "TIMESTAMP": "Opplastingstidspunkt",
-            "TITLE": "Opplastede enheter"
-        },
-        "FIRMWARE": "Fastvare",
-        "MODEL": "Modell",
-        "NAME": "Navn",
-        "READING_COUNT": "Grafiske avlesninger: {{count}}",
-        "TITLE": "{{name}}s nav",
-        "UPLOAD_TIME": "Siste opplastingstidspunkt"
-    },
-    "INSP_CATEG": {
-        "BEESBROODSTG": "Yngelstadier",
-        "FEEDING": "Foring",
-        "HEALTH": "Helse",
-        "MANAGE": "Administrer",
-        "MITES": "Midd"
-    },
-    "INSP_CONF": {
-        "APPLIES": {
-            "APIARY": "Bikupløkke",
-            "HIVE": "Kube"
-        },
-        "BROODADD": "La til yngelrammer",
-        "BROODREMOVE": "Fjernet yngelrammer",
-        "BUZZINGHIVE": "Leggende arbeidere",
-        "CANDIFEED": "Sukkerforing",
-        "COMBINEDHIVES": "Kombinerte kuber",
-        "DEFAULT": "Standard",
-        "DIVISION": "Deling",
-        "DRONE": "Tilstedeværelse av droner",
-        "DRONEBROOD": "Tilstedeværelse av droneyngel",
-        "EGG": "Tilstedeværelse av egg",
-        "HARVEST": "Høsting",
-        "HIGHBEES": "Høy bieaktivitet",
-        "HIGHBROOD": "Høy yngleaktivitet",
-        "HIGHRES": "Høy ressursaktivitet",
-        "INSTALLPKG": "Installert pakke",
-        "LARVA": "Tilstedeværelse av larver",
-        "LOWBEES": "Lav bieaktivitet",
-        "LOWBROOD": "Lav yngleaktivitet",
-        "LOWRES": "Lav ressursaktivitet",
-        "MITECOUNTLOUNGE": "Middtelling på klebrig brett",
-        "MITECOUNTWASH": "Middtelling ved vask",
-        "MITEFORMICPRO": "Middbehandling: Formic Pro",
-        "MITEOADRIBBLE": "Middbehandling: Oksalsyre Drypp",
-        "MITEOAVAPOR": "Middbehandling: Oksalsyre Damp",
-        "MITESTRIPADD": "Middbehandling: stripe tilføyd",
-        "MITESTRIPREMOVE": "Middbehandling: stripe fjernet",
-        "MOSAICBROOD": "Spredt yngel",
-        "NECTARFLOW": "Nektarstrøm",
-        "NOBEES": "Ingen bier",
-        "NOBROOD": "Ingen yngel",
-        "NORES": "Ingen ressurser",
-        "NORMBEES": "Moderat bieaktivitet",
-        "NORMBROOD": "Moderat yngleaktivitet",
-        "NORMRES": "Moderat ressursaktivitet",
-        "NUCLEUSHIVE": "Installert kjernkube",
-        "PATTIESFEED": "Foring med kaker",
-        "PUPA": "Tilstedeværelse av forpuppede yngel",
-        "QUEENABSENT": "Dronning fraværende",
-        "QUEENCELLSEEN": "Dronningcelle sett",
-        "QUEENINSERT": "Dronning satt inn",
-        "QUEENLINEAGE": "Dronningens opphav",
-        "QUEENSEEN": "Dronning sett",
-        "REQUEEN": "Gjeninnsettelse av dronning",
-        "SICK": "Syk",
-        "SPLITQUEENREMOVE": "Splitt med dronningfjerning",
-        "STARTFEED": "Start foring",
-        "STOLEN": "Stjålet kube",
-        "STOPFEED": "Stopp foring",
-        "SUPER+": "La til ekstra boks",
-        "SUPER-": "Fjernet ekstra boks",
-        "SWARM": "Sverming",
-        "SWARMMATEDQUEEN": "Sverm med paret dronning",
-        "SWARMRETURN": "Sverm og tilbake til kube",
-        "SYRUPFEED": "Sirupforing",
-        "VIRGINSWARM": "Jomfrusverm"
-    },
-    "LOCATION_CRUD": {
-        "ADVANCED": {
-            "ADMIN_SELECT": "Velg",
-            "ADVANCED": "Avansert",
-            "INCLUDE_TEMP": "Inkluder temperatur",
-            "SCALE_FACTOR": "Skaleringsfaktor",
-            "SCALE_FACTOR_REQUIRED": "Vekt skaleringsfaktor verdi påkrevd",
-            "USE_ALL": "Bruk alle avlesninger"
-        },
-        "CREATE": "Opprett",
-        "CREATE_TITLE": "Tildel enhet",
-        "EDIT_TITLE": "Rediger plassering",
-        "ERROR_DEVICE": "Enheten har en plassering som overlapper denne tiden",
-        "ERROR_GENERAL": "Feil ved oppretting av enhetsplassering",
-        "ERROR_HIVE": "Kuben har enhet som overlapper denne posisjonen",
-        "ERROR_INACTIVE_HIVE": "Plassering kan ikke ha sluttid etter kube inaktiv tid",
-        "ERROR_MOVE_TIME": "Kan ikke avslutte plassering før start, sett tid til etter {{currentEnd}}",
-        "ERROR_TIME": "Plassering har sluttid før starttid",
-        "MOVE_EXP": "Dette avslutter gjeldende plassering og starter en ny.",
-        "MOVE_TITLE": "Flytt enhet",
-        "MOVED_DAY": "Ny plassering startdag",
-        "MOVED_TIME": "Tid",
-        "SELECT_APIARY": "Velg bihage",
-        "SELECT_DEVICE": "Velg enhet",
-        "SELECT_HIVE": "Velg kube",
-        "SELECT_POSITION": "Velg posisjon",
-        "START_DAY": "Startdag",
-        "START_TIME": "Starttid",
-        "STOP_DAY": "Stoppdag",
-        "STOP_TIME": "Sluttid",
-        "SUCCESS_ENDED": "Gjeldende plassering avsluttet",
-        "SUCCESS_MOVED": "Enhet flyttet til kube"
-    },
-    "LOCATION_HIST": {
-        "CURRENT": "nåværende",
-        "DELETE_WINDOW": {
-            "CONFIRM": "Ja",
-            "MESSAGE": "Vil du fjerne denne enhetsplasseringen?",
-            "TITLE": "Fjern plassering"
-        },
-        "DEVICE_ADDRESS": "Enhetsadresse",
-        "DEVICE_NAME": "Enhetsnavn",
-        "END": "Slutt",
-        "HIVE": "Kube",
-        "MOVE": "Flytt",
-        "POSITION": "Posisjon",
-        "START": "Start"
-    },
-    "LOGIN": {
-        "LOGIN": {
-            "EMAIL": "E-post",
-            "ERROR": {
-                "EMAIL": "Ingen konto eksisterer for denne e-posten.",
-                "GENERAL": "Innlogging mislyktes.",
-                "PASSWORD": "Feil brukernavn/passord."
-            },
-            "FORGOT_LINK": "Glemt passord",
-            "LOGIN_BTN": "Logg inn med e-post",
-            "PASSWORD": "Passord",
-            "RESET": "Send tilbakestillings-e-post",
-            "RESET_ERROR": "Feil, e-post ikke sendt.",
-            "RESET_SUCCESS": "Tilbakestillings-e-post sendt til {{value}}",
-            "TITLE": "Logg inn på eksisterende konto"
-        },
-        "LOGIN_MENU": "Logg inn",
-        "REGISTER": {
-            "EMAIL": "E-post",
-            "ERROR": {
-                "DUPLICATE": "E-postadressen er allerede i bruk av en annen konto.",
-                "EMAIL": "E-postadressen er dårlig formatert.",
-                "GENERAL": "Kan ikke opprette konto.",
-                "PASSWORD": "Passordet er ikke sterkt nok."
-            },
-            "EULA": {
-                "AGREE": "Jeg godtar",
-                "DESCRIPTION": "Vi ber deg deretter om å være enig i følgende uttalelser for å bruke denne SaaS birøktprogramvaren:",
-                "POINT_1": "Jeg plasserer dataene jeg laster opp eller legger inn i denne tjenesten i Public Domain. Som sådan kan mybroodminder.com bruke dataene, i anonym form, til å dele med allmennheten.",
-                "POINT_2": "Jeg forstår at mybroodminder.com vil gjøre sitt beste for ikke å utsette noen personlig identifiserbar informasjon (PII) som brukernavnet mitt, passordet mitt og postnummeret mitt, men at mybroodminder.com ikke kan holdes ansvarlig for hacking eller andre metoder for dataeksponering.",
-                "POINT_3": "Jeg forstår at mybroodminder.com vil gjøre sitt beste for å lagre og sikkerhetskopiere all data som lastes opp eller legges inn i det, men at mybroodminder.com ikke kan holdes ansvarlig for datatap.",
-                "POINT_4": "Jeg forstår at mybroodminder.com er et separat selskap fra andre leverandører som kan integrere enhetene sine i mybroodminder.com, og at mybroodminder.com ikke er ansvarlig for de leverandørenes handlinger.",
-                "POINT_5": "Jeg forstår at mybroodminder.com er et sted der birøktere og entomologer kan utveksle informasjon, og jeg vil oppføre meg høflig til enhver tid. Jeg forstår at manglende overholdelse av dette kan føre til at kontoen min blir avsluttet etter personalets skjønn hos mybroodminder.com.",
-                "TITLE": "MyBroodMinder.com EULA (Sluttbrukerlisensavtale) v1.1"
-            },
-            "PASSWORD": "Passord",
-            "REGISTER_BTN": "Registrer e-post",
-            "TITLE": "Registrer ny konto"
-        },
-        "REGISTER_MENU": "Registrer"
-    },
-    "MEMBERSHIP": {
-        "12_MONTH": "12 måneder",
-        "1_DEVICE": "1 enhet om gangen",
-        "ALL_DEVICE": "alle enheter samtidig",
-        "BUY": "Kjøp nå",
-        "CELL_HUB": "CELL HUB",
-        "COLONY_BROOD": "KOLONI BRØD",
-        "COLONY_FITNESS": "KOLONI FITNESS",
-        "DAILY_ALERTS": "DAGLIGE ALARMER",
-        "DATA_DISPLAY": "DATAVISNING",
-        "DATA_UPLOADING": "DATAOPPLASTING",
-        "EMAIL_SUMMARY": "E-POSTSAMMENDRAG",
-        "FREE_STORAGE": "GRATIS LAGRING PÅ SKYEN",
-        "FULL_HIST": "full historie",
-        "FULL_SUPPORT": "PREMIUM STØTTE",
-        "HOBBY": "HOBBY",
-        "HOBBY_PRICE": "GRATIS",
-        "HUB_INFO": "Mulighet til å bruke en smarttelefon i stedet for en hub for å laste opp sanntidsdata",
-        "HUB_MODE": "HUB-MODUS",
-        "INFO_1": "Medlemskapet inkluderer en gratis token for wifi-enheter. Ekstra tokens må kjøpes for cell hubs.",
-        "INFO_2": "Flere Yolink-enheter kan legges til kontoen din (se brukerhåndbok)",
-        "LOGIN": "Logg Inn/Registrer",
-        "MBM_VIEWS": "MYBROODMINDER PREMIUM VIEWS",
-        "MBM_VIEWS_INFO": "Apiary- og produktivitetsvisninger/diagrammer",
-        "MONTH": "Måned",
-        "MONTHLY": "MÅNEDLIG",
-        "MS_VIEWS": "MELLISPHERA VIEWS",
-        "PREMIUM": "PREMIUM",
-        "PRIVATE_APIARY": "PRIVATE BIKUBE",
-        "PRO": "PRO",
-        "PUBLIC_APIARY": "PUBLIC BIKUBE",
-        "PUBLIC_INFO": "på BeeCounted.org",
-        "PURCHASE_MEMBERSHIP": "Kjøp Medlemskap",
-        "PURHASE_TOKENS": "Kjøp Tokens",
-        "REALTIME_ALERTS": "SANNTIDSLARMER",
-        "SUB_HUB": "SUBHUB",
-        "SUPPORT": "STØTTE",
-        "THIRD_PARTY": "TREDJEPARTSENHETER",
-        "TITLE_2": "BROODMINDER ENHETER OG BIKUBE-APP",
-        "UNLIMITED_DEVICES": "UBEGRENSEDE ENHETER",
-        "WIFI_HUB": "WIFI HUB",
-        "YEAR": "År",
-        "YEARLY": "ÅRLIG"
-    },
-    "NOTE_CRUD": {
-        "ADD_TAG": "Legg til tagg",
-        "APIARY": {
-            "STATE": "Generell tilstand"
-        },
-        "CREATE_TITLE": "Opprett merknad",
-        "DATE": "Dato",
-        "EDIT_TITLE": "Rediger merknad",
-        "ERROR_TIME": "Ugyldig tid",
-        "NO_HIVE": "Ingen kube",
-        "SUCCESS_CREATED": "Merknad opprettet i kube",
-        "SUCCESS_UPDATED": "Merknad oppdatert i kube"
-    },
-    "NOTES": {
-        "ADD_TOOLTIP": "Legg til merknad",
-        "DATE": "Dato",
-        "DELETE_WINDOW": {
-            "CONFIRM": "Ja",
-            "MESSAGE": "Vil du slette denne merknaden?",
-            "TITLE": "Slett merknad"
-        },
-        "DESCRIPTION": "Beskrivelse",
-        "DOWNLOAD_TOOLTIP": "Last ned notater",
-        "HIVE": "Kube",
-        "NO_DESCRIPTION": "ingen beskrivelse",
-        "PIN": "Pin",
-        "PREMIUM_EXP": "Nedlasting av notater tilgjengelig med premium-abonnement.",
-        "TITLE": "{{value}} Merknader"
-    },
-    "POSITIONS": {
-        "ABOVE_LOWER_BROOD_BOX": "Over nedre yngelkasse",
-        "ABOVE_UPPER_BROOD_BOX": "Over øvre yngelkasse",
-        "CUSTOM_1": "Tilpasset (1)",
-        "CUSTOM_2": "Tilpasset (2)",
-        "CUSTOM_3": "Tilpasset (3)",
-        "CUSTOM_4": "Tilpasset (4)",
-        "CUSTOM_5": "Tilpasset (5)",
-        "CUSTOM_6": "Tilpasset (6)",
-        "CUSTOM_7": "Tilpasset (7)",
-        "OTHER": "Annet",
-        "OUTSIDE_HIVE": "Utenfor kube",
-        "SCALE_UNDER_HIVE": "Skala under kube",
-        "SCALE_UNDER_HIVE_BACK": "Skala under kube (bak)",
-        "UNDER_INNER_COVER": "Under indre deksel"
-    },
-    "PREFERENCES": {
-        "ALERTS_EMAIL": "Varsler via e-post [BETA]",
-        "INTERPOLATE": "Interpoler diagrammer (koble alle punkter, selv om det er datagap over 8 timer)",
-        "LANGUAGE": "Språk",
-        "LANGUAGE_DEFAULT": "Nettleserstandard",
-        "SAVE": "Lagre",
-        "TIMEZONE": "Tidssone",
-        "TIMEZONE_DEFAULT": "Nettleserstandard",
-        "UNIT": "Enhet",
-        "UNIT_DEFAULT": "Standard",
-        "UNIT_IMPERIAL": "Imperial (Fahrenheit/Pounds)",
-        "UNIT_METRIC": "Metrisk (Celsius/Kilogram)"
-    },
-    "PURCHASE": {
-        "ACCOUNT": {
-            "AMOUNT": "Automatisk fornyelsesbeløp",
-            "BILLING": {
-                "TITLE": "Oppdater faktureringsadresse",
-                "UPDATE": "Oppdater"
-            },
-            "CANCEL": {
-                "CONFIRM_WINDOW": {
-                    "CANCEL": "Nei",
-                    "CONFIRM": "Ja",
-                    "MESSAGE": "Dette avbryter fremtidige betalinger. Medlemskapet ditt og hubene vil fortsatt være funksjonelle til {{expiration}}. Vil du avbryte?",
-                    "TITLE": "Avbryt MyBroodMinder Premium-abonnement"
-                },
-                "GENERAL_ERROR": "Feil oppstod. Abonnementet ble ikke kansellert",
-                "SUCCESS": "Abonnementet ble kansellert"
-            },
-            "CANCEL_BUTTON": "Avbryt abonnement",
-            "DATE": "Automatisk fornyelsesdato",
-            "MONTH_SUB": "Månedsmedlemskap - Automatisk fornyelse",
-            "PAYMENT": {
-                "BILLING": "Faktureringsadresse",
-                "BILLING_UPDATE": "Oppdater faktureringsadresse",
-                "CARD": "{{type}} slutter på {{last4}}",
-                "CARD_UPDATE_BUTTON": "Oppdater betalingsmetode",
-                "EDIT": {
-                    "TITLE": "Oppdater betalingsmetode",
-                    "UPDATE_BUTTON": "Oppdater betaling",
-                    "WARN": "Sletting av abonnementsbetalingsmetoden uten å først bekrefte og oppdatere til en ny vil kansellere abonnementet ditt."
-                },
-                "NOT_FOUND": "Ikke funnet",
-                "TITLE": "Betalingsmetode"
-            },
-            "PRICE": "Medlemspris",
-            "STATUS": "Status",
-            "TITLE": "Abonnement",
-            "YEAR_SUB": "Årsmedlemskap - Automatisk fornyelse"
-        },
-        "ADDITIONAL": {
-            "CONFIRM": "Utfør betaling",
-            "MESSAGE": "Kjøpte tokens belastes medlemskapet ditt. {{amount}} vil bli belastet kortet på abonnementet ditt.",
-            "TITLE": "Kjøp Tokens"
-        },
-        "BILLING": {
-            "COUNTRY_CODE": "Landkode",
-            "LOCALITY": "By",
-            "POSTAL_CODE": "Postnummer",
-            "REGION": "Region",
-            "STREET_ADDRESS_1": "Gateadresse",
-            "STREET_ADDRESS_2": "Gateadresse 2",
-            "TITLE": "Faktureringsadresse"
-        },
-        "CUSTOMER": {
-            "EMAIL": "E-post",
-            "FIRST_NAME": "Fornavn",
-            "LAST_NAME": "Etternavn"
-        },
-        "PAY": {
-            "ADDRESS_ERROR": "Manglende påkrevde felt",
-            "COMPLETE": {
-                "AR_AMOUNT": "Automatisk fornyelsesbeløp",
-                "AR_DATE": "Automatisk fornyelsesdato",
-                "ID": "Ordrenummer",
-                "LINK_1": "Klikk",
-                "LINK_2": "for å se medlemskapene.",
-                "LINK_LINK": "her",
-                "RECEIPT": "Kvittering sendt",
-                "STATUS": "Status",
-                "SUCCESS": "Kjøpet er fullført.",
-                "TAX": "Skatt",
-                "TOTAL": "Totalt betalt"
-            },
-            "PAY_BUTTON": "Utfør betaling",
-            "RENEW_DISCLAIMER": "Automatisk fornyelse av abonnementet. Du blir belastet {{amount}} {{frequency}}.",
-            "TITLE": "Betalingsinformasjon",
-            "VERIFY_BUTTON": "Bekreft betalingsmetode"
-        },
-        "PRODUCTS": {
-            "CELL_HUB": "Cell Hub Token",
-            "CELL_HUB_SINGLE": "Cell Hub (Enhet) Token",
-            "MEMBERSHIP": "Premiummedlemskap",
-            "THIRD_PARTY": "Tredjepartsenheter Token",
-            "WIFI_HUB": "Wifi Hub Token",
-            "WIFI_HUB_FREE": "Wifi Hub Token (Gratis)"
-        },
-        "SUMMARY": {
-            "ADD_ERROR_1": "Klikk",
-            "ADD_ERROR_2": "her",
-            "ADD_ERROR_3": "for å legge til tokens i gjeldende medlemskap.",
-            "ERROR_1": "Du har allerede kjøpt et medlemskap. Klikk",
-            "ERROR_2": "for å se medlemskapene.",
-            "ERROR_LINK": "her",
-            "MONTH_PREM": " Måned Premium-abonnement - Automatisk fornyelse",
-            "MONTH_PRO": " Måned Pro-abonnement - Automatisk fornyelse",
-            "PRICE": " Medlemspris",
-            "QUANTITY": "1 medlemskap med {{quantity}} ekstra tokens",
-            "TITLE": "Kjøper Premium-abonnement",
-            "TITLE_ADDING": "Kjøper Tokens",
-            "TOTAL": "Totalt",
-            "YEAR_PREM": " Års Premium-abonnement - Automatisk fornyelse",
-            "YEAR_PRO": " Års Pro-abonnement - Automatisk fornyelse"
-        },
-        "TABLE": {
-            "ADD": "Legg til i handlekurv",
-            "HEADERS": {
-                "AUTO": "Automatisk fornyelse",
-                "EXPIRES": "Utløper",
-                "PRICE": "Pris",
-                "PRODUCT": "Produkt",
-                "PRORATED_PRICE": "Proratert pris",
-                "RENEW": "Fornyes",
-                "START": "Starter"
-            },
-            "NEW": "Nytt produkt",
-            "PURCHASE": "Kjøp",
-            "REMOVE": "Fjern",
-            "REMOVE_CART": "Fjern fra handlekurv",
-            "SELECT_TOKEN": "Velg token",
-            "TOTAL": "Totalt",
-            "TOTAL_NOW": "Totalt (Forfaller nå)",
-            "TOTAL_YEAR": "Årlig total (Forfall {{date}})"
+        "BLOCKED": {
+            "TITLE": "Hjem",
+            "MISSING": "Det du mangler!",
+            "DESCR_HIVES": "En rask oversikt over den nåværende tilstanden til kubene dine. Viser notater, varsler og helsestatistikk.",
+            "DESCR_APIARIES": "En rask oversikt over den nåværende tilstanden til birøktmiljøet ditt. Viser notater, varsler, vær og prognoser"
         }
     },
-    "RESEARCH_DOWNLOAD": {
-        "A_NAME": "NAVN",
-        "APIARY_DOWNLOAD_BUTTON": "Last ned full apiary",
-        "DOWNLOAD_STATUS": "Nedlastingsstatus",
-        "H_NAME": "NAVN",
-        "HIVE_DOWNLOAD_BUTTON": "Last ned",
-        "LAST_DATA": "Siste data"
-    },
-    "RESOURCES": {
-        "DESCRIPTION": "Takk for at du blir med i BroodMinder-bevegelsen der vi lærer og deler informasjon for å forbedre forståelsen og forvaltningen av våre dyrebare honningbier.",
-        "DESCRIPTION_1": "Sjekk ut våre oppdateringer for våren 2020, inkludert 'SwarmMinder' -oppdateringer for BroodMinder-T2-enhetene dine. Se videoen ",
-        "DESCRIPTION_1_LINK": "her.",
-        "DESCRIPTION_2": " Hjertelig takk til Google og <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a> for deres generøse støtte til BroodMinder Citizen Science.",
-        "LINKS": {
-            "BEECOUNTED": "BeeCounted",
-            "LOGIN": "Logg inn",
-            "SUPPORT": "Støtte",
-            "TITLE": "Lenker",
-            "USER_GUIDE_PDF": "Skrevet Brukerveiledning (PDF)",
-            "USER_GUIDE_VIDEO": "Video Brukerveiledninger"
-        },
-        "SUBTITLE": "Her finner du mange ressurser slik at du kan begynne å bidra til å lære mer om biene våre.",
-        "TITLE": "Ressurser"
-    },
-    "SHARE_BUTTON": {
-        "BUTTON": "Del",
-        "EDIT": "Rediger delte lenker",
-        "SHARE_HIVE": "Del denne bikuben"
-    },
-    "SHARE_LINK_CRUD": {
-        "CREATE": "Del",
-        "CREATE_SUBTITLE_1": "Vi vil opprette en lenke som du kan dele med venner eller lime inn i andre applikasjoner som Facebook.",
-        "CREATE_SUBTITLE_2": "Folk kan se dataene uten innlogging, men de kan ikke endre det eller se data utenfor tidsområdet.",
-        "CREATE_SUCCESS_TITLE": "Offentlig lenke opprettet!",
-        "CREATE_TITLE": "Opprett offentlig lenke",
-        "DASHBOARD": "Instrumentbord",
-        "DELETE": "Slett",
-        "DELETE_WINDOW": {
-            "CONFIRM": "Slett",
-            "MESSAGE": "Ønsker du å slette denne offentlige lenken? Denne handlingen kan ikke angres.",
-            "TITLE": "Slett offentlig lenke"
-        },
-        "DESCRIPTION": "Beskrivelse",
-        "EDIT_SUCCESS_TITLE": "Offentlig lenke oppdatert!",
-        "EDIT_TITLE": "Rediger offentlig lenke",
-        "ERROR": "Feil ved opprettelse av lenke",
-        "FORECAST": "Inkluder varsel",
-        "HISTORY": {
-            "CREATED": "Opprettet",
-            "LINK": "Lenke",
-            "TITLE": "Offentlige lenker for {{hiveName}}"
-        },
-        "HIVES": "Bikuber",
-        "NOTES": "Inkluder notater",
-        "SUCCESS_CREATED": "Lenke opprettet",
-        "SUCCESS_DELETED": "Lenke slettet",
-        "SUCCESS_UPDATED": "Lenke oppdatert",
-        "TIME_RANGE": "(glidende rekkevidde)",
-        "TIME_SET": "Del data fra {{start}} til {{end}}",
-        "TIME_ZOOM": "Del gjeldende visning {{start}} til {{end}}",
-        "TIMEZONE": {
-            "BROWSER": "Nettleserstandard",
-            "TITLE": "Tidssone"
-        },
-        "UNITS": {
-            "BROWSER": "Nettleserstandard",
-            "IMPERIAL": "Imperial",
-            "METRIC": "Metrisk",
-            "TITLE": "Enheter"
-        },
-        "UPDATE": "Oppdater",
-        "WEATHER": "Vær"
-    },
-    "SHARING": {
-        "BEECOUNTED": {
-            "CHANGED": "Apiary oppdatert",
-            "CHECKBOX": "BeeCounted.org",
-            "EXPIRED": "Premium-medlemskapet er utløpt. Data er private bare før {{end}}.",
-            "INFO_CHECKED": "Takk for at du deler dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle intervensjoner for våre verdifulle honningbier og miljøet vårt.",
-            "INFO_NON_PREMIUM": "Alle data som lagres for ikke-premiumbrukere, er offentlig eiendom. Data kan gjøres private hvis du har en MyBroodMinder Premium-konto. Takk for at du deler dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle intervensjoner for våre verdifulle honningbier og miljøet vårt.",
-            "INFO_UNCHECKED": "Vennligst vurder å dele dataene dine. Du hjelper forskere over hele verden med å lære om og utvikle intervensjoner for våre verdifulle honningbier og miljøet vårt."
-        },
-        "BIP": {
-            "CHANGED": "Apiary oppdatert",
-            "CHECKBOX": "Bee Informed Partnership",
-            "INFO": "Kommer snart"
-        },
-        "EXT_SUBTITLE": "Del apiary til andre nettsteder",
-        "HIVES": {
-            "CHANGED": "Kube oppdatert",
-            "DESCRIPTION": "Beskrivelse",
-            "NAME": "Navn",
-            "SHARE": "Del",
-            "SHARE_EXPIRED": "Premium-medlemskapet er utløpt. Data er private bare før {{end}}.",
-            "TITLE": "Kuber delt til andre nettsteder"
-        },
-        "MBM_TITLE": "Del apiary til MyBroodMinder-bruker",
-        "MELLISPHERA": {
-            "ACTIVE_WINDOW": {
-                "MESSAGE": "Klikk nedenfor for å aktivere Mellisphera-kontoen din.",
-                "TITLE": "Aktiver Mellisphera-konto"
-            },
-            "CHANGED": "Apiary oppdatert",
-            "CHECKBOX": "Mellisphera (Beta)",
-            "INFO_ACCOUNT": "Vis apiary i min Mellisphera-konto",
-            "INFO_NO_ACCOUNT": "Konto ikke tilknyttet Mellisphera"
-        },
-        "PH": {
-            "CHANGED": "Apiary oppdatert",
-            "CHECKBOX": "Bee-life.eu",
-            "EXTERNAL_INFO": "Lær mer",
-            "INFO": "Del sensordataene dine med Bee Life Association gjennom European Union Pollinator Hub for å forbedre pollinatorpolitikken ved å dra nytte av avansert teknologi og datadrevne innsikter samlet inn av birøktere.\n\nData som deles:\n- alle enheter i denne apiary med råmålinger.\n- en grov plassering av apiary basert på postnummer.\n\nData sendes daglig til BeeLife."
-        },
-        "REMOVE_SELF": {
-            "CONFIRM": "Fjern Apiary",
-            "GENERIC_ERROR": "Feil, apiary ikke fjernet",
-            "MESSAGE": "Vil du fjerne den delte apiaryen {{name}} fra kontoen din?",
-            "SUCCESS_REMOVED": "Apiary fjernet",
-            "TITLE": "Fjern delt apiary"
-        },
-        "TITLE": "{{name}} Deling",
-        "USER": {
-            "ADD_SUCCESS": "Bruker lagt til",
-            "ADD_TOOLTIP": "Legg til bruker",
-            "ADD_USER": "Skriv inn e-post",
-            "ERROR_NO_USER": "Brukeren eksisterer ikke.",
-            "INFO": "Brukeren må allerede ha en konto hos MyBroodMinder. De vil få lov til å se apiary- og kube-dataene dine, men ikke gjøre noen endringer.",
-            "REMOVE": "Fjern",
-            "REMOVE_SUCCESS": "Bruker fjernet",
-            "SHARE_BUTTON": "Del",
-            "TITLE": "MyBroodMinder-brukere"
-        }
-    },
-    "SIDEBAR": {
-        "APIARY_CONTEXT": {
-            "BEECOUNTED": "BeeCounted",
-            "EDIT": "Rediger {{value}}",
-            "NEW_HIVE": "Ny kube",
-            "REMOVE_SHARED_APIARY": "Fjern delt bikuplass",
-            "RESEARCH_DOWNLOAD": "Nedlasting av forskerdata",
-            "SHARE": "Del"
-        },
-        "CLEAR_SEL": "Fjern alle valg",
-        "CONFIGURE": "Konfigurer",
-        "DEVICE_CONTEXT": {
-            "EDIT": "Rediger {{value}}",
-            "EDIT_LOCATION": "Rediger gjeldende plassering",
-            "MOVE": "Flytt enhet"
-        },
-        "DOCUMENTATION": "Dokumentasjon",
-        "HIVE_CONTEXT": {
-            "ARCHIVE": "Sett kube som inaktiv",
-            "BEECOUNTED": "BeeCounted",
-            "EDIT": "Rediger {{value}}",
-            "EXISTING_DEVICE": "Legg til eksisterende enhet",
-            "MOVE": "Flytt kube",
-            "NEW_DEVICE": "Legg til ny enhet"
-        },
-        "HOME": "Hjem",
-        "HUB_CONTEXT": {
-            "REMOVE": "Fjern {{value}} fra meny"
-        },
-        "HUB_TOOLTIP": "Hub",
-        "LOCAL_SOURCE": "Lokal kilde",
-        "MEMBERSHIPS": "Medlemsalternativer",
-        "MULTI_SELECT": "Flere valg",
-        "NEW": {
-            "APIARY": "Bikuplass",
-            "APIARY_NOTE": "Bikup-notat",
-            "DASHBOARD": "Tilpasset Dashbord",
-            "DEVICE": "Enhet",
-            "HIVE": "Kube",
-            "HIVE_NOTE": "Kube-notat",
-            "TITLE": "Nytt"
-        },
-        "NEW_FEATURES": "Nye funksjoner",
-        "RESOURCES": "Ressurser",
-        "SHARED_TOOLTIP": "delt med meg",
-        "SUPPORT_EMAIL": "E-post support@broodminder.com",
-        "WEATHER_CONTEXT": {
-            "ADD_SOURCE": "Legg til kilde",
-            "EDIT": "Rediger vær",
-            "EDIT_SOURCES": "Rediger kilder",
-            "INFO": "Mer informasjon",
-            "NAME": "Vær"
-        },
-        "WEATHER_INFO": {
-            "TEXT": "Disse værdataene kommer fra WeatherSource. De er basert på postnummeret som er oppgitt på bikuplassen din.",
-            "TITLE": "WeatherSource Weather"
-        },
-        "WEATHER_SOURCE": "Værkilde"
-    },
-    "SUBS": {
-        "COMMON": {
-            "FREE": "gratis",
-            "FREE_CAP": "Gratis",
-            "MONTHLY": "månedlig",
-            "MONTHLY_CAP": "Månedlig",
-            "PREPAID": "forhåndsbetalt",
-            "PREPAID_CAP": "Forhåndsbetalt",
-            "YEARLY": "årlig",
-            "YEARLY_CAP": "Årlig"
-        },
-        "EXP": {
-            "CREDIT_CANCELLED": "Ikke-fornyende, utløper {{expiration}}",
-            "CREDIT_EXPIRED": "Utløpt {{expiration}}",
-            "CREDIT_EXPIRING": "Utløper {{expiration}}",
-            "CREDIT_FREE_RENEWING": "Gratis, utløper {{expiration}}",
-            "CREDIT_PREPAID_RENEWING": "Forhåndsbetalt, utløper {{expiration}}",
-            "NOT_ACTIVE": "Ikke aktiv",
-            "PENDING": "Betaling pågår",
-            "SUB_CANCELLED": "Ikke-fornyende, utløper {{expiration}}",
-            "SUB_EXPIRED": "Utløpt {{expiration}}",
-            "SUB_EXPIRING": "Utløper {{expiration}}",
-            "SUB_RENEWING": "Fornyes {{expiration}}",
-            "TRIAL": "Prøvemedlemskap, utløper {{expiration}}"
-        }
-    },
-    "TOP_MENU": {
-        "ACCOUNT": "Konto",
-        "ADMIN": "Admin",
-        "HELP": "Hjelp",
-        "LOGIN": "Logg inn",
-        "LOGOUT": "Logg ut",
-        "REGISTER": "Registrer",
-        "RESOURCES": "Ressurser",
-        "TOUR": "Tur"
-    },
-    "TOUR": {
-        "FEATURES": {
-            "CLOSE": "Lukk",
-            "FEATURE_1": "Første gang, opprett kube",
-            "FEATURE_2": "Se data",
-            "FEATURE_3": "Konfigurer og flytt enheter",
-            "FEATURE_4": "Vis CELL/WiFi/Hub-status",
-            "NEXT": "Neste",
-            "SKIP": "Hopp over",
-            "TITLE": "Funksjonstur"
-        },
-        "START": {
-            "DESCRIPTION": "Velkommen til det nye MyBroodMinder!",
-            "SEE": "Se funksjoner",
-            "SKIP": "Hopp over",
-            "TITLE": "Velkommen!!"
-        }
-    },
-    "UNAUTHORIZED_PAGE": {
-        "TITLE": "Uautorisert"
-    },
-    "VIDEO_GUIDES": {
-        "APPS": {
-            "LINK_1": "S1:E14 BroodMinder-Bees App",
-            "LINK_2": "Apiary App - Hub Mode",
-            "TITLE": "Apper"
-        },
-        "BLOGMINDER": {
-            "TITLE": "BlogMinder Videoer"
-        },
-        "DISCONTINUED": {
-            "APIARY_APP": {
-                "LINK_1": "Normal bruk",
-                "LINK_2": "Ny - Hub Mode",
-                "TITLE": "Apiary App (sky)"
-            },
-            "BROODMINDER_APP": {
-                "LINK_1": "Normal bruk",
-                "LINK_2": "Dataeksport",
-                "TITLE": "Original App (stående alene)"
-            },
-            "CELL_APP": {
-                "LINK_1": "Diagnostikk",
-                "TITLE": "CELL App"
-            },
-            "ORIGINAL_CELL_WIFI": {
-                "LINK_1": "BroodMinder-CELL/WIFI (Gjennom juli 2021)",
-                "TITLE": "Original CELL/WIFI"
-            },
-            "TITLE": "Utgåtte produkter",
-            "TROUBLESHOOT": {
-                "LINK_1": "Årlig vedlikehold",
-                "LINK_2": "Batterier",
-                "LINK_3": "T2 Firmware Update versjon 2.77",
-                "TITLE": "Feilsøking"
-            }
-        },
-        "HOW_TO": "Hvordan bruke denne veiledningen",
-        "IN_PROGRESS": "Pågår",
-        "INSTALLATION": {
-            "LINK_1": "Hurtigstart med CS Kit",
-            "LINK_2": "Hvilken APP skal jeg velge?",
-            "LINK_3": "BroodMinder ASP-installasjon",
-            "LINK_4": "BroodMinder-SubHub",
-            "LINK_5": "BroodMinder-WIFI",
-            "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMinder-W3 Full kube skala",
-            "LINK_8": "S1:E19 BroodMinder-DIY",
-            "TITLE": "Installasjon"
-        },
-        "INTERPRETATION": {
-            "LINK_1": "S1:E4 BroodMinder og Mellisphera",
-            "LINK_2": "S1:E3 Kolonistørrelse vs temperatur",
-            "LINK_3": "S1:E8 Svømmeoppdagelsespresentasjon",
-            "TITLE": "Datatolkning"
-        },
-        "MAINTENANCE": {
-            "LINK_1": "S1:E1 Hiveovervåking vårvedlikehold",
-            "LINK_2": "S1:E18 Batterier",
-            "TITLE": "Vedlikehold"
-        },
-        "MYBROODMINDER": {
-            "LINK_1": "Kom i gang",
-            "LINK_2": "Dataoversikter",
-            "LINK_3": "Konfigurasjon",
-            "LINK_4": "Flytte enheter",
-            "LINK_5": "Cell, WIFI og Hub-overvåking",
-            "LINK_6": "Alternativ navigasjon",
-            "LINK_7": "MyBroodMinder.com Premium",
-            "TITLE": "MyBroodMinder"
-        },
-        "TITLE": "BroodMinder Video Brukerveiledning"
-    },
-    "WEATHER_PAGE": {
-        "DESCRIPTION": "Denne visningen viser Weather Source værdata for bigårdens plassering, sammen med eventuelle brukerinnstilte værkilder",
-        "HUMIDITY": "Luftfuktighet",
-        "SOURCES": "Værkilder",
-        "TEMPERATURE": "Temperatur",
-        "TITLE": "Vær"
+    "MEMBERSHIP_BLOCKS": {
+        "DASHBOARD_DATA": "Denne dashbordet viser beregnede data. Ditt gratis medlemskap inkluderer ikke disse analysene.",
+        "CHART_DATA": "Denne grafen viser beregnede data. Ditt gratis medlemskap inkluderer ikke disse analysene.",
+        "DASHBOARD_ADD": "Bare ett tilpasset dashbord er tillatt med ditt gratis medlemskap",
+        "UNLOCK": "Oppgrader kontoen din for å låse opp denne funksjonen",
+        "HIVE_ADD_FREE": "Du har {{activeHiveCount}} aktive kuber. Ditt gratis medlemskap tillater {{hivesAllowed}}.",
+        "HIVE_ADD": "Du har {{activeHiveCount}} aktive kuber. Medlemskapet ditt tillater {{hivesAllowed}}.",
+        "HOME_PAGE": "Denne visningen viser beregnede data. Ditt gratis medlemskap inkluderer ikke disse analysene.",
+        "DATE_PICKER": "Oversikt over 13 måneder og prognose er ikke tilgjengelig på et gratis medlemskap.",
+        "HUB_DATA": "Hub-data er ikke lastet opp med ditt gratis medlemskap",
+        "THIRDPARTY_DATA": "Data fra tredjepart er ikke lastet opp med ditt gratis medlemskap",
+        "MISSING_FEATURE": "Denne funksjonen er ikke tilgjengelig uten et medlemskap.",
+        "MISSING_FEATURE_CLOSE": "Lukk",
+        "MISSING_FEATURE_UPGRADE": "OPPGRADER"
     }
 }
