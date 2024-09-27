@@ -45,7 +45,7 @@
             "PRODUCT":{
                 "TITLE":"Products",
                 "NEW":"MyBroodminder Premium {{.count}} hives for 1 year. (Renews on {{.date}}) {{.amount}}",
-                "UPGRADE":"MyBroodminder Premium upgrade to %v hives per year. (Renews on %v) %v",
+                "UPGRADE":"MyBroodminder Premium upgrade to %v hives per year. (Renews on %v) %v"
             },
             "CUSTOMER":{
                 "TITLE":"Customer",
