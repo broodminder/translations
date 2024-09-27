@@ -1,75 +1,75 @@
 {
-    "ACCOUNT": {
-       "CANCELED":{
-            "SUBJECT":"MyBroodMinder Premium Expiring",
-            "SUBJECT_COMP":"MyBroodMinder Complimentary Premium Membership Ending",
-            "MESSAGE1":"Your MyBroodMinder Premium Membership has been canceled. Your premium benefits cease in two weeks.",
-            "MESSAGE1_COMP":"Your MybroodMinder Complimentary Premium Membership is expiring. Your premium benefits cease in two weeks.",
-            "HEADER":"If you do nothing",
-            "MESSAGE2":"If you would like to re-subscribe,",
-            "MESSAGE3":"follow this link.",
-            "MESSAGE4":"Your subscription helps support our on-going efforts to improve beekeeping. Many of our team members generously volunteer their time and expertise, but we also have younger colleagues who are dedicated full-time and rely on a salary."
-        },
-        "EXPIRED":{
-            "SUBJECT":"MyBroodMinder Premium Membership Expired",
-            "MESSAGE1":"Your MyBroodMinder Premium Membership expired yesterday. Your premium benefits have ceased.",
-            "HEADER":"Without a membership"
-        },
-        "RENEWAL":{
-            "SUBJECT":"MyBroodMinder Premium",
-            "MESSAGE1":"Your MyBroodMinder Premium Membership will be renewing in 2 weeks.",
-            "MESSAGE2":"Thank you for your support. Many of our team members generously volunteer their time and expertise, but we also have younger colleagues who are dedicated full-time and rely on a salary. Your support allows us to continue to evolve and enhance the world’s leading hive monitoring solution.",
-            "PRODUCT":"Product",
-            "PRODUCT_GENERIC":"MyBroodminder Premium Membership ({{.count}} hives)"
-        },
-        "WARNING":{
-            "HUBS":"Your {{.count}} hubs will no longer upload data.",
-            "HIVES":"You have {{.count}} hives, but your membership allows {{.allowCount}}. You will need to deactivate {{.deactCount}} hives.",
-            "THIRD_PARTY":"Your {{.count}} third party devices will no longer upload data.",
-            "ACCOUNT":"You will no longer have access to Premium features. Including but not limited to calculated data, alerts, and forecasts."
-        }
-    },
-    "RECEIPT": {
-        "PURCHASE": {
-            "SUBJECT": "Thank You for Supporting BroodMinder!",
-            "MESSAGE1": "Thank you for purchasing a MyBroodMinder Premium Membership!",
-            "MESSAGE2": "By joining us, you’re not only supporting the BroodMinder team but also contributing to the entire BroodMinder community, and most importantly, to the well-being of bees and the future of beekeeping. Your support is crucial as we continue to improve hive management and promote sustainable practices that benefit bees worldwide.",
-            "MESSAGE3": "While many of our team members generously volunteer their time and expertise, we also have younger colleagues who are dedicated full-time and rely on a salary. Your membership helps us evolve and maintain the world’s leading hive monitoring solution.",
-            "MESSAGE4": "We encourage you to explore our extensive documentation and video library. We’ve designed the system to be simple yet powerful, with many resources available to help you unlock its full potential.",
-            "MESSAGE5": "If you need any assistance, please don’t hesitate to reach out to us at support@broodminder.com."
-        },
-        "PAYMENT":{
-            "SUBJECT": "Payment Recieved",
-            "MESSAGE":"Thank you, we have recieved payment for your MyBroodMinder Premium Membership",
-            "PAID":"Paid on",
-            "PRODUCT":{
-                "TITLE":"Products",
-                "NEW":"MyBroodminder Premium {{.count}} hives for 1 year. (Renews on {{.date}}) {{.amount}}",
-                "UPGRADE":"MyBroodminder Premium upgrade to %v hives per year. (Renews on %v) %v"
+        "ACCOUNT": {
+           "CANCELED": {
+                "SUBJECT": "Expiration de l'abonnement MyBroodMinder Premium",
+                "SUBJECT_COMP": "Fin de l'abonnement MyBroodMinder Premium offert",
+                "MESSAGE1": "Votre abonnement MyBroodMinder Premium a été annulé. Vos avantages premium prendront fin dans deux semaines.",
+                "MESSAGE1_COMP": "Votre abonnement MyBroodMinder Premium offert expire. Vos avantages premium prendront fin dans deux semaines.",
+                "HEADER": "Si vous ne faites rien",
+                "MESSAGE2": "Si vous souhaitez vous réabonner,",
+                "MESSAGE3": "suivez ce lien.",
+                "MESSAGE4": "Votre abonnement aide à soutenir nos efforts continus pour améliorer l'apiculture. Beaucoup de nos membres de l'équipe offrent généreusement leur temps et expertise, mais nous avons aussi de jeunes collègues qui travaillent à plein temps et dépendent d'un salaire."
             },
-            "CUSTOMER":{
-                "TITLE":"Customer",
-                "EMAIL":"Email",
-                "NAME":"Name",
-                "COMPANY":"Company"
+            "EXPIRED": {
+                "SUBJECT": "Abonnement MyBroodMinder Premium Expiré",
+                "MESSAGE1": "Votre abonnement MyBroodMinder Premium a expiré hier. Vos avantages premium ont pris fin.",
+                "HEADER": "Sans abonnement"
             },
-            "TRANSACTION":{
-                "TITLE":"Transaction",
-                "TYPE":"Type",
-                "AMOUNT":"Amount",
-                "DATE":"Date",
-                "STATUS": "Status",
-                "TRANSACTION_ID":"Transaction ID",
-                "TYPE_CREDIT":"Credit Card",
-                "CARD_TYPE":"Card Type",
-                "CARD_HOLDER":"Cardholder Name",
-                "CARD_NUMBER":"Credit Card Number",
-                "TYPE_PAYPAL":"PayPal Account",
-                "PAYPAL_EMAIL":"Payer Email",
-                "PAYPAL_FNAME":"Payer First Name",
-                "PAYPAL_LNAME":"Payer Last Name"
+            "RENEWAL": {
+                "SUBJECT": "Renouvellement MyBroodMinder Premium",
+                "MESSAGE1": "Votre abonnement MyBroodMinder Premium sera renouvelé dans 2 semaines.",
+                "MESSAGE2": "Merci pour votre soutien. Beaucoup de nos membres de l'équipe offrent généreusement leur temps et expertise, mais nous avons aussi de jeunes collègues qui travaillent à plein temps et dépendent d'un salaire. Votre soutien nous permet de continuer à faire évoluer et améliorer la solution de surveillance des ruches la plus performante au monde.",
+                "PRODUCT": "Produit",
+                "PRODUCT_GENERIC": "Abonnement MyBroodMinder Premium ({{.count}} ruches)"
+            },
+            "WARNING": {
+                "HUBS": "Vos {{.count}} hubs ne téléchargeront plus de données.",
+                "HIVES": "Vous avez {{.count}} ruches, mais votre abonnement en permet {{.allowCount}}. Vous devrez désactiver {{.deactCount}} ruches.",
+                "THIRD_PARTY": "Vos {{.count}} appareils tiers ne téléchargeront plus de données.",
+                "ACCOUNT": "Vous n'aurez plus accès aux fonctionnalités Premium. Cela inclut, mais n'est pas limité à, les données calculées, alertes et prévisions."
             }
         },
+        "RECEIPT": {
+            "PURCHASE": {
+                "SUBJECT": "Merci de soutenir BroodMinder !",
+                "MESSAGE1": "Merci d'avoir acheté un abonnement MyBroodMinder Premium !",
+                "MESSAGE2": "En nous rejoignant, vous soutenez non seulement l'équipe BroodMinder mais vous contribuez également à toute la communauté BroodMinder et, surtout, au bien-être des abeilles et à l'avenir de l'apiculture. Votre soutien est crucial alors que nous continuons à améliorer la gestion des ruches et à promouvoir des pratiques durables qui bénéficient aux abeilles dans le monde entier.",
+                "MESSAGE3": "Bien que beaucoup de nos membres de l'équipe offrent généreusement leur temps et expertise, nous avons également de jeunes collègues qui travaillent à plein temps et dépendent d'un salaire. Votre abonnement nous aide à faire évoluer et maintenir la solution de surveillance des ruches la plus performante au monde.",
+                "MESSAGE4": "Nous vous encourageons à explorer notre vaste documentation et notre bibliothèque de vidéos. Nous avons conçu le système pour qu'il soit à la fois simple et puissant, avec de nombreuses ressources disponibles pour vous aider à en tirer pleinement parti.",
+                "MESSAGE5": "Si vous avez besoin d'aide, n'hésitez pas à nous contacter à support@broodminder.com."
+            },
+            "PAYMENT": {
+                "SUBJECT": "Paiement reçu",
+                "MESSAGE": "Merci, nous avons reçu le paiement de votre abonnement MyBroodMinder Premium",
+                "PAID": "Payé le",
+                "PRODUCT": {
+                    "TITLE": "Produits",
+                    "NEW": "MyBroodMinder Premium {{.count}} ruches pour 1 an. (Renouvelé le {{.date}}) {{.amount}}",
+                    "UPGRADE": "Mise à niveau MyBroodMinder Premium pour %v ruches par an. (Renouvelé le %v) %v"
+                },
+                "CUSTOMER": {
+                    "TITLE": "Client",
+                    "EMAIL": "Email",
+                    "NAME": "Nom",
+                    "COMPANY": "Entreprise"
+                },
+                "TRANSACTION": {
+                    "TITLE": "Transaction",
+                    "TYPE": "Type",
+                    "AMOUNT": "Montant",
+                    "DATE": "Date",
+                    "STATUS": "Statut",
+                    "TRANSACTION_ID": "ID de la transaction",
+                    "TYPE_CREDIT": "Carte de crédit",
+                    "CARD_TYPE": "Type de carte",
+                    "CARD_HOLDER": "Nom du titulaire de la carte",
+                    "CARD_NUMBER": "Numéro de carte de crédit",
+                    "TYPE_PAYPAL": "Compte PayPal",
+                    "PAYPAL_EMAIL": "Email du payeur",
+                    "PAYPAL_FNAME": "Prénom du payeur",
+                    "PAYPAL_LNAME": "Nom du payeur"
+                }
+            },
         "UPDATE": {
             "SUBJECT": "Changement sur l'Abonnement {{.type}} ",
             "MESSAGE": "Votre Abonnement {{.type}} a été mis à jour."
@@ -80,18 +80,18 @@
         },
         "ORDER_ID": "Référence de l'ordre",
         "STATUS": "Etat",
-        "PRODUCT": "Product",
-        "PRODUCT_GENERIC":"MyBroodminder Premium Membership ({{.count}} hives)",
+        "PRODUCT": "Produit",
+        "PRODUCT_GENERIC": "Abonnement Premium MyBroodminder ({{.count}} ruches)",
         "TOTAL_NOW": "Total Payé",
         "AR_DATE": "Date de renouv. auto",
         "AR_AMOUNT": "Montant de renouv. auto",
         "MANAGE_LINK": "Gérer mon abonnement à "
     },
-    "CANCEL":{
-        "SUBJECT":"MyBroodMinder Premium Membership Cancelled",
-        "MESSAGE1":"Your MyBroodMinder Premium Membership has been canceled.",
-        "MESSAGE2":"Your premium benefits will continue until {{.date}}. We will send a reminder two weeks before they end and you can resubscribe if you change your mind.",
-        "MESSAGE3":"Your subscription helps support our on-going efforts to improve beekeeping. Many of our team members generously volunteer their time and expertise, but we also have younger colleagues who are dedicated full-time and rely on a salary."
+    "CANCEL": {
+        "SUBJECT": "Abonnement MyBroodMinder Premium Annulé",
+        "MESSAGE1": "Votre abonnement MyBroodMinder Premium a été annulé.",
+        "MESSAGE2": "Vos avantages premium continueront jusqu'au {{.date}}. Nous vous enverrons un rappel deux semaines avant la fin et vous pourrez vous réabonner si vous changez d'avis.",
+        "MESSAGE3": "Votre abonnement aide à soutenir nos efforts continus pour améliorer l'apiculture. Beaucoup de nos membres de l'équipe offrent généreusement leur temps et leur expertise, mais nous avons également des collègues plus jeunes qui travaillent à temps plein et dépendent d'un salaire."
     },
     "PAYMENT_FAIL": {
         "SUBJECT": "Échec du paiement de l'abonnement",
@@ -111,9 +111,9 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1":"Remember:",
-        "SIGNOFF2":"Every Hive Counts",
-        "SIGNOFF3":"Your BroodMinder Team"
+        "SIGNOFF1": "Souvenez-vous :",
+        "SIGNOFF2": "Chaque ruche compte",
+        "SIGNOFF3": "Votre équipe BroodMinder"
     },
     "ACCOUNT_DELETE":{
         "SUBJECT": "Statut de suppression du compte",
