@@ -2284,26 +2284,26 @@
             "TEXT_LI_1B":"en haut à gauche pour ajouter des ruches, des ruchers et des capteurs à votre compte.",
             "TEXT_LI_2":"Ou télécharger l'application BroodMinder Bees pour les gérer également."
         },
-        "BLOCKED":{
-            "TITLE":"Home",
-            "MISSING":"What you're missing!",
-            "DESCR_HIVES":"A quick view of the current state of your hives. Showing notes, alerts, and health stats.",
-            "DESCR_APIARIES":"A quick view of the current state of your apiary. Showing notes, alerts, weather, and forecasts"
+        "BLOCKED": {
+            "TITLE": "Accueil",
+            "MISSING": "Ce que vous manquez !",
+            "DESCR_HIVES": "Une vue rapide de l'état actuel de vos ruches. Affichage des notes, alertes et statistiques de santé.",
+            "DESCR_APIARIES": "Une vue rapide de l'état actuel de votre apiary. Affichage des notes, alertes, météo et prévisions."
         }
     },
-    "MEMBERSHIP_BLOCKS":{
-        "DASHBOARD_DATA":"This dashboard shows computed data. Your free membership does not include these analytics.",
-        "CHART_DATA":"This chart shows computed data. Your free membership does not include these analytics.",
-        "DASHBOARD_ADD":"Only one custom dashboard is allowed with your free membership",
-        "UNLOCK":"Upgrade your account to unlock this feature",
-        "HIVE_ADD_FREE":"You have {{activeHiveCount}} active hives. Your free membership allows {{hivesAllowed}}.",
-        "HIVE_ADD":"You have {{activeHiveCount}} active hives. Your membership allows {{hivesAllowed}}.",
-        "HOME_PAGE":"This view shows computed data. Your free membership does not include these analytics.",
-        "DATE_PICKER":"Range over 13 months and forecast is not available on a free membership.",
-        "HUB_DATA":"Hub data not uploaded with your free membership",
-        "THIRDPARTY_DATA":"Third party data not uploaded with your free membership",
-        "MISSING_FEATURE":"This feature is not available without a membership.",
-        "MISSING_FEATURE_CLOSE":"Close",
-        "MISSING_FEATURE_UPGRADE":"UPGRADE"
+    "MEMBERSHIP_BLOCKS": {
+        "DASHBOARD_DATA": "Ce tableau de bord affiche des données calculées. Votre adhésion gratuite n'inclut pas ces analyses.",
+        "CHART_DATA": "Ce graphique affiche des données calculées. Votre adhésion gratuite n'inclut pas ces analyses.",
+        "DASHBOARD_ADD": "Un seul tableau de bord personnalisé est autorisé avec votre adhésion gratuite.",
+        "UNLOCK": "Améliorez votre compte pour débloquer cette fonctionnalité.",
+        "HIVE_ADD_FREE": "Vous avez {{activeHiveCount}} ruches actives. Votre adhésion gratuite autorise {{hivesAllowed}}.",
+        "HIVE_ADD": "Vous avez {{activeHiveCount}} ruches actives. Votre adhésion autorise {{hivesAllowed}}.",
+        "HOME_PAGE": "Cette vue affiche des données calculées. Votre adhésion gratuite n'inclut pas ces analyses.",
+        "DATE_PICKER": "La plage sur 13 mois et les prévisions ne sont pas disponibles avec une adhésion gratuite.",
+        "HUB_DATA": "Données du hub non téléchargées avec votre adhésion gratuite.",
+        "THIRDPARTY_DATA": "Données tierces non téléchargées avec votre adhésion gratuite.",
+        "MISSING_FEATURE": "Cette fonctionnalité n'est pas disponible sans adhésion.",
+        "MISSING_FEATURE_CLOSE": "Fermer",
+        "MISSING_FEATURE_UPGRADE": "AMÉLIORER"
     }
 }

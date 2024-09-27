@@ -2283,25 +2283,25 @@
             "TEXT_LI_2": "O descargar la aplicación BroodMinder Bees para gestionarlas igualmente desde tu móvil."
         },
         "BLOCKED": {
-            "TITLE": "Home",
-            "MISSING": "What you're missing!",
-            "DESCR_HIVES": "A quick view of the current state of your hives. Showing notes, alerts, and health stats.",
-            "DESCR_APIARIES": "A quick view of the current state of your apiary. Showing notes, alerts, weather, and forecasts"
+            "TITLE": "Inicio",
+            "MISSING": "¡Lo que te falta!",
+            "DESCR_HIVES": "Una vista rápida del estado actual de tus colmenas. Mostrando notas, alertas y estadísticas de salud.",
+            "DESCR_APIARIES": "Una vista rápida del estado actual de tu apiario. Mostrando notas, alertas, clima y pronósticos."
         }
     },
     "MEMBERSHIP_BLOCKS": {
-        "DASHBOARD_DATA": "This dashboard shows computed data. Your free membership does not include these analytics.",
-        "CHART_DATA": "This chart shows computed data. Your free membership does not include these analytics.",
-        "DASHBOARD_ADD": "Only one custom dashboard is allowed with your free membership",
-        "UNLOCK": "Upgrade your account to unlock this feature",
-        "HIVE_ADD_FREE": "You have {{activeHiveCount}} active hives. Your free membership allows {{hivesAllowed}}.",
-        "HIVE_ADD": "You have {{activeHiveCount}} active hives. Your membership allows {{hivesAllowed}}.",
-        "HOME_PAGE": "This view shows computed data. Your free membership does not include these analytics.",
-        "DATE_PICKER": "Range over 13 months and forecast is not available on a free membership.",
-        "HUB_DATA": "Hub data not uploaded with your free membership",
-        "THIRDPARTY_DATA": "Third party data not uploaded with your free membership",
-        "MISSING_FEATURE": "This feature is not available without a membership.",
-        "MISSING_FEATURE_CLOSE": "Close",
-        "MISSING_FEATURE_UPGRADE": "UPGRADE"
+        "DASHBOARD_DATA": "Este tablero muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
+        "CHART_DATA": "Este gráfico muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
+        "DASHBOARD_ADD": "Solo se permite un tablero personalizado con su membresía gratuita.",
+        "UNLOCK": "Mejore su cuenta para desbloquear esta función.",
+        "HIVE_ADD_FREE": "Tiene {{activeHiveCount}} colmenas activas. Su membresía gratuita permite {{hivesAllowed}}.",
+        "HIVE_ADD": "Tiene {{activeHiveCount}} colmenas activas. Su membresía permite {{hivesAllowed}}.",
+        "HOME_PAGE": "Esta vista muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
+        "DATE_PICKER": "El rango de 13 meses y la previsión no están disponibles con una membresía gratuita.",
+        "HUB_DATA": "Datos del hub no cargados con su membresía gratuita.",
+        "THIRDPARTY_DATA": "Datos de terceros no cargados con su membresía gratuita.",
+        "MISSING_FEATURE": "Esta función no está disponible sin una membresía.",
+        "MISSING_FEATURE_CLOSE": "Cerrar",
+        "MISSING_FEATURE_UPGRADE": "MEJORAR"
     }
 }
