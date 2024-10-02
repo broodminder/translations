@@ -2,45 +2,45 @@
         "ACCOUNT": {
            "CANCELED": {
                 "SUBJECT": "Expiración de la suscripción Premium de MyBroodMinder",
-                "SUBJECT_COMP": "Finalización de la Membresía Premium Complementaria de MyBroodMinder",
-                "MESSAGE1": "Su suscripción Premium de MyBroodMinder ha sido cancelada. Sus beneficios premium finalizarán en dos semanas.",
-                "MESSAGE1_COMP": "Su suscripción Premium Complementaria de MyBroodMinder está expirando. Sus beneficios premium finalizarán en dos semanas.",
-                "HEADER": "Si no hace nada",
-                "MESSAGE2": "Si desea volver a suscribirse,",
-                "MESSAGE3": "siga este enlace.",
-                "MESSAGE4": "Su suscripción ayuda a apoyar nuestros esfuerzos continuos para mejorar la apicultura. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario."
+                "SUBJECT_COMP": "Finalización del Abono Premium Complementario de MyBroodMinder",
+                "MESSAGE1": "Tu suscripción Premium de MyBroodMinder ha sido cancelada. Tus beneficios premium finalizarán en dos semanas.",
+                "MESSAGE1_COMP": "Tu suscripción Premium Complementaria de MyBroodMinder está expirando. Sus beneficios premium finalizarán en dos semanas.",
+                "HEADER": "Si no haces nada",
+                "MESSAGE2": "Si deseas volver a suscribirse,",
+                "MESSAGE3": "sige este enlace.",
+                "MESSAGE4": "Tu suscripción ayuda a apoyar nuestros esfuerzos continuos para mejorar la apicultura. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario."
             },
             "EXPIRED": {
                 "SUBJECT": "Suscripción Premium de MyBroodMinder Expirada",
-                "MESSAGE1": "Su suscripción Premium de MyBroodMinder expiró ayer. Sus beneficios premium han finalizado.",
+                "MESSAGE1": "Tu suscripción Premium de MyBroodMinder expiró ayer. Tus beneficios premium han finalizado.",
                 "HEADER": "Sin una suscripción"
             },
             "RENEWAL": {
                 "SUBJECT": "Renovación de MyBroodMinder Premium",
-                "MESSAGE1": "Su suscripción Premium de MyBroodMinder se renovará en 2 semanas.",
-                "MESSAGE2": "Gracias por su apoyo. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario. Su apoyo nos permite seguir evolucionando y mejorando la solución líder en monitoreo de colmenas en el mundo.",
+                "MESSAGE1": "Tu suscripción Premium de MyBroodMinder se renovará en 2 semanas.",
+                "MESSAGE2": "Gracias por tu apoyo. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario. Su apoyo nos permite seguir evolucionando y mejorando la solución líder en monitoreo de colmenas en el mundo.",
                 "PRODUCT": "Producto",
-                "PRODUCT_GENERIC": "Membresía Premium de MyBroodMinder ({{.count}} colmenas)"
+                "PRODUCT_GENERIC": "Abono Premium a MyBroodMinder ({{.count}} colmenas)"
             },
             "WARNING": {
-                "HUBS": "Sus {{.count}} hubs ya no subirán datos.",
-                "HIVES": "Tiene {{.count}} colmenas, pero su suscripción permite {{.allowCount}}. Necesitará desactivar {{.deactCount}} colmenas.",
-                "THIRD_PARTY": "Sus {{.count}} dispositivos de terceros ya no subirán datos.",
-                "ACCOUNT": "Ya no tendrá acceso a las funciones Premium. Incluyendo pero no limitándose a datos calculados, alertas y pronósticos."
+                "HUBS": "Tus {{.count}} hubs ya no subirán datos.",
+                "HIVES": "Tienes {{.count}} colmenas, pero tu suscripción permite {{.allowCount}}. Necesitará desactivar {{.deactCount}} colmenas.",
+                "THIRD_PARTY": "Tus {{.count}} dispositivos de terceros ya no subirán datos.",
+                "ACCOUNT": "Ya no tendrás acceso a las funciones Premium. Incluyendo pero no limitándose a datos calculados, alertas y pronósticos."
             }
         },
         "RECEIPT": {
             "PURCHASE": {
                 "SUBJECT": "¡Gracias por apoyar a BroodMinder!",
                 "MESSAGE1": "¡Gracias por adquirir una suscripción Premium de MyBroodMinder!",
-                "MESSAGE2": "Al unirse a nosotros, no solo apoya al equipo de BroodMinder, sino que también contribuye a toda la comunidad de BroodMinder y, lo más importante, al bienestar de las abejas y el futuro de la apicultura. Su apoyo es crucial mientras continuamos mejorando la gestión de las colmenas y promoviendo prácticas sostenibles que benefician a las abejas en todo el mundo.",
-                "MESSAGE3": "Aunque muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario. Su membresía nos ayuda a evolucionar y mantener la solución de monitoreo de colmenas más avanzada del mundo.",
-                "MESSAGE4": "Le animamos a explorar nuestra amplia documentación y biblioteca de videos. Hemos diseñado el sistema para que sea simple pero poderoso, con muchos recursos disponibles para ayudarle a desbloquear todo su potencial.",
-                "MESSAGE5": "Si necesita ayuda, no dude en contactarnos en support@broodminder.com."
+                "MESSAGE2": "Al unirste a nosotros, no solo apoyas al equipo de BroodMinder, sino que también contribuye a toda la comunidad de BroodMinder y, lo más importante, al bienestar de las abejas y el futuro de la apicultura. Su apoyo es crucial mientras continuamos mejorando la gestión de las colmenas y promoviendo prácticas sostenibles que benefician a las abejas en todo el mundo.",
+                "MESSAGE3": "Aunque muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario. Tu abono nos ayuda a evolucionar y mantener la solución de monitoreo de colmenas más avanzada del mundo.",
+                "MESSAGE4": "Te animamos a explorar nuestra amplia documentación y biblioteca de videos. Hemos diseñado el sistema para que sea simple pero poderoso, con muchos recursos disponibles para ayudarte a mobilizar todo su potencial.",
+                "MESSAGE5": "Si necesitas ayuda, no dude en contactarnos en support@broodminder.com."
             },
             "PAYMENT": {
                 "SUBJECT": "Pago Recibido",
-                "MESSAGE": "Gracias, hemos recibido el pago de su suscripción Premium de MyBroodMinder",
+                "MESSAGE": "Gracias, hemos recibido el pago de tu suscripción Premium de MyBroodMinder",
                 "PAID": "Pagado el",
                 "PRODUCT": {
                     "TITLE": "Productos",
@@ -89,9 +89,9 @@
     },
     "CANCEL": {
         "SUBJECT": "Membresía Premium de MyBroodMinder Cancelada",
-        "MESSAGE1": "Su membresía Premium de MyBroodMinder ha sido cancelada.",
-        "MESSAGE2": "Sus beneficios premium continuarán hasta el {{.date}}. Le enviaremos un recordatorio dos semanas antes de que terminen y podrá volver a suscribirse si cambia de opinión.",
-        "MESSAGE3": "Su suscripción ayuda a apoyar nuestros esfuerzos continuos para mejorar la apicultura. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario."
+        "MESSAGE1": "Tu membresía Premium de MyBroodMinder ha sido cancelada.",
+        "MESSAGE2": "Tus beneficios premium continuarán hasta el {{.date}}. Te enviaremos un recordatorio dos semanas antes de que terminen y podrá volver a suscribirse si cambia de opinión.",
+        "MESSAGE3": "Tu suscripción ayuda a apoyar nuestros esfuerzos continuos para mejorar la apicultura. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario."
     },
     "PAYMENT_FAIL": {
         "SUBJECT": "El pago de la suscripcion no se ha podido realizar",
@@ -111,9 +111,9 @@
             "PREMIUM": "Afición",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Recuerde",
+        "SIGNOFF1": "Recuerda",
         "SIGNOFF2": "Cada colmena cuenta",
-        "SIGNOFF3": "Su equipo de BroodMinder"
+        "SIGNOFF3": "Tu equipo de BroodMinder"
     },
     "ACCOUNT_DELETE":{
         "SUBJECT": "Estado de supresión de la cuenta",
@@ -122,11 +122,11 @@
     },
     "MIGRATE":{
         "SUBJECT":"Membresía MyBroodMinder actualizada",
-        "MESSAGE1":"¡Gracias por apoyar a BroodMinder! Su membresía MyBroodMinder ha sido actualizada.",
-        "BRAIN_TREE1":"Su suscripción paga ha sido actualizada. Su precio anual ha cambiado de {{.oldPrice}} a {{.newPrice}} y se le cobrará el {{.date}}.",
-        "BRAIN_TREE2":"Se le ha otorgado crédito por {{.hiveCount}} colmenas adicionales. Después del {{.date}}, deberá actualizar su membresía o desactivar colmenas.",
-        "PREPAID":"Su membresía prepago ha sido actualizada. Se le permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}.",
-        "TRIAL":"Se le ha otorgado una membresía gratuita. Se le permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}."
+        "MESSAGE1":"¡Gracias por apoyar a BroodMinder! Tu membresía MyBroodMinder ha sido actualizada.",
+        "BRAIN_TREE1":"Tu suscripción paga ha sido actualizada. Tu importe anual ha cambiado de {{.oldPrice}} a {{.newPrice}} y se cobrará el {{.date}}.",
+        "BRAIN_TREE2":"Se te ha otorgado crédito por {{.hiveCount}} colmenas adicionales. Después del {{.date}}, deberás actualizar tu membresía o desactivar colmenas.",
+        "PREPAID":"Su membresía prepago ha sido actualizada. Se te permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}.",
+        "TRIAL":"Se te ha otorgado una membresía gratuita. Se te permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Estado",
