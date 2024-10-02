@@ -2302,6 +2302,17 @@
         "THIRDPARTY_DATA": "Datos de terceros no cargados con su membresía gratuita.",
         "MISSING_FEATURE": "Esta función no está disponible sin una membresía.",
         "MISSING_FEATURE_CLOSE": "Cerrar",
-        "MISSING_FEATURE_UPGRADE": "MEJORAR"
+        "MISSING_FEATURE_UPGRADE": "MEJORAR",
+        "ACCOUNT_ISSUES":{
+            "TITLE":"Problemas de cuenta",
+            "MESSAGE_PAID":"Tienes {{activeHiveCount}} colmenas activas. Su membresía permite {{hivesAllowed}}.",
+            "MESSAGE_FREE":"Tienes una membresía gratuita. La actualización permite más colmenas y funciones.",
+            "MESSAGE_COMP":"Tienes una membresía gratuita. Puede comprar una membresía para obtener más colmenas.",
+            "PURCHASE":"Compra",
+            "UPGRADE":"Mejora",
+            "FEATURES":"Verificar características",
+            "MANAGE":"Administrar colmenas",
+            "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberá desactivar {{hivesOver}} de sus colmenas existentes. Aún puede ver colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
+        }
     }
 }

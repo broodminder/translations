@@ -2303,6 +2303,17 @@
         "THIRDPARTY_DATA":"Third party data not uploaded with your free membership",
         "MISSING_FEATURE":"This feature is not available without a membership.",
         "MISSING_FEATURE_CLOSE":"Close",
-        "MISSING_FEATURE_UPGRADE":"UPGRADE"
+        "MISSING_FEATURE_UPGRADE":"UPGRADE",
+        "ACCOUNT_ISSUES":{
+            "TITLE":"Account Issues",
+            "MESSAGE_PAID":"You have {{activeHiveCount}} active hives. Your membership allows {{hivesAllowed}}.",
+            "MESSAGE_FREE":"You are on a free membership. Upgrading allows more hives and features.",
+            "MESSAGE_COMP":"You are on a complimentary membership. You can purchase a membership for more hives.",
+            "PURCHASE":"Purchase",
+            "UPGRADE":"Upgrade",
+            "FEATURES":"Check Features",
+            "MANAGE":"Manage Hives",
+            "MANAGE_MESSAGE":"To add a new hive, you'll need to deactivate {{hivesOver}} of your existing hives. You can still view inactive hives (from the configure page), but not upload any new data."
+        }
     }
 }

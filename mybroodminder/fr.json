@@ -2304,6 +2304,17 @@
         "THIRDPARTY_DATA": "Données tierces non téléchargées avec votre adhésion gratuite.",
         "MISSING_FEATURE": "Cette fonctionnalité n'est pas disponible sans adhésion.",
         "MISSING_FEATURE_CLOSE": "Fermer",
-        "MISSING_FEATURE_UPGRADE": "AMÉLIORER"
+        "MISSING_FEATURE_UPGRADE": "AMÉLIORER",
+        "ACCOUNT_ISSUES":{
+            "TITLE":"Problèmes de compte",
+            "MESSAGE_PAID":"Vous disposez de {{activeHiveCount}} ruches actives. Votre adhésion autorise {{hivesAllowed}}.",
+            "MESSAGE_FREE":"Vous bénéficiez d'un abonnement gratuit. La mise à niveau permet davantage de ruches et de fonctionnalités.",
+            "MESSAGE_COMP":"Vous bénéficiez d’un abonnement gratuit. Vous pouvez acheter un abonnement pour plus de ruches.",
+            "PURCHASE":"Achat",
+            "UPGRADE":"Mise à niveau",
+            "FEATURES":"Vérifier les fonctionnalités",
+            "MANAGE":"Gérer les ruches",
+            "MANAGE_MESSAGE":"Pour ajouter une nouvelle ruche, vous devrez désactiver {{hivesOver}} de vos ruches existantes. Vous pouvez toujours afficher les ruches inactives (à partir de la page de configuration), mais vous ne pouvez pas télécharger de nouvelles données."
+        }
     }
 }
