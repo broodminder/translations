@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Souvenez-vous :",
+        "SIGNOFF1": "Souvenez-vous",
         "SIGNOFF2": "Chaque ruche compte",
         "SIGNOFF3": "Votre équipe BroodMinder"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Statut de suppression du compte",
         "SUCCESS_MESSAGE": "Votre compte MyBroodMinder a été supprimé avec succès.",
         "ERROR_MESSAGE": "Une erreur s'est produite lors de la suppression de votre compte. Veuillez contacter support@broodminder.com pour terminer la suppression du compte. (ReferenceID:{{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"Adhésion à MyBroodMinder mise à jour",
+        "MESSAGE1":"Merci de soutenir BroodMinder ! Votre adhésion à MyBroodMinder a été mise à niveau.",
+        "BRAIN_TREE1":"Votre abonnement payant a été mis à jour. Votre prix annuel est passé de {{.oldPrice}} à {{.newPrice}} et vous serez facturé le {{.date}}.",
+        "BRAIN_TREE2":"Vous avez reçu un crédit pour {{.hiveCount}} ruches supplémentaires. Après le {{.date}}, vous devrez soit mettre à niveau votre abonnement, soit désactiver les ruches.",
+        "PREPAID":"Votre abonnement prépayé a été mis à jour. Vous avez droit à {{.hiveCount}} ruches et à toutes les fonctionnalités de MyBroodMinder Premium jusqu'au {{.date}}.",
+        "TRIAL":"Vous avez reçu une adhésion gratuite. Vous avez droit à {{.hiveCount}} ruches et à toutes les fonctionnalités de MyBroodMinder Premium jusqu'au {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Statut",

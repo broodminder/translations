@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Onthoud:",
+        "SIGNOFF1": "Onthoud",
         "SIGNOFF2": "Elke Kast Telt",
         "SIGNOFF3": "Uw BroodMinder Team"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Status accountverwijdering",
         "SUCCESS_MESSAGE": "Uw MyBroodMinder-account is succesvol verwijderd.",
         "ERROR_MESSAGE": "Er is een fout opgetreden bij het verwijderen van uw account. Neem contact op met support@broodminder.com om de accountverwijdering te voltooien. (Referentie-ID: {{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"MyBroodMinder-lidmaatschap bijgewerkt",
+        "MESSAGE1":"Bedankt voor uw steun aan BroodMinder! Uw MyBroodMinder-lidmaatschap is geüpgraded.",
+        "BRAIN_TREE1":"Uw betaalde abonnement is bijgewerkt. Uw jaarprijs is gewijzigd van {{.oldPrice}} in {{.newPrice}} en er wordt op {{.date}} een bedrag in rekening gebracht.",
+        "BRAIN_TREE2":"U heeft krediet gekregen voor {{.hiveCount}} extra bijenkorven. Na {{.date}} moet je je lidmaatschap upgraden of hives deactiveren.",
+        "PREPAID":"Je prepaid-lidmaatschap is bijgewerkt. Je hebt toegang tot {{.hiveCount}} kasten en volledige MyBroodMinder Premium-functies tot {{.date}}.",
+        "TRIAL":"U heeft een gratis lidmaatschap gekregen. Je hebt toegang tot {{.hiveCount}} kasten en volledige MyBroodMinder Premium-functies tot {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Status",

@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Ricorda:",
+        "SIGNOFF1": "Ricorda",
         "SIGNOFF2": "Ogni Alveare Conta",
         "SIGNOFF3": "Il Tuo Team di BroodMinder"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Stato cancellazione account",
         "SUCCESS_MESSAGE": "Il tuo account MyBroodMinder è stato cancellato con successo.",
         "ERROR_MESSAGE": "Si è verificato un errore durante la cancellazione del tuo account. Contatta support@broodminder.com per completare la cancellazione dell'account. (ID di riferimento: {{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"Iscrizione a MyBroodMinder aggiornata",
+        "MESSAGE1":"Grazie per supportare BroodMinder! Il tuo abbonamento a MyBroodMinder è stato aggiornato.",
+        "BRAIN_TREE1":"Il tuo abbonamento a pagamento è stato aggiornato. Il tuo prezzo annuale è cambiato da {{.oldPrice}} a {{.newPrice}} e ti verrà addebitato il giorno {{.date}}.",
+        "BRAIN_TREE2":"Ti è stato dato credito per {{.hiveCount}} alveari extra. Dopo il giorno {{.date}} dovrai aggiornare il tuo abbonamento o disattivare Hives.",
+        "PREPAID":"Il tuo abbonamento prepagato è stato aggiornato. Ti sono consentiti {{.hiveCount}} alveari e funzionalità complete di MyBroodMinder Premium fino al giorno {{.date}}.",
+        "TRIAL":"Ti è stato concesso un abbonamento gratuito. Ti sono consentiti {{.hiveCount}} alveari e funzionalità complete di MyBroodMinder Premium fino al giorno {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Stato",

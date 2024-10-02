@@ -111,7 +111,7 @@
             "PREMIUM": "Afición",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Recuerde:",
+        "SIGNOFF1": "Recuerde",
         "SIGNOFF2": "Cada colmena cuenta",
         "SIGNOFF3": "Su equipo de BroodMinder"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Estado de supresión de la cuenta",
         "SUCCESS_MESSAGE": "Tu cuenta MyBroodMinder se ha cerrado correctamente.",
         "ERROR_MESSAGE": "Se ha producido un error al eliminar su cuenta. Ponte en contacto con support@broodminder.com para finalizar la cancelación de la cuenta. (ReferenceID:{{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"Membresía MyBroodMinder actualizada",
+        "MESSAGE1":"¡Gracias por apoyar a BroodMinder! Su membresía MyBroodMinder ha sido actualizada.",
+        "BRAIN_TREE1":"Su suscripción paga ha sido actualizada. Su precio anual ha cambiado de {{.oldPrice}} a {{.newPrice}} y se le cobrará el {{.date}}.",
+        "BRAIN_TREE2":"Se le ha otorgado crédito por {{.hiveCount}} colmenas adicionales. Después del {{.date}}, deberá actualizar su membresía o desactivar colmenas.",
+        "PREPAID":"Su membresía prepago ha sido actualizada. Se le permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}.",
+        "TRIAL":"Se le ha otorgado una membresía gratuita. Se le permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Estado",

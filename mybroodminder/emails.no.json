@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Husk:",
+        "SIGNOFF1": "Husk",
         "SIGNOFF2": "Hver Bistand Tellermo",
         "SIGNOFF3": "Ditt BroodMinder Team"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Status for Konto Sletting",
         "SUCCESS_MESSAGE": "Din MyBroodMinder-konto er vellykket slettet.",
         "ERROR_MESSAGE": "Det oppstod en feil under slettingen av kontoen din. Vennligst kontakt support@broodminder.com for å fullføre konto-slettingen. (Referanse-ID: {{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"MyBroodMinder-medlemskap oppdatert",
+        "MESSAGE1":"Takk for at du støtter BroodMinder! Ditt MyBroodMinder-medlemskap har blitt oppgradert.",
+        "BRAIN_TREE1":"Ditt betalte abonnement har blitt oppdatert. Den årlige prisen din har endret seg fra {{.oldPrice}} til {{.newPrice}}, og du vil bli belastet {{.date}}.",
+        "BRAIN_TREE2":"Du har fått kreditt for {{.hiveCount}} ekstra bikuber. Etter {{.date}} må du enten oppgradere medlemskapet ditt eller deaktivere hives.",
+        "PREPAID":"Ditt forhåndsbetalte medlemskap har blitt oppdatert. Du har tillatelse til {{.hiveCount}} bikuber og fulle MyBroodMinder Premium-funksjoner frem til {{.date}}.",
+        "TRIAL":"Du har fått et gratis medlemskap. Du har tillatelse til {{.hiveCount}} bikuber og fulle MyBroodMinder Premium-funksjoner frem til {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Status",

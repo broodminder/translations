@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Lembre-se:",
+        "SIGNOFF1": "Lembre-se",
         "SIGNOFF2": "Cada Colmeia Conta",
         "SIGNOFF3": "A Sua Equipa do BroodMinder"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Status de Exclusão de Conta",
         "SUCCESS_MESSAGE": "Sua conta MyBroodMinder foi excluída com sucesso.",
         "ERROR_MESSAGE": "Houve um erro ao excluir sua conta. Entre em contato com support@broodminder.com para concluir a exclusão da conta. (ID de Referência: {{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"Associação MyBroodMinder atualizada",
+        "MESSAGE1":"Obrigado por apoiar o BroodMinder! Sua assinatura MyBroodMinder foi atualizada.",
+        "BRAIN_TREE1":"Sua assinatura paga foi atualizada. Seu preço anual mudou de {{.oldPrice}} para {{.newPrice}} e você será cobrado em {{.date}}.",
+        "BRAIN_TREE2":"Você recebeu crédito por {{.hiveCount}} colmeias extras. Depois de {{.date}} você precisará atualizar sua assinatura ou desativar o Hives.",
+        "PREPAID":"Sua assinatura pré-paga foi atualizada. Você tem permissão para {{.hiveCount}} colmeias e recursos completos do MyBroodMinder Premium até {{.date}}.",
+        "TRIAL":"Você recebeu uma assinatura gratuita. Você tem permissão para {{.hiveCount}} colmeias e recursos completos do MyBroodMinder Premium até {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Status",

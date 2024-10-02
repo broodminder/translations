@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1":"Remember:",
+        "SIGNOFF1":"Remember",
         "SIGNOFF2":"Every Hive Counts",
         "SIGNOFF3":"Your BroodMinder Team"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Account Deletion Status",
         "SUCCESS_MESSAGE": "Your MyBroodMinder account has been successfully deleted.",
         "ERROR_MESSAGE": "There was an error deleting your account. Please contact support@broodminder.com to finish account deletion. (ReferenceID:{{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"MyBroodMinder Membership Updated",
+        "MESSAGE1":"Thank you for supporting BroodMinder! Your MyBroodMinder membership has been upgraded.",
+        "BRAIN_TREE1":"Your paid subscription has been updated. Your yearly price has changed from {{.oldPrice}} to {{.newPrice}} and you will be charged on {{.date}}.",
+        "BRAIN_TREE2":"You have been given credit for {{.hiveCount}} extra hives. After  {{.date}} you will need to either upgrade your membership or deactivate hives.",
+        "PREPAID":"Your prepaid membership has been updated. You are allowed {{.hiveCount}} hives and full MyBroodMinder Premium features until {{.date}}. ",
+        "TRIAL":"You have been given a complimentary membership. You are allowed {{.hiveCount}} hives and full MyBroodMinder Premium features until {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Status",

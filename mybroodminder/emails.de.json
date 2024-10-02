@@ -111,7 +111,7 @@
             "PREMIUM": "Premium",
             "PRO": "Pro"
         },
-        "SIGNOFF1": "Denken Sie daran:",
+        "SIGNOFF1": "Denken Sie daran",
         "SIGNOFF2": "Jeder Stock zählt",
         "SIGNOFF3": "Ihr BroodMinder-Team"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "Status der Kontolöschung",
         "SUCCESS_MESSAGE": "Ihr MyBroodMinder-Konto wurde erfolgreich gelöscht.",
         "ERROR_MESSAGE": "Es ist ein Fehler beim Löschen Ihres Kontos aufgetreten. Bitte kontaktieren Sie support@broodminder.com, um die Kontolöschung abzuschließen. (Referenz-ID: {{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"MyBroodMinder-Mitgliedschaft aktualisiert",
+        "MESSAGE1":"Vielen Dank für die Unterstützung von BroodMinder! Ihre MyBroodMinder-Mitgliedschaft wurde aktualisiert.",
+        "BRAIN_TREE1":"Ihr kostenpflichtiges Abonnement wurde aktualisiert. Ihr Jahrespreis hat sich von {{.oldPrice}} in {{.newPrice}} geändert und wird Ihnen am {{.date}} in Rechnung gestellt.",
+        "BRAIN_TREE2":"Ihnen wurden {{.hiveCount}} zusätzliche Bienenstöcke gutgeschrieben. Nach dem {{.date}} müssen Sie entweder Ihre Mitgliedschaft aktualisieren oder Hives deaktivieren.",
+        "PREPAID":"Ihre Prepaid-Mitgliedschaft wurde aktualisiert. Bis zum {{.date}} sind Ihnen {{.hiveCount}} Bienenstöcke und alle MyBroodMinder Premium-Funktionen gestattet.",
+        "TRIAL":"Sie haben eine kostenlose Mitgliedschaft erhalten. Bis zum {{.date}} sind Ihnen {{.hiveCount}} Bienenstöcke und alle MyBroodMinder Premium-Funktionen gestattet."
     },
     "DATA_SUMMARY": {
         "STATUS": "Status",

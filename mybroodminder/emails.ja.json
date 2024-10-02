@@ -111,7 +111,7 @@
             "PREMIUM": "プレミアム",
             "PRO": "プロ"
         },
-        "SIGNOFF1": "覚えておいてください:",
+        "SIGNOFF1": "覚えておいてください",
         "SIGNOFF2": "すべてのハイブが重要です",
         "SIGNOFF3": "あなたのBroodMinderチーム"
     },
@@ -119,6 +119,14 @@
         "SUBJECT": "アカウント削除ステータス",
         "SUCCESS_MESSAGE": "MyBroodMinder アカウントは正常に削除されました。",
         "ERROR_MESSAGE": "アカウントの削除中にエラーが発生しました。アカウントの削除を完了するには、support@broodminder.com にお問い合わせください。 (参照ID:{{.id}})"
+    },
+    "MIGRATE":{
+        "SUBJECT":"MyBroodMinder メンバーシップが更新されました",
+        "MESSAGE1":"BroodMinder をサポートしていただきありがとうございます。 MyBroodMinder メンバーシップがアップグレードされました。",
+        "BRAIN_TREE1":"有料サブスクリプションが更新されました。年間料金が {{.oldPrice}} から {{.newPrice}} に変更され、{{.date}} に請求されます。",
+        "BRAIN_TREE2":"{{.hiveCount}} 個の追加ハイブのクレジットが与えられました。 {{.date}} 以降は、メンバーシップをアップグレードするか、ハイブを非アクティブ化する必要があります。",
+        "PREPAID":"プリペイド メンバーシップが更新されました。 {{.date}} までは、{{.hiveCount}} 個のハイブと MyBroodMinder プレミアムの全機能を利用できます。",
+        "TRIAL":"無料のメンバーシップが付与されました。 {{.date}} までは、{{.hiveCount}} 個のハイブと MyBroodMinder プレミアムの全機能を利用できます。"
     },
     "DATA_SUMMARY": {
         "STATUS": "ステータス",
