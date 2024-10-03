@@ -852,8 +852,8 @@
     },
     "ACCOUNT": {
         "TITLE":"Mon compte",
-        "DETAILS":"User Details",
-        "SETTINGS":"Regional Settings",
+        "DETAILS": "Utilisateur",
+        "SETTINGS": "Paramètres Régionaux",
         "EMAIL":"Email",
         "FIRST_NAME":"Prénom",
         "LAST_NAME":"Nom",
