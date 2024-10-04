@@ -2541,4 +2541,22 @@
 	<data name="BSSET_HELP_DESCR_LINK">
 		<value>Benutzerhandbuch</value>
 	</data>
+	<data name="PREMIUM_NO_COMP_DATA">
+		<value>Keine berechneten Daten</value>
+	</data>
+	<data name="PREMIUM_NOT_COMP">
+		<value>Nicht berechnet</value>
+	</data>
+	<data name="PREMIUM_HIVES_REMAINING">
+		<value>Auf Ihrem Konto verbleiben noch {0} Hive-Speicherplätze</value>
+	</data>
+	<data name="PREMIUM_HIVE_REMAINING">
+		<value>{0} verbleibender Hive-Speicherplatz auf Ihrem Konto</value>
+	</data>
+	<data name="PREMIUM_HIVES_NONE">
+		<value>Über der Grenze</value>
+	</data>
+	<data name="PREMIUM_NO_ALERTS">
+		<value>Keine berechneten Warnungen verfügbar</value>
+	</data>
 </root>

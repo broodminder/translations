@@ -2544,4 +2544,22 @@
 	<data name="BSSET_HELP_DESCR_LINK">
 		<value>Guía del Usuario</value>
 	</data>
+	<data name="PREMIUM_NO_COMP_DATA">
+		<value>Sin datos calculados</value>
+	</data>
+	<data name="PREMIUM_NOT_COMP">
+		<value>No calculado</value>
+	</data>
+	<data name="PREMIUM_HIVES_REMAINING">
+		<value>Quedan {0} espacios de colmena en tu cuenta</value>
+	</data>
+	<data name="PREMIUM_HIVE_REMAINING">
+		<value>{0} espacio de colmena restante en su cuenta</value>
+	</data>
+	<data name="PREMIUM_HIVES_NONE">
+		<value>sobre el limite</value>
+	</data>
+	<data name="PREMIUM_NO_ALERTS">
+		<value>No hay alertas calculadas disponibles</value>
+	</data>
 </root>
