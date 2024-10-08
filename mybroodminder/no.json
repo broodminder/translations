@@ -1235,9 +1235,8 @@
     "MEMBERSHIP": {
         "TITLE": "MyBroodMinder Premium",
         "PREMIUM": "PREMIUM",
-        "PREMIUM_PRICE": "Priset per kube",
+        "PREMIUM_PRICE": "{{count}} honningbikuber {{price}}/år",
         "FREE": "GRATIS",
-        "FREE_PRICE": "GRATIS",
         "SECTION1": "Feltsikre sensorer",
         "SEC1_ITEM1": "BroodMinder-T2 temperatur",
         "SEC1_ITEM2": "BroodMinder-TH2 temperatur/fuktighet",

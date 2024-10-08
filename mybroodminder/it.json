@@ -1235,9 +1235,8 @@
     "MEMBERSHIP": {
         "TITLE": "Il mioBroodMinder Premium",
         "PREMIUM": "PREMIUM",
-        "PREMIUM_PRICE": "Prezzo in base al numero di arnie",
+        "PREMIUM_PRICE": "{{count}} arnie {{price}}/anno",
         "FREE": "GRATIS",
-        "FREE_PRICE": "GRATIS",
         "SECTION1": "Sensori collaudati sul campo",
         "SEC1_ITEM1": "Temperatura BroodMinder-T2",
         "SEC1_ITEM2": "Temperatura/umidità BroodMinder-TH2",

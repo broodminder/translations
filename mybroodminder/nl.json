@@ -1235,9 +1235,8 @@
     "MEMBERSHIP": {
         "TITLE": "MyBroodMinder Premium",
         "PREMIUM": "PREMIUM",
-        "PREMIUM_PRICE": "Geprijsd op basis van aantal kasten",
+        "PREMIUM_PRICE": "{{count}} honingbijenkorven {{price}}/jaar",
         "FREE": "GRATIS",
-        "FREE_PRICE": "GRATIS",
         "SECTION1": "Op het veld beproefde sensoren",
         "SEC1_ITEM1": "BroodMinder-T2 temperatuur",
         "SEC1_ITEM2": "BroodMinder-TH2 temperatuur/vochtigheid",
