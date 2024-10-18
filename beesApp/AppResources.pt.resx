@@ -2544,4 +2544,22 @@
     <data name="BSSET_HELP_DESCR_LINK">
         <value>Guia do usuário</value>
     </data>
+    <data name="PREMIUM_NO_COMP_DATA">
+		<value>Sem dados computados</value>
+	</data>
+	<data name="PREMIUM_NOT_COMP">
+		<value>Não computado</value>
+	</data>
+	<data name="PREMIUM_HIVES_REMAINING">
+		<value>{0} espaços Hive restantes em sua conta</value>
+	</data>
+	<data name="PREMIUM_HIVE_REMAINING">
+		<value>{0} espaço restante na sua conta</value>
+	</data>
+	<data name="PREMIUM_HIVES_NONE">
+		<value>Acima do limite</value>
+	</data>
+    <data name="PREMIUM_NO_ALERTS">
+		<value>Nenhum alerta calculado disponível</value>
+	</data>
 </root>

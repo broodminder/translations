@@ -1235,9 +1235,8 @@
     "MEMBERSHIP": {
         "TITLE": "MyBroodMinder Premium",
         "PREMIUM": "プレミアム",
-        "PREMIUM_PRICE": "巣箱の数によって価格設定",
+        "PREMIUM_PRICE": "{{数}} 個のミツバチの巣 {{価格}}/年",
         "FREE": "無料",
-        "FREE_PRICE": "無料",
         "SECTION1": "実証済みのセンサー",
         "SEC1_ITEM1": "BroodMinder-T2 温度",
         "SEC1_ITEM2": "BroodMinder-TH2 温度/湿度",
