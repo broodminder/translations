@@ -442,7 +442,7 @@
         "YEAR_2": "Last 2 years",
         "MONTHS_13":"Last 13 months",
         "CUSTOM": "Custom range",
-        "INFO": "Premium or pro membership required to view data older than one year. You can access older data by csv download on the device view.",
+        "INFO": "Premium membership required to view data older than one year. You can access older data by csv download on the device view.",
         "FORECAST":{
             "SHOW":"Show 10 day forecast",
             "ON":"Forecast On",

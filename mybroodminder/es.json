@@ -439,10 +439,10 @@
         "DAYS_90": "Ultimos 90 días",
         "DAYS_180": "Ultimos 180 días",
         "YEAR_1": "Ultimo año",
-        "YEAR_2": "Ultimo 2 años",
-        "MONTHS_13": "Last 13 months",
+        "YEAR_2": "Ultimos 2 años",
+        "MONTHS_13": "Ultimos 13 meses",
         "CUSTOM": "Personalizar duración",
-        "INFO": "Se requiere una abono Premium o Pro para ver los datos de más de un año. Puede acceder a los datos más antiguos mediante la descarga de csv en la vista del dispositivo.",
+        "INFO": "Se requiere una suscripción premium para ver los datos de más de un año. Puede acceder a los datos más antiguos mediante la descarga de csv en la vista del dispositivo.",
         "FORECAST": {
             "SHOW": "Mostrar previsión a 10 días",
             "ON": "Previsión On",
@@ -486,7 +486,7 @@
         "DAYS_180": "180 días",
         "YEAR_1": "1 año",
         "YEAR_2": "2 años",
-        "MONTHS_13": "13 months"
+        "MONTHS_13": "13 meses"
     },
     "NOTES": {
         "TITLE": "{{value}} Notas",
@@ -1152,9 +1152,9 @@
         },
         "PH": {
             "CHECKBOX": "Bee-life.eu",
-            "CHANGED": "Apiary updated",
-            "INFO": "Share your sensor data with Bee Life association through the European Union Pollinator Hub to improve pollinator policy by leveraging advanced technology and data-driven insights collected by beekepers.\n\nThe data being shared:\n- all devices in this apiary with their raw measurements.\n- a rough location of the apiary based on postal code.\n\nData is sent daily to BeeLife.",
-            "EXTERNAL_INFO": "Learn more"
+            "CHANGED": "Colmenar actualizado",
+            "INFO": "Comparte los datos de tus sensores con la asociación Bee Life a través del Centro de Polinizadores de la Unión Europea para mejorar la política de polinizadores aprovechando la tecnología avanzada y los conocimientos basados en datos recopilados por los apicultores.\n\nLos datos que se comparten:\n- todos los dispositivos en este colmenar con sus mediciones en bruto.\n- una ubicación aproximada del colmenar basada en el código postal.\n\nLos datos se envían diariamente a BeeLife.",
+            "EXTERNAL_INFO": "Más información"
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera(Beta)",
@@ -1356,7 +1356,7 @@
             "EMAIL": "Email",
             "FIRST_NAME": "Nombre",
             "LAST_NAME": "Apellidos",
-            "COMPANY": "Company"
+            "COMPANY": "Empresa"
         },
         "BILLING": {
             "TITLE": "Dirección de facturación",
@@ -2290,7 +2290,7 @@
         }
     },
     "MEMBERSHIP_BLOCKS": {
-        "DASHBOARD_DATA": "Este tablero muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
+        "DASHBOARD_DATA": "Este panel muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
         "CHART_DATA": "Este gráfico muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
         "DASHBOARD_ADD": "Solo se permite un tablero personalizado con su membresía gratuita.",
         "UNLOCK": "Mejore su cuenta para desbloquear esta función.",
