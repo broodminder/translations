@@ -2005,7 +2005,7 @@
             "FAIL": "Error creando panel"
         },
         "DASHBOARD": {
-            "TITLE_CREATE": "Creatr Panel",
+            "TITLE_CREATE": "Crear Panel",
             "TITLE_EDIT": "Editar {{name}}",
             "NAME": "Nombre",
             "WARNING": "Hay {{count}} enlaces compartidos conectados a este panel de control. Cualquier cambio que realices afectará a esos enlaces.",
