@@ -1257,6 +1257,8 @@
         "SEC2_ITEM9": "Produttività dell'arnia",
         "SEC2_ITEM10": "Stima dell'alveare",
         "SEC2_ITEM11": "Avvisi sull'apiario e sull'arnia",
+        "SEC2_ITEM12": "Calendario di fioritura",
+        "SEC2_ITEM13": "Previsione di fioritura",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Archiviazione dei dati",
         "SEC3_ITEM2": "Gestione dell'apiario/arnia",
@@ -2301,6 +2303,17 @@
         "THIRDPARTY_DATA": "Dati di terze parti non caricati con il tuo abbonamento gratuito",
         "MISSING_FEATURE": "Questa funzionalità non è disponibile senza un abbonamento.",
         "MISSING_FEATURE_CLOSE": "Chiudi",
-        "MISSING_FEATURE_UPGRADE": "AGGIORNAMENTO"
+        "MISSING_FEATURE_UPGRADE": "AGGIORNAMENTO",
+        "ACCOUNT_ISSUES": {
+            "TITLE": "Problemi dell'account",
+            "MESSAGE_PAID": "Hai {{activeHiveCount}} arnie attive. La tua iscrizione consente {{hivesAllowed}}.",
+            "MESSAGE_FREE": "Sei su un'iscrizione gratuita. L'aggiornamento consente più arnie e funzionalità.",
+            "MESSAGE_COMP": "Sei su un'iscrizione omaggio. È possibile acquistare un'iscrizione per avere più arnie.",
+            "PURCHASE": "Acquista",
+            "UPGRADE": "Aggiorna",
+            "FEATURES": "Controlla le funzionalità",
+            "MANAGE": "Gestisci le arnie",
+            "MANAGE_MESSAGE": "Per aggiungere una nuova arnia, dovrai disattivare {{hivesOver}} delle tue arnie esistenti. È comunque possibile visualizzare le arnie inattive (dalla pagina di configurazione), ma non caricare nuovi dati."
+        }
     }
 }

@@ -1257,6 +1257,8 @@
         "SEC2_ITEM9": "Kastproductiviteit",
         "SEC2_ITEM10": "Broedraming",
         "SEC2_ITEM11": "Waarschuwingen voor rucher en kast",
+        "SEC2_ITEM12": "Bloei kalender",
+        "SEC2_ITEM13": "Bloei voorspelling",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Gegevensopslag",
         "SEC3_ITEM2": "Rucher/kast beheer",
@@ -2301,6 +2303,17 @@
         "THIRDPARTY_DATA": "Gegevens van derden niet geüpload met je gratis lidmaatschap",
         "MISSING_FEATURE": "Deze functie is niet beschikbaar zonder lidmaatschap.",
         "MISSING_FEATURE_CLOSE": "Sluiten",
-        "MISSING_FEATURE_UPGRADE": "UPGRADE"
+        "MISSING_FEATURE_UPGRADE": "UPGRADE",
+        "ACCOUNT_ISSUES": {
+            "TITLE": "Account Problemen",
+            "MESSAGE_PAID": "U heeft {{activeHiveCount}} actieve bijenkorven. Uw lidmaatschap staat {{hivesAllowed}} toe.",
+            "MESSAGE_FREE": "U heeft een gratis lidmaatschap. Upgraden staat meer bijenkorven en functies toe.",
+            "MESSAGE_COMP": "U heeft een complementair lidmaatschap. U kunt een lidmaatschap aanschaffen voor meer bijenkorven.",
+            "PURCHASE": "Aanschaffen",
+            "UPGRADE": "Upgraden",
+            "FEATURES": "Controleer Functies",
+            "MANAGE": "Beheer Bijenkorven",
+            "MANAGE_MESSAGE": "Om een nieuwe bijenkorf toe te voegen, moet u {{hivesOver}} van uw bestaande bijenkorven deactiveren. U kunt nog steeds inactieve bijenkorven bekijken (vanaf de configuratiepagina), maar geen nieuwe gegevens uploaden."
+        }
     }
 }

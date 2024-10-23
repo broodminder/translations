@@ -1257,6 +1257,8 @@
         "SEC2_ITEM9": "Produtividade da colmeia",
         "SEC2_ITEM10": "Estimador de criação",
         "SEC2_ITEM11": "Alertas de apiário e colmeia",
+        "SEC2_ITEM12": "Calendário de floração",
+        "SEC2_ITEM13": "Previsão de floração",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Armazenamento de dados",
         "SEC3_ITEM2": "Gerenciamento de apiários/colmeias",
@@ -2301,6 +2303,17 @@
         "THIRDPARTY_DATA": "Dados de Terceiros não carregados com sua associação gratuita",
         "MISSING_FEATURE": "Esse recurso não está disponível sem uma associação.",
         "MISSING_FEATURE_CLOSE": "Fechar",
-        "MISSING_FEATURE_UPGRADE": "ATUALIZAR"
+        "MISSING_FEATURE_UPGRADE": "ATUALIZAR",
+        "ACCOUNT_ISSUES": {
+            "TITLE": "Problemas de Conta",
+            "MESSAGE_PAID": "Você possui {{activeHiveCount}} colmeias ativas. Sua assinatura permite {{hivesAllowed}}.",
+            "MESSAGE_FREE": "Você está em uma assinatura gratuita. A atualização permite mais colmeias e funcionalidades.",
+            "MESSAGE_COMP": "Você está em uma assinatura complementar. Você pode adquirir uma assinatura para mais colmeias.",
+            "PURCHASE": "Comprar",
+            "UPGRADE": "Atualizar",
+            "FEATURES": "Ver Recursos",
+            "MANAGE": "Gerenciar Colmeias",
+            "MANAGE_MESSAGE": "Para adicionar uma nova colmeia, você precisará desativar {{hivesOver}} das suas colmeias existentes. Ainda é possível visualizar colmeias inativas (na página de configuração), mas não é possível enviar novos dados."
+        }
     }
 }

@@ -206,8 +206,8 @@
             "MESSAGE": "{plantName} a un modèle de floraison basé sur {nbOBS} observations.\nLe début de la floraison est estimé au {bloomingDate}."
         },
         "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Floraison imminente",
-            "MESSAGE": "La floraison de {plantName} approche, elle est estimée au {bloomingDate}."
+            "TITLE": "{apiaryName} - Stade de floraison prédit",
+            "MESSAGE": "Nous prévoyons que {plantName} atteindra le stade 'Début de floraison' dans {preventDays} jours ({bloomingDate}). Souhaitez-vous valider ce stade lorsqu'il se produira ?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Début de Miellée",

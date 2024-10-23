@@ -1257,6 +1257,8 @@
         "SEC2_ITEM9": "Bienenstockproduktivität",
         "SEC2_ITEM10": "Brutkastenschätzer",
         "SEC2_ITEM11": "Rucher- und Bienenstockwarnungen",
+        "SEC2_ITEM12": "Blühkalender",
+        "SEC2_ITEM13": "Blütevorhersage",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Daten speichern",
         "SEC3_ITEM2": "Rucher/Bienenstockverwaltung",
@@ -2301,6 +2303,17 @@
         "THIRDPARTY_DATA": "Daten von Drittanbietern wurden mit Ihrer kostenlosen Mitgliedschaft nicht hochgeladen",
         "MISSING_FEATURE": "Dieses Feature ist ohne Mitgliedschaft nicht verfügbar.",
         "MISSING_FEATURE_CLOSE": "Schließen",
-        "MISSING_FEATURE_UPGRADE": "UPGRADE"
+        "MISSING_FEATURE_UPGRADE": "UPGRADE",
+        "ACCOUNT_ISSUES": {
+            "TITLE": "Kontoprobleme",
+            "MESSAGE_PAID": "Sie haben {{activeHiveCount}} aktive Völker. Ihre Mitgliedschaft erlaubt {{hivesAllowed}}.",
+            "MESSAGE_FREE": "Sie haben eine kostenlose Mitgliedschaft. Eine Aktualisierung ermöglicht mehr Völker und Funktionen.",
+            "MESSAGE_COMP": "Sie haben eine kostenlose Mitgliedschaft. Sie können eine Mitgliedschaft für mehr Völker erwerben.",
+            "PURCHASE": "Kaufen",
+            "UPGRADE": "Aktualisieren",
+            "FEATURES": "Funktionen überprüfen",
+            "MANAGE": "Völker verwalten",
+            "MANAGE_MESSAGE": "Um ein neues Volk hinzuzufügen, müssen Sie {{hivesOver}} Ihrer bestehenden Völker deaktivieren. Sie können immer noch inaktive Völker anzeigen (von der Konfigurationsseite aus), aber keine neuen Daten hochladen."
+        }
     }
 }

@@ -1257,6 +1257,8 @@
         "SEC2_ITEM9": "Kube produktivitet",
         "SEC2_ITEM10": "Redetester",
         "SEC2_ITEM11": "Rucher og kubevarsler",
+        "SEC2_ITEM12": "Blomsterkalender",
+        "SEC2_ITEM13": "Blomsterprognose",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Data lagring",
         "SEC3_ITEM2": "Rucher/kube administrasjon",
@@ -2301,6 +2303,17 @@
         "THIRDPARTY_DATA": "Data fra tredjepart er ikke lastet opp med ditt gratis medlemskap",
         "MISSING_FEATURE": "Denne funksjonen er ikke tilgjengelig uten et medlemskap.",
         "MISSING_FEATURE_CLOSE": "Lukk",
-        "MISSING_FEATURE_UPGRADE": "OPPGRADER"
+        "MISSING_FEATURE_UPGRADE": "OPPGRADER",
+        "ACCOUNT_ISSUES": {
+            "TITLE": "Kontoproblemer",
+            "MESSAGE_PAID": "Du har {{activeHiveCount}} aktive bikuber. Medlemskapet ditt tillater {{hivesAllowed}}.",
+            "MESSAGE_FREE": "Du har gratis medlemskap. Oppgradering gir flere bikuber og funksjoner.",
+            "MESSAGE_COMP": "Du har et gratis medlemskap. Du kan kjøpe et medlemskap for flere bikuber.",
+            "PURCHASE": "Kjøp",
+            "UPGRADE": "Oppgrader",
+            "FEATURES": "Se Funksjoner",
+            "MANAGE": "Administrer Bikuber",
+            "MANAGE_MESSAGE": "For å legge til en ny bikube, må du deaktivere {{hivesOver}} av de eksisterende biene. Du kan fortsatt se inaktive bikuber (fra konfigurasjonssiden), men ikke laste opp ny data."
+        }
     }
 }

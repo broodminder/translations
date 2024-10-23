@@ -1257,6 +1257,8 @@
         "SEC2_ITEM9": "ハイブ生産性",
         "SEC2_ITEM10": "ブルード推定値",
         "SEC2_ITEM11": "養蜂場およびハイブアラート",
+        "SEC2_ITEM12": "開花カレンダー",
+        "SEC2_ITEM13": "開花予測",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "データ保管",
         "SEC3_ITEM2": "養蜂場/ハイブの管理",
@@ -2301,6 +2303,17 @@
         "THIRDPARTY_DATA": "無料メンバーシップではサードパーティーデータをアップロードできません",
         "MISSING_FEATURE": "この機能はメンバーシップなしでは利用できません。",
         "MISSING_FEATURE_CLOSE": "閉じる",
-        "MISSING_FEATURE_UPGRADE": "アップグレード"
+        "MISSING_FEATURE_UPGRADE": "アップグレード",
+        "ACCOUNT_ISSUES": {
+            "TITLE": "アカウントの問題",
+            "MESSAGE_PAID": "アクティブな巣箱が{{activeHiveCount}}個あります。会員資格では{{hivesAllowed}}個まで利用できます。",
+            "MESSAGE_FREE": "無料会員です。アップグレードすると巣箱数や機能を拡張できます。",
+            "MESSAGE_COMP": "無料で提供される会員権利です。追加の巣箱用に会員資格を購入できます。",
+            "PURCHASE": "購入",
+            "UPGRADE": "アップグレード",
+            "FEATURES": "機能を確認",
+            "MANAGE": "巣箱を管理",
+            "MANAGE_MESSAGE": "新しい巣箱を追加するには、既存の{{hivesOver}}個の巣箱を非アクティブにする必要があります。非アクティブな巣箱はまだ表示できます（構成ページから）、ただし新しいデータをアップロードすることはできません。"
+        }
     }
 }
