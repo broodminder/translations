@@ -202,12 +202,12 @@
             "MESSAGE": "Loss of data on '{hivePosition}! Only {nbSamples}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
         },
         "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Blooming calibration finished",
-            "MESSAGE": "{plantName} has a flowering model based on {nbOBS} observations.\nThe start of flowering is estimated at {bloomingDate}."
+            "TITLE": "{apiaryName} - Phenological model calibrated",
+            "MESSAGE": "{plantName} has a phenological model based on {nbOBS} observations.\nThe start of flowering is estimated at {bloomingDate}."
         },
         "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Incoming blooming",
-            "MESSAGE": "The flowering of {plantName} is approaching, it is estimated at {bloomingDate}."
+            "TITLE": "{apiaryName} - Predicted Flowering Stage",
+            "MESSAGE": "We predict that {plantName} will rich the 'Beginning of flowering' stage in {preventDays} days ({bloomingDate}). Would you like to validate this stage when it happens?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Nectar Flow start",
