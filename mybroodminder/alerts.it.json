@@ -209,6 +209,14 @@
             "TITLE": "{apiaryName} - Fioritura imminente",
             "MESSAGE": "La fioritura di {plantName} si avvicina, è stimata per il {bloomingDate}."
         },
+        "ENROLLMENT_PLANT": {
+            "TITLE": "{apiaryName} - Aggiungere una pianta al tuo apiario?",
+            "MESSAGE": "Abbiamo rilevato una miellée. Vorresti aggiungere una pianta al tuo apiario?"
+        },
+        "ENROLLMENT_OBSERVATION": {
+            "TITLE": "{apiaryName} - Aggiungere un'osservazione al tuo apiario?",
+            "MESSAGE": "Abbiamo rilevato una miellée probabilmente legata a una pianta nel tuo apiario. Vorresti aggiungere un'osservazione?"
+        },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Inizio del flusso di nettare",
             "MESSAGE": "Un flusso di nettare è iniziato per l'alveare {hiveName}."

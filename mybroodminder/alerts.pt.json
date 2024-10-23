@@ -209,6 +209,14 @@
             "TITLE": "{apiaryName} - Floração iminente",
             "MESSAGE": "A floração de {plantName} está se aproximando, estimada para {bloomingDate}."
         },
+        "ENROLLMENT_PLANT": {
+            "TITLE": "{apiaryName} - Adicionar uma planta ao seu apiário?",
+            "MESSAGE": "Detectamos uma mielada. Gostaria de adicionar uma planta ao seu apiário?"
+        },
+        "ENROLLMENT_OBSERVATION": {
+            "TITLE": "{apiaryName} - Adicionar uma observação ao seu apiário?",
+            "MESSAGE": "Detectamos uma mielada provavelmente relacionada a uma planta em seu apiário. Gostaria de adicionar uma observação?"
+        },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Início do fluxo de néctar",
             "MESSAGE": "Um fluxo de néctar começou para a colmeia {hiveName}."

@@ -209,6 +209,14 @@
             "TITLE": "{apiaryName} - Kommende Blüte",
             "MESSAGE": "Die Blüte von {plantName} nähert sich, sie wird auf {bloomingDate} geschätzt."
         },
+        "ENROLLMENT_PLANT": {
+            "TITLE": "{apiaryName} - Eine Pflanze zu Ihrem Bienenstand hinzufügen?",
+            "MESSAGE": "Wir haben eine Miellée festgestellt. Möchten Sie eine Pflanze zu Ihrem Bienenstand hinzufügen?"
+        },
+        "ENROLLMENT_OBSERVATION": {
+            "TITLE": "{apiaryName} - Eine Beobachtung zu Ihrem Bienenstand hinzufügen?",
+            "MESSAGE": "Wir haben eine Miellée festgestellt, die wahrscheinlich mit einer Pflanze in Ihrem Bienenstand zusammenhängt. Möchten Sie eine Beobachtung hinzufügen?"
+        },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Beginn des Nektarflusses",
             "MESSAGE": "Ein Nektarfluss hat für den Bienenstock {hiveName} begonnen."
@@ -221,5 +229,5 @@
             "TITLE": "{hiveName} - Wiederaufnahme des Nektarflusses",
             "MESSAGE": "Der Nektarfluss für den Bienenstock {hiveName} hat wieder begonnen."
         }
-    } 
+    }
 }

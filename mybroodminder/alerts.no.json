@@ -209,6 +209,14 @@
             "TITLE": "{apiaryName} - Kommende blomstring",
             "MESSAGE": "Blomstringen av {plantName} nærmer seg, den er estimert til {bloomingDate}."
         },
+        "ENROLLMENT_PLANT": {
+            "TITLE": "{apiaryName} - Legg til en plante i birøkteriet ditt?",
+            "MESSAGE": "Vi har oppdaget en miellée. Vil du legge til en plante i birøkteriet ditt?"
+        },
+        "ENROLLMENT_OBSERVATION": {
+            "TITLE": "{apiaryName} - Legg til en observasjon i birøkteriet ditt?",
+            "MESSAGE": "Vi har oppdaget en miellée som sannsynligvis er relatert til en plante i birøkteriet ditt. Vil du legge til en observasjon?"
+        },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Start av nektarstrøm",
             "MESSAGE": "En nektarstrøm har startet for bikuben {hiveName}."

@@ -209,6 +209,14 @@
             "TITLE": "{apiaryName} - Stade de floraison prédit",
             "MESSAGE": "Nous prévoyons que {plantName} atteindra le stade 'Début de floraison' dans {preventDays} jours ({bloomingDate}). Souhaitez-vous valider ce stade lorsqu'il se produira ?"
         },
+        "ENROLLMENT_PLANT": {
+            "TITLE": "{apiaryName} - Ajouter une plante à votre rucher?",
+            "MESSAGE": "Nous avons détecté une miellée. Souhaitez-vous ajouter une plante à votre rucher?"
+        },
+        "ENROLLMENT_OBSERVATION": {
+            "TITLE": "{apiaryName} - Ajouter une observation à votre rucher?",
+            "MESSAGE": "Nous avons détecté probablement une miellée liée à une plante dans votre rucher. Souhaitez-vous ajouter une observation?"
+        },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Début de Miellée",
             "MESSAGE": "Une miellée a commencé pour la ruche {hiveName}."
