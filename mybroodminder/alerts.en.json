@@ -209,6 +209,14 @@
             "TITLE": "{apiaryName} - Predicted Flowering Stage",
             "MESSAGE": "We predict that {plantName} will rich the 'Beginning of flowering' stage in {preventDays} days ({bloomingDate}). Would you like to validate this stage when it happens?"
         },
+        "ENROLLMENT_PLANT": {
+            "TITLE": "{apiaryName} - Add a plant to your apiary?",
+            "MESSAGE": "We've detected a nectar flow. Would you like to add a plant to your apiary?"
+        },
+        "ENROLLMENT_OBSERVATION": {
+            "TITLE": "{apiaryName} - Add an observation to your apiary?",
+            "MESSAGE": "We've detected a nectar flow probably related to a plant in your apiary. Would you like to add an observation?"
+        },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Nectar Flow start",
             "MESSAGE": "A nectar flow has started for the hive {hiveName}."
