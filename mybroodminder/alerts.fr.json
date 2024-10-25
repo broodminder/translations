@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Calibration de la floraison terminée",
             "MESSAGE": "{plantName} a un modèle de floraison basé sur {nbOBS} observations.\nLe début de la floraison est estimé au {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Stade de floraison prédit",
-            "MESSAGE": "Nous prévoyons que {plantName} atteindra le stade 'Début de floraison' dans {preventDays} jours ({bloomingDate}). Souhaitez-vous valider ce stade lorsqu'il se produira ?"
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Stade phénologique prévu",
+            "MESSAGE": "Nous prédisons que {plantName} atteindra le stade 'PHENOSTAGE' dans {preventDays} jours ({bloomingDate}). Souhaitez-vous valider ce stade lorsqu'il se produira?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Améliorez vos prévisions de floraison",
+            "MESSAGE": "{plantName} devrait fleurir d'ici 3 semaines (autour du {bloomingDate}).\nLa floraison des bourgeons devrait bientôt commencer.\nSouhaitez-vous vérifier?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Ajouter une plante à votre rucher?",

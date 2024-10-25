@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Blomstringskalibrering ferdig",
             "MESSAGE": "{plantName} har en blomstringsmodell basert på {nbOBS} observasjoner.\nBegynnelsen av blomstringen er estimert til {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Kommende blomstring",
-            "MESSAGE": "Blomstringen av {plantName} nærmer seg, den er estimert til {bloomingDate}."
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Forventet fenologisk stadium",
+            "MESSAGE": "Vi forutser at {plantName} vil nå 'PHENOSTAGE' stadiet om {preventDays} dager ({bloomingDate}). Ønsker du å validere dette stadiet når det skjer?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Forbedre blomstringsprognosene dine",
+            "MESSAGE": "{plantName} antas å blomstre innen 3 uker (rundt {bloomingDate}).\nKnoppbrudd bør skje snart.\nØnsker du å sjekke det?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Legg til en plante i birøkteriet ditt?",

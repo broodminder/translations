@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",
             "MESSAGE": "{plantName} hat ein Blühmodell basierend auf {nbOBS} Beobachtungen.\nDer Beginn der Blüte wird auf {bloomingDate} geschätzt."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Kommende Blüte",
-            "MESSAGE": "Die Blüte von {plantName} nähert sich, sie wird auf {bloomingDate} geschätzt."
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Vorhergesagte Phänologische Phase",
+            "MESSAGE": "Wir prognostizieren, dass {plantName} in {preventDays} Tagen ('PHENOSTAGE' Phase erreichen wird ({bloomingDate}). Möchten Sie diese Phase validieren, wenn sie eintritt?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Verbessern Sie Ihre Blütenprognosen",
+            "MESSAGE": "{plantName} soll innerhalb von 3 Wochen blühen (um {bloomingDate}).\nDie Knospenentwicklung sollte bald erfolgen.\nMöchten Sie das überprüfen?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Eine Pflanze zu Ihrem Bienenstand hinzufügen?",

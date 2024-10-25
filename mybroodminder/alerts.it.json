@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Calibrazione della fioritura terminata",
             "MESSAGE": "{plantName} ha un modello di fioritura basato su {nbOBS} osservazioni.\nL'inizio della fioritura è stimato per il {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Fioritura imminente",
-            "MESSAGE": "La fioritura di {plantName} si avvicina, è stimata per il {bloomingDate}."
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Stadio Fenologico Previsto",
+            "MESSAGE": "Prevediamo che {plantName} raggiungerà lo stadio 'PHENOSTAGE' tra {preventDays} giorni ({bloomingDate}). Desideri convalidare questo stadio quando accade?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Migliora le Tue Previsioni Fioriture",
+            "MESSAGE": "{plantName} è stimato fiorirà entro 3 settimane (intorno a {bloomingDate}).\nL'eruzione dei boccioli dovrebbe avvenire presto.\nDesideri controllare?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Aggiungere una pianta al tuo apiario?",

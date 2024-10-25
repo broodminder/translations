@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",
             "MESSAGE": "{plantName} は {nbOBS} 観測に基づく開花モデルを持っています。\n開花の開始は {bloomingDate} と推定されます。"
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - 開花が近づいています",
-            "MESSAGE": "{plantName} の開花が近づいており、 {bloomingDate} と推定されます。"
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - 予測される生育段階",
+            "MESSAGE": "我々は{preventDays}日後 ({bloomingDate})に{plantName}が 'PHENOSTAGE'段階に達すると予測しています。この段階が訪れた際に確認しますか？"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - 花開き予測を向上させる",
+            "MESSAGE": "{plantName}は3週間以内に花が咲くと推定されています（{bloomingDate}頃）。\nつぼみが間もなく開花します。\n確認しますか？"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - 蜂房に植物を追加しますか？",

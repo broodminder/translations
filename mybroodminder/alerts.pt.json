@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Calibração de floração concluída",
             "MESSAGE": "{plantName} tem um modelo de floração baseado em {nbOBS} observações.\nO início da floração está estimado para {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Floração iminente",
-            "MESSAGE": "A floração de {plantName} está se aproximando, estimada para {bloomingDate}."
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Estágio Fenológico Previsto",
+            "MESSAGE": "Prevemos que {plantName} atingirá o estágio 'PHENOSTAGE' em {preventDays} dias ({bloomingDate}). Gostaria de validar este estágio quando isso acontecer?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Aprimore Suas Previsões de Floração",
+            "MESSAGE": "{plantName} está estimada para florescer dentro de 3 semanas (por volta de {bloomingDate}).\nA brotação dos botões deve ocorrer em breve.\nGostaria de verificar isso?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Adicionar uma planta ao seu apiário?",

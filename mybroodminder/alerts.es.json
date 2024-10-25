@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Calibración de floración terminada",
             "MESSAGE": "{plantName} tiene un modelo de floración basado en {nbOBS} observaciones.\nEl inicio de la floración se estima en {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Floración inminente",
-            "MESSAGE": "La floración de {plantName} se está acercando, se estima en {bloomingDate}."
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Etapa Fenológica Prevista",
+            "MESSAGE": "Pronosticamos que {plantName} alcanzará la etapa 'PHENOSTAGE' en {preventDays} días ({bloomingDate}). ¿Te gustaría validar esta etapa cuando ocurra?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Mejora tus Predicciones de Floración",
+            "MESSAGE": "Se estima que {plantName} florecerá en 3 semanas (alrededor de {bloomingDate}).\nLa brotación de los capullos debería ocurrir pronto.\n¿Te gustaría verificarlo?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - ¿Agregar una planta a tu apiario?",

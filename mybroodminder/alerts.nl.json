@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Bloei kalibratie voltooid",
             "MESSAGE": "{plantName} heeft een bloeimodel gebaseerd op {nbOBS} waarnemingen.\nHet begin van de bloei wordt geschat op {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Bloei komt eraan",
-            "MESSAGE": "De bloei van {plantName} nadert, deze wordt geschat op {bloomingDate}."
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Voorspelde Fenologische Fase",
+            "MESSAGE": "Wij voorspellen dat {plantName} de 'PHENOSTAGE' fase zal bereiken in {preventDays} dagen ({bloomingDate}). Wil je deze fase valideren wanneer het gebeurt?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Verbeter Je Bloei Voorspellingen",
+            "MESSAGE": "{plantName} wordt geschat om binnen 3 weken te bloeien (rond {bloomingDate}).\nKnopbreuk zal binnenkort plaatsvinden.\nWil je hierop controleren?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Voeg een plant toe aan je bijenstand?",
