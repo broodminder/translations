@@ -205,9 +205,13 @@
             "TITLE": "{apiaryName} - Phenological model calibrated",
             "MESSAGE": "{plantName} has a phenological model based on {nbOBS} observations.\nThe start of flowering is estimated at {bloomingDate}."
         },
-        "INCOMING_BLOOMING": {
-            "TITLE": "{apiaryName} - Predicted Flowering Stage",
-            "MESSAGE": "We predict that {plantName} will rich the 'Beginning of flowering' stage in {preventDays} days ({bloomingDate}). Would you like to validate this stage when it happens?"
+        "INCOMING_PHENOSTAGE": {
+            "TITLE": "{apiaryName} - Predicted Phenological Stage",
+            "MESSAGE": "We predict that {plantName} will rich the 'PHENOSTAGE' stage in {preventDays} days ({bloomingDate}). Would you like to validate this stage when it happens?"
+        },
+        "ENHANCE_FLOWERING": {
+            "TITLE": "{apiaryName} - Enhance Your Flowering Predictions",
+            "MESSAGE": "{plantName} is estimated to flower within 3 weeks (around {bloomingDate}).\nBud burst should occur soon.\nWould you like to check for it?"
         },
         "ENROLLMENT_PLANT": {
             "TITLE": "{apiaryName} - Add a plant to your apiary?",
