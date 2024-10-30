@@ -208,8 +208,8 @@
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Forventet fenologisk stadium",
             "MESSAGE": "Vi forutser at {plantName} vil nå 'PHENOSTAGE' stadiet om {preventDays} dager ({bloomingDate}).",
-            "SUB_MESSAGE_NO_MODEL": "Ønsker du å validere denne fasen når den skjer?",
-            "SUB_MESSAGE_MODEL": "Ønsker du å kontrollere den?"
+            "SUB_MESSAGE_MODEL": "Ønsker du å validere denne fasen når den skjer?",
+            "SUB_MESSAGE_NO_MODEL": "Ønsker du å kontrollere den?"
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - Forbedre blomstringsprognosene dine",

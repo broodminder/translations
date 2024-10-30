@@ -208,8 +208,8 @@
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Vorhergesagte Phänologische Phase",
             "MESSAGE": "Wir prognostizieren, dass {plantName} in {preventDays} Tagen ('PHENOSTAGE' Phase erreichen wird ({bloomingDate}).",
-            "SUB_MESSAGE_NO_MODEL": "Möchten Sie dieses Stadium validieren, wenn es auftritt?",
-            "SUB_MESSAGE_MODEL": "Möchten Sie danach suchen?"
+            "SUB_MESSAGE_MODEL": "Möchten Sie dieses Stadium validieren, wenn es auftritt?",
+            "SUB_MESSAGE_NO_MODEL": "Möchten Sie danach suchen?"
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - Verbessern Sie Ihre Blütenprognosen",

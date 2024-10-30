@@ -208,8 +208,8 @@
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Predicted Phenological Stage",
             "MESSAGE": "We predict that {plantName} will rich the 'PHENOSTAGE' stage in {preventDays} days ({bloomingDate}).",
-            "SUB_MESSAGE_NO_MODEL": "Would you like to validate this stage when it happens?",
-            "SUB_MESSAGE_MODEL": "Would you like to check for it? "
+            "SUB_MESSAGE_MODEL": "Would you like to validate this stage when it happens?",
+            "SUB_MESSAGE_NO_MODEL": "Would you like to check for it? "
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - Enhance Your Flowering Predictions",

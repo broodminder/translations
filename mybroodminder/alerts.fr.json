@@ -208,8 +208,8 @@
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Stade phénologique prévu",
             "MESSAGE": "Nous prédisons que {plantName} atteindra le stade 'PHENOSTAGE' dans {preventDays} jours ({bloomingDate}).",
-            "SUB_MESSAGE_NO_MODEL": "Souhaitez-vous valider cette étape lorsqu'elle se produit?",
-            "SUB_MESSAGE_MODEL": "Souhaitez-vous vérifier cela? "
+            "SUB_MESSAGE_MODEL": "Souhaitez-vous valider cette étape lorsqu'elle se produit?",
+            "SUB_MESSAGE_NO_MODEL": "Souhaitez-vous vérifier cela? "
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - Améliorez vos prévisions de floraison",
