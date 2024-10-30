@@ -207,7 +207,9 @@
         },
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Etapa Fenológica Prevista",
-            "MESSAGE": "Pronosticamos que {plantName} alcanzará la etapa 'PHENOSTAGE' en {preventDays} días ({bloomingDate}). ¿Te gustaría validar esta etapa cuando ocurra?"
+            "MESSAGE": "Pronosticamos que {plantName} alcanzará la etapa 'PHENOSTAGE' en {preventDays} días ({bloomingDate}).",
+            "SUB_MESSAGE_NO_MODEL": "¿Te gustaría validar esta etapa cuando ocurra?",
+            "SUB_MESSAGE_MODEL": "¿Te gustaría verificarlo?"
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - Mejora tus Predicciones de Floración",

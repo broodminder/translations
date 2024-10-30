@@ -207,7 +207,9 @@
         },
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - 予測される生育段階",
-            "MESSAGE": "我々は{preventDays}日後 ({bloomingDate})に{plantName}が 'PHENOSTAGE'段階に達すると予測しています。この段階が訪れた際に確認しますか？"
+            "MESSAGE": "我々は{preventDays}日後 ({bloomingDate})に{plantName}が 'PHENOSTAGE'段階に達すると予測しています。",
+            "SUB_MESSAGE_NO_MODEL": "そのステージが発生した際に検証しますか？",
+            "SUB_MESSAGE_MODEL": "それを確認しますか？"
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - 花開き予測を向上させる",

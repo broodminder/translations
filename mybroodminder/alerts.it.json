@@ -207,7 +207,9 @@
         },
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Stadio Fenologico Previsto",
-            "MESSAGE": "Prevediamo che {plantName} raggiungerà lo stadio 'PHENOSTAGE' tra {preventDays} giorni ({bloomingDate}). Desideri convalidare questo stadio quando accade?"
+            "MESSAGE": "Prevediamo che {plantName} raggiungerà lo stadio 'PHENOSTAGE' tra {preventDays} giorni ({bloomingDate}).",
+            "SUB_MESSAGE_NO_MODEL": "Desideri convalidare questa fase quando si verifica?",
+            "SUB_MESSAGE_MODEL": "Desideri controllarlo?"
         },
         "ENHANCE_FLOWERING": {
             "TITLE": "{apiaryName} - Migliora le Tue Previsioni Fioriture",
