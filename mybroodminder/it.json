@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Attivato quando il tuo sensore W trasmette pochi dati durante l'ultimo giorno.",
         "POORSIGNALT": "Segnale debole",
         "POORSIGNALT_DESC": "Attivato quando il tuo sensore T trasmette pochi dati durante l'ultimo giorno. ",
+        "LOWBATTERY": "Batteria scarica",
+        "LOWBATTERY_DESC": "Attivato quando il livello della batteria del tuo sensore è al di sotto della soglia selezionata.",
         "LOWBATTERYW": "Batteria scarica",
         "LOWBATTERYW_DESC": "Attivato quando il livello della batteria del tuo sensore W è al di sotto della soglia selezionata.",
         "LOWBATTERYT": "Batteria scarica",

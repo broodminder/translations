@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Utløses når W-sensoren din sender lite data i løpet av den siste dagen.",
         "POORSIGNALT": "Dårlig signal",
         "POORSIGNALT_DESC": "Utløses når T-sensoren din sender lite data i løpet av den siste dagen. ",
+        "LOWBATTERY": "Lavt batteri",
+        "LOWBATTERY_DESC": "Utløses når batterinivået til sensoren er under den valgte terskelen.",
         "LOWBATTERYW": "Lavt batteri",
         "LOWBATTERYW_DESC": "Utløses når batterinivået til W-sensoren er under den valgte terskelen.",
         "LOWBATTERYT": "Lavt batteri",

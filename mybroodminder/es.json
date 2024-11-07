@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Se activa cuando tu sensor de peso transmite pocos datos durante el último día.",
         "POORSIGNALT": "Señal deficiente",
         "POORSIGNALT_DESC": "Se activa cuando su sensor de temperatura transmite pocos datos durante el último día.",
+        "LOWBATTERY": "Bateria baja",
+        "LOWBATTERY_DESC": "Se activa cuando el nivel de la batería de su sensor está por debajo del umbral seleccionado.",
         "LOWBATTERYW": "Bateria baja",
         "LOWBATTERYW_DESC": "Se activa cuando el nivel de la batería de su sensor de peso está por debajo del umbral seleccionado.",
         "LOWBATTERYT": "Bateria baja",

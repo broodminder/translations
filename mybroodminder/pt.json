@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Acionado quando o seu sensor W transmite poucos dados durante o último dia.",
         "POORSIGNALT": "Sinal fraco",
         "POORSIGNALT_DESC": "Acionado quando o seu sensor T transmite poucos dados durante o último dia. ",
+        "LOWBATTERY": "Bateria fraca",
+        "LOWBATTERY_DESC": "Acionado quando o nível da bateria do seu sensor está abaixo do limiar selecionado.",
         "LOWBATTERYW": "Bateria fraca",
         "LOWBATTERYW_DESC": "Acionado quando o nível da bateria do seu sensor W está abaixo do limiar selecionado.",
         "LOWBATTERYT": "Bateria fraca",

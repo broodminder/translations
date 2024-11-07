@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages nur wenig Daten überträgt.",
         "POORSIGNALT": "Schlechtes Signal",
         "POORSIGNALT_DESC": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages nur wenig Daten überträgt.",
+        "LOWBATTERY": "Niedriger Batteriestand",
+        "LOWBATTERY_DESC": "Ausgelöst, wenn der Batteriestand Ihres Sensors unter den ausgewählten Schwellenwert fällt.",
         "LOWBATTERYW": "Niedriger Batteriestand",
         "LOWBATTERYW_DESC": "Ausgelöst, wenn der Batteriestand Ihres W-Sensors unter den ausgewählten Schwellenwert fällt.",
         "LOWBATTERYT": "Niedriger Batteriestand",

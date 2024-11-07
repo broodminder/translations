@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Triggered when your W sensor transmits little data during the last day.",
         "POORSIGNALT": "Poor signal",
         "POORSIGNALT_DESC": "Triggered when your T sensor transmits little data during the last day. ",
+        "LOWBATTERY": "Low battery",
+        "LOWBATTERY_DESC": "Triggered when the battery level of your sensor is below the selected threshold.",
         "LOWBATTERYW": "Low battery",
         "LOWBATTERYW_DESC": "Triggered when the battery level of your W sensor is below the selected threshold.",
         "LOWBATTERYT": "Low battery",

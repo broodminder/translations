@@ -1896,6 +1896,8 @@
         "POORSIGNALW_DESC": "Wセンサーが過去1日間にわずかなデータを送信するとトリガーされます。",
         "POORSIGNALT": "弱い信号",
         "POORSIGNALT_DESC": "Tセンサーが過去1日間にわずかなデータを送信するとトリガーされます。",
+        "LOWBATTERY": "低いバッテリー",
+        "LOWBATTERY_DESC": "Wセンサーのバッテリーレベルが選択した閾値よりも低い場合にトリガーされます。",
         "LOWBATTERYW": "低いバッテリー",
         "LOWBATTERYW_DESC": "Wセンサーのバッテリーレベルが選択した閾値よりも低い場合にトリガーされます。",
         "LOWBATTERYT": "低いバッテリー",

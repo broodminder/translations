@@ -1897,6 +1897,8 @@
         "POORSIGNALW_DESC":"Déclenchée lorsque votre capteur de poids transmets peu de données durant le dernier jour.",
         "POORSIGNALT":"Mauvais signal",
         "POORSIGNALT_DESC":"Déclenchée lorsque votre capteur de température transmets peu de données durant le dernier jour.",
+        "LOWBATTERY":"Batterie faible",
+        "LOWBATTERY_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur est en dessous du seuil choisi.",
         "LOWBATTERYW":"Batterie faible",
         "LOWBATTERYW_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur de poids est en dessous du seuil choisi.",
         "LOWBATTERYT":"Batterie faible",
