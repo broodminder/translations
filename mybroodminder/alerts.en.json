@@ -193,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub disconnected",
-            "MESSAGE": "The Hub ({deviceName}) seems to be disconnected since {date}.",
-            "SUB_MESSAGE": "Following devices will not send their data: {devicesList}."
+            "MESSAGE": "The Hub ({deviceName}) seems to be disconnected since {localDate}.",
+            "SUB_MESSAGE": "Following devices will not send their data: {devices}."
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - Device disconnected",
-            "MESSAGE": "'{hivePosition}' no longer transmits data following the shutdown of its sensor ({deviceName}) from {date}."
+            "MESSAGE": "'{hivePosition}' no longer transmits data following the shutdown of its sensor ({deviceName}) from {localDate}."
         },
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Poor device signal",
-            "MESSAGE": "Loss of data on '{hivePosition}! Only {nbSamples}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
+            "MESSAGE": "Loss of data on '{hivePosition}! Only {value}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Phenological model calibrated",
