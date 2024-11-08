@@ -100,8 +100,13 @@
             "MESSAGE": "Sie haben eine Zarge entfernt",
             "SUBJECT": "Entfernen einer Zarge"
         },
-        "401a": {
+        "401t": {
             "ICON": "LowBatteryT",
+            "MESSAGE": "Ersetzen Sie die Batterie von ",
+            "SUBJECT": "Niedriger Batteriestand"
+        },
+        "401w": {
+            "ICON": "LowBatteryW",
             "MESSAGE": "Ersetzen Sie die Batterie von ",
             "SUBJECT": "Niedriger Batteriestand"
         },
@@ -110,27 +115,27 @@
             "MESSAGE": "Ersetzen Sie die Batterie von ",
             "SUBJECT": "Niedriger Batteriestand"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
+        "401h": {
+            "ICON": "LowBatteryH",
             "MESSAGE": "Ersetzen Sie die Batterie von ",
             "SUBJECT": "Niedriger Batteriestand"
         },
-        "402a": {
+        "402t": {
             "ICON": "DConnectT",
-            "MESSAGE": " getrennt seit",
-            "SUBJECT": "Gerätetrennung",
+            "MESSAGE": " seit Verbindung unterbrochen",
+            "SUBJECT": "Gerät getrennt",
             "UNIT": " Tage"
         },
-        "402b": {
+        "402w": {
             "ICON": "DConnectW",
-            "MESSAGE": " getrennt seit",
-            "SUBJECT": "Gerätetrennung",
+            "MESSAGE": " seit Verbindung unterbrochen",
+            "SUBJECT": "Gerät getrennt",
             "UNIT": " Tage"
         },
-        "402c": {
+        "402h": {
             "ICON": "DConnectH",
-            "MESSAGE": " getrennt seit",
-            "SUBJECT": "Gerätetrennung",
+            "MESSAGE": " seit Verbindung unterbrochen",
+            "SUBJECT": "Gerät getrennt",
             "UNIT": " Tage"
         },
         "402d": {
@@ -139,20 +144,20 @@
             "SUBJECT": "Gerätetrennung",
             "UNIT": " Tage"
         },
-        "403a": {
+        "403t": {
             "ICON": "PoorSignalT",
-            "MESSAGE": " schwaches Signal seit",
-            "SUBJECT": "Schwaches Signal",
+            "MESSAGE": " schlechtes Signal seit",
+            "SUBJECT": "Schlechtes Signal",
+            "UNIT": " Tage"
+        },
+        "403w": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": " schlechtes Signal seit",
+            "SUBJECT": "Schlechtes Signal",
             "UNIT": " Tage"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " schwaches Signal seit",
-            "SUBJECT": "Schwaches Signal",
-            "UNIT": " Tage"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " schwaches Signal seit",
             "SUBJECT": "Schwaches Signal",
             "UNIT": " Tage"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub getrennt",
-            "MESSAGE": "Der Hub ({deviceName}) scheint seit {date} getrennt zu sein.",
-            "SUB_MESSAGE": "Folgende Geräte werden keine Daten senden: {devicesList}."
+            "MESSAGE": "Der Hub ({deviceName}) scheint seit {localDate} getrennt zu sein.",
+            "SUB_MESSAGE": "Folgende Geräte senden keine Daten: {devices}."
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - Gerät getrennt",
-            "MESSAGE": "'{hivePosition}' übermittelt keine Daten mehr aufgrund der Abschaltung seines Sensors ({deviceName}) seit {date}."
+            "MESSAGE": "'{hivePosition}' übermittelt keine Daten mehr, da sein Sensor ({deviceName}) seit {localDate} heruntergefahren ist."
         },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Schwaches Gerätesignal",
-            "MESSAGE": "Datenverlust bei '{hivePosition}! Nur {nbSamples}% der erwarteten Messwerte sind heute eingegangen. Das Sensorsignal ({deviceName}) könnte die Ursache sein."
+        "POORSIGNAL": {
+            "TITLE": "{hiveName} - Schlechtes Gerätesignal",
+            "MESSAGE": "Datenverlust auf '{hivePosition}! Nur {value}% der erwarteten Messwerte wurden heute erhalten. Der Sensorsignal ({deviceName}) könnte die Ursache sein."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",

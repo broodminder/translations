@@ -100,9 +100,14 @@
             "MESSAGE": "Du fjernet en etasje",
             "SUBJECT": "Fjerner en etasje"
         },
-        "401a": {
+        "401t": {
             "ICON": "LowBatteryT",
-            "MESSAGE": "Bytt batteriet på ",
+            "MESSAGE": "Bytt batteri på",
+            "SUBJECT": "Lavt batteri"
+        },
+        "401w": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "Bytt batteri på",
             "SUBJECT": "Lavt batteri"
         },
         "401b": {
@@ -110,24 +115,24 @@
             "MESSAGE": "Bytt batteriet på ",
             "SUBJECT": "Lavt batteri"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
-            "MESSAGE": "Bytt batteriet på ",
+        "401h": {
+            "ICON": "LowBatteryH",
+            "MESSAGE": "Bytt batteri på",
             "SUBJECT": "Lavt batteri"
         },
-        "402a": {
+        "402t": {
             "ICON": "DConnectT",
             "MESSAGE": " frakoblet siden",
             "SUBJECT": "Enhet frakoblet",
             "UNIT": " dager"
         },
-        "402b": {
+        "402w": {
             "ICON": "DConnectW",
             "MESSAGE": " frakoblet siden",
             "SUBJECT": "Enhet frakoblet",
             "UNIT": " dager"
         },
-        "402c": {
+        "402h": {
             "ICON": "DConnectH",
             "MESSAGE": " frakoblet siden",
             "SUBJECT": "Enhet frakoblet",
@@ -139,20 +144,20 @@
             "SUBJECT": "Enhet frakoblet",
             "UNIT": " dager"
         },
-        "403a": {
+        "403t": {
             "ICON": "PoorSignalT",
+            "MESSAGE": " dårlig signal siden",
+            "SUBJECT": "Dårlig signal",
+            "UNIT": " dager"
+        },
+        "403w": {
+            "ICON": "PoorSignalW",
             "MESSAGE": " dårlig signal siden",
             "SUBJECT": "Dårlig signal",
             "UNIT": " dager"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " dårlig signal siden",
-            "SUBJECT": "Dårlig signal",
-            "UNIT": " dager"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " dårlig signal siden",
             "SUBJECT": "Dårlig signal",
             "UNIT": " dager"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub frakoblet",
-            "MESSAGE": "Huben ({deviceName}) ser ut til å være frakoblet siden {date}.",
-            "SUB_MESSAGE": "Følgende enheter vil ikke sende data: {devicesList}."
+            "MESSAGE": "Huben ({deviceName}) ser ut til å være frakoblet siden {localDate}.",
+            "SUB_MESSAGE": "Følgende enheter vil ikke sende dataene sine: {devices}."
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - Enhet frakoblet",
-            "MESSAGE": "'{hivePosition}' sender ikke lenger data etter at sensoren ({deviceName}) ble slått av siden {date}."
+            "MESSAGE": "'{hivePosition}' sender ikke lenger data etter at sensoren ({deviceName}) ble slått av fra {localDate}."
         },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Dårlig signal fra enhet",
-            "MESSAGE": "Tap av data på '{hivePosition}'! Bare {nbSamples} % av de forventede målingene er mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
+        "POORSIGNAL": {
+            "TITLE": "{hiveName} - Dårlig enhetssignal",
+            "MESSAGE": "Tap av data på '{hivePosition}! Kun {value}% av de forventede avlesningene er mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blomstringskalibrering ferdig",

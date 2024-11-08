@@ -100,8 +100,13 @@
             "MESSAGE": "Vous avez retiré une hausse",
             "SUBJECT": "Retrait d'une hausse"
         },
-        "401a": {
+        "401t": {
             "ICON": "LowBatteryT",
+            "MESSAGE": "Remplacez la batterie de ",
+            "SUBJECT": "Batterie faible"
+        },
+        "401w": {
+            "ICON": "LowBatteryW",
             "MESSAGE": "Remplacez la batterie de ",
             "SUBJECT": "Batterie faible"
         },
@@ -110,27 +115,27 @@
             "MESSAGE": "Remplacez la batterie de ",
             "SUBJECT": "Batterie faible"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
+        "401h": {
+            "ICON": "LowBatteryH",
             "MESSAGE": "Remplacez la batterie de ",
             "SUBJECT": "Batterie faible"
         },
-        "402a": {
+        "402t": {
             "ICON": "DConnectT",
             "MESSAGE": " déconnecté depuis",
-            "SUBJECT": "Déconnexion de l'appareil",
+            "SUBJECT": "Dispositif déconnecté",
             "UNIT": " jours"
         },
-        "402b": {
+        "402w": {
             "ICON": "DConnectW",
             "MESSAGE": " déconnecté depuis",
-            "SUBJECT": "Déconnexion de l'appareil",
+            "SUBJECT": "Dispositif déconnecté",
             "UNIT": " jours"
         },
-        "402c": {
+        "402h": {
             "ICON": "DConnectH",
             "MESSAGE": " déconnecté depuis",
-            "SUBJECT": "Déconnexion de l'appareil",
+            "SUBJECT": "Dispositif déconnecté",
             "UNIT": " jours"
         },
         "402d": {
@@ -139,20 +144,20 @@
             "SUBJECT": "Déconnexion de l'appareil",
             "UNIT": " jours"
         },
-        "403a": {
+        "403t": {
             "ICON": "PoorSignalT",
+            "MESSAGE": " signal faible depuis",
+            "SUBJECT": "Signal faible",
+            "UNIT": " jours"
+        },
+        "403w": {
+            "ICON": "PoorSignalW",
             "MESSAGE": " signal faible depuis",
             "SUBJECT": "Signal faible",
             "UNIT": " jours"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " signal faible depuis",
-            "SUBJECT": "Signal faible",
-            "UNIT": " jours"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " signal faible depuis",
             "SUBJECT": "Signal faible",
             "UNIT": " jours"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub déconnecté",
-            "MESSAGE": "Le Hub ({deviceName}) semble être déconnecté depuis le {date}.",
-            "SUB_MESSAGE": "Les appareils suivants ne transmettront plus leurs données : {devicesList}."
+            "MESSAGE": "Le Hub ({deviceName}) semble être déconnecté depuis le {localDate}.",
+            "SUB_MESSAGE": "Les appareils suivants ne pourront pas envoyer leurs données : {devices}."
         },
-        "DEVICE_DISCONNECTED": {
-            "TITLE": "{hiveName} - Capteur déconnecté",
-            "MESSAGE": "'{hivePosition}' ne transmet plus de données suite à l'arrêt de son capteur ({deviceName}) depuis le {date}."
+        "DCONNECT": {
+            "TITLE": "{hiveName} - Dispositif déconnecté",
+            "MESSAGE": "'{hivePosition}' ne transmet plus de données suite à l'arrêt de son capteur ({deviceName}) depuis le {localDate}."
         },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Mauvais signal d'un capteur",
-            "MESSAGE": "Perte de données sur '{hivePosition}' ! Seuls {nbSamples}% des enregistrements attendues ont été reçus aujourd'hui. Le signal du capteur ({deviceName}) pourrait en être la cause."
+        "POORSIGNAL": {
+            "TITLE": "{hiveName} - Signal faible du dispositif",
+            "MESSAGE": "Perte de données sur '{hivePosition}! Seulement {value}% des mesures attendues ont été reçues aujourd'hui. Le signal du capteur ({deviceName}) peut être la cause."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibration de la floraison terminée",

@@ -100,9 +100,14 @@
             "MESSAGE": "Has quitado una alza",
             "SUBJECT": "Quitar una alza"
         },
-        "401a": {
-            "ICON": "LowBatteryT",
-            "MESSAGE": "Reemplaza la batería de ",
+        "401t": {
+            "ICON": "BateríaBajaT",
+            "MESSAGE": "Reemplace la batería de ",
+            "SUBJECT": "Batería baja"
+        },
+        "401w": {
+            "ICON": "BateríaBajaW",
+            "MESSAGE": "Reemplace la batería de ",
             "SUBJECT": "Batería baja"
         },
         "401b": {
@@ -110,27 +115,27 @@
             "MESSAGE": "Reemplaza la batería de ",
             "SUBJECT": "Batería baja"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
-            "MESSAGE": "Reemplaza la batería de ",
+        "401h": {
+            "ICON": "BateríaBajaH",
+            "MESSAGE": "Reemplace la batería de ",
             "SUBJECT": "Batería baja"
         },
-        "402a": {
-            "ICON": "DConnectT",
+        "402t": {
+            "ICON": "DesconexiónT",
             "MESSAGE": " desconectado desde",
-            "SUBJECT": "Desconexión del dispositivo",
+            "SUBJECT": "Dispositivo desconectado",
             "UNIT": " días"
         },
-        "402b": {
-            "ICON": "DConnectW",
+        "402w": {
+            "ICON": "DesconexiónW",
             "MESSAGE": " desconectado desde",
-            "SUBJECT": "Desconexión del dispositivo",
+            "SUBJECT": "Dispositivo desconectado",
             "UNIT": " días"
         },
-        "402c": {
-            "ICON": "DConnectH",
+        "402h": {
+            "ICON": "DesconexiónH",
             "MESSAGE": " desconectado desde",
-            "SUBJECT": "Desconexión del dispositivo",
+            "SUBJECT": "Dispositivo desconectado",
             "UNIT": " días"
         },
         "402d": {
@@ -139,20 +144,20 @@
             "SUBJECT": "Desconexión del dispositivo",
             "UNIT": " días"
         },
-        "403a": {
-            "ICON": "PoorSignalT",
-            "MESSAGE": " señal pobre desde",
-            "SUBJECT": "Señal pobre",
+        "403t": {
+            "ICON": "SeñalDébilT",
+            "MESSAGE": " señal débil desde",
+            "SUBJECT": "Señal débil",
+            "UNIT": " días"
+        },
+        "403w": {
+            "ICON": "SeñalDébilW",
+            "MESSAGE": " señal débil desde",
+            "SUBJECT": "Señal débil",
             "UNIT": " días"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " señal pobre desde",
-            "SUBJECT": "Señal pobre",
-            "UNIT": " días"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " señal pobre desde",
             "SUBJECT": "Señal pobre",
             "UNIT": " días"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub desconectado",
-            "MESSAGE": "El Hub ({deviceName}) parece estar desconectado desde {date}.",
-            "SUB_MESSAGE": "Los siguientes dispositivos no enviarán sus datos: {devicesList}."
+            "MESSAGE": "El Hub ({deviceName}) parece estar desconectado desde {localDate}.",
+            "SUB_MESSAGE": "Los siguientes dispositivos no enviarán sus datos: {devices}."
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo desconectado",
-            "MESSAGE": "'{hivePosition}' ya no transmite datos debido al apagado de su sensor ({deviceName}) desde {date}."
+            "MESSAGE": "'{hivePosition}' ya no transmite datos siguiendo el apagado de su sensor ({deviceName}) desde {localDate}."
         },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Señal del dispositivo débil",
-            "MESSAGE": "Pérdida de datos en '{hivePosition}'! Hoy solo se ha recibido el {nbSamples}% de las lecturas esperadas. La señal del sensor ({deviceName}) podría ser la causa."
+        "POORSIGNAL": {
+            "TITLE": "{hiveName} - Señal débil del dispositivo",
+            "MESSAGE": "Pérdida de datos en '{hivePosition}! Solo se ha recibido el {value}% de las lecturas esperadas hoy. El sensor ({deviceName}) podría ser la causa."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibración de floración terminada",

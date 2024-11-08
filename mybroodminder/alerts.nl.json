@@ -100,8 +100,13 @@
             "MESSAGE": "U heeft een super verwijderd",
             "SUBJECT": "Super verwijderd"
         },
-        "401a": {
+        "401t": {
             "ICON": "LowBatteryT",
+            "MESSAGE": "Vervang de batterij van ",
+            "SUBJECT": "Lage batterij"
+        },
+        "401w": {
+            "ICON": "LowBatteryW",
             "MESSAGE": "Vervang de batterij van ",
             "SUBJECT": "Lage batterij"
         },
@@ -110,26 +115,26 @@
             "MESSAGE": "Vervang de batterij van ",
             "SUBJECT": "Lage batterij"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
+        "401h": {
+            "ICON": "LowBatteryH",
             "MESSAGE": "Vervang de batterij van ",
             "SUBJECT": "Lage batterij"
         },
-        "402a": {
+        "402t": {
             "ICON": "DConnectT",
-            "MESSAGE": " sinds losgekoppeld",
+            "MESSAGE": " losgekoppeld sinds",
             "SUBJECT": "Apparaat losgekoppeld",
             "UNIT": " dagen"
         },
-        "402b": {
+        "402w": {
             "ICON": "DConnectW",
-            "MESSAGE": " sinds losgekoppeld",
+            "MESSAGE": " losgekoppeld sinds",
             "SUBJECT": "Apparaat losgekoppeld",
             "UNIT": " dagen"
         },
-        "402c": {
+        "402h": {
             "ICON": "DConnectH",
-            "MESSAGE": " sinds losgekoppeld",
+            "MESSAGE": " losgekoppeld sinds",
             "SUBJECT": "Apparaat losgekoppeld",
             "UNIT": " dagen"
         },
@@ -139,20 +144,20 @@
             "SUBJECT": "Apparaat losgekoppeld",
             "UNIT": " dagen"
         },
-        "403a": {
+        "403t": {
             "ICON": "PoorSignalT",
+            "MESSAGE": " slecht signaal sinds",
+            "SUBJECT": "Slecht signaal",
+            "UNIT": " dagen"
+        },
+        "403w": {
+            "ICON": "PoorSignalW",
             "MESSAGE": " slecht signaal sinds",
             "SUBJECT": "Slecht signaal",
             "UNIT": " dagen"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " slecht signaal sinds",
-            "SUBJECT": "Slecht signaal",
-            "UNIT": " dagen"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " slecht signaal sinds",
             "SUBJECT": "Slecht signaal",
             "UNIT": " dagen"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub losgekoppeld",
-            "MESSAGE": "De Hub ({deviceName}) lijkt sinds {date} losgekoppeld te zijn.",
-            "SUB_MESSAGE": "De volgende apparaten zullen geen gegevens verzenden: {devicesList}."
+            "MESSAGE": "De Hub ({deviceName}) lijkt losgekoppeld te zijn sinds {localDate}.",
+            "SUB_MESSAGE": "De volgende apparaten zullen hun gegevens niet verzenden: {devices}."
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - Apparaat losgekoppeld",
-            "MESSAGE": "'{hivePosition}' verzendt geen gegevens meer vanwege de uitschakeling van zijn sensor ({deviceName}) sinds {date}."
+            "MESSAGE": "'{hivePosition}' stuurt geen gegevens meer nadat de sensor ({deviceName}) is uitgeschakeld vanaf {localDate}."
         },
-        "DEVICE_POORSIGNAL": {
+        "POORSIGNAL": {
             "TITLE": "{hiveName} - Slecht signaal van apparaat",
-            "MESSAGE": "Gegevensverlies op '{hivePosition}'! Vandaag zijn slechts {nbSamples} monsters ontvangen. Het signaal van de sensor ({deviceName}) kan de oorzaak zijn."
+            "MESSAGE": "Verlies van gegevens op '{hivePosition}! Er is vandaag slechts {value}% van de verwachte metingen ontvangen. Het sensor signaal ({deviceName}) kan de oorzaak zijn."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Bloei kalibratie voltooid",

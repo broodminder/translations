@@ -100,38 +100,43 @@
             "MESSAGE": "スーパーを削除しました",
             "SUBJECT": "スーパーの削除"
         },
-        "401a": {
+        "401t": {
             "ICON": "LowBatteryT",
-            "MESSAGE": "のバッテリーを交換してください ",
-            "SUBJECT": "バッテリー残量が少ない"
+            "MESSAGE": "のバッテリーを交換してください",
+            "SUBJECT": "バッテリーが低い"
+        },
+        "401w": {
+            "ICON": "LowBatteryW",
+            "MESSAGE": "のバッテリーを交換してください",
+            "SUBJECT": "バッテリーが低い"
         },
         "401b": {
             "ICON": "LowBatteryW",
             "MESSAGE": "のバッテリーを交換してください ",
             "SUBJECT": "バッテリー残量が少ない"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
-            "MESSAGE": "のバッテリーを交換してください ",
-            "SUBJECT": "バッテリー残量が少ない"
+        "401h": {
+            "ICON": "LowBatteryH",
+            "MESSAGE": "のバッテリーを交換してください",
+            "SUBJECT": "バッテリーが低い"
         },
-        "402a": {
+        "402t": {
             "ICON": "DConnectT",
-            "MESSAGE": " から切断されました",
-            "SUBJECT": "デバイスの切断",
-            "UNIT": " 日"
+            "MESSAGE": "が{日数}日間接続されていません",
+            "SUBJECT": "デバイスが接続されていません",
+            "UNIT": "日"
         },
-        "402b": {
+        "402w": {
             "ICON": "DConnectW",
-            "MESSAGE": " から切断されました",
-            "SUBJECT": "デバイスの切断",
-            "UNIT": " 日"
+            "MESSAGE": "が{日数}日間接続されていません",
+            "SUBJECT": "デバイスが接続されていません",
+            "UNIT": "日"
         },
-        "402c": {
+        "402h": {
             "ICON": "DConnectH",
-            "MESSAGE": " から切断されました",
-            "SUBJECT": "デバイスの切断",
-            "UNIT": " 日"
+            "MESSAGE": "が{日数}日間接続されていません",
+            "SUBJECT": "デバイスが接続されていません",
+            "UNIT": "日"
         },
         "402d": {
             "ICON": "DConnectBC",
@@ -139,20 +144,20 @@
             "SUBJECT": "デバイスの切断",
             "UNIT": " 日"
         },
-        "403a": {
+        "403t": {
             "ICON": "PoorSignalT",
-            "MESSAGE": " 信号が弱い ",
-            "SUBJECT": "弱い信号",
-            "UNIT": " 日"
+            "MESSAGE": "{日数}日間シグナルが弱いです",
+            "SUBJECT": "シグナルが悪い",
+            "UNIT": "日"
+        },
+        "403w": {
+            "ICON": "PoorSignalW",
+            "MESSAGE": "{日数}日間シグナルが弱いです",
+            "SUBJECT": "シグナルが悪い",
+            "UNIT": "日"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " 信号が弱い ",
-            "SUBJECT": "弱い信号",
-            "UNIT": " 日"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " 信号が弱い ",
             "SUBJECT": "弱い信号",
             "UNIT": " 日"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - ハブが切断されました",
-            "MESSAGE": "ハブ ({deviceName}) は {date} から切断されているようです。",
-            "SUB_MESSAGE": "次のデバイスはデータを送信しません: {devicesList}."
+            "MESSAGE": "ハブ({deviceName}) が{localDate}以降に切断されたようです。",
+            "SUB_MESSAGE": "以下のデバイスはデータを送信しません： {devices}。"
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - デバイスが切断されました",
-            "MESSAGE": "'{hivePosition}' は {date} からそのセンサー ({deviceName}) のシャットダウンによりデータを送信していません。"
+            "MESSAGE": "'{hivePosition}' は、{localDate}からセンサー({deviceName})のシャットダウンによりデータを送信しなくなりました。"
         },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - デバイスの信号が弱い",
-            "MESSAGE": "'{hivePosition}' でのデータ損失！今日は予想される測定値の {nbSamples}% のみが受信されました。センサーの信号 ({deviceName}) が原因かもしれません。"
+        "POORSIGNAL": {
+            "TITLE": "{hiveName} - シグナルが弱い",
+            "MESSAGE": "'{hivePosition}' にデータの損失が発生しています！今日は期待される読み取りのうち、{value}%のみが受信されました。センサーシグナル({deviceName})が原因かもしれません。"
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",

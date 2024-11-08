@@ -100,8 +100,13 @@
             "MESSAGE": "Hai rimosso un melario",
             "SUBJECT": "Rimozione di un melario"
         },
-        "401a": {
-            "ICON": "LowBatteryT",
+        "401t": {
+            "ICON": "BatteriaScaricaT",
+            "MESSAGE": "Sostituire la batteria di ",
+            "SUBJECT": "Batteria scarica"
+        },
+        "401w": {
+            "ICON": "BatteriaScaricaW",
             "MESSAGE": "Sostituire la batteria di ",
             "SUBJECT": "Batteria scarica"
         },
@@ -110,27 +115,27 @@
             "MESSAGE": "Sostituire la batteria di ",
             "SUBJECT": "Batteria scarica"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
+        "401h": {
+            "ICON": "BatteriaScaricaH",
             "MESSAGE": "Sostituire la batteria di ",
             "SUBJECT": "Batteria scarica"
         },
-        "402a": {
-            "ICON": "DConnectT",
+        "402t": {
+            "ICON": "DisconnessoT",
             "MESSAGE": " disconnesso da",
-            "SUBJECT": "Disconnessione dispositivo",
+            "SUBJECT": "Dispositivo disconnesso",
             "UNIT": " giorni"
         },
-        "402b": {
-            "ICON": "DConnectW",
+        "402w": {
+            "ICON": "DisconnessoW",
             "MESSAGE": " disconnesso da",
-            "SUBJECT": "Disconnessione dispositivo",
+            "SUBJECT": "Dispositivo disconnesso",
             "UNIT": " giorni"
         },
-        "402c": {
-            "ICON": "DConnectH",
+        "402h": {
+            "ICON": "DisconnessoH",
             "MESSAGE": " disconnesso da",
-            "SUBJECT": "Disconnessione dispositivo",
+            "SUBJECT": "Dispositivo disconnesso",
             "UNIT": " giorni"
         },
         "402d": {
@@ -139,20 +144,20 @@
             "SUBJECT": "Disconnessione dispositivo",
             "UNIT": " giorni"
         },
-        "403a": {
-            "ICON": "PoorSignalT",
+        "403t": {
+            "ICON": "SegnaleScadenteT",
+            "MESSAGE": " segnale debole da",
+            "SUBJECT": "Segnale debole",
+            "UNIT": " giorni"
+        },
+        "403w": {
+            "ICON": "SegnaleScadenteW",
             "MESSAGE": " segnale debole da",
             "SUBJECT": "Segnale debole",
             "UNIT": " giorni"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " segnale debole da",
-            "SUBJECT": "Segnale debole",
-            "UNIT": " giorni"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " segnale debole da",
             "SUBJECT": "Segnale debole",
             "UNIT": " giorni"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub disconnesso",
-            "MESSAGE": "L'Hub ({deviceName}) sembra essere disconnesso dal {date}.",
-            "SUB_MESSAGE": "I seguenti dispositivi non invieranno i loro dati: {devicesList}."
+            "MESSAGE": "Il Hub ({deviceName}) risulta disconnesso dal {localDate}.",
+            "SUB_MESSAGE": "I seguenti dispositivi non invieranno i loro dati: {devices}."
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo disconnesso",
-            "MESSAGE": "'{hivePosition}' non trasmette più dati a causa dello spegnimento del suo sensore ({deviceName}) dal {date}."
+            "MESSAGE": "'{hivePosition}' non trasmette più dati a seguito dello spegnimento del suo sensore ({deviceName}) dal {localDate}."
         },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Segnale del dispositivo debole",
-            "MESSAGE": "Perdita di dati su '{hivePosition}'! Oggi è stato ricevuto solo il {nbSamples}% delle letture previste. La causa potrebbe essere il segnale del sensore ({deviceName})."
+        "POORSIGNAL": {
+            "TITLE": "{hiveName} - Segnale debole del dispositivo",
+            "MESSAGE": "Perdita di dati su '{hivePosition}! Solo il {value}% delle letture previste è stato ricevuto oggi. Il segnale del sensore ({deviceName}) potrebbe essere la causa."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibrazione della fioritura terminata",

@@ -100,8 +100,13 @@
             "MESSAGE": "Você removeu uma melgueira",
             "SUBJECT": "Removendo uma melgueira"
         },
-        "401a": {
-            "ICON": "LowBatteryT",
+        "401t": {
+            "ICON": "BaixaBateriaT",
+            "MESSAGE": "Substitua a bateria de ",
+            "SUBJECT": "Bateria fraca"
+        },
+        "401w": {
+            "ICON": "BaixaBateriaW",
             "MESSAGE": "Substitua a bateria de ",
             "SUBJECT": "Bateria fraca"
         },
@@ -110,25 +115,25 @@
             "MESSAGE": "Substitua a bateria de ",
             "SUBJECT": "Bateria fraca"
         },
-        "401c": {
-            "ICON": "LowBatteryBC",
+        "401h": {
+            "ICON": "BaixaBateriaH",
             "MESSAGE": "Substitua a bateria de ",
             "SUBJECT": "Bateria fraca"
         },
-        "402a": {
-            "ICON": "DConnectT",
+        "402t": {
+            "ICON": "DesconectadoT",
             "MESSAGE": " desconectado desde",
             "SUBJECT": "Dispositivo desconectado",
             "UNIT": " dias"
         },
-        "402b": {
-            "ICON": "DConnectW",
+        "402w": {
+            "ICON": "DesconectadoW",
             "MESSAGE": " desconectado desde",
             "SUBJECT": "Dispositivo desconectado",
             "UNIT": " dias"
         },
-        "402c": {
-            "ICON": "DConnectH",
+        "402h": {
+            "ICON": "DesconectadoH",
             "MESSAGE": " desconectado desde",
             "SUBJECT": "Dispositivo desconectado",
             "UNIT": " dias"
@@ -139,20 +144,20 @@
             "SUBJECT": "Dispositivo desconectado",
             "UNIT": " dias"
         },
-        "403a": {
-            "ICON": "PoorSignalT",
+        "403t": {
+            "ICON": "SinalFracoT",
+            "MESSAGE": " sinal fraco desde",
+            "SUBJECT": "Sinal fraco",
+            "UNIT": " dias"
+        },
+        "403w": {
+            "ICON": "SinalFracoW",
             "MESSAGE": " sinal fraco desde",
             "SUBJECT": "Sinal fraco",
             "UNIT": " dias"
         },
         "403b": {
             "ICON": "PoorSignalW",
-            "MESSAGE": " sinal fraco desde",
-            "SUBJECT": "Sinal fraco",
-            "UNIT": " dias"
-        },
-        "403c": {
-            "ICON": "PoorSignalBC",
             "MESSAGE": " sinal fraco desde",
             "SUBJECT": "Sinal fraco",
             "UNIT": " dias"
@@ -188,18 +193,18 @@
         }
     },
     "NOTIFICATIONS": {
-        "HUB_DISCONNECTED": {
+        "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub desconectado",
-            "MESSAGE": "O Hub ({deviceName}) parece estar desconectado desde {date}.",
-            "SUB_MESSAGE": "Os seguintes dispositivos não enviarão seus dados: {devicesList}."
+            "MESSAGE": "O Hub ({deviceName}) parece estar desconectado desde {localDate}.",
+            "SUB_MESSAGE": "Os seguintes dispositivos não enviarão seus dados: {devices}."
         },
-        "DEVICE_DISCONNECTED": {
+        "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo desconectado",
-            "MESSAGE": "'{hivePosition}' não está mais transmitindo dados após o desligamento de seu sensor ({deviceName}) desde {date}."
+            "MESSAGE": "'{hivePosition}' não transmite mais dados devido ao desligamento de seu sensor ({deviceName}) desde {localDate}."
         },
-        "DEVICE_POORSIGNAL": {
+        "POORSIGNAL": {
             "TITLE": "{hiveName} - Sinal fraco do dispositivo",
-            "MESSAGE": "Perda de dados em '{hivePosition}'! Apenas {nbSamples}% das leituras esperadas foram recebidas hoje. O sinal do sensor ({deviceName}) pode ser a causa."
+            "MESSAGE": "Perda de dados em '{hivePosition}! Apenas {value}% das leituras esperadas foram recebidas hoje. O sinal do sensor ({deviceName}) pode ser a causa."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibração de floração concluída",
