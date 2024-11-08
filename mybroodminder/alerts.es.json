@@ -198,13 +198,26 @@
             "MESSAGE": "El Hub ({deviceName}) parece estar desconectado desde {localDate}.",
             "SUB_MESSAGE": "Los siguientes dispositivos no enviarán sus datos: {devices}."
         },
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub desconectado",
+            "MESSAGE": "El Hub ({deviceName}) parece estar desconectado desde {localDate}.",
+            "SUB_MESSAGE": "Los siguientes dispositivos no enviarán sus datos: {devices}."
+        },
         "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo desconectado",
             "MESSAGE": "'{hivePosition}' ya no transmite datos siguiendo el apagado de su sensor ({deviceName}) desde {localDate}."
         },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Dispositivo desconectado",
+            "MESSAGE": "'{hivePosition}' ya no transmite datos tras el apagado de su sensor ({deviceName}) desde {localDate}."
+        },
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Señal débil del dispositivo",
             "MESSAGE": "Pérdida de datos en '{hivePosition}! Solo se ha recibido el {value}% de las lecturas esperadas hoy. El sensor ({deviceName}) podría ser la causa."
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - Señal débil del dispositivo",
+            "MESSAGE": "Pérdida de datos en '{hivePosition}'! Solo se ha recibido el {value}% de las lecturas esperadas hoy. El fallo de la señal del sensor ({deviceName}) puede ser la causa."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibración de floración terminada",

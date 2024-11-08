@@ -198,11 +198,24 @@
             "MESSAGE": "O Hub ({deviceName}) parece estar desconectado desde {localDate}.",
             "SUB_MESSAGE": "Os seguintes dispositivos não enviarão seus dados: {devices}."
         },
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - Hub desconectado",
+            "MESSAGE": "O Hub ({deviceName}) parece estar desconectado desde {localDate}.",
+            "SUB_MESSAGE": "Os dispositivos a seguir não enviarão seus dados: {devices}."
+        },
         "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo desconectado",
             "MESSAGE": "'{hivePosition}' não transmite mais dados devido ao desligamento de seu sensor ({deviceName}) desde {localDate}."
         },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - Dispositivo desconectado",
+            "MESSAGE": "'{hivePosition}' não envia mais dados após o desligamento de seu sensor ({deviceName}) desde {localDate}."
+        },
         "POORSIGNAL": {
+            "TITLE": "{hiveName} - Sinal fraco do dispositivo",
+            "MESSAGE": "Perda de dados em '{hivePosition}! Apenas {value}% das leituras esperadas foram recebidas hoje. O sinal do sensor ({deviceName}) pode ser a causa."
+        },
+        "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Sinal fraco do dispositivo",
             "MESSAGE": "Perda de dados em '{hivePosition}! Apenas {value}% das leituras esperadas foram recebidas hoje. O sinal do sensor ({deviceName}) pode ser a causa."
         },

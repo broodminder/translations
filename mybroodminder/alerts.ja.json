@@ -198,13 +198,26 @@
             "MESSAGE": "ハブ({deviceName}) が{localDate}以降に切断されたようです。",
             "SUB_MESSAGE": "以下のデバイスはデータを送信しません： {devices}。"
         },
+        "HUB_DISCONNECTED": {
+            "TITLE": "{apiaryName} - ハブが切断されました",
+            "MESSAGE": "ハブ（{deviceName}）は{localDate}以来接続されていないようです。",
+            "SUB_MESSAGE": "以下のデバイスはデータを送信しません：{devices}"
+        },
         "DCONNECT": {
             "TITLE": "{hiveName} - デバイスが切断されました",
             "MESSAGE": "'{hivePosition}' は、{localDate}からセンサー({deviceName})のシャットダウンによりデータを送信しなくなりました。"
         },
+        "DEVICE_DISCONNECTED": {
+            "TITLE": "{hiveName} - デバイスが切断されました",
+            "MESSAGE": "'{hivePosition}'のセンサー（{deviceName}）が{localDate}にシャットダウンされたため、データの送信が行われなくなりました。"
+        },
         "POORSIGNAL": {
             "TITLE": "{hiveName} - シグナルが弱い",
             "MESSAGE": "'{hivePosition}' にデータの損失が発生しています！今日は期待される読み取りのうち、{value}%のみが受信されました。センサーシグナル({deviceName})が原因かもしれません。"
+        },
+        "DEVICE_POORSIGNAL": {
+            "TITLE": "{hiveName} - デバイスの信号が弱い",
+            "MESSAGE": "'{hivePosition}'でデータが失われました！期待される読み取りのうち、今日は{value}%しか受信されませんでした。センサーの信号（{deviceName}）が原因かもしれません。"
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",
