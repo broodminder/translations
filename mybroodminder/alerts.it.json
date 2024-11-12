@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "Desideri convalidare questa fase quando si verifica?",
             "SUB_MESSAGE_NO_MODEL": "Desideri controllarlo?"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - Migliora le Tue Previsioni Fioriture",
-            "MESSAGE": "{plantName} è stimato fiorirà entro 3 settimane (intorno a {bloomingDate}).\nL'eruzione dei boccioli dovrebbe avvenire presto.\nDesideri controllare?"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - Migliora le tue previsioni di fioritura",
+            "MESSAGE": "{plantName} è previsto che fiorisca entro 3 settimane (intorno al {bloomingDate}).\nL'apertura dei boccioli dovrebbe avvenire presto.\nDesideri controllare?"
         },
-        "ENROLLMENT_PLANT": {
+        "ENROLLMENTPHENOCAST_PLANT": {
             "TITLE": "{apiaryName} - Aggiungere una pianta al tuo apiario?",
-            "MESSAGE": "Abbiamo rilevato una miellée. Vorresti aggiungere una pianta al tuo apiario?"
+            "MESSAGE": "Abbiamo rilevato una miellata. Desideri aggiungere una pianta al tuo apiario?"
         },
-        "ENROLLMENT_OBSERVATION": {
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
             "TITLE": "{apiaryName} - Aggiungere un'osservazione al tuo apiario?",
-            "MESSAGE": "Abbiamo rilevato una miellée probabilmente legata a una pianta nel tuo apiario. Vorresti aggiungere un'osservazione?"
+            "MESSAGE": "Abbiamo rilevato una miellata probabilmente legata a una pianta nel tuo apiario. Desideri aggiungere un'osservazione?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Inizio del flusso di nettare",

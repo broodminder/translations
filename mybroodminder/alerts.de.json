@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "Möchten Sie dieses Stadium validieren, wenn es auftritt?",
             "SUB_MESSAGE_NO_MODEL": "Möchten Sie danach suchen?"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - Verbessern Sie Ihre Blütenprognosen",
-            "MESSAGE": "{plantName} soll innerhalb von 3 Wochen blühen (um {bloomingDate}).\nDie Knospenentwicklung sollte bald erfolgen.\nMöchten Sie das überprüfen?"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - Verbessern Sie Ihre Blütenvorhersagen",
+            "MESSAGE": "{plantName} wird voraussichtlich innerhalb von 3 Wochen blühen (ungefähr am {bloomingDate}).\nKnospensprung sollte bald eintreten.\nMöchten Sie danach schauen?"
         },
-        "ENROLLMENT_PLANT": {
-            "TITLE": "{apiaryName} - Eine Pflanze zu Ihrem Bienenstand hinzufügen?",
-            "MESSAGE": "Wir haben eine Miellée festgestellt. Möchten Sie eine Pflanze zu Ihrem Bienenstand hinzufügen?"
+        "ENROLLMENTPHENOCAST_PLANT": {
+            "TITLE": "{apiaryName} - Pflanze zu Ihrem Bienenstand hinzufügen?",
+            "MESSAGE": "Wir haben eine Miellée erkannt. Möchten Sie eine Pflanze zu Ihrem Bienenstand hinzufügen?"
         },
-        "ENROLLMENT_OBSERVATION": {
-            "TITLE": "{apiaryName} - Eine Beobachtung zu Ihrem Bienenstand hinzufügen?",
-            "MESSAGE": "Wir haben eine Miellée festgestellt, die wahrscheinlich mit einer Pflanze in Ihrem Bienenstand zusammenhängt. Möchten Sie eine Beobachtung hinzufügen?"
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
+            "TITLE": "{apiaryName} - Beobachtung zu Ihrem Bienenstand hinzufügen?",
+            "MESSAGE": "Wir haben eine Miellée erkannt, die wahrscheinlich mit einer Pflanze in Ihrem Bienenstand in Verbindung steht. Möchten Sie eine Beobachtung hinzufügen?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Beginn des Nektarflusses",

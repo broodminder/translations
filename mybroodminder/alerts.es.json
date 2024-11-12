@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "¿Te gustaría validar esta etapa cuando ocurra?",
             "SUB_MESSAGE_NO_MODEL": "¿Te gustaría verificarlo?"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - Mejora tus Predicciones de Floración",
-            "MESSAGE": "Se estima que {plantName} florecerá en 3 semanas (alrededor de {bloomingDate}).\nLa brotación de los capullos debería ocurrir pronto.\n¿Te gustaría verificarlo?"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - Mejora tus predicciones de floración",
+            "MESSAGE": "Se estima que {plantName} florecerá dentro de 3 semanas (alrededor del {bloomingDate}).\nLa brotación debería ocurrir pronto.\n¿Te gustaría verificarlo?"
         },
-        "ENROLLMENT_PLANT": {
+        "ENROLLMENTPHENOCAST_PLANT": {
             "TITLE": "{apiaryName} - ¿Agregar una planta a tu apiario?",
-            "MESSAGE": "Hemos detectado una mielada. ¿Te gustaría agregar una planta a tu apiario?"
+            "MESSAGE": "Hemos detectado una mielada. ¿Te gustaría añadir una planta a tu apiario?"
         },
-        "ENROLLMENT_OBSERVATION": {
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
             "TITLE": "{apiaryName} - ¿Agregar una observación a tu apiario?",
-            "MESSAGE": "Hemos detectado una mielada probablemente relacionada con una planta en tu apiario. ¿Te gustaría añadir una observación?"
+            "MESSAGE": "Hemos detectado probablemente una mielada relacionada con una planta en tu apiario. ¿Te gustaría agregar una observación?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Inicio del flujo de néctar",

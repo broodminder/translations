@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "Wil je deze fase valideren wanneer het gebeurt?",
             "SUB_MESSAGE_NO_MODEL": "Wil je hiervoor controleren?"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - Verbeter Je Bloei Voorspellingen",
-            "MESSAGE": "{plantName} wordt geschat om binnen 3 weken te bloeien (rond {bloomingDate}).\nKnopbreuk zal binnenkort plaatsvinden.\nWil je hierop controleren?"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - Verbeter uw Bloei Voorspellingen",
+            "MESSAGE": "{plantName} wordt geschat om binnen 3 weken te bloeien (rond {bloomingDate}).\nKnoppen zouden binnenkort moeten verschijnen.\nWilt u ernaar kijken?"
         },
-        "ENROLLMENT_PLANT": {
-            "TITLE": "{apiaryName} - Voeg een plant toe aan je bijenstand?",
-            "MESSAGE": "We hebben een nectarstroom gedetecteerd. Wil je een plant toevoegen aan je bijenstand?"
+        "ENROLLMENTPHENOCAST_PLANT": {
+            "TITLE": "{apiaryName} - Voeg een plant toe aan uw bijenstand?",
+            "MESSAGE": "We hebben een nectarstroming gedetecteerd. Wilt u een plant toevoegen aan uw bijenstand?"
         },
-        "ENROLLMENT_OBSERVATION": {
-            "TITLE": "{apiaryName} - Voeg een observatie toe aan je bijenstand?",
-            "MESSAGE": "We hebben een nectarstroom gedetecteerd die waarschijnlijk gerelateerd is aan een plant in je bijenstand. Wil je een observatie toevoegen?"
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
+            "TITLE": "{apiaryName} - Voeg een observatie toe aan uw bijenstand?",
+            "MESSAGE": "We hebben een nectarstroming gedetecteerd die waarschijnlijk verband houdt met een plant in uw bijenstand. Wilt u een observatie toevoegen?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Start van nectarstroom",

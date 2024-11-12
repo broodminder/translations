@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "そのステージが発生した際に検証しますか？",
             "SUB_MESSAGE_NO_MODEL": "それを確認しますか？"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - 花開き予測を向上させる",
-            "MESSAGE": "{plantName}は3週間以内に花が咲くと推定されています（{bloomingDate}頃）。\nつぼみが間もなく開花します。\n確認しますか？"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - 花の予測を向上させる",
+            "MESSAGE": "{plantName}はおそらく3週間以内に花が咲く見込みです（約{bloomingDate}）。 \nつぼみの開花が間もなく起こるはずです。 \nチェックをご希望ですか？"
         },
-        "ENROLLMENT_PLANT": {
-            "TITLE": "{apiaryName} - 蜂房に植物を追加しますか？",
-            "MESSAGE": "蜜が流れていることを検出しました。蜂房に植物を追加しますか？"
+        "ENROLLMENTPHENOCAST_PLANT": {
+            "TITLE": "{apiaryName} - あなたの養蜂場に植物を追加しますか？",
+            "MESSAGE": "蜜の流れを検出しました。 あなたの養蜂場に植物を追加しますか？"
         },
-        "ENROLLMENT_OBSERVATION": {
-            "TITLE": "{apiaryName} - 蜂房に観察を追加しますか？",
-            "MESSAGE": "おそらく蜂房の植物に関連する蜜が流れていると検出しました。観察を追加しますか？"
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
+            "TITLE": "{apiaryName} - 観察を養蜂場に追加しますか？",
+            "MESSAGE": "あなたの養蜂場でおそらく植物に関連する蜜の流れを検出しました。 観察を追加しますか？"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - 蜜流の開始",

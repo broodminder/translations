@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "Ønsker du å validere denne fasen når den skjer?",
             "SUB_MESSAGE_NO_MODEL": "Ønsker du å kontrollere den?"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - Forbedre blomstringsprognosene dine",
-            "MESSAGE": "{plantName} antas å blomstre innen 3 uker (rundt {bloomingDate}).\nKnoppbrudd bør skje snart.\nØnsker du å sjekke det?"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - Forbedre blomsterprediksjonene dine",
+            "MESSAGE": "{plantName} antas å blomstre innen 3 uker (rundt {bloomingDate}).\nKnoppbrudd bør skje snart.\nVil du sjekke det?"
         },
-        "ENROLLMENT_PLANT": {
-            "TITLE": "{apiaryName} - Legg til en plante i birøkteriet ditt?",
-            "MESSAGE": "Vi har oppdaget en miellée. Vil du legge til en plante i birøkteriet ditt?"
+        "ENROLLMENTPHENOCAST_PLANT": {
+            "TITLE": "{apiaryName} - Legg til en plante i rukeren din?",
+            "MESSAGE": "Vi har oppdaget en nektarmiellé. Ønsker du å legge til en plante i rukeren din?"
         },
-        "ENROLLMENT_OBSERVATION": {
-            "TITLE": "{apiaryName} - Legg til en observasjon i birøkteriet ditt?",
-            "MESSAGE": "Vi har oppdaget en miellée som sannsynligvis er relatert til en plante i birøkteriet ditt. Vil du legge til en observasjon?"
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
+            "TITLE": "{apiaryName} - Legg til en observasjon i rukeren din?",
+            "MESSAGE": "Vi har oppdaget en nektarmiellé sannsynligvis relatert til en plante i rukeren din. Ønsker du å legge til en observasjon?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Start av nektarstrøm",

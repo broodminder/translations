@@ -229,15 +229,15 @@
             "SUB_MESSAGE_MODEL": "Gostaria de validar essa fase quando ela ocorrer?",
             "SUB_MESSAGE_NO_MODEL": "Gostaria de verificar isso?"
         },
-        "ENHANCE_FLOWERING": {
-            "TITLE": "{apiaryName} - Aprimore Suas Previsões de Floração",
-            "MESSAGE": "{plantName} está estimada para florescer dentro de 3 semanas (por volta de {bloomingDate}).\nA brotação dos botões deve ocorrer em breve.\nGostaria de verificar isso?"
+        "ENHANCEFLOWERING": {
+            "TITLE": "{apiaryName} - Melhore suas previsões de floração",
+            "MESSAGE": "{plantName} está estimada para florir dentro de 3 semanas (por volta de {bloomingDate}).\nO broto deve ocorrer em breve.\nGostaria de verificar?"
         },
-        "ENROLLMENT_PLANT": {
+        "ENROLLMENTPHENOCAST_PLANT": {
             "TITLE": "{apiaryName} - Adicionar uma planta ao seu apiário?",
             "MESSAGE": "Detectamos uma mielada. Gostaria de adicionar uma planta ao seu apiário?"
         },
-        "ENROLLMENT_OBSERVATION": {
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
             "TITLE": "{apiaryName} - Adicionar uma observação ao seu apiário?",
             "MESSAGE": "Detectamos uma mielada provavelmente relacionada a uma planta em seu apiário. Gostaria de adicionar uma observação?"
         },

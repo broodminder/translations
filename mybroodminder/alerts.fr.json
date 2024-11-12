@@ -229,17 +229,17 @@
             "SUB_MESSAGE_MODEL": "Souhaitez-vous valider cette étape lorsqu'elle se produit?",
             "SUB_MESSAGE_NO_MODEL": "Souhaitez-vous vérifier cela? "
         },
-        "ENHANCE_FLOWERING": {
+        "ENHANCEFLOWERING": {
             "TITLE": "{apiaryName} - Améliorez vos prévisions de floraison",
-            "MESSAGE": "{plantName} devrait fleurir d'ici 3 semaines (autour du {bloomingDate}).\nLa floraison des bourgeons devrait bientôt commencer.\nSouhaitez-vous vérifier?"
+            "MESSAGE": "{plantName} est estimé fleurir dans les 3 semaines (autour du {bloomingDate}).\nLa poussée des bourgeons devrait se produire bientôt.\nSouhaitez-vous vérifier?"
         },
-        "ENROLLMENT_PLANT": {
+        "ENROLLMENTPHENOCAST_PLANT": {
             "TITLE": "{apiaryName} - Ajouter une plante à votre rucher?",
             "MESSAGE": "Nous avons détecté une miellée. Souhaitez-vous ajouter une plante à votre rucher?"
         },
-        "ENROLLMENT_OBSERVATION": {
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
             "TITLE": "{apiaryName} - Ajouter une observation à votre rucher?",
-            "MESSAGE": "Nous avons détecté probablement une miellée liée à une plante dans votre rucher. Souhaitez-vous ajouter une observation?"
+            "MESSAGE": "Nous avons détecté une miellée probablement liée à une plante dans votre rucher. Souhaitez-vous ajouter une observation?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Début de Miellée",
