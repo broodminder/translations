@@ -225,7 +225,7 @@
         },
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Voorspelde Fenologische Fase",
-            "MESSAGE": "Wij voorspellen dat {plantName} de 'PHENOSTAGE' fase zal bereiken in {preventDays} dagen ({bloomingDate}).",
+            "MESSAGE": "Wij voorspellen dat {plantName} de '{PHENOSTAGE}' fase zal bereiken in {preventDays} dagen ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Wil je deze fase valideren wanneer het gebeurt?",
             "SUB_MESSAGE_NO_MODEL": "Wil je hiervoor controleren?"
         },

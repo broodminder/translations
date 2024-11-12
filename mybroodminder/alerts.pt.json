@@ -225,7 +225,7 @@
         },
         "INCOMING_PHENOSTAGE": {
             "TITLE": "{apiaryName} - Estágio Fenológico Previsto",
-            "MESSAGE": "Prevemos que {plantName} atingirá o estágio 'PHENOSTAGE' em {preventDays} dias ({bloomingDate}).",
+            "MESSAGE": "Prevemos que {plantName} atingirá o estágio '{PHENOSTAGE}' em {preventDays} dias ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Gostaria de validar essa fase quando ela ocorrer?",
             "SUB_MESSAGE_NO_MODEL": "Gostaria de verificar isso?"
         },
