@@ -229,15 +229,15 @@
             "SUB_MESSAGE_MODEL": "Would you like to validate this stage when it happens?",
             "SUB_MESSAGE_NO_MODEL": "Would you like to check for it? "
         },
-        "ENHANCE_FLOWERING": {
+        "ENHANCEFLOWERING": {
             "TITLE": "{apiaryName} - Enhance Your Flowering Predictions",
             "MESSAGE": "{plantName} is estimated to flower within 3 weeks (around {bloomingDate}).\nBud burst should occur soon.\nWould you like to check for it?"
         },
-        "ENROLLMENT_PLANT": {
+        "ENROLLMENTPHENOCAST_PLANT": {
             "TITLE": "{apiaryName} - Add a plant to your apiary?",
             "MESSAGE": "We've detected a nectar flow. Would you like to add a plant to your apiary?"
         },
-        "ENROLLMENT_OBSERVATION": {
+        "ENROLLMENTPHENOCAST_OBSERVATION": {
             "TITLE": "{apiaryName} - Add an observation to your apiary?",
             "MESSAGE": "We've detected a nectar flow probably related to a plant in your apiary. Would you like to add an observation?"
         },
