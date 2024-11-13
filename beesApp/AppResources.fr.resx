@@ -1797,9 +1797,6 @@
 	<data name="APNCONFIGURE_DISCONNECT_ERROR">
 		<value>Error de déconnexion</value>
 	</data>
-	<data name="APNCONFIGURE_">
-		<value></value>
-	</data>
 	<data name="LOCATIONSERVICES_TITLE">
 		<value>Services de Localisation</value>
 	</data>
@@ -2562,4 +2559,265 @@
 	<data name="PREMIUM_NO_ALERTS">
 		<value>Aucune alerte calculée disponible</value>
 	</data>
+    <data name="ALERT_CODE.201.NAME">
+        <value>Possibles fortes précipitations</value>
+    </data>
+    <data name="ALERT_CODE.201.DESCR">
+        <value>Déclenché lorsque les précipitations dépassent le seuil choisi le lendemain.</value>
+    </data>
+    <data name="ALERT_CODE.201.MSG">
+        <value>Les précipitations dépasseront {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.202.NAME">
+        <value>Possibles fortes chutes de neige</value>
+    </data>
+    <data name="ALERT_CODE.202.DESCR">
+        <value>Déclenché lorsque les chutes de neige dépassent le seuil choisi le lendemain.</value>
+    </data>
+    <data name="ALERT_CODE.202.MSG">
+        <value>Les chutes de neige dépasseront {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.203.NAME">
+        <value>Possible vent fort</value>
+    </data>
+    <data name="ALERT_CODE.203.DESCR">
+        <value>Déclenché lorsque le vent dépasse le seuil choisi le lendemain.</value>
+    </data>
+    <data name="ALERT_CODE.203.MSG">
+        <value>Le vent dépassera {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.204.NAME">
+        <value>Possible journée froide à venir</value>
+    </data>
+    <data name="ALERT_CODE.204.DESCR">
+        <value>Déclenché lorsqu'une journée froide à venir est détectée, c'est-à-dire en dessous du seuil de température spécifié.</value>
+    </data>
+    <data name="ALERT_CODE.204.MSG">
+        <value>Les températures seront inhabituellement froides</value>
+    </data>
+    <data name="ALERT_CODE.205.NAME">
+        <value>Traitement à l'acide oxalique</value>
+    </data>
+    <data name="ALERT_CODE.205.DESCR">
+        <value>Déclenché lorsque le couvain moyen dans vos ruches est inférieur au seuil défini. C'est une indication qui vous permet de traiter vos ruches à l'acide oxalique au bon moment.</value>
+    </data>
+    <data name="ALERT_CODE.205.MSG">
+        <value>Il est temps de traiter vos ruches</value>
+    </data>
+    <data name="ALERT_CODE.206.NAME">
+        <value>Possible journée chaude à venir</value>
+    </data>
+    <data name="ALERT_CODE.206.DESCR">
+        <value>Déclenché lorsqu'une journée chaude à venir est détectée, c'est-à-dire au-dessus du seuil de température spécifié.</value>
+    </data>
+    <data name="ALERT_CODE.206.MSG">
+        <value>Les températures seront inhabituellement chaudes</value>
+    </data>
+    <data name="ALERT_CODE.301.NAME">
+        <value>Température interne élevée</value>
+    </data>
+    <data name="ALERT_CODE.301.DESCR">
+        <value>Déclenché lorsque la température interne dépasse le seuil choisi.</value>
+    </data>
+    <data name="ALERT_CODE.301.MSG">
+        <value>Température interne supérieure à {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.302.NAME">
+        <value>Température interne basse</value>
+    </data>
+    <data name="ALERT_CODE.302.DESCR">
+        <value>Déclenché lorsque la température interne est inférieure au seuil choisi.</value>
+    </data>
+    <data name="ALERT_CODE.302.MSG">
+        <value>Température interne inférieure à {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.303.NAME">
+        <value>Apport significatif de ressources</value>
+    </data>
+    <data name="ALERT_CODE.303.DESCR">
+        <value>Déclenché lorsque le poids entrant de la journée dans la ruche dépasse le seuil choisi.</value>
+    </data>
+    <data name="ALERT_CODE.303.MSG">
+        <value>Le gain de stock de vos abeilles dépasse {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.305.NAME">
+        <value>Couvain faible</value>
+    </data>
+    <data name="ALERT_CODE.305.DESCR">
+        <value>Déclenché lorsque le pourcentage de couvain est inférieur au seuil choisi.</value>
+    </data>
+    <data name="ALERT_CODE.305.MSG">
+        <value>Couvain inférieur à {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.306.NAME">
+        <value>Humidité interne élevée</value>
+    </data>
+    <data name="ALERT_CODE.306.DESCR">
+        <value>Déclenché lorsque l'humidité interne dépasse le seuil choisi.</value>
+    </data>
+    <data name="ALERT_CODE.306.MSG">
+        <value>Humidité interne supérieure à {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.307.NAME">
+        <value>Humidité interne basse</value>
+    </data>
+    <data name="ALERT_CODE.307.DESCR">
+        <value>Déclenché lorsque l'humidité interne est inférieure au seuil choisi.</value>
+    </data>
+    <data name="ALERT_CODE.307.MSG">
+        <value>Humidité interne inférieure à {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.311.NAME">
+        <value>Miellat</value>
+    </data>
+    <data name="ALERT_CODE.311.DESCR">
+        <value>Déclenché lorsque l'apport de poids à la ruche dépasse le seuil choisi au cours de la dernière semaine.</value>
+    </data>
+    <data name="ALERT_CODE.311.MSG">
+        <value>Poids entrants sur la dernière semaine dépassant {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.312.NAME">
+        <value>Limite de poids dépassée</value>
+    </data>
+    <data name="ALERT_CODE.312.DESCR">
+        <value>Déclenché lorsque la limite de poids indiquée est dépassée.</value>
+    </data>
+    <data name="ALERT_CODE.312.MSG">
+        <value>Le poids de votre ruche dépasse {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.321.NAME">
+        <value>Essaimage</value>
+    </data>
+    <data name="ALERT_CODE.321.DESCR">
+        <value>Déclenché lorsqu'un essaimage potentiel se produit (le Hub offre plus d'efficacité).</value>
+    </data>
+    <data name="ALERT_CODE.321.MSG">
+        <value>Essaimage potentiel détecté vers 14h</value>
+    </data>
+    <data name="ALERT_CODE.322.NAME">
+        <value>Risque d'essaimage</value>
+    </data>
+    <data name="ALERT_CODE.322.DESCR">
+        <value>Déclenché lorsque le risque d'essaimage est élevé sur une de vos ruches le lendemain.</value>
+    </data>
+    <data name="ALERT_CODE.322.MSG">
+        <value>Jour d'essaimage attendu</value>
+    </data>
+    <data name="ALERT_CODE.323.NAME">
+        <value>Ajout d'une hausse</value>
+    </data>
+    <data name="ALERT_CODE.323.DESCR">
+        <value>Indiquez le poids minimum d'une hausse vide.</value>
+    </data>
+    <data name="ALERT_CODE.323.MSG">
+        <value>Vous avez ajouté une hausse</value>
+    </data>
+    <data name="ALERT_CODE.324.NAME">
+        <value>Retrait d'une hausse</value>
+    </data>
+    <data name="ALERT_CODE.324.DESCR">
+        <value>Indiquez le poids maximum d'une hausse pleine.</value>
+    </data>
+    <data name="ALERT_CODE.324.MSG">
+        <value>Vous avez retiré une hausse</value>
+    </data>
+    <data name="ALERT_CODE.401.NAME">
+        <value>Batterie faible</value>
+    </data>
+    <data name="ALERT_CODE.401.DESCR">
+        <value>Déclenché lorsque le niveau de batterie de votre capteur est inférieur au seuil sélectionné.</value>
+    </data>
+    <data name="ALERT_CODE.401.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.401b.NAME">
+        <value>Batterie faible</value>
+    </data>
+    <data name="ALERT_CODE.401b.DESCR">
+        <value>Déclenché lorsque le niveau de batterie de votre capteur W est inférieur au seuil sélectionné.</value>
+    </data>
+    <data name="ALERT_CODE.401b.MSG">
+        <value>Remplacez la batterie de </value>
+    </data>
+    <data name="ALERT_CODE.401t.NAME">
+        <value>Batterie faible</value>
+    </data>
+    <data name="ALERT_CODE.401t.DESCR">
+        <value>Déclenché lorsque le niveau de batterie de votre capteur T est inférieur au seuil sélectionné.</value>
+    </data>
+    <data name="ALERT_CODE.401t.MSG">
+        <value>Remplacez la batterie de </value>
+    </data>
+    <data name="ALERT_CODE.402.NAME">
+        <value>Déconnexion de l'appareil</value>
+    </data>
+    <data name="ALERT_CODE.402.DESCR">
+        <value>Déclenché lorsqu'un de vos capteurs ne transmet plus de données (ou ponctuellement) pendant chaque période choisie. Fonctionne uniquement avec un Hub.</value>
+    </data>
+    <data name="ALERT_CODE.402.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.402t.NAME">
+        <value>Déconnexion de l'appareil</value>
+    </data>
+    <data name="ALERT_CODE.402t.DESCR">
+        <value>Déclenché lorsque votre capteur T ne transmet plus de données pendant le dernier jour.</value>
+    </data>
+    <data name="ALERT_CODE.402t.MSG">
+        <value>{REF} déconnecté depuis {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.402w.NAME">
+        <value>Déconnexion de l'appareil</value>
+    </data>
+    <data name="ALERT_CODE.402w.DESCR">
+        <value>Déclenché lorsque votre capteur W ne transmet plus de données pendant le dernier jour.</value>
+    </data>
+    <data name="ALERT_CODE.402w.MSG">
+        <value>{REF} déconnecté depuis {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403b.NAME">
+        <value>Signal faible</value>
+    </data>
+    <data name="ALERT_CODE.403b.DESCR">
+        <value>Déclenché lorsque votre capteur W transmet peu de données pendant le dernier jour.</value>
+    </data>
+    <data name="ALERT_CODE.403b.MSG">
+        <value>{REF} signal faible depuis {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403t.NAME">
+        <value>Signal faible</value>
+    </data>
+    <data name="ALERT_CODE.403t.DESCR">
+        <value>Déclenché lorsque votre capteur T transmet peu de données pendant le dernier jour.</value>
+    </data>
+    <data name="ALERT_CODE.403t.MSG">
+        <value>{REF} signal faible depuis {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.404.NAME">
+        <value>Station météo arrêtée</value>
+    </data>
+    <data name="ALERT_CODE.404.DESCR">
+        <value>Déclenché lorsque votre station météo cesse de transmettre des données. Nécessite une station météo personnelle.</value>
+    </data>
+    <data name="ALERT_CODE.404.MSG">
+        <value>Erreur de transmission des données de votre station météo depuis {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.405.NAME">
+        <value>Ruche volée</value>
+    </data>
+    <data name="ALERT_CODE.405.DESCR">
+        <value>Déclenché lorsque le poids de votre ruche devient anormalement bas.</value>
+    </data>
+    <data name="ALERT_CODE.405.MSG">
+        <value>Le poids de votre ruche est anormalement bas</value>
+    </data>
+    <data name="ALERT_CODE.406.NAME">
+        <value>Ruche morte</value>
+    </data>
+    <data name="ALERT_CODE.406.DESCR">
+        <value>Notre algorithme détecte chaque jour si votre ruche est morte en fonction de différents paramètres que nous avons définis.</value>
+    </data>
+    <data name="ALERT_CODE.406.MSG">
+        <value>Votre ruche a été détectée morte</value>
+    </data>
 </root>

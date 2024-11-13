@@ -1848,98 +1848,154 @@
         "FEEDING": "Alimentazione"
     },
     "ALERTS_DESC": {
-        "HONEYDEW": "Melata",
-        "HONEYDEW_DESC": "Attivato quando il contributo di peso all'arnia supera la soglia scelta durante l'ultima settimana.",
-        "RAIN": "Possibile forte pioggia",
-        "RAIN_DESC": "Attivato quando la pioggia supera la soglia scelta nel giorno successivo.",
-        "SWARM": "Sciame",
-        "SWARM_DESC": "Attivato quando si verifica uno sciame potenziale (Hub offre maggiore efficienza).",
-        "DCONNECT": "Disconnessione dispositivo",
-        "DCONNECT_DESC": "Attivato quando uno dei tuoi sensori non trasmette più dati (o occasionalmente) durante ogni periodo scelto. Funziona solo con un Hub.",
-        "TMAX": "Alta temperatura interna",
-        "TMAX_DESC": "Attivato quando la temperatura interna supera la soglia scelta.",
-        "TMIN": "Bassa temperatura interna",
-        "TMIN_DESC": "Attivato quando la temperatura interna è al di sotto della soglia scelta.",
-        "LOWBROOD": "Debolezza della covata",
-        "LOWBROOD_DESC": "Attivato quando la percentuale di covata è al di sotto della soglia scelta.",
-        "STOPWEATHER": "Stazione meteorologica ferma",
-        "STOPWEATHER_DESC": "Attivato quando la tua stazione meteorologica smette di trasmettere dati. Richiede la propria stazione meteorologica.",
-        "RSWARM": "Rischio di sciame",
-        "RSWARM_DESC": "Attivato quando il rischio di sciame è elevato in una delle tue arnie il giorno successivo.",
-        "WIPOS": "Fornitura significativa di risorse",
-        "WIPOS_DESC": "Attivato quando il peso in arrivo del giorno nell'arnia supera la soglia scelta.",
-        "WINEG": "Depauperamento delle risorse",
-        "WINEG_DESC": "Attivato quando le api consumano molte più risorse di quelle riportate all'arnia. La soglia di perdita è regolabile.",
-        "WLIM": "Superamento del limite di peso",
-        "WLIM_DESC": "Attivato quando viene superata la soglia di peso indicata.",
-        "SNOW": "Possibile abbondante nevicata",
-        "SNOW_DESC": "Attivato quando la nevicata supera la soglia scelta nel giorno successivo.",
-        "WIND": "Possibile forte vento",
-        "WIND_DESC": "Attivato quando il vento supera la soglia scelta nel giorno successivo.",
-        "COLDDAY": "Possibile giornata fredda in arrivo",
-        "COLDDAY_DESC": "Attivato quando viene rilevata una prossima giornata fredda, ovvero al di sotto della soglia di temperatura specificata.",
-        "HOTDAY": "Possibile giornata calda in arrivo",
-        "HOTDAY_DESC": "Attivato quando viene rilevata una prossima giornata calda, ovvero al di sopra della soglia di temperatura specificata.",
-        "HMIN": "Bassa umidità interna",
-        "HMIN_DESC": "Attivato quando l'umidità interna è al di sotto della soglia scelta.",
-        "HMAX": "Elevata umidità interna",
-        "HMAX_DESC": "Attivato quando l'umidità interna supera la soglia scelta.",
-        "STOLEN": "Arnia rubata",
-        "STOLEN_DESC": "Attivato quando il peso della tua arnia diventa anomalicamente basso.",
-        "DCONNECTT": "Disconnessione dispositivo",
-        "DCONNECTT_DESC": "Attivato quando il tuo sensore T non trasmette più dati durante l'ultimo giorno.",
-        "DCONNECTW": "Disconnessione dispositivo",
-        "DCONNECTW_DESC": "Attivato quando il tuo sensore W non trasmette più dati durante l'ultimo giorno.",
-        "DCONNECTH": "Disconnessione dispositivo",
-        "DCONNECTH_DESC": "Attivato quando il tuo Hub non trasmette più dati durante l'ultimo giorno.",
-        "POORSIGNALW": "Segnale debole",
-        "POORSIGNALW_DESC": "Attivato quando il tuo sensore W trasmette pochi dati durante l'ultimo giorno.",
-        "POORSIGNALT": "Segnale debole",
-        "POORSIGNALT_DESC": "Attivato quando il tuo sensore T trasmette pochi dati durante l'ultimo giorno. ",
-        "LOWBATTERY": "Batteria scarica",
-        "LOWBATTERY_DESC": "Attivato quando il livello della batteria del tuo sensore è al di sotto della soglia selezionata.",
-        "LOWBATTERYW": "Batteria scarica",
-        "LOWBATTERYW_DESC": "Attivato quando il livello della batteria del tuo sensore W è al di sotto della soglia selezionata.",
-        "LOWBATTERYT": "Batteria scarica",
-        "LOWBATTERYT_DESC": "Attivato quando il livello della batteria del tuo sensore T è al di sotto della soglia selezionata.",
-        "SUPER+": "Aggiunta di un melario",
-        "SUPER+_DESC": "Indica il peso minimo di un melario vuoto.",
-        "SUPER-": "Rimozione di un melario",
-        "SUPER-_DESC": "Indica il peso massimo di un melario pieno.",
-        "OXALIC": "Trattamento con acido ossalico",
-        "OXALIC_DESC": "Attivato quando la media della covata nelle tue arnie è al di sotto della soglia impostata. Questa è un'indicazione che ti permette di trattare le tue arnie con acido ossalico al momento giusto.",
-        "DEAD": "Arnia morta",
-        "DEAD_DESC": "Il nostro algoritmo rileva ogni giorno se la tua arnia è morta in base a vari parametri che abbiamo impostato.",
-        "RAIN_MSG": "La pioggia supererà {VAL}",
-        "SNOW_MSG": "La nevicata supererà {VAL} ",
-        "WIND_MSG": "Il vento supererà {VAL}",
-        "COLDDAY_MSG": "Temperature insolitamente basse",
-        "OXALIC_MSG": "È il momento di trattare le tue arnie",
-        "HOTDAY_MSG": "Temperature insolitamente calde",
-        "TMAX_MSG": "Temperatura interna oltre {VAL}",
-        "TMIN_MSG": "Temperatura interna al di sotto di {VAL}",
-        "WIPOS_MSG": "Il guadagno delle risorse delle tue api supera {VAL}",
-        "WINEG_MSG": "La perdita delle risorse delle tue api supera {VAL}",
-        "LOWBROOD_MSG": "Covata al di sotto di {VAL}",
-        "HMAX_MSG": "Umidità interna oltre {VAL}",
-        "HMIN_MSG": "Umidità interna al di sotto di {VAL}",
-        "HONEYDEW_MSG": "Pesi in arrivo durante l'ultima settimana superiori a {VAL}",
-        "WLIM_MSG": "Il peso della tua arnia supera {VAL}",
-        "SWARM_MSG": "Rilevato uno sciame potenziale intorno alle 14:00",
-        "RSWARM_MSG": "Giornata di sciame prevista",
-        "SUPER+_MSG": "Hai aggiunto un melario",
-        "SUPER-_MSG": "Hai rimosso un melario",
-        "LOWBATTERYT_MSG": "Sostituisci la batteria di ",
-        "LOWBATTERYW_MSG": "Sostituisci la batteria di ",
-        "DCONNECTT_MSG": "{REF} disconnesso dal {DATE}",
-        "DCONNECTW_MSG": "{REF} disconnesso dal {DATE}",
-        "DCONNECTH_MSG": "{REF} disconnesso dal {DATE}",
-        "POORSIGNALT_MSG": "{REF} segnale debole dal {DATE}",
-        "POORSIGNALW_MSG": "{REF} segnale debole dal {DATE}",
-        "STOPWEATHER_MSG": "Errore di trasmissione dati dalla tua stazione meteorologica dal {DATE}",
-        "STOLEN_MSG": "Il peso della tua arnia è anomalicamente basso",
-        "DEAD_MSG": "La tua arnia è stata rilevata morta",
         "REALTIME_SWARM_ALERT": "Evento di temperatura calcolato dal dispositivo T2. Notificato solo per dispositivi sopra o sotto le scatole di covata utilizzando un hub in tempo reale."
+    },
+    "ALERT_CODES": {
+        "201": {
+            "NAME": "Possibile forte pioggia",
+            "DESCR": "Attivato quando la pioggia supera la soglia scelta nel giorno successivo.",
+            "MSG": "La pioggia supererà {VAL}"
+        },
+        "202": {
+            "NAME": "Possibile abbondante nevicata",
+            "DESCR": "Attivato quando la nevicata supera la soglia scelta nel giorno successivo.",
+            "MSG": "La nevicata supererà {VAL} "
+        },
+        "203": {
+            "NAME": "Possibile forte vento",
+            "DESCR": "Attivato quando il vento supera la soglia scelta nel giorno successivo.",
+            "MSG": "Il vento supererà {VAL}"
+        },
+        "204": {
+            "NAME": "Possibile giornata fredda in arrivo",
+            "DESCR": "Attivato quando viene rilevata una prossima giornata fredda, ovvero al di sotto della soglia di temperatura specificata.",
+            "MSG": "Temperature insolitamente basse"
+        },
+        "205": {
+            "NAME": "Trattamento con acido ossalico",
+            "DESCR": "Attivato quando la media della covata nelle tue arnie è al di sotto della soglia impostata. Questa è un'indicazione che ti permette di trattare le tue arnie con acido ossalico al momento giusto.",
+            "MSG": "È il momento di trattare le tue arnie"
+        },
+        "206": {
+            "NAME": "Possibile giornata calda in arrivo",
+            "DESCR": "Attivato quando viene rilevata una prossima giornata calda, ovvero al di sopra della soglia di temperatura specificata.",
+            "MSG": "Temperature insolitamente calde"
+        },
+        "301": {
+            "NAME": "Alta temperatura interna",
+            "DESCR": "Attivato quando la temperatura interna supera la soglia scelta.",
+            "MSG": "Temperatura interna oltre {VAL}"
+        },
+        "302": {
+            "NAME": "Bassa temperatura interna",
+            "DESCR": "Attivato quando la temperatura interna è al di sotto della soglia scelta.",
+            "MSG": "Temperatura interna al di sotto di {VAL}"
+        },
+        "303": {
+            "NAME": "Fornitura significativa di risorse",
+            "DESCR": "Attivato quando il peso in arrivo del giorno nell'arnia supera la soglia scelta.",
+            "MSG": "Il guadagno delle risorse delle tue api supera {VAL}"
+        },
+        "305": {
+            "NAME": "Debolezza della covata",
+            "DESCR": "Attivato quando la percentuale di covata è al di sotto della soglia scelta.",
+            "MSG": "Covata al di sotto di {VAL}"
+        },
+        "306": {
+            "NAME": "Elevata umidità interna",
+            "DESCR": "Attivato quando l'umidità interna supera la soglia scelta.",
+            "MSG": "Umidità interna oltre {VAL}"
+        },
+        "307": {
+            "NAME": "Bassa umidità interna",
+            "DESCR": "Attivato quando l'umidità interna è al di sotto della soglia scelta.",
+            "MSG": "Umidità interna al di sotto di {VAL}"
+        },
+        "311": {
+            "NAME": "Melata",
+            "DESCR": "Attivato quando il contributo di peso all'arnia supera la soglia scelta durante l'ultima settimana.",
+            "MSG": "Pesi in arrivo durante l'ultima settimana superiori a {VAL}"
+        },
+        "312": {
+            "NAME": "Superamento del limite di peso",
+            "DESCR": "Attivato quando viene superata la soglia di peso indicata.",
+            "MSG": "Il peso della tua arnia supera {VAL}"
+        },
+        "321": {
+            "NAME": "Sciame",
+            "DESCR": "Attivato quando si verifica uno sciame potenziale (Hub offre maggiore efficienza).",
+            "MSG": "Rilevato uno sciame potenziale intorno alle 14:00"
+        },
+        "322": {
+            "NAME": "Rischio di sciame",
+            "DESCR": "Attivato quando il rischio di sciame è elevato in una delle tue arnie il giorno successivo.",
+            "MSG": "Giornata di sciame prevista"
+        },
+        "323": {
+            "NAME": "Aggiunta di un melario",
+            "DESCR": "Indica il peso minimo di un melario vuoto.",
+            "MSG": "Hai aggiunto un melario"
+        },
+        "324": {
+            "NAME": "Rimozione di un melario",
+            "DESCR": "Indica il peso massimo di un melario pieno.",
+            "MSG": "Hai rimosso un melario"
+        },
+        "401": {
+            "NAME": "Batteria scarica",
+            "DESCR": "Attivato quando il livello della batteria del tuo sensore è al di sotto della soglia selezionata.",
+            "MSG": ""
+        },
+        "401b": {
+            "NAME": "Batteria scarica",
+            "DESCR": "Attivato quando il livello della batteria del tuo sensore W è al di sotto della soglia selezionata.",
+            "MSG": "Sostituisci la batteria di "
+        },
+        "401t": {
+            "NAME": "Batteria scarica",
+            "DESCR": "Attivato quando il livello della batteria del tuo sensore T è al di sotto della soglia selezionata.",
+            "MSG": "Sostituisci la batteria di "
+        },
+        "402": {
+            "NAME": "Disconnessione dispositivo",
+            "DESCR": "Attivato quando uno dei tuoi sensori non trasmette più dati (o occasionalmente) durante ogni periodo scelto. Funziona solo con un Hub.",
+            "MSG": ""
+        },
+        "402t": {
+            "NAME": "Disconnessione dispositivo",
+            "DESCR": "Attivato quando il tuo sensore T non trasmette più dati durante l'ultimo giorno.",
+            "MSG": "{REF} disconnesso dal {DATE}"
+        },
+        "402w": {
+            "NAME": "Disconnessione dispositivo",
+            "DESCR": "Attivato quando il tuo sensore W non trasmette più dati durante l'ultimo giorno.",
+            "MSG": "{REF} disconnesso dal {DATE}"
+        },
+        "403b": {
+            "NAME": "Segnale debole",
+            "DESCR": "Attivato quando il tuo sensore W trasmette pochi dati durante l'ultimo giorno.",
+            "MSG": "{REF} segnale debole dal {DATE}"
+        },
+        "403t": {
+            "NAME": "Segnale debole",
+            "DESCR": "Attivato quando il tuo sensore T trasmette pochi dati durante l'ultimo giorno. ",
+            "MSG": "{REF} segnale debole dal {DATE}"
+        },
+        "404": {
+            "NAME": "Stazione meteorologica ferma",
+            "DESCR": "Attivato quando la tua stazione meteorologica smette di trasmettere dati. Richiede la propria stazione meteorologica.",
+            "MSG": "Errore di trasmissione dati dalla tua stazione meteorologica dal {DATE}"
+        },
+        "405": {
+            "NAME": "Arnia rubata",
+            "DESCR": "Attivato quando il peso della tua arnia diventa anomalicamente basso.",
+            "MSG": "Il peso della tua arnia è anomalicamente basso"
+        },
+        "406": {
+            "NAME": "Arnia morta",
+            "DESCR": "Il nostro algoritmo rileva ogni giorno se la tua arnia è morta in base a vari parametri che abbiamo impostato.",
+            "MSG": "La tua arnia è stata rilevata morta"
+        }
     },
     "CONFIGURE_ALERTS": {
         "REALTIME": "Tempo reale",

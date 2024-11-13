@@ -1849,98 +1849,154 @@
         "FEEDING":"Alimentation"
     },
     "ALERTS_DESC":{
-        "HONEYDEW":"Miellée",
-        "HONEYDEW_DESC":"Déclenchée lorsque l'apport de poids dans la ruche dépasse le seuil choisi lors de la dernière semaine.",
-        "RAIN":"Possibles fortes précipitations",
-        "RAIN_DESC":"Déclenchée lorsque les précipitations pluvieuses dépassent le seuil choisi le prochain jour.",
-        "SWARM":"Essaimage",
-        "SWARM_DESC":"Déclenchée lorsque un potentiel essaimage est survenu (un Hub offre plus d'efficacité).",
-        "DCONNECT":"Déconnexion",
-        "DCONNECT_DESC":"Déclenchée lorsqu'un de vos capteurs ne transmet plus de données (ou ponctuellement) pendant chaque période choisie. Ne fonctionne qu'avec un Hub.",
-        "TMAX":"Forte temp. interne",
-        "TMAX_DESC":"Déclenchée lorsque la température interne dépasse le seuil choisi.",
-        "TMIN":"Faible temp. interne",
-        "TMIN_DESC":"Déclenchée lorsque la température interne est en dessous du seuil choisi.",
-        "LOWBROOD":"Faible niveau couvain",
-        "LOWBROOD_DESC":"Déclenchée quand le pourcentage de couvain est en dessous du seuil défini.",
-        "STOPWEATHER":"Station météo arrêtée",
-        "STOPWEATHER_DESC":"Déclenchée lorsque votre station météo s'arrête d'émettre des données. Nécessite sa propre station météo.",
-        "RSWARM":"Risque d'essaimage",
-        "RSWARM_DESC":"Déclenchée lorsque le risque d'essaimage est fort sur une de vos ruches le prochain jour.",
-        "WIPOS":"Gain poids élevé",
-        "WIPOS_DESC":"Déclenchée lorsque le poids entrants de la journée dans la ruche dépasse le seuil choisi.",
-        "WINEG":"Perte poids élevé",
-        "WINEG_DESC":"Déclenchée lorsque les abeilles consomment beaucoup plus de ressources qu'elles n'en ramènent dans la ruche. Le seuil de perte est réglable.",
-        "WLIM":"Seuil poids",
-        "WLIM_DESC":"Déclenchée lorsque le seuil de poids indiqué est dépassé.",
-        "SNOW":"Possible neige abdondante",
-        "SNOW_DESC":"Déclenchée lorsque les précipitations neigeuses dépassent le seuil choisi le prochain jour.",
-        "WIND":"Possible fort vent",
-        "WIND_DESC":"Déclenchée lorsque le vent dépassent le seuil choisi le prochain jour.",
-        "COLDDAY":"Possible journée froide à venir",
-        "COLDDAY_DESC":"Déclenchée lorsqu'une journée froide à venir est détectée, c’est-à-dire en dessous du seuil de température indiqué.",
-        "HOTDAY":"Possible journée chaude à venir",
-        "HOTDAY_DESC":"Déclenchée lorsqu'une journée chaude à venir est détectée, c’est-à-dire au dessus du seuil de température indiqué.",
-        "HMIN":"Faible humidité interne",
-        "HMIN_DESC":"Déclenchée lorsque l'humidité interne est en dessous du seuil choisi.",
-        "HMAX":"Forte humidité interne",
-        "HMAX_DESC":"Déclenchée lorsque l'humidité interne dépasse le seuil choisi.",
-        "STOLEN":"Ruche volée",
-        "STOLEN_DESC":"Déclenchée lorsque le poids de votre ruche devient anormalement faible.",
-        "DCONNECTT":"Déconnexion",
-        "DCONNECTT_DESC":"Déclenchée lorsque votre capteur de température ne transmets plus de données durant le dernier jour.",
-        "DCONNECTW":"Déconnexion",
-        "DCONNECTW_DESC":"Déclenchée lorsque votre capteur de poids ne transmets plus de données durant le dernier jour.",
-        "DCONNECTH":"Déconnexion",
-        "DCONNECTH_DESC":"Déclenchée lorsque votre Hub ne transmets plus de données durant le dernier jour.",
-        "POORSIGNALW":"Mauvais signal",
-        "POORSIGNALW_DESC":"Déclenchée lorsque votre capteur de poids transmets peu de données durant le dernier jour.",
-        "POORSIGNALT":"Mauvais signal",
-        "POORSIGNALT_DESC":"Déclenchée lorsque votre capteur de température transmets peu de données durant le dernier jour.",
-        "LOWBATTERY":"Batterie faible",
-        "LOWBATTERY_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur est en dessous du seuil choisi.",
-        "LOWBATTERYW":"Batterie faible",
-        "LOWBATTERYW_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur de poids est en dessous du seuil choisi.",
-        "LOWBATTERYT":"Batterie faible",
-        "LOWBATTERYT_DESC":"Déclenchée lorsque le niveau de batterie de votre capteur de température est en dessous du seuil choisi.",
-        "SUPER+":"Ajout d'une hausse",
-        "SUPER+_DESC":"Indiquer le poids minimal d'une hausse vide.",
-        "SUPER-":"Retrait d'une hausse",
-        "SUPER-_DESC":"Indiquer le poids maximal d'une hausse pleine.",
-        "OXALIC":"Traitement à l'acide oxalique",
-        "OXALIC_DESC":"Déclenchée lorsque le couvain moyen de vos ruches est en dessous du seuil fixé. C’est une indication vous permettant de traiter vos ruches à l’acide oxalique au bon moment.",
-        "DEAD":"Ruche morte",
-        "DEAD_DESC":"Notre algorithme détecte chaque jour si votre ruche est morte en fonction de différents paramètres que nous avons fixés.",
-        "RAIN_MSG":"Les précipitations de pluie dépasseront {VAL}",
-        "SNOW_MSG":"Les précipitations de neige dépasseront {VAL} ",
-        "WIND_MSG":"Le vent dépassera {VAL}",
-        "COLDDAY_MSG":"Les températures seront inhabituellement froides",
-        "OXALIC_MSG":"C'est le moment pour traiter vos ruches",
-        "HOTDAY_MSG":"Les températures seront inhabituellement chaudes",
-        "TMAX_MSG":"Température interne dépassant {VAL}",
-        "TMIN_MSG":"Température interne en dessous de {VAL}",
-        "WIPOS_MSG":"Le gain de réserves dépasse {VAL}",
-        "WINEG_MSG":"La perte de réserves dépasse {VAL}",
-        "LOWBROOD_MSG":"Couvain en dessous de {VAL}",
-        "HMAX_MSG":"Humidité interne dépassant {VAL}",
-        "HMIN_MSG":"Humidité interne en dessous de {VAL}",
-        "HONEYDEW_MSG":"Poids entrants lors de la dernière semaine excédant {VAL}",
-        "WLIM_MSG":"Le poids de votre ruche dépasse {VAL}",
-        "SWARM_MSG":"Potentiel essaimage détecté vers 14:00",
-        "RSWARM_MSG":"Journée d'essaimages attendue",
-        "SUPER+_MSG":"Vous avez ajouté une hausse",
-        "SUPER-_MSG":"Vous avez retiré une hausse",
-        "LOWBATTERYT_MSG":"Remplacer la batterie de ",
-        "LOWBATTERYW_MSG":"Remplacer la batterie de ",
-        "DCONNECTT_MSG":"{REF} déconnecté depuis {DATE}",
-        "DCONNECTW_MSG":"{REF} déconnecté depuis {DATE}",
-        "DCONNECTH_MSG":"{REF} déconnecté depuis {DATE}",
-        "POORSIGNALT_MSG":"{REF} mauvais signal depuis {DATE}",
-        "POORSIGNALW_MSG":"{REF} mauvais signal depuis {DATE}",
-        "STOPWEATHER_MSG":"Erreur de transmission de données de votre station météo depuis le {DATE}",
-        "STOLEN_MSG":"Le poids de votre ruche est anormalement faible",
-        "DEAD_MSG":"Votre ruche a été détectée morte",
         "REALTIME_SWARM_ALERT":"Événement de température calculé par l'appareil T2. Uniquement notifié pour les appareils au-dessus ou au-dessous des cadres à couvain utilisant un hub en temps réel."
+    },
+    "ALERT_CODES": {
+        "201": {
+            "NAME": "Possibles fortes précipitations",
+            "DESCR": "Déclenchée lorsque les précipitations pluvieuses dépassent le seuil choisi le prochain jour.",
+            "MSG": "Les précipitations de pluie dépasseront {VAL}"
+        },
+        "202": {
+            "NAME": "Possible neige abdondante",
+            "DESCR": "Déclenchée lorsque les précipitations neigeuses dépassent le seuil choisi le prochain jour.",
+            "MSG": "Les précipitations de neige dépasseront {VAL}"
+        },
+        "203": {
+            "NAME": "Possible fort vent",
+            "DESCR": "Déclenchée lorsque le vent dépassent le seuil choisi le prochain jour.",
+            "MSG": "Le vent dépassera {VAL}"
+        },
+        "204": {
+            "NAME": "Possible journée froide à venir",
+            "DESCR": "Déclenchée lorsqu'une journée froide à venir est détectée, c'est-à-dire en dessous du seuil de température indiqué.",
+            "MSG": "Les températures seront inhabituellement froides"
+        },
+        "205": {
+            "NAME": "Traitement à l'acide oxalique",
+            "DESCR": "Déclenchée lorsque le couvain moyen de vos ruches est en dessous du seuil fixé. C'est une indication vous permettant de traiter vos ruches à l'acide oxalique au bon moment.",
+            "MSG": "C'est le moment pour traiter vos ruches"
+        },
+        "206": {
+            "NAME": "Possible journée chaude à venir",
+            "DESCR": "Déclenchée lorsqu'une journée chaude à venir est détectée, c'est-à-dire au dessus du seuil de température indiqué.",
+            "MSG": "Les températures seront inhabituellement chaudes"
+        },
+        "301": {
+            "NAME": "Forte temp. interne",
+            "DESCR": "Déclenchée lorsque la température interne dépasse le seuil choisi.",
+            "MSG": "Température interne dépassant {VAL}"
+        },
+        "302": {
+            "NAME": "Faible temp. interne",
+            "DESCR": "Déclenchée lorsque la température interne est en dessous du seuil choisi.",
+            "MSG": "Température interne en dessous de {VAL}"
+        },
+        "303": {
+            "NAME": "Gain poids élevé",
+            "DESCR": "Déclenchée lorsque le poids entrants de la journée dans la ruche dépasse le seuil choisi.",
+            "MSG": "Le gain de réserves dépasse {VAL}"
+        },
+        "305": {
+            "NAME": "Faible niveau couvain",
+            "DESCR": "Déclenchée quand le pourcentage de couvain est en dessous du seuil défini.",
+            "MSG": "Couvain en dessous de {VAL}"
+        },
+        "306": {
+            "NAME": "Forte humidité interne",
+            "DESCR": "Déclenchée lorsque l'humidité interne dépasse le seuil choisi.",
+            "MSG": "Humidité interne dépassant {VAL}"
+        },
+        "307": {
+            "NAME": "Faible humidité interne",
+            "DESCR": "Déclenchée lorsque l'humidité interne est en dessous du seuil choisi.",
+            "MSG": "Humidité interne en dessous de {VAL}"
+        },
+        "311": {
+            "NAME": "Miellée",
+            "DESCR": "Déclenchée lorsque l'apport de poids dans la ruche dépasse le seuil choisi lors de la dernière semaine.",
+            "MSG": "Poids entrants lors de la dernière semaine excédant {VAL}"
+        },
+        "312": {
+            "NAME": "Seuil poids",
+            "DESCR": "Déclenchée lorsque le seuil de poids indiqué est dépassé.",
+            "MSG": "Le poids de votre ruche dépasse {VAL}"
+        },
+        "321": {
+            "NAME": "Essaimage",
+            "DESCR": "Déclenchée lorsque un potentiel essaimage est survenu (un Hub offre plus d'efficacité).",
+            "MSG": "Potentiel essaimage détecté vers 14:00"
+        },
+        "322": {
+            "NAME": "Risque d'essaimage",
+            "DESCR": "Déclenchée lorsque le risque d'essaimage est fort sur une de vos ruches le prochain jour.",
+            "MSG": "Journée d'essaimages attendue"
+        },
+        "323": {
+            "NAME": "Ajout d'une hausse",
+            "DESCR": "Indiquer le poids minimal d'une hausse vide.",
+            "MSG": "Vous avez ajouté une hausse"
+        },
+        "324": {
+            "NAME": "Retrait d'une hausse",
+            "DESCR": "Indiquer le poids maximal d'une hausse pleine.",
+            "MSG": "Vous avez retiré une hausse"
+        },
+        "401": {
+            "NAME": "Batterie faible",
+            "DESCR": "Déclenchée lorsque le niveau de batterie de votre capteur est en dessous du seuil choisi.",
+            "MSG": ""
+        },
+        "401b": {
+            "NAME": "Batterie faible",
+            "DESCR": "Déclenchée lorsque le niveau de batterie de votre capteur de poids est en dessous du seuil choisi.",
+            "MSG": "Remplacer la batterie de"
+        },
+        "401t": {
+            "NAME": "Batterie faible",
+            "DESCR": "Déclenchée lorsque le niveau de batterie de votre capteur de température est en dessous du seuil choisi.",
+            "MSG": "Remplacer la batterie de"
+        },
+        "402": {
+            "NAME": "Déconnexion",
+            "DESCR": "Déclenchée lorsqu'un de vos capteurs ne transmet plus de données (ou ponctuellement) pendant chaque période choisie. Ne fonctionne qu'avec un Hub.",
+            "MSG": ""
+        },
+        "402t": {
+            "NAME": "Déconnexion",
+            "DESCR": "Déclenchée lorsque votre capteur de température ne transmets plus de données durant le dernier jour.",
+            "MSG": "{REF} déconnecté depuis {DATE}"
+        },
+        "402w": {
+            "NAME": "Déconnexion",
+            "DESCR": "Déclenchée lorsque votre capteur de poids ne transmets plus de données durant le dernier jour.",
+            "MSG": "{REF} déconnecté depuis {DATE}"
+        },
+        "403b": {
+            "NAME": "Mauvais signal",
+            "DESCR": "Déclenchée lorsque votre capteur de poids transmets peu de données durant le dernier jour.",
+            "MSG": "{REF} mauvais signal depuis {DATE}"
+        },
+        "403t": {
+            "NAME": "Mauvais signal",
+            "DESCR": "Déclenchée lorsque votre capteur de température transmets peu de données durant le dernier jour.",
+            "MSG": "{REF} mauvais signal depuis {DATE}"
+        },
+        "404": {
+            "NAME": "Station météo arrêtée",
+            "DESCR": "Déclenchée lorsque votre station météo s'arrête d'émettre des données. Nécessite sa propre station météo.",
+            "MSG": "Erreur de transmission de données de votre station météo depuis le {DATE}"
+        },
+        "405": {
+            "NAME": "Ruche volée",
+            "DESCR": "Déclenchée lorsque le poids de votre ruche devient anormalement faible.",
+            "MSG": "Le poids de votre ruche est anormalement faible"
+        },
+        "406": {
+            "NAME": "Ruche morte",
+            "DESCR": "Notre algorithme détecte chaque jour si votre ruche est morte en fonction de différents paramètres que nous avons fixés.",
+            "MSG": "Votre ruche a été détectée morte"
+        }
     },
     "CONFIGURE_ALERTS": {
         "REALTIME":"Temps-réel",

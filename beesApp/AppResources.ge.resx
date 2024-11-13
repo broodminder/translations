@@ -2559,4 +2559,265 @@
 	<data name="PREMIUM_NO_ALERTS">
 		<value>Keine berechneten Warnungen verfügbar</value>
 	</data>
+    <data name="ALERT_CODE.201.NAME">
+        <value>Möglicher starker Regen</value>
+    </data>
+    <data name="ALERT_CODE.201.DESCR">
+        <value>Wird ausgelöst, wenn der Niederschlag am nächsten Tag den gewählten Schwellenwert überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.201.MSG">
+        <value>Der Niederschlag wird {VAL} überschreiten</value>
+    </data>
+    <data name="ALERT_CODE.202.NAME">
+        <value>Möglicher starker Schneefall</value>
+    </data>
+    <data name="ALERT_CODE.202.DESCR">
+        <value>Wird ausgelöst, wenn der Schneefall am nächsten Tag den gewählten Schwellenwert überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.202.MSG">
+        <value>Der Schneefall wird {VAL} überschreiten</value>
+    </data>
+    <data name="ALERT_CODE.203.NAME">
+        <value>Möglicher starker Wind</value>
+    </data>
+    <data name="ALERT_CODE.203.DESCR">
+        <value>Wird ausgelöst, wenn der Wind am nächsten Tag den gewählten Schwellenwert überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.203.MSG">
+        <value>Der Wind wird {VAL} überschreiten</value>
+    </data>
+    <data name="ALERT_CODE.204.NAME">
+        <value>Möglicher kalter Tag voraus</value>
+    </data>
+    <data name="ALERT_CODE.204.DESCR">
+        <value>Wird ausgelöst, wenn ein kommender kalter Tag erkannt wird, d.h. unter dem angegebenen Temperaturschwellenwert.</value>
+    </data>
+    <data name="ALERT_CODE.204.MSG">
+        <value>Die Temperaturen werden ungewöhnlich kalt sein</value>
+    </data>
+    <data name="ALERT_CODE.205.NAME">
+        <value>Oxalsäurebehandlung</value>
+    </data>
+    <data name="ALERT_CODE.205.DESCR">
+        <value>Wird ausgelöst, wenn die durchschnittliche Brut in Ihren Bienenstöcken unter dem festgelegten Schwellenwert liegt. Dies ist ein Hinweis, der es Ihnen ermöglicht, Ihre Bienenstöcke zum richtigen Zeitpunkt mit Oxalsäure zu behandeln.</value>
+    </data>
+    <data name="ALERT_CODE.205.MSG">
+        <value>Es ist Zeit, Ihre Bienenstöcke zu behandeln</value>
+    </data>
+    <data name="ALERT_CODE.206.NAME">
+        <value>Möglicher heißer Tag voraus</value>
+    </data>
+    <data name="ALERT_CODE.206.DESCR">
+        <value>Wird ausgelöst, wenn ein kommender heißer Tag erkannt wird, d.h. über dem angegebenen Temperaturschwellenwert.</value>
+    </data>
+    <data name="ALERT_CODE.206.MSG">
+        <value>Die Temperaturen werden ungewöhnlich heiß sein</value>
+    </data>
+    <data name="ALERT_CODE.301.NAME">
+        <value>Hohe Innentemperatur</value>
+    </data>
+    <data name="ALERT_CODE.301.DESCR">
+        <value>Wird ausgelöst, wenn die Innentemperatur den gewählten Schwellenwert überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.301.MSG">
+        <value>Innentemperatur über {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.302.NAME">
+        <value>Niedrige Innentemperatur</value>
+    </data>
+    <data name="ALERT_CODE.302.DESCR">
+        <value>Wird ausgelöst, wenn die Innentemperatur unter dem gewählten Schwellenwert liegt.</value>
+    </data>
+    <data name="ALERT_CODE.302.MSG">
+        <value>Innentemperatur unter {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.303.NAME">
+        <value>Bedeutende Ressourcenversorgung</value>
+    </data>
+    <data name="ALERT_CODE.303.DESCR">
+        <value>Wird ausgelöst, wenn das eingehende Tagesgewicht im Bienenstock den gewählten Schwellenwert überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.303.MSG">
+        <value>Der Vorratszuwachs Ihrer Bienen überschreitet {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.305.NAME">
+        <value>Schwache Brut</value>
+    </data>
+    <data name="ALERT_CODE.305.DESCR">
+        <value>Wird ausgelöst, wenn der Brutprozentsatz unter dem gewählten Schwellenwert liegt.</value>
+    </data>
+    <data name="ALERT_CODE.305.MSG">
+        <value>Brut unter {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.306.NAME">
+        <value>Hohe Innenfeuchtigkeit</value>
+    </data>
+    <data name="ALERT_CODE.306.DESCR">
+        <value>Wird ausgelöst, wenn die Innenfeuchtigkeit den gewählten Schwellenwert überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.306.MSG">
+        <value>Innenfeuchtigkeit über {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.307.NAME">
+        <value>Niedrige Innenfeuchtigkeit</value>
+    </data>
+    <data name="ALERT_CODE.307.DESCR">
+        <value>Wird ausgelöst, wenn die Innenfeuchtigkeit unter dem gewählten Schwellenwert liegt.</value>
+    </data>
+    <data name="ALERT_CODE.307.MSG">
+        <value>Innenfeuchtigkeit unter {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.311.NAME">
+        <value>Honigtau</value>
+    </data>
+    <data name="ALERT_CODE.311.DESCR">
+        <value>Wird ausgelöst, wenn der Gewichtsbeitrag zum Bienenstock den gewählten Schwellenwert während der letzten Woche überschreitet.</value>
+    </data>
+    <data name="ALERT_CODE.311.MSG">
+        <value>Eingehende Gewichte über die letzte Woche überschreiten {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.312.NAME">
+        <value>Gewichtslimit überschritten</value>
+    </data>
+    <data name="ALERT_CODE.312.DESCR">
+        <value>Wird ausgelöst, wenn das angegebene Gewichtslimit überschritten wird.</value>
+    </data>
+    <data name="ALERT_CODE.312.MSG">
+        <value>Ihr Bienenstockgewicht überschreitet {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.321.NAME">
+        <value>Schwarm</value>
+    </data>
+    <data name="ALERT_CODE.321.DESCR">
+        <value>Wird ausgelöst, wenn ein potenzieller Schwarm auftritt (Hub bietet mehr Effizienz).</value>
+    </data>
+    <data name="ALERT_CODE.321.MSG">
+        <value>Potenzieller Schwarm gegen 14 Uhr erkannt</value>
+    </data>
+    <data name="ALERT_CODE.322.NAME">
+        <value>Schwarmrisiko</value>
+    </data>
+    <data name="ALERT_CODE.322.DESCR">
+        <value>Wird ausgelöst, wenn das Schwarmrisiko bei einem Ihrer Bienenstöcke am nächsten Tag hoch ist.</value>
+    </data>
+    <data name="ALERT_CODE.322.MSG">
+        <value>Erwarteter Schwarmtag</value>
+    </data>
+    <data name="ALERT_CODE.323.NAME">
+        <value>Honigaufsatz hinzufügen</value>
+    </data>
+    <data name="ALERT_CODE.323.DESCR">
+        <value>Geben Sie das Mindestgewicht eines leeren Honigaufsatzes an.</value>
+    </data>
+    <data name="ALERT_CODE.323.MSG">
+        <value>Sie haben einen Honigaufsatz hinzugefügt</value>
+    </data>
+    <data name="ALERT_CODE.324.NAME">
+        <value>Honigaufsatz entfernen</value>
+    </data>
+    <data name="ALERT_CODE.324.DESCR">
+        <value>Geben Sie das maximale Gewicht eines vollen Honigaufsatzes an.</value>
+    </data>
+    <data name="ALERT_CODE.324.MSG">
+        <value>Sie haben einen Honigaufsatz entfernt</value>
+    </data>
+    <data name="ALERT_CODE.401.NAME">
+        <value>Niedriger Batteriestand</value>
+    </data>
+    <data name="ALERT_CODE.401.DESCR">
+        <value>Wird ausgelöst, wenn der Batteriestand Ihres Sensors unter dem gewählten Schwellenwert liegt.</value>
+    </data>
+    <data name="ALERT_CODE.401.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.401b.NAME">
+        <value>Niedriger Batteriestand</value>
+    </data>
+    <data name="ALERT_CODE.401b.DESCR">
+        <value>Wird ausgelöst, wenn der Batteriestand Ihres W-Sensors unter dem gewählten Schwellenwert liegt.</value>
+    </data>
+    <data name="ALERT_CODE.401b.MSG">
+        <value>Batterie ersetzen von </value>
+    </data>
+    <data name="ALERT_CODE.401t.NAME">
+        <value>Niedriger Batteriestand</value>
+    </data>
+    <data name="ALERT_CODE.401t.DESCR">
+        <value>Wird ausgelöst, wenn der Batteriestand Ihres T-Sensors unter dem gewählten Schwellenwert liegt.</value>
+    </data>
+    <data name="ALERT_CODE.401t.MSG">
+        <value>Batterie ersetzen von </value>
+    </data>
+    <data name="ALERT_CODE.402.NAME">
+        <value>Gerätetrennung</value>
+    </data>
+    <data name="ALERT_CODE.402.DESCR">
+        <value>Wird ausgelöst, wenn einer Ihrer Sensoren während jeder gewählten Periode keine Daten mehr überträgt (oder punktuell). Funktioniert nur mit einem Hub.</value>
+    </data>
+    <data name="ALERT_CODE.402.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.402t.NAME">
+        <value>Gerätetrennung</value>
+    </data>
+    <data name="ALERT_CODE.402t.DESCR">
+        <value>Wird ausgelöst, wenn Ihr T-Sensor während des letzten Tages keine Daten mehr überträgt.</value>
+    </data>
+    <data name="ALERT_CODE.402t.MSG">
+        <value>{REF} getrennt seit {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.402w.NAME">
+        <value>Gerätetrennung</value>
+    </data>
+    <data name="ALERT_CODE.402w.DESCR">
+        <value>Wird ausgelöst, wenn Ihr W-Sensor während des letzten Tages keine Daten mehr überträgt.</value>
+    </data>
+    <data name="ALERT_CODE.402w.MSG">
+        <value>{REF} getrennt seit {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403b.NAME">
+        <value>Schwaches Signal</value>
+    </data>
+    <data name="ALERT_CODE.403b.DESCR">
+        <value>Wird ausgelöst, wenn Ihr W-Sensor während des letzten Tages wenig Daten überträgt.</value>
+    </data>
+    <data name="ALERT_CODE.403b.MSG">
+        <value>{REF} schwaches Signal seit {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403t.NAME">
+        <value>Schwaches Signal</value>
+    </data>
+    <data name="ALERT_CODE.403t.DESCR">
+        <value>Wird ausgelöst, wenn Ihr T-Sensor während des letzten Tages wenig Daten überträgt.</value>
+    </data>
+    <data name="ALERT_CODE.403t.MSG">
+        <value>{REF} schwaches Signal seit {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.404.NAME">
+        <value>Wetterstation gestoppt</value>
+    </data>
+    <data name="ALERT_CODE.404.DESCR">
+        <value>Wird ausgelöst, wenn Ihre Wetterstation keine Daten mehr überträgt. Erfordert eine eigene Wetterstation.</value>
+    </data>
+    <data name="ALERT_CODE.404.MSG">
+        <value>Datenübertragungsfehler von Ihrer Wetterstation seit {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.405.NAME">
+        <value>Bienenstock gestohlen</value>
+    </data>
+    <data name="ALERT_CODE.405.DESCR">
+        <value>Wird ausgelöst, wenn das Gewicht Ihres Bienenstocks ungewöhnlich niedrig wird.</value>
+    </data>
+    <data name="ALERT_CODE.405.MSG">
+        <value>Das Gewicht Ihres Bienenstocks ist ungewöhnlich niedrig</value>
+    </data>
+    <data name="ALERT_CODE.406.NAME">
+        <value>Toter Bienenstock</value>
+    </data>
+    <data name="ALERT_CODE.406.DESCR">
+        <value>Unser Algorithmus erkennt jeden Tag anhand verschiedener Parameter, die wir festgelegt haben, ob Ihr Bienenstock tot ist.</value>
+    </data>
+    <data name="ALERT_CODE.406.MSG">
+        <value>Ihr Bienenstock wurde als tot erkannt</value>
+    </data>
 </root>

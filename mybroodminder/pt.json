@@ -1848,98 +1848,154 @@
         "FEEDING": "Alimentação"
     },
     "ALERTS_DESC": {
-        "HONEYDEW": "Melada",
-        "HONEYDEW_DESC": "Acionado quando a contribuição de peso para a colmeia excede o limiar escolhido durante a última semana.",
-        "RAIN": "Possível chuva intensa",
-        "RAIN_DESC": "Acionado quando a precipitação excede o limiar escolhido no próximo dia.",
-        "SWARM": "Enxame",
-        "SWARM_DESC": "Acionado quando um enxame potencial ocorre (o Hub oferece mais eficiência).",
-        "DCONNECT": "Desconexão do dispositivo",
-        "DCONNECT_DESC": "Acionado quando um dos seus sensores não transmite mais dados (ou pontualmente) durante cada período escolhido. Funciona apenas com um Hub.",
-        "TMAX": "Alta temperatura interna",
-        "TMAX_DESC": "Acionado quando a temperatura interna excede o limiar escolhido.",
-        "TMIN": "Baixa temperatura interna",
-        "TMIN_DESC": "Acionado quando a temperatura interna está abaixo do limiar escolhido.",
-        "LOWBROOD": "Cria fraca",
-        "LOWBROOD_DESC": "Acionado quando a porcentagem de cria está abaixo do limiar escolhido.",
-        "STOPWEATHER": "Estação meteorológica parou",
-        "STOPWEATHER_DESC": "Acionado quando sua estação meteorológica para de transmitir dados. Requer sua própria estação meteorológica.",
-        "RSWARM": "Risco de enxame",
-        "RSWARM_DESC": "Acionado quando o risco de enxame é alto em uma de suas colmeias no próximo dia.",
-        "WIPOS": "Provisão significativa de recursos",
-        "WIPOS_DESC": "Acionado quando o peso recebido do dia na colmeia excede o limiar escolhido.",
-        "WINEG": "Depleção de recursos",
-        "WINEG_DESC": "Acionado quando as abelhas consomem muito mais recursos do que trazem de volta para a colmeia. O limite de perda é ajustável.",
-        "WLIM": "Limite de peso excedido",
-        "WLIM_DESC": "Acionado quando o limite de peso indicado é excedido.",
-        "SNOW": "Possível queda intensa de neve",
-        "SNOW_DESC": "Acionado quando a queda de neve excede o limiar escolhido no próximo dia.",
-        "WIND": "Possível ventania",
-        "WIND_DESC": "Acionado quando o vento excede o limiar escolhido no próximo dia.",
-        "COLDDAY": "Possível dia frio à frente",
-        "COLDDAY_DESC": "Acionado quando é detectado um dia frio iminente, ou seja, abaixo do limiar de temperatura especificado.",
-        "HOTDAY": "Possível dia quente à frente",
-        "HOTDAY_DESC": "Acionado quando é detectado um dia quente iminente, ou seja, acima do limiar de temperatura especificado.",
-        "HMIN": "Umidade interna baixa",
-        "HMIN_DESC": "Acionado quando a umidade interna está abaixo do limiar escolhido.",
-        "HMAX": "Umidade interna alta",
-        "HMAX_DESC": "Acionado quando a umidade interna excede o limiar escolhido.",
-        "STOLEN": "Colmeia roubada",
-        "STOLEN_DESC": "Acionado quando o peso da sua colmeia fica anormalmente baixo.",
-        "DCONNECTT": "Desconexão do dispositivo",
-        "DCONNECTT_DESC": "Acionado quando o seu sensor T não transmite mais dados durante o último dia.",
-        "DCONNECTW": "Desconexão do dispositivo",
-        "DCONNECTW_DESC": "Acionado quando o seu sensor W não transmite mais dados durante o último dia.",
-        "DCONNECTH": "Desconexão do dispositivo",
-        "DCONNECTH_DESC": "Acionado quando o seu Hub não transmite mais dados durante o último dia.",
-        "POORSIGNALW": "Sinal fraco",
-        "POORSIGNALW_DESC": "Acionado quando o seu sensor W transmite poucos dados durante o último dia.",
-        "POORSIGNALT": "Sinal fraco",
-        "POORSIGNALT_DESC": "Acionado quando o seu sensor T transmite poucos dados durante o último dia. ",
-        "LOWBATTERY": "Bateria fraca",
-        "LOWBATTERY_DESC": "Acionado quando o nível da bateria do seu sensor está abaixo do limiar selecionado.",
-        "LOWBATTERYW": "Bateria fraca",
-        "LOWBATTERYW_DESC": "Acionado quando o nível da bateria do seu sensor W está abaixo do limiar selecionado.",
-        "LOWBATTERYT": "Bateria fraca",
-        "LOWBATTERYT_DESC": "Acionado quando o nível da bateria do seu sensor T está abaixo do limiar selecionado.",
-        "SUPER+": "Adição de um sobrescrito",
-        "SUPER+_DESC": "Indique o peso mínimo de um sobrescrito vazio.",
-        "SUPER-": "Remoção de um sobrescrito",
-        "SUPER-_DESC": "Indique o peso máximo de um sobrescrito cheio.",
-        "OXALIC": "Tratamento com ácido oxálico",
-        "OXALIC_DESC": "Acionado quando a média de cria nas suas colmeias está abaixo do limiar estabelecido. Isso é um indicativo que permite tratar suas colmeias com ácido oxálico no momento certo.",
-        "DEAD": "Colmeia morta",
-        "DEAD_DESC": "Nosso algoritmo detecta todos os dias se sua colmeia está morta com base em vários parâmetros que definimos.",
-        "RAIN_MSG": "A precipitação excederá {VAL}",
-        "SNOW_MSG": "A queda de neve excederá {VAL} ",
-        "WIND_MSG": "O vento excederá {VAL}",
-        "COLDDAY_MSG": "As temperaturas estarão excepcionalmente baixas",
-        "OXALIC_MSG": "É hora de tratar suas colmeias",
-        "HOTDAY_MSG": "As temperaturas estarão excepcionalmente altas",
-        "TMAX_MSG": "Temperatura interna acima de {VAL}",
-        "TMIN_MSG": "Temperatura interna abaixo de {VAL}",
-        "WIPOS_MSG": "O ganho do estoque das suas abelhas excede {VAL}",
-        "WINEG_MSG": "A perda do estoque das suas abelhas excede {VAL}",
-        "LOWBROOD_MSG": "Cria abaixo de {VAL}",
-        "HMAX_MSG": "Umidade interna acima de {VAL}",
-        "HMIN_MSG": "Umidade interna abaixo de {VAL}",
-        "HONEYDEW_MSG": "Pesos recebidos durante a última semana excedendo {VAL}",
-        "WLIM_MSG": "O peso da sua colmeia excede {VAL}",
-        "SWARM_MSG": "Enxame potencial detectado por volta das 14:00",
-        "RSWARM_MSG": "Dia de enxame esperado",
-        "SUPER+_MSG": "Você adicionou um sobrescrito",
-        "SUPER-_MSG": "Você removeu um sobrescrito",
-        "LOWBATTERYT_MSG": "Substitua a bateria de ",
-        "LOWBATTERYW_MSG": "Substitua a bateria de ",
-        "DCONNECTT_MSG": "{REF} desconectado desde {DATE}",
-        "DCONNECTW_MSG": "{REF} desconectado desde {DATE}",
-        "DCONNECTH_MSG": "{REF} desconectado desde {DATE}",
-        "POORSIGNALT_MSG": "Sinal fraco em {REF} desde {DATE}",
-        "POORSIGNALW_MSG": "Sinal fraco em {REF} desde {DATE}",
-        "STOPWEATHER_MSG": "Erro na transmissão de dados da sua estação meteorológica desde {DATE}",
-        "STOLEN_MSG": "O peso da sua colmeia está anormalmente baixo",
-        "DEAD_MSG": "Sua colmeia foi detectada como morta",
         "REALTIME_SWARM_ALERT": "Evento de temperatura calculado pelo dispositivo T2. Apenas notificado para dispositivos acima ou abaixo das caixas de criação usando um hub em tempo real."
+    },
+    "ALERT_CODES": {
+        "201": {
+            "NAME": "Possível chuva intensa",
+            "DESCR": "Acionado quando a precipitação excede o limiar escolhido no próximo dia.",
+            "MSG": "A precipitação excederá {VAL}"
+        },
+        "202": {
+            "NAME": "Possível queda intensa de neve",
+            "DESCR": "Acionado quando a queda de neve excede o limiar escolhido no próximo dia.",
+            "MSG": "A queda de neve excederá {VAL} "
+        },
+        "203": {
+            "NAME": "Possível ventania",
+            "DESCR": "Acionado quando o vento excede o limiar escolhido no próximo dia.",
+            "MSG": "O vento excederá {VAL}"
+        },
+        "204": {
+            "NAME": "Possível dia frio à frente",
+            "DESCR": "Acionado quando é detectado um dia frio iminente, ou seja, abaixo do limiar de temperatura especificado.",
+            "MSG": "As temperaturas estarão excepcionalmente baixas"
+        },
+        "205": {
+            "NAME": "Tratamento com ácido oxálico",
+            "DESCR": "Acionado quando a média de cria nas suas colmeias está abaixo do limiar estabelecido. Isso é um indicativo que permite tratar suas colmeias com ácido oxálico no momento certo.",
+            "MSG": "É hora de tratar suas colmeias"
+        },
+        "206": {
+            "NAME": "Possível dia quente à frente",
+            "DESCR": "Acionado quando é detectado um dia quente iminente, ou seja, acima do limiar de temperatura especificado.",
+            "MSG": "As temperaturas estarão excepcionalmente altas"
+        },
+        "301": {
+            "NAME": "Alta temperatura interna",
+            "DESCR": "Acionado quando a temperatura interna excede o limiar escolhido.",
+            "MSG": "Temperatura interna acima de {VAL}"
+        },
+        "302": {
+            "NAME": "Baixa temperatura interna",
+            "DESCR": "Acionado quando a temperatura interna está abaixo do limiar escolhido.",
+            "MSG": "Temperatura interna abaixo de {VAL}"
+        },
+        "303": {
+            "NAME": "Provisão significativa de recursos",
+            "DESCR": "Acionado quando o peso recebido do dia na colmeia excede o limiar escolhido.",
+            "MSG": "O ganho do estoque das suas abelhas excede {VAL}"
+        },
+        "305": {
+            "NAME": "Cria fraca",
+            "DESCR": "Acionado quando a porcentagem de cria está abaixo do limiar escolhido.",
+            "MSG": "Cria abaixo de {VAL}"
+        },
+        "306": {
+            "NAME": "Umidade interna alta",
+            "DESCR": "Acionado quando a umidade interna excede o limiar escolhido.",
+            "MSG": "Umidade interna acima de {VAL}"
+        },
+        "307": {
+            "NAME": "Umidade interna baixa",
+            "DESCR": "Acionado quando a umidade interna está abaixo do limiar escolhido.",
+            "MSG": "Umidade interna abaixo de {VAL}"
+        },
+        "311": {
+            "NAME": "Melada",
+            "DESCR": "Acionado quando a contribuição de peso para a colmeia excede o limiar escolhido durante a última semana.",
+            "MSG": "Pesos recebidos durante a última semana excedendo {VAL}"
+        },
+        "312": {
+            "NAME": "Limite de peso excedido",
+            "DESCR": "Acionado quando o limite de peso indicado é excedido.",
+            "MSG": "O peso da sua colmeia excede {VAL}"
+        },
+        "321": {
+            "NAME": "Enxame",
+            "DESCR": "Acionado quando um enxame potencial ocorre (o Hub oferece mais eficiência).",
+            "MSG": "Enxame potencial detectado por volta das 14:00"
+        },
+        "322": {
+            "NAME": "Risco de enxame",
+            "DESCR": "Acionado quando o risco de enxame é alto em uma de suas colmeias no próximo dia.",
+            "MSG": "Dia de enxame esperado"
+        },
+        "323": {
+            "NAME": "Adição de um sobrescrito",
+            "DESCR": "Indique o peso mínimo de um sobrescrito vazio.",
+            "MSG": "Você adicionou um sobrescrito"
+        },
+        "324": {
+            "NAME": "Remoção de um sobrescrito",
+            "DESCR": "Indique o peso máximo de um sobrescrito cheio.",
+            "MSG": "Você removeu um sobrescrito"
+        },
+        "401": {
+            "NAME": "Bateria fraca",
+            "DESCR": "Acionado quando o nível da bateria do seu sensor está abaixo do limiar selecionado.",
+            "MSG": ""
+        },
+        "401b": {
+            "NAME": "Bateria fraca",
+            "DESCR": "Acionado quando o nível da bateria do seu sensor W está abaixo do limiar selecionado.",
+            "MSG": "Substitua a bateria de "
+        },
+        "401t": {
+            "NAME": "Bateria fraca",
+            "DESCR": "Acionado quando o nível da bateria do seu sensor T está abaixo do limiar selecionado.",
+            "MSG": "Substitua a bateria de "
+        },
+        "402": {
+            "NAME": "Desconexão do dispositivo",
+            "DESCR": "Acionado quando um dos seus sensores não transmite mais dados (ou pontualmente) durante cada período escolhido. Funciona apenas com um Hub.",
+            "MSG": ""
+        },
+        "402t": {
+            "NAME": "Desconexão do dispositivo",
+            "DESCR": "Acionado quando o seu sensor T não transmite mais dados durante o último dia.",
+            "MSG": "{REF} desconectado desde {DATE}"
+        },
+        "402w": {
+            "NAME": "Desconexão do dispositivo",
+            "DESCR": "Acionado quando o seu sensor W não transmite mais dados durante o último dia.",
+            "MSG": "{REF} desconectado desde {DATE}"
+        },
+        "403b": {
+            "NAME": "Sinal fraco",
+            "DESCR": "Acionado quando o seu sensor W transmite poucos dados durante o último dia.",
+            "MSG": "Sinal fraco em {REF} desde {DATE}"
+        },
+        "403t": {
+            "NAME": "Sinal fraco",
+            "DESCR": "Acionado quando o seu sensor T transmite poucos dados durante o último dia.",
+            "MSG": "Sinal fraco em {REF} desde {DATE}"
+        },
+        "404": {
+            "NAME": "Estação meteorológica parou",
+            "DESCR": "Acionado quando sua estação meteorológica para de transmitir dados. Requer sua própria estação meteorológica.",
+            "MSG": "Erro na transmissão de dados da sua estação meteorológica desde {DATE}"
+        },
+        "405": {
+            "NAME": "Colmeia roubada",
+            "DESCR": "Acionado quando o peso da sua colmeia fica anormalmente baixo.",
+            "MSG": "O peso da sua colmeia está anormalmente baixo"
+        },
+        "406": {
+            "NAME": "Colmeia morta",
+            "DESCR": "Nosso algoritmo detecta todos os dias se sua colmeia está morta com base em vários parâmetros que definimos.",
+            "MSG": "Sua colmeia foi detectada como morta"
+        }
     },
     "CONFIGURE_ALERTS": {
         "REALTIME": "Tempo real",

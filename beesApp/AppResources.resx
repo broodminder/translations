@@ -1797,9 +1797,6 @@
 	<data name="APNCONFIGURE_DISCONNECT_ERROR">
 		<value>Error disconnecting</value>
 	</data>
-	<data name="APNCONFIGURE_">
-		<value></value>
-	</data>
 	<data name="LOCATIONSERVICES_TITLE">
 		<value>Location Services</value>
 	</data>
@@ -2562,4 +2559,265 @@
 	<data name="PREMIUM_NO_ALERTS">
 		<value>No calculated alerts available</value>
 	</data>
+    <data name="ALERT_CODE.201.NAME">
+        <value>Possible heavy rain</value>
+    </data>
+    <data name="ALERT_CODE.201.DESCR">
+        <value>Triggered when rainfall exceeds chosen threshold next day.</value>
+    </data>
+    <data name="ALERT_CODE.201.MSG">
+        <value>Rainfall will exceed {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.202.NAME">
+        <value>Possible heavy snow</value>
+    </data>
+    <data name="ALERT_CODE.202.DESCR">
+        <value>Triggered when snowfall exceeds chosen threshold next day.</value>
+    </data>
+    <data name="ALERT_CODE.202.MSG">
+        <value>Snowfall will exceed {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.203.NAME">
+        <value>Possible strong wind</value>
+    </data>
+    <data name="ALERT_CODE.203.DESCR">
+        <value>Triggered when wind exceeds chosen threshold next day.</value>
+    </data>
+    <data name="ALERT_CODE.203.MSG">
+        <value>Wind will exceed {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.204.NAME">
+        <value>Possible cold day ahead</value>
+    </data>
+    <data name="ALERT_CODE.204.DESCR">
+        <value>Triggered when an upcoming cold day is detected, i.e. below specified temperature threshold.</value>
+    </data>
+    <data name="ALERT_CODE.204.MSG">
+        <value>Temperatures will be unusually cold</value>
+    </data>
+    <data name="ALERT_CODE.205.NAME">
+        <value>Oxalic acid treatment</value>
+    </data>
+    <data name="ALERT_CODE.205.DESCR">
+        <value>Triggered when the average brood in your hives is below the set threshold. This is an indication allowing you to treat your hives with oxalic acid at the right time.</value>
+    </data>
+    <data name="ALERT_CODE.205.MSG">
+        <value>It's time to treat your hives</value>
+    </data>
+    <data name="ALERT_CODE.206.NAME">
+        <value>Possible hot day ahead</value>
+    </data>
+    <data name="ALERT_CODE.206.DESCR">
+        <value>Triggered when an upcoming hot day is detected, i.e. above specified temperature threshold.</value>
+    </data>
+    <data name="ALERT_CODE.206.MSG">
+        <value>Temperatures will be unusually hot</value>
+    </data>
+    <data name="ALERT_CODE.301.NAME">
+        <value>High internal temperature</value>
+    </data>
+    <data name="ALERT_CODE.301.DESCR">
+        <value>Triggered when internal temperature exceeds chosen threshold.</value>
+    </data>
+    <data name="ALERT_CODE.301.MSG">
+        <value>Internal temperature above {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.302.NAME">
+        <value>Low internal temperature</value>
+    </data>
+    <data name="ALERT_CODE.302.DESCR">
+        <value>Triggered when internal temperature is below chosen threshold.</value>
+    </data>
+    <data name="ALERT_CODE.302.MSG">
+        <value>Internal temperature below {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.303.NAME">
+        <value>Significant resource provision</value>
+    </data>
+    <data name="ALERT_CODE.303.DESCR">
+        <value>Triggered when incoming weight of the day in hive exceeds chosen threshold.</value>
+    </data>
+    <data name="ALERT_CODE.303.MSG">
+        <value>Your bees stock gain exceeds {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.305.NAME">
+        <value>Weak brood</value>
+    </data>
+    <data name="ALERT_CODE.305.DESCR">
+        <value>Triggered when brood percentage is below chosen threshold.</value>
+    </data>
+    <data name="ALERT_CODE.305.MSG">
+        <value>Brood below {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.306.NAME">
+        <value>High internal humidity</value>
+    </data>
+    <data name="ALERT_CODE.306.DESCR">
+        <value>Triggered when internal humidity exceeds chosen threshold.</value>
+    </data>
+    <data name="ALERT_CODE.306.MSG">
+        <value>Internal humidity above {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.307.NAME">
+        <value>Low internal humidity</value>
+    </data>
+    <data name="ALERT_CODE.307.DESCR">
+        <value>Triggered when internal humidity is below chosen threshold.</value>
+    </data>
+    <data name="ALERT_CODE.307.MSG">
+        <value>Internal humidity below {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.311.NAME">
+        <value>Honeydew</value>
+    </data>
+    <data name="ALERT_CODE.311.DESCR">
+        <value>Triggered when weight contribution to hive exceeds chosen threshold over the last week.</value>
+    </data>
+    <data name="ALERT_CODE.311.MSG">
+        <value>Incoming weights over last week exceeding {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.312.NAME">
+        <value>Weight limit exceeded</value>
+    </data>
+    <data name="ALERT_CODE.312.DESCR">
+        <value>Triggered when indicated weight limit is exceeded.</value>
+    </data>
+    <data name="ALERT_CODE.312.MSG">
+        <value>Your hive weight exceeds {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.321.NAME">
+        <value>Swarm</value>
+    </data>
+    <data name="ALERT_CODE.321.DESCR">
+        <value>Triggered when a potential swarm occurs (Hub provides more efficiency).</value>
+    </data>
+    <data name="ALERT_CODE.321.MSG">
+        <value>Potential swarm detected around 2pm</value>
+    </data>
+    <data name="ALERT_CODE.322.NAME">
+        <value>Swarm risk</value>
+    </data>
+    <data name="ALERT_CODE.322.DESCR">
+        <value>Triggered when swarm risk is high on one of your hives next day.</value>
+    </data>
+    <data name="ALERT_CODE.322.MSG">
+        <value>Expected swarm day</value>
+    </data>
+    <data name="ALERT_CODE.323.NAME">
+        <value>Adding a super</value>
+    </data>
+    <data name="ALERT_CODE.323.DESCR">
+        <value>Indicate minimum weight of an empty super.</value>
+    </data>
+    <data name="ALERT_CODE.323.MSG">
+        <value>You added a super</value>
+    </data>
+    <data name="ALERT_CODE.324.NAME">
+        <value>Removing a super</value>
+    </data>
+    <data name="ALERT_CODE.324.DESCR">
+        <value>Indicate maximum weight of a full super.</value>
+    </data>
+    <data name="ALERT_CODE.324.MSG">
+        <value>You removed a super</value>
+    </data>
+    <data name="ALERT_CODE.401.NAME">
+        <value>Low battery</value>
+    </data>
+    <data name="ALERT_CODE.401.DESCR">
+        <value>Triggered when your sensor's battery level is below selected threshold.</value>
+    </data>
+    <data name="ALERT_CODE.401.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.401b.NAME">
+        <value>Low battery</value>
+    </data>
+    <data name="ALERT_CODE.401b.DESCR">
+        <value>Triggered when your W sensor's battery level is below selected threshold.</value>
+    </data>
+    <data name="ALERT_CODE.401b.MSG">
+        <value>Replace battery of </value>
+    </data>
+    <data name="ALERT_CODE.401t.NAME">
+        <value>Low battery</value>
+    </data>
+    <data name="ALERT_CODE.401t.DESCR">
+        <value>Triggered when your T sensor's battery level is below selected threshold.</value>
+    </data>
+    <data name="ALERT_CODE.401t.MSG">
+        <value>Replace battery of </value>
+    </data>
+    <data name="ALERT_CODE.402.NAME">
+        <value>Device disconnection</value>
+    </data>
+    <data name="ALERT_CODE.402.DESCR">
+        <value>Triggered when one of your sensors no longer transmits data (or punctually) during each chosen period. Only works with a Hub.</value>
+    </data>
+    <data name="ALERT_CODE.402.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.402t.NAME">
+        <value>Device disconnection</value>
+    </data>
+    <data name="ALERT_CODE.402t.DESCR">
+        <value>Triggered when your T sensor no longer transmits data during last day.</value>
+    </data>
+    <data name="ALERT_CODE.402t.MSG">
+        <value>{REF} disconnected since {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.402w.NAME">
+        <value>Device disconnection</value>
+    </data>
+    <data name="ALERT_CODE.402w.DESCR">
+        <value>Triggered when your W sensor no longer transmits data during last day.</value>
+    </data>
+    <data name="ALERT_CODE.402w.MSG">
+        <value>{REF} disconnected since {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403b.NAME">
+        <value>Poor signal</value>
+    </data>
+    <data name="ALERT_CODE.403b.DESCR">
+        <value>Triggered when your W sensor transmits few data during last day.</value>
+    </data>
+    <data name="ALERT_CODE.403b.MSG">
+        <value>{REF} poor signal since {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403t.NAME">
+        <value>Poor signal</value>
+    </data>
+    <data name="ALERT_CODE.403t.DESCR">
+        <value>Triggered when your T sensor transmits few data during last day.</value>
+    </data>
+    <data name="ALERT_CODE.403t.MSG">
+        <value>{REF} poor signal since {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.404.NAME">
+        <value>Weather station stopped</value>
+    </data>
+    <data name="ALERT_CODE.404.DESCR">
+        <value>Triggered when your weather station stops transmitting data. Requires own weather station.</value>
+    </data>
+    <data name="ALERT_CODE.404.MSG">
+        <value>Data transmission error from your weather station since {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.405.NAME">
+        <value>Stolen hive</value>
+    </data>
+    <data name="ALERT_CODE.405.DESCR">
+        <value>Triggered when your hive's weight becomes abnormally low.</value>
+    </data>
+    <data name="ALERT_CODE.405.MSG">
+        <value>Your hive weight is abnormally low</value>
+    </data>
+    <data name="ALERT_CODE.406.NAME">
+        <value>Dead hive</value>
+    </data>
+    <data name="ALERT_CODE.406.DESCR">
+        <value>Our algorithm detects every day if your hive is dead based on various parameters we have set.</value>
+    </data>
+    <data name="ALERT_CODE.406.MSG">
+        <value>Your hive has been detected dead</value>
+    </data>
 </root>

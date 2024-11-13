@@ -1796,9 +1796,6 @@
     </data>
     <data name="APNCONFIGURE_DISCONNECT_ERROR">
         <value>Erro ao desconectar</value>
-    <data name="APNCONFIGURE_">
-		<value></value>
-	</data>
     </data>
     <data name="LOCATIONSERVICES_TITLE">
         <value>Serviços de Localização</value>
@@ -2562,4 +2559,265 @@
     <data name="PREMIUM_NO_ALERTS">
 		<value>Nenhum alerta calculado disponível</value>
 	</data>
+    <data name="ALERT_CODE.201.NAME">
+        <value>Possível chuva intensa</value>
+    </data>
+    <data name="ALERT_CODE.201.DESCR">
+        <value>Acionado quando a precipitação excede o limiar escolhido no próximo dia.</value>
+    </data>
+    <data name="ALERT_CODE.201.MSG">
+        <value>A precipitação excederá {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.202.NAME">
+        <value>Possível queda intensa de neve</value>
+    </data>
+    <data name="ALERT_CODE.202.DESCR">
+        <value>Acionado quando a queda de neve excede o limiar escolhido no próximo dia.</value>
+    </data>
+    <data name="ALERT_CODE.202.MSG">
+        <value>A queda de neve excederá {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.203.NAME">
+        <value>Possível ventania</value>
+    </data>
+    <data name="ALERT_CODE.203.DESCR">
+        <value>Acionado quando o vento excede o limiar escolhido no próximo dia.</value>
+    </data>
+    <data name="ALERT_CODE.203.MSG">
+        <value>O vento excederá {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.204.NAME">
+        <value>Possível dia frio à frente</value>
+    </data>
+    <data name="ALERT_CODE.204.DESCR">
+        <value>Acionado quando é detectado um dia frio iminente, ou seja, abaixo do limiar de temperatura especificado.</value>
+    </data>
+    <data name="ALERT_CODE.204.MSG">
+        <value>As temperaturas estarão excepcionalmente baixas</value>
+    </data>
+    <data name="ALERT_CODE.205.NAME">
+        <value>Tratamento com ácido oxálico</value>
+    </data>
+    <data name="ALERT_CODE.205.DESCR">
+        <value>Acionado quando a média de cria nas suas colmeias está abaixo do limiar estabelecido. Isso é um indicativo que permite tratar suas colmeias com ácido oxálico no momento certo.</value>
+    </data>
+    <data name="ALERT_CODE.205.MSG">
+        <value>É hora de tratar suas colmeias</value>
+    </data>
+    <data name="ALERT_CODE.206.NAME">
+        <value>Possível dia quente à frente</value>
+    </data>
+    <data name="ALERT_CODE.206.DESCR">
+        <value>Acionado quando é detectado um dia quente iminente, ou seja, acima do limiar de temperatura especificado.</value>
+    </data>
+    <data name="ALERT_CODE.206.MSG">
+        <value>As temperaturas estarão excepcionalmente altas</value>
+    </data>
+    <data name="ALERT_CODE.301.NAME">
+        <value>Alta temperatura interna</value>
+    </data>
+    <data name="ALERT_CODE.301.DESCR">
+        <value>Acionado quando a temperatura interna excede o limiar escolhido.</value>
+    </data>
+    <data name="ALERT_CODE.301.MSG">
+        <value>Temperatura interna acima de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.302.NAME">
+        <value>Baixa temperatura interna</value>
+    </data>
+    <data name="ALERT_CODE.302.DESCR">
+        <value>Acionado quando a temperatura interna está abaixo do limiar escolhido.</value>
+    </data>
+    <data name="ALERT_CODE.302.MSG">
+        <value>Temperatura interna abaixo de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.303.NAME">
+        <value>Provisão significativa de recursos</value>
+    </data>
+    <data name="ALERT_CODE.303.DESCR">
+        <value>Acionado quando o peso recebido do dia na colmeia excede o limiar escolhido.</value>
+    </data>
+    <data name="ALERT_CODE.303.MSG">
+        <value>O ganho do estoque das suas abelhas excede {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.305.NAME">
+        <value>Cria fraca</value>
+    </data>
+    <data name="ALERT_CODE.305.DESCR">
+        <value>Acionado quando a porcentagem de cria está abaixo do limiar escolhido.</value>
+    </data>
+    <data name="ALERT_CODE.305.MSG">
+        <value>Cria abaixo de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.306.NAME">
+        <value>Umidade interna alta</value>
+    </data>
+    <data name="ALERT_CODE.306.DESCR">
+        <value>Acionado quando a umidade interna excede o limiar escolhido.</value>
+    </data>
+    <data name="ALERT_CODE.306.MSG">
+        <value>Umidade interna acima de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.307.NAME">
+        <value>Umidade interna baixa</value>
+    </data>
+    <data name="ALERT_CODE.307.DESCR">
+        <value>Acionado quando a umidade interna está abaixo do limiar escolhido.</value>
+    </data>
+    <data name="ALERT_CODE.307.MSG">
+        <value>Umidade interna abaixo de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.311.NAME">
+        <value>Melada</value>
+    </data>
+    <data name="ALERT_CODE.311.DESCR">
+        <value>Acionado quando a contribuição de peso para a colmeia excede o limiar escolhido durante a última semana.</value>
+    </data>
+    <data name="ALERT_CODE.311.MSG">
+        <value>Pesos recebidos durante a última semana excedendo {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.312.NAME">
+        <value>Limite de peso excedido</value>
+    </data>
+    <data name="ALERT_CODE.312.DESCR">
+        <value>Acionado quando o limite de peso indicado é excedido.</value>
+    </data>
+    <data name="ALERT_CODE.312.MSG">
+        <value>O peso da sua colmeia excede {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.321.NAME">
+        <value>Enxame</value>
+    </data>
+    <data name="ALERT_CODE.321.DESCR">
+        <value>Acionado quando um enxame potencial ocorre (o Hub oferece mais eficiência).</value>
+    </data>
+    <data name="ALERT_CODE.321.MSG">
+        <value>Enxame potencial detectado por volta das 14:00</value>
+    </data>
+    <data name="ALERT_CODE.322.NAME">
+        <value>Risco de enxame</value>
+    </data>
+    <data name="ALERT_CODE.322.DESCR">
+        <value>Acionado quando o risco de enxame é alto em uma de suas colmeias no próximo dia.</value>
+    </data>
+    <data name="ALERT_CODE.322.MSG">
+        <value>Dia de enxame esperado</value>
+    </data>
+    <data name="ALERT_CODE.323.NAME">
+        <value>Adição de um sobrescrito</value>
+    </data>
+    <data name="ALERT_CODE.323.DESCR">
+        <value>Indique o peso mínimo de um sobrescrito vazio.</value>
+    </data>
+    <data name="ALERT_CODE.323.MSG">
+        <value>Você adicionou um sobrescrito</value>
+    </data>
+    <data name="ALERT_CODE.324.NAME">
+        <value>Remoção de um sobrescrito</value>
+    </data>
+    <data name="ALERT_CODE.324.DESCR">
+        <value>Indique o peso máximo de um sobrescrito cheio.</value>
+    </data>
+    <data name="ALERT_CODE.324.MSG">
+        <value>Você removeu um sobrescrito</value>
+    </data>
+    <data name="ALERT_CODE.401.NAME">
+        <value>Bateria fraca</value>
+    </data>
+    <data name="ALERT_CODE.401.DESCR">
+        <value>Acionado quando o nível da bateria do seu sensor está abaixo do limiar selecionado.</value>
+    </data>
+    <data name="ALERT_CODE.401.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.401b.NAME">
+        <value>Bateria fraca</value>
+    </data>
+    <data name="ALERT_CODE.401b.DESCR">
+        <value>Acionado quando o nível da bateria do seu sensor W está abaixo do limiar selecionado.</value>
+    </data>
+    <data name="ALERT_CODE.401b.MSG">
+        <value>Substitua a bateria de </value>
+    </data>
+    <data name="ALERT_CODE.401t.NAME">
+        <value>Bateria fraca</value>
+    </data>
+    <data name="ALERT_CODE.401t.DESCR">
+        <value>Acionado quando o nível da bateria do seu sensor T está abaixo do limiar selecionado.</value>
+    </data>
+    <data name="ALERT_CODE.401t.MSG">
+        <value>Substitua a bateria de </value>
+    </data>
+    <data name="ALERT_CODE.402.NAME">
+        <value>Desconexão do dispositivo</value>
+    </data>
+    <data name="ALERT_CODE.402.DESCR">
+        <value>Acionado quando um dos seus sensores não transmite mais dados (ou pontualmente) durante cada período escolhido. Funciona apenas com um Hub.</value>
+    </data>
+    <data name="ALERT_CODE.402.MSG">
+        <value></value>
+    </data>
+    <data name="ALERT_CODE.402t.NAME">
+        <value>Desconexão do dispositivo</value>
+    </data>
+    <data name="ALERT_CODE.402t.DESCR">
+        <value>Acionado quando o seu sensor T não transmite mais dados durante o último dia.</value>
+    </data>
+    <data name="ALERT_CODE.402t.MSG">
+        <value>{REF} desconectado desde {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.402w.NAME">
+        <value>Desconexão do dispositivo</value>
+    </data>
+    <data name="ALERT_CODE.402w.DESCR">
+        <value>Acionado quando o seu sensor W não transmite mais dados durante o último dia.</value>
+    </data>
+    <data name="ALERT_CODE.402w.MSG">
+        <value>{REF} desconectado desde {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403b.NAME">
+        <value>Sinal fraco</value>
+    </data>
+    <data name="ALERT_CODE.403b.DESCR">
+        <value>Acionado quando o seu sensor W transmite poucos dados durante o último dia.</value>
+    </data>
+    <data name="ALERT_CODE.403b.MSG">
+        <value>Sinal fraco em {REF} desde {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.403t.NAME">
+        <value>Sinal fraco</value>
+    </data>
+    <data name="ALERT_CODE.403t.DESCR">
+        <value>Acionado quando o seu sensor T transmite poucos dados durante o último dia.</value>
+    </data>
+    <data name="ALERT_CODE.403t.MSG">
+        <value>Sinal fraco em {REF} desde {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.404.NAME">
+        <value>Estação meteorológica parou</value>
+    </data>
+    <data name="ALERT_CODE.404.DESCR">
+        <value>Acionado quando sua estação meteorológica para de transmitir dados. Requer sua própria estação meteorológica.</value>
+    </data>
+    <data name="ALERT_CODE.404.MSG">
+        <value>Erro na transmissão de dados da sua estação meteorológica desde {DATE}</value>
+    </data>
+    <data name="ALERT_CODE.405.NAME">
+        <value>Colmeia roubada</value>
+    </data>
+    <data name="ALERT_CODE.405.DESCR">
+        <value>Acionado quando o peso da sua colmeia fica anormalmente baixo.</value>
+    </data>
+    <data name="ALERT_CODE.405.MSG">
+        <value>O peso da sua colmeia está anormalmente baixo</value>
+    </data>
+    <data name="ALERT_CODE.406.NAME">
+        <value>Colmeia morta</value>
+    </data>
+    <data name="ALERT_CODE.406.DESCR">
+        <value>Nosso algoritmo detecta todos os dias se sua colmeia está morta com base em vários parâmetros que definimos.</value>
+    </data>
+    <data name="ALERT_CODE.406.MSG">
+        <value>Sua colmeia foi detectada como morta</value>
+    </data>
 </root>

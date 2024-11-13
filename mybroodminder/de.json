@@ -1848,99 +1848,156 @@
         "FEEDING": "Fütterung"
     },
     "ALERTS_DESC": {
-        "HONEYDEW": "Honigtau",
-        "HONEYDEW_DESC": "Ausgelöst, wenn der Gewichtsbeitrag zum Bienenstock während der letzten Woche den ausgewählten Schwellenwert überschreitet.",
-        "RAIN": "Möglicher starker Regenfall",
-        "RAIN_DESC": "Ausgelöst, wenn der Niederschlag am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
-        "SWARM": "Schwarm",
-        "SWARM_DESC": "Ausgelöst, wenn ein möglicher Schwarm auftritt (Hub bietet mehr Effizienz).",
-        "DCONNECT": "Geräteverbindung unterbrochen",
-        "DCONNECT_DESC": "Ausgelöst, wenn einer Ihrer Sensoren während jedes ausgewählten Zeitraums keine Daten mehr überträgt (oder punktuell). Funktioniert nur mit einem Hub.",
-        "TMAX": "Hohe interne Temperatur",
-        "TMAX_DESC": "Ausgelöst, wenn die interne Temperatur den ausgewählten Schwellenwert überschreitet.",
-        "TMIN": "Niedrige interne Temperatur",
-        "TMIN_DESC": "Ausgelöst, wenn die interne Temperatur unter den ausgewählten Schwellenwert fällt.",
-        "LOWBROOD": "Schwaches Brutniveau",
-        "LOWBROOD_DESC": "Ausgelöst, wenn der Prozentsatz der Brut unter den ausgewählten Schwellenwert fällt.",
-        "STOPWEATHER": "Wetterstation gestoppt",
-        "STOPWEATHER_DESC": "Ausgelöst, wenn Ihre Wetterstation aufhört, Daten zu übertragen. Erfordert eine eigene Wetterstation.",
-        "RSWARM": "Schwarmrisiko",
-        "RSWARM_DESC": "Ausgelöst, wenn das Schwarmrisiko in einem Ihrer Bienenstöcke am nächsten Tag hoch ist.",
-        "WIPOS": "Bedeutende Bereitstellung von Ressourcen",
-        "WIPOS_DESC": "Ausgelöst, wenn das eingehende Gewicht des Tages im Bienenstock den ausgewählten Schwellenwert überschreitet.",
-        "WINEG": "Ressourcenerschöpfung",
-        "WINEG_DESC": "Ausgelöst, wenn Bienen viel mehr Ressourcen verbrauchen, als sie zum Bienenstock zurückbringen. Die Verlustschwelle ist einstellbar.",
-        "WLIM": "Gewichtslimit überschritten",
-        "WLIM_DESC": "Ausgelöst, wenn das angegebene Gewichtslimit überschritten wird.",
-        "SNOW": "Möglicher starker Schneefall",
-        "SNOW_DESC": "Ausgelöst, wenn der Schneefall am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
-        "WIND": "Möglicher starker Wind",
-        "WIND_DESC": "Ausgelöst, wenn der Wind am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
-        "COLDDAY": "Möglicherweise kalter Tag voraus",
-        "COLDDAY_DESC": "Ausgelöst, wenn ein bevorstehender kalter Tag erkannt wird, d.h. unterhalb des festgelegten Temperaturschwellenwerts.",
-        "HOTDAY": "Möglicherweise heißer Tag voraus",
-        "HOTDAY_DESC": "Ausgelöst, wenn ein bevorstehender heißer Tag erkannt wird, d.h. über dem festgelegten Temperaturschwellenwert.",
-        "HMIN": "Niedrige interne Luftfeuchtigkeit",
-        "HMIN_DESC": "Ausgelöst, wenn die interne Luftfeuchtigkeit unter den ausgewählten Schwellenwert fällt.",
-        "HMAX": "Hohe interne Luftfeuchtigkeit",
-        "HMAX_DESC": "Ausgelöst, wenn die interne Luftfeuchtigkeit den ausgewählten Schwellenwert überschreitet.",
-        "STOLEN": "Gestohlener Bienenstock",
-        "STOLEN_DESC": "Ausgelöst, wenn das Gewicht Ihres Bienenstocks ungewöhnlich niedrig wird.",
-        "DCONNECTT": "Geräteverbindung unterbrochen",
-        "DCONNECTT_DESC": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages keine Daten mehr überträgt.",
-        "DCONNECTW": "Geräteverbindung unterbrochen",
-        "DCONNECTW_DESC": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages keine Daten mehr überträgt.",
-        "DCONNECTH": "Geräteverbindung unterbrochen",
-        "DCONNECTH_DESC": "Ausgelöst, wenn Ihr Hub während des letzten Tages keine Daten mehr überträgt.",
-        "POORSIGNALW": "Schlechtes Signal",
-        "POORSIGNALW_DESC": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages nur wenig Daten überträgt.",
-        "POORSIGNALT": "Schlechtes Signal",
-        "POORSIGNALT_DESC": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages nur wenig Daten überträgt.",
-        "LOWBATTERY": "Niedriger Batteriestand",
-        "LOWBATTERY_DESC": "Ausgelöst, wenn der Batteriestand Ihres Sensors unter den ausgewählten Schwellenwert fällt.",
-        "LOWBATTERYW": "Niedriger Batteriestand",
-        "LOWBATTERYW_DESC": "Ausgelöst, wenn der Batteriestand Ihres W-Sensors unter den ausgewählten Schwellenwert fällt.",
-        "LOWBATTERYT": "Niedriger Batteriestand",
-        "LOWBATTERYT_DESC": "Ausgelöst, wenn der Batteriestand Ihres T-Sensors unter den ausgewählten Schwellenwert fällt.",
-        "SUPER+": "Hinzufügen eines Honigraums",
-        "SUPER+_DESC": "Geben Sie das Mindestgewicht eines leeren Honigraums an.",
-        "SUPER-": "Entfernen eines Honigraums",
-        "SUPER-_DESC": "Geben Sie das maximale Gewicht eines vollen Honigraums an.",
-        "OXALIC": "Oxalsäurebehandlung",
-        "OXALIC_DESC": "Ausgelöst, wenn die durchschnittliche Brut in Ihren Bienenstöcken unter den festgelegten Schwellenwert fällt. Dies ist ein Hinweis darauf, dass Sie Ihre Bienenstöcke rechtzeitig mit Oxalsäure behandeln sollten.",
-        "DEAD": "Tote Bienenkönigin",
-        "DEAD_DESC": "Unser Algorithmus erkennt jeden Tag, ob Ihr Bienenstock tot ist, basierend auf verschiedenen von uns festgelegten Parametern.",
-        "RAIN_MSG": "Der Niederschlag wird {VAL} überschreiten",
-        "SNOW_MSG": "Der Schneefall wird {VAL} überschreiten ",
-        "WIND_MSG": "Der Wind wird {VAL} überschreiten",
-        "COLDDAY_MSG": "Die Temperaturen werden ungewöhnlich kalt sein",
-        "OXALIC_MSG": "Es ist Zeit, Ihre Bienenstöcke zu behandeln",
-        "HOTDAY_MSG": "Die Temperaturen werden ungewöhnlich warm sein",
-        "TMAX_MSG": "Interne Temperatur über {VAL}",
-        "TMIN_MSG": "Interne Temperatur unter {VAL}",
-        "WIPOS_MSG": "Der Gewinn des Vorrats Ihrer Bienen übersteigt {VAL}",
-        "WINEG_MSG": "Der Verlust des Vorrats Ihrer Bienen übersteigt {VAL}",
-        "LOWBROOD_MSG": "Brut unter {VAL}",
-        "HMAX_MSG": "Interne Luftfeuchtigkeit über {VAL}",
-        "HMIN_MSG": "Interne Luftfeuchtigkeit unter {VAL}",
-        "HONEYDEW_MSG": "Eingehende Gewichte während der letzten Woche überschreiten {VAL}",
-        "WLIM_MSG": "Das Gewicht Ihres Bienenstocks übersteigt {VAL}",
-        "SWARM_MSG": "Möglicher Schwarm um 14:00 Uhr erkannt",
-        "RSWARM_MSG": "Schwärmtag erwartet",
-        "SUPER+_MSG": "Sie haben einen Honigraum hinzugefügt",
-        "SUPER-_MSG": "Sie haben einen Honigraum entfernt",
-        "LOWBATTERYT_MSG": "Ersetzen Sie die Batterie von ",
-        "LOWBATTERYW_MSG": "Ersetzen Sie die Batterie von ",
-        "DCONNECTT_MSG": "{REF} seit {DATE} getrennt",
-        "DCONNECTW_MSG": "{REF} seit {DATE} getrennt",
-        "DCONNECTH_MSG": "{REF} seit {DATE} getrennt",
-        "POORSIGNALT_MSG": "{REF} schlechtes Signal seit {DATE}",
-        "POORSIGNALW_MSG": "{REF} schlechtes Signal seit {DATE}",
-        "STOPWEATHER_MSG": "Datenübertragungsfehler von Ihrer Wetterstation seit {DATE}",
-        "STOLEN_MSG": "Das Gewicht Ihres Bienenstocks ist ungewöhnlich niedrig",
-        "DEAD_MSG": "Ihr Bienenstock wurde als tot erkannt",
         "REALTIME_SWARM_ALERT": "Temperaturereignis berechnet vom T2-Gerät. Wird nur für Geräte über oder unter Brutkästen gemeldet, die einen Echtzeit-Hub verwenden."
     },
+    "ALERT_CODES": {
+        "201": {
+            "NAME": "Möglicher starker Regenfall",
+            "DESCR": "Ausgelöst, wenn der Niederschlag am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Der Niederschlag wird {VAL} überschreiten"
+        },
+        "202": {
+            "NAME": "Möglicher starker Schneefall",
+            "DESCR": "Ausgelöst, wenn der Schneefall am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Der Schneefall wird {VAL} überschreiten "
+        },
+        "203": {
+            "NAME": "Möglicher starker Wind",
+            "DESCR": "Ausgelöst, wenn der Wind am nächsten Tag den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Der Wind wird {VAL} überschreiten"
+        },
+        "204": {
+            "NAME": "Möglicherweise kalter Tag voraus",
+            "DESCR": "Ausgelöst, wenn ein bevorstehender kalter Tag erkannt wird, d.h. unterhalb des festgelegten Temperaturschwellenwerts.",
+            "MSG": "Die Temperaturen werden ungewöhnlich kalt sein"
+        },
+        "205": {
+            "NAME": "Oxalsäurebehandlung",
+            "DESCR": "Ausgelöst, wenn die durchschnittliche Brut in Ihren Bienenstöcken unter den festgelegten Schwellenwert fällt. Dies ist ein Hinweis darauf, dass Sie Ihre Bienenstöcke rechtzeitig mit Oxalsäure behandeln sollten.",
+            "MSG": "Es ist Zeit, Ihre Bienenstöcke zu behandeln"
+        },
+        "206": {
+            "NAME": "Möglicherweise heißer Tag voraus",
+            "DESCR": "Ausgelöst, wenn ein bevorstehender heißer Tag erkannt wird, d.h. über dem festgelegten Temperaturschwellenwert.",
+            "MSG": "Die Temperaturen werden ungewöhnlich warm sein"
+        },
+        "301": {
+            "NAME": "Hohe interne Temperatur",
+            "DESCR": "Ausgelöst, wenn die interne Temperatur den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Interne Temperatur über {VAL}"
+        },
+        "302": {
+            "NAME": "Niedrige interne Temperatur",
+            "DESCR": "Ausgelöst, wenn die interne Temperatur unter den ausgewählten Schwellenwert fällt.",
+            "MSG": "Interne Temperatur unter {VAL}"
+        },
+        "303": {
+            "NAME": "Bedeutende Bereitstellung von Ressourcen",
+            "DESCR": "Ausgelöst, wenn das eingehende Gewicht des Tages im Bienenstock den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Der Gewinn des Vorrats Ihrer Bienen übersteigt {VAL}"
+        },
+        "305": {
+            "NAME": "Schwaches Brutniveau",
+            "DESCR": "Ausgelöst, wenn der Prozentsatz der Brut unter den ausgewählten Schwellenwert fällt.",
+            "MSG": "Brut unter {VAL}"
+        },
+        "306": {
+            "NAME": "Hohe interne Luftfeuchtigkeit",
+            "DESCR": "Ausgelöst, wenn die interne Luftfeuchtigkeit den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Interne Luftfeuchtigkeit über {VAL}"
+        },
+        "307": {
+            "NAME": "Niedrige interne Luftfeuchtigkeit",
+            "DESCR": "Ausgelöst, wenn die interne Luftfeuchtigkeit unter den ausgewählten Schwellenwert fällt.",
+            "MSG": "Interne Luftfeuchtigkeit unter {VAL}"
+        },
+        "311": {
+            "NAME": "Honigtau",
+            "DESCR": "Ausgelöst, wenn der Gewichtsbeitrag zum Bienenstock während der letzten Woche den ausgewählten Schwellenwert überschreitet.",
+            "MSG": "Eingehende Gewichte während der letzten Woche überschreiten {VAL}"
+        },
+        "312": {
+            "NAME": "Gewichtslimit überschritten",
+            "DESCR": "Ausgelöst, wenn das angegebene Gewichtslimit überschritten wird.",
+            "MSG": "Das Gewicht Ihres Bienenstocks übersteigt {VAL}"
+        },
+        "321": {
+            "NAME": "Schwarm",
+            "DESCR": "Ausgelöst, wenn ein möglicher Schwarm auftritt (Hub bietet mehr Effizienz).",
+            "MSG": "Möglicher Schwarm um 14:00 Uhr erkannt"
+        },
+        "322": {
+            "NAME": "Schwarmrisiko",
+            "DESCR": "Ausgelöst, wenn das Schwarmrisiko in einem Ihrer Bienenstöcke am nächsten Tag hoch ist.",
+            "MSG": "Schwärmtag erwartet"
+        },
+        "323": {
+            "NAME": "Hinzufügen eines Honigraums",
+            "DESCR": "Geben Sie das Mindestgewicht eines leeren Honigraums an.",
+            "MSG": "Sie haben einen Honigraum hinzugefügt"
+        },
+        "324": {
+            "NAME": "Entfernen eines Honigraums",
+            "DESCR": "Geben Sie das maximale Gewicht eines vollen Honigraums an.",
+            "MSG": "Sie haben einen Honigraum entfernt"
+        },
+        "401": {
+            "NAME": "Niedriger Batteriestand",
+            "DESCR": "Ausgelöst, wenn der Batteriestand Ihres Sensors unter den ausgewählten Schwellenwert fällt.",
+            "MSG": ""
+        },
+        "401b": {
+            "NAME": "Niedriger Batteriestand",
+            "DESCR": "Ausgelöst, wenn der Batteriestand Ihres W-Sensors unter den ausgewählten Schwellenwert fällt.",
+            "MSG": "Ersetzen Sie die Batterie von "
+        },
+        "401t": {
+            "NAME": "Niedriger Batteriestand",
+            "DESCR": "Ausgelöst, wenn der Batteriestand Ihres T-Sensors unter den ausgewählten Schwellenwert fällt.",
+            "MSG": "Ersetzen Sie die Batterie von "
+        },
+        "402": {
+            "NAME": "Geräteverbindung unterbrochen",
+            "DESCR": "Ausgelöst, wenn einer Ihrer Sensoren während jedes ausgewählten Zeitraums keine Daten mehr überträgt (oder punktuell). Funktioniert nur mit einem Hub.",
+            "MSG": ""
+        },
+        "402t": {
+            "NAME": "Geräteverbindung unterbrochen",
+            "DESCR": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages keine Daten mehr überträgt.",
+            "MSG": "{REF} seit {DATE} getrennt"
+        },
+        "402w": {
+            "NAME": "Geräteverbindung unterbrochen",
+            "DESCR": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages keine Daten mehr überträgt.",
+            "MSG": "{REF} seit {DATE} getrennt"
+        },
+        "403b": {
+            "NAME": "Schlechtes Signal",
+            "DESCR": "Ausgelöst, wenn Ihr W-Sensor während des letzten Tages nur wenig Daten überträgt.",
+            "MSG": "{REF} schlechtes Signal seit {DATE}"
+        },
+        "403t": {
+            "NAME": "Schlechtes Signal",
+            "DESCR": "Ausgelöst, wenn Ihr T-Sensor während des letzten Tages nur wenig Daten überträgt.",
+            "MSG": "{REF} schlechtes Signal seit {DATE}"
+        },
+        "404": {
+            "NAME": "Wetterstation gestoppt",
+            "DESCR": "Ausgelöst, wenn Ihre Wetterstation aufhört, Daten zu übertragen. Erfordert eine eigene Wetterstation.",
+            "MSG": "Datenübertragungsfehler von Ihrer Wetterstation seit {DATE}"
+        },
+        "405": {
+            "NAME": "Gestohlener Bienenstock",
+            "DESCR": "Ausgelöst, wenn das Gewicht Ihres Bienenstocks ungewöhnlich niedrig wird.",
+            "MSG": "Das Gewicht Ihres Bienenstocks ist ungewöhnlich niedrig"
+        },
+        "406": {
+            "NAME": "Tote Bienenkönigin",
+            "DESCR": "Unser Algorithmus erkennt jeden Tag, ob Ihr Bienenstock tot ist, basierend auf verschiedenen von uns festgelegten Parametern.",
+            "MSG": "Ihr Bienenstock wurde als tot erkannt"
+        }
+    },
+    
     "CONFIGURE_ALERTS": {
         "REALTIME": "Echtzeit",
         "SWARM_ALERT": "SchwarmMinder",

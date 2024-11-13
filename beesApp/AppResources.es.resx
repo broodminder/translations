@@ -1797,9 +1797,6 @@
 	<data name="APNCONFIGURE_DISCONNECT_ERROR">
 		<value>Error desconectando</value>
 	</data>
-	<data name="APNCONFIGURE_">
-		<value></value>
-	</data>
 	<data name="LOCATIONSERVICES_TITLE">
 		<value>Servicio de localización</value>
 	</data>
@@ -2561,5 +2558,266 @@
 	</data>
 	<data name="PREMIUM_NO_ALERTS">
 		<value>No hay alertas calculadas disponibles</value>
+	</data>
+    <data name="ALERT_CODE.201.NAME">
+        <value>Posible lluvia intensa</value>
+    </data>
+    <data name="ALERT_CODE.201.DESCR">
+        <value>Se activa cuando la lluvia supera el umbral elegido al día siguiente.</value>
+    </data>
+    <data name="ALERT_CODE.201.MSG">
+        <value>La lluvia superará {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.202.NAME">
+        <value>Posible nevada intensa</value>
+    </data>
+    <data name="ALERT_CODE.202.DESCR">
+        <value>Se activa cuando la nevada supera el umbral elegido al día siguiente.</value>
+    </data>
+    <data name="ALERT_CODE.202.MSG">
+        <value>La nevada superará {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.203.NAME">
+        <value>Posible viento fuerte</value>
+    </data>
+    <data name="ALERT_CODE.203.DESCR">
+        <value>Se activa cuando el viento supera el umbral elegido al día siguiente.</value>
+    </data>
+    <data name="ALERT_CODE.203.MSG">
+        <value>El viento superará {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.204.NAME">
+        <value>Posible día frío por delante</value>
+    </data>
+    <data name="ALERT_CODE.204.DESCR">
+        <value>Se activa cuando se detecta un próximo día frío, es decir, por debajo del umbral de temperatura especificado.</value>
+    </data>
+    <data name="ALERT_CODE.204.MSG">
+        <value>Las temperaturas serán inusualmente frías</value>
+    </data>
+    <data name="ALERT_CODE.205.NAME">
+        <value>Tratamiento con ácido oxálico</value>
+    </data>
+    <data name="ALERT_CODE.205.DESCR">
+        <value>Se activa cuando la cría promedio en sus colmenas está por debajo del umbral establecido. Esta es una indicación que le permite tratar sus colmenas con ácido oxálico en el momento adecuado.</value>
+    </data>
+    <data name="ALERT_CODE.205.MSG">
+        <value>Es hora de tratar sus colmenas</value>
+    </data>
+    <data name="ALERT_CODE.206.NAME">
+        <value>Posible día caluroso por delante</value>
+    </data>
+    <data name="ALERT_CODE.206.DESCR">
+        <value>Se activa cuando se detecta un próximo día caluroso, es decir, por encima del umbral de temperatura especificado.</value>
+    </data>
+    <data name="ALERT_CODE.206.MSG">
+        <value>Las temperaturas serán inusualmente altas</value>
+    </data>
+    <data name="ALERT_CODE.301.NAME">
+        <value>Alta temperatura interna</value>
+    </data>
+    <data name="ALERT_CODE.301.DESCR">
+        <value>Se activa cuando la temperatura interna supera el umbral elegido.</value>
+    </data>
+    <data name="ALERT_CODE.301.MSG">
+        <value>Temperatura interna por encima de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.302.NAME">
+        <value>Baja temperatura interna</value>
+    </data>
+    <data name="ALERT_CODE.302.DESCR">
+        <value>Se activa cuando la temperatura interna está por debajo del umbral elegido.</value>
+    </data>
+    <data name="ALERT_CODE.302.MSG">
+        <value>Temperatura interna por debajo de {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.303.NAME">
+        <value>Provisión significativa de recursos</value>
+    </data>
+    <data name="ALERT_CODE.303.DESCR">
+        <value>Se activa cuando el peso entrante del día en la colmena supera el umbral elegido.</value>
+    </data>
+    <data name="ALERT_CODE.303.MSG">
+        <value>La ganancia de reservas de sus abejas supera {VAL}</value>
+    </data>
+    <data name="ALERT_CODE.305.NAME">
+        <value>Cría débil</value>
+    </data>
+    <data name="ALERT_CODE.305.DESCR">
+        <value>Se activa cuando el porcentaje de cría está por debajo del umbral elegido.</value>
+    </data>
+    <data name="ALERT_CODE.305.MSG">
+		<value>Cría por debajo de {VAL}</value>
+	</data>
+	<data name="ALERT_CODE.306.NAME">
+		<value>Alta humedad interna</value>
+	</data>
+	<data name="ALERT_CODE.306.DESCR">
+		<value>Se activa cuando la humedad interna supera el umbral elegido.</value>
+	</data>
+	<data name="ALERT_CODE.306.MSG">
+		<value>Humedad interna por encima de {VAL}</value>
+	</data>
+	<data name="ALERT_CODE.307.NAME">
+		<value>Baja humedad interna</value>
+	</data>
+	<data name="ALERT_CODE.307.DESCR">
+		<value>Se activa cuando la humedad interna está por debajo del umbral elegido.</value>
+	</data>
+	<data name="ALERT_CODE.307.MSG">
+		<value>Humedad interna por debajo de {VAL}</value>
+	</data>
+	<data name="ALERT_CODE.311.NAME">
+		<value>Mielada</value>
+	</data>
+	<data name="ALERT_CODE.311.DESCR">
+		<value>Se activa cuando la contribución de peso a la colmena supera el umbral elegido durante la última semana.</value>
+	</data>
+	<data name="ALERT_CODE.311.MSG">
+		<value>Pesos entrantes durante la última semana superando {VAL}</value>
+	</data>
+	<data name="ALERT_CODE.312.NAME">
+		<value>Límite de peso excedido</value>
+	</data>
+	<data name="ALERT_CODE.312.DESCR">
+		<value>Se activa cuando se excede el límite de peso indicado.</value>
+	</data>
+	<data name="ALERT_CODE.312.MSG">
+		<value>El peso de su colmena supera {VAL}</value>
+	</data>
+	<data name="ALERT_CODE.321.NAME">
+		<value>Enjambre</value>
+	</data>
+	<data name="ALERT_CODE.321.DESCR">
+		<value>Se activa cuando ocurre un posible enjambre (el Hub proporciona mayor eficiencia).</value>
+	</data>
+	<data name="ALERT_CODE.321.MSG">
+		<value>Posible enjambre detectado alrededor de las 14:00</value>
+	</data>
+	<data name="ALERT_CODE.322.NAME">
+		<value>Riesgo de enjambre</value>
+	</data>
+	<data name="ALERT_CODE.322.DESCR">
+		<value>Se activa cuando el riesgo de enjambre es alto en una de sus colmenas al día siguiente.</value>
+	</data>
+	<data name="ALERT_CODE.322.MSG">
+		<value>Día de enjambre esperado</value>
+	</data>
+	<data name="ALERT_CODE.323.NAME">
+		<value>Añadiendo una alza</value>
+	</data>
+	<data name="ALERT_CODE.323.DESCR">
+		<value>Indique el peso mínimo de una alza vacía.</value>
+	</data>
+	<data name="ALERT_CODE.323.MSG">
+		<value>Ha añadido una alza</value>
+	</data>
+	<data name="ALERT_CODE.324.NAME">
+		<value>Retirando una alza</value>
+	</data>
+	<data name="ALERT_CODE.324.DESCR">
+		<value>Indique el peso máximo de una alza llena.</value>
+	</data>
+	<data name="ALERT_CODE.324.MSG">
+		<value>Ha retirado una alza</value>
+	</data>
+	<data name="ALERT_CODE.401.NAME">
+		<value>Batería baja</value>
+	</data>
+	<data name="ALERT_CODE.401.DESCR">
+		<value>Se activa cuando el nivel de batería de su sensor está por debajo del umbral seleccionado.</value>
+	</data>
+	<data name="ALERT_CODE.401.MSG">
+		<value></value>
+	</data>
+	<data name="ALERT_CODE.401b.NAME">
+		<value>Batería baja</value>
+	</data>
+	<data name="ALERT_CODE.401b.DESCR">
+		<value>Se activa cuando el nivel de batería de su sensor W está por debajo del umbral seleccionado.</value>
+	</data>
+	<data name="ALERT_CODE.401b.MSG">
+		<value>Reemplace la batería de </value>
+	</data>
+	<data name="ALERT_CODE.401t.NAME">
+		<value>Batería baja</value>
+	</data>
+	<data name="ALERT_CODE.401t.DESCR">
+		<value>Se activa cuando el nivel de batería de su sensor T está por debajo del umbral seleccionado.</value>
+	</data>
+	<data name="ALERT_CODE.401t.MSG">
+		<value>Reemplace la batería de </value>
+	</data>
+	<data name="ALERT_CODE.402.NAME">
+		<value>Desconexión del dispositivo</value>
+	</data>
+	<data name="ALERT_CODE.402.DESCR">
+		<value>Se activa cuando uno de sus sensores ya no transmite datos (o puntualmente) durante cada período elegido. Solo funciona con un Hub.</value>
+	</data>
+	<data name="ALERT_CODE.402.MSG">
+		<value></value>
+	</data>
+	<data name="ALERT_CODE.402t.NAME">
+		<value>Desconexión del dispositivo</value>
+	</data>
+	<data name="ALERT_CODE.402t.DESCR">
+		<value>Se activa cuando su sensor T ya no transmite datos durante el último día.</value>
+	</data>
+	<data name="ALERT_CODE.402t.MSG">
+		<value>{REF} desconectado desde {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.402w.NAME">
+		<value>Desconexión del dispositivo</value>
+	</data>
+	<data name="ALERT_CODE.402w.DESCR">
+		<value>Se activa cuando su sensor W ya no transmite datos durante el último día.</value>
+	</data>
+	<data name="ALERT_CODE.402w.MSG">
+		<value>{REF} desconectado desde {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.403b.NAME">
+		<value>Señal débil</value>
+	</data>
+	<data name="ALERT_CODE.403b.DESCR">
+		<value>Se activa cuando su sensor W transmite pocos datos durante el último día.</value>
+	</data>
+	<data name="ALERT_CODE.403b.MSG">
+		<value>{REF} señal débil desde {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.403t.NAME">
+		<value>Señal débil</value>
+	</data>
+	<data name="ALERT_CODE.403t.DESCR">
+		<value>Se activa cuando su sensor T transmite pocos datos durante el último día.</value>
+	</data>
+	<data name="ALERT_CODE.403t.MSG">
+		<value>{REF} señal débil desde {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.404.NAME">
+		<value>Estación meteorológica detenida</value>
+	</data>
+	<data name="ALERT_CODE.404.DESCR">
+		<value>Se activa cuando su estación meteorológica deja de transmitir datos. Requiere estación meteorológica propia.</value>
+	</data>
+	<data name="ALERT_CODE.404.MSG">
+		<value>Error de transmisión de datos de su estación meteorológica desde {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.405.NAME">
+		<value>Colmena robada</value>
+	</data>
+	<data name="ALERT_CODE.405.DESCR">
+		<value>Se activa cuando el peso de su colmena se vuelve anormalmente bajo.</value>
+	</data>
+	<data name="ALERT_CODE.405.MSG">
+		<value>El peso de su colmena es anormalmente bajo</value>
+	</data>
+	<data name="ALERT_CODE.406.NAME">
+		<value>Colmena muerta</value>
+	</data>
+	<data name="ALERT_CODE.406.DESCR">
+		<value>Nuestro algoritmo detecta cada día si su colmena está muerta según varios parámetros que hemos establecido.</value>
+	</data>
+	<data name="ALERT_CODE.406.MSG">
+		<value>Su colmena ha sido detectada como muerta</value>
 	</data>
 </root>

@@ -1848,98 +1848,154 @@
         "FEEDING": "Foring"
     },
     "ALERTS_DESC": {
-        "HONEYDEW": "Honningdugg",
-        "HONEYDEW_DESC": "Utløses når vektkontribusjonen til kuben overstiger den valgte terskelen i løpet av den siste uken.",
-        "RAIN": "Mulig kraftig regn",
-        "RAIN_DESC": "Utløses når nedbøren overstiger den valgte terskelen neste dag.",
-        "SWARM": "Sverm",
-        "SWARM_DESC": "Utløses når det potensielt har skjedd en sverm (Hub gir mer effektivitet).",
-        "DCONNECT": "Enhet frakoblet",
-        "DCONNECT_DESC": "Utløses når en av sensorene dine ikke lenger sender data (eller punktuelt) i løpet av hver valgte periode. Fungerer bare med en Hub.",
-        "TMAX": "Høy intern temperatur",
-        "TMAX_DESC": "Utløses når den interne temperaturen overstiger den valgte terskelen.",
-        "TMIN": "Lav intern temperatur",
-        "TMIN_DESC": "Utløses når den interne temperaturen er under den valgte terskelen.",
-        "LOWBROOD": "Svak yngel",
-        "LOWBROOD_DESC": "Utløses når prosentandelen av yngel er under den valgte terskelen.",
-        "STOPWEATHER": "Værstasjon stoppet",
-        "STOPWEATHER_DESC": "Utløses når værstasjonen din slutter å sende data. Krever egen værstasjon.",
-        "RSWARM": "Svermrisiko",
-        "RSWARM_DESC": "Utløses når risikoen for sverming er høy på en av kubene dine neste dag.",
-        "WIPOS": "Betydelig tilførsel av ressurser",
-        "WIPOS_DESC": "Utløses når den innkommende vekten av dagen i kuben overstiger den valgte terskelen.",
-        "WINEG": "Ressursuttømming",
-        "WINEG_DESC": "Utløses når biene forbruker mye flere ressurser enn de bringer tilbake til kuben. Tapsterskelen kan justeres.",
-        "WLIM": "Vektgrense overskredet",
-        "WLIM_DESC": "Utløses når den angitte vektgrensen overskrides.",
-        "SNOW": "Mulig kraftig snøfall",
-        "SNOW_DESC": "Utløses når snøfallet overstiger den valgte terskelen neste dag.",
-        "WIND": "Mulig kraftig vind",
-        "WIND_DESC": "Utløses når vinden overstiger den valgte terskelen neste dag.",
-        "COLDDAY": "Mulig kald dag i vente",
-        "COLDDAY_DESC": "Utløses når en kommende kald dag oppdages, dvs. under den angitte temperaturgrensen.",
-        "HOTDAY": "Mulig varm dag i vente",
-        "HOTDAY_DESC": "Utløses når en kommende varm dag oppdages, dvs. over den angitte temperaturgrensen.",
-        "HMIN": "Lav intern luftfuktighet",
-        "HMIN_DESC": "Utløses når den interne luftfuktigheten er under den valgte terskelen.",
-        "HMAX": "Høy intern luftfuktighet",
-        "HMAX_DESC": "Utløses når den interne luftfuktigheten overstiger den valgte terskelen.",
-        "STOLEN": "Stjålet kube",
-        "STOLEN_DESC": "Utløses når vekten av kuben din blir unormalt lav.",
-        "DCONNECTT": "Enhet frakoblet",
-        "DCONNECTT_DESC": "Utløses når din T-sensor ikke lenger sender data i løpet av siste dag.",
-        "DCONNECTW": "Enhet frakoblet",
-        "DCONNECTW_DESC": "Utløses når din W-sensor ikke lenger sender data i løpet av siste dag.",
-        "DCONNECTH": "Enhet frakoblet",
-        "DCONNECTH_DESC": "Utløses når din Hub ikke lenger sender data i løpet av siste dag.",
-        "POORSIGNALW": "Dårlig signal",
-        "POORSIGNALW_DESC": "Utløses når W-sensoren din sender lite data i løpet av den siste dagen.",
-        "POORSIGNALT": "Dårlig signal",
-        "POORSIGNALT_DESC": "Utløses når T-sensoren din sender lite data i løpet av den siste dagen. ",
-        "LOWBATTERY": "Lavt batteri",
-        "LOWBATTERY_DESC": "Utløses når batterinivået til sensoren er under den valgte terskelen.",
-        "LOWBATTERYW": "Lavt batteri",
-        "LOWBATTERYW_DESC": "Utløses når batterinivået til W-sensoren er under den valgte terskelen.",
-        "LOWBATTERYT": "Lavt batteri",
-        "LOWBATTERYT_DESC": "Utløses når batterinivået til T-sensoren er under den valgte terskelen.",
-        "SUPER+": "Legger til en ekstra boks",
-        "SUPER+_DESC": "Angi minimumsvekten på en tom ekstra boks.",
-        "SUPER-": "Fjerner en ekstra boks",
-        "SUPER-_DESC": "Angi maksimalvekten på en full ekstra boks.",
-        "OXALIC": "Oxalsyrebehandling",
-        "OXALIC_DESC": "Utløses når gjennomsnittlig yngel i kubene dine er under den angitte terskelen. Dette er en indikasjon som lar deg behandle kubene dine med oksalsyre på riktig tidspunkt.",
-        "DEAD": "Død kube",
-        "DEAD_DESC": "Algoritmen vår oppdager hver dag om kuben din er død basert på ulike parametere vi har satt.",
-        "RAIN_MSG": "Nedbøren vil overstige {VAL}",
-        "SNOW_MSG": "Snøfallet vil overstige {VAL} ",
-        "WIND_MSG": "Vinden vil overstige {VAL}",
-        "COLDDAY_MSG": "Temperaturene vil være unormalt kalde",
-        "OXALIC_MSG": "Det er på tide å behandle kubene dine",
-        "HOTDAY_MSG": "Temperaturene vil være unormalt varme",
-        "TMAX_MSG": "Intern temperatur over {VAL}",
-        "TMIN_MSG": "Intern temperatur under {VAL}",
-        "WIPOS_MSG": "Gebyret for biens beholdning overstiger {VAL}",
-        "WINEG_MSG": "Tapet av biens beholdning overstiger {VAL}",
-        "LOWBROOD_MSG": "Yngel under {VAL}",
-        "HMAX_MSG": "Intern luftfuktighet over {VAL}",
-        "HMIN_MSG": "Intern luftfuktighet under {VAL}",
-        "HONEYDEW_MSG": "Innkommende vekter i løpet av den siste uken overstiger {VAL}",
-        "WLIM_MSG": "Vekten av kuben din overstiger {VAL}",
-        "SWARM_MSG": "Potensiell sverm oppdaget rundt 14:00",
-        "RSWARM_MSG": "Forventet svermedag",
-        "SUPER+_MSG": "Du la til en ekstra boks",
-        "SUPER-_MSG": "Du fjernet en ekstra boks",
-        "LOWBATTERYT_MSG": "Bytt batteri på ",
-        "LOWBATTERYW_MSG": "Bytt batteri på ",
-        "DCONNECTT_MSG": "{REF} frakoblet siden {DATE}",
-        "DCONNECTW_MSG": "{REF} frakoblet siden {DATE}",
-        "DCONNECTH_MSG": "{REF} frakoblet siden {DATE}",
-        "POORSIGNALT_MSG": "{REF} dårlig signal siden {DATE}",
-        "POORSIGNALW_MSG": "{REF} dårlig signal siden {DATE}",
-        "STOPWEATHER_MSG": "Datatransmisjonsfeil fra værstasjonen din siden {DATE}",
-        "STOLEN_MSG": "Vekten av kuben din er unormalt lav",
-        "DEAD_MSG": "Kuben din er oppdaget som død",
         "REALTIME_SWARM_ALERT": "Temperaturhendelse beregnet av T2-enheten. Bare varslet for enheter over eller under yngelkassene ved bruk av en sanntidshub."
+    },
+    "ALERT_CODES": {
+        "201": {
+            "NAME": "Mulig kraftig regn",
+            "DESCR": "Utløses når nedbøren overstiger den valgte terskelen neste dag.",
+            "MSG": "Nedbøren vil overstige {VAL}"
+        },
+        "202": {
+            "NAME": "Mulig kraftig snøfall",
+            "DESCR": "Utløses når snøfallet overstiger den valgte terskelen neste dag.",
+            "MSG": "Snøfallet vil overstige {VAL} "
+        },
+        "203": {
+            "NAME": "Mulig kraftig vind",
+            "DESCR": "Utløses når vinden overstiger den valgte terskelen neste dag.",
+            "MSG": "Vinden vil overstige {VAL}"
+        },
+        "204": {
+            "NAME": "Mulig kald dag i vente",
+            "DESCR": "Utløses når en kommende kald dag oppdages, dvs. under den angitte temperaturgrensen.",
+            "MSG": "Temperaturene vil være unormalt kalde"
+        },
+        "205": {
+            "NAME": "Oxalsyrebehandling",
+            "DESCR": "Utløses når gjennomsnittlig yngel i kubene dine er under den angitte terskelen. Dette er en indikasjon som lar deg behandle kubene dine med oksalsyre på riktig tidspunkt.",
+            "MSG": "Det er på tide å behandle kubene dine"
+        },
+        "206": {
+            "NAME": "Mulig varm dag i vente",
+            "DESCR": "Utløses når en kommende varm dag oppdages, dvs. over den angitte temperaturgrensen.",
+            "MSG": "Temperaturene vil være unormalt varme"
+        },
+        "301": {
+            "NAME": "Høy intern temperatur",
+            "DESCR": "Utløses når den interne temperaturen overstiger den valgte terskelen.",
+            "MSG": "Intern temperatur over {VAL}"
+        },
+        "302": {
+            "NAME": "Lav intern temperatur",
+            "DESCR": "Utløses når den interne temperaturen er under den valgte terskelen.",
+            "MSG": "Intern temperatur under {VAL}"
+        },
+        "303": {
+            "NAME": "Betydelig tilførsel av ressurser",
+            "DESCR": "Utløses når den innkommende vekten av dagen i kuben overstiger den valgte terskelen.",
+            "MSG": "Gebyret for biens beholdning overstiger {VAL}"
+        },
+        "305": {
+            "NAME": "Svak yngel",
+            "DESCR": "Utløses når prosentandelen av yngel er under den valgte terskelen.",
+            "MSG": "Yngel under {VAL}"
+        },
+        "306": {
+            "NAME": "Høy intern luftfuktighet",
+            "DESCR": "Utløses når den interne luftfuktigheten overstiger den valgte terskelen.",
+            "MSG": "Intern luftfuktighet over {VAL}"
+        },
+        "307": {
+            "NAME": "Lav intern luftfuktighet",
+            "DESCR": "Utløses når den interne luftfuktigheten er under den valgte terskelen.",
+            "MSG": "Intern luftfuktighet under {VAL}"
+        },
+        "311": {
+            "NAME": "Honningdugg",
+            "DESCR": "Utløses når vektkontribusjonen til kuben overstiger den valgte terskelen i løpet av den siste uken.",
+            "MSG": "Innkommende vekter i løpet av den siste uken overstiger {VAL}"
+        },
+        "312": {
+            "NAME": "Vektgrense overskredet",
+            "DESCR": "Utløses når den angitte vektgrensen overskrides.",
+            "MSG": "Vekten av kuben din overstiger {VAL}"
+        },
+        "321": {
+            "NAME": "Sverm",
+            "DESCR": "Utløses når det potensielt har skjedd en sverm (Hub gir mer effektivitet).",
+            "MSG": "Potensiell sverm oppdaget rundt 14:00"
+        },
+        "322": {
+            "NAME": "Svermrisiko",
+            "DESCR": "Utløses når risikoen for sverming er høy på en av kubene dine neste dag.",
+            "MSG": "Forventet svermedag"
+        },
+        "323": {
+            "NAME": "Legger til en ekstra boks",
+            "DESCR": "Angi minimumsvekten på en tom ekstra boks.",
+            "MSG": "Du la til en ekstra boks"
+        },
+        "324": {
+            "NAME": "Fjerner en ekstra boks",
+            "DESCR": "Angi maksimalvekten på en full ekstra boks.",
+            "MSG": "Du fjernet en ekstra boks"
+        },
+        "401": {
+            "NAME": "Lavt batteri",
+            "DESCR": "Utløses når batterinivået til sensoren er under den valgte terskelen.",
+            "MSG": ""
+        },
+        "401b": {
+            "NAME": "Lavt batteri",
+            "DESCR": "Utløses når batterinivået til W-sensoren er under den valgte terskelen.",
+            "MSG": "Bytt batteri på "
+        },
+        "401t": {
+            "NAME": "Lavt batteri",
+            "DESCR": "Utløses når batterinivået til T-sensoren er under den valgte terskelen.",
+            "MSG": "Bytt batteri på "
+        },
+        "402": {
+            "NAME": "Enhet frakoblet",
+            "DESCR": "Utløses når en av sensorene dine ikke lenger sender data (eller punktuelt) i løpet av hver valgte periode. Fungerer bare med en Hub.",
+            "MSG": ""
+        },
+        "402t": {
+            "NAME": "Enhet frakoblet",
+            "DESCR": "Utløses når din T-sensor ikke lenger sender data i løpet av siste dag.",
+            "MSG": "{REF} frakoblet siden {DATE}"
+        },
+        "402w": {
+            "NAME": "Enhet frakoblet",
+            "DESCR": "Utløses når din W-sensor ikke lenger sender data i løpet av siste dag.",
+            "MSG": "{REF} frakoblet siden {DATE}"
+        },
+        "403b": {
+            "NAME": "Dårlig signal",
+            "DESCR": "Utløses når W-sensoren din sender lite data i løpet av den siste dagen.",
+            "MSG": "{REF} dårlig signal siden {DATE}"
+        },
+        "403t": {
+            "NAME": "Dårlig signal",
+            "DESCR": "Utløses når T-sensoren din sender lite data i løpet av den siste dagen.",
+            "MSG": "{REF} dårlig signal siden {DATE}"
+        },
+        "404": {
+            "NAME": "Værstasjon stoppet",
+            "DESCR": "Utløses når værstasjonen din slutter å sende data. Krever egen værstasjon.",
+            "MSG": "Datatransmisjonsfeil fra værstasjonen din siden {DATE}"
+        },
+        "405": {
+            "NAME": "Stjålet kube",
+            "DESCR": "Utløses når vekten av kuben din blir unormalt lav.",
+            "MSG": "Vekten av kuben din er unormalt lav"
+        },
+        "406": {
+            "NAME": "Død kube",
+            "DESCR": "Algoritmen vår oppdager hver dag om kuben din er død basert på ulike parametere vi har satt.",
+            "MSG": "Kuben din er oppdaget som død"
+        }
     },
     "CONFIGURE_ALERTS": {
         "REALTIME": "Sanntid",
