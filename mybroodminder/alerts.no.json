@@ -198,24 +198,11 @@
             "MESSAGE": "Huben ({deviceName}) ser ut til å være frakoblet siden {localDate}.",
             "SUB_MESSAGE": "Følgende enheter vil ikke sende dataene sine: {devices}."
         },
-        "HUB_DISCONNECTED": {
-            "TITLE": "{apiaryName} - Hub frakoblet",
-            "MESSAGE": "Huben ({deviceName}) ser ut til å være frakoblet siden {localDate}.",
-            "SUB_MESSAGE": "Følgende enheter vil ikke sende data: {devices}."
-        },
         "DCONNECT": {
             "TITLE": "{hiveName} - Enhet frakoblet",
             "MESSAGE": "'{hivePosition}' sender ikke lenger data etter at sensoren ({deviceName}) ble slått av fra {localDate}."
         },
-        "DEVICE_DISCONNECTED": {
-            "TITLE": "{hiveName} - Enhet frakoblet",
-            "MESSAGE": "'{hivePosition}' sender ikke lenger data etter nedleggelsen av sensoren ({deviceName}) fra {localDate}."
-        },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Dårlig enhetssignal",
-            "MESSAGE": "Tap av data på '{hivePosition}! Kun {value}% av de forventede avlesningene er mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
-        },
-        "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Dårlig enhetssignal",
             "MESSAGE": "Tap av data på '{hivePosition}! Kun {value}% av de forventede avlesningene er mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
         },
@@ -252,6 +239,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "{hiveName} - Gjenopptakelse av nektarstrøm",
             "MESSAGE": "Nektarstrømmen for bikuben {hiveName} har blitt gjenopptatt."
+        },
+        "WEATHER": {
+            "TITLE": "{apiaryName} - Værvarsel",
+            "MESSAGE": "Dårlige værforhold er forventet for {date}: {alerts}. Vær forsiktig!"
         }
     }
 }

@@ -198,26 +198,13 @@
             "MESSAGE": "Der Hub ({deviceName}) scheint seit {localDate} getrennt zu sein.",
             "SUB_MESSAGE": "Folgende Geräte senden keine Daten: {devices}."
         },
-        "HUB_DISCONNECTED": {
-            "TITLE": "{apiaryName} - Hub disconnected",
-            "MESSAGE": "Der Hub ({deviceName}) scheint seit {localDate} getrennt zu sein.",
-            "SUB_MESSAGE": "Folgende Geräte werden ihre Daten nicht senden: {devices}."
-        },
         "DCONNECT": {
             "TITLE": "{hiveName} - Gerät getrennt",
             "MESSAGE": "'{hivePosition}' übermittelt keine Daten mehr, da sein Sensor ({deviceName}) seit {localDate} heruntergefahren ist."
         },
-        "DEVICE_DISCONNECTED": {
-            "TITLE": "{hiveName} - Gerät getrennt",
-            "MESSAGE": "'{hivePosition}' übermittelt keine Daten mehr, da der Sensor ({deviceName}) seit {localDate} heruntergefahren ist."
-        },
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Schlechtes Gerätesignal",
             "MESSAGE": "Datenverlust auf '{hivePosition}! Nur {value}% der erwarteten Messwerte wurden heute erhalten. Der Sensorsignal ({deviceName}) könnte die Ursache sein."
-        },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Schwaches Gerätesignal",
-            "MESSAGE": "Datenverlust auf '{hivePosition}! Nur {value}% der erwarteten Messwerte wurden heute empfangen. Der Sensorsignal ({deviceName}) könnte die Ursache sein."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",
@@ -252,6 +239,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "{hiveName} - Wiederaufnahme des Nektarflusses",
             "MESSAGE": "Der Nektarfluss für den Bienenstock {hiveName} hat wieder begonnen."
+        },
+        "WEATHER": {
+            "TITLE": "{apiaryName} - Wetterwarnung",
+            "MESSAGE": "Schlechtes Wetter wird für den {date} erwartet: {alerts}. Seien Sie vorsichtig!"
         }
     }
 }

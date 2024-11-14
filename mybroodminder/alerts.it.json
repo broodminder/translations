@@ -198,26 +198,13 @@
             "MESSAGE": "Il Hub ({deviceName}) risulta disconnesso dal {localDate}.",
             "SUB_MESSAGE": "I seguenti dispositivi non invieranno i loro dati: {devices}."
         },
-        "HUB_DISCONNECTED": {
-            "TITLE": "{apiaryName} - Hub disconnesso",
-            "MESSAGE": "L'Hub ({deviceName}) sembra essere disconnesso dal {localDate}.",
-            "SUB_MESSAGE": "I seguenti dispositivi non invieranno i loro dati: {devices}."
-        },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Dispositivo disconnesso",
-            "MESSAGE": "'{hivePosition}' non trasmette più dati a seguito dello spegnimento del suo sensore ({deviceName}) dal {localDate}."
-        },
-        "DEVICE_DISCONNECTED": {
             "TITLE": "{hiveName} - Dispositivo disconnesso",
             "MESSAGE": "'{hivePosition}' non trasmette più dati a seguito dello spegnimento del suo sensore ({deviceName}) dal {localDate}."
         },
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Segnale debole del dispositivo",
             "MESSAGE": "Perdita di dati su '{hivePosition}! Solo il {value}% delle letture previste è stato ricevuto oggi. Il segnale del sensore ({deviceName}) potrebbe essere la causa."
-        },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Segnale debole del dispositivo",
-            "MESSAGE": "Perdita di dati su '{hivePosition}'! È stata ricevuta solo l'{value}% delle letture previste oggi. Il segnale del sensore ({deviceName}) potrebbe essere la causa."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibrazione della fioritura terminata",
@@ -252,6 +239,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "{hiveName} - Ripresa del flusso di nettare",
             "MESSAGE": "Il flusso di nettare per l'alveare {hiveName} è ripreso."
+        },
+        "WEATHER": {
+            "TITLE": "{apiaryName} - Avviso meteo",
+            "MESSAGE": "Sono previste cattive condizioni meteorologiche per il {date}: {alerts}. Fate attenzione!"
         }
     }
 }

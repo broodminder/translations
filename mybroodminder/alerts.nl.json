@@ -198,26 +198,13 @@
             "MESSAGE": "De Hub ({deviceName}) lijkt losgekoppeld te zijn sinds {localDate}.",
             "SUB_MESSAGE": "De volgende apparaten zullen hun gegevens niet verzenden: {devices}."
         },
-        "HUB_DISCONNECTED": {
-            "TITLE": "{apiaryName} - Hub verbonden",
-            "MESSAGE": "De Hub ({deviceName}) lijkt losgekoppeld te zijn sinds {localDate}.",
-            "SUB_MESSAGE": "De volgende apparaten zullen hun gegevens niet verzenden: {devices}."
-        },
         "DCONNECT": {
             "TITLE": "{hiveName} - Apparaat losgekoppeld",
             "MESSAGE": "'{hivePosition}' stuurt geen gegevens meer nadat de sensor ({deviceName}) is uitgeschakeld vanaf {localDate}."
         },
-        "DEVICE_DISCONNECTED": {
-            "TITLE": "{hiveName} - Apparaat losgekoppeld",
-            "MESSAGE": "'{hivePosition}' verzendt geen gegevens meer na het uitschakelen van de sensor ({deviceName}) vanaf {localDate}."
-        },
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Slecht signaal van apparaat",
             "MESSAGE": "Verlies van gegevens op '{hivePosition}! Er is vandaag slechts {value}% van de verwachte metingen ontvangen. Het sensor signaal ({deviceName}) kan de oorzaak zijn."
-        },
-        "DEVICE_POORSIGNAL": {
-            "TITLE": "{hiveName} - Zwak signaal apparaat",
-            "MESSAGE": "Verlies van gegevens op '{hivePosition}! Slechts {value}% van de verwachte metingen is vandaag ontvangen. Het sensor signaal ({deviceName}) kan de oorzaak zijn."
         },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Bloei kalibratie voltooid",
@@ -252,6 +239,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "{hiveName} - Hervatting van nectarstroom",
             "MESSAGE": "De nectarstroom voor de bijenkorf {hiveName} is hervat."
+        },
+        "WEATHER": {
+            "TITLE": "{apiaryName} - Weeralarm",
+            "MESSAGE": "Slechte weersomstandigheden worden verwacht voor {date}: {alerts}. Wees voorzichtig!"
         }
     }
 }
