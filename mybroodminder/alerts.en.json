@@ -198,24 +198,11 @@
             "MESSAGE": "The Hub ({deviceName}) seems to be disconnected since {localDate}.",
             "SUB_MESSAGE": "Following devices will not send their data: {devices}."
         },
-        "HUB_DISCONNECTED": {
-            "TITLE": "{apiaryName} - Hub disconnected",
-            "MESSAGE": "The Hub ({deviceName}) seems to be disconnected since {localDate}.",
-            "SUB_MESSAGE": "Following devices will not send their data: {devices}."
-        },
         "DCONNECT": {
             "TITLE": "{hiveName} - Device disconnected",
             "MESSAGE": "'{hivePosition}' no longer transmits data following the shutdown of its sensor ({deviceName}) from {localDate}."
         },
-        "DEVICE_DISCONNECTED": {
-            "TITLE": "{hiveName} - Device disconnected",
-            "MESSAGE": "'{hivePosition}' no longer transmits data following the shutdown of its sensor ({deviceName}) from {localDate}."
-        },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Poor device signal",
-            "MESSAGE": "Loss of data on '{hivePosition}! Only {value}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
-        },
-        "DEVICE_POORSIGNAL": {
             "TITLE": "{hiveName} - Poor device signal",
             "MESSAGE": "Loss of data on '{hivePosition}! Only {value}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
         },
@@ -252,6 +239,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "{hiveName} - Nectar Flow restart",
             "MESSAGE": "The nectar flow for the hive {hiveName} has restarted."
+        },
+        "WEATHER": {
+            "TITLE": "{apiaryName} - Weather alert",
+            "MESSAGE": "Bad weather conditions are expected for {date}: {alerts}. Be careful!"
         }
     }
 }
