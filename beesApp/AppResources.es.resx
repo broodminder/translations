@@ -2566,7 +2566,7 @@
         <value>Se activa cuando la lluvia supera el umbral elegido al día siguiente.</value>
     </data>
     <data name="ALERT_CODE.201.MSG">
-        <value>La lluvia superará {VAL}</value>
+        <value>La lluvia superará {0}</value>
     </data>
     <data name="ALERT_CODE.202.NAME">
         <value>Posible nevada intensa</value>
@@ -2575,7 +2575,7 @@
         <value>Se activa cuando la nevada supera el umbral elegido al día siguiente.</value>
     </data>
     <data name="ALERT_CODE.202.MSG">
-        <value>La nevada superará {VAL}</value>
+        <value>La nevada superará {0}</value>
     </data>
     <data name="ALERT_CODE.203.NAME">
         <value>Posible viento fuerte</value>
@@ -2584,7 +2584,7 @@
         <value>Se activa cuando el viento supera el umbral elegido al día siguiente.</value>
     </data>
     <data name="ALERT_CODE.203.MSG">
-        <value>El viento superará {VAL}</value>
+        <value>El viento superará {0}</value>
     </data>
     <data name="ALERT_CODE.204.NAME">
         <value>Posible día frío por delante</value>
@@ -2620,7 +2620,7 @@
         <value>Se activa cuando la temperatura interna supera el umbral elegido.</value>
     </data>
     <data name="ALERT_CODE.301.MSG">
-        <value>Temperatura interna por encima de {VAL}</value>
+        <value>Temperatura interna por encima de {0}</value>
     </data>
     <data name="ALERT_CODE.302.NAME">
         <value>Baja temperatura interna</value>
@@ -2629,7 +2629,7 @@
         <value>Se activa cuando la temperatura interna está por debajo del umbral elegido.</value>
     </data>
     <data name="ALERT_CODE.302.MSG">
-        <value>Temperatura interna por debajo de {VAL}</value>
+        <value>Temperatura interna por debajo de {0}</value>
     </data>
     <data name="ALERT_CODE.303.NAME">
         <value>Provisión significativa de recursos</value>
@@ -2638,7 +2638,7 @@
         <value>Se activa cuando el peso entrante del día en la colmena supera el umbral elegido.</value>
     </data>
     <data name="ALERT_CODE.303.MSG">
-        <value>La ganancia de reservas de sus abejas supera {VAL}</value>
+        <value>La ganancia de reservas de sus abejas supera {0}</value>
     </data>
     <data name="ALERT_CODE.305.NAME">
         <value>Cría débil</value>
@@ -2647,7 +2647,7 @@
         <value>Se activa cuando el porcentaje de cría está por debajo del umbral elegido.</value>
     </data>
     <data name="ALERT_CODE.305.MSG">
-		<value>Cría por debajo de {VAL}</value>
+		<value>Cría por debajo de {0}</value>
 	</data>
 	<data name="ALERT_CODE.306.NAME">
 		<value>Alta humedad interna</value>
@@ -2656,7 +2656,7 @@
 		<value>Se activa cuando la humedad interna supera el umbral elegido.</value>
 	</data>
 	<data name="ALERT_CODE.306.MSG">
-		<value>Humedad interna por encima de {VAL}</value>
+		<value>Humedad interna por encima de {0}</value>
 	</data>
 	<data name="ALERT_CODE.307.NAME">
 		<value>Baja humedad interna</value>
@@ -2665,7 +2665,7 @@
 		<value>Se activa cuando la humedad interna está por debajo del umbral elegido.</value>
 	</data>
 	<data name="ALERT_CODE.307.MSG">
-		<value>Humedad interna por debajo de {VAL}</value>
+		<value>Humedad interna por debajo de {0}</value>
 	</data>
 	<data name="ALERT_CODE.311.NAME">
 		<value>Mielada</value>
@@ -2674,7 +2674,7 @@
 		<value>Se activa cuando la contribución de peso a la colmena supera el umbral elegido durante la última semana.</value>
 	</data>
 	<data name="ALERT_CODE.311.MSG">
-		<value>Pesos entrantes durante la última semana superando {VAL}</value>
+		<value>Pesos entrantes durante la última semana superando {0}</value>
 	</data>
 	<data name="ALERT_CODE.312.NAME">
 		<value>Límite de peso excedido</value>
@@ -2683,7 +2683,7 @@
 		<value>Se activa cuando se excede el límite de peso indicado.</value>
 	</data>
 	<data name="ALERT_CODE.312.MSG">
-		<value>El peso de su colmena supera {VAL}</value>
+		<value>El peso de su colmena supera {0}</value>
 	</data>
 	<data name="ALERT_CODE.321.NAME">
 		<value>Enjambre</value>

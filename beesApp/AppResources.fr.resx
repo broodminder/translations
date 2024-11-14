@@ -2566,7 +2566,7 @@
         <value>Déclenché lorsque les précipitations dépassent le seuil choisi le lendemain.</value>
     </data>
     <data name="ALERT_CODE.201.MSG">
-        <value>Les précipitations dépasseront {VAL}</value>
+        <value>Les précipitations dépasseront {0}</value>
     </data>
     <data name="ALERT_CODE.202.NAME">
         <value>Possibles fortes chutes de neige</value>
@@ -2575,7 +2575,7 @@
         <value>Déclenché lorsque les chutes de neige dépassent le seuil choisi le lendemain.</value>
     </data>
     <data name="ALERT_CODE.202.MSG">
-        <value>Les chutes de neige dépasseront {VAL}</value>
+        <value>Les chutes de neige dépasseront {0}</value>
     </data>
     <data name="ALERT_CODE.203.NAME">
         <value>Possible vent fort</value>
@@ -2584,7 +2584,7 @@
         <value>Déclenché lorsque le vent dépasse le seuil choisi le lendemain.</value>
     </data>
     <data name="ALERT_CODE.203.MSG">
-        <value>Le vent dépassera {VAL}</value>
+        <value>Le vent dépassera {0}</value>
     </data>
     <data name="ALERT_CODE.204.NAME">
         <value>Possible journée froide à venir</value>
@@ -2620,7 +2620,7 @@
         <value>Déclenché lorsque la température interne dépasse le seuil choisi.</value>
     </data>
     <data name="ALERT_CODE.301.MSG">
-        <value>Température interne supérieure à {VAL}</value>
+        <value>Température interne supérieure à {0}</value>
     </data>
     <data name="ALERT_CODE.302.NAME">
         <value>Température interne basse</value>
@@ -2629,7 +2629,7 @@
         <value>Déclenché lorsque la température interne est inférieure au seuil choisi.</value>
     </data>
     <data name="ALERT_CODE.302.MSG">
-        <value>Température interne inférieure à {VAL}</value>
+        <value>Température interne inférieure à {0}</value>
     </data>
     <data name="ALERT_CODE.303.NAME">
         <value>Apport significatif de ressources</value>
@@ -2638,7 +2638,7 @@
         <value>Déclenché lorsque le poids entrant de la journée dans la ruche dépasse le seuil choisi.</value>
     </data>
     <data name="ALERT_CODE.303.MSG">
-        <value>Le gain de stock de vos abeilles dépasse {VAL}</value>
+        <value>Le gain de stock de vos abeilles dépasse {0}</value>
     </data>
     <data name="ALERT_CODE.305.NAME">
         <value>Couvain faible</value>
@@ -2647,7 +2647,7 @@
         <value>Déclenché lorsque le pourcentage de couvain est inférieur au seuil choisi.</value>
     </data>
     <data name="ALERT_CODE.305.MSG">
-        <value>Couvain inférieur à {VAL}</value>
+        <value>Couvain inférieur à {0}</value>
     </data>
     <data name="ALERT_CODE.306.NAME">
         <value>Humidité interne élevée</value>
@@ -2656,7 +2656,7 @@
         <value>Déclenché lorsque l'humidité interne dépasse le seuil choisi.</value>
     </data>
     <data name="ALERT_CODE.306.MSG">
-        <value>Humidité interne supérieure à {VAL}</value>
+        <value>Humidité interne supérieure à {0}</value>
     </data>
     <data name="ALERT_CODE.307.NAME">
         <value>Humidité interne basse</value>
@@ -2665,7 +2665,7 @@
         <value>Déclenché lorsque l'humidité interne est inférieure au seuil choisi.</value>
     </data>
     <data name="ALERT_CODE.307.MSG">
-        <value>Humidité interne inférieure à {VAL}</value>
+        <value>Humidité interne inférieure à {0}</value>
     </data>
     <data name="ALERT_CODE.311.NAME">
         <value>Miellat</value>
@@ -2674,7 +2674,7 @@
         <value>Déclenché lorsque l'apport de poids à la ruche dépasse le seuil choisi au cours de la dernière semaine.</value>
     </data>
     <data name="ALERT_CODE.311.MSG">
-        <value>Poids entrants sur la dernière semaine dépassant {VAL}</value>
+        <value>Poids entrants sur la dernière semaine dépassant {0}</value>
     </data>
     <data name="ALERT_CODE.312.NAME">
         <value>Limite de poids dépassée</value>
@@ -2683,7 +2683,7 @@
         <value>Déclenché lorsque la limite de poids indiquée est dépassée.</value>
     </data>
     <data name="ALERT_CODE.312.MSG">
-        <value>Le poids de votre ruche dépasse {VAL}</value>
+        <value>Le poids de votre ruche dépasse {0}</value>
     </data>
     <data name="ALERT_CODE.321.NAME">
         <value>Essaimage</value>

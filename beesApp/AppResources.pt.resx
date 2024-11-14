@@ -2566,7 +2566,7 @@
         <value>Acionado quando a precipitação excede o limiar escolhido no próximo dia.</value>
     </data>
     <data name="ALERT_CODE.201.MSG">
-        <value>A precipitação excederá {VAL}</value>
+        <value>A precipitação excederá {0}</value>
     </data>
     <data name="ALERT_CODE.202.NAME">
         <value>Possível queda intensa de neve</value>
@@ -2575,7 +2575,7 @@
         <value>Acionado quando a queda de neve excede o limiar escolhido no próximo dia.</value>
     </data>
     <data name="ALERT_CODE.202.MSG">
-        <value>A queda de neve excederá {VAL}</value>
+        <value>A queda de neve excederá {0}</value>
     </data>
     <data name="ALERT_CODE.203.NAME">
         <value>Possível ventania</value>
@@ -2584,7 +2584,7 @@
         <value>Acionado quando o vento excede o limiar escolhido no próximo dia.</value>
     </data>
     <data name="ALERT_CODE.203.MSG">
-        <value>O vento excederá {VAL}</value>
+        <value>O vento excederá {0}</value>
     </data>
     <data name="ALERT_CODE.204.NAME">
         <value>Possível dia frio à frente</value>
@@ -2620,7 +2620,7 @@
         <value>Acionado quando a temperatura interna excede o limiar escolhido.</value>
     </data>
     <data name="ALERT_CODE.301.MSG">
-        <value>Temperatura interna acima de {VAL}</value>
+        <value>Temperatura interna acima de {0}</value>
     </data>
     <data name="ALERT_CODE.302.NAME">
         <value>Baixa temperatura interna</value>
@@ -2629,7 +2629,7 @@
         <value>Acionado quando a temperatura interna está abaixo do limiar escolhido.</value>
     </data>
     <data name="ALERT_CODE.302.MSG">
-        <value>Temperatura interna abaixo de {VAL}</value>
+        <value>Temperatura interna abaixo de {0}</value>
     </data>
     <data name="ALERT_CODE.303.NAME">
         <value>Provisão significativa de recursos</value>
@@ -2638,7 +2638,7 @@
         <value>Acionado quando o peso recebido do dia na colmeia excede o limiar escolhido.</value>
     </data>
     <data name="ALERT_CODE.303.MSG">
-        <value>O ganho do estoque das suas abelhas excede {VAL}</value>
+        <value>O ganho do estoque das suas abelhas excede {0}</value>
     </data>
     <data name="ALERT_CODE.305.NAME">
         <value>Cria fraca</value>
@@ -2647,7 +2647,7 @@
         <value>Acionado quando a porcentagem de cria está abaixo do limiar escolhido.</value>
     </data>
     <data name="ALERT_CODE.305.MSG">
-        <value>Cria abaixo de {VAL}</value>
+        <value>Cria abaixo de {0}</value>
     </data>
     <data name="ALERT_CODE.306.NAME">
         <value>Umidade interna alta</value>
@@ -2656,7 +2656,7 @@
         <value>Acionado quando a umidade interna excede o limiar escolhido.</value>
     </data>
     <data name="ALERT_CODE.306.MSG">
-        <value>Umidade interna acima de {VAL}</value>
+        <value>Umidade interna acima de {0}</value>
     </data>
     <data name="ALERT_CODE.307.NAME">
         <value>Umidade interna baixa</value>
@@ -2665,7 +2665,7 @@
         <value>Acionado quando a umidade interna está abaixo do limiar escolhido.</value>
     </data>
     <data name="ALERT_CODE.307.MSG">
-        <value>Umidade interna abaixo de {VAL}</value>
+        <value>Umidade interna abaixo de {0}</value>
     </data>
     <data name="ALERT_CODE.311.NAME">
         <value>Melada</value>
@@ -2674,7 +2674,7 @@
         <value>Acionado quando a contribuição de peso para a colmeia excede o limiar escolhido durante a última semana.</value>
     </data>
     <data name="ALERT_CODE.311.MSG">
-        <value>Pesos recebidos durante a última semana excedendo {VAL}</value>
+        <value>Pesos recebidos durante a última semana excedendo {0}</value>
     </data>
     <data name="ALERT_CODE.312.NAME">
         <value>Limite de peso excedido</value>
@@ -2683,7 +2683,7 @@
         <value>Acionado quando o limite de peso indicado é excedido.</value>
     </data>
     <data name="ALERT_CODE.312.MSG">
-        <value>O peso da sua colmeia excede {VAL}</value>
+        <value>O peso da sua colmeia excede {0}</value>
     </data>
     <data name="ALERT_CODE.321.NAME">
         <value>Enxame</value>

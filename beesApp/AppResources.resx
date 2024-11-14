@@ -2566,7 +2566,7 @@
         <value>Triggered when rainfall exceeds chosen threshold next day.</value>
     </data>
     <data name="ALERT_CODE.201.MSG">
-        <value>Rainfall will exceed {VAL}</value>
+        <value>Rainfall will exceed {0}</value>
     </data>
     <data name="ALERT_CODE.202.NAME">
         <value>Possible heavy snow</value>
@@ -2575,7 +2575,7 @@
         <value>Triggered when snowfall exceeds chosen threshold next day.</value>
     </data>
     <data name="ALERT_CODE.202.MSG">
-        <value>Snowfall will exceed {VAL}</value>
+        <value>Snowfall will exceed {0}</value>
     </data>
     <data name="ALERT_CODE.203.NAME">
         <value>Possible strong wind</value>
@@ -2584,7 +2584,7 @@
         <value>Triggered when wind exceeds chosen threshold next day.</value>
     </data>
     <data name="ALERT_CODE.203.MSG">
-        <value>Wind will exceed {VAL}</value>
+        <value>Wind will exceed {0}</value>
     </data>
     <data name="ALERT_CODE.204.NAME">
         <value>Possible cold day ahead</value>
@@ -2620,7 +2620,7 @@
         <value>Triggered when internal temperature exceeds chosen threshold.</value>
     </data>
     <data name="ALERT_CODE.301.MSG">
-        <value>Internal temperature above {VAL}</value>
+        <value>Internal temperature above {0}</value>
     </data>
     <data name="ALERT_CODE.302.NAME">
         <value>Low internal temperature</value>
@@ -2629,7 +2629,7 @@
         <value>Triggered when internal temperature is below chosen threshold.</value>
     </data>
     <data name="ALERT_CODE.302.MSG">
-        <value>Internal temperature below {VAL}</value>
+        <value>Internal temperature below {0}</value>
     </data>
     <data name="ALERT_CODE.303.NAME">
         <value>Significant resource provision</value>
@@ -2638,7 +2638,7 @@
         <value>Triggered when incoming weight of the day in hive exceeds chosen threshold.</value>
     </data>
     <data name="ALERT_CODE.303.MSG">
-        <value>Your bees stock gain exceeds {VAL}</value>
+        <value>Your bees stock gain exceeds {0}</value>
     </data>
     <data name="ALERT_CODE.305.NAME">
         <value>Weak brood</value>
@@ -2647,7 +2647,7 @@
         <value>Triggered when brood percentage is below chosen threshold.</value>
     </data>
     <data name="ALERT_CODE.305.MSG">
-        <value>Brood below {VAL}</value>
+        <value>Brood below {0}</value>
     </data>
     <data name="ALERT_CODE.306.NAME">
         <value>High internal humidity</value>
@@ -2656,7 +2656,7 @@
         <value>Triggered when internal humidity exceeds chosen threshold.</value>
     </data>
     <data name="ALERT_CODE.306.MSG">
-        <value>Internal humidity above {VAL}</value>
+        <value>Internal humidity above {0}</value>
     </data>
     <data name="ALERT_CODE.307.NAME">
         <value>Low internal humidity</value>
@@ -2665,7 +2665,7 @@
         <value>Triggered when internal humidity is below chosen threshold.</value>
     </data>
     <data name="ALERT_CODE.307.MSG">
-        <value>Internal humidity below {VAL}</value>
+        <value>Internal humidity below {0}</value>
     </data>
     <data name="ALERT_CODE.311.NAME">
         <value>Honeydew</value>
@@ -2674,7 +2674,7 @@
         <value>Triggered when weight contribution to hive exceeds chosen threshold over the last week.</value>
     </data>
     <data name="ALERT_CODE.311.MSG">
-        <value>Incoming weights over last week exceeding {VAL}</value>
+        <value>Incoming weights over last week exceeding {0}</value>
     </data>
     <data name="ALERT_CODE.312.NAME">
         <value>Weight limit exceeded</value>
@@ -2683,7 +2683,7 @@
         <value>Triggered when indicated weight limit is exceeded.</value>
     </data>
     <data name="ALERT_CODE.312.MSG">
-        <value>Your hive weight exceeds {VAL}</value>
+        <value>Your hive weight exceeds {0}</value>
     </data>
     <data name="ALERT_CODE.321.NAME">
         <value>Swarm</value>

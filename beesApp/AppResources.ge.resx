@@ -2566,7 +2566,7 @@
         <value>Wird ausgelöst, wenn der Niederschlag am nächsten Tag den gewählten Schwellenwert überschreitet.</value>
     </data>
     <data name="ALERT_CODE.201.MSG">
-        <value>Der Niederschlag wird {VAL} überschreiten</value>
+        <value>Der Niederschlag wird {0} überschreiten</value>
     </data>
     <data name="ALERT_CODE.202.NAME">
         <value>Möglicher starker Schneefall</value>
@@ -2575,7 +2575,7 @@
         <value>Wird ausgelöst, wenn der Schneefall am nächsten Tag den gewählten Schwellenwert überschreitet.</value>
     </data>
     <data name="ALERT_CODE.202.MSG">
-        <value>Der Schneefall wird {VAL} überschreiten</value>
+        <value>Der Schneefall wird {0} überschreiten</value>
     </data>
     <data name="ALERT_CODE.203.NAME">
         <value>Möglicher starker Wind</value>
@@ -2584,7 +2584,7 @@
         <value>Wird ausgelöst, wenn der Wind am nächsten Tag den gewählten Schwellenwert überschreitet.</value>
     </data>
     <data name="ALERT_CODE.203.MSG">
-        <value>Der Wind wird {VAL} überschreiten</value>
+        <value>Der Wind wird {0} überschreiten</value>
     </data>
     <data name="ALERT_CODE.204.NAME">
         <value>Möglicher kalter Tag voraus</value>
@@ -2620,7 +2620,7 @@
         <value>Wird ausgelöst, wenn die Innentemperatur den gewählten Schwellenwert überschreitet.</value>
     </data>
     <data name="ALERT_CODE.301.MSG">
-        <value>Innentemperatur über {VAL}</value>
+        <value>Innentemperatur über {0}</value>
     </data>
     <data name="ALERT_CODE.302.NAME">
         <value>Niedrige Innentemperatur</value>
@@ -2629,7 +2629,7 @@
         <value>Wird ausgelöst, wenn die Innentemperatur unter dem gewählten Schwellenwert liegt.</value>
     </data>
     <data name="ALERT_CODE.302.MSG">
-        <value>Innentemperatur unter {VAL}</value>
+        <value>Innentemperatur unter {0}</value>
     </data>
     <data name="ALERT_CODE.303.NAME">
         <value>Bedeutende Ressourcenversorgung</value>
@@ -2638,7 +2638,7 @@
         <value>Wird ausgelöst, wenn das eingehende Tagesgewicht im Bienenstock den gewählten Schwellenwert überschreitet.</value>
     </data>
     <data name="ALERT_CODE.303.MSG">
-        <value>Der Vorratszuwachs Ihrer Bienen überschreitet {VAL}</value>
+        <value>Der Vorratszuwachs Ihrer Bienen überschreitet {0}</value>
     </data>
     <data name="ALERT_CODE.305.NAME">
         <value>Schwache Brut</value>
@@ -2647,7 +2647,7 @@
         <value>Wird ausgelöst, wenn der Brutprozentsatz unter dem gewählten Schwellenwert liegt.</value>
     </data>
     <data name="ALERT_CODE.305.MSG">
-        <value>Brut unter {VAL}</value>
+        <value>Brut unter {0}</value>
     </data>
     <data name="ALERT_CODE.306.NAME">
         <value>Hohe Innenfeuchtigkeit</value>
@@ -2656,7 +2656,7 @@
         <value>Wird ausgelöst, wenn die Innenfeuchtigkeit den gewählten Schwellenwert überschreitet.</value>
     </data>
     <data name="ALERT_CODE.306.MSG">
-        <value>Innenfeuchtigkeit über {VAL}</value>
+        <value>Innenfeuchtigkeit über {0}</value>
     </data>
     <data name="ALERT_CODE.307.NAME">
         <value>Niedrige Innenfeuchtigkeit</value>
@@ -2665,7 +2665,7 @@
         <value>Wird ausgelöst, wenn die Innenfeuchtigkeit unter dem gewählten Schwellenwert liegt.</value>
     </data>
     <data name="ALERT_CODE.307.MSG">
-        <value>Innenfeuchtigkeit unter {VAL}</value>
+        <value>Innenfeuchtigkeit unter {0}</value>
     </data>
     <data name="ALERT_CODE.311.NAME">
         <value>Honigtau</value>
@@ -2674,7 +2674,7 @@
         <value>Wird ausgelöst, wenn der Gewichtsbeitrag zum Bienenstock den gewählten Schwellenwert während der letzten Woche überschreitet.</value>
     </data>
     <data name="ALERT_CODE.311.MSG">
-        <value>Eingehende Gewichte über die letzte Woche überschreiten {VAL}</value>
+        <value>Eingehende Gewichte über die letzte Woche überschreiten {0}</value>
     </data>
     <data name="ALERT_CODE.312.NAME">
         <value>Gewichtslimit überschritten</value>
@@ -2683,7 +2683,7 @@
         <value>Wird ausgelöst, wenn das angegebene Gewichtslimit überschritten wird.</value>
     </data>
     <data name="ALERT_CODE.312.MSG">
-        <value>Ihr Bienenstockgewicht überschreitet {VAL}</value>
+        <value>Ihr Bienenstockgewicht überschreitet {0}</value>
     </data>
     <data name="ALERT_CODE.321.NAME">
         <value>Schwarm</value>
