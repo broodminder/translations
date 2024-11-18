@@ -206,6 +206,10 @@
             "TITLE": "{hiveName} - Señal débil del dispositivo",
             "MESSAGE": "Pérdida de datos en '{hivePosition}! Solo se ha recibido el {value}% de las lecturas esperadas hoy. El sensor ({deviceName}) podría ser la causa."
         },
+        "LOWBATTERY": {
+            "TITLE": "{hiveName} - Batería baja",
+            "MESSAGE": "El sensor en '{hivePosition}' ({deviceName}) tiene la batería baja. Por favor reemplácela."
+        },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Calibración de floración terminada",
             "MESSAGE": "{plantName} tiene un modelo de floración basado en {nbOBS} observaciones.\nEl inicio de la floración se estima en {bloomingDate}."

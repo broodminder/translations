@@ -206,6 +206,10 @@
             "TITLE": "{hiveName} - シグナルが弱い",
             "MESSAGE": "'{hivePosition}' にデータの損失が発生しています！今日は期待される読み取りのうち、{value}%のみが受信されました。センサーシグナル({deviceName})が原因かもしれません。"
         },
+        "LOWBATTERY": {
+            "TITLE": "{hiveName} - 低バッテリー",
+            "MESSAGE": "'{hivePosition}' ({deviceName}) のセンサーのバッテリーが低下しています。交換してください。"
+        },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",
             "MESSAGE": "{plantName} は {nbOBS} 観測に基づく開花モデルを持っています。\n開花の開始は {bloomingDate} と推定されます。"

@@ -206,6 +206,10 @@
             "TITLE": "{hiveName} - Schlechtes Gerätesignal",
             "MESSAGE": "Datenverlust auf '{hivePosition}! Nur {value}% der erwarteten Messwerte wurden heute erhalten. Der Sensorsignal ({deviceName}) könnte die Ursache sein."
         },
+        "LOWBATTERY": {
+            "TITLE": "{hiveName} - Schwacher Akku",
+            "MESSAGE": "Der Sensor bei '{hivePosition}' ({deviceName}) hat einen schwachen Akku. Bitte ersetzen Sie ihn."
+        },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",
             "MESSAGE": "{plantName} hat ein Blühmodell basierend auf {nbOBS} Beobachtungen.\nDer Beginn der Blüte wird auf {bloomingDate} geschätzt."

@@ -206,6 +206,10 @@
             "TITLE": "{hiveName} - Slecht signaal van apparaat",
             "MESSAGE": "Verlies van gegevens op '{hivePosition}! Er is vandaag slechts {value}% van de verwachte metingen ontvangen. Het sensor signaal ({deviceName}) kan de oorzaak zijn."
         },
+        "LOWBATTERY": {
+            "TITLE": "{hiveName} - Lage batterij",
+            "MESSAGE": "De sensor op '{hivePosition}' ({deviceName}) heeft een lage batterij. Gelieve deze te vervangen."
+        },
         "CALIBRATION_FINISHED": {
             "TITLE": "{apiaryName} - Bloei kalibratie voltooid",
             "MESSAGE": "{plantName} heeft een bloeimodel gebaseerd op {nbOBS} waarnemingen.\nHet begin van de bloei wordt geschat op {bloomingDate}."
