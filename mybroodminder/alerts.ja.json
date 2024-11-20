@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "内部温度が ",
-            "SUBJECT": "高内部温度"
+            "SUBJECT": "高温"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "内部温度が ",
-            "SUBJECT": "低内部温度"
+            "SUBJECT": "低温"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "内部湿度が ",
-            "SUBJECT": "高内部湿度"
+            "SUBJECT": "高湿度"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "内部湿度が ",
-            "SUBJECT": "低内部湿度"
+            "SUBJECT": "低湿度"
         },
         "311": {
             "ICON": "Honeydew",
@@ -195,58 +195,58 @@
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - ハブが切断されました",
-            "MESSAGE": "ハブ({deviceName}) が{localDate}以降に切断されたようです。",
-            "SUB_MESSAGE": "以下のデバイスはデータを送信しません： {devices}。"
+            "MESSAGE": "ハブ（{deviceName}）が{localDate}以来切断されています。",
+            "SUB_MESSAGE": "受信データなし：{devices}から。"
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - デバイスが切断されました",
-            "MESSAGE": "'{hivePosition}' は、{localDate}からセンサー({deviceName})のシャットダウンによりデータを送信しなくなりました。"
+            "MESSAGE": "'{hivePosition}'が{localDate}以来切断されました（{deviceName}）。"
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - シグナルが弱い",
-            "MESSAGE": "'{hivePosition}' にデータの損失が発生しています！今日は期待される読み取りのうち、{value}%のみが受信されました。センサーシグナル({deviceName})が原因かもしれません。"
+            "TITLE": "{hiveName} - 受信信号が弱い",
+            "MESSAGE": "'{hivePosition}（{deviceName}）'から、{value}%の読み取りデータが受信されました！"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - 低温",
+            "MESSAGE": "{localDate}に'{hivePosition}'で{value}{unit}。"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - 低バッテリー",
-            "MESSAGE": "'{hivePosition}' ({deviceName}) のセンサーのバッテリーが低下しています。交換してください。"
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - 開花キャリブレーションが完了しました",
-            "MESSAGE": "{plantName} は {nbOBS} 観測に基づく開花モデルを持っています。\n開花の開始は {bloomingDate} と推定されます。"
+            "TITLE": "{hiveName} - バッテリー残量が低い",
+            "MESSAGE": "'{hivePosition}（{deviceName}）'でバッテリーが{value}%です。"
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - 予測される生育段階",
-            "MESSAGE": "我々は{preventDays}日後 ({bloomingDate})に{plantName}が '{PHENOSTAGE}'段階に達すると予測しています。",
-            "SUB_MESSAGE_MODEL": "そのステージが発生した際に検証しますか？",
-            "SUB_MESSAGE_NO_MODEL": "それを確認しますか？"
+            "TITLE": "{apiaryName} - 予定のフェノ段階",
+            "MESSAGE": "{preventDays}日後に{bloomingDate}に'{PHENOSTAGE}'の{plantName}が予想されます。",
+            "SUB_MESSAGE_MODEL": "その段階を確認しますか？",
+            "SUB_MESSAGE_NO_MODEL": "確認しますか？"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - 花の予測を向上させる",
-            "MESSAGE": "{plantName}はおそらく3週間以内に花が咲く見込みです（約{bloomingDate}）。 \nつぼみの開花が間もなく起こるはずです。 \nチェックをご希望ですか？"
+            "TITLE": "{apiaryName} - 芽の開花を確認",
+            "MESSAGE": "{preventDays}日後に{bloomingDate}で{plantName}の花が開花する予定です。\n芽の開花がまもなく始まるはずです。\n確認しますか？"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - あなたの養蜂場に植物を追加しますか？",
-            "MESSAGE": "蜜の流れを検出しました。 あなたの養蜂場に植物を追加しますか？"
+            "TITLE": "{apiaryName} - 植物が見つかりませんか？",
+            "MESSAGE": "現在蜜の流れがありますが、あなたの養蜂場に関連する植物がありません。\n追加しますか？"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - 観察を養蜂場に追加しますか？",
-            "MESSAGE": "あなたの養蜂場でおそらく植物に関連する蜜の流れを検出しました。 観察を追加しますか？"
+            "TITLE": "{apiaryName} - 開花記録が見つかりませんか？",
+            "MESSAGE": "現在蜜の流れがありますが、あなたの養蜂場に関連する開花記録がありません。\n追加しますか？"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - 蜜流の開始",
-            "MESSAGE": "巣箱 {hiveName} の蜜流が始まりました。"
+            "TITLE": "{hiveName} - 蜜の流れが始まりました",
+            "MESSAGE": "幸運な養蜂家ですね！"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - 蜜流の終了",
-            "MESSAGE": "巣箱 {hiveName} の蜜流が終了しました。"
+            "TITLE": "{hiveName} - 蜜の流れが停止しました",
+            "MESSAGE": "ゲームオーバー、次は何でしょう？"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - 蜜流の再開",
-            "MESSAGE": "巣箱 {hiveName} の蜜流が再開しました。"
+            "TITLE": "{hiveName} - 蜜の流れが再開しました",
+            "MESSAGE": "ショーは続きます！"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - 天気警報",
-            "MESSAGE": "{date}には悪天候が予想されています: {alerts}。気をつけてください！"
+            "TITLE": "{apiaryName} - 天候アラート",
+            "MESSAGE": "{date}に恐ろしい状況が予想されます：{alerts}。くれぐれも注意してください！"
         }
     }
 }

@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "Temperatura interna superior a ",
-            "SUBJECT": "Temperatura interna alta"
+            "SUBJECT": "Temperatura alta"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "Temperatura interna inferior a ",
-            "SUBJECT": "Temperatura interna baja"
+            "SUBJECT": "Temperatura baja"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "Humedad interna superior a ",
-            "SUBJECT": "Humedad interna alta"
+            "SUBJECT": "Humedad alta"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "Humedad interna inferior a ",
-            "SUBJECT": "Humedad interna baja"
+            "SUBJECT": "Humedad baja"
         },
         "311": {
             "ICON": "Honeydew",
@@ -195,58 +195,58 @@
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub desconectado",
-            "MESSAGE": "El Hub ({deviceName}) parece estar desconectado desde {localDate}.",
-            "SUB_MESSAGE": "Los siguientes dispositivos no enviarán sus datos: {devices}."
+            "MESSAGE": "El Hub ({deviceName}) está desconectado desde {localDate}.",
+            "SUB_MESSAGE": "No se recibieron datos de: {devices}."
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo desconectado",
-            "MESSAGE": "'{hivePosition}' ya no transmite datos siguiendo el apagado de su sensor ({deviceName}) desde {localDate}."
+            "MESSAGE": "'{hivePosition}' desconectado desde {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Señal débil del dispositivo",
-            "MESSAGE": "Pérdida de datos en '{hivePosition}! Solo se ha recibido el {value}% de las lecturas esperadas hoy. El sensor ({deviceName}) podría ser la causa."
+            "TITLE": "{hiveName} - Señal débil",
+            "MESSAGE": "¡{value}% lecturas recibidas en '{hivePosition} ({deviceName})!"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - Baja temperatura",
+            "MESSAGE": "{value}{unit} en {localDate} en '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Batería baja",
-            "MESSAGE": "El sensor en '{hivePosition}' ({deviceName}) tiene la batería baja. Por favor reemplácela."
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Calibración de floración terminada",
-            "MESSAGE": "{plantName} tiene un modelo de floración basado en {nbOBS} observaciones.\nEl inicio de la floración se estima en {bloomingDate}."
+            "MESSAGE": "{value}% de batería en '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Etapa Fenológica Prevista",
-            "MESSAGE": "Pronosticamos que {plantName} alcanzará la etapa '{PHENOSTAGE}' en {preventDays} días ({bloomingDate}).",
-            "SUB_MESSAGE_MODEL": "¿Te gustaría validar esta etapa cuando ocurra?",
+            "TITLE": "{apiaryName} - Próxima fase fenológica",
+            "MESSAGE": "Se espera {plantName} '{PHENOSTAGE}' en {preventDays} días ({bloomingDate}).",
+            "SUB_MESSAGE_MODEL": "¿Te gustaría validar esta etapa cuando suceda?",
             "SUB_MESSAGE_NO_MODEL": "¿Te gustaría verificarlo?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Mejora tus predicciones de floración",
-            "MESSAGE": "Se estima que {plantName} florecerá dentro de 3 semanas (alrededor del {bloomingDate}).\nLa brotación debería ocurrir pronto.\n¿Te gustaría verificarlo?"
+            "TITLE": "{apiaryName} - Verificar floración",
+            "MESSAGE": "Se espera que la planta {plantName} florezca en 3 semanas ~ {bloomingDate}.\nLa explosión de capullos debería ocurrir pronto.\n¿Te gustaría verificarlo?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - ¿Agregar una planta a tu apiario?",
-            "MESSAGE": "Hemos detectado una mielada. ¿Te gustaría añadir una planta a tu apiario?"
+            "TITLE": "{apiaryName} - ¿Planta faltante?",
+            "MESSAGE": "Hay una mielada en curso pero no hay una planta relacionada en tu apiario.\n¿Te gustaría agregar una?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - ¿Agregar una observación a tu apiario?",
-            "MESSAGE": "Hemos detectado probablemente una mielada relacionada con una planta en tu apiario. ¿Te gustaría agregar una observación?"
+            "TITLE": "{apiaryName} - ¿Registro de floración faltante?",
+            "MESSAGE": "Hay una mielada en curso pero no hay un registro de floración relacionado en tu apiario.\n¿Te gustaría agregar uno?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Inicio del flujo de néctar",
-            "MESSAGE": "Ha comenzado un flujo de néctar para la colmena {hiveName}."
+            "TITLE": "{hiveName} - Inicio de la Miellée",
+            "MESSAGE": "¡Eres un apicultor afortunado!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Fin del flujo de néctar",
-            "MESSAGE": "El flujo de néctar para la colmena {hiveName} ha terminado."
+            "TITLE": "{hiveName} - Fin de la Miellée",
+            "MESSAGE": "Fin del juego, ¿cuál es el siguiente paso?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Reinicio del flujo de néctar",
-            "MESSAGE": "El flujo de néctar para la colmena {hiveName} ha comenzado de nuevo."
+            "TITLE": "{hiveName} - Reinicio de la Miellée",
+            "MESSAGE": "¡El espectáculo debe continuar!"
         },
         "WEATHER": {
             "TITLE": "{apiaryName} - Alerta meteorológica",
-            "MESSAGE": "Se esperan condiciones meteorológicas adversas para el {date}: {alerts}. ¡Ten cuidado!"
+            "MESSAGE": "¡Condiciones horribles esperadas para {date}: {alerts}. ¡Ten cuidado!"
         }
     }
 }

@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "Interne temperatuur boven ",
-            "SUBJECT": "Hoge interne temperatuur"
+            "SUBJECT": "Hoge temperatuur"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "Interne temperatuur onder ",
-            "SUBJECT": "Lage interne temperatuur"
+            "SUBJECT": "Lage temperatuur"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "Interne vochtigheid boven ",
-            "SUBJECT": "Hoge interne vochtigheid"
+            "SUBJECT": "Hoge vochtigheid"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "Interne vochtigheid onder ",
-            "SUBJECT": "Lage interne vochtigheid"
+            "SUBJECT": "Lage vochtigheid"
         },
         "311": {
             "ICON": "Honeydew",
@@ -194,59 +194,59 @@
     },
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - Hub losgekoppeld",
-            "MESSAGE": "De Hub ({deviceName}) lijkt losgekoppeld te zijn sinds {localDate}.",
-            "SUB_MESSAGE": "De volgende apparaten zullen hun gegevens niet verzenden: {devices}."
+            "TITLE": "{apiaryName} - Hub ontkoppeld",
+            "MESSAGE": "Hub ({deviceName}) is ontkoppeld sinds {localDate}.",
+            "SUB_MESSAGE": "Geen gegevens ontvangen van: {devices}."
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Apparaat losgekoppeld",
-            "MESSAGE": "'{hivePosition}' stuurt geen gegevens meer nadat de sensor ({deviceName}) is uitgeschakeld vanaf {localDate}."
+            "TITLE": "{hiveName} - Apparaat ontkoppeld",
+            "MESSAGE": "'{hivePosition}' ontkoppeld sinds {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Slecht signaal van apparaat",
-            "MESSAGE": "Verlies van gegevens op '{hivePosition}! Er is vandaag slechts {value}% van de verwachte metingen ontvangen. Het sensor signaal ({deviceName}) kan de oorzaak zijn."
+            "TITLE": "{hiveName} - Zwak signaal",
+            "MESSAGE": "{value}% metingen ontvangen op '{hivePosition} ({deviceName})!"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - Lage temperatuur",
+            "MESSAGE": "{value}{unit} op {localDate} op '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Lage batterij",
-            "MESSAGE": "De sensor op '{hivePosition}' ({deviceName}) heeft een lage batterij. Gelieve deze te vervangen."
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Bloei kalibratie voltooid",
-            "MESSAGE": "{plantName} heeft een bloeimodel gebaseerd op {nbOBS} waarnemingen.\nHet begin van de bloei wordt geschat op {bloomingDate}."
+            "MESSAGE": "{value}% batterij op '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Voorspelde Fenologische Fase",
-            "MESSAGE": "Wij voorspellen dat {plantName} de '{PHENOSTAGE}' fase zal bereiken in {preventDays} dagen ({bloomingDate}).",
+            "TITLE": "{apiaryName} - Aankomende feno-fase",
+            "MESSAGE": "{plantName} '{PHENOSTAGE}' verwacht over {preventDays} dagen ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Wil je deze fase valideren wanneer het gebeurt?",
-            "SUB_MESSAGE_NO_MODEL": "Wil je hiervoor controleren?"
+            "SUB_MESSAGE_NO_MODEL": "Wil je ernaar kijken?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Verbeter uw Bloei Voorspellingen",
-            "MESSAGE": "{plantName} wordt geschat om binnen 3 weken te bloeien (rond {bloomingDate}).\nKnoppen zouden binnenkort moeten verschijnen.\nWilt u ernaar kijken?"
+            "TITLE": "{apiaryName} - Controleer knoppenuitbarsting",
+            "MESSAGE": "{plantName} bloei verwacht over 3 weken ~ {bloomingDate}.\nKnoppenuitbarsting zou binnenkort moeten gebeuren.\nWil je ernaar kijken?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Voeg een plant toe aan uw bijenstand?",
-            "MESSAGE": "We hebben een nectarstroming gedetecteerd. Wilt u een plant toevoegen aan uw bijenstand?"
+            "TITLE": "{apiaryName} - Missende plant?",
+            "MESSAGE": "Er is een miellée aan de gang maar er is geen gerelateerde plant in je bijenstand.\nWil je er een toevoegen?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Voeg een observatie toe aan uw bijenstand?",
-            "MESSAGE": "We hebben een nectarstroming gedetecteerd die waarschijnlijk verband houdt met een plant in uw bijenstand. Wilt u een observatie toevoegen?"
+            "TITLE": "{apiaryName} - Missend bloemrecord?",
+            "MESSAGE": "Er is een miellée aan de gang maar er is geen gerelateerd bloemrecord in je bijenstand.\nWil je er een toevoegen?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Start van nectarstroom",
-            "MESSAGE": "Er is een nectarstroom begonnen voor de bijenkorf {hiveName}."
+            "TITLE": "{hiveName} - Begin van de miellée",
+            "MESSAGE": "Je bent een gelukkige imker!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Einde van nectarstroom",
-            "MESSAGE": "De nectarstroom voor de bijenkorf {hiveName} is gestopt."
+            "TITLE": "{hiveName} - Einde van de miellée",
+            "MESSAGE": "Spel voorbij, wat nu?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Hervatting van nectarstroom",
-            "MESSAGE": "De nectarstroom voor de bijenkorf {hiveName} is hervat."
+            "TITLE": "{hiveName} - Herstart van de miellée",
+            "MESSAGE": "De show moet doorgaan!"
         },
         "WEATHER": {
             "TITLE": "{apiaryName} - Weeralarm",
-            "MESSAGE": "Slechte weersomstandigheden worden verwacht voor {date}: {alerts}. Wees voorzichtig!"
+            "MESSAGE": "Vreselijke omstandigheden verwacht op {date}: {alerts}. Wees voorzichtig!"
         }
     }
 }

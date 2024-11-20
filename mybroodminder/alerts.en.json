@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "Internal temperature over ",
-            "SUBJECT": "High internal temperature"
+            "SUBJECT": "High temperature"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "Internal temperature below ",
-            "SUBJECT": "Low internal temperature"
+            "SUBJECT": "Low temperature"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "Internal humidity over ",
-            "SUBJECT": "High internal humidity"
+            "SUBJECT": "High humidity"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "Internal humidity below ",
-            "SUBJECT": "Low internal humidity"
+            "SUBJECT": "Low humidity"
         },
         "311": {
             "ICON": "Honeydew",
@@ -195,58 +195,58 @@
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub disconnected",
-            "MESSAGE": "The Hub ({deviceName}) seems to be disconnected since {localDate}.",
-            "SUB_MESSAGE": "Following devices will not send their data: {devices}."
+            "MESSAGE": "Hub ({deviceName}) is disconnected since {localDate}.",
+            "SUB_MESSAGE": "No data received from: {devices}."
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - Device disconnected",
-            "MESSAGE": "'{hivePosition}' no longer transmits data following the shutdown of its sensor ({deviceName}) from {localDate}."
+            "MESSAGE": "'{hivePosition}' disconnected since {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Poor device signal",
-            "MESSAGE": "Loss of data on '{hivePosition}! Only {value}% of the expected readings has been received today. The sensor signal ({deviceName}) may be the cause."
+            "TITLE": "{hiveName} - Poor signal",
+            "MESSAGE": "{value}% readings received on '{hivePosition} ({deviceName})!"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - Low temperature",
+            "MESSAGE": "{value}{unit} at {localDate} on '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Low battery",
-            "MESSAGE": "The sensor on '{hivePosition}' ({deviceName}) has a low battery. Please replace it."
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Phenological model calibrated",
-            "MESSAGE": "{plantName} has a phenological model based on {nbOBS} observations.\nThe start of flowering is estimated at {bloomingDate}."
+            "MESSAGE": "{value}% battery on '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Predicted Phenological Stage",
-            "MESSAGE": "We predict that {plantName} will rich the '{PHENOSTAGE}' stage in {preventDays} days ({bloomingDate}).",
+            "TITLE": "{apiaryName} - Upcoming pheno-stage",
+            "MESSAGE": "{plantName} '{PHENOSTAGE}' expected in {preventDays} days ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Would you like to validate this stage when it happens?",
-            "SUB_MESSAGE_NO_MODEL": "Would you like to check for it? "
+            "SUB_MESSAGE_NO_MODEL": "Would you like to check for it?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Enhance Your Flowering Predictions",
-            "MESSAGE": "{plantName} is estimated to flower within 3 weeks (around {bloomingDate}).\nBud burst should occur soon.\nWould you like to check for it?"
+            "TITLE": "{apiaryName} - Check bud burst",
+            "MESSAGE": "{plantName} bloom expected in 3 weeks ~ {bloomingDate}.\nBud burst should occur soon.\nWould you like to check for it?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Add a plant to your apiary?",
-            "MESSAGE": "We've detected a nectar flow. Would you like to add a plant to your apiary?"
+            "TITLE": "{apiaryName} - Missing plant?",
+            "MESSAGE": "A nectar flow is ongoing but there is no related plant in your apiary.\nWould you like to add one?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Add an observation to your apiary?",
-            "MESSAGE": "We've detected a nectar flow probably related to a plant in your apiary. Would you like to add an observation?"
+            "TITLE": "{apiaryName} - Missing bloom record?",
+            "MESSAGE": "A nectar flow is ongoing but there is no related bloom record in your apiary.\nWould you like to add one?"
         },
         "NECTAR_FLOW_ONSET": {
             "TITLE": "{hiveName} - Nectar Flow start",
-            "MESSAGE": "A nectar flow has started for the hive {hiveName}."
+            "MESSAGE": "You're a lucky beekeeper!"
         },
         "NECTAR_FLOW_STOP": {
             "TITLE": "{hiveName} - Nectar Flow stop",
-            "MESSAGE": "The nectar flow for the hive {hiveName} is finished."
+            "MESSAGE": "Game over, what's next?"
         },
         "NECTAR_FLOW_RESTART": {
             "TITLE": "{hiveName} - Nectar Flow restart",
-            "MESSAGE": "The nectar flow for the hive {hiveName} has restarted."
+            "MESSAGE": "Show must go on!"
         },
         "WEATHER": {
             "TITLE": "{apiaryName} - Weather alert",
-            "MESSAGE": "Bad weather conditions are expected for {date}: {alerts}. Be careful!"
+            "MESSAGE": "Awful conditions expected for {date}: {alerts}. Be careful!"
         }
     }
 }

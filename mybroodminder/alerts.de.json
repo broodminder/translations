@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "Innere Temperatur über ",
-            "SUBJECT": "Hohe Innentemperatur"
+            "SUBJECT": "Hohe Temperatur"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "Innere Temperatur unter ",
-            "SUBJECT": "Niedrige Innentemperatur"
+            "SUBJECT": "Niedrige Temperatur"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "Innere Feuchtigkeit über ",
-            "SUBJECT": "Hohe innere Feuchtigkeit"
+            "SUBJECT": "Hohe Luftfeuchtigkeit"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "Innere Feuchtigkeit unter ",
-            "SUBJECT": "Niedrige innere Feuchtigkeit"
+            "SUBJECT": "Niedrige Luftfeuchtigkeit"
         },
         "311": {
             "ICON": "Honeydew",
@@ -195,58 +195,58 @@
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub getrennt",
-            "MESSAGE": "Der Hub ({deviceName}) scheint seit {localDate} getrennt zu sein.",
-            "SUB_MESSAGE": "Folgende Geräte senden keine Daten: {devices}."
+            "MESSAGE": "Hub ({deviceName}) ist seit {localDate} getrennt.",
+            "SUB_MESSAGE": "Keine Daten empfangen von: {devices}."
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - Gerät getrennt",
-            "MESSAGE": "'{hivePosition}' übermittelt keine Daten mehr, da sein Sensor ({deviceName}) seit {localDate} heruntergefahren ist."
+            "MESSAGE": "'{hivePosition}' seit {localDate} getrennt ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Schlechtes Gerätesignal",
-            "MESSAGE": "Datenverlust auf '{hivePosition}! Nur {value}% der erwarteten Messwerte wurden heute erhalten. Der Sensorsignal ({deviceName}) könnte die Ursache sein."
+            "TITLE": "{hiveName} - Schlechtes Signal",
+            "MESSAGE": "{value}% Messungen auf '{hivePosition} ({deviceName}) erhalten!"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - Niedrige Temperatur",
+            "MESSAGE": "{value}{unit} am {localDate} auf '{hivePosition}'."
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - Schwacher Akku",
-            "MESSAGE": "Der Sensor bei '{hivePosition}' ({deviceName}) hat einen schwachen Akku. Bitte ersetzen Sie ihn."
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Blühkalibrierung abgeschlossen",
-            "MESSAGE": "{plantName} hat ein Blühmodell basierend auf {nbOBS} Beobachtungen.\nDer Beginn der Blüte wird auf {bloomingDate} geschätzt."
+            "TITLE": "{hiveName} - Niedriger Batteriestand",
+            "MESSAGE": "{value}% Batterie auf '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Vorhergesagte Phänologische Phase",
-            "MESSAGE": "Wir prognostizieren, dass {plantName} in {preventDays} Tagen ('{PHENOSTAGE}' Phase erreichen wird ({bloomingDate}).",
-            "SUB_MESSAGE_MODEL": "Möchten Sie dieses Stadium validieren, wenn es auftritt?",
-            "SUB_MESSAGE_NO_MODEL": "Möchten Sie danach suchen?"
+            "TITLE": "{apiaryName} - Bevorstehende Phasenänderung",
+            "MESSAGE": "{plantName} '{PHENOSTAGE}' erwartet in {preventDays} Tagen ({bloomingDate}).",
+            "SUB_MESSAGE_MODEL": "Möchten Sie diese Phase validieren, wenn sie eintritt?",
+            "SUB_MESSAGE_NO_MODEL": "Möchten Sie es überprüfen?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Verbessern Sie Ihre Blütenvorhersagen",
-            "MESSAGE": "{plantName} wird voraussichtlich innerhalb von 3 Wochen blühen (ungefähr am {bloomingDate}).\nKnospensprung sollte bald eintreten.\nMöchten Sie danach schauen?"
+            "TITLE": "{apiaryName} - Knospenaufbruch prüfen",
+            "MESSAGE": "{plantName} Blüte in 3 Wochen erwartet ~ {bloomingDate}.\nDer Knospenaufbruch sollte bald erfolgen.\nMöchten Sie nachsehen?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Pflanze zu Ihrem Bienenstand hinzufügen?",
-            "MESSAGE": "Wir haben eine Miellée erkannt. Möchten Sie eine Pflanze zu Ihrem Bienenstand hinzufügen?"
+            "TITLE": "{apiaryName} - Fehlende Pflanze?",
+            "MESSAGE": "Eine Nektarblüte findet statt, aber es gibt keine entsprechende Pflanze in Ihrem Bienenstock.\nMöchten Sie eine hinzufügen?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Beobachtung zu Ihrem Bienenstand hinzufügen?",
-            "MESSAGE": "Wir haben eine Miellée erkannt, die wahrscheinlich mit einer Pflanze in Ihrem Bienenstand in Verbindung steht. Möchten Sie eine Beobachtung hinzufügen?"
+            "TITLE": "{apiaryName} - Fehlender Blütenrekordeintrag?",
+            "MESSAGE": "Eine Nektarblüte findet statt, aber es gibt keinen entsprechenden Blütenrekord in Ihrem Bienenstock.\nMöchten Sie einen hinzufügen?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Beginn des Nektarflusses",
-            "MESSAGE": "Ein Nektarfluss hat für den Bienenstock {hiveName} begonnen."
+            "TITLE": "{hiveName} - Miellée beginnt",
+            "MESSAGE": "Du bist ein glücklicher Imker!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Ende des Nektarflusses",
-            "MESSAGE": "Der Nektarfluss für den Bienenstock {hiveName} ist beendet."
+            "TITLE": "{hiveName} - Miellée endet",
+            "MESSAGE": "Spiel vorbei, was nun?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Wiederaufnahme des Nektarflusses",
-            "MESSAGE": "Der Nektarfluss für den Bienenstock {hiveName} hat wieder begonnen."
+            "TITLE": "{hiveName} - Miellée Neustart",
+            "MESSAGE": "Die Show muss weitergehen!"
         },
         "WEATHER": {
             "TITLE": "{apiaryName} - Wetterwarnung",
-            "MESSAGE": "Schlechtes Wetter wird für den {date} erwartet: {alerts}. Seien Sie vorsichtig!"
+            "MESSAGE": "Für den {date} werden schreckliche Bedingungen erwartet: {alerts}. Sei vorsichtig!"
         }
     }
 }

@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "Temperatura interna acima de ",
-            "SUBJECT": "Alta temperatura interna"
+            "SUBJECT": "Alta temperatura"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "Temperatura interna abaixo de ",
-            "SUBJECT": "Baixa temperatura interna"
+            "SUBJECT": "Baixa temperatura"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "Umidade interna acima de ",
-            "SUBJECT": "Alta umidade interna"
+            "SUBJECT": "Alta umidade"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "Umidade interna abaixo de ",
-            "SUBJECT": "Baixa umidade interna"
+            "SUBJECT": "Baixa umidade"
         },
         "311": {
             "ICON": "Honeydew",
@@ -195,58 +195,58 @@
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub desconectado",
-            "MESSAGE": "O Hub ({deviceName}) parece estar desconectado desde {localDate}.",
-            "SUB_MESSAGE": "Os seguintes dispositivos não enviarão seus dados: {devices}."
+            "MESSAGE": "O Hub ({deviceName}) está desconectado desde {localDate}.",
+            "SUB_MESSAGE": "Nenhum dado recebido de: {devices}."
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - Dispositivo desconectado",
-            "MESSAGE": "'{hivePosition}' não transmite mais dados devido ao desligamento de seu sensor ({deviceName}) desde {localDate}."
+            "MESSAGE": "'{hivePosition}' desconectado desde {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Sinal fraco do dispositivo",
-            "MESSAGE": "Perda de dados em '{hivePosition}! Apenas {value}% das leituras esperadas foram recebidas hoje. O sinal do sensor ({deviceName}) pode ser a causa."
+            "TITLE": "{hiveName} - Sinal fraco",
+            "MESSAGE": "{value}% de leituras recebidas em '{hivePosition} ({deviceName})!"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - Baixa temperatura",
+            "MESSAGE": "{value}{unit} em {localDate} em '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Bateria fraca",
-            "MESSAGE": "O sensor em '{hivePosition}' ({deviceName}) possui uma bateria fraca. Por favor, substitua."
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Calibração de floração concluída",
-            "MESSAGE": "{plantName} tem um modelo de floração baseado em {nbOBS} observações.\nO início da floração está estimado para {bloomingDate}."
+            "MESSAGE": "{value}% de bateria em '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Estágio Fenológico Previsto",
-            "MESSAGE": "Prevemos que {plantName} atingirá o estágio '{PHENOSTAGE}' em {preventDays} dias ({bloomingDate}).",
-            "SUB_MESSAGE_MODEL": "Gostaria de validar essa fase quando ela ocorrer?",
+            "TITLE": "{apiaryName} - Próxima fase fenológica",
+            "MESSAGE": "{plantName} '{PHENOSTAGE}' esperado em {preventDays} dias ({bloomingDate}).",
+            "SUB_MESSAGE_MODEL": "Gostaria de validar esta fase quando ela ocorrer?",
             "SUB_MESSAGE_NO_MODEL": "Gostaria de verificar isso?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Melhore suas previsões de floração",
-            "MESSAGE": "{plantName} está estimada para florir dentro de 3 semanas (por volta de {bloomingDate}).\nO broto deve ocorrer em breve.\nGostaria de verificar?"
+            "TITLE": "{apiaryName} - Verificar brotação dos botões",
+            "MESSAGE": "{plantName} em flor esperada em 3 semanas ~ {bloomingDate}.\nA brotação dos botões deve ocorrer em breve.\nGostaria de verificar isso?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Adicionar uma planta ao seu apiário?",
-            "MESSAGE": "Detectamos uma mielada. Gostaria de adicionar uma planta ao seu apiário?"
+            "TITLE": "{apiaryName} - Planta faltando?",
+            "MESSAGE": "Uma mielada está ocorrendo mas não há planta relacionada em seu apiário.\nGostaria de adicionar uma?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Adicionar uma observação ao seu apiário?",
-            "MESSAGE": "Detectamos uma mielada provavelmente relacionada a uma planta em seu apiário. Gostaria de adicionar uma observação?"
+            "TITLE": "{apiaryName} - Registro de florada faltando?",
+            "MESSAGE": "Uma mielada está ocorrendo mas não há registro de florada relacionado em seu apiário.\nGostaria de adicionar um?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Início do fluxo de néctar",
-            "MESSAGE": "Um fluxo de néctar começou para a colmeia {hiveName}."
+            "TITLE": "{hiveName} - Início da mielada",
+            "MESSAGE": "Você é um(a) apicultor(a) sortudo(a)!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Fim do fluxo de néctar",
-            "MESSAGE": "O fluxo de néctar para a colmeia {hiveName} terminou."
+            "TITLE": "{hiveName} - Fim da mielada",
+            "MESSAGE": "Fim de jogo, e agora?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Reinício do fluxo de néctar",
-            "MESSAGE": "O fluxo de néctar para a colmeia {hiveName} foi reiniciado."
+            "TITLE": "{hiveName} - Recomeço da mielada",
+            "MESSAGE": "O show deve continuar!"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - Alerta de clima",
-            "MESSAGE": "São esperadas condições climáticas adversas para {date}: {alerts}. Tenha cuidado!"
+            "TITLE": "{apiaryName} - Alerta meteorológico",
+            "MESSAGE": "Condições terríveis esperadas para {date}: {alerts}. Fique atento(a)!"
         }
     }
 }

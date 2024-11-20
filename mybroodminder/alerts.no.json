@@ -33,12 +33,12 @@
         "301": {
             "ICON": "Tmax",
             "MESSAGE": "Intern temperatur over ",
-            "SUBJECT": "Høy intern temperatur"
+            "SUBJECT": "Høy temperatur"
         },
         "302": {
             "ICON": "Tmin",
             "MESSAGE": "Intern temperatur under ",
-            "SUBJECT": "Lav intern temperatur"
+            "SUBJECT": "Lav temperatur"
         },
         "303": {
             "ICON": "WIpos",
@@ -58,12 +58,12 @@
         "306": {
             "ICON": "Hmax",
             "MESSAGE": "Intern fuktighet over ",
-            "SUBJECT": "Høy intern fuktighet"
+            "SUBJECT": "Høy fuktighet"
         },
         "307": {
             "ICON": "Hmin",
             "MESSAGE": "Intern fuktighet under ",
-            "SUBJECT": "Lav intern fuktighet"
+            "SUBJECT": "Lav fuktighet"
         },
         "311": {
             "ICON": "Honeydew",
@@ -195,58 +195,58 @@
     "NOTIFICATIONS": {
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub frakoblet",
-            "MESSAGE": "Huben ({deviceName}) ser ut til å være frakoblet siden {localDate}.",
-            "SUB_MESSAGE": "Følgende enheter vil ikke sende dataene sine: {devices}."
+            "MESSAGE": "Hub ({deviceName}) er frakoblet siden {localDate}.",
+            "SUB_MESSAGE": "Ingen data mottatt fra: {devices}."
         },
         "DCONNECT": {
             "TITLE": "{hiveName} - Enhet frakoblet",
-            "MESSAGE": "'{hivePosition}' sender ikke lenger data etter at sensoren ({deviceName}) ble slått av fra {localDate}."
+            "MESSAGE": "'{hivePosition}' frakoblet siden {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Dårlig enhetssignal",
-            "MESSAGE": "Tap av data på '{hivePosition}! Kun {value}% av de forventede avlesningene er mottatt i dag. Sensorens signal ({deviceName}) kan være årsaken."
+            "TITLE": "{hiveName} - Dårlig signal",
+            "MESSAGE": "{value}% avlesninger mottatt på '{hivePosition} ({deviceName})!"
+        },
+        "TMIN": {
+            "TITLE": "{hiveName} - Lav temperatur",
+            "MESSAGE": "{value}{unit} på {localDate} på '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Lavt batteri",
-            "MESSAGE": "Sensoren på '{hivePosition}' ({deviceName}) har lavt batterinivå. Vennligst bytt det."
-        },
-        "CALIBRATION_FINISHED": {
-            "TITLE": "{apiaryName} - Blomstringskalibrering ferdig",
-            "MESSAGE": "{plantName} har en blomstringsmodell basert på {nbOBS} observasjoner.\nBegynnelsen av blomstringen er estimert til {bloomingDate}."
+            "MESSAGE": "{value}% batteri på '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Forventet fenologisk stadium",
-            "MESSAGE": "Vi forutser at {plantName} vil nå '{PHENOSTAGE}' stadiet om {preventDays} dager ({bloomingDate}).",
-            "SUB_MESSAGE_MODEL": "Ønsker du å validere denne fasen når den skjer?",
-            "SUB_MESSAGE_NO_MODEL": "Ønsker du å kontrollere den?"
+            "TITLE": "{apiaryName} - Kommende fenostadium",
+            "MESSAGE": "{plantName} '{PHENOSTAGE}' forventes om {preventDays} dager ({bloomingDate}).",
+            "SUB_MESSAGE_MODEL": "Ønsker du å validere dette stadiet når det skjer?",
+            "SUB_MESSAGE_NO_MODEL": "Vil du sjekke for det?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Forbedre blomsterprediksjonene dine",
-            "MESSAGE": "{plantName} antas å blomstre innen 3 uker (rundt {bloomingDate}).\nKnoppbrudd bør skje snart.\nVil du sjekke det?"
+            "TITLE": "{apiaryName} - Sjekk knoppbrudd",
+            "MESSAGE": "{plantName} blomstring forventes om 3 uker ~ {bloomingDate}.\nKnoppbrudd bør skje snart.\nØnsker du å sjekke for det?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Legg til en plante i rukeren din?",
-            "MESSAGE": "Vi har oppdaget en nektarmiellé. Ønsker du å legge til en plante i rukeren din?"
+            "TITLE": "{apiaryName} - Manglede plante?",
+            "MESSAGE": "En Miellée pågår, men det er ingen relatert plante i rukeren din.\nØnsker du å legge til en?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Legg til en observasjon i rukeren din?",
-            "MESSAGE": "Vi har oppdaget en nektarmiellé sannsynligvis relatert til en plante i rukeren din. Ønsker du å legge til en observasjon?"
+            "TITLE": "{apiaryName} - Manglede blomst-oppføring?",
+            "MESSAGE": "En Miellée pågår, men det er ingen relatert blomst-oppføring i rukeren din.\nØnsker du å legge til en?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Start av nektarstrøm",
-            "MESSAGE": "En nektarstrøm har startet for bikuben {hiveName}."
+            "TITLE": "{hiveName} - Start av Miellée",
+            "MESSAGE": "Du er en heldig birøkter!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Slutt på nektarstrøm",
-            "MESSAGE": "Nektarstrømmen for bikuben {hiveName} er avsluttet."
+            "TITLE": "{hiveName} - Miellée avsluttet",
+            "MESSAGE": "Sluttspill, hva skjer nå?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Gjenopptakelse av nektarstrøm",
-            "MESSAGE": "Nektarstrømmen for bikuben {hiveName} har blitt gjenopptatt."
+            "TITLE": "{hiveName} - Miellée startet på nytt",
+            "MESSAGE": "Showet må fortsette!"
         },
         "WEATHER": {
             "TITLE": "{apiaryName} - Værvarsel",
-            "MESSAGE": "Dårlige værforhold er forventet for {date}: {alerts}. Vær forsiktig!"
+            "MESSAGE": "Forferdelige forhold forventes for {date}: {alerts}. Vær forsiktig!"
         }
     }
 }
