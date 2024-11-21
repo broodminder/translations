@@ -193,6 +193,15 @@
         }
     },
     "NOTIFICATIONS": {
+        "DAYS_OF_WEEK": {
+            "0": "月曜日",
+            "1": "火曜日",
+            "2": "水曜日",
+            "3": "木曜日",
+            "4": "金曜日",
+            "5": "土曜日",
+            "6": "日曜日"
+        },
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - ハブが切断されました",
             "MESSAGE": "ハブ（{deviceName}）が{localDate}以来切断されています。",
@@ -205,10 +214,6 @@
         "POORSIGNAL": {
             "TITLE": "{hiveName} - 受信信号が弱い",
             "MESSAGE": "'{hivePosition}（{deviceName}）'から、{value}%の読み取りデータが受信されました！"
-        },
-        "TMIN": {
-            "TITLE": "{hiveName} - 低温",
-            "MESSAGE": "{localDate}に'{hivePosition}'で{value}{unit}。"
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - バッテリー残量が低い",

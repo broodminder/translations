@@ -193,6 +193,15 @@
         }
     },
     "NOTIFICATIONS": {
+        "DAYS_OF_WEEK": {
+            "0": "Monday",
+            "1": "Tuesday",
+            "2": "Wednesday",
+            "3": "Thursday",
+            "4": "Friday",
+            "5": "Saturday",
+            "6": "Sunday"
+        },
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub disconnected",
             "MESSAGE": "Hub ({deviceName}) is disconnected since {localDate}.",
@@ -205,10 +214,6 @@
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Poor signal",
             "MESSAGE": "{value}% readings received on '{hivePosition} ({deviceName})!"
-        },
-        "TMIN": {
-            "TITLE": "{hiveName} - Low temperature",
-            "MESSAGE": "{value}{unit} at {localDate} on '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Low battery",

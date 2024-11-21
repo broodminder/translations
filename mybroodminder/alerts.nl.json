@@ -193,6 +193,15 @@
         }
     },
     "NOTIFICATIONS": {
+        "DAYS_OF_WEEK": {
+            "0": "Maandag",
+            "1": "Dinsdag",
+            "2": "Woensdag",
+            "3": "Donderdag",
+            "4": "Vrijdag",
+            "5": "Zaterdag",
+            "6": "Zondag"
+        },
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub ontkoppeld",
             "MESSAGE": "Hub ({deviceName}) is ontkoppeld sinds {localDate}.",
@@ -205,10 +214,6 @@
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Zwak signaal",
             "MESSAGE": "{value}% metingen ontvangen op '{hivePosition} ({deviceName})!"
-        },
-        "TMIN": {
-            "TITLE": "{hiveName} - Lage temperatuur",
-            "MESSAGE": "{value}{unit} op {localDate} op '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Lage batterij",

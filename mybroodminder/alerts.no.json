@@ -193,6 +193,15 @@
         }
     },
     "NOTIFICATIONS": {
+        "DAYS_OF_WEEK": {
+            "0": "Mandag",
+            "1": "Tirsdag",
+            "2": "Onsdag",
+            "3": "Torsdag",
+            "4": "Fredag",
+            "5": "Lørdag",
+            "6": "Søndag"
+        },
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub frakoblet",
             "MESSAGE": "Hub ({deviceName}) er frakoblet siden {localDate}.",
@@ -205,10 +214,6 @@
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Dårlig signal",
             "MESSAGE": "{value}% avlesninger mottatt på '{hivePosition} ({deviceName})!"
-        },
-        "TMIN": {
-            "TITLE": "{hiveName} - Lav temperatur",
-            "MESSAGE": "{value}{unit} på {localDate} på '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Lavt batteri",

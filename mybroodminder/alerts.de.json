@@ -193,6 +193,15 @@
         }
     },
     "NOTIFICATIONS": {
+        "DAYS_OF_WEEK": {
+            "0": "Montag",
+            "1": "Dienstag",
+            "2": "Mittwoch",
+            "3": "Donnerstag",
+            "4": "Freitag",
+            "5": "Samstag",
+            "6": "Sonntag"
+        },
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub getrennt",
             "MESSAGE": "Hub ({deviceName}) ist seit {localDate} getrennt.",
@@ -205,10 +214,6 @@
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Schlechtes Signal",
             "MESSAGE": "{value}% Messungen auf '{hivePosition} ({deviceName}) erhalten!"
-        },
-        "TMIN": {
-            "TITLE": "{hiveName} - Niedrige Temperatur",
-            "MESSAGE": "{value}{unit} am {localDate} auf '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Niedriger Batteriestand",

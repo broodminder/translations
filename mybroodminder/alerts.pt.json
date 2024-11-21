@@ -193,6 +193,15 @@
         }
     },
     "NOTIFICATIONS": {
+        "DAYS_OF_WEEK": {
+            "0": "Segunda-feira",
+            "1": "Terça-feira",
+            "2": "Quarta-feira",
+            "3": "Quinta-feira",
+            "4": "Sexta-feira",
+            "5": "Sábado",
+            "6": "Domingo"
+        },
         "DCONNECT_HUB": {
             "TITLE": "{apiaryName} - Hub desconectado",
             "MESSAGE": "O Hub ({deviceName}) está desconectado desde {localDate}.",
@@ -205,10 +214,6 @@
         "POORSIGNAL": {
             "TITLE": "{hiveName} - Sinal fraco",
             "MESSAGE": "{value}% de leituras recebidas em '{hivePosition} ({deviceName})!"
-        },
-        "TMIN": {
-            "TITLE": "{hiveName} - Baixa temperatura",
-            "MESSAGE": "{value}{unit} em {localDate} em '{hivePosition}'."
         },
         "LOWBATTERY": {
             "TITLE": "{hiveName} - Bateria fraca",
