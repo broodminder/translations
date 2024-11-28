@@ -256,6 +256,8 @@
     },
     "extra_keys": {
         "today": "今日",
-        "yesterday": "昨日"
+        "yesterday": "昨日",
+        "since": "から",
+        "on": "に"
     }
 }

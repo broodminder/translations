@@ -256,6 +256,8 @@
     },
     "extra_keys": {
         "today": "I dag",
-        "yesterday": "I går"
+        "yesterday": "I går",
+        "since": "siden",
+        "on": "på"
     }
 }

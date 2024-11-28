@@ -256,6 +256,8 @@
     },
     "extra_keys": {
         "today": "Oggi",
-        "yesterday": "Ieri"
+        "yesterday": "Ieri",
+        "since": "da quando",
+        "on": "su"
     }
 }
