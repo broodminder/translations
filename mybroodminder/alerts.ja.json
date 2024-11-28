@@ -253,5 +253,9 @@
             "TITLE": "{apiaryName} - 天候アラート",
             "MESSAGE": "{date}に恐ろしい状況が予想されます：{alerts}。くれぐれも注意してください！"
         }
+    },
+    "extra_keys": {
+        "today": "今日",
+        "yesterday": "昨日"
     }
 }

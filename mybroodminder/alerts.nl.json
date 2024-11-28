@@ -253,5 +253,9 @@
             "TITLE": "{apiaryName} - Weeralarm",
             "MESSAGE": "Vreselijke omstandigheden verwacht op {date}: {alerts}. Wees voorzichtig!"
         }
+    },
+    "extra_keys": {
+        "today": "Vandaag",
+        "yesterday": "Gisteren"
     }
 }

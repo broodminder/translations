@@ -253,5 +253,9 @@
             "TITLE": "{apiaryName} - Wetterwarnung",
             "MESSAGE": "Für den {date} werden schreckliche Bedingungen erwartet: {alerts}. Sei vorsichtig!"
         }
+    },
+    "extra_keys": {
+        "today": "Heute",
+        "yesterday": "Gestern"
     }
 }

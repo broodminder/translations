@@ -253,5 +253,9 @@
             "TITLE": "{apiaryName} - Weather alert",
             "MESSAGE": "Awful conditions expected for {date}: {alerts}. Be careful!"
         }
+    },
+    "extra_keys": {
+        "today": "Today",
+        "yesterday": "Yesterday"
     }
 }

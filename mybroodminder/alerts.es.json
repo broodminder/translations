@@ -253,5 +253,9 @@
             "TITLE": "{apiaryName} - Alerta meteorológica",
             "MESSAGE": "¡Condiciones horribles esperadas para {date}: {alerts}. ¡Ten cuidado!"
         }
+    },
+    "extra_keys": {
+        "today": "Hoy",
+        "yesterday": "Ayer"
     }
 }

@@ -253,5 +253,9 @@
             "TITLE": "{apiaryName} - Værvarsel",
             "MESSAGE": "Forferdelige forhold forventes for {date}: {alerts}. Vær forsiktig!"
         }
+    },
+    "extra_keys": {
+        "today": "I dag",
+        "yesterday": "I går"
     }
 }
