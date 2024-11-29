@@ -203,55 +203,55 @@
             "6": "Zondag"
         },
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - Hub ontkoppeld",
-            "MESSAGE": "Hub ({deviceName}) is ontkoppeld sinds {localDate}.",
+            "TITLE": "Hub ontkoppeld",
+            "MESSAGE": "[{apiaryName}] - Hub ({deviceName}) is ontkoppeld sinds {localDate}.",
             "SUB_MESSAGE": "Geen gegevens ontvangen van: {devices}."
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Apparaat ontkoppeld",
-            "MESSAGE": "'{hivePosition}' ontkoppeld sinds {localDate} ({deviceName})."
+            "TITLE": "Apparaat ontkoppeld",
+            "MESSAGE": "[{hiveName}] - '{hivePosition}' is ontkoppeld sinds {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Zwak signaal",
-            "MESSAGE": "{value}% metingen ontvangen op '{hivePosition} ({deviceName})!"
+            "TITLE": "Zwak signaal",
+            "MESSAGE": "[{hiveName}] - {value}% metingen ontvangen op '{hivePosition} ({deviceName})!"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - Lage batterij",
-            "MESSAGE": "{value}% batterij op '{hivePosition}' ({deviceName})."
+            "TITLE": "Lage batterij",
+            "MESSAGE": "[{hiveName}] - {value}% batterij op '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Aankomende feno-fase",
-            "MESSAGE": "{plantName} '{PHENOSTAGE}' verwacht over {preventDays} dagen ({bloomingDate}).",
-            "SUB_MESSAGE_MODEL": "Wil je deze fase valideren wanneer het gebeurt?",
-            "SUB_MESSAGE_NO_MODEL": "Wil je ernaar kijken?"
+            "TITLE": "Aankomende fenostadium",
+            "MESSAGE": "[{apiaryName}] - {plantName} '{PHENOSTAGE}' verwacht over {preventDays} dagen ({bloomingDate}).",
+            "SUB_MESSAGE_MODEL": "Wil je dit stadium valideren wanneer het gebeurt?",
+            "SUB_MESSAGE_NO_MODEL": "Wil je hiervoor controleren?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Controleer knoppenuitbarsting",
-            "MESSAGE": "{plantName} bloei verwacht over 3 weken ~ {bloomingDate}.\nKnoppenuitbarsting zou binnenkort moeten gebeuren.\nWil je ernaar kijken?"
+            "TITLE": "Controleer knoppenknop",
+            "MESSAGE": "[{apiaryName}] - {plantName} bloeit verwacht over 3 weken ~ {bloomingDate}.\nKnopbarst moet binnenkort plaatsvinden.\nWil je hiervoor controleren?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Missende plant?",
-            "MESSAGE": "Er is een miellée aan de gang maar er is geen gerelateerde plant in je bijenstand.\nWil je er een toevoegen?"
+            "TITLE": "Plant ontbreekt?",
+            "MESSAGE": "[{apiaryName}] - Er is een nectarstroom gaande maar er is geen gerelateerde plant in je apiary.\nWil je er een toevoegen?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Missend bloemrecord?",
-            "MESSAGE": "Er is een miellée aan de gang maar er is geen gerelateerd bloemrecord in je bijenstand.\nWil je er een toevoegen?"
+            "TITLE": "Bloeirecord ontbreekt?",
+            "MESSAGE": "[{apiaryName}] - Er is een nectarstroom gaande maar er is geen gerelateerd bloeirecord in je apiary.\nWil je er een toevoegen?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Begin van de miellée",
-            "MESSAGE": "Je bent een gelukkige imker!"
+            "TITLE": "Start nectarstroming",
+            "MESSAGE": "[{hiveName}] - Je bent een gelukkige imker!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Einde van de miellée",
-            "MESSAGE": "Spel voorbij, wat nu?"
+            "TITLE": "Stoppen van nectarstroming",
+            "MESSAGE": "[{hiveName}] - Spel voorbij, wat nu?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Herstart van de miellée",
-            "MESSAGE": "De show moet doorgaan!"
+            "TITLE": "Herstart nectarstroming",
+            "MESSAGE": "[{hiveName}] - De show moet doorgaan!"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - Weeralarm",
-            "MESSAGE": "Vreselijke omstandigheden verwacht op {date}: {alerts}. Wees voorzichtig!"
+            "TITLE": "Weeralarm",
+            "MESSAGE": "[{apiaryName}] - Afschuwelijke omstandigheden verwacht voor {date}: {alerts}. Wees voorzichtig!"
         }
     },
     "extra_keys": {

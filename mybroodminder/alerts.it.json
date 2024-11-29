@@ -203,55 +203,55 @@
             "6": "Domenica"
         },
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - Hub disconnesso",
-            "MESSAGE": "L'hub ({deviceName}) è disconnesso dal {localDate}.",
+            "TITLE": "Hub disconnesso",
+            "MESSAGE": "[{apiaryName}] - Hub ({deviceName}) è disconnesso dal {localDate}.",
             "SUB_MESSAGE": "Nessun dato ricevuto da: {devices}."
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Dispositivo disconnesso",
-            "MESSAGE": "'{hivePosition}' disconnesso dal {localDate} ({deviceName})."
+            "TITLE": "Dispositivo disconnesso",
+            "MESSAGE": "[{hiveName}] - '{hivePosition}' disconnesso dal {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Segnale debole",
-            "MESSAGE": "{value}% letture ricevute su '{hivePosition} ({deviceName})!"
+            "TITLE": "Segnale debole",
+            "MESSAGE": "[{hiveName}] - {value}% letture ricevute su '{hivePosition} ({deviceName})!"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - Batteria scarica",
-            "MESSAGE": "{value}% batteria su '{hivePosition}' ({deviceName})."
+            "TITLE": "Batteria scarica",
+            "MESSAGE": "[{hiveName}] - Batteria al {value}% su '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Prossimo stadio fenologico",
-            "MESSAGE": "{plantName} '{PHENOSTAGE}' previsto tra {preventDays} giorni ({bloomingDate}).",
-            "SUB_MESSAGE_MODEL": "Desideri convalidare questo stadio quando avviene?",
-            "SUB_MESSAGE_NO_MODEL": "Desideri controllarlo?"
+            "TITLE": "Prossima fase fenologica",
+            "MESSAGE": "[{apiaryName}] - {plantName} '{PHENOSTAGE}' prevista tra {preventDays} giorni ({bloomingDate}).",
+            "SUB_MESSAGE_MODEL": "Desideri convalidare questa fase quando avviene?",
+            "SUB_MESSAGE_NO_MODEL": "Desideri controllare?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Controlla la schiusa dei boccioli",
-            "MESSAGE": "{plantName} fioritura prevista tra 3 settimane ~ {bloomingDate}.\nLa schiusa dei boccioli dovrebbe avvenire presto.\nDesideri controllare?"
+            "TITLE": "Controlla la gemma",
+            "MESSAGE": "[{apiaryName}] - Fioritura di {plantName} prevista tra 3 settimane ~ {bloomingDate}.\nLa gemma dovrebbe aprirsi presto.\nDesideri controllare?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Pianta mancante?",
-            "MESSAGE": "Una miellata è in corso ma non c'è una pianta correlata nel tuo apiario.\nDesideri aggiungerne una?"
+            "TITLE": "Pianta mancante?",
+            "MESSAGE": "[{apiaryName}] - C'è una miellata in corso ma non c'è una pianta correlata nel tuo apiario.\nDesideri aggiungerne una?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Record di fioritura mancante?",
-            "MESSAGE": "Una miellata è in corso ma non c'è un record di fioritura correlato nel tuo apiario.\nDesideri aggiungerne uno?"
+            "TITLE": "Record di fioritura mancante?",
+            "MESSAGE": "[{apiaryName}] - C'è una miellata in corso ma non c'è un record di fioritura correlato nel tuo apiario.\nDesideri aggiungerne uno?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Inizio della miellata",
-            "MESSAGE": "Sei un fortunato apicoltore!"
+            "TITLE": "Inizio della miellata",
+            "MESSAGE": "[{hiveName}] - Sei un apicoltore fortunato!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Fine della miellata",
-            "MESSAGE": "Partita finita, quale sarà il prossimo passo?"
+            "TITLE": "Fine della miellata",
+            "MESSAGE": "[{hiveName}] - Gioco finito, cosa succede dopo?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Riavvio della miellata",
-            "MESSAGE": "Lo spettacolo deve continuare!"
+            "TITLE": "Ripresa della miellata",
+            "MESSAGE": "[{hiveName}] - Lo show deve continuare!"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - Avviso meteo",
-            "MESSAGE": "Condizioni terribili previste per il {date}: {alerts}. Stai attento!"
+            "TITLE": "Allerta meteo",
+            "MESSAGE": "[{apiaryName}] - Condizioni terribili previste per il {date}: {alerts}. Fate attenzione!"
         }
     },
     "extra_keys": {

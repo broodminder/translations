@@ -203,55 +203,55 @@
             "6": "日曜日"
         },
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - ハブが切断されました",
-            "MESSAGE": "ハブ（{deviceName}）が{localDate}以来切断されています。",
-            "SUB_MESSAGE": "受信データなし：{devices}から。"
+            "TITLE": "ハブが切断されました",
+            "MESSAGE": "[{apiaryName}] - ハブ ({deviceName}) が {localDate} 以降切断されています。",
+            "SUB_MESSAGE": "データが受信されていません: {devices}。"
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - デバイスが切断されました",
-            "MESSAGE": "'{hivePosition}'が{localDate}以来切断されました（{deviceName}）。"
+            "TITLE": "デバイスが切断されました",
+            "MESSAGE": "[{hiveName}] - '{hivePosition}' が {localDate} 以降切断されました ({deviceName})。"
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - 受信信号が弱い",
-            "MESSAGE": "'{hivePosition}（{deviceName}）'から、{value}%の読み取りデータが受信されました！"
+            "TITLE": "電波品質悪し",
+            "MESSAGE": "[{hiveName}] - '{hivePosition} ({deviceName})' から {value}% のデータが受信されました！"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - バッテリー残量が低い",
-            "MESSAGE": "'{hivePosition}（{deviceName}）'でバッテリーが{value}%です。"
+            "TITLE": "バッテリー残量低下",
+            "MESSAGE": "[{hiveName}] - '{hivePosition} ({deviceName})' のバッテリー残量が {value}% です。"
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - 予定のフェノ段階",
-            "MESSAGE": "{preventDays}日後に{bloomingDate}に'{PHENOSTAGE}'の{plantName}が予想されます。",
-            "SUB_MESSAGE_MODEL": "その段階を確認しますか？",
+            "TITLE": "来たる生育段階変化",
+            "MESSAGE": "[{apiaryName}] - {plantName} の '{PHENOSTAGE}' が {preventDays} 日後に予想されています ({bloomingDate})。",
+            "SUB_MESSAGE_MODEL": "この段階の確認を希望しますか？",
             "SUB_MESSAGE_NO_MODEL": "確認しますか？"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - 芽の開花を確認",
-            "MESSAGE": "{preventDays}日後に{bloomingDate}で{plantName}の花が開花する予定です。\n芽の開花がまもなく始まるはずです。\n確認しますか？"
+            "TITLE": "蕾の発芽を確認",
+            "MESSAGE": "[{apiaryName}] - {plantName} の開花が3週間後〜{bloomingDate} に予想されます。\n蕾の発芽が間もなく起こるはずです。\n確認しますか？"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - 植物が見つかりませんか？",
-            "MESSAGE": "現在蜜の流れがありますが、あなたの養蜂場に関連する植物がありません。\n追加しますか？"
+            "TITLE": "植物が見当たりませんか？",
+            "MESSAGE": "[{apiaryName}] - ミツバチの巣で蜜の流れが発生していますが、対応する植物がありません。\n追加しますか？"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - 開花記録が見つかりませんか？",
-            "MESSAGE": "現在蜜の流れがありますが、あなたの養蜂場に関連する開花記録がありません。\n追加しますか？"
+            "TITLE": "開花記録が見当たりませんか？",
+            "MESSAGE": "[{apiaryName}] - ミツバチの巣で蜜の流れが発生していますが、対応する開花記録がありません。\n追加しますか？"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - 蜜の流れが始まりました",
-            "MESSAGE": "幸運な養蜂家ですね！"
+            "TITLE": "蜜の流れが始まりました",
+            "MESSAGE": "[{hiveName}] - 幸運な養蜂家です！"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - 蜜の流れが停止しました",
-            "MESSAGE": "ゲームオーバー、次は何でしょう？"
+            "TITLE": "蜜の流れが止まりました",
+            "MESSAGE": "[{hiveName}] - ゲームオーバー、次は何ですか？"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - 蜜の流れが再開しました",
-            "MESSAGE": "ショーは続きます！"
+            "TITLE": "蜜の流れが再開しました",
+            "MESSAGE": "[{hiveName}] - ショーは続きます！"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - 天候アラート",
-            "MESSAGE": "{date}に恐ろしい状況が予想されます：{alerts}。くれぐれも注意してください！"
+            "TITLE": "気象警報",
+            "MESSAGE": "[{apiaryName}] - {date} にはひどい条件が予想されています: {alerts}。注意してください！"
         }
     },
     "extra_keys": {

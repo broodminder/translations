@@ -203,55 +203,55 @@
             "6": "Søndag"
         },
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - Hub frakoblet",
-            "MESSAGE": "Hub ({deviceName}) er frakoblet siden {localDate}.",
+            "TITLE": "Hub frakoblet",
+            "MESSAGE": "[{apiaryName}] - Hub ({deviceName}) er frakoblet siden {localDate}.",
             "SUB_MESSAGE": "Ingen data mottatt fra: {devices}."
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Enhet frakoblet",
-            "MESSAGE": "'{hivePosition}' frakoblet siden {localDate} ({deviceName})."
+            "TITLE": "Enhet frakoblet",
+            "MESSAGE": "[{hiveName}] - '{hivePosition}' har vært frakoblet siden {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Dårlig signal",
-            "MESSAGE": "{value}% avlesninger mottatt på '{hivePosition} ({deviceName})!"
+            "TITLE": "Dårlig signal",
+            "MESSAGE": "[{hiveName}] - {value}% avlesninger mottatt på '{hivePosition} ({deviceName})!"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - Lavt batteri",
-            "MESSAGE": "{value}% batteri på '{hivePosition}' ({deviceName})."
+            "TITLE": "Lavt batteri",
+            "MESSAGE": "[{hiveName}] - {value}% batteri på '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Kommende fenostadium",
-            "MESSAGE": "{plantName} '{PHENOSTAGE}' forventes om {preventDays} dager ({bloomingDate}).",
+            "TITLE": "Forestående fenostadium",
+            "MESSAGE": "[{apiaryName}] - {plantName} '{PHENOSTAGE}' forventes om {preventDays} dager ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Ønsker du å validere dette stadiet når det skjer?",
-            "SUB_MESSAGE_NO_MODEL": "Vil du sjekke for det?"
+            "SUB_MESSAGE_NO_MODEL": "Ønsker du å sjekke for det?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Sjekk knoppbrudd",
-            "MESSAGE": "{plantName} blomstring forventes om 3 uker ~ {bloomingDate}.\nKnoppbrudd bør skje snart.\nØnsker du å sjekke for det?"
+            "TITLE": "Sjekk knoppsprett",
+            "MESSAGE": "[{apiaryName}] - {plantName} blomstring forventes om 3 uker ~ {bloomingDate}.\nKnoppspretten bør skje snart.\nØnsker du å sjekke for det?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Manglede plante?",
-            "MESSAGE": "En Miellée pågår, men det er ingen relatert plante i rukeren din.\nØnsker du å legge til en?"
+            "TITLE": "Mangler plante?",
+            "MESSAGE": "[{apiaryName}] - En nektarmiellé pågår, men det er ingen relatert plante i rukeren din.\nØnsker du å legge til en?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Manglede blomst-oppføring?",
-            "MESSAGE": "En Miellée pågår, men det er ingen relatert blomst-oppføring i rukeren din.\nØnsker du å legge til en?"
+            "TITLE": "Mangler blomsterregistrering?",
+            "MESSAGE": "[{apiaryName}] - En nektarmiellé pågår, men det er ingen relatert blomsterregistrering i rukeren din.\nØnsker du å legge til en?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Start av Miellée",
-            "MESSAGE": "Du er en heldig birøkter!"
+            "TITLE": "Start av nektarmiellé",
+            "MESSAGE": "[{hiveName}] - Du er en heldig birøkter!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Miellée avsluttet",
-            "MESSAGE": "Sluttspill, hva skjer nå?"
+            "TITLE": "Stopp av nektarmiellé",
+            "MESSAGE": "[{hiveName}] - Spillet er over, hva er det neste?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Miellée startet på nytt",
-            "MESSAGE": "Showet må fortsette!"
+            "TITLE": "Start av nektarmiellé på nytt",
+            "MESSAGE": "[{hiveName}] - Showet må fortsette!"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - Værvarsel",
-            "MESSAGE": "Forferdelige forhold forventes for {date}: {alerts}. Vær forsiktig!"
+            "TITLE": "Værvarsel",
+            "MESSAGE": "[{apiaryName}] - Forferdelige forhold er ventet for {date}: {alerts}. Vær forsiktig!"
         }
     },
     "extra_keys": {

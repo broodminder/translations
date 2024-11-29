@@ -203,55 +203,55 @@
             "6": "Sonntag"
         },
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - Hub getrennt",
-            "MESSAGE": "Hub ({deviceName}) ist seit {localDate} getrennt.",
-            "SUB_MESSAGE": "Keine Daten empfangen von: {devices}."
+            "TITLE": "Hub getrennt",
+            "MESSAGE": "[{apiaryName}] - Hub ({deviceName}) ist seit {localDate} nicht verbunden.",
+            "SUB_MESSAGE": "Keine Daten erhalten von: {devices}."
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Gerät getrennt",
-            "MESSAGE": "'{hivePosition}' seit {localDate} getrennt ({deviceName})."
+            "TITLE": "Gerät getrennt",
+            "MESSAGE": "[{hiveName}] - '{hivePosition}' ist seit {localDate} nicht verbunden ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Schlechtes Signal",
-            "MESSAGE": "{value}% Messungen auf '{hivePosition} ({deviceName}) erhalten!"
+            "TITLE": "Schlechtes Signal",
+            "MESSAGE": "[{hiveName}] - {value}% Messwerte von '{hivePosition} ({deviceName}) erhalten!"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - Niedriger Batteriestand",
-            "MESSAGE": "{value}% Batterie auf '{hivePosition}' ({deviceName})."
+            "TITLE": "Niedriger Batteriestand",
+            "MESSAGE": "[{hiveName}] - {value}% Batterie in '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Bevorstehende Phasenänderung",
-            "MESSAGE": "{plantName} '{PHENOSTAGE}' erwartet in {preventDays} Tagen ({bloomingDate}).",
+            "TITLE": "Bevorstehende Phasenänderung",
+            "MESSAGE": "[{apiaryName}] - {plantName} '{PHENOSTAGE}' wird in {preventDays} Tagen erwartet ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Möchten Sie diese Phase validieren, wenn sie eintritt?",
-            "SUB_MESSAGE_NO_MODEL": "Möchten Sie es überprüfen?"
+            "SUB_MESSAGE_NO_MODEL": "Möchten Sie darauf überprüfen?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Knospenaufbruch prüfen",
-            "MESSAGE": "{plantName} Blüte in 3 Wochen erwartet ~ {bloomingDate}.\nDer Knospenaufbruch sollte bald erfolgen.\nMöchten Sie nachsehen?"
+            "TITLE": "Knospenbruch prüfen",
+            "MESSAGE": "[{apiaryName}] - Blüte von {plantName} in 3 Wochen erwartet ~ {bloomingDate}.\nKnospenbruch sollte bald erfolgen.\nMöchten Sie es überprüfen?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Fehlende Pflanze?",
-            "MESSAGE": "Eine Nektarblüte findet statt, aber es gibt keine entsprechende Pflanze in Ihrem Bienenstock.\nMöchten Sie eine hinzufügen?"
+            "TITLE": "Fehlende Pflanze?",
+            "MESSAGE": "[{apiaryName}] - Eine Miellée läuft, aber es gibt keine entsprechende Pflanze in Ihrem Bienenstand.\nMöchten Sie eine hinzufügen?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Fehlender Blütenrekordeintrag?",
-            "MESSAGE": "Eine Nektarblüte findet statt, aber es gibt keinen entsprechenden Blütenrekord in Ihrem Bienenstock.\nMöchten Sie einen hinzufügen?"
+            "TITLE": "Fehlender Blüh-Eintrag?",
+            "MESSAGE": "[{apiaryName}] - Eine Miellée läuft, aber es gibt keinen entsprechenden Blüh-Eintrag in Ihrem Bienenstand.\nMöchten Sie einen hinzufügen?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Miellée beginnt",
-            "MESSAGE": "Du bist ein glücklicher Imker!"
+            "TITLE": "Beginn der Miellée",
+            "MESSAGE": "[{hiveName}] - Du bist ein glücklicher Imker!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Miellée endet",
-            "MESSAGE": "Spiel vorbei, was nun?"
+            "TITLE": "Ende der Miellée",
+            "MESSAGE": "[{hiveName}] - Spiel vorbei, was kommt als Nächstes?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Miellée Neustart",
-            "MESSAGE": "Die Show muss weitergehen!"
+            "TITLE": "Neustart der Miellée",
+            "MESSAGE": "[{hiveName}] - Die Show muss weitergehen!"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - Wetterwarnung",
-            "MESSAGE": "Für den {date} werden schreckliche Bedingungen erwartet: {alerts}. Sei vorsichtig!"
+            "TITLE": "Wetterwarnung",
+            "MESSAGE": "[{apiaryName}] - Schlechte Bedingungen erwartet am {date}: {alerts}. Sei vorsichtig!"
         }
     },
     "extra_keys": {

@@ -203,55 +203,55 @@
             "6": "Sunday"
         },
         "DCONNECT_HUB": {
-            "TITLE": "{apiaryName} - Hub disconnected",
-            "MESSAGE": "Hub ({deviceName}) is disconnected since {localDate}.",
+            "TITLE": "Hub disconnected",
+            "MESSAGE": "[{apiaryName}] - Hub ({deviceName}) is disconnected since {localDate}.",
             "SUB_MESSAGE": "No data received from: {devices}."
         },
         "DCONNECT": {
-            "TITLE": "{hiveName} - Device disconnected",
-            "MESSAGE": "'{hivePosition}' disconnected since {localDate} ({deviceName})."
+            "TITLE": "Device disconnected",
+            "MESSAGE": "[{hiveName}] - '{hivePosition}' disconnected since {localDate} ({deviceName})."
         },
         "POORSIGNAL": {
-            "TITLE": "{hiveName} - Poor signal",
-            "MESSAGE": "{value}% readings received on '{hivePosition} ({deviceName})!"
+            "TITLE": "Poor signal",
+            "MESSAGE": "[{hiveName}] - {value}% readings received on '{hivePosition} ({deviceName})!"
         },
         "LOWBATTERY": {
-            "TITLE": "{hiveName} - Low battery",
-            "MESSAGE": "{value}% battery on '{hivePosition}' ({deviceName})."
+            "TITLE": "Low battery",
+            "MESSAGE": "[{hiveName}] - {value}% battery on '{hivePosition}' ({deviceName})."
         },
         "INCOMING_PHENOSTAGE": {
-            "TITLE": "{apiaryName} - Upcoming pheno-stage",
-            "MESSAGE": "{plantName} '{PHENOSTAGE}' expected in {preventDays} days ({bloomingDate}).",
+            "TITLE": "Upcoming pheno-stage",
+            "MESSAGE": "[{apiaryName}] - {plantName} '{PHENOSTAGE}' expected in {preventDays} days ({bloomingDate}).",
             "SUB_MESSAGE_MODEL": "Would you like to validate this stage when it happens?",
             "SUB_MESSAGE_NO_MODEL": "Would you like to check for it?"
         },
         "ENHANCEFLOWERING": {
-            "TITLE": "{apiaryName} - Check bud burst",
-            "MESSAGE": "{plantName} bloom expected in 3 weeks ~ {bloomingDate}.\nBud burst should occur soon.\nWould you like to check for it?"
+            "TITLE": "Check bud burst",
+            "MESSAGE": "[{apiaryName}] - {plantName} bloom expected in 3 weeks ~ {bloomingDate}.\nBud burst should occur soon.\nWould you like to check for it?"
         },
         "ENROLLMENTPHENOCAST_PLANT": {
-            "TITLE": "{apiaryName} - Missing plant?",
-            "MESSAGE": "A nectar flow is ongoing but there is no related plant in your apiary.\nWould you like to add one?"
+            "TITLE": "Missing plant?",
+            "MESSAGE": "[{apiaryName}] - A nectar flow is ongoing but there is no related plant in your apiary.\nWould you like to add one?"
         },
         "ENROLLMENTPHENOCAST_OBSERVATION": {
-            "TITLE": "{apiaryName} - Missing bloom record?",
-            "MESSAGE": "A nectar flow is ongoing but there is no related bloom record in your apiary.\nWould you like to add one?"
+            "TITLE": "Missing bloom record?",
+            "MESSAGE": "[{apiaryName}] - A nectar flow is ongoing but there is no related bloom record in your apiary.\nWould you like to add one?"
         },
         "NECTAR_FLOW_ONSET": {
-            "TITLE": "{hiveName} - Nectar Flow start",
-            "MESSAGE": "You're a lucky beekeeper!"
+            "TITLE": "Nectar Flow start",
+            "MESSAGE": "[{hiveName}] - You're a lucky beekeeper!"
         },
         "NECTAR_FLOW_STOP": {
-            "TITLE": "{hiveName} - Nectar Flow stop",
-            "MESSAGE": "Game over, what's next?"
+            "TITLE": "Nectar Flow stop",
+            "MESSAGE": "[{hiveName}] - Game over, what's next?"
         },
         "NECTAR_FLOW_RESTART": {
-            "TITLE": "{hiveName} - Nectar Flow restart",
-            "MESSAGE": "Show must go on!"
+            "TITLE": "Nectar Flow restart",
+            "MESSAGE": "[{hiveName}] - Show must go on!"
         },
         "WEATHER": {
-            "TITLE": "{apiaryName} - Weather alert",
-            "MESSAGE": "Awful conditions expected for {date}: {alerts}. Be careful!"
+            "TITLE": "Weather alert",
+            "MESSAGE": "[{apiaryName}] - Awful conditions expected for {date}: {alerts}. Be careful!"
         }
     },
     "extra_keys": {
