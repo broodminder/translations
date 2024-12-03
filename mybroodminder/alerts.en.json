@@ -258,14 +258,7 @@
             "yesterday": "Yesterday",
             "since": "since",
             "on": "on",
-            "at": "at",
-            "mon": "Mon",
-            "tue": "Tue",
-            "wed": "Wed",
-            "thu": "Thu",
-            "fri": "Fri",
-            "sat": "Sat",
-            "sun": "Sun"
+            "at": "at"
         }
     }
 }

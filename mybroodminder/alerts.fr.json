@@ -257,15 +257,8 @@
             "today": "Aujourd'hui",
             "yesterday": "Hier",
             "since": "depuis",
-            "on": "le",
-            "at": "à",
-            "mon": "Lun",
-            "tue": "Mar",
-            "wed": "Mer",
-            "thu": "Jeu",
-            "fri": "Ven",
-            "sat": "Sam",
-            "sun": "Dim"
+            "on": "sur",
+            "at": "à"
         }
     }
 }

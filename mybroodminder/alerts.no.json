@@ -258,14 +258,7 @@
             "yesterday": "I går",
             "since": "siden",
             "on": "på",
-            "at": "kl.",
-            "mon": "Man",
-            "tue": "Tir",
-            "wed": "Ons",
-            "thu": "Tor",
-            "fri": "Fre",
-            "sat": "Lør",
-            "sun": "Søn"
+            "at": "kl."
         }
     }
 }

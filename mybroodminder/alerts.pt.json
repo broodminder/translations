@@ -258,14 +258,7 @@
             "yesterday": "Ontem",
             "since": "desde",
             "on": "em",
-            "at": "às",
-            "mon": "Seg",
-            "tue": "Ter",
-            "wed": "Qua",
-            "thu": "Qui",
-            "fri": "Sex",
-            "sat": "Sáb",
-            "sun": "Dom"
+            "at": "às"
         }
     }
 }

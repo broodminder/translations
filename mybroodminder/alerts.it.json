@@ -258,14 +258,7 @@
             "yesterday": "Ieri",
             "since": "da",
             "on": "il",
-            "at": "a",
-            "mon": "lun",
-            "tue": "mar",
-            "wed": "mer",
-            "thu": "gio",
-            "fri": "ven",
-            "sat": "sab",
-            "sun": "dom"
+            "at": "a"
         }
     }
 }

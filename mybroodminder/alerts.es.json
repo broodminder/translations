@@ -258,14 +258,7 @@
             "yesterday": "Ayer",
             "since": "desde",
             "on": "en",
-            "at": "a las",
-            "mon": "Lun",
-            "tue": "Mar",
-            "wed": "Mié",
-            "thu": "Jue",
-            "fri": "Vie",
-            "sat": "Sáb",
-            "sun": "Dom"
+            "at": "a las"
         }
     }
 }
