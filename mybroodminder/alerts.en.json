@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "Weather alert",
             "MESSAGE": "[{apiaryName}] - Awful conditions expected for {date}: {alerts}. Be careful!"
+        },
+        "extra_keys": {
+            "today": "Today",
+            "yesterday": "Yesterday",
+            "since": "since",
+            "on": "on",
+            "at": "at",
+            "mon": "Mon",
+            "tue": "Tue",
+            "wed": "Wed",
+            "thu": "Thu",
+            "fri": "Fri",
+            "sat": "Sat",
+            "sun": "Sun"
         }
-    },
-    "extra_keys": {
-        "today": "Today",
-        "yesterday": "Yesterday",
-        "since": "since",
-        "on": "on",
-        "at": "at"
     }
 }

@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "Wetterwarnung",
             "MESSAGE": "[{apiaryName}] - Schlechte Bedingungen erwartet am {date}: {alerts}. Sei vorsichtig!"
+        },
+        "extra_keys": {
+            "today": "Heute",
+            "yesterday": "Gestern",
+            "since": "seit",
+            "on": "am",
+            "at": "um",
+            "mon": "Mo",
+            "tue": "Di",
+            "wed": "Mi",
+            "thu": "Do",
+            "fri": "Fr",
+            "sat": "Sa",
+            "sun": "So"
         }
-    },
-    "extra_keys": {
-        "today": "Heute",
-        "yesterday": "Gestern",
-        "since": "seit",
-        "on": "am",
-        "at": "um"
     }
 }

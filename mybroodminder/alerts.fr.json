@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "Alerte météo",
             "MESSAGE": "[{apiaryName}] - Conditions terribles attendues pour le {date}: {alerts}. Soyez prudent!"
+        },
+        "extra_keys": {
+            "today": "Aujourd'hui",
+            "yesterday": "Hier",
+            "since": "depuis",
+            "on": "le",
+            "at": "à",
+            "mon": "Lun",
+            "tue": "Mar",
+            "wed": "Mer",
+            "thu": "Jeu",
+            "fri": "Ven",
+            "sat": "Sam",
+            "sun": "Dim"
         }
-    },
-    "extra_keys": {
-        "today": "Aujourd'hui",
-        "yesterday": "Hier",
-        "since": "depuis",
-        "on": "sur",
-        "at": "le"
     }
 }

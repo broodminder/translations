@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "Allerta meteo",
             "MESSAGE": "[{apiaryName}] - Condizioni terribili previste per il {date}: {alerts}. Fate attenzione!"
+        },
+        "extra_keys": {
+            "today": "Oggi",
+            "yesterday": "Ieri",
+            "since": "da",
+            "on": "il",
+            "at": "a",
+            "mon": "lun",
+            "tue": "mar",
+            "wed": "mer",
+            "thu": "gio",
+            "fri": "ven",
+            "sat": "sab",
+            "sun": "dom"
         }
-    },
-    "extra_keys": {
-        "today": "Oggi",
-        "yesterday": "Ieri",
-        "since": "da quando",
-        "on": "su",
-        "at": "at"
     }
 }

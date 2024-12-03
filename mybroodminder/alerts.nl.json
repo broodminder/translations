@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "Weeralarm",
             "MESSAGE": "[{apiaryName}] - Afschuwelijke omstandigheden verwacht voor {date}: {alerts}. Wees voorzichtig!"
+        },
+        "extra_keys": {
+            "today": "Vandaag",
+            "yesterday": "Gisteren",
+            "since": "sinds",
+            "on": "op",
+            "at": "om",
+            "mon": "Ma",
+            "tue": "Di",
+            "wed": "Wo",
+            "thu": "Do",
+            "fri": "Vr",
+            "sat": "Za",
+            "sun": "Zo"
         }
-    },
-    "extra_keys": {
-        "today": "Vandaag",
-        "yesterday": "Gisteren",
-        "since": "sinds",
-        "on": "op",
-        "at": "at"
     }
 }

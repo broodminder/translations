@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "Værvarsel",
             "MESSAGE": "[{apiaryName}] - Forferdelige forhold er ventet for {date}: {alerts}. Vær forsiktig!"
+        },
+        "extra_keys": {
+            "today": "I dag",
+            "yesterday": "I går",
+            "since": "siden",
+            "on": "på",
+            "at": "kl.",
+            "mon": "Man",
+            "tue": "Tir",
+            "wed": "Ons",
+            "thu": "Tor",
+            "fri": "Fre",
+            "sat": "Lør",
+            "sun": "Søn"
         }
-    },
-    "extra_keys": {
-        "today": "I dag",
-        "yesterday": "I går",
-        "since": "siden",
-        "on": "på",
-        "at": "at"
     }
 }

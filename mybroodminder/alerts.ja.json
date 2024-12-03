@@ -252,13 +252,20 @@
         "WEATHER": {
             "TITLE": "気象警報",
             "MESSAGE": "[{apiaryName}] - {date} にはひどい条件が予想されています: {alerts}。注意してください！"
+        },
+        "extra_keys": {
+            "today": "今日",
+            "yesterday": "昨日",
+            "since": "以降",
+            "on": "に",
+            "at": "で",
+            "mon": "月",
+            "tue": "火",
+            "wed": "水",
+            "thu": "木",
+            "fri": "金",
+            "sat": "土",
+            "sun": "日"
         }
-    },
-    "extra_keys": {
-        "today": "今日",
-        "yesterday": "昨日",
-        "since": "から",
-        "on": "に",
-        "at": "at"
     }
 }
