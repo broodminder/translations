@@ -258,6 +258,7 @@
         "today": "Heute",
         "yesterday": "Gestern",
         "since": "seit",
-        "on": "am"
+        "on": "am",
+        "at": "um"
     }
 }

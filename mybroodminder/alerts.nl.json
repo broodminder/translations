@@ -258,6 +258,7 @@
         "today": "Vandaag",
         "yesterday": "Gisteren",
         "since": "sinds",
-        "on": "op"
+        "on": "op",
+        "at": "at"
     }
 }

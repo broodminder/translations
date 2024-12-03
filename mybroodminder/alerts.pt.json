@@ -258,6 +258,7 @@
         "today": "Hoje",
         "yesterday": "Ontem",
         "since": "desde",
-        "on": "em"
+        "on": "em",
+        "at": "em"
     }
 }

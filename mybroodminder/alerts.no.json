@@ -258,6 +258,7 @@
         "today": "I dag",
         "yesterday": "I går",
         "since": "siden",
-        "on": "på"
+        "on": "på",
+        "at": "at"
     }
 }

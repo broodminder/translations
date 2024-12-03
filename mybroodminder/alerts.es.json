@@ -258,6 +258,7 @@
         "today": "Hoy",
         "yesterday": "Ayer",
         "since": "desde",
-        "on": "en"
+        "on": "en",
+        "at": "en"
     }
 }

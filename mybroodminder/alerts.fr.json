@@ -258,6 +258,7 @@
         "today": "Aujourd'hui",
         "yesterday": "Hier",
         "since": "depuis",
-        "on": "sur"
+        "on": "sur",
+        "at": "le"
     }
 }

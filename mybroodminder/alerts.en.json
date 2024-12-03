@@ -258,6 +258,7 @@
         "today": "Today",
         "yesterday": "Yesterday",
         "since": "since",
-        "on": "on"
+        "on": "on",
+        "at": "at"
     }
 }
