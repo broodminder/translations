@@ -81,15 +81,15 @@
         "ORDER_ID": "Référencia",
         "STATUS": "Estado",
         "PRODUCT": "Producto",
-        "PRODUCT_GENERIC": "Membresía Premium MyBroodminder ({{.count}} colmenas)",
+        "PRODUCT_GENERIC": "Suscripción Premium MyBroodminder ({{.count}} colmenas)",
         "TOTAL_NOW": "Total Pago",
         "AR_DATE": "Fecha de renovación automática",
         "AR_AMOUNT": "Importe de renovación automática",
         "MANAGE_LINK": "Editar suscripción"
     },
     "CANCEL": {
-        "SUBJECT": "Membresía Premium de MyBroodMinder Cancelada",
-        "MESSAGE1": "Tu membresía Premium de MyBroodMinder ha sido cancelada.",
+        "SUBJECT": "Suscripción Premium de MyBroodMinder Cancelada",
+        "MESSAGE1": "Tu Suscripción Premium de MyBroodMinder ha sido cancelada.",
         "MESSAGE2": "Tus beneficios premium continuarán hasta el {{.date}}. Te enviaremos un recordatorio dos semanas antes de que terminen y podrá volver a suscribirse si cambia de opinión.",
         "MESSAGE3": "Tu suscripción ayuda a apoyar nuestros esfuerzos continuos para mejorar la apicultura. Muchos de los miembros de nuestro equipo ofrecen generosamente su tiempo y experiencia, pero también tenemos colegas más jóvenes que trabajan a tiempo completo y dependen de un salario."
     },
@@ -122,11 +122,11 @@
     },
     "MIGRATE":{
         "SUBJECT":"Membresía MyBroodMinder actualizada",
-        "MESSAGE1":"¡Gracias por apoyar a BroodMinder! Tu membresía MyBroodMinder ha sido actualizada.",
+        "MESSAGE1":"¡Gracias por apoyar a BroodMinder! Tu suscripción MyBroodMinder ha sido actualizada.",
         "BRAIN_TREE1":"Tu suscripción paga ha sido actualizada. Tu importe anual ha cambiado de {{.oldPrice}} a {{.newPrice}} y se cobrará el {{.date}}.",
-        "BRAIN_TREE2":"Se te ha otorgado crédito por {{.hiveCount}} colmenas adicionales. Después del {{.date}}, deberás actualizar tu membresía o desactivar colmenas.",
-        "PREPAID":"Su membresía prepago ha sido actualizada. Se te permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}.",
-        "TRIAL":"Se te ha otorgado una membresía gratuita. Se te permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}."
+        "BRAIN_TREE2":"Se te ha otorgado crédito por {{.hiveCount}} colmenas adicionales. Después del {{.date}}, deberás actualizar tu suscripción o desactivar colmenas.",
+        "PREPAID":"Tu suscripción prepago ha sido actualizada. Se te permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}.",
+        "TRIAL":"Se te ha otorgado una suscripción gratuita. Se te permiten {{.hiveCount}} colmenas y funciones completas de MyBroodMinder Premium hasta el {{.date}}."
     },
     "DATA_SUMMARY": {
         "STATUS": "Estado",
