@@ -75,6 +75,16 @@
             "MESSAGE": "Das Gewicht Ihres Bienenstocks übersteigt ",
             "SUBJECT": "Gewichtsgrenze überschritten"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "Die interne Temperatur Ihres Brutkastens überschreitet ",
+            "SUBJECT": "Hohe Temperatur"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "Die interne Temperatur Ihres Brutkastens liegt unter ",
+            "SUBJECT": "Niedrige Temperatur"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Thermisches Ereignis (x%i)",

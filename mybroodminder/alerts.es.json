@@ -75,6 +75,16 @@
             "MESSAGE": "El peso de tu colmena excede ",
             "SUBJECT": "Límite de peso excedido"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "La temperatura interna de su incubadora excede ",
+            "SUBJECT": "Temperatura alta"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "La temperatura interna de su incubadora está por debajo de ",
+            "SUBJECT": "Temperatura baja"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Evento térmico (x%i)",

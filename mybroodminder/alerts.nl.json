@@ -75,6 +75,16 @@
             "MESSAGE": "Het gewicht van uw bijenkorf overschrijdt ",
             "SUBJECT": "Gewichtsgrens overschreden"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "De interne temperatuur van uw broedstoof overschrijdt ",
+            "SUBJECT": "Hoge temperatuur"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "De interne temperatuur van uw broedstoof is lager dan ",
+            "SUBJECT": "Lage temperatuur"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Thermisch evenement (x%i)",

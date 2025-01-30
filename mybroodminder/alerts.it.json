@@ -75,6 +75,16 @@
             "MESSAGE": "Il peso del tuo alveare supera ",
             "SUBJECT": "Limite di peso superato"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "La temperatura interna del tuo incubatore supera ",
+            "SUBJECT": "Alta temperatura"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "La temperatura interna del tuo incubatore è inferiore a ",
+            "SUBJECT": "Bassa temperatura"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Evento termico (x%i)",

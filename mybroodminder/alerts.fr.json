@@ -75,6 +75,16 @@
             "MESSAGE": "Le poids de votre ruche dépasse ",
             "SUBJECT": "Limite de poids dépassée"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "La température interne de votre incubateur dépasse ",
+            "SUBJECT": "Température élevée"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "La température interne de votre incubateur est inférieure à ",
+            "SUBJECT": "Température basse"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Événement thermique (x%i)",

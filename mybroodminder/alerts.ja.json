@@ -75,6 +75,16 @@
             "MESSAGE": "巣箱の重さが ",
             "SUBJECT": "重量制限超過"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "孵化器の内部温度が超過しています",
+            "SUBJECT": "高温"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "孵化器の内部温度が以下になっています",
+            "SUBJECT": "低温"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "熱イベント (x%i)",

@@ -75,6 +75,16 @@
             "MESSAGE": "Vekten av bikuben din overstiger ",
             "SUBJECT": "Vektgrense overskredet"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "Den interne temperaturen i inkubatoren din overstiger ",
+            "SUBJECT": "Høy temperatur"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "Den interne temperaturen i inkubatoren din er under ",
+            "SUBJECT": "Lav temperatur"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Termisk hendelse (x%i)",
