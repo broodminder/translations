@@ -75,6 +75,16 @@
             "MESSAGE": "The weight of your hive exceeds ",
             "SUBJECT": "Weight limit exceeded"
         },
+        "313": {
+            "ICON": "Tmax_royale",
+            "MESSAGE": "The internal temperature of your incubator exceeds ",
+            "SUBJECT": "High temperature"
+        },
+        "314": {
+            "ICON": "Tmin_royale",
+            "MESSAGE": "The internal temperature of your incubator is below ",
+            "SUBJECT": "Low temperature"
+        },
         "320": {
             "ICON": "Tevent",
             "MESSAGE": "Thermal event (x%i)",
