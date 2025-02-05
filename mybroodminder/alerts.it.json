@@ -78,12 +78,12 @@
         "313": {
             "ICON": "Tmax_royale",
             "MESSAGE": "La temperatura interna del tuo incubatore supera ",
-            "SUBJECT": "Alta temperatura"
+            "SUBJECT": "Avviso dell'incubatrice"
         },
         "314": {
             "ICON": "Tmin_royale",
             "MESSAGE": "La temperatura interna del tuo incubatore è inferiore a ",
-            "SUBJECT": "Bassa temperatura"
+            "SUBJECT": "Avviso dell'incubatrice"
         },
         "320": {
             "ICON": "Tevent",

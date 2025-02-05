@@ -78,12 +78,12 @@
         "313": {
             "ICON": "Tmax_royale",
             "MESSAGE": "孵化器の内部温度が超過しています",
-            "SUBJECT": "高温"
+            "SUBJECT": "孵化器警告"
         },
         "314": {
             "ICON": "Tmin_royale",
             "MESSAGE": "孵化器の内部温度が以下になっています",
-            "SUBJECT": "低温"
+            "SUBJECT": "孵化器警告"
         },
         "320": {
             "ICON": "Tevent",

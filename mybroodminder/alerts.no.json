@@ -78,12 +78,12 @@
         "313": {
             "ICON": "Tmax_royale",
             "MESSAGE": "Den interne temperaturen i inkubatoren din overstiger ",
-            "SUBJECT": "Høy temperatur"
+            "SUBJECT": "Advarsel om inkubator"
         },
         "314": {
             "ICON": "Tmin_royale",
             "MESSAGE": "Den interne temperaturen i inkubatoren din er under ",
-            "SUBJECT": "Lav temperatur"
+            "SUBJECT": "Advarsel om inkubator"
         },
         "320": {
             "ICON": "Tevent",

@@ -78,12 +78,12 @@
         "313": {
             "ICON": "Tmax_royale",
             "MESSAGE": "De interne temperatuur van uw broedstoof overschrijdt ",
-            "SUBJECT": "Hoge temperatuur"
+            "SUBJECT": "Waarschuwing broedstoof"
         },
         "314": {
             "ICON": "Tmin_royale",
             "MESSAGE": "De interne temperatuur van uw broedstoof is lager dan ",
-            "SUBJECT": "Lage temperatuur"
+            "SUBJECT": "Waarschuwing broedstoof"
         },
         "320": {
             "ICON": "Tevent",

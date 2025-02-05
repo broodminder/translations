@@ -78,12 +78,12 @@
         "313": {
             "ICON": "Tmax_royale",
             "MESSAGE": "Die interne Temperatur Ihres Brutkastens überschreitet ",
-            "SUBJECT": "Hohe Temperatur"
+            "SUBJECT": "Brutkastenwarnung"
         },
         "314": {
             "ICON": "Tmin_royale",
             "MESSAGE": "Die interne Temperatur Ihres Brutkastens liegt unter ",
-            "SUBJECT": "Niedrige Temperatur"
+            "SUBJECT": "Brutkastenwarnung"
         },
         "320": {
             "ICON": "Tevent",
