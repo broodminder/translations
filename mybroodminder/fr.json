@@ -2363,7 +2363,7 @@
         "THIRDPARTY_DATA": "Données tierces non téléchargées avec votre adhésion gratuite.",
         "MISSING_FEATURE": "Cette fonctionnalité n'est pas disponible sans adhésion.",
         "MISSING_FEATURE_CLOSE": "Fermer",
-        "MISSING_FEATURE_UPGRADE": "AMÉLIORER",
+        "MISSING_FEATURE_UPGRADE": "S'ABONNER",
         "ACCOUNT_ISSUES":{
             "TITLE":"Problèmes de compte",
             "MESSAGE_PAID":"Vous disposez de {{activeHiveCount}} ruches actives. Votre adhésion autorise {{hivesAllowed}}.",

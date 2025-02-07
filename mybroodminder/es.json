@@ -2361,7 +2361,7 @@
         "THIRDPARTY_DATA": "Datos de terceros no cargados con su membresía gratuita.",
         "MISSING_FEATURE": "Esta función no está disponible sin una membresía.",
         "MISSING_FEATURE_CLOSE": "Cerrar",
-        "MISSING_FEATURE_UPGRADE": "MEJORAR",
+        "MISSING_FEATURE_UPGRADE": "SUSCRIBIR",
         "ACCOUNT_ISSUES":{
             "TITLE":"Problemas de cuenta",
             "MESSAGE_PAID":"Tienes {{activeHiveCount}} colmenas activas. Su membresía permite {{hivesAllowed}}.",
