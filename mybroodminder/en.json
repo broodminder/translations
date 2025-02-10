@@ -1801,7 +1801,7 @@
         "REQUEEN":"Requeening",
         "QUEENLINEAGE":"Queen lineage",
         "HARVEST":"Harvest",
-        "INSTALLPKG":"Installed package",
+        "INSTALLPKG":"Hived Swarm / Installed Package",
         "NUCLEUSHIVE":"Installed nucleus hive",
         "SPLITQUEENREMOVE":"Split with queen removal",
         "NECTARFLOW":"Nectar flow",
@@ -1818,7 +1818,6 @@
         "VIRGINSWARM":"Virgin swarm",
         "SWARMRETURN":"Swarm and return to hive",
         "QUEENSEEN":"Queen seen",
-        "NOBROOD":"No brood",
         "LOWBROOD":"Low brood level",
         "NORMBROOD":"Medium brood level",
         "HIGHBROOD":"High brood level",
@@ -1838,14 +1837,35 @@
         "DRONE":"Drone presence",
         "BUZZINGHIVE":"Laying workers",
         "MOSAICBROOD":"Scattered brood",
-        "QUEENCELLSEEN":"Queen cell seen"
+        "QUEENCELLSEEN":"Queen cell seen",
+        "SUPERSEDUREEMERGENCY":"Supersedure/ Emergency",
+        "YOUNGLARVA":"Young larva",
+        "OLDERLARVA":"Older larva",
+        "CAPPEDWORKERBROOD1":"Capped worker brood (1 frame)",
+        "CAPPEDWORKERBROOD2":"Capped worker brood (2 frames)",
+        "CAPPEDWORKERBROOD3":"Capped worker brood (3+ frames)",
+        "CAPPEDDRONEBROODONLY":"Capped drone brood only",
+        "NOBROOD":"No brood",
+        "NOEGG":"No egg",
+        "OPENQUEENCELL":"Open queen cell",
+        "CAPPEDQUEENCELL":"Capped queen cell",
+        "EMERGEDQUEENCELL":"Emerged queen cell",
+        "NOQUEENCELL":"No queen cell, has eggs/larvae",
+        "MATEDQUEEN":"Mated queen",
+        "BREEDERQUEENCELL":"Breeder queen cell",
+        "EMERGEDVIRGIN":"Emerged virgin",
+        "FERTILEVIRGIN":"Fertile virgin",
+        "CONFIRMEDQUEEN":"Confirmed queen"
     },
     "INSP_CATEG":{
         "BEESBROODSTG":"Brood Stages",
         "HEALTH":"Health",
         "MITES":"Mites",
         "MANAGE":"Manage",
-        "FEEDING":"Feeding"
+        "FEEDING":"Feeding",
+        "COLONYTRANSITION":"Colony Transition",
+        "CTOBSERVATIONS":"Colony Transition - Observations",
+        "CTOBSERVATIONS2":"Colony Transition - Observations (2nd)"
     },
     "ALERTS_DESC":{
         "REALTIME_SWARM_ALERT":"Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
@@ -2092,6 +2112,7 @@
                 "NECTAR":"Nectar Flow Index",
                 "HIVE_TEXT":"Hive Text",
                 "HIVE_TEXT_SUMMARY":"Text",
+                "HIVE_COLONYTRANSITION":"Colony Transition",
                 "BLOOM":"Bloom",
                 "BLOOM_FORECAST":"Bloom Forecast"
             }
@@ -2374,5 +2395,11 @@
             "MANAGE":"Manage Hives",
             "MANAGE_MESSAGE":"To add a new hive, you'll need to deactivate {{hivesOver}} of your existing hives. You can still view inactive hives (from the configure page), but not upload any new data."
         }
+    },
+    "FRAUDCHECKS":{
+        "NONE":"Status unknown, complete captcha below.",
+        "CONTACT":"If this continues, contact support@broodminder.com.",
+        "REGISTER":"Error registering, cannot create account at this time. (code: {{errorCode}})",
+        "SUBCREATE":"Error, cannot purchase subscription at this time. (code: {{errorCode}})"
     }
 }
