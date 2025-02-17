@@ -115,7 +115,7 @@
         "DESCRIPTION": "Gracias por unirte al movimiento BroodMinder. Estamos aprendiendo y compartiendo información para mejorar la comprensión y gestión de las abejas.",
         "DESCRIPTION_1": "Consulte nuestras actualizaciones de primavera de 2020, incluidas las actualizaciones de 'SwarmMinder' para sus dispositivos BroodMinder-T2. Ver el vídeo ",
         "DESCRIPTION_1_LINK": "aqui.",
-        "DESCRIPTION_2": " Agradecemos a Google y a <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  su soporte generoso al programa BroodMinder Citizen Science.",
+        "DESCRIPTION_2": " Agradecemos a Google y a <a href=\"https://weathersource.com\" target=\"_blank\">WeatherSource.com</a>  tu soporte generoso al programa BroodMinder Citizen Science.",
         "LINKS": {
             "TITLE": "Enlaces",
             "LOGIN": "Conexión",
@@ -623,7 +623,7 @@
             "BUTTON": "Editar ubicación",
             "COORDINATE": "Coordenadas",
             "TITLE": "Editar ubicación Colmenar",
-            "INFO": "Esta ubicación se utiliza tanto para consultar el tiempo como para mostrar su colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la ubicación exacta de su colmenar.",
+            "INFO": "Esta ubicación se utiliza tanto para consultar el tiempo como para mostrar tu colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la ubicación exacta de tu colmenar.",
             "POSTAL_ERROR": "Las coordenadas que has seleccionado están fuera del código postal del apiario. Esto no puede ser cambiado.",
             "POSTAL_CHANGE": {
                 "TITLE": "Cambiar Código Postal",
@@ -862,7 +862,7 @@
             "BUTTON": "Cambiar Email Cuenta",
             "TITLE": "Cambiar Email Cuenta",
             "ERROR": "Ocurrió un error. El email no ha cambiado.",
-            "REFRESH_ERROR": "Cambiar el email de su cuenta requiere una autenticación reciente. Inicie sesión de nuevo antes de volver a intentar este cambio.",
+            "REFRESH_ERROR": "Cambiar el email de tu cuenta requiere una autenticación reciente. Inicie sesión de nuevo antes de volver a intentar este cambio.",
             "CURRENT_EMAIL": "Email vigente",
             "NEW_EMAIL": "Nuevo email",
             "SAVE_BUTTON": "Guardar Email"
@@ -902,7 +902,7 @@
                 "EMAIL_ERROR": "Este correo electrónico no coincide con tu cuenta."
             },
             "REQUEST_ERROR": "Error, no se ha podido realizar la solicitud.",
-            "DELETE_ERROR": "Se ha producido un error al eliminar su cuenta. Póngase en contacto con support@broodminder.com para finalizar la eliminación de la cuenta. (ReferenceID:{{id}})"
+            "DELETE_ERROR": "Se ha producido un error al eliminar tu cuenta. Póngase en contacto con support@broodminder.com para finalizar la eliminación de la cuenta. (ReferenceID:{{id}})"
         },
         "TIER_SUB": {
             "SUMMARY": {
@@ -1030,7 +1030,7 @@
             },
             "CANCEL": {
                 "TITLE": "Cancelar token",
-                "CONFIRM": "Esto elimina el token de su suscripción. El importe de su nueva suscripción {{Frequency}} es de {{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
+                "CONFIRM": "Esto elimina el token de tu suscripción. El importe de tu nueva suscripción {{Frequency}} es de {{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
                 "OK": "Si, retirar token",
                 "ERROR_1": "Esta es una suscripción gratuita, el token no se puede cancelar",
                 "ERROR_2": "Esta suscripción está cancelada, el token no se puede cancelar",
@@ -1128,7 +1128,7 @@
         "EXT_SUBTITLE": "Compartir colmenar con otros sitios",
         "USER": {
             "TITLE": "Usuarios MyBroodMinder",
-            "INFO": "El usuario  debe tener una cuenta en MyBroodMinder. Se les permitirá ver los datos de su colmenar y colmena, sin poder aportar cambios.",
+            "INFO": "El usuario  debe tener una cuenta en MyBroodMinder. Se les permitirá ver los datos de tu colmenar y colmena, sin poder aportar cambios.",
             "ADD_TOOLTIP": "Añadir usuario",
             "ADD_USER": "Entrar email",
             "SHARE_BUTTON": "Compartir",
@@ -1140,9 +1140,9 @@
         "BEECOUNTED": {
             "CHECKBOX": "BeeCounted.org",
             "CHANGED": "Colmenar actualizado",
-            "INFO_CHECKED": "Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
-            "INFO_UNCHECKED": "Por favor, considere compartir sus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
-            "INFO_NON_PREMIUM": "Todos los datos almacenados para los usuarios con cuenta standard son de dominio público. Los datos pueden hacerse privados suscribiendo a una formula Premium. Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y su medio ambiente",
+            "INFO_CHECKED": "Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y tu medio ambiente",
+            "INFO_UNCHECKED": "Por favor, considere compartir sus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y tu medio ambiente",
+            "INFO_NON_PREMIUM": "Todos los datos almacenados para los usuarios con cuenta standard son de dominio público. Los datos pueden hacerse privados suscribiendo a una formula Premium. Gracias por compartir tus datos. Estás ayudando a los investigadores de todo el mundo a mejorar los conocimientos sobre las abejas melíferas y tu medio ambiente",
             "EXPIRED": "Tu suscripción Premium ha finalizado. Los datos anteriores al {{end}} se mantendrán privados."
         },
         "BIP": {
@@ -1396,7 +1396,7 @@
                 "NOT_FOUND": "No encontrado",
                 "EDIT": {
                     "TITLE": "Actualizar el método de pago",
-                    "WARN": "Eliminar el método de pago de la suscripción sin verificar primero y actualizar a uno nuevo cancelará su suscripción. ",
+                    "WARN": "Eliminar el método de pago de la suscripción sin verificar primero y actualizar a uno nuevo cancelará tu suscripción. ",
                     "UPDATE_BUTTON": "Actualizar Pago"
                 }
             },
@@ -1919,7 +1919,7 @@
         "312": {
             "NAME": "Límite de peso excedido",
             "DESCR": "Se activa cuando se supera el umbral de peso indicado.",
-            "MSG": "El peso de su colmena excede {VAL}"
+            "MSG": "El peso de tu colmena excede {VAL}"
         },
         "321": {
             "NAME": "Enjambrazón",
@@ -1943,17 +1943,17 @@
         },
         "401": {
             "NAME": "Bateria baja",
-            "DESCR": "Se activa cuando el nivel de la batería de su sensor está por debajo del umbral seleccionado.",
+            "DESCR": "Se activa cuando el nivel de la batería de tu sensor está por debajo del umbral seleccionado.",
             "MSG": ""
         },
         "401b": {
             "NAME": "Bateria baja",
-            "DESCR": "Se activa cuando el nivel de la batería de su sensor de peso está por debajo del umbral seleccionado.",
+            "DESCR": "Se activa cuando el nivel de la batería de tu sensor de peso está por debajo del umbral seleccionado.",
             "MSG": "Cambiar la bateria de "
         },
         "401t": {
             "NAME": "Bateria baja",
-            "DESCR": "Se activa cuando el nivel de la batería de su sensor de temperatura está por debajo del umbral seleccionado.",
+            "DESCR": "Se activa cuando el nivel de la batería de tu sensor de temperatura está por debajo del umbral seleccionado.",
             "MSG": "Cambiar la bateria de "
         },
         "402": {
@@ -1963,12 +1963,12 @@
         },
         "402t": {
             "NAME": "Desconexión",
-            "DESCR": "Se activa cuando su sensor de temperatura ya no transmite datos durante el último día.",
+            "DESCR": "Se activa cuando tu sensor de temperatura ya no transmite datos durante el último día.",
             "MSG": "{REF} desconectado desde {DATE}"
         },
         "402w": {
             "NAME": "Desconexión",
-            "DESCR": "Se activa cuando su sensor de peso ya no transmite datos durante el último día.",
+            "DESCR": "Se activa cuando tu sensor de peso ya no transmite datos durante el último día.",
             "MSG": "{REF} desconectado desde {DATE}"
         },
         "403b": {
@@ -1978,12 +1978,12 @@
         },
         "403t": {
             "NAME": "Señal deficiente",
-            "DESCR": "Se activa cuando su sensor de temperatura transmite pocos datos durante el último día.",
+            "DESCR": "Se activa cuando tu sensor de temperatura transmite pocos datos durante el último día.",
             "MSG": " señal deficiente desde {DATE}"
         },
         "404": {
             "NAME": "Sin señal de la estación meteorológica",
-            "DESCR": "Estación meteorológica interrumpe la transmision de datos. Requiere su propia estación meteorológica.",
+            "DESCR": "Estación meteorológica interrumpe la transmision de datos. Requiere tu propia estación meteorológica.",
             "MSG": "Error de transmision de datos desde {DATE}"
         },
         "405": {
@@ -1993,7 +1993,7 @@
         },
         "406": {
             "NAME": "Colmena muerta",
-            "DESCR": "Nuestro algoritmo detecta cada día si su colmena está muerta basándose en diferentes parámetros que hemos establecido.",
+            "DESCR": "Nuestro algoritmo detecta cada día si tu colmena está muerta basándose en diferentes parámetros que hemos establecido.",
             "MSG": "Tu colmena ha sido detectada muerta"
         }
     },
@@ -2294,7 +2294,7 @@
             "CHART_FILTER": {
                 "TITLE": "Filtros de gráficos",
                 "TEXT_1": "Haz clic para ampliar.",
-                "TEXT_2": "Haga clic para eliminar y añadir datos a su gráfico."
+                "TEXT_2": "Haga clic para eliminar y añadir datos a tu gráfico."
             }
         },
         "EXTRAS": {
@@ -2316,7 +2316,7 @@
             },
             "HIVE_COLOR": {
                 "TITLE": "Personalizar el color de la colmena",
-                "TEXT_1": "Edite su colmena para cambiar el color. Esto es personalizable para que pueda ver fácilmente múltiples colmenas en el mismo tablero.",
+                "TEXT_1": "Edite tu colmena para cambiar el color. Esto es personalizable para que pueda ver fácilmente múltiples colmenas en el mismo tablero.",
                 "TEXT_2": "Esto también se puede hacer para cada uno de sus colmenares para especificar el color del tiempo."
             }
         },
@@ -2349,29 +2349,29 @@
         }
     },
     "MEMBERSHIP_BLOCKS": {
-        "DASHBOARD_DATA": "Este panel muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
-        "CHART_DATA": "Este gráfico muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
-        "DASHBOARD_ADD": "Solo se permite un tablero personalizado con su membresía gratuita.",
-        "UNLOCK": "Mejore su cuenta para desbloquear esta función.",
-        "HIVE_ADD_FREE": "Tiene {{activeHiveCount}} colmenas activas. Su membresía gratuita permite {{hivesAllowed}}.",
-        "HIVE_ADD": "Tiene {{activeHiveCount}} colmenas activas. Su membresía permite {{hivesAllowed}}.",
-        "HOME_PAGE": "Esta vista muestra datos calculados. Su membresía gratuita no incluye estas analíticas.",
-        "DATE_PICKER": "El rango de 13 meses y la previsión no están disponibles con una membresía gratuita.",
-        "HUB_DATA": "Datos del hub no cargados con su membresía gratuita.",
-        "THIRDPARTY_DATA": "Datos de terceros no cargados con su membresía gratuita.",
-        "MISSING_FEATURE": "Esta función no está disponible sin una membresía.",
+        "DASHBOARD_DATA": "Este panel muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
+        "CHART_DATA": "Este gráfico muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
+        "DASHBOARD_ADD": "Solo se permite un tablero personalizado con tu abono gratuito.",
+        "UNLOCK": "Mejore tu cuenta para desbloquear esta función.",
+        "HIVE_ADD_FREE": "Tiene {{activeHiveCount}} colmenas activas. Tu abono gratuito permite {{hivesAllowed}}.",
+        "HIVE_ADD": "Tiene {{activeHiveCount}} colmenas activas. Tu abono permite {{hivesAllowed}}.",
+        "HOME_PAGE": "Esta vista muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
+        "DATE_PICKER": "El rango de 13 meses y la previsión no están disponibles con un abono gratuito.",
+        "HUB_DATA": "Datos del hub no cargados con Tu abono gratuito.",
+        "THIRDPARTY_DATA": "Datos de terceros no cargados con tu tu abono gratuito.",
+        "MISSING_FEATURE": "Esta función no está disponible sin un abono Premium.",
         "MISSING_FEATURE_CLOSE": "Cerrar",
         "MISSING_FEATURE_UPGRADE": "SUSCRIBIR",
         "ACCOUNT_ISSUES":{
             "TITLE":"Problemas de cuenta",
-            "MESSAGE_PAID":"Tienes {{activeHiveCount}} colmenas activas. Su membresía permite {{hivesAllowed}}.",
-            "MESSAGE_FREE":"Tienes una membresía gratuita. La actualización permite más colmenas y funciones.",
-            "MESSAGE_COMP":"Tienes una membresía gratuita. Puede comprar una membresía para obtener más colmenas.",
+            "MESSAGE_PAID":"Tienes {{activeHiveCount}} colmenas activas. Tu abono permite {{hivesAllowed}}.",
+            "MESSAGE_FREE":"Tienes un abono gratuito. La actualización permite más colmenas y funciones.",
+            "MESSAGE_COMP":"Tienes un abono gratuito. Puedes comprar un abono para obtener más colmenas.",
             "PURCHASE":"Compra",
             "UPGRADE":"Mejora",
             "FEATURES":"Verificar características",
             "MANAGE":"Administrar colmenas",
-            "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberá desactivar {{hivesOver}} de sus colmenas existentes. Aún puede ver colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
+            "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberá desactivar {{hivesOver}} de tus colmenas existentes. Aún puede ver colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
         }
     }
 }
