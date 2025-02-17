@@ -2365,13 +2365,13 @@
         "ACCOUNT_ISSUES":{
             "TITLE":"Problemas de cuenta",
             "MESSAGE_PAID":"Tienes {{activeHiveCount}} colmenas activas. Tu abono permite {{hivesAllowed}}.",
-            "MESSAGE_FREE":"Tienes un abono gratuito. La actualización permite más colmenas y funciones.",
+            "MESSAGE_FREE":"Tienes un abono gratuito. Pasar a Premium te permite más colmenas y funcionalidades.",
             "MESSAGE_COMP":"Tienes un abono gratuito. Puedes comprar un abono para obtener más colmenas.",
-            "PURCHASE":"Compra",
-            "UPGRADE":"Mejora",
-            "FEATURES":"Verificar características",
+            "PURCHASE":"Comprar",
+            "UPGRADE":"Aumentar",
+            "FEATURES":"Verificar funcionalidades",
             "MANAGE":"Administrar colmenas",
-            "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberá desactivar {{hivesOver}} de tus colmenas existentes. Aún puede ver colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
+            "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberás desactivar {{hivesOver}} de tus colmenas existentes. Aún puedes ver las colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
         }
     }
 }
