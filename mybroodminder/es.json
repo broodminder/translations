@@ -623,8 +623,8 @@
             "BUTTON": "Editar ubicación",
             "COORDINATE": "Coordenadas",
             "TITLE": "Editar ubicación Colmenar",
-            "INFO": "Esta ubicación se utiliza tanto para consultar el tiempo como para mostrar tu colmenar a sitios compartidos como BeeCounted.org. Esto se divulga con sus datos de dominio público y no debería ser la ubicación exacta de tu colmenar.",
-            "POSTAL_ERROR": "Las coordenadas que has seleccionado están fuera del código postal del apiario. Esto no puede ser cambiado.",
+            "INFO": "Esta ubicación se utiliza 1/ para el servicio meteorológico y 2/ para situar tu colmenar en BeeCounted.org. Esto no debería ser la ubicación exacta de tu colmenar.",
+            "POSTAL_ERROR": "Las coordenadas que has seleccionado están fuera del código postal del colmenar. Esto no puede ser cambiado.",
             "POSTAL_CHANGE": {
                 "TITLE": "Cambiar Código Postal",
                 "TEXT": "¿Le gustaría cambiar el colmenar por un nuevo código postal {{value}}?",
@@ -702,7 +702,7 @@
         },
         "MOVE": {
             "TITLE": "Desplazar colmena",
-            "EXP": "Todos los datos de esta colmena permanecen iguales, pero esto colocará a la colmena en el colmenar seleccionado a partir de esta fecha. Esto se refleja en los datos meteorológicos y en las vistas del apiario.",
+            "EXP": "Todos los datos de esta colmena permanecen iguales, pero esto colocará a la colmena en el colmenar seleccionado a partir de esta fecha. Esto se refleja en los datos meteorológicos y en las vistas del colmenar.",
             "DAY": "Nueva ubicación día de inicio",
             "TIME": "Tiempo",
             "SELECT_APIARY": "Seleccionar colmenar",
@@ -906,21 +906,21 @@
         },
         "TIER_SUB": {
             "SUMMARY": {
-                "FREE": "Membresía gratuita",
-                "COMP": "Membresía de cortesía",
-                "PAID": "Suscripción de membresía",
+                "FREE": "Abono gratuito",
+                "COMP": "Abono de cortesía",
+                "PAID": "Suscripción de abono",
                 "ALLOWED": "{{count}} colmenas permitidas"
             },
             "PAID": {
-                "TITLE": "Suscripción de membresía",
-                "PURCHASE": "Comprar membresía",
+                "TITLE": "Suscripción de abono",
+                "PURCHASE": "Comprar abono",
                 "ALLOWED": "Actualmente {{count}} colmenas permitidas",
                 "NEXT": "Próxima renovación ({{date}}), {{count}} colmenas permitidas",
                 "CANCELED": "Cancelado - Expira el {{date}}",
                 "CANCELED_PAST": "Cancelado - Expirado el {{date}}"
             },
             "COMP": {
-                "TITLE": "Membresía de cortesía",
+                "TITLE": "Abono de cortesía",
                 "ALLOWED": "Colmenas permitidas",
                 "END": "Fecha de finalización",
                 "EXPIRED": "expirado"
@@ -1280,13 +1280,13 @@
         "HIVE_LIMIT": "5 colmenas",
         "MONTH_LIMIT": "13 meses",
         "DASHBOARD_LIMIT": "1 panel personalizado",
-        "PURCHASE_MEMBERSHIP": "Compra de membresía Premium",
-        "CHANGE_MEMBERSHIP": "Cambiar membresía",
+        "PURCHASE_MEMBERSHIP": "Suscribe tu abono Premium",
+        "CHANGE_MEMBERSHIP": "Cambiar abono",
         "LOGIN": "Iniciar sesión/registrarse"
     },
     "PURCHASE": {
         "SUMMARY": {
-            "TITLE": "Compra de una membresía Premium",
+            "TITLE": "Compra de un abono Premium",
             "TOTAL": "Total",
             "ERROR_1": "Ya has comprado una suscripción. Haz clic",
             "ERROR_LINK": "aquí",
@@ -1295,7 +1295,7 @@
             "ADD_ERROR_2": "aquí",
             "ADD_ERROR_3": "para añadir tokens a la suscripción actual.",
             "CANCELED1": "Tienes una suscripción cancelada con {{count}} colmenas permitidas.",
-            "CANCELED2": " Es válida hasta {{date}}. Si compras una nueva membresía antes de esa fecha, sobrescribirás tu membresía anterior."
+            "CANCELED2": "Es válida hasta {{date}}. Si compras una nueva suscripción antes de esa fecha, se sobrescribirá la anterior."
         },
         "BUY": {
             "TOTAL": "Total",
@@ -1312,14 +1312,14 @@
             "COMPLETE": "Completar compra"
         },
         "ADDITIONAL": {
-            "TITLE": "Editar membresía actual",
+            "TITLE": "Editar abono actual",
             "DECREASE": "Reducción de colmenas, actualmente tienes {{count}} colmenas y deberás eliminar {{removeCount}} cuando se renueve la suscripción",
             "INCREASE": "Aumentar, prorrateo de cargos",
             "REINSTATE": "Restablecer, no se cobrará en este momento",
             "DECREASE_OK": "Reducción de {{count}} colmenas, expirará en la fecha de renovación",
             "CHANGE": {
                 "TITLE": "Cambiar suscripción",
-                "ADDITIONAL": "El cambio de nivel se cobrará a tu membresía. Se cobrará {{price}} ahora a tu tarjeta en tu suscripción.",
+                "ADDITIONAL": "El cambio de nivel se cargara en tu abono. Se cargaran {{price}} ahora a tu tarjeta en tu suscripción.",
                 "NONE": "No tienes ningún cargo adicional en este momento. Pero el nuevo monto de tu renovación ha aumentado a {{price}}.",
                 "DECREASE": "Has reducido tu nivel de suscripción. Continuarás en el nivel superior hasta la fecha de renovación. El monto de tu renovación ha disminuido a {{price}}.",
                 "CONFIRM": "Realizar pago"
@@ -1336,7 +1336,7 @@
         "PAY": {
             "TITLE": "Información del pago",
             "RENEW_DISCLAIMER": "Suscripción con renovación automática. Se cobrarán {{amount}} {{frequency}}.",
-            "VERIFY_BUTTON": "Verificar Metodo de Pago",
+            "VERIFY_BUTTON": "Verificar el Método de Pago",
             "PAY_BUTTON": "Pagar",
             "COMPLETE": {
                 "ID": "Transacción",
@@ -2366,14 +2366,14 @@
             "TITLE": "Inicio",
             "MISSING": "¡Lo que te falta!",
             "DESCR_HIVES": "Una vista rápida del estado actual de tus colmenas. Mostrando notas, alertas y estadísticas de salud.",
-            "DESCR_APIARIES": "Una vista rápida del estado actual de tu apiario. Mostrando notas, alertas, clima y pronósticos."
+            "DESCR_APIARIES": "Una vista rápida del estado actual de tu colmenar. Mostrando notas, alertas, clima y pronósticos."
         }
     },
     "MEMBERSHIP_BLOCKS": {
         "DASHBOARD_DATA": "Este panel muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
         "CHART_DATA": "Este gráfico muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
         "DASHBOARD_ADD": "Solo se permite un tablero personalizado con tu abono gratuito.",
-        "UNLOCK": "Mejore tu cuenta para desbloquear esta función.",
+        "UNLOCK": "Mejore tu cuenta para desbloquear esta funcionalidad.",
         "HIVE_ADD_FREE": "Tiene {{activeHiveCount}} colmenas activas. Tu abono gratuito permite {{hivesAllowed}}.",
         "HIVE_ADD": "Tiene {{activeHiveCount}} colmenas activas. Tu abono permite {{hivesAllowed}}.",
         "HOME_PAGE": "Esta vista muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",

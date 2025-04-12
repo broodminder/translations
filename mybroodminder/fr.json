@@ -217,7 +217,7 @@
 	},
 	"APIARY_PAGE": {
 		"SELECT":"Sélectionner une vue",
-		"PREMIUM_EXP":"La sélection de plage horaire pour cette vue est disponible avec un abonnement premium.",
+		"PREMIUM_EXP":"La sélection de plage horaire pour cette vue est disponible avec un abonnement Premium.",
 		"TEXT": {
 			"TITLE":"Texte",
             "DESCRIPTION":"Cette vue affiche le relevé le plus récent téléchargé pour chaque position dans chaque ruche.",
@@ -230,7 +230,7 @@
 		"SUMMARY": {
 			"TITLE":"Résumé",
 			"DESCRIPTION":"Cette vue affiche des graphiques combinés par type de données. Les détails affichés suivent les valeurs par défaut de la vue de la ruche, mais peuvent être définis par ruche dans les paramètres de la ruche",
-			"PREMIUM_EXP":"Cette vue est disponible avec un abonnement premium. Exemple illustré ci-dessous.",
+			"PREMIUM_EXP":"Cette vue est disponible avec un abonnement Premium. Exemple illustré ci-dessous.",
 			"TEMP": {
 				"TITLE":"Températures du rucher",
 				"NONE":"Pas de données de température",
@@ -296,8 +296,8 @@
         "DEVICE_DATA_ONLY":"Données dans les graphiques, pas actuellement dans la ruche",
         "DOWNLOAD":"Télécharger les données au format CSV",
         "DOWNLOAD_WEATHER":"Télécharger les données météo au format CSV",
-        "DOWNLOAD_PREMIUM":"Téléchargement des données de la ruche disponible avec un abonnement premium.",
-        "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement premium.",
+        "DOWNLOAD_PREMIUM":"Téléchargement des données de la ruche disponible avec un abonnement Premium.",
+        "DOWNLOAD_WEATHER_PREMIUM":"Téléchargement des données météorologiques disponibles avec un abonnement Premium.",
         "INACTIVE":"Inactif depuis le {{date}}"
     },
     "DEVICE_PAGE": {
@@ -501,7 +501,7 @@
 			"MESSAGE":"Souhaitez-vous effacer cette note ?",
 			"CONFIRM":"Oui"
 		},
-        "PREMIUM_EXP":"Téléchargement des notes disponible avec un abonnement premium.",
+        "PREMIUM_EXP":"Téléchargement des notes disponible avec un abonnement Premium.",
         "NO_DESCRIPTION":"Pas de description"
 	},
     "CHARTS": {
@@ -908,12 +908,12 @@
             "SUMMARY": {
                 "FREE": "Adhésion gratuite",
                 "COMP": "Adhésion offerte",
-                "PAID": "Abonnement payant",
+                "PAID": "Abonnement Premium",
                 "ALLOWED": "{{count}} ruches autorisées"
             },
             "PAID": {
-                "TITLE": "Abonnement payant",
-                "PURCHASE": "Acheter un abonnement",
+                "TITLE": "Abonnement Premium",
+                "PURCHASE": "Suscrire un abonnement",
                 "ALLOWED": "Actuellement {{count}} ruches autorisées",
                 "NEXT": "Prochain renouvellement ({{date}}), {{count}} ruches autorisées",
                 "CANCELED": "Annulé - Expire le {{date}}",
@@ -1037,7 +1037,7 @@
                 "ERROR_3":"Ceci est un jeton gratuit et ne peut pas être annulé",
                 "ERROR_4":"Ce jeton n'est pas renouvelé automatiquement et ne peut pas être annulé",
                 "ERROR_5":"Ce jeton a déjà été annulé",
-                "ERROR_6":"Ce jeton est gratuit avec votre abonnement et ne peut pas être annulé. Visitez la page du compte si vous souhaitez annuler votre abonnement premium",
+                "ERROR_6":"Ce jeton est gratuit avec votre abonnement et ne peut pas être annulé. Visitez la page du compte si vous souhaitez annuler votre abonnement Premium",
                 "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être annulé",
                 "SUCCESS":"Jeton annulé"
             },
@@ -1060,7 +1060,7 @@
                 "MONTHS":"Mois",
                 "MONTHS_SELECT":"mois",    
                 "OK":"Acheter",
-                "ERROR_1":"Vous devez d'abord acheter un abonnement premium. Afficher les options",
+                "ERROR_1":"Vous devez d'abord souscrire un abonnement Premium. Afficher les options",
                 "ERROR_1_LINK":"ici",
                 "CHARGED":"Montant prélevé",
                 "TOTAL":"Coût total de l'abonnement {{frequency}}",
@@ -1280,13 +1280,13 @@
         "HIVE_LIMIT": "5 ruches",
         "MONTH_LIMIT": "13 mois",
         "DASHBOARD_LIMIT": "1 tableau de bord personnalisé",
-        "PURCHASE_MEMBERSHIP": "Acheter un abonnement Premium",
+        "PURCHASE_MEMBERSHIP": "Souscrire un abonnement Premium",
         "CHANGE_MEMBERSHIP": "Changer d'abonnement",
         "LOGIN": "Se connecter/s'enregistrer"
     },
     "PURCHASE": {
         "SUMMARY": {
-            "TITLE": "Achat d'un abonnement Premium",
+            "TITLE": "Souscription de votre abonnement Premium",
             "TOTAL": "Total",
             "ERROR_1": "Vous avez déjà acheté un abonnement. Cliquez",
             "ERROR_LINK": "ici",
@@ -1301,7 +1301,7 @@
             "TOTAL": "Total",
             "TOTAL_NOW": "Total (à payer)",
             "NEXT_PAY": "Prochain paiement ({{date}})",
-            "PURCHASE": "Acheter",
+            "PURCHASE": "Valider",
             "SELECT": "Sélectionner les ruches autorisées",
             "SELECTION": "{{count}} ruches autorisées",
             "SELECTION_CURRENT": "(actuel)",
@@ -1410,7 +1410,7 @@
         "MONTH_ERROR":"Les abonnements mensuels ne sont plus pris en charge pour les nouveaux achats. Pour ajouter des jetons, vous devez annuler votre abonnement actuel et créer un nouvel abonnement Premium.",
         "SHOW_EXPIRED":"Montrer Echus",
         "MEMEBERSHIPS":{
-            "TITLE":"Adhésion",
+            "TITLE":"Abonnement",
             "PRE_PAID":"Pre-Payé",
             "FREE":"Gratuit",
             "TRIAL":"Abonnement d'essai"
@@ -2388,7 +2388,7 @@
             "TITLE":"Problèmes de compte",
             "MESSAGE_PAID":"Vous disposez de {{activeHiveCount}} ruches actives. Votre adhésion autorise {{hivesAllowed}}.",
             "MESSAGE_FREE":"Vous bénéficiez d'un abonnement gratuit. La mise à niveau permet davantage de ruches et de fonctionnalités.",
-            "MESSAGE_COMP":"Vous bénéficiez d’un abonnement gratuit. Vous pouvez acheter un abonnement pour plus de ruches.",
+            "MESSAGE_COMP":"Vous bénéficiez d’un abonnement gratuit. Vous pouvez souscrire un abonnement pour plus de ruches.",
             "PURCHASE":"Achat",
             "UPGRADE":"Mise à niveau",
             "FEATURES":"Vérifier les fonctionnalités",
@@ -2400,6 +2400,6 @@
     "NONE": "Statut inconnu, veuillez compléter le captcha ci-dessous.",
     "CONTACT": "Si le problème persiste, contactez support@broodminder.com.",
     "REGISTER": "Erreur lors de l’enregistrement, impossible de créer un compte pour le moment. (code : {{errorCode}})",
-    "SUBCREATE": "Erreur, impossible d’acheter un abonnement pour le moment. (code : {{errorCode}})"
+    "SUBCREATE": "Erreur, impossible de souscrire l'abonnement pour le moment. (code : {{errorCode}})"
 }
 }
