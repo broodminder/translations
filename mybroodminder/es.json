@@ -1091,9 +1091,9 @@
         "DELETE_ERROR": "Error suprimiendo sensor",
         "THIRD_PARTY": {
             "ADD": "Añadir dispositivo de terceros",
-            "ERROR_NO_CREDIT": "No hay token asignado, los datos no se están recogiendo",
-            "ERROR_TOKEN_EXPIRED_SOFT": "Token caducado, los datos dejarán de recogerse en breve",
-            "ERROR_TOKEN_EXPIRED": "Token caducado, los datos no se recogen"
+            "ERROR_NO_CREDIT": "Sin abono Premium, no se están registrando datos",
+            "ERROR_TOKEN_EXPIRED_SOFT": "Abono Premium expirado, los datos dejarán de registrarse pronto",
+            "ERROR_TOKEN_EXPIRED": "Abono Premium expirado, no se están registrando datos"
         }
     },
     "UNAUTHORIZED_PAGE": {
@@ -1818,7 +1818,6 @@
         "VIRGINSWARM": "Enjambre con reina virgen",
         "SWARMRETURN": "Enjambre de retorno a la colmena",
         "QUEENSEEN": "Reina vista",
-        "NOBROOD": "Sin cría",
         "LOWBROOD": "Bajo nivel de cría",
         "NORMBROOD": "Medio nivel de cría",
         "HIGHBROOD": "Alto nivel de cría",
@@ -1838,14 +1837,35 @@
         "DRONE": "Zángano",
         "BUZZINGHIVE": "Zánganera",
         "MOSAICBROOD": "Cria en mosaico",
-        "QUEENCELLSEEN": "Celula real"
+        "QUEENCELLSEEN": "Celula real",
+        "SUPERSEDUREEMERGENCY": "Sustitución de reina / emergencia",
+        "YOUNGLARVA": "Larvas jóvenes",
+        "OLDERLARVA": "Larvas más desarrolladas",
+        "CAPPEDWORKERBROOD1": "Cría operculada de obrera (1 cuadro)",
+        "CAPPEDWORKERBROOD2": "Cría operculada de obrera (2 cuadros)",
+        "CAPPEDWORKERBROOD3": "Cría operculada de obrera (3 o más cuadros)",
+        "CAPPEDDRONEBROODONLY": "Solo cría operculada de zángano",
+        "NOBROOD": "Sin cría",
+        "NOEGG": "Sin huevos",
+        "OPENQUEENCELL": "Celdilla real abierta",
+        "CAPPEDQUEENCELL": "Celdilla real operculada",
+        "EMERGEDQUEENCELL": "Celdilla real emergida",
+        "NOQUEENCELL": "Sin celdilla real, hay huevos/larvas",
+        "MATEDQUEEN": "Reina fecundada",
+        "BREEDERQUEENCELL": "Celdilla real seleccionada",
+        "EMERGEDVIRGIN": "Reina virgen emergida",
+        "FERTILEVIRGIN": "Reina virgen fértil",
+        "CONFIRMEDQUEEN": "Reina confirmada"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Etapas de cría",
         "HEALTH": "Salud",
         "MITES": "Varroa",
         "MANAGE": "Gestión",
-        "FEEDING": "Alimentación"
+        "FEEDING": "Alimentación",
+        "COLONYTRANSITION": "Colonia en transición",
+        "CTOBSERVATIONS": "Colonia en transición - Observaciones",
+        "CTOBSERVATIONS2": "Colonia en transición - Observaciones (2ª)"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "Evento de temperatura calculado por el dispositivo T2. Solo se notifica a los dispositivos ubicados en las camaras de cría conectados en tiempo real con un Hub"
@@ -2024,7 +2044,7 @@
             "REALTIME_INPUT": "Email tiempo real (Separados por comas)",
             "BTN_MAIL_TEST": "Enviar un email de verificación",
             "EMAIL": {
-                "SUMMARY_BODY": "Este es un email de pruebas para el envío de alertas de resumen de MyBroodMinder.",
+                "SUMMARY_BODY": "Este es un email de prueba para el envío de alertas de resumen de MyBroodMinder.",
                 "REALTIME_BODY": "Este es un email de prueba para el envío de alertas en tiempo real de MyBroodMinder.",
                 "SUCCESS": "Email enviado a {{email}}",
                 "FAIL": "Email no se pudo enviar a {{email}}"
@@ -2092,6 +2112,7 @@
                 "NECTAR": "Indice de Nectar",
                 "HIVE_TEXT": "Texto de la colmena",
                 "HIVE_TEXT_SUMMARY": "Texto",
+                "HIVE_COLONYTRANSITION":"Colonia en Transición",
                 "BLOOM": "Bloom",
                 "BLOOM_FORECAST": "Bloom Forecast"
             }
@@ -2373,5 +2394,11 @@
             "MANAGE":"Administrar colmenas",
             "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberás desactivar {{hivesOver}} de tus colmenas existentes. Aún puedes ver las colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
         }
+    },
+"FRAUDCHECKS": {
+    "NONE": "Estado desconocido, completa el captcha a continuación.",
+    "CONTACT": "Si el problema persiste, contacta con support@broodminder.com.",
+    "REGISTER": "Error al registrarse, no se puede crear la cuenta en este momento. (código: {{errorCode}})",
+    "SUBCREATE": "Error, no se puede adquirir el abono en este momento. (código: {{errorCode}})"
     }
 }

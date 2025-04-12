@@ -731,7 +731,7 @@
             "TITLE":"Ajouter un appareil tiers",
             "PROVIDER":"Choisisser le fournisseur",
             "YOLINK_EXPLANATION":"Scanner le code QR sur votre dispositif YoLink pour obtenir le SN à 32 chiffres.",
-            "CREDIT_EXPLANATION":"Un jeton d'adhésion premium est nécessaire pour collecter des données à partir de dispositifs tiers",
+            "CREDIT_EXPLANATION":"Un abonnement Premium est nécessaire pour collecter des données à partir de dispositifs tiers",
             "NAME_REQUIRED":"Nom requis",
             "YOLINK_SN_REQUIRED":"YoLink SN requis",
             "ERROR_YOLINK_NOT_FOUND":"Dispositif YoLink introuvable, vérifiez que vous avez le bon SN",
@@ -926,7 +926,6 @@
                 "EXPIRED": "expiré"
             }
         }
-
     },
     "PREFERENCES": {
         "TIMEZONE":"Fuseau horaire",
@@ -1092,9 +1091,9 @@
         "DELETE_ERROR":"Erreur de suppression du capteur",
         "THIRD_PARTY":{
             "ADD":"Ajouter appareil tiers",
-            "ERROR_NO_CREDIT":"Aucun jeton attribué, les données ne sont pas collectées",
-            "ERROR_TOKEN_EXPIRED_SOFT":"Le jeton a expiré, les données cesseront bientôt d'être collectées",
-            "ERROR_TOKEN_EXPIRED":"Jeton expiré, les données ne sont pas collectées"
+            "ERROR_NO_CREDIT":"Aucun abonnement, les données ne sont pas collectées",
+            "ERROR_TOKEN_EXPIRED_SOFT":"L'abonnement a expiré, les données ne seront bientôt plus collectées",
+            "ERROR_TOKEN_EXPIRED":"Abonnement Premium expiré, les données ne sont pas collectées"
         }
     },
     "UNAUTHORIZED_PAGE": {
@@ -1819,7 +1818,6 @@
         "VIRGINSWARM":"Essaim avec reine vierge",
         "SWARMRETURN":"Essaim revenu à la ruche",
         "QUEENSEEN":"Reine vue",
-        "NOBROOD":"Pas de couvain",
         "LOWBROOD":"Niveau couvain faible ",
         "NORMBROOD":"Niveau couvain normal",
         "HIGHBROOD":"Niveau couvain elevé",
@@ -1835,18 +1833,39 @@
         "EGG":"Présence d'oeufs",
         "LARVA":"Présence de larves",
         "PUPA":"Présence de couvain operculé",
-        "DRONEBROOD":"Présence de couvain de male",
-        "DRONE":"Présence de males",
-        "BUZZINGHIVE":"Bourdonneuse",
-        "MOSAICBROOD":"Mosaique couvain",
-        "QUEENCELLSEEN":"Présence de cellules royales"
+        "DRONEBROOD": "Présence de couvain de faux-bourdons",
+        "DRONE": "Présence de faux-bourdons",
+        "BUZZINGHIVE": "Bourdonneuse",
+        "MOSAICBROOD": "Couvain en mosaïque",
+        "QUEENCELLSEEN": "Cellule royale observée",
+        "SUPERSEDUREEMERGENCY": "Remérage / urgence",
+        "YOUNGLARVA": "Jeunes larves",
+        "OLDERLARVA": "Larves plus âgées",
+        "CAPPEDWORKERBROOD1": "Couvain operculé d’ouvrières (1 cadre)",
+        "CAPPEDWORKERBROOD2": "Couvain operculé d’ouvrières (2 cadres)",
+        "CAPPEDWORKERBROOD3": "Couvain operculé d’ouvrières (3 cadres ou plus)",
+        "CAPPEDDRONEBROODONLY": "Uniquement du couvain de faux-bourdons operculé",
+        "NOBROOD": "Pas de couvain",
+        "NOEGG": "Pas d’œufs",
+        "OPENQUEENCELL": "Cellule royale ouverte",
+        "CAPPEDQUEENCELL": "Cellule royale operculée",
+        "EMERGEDQUEENCELL": "Cellule royale émergée",
+        "NOQUEENCELL": "Pas de cellule royale, œufs/larves présents",
+        "MATEDQUEEN": "Reine fécondée",
+        "BREEDERQUEENCELL": "Cellule royale sélectionnée",
+        "EMERGEDVIRGIN": "Reine vierge émergée",
+        "FERTILEVIRGIN": "Reine vierge féconde",
+        "CONFIRMEDQUEEN": "Reine confirmée"
     },
     "INSP_CATEG":{
         "BEESBROODSTG":"Etapes du Couvain",
         "HEALTH":"Santé",
         "MITES":"Acariens",
         "MANAGE":"Gérer",
-        "FEEDING":"Alimentation"
+        "FEEDING":"Alimentation",
+        "COLONYTRANSITION":"Colonie en Transition",
+        "CTOBSERVATIONS":"Colonie en Transition - Observations",
+        "CTOBSERVATIONS2":"Colonie en Transition - Observations (2e)"
     },
     "ALERTS_DESC":{
         "REALTIME_SWARM_ALERT":"Événement de température calculé par l'appareil T2. Uniquement notifié pour les appareils au-dessus ou au-dessous des cadres à couvain utilisant un hub en temps réel."
@@ -2093,6 +2112,7 @@
                 "NECTAR":"Indice de Miellée",
                 "HIVE_TEXT":"Texte de la ruche",
                 "HIVE_TEXT_SUMMARY":"Texte",
+                "HIVE_COLONYTRANSITION":"Colonie en Transition",
                 "BLOOM":"Bloom",
                 "BLOOM_FORECAST":"Bloom Forecast"
             }
@@ -2375,5 +2395,11 @@
             "MANAGE":"Gérer les ruches",
             "MANAGE_MESSAGE":"Pour ajouter une nouvelle ruche, vous devrez désactiver {{hivesOver}} de vos ruches existantes. Vous pouvez toujours afficher les ruches inactives (à partir de la page de configuration), mais vous ne pouvez pas télécharger de nouvelles données."
         }
-    }
+    },
+    "FRAUDCHECKS": {
+    "NONE": "Statut inconnu, veuillez compléter le captcha ci-dessous.",
+    "CONTACT": "Si le problème persiste, contactez support@broodminder.com.",
+    "REGISTER": "Erreur lors de l’enregistrement, impossible de créer un compte pour le moment. (code : {{errorCode}})",
+    "SUBCREATE": "Erreur, impossible d’acheter un abonnement pour le moment. (code : {{errorCode}})"
+}
 }

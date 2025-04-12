@@ -731,7 +731,7 @@
             "TITLE":"Add Third Party Device",
             "PROVIDER":"Choose Provider",
             "YOLINK_EXPLANATION":"Scan the QR code on your YoLink Device to get the 32 digit SN.",
-            "CREDIT_EXPLANATION":"A premium membership token is needed to collect data from third party devices",
+            "CREDIT_EXPLANATION":"A Premium membership is needed to collect data from third party devices",
             "NAME_REQUIRED":"Name required",
             "YOLINK_SN_REQUIRED":"YoLink SN required",
             "ERROR_YOLINK_NOT_FOUND":"YoLink device not found, check you have the correct sn",
@@ -1091,9 +1091,9 @@
         "DELETE_ERROR": "Error deleting device",
         "THIRD_PARTY":{
             "ADD":"Add Third Party Device",
-            "ERROR_NO_CREDIT":"No token assigned, data not being collected",
-            "ERROR_TOKEN_EXPIRED_SOFT":"Token expired, data will stop being collected soon",
-            "ERROR_TOKEN_EXPIRED":"Token expired, data not being collected"
+            "ERROR_NO_CREDIT": "No Premium membership, data not being collected",
+            "ERROR_TOKEN_EXPIRED_SOFT": "Premium membership expired, data will stop being collected soon",
+            "ERROR_TOKEN_EXPIRED": "Premium membership expired, data not being collected"
         }
     },
     "UNAUTHORIZED_PAGE": {
@@ -2294,7 +2294,6 @@
                 "TITLE":"Click Apiary",
                 "TEXT":"Click an apiary to add or remove its hives from your display."
             }
-
         },
         "DASH":{
             "DASHBOARDS":{
