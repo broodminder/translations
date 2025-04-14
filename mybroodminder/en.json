@@ -92,6 +92,12 @@
             "TITLE":"WeatherSource Weather",
             "TEXT":"This weather data is coming from WeatherSource. It is based off of the postal code provided on your apiary."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Plants",
+            "ADD_PLANT":"Add Plant",
+            "ADD_OBS":"Add Observation",
+            "EDIT": "Edit Plant"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "shared with me",
         "NEW_FEATURES":"New Features",
@@ -2113,6 +2119,7 @@
                 "HIVE_TEXT":"Hive Text",
                 "HIVE_TEXT_SUMMARY":"Text",
                 "HIVE_COLONYTRANSITION":"Colony Transition",
+                "HIVE_COLONYTRANSITION_CAL":"Colony Transition Calendar",
                 "BLOOM":"Bloom",
                 "BLOOM_FORECAST":"Bloom Forecast"
             }
@@ -2244,6 +2251,15 @@
                 "SUNRISE":"Sunrise",
                 "INITIAL":"Initial",
                 "LATEST":"Latest"
+            },
+            "PLANT_FORECAST":{
+                "TITLE":"Bloom Forecast",
+                "APIARY":"Apiary",
+                "PLANT":"Plant",
+                "DESCRIPTION":"Description",
+                "BBCH":"BBCH",
+                "FORECAST":"Forecast Date",
+                "DAYS":"days"
             }
         }
     },
@@ -2400,5 +2416,114 @@
         "CONTACT":"If this continues, contact support@broodminder.com.",
         "REGISTER":"Error registering, cannot create account at this time. (code: {{errorCode}})",
         "SUBCREATE":"Error, cannot purchase subscription at this time. (code: {{errorCode}})"
+    },
+    "PLANTS":{
+        "CONFIG_PAGE":{
+            "POLLEN_INT":"Pollen interest",
+            "NECTAR_INT":"Nectar interest",
+            "POLLEN_COLOR":"Pollen color",
+            "BLOOM_START":"Bloom start",
+            "BLOOM_END":"Bloom end",
+            "PHENO":"Phenocast",
+            "ACTIVE":"Active",
+            "INACTIVE":"Inactive",
+            "TABLE":{
+                "TITLE":"Phenological Observations",
+                "YEAR":"Year",
+                "ADD":"Add Older Observation",
+                "DATE":"Date",
+                "CANCEL":"Cancel",
+                "DELETE":{
+                    "TOOLTIP":"Delete observation",
+                    "TITLE":"Delete Observation",
+                    "TEXT":"Are you sure you want to delete this observation?",
+                    "YES":"Yes, delete observation",
+                    "NO":"Cancel",
+                    "SUCCESS":"Observation Deleted"
+                }
+            }
+        },
+        "NEW_APIARY":{
+            "TITLE":"Add plants to your apiary?",
+            "TEXT":"Great! You've created a new apiary. Would you like to add some plants that are important for your bees?",
+            "YES":"Yes",
+            "NO":"No"
+        },
+        "ADD_OBSERVATION":{
+            "TITLE":"Plant Observation",
+            "SELECT":"Select Plant",
+            "DATE":"Date of observation",
+            "TIMESTAMP":"Timestamp",
+            "NOTE":"Note",
+            "SELECT_PHENO":"Select pheno stage",
+            "CLOSE":"Close",
+            "SAVE_CLOSE":"Save and close",
+            "SAVE_CONTINUE":"Save and continue observations",
+            "CREATED_COUNT":"Created {{count}} observations this session",
+            "CREATED":"Observation created",
+            "ERROR":"Error creating observation",
+            "PLANT_CHANGE":{
+                "TITLE":"Make observation for another plant?",
+                "TEXT":"You will lose the current observation. Would you like to continue?",
+                "YES":"Continue without changes",
+                "NO":"Cancel"
+            }
+        },
+        "ADD_CONFIGURATION":{
+            "TITLE":"Plant Configuration",
+            "PLANT":"Plant",
+            "SEARCH":"Type to search",
+            "DESCR":"Description",
+            "SELECT":"Select plant",
+            "CREATED":"Plant created",
+            "CREATED_ERROR":"Error creating plant",
+            "UPDATED":"Plant updated",
+            "UPDATED_ERROR":"Error updating plant",
+            "ADVANCED":{
+                "TITLE":"Advanced",
+                "CONDITIONS":"Conditions",
+                "OPEN":"open",
+                "BLOOMSTART":"Bloom Start",
+                "BLOOMEND":"Bloom End",
+                "DAY":"Day",
+                "MONTH":"Month",
+                "AVAILABILITY":"Availability",
+                "AVAIL_NO":"No presence",
+                "AVAIL_LOW":"Low presence",
+                "AVAIL_AVERAGE":"Average presence",
+                "AVAIL_STRONG":"Strong presence",
+                "EDIT_CURRENT":"Edit current conditions",
+                "ENVIRON_CHANGE":"Environment change",
+                "ENVIRON_CHANGE_DATE":"Environment Change Date"
+            },
+            "OBS":{
+                "TITLE":"Add an observation to your plant?",
+                "TEXT":"Great! You've created a new plant. Would you like to add an observation to your plant?",
+                "YES":"Yes",
+                "NO":"No"
+            }
+        }
+    },
+    "LINKS":{
+        "EDU_DASH":"Educational Dashboard",
+        "VIDEO_GUIDES":"Video Guides",
+        "DOC":"Online Doc",
+        "DOCUMENTATION":"Online Documentation",
+        "CONSULTING":"Consulting Services",
+        "STORES":"US and EU stores",
+        "THIRD_PARTY":"Third Party Integrations"
+    },
+    "HOME_V2":{
+        "TITLE":"Thank you for choosing BroodMinder!",
+        "TOP_MSG":" Your dedication to beekeeping drives everything we do. With the right tools, you can gain deeper insights into your bees and care for them more effectively. We hope these solutions help you make informed decisions and support the health of your colonies.",
+        "TITLE_RIGHT":"Watch our intro video",
+        "LOGIN":"Login to MyBroodMinder",
+        "TXT_1":"There's so much you can achieve with BroodMinder!",
+        "TXT_2":"Your journey begins with MyBroodMinder and the Bees App.",
+        "TXT_3":"New here? Start with our Quick Start Guide",
+        "TXT_4":"Experienced user? Explore our videos and online documentation for deeper insights.",
+        "TXT_5":"Get started and make the most of your beekeeping data!",
+        "PRIVACY":"Privacy Policy",
+        "TERMS":"Terms of Use"
     }
 }

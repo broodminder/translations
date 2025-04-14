@@ -2397,9 +2397,9 @@
         }
     },
     "FRAUDCHECKS": {
-    "NONE": "Statut inconnu, veuillez compléter le captcha ci-dessous.",
-    "CONTACT": "Si le problème persiste, contactez support@broodminder.com.",
-    "REGISTER": "Erreur lors de l’enregistrement, impossible de créer un compte pour le moment. (code : {{errorCode}})",
-    "SUBCREATE": "Erreur, impossible de souscrire l'abonnement pour le moment. (code : {{errorCode}})"
-}
+        "NONE": "Statut inconnu, veuillez compléter le captcha ci-dessous.",
+        "CONTACT": "Si le problème persiste, contactez support@broodminder.com.",
+        "REGISTER": "Erreur lors de l’enregistrement, impossible de créer un compte pour le moment. (code : {{errorCode}})",
+        "SUBCREATE": "Erreur, impossible de souscrire l'abonnement pour le moment. (code : {{errorCode}})"
+    }
 }

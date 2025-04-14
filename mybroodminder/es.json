@@ -2395,10 +2395,10 @@
             "MANAGE_MESSAGE":"Para agregar una nueva colmena, deberás desactivar {{hivesOver}} de tus colmenas existentes. Aún puedes ver las colmenas inactivas (desde la página de configuración), pero no cargar ningún dato nuevo."
         }
     },
-"FRAUDCHECKS": {
-    "NONE": "Estado desconocido, completa el captcha a continuación.",
-    "CONTACT": "Si el problema persiste, contacta con support@broodminder.com.",
-    "REGISTER": "Error al registrarse, no se puede crear la cuenta en este momento. (código: {{errorCode}})",
-    "SUBCREATE": "Error, no se puede adquirir el abono en este momento. (código: {{errorCode}})"
+    "FRAUDCHECKS": {
+        "NONE": "Estado desconocido, completa el captcha a continuación.",
+        "CONTACT": "Si el problema persiste, contacta con support@broodminder.com.",
+        "REGISTER": "Error al registrarse, no se puede crear la cuenta en este momento. (código: {{errorCode}})",
+        "SUBCREATE": "Error, no se puede adquirir el abono en este momento. (código: {{errorCode}})"
     }
 }
