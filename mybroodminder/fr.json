@@ -92,6 +92,12 @@
             "TITLE":"Météo WeatherSource",
             "TEXT":"Ces données météorologiques proviennent de WeatherSource. Elles sont basées sur le code postal fourni sur votre rucher."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Plantes",
+            "ADD_PLANT":"Nouvelle plante",
+            "ADD_OBS":"Nouvelle observation",
+            "EDIT": "Modifier la plante"
+        },
 		"HUB_TOOLTIP":"Hub",
 		"SHARED_TOOLTIP":"Partagé avec moi",
         "NEW_FEATURES":"Nouvelles fonctionnalités",
@@ -2244,6 +2250,15 @@
                 "SUNRISE":"Lever du soleil",
                 "INITIAL":"Initial",
                 "LATEST":"Dernier"
+            },
+            "PLANT_FORECAST":{
+                "TITLE":"Prévision de floraison",
+                "APIARY":"Rucher",
+                "PLANT":"Plante",
+                "DESCRIPTION":"Description",
+                "BBCH":"BBCH",
+                "FORECAST":"Date de prévision",
+                "DAYS":"jours"
             }
         }
     },
@@ -2401,5 +2416,114 @@
         "CONTACT": "Si le problème persiste, contactez support@broodminder.com.",
         "REGISTER": "Erreur lors de l’enregistrement, impossible de créer un compte pour le moment. (code : {{errorCode}})",
         "SUBCREATE": "Erreur, impossible de souscrire l'abonnement pour le moment. (code : {{errorCode}})"
+    },
+    "PLANTS":{
+        "CONFIG_PAGE":{
+            "POLLEN_INT":"Intérêt pollinique",
+            "NECTAR_INT":"Intérêt nectarifère",
+            "POLLEN_COLOR":"Couleur du pollen",
+            "BLOOM_START":"Début de floraison",
+            "BLOOM_END":"Fin de floraison",
+            "PHENO":"Phenocast",
+            "ACTIVE":"Actif",
+            "INACTIVE":"Inactif",
+            "TABLE":{
+                "TITLE":"Observations phénologiques",
+                "YEAR":"Année",
+                "ADD":"Ajouter une observation antérieure",
+                "DATE":"Date",
+                "CANCEL":"Annuler",
+                "DELETE":{
+                    "TOOLTIP":"Supprimer l'observation",
+                    "TITLE":"Supprimer l'observation",
+                    "TEXT":"Êtes-vous sûr de vouloir supprimer cette observation ?",
+                    "YES":"Oui, supprimer l'observation",
+                    "NO":"Annuler",
+                    "SUCCESS":"Observation supprimée"
+                }
+            }
+        },
+        "NEW_APIARY":{
+            "TITLE":"Ajouter des plantes à votre rucher ?",
+            "TEXT":"Super ! Vous avez créé un nouveau rucher. Souhaitez-vous ajouter des plantes méllifères ?",
+            "YES":"Oui",
+            "NO":"Non"
+        },
+        "ADD_OBSERVATION":{
+            "TITLE":"Observation de plante",
+            "SELECT":"Sélectionner une plante",
+            "DATE":"Date de l'observation",
+            "TIMESTAMP":"Horodatage",
+            "NOTE":"Remarque",
+            "SELECT_PHENO":"Sélectionner le stade phénologique",
+            "CLOSE":"Fermer",
+            "SAVE_CLOSE":"Enregistrer et fermer",
+            "SAVE_CONTINUE":"Enregistrer et continuer les observations",
+            "CREATED_COUNT":"{{count}} observations créées lors de cette session",
+            "CREATED":"Observation créée",
+            "ERROR":"Erreur lors de la création de l'observation",
+            "PLANT_CHANGE":{
+                "TITLE":"Observer une autre plante ?",
+                "TEXT":"Vous allez perdre l'observation en cours. Voulez-vous continuer ?",
+                "YES":"Continuer sans modifications",
+                "NO":"Annuler"
+            }
+        },
+        "ADD_CONFIGURATION":{
+            "TITLE":"Configuration de plante",
+            "PLANT":"Plante",
+            "SEARCH":"Tapez pour rechercher",
+            "DESCR":"Description",
+            "SELECT":"Sélectionner une plante",
+            "CREATED":"Plante créée",
+            "CREATED_ERROR":"Erreur lors de la création de la plante",
+            "UPDATED":"Plante mise à jour",
+            "UPDATED_ERROR":"Erreur lors de la mise à jour de la plante",
+            "ADVANCED":{
+                "TITLE":"Avancé",
+                "CONDITIONS":"Conditions",
+                "OPEN":"ouverte",
+                "BLOOMSTART":"Début de floraison",
+                "BLOOMEND":"Fin de floraison",
+                "DAY":"Jour",
+                "MONTH":"Mois",
+                "AVAILABILITY":"Disponibilité",
+                "AVAIL_NO":"Absente",
+                "AVAIL_LOW":"Faible présence",
+                "AVAIL_AVERAGE":"Présence moyenne",
+                "AVAIL_STRONG":"Forte présence",
+                "EDIT_CURRENT":"Modifier les conditions actuelles",
+                "ENVIRON_CHANGE":"Changement environnemental",
+                "ENVIRON_CHANGE_DATE":"Date du changement environnemental"
+            },
+            "OBS":{
+                "TITLE":"Ajouter une observation à votre plante ?",
+                "TEXT":"Super ! Vous avez créé une nouvelle plante. Souhaitez-vous ajouter une observation ?",
+                "YES":"Oui",
+                "NO":"Non"
+            }
+        }
+    },
+    "LINKS":{
+        "EDU_DASH":"Tableau de bord éducatif",
+        "VIDEO_GUIDES":"Guides vidéo",
+        "DOC":"Documentation en ligne",
+        "DOCUMENTATION":"Documentation en ligne",
+        "CONSULTING":"Services de conseil",
+        "STORES":"Boutiques US et UE",
+        "THIRD_PARTY":"Intégrations tierces"
+    },
+    "HOME_V2":{
+        "TITLE":"Merci d’avoir choisi BroodMinder !",
+        "TOP_MSG":"Votre engagement pour l’apiculture est au cœur de notre mission. Avec les bons outils, vous pouvez mieux comprendre vos abeilles et en prendre soin efficacement. Nous espérons que nos solutions vous aideront à prendre des décisions éclairées et à soutenir la santé de vos colonies.",
+        "TITLE_RIGHT":"Regardez notre vidéo d’introduction",
+        "LOGIN":"Connexion à MyBroodMinder",
+        "TXT_1":"Vous pouvez accomplir tellement avec BroodMinder !",
+        "TXT_2":"Votre aventure commence avec MyBroodMinder et l’application Bees.",
+        "TXT_3":"Nouveau ici ? Commencez avec notre guide de démarrage rapide",
+        "TXT_4":"Utilisateur expérimenté ? Explorez nos vidéos et notre documentation en ligne pour aller plus loin.",
+        "TXT_5":"Lancez-vous et exploitez tout le potentiel de vos données apicoles !",
+        "PRIVACY":"Politique de confidentialité",
+        "TERMS":"Conditions d'utilisation"
+        }
     }
-}

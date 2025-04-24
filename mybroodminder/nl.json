@@ -92,6 +92,12 @@
             "TITLE": "WeatherSource Weather",
             "TEXT": "This weather data is coming from WeatherSource. It is based off of the ;ostal code provided on your apiary."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Planten",
+            "ADD_PLANT":"Plant toevoegen",
+            "ADD_OBS":"Observatie toevoegen",
+            "EDIT": "Plant bewerken"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "Gedeeld met mij",
         "NEW_FEATURES": "New Features",
@@ -475,18 +481,18 @@
             "11": "Dev"
         }
     },
-    "DATE_PICKER_SHORT": {
-        "HOURS_24": "24 Hours",
-        "DAYS_1": "1 day",
-        "DAYS_3": "3 days",
-        "DAYS_7": "7 days",
-        "DAYS_14": "14 days",
-        "DAYS_30": "30 days",
-        "DAYS_90": "90 days",
-        "DAYS_180": "180 days",
-        "YEAR_1": "1 year",
-        "YEAR_2": "2 years",
-        "MONTHS_13": "13 maanden"
+"DATE_PICKER_SHORT": {
+    "HOURS_24": "24 uur",
+    "DAYS_1": "1 dag",
+    "DAYS_3": "3 dagen",
+    "DAYS_7": "7 dagen",
+    "DAYS_14": "14 dagen",
+    "DAYS_30": "30 dagen",
+    "DAYS_90": "90 dagen",
+    "DAYS_180": "180 dagen",
+    "YEAR_1": "1 jaar",
+    "YEAR_2": "2 jaar",
+    "MONTHS_13": "13 maanden"
     },
     "NOTES": {
         "TITLE": "{{value}} Notities",
