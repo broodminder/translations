@@ -2501,7 +2501,15 @@
                 "TEXT":"Super ! Vous avez créé une nouvelle plante. Souhaitez-vous ajouter une observation ?",
                 "YES":"Oui",
                 "NO":"Non"
-            }
+            },
+            "OBSERVATION":"Observation"
+        },
+        "DELETE_CONFIGURATION":{
+            "TITLE":"Supprimer l'usine",
+            "TEXT":"Êtes-vous sûr de vouloir supprimer cette configuration d'usine ?",
+            "YES":"Oui, supprimer la plante",
+            "NO":"Annuler",
+            "SUCCESS":"Plante supprimée"
         }
     },
     "LINKS":{

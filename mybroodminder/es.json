@@ -2500,7 +2500,15 @@
                 "TEXT":"¡Genial! Has creado una nueva planta. ¿Te gustaría añadir una observación a tu planta?",
                 "YES":"Sí",
                 "NO":"No"
-            }
+            },
+            "OBSERVATION":"Observación"
+        },
+        "DELETE_CONFIGURATION":{
+            "TITLE":"Eliminar planta",
+            "TEXT":"¿Está seguro de que desea eliminar esta configuración de planta?",
+            "YES":"Sí, eliminar planta",
+            "NO":"Cancelar",
+            "SUCCESS":"Planta eliminada"
         }
     },
     "LINKS":{
