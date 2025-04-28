@@ -1738,7 +1738,14 @@
                 "TITLE": "Sesiones de vuelo de apareamiento",
                 "YAXIS": "Sesiones/día",
                 "FILTER": "Sesiones de vuelo de apareamiento",
-                "UNIT": "ssesiones/día"
+                "UNIT":"sesiones/día"
+            },
+            "PLANT_BLOOM":{
+                "FILTER_DAILY":"Período de floración",
+                "YAXIS":"Planta"
+            },
+            "PHENO_FORECAST":{
+                "FILTER_DAILY":"Etapas fenológicas"
             }
         }
     },
@@ -1861,7 +1868,10 @@
         "BREEDERQUEENCELL": "Celdilla real seleccionada",
         "EMERGEDVIRGIN": "Reina virgen emergida",
         "FERTILEVIRGIN": "Reina virgen fértil",
-        "CONFIRMEDQUEEN": "Reina confirmada"
+        "CONFIRMEDQUEEN": "Reina confirmada",
+        "INSTALLEDPACKAGE":"Paquete de abejas instalado (reina fecundada)",
+        "INSTALLEDPRIMARYSWARM":"Enjambre primario instalado (reina fecundada)",
+        "INSTALLEDSECONDARYSWARM":"Enjambre secundario instalado (reina virgen)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Etapas de cría",
@@ -2119,6 +2129,7 @@
                 "HIVE_TEXT": "Texto de la colmena",
                 "HIVE_TEXT_SUMMARY": "Texto",
                 "HIVE_COLONYTRANSITION":"Colonia en Transición",
+                "HIVE_COLONYTRANSITION_CAL":"Calendario de transición de la colonia",
                 "BLOOM": "Bloom",
                 "BLOOM_FORECAST": "Bloom Forecast"
             }
@@ -2478,6 +2489,7 @@
             "CREATED_ERROR":"Error al crear la planta",
             "UPDATED":"Planta actualizada",
             "UPDATED_ERROR":"Error al actualizar la planta",
+            "INFO":"¿No encuentras una planta? Envíanos un mensaje a support@broodminder.com para solicitar una nueva.",
             "ADVANCED":{
                 "TITLE":"Avanzado",
                 "CONDITIONS":"Condiciones",

@@ -1739,6 +1739,13 @@
                 "YAXIS":"Séances/jour",
                 "FILTER":"Séances de vol d'accouplement",
                 "UNIT":"séances/jour"
+            },
+            "PLANT_BLOOM":{
+                "FILTER_DAILY":"Période de floraison",
+                "YAXIS":"Plante"
+            },
+            "PHENO_FORECAST":{
+                "FILTER_DAILY":"Stades phénologiques"
             }
         }
     },
@@ -1861,7 +1868,10 @@
         "BREEDERQUEENCELL": "Cellule royale sélectionnée",
         "EMERGEDVIRGIN": "Reine vierge émergée",
         "FERTILEVIRGIN": "Reine vierge féconde",
-        "CONFIRMEDQUEEN": "Reine confirmée"
+        "CONFIRMEDQUEEN": "Reine confirmée",
+        "INSTALLEDPACKAGE":"Paquet d'abeilles installé (reine fécondée)",
+        "INSTALLEDPRIMARYSWARM":"Essaim primaire installé (reine fécondée)",
+        "INSTALLEDSECONDARYSWARM":"Essaim secondaire installé (reine vierge)"
     },
     "INSP_CATEG":{
         "BEESBROODSTG":"Etapes du Couvain",
@@ -2119,8 +2129,9 @@
                 "HIVE_TEXT":"Texte de la ruche",
                 "HIVE_TEXT_SUMMARY":"Texte",
                 "HIVE_COLONYTRANSITION":"Colonie en Transition",
-                "BLOOM":"Bloom",
-                "BLOOM_FORECAST":"Bloom Forecast"
+                "HIVE_COLONYTRANSITION_CAL":"Calendrier de transition de la colonie",
+                "BLOOM":"Floraison",
+                "BLOOM_FORECAST":"Prévision de Floraison"
             }
         },
         "CHART":{
@@ -2309,7 +2320,6 @@
                 "TITLE":"Cliquez sur Rucher",
                 "TEXT":"Cliquez sur un rucher pour ajouter ou retirer ses ruches de votre présentation."
             }
-
         },
         "DASH":{
             "DASHBOARDS":{
@@ -2479,6 +2489,7 @@
             "CREATED_ERROR":"Erreur lors de la création de la plante",
             "UPDATED":"Plante mise à jour",
             "UPDATED_ERROR":"Erreur lors de la mise à jour de la plante",
+            "INFO":"Vous ne trouvez pas une plante ? Envoyez-nous un message à support@broodminder.com pour en demander une nouvelle.",
             "ADVANCED":{
                 "TITLE":"Avancé",
                 "CONDITIONS":"Conditions",
@@ -2505,8 +2516,8 @@
             "OBSERVATION":"Observation"
         },
         "DELETE_CONFIGURATION":{
-            "TITLE":"Supprimer l'usine",
-            "TEXT":"Êtes-vous sûr de vouloir supprimer cette configuration d'usine ?",
+            "TITLE":"Supprimer plante",
+            "TEXT":"Êtes-vous sûr de vouloir supprimer cette configuration de plante ?",
             "YES":"Oui, supprimer la plante",
             "NO":"Annuler",
             "SUCCESS":"Plante supprimée"
