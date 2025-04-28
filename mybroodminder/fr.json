@@ -2526,10 +2526,10 @@
     "LINKS":{
         "EDU_DASH":"Tableau de bord éducatif",
         "VIDEO_GUIDES":"Guides vidéo",
-        "DOC":"Documentation en ligne",
-        "DOCUMENTATION":"Documentation en ligne",
+        "DOC":"Guide utilisateur",
+        "DOCUMENTATION":"Guide de l'utilisateur",
         "CONSULTING":"Services de conseil",
-        "STORES":"Boutiques US et UE",
+        "STORES":"Boutique en ligne",
         "THIRD_PARTY":"Intégrations tierces"
     },
     "HOME_V2":{

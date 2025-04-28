@@ -2526,10 +2526,10 @@
     "LINKS":{
         "EDU_DASH":"Panel educativo",
         "VIDEO_GUIDES":"Guías en video",
-        "DOC":"Documento en línea",
-        "DOCUMENTATION":"Documentación en línea",
+        "DOC":"Guía del usuario",
+        "DOCUMENTATION":"Guía del usuario",
         "CONSULTING":"Servicios de consultoría",
-        "STORES":"Tiendas de EE. UU. y UE",
+        "STORES":"Tienda online",
         "THIRD_PARTY":"Integraciones de terceros"
     },
     "HOME_V2":{
