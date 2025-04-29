@@ -2114,11 +2114,11 @@
                 "WEIGHT_CHANGE":"Weight Change",
                 "TEMP":"Temperature",
                 "HUMID":"Humidity",
-                "BEECOUNT":"Bee Count",
+                "BEECOUNT":"Forager activity",
                 "RAIN":"Rain",
                 "WIND":"Wind",
                 "CLOUD_COVER":"Cloud Cover",
-                "MATING_FLIGHTS":"Mating Flight Window",
+                "MATING_FLIGHTS":"Mating Flight Hours",
                 "BATTERY":"Battery",
                 "BROOD":"Brood",
                 "NOTES":"Notes",
@@ -2130,7 +2130,7 @@
                 "HIVE_TEXT_SUMMARY":"Text",
                 "HIVE_COLONYTRANSITION":"Colony Transition",
                 "HIVE_COLONYTRANSITION_CAL":"Colony Transition Calendar",
-                "BLOOM":"Bloom",
+                "BLOOM":"Plant timeline",
                 "BLOOM_FORECAST":"Bloom Forecast"
             }
         },

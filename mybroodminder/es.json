@@ -2114,13 +2114,13 @@
                 "WEIGHT_CHANGE": "Variacion de Peso",
                 "TEMP": "Temperatura",
                 "HUMID": "Humedad",
-                "BEECOUNT": "Contador abejas",
+                "BEECOUNT": "Actividad de pecoreo",
                 "RAIN": "Lluvia",
                 "WIND": "Viento",
                 "CLOUD_COVER": "Cubierto de nubes",
-                "MATING_FLIGHTS": "Ventana de vuelo de apareamiento",
+                "MATING_FLIGHTS": "Horas de apareamiento",
                 "BATTERY": "Batería",
-                "BROOD": "Cria",
+                "BROOD": "Cría",
                 "NOTES": "Notas",
                 "APIARY_IMAGE": "Imagen Colmenar",
                 "APIARY_MAP": "Mapa de Colmenares",
@@ -2130,7 +2130,7 @@
                 "HIVE_TEXT_SUMMARY": "Texto",
                 "HIVE_COLONYTRANSITION":"Colonia en Transición",
                 "HIVE_COLONYTRANSITION_CAL":"Calendario de transición de la colonia",
-                "BLOOM": "Bloom",
+                "BLOOM": "Calendario de Plantas",
                 "BLOOM_FORECAST": "Bloom Forecast"
             }
         },
@@ -2429,8 +2429,8 @@
     },
     "PLANTS":{
         "CONFIG_PAGE":{
-            "POLLEN_INT":"Interés por el polen",
-            "NECTAR_INT":"Interés por el néctar",
+            "POLLEN_INT":"Interés polen",
+            "NECTAR_INT":"Interés néctar",
             "POLLEN_COLOR":"Color del polen",
             "BLOOM_START":"Inicio de floración",
             "BLOOM_END":"Fin de floración",

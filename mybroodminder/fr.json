@@ -2114,11 +2114,11 @@
                 "WEIGHT_CHANGE":"Variation de poids",
                 "TEMP":"Température",
                 "HUMID":"Humidité",
-                "BEECOUNT":"Compteur d'abeilles",
+                "BEECOUNT":"Activité des butineuses",
                 "RAIN":"Pluie",
                 "WIND":"Vent",
                 "CLOUD_COVER":"Couverture nuageuse",
-                "MATING_FLIGHTS":"Fenêtre de vol",
+                "MATING_FLIGHTS":"Heures d'accouplement",
                 "BATTERY":"Batterie",
                 "BROOD":"Couvain",
                 "NOTES":"Notes",
@@ -2130,7 +2130,7 @@
                 "HIVE_TEXT_SUMMARY":"Texte",
                 "HIVE_COLONYTRANSITION":"Colonie en Transition",
                 "HIVE_COLONYTRANSITION_CAL":"Calendrier de transition de la colonie",
-                "BLOOM":"Floraison",
+                "BLOOM":"Calendrier des Plantes",
                 "BLOOM_FORECAST":"Prévision de Floraison"
             }
         },
