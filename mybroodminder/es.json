@@ -2460,7 +2460,7 @@
             "NO":"No"
         },
         "ADD_OBSERVATION":{
-            "TITLE":"Observación de planta",
+            "TITLE":"Nueva Observación",
             "SELECT":"Seleccionar planta",
             "DATE":"Fecha de la observación",
             "TIMESTAMP":"Marca de tiempo",
@@ -2480,7 +2480,7 @@
             }
         },
         "ADD_CONFIGURATION":{
-            "TITLE":"Configuración de planta",
+            "TITLE":"Nueva planta",
             "PLANT":"Planta",
             "SEARCH":"Escribe para buscar",
             "DESCR":"Descripción",

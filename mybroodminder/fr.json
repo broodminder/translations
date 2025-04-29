@@ -2460,7 +2460,7 @@
             "NO":"Non"
         },
         "ADD_OBSERVATION":{
-            "TITLE":"Observation de plante",
+            "TITLE":"Nouvelle Observation",
             "SELECT":"Sélectionner une plante",
             "DATE":"Date de l'observation",
             "TIMESTAMP":"Horodatage",
@@ -2480,7 +2480,7 @@
             }
         },
         "ADD_CONFIGURATION":{
-            "TITLE":"Configuration de plante",
+            "TITLE":"Nouvelle plante",
             "PLANT":"Plante",
             "SEARCH":"Tapez pour rechercher",
             "DESCR":"Description",
@@ -2517,7 +2517,7 @@
         },
         "DELETE_CONFIGURATION":{
             "TITLE":"Supprimer plante",
-            "TEXT":"Êtes-vous sûr de vouloir supprimer cette configuration de plante ?",
+            "TEXT":"Êtes-vous sûr de vouloir supprimer cette plante ?",
             "YES":"Oui, supprimer la plante",
             "NO":"Annuler",
             "SUCCESS":"Plante supprimée"
