@@ -2489,7 +2489,8 @@
             "CREATED_ERROR":"Error creating plant",
             "UPDATED":"Plant updated",
             "UPDATED_ERROR":"Error updating plant",
-            "INFO":"Not finding a plant? Send us a note at support@broodminder.com to request a new plant.",
+            "MISSING":"Not finding a plant?",
+            "INFO":"Click here to request a new plant.",
             "ADVANCED":{
                 "TITLE":"Advanced",
                 "CONDITIONS":"Conditions",
