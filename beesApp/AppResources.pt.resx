@@ -450,6 +450,12 @@
     <data name="NO_BLUETOOTH">
         <value>Bluetooth desligado, o aplicativo pode não funcionar como esperado</value>
     </data>
+    <data name="NO_BLUETOOTH_PERM">
+		<value>Permissão de Bluetooth negada. Isso é necessário para usar o Bluetooth. Toque aqui para resolver.</value>
+	</data>
+	<data name="NO_BLUETOOTH_LOC_PERM">
+		<value>Permissão de localização negada. Isso é necessário para usar o Bluetooth. Toque aqui para resolver.</value>
+	</data>
     <data name="NO_NETWORK">
         <value>Sem conexão de rede</value>
     </data>
@@ -1215,6 +1221,9 @@
     <data name="SUBHUBSCAN_START">
         <value>Iniciar Escaneamento</value>
     </data>
+    <data name="HELP_PHONE_SETTINGS">
+		<value>Exibir permissões do aplicativo</value>
+	</data>
     <data name="HELP_GUIDES">
         <value>Guias</value>
     </data>
@@ -2007,6 +2016,9 @@
     <data name="INSP_T_REQUEEN">
         <value>Recriação de rainha</value>
     </data>
+    <data name="INSP_T_SUPERSEDUREEMERGENCY">
+		<value>Substituição/Emergência</value>
+	</data>
     <data name="INSP_T_QUEENLINEAGE">
         <value>Linhagem da rainha</value>
     </data>
@@ -2247,8 +2259,11 @@
     <data name="VAPIARY_NEWAPENOTE">
         <value>Nova Nota de Apiário/Meliponário</value>
     </data>
+    <data name="VAPIARY_FORECAST_TITLE">
+        <value>Previsão</value>
+    </data>
     <data name="VAPIARY_NECTAR_TITLE">
-        <value>Previsão de Índice de Néctar</value>
+        <value>Índice de Néctar</value>
     </data>
     <data name="VAPIARY_NECTAR_AVG">
         <value>média de {0} dias</value>
@@ -2382,18 +2397,7 @@
     <data name="CU_NOTE_ADD_TAGS">
 		<value>Adicionar tags</value>
     </data>
-    <data name="APP_UPDATE_TITLE">
-        <value>Novos Recursos!</value>
-    </data>
-    <data name="APP_UPDATE_DESC">
-        <value>Nós atualizamos o aplicativo Bees! Aproveite as novas visualizações das suas colmeias com as novas abas de Apiários/Meliponários e Colmeias. Continue usando normalmente para mover dispositivos e enviar dados na aba Gerenciar e Dispositivos.</value>
-    </data>
-    <data name="APP_UPDATE_OK">
-        <value>Feito</value>
-    </data>
-    <data name="APP_UPDATE_MORE">
-        <value>Saiba mais</value>
-    </data>
+  
     <data name="BSCHANGE_TITLE">
         <value>Economia de Bateria</value>
     </data>
@@ -2819,5 +2823,26 @@
     </data>
     <data name="ALERT_CODE.406.MSG">
         <value>Sua colmeia foi detectada como morta</value>
+    </data>
+    <data name="PHENOSTEP.7.DESCR">
+        <value>Início da brotação: pontas verdes dos brotos apenas visíveis</value>
+    </data>
+	<data name="PHENOSTEP.11.DESCR">
+        <value>Primeira folha desdobrada e afastada do broto</value>
+    </data>
+	<data name="PHENOSTEP.55.DESCR">
+        <value>Botões florais visíveis (ainda fechados)</value>
+    </data>
+	<data name="PHENOSTEP.61.DESCR">
+        <value>Início da floração: 10% das flores abertas</value>
+    </data>
+	<data name="PHENOSTEP.65.DESCR">
+        <value>Floração completa: 50% das flores abertas</value>
+    </data>
+	<data name="PHENOSTEP.69.DESCR">
+        <value>Fim da floração: todas as pétalas caídas</value>
+    </data>
+	<data name="PHENOSTEP.61.IN">
+        <value>{0} Florescendo em {1} dias</value>
     </data>
 </root>

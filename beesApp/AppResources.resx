@@ -450,6 +450,12 @@
 	<data name="NO_BLUETOOTH">
 		<value>Bluetooth off, app may not work as expected</value>
 	</data>
+	<data name="NO_BLUETOOTH_PERM">
+		<value>Bluetooth permission denied, this is required for bluetooth use. Tap here to resolve.</value>
+	</data>
+	<data name="NO_BLUETOOTH_LOC_PERM">
+		<value>Location permission denied, this is required for bluetooth use. Tap here to resolve.</value>
+	</data>
 	<data name="NO_NETWORK">
 		<value>No network connection</value>
 	</data>
@@ -1214,6 +1220,9 @@
 	</data>
 	<data name="SUBHUBSCAN_START">
 		<value>Start Scanning</value>
+	</data>
+	<data name="HELP_PHONE_SETTINGS">
+		<value>View App Permissions</value>
 	</data>
 	<data name="HELP_GUIDES">
 		<value>Guides</value>
@@ -2007,6 +2016,9 @@
 	<data name="INSP_T_REQUEEN">
 		<value>Requeening</value>
 	</data>
+	<data name="INSP_T_SUPERSEDUREEMERGENCY">
+		<value>Supersedure/ Emergency</value>
+	</data>
 	<data name="INSP_T_QUEENLINEAGE">
 		<value>Queen lineage</value>
 	</data>
@@ -2247,8 +2259,11 @@
 	<data name="VAPIARY_NEWAPENOTE">
 		<value>New Apiary Note</value>
     </data>
+	<data name="VAPIARY_FORECAST_TITLE">
+		<value>Forecast</value>
+    </data>
 	<data name="VAPIARY_NECTAR_TITLE">
-		<value>Nectar Idx Forecast</value>
+		<value>Nectar Idx</value>
     </data>
 	<data name="VAPIARY_NECTAR_AVG">
 		<value>{0} days avg</value>
@@ -2381,18 +2396,6 @@
     </data>
 	<data name="CU_NOTE_ADD_TAGS">
 		<value>Add Tags</value>
-    </data>
-	<data name="APP_UPDATE_TITLE">
-		<value>New Features!</value>
-    </data>
-	<data name="APP_UPDATE_DESC">
-		<value>We have updated the Bees app! Enjoy new visualizations of your hives with the new Apiaries and Hives tabs. And continue normal use of moving devices and uploading data in the Manage and Devices tab. </value>
-    </data>
-	<data name="APP_UPDATE_OK">
-		<value>Done</value>
-    </data>
-	<data name="APP_UPDATE_MORE">
-		<value>Learn more</value>
     </data>
 	<data name="BSCHANGE_TITLE">
 		<value>Battery Saver</value>
@@ -2819,5 +2822,26 @@
     </data>
     <data name="ALERT_CODE.406.MSG">
         <value>Your hive has been detected dead</value>
+    </data>
+	<data name="PHENOSTEP.7.DESCR">
+        <value>Beginning of bud burst: green shoot tips just visible</value>
+    </data>
+	<data name="PHENOSTEP.11.DESCR">
+        <value>First leaf unfolded and spread away from shoot</value>
+    </data>
+	<data name="PHENOSTEP.55.DESCR">
+        <value>Flower buds visible (still closed)</value>
+    </data>
+	<data name="PHENOSTEP.61.DESCR">
+        <value>Beginning of flowering: 10% of flowers open</value>
+    </data>
+	<data name="PHENOSTEP.65.DESCR">
+        <value>Full flowering: 50% of flowers open</value>
+    </data>
+	<data name="PHENOSTEP.69.DESCR">
+        <value>End of flowering: all petals fallen</value>
+    </data>
+	<data name="PHENOSTEP.61.IN">
+        <value>{0} Blooming in {1} days</value>
     </data>
 </root>
