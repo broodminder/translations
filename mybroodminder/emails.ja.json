@@ -204,5 +204,18 @@
         "CONDITION": "状態",
         "NECTARIDX": "ネクター",
         "FLIGHTIDX": "採餌"
+    },
+    "PDF":{
+        "TRANSACTION":{
+            "INVOICE":"INVOICE",
+            "DATE":"Date",
+            "MEMBERSHIP":"Membership",
+            "QUANTITY":"Qty",
+            "UNIT":"Unit",
+            "TOTAL":"Total",
+            "MEMBERSHIP_GENERAL":"Premium Membership",
+            "PREMIUM":"Premium membership %s hives",
+            "UPGRADE":"Premium upgrade to %s hives",
+        }
     }
 }
