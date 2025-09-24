@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Sensor disconnected"
+            "MESSAGE": "Sensor disconnected - Data not collected since"
+        },
+        "TIME_UNIT": {
+            "HOUR": "hour",
+            "HOURS": "hours",
+            "DAY": "day",
+            "DAYS": "days"
         }
     },
     "NOTIFICATIONS": {

@@ -176,7 +176,7 @@
             "TITLE1_DAYS": "Last %s days",
             "TITLE1BIS": "Upcoming events",
             "TITLE2": "Hive status",
-            "TITLE3": "Device status",
+            "TITLE3": "Device Issues & Status",
             "REDIRECTION": "<a href='https://mybroodminder.com' target='_blank'>View hive data</a><br><a href='https://mybroodminder.com/app/configure' target='_blank'>Edit hives and devices</a>",
             "MODIF": "<a href='https://mybroodminder.com/app/configure' target='_blank'>Change alert settings</a>",
             "NOEVENTPAST": "No events detected since last sending",
