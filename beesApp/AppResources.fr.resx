@@ -450,6 +450,12 @@
 	<data name="NO_BLUETOOTH">
 		<value>Bluetooth désactivé, l'application pourrait ne pas fonctionner normalement</value>
 	</data>
+	<data name="NO_BLUETOOTH_PERM">
+		<value>Autorisation Bluetooth refusée ; cette autorisation est nécessaire pour l'utilisation du Bluetooth. Appuyez ici pour résoudre le problème.</value>
+	</data>
+	<data name="NO_BLUETOOTH_LOC_PERM">
+		<value>Autorisation de localisation refusée ; cette autorisation est requise pour l'utilisation du Bluetooth. Appuyez ici pour résoudre le problème.</value>
+	</data>
 	<data name="NO_NETWORK">
 		<value>Pas de connexion réseau</value>
 	</data>
@@ -1214,6 +1220,9 @@
 	</data>
 	<data name="SUBHUBSCAN_START">
 		<value>Démarrer le détection</value>
+	</data>
+	<data name="HELP_PHONE_SETTINGS">
+		<value>Afficher les autorisations de l'application</value>
 	</data>
 	<data name="HELP_GUIDES">
 		<value>Guides</value>
@@ -2007,6 +2016,9 @@
 	<data name="INSP_T_REQUEEN">
 		<value>Remèrage</value>
 	</data>
+	<data name="INSP_T_SUPERSEDUREEMERGENCY">
+		<value>Remplacement/Urgence</value>
+	</data>
 	<data name="INSP_T_QUEENLINEAGE">
 		<value>Marquage reine</value>
 	</data>
@@ -2247,8 +2259,11 @@
 	<data name="VAPIARY_NEWAPENOTE">
 		<value>Nouvelle Note du Rucher</value>
 	</data>
+	<data name="VAPIARY_FORECAST_TITLE">
+		<value>Prévision</value>
+	</data>
 	<data name="VAPIARY_NECTAR_TITLE">
-		<value>Prévision de l'Indice de Miellée</value>
+		<value>Indice de Miellée</value>
 	</data>
 	<data name="VAPIARY_NECTAR_AVG">
 		<value>Moyenné sur {0} jours</value>
@@ -2382,18 +2397,6 @@
 	<data name="CU_NOTE_ADD_TAGS">
 		<value>Ajouter des étiquettes</value>
     </data>
-	<data name="APP_UPDATE_TITLE">
-		<value>Nouvelles fonctionnalités !</value>
-	</data>
-	<data name="APP_UPDATE_DESC">
-		<value>Nous avons mis à jour l'application Bees ! Profitez de nouvelles visualisations de vos ruches avec les nouveaux onglets Ruchers et Ruches. Et continuez à utiliser normalement la gestion des capteurs et le téléchargement des données dans les onglets Gérer et Capteurs.</value>
-	</data>
-	<data name="APP_UPDATE_OK">
-		<value>Terminé</value>
-	</data>
-	<data name="APP_UPDATE_MORE">
-		<value>En savoir plus</value>
-	</data>
 	<data name="BSCHANGE_TITLE">
 		<value>Économie de Batterie</value>
     </data>
@@ -2819,5 +2822,26 @@
     </data>
     <data name="ALERT_CODE.406.MSG">
         <value>Votre ruche a été détectée morte</value>
+    </data>
+	<data name="PHENOSTEP.7.DESCR">
+        <value>Début du débourrement : pointes de pousses vertes à peine visibles</value>
+    </data>
+	<data name="PHENOSTEP.11.DESCR">
+        <value>Première feuille déployée et écartée de la pousse</value>
+    </data>
+	<data name="PHENOSTEP.55.DESCR">
+        <value>Boutons floraux visibles (encore fermés)</value>
+    </data>
+	<data name="PHENOSTEP.61.DESCR">
+        <value>Début de floraison : 10 % des fleurs ouvertes</value>
+    </data>
+	<data name="PHENOSTEP.65.DESCR">
+        <value>Pleine floraison : 50 % des fleurs ouvertes</value>
+    </data>
+	<data name="PHENOSTEP.69.DESCR">
+        <value>Fin de floraison : tous les pétales tombés</value>
+    </data>
+	<data name="PHENOSTEP.61.IN">
+        <value>{0} Floraison dans {1} jours</value>
     </data>
 </root>

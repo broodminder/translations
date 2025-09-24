@@ -450,6 +450,12 @@
 	<data name="NO_BLUETOOTH">
 		<value>Bluetooth apagado, es posible que la aplicación no funcione</value>
 	</data>
+	<data name="NO_BLUETOOTH_PERM">
+		<value>Permiso de Bluetooth denegado. Es necesario para usar Bluetooth. Toca aquí para resolverlo.</value>
+	</data>
+	<data name="NO_BLUETOOTH_LOC_PERM">
+		<value>Permiso de ubicación denegado; es necesario para usar Bluetooth. Toca aquí para resolverlo.</value>
+	</data>
 	<data name="NO_NETWORK">
 		<value>Sin conexion a la red</value>
 	</data>
@@ -1215,6 +1221,9 @@
 	<data name="SUBHUBSCAN_START">
 		<value>Iniciar Exploración</value>
 	</data>
+	<data name="HELP_PHONE_SETTINGS">
+		<value>Ver permisos de la aplicación</value>
+	</data>
 	<data name="HELP_GUIDES">
 		<value>Guías</value>
 	</data>
@@ -1435,7 +1444,7 @@
 		<value>Registrar</value>
 	</data>
 	<data name="REGISTER_TITLE">
-		<value>Create your MyBroodMinder account</value>
+		<value>Crea tu cuenta MyBroodMinder</value>
 	</data>
 	<data name="REGISTER_TOS">
 		<value>Al hacer clic en el botón de validación, aceptas los términos y condiciones.</value>
@@ -2007,6 +2016,9 @@
 	<data name="INSP_T_REQUEEN">
 		<value>Nueva reina</value>
 	</data>
+	<data name="INSP_T_SUPERSEDUREEMERGENCY">
+		<value>Sustitución/Emergencia</value>
+	</data>
 	<data name="INSP_T_QUEENLINEAGE">
 		<value>Marcar Reina</value>
 	</data>
@@ -2247,8 +2259,11 @@
 	<data name="VAPIARY_NEWAPENOTE">
 		<value>Nueva Nota de Apiario</value>
 	</data>
+	<data name="VAPIARY_FORECAST_TITLE">
+		<value>Pronóstico</value>
+	</data>
 	<data name="VAPIARY_NECTAR_TITLE">
-		<value>Pronóstico del Índice de Néctar</value>
+		<value>Índice de Néctar</value>
 	</data>
 	<data name="VAPIARY_NECTAR_AVG">
 		<value>Promedio de {0} días</value>
@@ -2382,18 +2397,6 @@
 	<data name="CU_NOTE_ADD_TAGS">
 		<value>Agregar etiquetas</value>
     </data>
-	<data name="APP_UPDATE_TITLE">
-		<value>¡Nuevas Funciones!</value>
-	</data>
-	<data name="APP_UPDATE_DESC">
-		<value>¡Hemos actualizado la aplicación Bees! Disfruta de nuevas visualizaciones de tus colmenas con las nuevas pestañas Apiarios y Colmenas. Y continúa usando como antes las pestañas Gestionar y Sensores.</value>
-	</data>
-	<data name="APP_UPDATE_OK">
-		<value>Hecho</value>
-	</data>
-	<data name="APP_UPDATE_MORE">
-		<value>Más información</value>
-	</data>
 	<data name="BSCHANGE_TITLE">
 		<value>Ahorro de Batería</value>
     </data>
@@ -2820,4 +2823,25 @@
 	<data name="ALERT_CODE.406.MSG">
 		<value>Su colmena ha sido detectada como muerta</value>
 	</data>
+	<data name="PHENOSTEP.7.DESCR">
+        <value>Comienzo de la brotación: puntas de los brotes verdes apenas visibles</value>
+    </data>
+	<data name="PHENOSTEP.11.DESCR">
+        <value>Primera hoja desplegada y extendida lejos del brote.</value>
+    </data>
+	<data name="PHENOSTEP.55.DESCR">
+        <value>Capullos de flores visibles (aún cerrados)</value>
+    </data>
+	<data name="PHENOSTEP.61.DESCR">
+        <value>Inicio de la floración: 10% de flores abiertas.</value>
+    </data>
+	<data name="PHENOSTEP.65.DESCR">
+        <value>Floración completa: 50% de las flores abiertas.</value>
+    </data>
+	<data name="PHENOSTEP.69.DESCR">
+        <value>Fin de la floración: todos los pétalos caídos.</value>
+    </data>
+	<data name="PHENOSTEP.61.IN">
+        <value>{0} Floreciendo en {1} días</value>
+    </data>
 </root>

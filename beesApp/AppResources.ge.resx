@@ -450,6 +450,12 @@
 	<data name="NO_BLUETOOTH">
 		<value>Bluetooth aus, App funktioniert möglicherweise nicht wie erwartet</value>
 	</data>
+	<data name="NO_BLUETOOTH_PERM">
+		<value>Bluetooth-Berechtigung verweigert. Diese ist für die Bluetooth-Nutzung erforderlich. Tippen Sie hier, um das Problem zu beheben.</value>
+	</data>
+	<data name="NO_BLUETOOTH_LOC_PERM">
+		<value>Standortberechtigung verweigert. Diese ist für die Bluetooth-Nutzung erforderlich. Tippen Sie hier, um das Problem zu beheben.</value>
+	</data>
 	<data name="NO_NETWORK">
 		<value>Keine Netzwerkverbindung</value>
 	</data>
@@ -1214,6 +1220,9 @@
 	</data>
 	<data name="SUBHUBSCAN_START">
 		<value>Scannen starten</value>
+	</data>
+	<data name="HELP_PHONE_SETTINGS">
+		<value>App-Berechtigungen anzeigen</value>
 	</data>
 	<data name="HELP_GUIDES">
 		<value>Anleitungen</value>
@@ -2007,6 +2016,9 @@
 	<data name="INSP_T_REQUEEN">
 		<value>Neue Königin eingeführt</value>
 	</data>
+	<data name="INSP_T_SUPERSEDUREEMERGENCY">
+		<value>Ablösung/ Notfall</value>
+	</data>
 	<data name="INSP_T_QUEENLINEAGE">
 		<value>Königinnenlinie</value>
 	</data>
@@ -2247,8 +2259,11 @@
 	<data name="VAPIARY_NEWAPENOTE">
 		<value>Neue Bienenhausnotiz</value>
 	</data>
+	<data name="VAPIARY_FORECAST_TITLE">
+		<value>Vorhersage</value>
+	</data>
 	<data name="VAPIARY_NECTAR_TITLE">
-		<value>Nektar Index Vorhersage</value>
+		<value>Nektar Index</value>
 	</data>
 	<data name="VAPIARY_NECTAR_AVG">
 		<value>{0} Tage Durchschnitt</value>
@@ -2382,18 +2397,6 @@
 	<data name="CU_NOTE_ADD_TAGS">
 		<value>Tags hinzufügen</value>
     </data>
-	<data name="APP_UPDATE_TITLE">
-		<value>Neue Funktionen!</value>
-	</data>
-	<data name="APP_UPDATE_DESC">
-		<value>Wir haben die Bees-App aktualisiert! Genießen Sie neue Visualisierungen Ihrer Hives mit den neuen Apiaries- und Hives-Registerkarten. Und setzen Sie den normalen Gebrauch von Bewegungsgeräten und das Hochladen von Daten in den Registerkarten Verwaltung und Geräte fort. </value>
-	</data>
-	<data name="APP_UPDATE_OK">
-		<value>Fertig</value>
-	</data>
-	<data name="APP_UPDATE_MORE">
-		<value>Mehr erfahren</value>
-	</data>
 	<data name="BSCHANGE_TITLE">
 		<value>Batteriesparer</value>
 	</data>
@@ -2819,5 +2822,26 @@
     </data>
     <data name="ALERT_CODE.406.MSG">
         <value>Ihr Bienenstock wurde als tot erkannt</value>
+    </data>
+	<data name="PHENOSTEP.7.DESCR">
+        <value>Beginn des Knospenaustriebs: grüne Triebspitzen gerade sichtbar</value>
+    </data>
+	<data name="PHENOSTEP.11.DESCR">
+        <value>Das erste Blatt entfaltet sich und breitet sich vom Trieb weg aus</value>
+    </data>
+	<data name="PHENOSTEP.55.DESCR">
+        <value>Blütenknospen sichtbar (noch geschlossen)</value>
+    </data>
+	<data name="PHENOSTEP.61.DESCR">
+        <value>Blühbeginn: 10% der Blüten geöffnet</value>
+    </data>
+	<data name="PHENOSTEP.65.DESCR">
+        <value>Vollblüte: 50 % der Blüten geöffnet</value>
+    </data>
+	<data name="PHENOSTEP.69.DESCR">
+        <value>Ende der Blüte: alle Blütenblätter abgefallen</value>
+    </data>
+	<data name="PHENOSTEP.61.IN">
+        <value>{0} Blüht in {1} Tagen</value>
     </data>
 </root>

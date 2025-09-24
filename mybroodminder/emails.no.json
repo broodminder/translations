@@ -204,5 +204,18 @@
         "CONDITION": "Tilstand",
         "NECTARIDX": "Nektar",
         "FLIGHTIDX": "Nektarinnsamling"
+    },
+    "PDF":{
+        "TRANSACTION":{
+            "INVOICE":"INVOICE",
+            "DATE":"Date",
+            "MEMBERSHIP":"Membership",
+            "QUANTITY":"Qty",
+            "UNIT":"Unit",
+            "TOTAL":"Total",
+            "MEMBERSHIP_GENERAL":"Premium Membership",
+            "PREMIUM":"Premium membership %s hives",
+            "UPGRADE":"Premium upgrade to %s hives"
+        }
     }
 }
