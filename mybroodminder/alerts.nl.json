@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Sensor losgekoppeld"
+            "MESSAGE": "Sensor losgekoppeld - Geen gegevens verzameld sinds"
+        },
+        "TIME_UNIT": {
+            "HOUR": "uur",
+            "HOURS": "uren",
+            "DAY": "dag",
+            "DAYS": "dagen"
         }
     },
     "NOTIFICATIONS": {

@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Sensor frakoblet"
+            "MESSAGE": "Sensor frakoblet - Data ikke samlet inn siden"
+        },
+        "TIME_UNIT": {
+            "HOUR": "time",
+            "HOURS": "timer",
+            "DAY": "dag",
+            "DAYS": "dager"
         }
     },
     "NOTIFICATIONS": {

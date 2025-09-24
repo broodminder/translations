@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Capteur déconnecté"
+            "MESSAGE": "Capteur déconnecté - Pas de données collectées depuis"
+        },
+        "TIME_UNIT": {
+            "HOUR": "heure",
+            "HOURS": "heures",
+            "DAY": "jour",
+            "DAYS": "jours"
         }
     },
     "NOTIFICATIONS": {

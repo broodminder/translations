@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Sensore disconnesso"
+            "MESSAGE": "Sensore disconnesso - Dati non raccolti da"
+        },
+        "TIME_UNIT": {
+            "HOUR": "ora",
+            "HOURS": "ore",
+            "DAY": "giorno",
+            "DAYS": "giorni"
         }
     },
     "NOTIFICATIONS": {

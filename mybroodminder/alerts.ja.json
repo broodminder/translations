@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "センサーが切断されました"
+            "MESSAGE": "センサーが切断されました - 以降のデータは収集されません"
+        },
+        "TIME_UNIT": {
+            "HOUR": "時間",
+            "HOURS": "時間",
+            "DAY": "日",
+            "DAYS": "日"
         }
     },
     "NOTIFICATIONS": {

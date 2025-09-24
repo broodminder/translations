@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Sensor desconectado"
+            "MESSAGE": "Sensor desconectado - Dados não coletados desde"
+        },
+        "TIME_UNIT": {
+            "HOUR": "hora",
+            "HOURS": "horas",
+            "DAY": "dia",
+            "DAYS": "dias"
         }
     },
     "NOTIFICATIONS": {

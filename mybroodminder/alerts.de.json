@@ -199,7 +199,13 @@
         },
         "R": {
             "COLOR": "Red",
-            "MESSAGE": "Sensor getrennt"
+            "MESSAGE": "Sensor disconnected - Data not collected since"
+        },
+        "TIME_UNIT": {
+            "HOUR": "Stunde",
+            "HOURS": "Stunden",
+            "DAY": "Tag",
+            "DAYS": "Tage"
         }
     },
     "NOTIFICATIONS": {
