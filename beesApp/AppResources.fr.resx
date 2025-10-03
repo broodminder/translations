@@ -2844,4 +2844,22 @@
 	<data name="PHENOSTEP.61.IN">
         <value>{0} Floraison dans {1} jours</value>
     </data>
+	<data name="SETTINGS_ACCOUNT_FREE" xml:space="preserve">
+		<value>Adhésion gratuite</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_PREMIUM" xml:space="preserve">
+		<value>Abonnement Premium</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_F_ENDED" xml:space="preserve">
+		<value>L'abonnement gratuit a pris fin le {0}</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_F_ENDING" xml:space="preserve">
+		<value>Abonnement gratuit se terminant dans {0} jours</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_P_ENDED" xml:space="preserve">
+		<value>L'abonnement a pris fin le {0}</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
+		<value>L'abonnement se termine dans {0} jours</value>
+	</data>
 </root>

@@ -2844,4 +2844,22 @@
 	<data name="PHENOSTEP.61.IN">
         <value>{0} Blooming in {1} days</value>
     </data>
+	<data name="SETTINGS_ACCOUNT_FREE" xml:space="preserve">
+		<value>Free Membership</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_PREMIUM" xml:space="preserve">
+		<value>Premium Membership</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_F_ENDED" xml:space="preserve">
+		<value>Complimentary subscription ended on {0}</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_F_ENDING" xml:space="preserve">
+		<value>Complimentary subscription ending in {0} days</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_P_ENDED" xml:space="preserve">
+		<value>Subscription ended on {0}</value>
+	</data>
+	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
+		<value>Subscription ending in {0} days</value>
+	</data>
 </root>
