@@ -43,7 +43,7 @@
 	"SIDEBAR": {
 		"HOME":"Accueil",
         "CONFIGURE":"Configurer",
-        "MEMBERSHIPS":"Options d'adhésion",
+        "MEMBERSHIPS":"Options d'abonnement",
         "NEW":{
             "TITLE":"Nouveau",
             "APIARY":"Rucher",
@@ -863,7 +863,7 @@
         "EMAIL":"Email",
         "FIRST_NAME":"Prénom",
         "LAST_NAME":"Nom",
-        "MEMBERSHIP":"Adhésion",
+        "MEMBERSHIP":"Abonnement",
         "EDIT_EMAIL": {
             "BUTTON":"Modifier l'email",
             "TITLE":"Modifier l'email du compte",
@@ -912,8 +912,8 @@
         },
         "TIER_SUB": {
             "SUMMARY": {
-                "FREE": "Adhésion gratuite",
-                "COMP": "Adhésion offerte",
+                "FREE": "Abonnement gratuit",
+                "COMP": "Abonnement offert",
                 "PAID": "Abonnement Premium",
                 "ALLOWED": "{{count}} ruches autorisées"
             },
@@ -926,7 +926,7 @@
                 "CANCELED_PAST": "Annulé - Expiré le {{date}}"
             },
             "COMP": {
-                "TITLE": "Adhésion offerte",
+                "TITLE": "Abonnement offert",
                 "ALLOWED": "Ruches autorisées",
                 "END": "Date de fin",
                 "EXPIRED": "expiré"
@@ -2406,15 +2406,15 @@
         "DATE_PICKER": "La plage sur 13 mois et les prévisions ne sont pas disponibles avec une adhésion gratuite.",
         "HUB_DATA": "Données du hub non téléchargées avec votre adhésion gratuite.",
         "THIRDPARTY_DATA": "Données tierces non téléchargées avec votre adhésion gratuite.",
-        "MISSING_FEATURE": "Cette fonctionnalité n'est pas disponible sans adhésion.",
+        "MISSING_FEATURE": "Cette fonctionnalité n'est pas disponible sans abonnement.",
         "MISSING_FEATURE_CLOSE": "Fermer",
         "MISSING_FEATURE_UPGRADE": "S'ABONNER",
         "ACCOUNT_ISSUES":{
-            "TITLE":"Problèmes de compte",
-            "MESSAGE_PAID":"Vous disposez de {{activeHiveCount}} ruches actives. Votre adhésion autorise {{hivesAllowed}}.",
+            "TITLE":"Limite d’utilisation de votre abonnement",
+            "MESSAGE_PAID":"Vous disposez de {{activeHiveCount}} ruches actives. Votre abonnement autorise {{hivesAllowed}}.",
             "MESSAGE_FREE":"Vous bénéficiez d'un abonnement gratuit. La mise à niveau permet davantage de ruches et de fonctionnalités.",
             "MESSAGE_COMP":"Vous bénéficiez d’un abonnement gratuit. Vous pouvez souscrire un abonnement pour plus de ruches.",
-            "PURCHASE":"Achat",
+            "PURCHASE":"Gérer mon abonnement",
             "UPGRADE":"Mise à niveau",
             "FEATURES":"Vérifier les fonctionnalités",
             "MANAGE":"Gérer les ruches",
