@@ -1003,69 +1003,14 @@
         "LAST_UPLOAD": "Letzter Upload",
         "TELECOM": "Telekommunikation",
         "SIM": "SIM",
-        "EXPIRING": "Token-Status",
-        "HUB": "Hub",
-        "EXP_UNASSIGNED": "Keine",
         "EDIT": "Verwalten",
         "THIRD_PARTY_DEVICE": "Gerät von Drittanbietern",
         "MANAGE": {
             "TITLE": "Verwalten",
             "CLOSE": "Fertig",
             "SELECT_APIARY": "Bienenhaus auswählen",
-            "REMOVE_CREDIT": "Token von {{item}} entfernen",
-            "CANCEL_CREDIT": "Token aus Auto-Verlängerung entfernen",
-            "REACTIVATE_CREDIT": "Token reaktivieren",
-            "SELECT_CREDIT": "Token auswählen",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Dieses Token kann für viele Geräte von Drittanbietern verwendet werden",
-            "PURCHASE_CREDIT": "Neu kaufen",
             "UPDATED_SUCCESS": "Hub aktualisiert",
-            "ASSIGNMENT_SUCCESS": "Zuweisung aktualisiert",
-            "ASSIGNMENT_REMOVED": "Token entfernt",
-            "BACK_BUTTON": "Zurück",
-            "REMOVE": {
-                "TITLE": "Token entfernen",
-                "CONFIRM": "Sind Sie sicher, dass Sie das Token von {{item}} entfernen möchten?",
-                "OK": "Ja, dieses Token entfernen",
-                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht entfernt"
-            },
-            "CANCEL": {
-                "TITLE": "Token stornieren",
-                "CONFIRM": "Dies entfernt das Token aus Ihrem Abonnement. Ihr neuer {{frequency}} Abonnementpreis beträgt {{amount}}. Nach dem Ablaufdatum ({{expiration}}) werden Daten von diesem Hub nicht mehr in MyBroodMinder akzeptiert. Sind Sie sicher, dass Sie dieses Token stornieren möchten?",
-                "OK": "Ja, dieses Token stornieren",
-                "ERROR_1": "Dies ist ein kostenloses Abonnement, das Token kann nicht storniert werden",
-                "ERROR_2": "Dieses Abonnement ist storniert, das Token kann nicht storniert werden",
-                "ERROR_3": "Dies ist ein kostenloses Token und kann nicht storniert werden",
-                "ERROR_4": "Dieses Token wird nicht automatisch verlängert und kann nicht storniert werden",
-                "ERROR_5": "Dieses Token wurde bereits storniert",
-                "ERROR_6": "Dieses Token ist kostenlos in Ihrem Abonnement enthalten und kann nicht storniert werden. Besuchen Sie die Kontoseite, wenn Sie Ihre Premium-Mitgliedschaft kündigen möchten",
-                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht storniert",
-                "SUCCESS": "Token storniert"
-            },
-            "REACTIVATE": {
-                "TITLE": "Token reaktivieren",
-                "CONFIRM": "Dies fügt das stornierte Token wieder zu Ihrem Abonnement hinzu. Sie werden jetzt nichts berechnet, da Sie bereits für diesen Zeitraum bezahlt haben. Ihr neuer {{frequency}} Abonnementpreis beträgt {{amount}}. Sind Sie sicher, dass Sie dieses Token reaktivieren möchten?",
-                "OK": "Ja, dieses Token reaktivieren",
-                "ERROR_1": "Dies ist ein kostenloses Abonnement, das Token kann nicht reaktiviert werden",
-                "ERROR_2": "Dieses Abonnement ist storniert, das Token kann nicht reaktiviert werden",
-                "ERROR_3": "Dies ist ein kostenloses Token und kann nicht reaktiviert werden",
-                "ERROR_4": "Dieses Token wird nicht automatisch verlängert und kann nicht reaktiviert werden",
-                "ERROR_5": "Dieses Token ist bereits abgelaufen und kann nicht reaktiviert werden",
-                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht reaktiviert"
-            },
-            "PURCHASE": {
-                "TITLE": "Token kaufen",
-                "AUTO": "Automatische Verlängerung",
-                "ONCE": "Einmalig",
-                "QUANTITY": "Anzahl der Token",
-                "MONTHS": "Monate",
-                "MONTHS_SELECT": "Monate",
-                "OK": "Kaufen",
-                "ERROR_1": "Sie müssen zuerst eine Premium-Mitgliedschaft erwerben. Sehen Sie sich die Optionen",
-                "ERROR_1_LINK": "hier",
-                "CHARGED": "Jetzt berechnet",
-                "TOTAL": "Aktualisierter {{frequency}} Mitgliedschaftspreis",
-                "GENERAL_ERROR": "Fehler aufgetreten. Token nicht gekauft"
-            }
+            "BACK_BUTTON": "Zurück"
         }
     },
     "CONFIGURE_DEVICES": {
@@ -1325,14 +1270,6 @@
                 "CONFIRM": "Zahlung vornehmen"
             }
         },
-        "PRODUCTS": {
-            "MEMBERSHIP": "Premium-Mitgliedschaft",
-            "WIFI_HUB_FREE": "Wifi Hub Token (Kostenlos)",
-            "WIFI_HUB": "Wifi Hub Token",
-            "CELL_HUB_SINGLE": "Cell Hub (Einzelgerät) Token",
-            "CELL_HUB": "Cell Hub Token",
-            "THIRD_PARTY": "Token für Geräte von Drittanbietern"
-        },
         "PAY": {
             "TITLE": "Zahlungsinformationen",
             "RENEW_DISCLAIMER": "Automatische Verlängerung des Abonnements. Sie werden {{amount}} {{frequency}} belastet.",
@@ -1405,51 +1342,6 @@
                 "UPDATE": "Aktualisieren"
             }
         }
-    },
-    "EDIT_SUBS": {
-        "MONTH_ERROR": "Month subscriptions are no longer supported for new purchases. To add tokens, you must cancel your current subscription and create a new Premium Membership.",
-        "SHOW_EXPIRED": "Show Expired",
-        "MEMEBERSHIPS": {
-            "TITLE": "Memberships",
-            "PRE_PAID": "Pre-Paid",
-            "FREE": "Free",
-            "TRIAL": "Trial Membership"
-        },
-        "TOKENS": {
-            "TITLE": "Tokens",
-            "REMOVE": "Remove Token from Membership",
-            "ASSIGN": {
-                "TITLE": "Assign",
-                "HUB": "Hub",
-                "THIRD_PARTY": "Third Party Devices"
-            },
-            "HUB_EDIT": {
-                "WARNING_DUP": "Hub has credit active until {{date}}. This will be replaced.",
-                "WARNING_SINGLE": "This is a single device hub token. Only one sensor device can be uploaded with this token.",
-                "WARNING_WIFI_TYPE": "Wifi hub will be running on a cell hub token.",
-                "WARNING_REMOVE": "This removes token from hub. Hub will stop uploading data."
-            },
-            "UPDATED": "Token updated",
-            "ERROR": "Error token not updated",
-            "CANCEL_TITLE": "Cancel Token",
-            "CANCEL_TEXT": "Are you sure?",
-            "CANCEL_CONFIRM": "Yes",
-            "CANCEL_SUCCESS": "Token cancelled"
-        },
-        "HEADERS": {
-            "NAME": "Name",
-            "START": "Starts on",
-            "RENEW": "Renews on",
-            "EXPIRES": "Expires on",
-            "AUTO": "Auto-renew",
-            "STATUS": "Status",
-            "ID": "ID",
-            "EDIT": "Edit",
-            "PRICE": "Price",
-            "SUB_ID": "Sub ID",
-            "ASSOCIATED": "Associated with"
-        },
-        "PURCHASE": "Purchase Products"
     },
     "FITNESS_CODE": {
         "B1": {

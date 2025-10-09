@@ -1009,69 +1009,14 @@
         "LAST_UPLOAD": "Ultima recepcción",
         "TELECOM": "Telecom",
         "SIM": "SIM",
-        "EXPIRING": "Vence",
-        "HUB": "Hub",
-        "EXP_UNASSIGNED": "Sin asignar",
         "EDIT": "Gestionar",
         "THIRD_PARTY_DEVICE": "Dispositivo Yolink",
         "MANAGE": {
             "TITLE": "Gestionar",
             "CLOSE": "Hecho",
             "SELECT_APIARY": "Selecciona colmenar",
-            "REMOVE_CREDIT": "Retirar token de {{item}}",
-            "CANCEL_CREDIT": "Retirar token de auto-renov",
-            "REACTIVATE_CREDIT": "Reactivar token",
-            "SELECT_CREDIT": "Seleccionar token",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este token se puede usar para dispositivos de terceros",
-            "PURCHASE_CREDIT": "Comprar Nuevo",
             "UPDATED_SUCCESS": "Hub actualizado",
-            "ASSIGNMENT_SUCCESS": "Asignación actualizada",
-            "ASSIGNMENT_REMOVED": "Token suprimido",
-            "BACK_BUTTON": "Atras",
-            "REMOVE": {
-                "TITLE": "Retirar Token",
-                "CONFIRM": "Estás seguro de que quieres retirar el token de {{item}}?",
-                "OK": "Si, retirar este token",
-                "GENERAL_ERROR": "Error : El token no se pudo eliminar"
-            },
-            "CANCEL": {
-                "TITLE": "Cancelar token",
-                "CONFIRM": "Esto elimina el token de tu suscripción. El importe de tu nueva suscripción {{Frequency}} es de {{amount}}. Después de la fecha de vencimiento ({{vencimiento}}), los datos de este Hub ya no se aceptarán en MyBroodMinder. ¿Estás seguro de que deseas retirar este crédito? ",
-                "OK": "Si, retirar token",
-                "ERROR_1": "Esta es una suscripción gratuita, el token no se puede cancelar",
-                "ERROR_2": "Esta suscripción está cancelada, el token no se puede cancelar",
-                "ERROR_3": "Este es un token gratuito y no se puede cancelar.",
-                "ERROR_4": "Este token no se renueva automáticamente y no se puede cancelar",
-                "ERROR_5": "Este token ya ha sido cancelado",
-                "ERROR_6": "Este token es gratuito con tu suscripción y no se puede cancelar. Visita la página de tu cuenta si deseas cancelar tu plan premium ",
-                "GENERAL_ERROR": "Error : El token no se pudo cancelar",
-                "SUCCESS": "Token cancelado"
-            },
-            "REACTIVATE": {
-                "TITLE": "Reactivar Token",
-                "CONFIRM": "Esto agrega el token cancelado nuevamente a tu suscripción. No se cobrará nada ahora, por ya haber abonado este período. El precio de tu nueva suscripción {{Frequency}} es {{amount}}. ¿Estás seguro de que deseas reactivar este crédito? ",
-                "OK": "Si, reactivar token",
-                "ERROR_1": "Esta es una suscripción gratuita, el token no se puede reactivar",
-                "ERROR_2": "Esta suscripción está cancelada, el token no se puede reactivar",
-                "ERROR_3": "Este es un token gratuito y no se puede reactivar",
-                "ERROR_4": "Este token no se renueva automáticamente y no se puede reactivar",
-                "ERROR_5": "Este token ya venció y no se puede reactivar.",
-                "GENERAL_ERROR": "Error : El token no se pudo reactivar"
-            },
-            "PURCHASE": {
-                "TITLE": "Comprar Token",
-                "AUTO": "Renovar auto",
-                "ONCE": "Una sola vez",
-                "QUANTITY": "Cantidad",
-                "MONTHS": "Meses",
-                "MONTHS_SELECT": "meses",
-                "OK": "Comprar",
-                "ERROR_1": "Primero debes abonarte a un plan premium. Ver opciones",
-                "ERROR_1_LINK": "aquí",
-                "CHARGED": "Pagado ahora",
-                "TOTAL": "Importe total del abono {{frequency}}",
-                "GENERAL_ERROR": "Error : No se pudo comprar token"
-            }
+            "BACK_BUTTON": "Atras"
         }
     },
     "CONFIGURE_DEVICES": {
@@ -1331,14 +1276,6 @@
                 "CONFIRM": "Realizar pago"
             }
         },
-        "PRODUCTS": {
-            "MEMBERSHIP": "Abono Premium",
-            "WIFI_HUB_FREE": "Token Hub Wifi (Gratuito)",
-            "WIFI_HUB": "Token Hub Wifi",
-            "CELL_HUB_SINGLE": "Token Hub 4G (un solo sensor)",
-            "CELL_HUB": "Token Hub 4G",
-            "THIRD_PARTY": "Token Dispositivos de terceros "
-        },
         "PAY": {
             "TITLE": "Información del pago",
             "RENEW_DISCLAIMER": "Suscripción con renovación automática. Se cobrarán {{amount}} {{frequency}}.",
@@ -1411,51 +1348,6 @@
                 "UPDATE": "Actualizar"
             }
         }
-    },
-    "EDIT_SUBS": {
-        "MONTH_ERROR": "Las suscripciones mensuales ya no son compatibles con las nuevas compras. Para añadir tokens, debes cancelar tu suscripción actual y crear un nuevo abono Premium.",
-        "SHOW_EXPIRED": "Mostrar Caducados",
-        "MEMEBERSHIPS": {
-            "TITLE": "Afiliación",
-            "PRE_PAID": "Pre-Pago",
-            "FREE": "Gratuito",
-            "TRIAL": "Abono Test"
-        },
-        "TOKENS": {
-            "TITLE": "Tokens",
-            "REMOVE": "Retirar el token del abono",
-            "ASSIGN": {
-                "TITLE": "Associar",
-                "HUB": "Hub",
-                "THIRD_PARTY": "Dispositivos terceros"
-            },
-            "HUB_EDIT": {
-                "WARNING_DUP": "El hub tiene crédito activo hasta {{date}}. Esto será reemplazado",
-                "WARNING_SINGLE": "Este es un token de hub para un solo dispositivo. Sólo se puede cargar un dispositivo con este token",
-                "WARNING_WIFI_TYPE": "El hub Wifi se ejecutará en un token de hub 4G",
-                "WARNING_REMOVE": "Esto elimina el token del hub. El hub dejará de enviar datos"
-            },
-            "UPDATED": "Token actualizado",
-            "ERROR": "Error token no se ha actualizado",
-            "CANCEL_TITLE": "Cancelar Token",
-            "CANCEL_TEXT": "Estas seguro?",
-            "CANCEL_CONFIRM": "Si",
-            "CANCEL_SUCCESS": "Token cancelado"
-        },
-        "HEADERS": {
-            "NAME": "Nombre",
-            "START": "Comienza",
-            "RENEW": "Renueva",
-            "EXPIRES": "Expira",
-            "AUTO": "Auto-renueva",
-            "STATUS": "Status",
-            "ID": "ID",
-            "EDIT": "Editar",
-            "PRICE": "Precio",
-            "SUB_ID": "Sub ID",
-            "ASSOCIATED": "Associado con"
-        },
-        "PURCHASE": "Comprar Productos"
     },
     "FITNESS_CODE": {
         "B1": {

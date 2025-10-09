@@ -1003,69 +1003,14 @@
         "LAST_UPLOAD": "Siste opplasting",
         "TELECOM": "Telekom",
         "SIM": "SIM",
-        "EXPIRING": "Tokenstatus",
-        "HUB": "Hub",
-        "EXP_UNASSIGNED": "Ingen",
         "EDIT": "Administrer",
         "THIRD_PARTY_DEVICE": "Third Party Device",
         "MANAGE": {
             "TITLE": "Administrer",
             "CLOSE": "Ferdig",
             "SELECT_APIARY": "Velg bigård",
-            "REMOVE_CREDIT": "Fjern token fra {{item}}",
-            "CANCEL_CREDIT": "Fjern token fra auto-fornyelse",
-            "REACTIVATE_CREDIT": "Gjenaktiver token",
-            "SELECT_CREDIT": "Velg token",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Dette tokenet kan brukes for mange tredjepartsenheter",
-            "PURCHASE_CREDIT": "Kjøp nytt",
             "UPDATED_SUCCESS": "Hub oppdatert",
-            "ASSIGNMENT_SUCCESS": "Tildeling oppdatert",
-            "ASSIGNMENT_REMOVED": "Token fjernet",
-            "BACK_BUTTON": "Tilbake",
-            "REMOVE": {
-                "TITLE": "Fjern token",
-                "CONFIRM": "Er du sikker på at du vil fjerne tokenet fra {{item}}?",
-                "OK": "Ja, fjern dette tokenet",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke fjernet"
-            },
-            "CANCEL": {
-                "TITLE": "Avbryt token",
-                "CONFIRM": "Dette fjerner tokenet fra abonnementet ditt. Din nye {{frequency}} abonnementspris er {{amount}}. Etter utløpsdatoen ({{expiration}}) vil data fra denne huben ikke lenger bli akseptert av MyBroodMinder. Er du sikker på at du vil avbryte dette tokenet?",
-                "OK": "Ja, avbryt dette tokenet",
-                "ERROR_1": "Dette er et gratis abonnement, token kan ikke avbrytes",
-                "ERROR_2": "Dette abonnementet er avbrutt, token kan ikke avbrytes",
-                "ERROR_3": "Dette er et gratis token og kan ikke avbrytes",
-                "ERROR_4": "Dette tokenet er ikke auto-fornyet og kan ikke avbrytes",
-                "ERROR_5": "Dette tokenet er allerede avbrutt",
-                "ERROR_6": "Dette tokenet er gratis med ditt abonnement og kan ikke avbrytes. Besøk kontosiden hvis du vil avbryte premiummedlemskapet",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke avbrutt",
-                "SUCCESS": "Token avbrutt"
-            },
-            "REACTIVATE": {
-                "TITLE": "Gjenaktiver token",
-                "CONFIRM": "Dette legger det avbrutte tokenet tilbake i abonnementet ditt. Du blir ikke belastet noe nå, siden du allerede har betalt for denne perioden. Din nye {{frequency}} abonnementspris er {{amount}}. Er du sikker på at du vil gjenaktivere dette tokenet?",
-                "OK": "Ja, gjenaktiver dette tokenet",
-                "ERROR_1": "Dette er et gratis abonnement, token kan ikke gjenaktiveres",
-                "ERROR_2": "Dette abonnementet er avbrutt, token kan ikke gjenaktiveres",
-                "ERROR_3": "Dette er et gratis token og kan ikke gjenaktiveres",
-                "ERROR_4": "Dette tokenet er ikke auto-fornyet og kan ikke gjenaktiveres",
-                "ERROR_5": "Dette tokenet har allerede utløpt og kan ikke gjenaktiveres",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke gjenaktivert"
-            },
-            "PURCHASE": {
-                "TITLE": "Kjøp token",
-                "AUTO": "Auto-forny",
-                "ONCE": "Engang",
-                "QUANTITY": "Antall token",
-                "MONTHS": "Måneder",
-                "MONTHS_SELECT": "måneder",
-                "OK": "Kjøp",
-                "ERROR_1": "Du må først kjøpe et premium medlemskap. Se alternativer",
-                "ERROR_1_LINK": "her",
-                "CHARGED": "Belastet nå",
-                "TOTAL": "Oppdatert {{frequency}} medlemskapspris",
-                "GENERAL_ERROR": "Feil oppstod. Token ikke kjøpt"
-            }
+            "BACK_BUTTON": "Tilbake"
         }
     },
     "CONFIGURE_DEVICES": {
@@ -1325,14 +1270,6 @@
                 "CONFIRM": "Utfør betaling"
             }
         },
-        "PRODUCTS": {
-            "MEMBERSHIP": "Premiummedlemskap",
-            "WIFI_HUB_FREE": "Wifi Hub Token (Gratis)",
-            "WIFI_HUB": "Wifi Hub Token",
-            "CELL_HUB_SINGLE": "Cell Hub (Enhet) Token",
-            "CELL_HUB": "Cell Hub Token",
-            "THIRD_PARTY": "Tredjepartsenheter Token"
-        },
         "PAY": {
             "TITLE": "Betalingsinformasjon",
             "RENEW_DISCLAIMER": "Automatisk fornyelse av abonnementet. Du blir belastet {{amount}} {{frequency}}.",
@@ -1405,51 +1342,6 @@
                 "UPDATE": "Oppdater"
             }
         }
-    },
-    "EDIT_SUBS": {
-        "MONTH_ERROR": "Månedsabonnementer støttes ikke lenger for nye kjøp. For å legge til kreditter, må du avbryte ditt nåværende abonnement og opprette et nytt Premium-medlemskap.",
-        "SHOW_EXPIRED": "Vis utløpte",
-        "MEMEBERSHIPS": {
-            "TITLE": "Medlemskap",
-            "PRE_PAID": "Forhåndsbetalt",
-            "FREE": "Gratis",
-            "TRIAL": "Prøveperiode"
-        },
-        "TOKENS": {
-            "TITLE": "Tokens",
-            "REMOVE": "Fjern token fra medlemskap",
-            "ASSIGN": {
-                "TITLE": "Tilordne",
-                "HUB": "Hub",
-                "THIRD_PARTY": "Tredjepartsenheter"
-            },
-            "HUB_EDIT": {
-                "WARNING_DUP": "Hubben har kreditt som varer til {{date}}. Dette vil bli erstattet.",
-                "WARNING_SINGLE": "Dette er et token for enkelt enhetshub. Kun én sensor-enhet kan lastes opp med dette tokenet.",
-                "WARNING_WIFI_TYPE": "Wifi-hub vil kjøre på et cellehub-token.",
-                "WARNING_REMOVE": "Dette fjerner tokenet fra hubben. Hubben vil slutte å laste opp data."
-            },
-            "UPDATED": "Token ble oppdatert",
-            "ERROR": "Feil, token ble ikke oppdatert",
-            "CANCEL_TITLE": "Avbryt token",
-            "CANCEL_TEXT": "Er du sikker?",
-            "CANCEL_CONFIRM": "Ja",
-            "CANCEL_SUCCESS": "Token ble kansellert"
-        },
-        "HEADERS": {
-            "NAME": "Navn",
-            "START": "Starter",
-            "RENEW": "Fornyes",
-            "EXPIRES": "Utløper",
-            "AUTO": "Automatisk fornyelse",
-            "STATUS": "Status",
-            "ID": "ID",
-            "EDIT": "Rediger",
-            "PRICE": "Pris",
-            "SUB_ID": "Abonnements-ID",
-            "ASSOCIATED": "Assosiert med"
-        },
-        "PURCHASE": "Kjøp produkter"
     },
     "FITNESS_CODE": {
         "B1": {

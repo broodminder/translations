@@ -1009,69 +1009,14 @@
         "LAST_UPLOAD":"Dernier relevé",
         "TELECOM":"Télécom",
         "SIM":"SIM",
-        "EXPIRING":"Etat des jetons",
-        "HUB":"Hub",
-        "EXP_UNASSIGNED":"Non assigné",
         "EDIT":"Gérer",
         "THIRD_PARTY_DEVICE":"Capteurs Yolink",
         "MANAGE": {
             "TITLE":"Gérer",
             "CLOSE":"Terminé",
             "SELECT_APIARY":"Selectionner rucher",
-            "REMOVE_CREDIT":"Retirer jeton de {{item}}",
-            "CANCEL_CREDIT":"Retirer jeton de renouv. auto",
-            "REACTIVATE_CREDIT":"Réactiver jeton",
-            "SELECT_CREDIT":"Sélectionner jeton",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Ce jeton peut être utilisé pour de nombreux appareils tiers",
-            "PURCHASE_CREDIT":"Acheter nouveau jeton",
             "UPDATED_SUCCESS":"Hub mis à jour",
-            "ASSIGNMENT_SUCCESS":"Affectation mis à jour",
-            "ASSIGNMENT_REMOVED":"Jeton supprimé",
-            "BACK_BUTTON":"Arrière",
-            "REMOVE": {
-                "TITLE":"Retirer Jeton",
-                "CONFIRM":"Voulez-vous vraiment retirer le jeton de {{item}}?",
-                "OK":"Oui, retirer ce jeton",
-                "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être retiré"
-            },
-            "CANCEL": {
-                "TITLE":"Annuler le Jeton",
-                "CONFIRM":"Cela supprimera le jeton de votre abonnement. Le prix de votre nouvel abonnement à {{frequency}} est de {{amount}}. Après la date d'expiration ({{expiration}}), les données de ce hub ne seront plus acceptées dans MyBroodMinder. Voulez-vous vraiment annuler ce jeton? ",
-                "OK":"Oui, annuler ce jeton",
-                "ERROR_1":"Ceci est un abonnement gratuit, le jeton ne peut pas être annulé",
-                "ERROR_2":"Cet abonnement est annulé, le jeton ne peut pas être annulé",
-                "ERROR_3":"Ceci est un jeton gratuit et ne peut pas être annulé",
-                "ERROR_4":"Ce jeton n'est pas renouvelé automatiquement et ne peut pas être annulé",
-                "ERROR_5":"Ce jeton a déjà été annulé",
-                "ERROR_6":"Ce jeton est gratuit avec votre abonnement et ne peut pas être annulé. Visitez la page du compte si vous souhaitez annuler votre abonnement Premium",
-                "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être annulé",
-                "SUCCESS":"Jeton annulé"
-            },
-            "REACTIVATE": {
-                "TITLE":"Réactiver Jeton",
-                "CONFIRM":"Cela ajoutera le jeton annulé à votre abonnement. Rien ne vous sera facturé maintenant, car vous avez déjà payé pour cette période. Le prix de votre nouvel abonnement à {{frequency}} est de {{amount}}. Voulez-vous vraiment réactiver ce jeton ?",
-                "OK":"Oui, réactiver ce jeton",
-                "ERROR_1":"Ceci est un abonnement gratuit, le jeton ne peut pas être réactivé",
-                "ERROR_2":"Cet abonnement est annulé, le jeton ne peut pas être réactivé",
-                "ERROR_3":"Ceci est un jeton gratuit et ne peut pas être réactivé",
-                "ERROR_4":"Ce jeton n'est pas renouvelable automatiquement et ne peut pas être réactivé",
-                "ERROR_5":"Ce jeton a déjà expiré et ne peut pas être réactivé",
-                "GENERAL_ERROR":"Erreur : Le jeton n'a pas pu être réactivé"
-            },
-            "PURCHASE": {
-                "TITLE":"Acheter Jeton",
-                "AUTO":"Renouvellement automatique",
-                "ONCE":"Une seule fois",
-                "QUANTITY":"Quantité",
-                "MONTHS":"Mois",
-                "MONTHS_SELECT":"mois",    
-                "OK":"Acheter",
-                "ERROR_1":"Vous devez d'abord souscrire un abonnement Premium. Afficher les options",
-                "ERROR_1_LINK":"ici",
-                "CHARGED":"Montant prélevé",
-                "TOTAL":"Coût total de l'abonnement {{frequency}}",
-                "GENERAL_ERROR":"Erreur : la commande n'a pas réussi"
-            }
+            "BACK_BUTTON":"Arrière"
         }
     },
     "CONFIGURE_DEVICES": {
@@ -1331,14 +1276,6 @@
                 "CONFIRM": "Effectuer le paiement"
             }
         },
-        "PRODUCTS":{
-            "MEMBERSHIP":"Abonnement Premium",
-            "WIFI_HUB_FREE":"Jeton Hub Wifi (Gratuit)",
-            "WIFI_HUB":"Jeton Hub Wifi",
-            "CELL_HUB_SINGLE":"Jeton Hub 4G (Un seul capteur)",
-            "CELL_HUB":"Jeton Hub 4G",
-            "THIRD_PARTY":"Jeton Appareils tiers"
-        },
         "PAY": {
             "TITLE":"Information de paiement",
             "RENEW_DISCLAIMER":"Abonnement avec renouvellement automatique. Un montant de {{amount}} {{frequency}} vous sera facturé. ",
@@ -1411,51 +1348,6 @@
                 "UPDATE":"Actualiser"
             }
         }
-    },
-    "EDIT_SUBS":{
-        "MONTH_ERROR":"Les abonnements mensuels ne sont plus pris en charge pour les nouveaux achats. Pour ajouter des jetons, vous devez annuler votre abonnement actuel et créer un nouvel abonnement Premium.",
-        "SHOW_EXPIRED":"Montrer Echus",
-        "MEMEBERSHIPS":{
-            "TITLE":"Abonnement",
-            "PRE_PAID":"Pre-Payé",
-            "FREE":"Gratuit",
-            "TRIAL":"Abonnement d'essai"
-        },
-        "TOKENS":{
-            "TITLE":"Jetons",
-            "REMOVE":"Retirer Jeton de l'abonement",
-            "ASSIGN":{
-                "TITLE":"Associer",
-                "HUB":"Hub",
-                "THIRD_PARTY":"Dispositifs tiers"
-            },
-            "HUB_EDIT":{
-                "WARNING_DUP":"Le hub a un crédit actif jusqu'à {{date}}. Il sera remplacé.",
-                "WARNING_SINGLE":"Ceci est un jeton de Hub à capteur unique. Un seul capteur peut être téléchargé avec ce jeton.",
-                "WARNING_WIFI_TYPE":"Le Hub Wifi fonctionnera sur un jeton de Hub 4G..",
-                "WARNING_REMOVE":"Cela retire le jeton du hub. Le hub arrêtera de télécharger des données."
-            },
-            "UPDATED":"Jeton actualisé",
-            "ERROR":"Erreur, jeton non actualisé",
-            "CANCEL_TITLE":"Annuler Jeton",
-            "CANCEL_TEXT":"Etes-vous sûr?",
-            "CANCEL_CONFIRM":"Oui",
-            "CANCEL_SUCCESS":"Jeton annulé"
-        },
-        "HEADERS":{
-            "NAME":"Nom",
-            "START":"Début",
-            "RENEW":"Renouvelle",
-            "EXPIRES":"Expire",
-            "AUTO":"Auto-renouvelle",
-            "STATUS":"Statut",
-            "ID":"ID",
-            "EDIT":"Editer",
-            "PRICE":"Prix",
-            "SUB_ID":"Sub ID",
-            "ASSOCIATED":"Associé avec"
-        },
-        "PURCHASE":"Acheter Produits"
     },
     "FITNESS_CODE":{
         "B1":{
@@ -2545,5 +2437,5 @@
         "TXT_5":"Lancez-vous et exploitez tout le potentiel de vos données apicoles !",
         "PRIVACY":"Politique de confidentialité",
         "TERMS":"Conditions d'utilisation"
-        }
     }
+}

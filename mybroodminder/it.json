@@ -1003,69 +1003,14 @@
         "LAST_UPLOAD": "Ultimo caricamento",
         "TELECOM": "Telecomunicazioni",
         "SIM": "SIM",
-        "EXPIRING": "Stato del token",
-        "HUB": "Hub",
-        "EXP_UNASSIGNED": "Nessuno",
         "EDIT": "Gestisci",
         "THIRD_PARTY_DEVICE": "Dispositivo di terze parti",
         "MANAGE": {
             "TITLE": "Gestisci",
             "CLOSE": "Fatto",
             "SELECT_APIARY": "Seleziona alveare",
-            "REMOVE_CREDIT": "Rimuovi token da {{item}}",
-            "CANCEL_CREDIT": "Rimuovi token dall'auto-rinnovo",
-            "REACTIVATE_CREDIT": "Riattiva token",
-            "SELECT_CREDIT": "Seleziona token",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Questo token può essere utilizzato per molti dispositivi di terze parti",
-            "PURCHASE_CREDIT": "Acquista nuovo",
             "UPDATED_SUCCESS": "Hub aggiornato",
-            "ASSIGNMENT_SUCCESS": "Assegnazione aggiornata",
-            "ASSIGNMENT_REMOVED": "Token rimosso",
-            "BACK_BUTTON": "Indietro",
-            "REMOVE": {
-                "TITLE": "Rimuovi token",
-                "CONFIRM": "Sei sicuro di voler rimuovere il token da {{item}}?",
-                "OK": "Sì, rimuovi questo token",
-                "GENERAL_ERROR": "Errore. Token non rimosso"
-            },
-            "CANCEL": {
-                "TITLE": "Annulla token",
-                "CONFIRM": "Questo rimuove il token dal tuo abbonamento. Il tuo nuovo prezzo di abbonamento {{frequency}} è di {{amount}}. Dopo la data di scadenza ({{expiration}}), i dati da questo hub non verranno più accettati da MyBroodMinder. Sei sicuro di voler annullare questo token?",
-                "OK": "Sì, annulla questo token",
-                "ERROR_1": "Questo è un abbonamento gratuito, il token non può essere annullato",
-                "ERROR_2": "Questo abbonamento è annullato, il token non può essere annullato",
-                "ERROR_3": "Questo è un token gratuito e non può essere annullato",
-                "ERROR_4": "Questo token non è a rinnovo automatico e non può essere annullato",
-                "ERROR_5": "Questo token è già stato annullato",
-                "ERROR_6": "Questo token è gratuito con il tuo abbonamento e non può essere annullato. Visita la pagina del tuo account se desideri annullare la tua iscrizione premium",
-                "GENERAL_ERROR": "Errore. Token non annullato",
-                "SUCCESS": "Token annullato"
-            },
-            "REACTIVATE": {
-                "TITLE": "Riattiva token",
-                "CONFIRM": "Questo aggiunge il token annullato nuovamente al tuo abbonamento. Non ti verrà addebitato nulla ora, poiché hai già pagato per questo periodo. Il tuo nuovo prezzo di abbonamento {{frequency}} è di {{amount}}. Sei sicuro di voler riattivare questo token?",
-                "OK": "Sì, riattiva questo token",
-                "ERROR_1": "Questo è un abbonamento gratuito, il token non può essere riattivato",
-                "ERROR_2": "Questo abbonamento è annullato, il token non può essere riattivato",
-                "ERROR_3": "Questo è un token gratuito e non può essere riattivato",
-                "ERROR_4": "Questo token non è a rinnovo automatico e non può essere riattivato",
-                "ERROR_5": "Questo token è già scaduto e non può essere riattivato",
-                "GENERAL_ERROR": "Errore. Token non riattivato"
-            },
-            "PURCHASE": {
-                "TITLE": "Acquista token",
-                "AUTO": "Auto-rinnovo",
-                "ONCE": "Una tantum",
-                "QUANTITY": "Numero di token",
-                "MONTHS": "Mesi",
-                "MONTHS_SELECT": "mesi",
-                "OK": "Acquista",
-                "ERROR_1": "Devi prima acquistare un abbonamento premium. Visualizza le opzioni",
-                "ERROR_1_LINK": "qui",
-                "CHARGED": "Addebitato ora",
-                "TOTAL": "Prezzo aggiornato per l'abbonamento {{frequency}}",
-                "GENERAL_ERROR": "Errore. Token non acquistato"
-            }
+            "BACK_BUTTON": "Indietro"
         }
     },
     "CONFIGURE_DEVICES": {
@@ -1325,14 +1270,6 @@
                 "CONFIRM": "Effettua Pagamento"
             }
         },
-        "PRODUCTS": {
-            "MEMBERSHIP": "Membership Premium",
-            "WIFI_HUB_FREE": "Token per Wifi Hub (Gratuito)",
-            "WIFI_HUB": "Token per Wifi Hub",
-            "CELL_HUB_SINGLE": "Token per Cell Hub (Dispositivo singolo)",
-            "CELL_HUB": "Token perCell Hub",
-            "THIRD_PARTY": "Token per dispositivi di terze parti"
-        },
         "PAY": {
             "TITLE": "Informazioni di pagamento",
             "RENEW_DISCLAIMER": "Abbonamento con rinnovo automatico. Sarai addebitato {{amount}} {{frequency}}.",
@@ -1405,51 +1342,6 @@
                 "UPDATE": "Aggiorna"
             }
         }
-    },
-    "EDIT_SUBS": {
-        "MONTH_ERROR": "Gli abbonamenti mensili non sono più supportati per nuovi acquisti. Per aggiungere token, è necessario cancellare l'abbonamento corrente e creare un nuovo abbonamento Premium.",
-        "SHOW_EXPIRED": "Mostra scaduti",
-        "MEMEBERSHIPS": {
-            "TITLE": "Abbonamenti",
-            "PRE_PAID": "Prepagata",
-            "FREE": "Gratuita",
-            "TRIAL": "Abbonamento di prova"
-        },
-        "TOKENS": {
-            "TITLE": "Token",
-            "REMOVE": "Rimuovi token dall'abbonamento",
-            "ASSIGN": {
-                "TITLE": "Assegna",
-                "HUB": "Hub",
-                "THIRD_PARTY": "Dispositivi di terze parti"
-            },
-            "HUB_EDIT": {
-                "WARNING_DUP": "L'hub ha un credito attivo fino al {{date}}. Questo verrà sostituito.",
-                "WARNING_SINGLE": "Questo è un token di hub singolo. Solo un dispositivo sensore può essere caricato con questo token.",
-                "WARNING_WIFI_TYPE": "L'hub Wifi funzionerà con un token di hub cellulare.",
-                "WARNING_REMOVE": "Questo rimuove il token dall'hub. L'hub smetterà di caricare i dati."
-            },
-            "UPDATED": "Token aggiornato",
-            "ERROR": "Errore nell'aggiornamento del token",
-            "CANCEL_TITLE": "Annulla token",
-            "CANCEL_TEXT": "Sei sicuro?",
-            "CANCEL_CONFIRM": "Sì",
-            "CANCEL_SUCCESS": "Token annullato"
-        },
-        "HEADERS": {
-            "NAME": "Nome",
-            "START": "Inizia il",
-            "RENEW": "Rinnova il",
-            "EXPIRES": "Scade il",
-            "AUTO": "Rinnovo automatico",
-            "STATUS": "Stato",
-            "ID": "ID",
-            "EDIT": "Modifica",
-            "PRICE": "Prezzo",
-            "SUB_ID": "ID sottoscrizione",
-            "ASSOCIATED": "Associato a"
-        },
-        "PURCHASE": "Acquista prodotti"
     },
     "FITNESS_CODE": {
         "B1": {

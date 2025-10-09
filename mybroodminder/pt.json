@@ -1003,69 +1003,14 @@
         "LAST_UPLOAD": "Último Upload",
         "TELECOM": "Telecom",
         "SIM": "SIM",
-        "EXPIRING": "Status do Token",
-        "HUB": "Hub",
-        "EXP_UNASSIGNED": "Nenhum",
         "EDIT": "Gerenciar",
         "THIRD_PARTY_DEVICE": "Third Party Device",
         "MANAGE": {
             "TITLE": "Gerenciar",
             "CLOSE": "Concluído",
             "SELECT_APIARY": "Selecionar apiário",
-            "REMOVE_CREDIT": "Remover token de {{item}}",
-            "CANCEL_CREDIT": "Remover token da renovação automática",
-            "REACTIVATE_CREDIT": "Reativar token",
-            "SELECT_CREDIT": "Selecionar Token",
-            "SELECT_CREDIT_MULTIPLE_THIRD_PARTY": "Este token pode ser usado para muitos dispositivos de terceiros",
-            "PURCHASE_CREDIT": "Comprar Novo",
             "UPDATED_SUCCESS": "Hub atualizado",
-            "ASSIGNMENT_SUCCESS": "Atribuição atualizada",
-            "ASSIGNMENT_REMOVED": "Token removido",
-            "BACK_BUTTON": "Voltar",
-            "REMOVE": {
-                "TITLE": "Remover Token",
-                "CONFIRM": "Tem certeza de que deseja remover o token de {{item}}?",
-                "OK": "Sim, remover este token",
-                "GENERAL_ERROR": "Ocorreu um erro. Token não removido"
-            },
-            "CANCEL": {
-                "TITLE": "Cancelar Token",
-                "CONFIRM": "Isso remove o token de sua assinatura. Seu novo preço de assinatura {{frequency}} é {{amount}}. Após a data de expiração ({{expiration}}), os dados deste hub não serão mais aceitos pelo MyBroodMinder. Tem certeza de que deseja cancelar este token?",
-                "OK": "Sim, cancelar este token",
-                "ERROR_1": "Esta é uma assinatura gratuita, o token não pode ser cancelado",
-                "ERROR_2": "Esta assinatura está cancelada, o token não pode ser cancelado",
-                "ERROR_3": "Este é um token gratuito e não pode ser cancelado",
-                "ERROR_4": "Este token não é de renovação automática e não pode ser cancelado",
-                "ERROR_5": "Este token já foi cancelado",
-                "ERROR_6": "Este token é gratuito com sua assinatura e não pode ser cancelado. Visite a página da conta se quiser cancelar sua associação premium",
-                "GENERAL_ERROR": "Ocorreu um erro. Token não cancelado",
-                "SUCCESS": "Token cancelado"
-            },
-            "REACTIVATE": {
-                "TITLE": "Reativar Token",
-                "CONFIRM": "Isso adiciona o token cancelado de volta à sua assinatura. Você não será cobrado nada agora, pois já pagou por este período. Seu novo preço de assinatura {{frequency}} é {{amount}}. Tem certeza de que deseja reativar este token?",
-                "OK": "Sim, reativar este token",
-                "ERROR_1": "Esta é uma assinatura gratuita, o token não pode ser reativado",
-                "ERROR_2": "Esta assinatura está cancelada, o token não pode ser reativado",
-                "ERROR_3": "Este é um token gratuito e não pode ser reativado",
-                "ERROR_4": "Este token não é de renovação automática e não pode ser reativado",
-                "ERROR_5": "Este token já expirou e não pode ser reativado",
-                "GENERAL_ERROR": "Ocorreu um erro. Token não reativado"
-            },
-            "PURCHASE": {
-                "TITLE": "Comprar Token",
-                "AUTO": "Renovação automática",
-                "ONCE": "Única vez",
-                "QUANTITY": "Número de tokens",
-                "MONTHS": "Meses",
-                "MONTHS_SELECT": "meses",
-                "OK": "Comprar",
-                "ERROR_1": "Você deve primeiro comprar uma associação premium. Veja as opções",
-                "ERROR_1_LINK": "aqui",
-                "CHARGED": "Cobrado agora",
-                "TOTAL": "Preço atualizado da associação {{frequency}}",
-                "GENERAL_ERROR": "Ocorreu um erro. Token não comprado"
-            }
+            "BACK_BUTTON": "Voltar"
         }
     },
     "CONFIGURE_DEVICES": {
@@ -1325,14 +1270,6 @@
                 "CONFIRM": "Efetuar Pagamento"
             }
         },
-        "PRODUCTS": {
-            "MEMBERSHIP": "Associação Premium",
-            "WIFI_HUB_FREE": "Token de hub wifi (grátis)",
-            "WIFI_HUB": "Token de hub wifi",
-            "CELL_HUB_SINGLE": "Token de hub celular (dispositivo único)",
-            "CELL_HUB": "Token de hub celular",
-            "THIRD_PARTY": "Token de dispositivos de terceiros"
-        },
         "PAY": {
             "TITLE": "Informações de pagamento",
             "RENEW_DISCLAIMER": "Assinatura com renovação automática. Você será cobrado {{amount}} {{frequency}}.",
@@ -1405,51 +1342,6 @@
                 "UPDATE": "Atualizar"
             }
         }
-    },
-    "EDIT_SUBS": {
-        "MONTH_ERROR": "Assinaturas mensais não são mais suportadas para novas compras. Para adicionar tokens, você deve cancelar sua assinatura atual e criar uma nova Associação Premium.",
-        "SHOW_EXPIRED": "Mostrar Expirados",
-        "MEMEBERSHIPS": {
-            "TITLE": "Associações",
-            "PRE_PAID": "Pré-pago",
-            "FREE": "Grátis",
-            "TRIAL": "Associação de Teste"
-        },
-        "TOKENS": {
-            "TITLE": "Tokens",
-            "REMOVE": "Remover Token da Associação",
-            "ASSIGN": {
-                "TITLE": "Atribuir",
-                "HUB": "Hub",
-                "THIRD_PARTY": "Dispositivos de Terceiros"
-            },
-            "HUB_EDIT": {
-                "WARNING_DUP": "O hub tem crédito ativo até {{date}}. Isso será substituído.",
-                "WARNING_SINGLE": "Este é um token de hub de dispositivo único. Apenas um dispositivo de sensor pode ser enviado com este token.",
-                "WARNING_WIFI_TYPE": "O hub Wi-Fi funcionará com um token de hub de celular.",
-                "WARNING_REMOVE": "Isso remove o token do hub. O hub deixará de enviar dados."
-            },
-            "UPDATED": "Token atualizado",
-            "ERROR": "Erro, token não foi atualizado",
-            "CANCEL_TITLE": "Cancelar Token",
-            "CANCEL_TEXT": "Você tem certeza?",
-            "CANCEL_CONFIRM": "Sim",
-            "CANCEL_SUCCESS": "Token cancelado"
-        },
-        "HEADERS": {
-            "NAME": "Nome",
-            "START": "Inicia em",
-            "RENEW": "Renova em",
-            "EXPIRES": "Expira em",
-            "AUTO": "Renovação automática",
-            "STATUS": "Status",
-            "ID": "ID",
-            "EDIT": "Editar",
-            "PRICE": "Preço",
-            "SUB_ID": "ID do Assinante",
-            "ASSOCIATED": "Associado a"
-        },
-        "PURCHASE": "Comprar Produtos"
     },
     "FITNESS_CODE": {
         "B1": {
