@@ -40,7 +40,7 @@
 		<value>Sensor</value>
 	</data>
 	<data name="COMMON_HUB">
-		<value>Hub</value>
+		<value>Router</value>
 	</data>
 	<data name="COMMON_SUBHUB">
 		<value>SubHub</value>
@@ -358,7 +358,7 @@
 		<value>Completo</value>
 	</data>
 	<data name="DEVICE_STATUS_REMOTEHUB">
-		<value>Hub (Remoto)</value>
+		<value>Router (Remoto)</value>
 	</data>
 	<data name="SYNC_CANCEL_MESSAGE">
 		<value>Cancelar la sincro?</value>
@@ -901,7 +901,7 @@
 		<value>Temp/Humedad</value>
 	</data>
 	<data name="DEVICES_FILTER_HUB">
-		<value>Hubs</value>
+		<value>Routers</value>
 	</data>
 	<data name="DEVICES_FILTER_SUBHUB">
 		<value>SubHubs</value>
@@ -2413,10 +2413,10 @@
 		<value>Nada en progreso, elija una opción arriba</value>
 	</data>
 	<data name="BSCHANGE_HUBMODE_EN">
-		<value>Modo de Presencia del Hub Activado</value>
+		<value>Modo de Presencia del Router Activado</value>
 	</data>
 	<data name="BSCHANGE_HUBMODE_DIS">
-		<value>Modo de Presencia del Hub Desactivado</value>
+		<value>Modo de Presencia del Router Desactivado</value>
 	</data>
 	<data name="BSCHANGE_AS_EN">
 		<value>Programación de Actividad Activada</value>
@@ -2515,13 +2515,13 @@
 		<value>años</value>
 	</data>
 	<data name="BSSET_HP_EXP_TITLE">
-		<value>Modo de presencia del Hub</value>
+		<value>Modo de presencia del Router</value>
 	</data>
 	<data name="BSSET_AS_EXP_TITLE">
 		<value>Programación de Actividad</value>
 	</data>
 	<data name="BSSET_HP_EXP_MESSAGE">
-		<value>Seleccione esto si tiene un BroodMinder Hub en su apiario</value>
+		<value>Seleccione esto si tiene un BroodMinder Router en su apiario</value>
     </data>
 	<data name="BSSET_AS_EXP_MESSAGE">
 		<value>Reducir el tiempo en que los sensores detectan enjambres prolongará la vida útil de la batería.</value>
@@ -2692,7 +2692,7 @@
 		<value>Enjambre</value>
 	</data>
 	<data name="ALERT_CODE.321.DESCR">
-		<value>Se activa cuando ocurre un posible enjambre (el Hub proporciona mayor eficiencia).</value>
+		<value>Se activa cuando ocurre un posible enjambre (el Router proporciona mayor eficiencia).</value>
 	</data>
 	<data name="ALERT_CODE.321.MSG">
 		<value>Posible enjambre detectado alrededor de las 14:00</value>
@@ -2755,7 +2755,7 @@
 		<value>Desconexión del dispositivo</value>
 	</data>
 	<data name="ALERT_CODE.402.DESCR">
-		<value>Se activa cuando uno de sus sensores ya no transmite datos (o puntualmente) durante cada período elegido. Solo funciona con un Hub.</value>
+		<value>Se activa cuando uno de sus sensores ya no transmite datos (o puntualmente) durante cada período elegido. Solo funciona con un Router.</value>
 	</data>
 	<data name="ALERT_CODE.402.MSG">
 		<value></value>
