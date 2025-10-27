@@ -2346,6 +2346,10 @@
             "FEATURES":"Check Features",
             "MANAGE":"Manage Hives",
             "MANAGE_MESSAGE":"To add a new hive, you'll need to deactivate {{hivesOver}} of your existing hives. You can still view inactive hives (from the configure page), but not upload any new data."
+        },
+        "WARNING":{
+            "COMP_EXP":"Complimentary subscription ending in {{dayCount}} days",
+            "PAID_EXP":"Subscription ending in {{dayCount}} days"
         }
     },
     "FRAUDCHECKS":{
