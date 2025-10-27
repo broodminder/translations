@@ -98,7 +98,7 @@
             "ADD_OBS":"Añadir Observación",
             "EDIT": "Editar planta"
         },
-        "HUB_TOOLTIP": "Hub",
+        "HUB_TOOLTIP": "Router",
         "SHARED_TOOLTIP": "compartido conmigo",
         "NEW_FEATURES": "Nuevas Funciones",
         "RESOURCES": "Recursos",
@@ -377,15 +377,15 @@
         }
     },
     "HUB_PAGE": {
-        "TITLE": "Hub {{name}}",
+        "TITLE": "Router {{name}}",
         "NAME": "Nombre",
         "ADDRESS": "Dirección del dispositivo",
         "MODEL": "Modelo",
         "FIRMWARE": "Firmware",
         "UPLOAD_TIME": "Ultima carga de datos",
-        "CHART_TITLE": "Datos para el Hub {{name}}",
+        "CHART_TITLE": "Datos para el Router {{name}}",
         "READING_COUNT": "Datos mostrados: {{count}}",
-        "CHART_LOADING": "Cargando datos del hub",
+        "CHART_LOADING": "Cargando datos del Router",
         "CHART_READINGS_SENT": "Datos enviados",
         "CHART_READINGS_LABEL": "lecturas",
         "CHART_SIGNAL": "señal",
@@ -410,7 +410,7 @@
         "APIARIES_TITLE": "Colmenares",
         "HIVES_TITLE": "Colmenas",
         "DEVICES_TITLE": "Sensores",
-        "HUBS_TITLE": "Hubs",
+        "HUBS_TITLE": "Routers",
         "LINKS_TITLE": "Enlaces Públicos",
         "THIRD_PARTY_TITLE": "Dispositivos de terceros",
         "SUBSCRIPTIONS_TITLE": "Mis Abonos",
@@ -644,7 +644,7 @@
             "START_OPEN": "abrir",
             "END": "Fin",
             "END_OPEN": "actual",
-            "DESCRIPTION": "Selecciona un sensor o un hub como fuente meteorológica del colmenar para la humedad y/o la temperatura. Cualquier rango de tiempo sin un dispositivo será por defecto atribuido a Weather Source. ",
+            "DESCRIPTION": "Selecciona un sensor o un router como fuente meteorológica del colmenar para la humedad y/o la temperatura. Cualquier rango de tiempo sin un dispositivo será por defecto atribuido a Weather Source. ",
             "MEASUREMENT": "Variable",
             "EDIT": {
                 "EDIT_TEMPERATURE": "Editar FUente Temperatura",
@@ -759,15 +759,15 @@
         }
     },
     "HUB_CRUD": {
-        "CREATE_TITLE": "Crear Hub",
-        "EDIT_TITLE": "Editar Hub",
+        "CREATE_TITLE": "Crear Router",
+        "EDIT_TITLE": "Editar Router",
         "NAME": "Nomnbre",
         "NAME_AUTO": "Usar la direccion como nombre",
         "MODEL": "Modelo n°",
         "ERROR_ADDRESS": "Por favor entra una dirección válida",
-        "ERROR_DUPLICATE": "No se pudo crear, un hub con esa dirección ya existe",
-        "SUCCESS_CREATED": "Hub creado",
-        "SUCCESS_UPDATED": "Hub actualizado",
+        "ERROR_DUPLICATE": "No se pudo crear, un router con esa dirección ya existe",
+        "SUCCESS_CREATED": "Router creado",
+        "SUCCESS_UPDATED": "Router actualizado",
         "USERID": "Usuario",
         "SIM": {
             "TITLE": "Añadir sim",
@@ -892,7 +892,7 @@
                 "DEVICES": "Sensores",
                 "HIVES": "Colmenas",
                 "APIARIES": "Colmenares",
-                "HUBS": "Hubs",
+                "HUBS": "Routers",
                 "SUBS_TO_CANCEL": "Suscripciones a cancelar",
                 "STARTED": "Iniciado",
                 "ACCOUNT": "Cuenta",
@@ -1015,7 +1015,7 @@
             "TITLE": "Gestionar",
             "CLOSE": "Hecho",
             "SELECT_APIARY": "Selecciona colmenar",
-            "UPDATED_SUCCESS": "Hub actualizado",
+            "UPDATED_SUCCESS": "Router actualizado",
             "BACK_BUTTON": "Atras"
         }
     },
@@ -1220,9 +1220,9 @@
         "SEC3_ITEM7": "Fotos de colmenares/colmenas",
         "SEC3_ITEM8": "Pronóstico del tiempo",
         "SEC3_ITEM9": "Alertas de sensores, colmenas y clima",
-        "SEC3_ITEM10": "Soporte de hub celular (datos en tiempo real)",
-        "SEC3_ITEM11": "Soporte de hub WiFi (datos en tiempo real)",
-        "SEC3_ITEM12": "Soporte de hub LoRa (datos en tiempo real)",
+        "SEC3_ITEM10": "Soporte de router celular (datos en tiempo real)",
+        "SEC3_ITEM11": "Soporte de router WiFi (datos en tiempo real)",
+        "SEC3_ITEM12": "Soporte de router LoRa (datos en tiempo real)",
         "SEC3_ITEM13": "Descarga de datos (CSV)",
         "SEC3_ITEM14": "Compartición de datos",
         "SEC3_ITEM15": "Enlaces compartibles",
@@ -1325,7 +1325,7 @@
                 "GENERAL_ERROR": "Error : no se ha podido cancelar la suscripción",
                 "CONFIRM_WINDOW": {
                     "TITLE": "Cancelar la suscripción Premium",
-                    "MESSAGE": "Esto cancela los pagos futuros. Tu suscripción y los hubs seguirán operando hasta el {{expiration}}. ¿Deseas cancelar?",
+                    "MESSAGE": "Esto cancela los pagos futuros. Tu suscripción y los Routers seguirán operando hasta el {{expiration}}. ¿Deseas cancelar?",
                     "CONFIRM": "Si",
                     "CANCEL": "No"
                 }
@@ -1776,7 +1776,7 @@
         "CTOBSERVATIONS2": "Colonia en transición - Observaciones (2ª)"
     },
     "ALERTS_DESC": {
-        "REALTIME_SWARM_ALERT": "Evento de temperatura calculado por el dispositivo T2. Solo se notifica a los dispositivos ubicados en las camaras de cría conectados en tiempo real con un Hub"
+        "REALTIME_SWARM_ALERT": "Evento de temperatura calculado por el dispositivo T2. Solo se notifica a los dispositivos ubicados en las camaras de cría conectados en tiempo real con un Router"
     },
     "ALERT_CODES": {
         "201": {
@@ -1851,7 +1851,7 @@
         },
         "321": {
             "NAME": "Enjambrazón",
-            "DESCR": "Posible enjambrazon à partir de sensores W y T2 (un Hub ofrece mayor precision).",
+            "DESCR": "Posible enjambrazon à partir de sensores W y T2 (un Router ofrece mayor precision).",
             "MSG": "Posible enjambre detectado alrededor de 14:00"
         },
         "322": {
@@ -1886,7 +1886,7 @@
         },
         "402": {
             "NAME": "Desconexión",
-            "DESCR": "Uno de los sensores no transmite datos o lo hace de manera esporadica, durante el período seleccionado (necesita un Hub).",
+            "DESCR": "Uno de los sensores no transmite datos o lo hace de manera esporadica, durante el período seleccionado (necesita un Router).",
             "MSG": ""
         },
         "402t": {
@@ -2296,7 +2296,7 @@
         "HIVE_ADD": "Tiene {{activeHiveCount}} colmenas activas. Tu abono permite {{hivesAllowed}}.",
         "HOME_PAGE": "Esta vista muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
         "DATE_PICKER": "El rango de 13 meses y la previsión no están disponibles con un abono gratuito.",
-        "HUB_DATA": "Datos del hub no cargados con Tu abono gratuito.",
+        "HUB_DATA": "Datos del router no cargados con Tu abono gratuito.",
         "THIRDPARTY_DATA": "Datos de terceros no cargados con tu tu abono gratuito.",
         "MISSING_FEATURE": "Esta función no está disponible sin un abono Premium.",
         "MISSING_FEATURE_CLOSE": "Cerrar",
