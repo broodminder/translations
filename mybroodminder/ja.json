@@ -92,6 +92,12 @@
             "TITLE": "WeatherSource Weather",
             "TEXT": "この天気データはWeatherSourceから提供されています。これはあなたの養蜂場に提供された郵便番号に基づいています。"
         },
+        "PLANT_CONTEXT": {
+            "NAME": "植物",
+            "ADD_PLANT": "植物を追加",
+            "ADD_OBS": "観察を追加",
+            "EDIT": "植物を編集"
+        },
         "HUB_TOOLTIP": "ハブ",
         "SHARED_TOOLTIP": "共有された",
         "NEW_FEATURES": "新機能",
@@ -924,6 +930,17 @@
                 "ALLOWED": "許可された巣箱数",
                 "END": "終了日",
                 "EXPIRED": "期限切れ"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "取引",
+                "TABLE": {
+                    "ID": "取引ID",
+                    "DATE": "日付",
+                    "AMOUNT": "金額",
+                    "STATUS": "ステータス",
+                    "INVOICE": "請求書",
+                    "EDIT": "請求書"
+                }
             }
         }
     },
@@ -1294,7 +1311,8 @@
             "EMAIL": "メール",
             "FIRST_NAME": "名",
             "LAST_NAME": "姓",
-            "COMPANY": "会社"
+            "COMPANY": "会社",
+            "BUSINESSID": "ビジネスID"
         },
         "BILLING": {
             "TITLE": "請求先住所",
@@ -1625,6 +1643,13 @@
                 "YAXIS": "セッション/日",
                 "FILTER": "交尾飛行セッション",
                 "UNIT": "セッション/日"
+            },
+            "PLANT_BLOOM": {
+                "FILTER_DAILY": "開花期間",
+                "YAXIS": "植物"
+            },
+            "PHENO_FORECAST": {
+                "FILTER_DAILY": "フェノステージ"
             }
         }
     },
@@ -1687,6 +1712,7 @@
         "BROODREMOVE": "子供フレームの取り外し",
         "COMBINEDHIVES": "結合された巣",
         "SWARM": "蜂の大群",
+        "SECONDARYSWARM": "アフタースワーム",
         "CANDIFEED": "キャンディの給餌",
         "SYRUPFEED": "シロップの給餌",
         "PATTIESFEED": "パティの給餌",
@@ -1710,7 +1736,6 @@
         "VIRGINSWARM": "未交尾の蜂の大群",
         "SWARMRETURN": "蜂の大群と巣への帰還",
         "QUEENSEEN": "女王が見える",
-        "NOBROOD": "子供がいない",
         "LOWBROOD": "低い子供の数",
         "NORMBROOD": "普通の子供の数",
         "HIGHBROOD": "高い子供の数",
@@ -1730,14 +1755,38 @@
         "DRONE": "ドローンの存在",
         "BUZZINGHIVE": "働き蜂の産卵",
         "MOSAICBROOD": "散在する子供たち",
-        "QUEENCELLSEEN": "女王のセルが見える"
+        "QUEENCELLSEEN": "女王のセルが見える",
+        "SUPERSEDUREEMERGENCY": "後継者/緊急事態",
+        "YOUNGLARVA": "若い幼虫",
+        "OLDERLARVA": "年配の幼虫",
+        "CAPPEDWORKERBROOD1": "密閉された働き蜂の蛹（1枚）",
+        "CAPPEDWORKERBROOD2": "密閉された働き蜂の蛹（2枚）",
+        "CAPPEDWORKERBROOD3": "密閉された働き蜂の蛹（3枚以上）",
+        "CAPPEDDRONEBROODONLY": "密閉された雄蜂の蛹のみ",
+        "NOBROOD": "子供がいない",
+        "NOEGG": "卵なし",
+        "OPENQUEENCELL": "開いた女王細胞",
+        "CAPPEDQUEENCELL": "密閉された女王細胞",
+        "EMERGEDQUEENCELL": "出現した女王細胞",
+        "NOQUEENCELL": "女王細胞なし、卵/幼虫あり",
+        "MATEDQUEEN": "交尾した女王",
+        "BREEDERQUEENCELL": "飼育用女王細胞",
+        "EMERGEDVIRGIN": "出現した未交尾のメスバチ（1-3日齢）",
+        "FERTILEVIRGIN": "受精した未交尾のメスバチ（4日以上）",
+        "CONFIRMEDQUEEN": "確認された女王",
+        "INSTALLEDPACKAGE": "取り付け済みパッケージビー（交尾した女王）",
+        "INSTALLEDPRIMARYSWARM": "取り付け済み基本スワーム（交尾した女王）",
+        "INSTALLEDSECONDARYSWARM": "取り付け済みアフタースワーム（受精した未交尾のメスバチ）"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "子供の段階",
         "HEALTH": "健康",
         "MITES": "ダニ",
         "MANAGE": "管理",
-        "FEEDING": "給餌"
+        "FEEDING": "給餌",
+        "COLONYTRANSITION": "コロニーの移行",
+        "CTOBSERVATIONS": "コロニーの移行 - 観察",
+        "CTOBSERVATIONS2": "コロニーの移行 - 観察（2番目）"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "T2デバイスによって計算された温度イベント。リアルタイムハブを使用するデバイスにのみ通知されます。"
@@ -1920,6 +1969,26 @@
                 "REALTIME_BODY": "これはMyBroodMinderリアルタイムアラートのテストメッセージです。",
                 "SUCCESS": "{{email}} へのメールが送信されました",
                 "FAIL": "{{email}} へのメールの送信に失敗しました"
+            },
+            "PHONE": {
+                "TITLE": "SwarmMinder リアルタイムSMSメッセージ",
+                "INPUT_CC": "国コード",
+                "INPUT": "リアルタイムテキスト電話番号",
+                "CONFIRM": "番号を確認するためのメッセージを送信",
+                "CONFIRM_BUTTON_SEND": "確認テキストを送信",
+                "CONFIRM_BUTTON_RESEND": "確認テキストを再送信",
+                "CONFIRMED": "番号が確認されました",
+                "NOT_CONFIRMED": "未確認",
+                "REMOVE_BTN": "電話番号を削除",
+                "AWAITING": "確認待ち、送信日時：",
+                "UNCONFIRMED": "未確認、メッセージは送信されません",
+                "REMOVE": {
+                    "TITLE": "電話番号の削除",
+                    "MESSAGE": "この電話番号を削除してもよろしいですか？",
+                    "CONFIRM": "はい、番号を削除",
+                    "SUCCESS": "番号が削除されました",
+                    "FAIL": "番号の削除中にエラーが発生しました"
+                }
             }
         }
     },
@@ -1984,6 +2053,8 @@
                 "NECTAR": "蜜指数",
                 "HIVE_TEXT": "ハイブテキスト",
                 "HIVE_TEXT_SUMMARY": "テキスト",
+                "HIVE_COLONYTRANSITION": "コロニーの移行",
+                "HIVE_COLONYTRANSITION_CAL": "コロニーの移行カレンダー",
                 "BLOOM": "花開き",
                 "BLOOM_FORECAST": "花開きの予測"
             }
@@ -2115,6 +2186,15 @@
                 "SUNRISE": "日の出",
                 "INITIAL": "初期",
                 "LATEST": "最新"
+            },
+            "PLANT_FORECAST": {
+                "TITLE": "開花予測",
+                "APIARY": "養蜂場",
+                "PLANT": "植物",
+                "DESCRIPTION": "説明",
+                "BBCH": "BBCH",
+                "FORECAST": "予測日",
+                "DAYS": "日数"
             }
         }
     },
@@ -2264,6 +2344,135 @@
             "FEATURES": "機能を確認",
             "MANAGE": "巣箱を管理",
             "MANAGE_MESSAGE": "新しい巣箱を追加するには、既存の{{hivesOver}}個の巣箱を非アクティブにする必要があります。非アクティブな巣箱はまだ表示できます（構成ページから）、ただし新しいデータをアップロードすることはできません。"
+        },
+        "WARNING": {
+            "COMP_EXP": "{{dayCount}}日で終了する無料サブスクリプション",
+            "PAID_EXP": "{{dayCount}}日で終了するサブスクリプション"
         }
+    },
+    "FRAUDCHECKS": {
+        "NONE": "ステータスが不明です。下のキャプチャを完了してください。",
+        "CONTACT": "この状況が続く場合は、support@broodminder.com に連絡してください。",
+        "REGISTER": "登録エラー、現時点ではアカウントを作成できません。 (コード: {{errorCode}})",
+        "SUBCREATE": "エラー、現時点ではサブスクリプションを購入できません。 (コード: {{errorCode}})"
+    },
+    "PLANTS": {
+        "CONFIG_PAGE": {
+            "POLLEN_INT": "花粉興味",
+            "NECTAR_INT": "蜜興味",
+            "POLLEN_COLOR": "花粉の色",
+            "BLOOM_START": "開花開始",
+            "BLOOM_END": "開花終了",
+            "PHENO": "フェノキャスト",
+            "ACTIVE": "アクティブ",
+            "INACTIVE": "非アクティブ",
+            "TABLE": {
+                "TITLE": "フェノロジー観察",
+                "YEAR": "年",
+                "ADD": "古い観察を追加",
+                "DATE": "日付",
+                "CANCEL": "キャンセル",
+                "DELETE": {
+                    "TOOLTIP": "観察を削除",
+                    "TITLE": "観察を削除",
+                    "TEXT": "この観察を削除してもよろしいですか？",
+                    "YES": "はい、観察を削除",
+                    "NO": "キャンセル",
+                    "SUCCESS": "観察が削除されました"
+                }
+            }
+        },
+        "NEW_APIARY": {
+            "TITLE": "アピアリーに植物を追加しますか？",
+            "TEXT": "素晴らしい！新しいアピアリーが作成されました。蜜蜂にとって重要な植物を追加しますか？",
+            "YES": "はい",
+            "NO": "いいえ"
+        },
+        "ADD_OBSERVATION": {
+            "TITLE": "新しい植物の観察",
+            "SELECT": "植物を選択",
+            "DATE": "観察日",
+            "TIMESTAMP": "タイムスタンプ",
+            "NOTE": "メモ",
+            "SELECT_PHENO": "現象期を選択",
+            "CLOSE": "閉じる",
+            "SAVE_CLOSE": "保存して閉じる",
+            "SAVE_CONTINUE": "保存して観測を続ける",
+            "CREATED_COUNT": "このセッションで{{count}}の観測が作成されました",
+            "CREATED": "観測が作成されました",
+            "ERROR": "観測の作成中にエラーが発生しました",
+            "PLANT_CHANGE": {
+                "TITLE": "別の植物の観察を行いますか？",
+                "TEXT": "現在の観測が失われます。続行しますか？",
+                "YES": "変更せずに続行",
+                "NO": "キャンセル"
+            }
+        },
+        "ADD_CONFIGURATION": {
+            "TITLE": "新しい植物を追加",
+            "PLANT": "植物",
+            "SEARCH": "検索する",
+            "DESCR": "説明",
+            "SELECT": "植物を選択",
+            "CREATED": "植物が作成されました",
+            "CREATED_ERROR": "植物の作成中にエラーが発生しました",
+            "UPDATED": "植物が更新されました",
+            "UPDATED_ERROR": "植物の更新中にエラーが発生しました",
+            "MISSING": "植物が見つかりませんか？",
+            "INFO": "新しい植物のリクエストはこちらをクリックしてください",
+            "ADVANCED": {
+                "TITLE": "詳細",
+                "CONDITIONS": "条件",
+                "OPEN": "開く",
+                "BLOOMSTART": "開花開始",
+                "BLOOMEND": "開花終了",
+                "DAY": "日",
+                "MONTH": "月",
+                "AVAILABILITY": "可用性",
+                "AVAIL_NO": "不在",
+                "AVAIL_LOW": "低い存在",
+                "AVAIL_AVERAGE": "平均的な存在",
+                "AVAIL_STRONG": "強い存在",
+                "EDIT_CURRENT": "現在の状態を編集",
+                "ENVIRON_CHANGE": "環境の変化",
+                "ENVIRON_CHANGE_DATE": "環境の変化日"
+            },
+            "OBS": {
+                "TITLE": "植物に観察を追加しますか？",
+                "TEXT": "素晴らしい！新しい植物が作成されました。植物に観察を追加しますか？",
+                "YES": "はい",
+                "NO": "いいえ"
+            },
+            "OBSERVATION": "観察"
+        },
+        "DELETE_CONFIGURATION": {
+            "TITLE": "植物を削除",
+            "TEXT": "この植物を削除してもよろしいですか？",
+            "YES": "はい、植物を削除",
+            "NO": "キャンセル",
+            "SUCCESS": "植物が削除されました"
+        }
+    },
+    "LINKS": {
+        "EDU_DASH": "教育用ダッシュボード",
+        "VIDEO_GUIDES": "ビデオガイド",
+        "DOC": "オンラインドキュメント",
+        "DOCUMENTATION": "オンラインドキュメンテーション",
+        "CONSULTING": "コンサルティングサービス",
+        "STORES": "オンラインストア",
+        "THIRD_PARTY": "第三者の統合"
+    },
+    "HOME_V2": {
+        "TITLE": "BroodMinderを選んでいただきありがとうございます！",
+        "TOP_MSG": "あなたの養蜂への献身が私たちのすべての活動を後押しします。適切なツールを使えば、蜜蜂についての深い理解を得て、効果的に世話をすることができます。これらのソリューションが、あなたが情報を得て的確な判断を下し、コロニーの健康をサポートするのに役立つことを願っています。",
+        "TITLE_RIGHT": "イントロ動画を見る",
+        "LOGIN": "MyBroodMinderにログイン",
+        "TXT_1": "BroodMinderで実現できることは数多くあります！",
+        "TXT_2": "あなたの旅はMyBroodMinderとBeesアプリから始まります。",
+        "TXT_3": "はじめてですか？クイックスタートガイドから始めてください",
+        "TXT_4": "経験豊富なユーザーですか？より深い洞察を得るために、ビデオやオンラインドキュメントをご覧ください。",
+        "TXT_5": "始めて、養蜂データを最大限に活用しましょう！",
+        "PRIVACY": "プライバシーポリシー",
+        "TERMS": "利用規約"
     }
 }

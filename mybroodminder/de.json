@@ -92,6 +92,12 @@
             "TITLE": "WeatherSource Weather",
             "TEXT": "Diese Wetterdaten stammen von WeatherSource. Sie basieren auf der Postleitzahl, die in Ihrem Bienenstock angegeben ist."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Pflanzen",
+            "ADD_PLANT": "Pflanze hinzufügen",
+            "ADD_OBS": "Beobachtung hinzufügen",
+            "EDIT": "Pflanze bearbeiten"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "Mit mir geteilt",
         "NEW_FEATURES": "Neue Funktionen",
@@ -924,6 +930,17 @@
                 "ALLOWED": "Erlaubte Stöcke",
                 "END": "Enddatum",
                 "EXPIRED": "abgelaufen"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "Transaktionen",
+                "TABLE": {
+                    "ID": "Transaktions-ID",
+                    "DATE": "Datum",
+                    "AMOUNT": "Betrag",
+                    "STATUS": "Status",
+                    "INVOICE": "Rechnung",
+                    "EDIT": "Rechnung"
+                }
             }
         }
     },
@@ -1294,7 +1311,8 @@
             "EMAIL": "E-Mail",
             "FIRST_NAME": "Vorname",
             "LAST_NAME": "Nachname",
-            "COMPANY": "Unternehmen"
+            "COMPANY": "Unternehmen",
+            "BUSINESSID": "Geschäfts-ID"
         },
         "BILLING": {
             "TITLE": "Rechnungsadresse",
@@ -1625,6 +1643,13 @@
                 "YAXIS": "Sessions/day",
                 "FILTER": "Mating Flight Sessions",
                 "UNIT": "sessions/day"
+            },
+            "PLANT_BLOOM": {
+                "FILTER_DAILY": "Blüteperiode",
+                "YAXIS": "Pflanze"
+            },
+            "PHENO_FORECAST": {
+                "FILTER_DAILY": "Phänostadien"
             }
         }
     },
@@ -1687,6 +1712,7 @@
         "BROODREMOVE": "Entfernte Brutrahmen",
         "COMBINEDHIVES": "Kombinierte Bienenstöcke",
         "SWARM": "Schwarmbildung",
+        "SECONDARYSWARM": "Nachschwarm",
         "CANDIFEED": "Zuckerfütterung",
         "SYRUPFEED": "Fütterung mit Sirup",
         "PATTIESFEED": "Fütterung mit Pastillen",
@@ -1710,7 +1736,6 @@
         "VIRGINSWARM": "Jungschwarm",
         "SWARMRETURN": "Schwarm und Rückkehr zum Bienenstock",
         "QUEENSEEN": "Königin gesehen",
-        "NOBROOD": "Keine Brut",
         "LOWBROOD": "Niedriger Brutbestand",
         "NORMBROOD": "Mittlerer Brutbestand",
         "HIGHBROOD": "Hoher Brutbestand",
@@ -1730,14 +1755,38 @@
         "DRONE": "Anwesenheit von Drohnen",
         "BUZZINGHIVE": "Bienenstock mit legender Arbeiterin",
         "MOSAICBROOD": "Verstreute Brut",
-        "QUEENCELLSEEN": "Königinnenzelle gesehen"
+        "QUEENCELLSEEN": "Königinnenzelle gesehen",
+        "SUPERSEDUREEMERGENCY": "Austausch/ Notfall",
+        "YOUNGLARVA": "Junge Larve",
+        "OLDERLARVA": "Ältere Larve",
+        "CAPPEDWORKERBROOD1": "Gedeckte Arbeiterbrut (1 Wabe)",
+        "CAPPEDWORKERBROOD2": "Gedeckte Arbeiterbrut (2 Waben)",
+        "CAPPEDWORKERBROOD3": "Gedeckte Arbeiterbrut (3+ Waben)",
+        "CAPPEDDRONEBROODONLY": "Nur gedeckte Drohnenbrut",
+        "NOBROOD": "Keine Brut",
+        "NOEGG": "Kein Ei",
+        "OPENQUEENCELL": "Offene Weiselzelle",
+        "CAPPEDQUEENCELL": "Gedeckte Weiselzelle",
+        "EMERGEDQUEENCELL": "Ausgeschlüpfte Weiselzelle",
+        "NOQUEENCELL": "Keine Weiselzelle, hat Eier/Larven",
+        "MATEDQUEEN": "Begattete Königin",
+        "BREEDERQUEENCELL": "Zucht-Weiselzelle",
+        "EMERGEDVIRGIN": "Ausgeschlüpfte Jungkönigin (1-3 Tage alt)",
+        "FERTILEVIRGIN": "Befruchtete Jungkönigin (4 oder mehr Tage alt)",
+        "CONFIRMEDQUEEN": "Bestätigte Königin",
+        "INSTALLEDPACKAGE": "Installierte Paketbienen (begattete Königin)",
+        "INSTALLEDPRIMARYSWARM": "Installierter Erstschwarm (begattete Königin)",
+        "INSTALLEDSECONDARYSWARM": "Installierter Nachschwarm (befruchtete Jungkönigin)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Brutstadien",
         "HEALTH": "Gesundheit",
         "MITES": "Milben",
         "MANAGE": "Verwalten",
-        "FEEDING": "Fütterung"
+        "FEEDING": "Fütterung",
+        "COLONYTRANSITION": "Kolonieübergang",
+        "CTOBSERVATIONS": "Kolonieübergang - Beobachtungen",
+        "CTOBSERVATIONS2": "Kolonieübergang - Beobachtungen (2.)"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "Temperaturereignis berechnet vom T2-Gerät. Wird nur für Geräte über oder unter Brutkästen gemeldet, die einen Echtzeit-Hub verwenden."
@@ -1889,7 +1938,6 @@
             "MSG": "Ihr Bienenstock wurde als tot erkannt"
         }
     },
-    
     "CONFIGURE_ALERTS": {
         "REALTIME": "Echtzeit",
         "SWARM_ALERT": "SchwarmMinder",
@@ -1921,6 +1969,26 @@
                 "REALTIME_BODY": "Dies ist eine Testnachricht für MyBroodMinder-Echtzeitalarme.",
                 "SUCCESS": "E-Mail an {{email}} gesendet",
                 "FAIL": "E-Mail konnte nicht an {{email}} gesendet werden"
+            },
+            "PHONE": {
+                "TITLE": "SwarmMinder Echtzeit-SMS-Nachrichten",
+                "INPUT_CC": "Ländervorwahl",
+                "INPUT": "Echtzeit Text-Handynummer",
+                "CONFIRM": "Nachricht senden zur Bestätigung der Nummer",
+                "CONFIRM_BUTTON_SEND": "Bestätigungstext senden",
+                "CONFIRM_BUTTON_RESEND": "Bestätigungstext erneut senden",
+                "CONFIRMED": "Nummer bestätigt",
+                "NOT_CONFIRMED": "Nicht bestätigt",
+                "REMOVE_BTN": "Handynummer entfernen",
+                "AWAITING": "Warten auf Bestätigung, gesendet am ",
+                "UNCONFIRMED": "Nicht bestätigt, Nachrichten nicht gesendet",
+                "REMOVE": {
+                    "TITLE": "Nummer entfernen",
+                    "MESSAGE": "Möchten Sie diese Telefonnummer wirklich entfernen?",
+                    "CONFIRM": "Ja, Nummer entfernen",
+                    "SUCCESS": "Nummer entfernt",
+                    "FAIL": "Fehler beim Entfernen der Nummer"
+                }
             }
         }
     },
@@ -1985,6 +2053,8 @@
                 "NECTAR": "Nektarflussindex",
                 "HIVE_TEXT": "Bienenstocktext",
                 "HIVE_TEXT_SUMMARY": "Text",
+                "HIVE_COLONYTRANSITION": "Kolonieübergang",
+                "HIVE_COLONYTRANSITION_CAL": "Kolonieübergangskalender",
                 "BLOOM": "Blüte",
                 "BLOOM_FORECAST": "Blühvorhersage"
             }
@@ -2116,6 +2186,15 @@
                 "SUNRISE": "Sonnenaufgang",
                 "INITIAL": "Anfang",
                 "LATEST": "Neueste"
+            },
+            "PLANT_FORECAST": {
+                "TITLE": "Blütenprognose",
+                "APIARY": "Bienenstockstand",
+                "PLANT": "Pflanze",
+                "DESCRIPTION": "Beschreibung",
+                "BBCH": "BBCH",
+                "FORECAST": "Prognostiziertes Datum",
+                "DAYS": "Tage"
             }
         }
     },
@@ -2265,6 +2344,135 @@
             "FEATURES": "Funktionen überprüfen",
             "MANAGE": "Völker verwalten",
             "MANAGE_MESSAGE": "Um ein neues Volk hinzuzufügen, müssen Sie {{hivesOver}} Ihrer bestehenden Völker deaktivieren. Sie können immer noch inaktive Völker anzeigen (von der Konfigurationsseite aus), aber keine neuen Daten hochladen."
+        },
+        "WARNING": {
+            "COMP_EXP": "Kostenloses Abonnement läuft in {{dayCount}} Tagen ab",
+            "PAID_EXP": "Abonnement läuft in {{dayCount}} Tagen ab"
         }
+    },
+    "FRAUDCHECKS": {
+        "NONE": "Status unbekannt, bitte vervollständigen Sie das Captcha unten.",
+        "CONTACT": "Wenn dies fortgesetzt wird, kontaktieren Sie support@broodminder.com.",
+        "REGISTER": "Fehler bei der Registrierung, Konto kann derzeit nicht erstellt werden. (Code: {{errorCode}})",
+        "SUBCREATE": "Fehler, Abonnement kann derzeit nicht erworben werden. (Code: {{errorCode}})"
+    },
+    "PLANTS": {
+        "CONFIG_PAGE": {
+            "POLLEN_INT": "Polleninteresse",
+            "NECTAR_INT": "Nektarinteresse",
+            "POLLEN_COLOR": "Pollenfarbe",
+            "BLOOM_START": "Blütenbeginn",
+            "BLOOM_END": "Blütenende",
+            "PHENO": "Phänovorhersage",
+            "ACTIVE": "Aktiv",
+            "INACTIVE": "Inaktiv",
+            "TABLE": {
+                "TITLE": "Phänologische Beobachtungen",
+                "YEAR": "Jahr",
+                "ADD": "Ältere Beobachtung hinzufügen",
+                "DATE": "Datum",
+                "CANCEL": "Abbrechen",
+                "DELETE": {
+                    "TOOLTIP": "Beobachtung löschen",
+                    "TITLE": "Beobachtung löschen",
+                    "TEXT": "Möchten Sie diese Beobachtung wirklich löschen?",
+                    "YES": "Ja, Beobachtung löschen",
+                    "NO": "Abbrechen",
+                    "SUCCESS": "Beobachtung gelöscht"
+                }
+            }
+        },
+        "NEW_APIARY": {
+            "TITLE": "Pflanzen zu Ihrem Bienenstand hinzufügen?",
+            "TEXT": "Super! Sie haben einen neuen Bienenstand erstellt. Möchten Sie einige Pflanzen hinzufügen, die wichtig für Ihre Bienen sind?",
+            "YES": "Ja",
+            "NO": "Nein"
+        },
+        "ADD_OBSERVATION": {
+            "TITLE": "Neue Pflanzenbeobachtung",
+            "SELECT": "Pflanze auswählen",
+            "DATE": "Beobachtungsdatum",
+            "TIMESTAMP": "Zeitstempel",
+            "NOTE": "Notiz",
+            "SELECT_PHENO": "Phänostadium auswählen",
+            "CLOSE": "Schließen",
+            "SAVE_CLOSE": "Speichern und schließen",
+            "SAVE_CONTINUE": "Speichern und Beobachtungen fortsetzen",
+            "CREATED_COUNT": "{{count}} Beobachtungen in dieser Sitzung erstellt",
+            "CREATED": "Beobachtung erstellt",
+            "ERROR": "Fehler beim Erstellen der Beobachtung",
+            "PLANT_CHANGE": {
+                "TITLE": "Eine Beobachtung für eine andere Pflanze machen?",
+                "TEXT": "Sie verlieren die aktuelle Beobachtung. Möchten Sie fortfahren?",
+                "YES": "Fortfahren ohne Änderungen",
+                "NO": "Abbrechen"
+            }
+        },
+        "ADD_CONFIGURATION": {
+            "TITLE": "Neue Pflanze hinzufügen",
+            "PLANT": "Pflanze",
+            "SEARCH": "Tippen zum Suchen",
+            "DESCR": "Beschreibung",
+            "SELECT": "Pflanze auswählen",
+            "CREATED": "Pflanze erstellt",
+            "CREATED_ERROR": "Fehler beim Erstellen der Pflanze",
+            "UPDATED": "Pflanze aktualisiert",
+            "UPDATED_ERROR": "Fehler beim Aktualisieren der Pflanze",
+            "MISSING": "Keine Pflanze gefunden?",
+            "INFO": "Klicken Sie hier, um eine neue Pflanze anzufordern.",
+            "ADVANCED": {
+                "TITLE": "Erweitert",
+                "CONDITIONS": "Bedingungen",
+                "OPEN": "Offen",
+                "BLOOMSTART": "Beginn der Blüte",
+                "BLOOMEND": "Ende der Blüte",
+                "DAY": "Tag",
+                "MONTH": "Monat",
+                "AVAILABILITY": "Verfügbarkeit",
+                "AVAIL_NO": "Keine Anwesenheit",
+                "AVAIL_LOW": "Geringe Anwesenheit",
+                "AVAIL_AVERAGE": "Durchschnittliche Anwesenheit",
+                "AVAIL_STRONG": "Starke Anwesenheit",
+                "EDIT_CURRENT": "Aktuelle Bedingungen bearbeiten",
+                "ENVIRON_CHANGE": "Umweltänderung",
+                "ENVIRON_CHANGE_DATE": "Datum der Umweltänderung"
+            },
+            "OBS": {
+                "TITLE": "Eine Beobachtung zu Ihrer Pflanze hinzufügen?",
+                "TEXT": "Super! Sie haben eine neue Pflanze erstellt. Möchten Sie eine Beobachtung zu Ihrer Pflanze hinzufügen?",
+                "YES": "Ja",
+                "NO": "Nein"
+            },
+            "OBSERVATION": "Beobachtung"
+        },
+        "DELETE_CONFIGURATION": {
+            "TITLE": "Pflanze löschen",
+            "TEXT": "Möchten Sie diese Pflanze wirklich löschen?",
+            "YES": "Ja, Pflanze löschen",
+            "NO": "Abbrechen",
+            "SUCCESS": "Pflanze gelöscht"
+        }
+    },
+    "LINKS": {
+        "EDU_DASH": "Educational Dashboard",
+        "VIDEO_GUIDES": "Videoanleitungen",
+        "DOC": "Online-Dokument",
+        "DOCUMENTATION": "Online-Dokumentation",
+        "CONSULTING": "Beratungsdienste",
+        "STORES": "Online-Shop",
+        "THIRD_PARTY": "Drittanbieter-Integrationen"
+    },
+    "HOME_V2": {
+        "TITLE": "Vielen Dank, dass Sie BroodMinder gewählt haben!",
+        "TOP_MSG": "Ihre Hingabe an die Imkerei treibt alles an, was wir tun. Mit den richtigen Werkzeugen können Sie tiefere Einblicke in Ihre Bienen gewinnen und sie effektiver pflegen. Wir hoffen, dass Ihnen diese Lösungen dabei helfen, fundierte Entscheidungen zu treffen und die Gesundheit Ihrer Völker zu unterstützen.",
+        "TITLE_RIGHT": "Schauen Sie sich unser Einführungsvideo an",
+        "LOGIN": "Anmelden bei MyBroodMinder",
+        "TXT_1": "Mit BroodMinder können Sie so viel erreichen!",
+        "TXT_2": "Ihr Weg beginnt mit MyBroodMinder und der Bees App.",
+        "TXT_3": "Neu hier? Beginnen Sie mit unserem Schnellstartleitfaden",
+        "TXT_4": "Erfahrener Benutzer? Erkunden Sie unsere Videos und Online-Dokumentationen für tiefere Einblicke.",
+        "TXT_5": "Legen Sie los und machen Sie das Beste aus Ihren Bienenhaltungsdaten!",
+        "PRIVACY": "Datenschutzrichtlinie",
+        "TERMS": "Nutzungsbedingungen"
     }
 }

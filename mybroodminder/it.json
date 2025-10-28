@@ -92,6 +92,12 @@
             "TITLE": "WeatherSource Weather",
             "TEXT": "Questi dati meteorologici provengono da WeatherSource. Si basa sul codice postale fornito nel tuo apiario."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Piante",
+            "ADD_PLANT": "Aggiungi Pianta",
+            "ADD_OBS": "Aggiungi Osservazione",
+            "EDIT": "Modifica Pianta"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "condiviso con me",
         "NEW_FEATURES": "Nuove funzionalità",
@@ -924,6 +930,17 @@
                 "ALLOWED": "Arnie ammesse",
                 "END": "Data di scadenza",
                 "EXPIRED": "scaduto"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "Transazioni",
+                "TABLE": {
+                    "ID": "ID Transazione",
+                    "DATE": "Data",
+                    "AMOUNT": "Importo",
+                    "STATUS": "Stato",
+                    "INVOICE": "Fattura",
+                    "EDIT": "Fattura"
+                }
             }
         }
     },
@@ -1294,7 +1311,8 @@
             "EMAIL": "E-mail",
             "FIRST_NAME": "Nome",
             "LAST_NAME": "Cognome",
-            "COMPANY": "Azienda"
+            "COMPANY": "Azienda",
+            "BUSINESSID": "ID Aziendale"
         },
         "BILLING": {
             "TITLE": "Indirizzo di fatturazione",
@@ -1625,6 +1643,13 @@
                 "YAXIS": "Sessioni/giorno",
                 "FILTER": "Sessioni di volo di accoppiamento",
                 "UNIT": "sessioni/giorno"
+            },
+            "PLANT_BLOOM": {
+                "FILTER_DAILY": "Periodo di Fioritura",
+                "YAXIS": "Pianta"
+            },
+            "PHENO_FORECAST": {
+                "FILTER_DAILY": "Fasi Fenologiche"
             }
         }
     },
@@ -1687,6 +1712,7 @@
         "BROODREMOVE": "Rimozione di favi di covata",
         "COMBINEDHIVES": "Alveari combinati",
         "SWARM": "Sciame",
+        "SECONDARYSWARM": "Sciame Secondario",
         "CANDIFEED": "Alimentazione con caramella",
         "SYRUPFEED": "Alimentazione con sciroppo",
         "PATTIESFEED": "Alimentazione con dolcetti",
@@ -1710,7 +1736,6 @@
         "VIRGINSWARM": "Sciame vergine",
         "SWARMRETURN": "Sciame e ritorno all'arnia",
         "QUEENSEEN": "Regina vista",
-        "NOBROOD": "Nessuna covata",
         "LOWBROOD": "Basso livello di covata",
         "NORMBROOD": "Livello medio di covata",
         "HIGHBROOD": "Alto livello di covata",
@@ -1730,14 +1755,38 @@
         "DRONE": "Presenzadi droni",
         "BUZZINGHIVE": "Arnia con operaie ovodepositrici",
         "MOSAICBROOD": "Covata sparsa",
-        "QUEENCELLSEEN": "Cella regina vista"
+        "QUEENCELLSEEN": "Cella regina vista",
+        "SUPERSEDUREEMERGENCY": "Soprasovrani/Emergenza",
+        "YOUNGLARVA": "Larve Giovani",
+        "OLDERLARVA": "Larve Più Vecchie",
+        "CAPPEDWORKERBROOD1": "Cella operaia sigillata (1 telaio)",
+        "CAPPEDWORKERBROOD2": "Cella operaia sigillata (2 telai)",
+        "CAPPEDWORKERBROOD3": "Cella operaia sigillata (3+ telai)",
+        "CAPPEDDRONEBROODONLY": "Solo Cellula d'Ape Maschio Sigillata",
+        "NOBROOD": "Nessuna covata",
+        "NOEGG": "Nessun Uovo",
+        "OPENQUEENCELL": "Cellula Regina Aperta",
+        "CAPPEDQUEENCELL": "Cellula Regina Sigillata",
+        "EMERGEDQUEENCELL": "Cellula Regina Emergente",
+        "NOQUEENCELL": "Nessuna cellula regina, presenta uova/larve",
+        "MATEDQUEEN": "Regina accoppiata",
+        "BREEDERQUEENCELL": "Cellula regina riproduttrice",
+        "EMERGEDVIRGIN": "Vergine Emergente (1-3 giorni di vita)",
+        "FERTILEVIRGIN": "Vergine Fertile (4 o più giorni di vita)",
+        "CONFIRMEDQUEEN": "Regina confermata",
+        "INSTALLEDPACKAGE": "Impianto con api provenienti da pacchetto (regina accoppiata)",
+        "INSTALLEDPRIMARYSWARM": "Sciame primario installato (regina accoppiata)",
+        "INSTALLEDSECONDARYSWARM": "Sciame secondario installato (vergine fertile)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Fasi della covata",
         "HEALTH": "Salute",
         "MITES": "Acari",
         "MANAGE": "Gestione",
-        "FEEDING": "Alimentazione"
+        "FEEDING": "Alimentazione",
+        "COLONYTRANSITION": "Transizione del Calabrone",
+        "CTOBSERVATIONS": "Transizione del Calabrone - Osservazioni",
+        "CTOBSERVATIONS2": "Transizione del Calabrone - Osservazioni (2ª)"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "Evento di temperatura calcolato dal dispositivo T2. Notificato solo per dispositivi sopra o sotto le scatole di covata utilizzando un hub in tempo reale."
@@ -1920,6 +1969,26 @@
                 "REALTIME_BODY": "Questo è un messaggio di prova per le notifiche in tempo reale di MyBroodMinder.",
                 "SUCCESS": "Email inviata a {{email}}",
                 "FAIL": "Invio email fallito a {{email}}"
+            },
+            "PHONE": {
+                "TITLE": "Messaggi SMS in Tempo Reale di SwarmMinder",
+                "INPUT_CC": "Prefisso Nazionale",
+                "INPUT": "Numero di Telefono per SMS in Tempo Reale",
+                "CONFIRM": "Invia messaggio per confermare il numero",
+                "CONFIRM_BUTTON_SEND": "Invia SMS di Conferma",
+                "CONFIRM_BUTTON_RESEND": "Rinvia SMS di Conferma",
+                "CONFIRMED": "Numero confermato",
+                "NOT_CONFIRMED": "Non Confermato",
+                "REMOVE_BTN": "Rimuovi Numero di Telefono",
+                "AWAITING": "In attesa di conferma, inviato il ",
+                "UNCONFIRMED": "Non confermato, messaggi non inviati",
+                "REMOVE": {
+                    "TITLE": "Rimuovi Telefono",
+                    "MESSAGE": "Sei sicuro di voler rimuovere questo numero di telefono?",
+                    "CONFIRM": "Sì, rimuovi il numero",
+                    "SUCCESS": "Numero rimosso",
+                    "FAIL": "Errore durante la rimozione del numero"
+                }
             }
         }
     },
@@ -1984,6 +2053,8 @@
                 "NECTAR": "Indice di flusso del nettare",
                 "HIVE_TEXT": "Testo dell'arnia",
                 "HIVE_TEXT_SUMMARY": "Testo",
+                "HIVE_COLONYTRANSITION": "Transizione del Calabrone",
+                "HIVE_COLONYTRANSITION_CAL": "Calendario della Transizione del Calabrone",
                 "BLOOM": "Fioritura",
                 "BLOOM_FORECAST": "Previsioni Fioritura"
             }
@@ -2115,6 +2186,15 @@
                 "SUNRISE": "Alba",
                 "INITIAL": "Iniziale",
                 "LATEST": "Ultimo"
+            },
+            "PLANT_FORECAST": {
+                "TITLE": "Previsione Fioritura",
+                "APIARY": "Rucher",
+                "PLANT": "Pianta",
+                "DESCRIPTION": "Descrizione",
+                "BBCH": "BBCH",
+                "FORECAST": "Data della Previsione",
+                "DAYS": "giorni"
             }
         }
     },
@@ -2264,6 +2344,135 @@
             "FEATURES": "Controlla le funzionalità",
             "MANAGE": "Gestisci le arnie",
             "MANAGE_MESSAGE": "Per aggiungere una nuova arnia, dovrai disattivare {{hivesOver}} delle tue arnie esistenti. È comunque possibile visualizzare le arnie inattive (dalla pagina di configurazione), ma non caricare nuovi dati."
+        },
+        "WARNING": {
+            "COMP_EXP": "Abbonamento gratuito in scadenza tra {{dayCount}} giorni",
+            "PAID_EXP": "Abbonamento in scadenza tra {{dayCount}} giorni"
         }
+    },
+    "FRAUDCHECKS": {
+        "NONE": "Stato sconosciuto, completa il captcha qui sotto.",
+        "CONTACT": "Se il problema persiste, contattare support@broodminder.com.",
+        "REGISTER": "Errore durante la registrazione, impossibile creare un account in questo momento. (codice: {{errorCode}})",
+        "SUBCREATE": "Errore, impossibile acquistare un abbonamento in questo momento. (codice: {{errorCode}})"
+    },
+    "PLANTS": {
+        "CONFIG_PAGE": {
+            "POLLEN_INT": "Interesse Polline",
+            "NECTAR_INT": "Interesse Nettare",
+            "POLLEN_COLOR": "Colore del Polline",
+            "BLOOM_START": "Inizio Fioritura",
+            "BLOOM_END": "Fine Fioritura",
+            "PHENO": "Fenocasto",
+            "ACTIVE": "Attivo",
+            "INACTIVE": "Inattivo",
+            "TABLE": {
+                "TITLE": "Osservazioni Fenologiche",
+                "YEAR": "Anno",
+                "ADD": "Aggiungi Osservazione Più Vecchia",
+                "DATE": "Data",
+                "CANCEL": "Annulla",
+                "DELETE": {
+                    "TOOLTIP": "Elimina l'osservazione",
+                    "TITLE": "Elimina osservazione",
+                    "TEXT": "Sei sicuro di voler eliminare questa osservazione?",
+                    "YES": "Sì, elimina osservazione",
+                    "NO": "Annulla",
+                    "SUCCESS": "Osservazione eliminata"
+                }
+            }
+        },
+        "NEW_APIARY": {
+            "TITLE": "Aggiungere piante al tuo apiario?",
+            "TEXT": "Fantastico! Hai creato un nuovo apiario. Vorresti aggiungere alcune piante che sono importanti per le tue api?",
+            "YES": "Sì",
+            "NO": "No"
+        },
+        "ADD_OBSERVATION": {
+            "TITLE": "Nuova osservazione della pianta",
+            "SELECT": "Seleziona pianta",
+            "DATE": "Data dell'osservazione",
+            "TIMESTAMP": "Timestamp",
+            "NOTE": "Nota",
+            "SELECT_PHENO": "Seleziona stadio fenologico",
+            "CLOSE": "Chiudi",
+            "SAVE_CLOSE": "Salva e chiudi",
+            "SAVE_CONTINUE": "Salva e continua le osservazioni",
+            "CREATED_COUNT": "Creato {{count}} osservazioni in questa sessione",
+            "CREATED": "Osservazione creata",
+            "ERROR": "Errore durante la creazione dell'osservazione",
+            "PLANT_CHANGE": {
+                "TITLE": "Effettuare un'osservazione per un'altra pianta?",
+                "TEXT": "Perderai l'osservazione attuale. Vuoi continuare?",
+                "YES": "Continua senza modifiche",
+                "NO": "Annulla"
+            }
+        },
+        "ADD_CONFIGURATION": {
+            "TITLE": "Aggiungi nuova pianta",
+            "PLANT": "Pianta",
+            "SEARCH": "Digita per cercare",
+            "DESCR": "Descrizione",
+            "SELECT": "Seleziona pianta",
+            "CREATED": "Pianta creata",
+            "CREATED_ERROR": "Errore durante la creazione della pianta",
+            "UPDATED": "Pianta aggiornata",
+            "UPDATED_ERROR": "Errore durante l'aggiornamento della pianta",
+            "MISSING": "Non trovi una pianta?",
+            "INFO": "Clicca qui per richiedere una nuova pianta.",
+            "ADVANCED": {
+                "TITLE": "Avanzate",
+                "CONDITIONS": "Condizioni",
+                "OPEN": "aperto",
+                "BLOOMSTART": "Inizio fioritura",
+                "BLOOMEND": "Fine fioritura",
+                "DAY": "Giorno",
+                "MONTH": "Mese",
+                "AVAILABILITY": "Disponibilità",
+                "AVAIL_NO": "Assenza",
+                "AVAIL_LOW": "Presenza bassa",
+                "AVAIL_AVERAGE": "Presenza media",
+                "AVAIL_STRONG": "Presenza forte",
+                "EDIT_CURRENT": "Modifica condizioni attuali",
+                "ENVIRON_CHANGE": "Cambiamento dell'ambiente",
+                "ENVIRON_CHANGE_DATE": "Data di cambiamento dell'ambiente"
+            },
+            "OBS": {
+                "TITLE": "Aggiungere un'osservazione alla tua pianta?",
+                "TEXT": "Fantastico! Hai creato una nuova pianta. Vorresti aggiungere un'osservazione alla tua pianta?",
+                "YES": "Sì",
+                "NO": "No"
+            },
+            "OBSERVATION": "Osservazione"
+        },
+        "DELETE_CONFIGURATION": {
+            "TITLE": "Elimina pianta",
+            "TEXT": "Sei sicuro di voler eliminare questa pianta?",
+            "YES": "Sì, elimina pianta",
+            "NO": "Annulla",
+            "SUCCESS": "Pianta eliminata"
+        }
+    },
+    "LINKS": {
+        "EDU_DASH": "Cruscotto educativo",
+        "VIDEO_GUIDES": "Guide video",
+        "DOC": "Doc online",
+        "DOCUMENTATION": "Documentazione online",
+        "CONSULTING": "Servizi di consulenza",
+        "STORES": "Negozio online",
+        "THIRD_PARTY": "Integrazioni di terze parti"
+    },
+    "HOME_V2": {
+        "TITLE": "Grazie per aver scelto BroodMinder!",
+        "TOP_MSG": " La tua dedizione all'apicoltura guida tutto ciò che facciamo. Con gli strumenti giusti, puoi ottenere approfondimenti più profondi sulle tue api e prenderti cura di loro in modo più efficace. Speriamo che queste soluzioni ti aiutino a prendere decisioni informate e a sostenere la salute delle tue colonie.",
+        "TITLE_RIGHT": "Guarda il nostro video introduttivo",
+        "LOGIN": "Accedi a MyBroodMinder",
+        "TXT_1": "C'è così tanto che puoi realizzare con BroodMinder!",
+        "TXT_2": "Il tuo viaggio inizia con MyBroodMinder e l'applicazione Bees.",
+        "TXT_3": "Nuovo qui? Inizia con la nostra Guida rapida",
+        "TXT_4": "Utente esperto? Esplora i nostri video e la documentazione online per approfondimenti più dettagliati.",
+        "TXT_5": "Inizia e sfrutta al massimo i tuoi dati sull'apicoltura!",
+        "PRIVACY": "Informativa sulla privacy",
+        "TERMS": "Termini di utilizzo"
     }
 }

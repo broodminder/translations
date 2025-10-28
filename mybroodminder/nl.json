@@ -94,8 +94,8 @@
         },
         "PLANT_CONTEXT": {
             "NAME": "Planten",
-            "ADD_PLANT":"Plant toevoegen",
-            "ADD_OBS":"Observatie toevoegen",
+            "ADD_PLANT": "Plant toevoegen",
+            "ADD_OBS": "Observatie toevoegen",
             "EDIT": "Plant bewerken"
         },
         "HUB_TOOLTIP": "Hub",
@@ -481,18 +481,18 @@
             "11": "Dev"
         }
     },
-"DATE_PICKER_SHORT": {
-    "HOURS_24": "24 uur",
-    "DAYS_1": "1 dag",
-    "DAYS_3": "3 dagen",
-    "DAYS_7": "7 dagen",
-    "DAYS_14": "14 dagen",
-    "DAYS_30": "30 dagen",
-    "DAYS_90": "90 dagen",
-    "DAYS_180": "180 dagen",
-    "YEAR_1": "1 jaar",
-    "YEAR_2": "2 jaar",
-    "MONTHS_13": "13 maanden"
+    "DATE_PICKER_SHORT": {
+        "HOURS_24": "24 uur",
+        "DAYS_1": "1 dag",
+        "DAYS_3": "3 dagen",
+        "DAYS_7": "7 dagen",
+        "DAYS_14": "14 dagen",
+        "DAYS_30": "30 dagen",
+        "DAYS_90": "90 dagen",
+        "DAYS_180": "180 dagen",
+        "YEAR_1": "1 jaar",
+        "YEAR_2": "2 jaar",
+        "MONTHS_13": "13 maanden"
     },
     "NOTES": {
         "TITLE": "{{value}} Notities",
@@ -930,6 +930,17 @@
                 "ALLOWED": "Toegestane kasten",
                 "END": "Einddatum",
                 "EXPIRED": "verlopen"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "Transacties",
+                "TABLE": {
+                    "ID": "Transactie-ID",
+                    "DATE": "Datum",
+                    "AMOUNT": "Bedrag",
+                    "STATUS": "Status",
+                    "INVOICE": "Factuur",
+                    "EDIT": "Factuur"
+                }
             }
         }
     },
@@ -1300,7 +1311,8 @@
             "EMAIL": "Email",
             "FIRST_NAME": "First Name",
             "LAST_NAME": "Last Name",
-            "COMPANY": "Bedrijf"
+            "COMPANY": "Bedrijf",
+            "BUSINESSID": "Bedrijfs-ID"
         },
         "BILLING": {
             "TITLE": "Billing Address",
@@ -1631,6 +1643,13 @@
                 "YAXIS": "Sessions/day",
                 "FILTER": "Mating Flight Sessions",
                 "UNIT": "sessions/day"
+            },
+            "PLANT_BLOOM": {
+                "FILTER_DAILY": "Bloeiperiode",
+                "YAXIS": "Plant"
+            },
+            "PHENO_FORECAST": {
+                "FILTER_DAILY": "Fenologische Stadia"
             }
         }
     },
@@ -1693,6 +1712,7 @@
         "BROODREMOVE": "Removed brood frames",
         "COMBINEDHIVES": "Combined Hives",
         "SWARM": "Swarming",
+        "SECONDARYSWARM": "Nazuigerszwerm",
         "CANDIFEED": "Candy feeding",
         "SYRUPFEED": "Syrup feeding",
         "PATTIESFEED": "Patties feeding",
@@ -1716,7 +1736,6 @@
         "VIRGINSWARM": "Virgin swarm",
         "SWARMRETURN": "Swarm and return to hive",
         "QUEENSEEN": "Queen seen",
-        "NOBROOD": "No brood",
         "LOWBROOD": "Low brood level",
         "NORMBROOD": "Medium brood level",
         "HIGHBROOD": "High brood level",
@@ -1736,14 +1755,38 @@
         "DRONE": "Drone presence",
         "BUZZINGHIVE": "Laying workers",
         "MOSAICBROOD": "Scattered brood",
-        "QUEENCELLSEEN": "Queen cell seen"
+        "QUEENCELLSEEN": "Queen cell seen",
+        "SUPERSEDUREEMERGENCY": "Vervanging/Noodsituatie",
+        "YOUNGLARVA": "Jonge larven",
+        "OLDERLARVA": "Oudere larven",
+        "CAPPEDWORKERBROOD1": "Gesloten werksterbroed (1 raat)",
+        "CAPPEDWORKERBROOD2": "Gesloten werksterbroed (2 raten)",
+        "CAPPEDWORKERBROOD3": "Gesloten werksterbroed (3+ raten)",
+        "CAPPEDDRONEBROODONLY": "Alleen gesloten darrenbroed",
+        "NOBROOD": "No brood",
+        "NOEGG": "Geen eitjes",
+        "OPENQUEENCELL": "Open koninginnetelcel",
+        "CAPPEDQUEENCELL": "Gesloten koninginnetelcel",
+        "EMERGEDQUEENCELL": "Uitgekomen koninginnetelcel",
+        "NOQUEENCELL": "Geen koninginnetelcel, wel eitjes/larven",
+        "MATEDQUEEN": "Bevruchte koningin",
+        "BREEDERQUEENCELL": "Koninginneteeltcel",
+        "EMERGEDVIRGIN": "Uitgekomen maagd (1-3 dagen oud)",
+        "FERTILEVIRGIN": "Bevruchte maagd (4 of meer dagen oud)",
+        "CONFIRMEDQUEEN": "Bevestigde koningin",
+        "INSTALLEDPACKAGE": "Geïnstalleerde pakketbijen (bevruchte koningin)",
+        "INSTALLEDPRIMARYSWARM": "Geïnstalleerde primaire zwerm (bevruchte koningin)",
+        "INSTALLEDSECONDARYSWARM": "Geïnstalleerde nazuigerszwerm (bevruchte maagd)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Brood Stages",
         "HEALTH": "Health",
         "MITES": "Mites",
         "MANAGE": "Manage",
-        "FEEDING": "Feeding"
+        "FEEDING": "Feeding",
+        "COLONYTRANSITION": "Kolonie Transitie",
+        "CTOBSERVATIONS": "Kolonie Transitie - Observaties",
+        "CTOBSERVATIONS2": "Kolonie Transitie - Observaties (2e)"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "Temperature event calculated by T2 device. Only notified for devices above or below brood boxes using a realtime hub."
@@ -1926,6 +1969,26 @@
                 "REALTIME_BODY": "This is a test message for MyBroodMinder realtime alerts.",
                 "SUCCESS": "Email sent to {{email}}",
                 "FAIL": "Email failed to send to {{email}}"
+            },
+            "PHONE": {
+                "TITLE": "SwarmMinder Realtime SMS-berichten",
+                "INPUT_CC": "Landcode",
+                "INPUT": "Realtime Tekst Telefoonnummer",
+                "CONFIRM": "Verstuur bericht ter bevestiging van het nummer",
+                "CONFIRM_BUTTON_SEND": "Verstuur bevestigingsbericht",
+                "CONFIRM_BUTTON_RESEND": "Verstuur bevestigingsbericht opnieuw",
+                "CONFIRMED": "Nummer bevestigd",
+                "NOT_CONFIRMED": "Niet bevestigd",
+                "REMOVE_BTN": "Verwijder telefoonnummer",
+                "AWAITING": "In afwachting van bevestiging, verstuurd op ",
+                "UNCONFIRMED": "Niet bevestigd, berichten niet verstuurd",
+                "REMOVE": {
+                    "TITLE": "Verwijder telefoon",
+                    "MESSAGE": "Weet je zeker dat je dit telefoonnummer wilt verwijderen?",
+                    "CONFIRM": "Ja, nummer verwijderen",
+                    "SUCCESS": "Nummer verwijderd",
+                    "FAIL": "Fout bij het verwijderen van nummer"
+                }
             }
         }
     },
@@ -1990,6 +2053,8 @@
                 "NECTAR": "Nectar Flow Index",
                 "HIVE_TEXT": "Hive Text",
                 "HIVE_TEXT_SUMMARY": "Text",
+                "HIVE_COLONYTRANSITION": "Kolonie Transitie",
+                "HIVE_COLONYTRANSITION_CAL": "Kolonie Transitie Kalender",
                 "BLOOM": "Bloei",
                 "BLOOM_FORECAST": "Bloei Voorspelling"
             }
@@ -2121,6 +2186,15 @@
                 "SUNRISE": "Sunrise",
                 "INITIAL": "Initial",
                 "LATEST": "Latest"
+            },
+            "PLANT_FORECAST": {
+                "TITLE": "Bloei Voorspelling",
+                "APIARY": "Bijenstand",
+                "PLANT": "Plant",
+                "DESCRIPTION": "Omschrijving",
+                "BBCH": "BBCH",
+                "FORECAST": "Voorspelde Datum",
+                "DAYS": "dagen"
             }
         }
     },
@@ -2270,6 +2344,135 @@
             "FEATURES": "Controleer Functies",
             "MANAGE": "Beheer Bijenkorven",
             "MANAGE_MESSAGE": "Om een nieuwe bijenkorf toe te voegen, moet u {{hivesOver}} van uw bestaande bijenkorven deactiveren. U kunt nog steeds inactieve bijenkorven bekijken (vanaf de configuratiepagina), maar geen nieuwe gegevens uploaden."
+        },
+        "WARNING": {
+            "COMP_EXP": "Gratis abonnement eindigt over {{dayCount}} dagen",
+            "PAID_EXP": "Abonnement eindigt over {{dayCount}} dagen"
         }
+    },
+    "FRAUDCHECKS": {
+        "NONE": "Status onbekend, vul de captcha hieronder in.",
+        "CONTACT": "Als dit aanhoudt, neem contact op met support@broodminder.com.",
+        "REGISTER": "Fout bij registratie, kan op dit moment geen account aanmaken. (code: {{errorCode}})",
+        "SUBCREATE": "Fout, kan op dit moment geen abonnement aanschaffen. (code: {{errorCode}})"
+    },
+    "PLANTS": {
+        "CONFIG_PAGE": {
+            "POLLEN_INT": "Pollen interesse",
+            "NECTAR_INT": "Nectar interesse",
+            "POLLEN_COLOR": "Pollen kleur",
+            "BLOOM_START": "Bloei start",
+            "BLOOM_END": "Bloei einde",
+            "PHENO": "Fenocast",
+            "ACTIVE": "Actief",
+            "INACTIVE": "Inactief",
+            "TABLE": {
+                "TITLE": "Fenologische Observaties",
+                "YEAR": "Jaar",
+                "ADD": "Voeg Oudere Observatie Toe",
+                "DATE": "Datum",
+                "CANCEL": "Annuleren",
+                "DELETE": {
+                    "TOOLTIP": "Verwijder observatie",
+                    "TITLE": "Verwijder Observatie",
+                    "TEXT": "Weet je zeker dat je deze observatie wilt verwijderen?",
+                    "YES": "Ja, observatie verwijderen",
+                    "NO": "Annuleren",
+                    "SUCCESS": "Observatie Verwijderd"
+                }
+            }
+        },
+        "NEW_APIARY": {
+            "TITLE": "Voeg planten toe aan je bijenstand?",
+            "TEXT": "Geweldig! Je hebt een nieuwe bijenstand aangemaakt. Wil je wat planten toevoegen die belangrijk zijn voor je bijen?",
+            "YES": "Ja",
+            "NO": "Nee"
+        },
+        "ADD_OBSERVATION": {
+            "TITLE": "Nieuwe Plantobservatie",
+            "SELECT": "Selecteer Plant",
+            "DATE": "Datum van observatie",
+            "TIMESTAMP": "Tijdstempel",
+            "NOTE": "Notitie",
+            "SELECT_PHENO": "Selecteer fenostadium",
+            "CLOSE": "Sluiten",
+            "SAVE_CLOSE": "Opslaan en sluiten",
+            "SAVE_CONTINUE": "Opslaan en doorgaan met observaties",
+            "CREATED_COUNT": "{{count}} observaties aangemaakt in deze sessie",
+            "CREATED": "Observatie aangemaakt",
+            "ERROR": "Fout bij het maken van de observatie",
+            "PLANT_CHANGE": {
+                "TITLE": "Een observatie maken voor een andere plant?",
+                "TEXT": "Je verliest de huidige observatie. Wil je doorgaan?",
+                "YES": "Doorgaan zonder wijzigingen",
+                "NO": "Annuleren"
+            }
+        },
+        "ADD_CONFIGURATION": {
+            "TITLE": "Nieuwe Plant Toevoegen",
+            "PLANT": "Plant",
+            "SEARCH": "Typ om te zoeken",
+            "DESCR": "Beschrijving",
+            "SELECT": "Selecteer plant",
+            "CREATED": "Plant aangemaakt",
+            "CREATED_ERROR": "Fout bij het maken van de plant",
+            "UPDATED": "Plant bijgewerkt",
+            "UPDATED_ERROR": "Fout bij het bijwerken van de plant",
+            "MISSING": "Kan een plant niet vinden?",
+            "INFO": "Klik hier om een nieuwe plant aan te vragen.",
+            "ADVANCED": {
+                "TITLE": "Geavanceerd",
+                "CONDITIONS": "Voorwaarden",
+                "OPEN": "open",
+                "BLOOMSTART": "Begint met bloeien",
+                "BLOOMEND": "Eindigt met bloeien",
+                "DAY": "Dag",
+                "MONTH": "Maand",
+                "AVAILABILITY": "Beschikbaarheid",
+                "AVAIL_NO": "Geen aanwezigheid",
+                "AVAIL_LOW": "Lage aanwezigheid",
+                "AVAIL_AVERAGE": "Gemiddelde aanwezigheid",
+                "AVAIL_STRONG": "Sterke aanwezigheid",
+                "EDIT_CURRENT": "Huidige voorwaarden bewerken",
+                "ENVIRON_CHANGE": "Verandering in omgeving",
+                "ENVIRON_CHANGE_DATE": "Datum van omgevingsverandering"
+            },
+            "OBS": {
+                "TITLE": "Een observatie toevoegen aan je plant?",
+                "TEXT": "Geweldig! Je hebt een nieuwe plant aangemaakt. Wil je een observatie toevoegen aan je plant?",
+                "YES": "Ja",
+                "NO": "Nee"
+            },
+            "OBSERVATION": "Observatie"
+        },
+        "DELETE_CONFIGURATION": {
+            "TITLE": "Verwijder Plant",
+            "TEXT": "Weet je zeker dat je deze plant wilt verwijderen?",
+            "YES": "Ja, plant verwijderen",
+            "NO": "Annuleren",
+            "SUCCESS": "Plant Verwijderd"
+        }
+    },
+    "LINKS": {
+        "EDU_DASH": "Educatief Dashboard",
+        "VIDEO_GUIDES": "Videogidsen",
+        "DOC": "Online Doc",
+        "DOCUMENTATION": "Online Documentatie",
+        "CONSULTING": "Consultancy Diensten",
+        "STORES": "Online winkel",
+        "THIRD_PARTY": "Koppelingen met derden"
+    },
+    "HOME_V2": {
+        "TITLE": "Bedankt dat je voor BroodMinder hebt gekozen!",
+        "TOP_MSG": " Jouw toewijding aan bijenteelt is onze drijfveer. Met de juiste tools kun je dieper inzicht krijgen in je bijen en hen effectiever verzorgen. We hopen dat deze oplossingen je helpen geïnformeerde beslissingen te nemen en de gezondheid van je kolonies te ondersteunen.",
+        "TITLE_RIGHT": "Bekijk onze introductievideo",
+        "LOGIN": "Log in op MyBroodMinder",
+        "TXT_1": "Er is zoveel dat je kunt bereiken met BroodMinder!",
+        "TXT_2": "Je reis begint met MyBroodMinder en de Bees App.",
+        "TXT_3": "Nieuw hier? Begin met onze Quick Start Guide",
+        "TXT_4": "Ervaren gebruiker? Verken onze video's en online documentatie voor diepgaandere inzichten.",
+        "TXT_5": "Begin en haal het beste uit je bijenteelt gegevens!",
+        "PRIVACY": "Privacybeleid",
+        "TERMS": "Gebruiksvoorwaarden"
     }
 }

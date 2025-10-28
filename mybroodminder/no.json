@@ -92,6 +92,12 @@
             "TITLE": "WeatherSource Weather",
             "TEXT": "Disse værdataene kommer fra WeatherSource. De er basert på postnummeret som er oppgitt på bikuplassen din."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Planter",
+            "ADD_PLANT": "Legg til Plante",
+            "ADD_OBS": "Legg til Observasjon",
+            "EDIT": "Rediger Plante"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "delt med meg",
         "NEW_FEATURES": "Nye funksjoner",
@@ -924,6 +930,17 @@
                 "ALLOWED": "Kuber Tillatt",
                 "END": "Sluttdato",
                 "EXPIRED": "utløpt"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "Transaksjoner",
+                "TABLE": {
+                    "ID": "Transaksjons-ID",
+                    "DATE": "Dato",
+                    "AMOUNT": "Beløp",
+                    "STATUS": "Status",
+                    "INVOICE": "Faktura",
+                    "EDIT": "Faktura"
+                }
             }
         }
     },
@@ -1294,7 +1311,8 @@
             "EMAIL": "E-post",
             "FIRST_NAME": "Fornavn",
             "LAST_NAME": "Etternavn",
-            "COMPANY": "Selskap"
+            "COMPANY": "Selskap",
+            "BUSINESSID": "Organisasjons-ID"
         },
         "BILLING": {
             "TITLE": "Faktureringsadresse",
@@ -1625,6 +1643,13 @@
                 "YAXIS": "Sesjoner/dag",
                 "FILTER": "Parringsflytsesjoner",
                 "UNIT": "sesjoner/dag"
+            },
+            "PLANT_BLOOM": {
+                "FILTER_DAILY": "Blomstringsperiode",
+                "YAXIS": "Plante"
+            },
+            "PHENO_FORECAST": {
+                "FILTER_DAILY": "Fenostadier"
             }
         }
     },
@@ -1687,6 +1712,7 @@
         "BROODREMOVE": "Fjernet yngelrammer",
         "COMBINEDHIVES": "Kombinerte kuber",
         "SWARM": "Sverming",
+        "SECONDARYSWARM": "Ettersverm",
         "CANDIFEED": "Sukkerforing",
         "SYRUPFEED": "Sirupforing",
         "PATTIESFEED": "Foring med kaker",
@@ -1710,7 +1736,6 @@
         "VIRGINSWARM": "Jomfrusverm",
         "SWARMRETURN": "Sverm og tilbake til kube",
         "QUEENSEEN": "Dronning sett",
-        "NOBROOD": "Ingen yngel",
         "LOWBROOD": "Lav yngleaktivitet",
         "NORMBROOD": "Moderat yngleaktivitet",
         "HIGHBROOD": "Høy yngleaktivitet",
@@ -1730,14 +1755,38 @@
         "DRONE": "Tilstedeværelse av droner",
         "BUZZINGHIVE": "Leggende arbeidere",
         "MOSAICBROOD": "Spredt yngel",
-        "QUEENCELLSEEN": "Dronningcelle sett"
+        "QUEENCELLSEEN": "Dronningcelle sett",
+        "SUPERSEDUREEMERGENCY": "Tronvakt/ Nødssituasjon",
+        "YOUNGLARVA": "Unge larver",
+        "OLDERLARVA": "Eldre larver",
+        "CAPPEDWORKERBROOD1": "Lukket arbeiderlarve (1 ramme)",
+        "CAPPEDWORKERBROOD2": "Lukket arbeiderlarve (2 rammer)",
+        "CAPPEDWORKERBROOD3": "Lukket arbeiderlarve (3+ rammer)",
+        "CAPPEDDRONEBROODONLY": "Bare lukket dronelarve",
+        "NOBROOD": "Ingen yngel",
+        "NOEGG": "Ingen egg",
+        "OPENQUEENCELL": "Åpen dronningcelle",
+        "CAPPEDQUEENCELL": "Lukket dronningcelle",
+        "EMERGEDQUEENCELL": "Utgått dronningcelle",
+        "NOQUEENCELL": "Ingen dronningcelle, har egg/larver",
+        "MATEDQUEEN": "Parret dronning",
+        "BREEDERQUEENCELL": "Oppdretts-dronningcelle",
+        "EMERGEDVIRGIN": "Utgått jomfru (1-3 dager gammel)",
+        "FERTILEVIRGIN": "Fruktbar jomfru (4 eller eldre dager gammel)",
+        "CONFIRMEDQUEEN": "Bekreftet dronning",
+        "INSTALLEDPACKAGE": "Installerte pakkebier (parret dronning)",
+        "INSTALLEDPRIMARYSWARM": "Installert primærsverm (parret dronning)",
+        "INSTALLEDSECONDARYSWARM": "Installert sekundærsverm (fruktbar jomfru)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Yngelstadier",
         "HEALTH": "Helse",
         "MITES": "Midd",
         "MANAGE": "Administrer",
-        "FEEDING": "Foring"
+        "FEEDING": "Foring",
+        "COLONYTRANSITION": "Koloni overgang",
+        "CTOBSERVATIONS": "Koloni overgang - Observasjoner",
+        "CTOBSERVATIONS2": "Koloni overgang - Observasjoner (2. gang)"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "Temperaturhendelse beregnet av T2-enheten. Bare varslet for enheter over eller under yngelkassene ved bruk av en sanntidshub."
@@ -1920,6 +1969,26 @@
                 "REALTIME_BODY": "Dette er en testmelding for MyBroodMinder sanntidsvarsler.",
                 "SUCCESS": "E-post sendt til {{email}}",
                 "FAIL": "E-posten kunne ikke sendes til {{email}}"
+            },
+            "PHONE": {
+                "TITLE": "SwarmMinder Sanntids-SMS meldinger",
+                "INPUT_CC": "Landskode",
+                "INPUT": "Sanntids Tekstmeldingsnummer",
+                "CONFIRM": "Send melding for å bekrefte nummer",
+                "CONFIRM_BUTTON_SEND": "Send Bekreftelsesmelding",
+                "CONFIRM_BUTTON_RESEND": "Send Bekreftelsesmelding på nytt",
+                "CONFIRMED": "Nummer bekreftet",
+                "NOT_CONFIRMED": "Ikke Bekreftet",
+                "REMOVE_BTN": "Fjern Telefonnummer",
+                "AWAITING": "Venter på bekreftelse, sendt kl ",
+                "UNCONFIRMED": "Ikke bekreftet, meldinger ikke sendt",
+                "REMOVE": {
+                    "TITLE": "Fjern Telefon",
+                    "MESSAGE": "Er du sikker på at du vil fjerne dette telefonnummeret?",
+                    "CONFIRM": "Ja, fjern nummeret",
+                    "SUCCESS": "Nummer fjernet",
+                    "FAIL": "Feil ved fjerning av nummer"
+                }
             }
         }
     },
@@ -1984,6 +2053,8 @@
                 "NECTAR": "Nektarflytindeks",
                 "HIVE_TEXT": "Biketekst",
                 "HIVE_TEXT_SUMMARY": "Tekst",
+                "HIVE_COLONYTRANSITION": "Koloni Overgang",
+                "HIVE_COLONYTRANSITION_CAL": "Koloni Overgang Kalender",
                 "BLOOM": "Blomst",
                 "BLOOM_FORECAST": "Blomsterprognose"
             }
@@ -2115,6 +2186,15 @@
                 "SUNRISE": "Soloppgang",
                 "INITIAL": "Innledende",
                 "LATEST": "Nyeste"
+            },
+            "PLANT_FORECAST": {
+                "TITLE": "Blomstringsprognose",
+                "APIARY": "Bigården",
+                "PLANT": "Plante",
+                "DESCRIPTION": "Beskrivelse",
+                "BBCH": "BBCH",
+                "FORECAST": "Prognosedato",
+                "DAYS": "dager"
             }
         }
     },
@@ -2264,6 +2344,135 @@
             "FEATURES": "Se Funksjoner",
             "MANAGE": "Administrer Bikuber",
             "MANAGE_MESSAGE": "For å legge til en ny bikube, må du deaktivere {{hivesOver}} av de eksisterende biene. Du kan fortsatt se inaktive bikuber (fra konfigurasjonssiden), men ikke laste opp ny data."
+        },
+        "WARNING": {
+            "COMP_EXP": "Gratisabonnement utløper om {{dayCount}} dager",
+            "PAID_EXP": "Abonnementet utløper om {{dayCount}} dager"
         }
+    },
+    "FRAUDCHECKS": {
+        "NONE": "Status ukjent, fullfør captchaen nedenfor.",
+        "CONTACT": "Hvis dette fortsetter, kontakt support@broodminder.com.",
+        "REGISTER": "Feil ved registrering, kan ikke opprette konto for øyeblikket. (kode: {{errorCode}})",
+        "SUBCREATE": "Feil, kan ikke kjøpe abonnement for øyeblikket. (kode: {{errorCode}})"
+    },
+    "PLANTS": {
+        "CONFIG_PAGE": {
+            "POLLEN_INT": "Polleninteresse",
+            "NECTAR_INT": "Nektarinteresse",
+            "POLLEN_COLOR": "Pollenfarge",
+            "BLOOM_START": "Start blomstring",
+            "BLOOM_END": "Slutt blomstring",
+            "PHENO": "Fenokast",
+            "ACTIVE": "Aktiv",
+            "INACTIVE": "Inaktiv",
+            "TABLE": {
+                "TITLE": "Fenologiske Observasjoner",
+                "YEAR": "År",
+                "ADD": "Legg til Eldre Observasjon",
+                "DATE": "Dato",
+                "CANCEL": "Avbryt",
+                "DELETE": {
+                    "TOOLTIP": "Slett observasjon",
+                    "TITLE": "Slett observasjon",
+                    "TEXT": "Er du sikker på at du vil slette denne observasjonen?",
+                    "YES": "Ja, slett observasjon",
+                    "NO": "Avbryt",
+                    "SUCCESS": "Observasjon slettet"
+                }
+            }
+        },
+        "NEW_APIARY": {
+            "TITLE": "Legg til planter i din bigården?",
+            "TEXT": "Flott! Du har opprettet en ny bigård. Vil du legge til noen planter som er viktige for biene dine?",
+            "YES": "Ja",
+            "NO": "Nei"
+        },
+        "ADD_OBSERVATION": {
+            "TITLE": "Ny Planteobservasjon",
+            "SELECT": "Velg Plante",
+            "DATE": "Observasjonsdato",
+            "TIMESTAMP": "Tidsstempel",
+            "NOTE": "Merknad",
+            "SELECT_PHENO": "Velg fenostadium",
+            "CLOSE": "Lukk",
+            "SAVE_CLOSE": "Lagre og lukk",
+            "SAVE_CONTINUE": "Lagre og fortsett observasjoner",
+            "CREATED_COUNT": "Opprettet {{count}} observasjoner denne økten",
+            "CREATED": "Observasjon opprettet",
+            "ERROR": "Feil ved opprettelse av observasjon",
+            "PLANT_CHANGE": {
+                "TITLE": "Gjøre observasjon for en annen plante?",
+                "TEXT": "Du vil miste gjeldende observasjon. Vil du fortsette?",
+                "YES": "Fortsett uten endringer",
+                "NO": "Avbryt"
+            }
+        },
+        "ADD_CONFIGURATION": {
+            "TITLE": "Legg til Ny Plante",
+            "PLANT": "Plante",
+            "SEARCH": "Skriv for å søke",
+            "DESCR": "Beskrivelse",
+            "SELECT": "Velg plante",
+            "CREATED": "Plante opprettet",
+            "CREATED_ERROR": "Feil ved opprettelse av plante",
+            "UPDATED": "Plante oppdatert",
+            "UPDATED_ERROR": "Feil ved oppdatering av plante",
+            "MISSING": "Finner du ikke en plante?",
+            "INFO": "Klikk her for å be om en ny plante.",
+            "ADVANCED": {
+                "TITLE": "Avansert",
+                "CONDITIONS": "Betingelser",
+                "OPEN": "åpen",
+                "BLOOMSTART": "Blomstring Starter",
+                "BLOOMEND": "Blomstring Slutt",
+                "DAY": "Dag",
+                "MONTH": "Måned",
+                "AVAILABILITY": "Tilgjengelighet",
+                "AVAIL_NO": "Ingen tilstedeværelse",
+                "AVAIL_LOW": "Lav tilstedeværelse",
+                "AVAIL_AVERAGE": "Gjennomsnittlig tilstedeværelse",
+                "AVAIL_STRONG": "Stor tilstedeværelse",
+                "EDIT_CURRENT": "Rediger gjeldende forhold",
+                "ENVIRON_CHANGE": "Endre miljø",
+                "ENVIRON_CHANGE_DATE": "Endre miljø dato"
+            },
+            "OBS": {
+                "TITLE": "Legg til en observasjon til din plante?",
+                "TEXT": "Flott! Du har opprettet en ny plante. Vil du legge til en observasjon til planten din?",
+                "YES": "Ja",
+                "NO": "Nei"
+            },
+            "OBSERVATION": "Observasjon"
+        },
+        "DELETE_CONFIGURATION": {
+            "TITLE": "Slett Plante",
+            "TEXT": "Er du sikker på at du vil slette denne planten?",
+            "YES": "Ja, slett plante",
+            "NO": "Avbryt",
+            "SUCCESS": "Plante slettet"
+        }
+    },
+    "LINKS": {
+        "EDU_DASH": "Utdanningsdashboard",
+        "VIDEO_GUIDES": "Video Guider",
+        "DOC": "Online Dok",
+        "DOCUMENTATION": "Online Dokumentasjon",
+        "CONSULTING": "Konsulenttjenester",
+        "STORES": "Nettbutikk",
+        "THIRD_PARTY": "Tredjepartsintegreringer"
+    },
+    "HOME_V2": {
+        "TITLE": "Takk for at du valgte BroodMinder!",
+        "TOP_MSG": "Din dedikasjon til birøkt driver alt vi gjør. Med riktige verktøy kan du få dypere innsikt i biene dine og ta bedre vare på dem. Vi håper disse løsningene hjelper deg med å ta informerte beslutninger og støtte helsen til koloniene dine.",
+        "TITLE_RIGHT": "Se vår introvideo",
+        "LOGIN": "Logg inn på MyBroodMinder",
+        "TXT_1": "Det er så mye du kan oppnå med BroodMinder!",
+        "TXT_2": "Reisen din begynner med MyBroodMinder og Bees-appen.",
+        "TXT_3": "Ny her? Start med vår hurtigstartguide",
+        "TXT_4": "Erfaren bruker? Utforsk videoene våre og online dokumentasjon for dypere innsikt.",
+        "TXT_5": "Kom i gang og dra nytte av birøkterdataene dine!",
+        "PRIVACY": "Personvernpolicy",
+        "TERMS": "Bruksvilkår"
     }
 }

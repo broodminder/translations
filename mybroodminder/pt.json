@@ -92,6 +92,12 @@
             "TITLE": "Clima da Fonte de Clima",
             "TEXT": "Esses dados de clima vêm da Fonte de Clima. É baseado no código postal fornecido no seu apiário."
         },
+        "PLANT_CONTEXT": {
+            "NAME": "Plantas",
+            "ADD_PLANT": "Adicionar Planta",
+            "ADD_OBS": "Adicionar Observação",
+            "EDIT": "Editar Planta"
+        },
         "HUB_TOOLTIP": "Hub",
         "SHARED_TOOLTIP": "compartilhado comigo",
         "NEW_FEATURES": "Novos Recursos",
@@ -924,6 +930,17 @@
                 "ALLOWED": "Colmeias Permitidas",
                 "END": "Data de Término",
                 "EXPIRED": "expirado"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "Transações",
+                "TABLE": {
+                    "ID": "ID da Transação",
+                    "DATE": "Data",
+                    "AMOUNT": "Valor",
+                    "STATUS": "Status",
+                    "INVOICE": "Fatura",
+                    "EDIT": "Fatura"
+                }
             }
         }
     },
@@ -1294,7 +1311,8 @@
             "EMAIL": "E-mail",
             "FIRST_NAME": "Nome",
             "LAST_NAME": "Sobrenome",
-            "COMPANY": "Empresa"
+            "COMPANY": "Empresa",
+            "BUSINESSID": "ID da Empresa"
         },
         "BILLING": {
             "TITLE": "Endereço de cobrança",
@@ -1625,6 +1643,13 @@
                 "YAXIS": "Sessões/dia",
                 "FILTER": "Sessões de Voo de Acasalamento",
                 "UNIT": "sessões/dia"
+            },
+            "PLANT_BLOOM": {
+                "FILTER_DAILY": "Período de Floração",
+                "YAXIS": "Planta"
+            },
+            "PHENO_FORECAST": {
+                "FILTER_DAILY": "Estágios Fenológicos"
             }
         }
     },
@@ -1687,6 +1712,7 @@
         "BROODREMOVE": "Removido quadro de cria",
         "COMBINEDHIVES": "Colmeias combinadas",
         "SWARM": "Enxameamento",
+        "SECONDARYSWARM": "Realejo",
         "CANDIFEED": "Alimentação com açúcar",
         "SYRUPFEED": "Alimentação com xarope",
         "PATTIESFEED": "Alimentação com bolos de néctar",
@@ -1710,7 +1736,6 @@
         "VIRGINSWARM": "Enxame virgem",
         "SWARMRETURN": "Enxame e retorno à colmeia",
         "QUEENSEEN": "Rainha vista",
-        "NOBROOD": "Sem cria",
         "LOWBROOD": "Baixa atividade de cria",
         "NORMBROOD": "Atividade média de cria",
         "HIGHBROOD": "Alta atividade de cria",
@@ -1730,14 +1755,38 @@
         "DRONE": "Presença de zangões",
         "BUZZINGHIVE": "Operárias poedeiras",
         "MOSAICBROOD": "Criação espalhada",
-        "QUEENCELLSEEN": "Célula real vista"
+        "QUEENCELLSEEN": "Célula real vista",
+        "SUPERSEDUREEMERGENCY": "Supersedure/ Emergência",
+        "YOUNGLARVA": "Larvas Jovens",
+        "OLDERLARVA": "Larvas Adultas",
+        "CAPPEDWORKERBROOD1": "Cria de Operárias Fechada (1 quadro)",
+        "CAPPEDWORKERBROOD2": "Cria de Operárias Fechada (2 quadros)",
+        "CAPPEDWORKERBROOD3": "Cria de Operárias Fechada (3+ quadros)",
+        "CAPPEDDRONEBROODONLY": "Apenas Cria de Zangão Fechada",
+        "NOBROOD": "Sem cria",
+        "NOEGG": "Sem Ovos",
+        "OPENQUEENCELL": "Célula Real Aberta",
+        "CAPPEDQUEENCELL": "Célula Real Fechada",
+        "EMERGEDQUEENCELL": "Célula Real Emergida",
+        "NOQUEENCELL": "Sem Célula Real, tem ovos/larvas",
+        "MATEDQUEEN": "Rainha Acasalada",
+        "BREEDERQUEENCELL": "Célula Real de Reprodutora",
+        "EMERGEDVIRGIN": "Virgem Emergente (com 1-3 dias de idade)",
+        "FERTILEVIRGIN": "Virgem Fértil (com 4 ou mais dias de idade)",
+        "CONFIRMEDQUEEN": "Rainha Confirmada",
+        "INSTALLEDPACKAGE": "Pacote de Abelhas Instalado (rainha acasalada)",
+        "INSTALLEDPRIMARYSWARM": "Enxame Principal Instalado (rainha acasalada)",
+        "INSTALLEDSECONDARYSWARM": "Enxame Secundário Instalado (virgem fértil)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Estágios da cria",
         "HEALTH": "Saúde",
         "MITES": "Ácaros",
         "MANAGE": "Gerenciamento",
-        "FEEDING": "Alimentação"
+        "FEEDING": "Alimentação",
+        "COLONYTRANSITION": "Transição de Colônia",
+        "CTOBSERVATIONS": "Transição de Colônia - Observações",
+        "CTOBSERVATIONS2": "Transição de Colônia - Observações (2ª)"
     },
     "ALERTS_DESC": {
         "REALTIME_SWARM_ALERT": "Evento de temperatura calculado pelo dispositivo T2. Apenas notificado para dispositivos acima ou abaixo das caixas de criação usando um hub em tempo real."
@@ -1920,6 +1969,26 @@
                 "REALTIME_BODY": "Esta é uma mensagem de teste para alertas em tempo real do MyBroodMinder.",
                 "SUCCESS": "Email enviado para {{email}}",
                 "FAIL": "Falha ao enviar e-mail para {{email}}"
+            },
+            "PHONE": {
+                "TITLE": "Mensagens SMS em Tempo Real do SwarmMinder",
+                "INPUT_CC": "Código do País",
+                "INPUT": "Número de Telefone para Mensagens em Tempo Real",
+                "CONFIRM": "Enviar mensagem para confirmar o número",
+                "CONFIRM_BUTTON_SEND": "Enviar Mensagem de Confirmação",
+                "CONFIRM_BUTTON_RESEND": "Reenviar Mensagem de Confirmação",
+                "CONFIRMED": "Número confirmado",
+                "NOT_CONFIRMED": "Não Confirmado",
+                "REMOVE_BTN": "Remover Número de Telefone",
+                "AWAITING": "Aguardando confirmação, enviada em ",
+                "UNCONFIRMED": "Não confirmado, mensagens não enviadas",
+                "REMOVE": {
+                    "TITLE": "Remover Telefone",
+                    "MESSAGE": "Tem certeza de que deseja remover este número de telefone?",
+                    "CONFIRM": "Sim, remover número",
+                    "SUCCESS": "Número removido",
+                    "FAIL": "Erro ao remover número"
+                }
             }
         }
     },
@@ -1984,6 +2053,8 @@
                 "NECTAR": "Índice de Fluxo de Néctar",
                 "HIVE_TEXT": "Texto da Colmeia",
                 "HIVE_TEXT_SUMMARY": "Texto",
+                "HIVE_COLONYTRANSITION": "Transição de Colônia",
+                "HIVE_COLONYTRANSITION_CAL": "Calendário de Transição de Colônia",
                 "BLOOM": "Floração",
                 "BLOOM_FORECAST": "Previsão de Floração"
             }
@@ -2115,6 +2186,15 @@
                 "SUNRISE": "Nascer do sol",
                 "INITIAL": "Inicial",
                 "LATEST": "Mais recente"
+            },
+            "PLANT_FORECAST": {
+                "TITLE": "Previsão de Floração",
+                "APIARY": "Apiário",
+                "PLANT": "Planta",
+                "DESCRIPTION": "Descrição",
+                "BBCH": "BBCH",
+                "FORECAST": "Data da Previsão",
+                "DAYS": "dias"
             }
         }
     },
@@ -2264,6 +2344,135 @@
             "FEATURES": "Ver Recursos",
             "MANAGE": "Gerenciar Colmeias",
             "MANAGE_MESSAGE": "Para adicionar uma nova colmeia, você precisará desativar {{hivesOver}} das suas colmeias existentes. Ainda é possível visualizar colmeias inativas (na página de configuração), mas não é possível enviar novos dados."
+        },
+        "WARNING": {
+            "COMP_EXP": "Assinatura gratuita encerrando em {{dayCount}} dias",
+            "PAID_EXP": "Assinatura encerrando em {{dayCount}} dias"
         }
+    },
+    "FRAUDCHECKS": {
+        "NONE": "Status desconhecido, complete o captcha abaixo.",
+        "CONTACT": "Se isso continuar, entre em contato com support@broodminder.com.",
+        "REGISTER": "Erro ao registrar, não é possível criar uma conta no momento. (código: {{errorCode}})",
+        "SUBCREATE": "Erro, não é possível adquirir a assinatura neste momento. (código: {{errorCode}})"
+    },
+    "PLANTS": {
+        "CONFIG_PAGE": {
+            "POLLEN_INT": "Interesse em Pólen",
+            "NECTAR_INT": "Interesse em Néctar",
+            "POLLEN_COLOR": "Cor do Pólen",
+            "BLOOM_START": "Início da Floração",
+            "BLOOM_END": "Fim da Floração",
+            "PHENO": "Fenocast",
+            "ACTIVE": "Ativo",
+            "INACTIVE": "Inativo",
+            "TABLE": {
+                "TITLE": "Observações Fenológicas",
+                "YEAR": "Ano",
+                "ADD": "Adicionar Observação Antiga",
+                "DATE": "Data",
+                "CANCEL": "Cancelar",
+                "DELETE": {
+                    "TOOLTIP": "Excluir observação",
+                    "TITLE": "Excluir Observação",
+                    "TEXT": "Tem certeza de que deseja excluir esta observação?",
+                    "YES": "Sim, excluir observação",
+                    "NO": "Cancelar",
+                    "SUCCESS": "Observação excluída"
+                }
+            }
+        },
+        "NEW_APIARY": {
+            "TITLE": "Adicionar plantas ao seu apiário?",
+            "TEXT": "Ótimo! Você criou um novo apiário. Gostaria de adicionar algumas plantas que são importantes para suas abelhas?",
+            "YES": "Sim",
+            "NO": "Não"
+        },
+        "ADD_OBSERVATION": {
+            "TITLE": "Nova Observação de Planta",
+            "SELECT": "Selecionar Planta",
+            "DATE": "Data da observação",
+            "TIMESTAMP": "Carimbo de data/hora",
+            "NOTE": "Nota",
+            "SELECT_PHENO": "Selecionar estágio fenológico",
+            "CLOSE": "Fechar",
+            "SAVE_CLOSE": "Salvar e fechar",
+            "SAVE_CONTINUE": "Salvar e continuar observações",
+            "CREATED_COUNT": "Criadas {{count}} observações nesta sessão",
+            "CREATED": "Observação criada",
+            "ERROR": "Erro ao criar observação",
+            "PLANT_CHANGE": {
+                "TITLE": "Fazer observação para outra planta?",
+                "TEXT": "Você perderá a observação atual. Gostaria de continuar?",
+                "YES": "Continuar sem alterações",
+                "NO": "Cancelar"
+            }
+        },
+        "ADD_CONFIGURATION": {
+            "TITLE": "Adicionar Nova Planta",
+            "PLANT": "Planta",
+            "SEARCH": "Digite para pesquisar",
+            "DESCR": "Descrição",
+            "SELECT": "Selecionar planta",
+            "CREATED": "Planta criada",
+            "CREATED_ERROR": "Erro ao criar planta",
+            "UPDATED": "Planta atualizada",
+            "UPDATED_ERROR": "Erro ao atualizar planta",
+            "MISSING": "Não encontrou uma planta?",
+            "INFO": "Clique aqui para solicitar uma nova planta.",
+            "ADVANCED": {
+                "TITLE": "Avançado",
+                "CONDITIONS": "Condições",
+                "OPEN": "aberto",
+                "BLOOMSTART": "Início da floração",
+                "BLOOMEND": "Fim da floração",
+                "DAY": "Dia",
+                "MONTH": "Mês",
+                "AVAILABILITY": "Disponibilidade",
+                "AVAIL_NO": "Ausência",
+                "AVAIL_LOW": "Baixa presença",
+                "AVAIL_AVERAGE": "Presença média",
+                "AVAIL_STRONG": "Alta presença",
+                "EDIT_CURRENT": "Editar condições atuais",
+                "ENVIRON_CHANGE": "Alteração de ambiente",
+                "ENVIRON_CHANGE_DATE": "Data da alteração de ambiente"
+            },
+            "OBS": {
+                "TITLE": "Adicionar uma observação à sua planta?",
+                "TEXT": "Ótimo! Você criou uma nova planta. Gostaria de adicionar uma observação à sua planta?",
+                "YES": "Sim",
+                "NO": "Não"
+            },
+            "OBSERVATION": "Observação"
+        },
+        "DELETE_CONFIGURATION": {
+            "TITLE": "Excluir Planta",
+            "TEXT": "Tem certeza de que deseja excluir esta planta?",
+            "YES": "Sim, excluir planta",
+            "NO": "Cancelar",
+            "SUCCESS": "Planta excluída"
+        }
+    },
+    "LINKS": {
+        "EDU_DASH": "Painel Educacional",
+        "VIDEO_GUIDES": "Guias em Vídeo",
+        "DOC": "Doc Online",
+        "DOCUMENTATION": "Documentação Online",
+        "CONSULTING": "Serviços de Consultoria",
+        "STORES": "Loja Online",
+        "THIRD_PARTY": "Integrações de Terceiros"
+    },
+    "HOME_V2": {
+        "TITLE": "Obrigado por escolher a BroodMinder!",
+        "TOP_MSG": "Sua dedicação à apicultura impulsiona tudo o que fazemos. Com as ferramentas certas, você pode obter insights mais profundos sobre suas abelhas e cuidar delas de forma mais eficaz. Esperamos que essas soluções ajudem você a tomar decisões informadas e apoiar a saúde de suas colônias.",
+        "TITLE_RIGHT": "Assista nosso vídeo de introdução",
+        "LOGIN": "Acesse o MeuBroodMinder",
+        "TXT_1": "Há tanto que você pode conquistar com a BroodMinder!",
+        "TXT_2": "Sua jornada começa com o MeuBroodMinder e o App de Abelhas.",
+        "TXT_3": "Novo por aqui? Comece com nosso Guia de Início Rápido",
+        "TXT_4": "Usuário experiente? Explore nossos vídeos e documentação online para insights mais profundos.",
+        "TXT_5": "Comece e aproveite ao máximo os dados da sua apicultura!",
+        "PRIVACY": "Política de Privacidade",
+        "TERMS": "Termos de Uso"
     }
 }
