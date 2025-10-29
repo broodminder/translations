@@ -1962,12 +1962,6 @@
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
 		<value>Ja, alle Daten löschen</value>
 	</data>
-	<data name="DIF_7AM_SHORT">
-		<value>7 Uhr Differenz</value>
-	</data>
-	<data name="DIF_7AM_LONG">
-		<value>7 Uhr Gewichtsdifferenz:</value>
-	</data>
 	<data name="NOTIFICATIONS_NONE">
 		<value>Keine Benachrichtigungen</value>
 	</data>

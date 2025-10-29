@@ -1962,12 +1962,6 @@
 	<data name="DELETE_ACCOUNT_LOGOUT_CONFIRM_CONFIRM">
 		<value>Oui, effacer toutes les données</value>
 	</data>
-	<data name="DIF_7AM_SHORT">
-		<value>7:00 var.</value>
-	</data>
-	<data name="DIF_7AM_LONG">
-		<value>7:00 var. poids:</value>
-	</data>
 	<data name="NOTIFICATIONS_NONE">
 		<value>No Notifications</value>
 	</data>
