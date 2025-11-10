@@ -1213,7 +1213,7 @@
 		<value>Sensor</value>
 	</data>
 	<data name="SUBHUBSCAN_TIME">
-		<value>Timestamp</value>
+		<value>Desde detectado</value>
 	</data>
 	<data name="SUBHUBSCAN_STOP">
 		<value>Detener Exploración</value>
@@ -1655,6 +1655,9 @@
 	</data>
 	<data name="HUBDETAIL_CONFIGUREAPN">
 		<value>Configurar Red (APN)</value>
+	</data>
+	<data name="HUBDETAIL_TIMESTAMP">
+		<value>Marca de tiempo</value>
 	</data>
 	<data name="WIFICONFIGURE_UPLOADNOW">
 		<value>Subir Datos Ahora</value>

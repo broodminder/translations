@@ -1213,7 +1213,7 @@
         <value>Dispositivo</value>
     </data>
     <data name="SUBHUBSCAN_TIME">
-        <value>Carimbo de data/hora</value>
+        <value>Desde que foi detectado</value>
     </data>
     <data name="SUBHUBSCAN_STOP">
         <value>Parar de Escanear</value>
@@ -1656,6 +1656,9 @@
     <data name="HUBDETAIL_CONFIGUREAPN">
         <value>Configurar Rede (APN)</value>
     </data>
+    <data name="HUBDETAIL_TIMESTAMP">
+		<value>Carimbo de data e hora</value>
+	</data>
     <data name="WIFICONFIGURE_UPLOADNOW">
         <value>Enviar Agora</value>
     </data>

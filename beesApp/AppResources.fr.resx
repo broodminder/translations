@@ -1213,7 +1213,7 @@
 		<value>Capteur</value>
 	</data>
 	<data name="SUBHUBSCAN_TIME">
-		<value>Timestamp</value>
+		<value>Depuis détecté</value>
 	</data>
 	<data name="SUBHUBSCAN_STOP">
 		<value>Arrêter la détection</value>
@@ -1655,6 +1655,9 @@
 	</data>
 	<data name="HUBDETAIL_CONFIGUREAPN">
 		<value>Configure Network (APN)</value>
+	</data>
+	<data name="HUBDETAIL_TIMESTAMP">
+		<value>Horodatage</value>
 	</data>
 	<data name="WIFICONFIGURE_UPLOADNOW">
 		<value>Télécharger Maintenant</value>

@@ -1213,7 +1213,7 @@
 		<value>Device</value>
 	</data>
 	<data name="SUBHUBSCAN_TIME">
-		<value>Timestamp</value>
+		<value>Since Detected</value>
 	</data>
 	<data name="SUBHUBSCAN_STOP">
 		<value>Stop Scanning</value>
@@ -1655,6 +1655,9 @@
 	</data>
 	<data name="HUBDETAIL_CONFIGUREAPN">
 		<value>Configure Network (APN)</value>
+	</data>
+	<data name="HUBDETAIL_TIMESTAMP">
+		<value>Timestamp</value>
 	</data>
 	<data name="WIFICONFIGURE_UPLOADNOW">
 		<value>Upload Now</value>
