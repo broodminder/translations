@@ -2860,4 +2860,10 @@
 	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
 		<value>Assinatura terminando em {0} dias</value>
 	</data>
+    <data name="DATE_ERROR_BEFORE" xml:space="preserve">
+		<value>Data muito próxima, nenhuma alteração realizada.</value>
+	</data>
+	<data name="DATE_ERROR_AFTER" xml:space="preserve">
+		<value>Data muito tardia, nenhuma alteração realizada.</value>
+	</data>
 </root>

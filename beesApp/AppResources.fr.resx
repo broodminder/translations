@@ -2859,4 +2859,10 @@
 	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
 		<value>L'abonnement se termine dans {0} jours</value>
 	</data>
+	<data name="DATE_ERROR_BEFORE" xml:space="preserve">
+		<value>Date trop précoce, aucune modification effectuée</value>
+	</data>
+	<data name="DATE_ERROR_AFTER" xml:space="preserve">
+		<value>Date trop tardive, aucun changement effectué</value>
+	</data>
 </root>
