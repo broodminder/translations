@@ -1113,10 +1113,9 @@
             "INFO": "Bientôt disponible"
         },
         "PH": {
-            "CHECKBOX": "Bee-life.eu",
-            "CHANGED": "Apiary updated",
-            "INFO": "Share your sensor data with Bee Life association through the European Union Pollinator Hub to improve pollinator policy by leveraging advanced technology and data-driven insights collected by beekepers.\n\nThe data being shared:\n- all devices in this apiary with their raw measurements.\n- a rough location of the apiary based on postal code.\n\nData is sent daily to BeeLife.",
-            "EXTERNAL_INFO": "Learn more"
+            "CHECKBOX": "Pollinator Hub",
+            "CHANGED": "Rucher actualisé",
+            "INFO": "Partagez les données de vos capteurs avec EU Pollinator Hub pour soutenir des politiques fondées sur la science grâce aux données des apiculteurs.\n\nLes données partagées incluent :\n- Toutes les mesures des appareils de ce rucher\n- Localisation approximative (code postal)\n\nLes données sont envoyées chaque jour au Centre européen des pollinisateurs.",            "EXTERNAL_INFO": "Learn more"
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera (Beta)",

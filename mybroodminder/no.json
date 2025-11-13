@@ -1113,10 +1113,9 @@
             "INFO": "Kommer snart"
         },
         "PH": {
-            "CHECKBOX": "Bee-life.eu",
-            "CHANGED": "Apiary oppdatert",
-            "INFO": "Del sensordataene dine med Bee Life Association gjennom European Union Pollinator Hub for å forbedre pollinatorpolitikken ved å dra nytte av avansert teknologi og datadrevne innsikter samlet inn av birøktere.\n\nData som deles:\n- alle enheter i denne apiary med råmålinger.\n- en grov plassering av apiary basert på postnummer.\n\nData sendes daglig til BeeLife.",
-            "EXTERNAL_INFO": "Lær mer"
+            "CHECKBOX": "Pollinator Hub",
+            "CHANGED": "Biestand oppdatert",
+            "INFO": "Del sensordataene dine med Bee Life-foreningen gjennom European Union Pollinator Hub for å forbedre pollinatorpolitikken ved å bruke avansert teknologi og datadrevne innsikter fra birøktere.\n\nDelte data inkluderer:\n- Alle enheter i denne bigården med deres rå målinger\n- En omtrentlig plassering av bigården basert på postnummer\n\nData sendes daglig til BeeLife.",
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera (Beta)",

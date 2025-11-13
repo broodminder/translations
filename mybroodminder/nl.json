@@ -1113,10 +1113,9 @@
             "INFO": "Binnenkort beschikbaar"
         },
         "PH": {
-            "CHECKBOX": "Bee-life.eu",
-            "CHANGED": "Apiary updated",
-            "INFO": "Share your sensor data with Bee Life association through the European Union Pollinator Hub to improve pollinator policy by leveraging advanced technology and data-driven insights collected by beekepers.\n\nThe data being shared:\n- all devices in this apiary with their raw measurements.\n- a rough location of the apiary based on postal code.\n\nData is sent daily to BeeLife.",
-            "EXTERNAL_INFO": "Learn more"
+            "CHECKBOX": "Pollinator Hub",
+            "CHANGED": "Bijenstand bijgewerkt",
+            "INFO": "Deel je sensorgegevens met de vereniging Bee Life via de European Union Pollinator Hub om het beleid voor bestuivers te verbeteren met behulp van geavanceerde technologie en datagestuurde inzichten van imkers.\n\nDe gedeelde gegevens omvatten:\n- Alle apparaten in deze bijenstand met hun ruwe metingen\n- Een geschatte locatie van de bijenstand op basis van de postcode\n\nGegevens worden dagelijks naar BeeLife verzonden.",
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera(Beta)",

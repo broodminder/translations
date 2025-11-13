@@ -1113,10 +1113,9 @@
             "INFO": "Proximamente"
         },
         "PH": {
-            "CHECKBOX": "Bee-life.eu",
+            "CHECKBOX": "Pollinator Hub",
             "CHANGED": "Colmenar actualizado",
-            "INFO": "Comparte los datos de tus sensores con la asociación Bee Life a través del Centro de Polinizadores de la Unión Europea para mejorar la política de polinizadores aprovechando la tecnología avanzada y los conocimientos basados en datos recopilados por los apicultores.\n\nLos datos que se comparten:\n- todos los dispositivos en este colmenar con sus mediciones en bruto.\n- una ubicación aproximada del colmenar basada en el código postal.\n\nLos datos se envían diariamente a BeeLife.",
-            "EXTERNAL_INFO": "Más información"
+            "INFO": "Comparte los datos de tus sensores con el EU Pollinator Hub para apoyar políticas basadas en la ciencia mediante datos de los apicultores.\n\nLos datos compartidos incluyen:\n- Todas las mediciones de los dispositivos de este colmenar\n- Ubicación aproximada (código postal)\n\nLos datos se envían diariamente al Centro de Polinizadores de la UE.",        
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera(Beta)",
@@ -1287,6 +1286,7 @@
                 "CONFIRM": "Realizar pago"
             }
         },
+
         "PAY": {
             "TITLE": "Información del pago",
             "RENEW_DISCLAIMER": "Suscripción con renovación automática. Se cobrarán {{amount}} {{frequency}}.",
