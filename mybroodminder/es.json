@@ -1115,7 +1115,7 @@
         "PH": {
             "CHECKBOX": "Pollinator Hub",
             "CHANGED": "Colmenar actualizado",
-            "INFO": "Comparte los datos de tus sensores con el EU Pollinator Hub para apoyar políticas basadas en la ciencia mediante datos de los apicultores.\n\nLos datos compartidos incluyen:\n- Todas las mediciones de los dispositivos de este colmenar\n- Ubicación aproximada (código postal)\n\nLos datos se envían diariamente al Centro de Polinizadores de la UE.",        
+            "INFO": "Comparte los datos de tus sensores con el EU Pollinator Hub para apoyar políticas basadas en la ciencia mediante datos de los apicultores.\n\nLos datos compartidos incluyen:\n- Todas las mediciones de los dispositivos de este colmenar\n- Ubicación aproximada (código postal)\n\nLos datos se envían diariamente al Centro de Polinizadores de la UE."      
         },
         "MELLISPHERA": {
             "CHECKBOX": "Mellisphera(Beta)",
