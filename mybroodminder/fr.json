@@ -701,7 +701,7 @@
             },
             "BATTERY": {
                 "DESCRIPTION": "Batterie du capteur à afficher en mode sélection multiple",
-                "AUTO": "Afficher la batterie du capteur la plus faible dans la ruche en mode sélection multiple ?",
+                "AUTO": "Afficher la batterie du capteur la plus faible dans la ruche en mode sélection multiple",
                 "NONE": "N'affiche pas la batterie du capteur en mode sélection multiple",
                 "ALL": "Afficher tous les capteurs en mode multisélection"
             }
