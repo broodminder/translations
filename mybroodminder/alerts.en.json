@@ -265,6 +265,10 @@
             "TITLE": "Nectar Flow restart",
             "MESSAGE": "[{hiveName}] - Show must go on!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Swarm detected",
+            "MESSAGE": "[{hiveName}] - A swarm has been detected right now ! Check it out."
+        },
         "WEATHER": {
             "TITLE": "Weather alert",
             "MESSAGE": "[{apiaryName}] - Awful conditions expected for {date}: {alerts}. Be careful!"
