@@ -265,6 +265,10 @@
             "TITLE": "Reprise de la miellée",
             "MESSAGE": "[{hiveName}] - Le spectacle doit continuer!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Essaimage détecté",
+            "MESSAGE": "[{hiveName}] - Un essaimage a été détecté juste maintenant ! Vérifiez-le."
+        },
         "WEATHER": {
             "TITLE": "Alerte météo",
             "MESSAGE": "[{apiaryName}] - Conditions terribles attendues pour le {date}: {alerts}. Soyez prudent!"

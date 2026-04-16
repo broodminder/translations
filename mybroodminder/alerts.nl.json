@@ -265,6 +265,10 @@
             "TITLE": "Herstart nectarstroming",
             "MESSAGE": "[{hiveName}] - De show moet doorgaan!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Zwerm gedetecteerd",
+            "MESSAGE": "[{hiveName}] - Een zwerm is net gedetecteerd! Controleer het."
+        },
         "WEATHER": {
             "TITLE": "Weeralarm",
             "MESSAGE": "[{apiaryName}] - Afschuwelijke omstandigheden verwacht voor {date}: {alerts}. Wees voorzichtig!"

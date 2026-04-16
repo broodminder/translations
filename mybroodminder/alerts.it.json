@@ -265,6 +265,10 @@
             "TITLE": "Ripresa della miellata",
             "MESSAGE": "[{hiveName}] - Lo show deve continuare!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Sciame rilevato",
+            "MESSAGE": "[{hiveName}] - Un sciame è stato rilevato proprio ora! Controllalo."
+        },
         "WEATHER": {
             "TITLE": "Allerta meteo",
             "MESSAGE": "[{apiaryName}] - Condizioni terribili previste per il {date}: {alerts}. Fate attenzione!"

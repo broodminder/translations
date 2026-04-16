@@ -265,6 +265,10 @@
             "TITLE": "Start av nektarmiellé på nytt",
             "MESSAGE": "[{hiveName}] - Showet må fortsette!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Sverm oppdaget",
+            "MESSAGE": "[{hiveName}] - En sverm har blitt oppdaget akkurat nå! Sjekk det."
+        },
         "WEATHER": {
             "TITLE": "Værvarsel",
             "MESSAGE": "[{apiaryName}] - Forferdelige forhold er ventet for {date}: {alerts}. Vær forsiktig!"

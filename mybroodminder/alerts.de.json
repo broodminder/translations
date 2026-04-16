@@ -265,6 +265,10 @@
             "TITLE": "Neustart der Miellée",
             "MESSAGE": "[{hiveName}] - Die Show muss weitergehen!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Schwarm entdeckt",
+            "MESSAGE": "[{hiveName}] - Ein Schwarm wurde gerade entdeckt! Überprüfen Sie es."
+        },
         "WEATHER": {
             "TITLE": "Wetterwarnung",
             "MESSAGE": "[{apiaryName}] - Schlechte Bedingungen erwartet am {date}: {alerts}. Sei vorsichtig!"

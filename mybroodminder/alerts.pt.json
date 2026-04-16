@@ -265,6 +265,10 @@
             "TITLE": "Reinício da Miellée",
             "MESSAGE": "[{hiveName}] - O show deve continuar!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Enxame detectado",
+            "MESSAGE": "[{hiveName}] - Um enxame foi detectado agora! Verifique-o."
+        },
         "WEATHER": {
             "TITLE": "Alerta meteorológico",
             "MESSAGE": "[{apiaryName}] - Condições horríveis esperadas para {date}: {alerts}. Tenha cuidado!"

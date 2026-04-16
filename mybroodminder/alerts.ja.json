@@ -265,6 +265,10 @@
             "TITLE": "蜜の流れが再開しました",
             "MESSAGE": "[{hiveName}] - ショーは続きます！"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "群れが検出されました",
+            "MESSAGE": "[{hiveName}] - 群れが検出されました！確認してください。"
+        },
         "WEATHER": {
             "TITLE": "気象警報",
             "MESSAGE": "[{apiaryName}] - {date} にはひどい条件が予想されています: {alerts}。注意してください！"

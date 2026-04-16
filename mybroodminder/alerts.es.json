@@ -265,6 +265,10 @@
             "TITLE": "Reinicio de la mielada",
             "MESSAGE": "[{hiveName}] - ¡El espectáculo debe continuar!"
         },
+        "SWARM_DETECTED": {
+            "TITLE": "Enjambre detectado",
+            "MESSAGE": "[{hiveName}] - ¡Un enjambre ha sido detectado justo ahora! ¡Echa un vistazo!"
+        },
         "WEATHER": {
             "TITLE": "Alerta meteorológica",
             "MESSAGE": "[{apiaryName}] - Condiciones terribles esperadas para {date}: {alerts}. ¡Ten cuidado!"
