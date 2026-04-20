@@ -205,7 +205,11 @@
             "HOUR": "ora",
             "HOURS": "ore",
             "DAY": "giorno",
-            "DAYS": "giorni"
+            "DAYS": "giorni",
+            "MONTH": "mese",
+            "MONTHS": "mesi",
+            "YEAR": "anno",
+            "YEARS": "anni"
         }
     },
     "NOTIFICATIONS": {

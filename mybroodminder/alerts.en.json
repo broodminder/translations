@@ -205,7 +205,11 @@
             "HOUR": "hour",
             "HOURS": "hours",
             "DAY": "day",
-            "DAYS": "days"
+            "DAYS": "days",
+            "MONTH": "month",
+            "MONTHS": "months",
+            "YEAR": "year",
+            "YEARS": "years"
         }
     },
     "NOTIFICATIONS": {

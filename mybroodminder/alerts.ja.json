@@ -205,7 +205,11 @@
             "HOUR": "時間",
             "HOURS": "時間",
             "DAY": "日",
-            "DAYS": "日"
+            "DAYS": "日",
+            "MONTH": "月",
+            "MONTHS": "月",
+            "YEAR": "年",
+            "YEARS": "年"
         }
     },
     "NOTIFICATIONS": {
