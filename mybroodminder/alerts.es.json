@@ -205,7 +205,11 @@
             "HOUR": "hora",
             "HOURS": "horas",
             "DAY": "día",
-            "DAYS": "días"
+            "DAYS": "días",
+            "MONTH": "mes",
+            "MONTHS": "meses",
+            "YEAR": "año",
+            "YEARS": "años"
         }
     },
     "NOTIFICATIONS": {
@@ -264,6 +268,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "Reinicio de la mielada",
             "MESSAGE": "[{hiveName}] - ¡El espectáculo debe continuar!"
+        },
+        "SWARM_DETECTED": {
+            "TITLE": "Enjambre detectado",
+            "MESSAGE": "[{hiveName}] - ¡Un enjambre ha sido detectado justo ahora! ¡Echa un vistazo!"
         },
         "WEATHER": {
             "TITLE": "Alerta meteorológica",

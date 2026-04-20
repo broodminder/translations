@@ -205,7 +205,11 @@
             "HOUR": "時間",
             "HOURS": "時間",
             "DAY": "日",
-            "DAYS": "日"
+            "DAYS": "日",
+            "MONTH": "月",
+            "MONTHS": "月",
+            "YEAR": "年",
+            "YEARS": "年"
         }
     },
     "NOTIFICATIONS": {
@@ -264,6 +268,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "蜜の流れが再開しました",
             "MESSAGE": "[{hiveName}] - ショーは続きます！"
+        },
+        "SWARM_DETECTED": {
+            "TITLE": "群れが検出されました",
+            "MESSAGE": "[{hiveName}] - 群れが検出されました！確認してください。"
         },
         "WEATHER": {
             "TITLE": "気象警報",

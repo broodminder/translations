@@ -205,7 +205,11 @@
             "HOUR": "hour",
             "HOURS": "hours",
             "DAY": "day",
-            "DAYS": "days"
+            "DAYS": "days",
+            "MONTH": "month",
+            "MONTHS": "months",
+            "YEAR": "year",
+            "YEARS": "years"
         }
     },
     "NOTIFICATIONS": {
@@ -264,6 +268,10 @@
         "NECTAR_FLOW_RESTART": {
             "TITLE": "Nectar Flow restart",
             "MESSAGE": "[{hiveName}] - Show must go on!"
+        },
+        "SWARM_DETECTED": {
+            "TITLE": "Swarm detected",
+            "MESSAGE": "[{hiveName}] - A swarm has been detected right now ! Check it out."
         },
         "WEATHER": {
             "TITLE": "Weather alert",
