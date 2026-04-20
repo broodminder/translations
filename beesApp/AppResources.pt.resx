@@ -2136,6 +2136,66 @@
     <data name="INSP_T_QUEENCELLSEEN">
         <value>Célula de rainha vista</value>
     </data>
+	<data name="INSP_T_YOUNGLARVA">
+		<value>Larvas Jovens</value>
+	</data>
+	<data name="INSP_T_OLDERLARVA">
+		<value>Larvas Adultas</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD1">
+		<value>Cria de Operárias Fechada (1 quadro)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD2">
+		<value>Cria de Operárias Fechada (2 quadros)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD3">
+		<value>Cria de Operárias Fechada (3+ quadros)</value>
+	</data>
+	<data name="INSP_T_CAPPEDDRONEBROODONLY">
+		<value>Apenas Cria de Zangão Fechada</value>
+	</data>
+	<data name="INSP_T_NOBROOD">
+		<value>Sem cria</value>
+	</data>
+	<data name="INSP_T_NOEGG">
+		<value>Sem Ovos</value>
+	</data>
+	<data name="INSP_T_OPENQUEENCELL">
+		<value>Célula Real Aberta</value>
+	</data>
+	<data name="INSP_T_CAPPEDQUEENCELL">
+		<value>Célula Real Fechada</value>
+	</data>
+	<data name="INSP_T_EMERGEDQUEENCELL">
+		<value>Célula Real Emergida</value>
+	</data>
+	<data name="INSP_T_NOQUEENCELL">
+		<value>Sem Célula Real, tem ovos/larvas</value>
+	</data>
+	<data name="INSP_T_MATEDQUEEN">
+		<value>Rainha Acasalada</value>
+	</data>
+	<data name="INSP_T_BREEDERQUEENCELL">
+		<value>Célula Real de Reprodutora</value>
+	</data>
+	<data name="INSP_T_EMERGEDVIRGIN">
+		<value>Virgem Emergente (com 1-3 dias de idade)</value>
+	</data>
+	<data name="INSP_T_FERTILEVIRGIN">
+		<value>Virgem Fértil (com 4 ou mais dias de idade)</value>
+	</data>
+	<data name="INSP_T_CONFIRMEDQUEEN">
+		<value>Rainha Confirmada</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPACKAGE">
+		<value>Pacote de Abelhas Instalado (rainha acasalada)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPRIMARYSWARM">
+		<value>Enxame Principal Instalado (rainha acasalada)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDSECONDARYSWARM">
+		<value>Enxame Secundário Instalado (virgem fértil)</value>
+	</data>
     <data name="INSP_C_BEESBROODSTG">
         <value>Estágios de cria</value>
     </data>
@@ -2842,28 +2902,37 @@
 	<data name="PHENOSTEP.61.IN">
         <value>{0} Florescendo em {1} dias</value>
     </data>
-    <data name="SETTINGS_ACCOUNT_FREE" xml:space="preserve">
+    <data name="SETTINGS_ACCOUNT_FREE">
 		<value>Assinatura Gratuita</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_PREMIUM" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_PREMIUM">
 		<value>Assinatura Premium</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDED">
 		<value>Assinatura gratuita encerrada em {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDING">
 		<value>Assinatura gratuita terminando em {0} dias</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDED">
 		<value>A assinatura terminou em {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDING">
 		<value>Assinatura terminando em {0} dias</value>
 	</data>
-    <data name="DATE_ERROR_BEFORE" xml:space="preserve">
+    <data name="DATE_ERROR_BEFORE">
 		<value>Data muito próxima, nenhuma alteração realizada.</value>
 	</data>
-	<data name="DATE_ERROR_AFTER" xml:space="preserve">
+	<data name="DATE_ERROR_AFTER">
 		<value>Data muito tardia, nenhuma alteração realizada.</value>
+	</data>
+    <data name="CT_TAGS_SUB_WDBROOD">
+		<value>Worker/Drone Brood</value>
+	</data>
+	<data name="CT_TAGS_SUB_SUP">
+		<value>Supersedure Queen</value>
+	</data>
+	<data name="CT_TAGS_SUB_RESTART">
+		<value>Cycle Restart</value>
 	</data>
 </root>

@@ -2136,6 +2136,66 @@
 	<data name="INSP_T_QUEENCELLSEEN">
 		<value>Celula real</value>
 	</data>
+	<data name="INSP_T_YOUNGLARVA">
+		<value>Larvas jóvenes</value>
+	</data>
+	<data name="INSP_T_OLDERLARVA">
+		<value>Larvas más desarrolladas</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD1">
+		<value>Cría operculada de obrera (1 cuadro)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD2">
+		<value>Cría operculada de obrera (2 cuadros)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD3">
+		<value>Cría operculada de obrera (3 o más cuadros)</value>
+	</data>
+	<data name="INSP_T_CAPPEDDRONEBROODONLY">
+		<value>Solo cría operculada de zángano</value>
+	</data>
+	<data name="INSP_T_NOBROOD">
+		<value>Sin cría</value>
+	</data>
+	<data name="INSP_T_NOEGG">
+		<value>Sin huevos</value>
+	</data>
+	<data name="INSP_T_OPENQUEENCELL">
+		<value>Celdilla real abierta</value>
+	</data>
+	<data name="INSP_T_CAPPEDQUEENCELL">
+		<value>Celdilla real operculada</value>
+	</data>
+	<data name="INSP_T_EMERGEDQUEENCELL">
+		<value>Celdilla real emergida</value>
+	</data>
+	<data name="INSP_T_NOQUEENCELL">
+		<value>Sin celdilla real, hay huevos/larvas</value>
+	</data>
+	<data name="INSP_T_MATEDQUEEN">
+		<value>Reina fecundada</value>
+	</data>
+	<data name="INSP_T_BREEDERQUEENCELL">
+		<value>Celdilla real seleccionada</value>
+	</data>
+	<data name="INSP_T_EMERGEDVIRGIN">
+		<value>Reina virgen emergida</value>
+	</data>
+	<data name="INSP_T_FERTILEVIRGIN">
+		<value>Reina virgen fértil</value>
+	</data>
+	<data name="INSP_T_CONFIRMEDQUEEN">
+		<value>Reina confirmada</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPACKAGE">
+		<value>Paquete de abejas instalado (reina fecundada)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPRIMARYSWARM">
+		<value>Enjambre primario instalado (reina fecundada)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDSECONDARYSWARM">
+		<value>Enjambre secundario instalado (reina virgen)</value>
+	</data>
 	<data name="INSP_C_BEESBROODSTG">
 		<value>Etapas de cría</value>
 	</data>
@@ -2841,28 +2901,37 @@
 	<data name="PHENOSTEP.61.IN">
         <value>{0} Floreciendo en {1} días</value>
     </data>
-	<data name="SETTINGS_ACCOUNT_FREE" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_FREE">
 		<value>Membresía gratuita</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_PREMIUM" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_PREMIUM">
 		<value>Membresía Premium</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDED">
 		<value>La suscripción gratuita finalizó el {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDING">
 		<value>Suscripción gratuita que finaliza en {0} días</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDED">
 		<value>La suscripción finalizó el {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDING">
 		<value>Suscripción finaliza en {0} días</value>
 	</data>
-	<data name="DATE_ERROR_BEFORE" xml:space="preserve">
+	<data name="DATE_ERROR_BEFORE">
 		<value>Fecha demasiado temprana, no se hicieron cambios</value>
 	</data>
-	<data name="DATE_ERROR_AFTER" xml:space="preserve">
+	<data name="DATE_ERROR_AFTER">
 		<value>Fecha demasiado tardía, no se realizaron cambios.</value>
+	</data>
+	<data name="CT_TAGS_SUB_WDBROOD">
+		<value>Worker/Drone Brood</value>
+	</data>
+	<data name="CT_TAGS_SUB_SUP">
+		<value>Supersedure Queen</value>
+	</data>
+	<data name="CT_TAGS_SUB_RESTART">
+		<value>Cycle Restart</value>
 	</data>
 </root>

@@ -2136,6 +2136,66 @@
 	<data name="INSP_T_QUEENCELLSEEN">
 		<value>Présence de cellules royales</value>
 	</data>
+	<data name="INSP_T_YOUNGLARVA">
+		<value>Jeunes larves</value>
+	</data>
+	<data name="INSP_T_OLDERLARVA">
+		<value>Larves plus âgées</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD1">
+		<value>Couvain operculé d’ouvrières (1 cadre)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD2">
+		<value>Couvain operculé d’ouvrières (2 cadres)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD3">
+		<value>Couvain operculé d’ouvrières (3 cadres ou plus)</value>
+	</data>
+	<data name="INSP_T_CAPPEDDRONEBROODONLY">
+		<value>Uniquement du couvain de faux-bourdons operculé</value>
+	</data>
+	<data name="INSP_T_NOBROOD">
+		<value>Pas de couvain</value>
+	</data>
+	<data name="INSP_T_NOEGG">
+		<value>Pas d’œufs</value>
+	</data>
+	<data name="INSP_T_OPENQUEENCELL">
+		<value>Cellule royale ouverte</value>
+	</data>
+	<data name="INSP_T_CAPPEDQUEENCELL">
+		<value>Cellule royale operculée</value>
+	</data>
+	<data name="INSP_T_EMERGEDQUEENCELL">
+		<value>Cellule royale émergée</value>
+	</data>
+	<data name="INSP_T_NOQUEENCELL">
+		<value>Pas de cellule royale, œufs/larves présents</value>
+	</data>
+	<data name="INSP_T_MATEDQUEEN">
+		<value>Reine fécondée</value>
+	</data>
+	<data name="INSP_T_BREEDERQUEENCELL">
+		<value>Cellule royale sélectionnée</value>
+	</data>
+	<data name="INSP_T_EMERGEDVIRGIN">
+		<value>Reine vierge émergée</value>
+	</data>
+	<data name="INSP_T_FERTILEVIRGIN">
+		<value>Reine vierge féconde</value>
+	</data>
+	<data name="INSP_T_CONFIRMEDQUEEN">
+		<value>Reine confirmée</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPACKAGE">
+		<value>Paquet d'abeilles installé (reine fécondée)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPRIMARYSWARM">
+		<value>Essaim primaire installé (reine fécondée)</value>
+	</data>
+	<data name="INSTALLEDSECONDARYSWARM">
+		<value>Essaim secondaire installé (reine vierge)</value>
+	</data>
 	<data name="INSP_C_BEESBROODSTG">
 		<value>Etapes du Couvain</value>
 	</data>
@@ -2841,28 +2901,37 @@
 	<data name="PHENOSTEP.61.IN">
         <value>{0} Floraison dans {1} jours</value>
     </data>
-	<data name="SETTINGS_ACCOUNT_FREE" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_FREE">
 		<value>Adhésion gratuite</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_PREMIUM" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_PREMIUM">
 		<value>Abonnement Premium</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDED">
 		<value>L'abonnement gratuit a pris fin le {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDING">
 		<value>Abonnement gratuit se terminant dans {0} jours</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDED">
 		<value>L'abonnement a pris fin le {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDING">
 		<value>L'abonnement se termine dans {0} jours</value>
 	</data>
-	<data name="DATE_ERROR_BEFORE" xml:space="preserve">
+	<data name="DATE_ERROR_BEFORE">
 		<value>Date trop précoce, aucune modification effectuée</value>
 	</data>
-	<data name="DATE_ERROR_AFTER" xml:space="preserve">
+	<data name="DATE_ERROR_AFTER">
 		<value>Date trop tardive, aucun changement effectué</value>
+	</data>
+	<data name="CT_TAGS_SUB_WDBROOD">
+		<value>Worker/Drone Brood</value>
+	</data>
+	<data name="CT_TAGS_SUB_SUP">
+		<value>Supersedure Queen</value>
+	</data>
+	<data name="CT_TAGS_SUB_RESTART">
+		<value>Cycle Restart</value>
 	</data>
 </root>

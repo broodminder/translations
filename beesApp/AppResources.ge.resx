@@ -2841,28 +2841,37 @@
 	<data name="PHENOSTEP.61.IN">
         <value>{0} Blüht in {1} Tagen</value>
     </data>
-	<data name="SETTINGS_ACCOUNT_FREE" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_FREE">
 		<value>Kostenlose Mitgliedschaft</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_PREMIUM" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_PREMIUM">
 		<value>Premium-Mitgliedschaft</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDED">
 		<value>Kostenloses Abonnement endete am {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_F_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_F_ENDING">
 		<value>Kostenloses Abonnement endet in {0} Tagen</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDED" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDED">
 		<value>Abonnement endete am {0}</value>
 	</data>
-	<data name="SETTINGS_ACCOUNT_P_ENDING" xml:space="preserve">
+	<data name="SETTINGS_ACCOUNT_P_ENDING">
 		<value>Abonnement endet in {0} Tagen</value>
 	</data>
-	<data name="DATE_ERROR_BEFORE" xml:space="preserve">
+	<data name="DATE_ERROR_BEFORE">
 		<value>Datum zu früh, keine Änderung vorgenommen</value>
 	</data>
-	<data name="DATE_ERROR_AFTER" xml:space="preserve">
+	<data name="DATE_ERROR_AFTER">
 		<value>Datum zu spät, keine Änderung vorgenommen</value>
+	</data>
+	<data name="CT_TAGS_SUB_WDBROOD">
+		<value>Worker/Drone Brood</value>
+	</data>
+	<data name="CT_TAGS_SUB_SUP">
+		<value>Supersedure Queen</value>
+	</data>
+	<data name="CT_TAGS_SUB_RESTART">
+		<value>Cycle Restart</value>
 	</data>
 </root>
