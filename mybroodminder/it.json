@@ -2474,5 +2474,126 @@
         "TXT_5": "Inizia e sfrutta al massimo i tuoi dati sull'apicoltura!",
         "PRIVACY": "Informativa sulla privacy",
         "TERMS": "Termini di utilizzo"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Transizione della colonia",
+        "QELD":"DDUR",
+        "QELD_TEXT":"Data di deposizione dell'uovo della regina",
+        "MQVD":"DSRM",
+        "MQVD_TEXT":"Data di scomparsa della regina madre",
+        "NELD":"DNDU",
+        "NELD_TEXT":"Data di nuova deposizione di uova",
+        "W":"O",
+        "Q":"R",
+        "QDT":"TSR",
+        "QDT_TEXT":"Tempo di sviluppo della regina (dall'uovo di regina al suo primo uovo)",
+        "NOT_APPLICABLE":"n/d",
+        "STATUS":{
+            "INCOMPLETE":"Incompleto",
+            "INCOMPLETE_ID":"Fallito - Dati incompleti",
+            "FAIL":"Fallito",
+            "SUCCEED":"Riuscito",
+            "RESTART":"Riavvia"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Collegato da",
+            "LINKED_TO":"Collegato a",
+            "STARTED":"Ciclo iniziato il"
+        },
+        "DELETE":{
+            "TITLE:":"Elimina transizione della colonia",
+            "MESSAGE":"Vuoi eliminare questo ciclo?",
+            "YES":"Sì"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"Una colonia sciama, il che può essere uno sciame primario o secondario. È fondamentale identificare e utilizzare l'evento dello sciame primario come inizio del ciclo, poiché è il momento in cui la regina madre lascia l'arnia.",
+            "SPLT":"L'apicoltore crea una nuova colonia dividendo una parte da una colonia sana con regina. La parte orfana alleva una nuova regina con le proprie risorse o riceve una cella reale o una vergine viva fornita dall'apicoltore.",
+            "REQ":"L'apicoltore sostituisce la regina attuale, per invecchiamento o perché la colonia è orfana. Se una nuova regina viene allevata internamente, la colonia utilizza le proprie risorse; altrimenti, l'apicoltore introduce una nuova regina o cella reale, specialmente in casi di genetica aggressiva.",
+            "SEQ":"La colonia alleva naturalmente una nuova regina a causa del fallimento o della perdita della regina attuale. Questo può accadere come parte del ciclo naturale della colonia (supersedura) o in risposta a un'emergenza.",
+            "CAP":"Uno sciame catturato viene arniato o un pacco d'api viene installato in un'arnia. L'apicoltore verifica che la colonia abbia una regina ben fecondata."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Inizio del ciclo"
+            },
+            "I1":{
+                "TITLE":"Ispezione 1",
+                "TITLE_CAP":"Installazione",
+                "SWM":"Rimuovere tutte le celle reali tranne una o due delle più vecchie. Determinare la fase di sviluppo della più vecchia.",
+                "SPLT":"Assicurarsi che lo sciamatura abbia uova e larve, cella(e) reale(i) o regina viva",
+                "REQ":"Fornire risorse per consentire alla colonia di allevare una nuova regina. Si presume che la regina madre sia stata rimossa durante questa ispezione. In caso contrario, l'età della covata più giovane rimasta deve essere valutata e documentata.",
+                "SEQ":"Documentare la fase di sviluppo della regina (o cella) e trovare la covata più giovane nell'arnia per determinare quando è stata persa la regina madre",
+                "SHORT_CAP":"Registrare il tipo di regina installata",
+                "SHORT12":"Verificare lo sviluppo della regina"
+            },
+            "I2":{
+                "TITLE":"Ispezione 2",
+                "ALL":"Assicurarsi che lo sviluppo della regina proceda come previsto. Rimuovere eventuali celle reali aggiuntive che la colonia potrebbe aver allevato dall'ispezione 1."
+            },
+            "I34":{
+                "TITLE":"Ispezione per nuova covata",
+                "SHORT":"Verificare nuova covata"
+            },
+            "I3":{
+                "TITLE":"Ispezione 3",
+                "ALL":"Verificare la presenza di uova o larve. Inserire un telaio di uova e/o larve giovani se non viene trovata covata.",
+                "SHORT":"Verificare uova/larve giovani"
+            },
+            "I4":{
+                "TITLE":"Ispezione 4",
+                "LINE1":"1) Verificare la presenza di covata opercolata di operaie. La nuova regina è confermata e il ciclo è completo se trovata. Nessuna ulteriore azione richiesta",
+                "LINE2":"2) Senza covata o solo covata di fuchi: richiede sostituzione con una regina fecondata. Non è consigliato riprovare con un telaio di uova e larve giovani a causa della mancanza di api nutrici nell'arnia.",
+                "LINE3":"3a) Cella(e) reale(i) aperta(e) o opercolata(e): sviluppo riuscito della regina poiché la nuova regina ha deposto uova fecondate. Tuttavia, la colonia sta cercando di sostituirla. Rimuovere le celle reali se il TSR è inferiore a 35 e la regina madre è stata trovata.",
+                "LINE4":"3b) Cella di vergine emersa o vergine viva: la colonia ha sostituito la nuova regina",
+                "SHORT":"Verificare covata opercolata"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Covata di operaie/fuchi",
+            "SUPERSC":"Regina di supersedura",
+            "RESTART":"Riavvio del ciclo"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Legenda del ciclo vitale della nuova regina",
+            "LEGEND_ACTION":"Legenda delle azioni consigliate",
+            "TOOLTIP":{
+                "EGG":"uovo",
+                "LARVA":"larva",
+                "PUPA":"pupa",
+                "UNF_VIRGIN":"vergine non fecondata",
+                "FER_VIRGIN":"vergine fecondata",
+                "MATED":"regina fecondata",
+                "ESTABLISHED":"stabilita e stabile",
+                "STABLE":"stabile",
+                "FAILED":"fallita",
+                "RESTARTED":"riavviata",
+                "SENSITIVE":"Fase di sviluppo sensibile: le api non devono essere scrollate dai telaini",
+                "DRONE_COMB":"Solo covata di fuchi rimasta, opportunità per rimuovere il favo da fuchi",
+                "OAV":"Nessuna covata opercolata, opportunità di trattare con vapore di acido ossalico (VAO)",
+                "ADD_BROOD":"Nessuna covata, opportunità di aggiungere covata aperta per ridurre il rischio di operaie deponenti",
+                "PREDICTED":"previsto",
+                "QUEEN":"Regina",
+                "INSPECTIONS":"Ispezioni",
+                "CAUTION":"Attenzione",
+                "OPPORTUNITY":"Opportunità",
+                "INSP_WINDOW":"finestra di ispezione",
+                "OPTIONAL":"opzionale",
+                "SENSITIVE_SHORT":"fase di sviluppo sensibile",
+                "DRONE_COMB_SHORT":"rimuovere favo da fuchi",
+                "OAV_SHORT":"trattamento VAO",
+                "ADD_BROOD_SHORT":"aggiungere covata"
+            }
+        },
+        "TABLE":{
+            "START":"Inizio del ciclo",
+            "COMPLETED":"Ispezioni completate",
+            "VALUE":"Valore",
+            "STATUS":"Stato",
+            "QELD":"DDUR",
+            "MQVD":"DSRM",
+            "NELD":"DNDU",
+            "WARN_LENGTH":"Ciclo sta diventando lungo, considera un'azione"
+        }
     }
 }

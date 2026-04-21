@@ -2473,5 +2473,126 @@
         "TXT_5": "Kom i gang og dra nytte av birøkterdataene dine!",
         "PRIVACY": "Personvernpolicy",
         "TERMS": "Bruksvilkår"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Koloniovergang",
+        "QELD":"DLED",
+        "QELD_TEXT":"Dronningens egglegningsdato",
+        "MQVD":"MDFD",
+        "MQVD_TEXT":"Moderdronningens forsvinningsdato",
+        "NELD":"NELD",
+        "NELD_TEXT":"Ny egglegningsdato",
+        "W":"A",
+        "Q":"D",
+        "QDT":"DUT",
+        "QDT_TEXT":"Dronningens utviklingstid (fra dronningegg til hennes første egg)",
+        "NOT_APPLICABLE":"i.a.",
+        "STATUS":{
+            "INCOMPLETE":"Ufullstendig",
+            "INCOMPLETE_ID":"Mislyktes - Ufullstendige data",
+            "FAIL":"Mislyktes",
+            "SUCCEED":"Lyktes",
+            "RESTART":"Start på nytt"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Lenket fra",
+            "LINKED_TO":"Lenket til",
+            "STARTED":"Syklus startet"
+        },
+        "DELETE":{
+            "TITLE:":"Slett koloniovergang",
+            "MESSAGE":"Vil du slette denne syklusen?",
+            "YES":"Ja"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"En koloni sverger, som kan være enten en primærsverm eller ettersverm. Det er avgjørende å identifisere og bruke primærsvermhendelsen som syklusstart, da dette er hendelsen når moderdronningen forlater kuben.",
+            "SPLT":"Birøkteren skaper en ny koloni ved å splitte av en del fra en dronningrett, sunn koloni. Den dronningløse delen oppdrar enten en ny dronning fra egne ressurser eller får en dronningcelle eller levende jomfru av birøkteren.",
+            "REQ":"Birøkteren erstatter den nåværende dronningen, enten på grunn av aldring eller fordi kolonien er dronningløs. Hvis en ny dronning oppdras internt, bruker kolonien sine egne ressurser; ellers introduserer birøkteren en ny dronning eller dronningcelle, spesielt i tilfeller som aggressiv genetikk.",
+            "SEQ":"Kolonien oppdrar naturlig en ny dronning på grunn av svikt eller tap av den nåværende dronningen. Dette kan skje som en del av koloniens naturlige livssyklus (supersedur) eller som respons på en nødsituasjon.",
+            "CAP":"En fanget sverm innhives eller en bipakke installeres i en kube. Birøkteren bekrefter at kolonien har en godt paret dronning."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Syklusstart"
+            },
+            "I1":{
+                "TITLE":"Inspeksjon 1",
+                "TITLE_CAP":"Installasjon",
+                "SWM":"Fjern alle unntatt én eller to av de eldste dronningcellene. Bestem utviklingsstadiet til den eldste.",
+                "SPLT":"Sørg for at avleggeren har egg og larver, dronningcelle(r) eller levende dronning",
+                "REQ":"Gi ressurser for å gjøre kolonien i stand til å oppdra en ny dronning. Det antas at moderdronningen ble fjernet under denne inspeksjonen. Hvis ikke, må alderen på den yngste gjenværende yngelen vurderes og dokumenteres.",
+                "SEQ":"Dokumenter dronningens (cellens) utviklingsstadium og finn den yngste yngelen i kuben for å bestemme når moderdronningen ble tapt",
+                "SHORT_CAP":"Logg type installert dronning",
+                "SHORT12":"Sjekk dronningens utvikling"
+            },
+            "I2":{
+                "TITLE":"Inspeksjon 2",
+                "ALL":"Sørg for at dronningens utvikling forløper som forventet. Fjern eventuelle ekstra dronningceller kolonien kan ha oppdrettet siden inspeksjon 1."
+            },
+            "I34":{
+                "TITLE":"Inspeksjon for ny yngel",
+                "SHORT":"Sjekk for ny yngel"
+            },
+            "I3":{
+                "TITLE":"Inspeksjon 3",
+                "ALL":"Sjekk for egg eller larver. Sett inn ramme med egg og/eller unge larver hvis ingen yngel finnes.",
+                "SHORT":"Sjekk for egg/unge larver"
+            },
+            "I4":{
+                "TITLE":"Inspeksjon 4",
+                "LINE1":"1) Sjekk for forseglet arbeidsbiyngel. Ny dronning er bekreftet og syklusen er fullført hvis funnet. Ingen videre handling kreves",
+                "LINE2":"2) Uten yngel eller kun droneyngel: Krever ny dronning med paret dronning. Å prøve igjen med en ramme med egg og unge larver anbefales ikke på grunn av mangel på ammebier i kuben.",
+                "LINE3":"3a) Åpen eller forseglet dronningcelle(r): Vellykket dronningutvikling ettersom den nye dronningen har lagt befruktede egg. Kolonien prøver imidlertid å erstatte henne. Fjern dronningceller hvis DUT er mindre enn 35 og moderdronningen ble funnet.",
+                "LINE4":"3b) Celle av klekket jomfru eller levende jomfru: Kolonien har erstattet den nye dronningen",
+                "SHORT":"Sjekk for forseglet yngel"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Arbeidsbi-/droneyngel",
+            "SUPERSC":"Supersedur-dronning",
+            "RESTART":"Syklus-omstart"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Tegnforklaring for ny dronnings livssyklus",
+            "LEGEND_ACTION":"Tegnforklaring for anbefalt handling",
+            "TOOLTIP":{
+                "EGG":"egg",
+                "LARVA":"larve",
+                "PUPA":"puppe",
+                "UNF_VIRGIN":"ubefruktet jomfru",
+                "FER_VIRGIN":"befruktet jomfru",
+                "MATED":"paret dronning",
+                "ESTABLISHED":"etablert og stabil",
+                "STABLE":"stabil",
+                "FAILED":"mislyktes",
+                "RESTARTED":"omstartet",
+                "SENSITIVE":"Sensitiv utviklingsfase: bier skal ikke ristes av rammene",
+                "DRONE_COMB":"Kun droneyngel igjen, mulighet til å fjerne dronetavle",
+                "OAV":"Ingen forseglet yngel, mulighet til å behandle med oksalsyredamp (OAV)",
+                "ADD_BROOD":"Ingen yngel, mulighet til å tilsette åpen yngel for å redusere sjansen for eggleggende arbeidere",
+                "PREDICTED":"forutsagt",
+                "QUEEN":"Dronning",
+                "INSPECTIONS":"Inspeksjoner",
+                "CAUTION":"Forsiktig",
+                "OPPORTUNITY":"Mulighet",
+                "INSP_WINDOW":"inspeksjonsvindu",
+                "OPTIONAL":"valgfritt",
+                "SENSITIVE_SHORT":"sensitiv utviklingsfase",
+                "DRONE_COMB_SHORT":"fjern dronetavle",
+                "OAV_SHORT":"oav-behandling",
+                "ADD_BROOD_SHORT":"tilsett yngel"
+            }
+        },
+        "TABLE":{
+            "START":"Syklusstart",
+            "COMPLETED":"Fullførte inspeksjoner",
+            "VALUE":"Verdi",
+            "STATUS":"Status",
+            "QELD":"DLED",
+            "MQVD":"MDFD",
+            "NELD":"NELD",
+            "WARN_LENGTH":"Syklusen blir lang, vurder handling"
+        }
     }
 }

@@ -2474,5 +2474,126 @@
         "TXT_5": "¡Comienza y aprovecha al máximo tus datos apícolas!",
         "PRIVACY": "Política de privacidad",
         "TERMS": "Términos de uso"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Transición de colonia",
+        "QELD":"FPHR",
+        "QELD_TEXT":"Fecha de puesta del huevo de reina",
+        "MQVD":"FDRM",
+        "MQVD_TEXT":"Fecha de desaparición de la reina madre",
+        "NELD":"FNPH",
+        "NELD_TEXT":"Fecha de nueva puesta de huevos",
+        "W":"O",
+        "Q":"R",
+        "QDT":"TDR",
+        "QDT_TEXT":"Tiempo de desarrollo de la reina (desde el huevo de reina hasta su primer huevo)",
+        "NOT_APPLICABLE":"n/d",
+        "STATUS":{
+            "INCOMPLETE":"Incompleto",
+            "INCOMPLETE_ID":"Fallido - Datos incompletos",
+            "FAIL":"Fallo",
+            "SUCCEED":"Éxito",
+            "RESTART":"Reiniciar"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Enlazado desde",
+            "LINKED_TO":"Enlazado a",
+            "STARTED":"Ciclo iniciado el"
+        },
+        "DELETE":{
+            "TITLE:":"Eliminar transición de colonia",
+            "MESSAGE":"¿Desea eliminar este ciclo?",
+            "YES":"Sí"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"Una colonia enjambra, lo que puede ser un enjambre primario o secundario. Es crucial identificar y utilizar el evento del enjambre primario como inicio del ciclo, ya que es cuando la reina madre abandona la colmena.",
+            "SPLT":"El apicultor crea una nueva colonia dividiendo una parte de una colonia sana con reina. La parte huérfana cría una nueva reina con sus propios recursos o recibe una celda real o una virgen viva proporcionada por el apicultor.",
+            "REQ":"El apicultor reemplaza la reina actual, ya sea por envejecimiento o porque la colonia está huérfana. Si se cría una nueva reina internamente, la colonia utiliza sus propios recursos; de lo contrario, el apicultor introduce una nueva reina o celda real, especialmente en casos de genética agresiva.",
+            "SEQ":"La colonia cría una nueva reina de forma natural debido al fallo o pérdida de la reina actual. Esto puede ocurrir como parte del ciclo natural de la colonia (supersedura) o en respuesta a una emergencia.",
+            "CAP":"Un enjambre capturado es enjaulado o se instala un paquete de abejas en una colmena. El apicultor verifica que la colonia tenga una reina bien fecundada."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Inicio del ciclo"
+            },
+            "I1":{
+                "TITLE":"Inspección 1",
+                "TITLE_CAP":"Instalación",
+                "SWM":"Retirar todas las celdas reales excepto una o dos de las más antiguas. Determinar la fase de desarrollo de la más antigua.",
+                "SPLT":"Asegurarse de que la división tenga huevos y larvas, celda(s) real(es) o reina viva",
+                "REQ":"Proporcionar recursos para que la colonia pueda criar una nueva reina. Se asume que la reina madre fue retirada durante esta inspección. De lo contrario, se debe evaluar y documentar la edad del cría más joven que quede.",
+                "SEQ":"Documentar la fase de desarrollo de la reina (o celda) y encontrar la cría más joven en la colmena para determinar cuándo se perdió la reina madre",
+                "SHORT_CAP":"Registrar el tipo de reina instalada",
+                "SHORT12":"Verificar el desarrollo de la reina"
+            },
+            "I2":{
+                "TITLE":"Inspección 2",
+                "ALL":"Asegurarse de que el desarrollo de la reina progrese como se espera. Retirar cualquier celda real adicional que la colonia haya podido criar desde la inspección 1."
+            },
+            "I34":{
+                "TITLE":"Inspección de nueva cría",
+                "SHORT":"Verificar nueva cría"
+            },
+            "I3":{
+                "TITLE":"Inspección 3",
+                "ALL":"Verificar la presencia de huevos o larvas. Insertar un cuadro de huevos y/o larvas jóvenes si no se encuentra cría.",
+                "SHORT":"Verificar huevos/larvas jóvenes"
+            },
+            "I4":{
+                "TITLE":"Inspección 4",
+                "LINE1":"1) Verificar la presencia de cría operculada de obreras. La nueva reina queda confirmada y el ciclo está completo si se encuentra. No se requieren más acciones",
+                "LINE2":"2) Sin cría o solo cría de zánganos: requiere reemplazo con una reina fecundada. No se recomienda volver a intentar con un cuadro de huevos y larvas jóvenes debido a la falta de abejas nodrizas en la colmena.",
+                "LINE3":"3a) Celda(s) real(es) abierta(s) u operculada(s): desarrollo exitoso de la reina, ya que la nueva reina ha puesto huevos fecundados. Sin embargo, la colonia intenta reemplazarla. Retirar las celdas reales si el TDR es inferior a 35 y se encontró la reina madre.",
+                "LINE4":"3b) Celda de virgen emergida o virgen viva: la colonia ha reemplazado a la nueva reina",
+                "SHORT":"Verificar cría operculada"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Cría de obreras/zánganos",
+            "SUPERSC":"Reina de supersedura",
+            "RESTART":"Reinicio de ciclo"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Leyenda del ciclo de vida de la nueva reina",
+            "LEGEND_ACTION":"Leyenda de acciones recomendadas",
+            "TOOLTIP":{
+                "EGG":"huevo",
+                "LARVA":"larva",
+                "PUPA":"pupa",
+                "UNF_VIRGIN":"virgen no fecundada",
+                "FER_VIRGIN":"virgen fecundada",
+                "MATED":"reina fecundada",
+                "ESTABLISHED":"establecida y estable",
+                "STABLE":"estable",
+                "FAILED":"fallida",
+                "RESTARTED":"reiniciada",
+                "SENSITIVE":"Fase de desarrollo sensible: no se debe sacudir a las abejas de los cuadros",
+                "DRONE_COMB":"Solo queda cría de zánganos, oportunidad para retirar el panal de zánganos",
+                "OAV":"Sin cría operculada, oportunidad para tratar con vapor de ácido oxálico (VAO)",
+                "ADD_BROOD":"Sin cría, oportunidad para añadir cría abierta y reducir el riesgo de obreras ponedoras",
+                "PREDICTED":"previsto",
+                "QUEEN":"Reina",
+                "INSPECTIONS":"Inspecciones",
+                "CAUTION":"Precaución",
+                "OPPORTUNITY":"Oportunidad",
+                "INSP_WINDOW":"ventana de inspección",
+                "OPTIONAL":"opcional",
+                "SENSITIVE_SHORT":"fase de desarrollo sensible",
+                "DRONE_COMB_SHORT":"retirar panal de zánganos",
+                "OAV_SHORT":"tratamiento VAO",
+                "ADD_BROOD_SHORT":"añadir cría"
+            }
+        },
+        "TABLE":{
+            "START":"Inicio del ciclo",
+            "COMPLETED":"Inspecciones completadas",
+            "VALUE":"Valor",
+            "STATUS":"Estado",
+            "QELD":"FPHR",
+            "MQVD":"FDRM",
+            "NELD":"FNPH",
+            "WARN_LENGTH":"Ciclo prolongándose, considere una acción"
+        }
     }
 }

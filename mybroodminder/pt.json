@@ -2473,5 +2473,126 @@
         "TXT_5": "Comece e aproveite ao máximo os dados da sua apicultura!",
         "PRIVACY": "Política de Privacidade",
         "TERMS": "Termos de Uso"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Transição de colónia",
+        "QELD":"DPOR",
+        "QELD_TEXT":"Data de postura do ovo da rainha",
+        "MQVD":"DDRM",
+        "MQVD_TEXT":"Data de desaparecimento da rainha-mãe",
+        "NELD":"DNPO",
+        "NELD_TEXT":"Data de nova postura de ovos",
+        "W":"O",
+        "Q":"R",
+        "QDT":"TDR",
+        "QDT_TEXT":"Tempo de desenvolvimento da rainha (do ovo da rainha até ao seu primeiro ovo)",
+        "NOT_APPLICABLE":"n/a",
+        "STATUS":{
+            "INCOMPLETE":"Incompleto",
+            "INCOMPLETE_ID":"Falhou - Dados incompletos",
+            "FAIL":"Falha",
+            "SUCCEED":"Sucesso",
+            "RESTART":"Reiniciar"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Ligado a partir de",
+            "LINKED_TO":"Ligado a",
+            "STARTED":"Ciclo iniciado em"
+        },
+        "DELETE":{
+            "TITLE:":"Eliminar transição de colónia",
+            "MESSAGE":"Deseja eliminar este ciclo?",
+            "YES":"Sim"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"Uma colónia enxameia, podendo ser um enxame primário ou secundário. É crucial identificar e utilizar o evento do enxame primário como início de ciclo, pois é quando a rainha-mãe abandona a colmeia.",
+            "SPLT":"O apicultor cria uma nova colónia dividindo uma parte de uma colónia saudável com rainha. A parte órfã cria uma nova rainha a partir dos seus próprios recursos ou recebe uma célula real ou uma virgem viva fornecida pelo apicultor.",
+            "REQ":"O apicultor substitui a rainha atual, seja por envelhecimento ou porque a colónia está órfã. Se for criada uma nova rainha internamente, a colónia utiliza os seus próprios recursos; caso contrário, o apicultor introduz uma nova rainha ou célula real, especialmente em casos de genética agressiva.",
+            "SEQ":"A colónia cria naturalmente uma nova rainha devido à falha ou perda da rainha atual. Isto pode ocorrer como parte do ciclo de vida natural da colónia (supersedura) ou em resposta a uma emergência.",
+            "CAP":"Um enxame capturado é colmeado ou um pacote de abelhas é instalado numa colmeia. O apicultor verifica se a colónia tem uma rainha bem fecundada."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Início do ciclo"
+            },
+            "I1":{
+                "TITLE":"Inspeção 1",
+                "TITLE_CAP":"Instalação",
+                "SWM":"Remover todas as células reais exceto uma ou duas das mais antigas. Determinar a fase de desenvolvimento da mais antiga.",
+                "SPLT":"Certificar-se de que a divisão tem ovos e larvas, célula(s) real(is) ou rainha viva",
+                "REQ":"Fornecer recursos para permitir que a colónia crie uma nova rainha. Assume-se que a rainha-mãe foi removida durante esta inspeção. Caso contrário, a idade da cria mais jovem restante deve ser avaliada e documentada.",
+                "SEQ":"Documentar a fase de desenvolvimento da rainha (ou célula) e encontrar a cria mais jovem na colmeia para determinar quando a rainha-mãe foi perdida",
+                "SHORT_CAP":"Registar o tipo de rainha instalada",
+                "SHORT12":"Verificar o desenvolvimento da rainha"
+            },
+            "I2":{
+                "TITLE":"Inspeção 2",
+                "ALL":"Garantir que o desenvolvimento da rainha progride como esperado. Remover quaisquer células reais adicionais que a colónia possa ter criado desde a inspeção 1."
+            },
+            "I34":{
+                "TITLE":"Inspeção de nova cria",
+                "SHORT":"Verificar nova cria"
+            },
+            "I3":{
+                "TITLE":"Inspeção 3",
+                "ALL":"Verificar a presença de ovos ou larvas. Inserir um quadro de ovos e/ou larvas jovens se não for encontrada cria.",
+                "SHORT":"Verificar ovos/larvas jovens"
+            },
+            "I4":{
+                "TITLE":"Inspeção 4",
+                "LINE1":"1) Verificar a presença de cria operculada de obreiras. A nova rainha está confirmada e o ciclo está completo se encontrada. Não é necessária mais nenhuma ação",
+                "LINE2":"2) Sem cria ou apenas cria de zângãos: requer substituição com uma rainha fecundada. Não se recomenda tentar novamente com um quadro de ovos e larvas jovens devido à falta de abelhas amas na colmeia.",
+                "LINE3":"3a) Célula(s) real(is) aberta(s) ou operculada(s): desenvolvimento bem-sucedido da rainha, pois a nova rainha pôs ovos fecundados. No entanto, a colónia está a tentar substituí-la. Remover as células reais se o TDR for inferior a 35 e a rainha-mãe tiver sido encontrada.",
+                "LINE4":"3b) Célula de virgem emergida ou virgem viva: a colónia substituiu a nova rainha",
+                "SHORT":"Verificar cria operculada"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Cria de obreiras/zângãos",
+            "SUPERSC":"Rainha de supersedura",
+            "RESTART":"Reinício de ciclo"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Legenda do ciclo de vida da nova rainha",
+            "LEGEND_ACTION":"Legenda das ações recomendadas",
+            "TOOLTIP":{
+                "EGG":"ovo",
+                "LARVA":"larva",
+                "PUPA":"pupa",
+                "UNF_VIRGIN":"virgem não fecundada",
+                "FER_VIRGIN":"virgem fecundada",
+                "MATED":"rainha fecundada",
+                "ESTABLISHED":"estabelecida e estável",
+                "STABLE":"estável",
+                "FAILED":"falhou",
+                "RESTARTED":"reiniciada",
+                "SENSITIVE":"Fase de desenvolvimento sensível: as abelhas não devem ser sacudidas dos quadros",
+                "DRONE_COMB":"Apenas resta cria de zângãos, oportunidade para remover o favo de zângãos",
+                "OAV":"Sem cria operculada, oportunidade para tratar com vapor de ácido oxálico (VAO)",
+                "ADD_BROOD":"Sem cria, oportunidade para adicionar cria aberta para diminuir a hipótese de obreiras poedeiras",
+                "PREDICTED":"previsto",
+                "QUEEN":"Rainha",
+                "INSPECTIONS":"Inspeções",
+                "CAUTION":"Cuidado",
+                "OPPORTUNITY":"Oportunidade",
+                "INSP_WINDOW":"janela de inspeção",
+                "OPTIONAL":"opcional",
+                "SENSITIVE_SHORT":"fase de desenvolvimento sensível",
+                "DRONE_COMB_SHORT":"remover favo de zângãos",
+                "OAV_SHORT":"tratamento VAO",
+                "ADD_BROOD_SHORT":"adicionar cria"
+            }
+        },
+        "TABLE":{
+            "START":"Início do ciclo",
+            "COMPLETED":"Inspeções concluídas",
+            "VALUE":"Valor",
+            "STATUS":"Estado",
+            "QELD":"DPOR",
+            "MQVD":"DDRM",
+            "NELD":"DNPO",
+            "WARN_LENGTH":"Ciclo a ficar longo, considere uma ação"
+        }
     }
 }

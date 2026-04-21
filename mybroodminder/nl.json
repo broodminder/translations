@@ -2473,5 +2473,126 @@
         "TXT_5": "Begin en haal het beste uit je bijenteelt gegevens!",
         "PRIVACY": "Privacybeleid",
         "TERMS": "Gebruiksvoorwaarden"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Kolonie-overgang",
+        "QELD":"KELD",
+        "QELD_TEXT":"Legdatum van koninginnenei",
+        "MQVD":"MKVD",
+        "MQVD_TEXT":"Verdwijningsdatum moederkoningin",
+        "NELD":"NELD",
+        "NELD_TEXT":"Nieuwe eileggingsdatum",
+        "W":"W",
+        "Q":"K",
+        "QDT":"KOT",
+        "QDT_TEXT":"Koninginnenontwikkelingstijd (van koninginnenei tot haar eerste ei)",
+        "NOT_APPLICABLE":"n.v.t.",
+        "STATUS":{
+            "INCOMPLETE":"Onvolledig",
+            "INCOMPLETE_ID":"Mislukt - Onvolledige gegevens",
+            "FAIL":"Mislukt",
+            "SUCCEED":"Geslaagd",
+            "RESTART":"Opnieuw starten"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Gekoppeld vanaf",
+            "LINKED_TO":"Gekoppeld aan",
+            "STARTED":"Cyclus gestart op"
+        },
+        "DELETE":{
+            "TITLE:":"Kolonie-overgang verwijderen",
+            "MESSAGE":"Wilt u deze cyclus verwijderen?",
+            "YES":"Ja"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"Een kolonie zwermt, wat een primaire zwerm of naschrifte kan zijn. Het is cruciaal om de primaire zwerm te identificeren en te gebruiken als cyclusbegin, aangezien dit het moment is waarop de moederkoningin de kast verlaat.",
+            "SPLT":"De imker maakt een nieuwe kolonie door een deel af te splitsen van een gezonde kolonie met koningin. Het koninginloze deel kweekt een nieuwe koningin uit eigen middelen of krijgt een moerdop of levende maagdelijke koningin van de imker.",
+            "REQ":"De imker vervangt de huidige koningin, vanwege veroudering of omdat de kolonie koninginloos is. Als er intern een nieuwe koningin wordt gekweekt, gebruikt de kolonie eigen middelen; anders introduceert de imker een nieuwe koningin of moerdop, vooral bij agressieve genetica.",
+            "SEQ":"De kolonie kweekt op natuurlijke wijze een nieuwe koningin vanwege het falen of verlies van de huidige koningin. Dit kan gebeuren als onderdeel van de natuurlijke levenscyclus van de kolonie (supersedure) of als reactie op een noodsituatie.",
+            "CAP":"Een gevangen zwerm wordt gekast of een pakketbij wordt in een kast geïnstalleerd. De imker controleert of de kolonie een goed bevruchte koningin heeft."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Begin van cyclus"
+            },
+            "I1":{
+                "TITLE":"Inspectie 1",
+                "TITLE_CAP":"Installatie",
+                "SWM":"Verwijder alle moerdoppen op één of twee van de oudste na. Bepaal het ontwikkelingsstadium van de oudste.",
+                "SPLT":"Zorg ervoor dat de aflegger eitjes en larven, moerdop(pen) of levende koningin heeft",
+                "REQ":"Voorzie middelen om de kolonie in staat te stellen een nieuwe koningin te kweken. Aangenomen wordt dat de moederkoningin tijdens deze inspectie is verwijderd. Zo niet, dan moet de leeftijd van het jongste overgebleven broed worden beoordeeld en gedocumenteerd.",
+                "SEQ":"Documenteer het ontwikkelingsstadium van de koningin (of dop) en vind het jongste broed in de kast om te bepalen wanneer de moederkoningin verloren ging",
+                "SHORT_CAP":"Registreer type geïnstalleerde koningin",
+                "SHORT12":"Controleer koninginnenontwikkeling"
+            },
+            "I2":{
+                "TITLE":"Inspectie 2",
+                "ALL":"Zorg ervoor dat de koninginnenontwikkeling verloopt zoals verwacht. Verwijder eventuele extra moerdoppen die de kolonie sinds inspectie 1 heeft aangelegd."
+            },
+            "I34":{
+                "TITLE":"Inspectie voor nieuw broed",
+                "SHORT":"Controleer op nieuw broed"
+            },
+            "I3":{
+                "TITLE":"Inspectie 3",
+                "ALL":"Controleer op eitjes of larven. Plaats een raam met eitjes en/of jonge larven als er geen broed wordt gevonden.",
+                "SHORT":"Controleer eitjes/jonge larven"
+            },
+            "I4":{
+                "TITLE":"Inspectie 4",
+                "LINE1":"1) Controleer op gesloten werksterbroed. De nieuwe koningin is bevestigd en de cyclus is voltooid indien gevonden. Geen verdere actie nodig",
+                "LINE2":"2) Broedloos of alleen darrenbroed: Vereist herbeqoeninging met een bevruchte koningin. Het opnieuw proberen met een raam eitjes en jonge larven wordt niet aanbevolen vanwege het gebrek aan voedsterbijen in de kast.",
+                "LINE3":"3a) Open of gesloten moerdop(pen): Succesvolle koninginnenontwikkeling aangezien de nieuwe koningin bevruchte eitjes heeft gelegd. De kolonie probeert haar echter te vervangen. Verwijder moerdoppen als KOT minder dan 35 is en moederkoningin gevonden is.",
+                "LINE4":"3b) Dop van uitgelopen maagd of levende maagd: kolonie heeft nieuwe koningin vervangen",
+                "SHORT":"Controleer op gesloten broed"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Werkster-/darrenbroed",
+            "SUPERSC":"Supersedure-koningin",
+            "RESTART":"Cyclus herstart"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Legenda levenscyclus nieuwe koningin",
+            "LEGEND_ACTION":"Legenda aanbevolen actie",
+            "TOOLTIP":{
+                "EGG":"ei",
+                "LARVA":"larve",
+                "PUPA":"pop",
+                "UNF_VIRGIN":"onbevruchte maagd",
+                "FER_VIRGIN":"bevruchte maagd",
+                "MATED":"bevruchte koningin",
+                "ESTABLISHED":"gevestigd en stabiel",
+                "STABLE":"stabiel",
+                "FAILED":"mislukt",
+                "RESTARTED":"opnieuw gestart",
+                "SENSITIVE":"Gevoelige ontwikkelingsfase: bijen mogen niet van de ramen worden geschud",
+                "DRONE_COMB":"Alleen darrenbroed over, kans om darrenraat te verwijderen",
+                "OAV":"Geen gesloten broed, kans om te behandelen met oxaalzuurverdamping (OAV)",
+                "ADD_BROOD":"Geen broed, kans om open broed toe te voegen om kans op eierleggende werksters te verkleinen",
+                "PREDICTED":"voorspeld",
+                "QUEEN":"Koningin",
+                "INSPECTIONS":"Inspecties",
+                "CAUTION":"Let op",
+                "OPPORTUNITY":"Kans",
+                "INSP_WINDOW":"inspectievenster",
+                "OPTIONAL":"optioneel",
+                "SENSITIVE_SHORT":"gevoelige ontwikkelingsfase",
+                "DRONE_COMB_SHORT":"darrenraat verwijderen",
+                "OAV_SHORT":"oav-behandeling",
+                "ADD_BROOD_SHORT":"broed toevoegen"
+            }
+        },
+        "TABLE":{
+            "START":"Begin van cyclus",
+            "COMPLETED":"Voltooide inspecties",
+            "VALUE":"Waarde",
+            "STATUS":"Status",
+            "QELD":"KELD",
+            "MQVD":"MKVD",
+            "NELD":"NELD",
+            "WARN_LENGTH":"Cyclus wordt lang, overweeg actie"
+        }
     }
 }

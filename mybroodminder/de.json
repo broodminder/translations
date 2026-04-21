@@ -2474,5 +2474,126 @@
         "TXT_5": "Legen Sie los und machen Sie das Beste aus Ihren Bienenhaltungsdaten!",
         "PRIVACY": "Datenschutzrichtlinie",
         "TERMS": "Nutzungsbedingungen"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Volksübergang",
+        "QELD":"KELD",
+        "QELD_TEXT":"Legedatum des Königinnen-Eies",
+        "MQVD":"MKVD",
+        "MQVD_TEXT":"Verschwinden der Mutterkönigin",
+        "NELD":"NELD",
+        "NELD_TEXT":"Neues Eilage-Datum",
+        "W":"A",
+        "Q":"K",
+        "QDT":"KEZ",
+        "QDT_TEXT":"Königinnen-Entwicklungszeit (vom Königinnen-Ei bis zu ihrem ersten Ei)",
+        "NOT_APPLICABLE":"n/v",
+        "STATUS":{
+            "INCOMPLETE":"Unvollständig",
+            "INCOMPLETE_ID":"Fehlgeschlagen - Unvollständige Daten",
+            "FAIL":"Fehlgeschlagen",
+            "SUCCEED":"Erfolgreich",
+            "RESTART":"Neu starten"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Verknüpft von",
+            "LINKED_TO":"Verknüpft mit",
+            "STARTED":"Zyklus begonnen am"
+        },
+        "DELETE":{
+            "TITLE:":"Volksübergang löschen",
+            "MESSAGE":"Möchten Sie diesen Zyklus löschen?",
+            "YES":"Ja"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"Ein Volk schwärmt, was entweder ein Vorschwarm oder Nachschwarm sein kann. Es ist entscheidend, das Vorschwarm-Ereignis als Zyklusbeginn zu identifizieren und zu verwenden, da dies der Zeitpunkt ist, an dem die Mutterkönigin den Stock verlässt.",
+            "SPLT":"Der Imker erstellt ein neues Volk, indem er einen Teil von einem weiselrichtigen, gesunden Volk abtrennt. Der weisellose Teil zieht entweder eine neue Königin aus eigenen Ressourcen nach oder erhält vom Imker eine Weiselzelle oder eine lebende Jungfrau.",
+            "REQ":"Der Imker ersetzt die aktuelle Königin, entweder aufgrund von Alter oder weil das Volk weisellos ist. Wenn eine neue Königin intern nachgezogen wird, nutzt das Volk eigene Ressourcen; andernfalls führt der Imker eine neue Königin oder Weiselzelle ein, insbesondere bei aggressiver Genetik.",
+            "SEQ":"Das Volk zieht auf natürliche Weise eine neue Königin aufgrund des Versagens oder Verlustes der aktuellen Königin nach. Dies kann als Teil des natürlichen Lebenszyklus des Volkes (Stille Umweiselung) oder als Reaktion auf einen Notfall geschehen.",
+            "CAP":"Ein eingefangener Schwarm wird eingeschlagen oder ein Bienenpaket wird in einen Stock eingesetzt. Der Imker überprüft, dass das Volk eine gut begattete Königin hat."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Zyklusbeginn"
+            },
+            "I1":{
+                "TITLE":"Kontrolle 1",
+                "TITLE_CAP":"Installation",
+                "SWM":"Alle Weiselzellen bis auf eine oder zwei der ältesten entfernen. Entwicklungsstadium der ältesten bestimmen.",
+                "SPLT":"Sicherstellen, dass der Ableger Eier und Larven, Weiselzelle(n) oder eine lebende Königin hat",
+                "REQ":"Ressourcen bereitstellen, damit das Volk eine neue Königin nachziehen kann. Es wird angenommen, dass die Mutterkönigin während dieser Kontrolle entfernt wurde. Andernfalls muss das Alter der jüngsten verbleibenden Brut beurteilt und dokumentiert werden.",
+                "SEQ":"Entwicklungsstadium der Königin (Zelle) dokumentieren und jüngste Brut im Stock finden, um zu bestimmen, wann die Mutterkönigin verloren ging",
+                "SHORT_CAP":"Typ der eingesetzten Königin protokollieren",
+                "SHORT12":"Königinnenentwicklung prüfen"
+            },
+            "I2":{
+                "TITLE":"Kontrolle 2",
+                "ALL":"Sicherstellen, dass die Königinnenentwicklung wie erwartet verläuft. Alle zusätzlichen Weiselzellen entfernen, die das Volk seit Kontrolle 1 nachgezogen haben könnte."
+            },
+            "I34":{
+                "TITLE":"Kontrolle auf neue Brut",
+                "SHORT":"Auf neue Brut prüfen"
+            },
+            "I3":{
+                "TITLE":"Kontrolle 3",
+                "ALL":"Auf Eier oder Larven prüfen. Wabe mit Eiern und/oder jungen Larven einfügen, falls keine Brut gefunden wird.",
+                "SHORT":"Eier/junge Larven prüfen"
+            },
+            "I4":{
+                "TITLE":"Kontrolle 4",
+                "LINE1":"1) Auf verdeckelte Arbeiterinnenbrut prüfen. Die neue Königin ist bestätigt und der Zyklus ist abgeschlossen, falls gefunden. Keine weitere Maßnahme erforderlich",
+                "LINE2":"2) Brutlos oder nur Drohnenbrut: Erfordert Umweiselung mit einer begatteten Königin. Ein erneuter Versuch mit einer Wabe mit Eiern und jungen Larven wird aufgrund fehlender Ammenbienen im Stock nicht empfohlen.",
+                "LINE3":"3a) Offene oder verdeckelte Weiselzelle(n): Erfolgreiche Königinnenentwicklung, da die neue Königin befruchtete Eier gelegt hat. Das Volk versucht jedoch, sie zu ersetzen. Weiselzellen entfernen, wenn KEZ weniger als 35 beträgt und die Mutterkönigin gefunden wurde.",
+                "LINE4":"3b) Zelle einer geschlüpften Jungfrau oder lebende Jungfrau: Volk hat die neue Königin ersetzt",
+                "SHORT":"Auf verdeckelte Brut prüfen"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Arbeiterinnen-/Drohnenbrut",
+            "SUPERSC":"Umweiselungs-Königin",
+            "RESTART":"Zyklus-Neustart"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Legende Lebenszyklus der neuen Königin",
+            "LEGEND_ACTION":"Legende empfohlene Maßnahme",
+            "TOOLTIP":{
+                "EGG":"Ei",
+                "LARVA":"Larve",
+                "PUPA":"Puppe",
+                "UNF_VIRGIN":"unbegattete Jungfrau",
+                "FER_VIRGIN":"begattete Jungfrau",
+                "MATED":"begattete Königin",
+                "ESTABLISHED":"etabliert und stabil",
+                "STABLE":"stabil",
+                "FAILED":"fehlgeschlagen",
+                "RESTARTED":"neu gestartet",
+                "SENSITIVE":"Empfindliche Entwicklungsphase: Bienen sollten nicht von den Waben abgeschüttelt werden",
+                "DRONE_COMB":"Nur noch Drohnenbrut übrig, Gelegenheit zur Entfernung der Drohnenwabe",
+                "OAV":"Keine verdeckelte Brut, Gelegenheit zur Behandlung mit Oxalsäuredampf (OAV)",
+                "ADD_BROOD":"Keine Brut, Gelegenheit offene Brut hinzuzufügen, um das Risiko von Drohnenmütterchen zu verringern",
+                "PREDICTED":"vorhergesagt",
+                "QUEEN":"Königin",
+                "INSPECTIONS":"Kontrollen",
+                "CAUTION":"Vorsicht",
+                "OPPORTUNITY":"Gelegenheit",
+                "INSP_WINDOW":"Kontrollfenster",
+                "OPTIONAL":"optional",
+                "SENSITIVE_SHORT":"empfindliche Entwicklungsphase",
+                "DRONE_COMB_SHORT":"Drohnenwabe entfernen",
+                "OAV_SHORT":"OAV-Behandlung",
+                "ADD_BROOD_SHORT":"Brut hinzufügen"
+            }
+        },
+        "TABLE":{
+            "START":"Zyklusbeginn",
+            "COMPLETED":"Abgeschlossene Kontrollen",
+            "VALUE":"Wert",
+            "STATUS":"Status",
+            "QELD":"KELD",
+            "MQVD":"MKVD",
+            "NELD":"NELD",
+            "WARN_LENGTH":"Zyklus wird lang, Maßnahme erwägen"
+        }
     }
 }

@@ -2473,5 +2473,126 @@
         "TXT_5": "Lancez-vous et exploitez tout le potentiel de vos données apicoles !",
         "PRIVACY": "Politique de confidentialité",
         "TERMS": "Conditions d'utilisation"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Transition de colonie",
+        "QELD":"DPOR",
+        "QELD_TEXT":"Date de ponte de l'œuf de reine",
+        "MQVD":"DDRM",
+        "MQVD_TEXT":"Date de disparition de la reine mère",
+        "NELD":"DNPO",
+        "NELD_TEXT":"Date de nouvelle ponte d'œufs",
+        "W":"O",
+        "Q":"R",
+        "QDT":"TDR",
+        "QDT_TEXT":"Temps de développement de la reine (de l'œuf de reine à son premier œuf)",
+        "NOT_APPLICABLE":"s/o",
+        "STATUS":{
+            "INCOMPLETE":"Incomplet",
+            "INCOMPLETE_ID":"Échec - Données incomplètes",
+            "FAIL":"Échec",
+            "SUCCEED":"Réussi",
+            "RESTART":"Redémarrer"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Lié depuis",
+            "LINKED_TO":"Lié à",
+            "STARTED":"Cycle commencé le"
+        },
+        "DELETE":{
+            "TITLE:":"Supprimer la transition de colonie",
+            "MESSAGE":"Souhaitez-vous supprimer ce cycle ?",
+            "YES":"Oui"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"Une colonie essaime, ce qui peut être un essaim primaire ou secondaire. Il est crucial d'identifier et d'utiliser l'événement de l'essaim primaire comme début de cycle, car c'est à ce moment que la reine mère quitte la ruche.",
+            "SPLT":"L'apiculteur crée une nouvelle colonie en prélevant une partie d'une colonie saine et ayant une reine. La partie orpheline élève une nouvelle reine à partir de ses propres ressources ou reçoit une cellule royale ou une vierge vivante fournie par l'apiculteur.",
+            "REQ":"L'apiculteur remplace la reine actuelle, soit en raison de son vieillissement, soit parce que la colonie est orpheline. Si une nouvelle reine est élevée en interne, la colonie utilise ses propres ressources ; sinon, l'apiculteur introduit une nouvelle reine ou une cellule royale, notamment en cas de génétique agressive.",
+            "SEQ":"La colonie élève naturellement une nouvelle reine suite à la défaillance ou à la perte de la reine actuelle. Cela peut se produire dans le cadre du cycle de vie naturel de la colonie (supersédure) ou en réponse à une urgence.",
+            "CAP":"Un essaim capturé est enruché ou un paquet d'abeilles est installé dans une ruche. L'apiculteur vérifie que la colonie possède une reine bien fécondée."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Début du cycle"
+            },
+            "I1":{
+                "TITLE":"Inspection 1",
+                "TITLE_CAP":"Installation",
+                "SWM":"Retirer toutes les cellules royales sauf une ou deux des plus anciennes. Déterminer le stade de développement de la plus ancienne.",
+                "SPLT":"Vérifier que la division contient des œufs et des larves, une ou des cellules royales ou une reine vivante",
+                "REQ":"Fournir les ressources nécessaires pour permettre à la colonie d'élever une nouvelle reine. Il est supposé que la reine mère a été retirée lors de cette inspection. Sinon, l'âge du plus jeune couvain restant doit être évalué et documenté.",
+                "SEQ":"Documenter le stade de développement de la reine (ou de la cellule) et trouver le plus jeune couvain dans la ruche pour déterminer quand la reine mère a été perdue",
+                "SHORT_CAP":"Enregistrer le type de reine installée",
+                "SHORT12":"Vérifier le développement de la reine"
+            },
+            "I2":{
+                "TITLE":"Inspection 2",
+                "ALL":"S'assurer que le développement de la reine progresse comme prévu. Retirer toute cellule royale supplémentaire que la colonie aurait pu élever depuis l'inspection 1."
+            },
+            "I34":{
+                "TITLE":"Inspection pour nouveau couvain",
+                "SHORT":"Vérifier le nouveau couvain"
+            },
+            "I3":{
+                "TITLE":"Inspection 3",
+                "ALL":"Vérifier la présence d'œufs ou de larves. Insérer un cadre d'œufs et/ou de jeunes larves si aucun couvain n'est trouvé.",
+                "SHORT":"Vérifier œufs/jeunes larves"
+            },
+            "I4":{
+                "TITLE":"Inspection 4",
+                "LINE1":"1) Vérifier la présence de couvain d'ouvrières operculé. La nouvelle reine est confirmée et le cycle est complet si trouvé. Aucune autre action requise",
+                "LINE2":"2) Sans couvain ou couvain de mâles uniquement : nécessite un remérage avec une reine fécondée. Réessayer avec un cadre d'œufs et de jeunes larves n'est pas recommandé en raison du manque d'abeilles nourricières dans la ruche.",
+                "LINE3":"3a) Cellule(s) royale(s) ouverte(s) ou operculée(s) : développement réussi de la reine puisque la nouvelle reine a pondu des œufs fécondés. Cependant, la colonie cherche à la remplacer. Retirer les cellules royales si le TDR est inférieur à 35 et si la reine mère a été trouvée.",
+                "LINE4":"3b) Cellule de vierge émergée ou vierge vivante : la colonie a remplacé la nouvelle reine",
+                "SHORT":"Vérifier le couvain operculé"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Couvain d'ouvrières/mâles",
+            "SUPERSC":"Reine de supersédure",
+            "RESTART":"Redémarrage du cycle"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"Légende du cycle de vie de la nouvelle reine",
+            "LEGEND_ACTION":"Légende des actions recommandées",
+            "TOOLTIP":{
+                "EGG":"œuf",
+                "LARVA":"larve",
+                "PUPA":"nymphe",
+                "UNF_VIRGIN":"vierge non fécondée",
+                "FER_VIRGIN":"vierge fécondée",
+                "MATED":"reine fécondée",
+                "ESTABLISHED":"établie et stable",
+                "STABLE":"stable",
+                "FAILED":"échoué",
+                "RESTARTED":"redémarré",
+                "SENSITIVE":"Phase de développement sensible : les abeilles ne doivent pas être secouées hors des cadres",
+                "DRONE_COMB":"Seul le couvain de mâles reste, occasion de retirer le cadre à mâles",
+                "OAV":"Pas de couvain operculé, occasion de traiter à la vapeur d'acide oxalique (VAO)",
+                "ADD_BROOD":"Pas de couvain, occasion d'ajouter du couvain ouvert pour réduire le risque d'ouvrières pondeuses",
+                "PREDICTED":"prévu",
+                "QUEEN":"Reine",
+                "INSPECTIONS":"Inspections",
+                "CAUTION":"Attention",
+                "OPPORTUNITY":"Opportunité",
+                "INSP_WINDOW":"fenêtre d'inspection",
+                "OPTIONAL":"optionnel",
+                "SENSITIVE_SHORT":"phase de développement sensible",
+                "DRONE_COMB_SHORT":"retirer le cadre à mâles",
+                "OAV_SHORT":"traitement VAO",
+                "ADD_BROOD_SHORT":"ajouter du couvain"
+            }
+        },
+        "TABLE":{
+            "START":"Début du cycle",
+            "COMPLETED":"Inspections terminées",
+            "VALUE":"Valeur",
+            "STATUS":"Statut",
+            "QELD":"DPOR",
+            "MQVD":"DDRM",
+            "NELD":"DNPO",
+            "WARN_LENGTH":"Cycle devenant long, envisager une action"
+        }
     }
 }

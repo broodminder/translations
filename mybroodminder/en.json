@@ -1286,7 +1286,6 @@
                 "CONFIRM":"Make Payment"
             }
         },
-       
         "PAY": {
             "TITLE": "Payment Information",
             "RENEW_DISCLAIMER": "Auto-renewing subscription. You will be charged {{amount}} {{frequency}}.",
@@ -1982,8 +1981,7 @@
                 "REMOVE_BTN":"Remove Phone Number",
                 "AWAITING":"Awaiting confirmation, sent at ",
                 "UNCONFIRMED":"Not confirmed, messages not sent",
-                "REMOVE":
-                {
+                "REMOVE": {
                     "TITLE":"Remove Phone",
                     "MESSAGE":"Are you sure you want to remove this phone number?",
                     "CONFIRM":"Yes, remove number",
@@ -2502,7 +2500,7 @@
             "STARTED":"Cycle started on"
         },
         "DELETE":{
-            "TITLE:":"Delete Colony Transitio",
+            "TITLE:":"Delete Colony Transition",
             "MESSAGE":"Would you like to delete this cycle?",
             "YES":"Yes"
         },
