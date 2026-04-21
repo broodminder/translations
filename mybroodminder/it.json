@@ -2477,15 +2477,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Transizione della colonia",
-        "QELD":"DDUR",
+        "QELD":"QELD",
         "QELD_TEXT":"Data di deposizione dell'uovo della regina",
-        "MQVD":"DSRM",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Data di scomparsa della regina madre",
-        "NELD":"DNDU",
+        "NELD":"NELD",
         "NELD_TEXT":"Data di nuova deposizione di uova",
-        "W":"O",
-        "Q":"R",
-        "QDT":"TSR",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Tempo di sviluppo della regina (dall'uovo di regina al suo primo uovo)",
         "NOT_APPLICABLE":"n/d",
         "STATUS":{
@@ -2544,7 +2544,7 @@
                 "TITLE":"Ispezione 4",
                 "LINE1":"1) Verificare la presenza di covata opercolata di operaie. La nuova regina è confermata e il ciclo è completo se trovata. Nessuna ulteriore azione richiesta",
                 "LINE2":"2) Senza covata o solo covata di fuchi: richiede sostituzione con una regina fecondata. Non è consigliato riprovare con un telaio di uova e larve giovani a causa della mancanza di api nutrici nell'arnia.",
-                "LINE3":"3a) Cella(e) reale(i) aperta(e) o opercolata(e): sviluppo riuscito della regina poiché la nuova regina ha deposto uova fecondate. Tuttavia, la colonia sta cercando di sostituirla. Rimuovere le celle reali se il TSR è inferiore a 35 e la regina madre è stata trovata.",
+                "LINE3":"3a) Cella(e) reale(i) aperta(e) o opercolata(e): sviluppo riuscito della regina poiché la nuova regina ha deposto uova fecondate. Tuttavia, la colonia sta cercando di sostituirla. Rimuovere le celle reali se il QDT è inferiore a 35 e la regina madre è stata trovata.",
                 "LINE4":"3b) Cella di vergine emersa o vergine viva: la colonia ha sostituito la nuova regina",
                 "SHORT":"Verificare covata opercolata"
             }
@@ -2590,9 +2590,9 @@
             "COMPLETED":"Ispezioni completate",
             "VALUE":"Valore",
             "STATUS":"Stato",
-            "QELD":"DDUR",
-            "MQVD":"DSRM",
-            "NELD":"DNDU",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
+            "NELD":"NELD",
             "WARN_LENGTH":"Ciclo sta diventando lungo, considera un'azione"
         }
     }

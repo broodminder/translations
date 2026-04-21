@@ -2476,15 +2476,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Transição de colónia",
-        "QELD":"DPOR",
+        "QELD":"QELD",
         "QELD_TEXT":"Data de postura do ovo da rainha",
-        "MQVD":"DDRM",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Data de desaparecimento da rainha-mãe",
-        "NELD":"DNPO",
+        "NELD":"NELD",
         "NELD_TEXT":"Data de nova postura de ovos",
-        "W":"O",
-        "Q":"R",
-        "QDT":"TDR",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Tempo de desenvolvimento da rainha (do ovo da rainha até ao seu primeiro ovo)",
         "NOT_APPLICABLE":"n/a",
         "STATUS":{
@@ -2543,7 +2543,7 @@
                 "TITLE":"Inspeção 4",
                 "LINE1":"1) Verificar a presença de cria operculada de obreiras. A nova rainha está confirmada e o ciclo está completo se encontrada. Não é necessária mais nenhuma ação",
                 "LINE2":"2) Sem cria ou apenas cria de zângãos: requer substituição com uma rainha fecundada. Não se recomenda tentar novamente com um quadro de ovos e larvas jovens devido à falta de abelhas amas na colmeia.",
-                "LINE3":"3a) Célula(s) real(is) aberta(s) ou operculada(s): desenvolvimento bem-sucedido da rainha, pois a nova rainha pôs ovos fecundados. No entanto, a colónia está a tentar substituí-la. Remover as células reais se o TDR for inferior a 35 e a rainha-mãe tiver sido encontrada.",
+                "LINE3":"3a) Célula(s) real(is) aberta(s) ou operculada(s): desenvolvimento bem-sucedido da rainha, pois a nova rainha pôs ovos fecundados. No entanto, a colónia está a tentar substituí-la. Remover as células reais se o QDT for inferior a 35 e a rainha-mãe tiver sido encontrada.",
                 "LINE4":"3b) Célula de virgem emergida ou virgem viva: a colónia substituiu a nova rainha",
                 "SHORT":"Verificar cria operculada"
             }
@@ -2589,9 +2589,9 @@
             "COMPLETED":"Inspeções concluídas",
             "VALUE":"Valor",
             "STATUS":"Estado",
-            "QELD":"DPOR",
-            "MQVD":"DDRM",
-            "NELD":"DNPO",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
+            "NELD":"NELD",
             "WARN_LENGTH":"Ciclo a ficar longo, considere uma ação"
         }
     }

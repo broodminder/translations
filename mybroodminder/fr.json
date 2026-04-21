@@ -2476,15 +2476,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Transition de colonie",
-        "QELD":"DPOR",
+        "QELD":"QELD",
         "QELD_TEXT":"Date de ponte de l'œuf de reine",
-        "MQVD":"DDRM",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Date de disparition de la reine mère",
-        "NELD":"DNPO",
+        "NELD":"NELD",
         "NELD_TEXT":"Date de nouvelle ponte d'œufs",
-        "W":"O",
-        "Q":"R",
-        "QDT":"TDR",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Temps de développement de la reine (de l'œuf de reine à son premier œuf)",
         "NOT_APPLICABLE":"s/o",
         "STATUS":{
@@ -2543,7 +2543,7 @@
                 "TITLE":"Inspection 4",
                 "LINE1":"1) Vérifier la présence de couvain d'ouvrières operculé. La nouvelle reine est confirmée et le cycle est complet si trouvé. Aucune autre action requise",
                 "LINE2":"2) Sans couvain ou couvain de mâles uniquement : nécessite un remérage avec une reine fécondée. Réessayer avec un cadre d'œufs et de jeunes larves n'est pas recommandé en raison du manque d'abeilles nourricières dans la ruche.",
-                "LINE3":"3a) Cellule(s) royale(s) ouverte(s) ou operculée(s) : développement réussi de la reine puisque la nouvelle reine a pondu des œufs fécondés. Cependant, la colonie cherche à la remplacer. Retirer les cellules royales si le TDR est inférieur à 35 et si la reine mère a été trouvée.",
+                "LINE3":"3a) Cellule(s) royale(s) ouverte(s) ou operculée(s) : développement réussi de la reine puisque la nouvelle reine a pondu des œufs fécondés. Cependant, la colonie cherche à la remplacer. Retirer les cellules royales si le QDT est inférieur à 35 et si la reine mère a été trouvée.",
                 "LINE4":"3b) Cellule de vierge émergée ou vierge vivante : la colonie a remplacé la nouvelle reine",
                 "SHORT":"Vérifier le couvain operculé"
             }
@@ -2589,9 +2589,9 @@
             "COMPLETED":"Inspections terminées",
             "VALUE":"Valeur",
             "STATUS":"Statut",
-            "QELD":"DPOR",
-            "MQVD":"DDRM",
-            "NELD":"DNPO",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
+            "NELD":"NELD",
             "WARN_LENGTH":"Cycle devenant long, envisager une action"
         }
     }

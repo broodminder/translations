@@ -2477,15 +2477,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Volksübergang",
-        "QELD":"KELD",
+        "QELD":"QELD",
         "QELD_TEXT":"Legedatum des Königinnen-Eies",
-        "MQVD":"MKVD",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Verschwinden der Mutterkönigin",
         "NELD":"NELD",
         "NELD_TEXT":"Neues Eilage-Datum",
-        "W":"A",
-        "Q":"K",
-        "QDT":"KEZ",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Königinnen-Entwicklungszeit (vom Königinnen-Ei bis zu ihrem ersten Ei)",
         "NOT_APPLICABLE":"n/v",
         "STATUS":{
@@ -2544,7 +2544,7 @@
                 "TITLE":"Kontrolle 4",
                 "LINE1":"1) Auf verdeckelte Arbeiterinnenbrut prüfen. Die neue Königin ist bestätigt und der Zyklus ist abgeschlossen, falls gefunden. Keine weitere Maßnahme erforderlich",
                 "LINE2":"2) Brutlos oder nur Drohnenbrut: Erfordert Umweiselung mit einer begatteten Königin. Ein erneuter Versuch mit einer Wabe mit Eiern und jungen Larven wird aufgrund fehlender Ammenbienen im Stock nicht empfohlen.",
-                "LINE3":"3a) Offene oder verdeckelte Weiselzelle(n): Erfolgreiche Königinnenentwicklung, da die neue Königin befruchtete Eier gelegt hat. Das Volk versucht jedoch, sie zu ersetzen. Weiselzellen entfernen, wenn KEZ weniger als 35 beträgt und die Mutterkönigin gefunden wurde.",
+                "LINE3":"3a) Offene oder verdeckelte Weiselzelle(n): Erfolgreiche Königinnenentwicklung, da die neue Königin befruchtete Eier gelegt hat. Das Volk versucht jedoch, sie zu ersetzen. Weiselzellen entfernen, wenn QDT weniger als 35 beträgt und die Mutterkönigin gefunden wurde.",
                 "LINE4":"3b) Zelle einer geschlüpften Jungfrau oder lebende Jungfrau: Volk hat die neue Königin ersetzt",
                 "SHORT":"Auf verdeckelte Brut prüfen"
             }
@@ -2590,8 +2590,8 @@
             "COMPLETED":"Abgeschlossene Kontrollen",
             "VALUE":"Wert",
             "STATUS":"Status",
-            "QELD":"KELD",
-            "MQVD":"MKVD",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
             "NELD":"NELD",
             "WARN_LENGTH":"Zyklus wird lang, Maßnahme erwägen"
         }

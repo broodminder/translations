@@ -2477,15 +2477,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Transición de colonia",
-        "QELD":"FPHR",
+        "QELD":"QELD",
         "QELD_TEXT":"Fecha de puesta del huevo de reina",
-        "MQVD":"FDRM",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Fecha de desaparición de la reina madre",
-        "NELD":"FNPH",
+        "NELD":"NELD",
         "NELD_TEXT":"Fecha de nueva puesta de huevos",
-        "W":"O",
-        "Q":"R",
-        "QDT":"TDR",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Tiempo de desarrollo de la reina (desde el huevo de reina hasta su primer huevo)",
         "NOT_APPLICABLE":"n/d",
         "STATUS":{
@@ -2544,7 +2544,7 @@
                 "TITLE":"Inspección 4",
                 "LINE1":"1) Verificar la presencia de cría operculada de obreras. La nueva reina queda confirmada y el ciclo está completo si se encuentra. No se requieren más acciones",
                 "LINE2":"2) Sin cría o solo cría de zánganos: requiere reemplazo con una reina fecundada. No se recomienda volver a intentar con un cuadro de huevos y larvas jóvenes debido a la falta de abejas nodrizas en la colmena.",
-                "LINE3":"3a) Celda(s) real(es) abierta(s) u operculada(s): desarrollo exitoso de la reina, ya que la nueva reina ha puesto huevos fecundados. Sin embargo, la colonia intenta reemplazarla. Retirar las celdas reales si el TDR es inferior a 35 y se encontró la reina madre.",
+                "LINE3":"3a) Celda(s) real(es) abierta(s) u operculada(s): desarrollo exitoso de la reina, ya que la nueva reina ha puesto huevos fecundados. Sin embargo, la colonia intenta reemplazarla. Retirar las celdas reales si el QDT es inferior a 35 y se encontró la reina madre.",
                 "LINE4":"3b) Celda de virgen emergida o virgen viva: la colonia ha reemplazado a la nueva reina",
                 "SHORT":"Verificar cría operculada"
             }
@@ -2590,9 +2590,9 @@
             "COMPLETED":"Inspecciones completadas",
             "VALUE":"Valor",
             "STATUS":"Estado",
-            "QELD":"FPHR",
-            "MQVD":"FDRM",
-            "NELD":"FNPH",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
+            "NELD":"NELD",
             "WARN_LENGTH":"Ciclo prolongándose, considere una acción"
         }
     }

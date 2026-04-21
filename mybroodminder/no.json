@@ -2476,15 +2476,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Koloniovergang",
-        "QELD":"DLED",
+        "QELD":"QELD",
         "QELD_TEXT":"Dronningens egglegningsdato",
-        "MQVD":"MDFD",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Moderdronningens forsvinningsdato",
         "NELD":"NELD",
         "NELD_TEXT":"Ny egglegningsdato",
-        "W":"A",
-        "Q":"D",
-        "QDT":"DUT",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Dronningens utviklingstid (fra dronningegg til hennes første egg)",
         "NOT_APPLICABLE":"i.a.",
         "STATUS":{
@@ -2543,7 +2543,7 @@
                 "TITLE":"Inspeksjon 4",
                 "LINE1":"1) Sjekk for forseglet arbeidsbiyngel. Ny dronning er bekreftet og syklusen er fullført hvis funnet. Ingen videre handling kreves",
                 "LINE2":"2) Uten yngel eller kun droneyngel: Krever ny dronning med paret dronning. Å prøve igjen med en ramme med egg og unge larver anbefales ikke på grunn av mangel på ammebier i kuben.",
-                "LINE3":"3a) Åpen eller forseglet dronningcelle(r): Vellykket dronningutvikling ettersom den nye dronningen har lagt befruktede egg. Kolonien prøver imidlertid å erstatte henne. Fjern dronningceller hvis DUT er mindre enn 35 og moderdronningen ble funnet.",
+                "LINE3":"3a) Åpen eller forseglet dronningcelle(r): Vellykket dronningutvikling ettersom den nye dronningen har lagt befruktede egg. Kolonien prøver imidlertid å erstatte henne. Fjern dronningceller hvis QDT er mindre enn 35 og moderdronningen ble funnet.",
                 "LINE4":"3b) Celle av klekket jomfru eller levende jomfru: Kolonien har erstattet den nye dronningen",
                 "SHORT":"Sjekk for forseglet yngel"
             }
@@ -2589,8 +2589,8 @@
             "COMPLETED":"Fullførte inspeksjoner",
             "VALUE":"Verdi",
             "STATUS":"Status",
-            "QELD":"DLED",
-            "MQVD":"MDFD",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
             "NELD":"NELD",
             "WARN_LENGTH":"Syklusen blir lang, vurder handling"
         }

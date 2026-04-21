@@ -2476,15 +2476,15 @@
     },
     "COLONY_TRANSITION":{
         "TITLE":"Kolonie-overgang",
-        "QELD":"KELD",
+        "QELD":"QELD",
         "QELD_TEXT":"Legdatum van koninginnenei",
-        "MQVD":"MKVD",
+        "MQVD":"MQVD",
         "MQVD_TEXT":"Verdwijningsdatum moederkoningin",
         "NELD":"NELD",
         "NELD_TEXT":"Nieuwe eileggingsdatum",
         "W":"W",
-        "Q":"K",
-        "QDT":"KOT",
+        "Q":"Q",
+        "QDT":"QDT",
         "QDT_TEXT":"Koninginnenontwikkelingstijd (van koninginnenei tot haar eerste ei)",
         "NOT_APPLICABLE":"n.v.t.",
         "STATUS":{
@@ -2543,7 +2543,7 @@
                 "TITLE":"Inspectie 4",
                 "LINE1":"1) Controleer op gesloten werksterbroed. De nieuwe koningin is bevestigd en de cyclus is voltooid indien gevonden. Geen verdere actie nodig",
                 "LINE2":"2) Broedloos of alleen darrenbroed: Vereist herbeqoeninging met een bevruchte koningin. Het opnieuw proberen met een raam eitjes en jonge larven wordt niet aanbevolen vanwege het gebrek aan voedsterbijen in de kast.",
-                "LINE3":"3a) Open of gesloten moerdop(pen): Succesvolle koninginnenontwikkeling aangezien de nieuwe koningin bevruchte eitjes heeft gelegd. De kolonie probeert haar echter te vervangen. Verwijder moerdoppen als KOT minder dan 35 is en moederkoningin gevonden is.",
+                "LINE3":"3a) Open of gesloten moerdop(pen): Succesvolle koninginnenontwikkeling aangezien de nieuwe koningin bevruchte eitjes heeft gelegd. De kolonie probeert haar echter te vervangen. Verwijder moerdoppen als QDT minder dan 35 is en moederkoningin gevonden is.",
                 "LINE4":"3b) Dop van uitgelopen maagd of levende maagd: kolonie heeft nieuwe koningin vervangen",
                 "SHORT":"Controleer op gesloten broed"
             }
@@ -2589,8 +2589,8 @@
             "COMPLETED":"Voltooide inspecties",
             "VALUE":"Waarde",
             "STATUS":"Status",
-            "QELD":"KELD",
-            "MQVD":"MKVD",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
             "NELD":"NELD",
             "WARN_LENGTH":"Cyclus wordt lang, overweeg actie"
         }
