@@ -2475,5 +2475,126 @@
         "TXT_5":"Get started and make the most of your beekeeping data!",
         "PRIVACY":"Privacy Policy",
         "TERMS":"Terms of Use"
+    },
+    "COLONY_TRANSITION":{
+        "TITLE":"Colony Transition",
+        "QELD":"QELD",
+        "QELD_TEXT":"Queen egg lay date",
+        "MQVD":"MQVD",
+        "MQVD_TEXT":"Mother queen vanished date",
+        "NELD":"NELD",
+        "NELD_TEXT":"New egg lay date",
+        "W":"W",
+        "Q":"Q",
+        "QDT":"QDT",
+        "QDT_TEXT":"Queen Development time (from queen egg to her first egg)",
+        "NOT_APPLICABLE":"n/a",
+        "STATUS":{
+            "INCOMPLETE":"Incomplete",
+            "INCOMPLETE_ID":"Failed - Incomplete data",
+            "FAIL":"Fail",
+            "SUCCEED":"Succeed",
+            "RESTART":"Restart"
+        },
+        "CREATE_UPDATE":{
+            "LINKED_FROM":"Linked from",
+            "LINKED_TO":"Linked to",
+            "STARTED":"Cycle started on"
+        },
+        "DELETE":{
+            "TITLE:":"Delete Colony Transitio",
+            "MESSAGE":"Would you like to delete this cycle?",
+            "YES":"Yes"
+        },
+        "CYCLE_DESCR":
+        {
+            "SWM":"A colony swarms, which can either be a primary or afterswarm. It's crucial to identify and use the primary swarm event for cycle start as this is the event when the mother queen leaves the hive.",
+            "SPLT":"The beekeeper creates a new colony by splitting off a portion from a queenright, healthy colony. The queenless portion either raises a new queen from its own resources or is provided with a queen cell or live virgin by the beekeeper.",
+            "REQ":"The beekeeper replaces the current queen, either due to aging or because the colony is queenless. If a new queen is raised from within, the colony uses its own resources; otherwise, the beekeeper introduces a new queen or queen cell, especially in cases like aggressive genetics.",
+            "SEQ":"The colony raises a new queen naturally due to the failure or loss of the current queen. This can happen as part of the colony’s natural lifecycle (supersedure) or in response to an emergency.",
+            "CAP":"A captured swarm is hived or a package of bees is installed into a hive. The beekeeper verifies that the colony has a well-mated queen."
+        },
+        "INSP_DESCRIPTION":{
+            "I0":{
+                "TITLE":"Cycle Start"
+            },
+            "I1":{
+                "TITLE":"Inspection 1",
+                "TITLE_CAP":"Installation",
+                "SWM":"Remove all but one or two of the oldest queen cells. Determine the development stage of the oldest one.",
+                "SPLT":"Ensure that split has eggs and larvae, queen cell(s) or live queen",
+                "REQ":"Provide resources to enable colony to raise new queen. It is assumed that the mother queen was removed during this inspection. If not then age of youngest brood left needs to be assessed and documented.",
+                "SEQ":"Document queen (cell) development stage and find youngest brood in the hive to determine when the mother queen was lost",
+                "SHORT_CAP":"Log type of queen installed",
+                "SHORT12":"Check queen development"
+            },
+            "I2":{
+                "TITLE":"Inspection 2",
+                "ALL":"Ensure that queen development is progressing as expected. Remove any additional queen cells the colony may have raised since inspection 1."
+            },
+            "I34":{
+                "TITLE":"Inspection for New Brood",
+                "SHORT":"Check for new brood"
+            },
+            "I3":{
+                "TITLE":"Inspection 3",
+                "ALL":"Check for eggs or larvae. Insert frame of eggs and/or young larvae if no brood is found.",
+                "SHORT":"Check for eggs/young larvae"
+            },
+            "I4":{
+                "TITLE":"Inspection 4",
+                "LINE1":"1) Check for capped worker brood. New queen is confirmed and cycle is complete if found. No further action required",
+                "LINE2":"2) Broodless or drone brood only:  Requires requeening with a mated queen. Trying again with a frame of eggs and young larvae is not recommended due to the lack of nurse bees in the hive.",
+                "LINE3":"3a) Open or capped queen cell(s): Successful queen development as the new queen has laid fertilized eggs. However, the colony is trying to replace her. Remove queen cells if QDT is less than 35 and mother queen was found.",
+                "LINE4":"3b) Cell of emerged virgin or live virgin: Colony has replaced new queen",
+                "SHORT":"Check for capped brood"
+            }
+        },
+        "TAG_HEADER":{
+            "BROOD":"Worker/Drone Brood",
+            "SUPERSC":"Supersedure Queen",
+            "RESTART":"Cycle Restart"
+        },
+        "CAL":{
+            "LEGEND_NEWQUEEN":"New queen lifecycle legend",
+            "LEGEND_ACTION":"Recommended action legend",
+            "TOOLTIP":{
+                "EGG":"egg",
+                "LARVA":"larva",
+                "PUPA":"pupa",
+                "UNF_VIRGIN":"unfertile virgin",
+                "FER_VIRGIN":"fertile virgin",
+                "MATED":"mated queen",
+                "ESTABLISHED":"established and stable",
+                "STABLE":"stable",
+                "FAILED":"failed",
+                "RESTARTED":"restarted",
+                "SENSITIVE":"Sensitive development phase: bees should not be shaken off frames",
+                "DRONE_COMB":"Only drone brood left, opportunity to remove Drone Comb",
+                "OAV":"No capped brood, opportunity to treat with Oxalic Acid Vapor (OAV)",
+                "ADD_BROOD":"No brood, opportunity to add open brood to decrease chance for laying workers",
+                "PREDICTED":"predicted",
+                "QUEEN":"Queen",
+                "INSPECTIONS":"Inspections",
+                "CAUTION":"Caution",
+                "OPPORTUNITY":"Opportunity",
+                "INSP_WINDOW":"inspection window",
+                "OPTIONAL":"optional",
+                "SENSITIVE_SHORT":"sensitive development phase",
+                "DRONE_COMB_SHORT":"remove drone comb",
+                "OAV_SHORT":"oav treatment",
+                "ADD_BROOD_SHORT":"add brood"
+            }
+        },
+        "TABLE":{
+            "START":"Cycle Start",
+            "COMPLETED":"Inspections Completed",
+            "VALUE":"Value",
+            "STATUS":"Status",
+            "QELD":"QELD",
+            "MQVD":"MQVD",
+            "NELD":"NELD",
+            "WARN_LENGTH":"Cycle getting long, consider action"
+        }
     }
 }
