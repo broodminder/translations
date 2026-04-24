@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Nota creada",
         "SUCCESS_UPDATED": "Nota actualizada",
         "ERROR_TIME": "Fecha incorrecta",
+        "SHOW_MORE_TAGS":"Mostrar más etiquetas",
         "APIARY": {
             "STATE": "Estado General"
         }
@@ -2503,7 +2504,26 @@
         "DELETE":{
             "TITLE:":"Eliminar transición de colonia",
             "MESSAGE":"¿Desea eliminar este ciclo?",
-            "YES":"Sí"
+            "CONFIRM":"Sí"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspección para transición de colonia",
+            "PROMPT":"Esta colmena está en transición de colonia, iniciada el",
+            "QUESTION":". ¿Desea añadir una inspección de transición de colonia?",
+            "YES":"Sí",
+            "NO":"No"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Fase de desarrollo de la celda real MÁS ANTIGUA dejada en la colmena.",
+            "I1_SPLT":"Fase de desarrollo del recurso de cría de reina MÁS ANTIGUO dejado en la colmena.",
+            "I1_REQ_TAG1":"Fase de desarrollo de la celda real o reina MÁS ANTIGUA que está añadiendo a la colmena.",
+            "I1_REQ_TAG2":"Si la colmena estaba huérfana: fase de desarrollo de la cría MÁS JOVEN dejada en la colmena.",
+            "I1_SEQ_TAG1":"Fase de desarrollo de la celda real o reina MÁS ANTIGUA dejada en la colmena.",
+            "I1_SEQ_TAG2":"Fase de desarrollo de la cría MÁS JOVEN dejada en la colmena.",
+            "I2_ALL":"Fase de desarrollo del recurso de cría de reina MÁS ANTIGUO dejado en la colmena durante la inspección 1.",
+            "I3_ALL":"Fase de desarrollo de la cría nueva MÁS ANTIGUA. Omita la entrada de datos aquí e introduzca los datos en la inspección 4 si se encuentra cría operculada o la colonia enjambró.",
+            "I34_ALL":"Fase de desarrollo de la cría nueva MÁS ANTIGUA",
+            "I4_ALL":"Transición de colonia - Observaciones"
         },
         "CYCLE_DESCR":
         {
@@ -2555,6 +2575,7 @@
             "RESTART":"Reinicio de ciclo"
         },
         "CAL":{
+            "TITLE":"Calendario de transición de colonia",
             "LEGEND_NEWQUEEN":"Leyenda del ciclo de vida de la nueva reina",
             "LEGEND_ACTION":"Leyenda de acciones recomendadas",
             "TOOLTIP":{
@@ -2582,7 +2603,8 @@
                 "SENSITIVE_SHORT":"fase de desarrollo sensible",
                 "DRONE_COMB_SHORT":"retirar panal de zánganos",
                 "OAV_SHORT":"tratamiento VAO",
-                "ADD_BROOD_SHORT":"añadir cría"
+                "ADD_BROOD_SHORT":"añadir cría",
+                "VIEW_DATE_RANGE":"Ver rango de fechas pertinente"
             }
         },
         "TABLE":{

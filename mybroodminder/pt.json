@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Nota criada na colmeia",
         "SUCCESS_UPDATED": "Nota atualizada na colmeia",
         "ERROR_TIME": "Tempo inválido",
+        "SHOW_MORE_TAGS":"Mostrar mais etiquetas",
         "APIARY": {
             "STATE": "Estado Geral"
         }
@@ -2502,7 +2503,26 @@
         "DELETE":{
             "TITLE:":"Eliminar transição de colónia",
             "MESSAGE":"Deseja eliminar este ciclo?",
-            "YES":"Sim"
+            "CONFIRM":"Sim"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspeção para transição de colónia",
+            "PROMPT":"Esta colmeia está em transição de colónia, iniciada em",
+            "QUESTION":". Deseja adicionar uma inspeção de transição de colónia?",
+            "YES":"Sim",
+            "NO":"Não"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Fase de desenvolvimento da célula real MAIS ANTIGA deixada na colmeia.",
+            "I1_SPLT":"Fase de desenvolvimento do recurso de criação de rainha MAIS ANTIGO deixado na colmeia.",
+            "I1_REQ_TAG1":"Fase de desenvolvimento da célula real ou rainha MAIS ANTIGA que está a adicionar à colmeia.",
+            "I1_REQ_TAG2":"Se a colmeia estava órfã: fase de desenvolvimento da cria MAIS JOVEM deixada na colmeia.",
+            "I1_SEQ_TAG1":"Fase de desenvolvimento da célula real ou rainha MAIS ANTIGA deixada na colmeia.",
+            "I1_SEQ_TAG2":"Fase de desenvolvimento da cria MAIS JOVEM deixada na colmeia.",
+            "I2_ALL":"Fase de desenvolvimento do recurso de criação de rainha MAIS ANTIGO deixado na colmeia durante a inspeção 1.",
+            "I3_ALL":"Fase de desenvolvimento da cria nova MAIS ANTIGA. Ignore a introdução de dados aqui e introduza os dados na inspeção 4 se for encontrada cria operculada ou se a colónia enxameou.",
+            "I34_ALL":"Fase de desenvolvimento da cria nova MAIS ANTIGA",
+            "I4_ALL":"Transição de colónia - Observações"
         },
         "CYCLE_DESCR":
         {
@@ -2554,6 +2574,7 @@
             "RESTART":"Reinício de ciclo"
         },
         "CAL":{
+            "TITLE":"Calendário de transição de colónia",
             "LEGEND_NEWQUEEN":"Legenda do ciclo de vida da nova rainha",
             "LEGEND_ACTION":"Legenda das ações recomendadas",
             "TOOLTIP":{
@@ -2581,7 +2602,8 @@
                 "SENSITIVE_SHORT":"fase de desenvolvimento sensível",
                 "DRONE_COMB_SHORT":"remover favo de zângãos",
                 "OAV_SHORT":"tratamento VAO",
-                "ADD_BROOD_SHORT":"adicionar cria"
+                "ADD_BROOD_SHORT":"adicionar cria",
+                "VIEW_DATE_RANGE":"Ver intervalo de datas pertinente"
             }
         },
         "TABLE":{

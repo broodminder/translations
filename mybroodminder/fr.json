@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Note de ruche créée",
         "SUCCESS_UPDATED": "Note de ruche mise à jour",
         "ERROR_TIME": "Date non valide",
+        "SHOW_MORE_TAGS":"Afficher plus d'étiquettes",
         "APIARY": {
             "STATE": "Etat général"
         }
@@ -2502,7 +2503,26 @@
         "DELETE":{
             "TITLE:":"Supprimer la transition de colonie",
             "MESSAGE":"Souhaitez-vous supprimer ce cycle ?",
-            "YES":"Oui"
+            "CONFIRM":"Oui"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspection pour transition de colonie",
+            "PROMPT":"Cette ruche est en transition de colonie, commencée le",
+            "QUESTION":". Souhaitez-vous ajouter une inspection de transition de colonie ?",
+            "YES":"Oui",
+            "NO":"Non"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Stade de développement de la PLUS ANCIENNE cellule royale laissée dans la ruche.",
+            "I1_SPLT":"Stade de développement de la PLUS ANCIENNE ressource d'élevage de reine laissée dans la ruche.",
+            "I1_REQ_TAG1":"Stade de développement de la PLUS ANCIENNE cellule royale ou reine que vous ajoutez à la ruche.",
+            "I1_REQ_TAG2":"Si la ruche était orpheline : stade de développement du PLUS JEUNE couvain laissé dans la ruche.",
+            "I1_SEQ_TAG1":"Stade de développement de la PLUS ANCIENNE cellule royale ou reine laissée dans la ruche.",
+            "I1_SEQ_TAG2":"Stade de développement du PLUS JEUNE couvain laissé dans la ruche.",
+            "I2_ALL":"Stade de développement de la PLUS ANCIENNE ressource d'élevage de reine laissée dans la ruche lors de l'inspection 1.",
+            "I3_ALL":"Stade de développement du PLUS ANCIEN nouveau couvain. Ignorez la saisie ici et saisissez les données à l'inspection 4 si du couvain operculé est trouvé ou si la colonie a essaimé.",
+            "I34_ALL":"Stade de développement du PLUS ANCIEN nouveau couvain",
+            "I4_ALL":"Transition de colonie - Observations"
         },
         "CYCLE_DESCR":
         {
@@ -2554,6 +2574,7 @@
             "RESTART":"Redémarrage du cycle"
         },
         "CAL":{
+            "TITLE":"Calendrier de transition de colonie",
             "LEGEND_NEWQUEEN":"Légende du cycle de vie de la nouvelle reine",
             "LEGEND_ACTION":"Légende des actions recommandées",
             "TOOLTIP":{
@@ -2581,7 +2602,8 @@
                 "SENSITIVE_SHORT":"phase de développement sensible",
                 "DRONE_COMB_SHORT":"retirer le cadre à mâles",
                 "OAV_SHORT":"traitement VAO",
-                "ADD_BROOD_SHORT":"ajouter du couvain"
+                "ADD_BROOD_SHORT":"ajouter du couvain",
+                "VIEW_DATE_RANGE":"Voir la plage de dates pertinente"
             }
         },
         "TABLE":{

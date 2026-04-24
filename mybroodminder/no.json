@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Merknad opprettet i kube",
         "SUCCESS_UPDATED": "Merknad oppdatert i kube",
         "ERROR_TIME": "Ugyldig tid",
+        "SHOW_MORE_TAGS":"Vis flere tagger",
         "APIARY": {
             "STATE": "Generell tilstand"
         }
@@ -2502,7 +2503,26 @@
         "DELETE":{
             "TITLE:":"Slett koloniovergang",
             "MESSAGE":"Vil du slette denne syklusen?",
-            "YES":"Ja"
+            "CONFIRM":"Ja"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspeksjon for koloniovergang",
+            "PROMPT":"Denne kuben er i en koloniovergang, startet",
+            "QUESTION":". Vil du legge til en koloniovergangsinspeksjon?",
+            "YES":"Ja",
+            "NO":"Nei"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Utviklingsstadium for den ELDSTE dronningcellen som er igjen i kuben.",
+            "I1_SPLT":"Utviklingsstadium for den ELDSTE dronningsoppdrettsressursen som er igjen i kuben.",
+            "I1_REQ_TAG1":"Utviklingsstadium for den ELDSTE dronningcellen eller dronningen du tilsetter kuben.",
+            "I1_REQ_TAG2":"Hvis kuben var dronningløs: utviklingsstadium for den YNGSTE yngelen som er igjen i kuben.",
+            "I1_SEQ_TAG1":"Utviklingsstadium for den ELDSTE dronningcellen eller dronningen som er igjen i kuben.",
+            "I1_SEQ_TAG2":"Utviklingsstadium for den YNGSTE yngelen som er igjen i kuben.",
+            "I2_ALL":"Utviklingsstadium for den ELDSTE dronningsoppdrettsressursen som ble igjen i kuben under inspeksjon 1.",
+            "I3_ALL":"Utviklingsstadium for den ELDSTE nye yngelen. Hopp over dataregistrering her og registrer data i inspeksjon 4 hvis forseglet yngel er funnet eller kolonien har sverget.",
+            "I34_ALL":"Utviklingsstadium for den ELDSTE nye yngelen",
+            "I4_ALL":"Koloniovergang - Observasjoner"
         },
         "CYCLE_DESCR":
         {
@@ -2554,6 +2574,7 @@
             "RESTART":"Syklus-omstart"
         },
         "CAL":{
+            "TITLE":"Koloniovergangskalender",
             "LEGEND_NEWQUEEN":"Tegnforklaring for ny dronnings livssyklus",
             "LEGEND_ACTION":"Tegnforklaring for anbefalt handling",
             "TOOLTIP":{
@@ -2581,7 +2602,8 @@
                 "SENSITIVE_SHORT":"sensitiv utviklingsfase",
                 "DRONE_COMB_SHORT":"fjern dronetavle",
                 "OAV_SHORT":"oav-behandling",
-                "ADD_BROOD_SHORT":"tilsett yngel"
+                "ADD_BROOD_SHORT":"tilsett yngel",
+                "VIEW_DATE_RANGE":"Vis relevant datointervall"
             }
         },
         "TABLE":{

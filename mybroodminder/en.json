@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Note created in hive",
         "SUCCESS_UPDATED": "Note updated in hive",
         "ERROR_TIME": "Invalid time",
+        "SHOW_MORE_TAGS": "Show more tags",
         "APIARY":{
             "STATE":"General State"
         }
@@ -2502,7 +2503,26 @@
         "DELETE":{
             "TITLE:":"Delete Colony Transition",
             "MESSAGE":"Would you like to delete this cycle?",
-            "YES":"Yes"
+            "CONFIRM":"Yes"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspection for Colony Transition",
+            "PROMPT":"This hive is in a colony transition, started on",
+            "QUESTION":". Would you like to add a colony transition inspection?",
+            "YES":"Yes",
+            "NO":"No"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Development stage of the OLDEST queen cell left in the hive.",
+            "I1_SPLT":"Development Stage of the OLDEST queen rearing resource left in the hive.",
+            "I1_REQ_TAG1":"Development stage of the OLDEST queen cell or queen you are adding to the hive.",
+            "I1_REQ_TAG2":"If hive was queenless: Development stage of YOUNGEST brood left in the hive.",
+            "I1_SEQ_TAG1":"Development stage of the OLDEST queen cell or queen left in the hive.",
+            "I1_SEQ_TAG2":"Development stage of YOUNGEST brood left in the hive.",
+            "I2_ALL":"Development Stage of OLDEST queen rearing resource left in the hive during inspection 1.",
+            "I3_ALL":"Development stage of OLDEST new brood. Skip data entry here and enter data in inspection 4 if capped brood is found or colony swarmed.",
+            "I34_ALL":"Development stage of OLDEST new brood",
+            "I4_ALL":"Colony Transition - Observations"
         },
         "CYCLE_DESCR":
         {
@@ -2581,7 +2601,8 @@
                 "SENSITIVE_SHORT":"sensitive development phase",
                 "DRONE_COMB_SHORT":"remove drone comb",
                 "OAV_SHORT":"oav treatment",
-                "ADD_BROOD_SHORT":"add brood"
+                "ADD_BROOD_SHORT":"add brood",
+                "VIEW_DATE_RANGE":"View pertinent date range"
             }
         },
         "TABLE":{

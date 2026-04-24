@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Notitie aangemaakt voor bijenkast",
         "SUCCESS_UPDATED": "Notitie bijgewerkt voor bijenkast",
         "ERROR_TIME": "Ongeldige tijd",
+        "SHOW_MORE_TAGS":"Meer tags tonen",
         "APIARY": {
             "STATE": "General State"
         }
@@ -2502,7 +2503,26 @@
         "DELETE":{
             "TITLE:":"Kolonie-overgang verwijderen",
             "MESSAGE":"Wilt u deze cyclus verwijderen?",
-            "YES":"Ja"
+            "CONFIRM":"Ja"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspectie voor kolonie-overgang",
+            "PROMPT":"Deze kast bevindt zich in een kolonie-overgang, begonnen op",
+            "QUESTION":". Wilt u een kolonie-overgangsinspectie toevoegen?",
+            "YES":"Ja",
+            "NO":"Nee"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Ontwikkelingsstadium van de OUDSTE moerdop die in de kast is achtergelaten.",
+            "I1_SPLT":"Ontwikkelingsstadium van de OUDSTE koninginnenkweekbron die in de kast is achtergelaten.",
+            "I1_REQ_TAG1":"Ontwikkelingsstadium van de OUDSTE moerdop of koningin die u aan de kast toevoegt.",
+            "I1_REQ_TAG2":"Als de kast koninginloos was: ontwikkelingsstadium van het JONGSTE broed dat in de kast is achtergelaten.",
+            "I1_SEQ_TAG1":"Ontwikkelingsstadium van de OUDSTE moerdop of koningin die in de kast is achtergelaten.",
+            "I1_SEQ_TAG2":"Ontwikkelingsstadium van het JONGSTE broed dat in de kast is achtergelaten.",
+            "I2_ALL":"Ontwikkelingsstadium van de OUDSTE koninginnenkweekbron die tijdens inspectie 1 in de kast is achtergelaten.",
+            "I3_ALL":"Ontwikkelingsstadium van het OUDSTE nieuwe broed. Sla de gegevensinvoer hier over en voer gegevens in bij inspectie 4 als gesloten broed wordt gevonden of de kolonie is gezwermd.",
+            "I34_ALL":"Ontwikkelingsstadium van het OUDSTE nieuwe broed",
+            "I4_ALL":"Kolonie-overgang - Waarnemingen"
         },
         "CYCLE_DESCR":
         {
@@ -2554,6 +2574,7 @@
             "RESTART":"Cyclus herstart"
         },
         "CAL":{
+            "TITLE":"Kolonie-overgangskalender",
             "LEGEND_NEWQUEEN":"Legenda levenscyclus nieuwe koningin",
             "LEGEND_ACTION":"Legenda aanbevolen actie",
             "TOOLTIP":{
@@ -2581,7 +2602,8 @@
                 "SENSITIVE_SHORT":"gevoelige ontwikkelingsfase",
                 "DRONE_COMB_SHORT":"darrenraat verwijderen",
                 "OAV_SHORT":"oav-behandeling",
-                "ADD_BROOD_SHORT":"broed toevoegen"
+                "ADD_BROOD_SHORT":"broed toevoegen",
+                "VIEW_DATE_RANGE":"Relevante datumbereik bekijken"
             }
         },
         "TABLE":{

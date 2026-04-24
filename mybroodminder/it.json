@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Nota creata nell'alveare",
         "SUCCESS_UPDATED": "Nota aggiornata nell'alveare",
         "ERROR_TIME": "Ora non valida",
+        "SHOW_MORE_TAGS":"Mostra più tag",
         "APIARY": {
             "STATE": "Stato Generale"
         }
@@ -2505,6 +2506,25 @@
             "MESSAGE":"Vuoi eliminare questo ciclo?",
             "YES":"Sì"
         },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Ispezione per transizione della colonia",
+            "PROMPT":"Questa arnia è in transizione di colonia, iniziata il",
+            "QUESTION":". Vuoi aggiungere un'ispezione di transizione della colonia?",
+            "YES":"Sì",
+            "NO":"No"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Fase di sviluppo della cella reale PIÙ VECCHIA lasciata nell'arnia.",
+            "I1_SPLT":"Fase di sviluppo della risorsa di allevamento della regina PIÙ VECCHIA lasciata nell'arnia.",
+            "I1_REQ_TAG1":"Fase di sviluppo della cella reale o regina PIÙ VECCHIA che stai aggiungendo all'arnia.",
+            "I1_REQ_TAG2":"Se l'arnia era orfana: fase di sviluppo della covata PIÙ GIOVANE lasciata nell'arnia.",
+            "I1_SEQ_TAG1":"Fase di sviluppo della cella reale o regina PIÙ VECCHIA lasciata nell'arnia.",
+            "I1_SEQ_TAG2":"Fase di sviluppo della covata PIÙ GIOVANE lasciata nell'arnia.",
+            "I2_ALL":"Fase di sviluppo della risorsa di allevamento della regina PIÙ VECCHIA lasciata nell'arnia durante l'ispezione 1.",
+            "I3_ALL":"Fase di sviluppo della nuova covata PIÙ VECCHIA. Salta l'inserimento dei dati qui e inserisci i dati nell'ispezione 4 se viene trovata covata opercolata o la colonia ha sciamato.",
+            "I34_ALL":"Fase di sviluppo della nuova covata PIÙ VECCHIA",
+            "I4_ALL":"Transizione della colonia - Osservazioni"
+        },
         "CYCLE_DESCR":
         {
             "SWM":"Una colonia sciama, il che può essere uno sciame primario o secondario. È fondamentale identificare e utilizzare l'evento dello sciame primario come inizio del ciclo, poiché è il momento in cui la regina madre lascia l'arnia.",
@@ -2555,6 +2575,7 @@
             "RESTART":"Riavvio del ciclo"
         },
         "CAL":{
+            "TITLE":"Calendario di transizione della colonia",
             "LEGEND_NEWQUEEN":"Legenda del ciclo vitale della nuova regina",
             "LEGEND_ACTION":"Legenda delle azioni consigliate",
             "TOOLTIP":{
@@ -2582,7 +2603,8 @@
                 "SENSITIVE_SHORT":"fase di sviluppo sensibile",
                 "DRONE_COMB_SHORT":"rimuovere favo da fuchi",
                 "OAV_SHORT":"trattamento VAO",
-                "ADD_BROOD_SHORT":"aggiungere covata"
+                "ADD_BROOD_SHORT":"aggiungere covata",
+                "VIEW_DATE_RANGE":"Visualizza intervallo di date pertinente"
             }
         },
         "TABLE":{

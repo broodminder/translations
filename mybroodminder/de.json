@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Notiz in Beute erstellt",
         "SUCCESS_UPDATED": "Notiz in Beute aktualisiert",
         "ERROR_TIME": "Ungültige Zeit",
+        "SHOW_MORE_TAGS":"Weitere Tags anzeigen",
         "APIARY": {
             "STATE": "Allgemeiner Zustand"
         }
@@ -2503,7 +2504,26 @@
         "DELETE":{
             "TITLE:":"Volksübergang löschen",
             "MESSAGE":"Möchten Sie diesen Zyklus löschen?",
-            "YES":"Ja"
+            "CONFIRM":"Ja"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Kontrolle für Volksübergang",
+            "PROMPT":"Dieser Stock befindet sich in einem Volksübergang, begonnen am",
+            "QUESTION":". Möchten Sie eine Volksübergangskontrolle hinzufügen?",
+            "YES":"Ja",
+            "NO":"Nein"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle.",
+            "I1_SPLT":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Königinnenaufzuchtsressource.",
+            "I1_REQ_TAG1":"Entwicklungsstadium der ÄLTESTEN Weiselzelle oder Königin, die Sie dem Stock hinzufügen.",
+            "I1_REQ_TAG2":"Falls der Stock weisellos war: Entwicklungsstadium der JÜNGSTEN im Stock verbliebenen Brut.",
+            "I1_SEQ_TAG1":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle oder Königin.",
+            "I1_SEQ_TAG2":"Entwicklungsstadium der JÜNGSTEN im Stock verbliebenen Brut.",
+            "I2_ALL":"Entwicklungsstadium der ÄLTESTEN bei Kontrolle 1 im Stock verbliebenen Königinnenaufzuchtsressource.",
+            "I3_ALL":"Entwicklungsstadium der ÄLTESTEN neuen Brut. Überspringen Sie die Dateneingabe hier und geben Sie die Daten bei Kontrolle 4 ein, falls verdeckelte Brut gefunden wird oder das Volk geschwärmt ist.",
+            "I34_ALL":"Entwicklungsstadium der ÄLTESTEN neuen Brut",
+            "I4_ALL":"Volksübergang - Beobachtungen"
         },
         "CYCLE_DESCR":
         {
@@ -2555,6 +2575,7 @@
             "RESTART":"Zyklus-Neustart"
         },
         "CAL":{
+            "TITLE":"Volksübergangskalender",
             "LEGEND_NEWQUEEN":"Legende Lebenszyklus der neuen Königin",
             "LEGEND_ACTION":"Legende empfohlene Maßnahme",
             "TOOLTIP":{
@@ -2582,7 +2603,8 @@
                 "SENSITIVE_SHORT":"empfindliche Entwicklungsphase",
                 "DRONE_COMB_SHORT":"Drohnenwabe entfernen",
                 "OAV_SHORT":"OAV-Behandlung",
-                "ADD_BROOD_SHORT":"Brut hinzufügen"
+                "ADD_BROOD_SHORT":"Brut hinzufügen",
+                "VIEW_DATE_RANGE":"Relevanten Datumsbereich anzeigen"
             }
         },
         "TABLE":{
