@@ -93,6 +93,9 @@
 	<data name="COMMON_COPIED">
 		<value>Copied to Clipboard</value>
 	</data>
+	<data name="COMMON_NOT_APPICABLE">
+		<value>n/a</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Account</value>
 	</data>
@@ -2139,9 +2142,6 @@
 	<data name="INSP_T_QUEENCELLSEEN">
 		<value>Queen cell seen</value>
 	</data>
-	<data name="INSP_T_QUEENCELLSEEN">
-		<value>Queen cell seen</value>
-	</data>
 	<data name="INSP_T_YOUNGLARVA">
 		<value>Young larvae</value>
 	</data>
@@ -2199,7 +2199,6 @@
 	<data name="INSP_T_INSTALLEDPRIMARYSWARM">
 		<value>Installed primary swarm (mated queen)</value>
 	</data>
-        "":""
 	<data name="INSP_T_INSTALLEDSECONDARYSWARM">
 		<value>Installed secondary swarm (fertile virgin)</value>
 	</data>
@@ -2437,6 +2436,12 @@
 	<data name="ADDI_NOTE_HIVE">
 		<value>Add Hive Note</value>
     </data>
+	<data name="ADDI_NOTE_CT">
+		<value>Continue Transition</value>
+	</data>
+	<data name="ADDI_NOTE_OBS">
+		<value>Add Plant Observation</value>
+	</data>
 	<data name="CU_NOTE_TITLE_U">
 		<value>Edit {0} Note</value>
     </data>
@@ -2943,5 +2948,131 @@
 	</data>
 	<data name="CT_TAGS_SUB_RESTART">
 		<value>Cycle Restart</value>
+	</data>
+	<data name="CT_CE_TITLE">
+		<value>Colony Transition</value>
+	</data>
+	<data name="CT_STATUS_INCOMPLETE">
+		<value>Incomplete</value>
+	</data>
+	<data name="CT_STATUS_COMPLETE">
+		<value>Complete</value>
+	</data>
+	<data name="CT_STATUS_RESTARTED">
+		<value>Restarted</value>
+	</data>
+	<data name="CT_STATUS_FAILED">
+		<value>Failed</value>
+	</data>
+	<data name="CT_STATUS_FAILED_INC_DATA">
+		<value>Failed - Incomplete data</value>
+	</data>
+	<data name="CT_CE_RESTART_TITLE">
+		<value>Continue to a linked cycle</value>
+	</data>
+	<data name="CT_CE_RESTART_MSG">
+		<value>A swarm or requeen ends this cycle and starts a new one. Do you want to start a new cycle now?</value>
+	</data>
+	<data name="CT_CE_RESTART_CONFIRM">
+		<value>Yes</value>
+	</data>
+	<data name="CT_CE_RESTART_CANCEL">
+		<value>Cancel</value>
+	</data>
+	<data name="CT_CE_I0_TITLE">
+		<value>Cycle Start</value>
+	</data>
+	<data name="CT_CE_I1_TITLE">
+		<value>Inspection 1</value>
+	</data>
+	<data name="CT_CE_I1_CAPTITLE">
+		<value>Installation</value>
+	</data>
+	<data name="CT_CE_I2_TITLE">
+		<value>Inspection 2</value>
+	</data>
+	<data name="CT_CE_I3_TITLE">
+		<value>Inspection 3</value>
+	</data>
+	<data name="CT_CE_I34_TITLE">
+		<value>Inspection for New Brood</value>
+	</data>
+	<data name="CT_CE_I4_TITLE">
+		<value>Inspection 4</value>
+	</data>
+	<data name="CT_CE_I1_SHORTDESC_CAP">
+		<value>Log type of queen installed</value>
+	</data>
+	<data name="CT_CE_I12_SHORTDESC">
+		<value>Check queen development</value>
+	</data>
+	<data name="CT_CE_I3_SHORTDESC">
+		<value>Check for eggs/young larvae</value>
+	</data>
+	<data name="CT_CE_I34_SHORTDESC">
+		<value>Check for new brood</value>
+	</data>
+	<data name="CT_CE_I4_SHORTDESC">
+		<value>Check for capped brood</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SWM">
+		<value>Remove all but one or two of the oldest queen cells. Determine the development stage of the oldest one.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SPLT">
+		<value>Ensure that split has eggs and larvae, queen cell(s) or live queen</value>
+	</data>
+	<data name="CT_CE_I1_DESC_REQ">
+		<value>Provide resources to enable colony to raise new queen. It is assumed that the mother queen was removed during this inspection. If not then age of youngest brood left needs to be assessed and documented.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SEQ">
+		<value>Document queen (cell) development stage and find youngest brood in the hive to determine when the mother queen was lost</value>
+	</data>
+	<data name="CT_CE_I2_DESC">
+		<value>Ensure that queen development is progressing as expected. Remove any additional queen cells the colony may have raised since inspection 1.</value>
+	</data>
+	<data name="CT_CE_I3_DESC">
+		<value>Check for eggs or larvae. Insert frame of eggs and/or young larvae if no brood is found.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_1">
+		<value>Check for capped worker brood. New queen is confirmed and cycle is complete if found. No further action required</value>
+	</data>
+	<data name="CT_CE_I4_DESC_2">
+		<value>Broodless or drone brood only:  Requires requeening with a mated queen. Trying again with a frame of eggs and young larvae is not recommended due to the lack of nurse bees in the hive.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3A">
+		<value>Open or capped queen cell(s): Successful queen development as the new queen has laid fertilized eggs. However, the colony is trying to replace her. Remove queen cells if QDT is less than 35 and mother queen was found.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3B">
+		<value>Cell of emerged virgin or live virgin: Colony has replaced new queen</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SWM">
+		<value>Development stage of the OLDEST queen cell left in the hive.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SPLT">
+		<value>Development Stage of the OLDEST queen rearing resource left in the hive.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_1">
+		<value>Development stage of the OLDEST queen cell or queen you are adding to the hive.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_2">
+		<value>If hive was queenless: Development stage of YOUNGEST brood left in the hive.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_1">
+		<value>Development stage of the OLDEST queen cell or queen left in the hive.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_2">
+		<value>Development stage of YOUNGEST brood left in the hive.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_2">
+		<value>Development Stage of OLDEST queen rearing resource left in the hive during inspection 1.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_3">
+		<value>Development stage of OLDEST new brood. Skip data entry here and enter data in inspection 4 if capped brood is found or colony swarmed.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_34">
+		<value>Development stage of OLDEST new brood</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_4">
+		<value>Colony Transition - Observations</value>
 	</data>
 </root>

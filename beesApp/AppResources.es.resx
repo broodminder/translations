@@ -93,6 +93,9 @@
 	<data name="COMMON_COPIED">
 		<value>Copiado en el portapapeles</value>
 	</data>
+	<data name="COMMON_NOT_APPICABLE">
+		<value>n/d</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Cuenta</value>
 	</data>
@@ -2214,6 +2217,9 @@
 	<data name="INSP_C_FEEDING">
 		<value>Alimentación</value>
 	</data>
+	<data name="INSP_C_COLONYTRANSITION">
+        <value>Transición de colonia</value>
+    </data>
 	<data name="FITNESS_C_B1">
 		<value>Colmena muerta</value>
 	</data>
@@ -2429,6 +2435,12 @@
 	</data>
 	<data name="ADDI_NOTE_HIVE">
 		<value>Nueva Nota de Colmena</value>
+	</data>
+	<data name="ADDI_NOTE_CT">
+		<value>Continuar transición</value>
+	</data>
+	<data name="ADDI_NOTE_OBS">
+		<value>Añadir observación de planta</value>
 	</data>
 	<data name="CU_NOTE_TITLE_U">
 		<value>Anotar en {0}</value>
@@ -2936,5 +2948,131 @@
 	</data>
 	<data name="CT_TAGS_SUB_RESTART">
 		<value>Cycle Restart</value>
+	</data>
+	<data name="CT_CE_TITLE">
+		<value>Transición de colonia</value>
+	</data>
+	<data name="CT_STATUS_INCOMPLETE">
+		<value>Incompleto</value>
+	</data>
+	<data name="CT_STATUS_COMPLETE">
+		<value>Completo</value>
+	</data>
+	<data name="CT_STATUS_RESTARTED">
+		<value>Reiniciado</value>
+	</data>
+	<data name="CT_STATUS_FAILED">
+		<value>Fallido</value>
+	</data>
+	<data name="CT_STATUS_FAILED_INC_DATA">
+		<value>Fallido - Datos incompletos</value>
+	</data>
+	<data name="CT_CE_RESTART_TITLE">
+		<value>Continuar a un ciclo enlazado</value>
+	</data>
+	<data name="CT_CE_RESTART_MSG">
+		<value>Un enjambre o reemplazo de reina termina este ciclo e inicia uno nuevo. ¿Desea iniciar un nuevo ciclo ahora?</value>
+	</data>
+	<data name="CT_CE_RESTART_CONFIRM">
+		<value>Sí</value>
+	</data>
+	<data name="CT_CE_RESTART_CANCEL">
+		<value>Cancelar</value>
+	</data>
+	<data name="CT_CE_I0_TITLE">
+		<value>Inicio del ciclo</value>
+	</data>
+	<data name="CT_CE_I1_TITLE">
+		<value>Inspección 1</value>
+	</data>
+	<data name="CT_CE_I1_CAPTITLE">
+		<value>Instalación</value>
+	</data>
+	<data name="CT_CE_I2_TITLE">
+		<value>Inspección 2</value>
+	</data>
+	<data name="CT_CE_I3_TITLE">
+		<value>Inspección 3</value>
+	</data>
+	<data name="CT_CE_I34_TITLE">
+		<value>Inspección de nueva cría</value>
+	</data>
+	<data name="CT_CE_I4_TITLE">
+		<value>Inspección 4</value>
+	</data>
+	<data name="CT_CE_I1_SHORTDESC_CAP">
+		<value>Registrar el tipo de reina instalada</value>
+	</data>
+	<data name="CT_CE_I12_SHORTDESC">
+		<value>Verificar el desarrollo de la reina</value>
+	</data>
+	<data name="CT_CE_I3_SHORTDESC">
+		<value>Verificar huevos/larvas jóvenes</value>
+	</data>
+	<data name="CT_CE_I34_SHORTDESC">
+		<value>Verificar nueva cría</value>
+	</data>
+	<data name="CT_CE_I4_SHORTDESC">
+		<value>Verificar cría operculada</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SWM">
+		<value>Retirar todas las celdas reales excepto una o dos de las más antiguas. Determinar la fase de desarrollo de la más antigua.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SPLT">
+		<value>Asegurarse de que la división tenga huevos y larvas, celda(s) real(es) o reina viva</value>
+	</data>
+	<data name="CT_CE_I1_DESC_REQ">
+		<value>Proporcionar recursos para que la colonia pueda criar una nueva reina. Se asume que la reina madre fue retirada durante esta inspección. De lo contrario, se debe evaluar y documentar la edad de la cría más joven que quede.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SEQ">
+		<value>Documentar la fase de desarrollo de la reina (o celda) y encontrar la cría más joven en la colmena para determinar cuándo se perdió la reina madre</value>
+	</data>
+	<data name="CT_CE_I2_DESC">
+		<value>Asegurarse de que el desarrollo de la reina progrese como se espera. Retirar cualquier celda real adicional que la colonia haya podido criar desde la inspección 1.</value>
+	</data>
+	<data name="CT_CE_I3_DESC">
+		<value>Verificar la presencia de huevos o larvas. Insertar un cuadro de huevos y/o larvas jóvenes si no se encuentra cría.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_1">
+		<value>Verificar la presencia de cría operculada de obreras. La nueva reina queda confirmada y el ciclo está completo si se encuentra. No se requieren más acciones</value>
+	</data>
+	<data name="CT_CE_I4_DESC_2">
+		<value>Sin cría o solo cría de zánganos: requiere reemplazo con una reina fecundada. No se recomienda volver a intentar con un cuadro de huevos y larvas jóvenes debido a la falta de abejas nodrizas en la colmena.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3A">
+		<value>Celda(s) real(es) abierta(s) u operculada(s): desarrollo exitoso de la reina, ya que la nueva reina ha puesto huevos fecundados. Sin embargo, la colonia intenta reemplazarla. Retirar las celdas reales si el QDT es inferior a 35 y se encontró la reina madre.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3B">
+		<value>Celda de virgen emergida o virgen viva: la colonia ha reemplazado a la nueva reina</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SWM">
+		<value>Fase de desarrollo de la celda real MÁS ANTIGUA dejada en la colmena.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SPLT">
+		<value>Fase de desarrollo del recurso de cría de reina MÁS ANTIGUO dejado en la colmena.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_1">
+		<value>Fase de desarrollo de la celda real o reina MÁS ANTIGUA que está añadiendo a la colmena.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_2">
+		<value>Si la colmena estaba huérfana: fase de desarrollo de la cría MÁS JOVEN dejada en la colmena.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_1">
+		<value>Fase de desarrollo de la celda real o reina MÁS ANTIGUA dejada en la colmena.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_2">
+		<value>Fase de desarrollo de la cría MÁS JOVEN dejada en la colmena.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_2">
+		<value>Fase de desarrollo del recurso de cría de reina MÁS ANTIGUO dejado en la colmena durante la inspección 1.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_3">
+		<value>Fase de desarrollo de la cría nueva MÁS ANTIGUA. Omita la entrada de datos aquí e introduzca los datos en la inspección 4 si se encuentra cría operculada o la colonia enjambró.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_34">
+		<value>Fase de desarrollo de la cría nueva MÁS ANTIGUA</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_4">
+		<value>Transición de colonia - Observaciones</value>
 	</data>
 </root>

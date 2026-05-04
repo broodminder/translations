@@ -93,9 +93,12 @@
     <data name="COMMON_COPIED">
         <value>Copiado para a Área de Transferência</value>
     </data>
+    <data name="COMMON_NOT_APPICABLE">
+		<value>n/a</value>
+	</data>
     <data name="SETTINGS_ACCOUNT">
         <value>Conta</value>
-        </data>
+    </data>
     <data name="SETTINGS_USER">
         <value>Usuário</value>
     </data>
@@ -2214,6 +2217,9 @@
     <data name="INSP_C_FEEDING">
         <value>Alimentação</value>
     </data>
+    <data name="INSP_C_COLONYTRANSITION">
+        <value>Transição de colónia</value>
+    </data>
     <data name="FITNESS_C_B1">
         <value>Colmeia morta</value>
     </data>
@@ -2430,6 +2436,12 @@
     <data name="ADDI_NOTE_HIVE">
         <value>Adicionar Nota de Colmeia</value>
     </data>
+    <data name="ADDI_NOTE_CT">
+		<value>Continuar transição</value>
+	</data>
+	<data name="ADDI_NOTE_OBS">
+		<value>Adicionar observação de planta</value>
+	</data>
     <data name="CU_NOTE_TITLE_U">
         <value>Nota {0}</value>
     </data>
@@ -2457,7 +2469,6 @@
     <data name="CU_NOTE_ADD_TAGS">
 		<value>Adicionar tags</value>
     </data>
-  
     <data name="BSCHANGE_TITLE">
         <value>Economia de Bateria</value>
     </data>
@@ -2938,4 +2949,130 @@
 	<data name="CT_TAGS_SUB_RESTART">
 		<value>Cycle Restart</value>
 	</data>
+    <data name="CT_CE_TITLE">
+        <value>Transição de colónia</value>
+    </data>
+    <data name="CT_STATUS_INCOMPLETE">
+        <value>Incompleto</value>
+    </data>
+    <data name="CT_STATUS_COMPLETE">
+        <value>Completo</value>
+    </data>
+    <data name="CT_STATUS_RESTARTED">
+        <value>Reiniciado</value>
+    </data>
+    <data name="CT_STATUS_FAILED">
+        <value>Falhou</value>
+    </data>
+    <data name="CT_STATUS_FAILED_INC_DATA">
+        <value>Falhou - Dados incompletos</value>
+    </data>
+    <data name="CT_CE_RESTART_TITLE">
+        <value>Continuar para um ciclo ligado</value>
+    </data>
+    <data name="CT_CE_RESTART_MSG">
+        <value>Um enxameamento ou substituição de rainha termina este ciclo e inicia um novo. Deseja iniciar um novo ciclo agora?</value>
+    </data>
+    <data name="CT_CE_RESTART_CONFIRM">
+        <value>Sim</value>
+    </data>
+    <data name="CT_CE_RESTART_CANCEL">
+        <value>Cancelar</value>
+    </data>
+    <data name="CT_CE_I0_TITLE">
+        <value>Início do ciclo</value>
+    </data>
+    <data name="CT_CE_I1_TITLE">
+        <value>Inspeção 1</value>
+    </data>
+    <data name="CT_CE_I1_CAPTITLE">
+        <value>Instalação</value>
+    </data>
+    <data name="CT_CE_I2_TITLE">
+        <value>Inspeção 2</value>
+    </data>
+    <data name="CT_CE_I3_TITLE">
+        <value>Inspeção 3</value>
+    </data>
+    <data name="CT_CE_I34_TITLE">
+        <value>Inspeção de nova cria</value>
+    </data>
+    <data name="CT_CE_I4_TITLE">
+        <value>Inspeção 4</value>
+    </data>
+    <data name="CT_CE_I1_SHORTDESC_CAP">
+        <value>Registar o tipo de rainha instalada</value>
+    </data>
+    <data name="CT_CE_I12_SHORTDESC">
+        <value>Verificar o desenvolvimento da rainha</value>
+    </data>
+    <data name="CT_CE_I3_SHORTDESC">
+        <value>Verificar ovos/larvas jovens</value>
+    </data>
+    <data name="CT_CE_I34_SHORTDESC">
+        <value>Verificar nova cria</value>
+    </data>
+    <data name="CT_CE_I4_SHORTDESC">
+        <value>Verificar cria operculada</value>
+    </data>
+    <data name="CT_CE_I1_DESC_SWM">
+        <value>Remover todas as células reais exceto uma ou duas das mais antigas. Determinar a fase de desenvolvimento da mais antiga.</value>
+    </data>
+    <data name="CT_CE_I1_DESC_SPLT">
+        <value>Certificar-se de que a divisão tem ovos e larvas, célula(s) real(is) ou rainha viva</value>
+    </data>
+    <data name="CT_CE_I1_DESC_REQ">
+        <value>Fornecer recursos para permitir que a colónia crie uma nova rainha. Assume-se que a rainha-mãe foi removida durante esta inspeção. Caso contrário, a idade da cria mais jovem restante deve ser avaliada e documentada.</value>
+    </data>
+    <data name="CT_CE_I1_DESC_SEQ">
+        <value>Documentar a fase de desenvolvimento da rainha (ou célula) e encontrar a cria mais jovem na colmeia para determinar quando a rainha-mãe foi perdida</value>
+    </data>
+    <data name="CT_CE_I2_DESC">
+        <value>Garantir que o desenvolvimento da rainha progride como esperado. Remover quaisquer células reais adicionais que a colónia possa ter criado desde a inspeção 1.</value>
+    </data>
+    <data name="CT_CE_I3_DESC">
+        <value>Verificar a presença de ovos ou larvas. Inserir um quadro de ovos e/ou larvas jovens se não for encontrada cria.</value>
+    </data>
+    <data name="CT_CE_I4_DESC_1">
+        <value>Verificar a presença de cria operculada de obreiras. A nova rainha está confirmada e o ciclo está completo se encontrada. Não é necessária mais nenhuma ação</value>
+    </data>
+    <data name="CT_CE_I4_DESC_2">
+        <value>Sem cria ou apenas cria de zângãos: requer substituição com uma rainha fecundada. Não se recomenda tentar novamente com um quadro de ovos e larvas jovens devido à falta de abelhas amas na colmeia.</value>
+    </data>
+    <data name="CT_CE_I4_DESC_3A">
+        <value>Célula(s) real(is) aberta(s) ou operculada(s): desenvolvimento bem-sucedido da rainha, pois a nova rainha pôs ovos fecundados. No entanto, a colónia está a tentar substituí-la. Remover as células reais se o QDT for inferior a 35 e a rainha-mãe tiver sido encontrada.</value>
+    </data>
+    <data name="CT_CE_I4_DESC_3B">
+        <value>Célula de virgem emergida ou virgem viva: a colónia substituiu a nova rainha</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_1_SWM">
+        <value>Fase de desenvolvimento da célula real MAIS ANTIGA deixada na colmeia.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_1_SPLT">
+        <value>Fase de desenvolvimento do recurso de criação de rainha MAIS ANTIGO deixado na colmeia.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_1_REQ_1">
+        <value>Fase de desenvolvimento da célula real ou rainha MAIS ANTIGA que está a adicionar à colmeia.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_1_REQ_2">
+        <value>Se a colmeia estava órfã: fase de desenvolvimento da cria MAIS JOVEM deixada na colmeia.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_1_SEQ_1">
+        <value>Fase de desenvolvimento da célula real ou rainha MAIS ANTIGA deixada na colmeia.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_1_SEQ_2">
+        <value>Fase de desenvolvimento da cria MAIS JOVEM deixada na colmeia.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_2">
+        <value>Fase de desenvolvimento do recurso de criação de rainha MAIS ANTIGO deixado na colmeia durante a inspeção 1.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_3">
+        <value>Fase de desenvolvimento da cria nova MAIS ANTIGA. Ignore a introdução de dados aqui e introduza os dados na inspeção 4 se for encontrada cria operculada ou se a colónia enxameou.</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_34">
+        <value>Fase de desenvolvimento da cria nova MAIS ANTIGA</value>
+    </data>
+    <data name="CT_CE_TAGHEADER_4">
+        <value>Transição de colónia - Observações</value>
+    </data>
 </root>

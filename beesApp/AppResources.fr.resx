@@ -93,6 +93,9 @@
 	<data name="COMMON_COPIED">
 		<value>Copier dans le presse-papier</value>
 	</data>
+	<data name="COMMON_NOT_APPICABLE">
+		<value>s/o</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Compte</value>
 	</data>
@@ -2196,7 +2199,7 @@
 	<data name="INSP_T_INSTALLEDPRIMARYSWARM">
 		<value>Essaim primaire installé (reine fécondée)</value>
 	</data>
-	<data name="INSTALLEDSECONDARYSWARM">
+	<data name="INSP_T_INSTALLEDSECONDARYSWARM">
 		<value>Essaim secondaire installé (reine vierge)</value>
 	</data>
 	<data name="INSP_C_BEESBROODSTG">
@@ -2214,6 +2217,9 @@
 	<data name="INSP_C_FEEDING">
 		<value>Alimentation</value>
 	</data>
+	<data name="INSP_C_COLONYTRANSITION">
+        <value>Transition de colonie</value>
+    </data>
 	<data name="FITNESS_C_B1">
 		<value>Ruche morte</value>
 	</data>
@@ -2429,6 +2435,12 @@
 	</data>
 	<data name="ADDI_NOTE_HIVE">
 		<value>Ajouter une Note Ruche</value>
+	</data>
+	<data name="ADDI_NOTE_CT">
+		<value>Poursuivre la transition</value>
+	</data>
+	<data name="ADDI_NOTE_OBS">
+		<value>Ajouter une observation de plante</value>
 	</data>
 	<data name="CU_NOTE_TITLE_U">
 		<value>Note {0}</value>
@@ -2936,5 +2948,131 @@
 	</data>
 	<data name="CT_TAGS_SUB_RESTART">
 		<value>Cycle Restart</value>
+	</data>
+	<data name="CT_CE_TITLE">
+		<value>Transition de colonie</value>
+	</data>
+	<data name="CT_STATUS_INCOMPLETE">
+		<value>Incomplet</value>
+	</data>
+	<data name="CT_STATUS_COMPLETE">
+		<value>Complet</value>
+	</data>
+	<data name="CT_STATUS_RESTARTED">
+		<value>Redémarré</value>
+	</data>
+	<data name="CT_STATUS_FAILED">
+		<value>Échec</value>
+	</data>
+	<data name="CT_STATUS_FAILED_INC_DATA">
+		<value>Échec - Données incomplètes</value>
+	</data>
+	<data name="CT_CE_RESTART_TITLE">
+		<value>Continuer vers un cycle lié</value>
+	</data>
+	<data name="CT_CE_RESTART_MSG">
+		<value>Un essaimage ou un remérage termine ce cycle et en démarre un nouveau. Voulez-vous démarrer un nouveau cycle maintenant ?</value>
+	</data>
+	<data name="CT_CE_RESTART_CONFIRM">
+		<value>Oui</value>
+	</data>
+	<data name="CT_CE_RESTART_CANCEL">
+		<value>Annuler</value>
+	</data>
+	<data name="CT_CE_I0_TITLE">
+		<value>Début du cycle</value>
+	</data>
+	<data name="CT_CE_I1_TITLE">
+		<value>Inspection 1</value>
+	</data>
+	<data name="CT_CE_I1_CAPTITLE">
+		<value>Installation</value>
+	</data>
+	<data name="CT_CE_I2_TITLE">
+		<value>Inspection 2</value>
+	</data>
+	<data name="CT_CE_I3_TITLE">
+		<value>Inspection 3</value>
+	</data>
+	<data name="CT_CE_I34_TITLE">
+		<value>Inspection pour nouveau couvain</value>
+	</data>
+	<data name="CT_CE_I4_TITLE">
+		<value>Inspection 4</value>
+	</data>
+	<data name="CT_CE_I1_SHORTDESC_CAP">
+		<value>Enregistrer le type de reine installée</value>
+	</data>
+	<data name="CT_CE_I12_SHORTDESC">
+		<value>Vérifier le développement de la reine</value>
+	</data>
+	<data name="CT_CE_I3_SHORTDESC">
+		<value>Vérifier œufs/jeunes larves</value>
+	</data>
+	<data name="CT_CE_I34_SHORTDESC">
+		<value>Vérifier le nouveau couvain</value>
+	</data>
+	<data name="CT_CE_I4_SHORTDESC">
+		<value>Vérifier le couvain operculé</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SWM">
+		<value>Retirer toutes les cellules royales sauf une ou deux des plus anciennes. Déterminer le stade de développement de la plus ancienne.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SPLT">
+		<value>Vérifier que la division contient des œufs et des larves, une ou des cellules royales ou une reine vivante</value>
+	</data>
+	<data name="CT_CE_I1_DESC_REQ">
+		<value>Fournir les ressources nécessaires pour permettre à la colonie d'élever une nouvelle reine. Il est supposé que la reine mère a été retirée lors de cette inspection. Sinon, l'âge du plus jeune couvain restant doit être évalué et documenté.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SEQ">
+		<value>Documenter le stade de développement de la reine (ou de la cellule) et trouver le plus jeune couvain dans la ruche pour déterminer quand la reine mère a été perdue</value>
+	</data>
+	<data name="CT_CE_I2_DESC">
+		<value>S'assurer que le développement de la reine progresse comme prévu. Retirer toute cellule royale supplémentaire que la colonie aurait pu élever depuis l'inspection 1.</value>
+	</data>
+	<data name="CT_CE_I3_DESC">
+		<value>Vérifier la présence d'œufs ou de larves. Insérer un cadre d'œufs et/ou de jeunes larves si aucun couvain n'est trouvé.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_1">
+		<value>Vérifier la présence de couvain d'ouvrières operculé. La nouvelle reine est confirmée et le cycle est complet si trouvé. Aucune autre action requise</value>
+	</data>
+	<data name="CT_CE_I4_DESC_2">
+		<value>Sans couvain ou couvain de mâles uniquement : nécessite un remérage avec une reine fécondée. Réessayer avec un cadre d'œufs et de jeunes larves n'est pas recommandé en raison du manque d'abeilles nourricières dans la ruche.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3A">
+		<value>Cellule(s) royale(s) ouverte(s) ou operculée(s) : développement réussi de la reine puisque la nouvelle reine a pondu des œufs fécondés. Cependant, la colonie cherche à la remplacer. Retirer les cellules royales si le QDT est inférieur à 35 et si la reine mère a été trouvée.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3B">
+		<value>Cellule de vierge émergée ou vierge vivante : la colonie a remplacé la nouvelle reine</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SWM">
+		<value>Stade de développement de la PLUS ANCIENNE cellule royale laissée dans la ruche.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SPLT">
+		<value>Stade de développement de la PLUS ANCIENNE ressource d'élevage de reine laissée dans la ruche.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_1">
+		<value>Stade de développement de la PLUS ANCIENNE cellule royale ou reine que vous ajoutez à la ruche.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_2">
+		<value>Si la ruche était orpheline : stade de développement du PLUS JEUNE couvain laissé dans la ruche.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_1">
+		<value>Stade de développement de la PLUS ANCIENNE cellule royale ou reine laissée dans la ruche.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_2">
+		<value>Stade de développement du PLUS JEUNE couvain laissé dans la ruche.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_2">
+		<value>Stade de développement de la PLUS ANCIENNE ressource d'élevage de reine laissée dans la ruche lors de l'inspection 1.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_3">
+		<value>Stade de développement du PLUS ANCIEN nouveau couvain. Ignorez la saisie ici et saisissez les données à l'inspection 4 si du couvain operculé est trouvé ou si la colonie a essaimé.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_34">
+		<value>Stade de développement du PLUS ANCIEN nouveau couvain</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_4">
+		<value>Transition de colonie - Observations</value>
 	</data>
 </root>
