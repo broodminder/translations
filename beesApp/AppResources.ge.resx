@@ -975,6 +975,9 @@
 	<data name="DEVICES_CELL_SLEEP2">
 		<value>Tippen Sie hier, um zu aktivieren.</value>
 	</data>
+	<data name="EDITLOCATION_CURRENT">
+		<value>Aktuellen Standort bearbeiten in</value>
+	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Standort am Bienenstock</value>
 	</data>

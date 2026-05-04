@@ -975,6 +975,9 @@
 	<data name="DEVICES_CELL_SLEEP2">
 		<value>Tap here to enable.</value>
 	</data>
+	<data name="EDITLOCATION_CURRENT">
+		<value>Edit current location in</value>
+	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Location on the hive</value>
 	</data>

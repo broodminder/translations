@@ -975,6 +975,9 @@
 	<data name="DEVICES_CELL_SLEEP2">
 		<value>Toucher pour activer.</value>
 	</data>
+	<data name="EDITLOCATION_CURRENT">
+		<value>Modifier l'emplacement actuel dans</value>
+	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Situation sur la ruche</value>
 	</data>

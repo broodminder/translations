@@ -975,6 +975,9 @@
 	<data name="DEVICES_CELL_SLEEP2">
 		<value>Tocar para activar.</value>
 	</data>
+	<data name="EDITLOCATION_CURRENT">
+		<value>Editar ubicación actual en</value>
+	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Ubicación</value>
 	</data>
