@@ -3075,4 +3075,88 @@
 	<data name="CT_CE_TAGHEADER_4">
 		<value>Volksübergang - Beobachtungen</value>
 	</data>
+	<data name="PLANT_ADDPLANT">
+		<value>Pflanze hinzufügen</value>
+	</data>
+	<data name="PLANT_CHART_OBS_ON">
+		<value>Beobachtet am</value>
+	</data>
+	<data name="PLANT_CHART_FORC_ON">
+		<value>Vorhersage am</value>
+	</data>
+	<data name="PLANT_ADD_TITLE">
+		<value>Pflanzenkonfiguration hinzufügen</value>
+	</data>
+	<data name="PLANT_ADD_SEARCH">
+		<value>Pflanze suchen</value>
+	</data>
+	<data name="PLANT_ADD_NONE">
+		<value>Keine Pflanzen gefunden</value>
+	</data>
+	<data name="PLANT_ADD_DESCR">
+		<value>Beschreibung</value>
+	</data>
+	<data name="PLANT_ADD_BLOOMSTART">
+		<value>Blühbeginn</value>
+	</data>
+	<data name="PLANT_ADD_MONTH">
+		<value>Monat</value>
+	</data>
+	<data name="PLANT_ADD_DAY">
+		<value>Tag</value>
+	</data>
+	<data name="PLANT_ADD_BLOOMEND">
+		<value>Blühende</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL">
+		<value>Verfügbarkeit</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_NO">
+		<value>Nicht vorhanden</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_LOW">
+		<value>Geringes Vorkommen</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_AVG">
+		<value>Mittleres Vorkommen</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_STRONG">
+		<value>Starkes Vorkommen</value>
+	</data>
+	<data name="PLANT_ADD_ERROR1">
+		<value>Wählen Sie eine Pflanze aus.</value>
+	</data>
+	<data name="PLANT_ADD_OBSMSG">
+		<value>Großartig! Sie haben eine neue Pflanze erstellt. Möchten Sie eine Beobachtung zu Ihrer Pflanze hinzufügen?</value>
+	</data>
+	<data name="PLANT_ADD_OBSTITLE">
+		<value>Eine Beobachtung zu Ihrer Pflanze hinzufügen?</value>
+	</data>
+	<data name="PLANT_ADD_OBSNO">
+		<value>Nein</value>
+	</data>
+	<data name="OBS_ADD_TITLE">
+		<value>Pflanzenbeobachtung hinzufügen</value>
+	</data>
+	<data name="OBS_ADD_ERROR1">
+		<value>Bienenstand fehlt.</value>
+	</data>
+	<data name="OBS_ADD_ERROR2">
+		<value>Pflanzenkonfigurationen können nicht geladen werden.</value>
+	</data>
+	<data name="OBS_ADD_ERROR3">
+		<value>Pflanzenbeobachtung kann nicht erstellt werden.</value>
+	</data>
+	<data name="OBS_ADD_SELECTPLANT">
+		<value>Pflanzenkonfiguration auswählen</value>
+	</data>
+	<data name="OBS_ADD_DATE">
+		<value>Datum der Beobachtung</value>
+	</data>
+	<data name="OBS_ADD_NOTE">
+		<value>Notiz</value>
+	</data>
+	<data name="OBS_ADD_SELECTPHENO">
+		<value>Phänologische Phase auswählen</value>
+	</data>
 </root>

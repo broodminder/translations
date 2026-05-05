@@ -3075,4 +3075,88 @@
 	<data name="CT_CE_TAGHEADER_4">
 		<value>Colony Transition - Observations</value>
 	</data>
+	<data name="PLANT_ADDPLANT">
+		<value>Add Plant</value>
+	</data>
+	<data name="PLANT_CHART_OBS_ON">
+		<value>Observed on</value>
+	</data>
+	<data name="PLANT_CHART_FORC_ON">
+		<value>Forecast on</value>
+	</data>
+	<data name="PLANT_ADD_TITLE">
+		<value>Add Plant Configuration</value>
+	</data>
+	<data name="PLANT_ADD_SEARCH">
+		<value>Search plant</value>
+	</data>
+	<data name="PLANT_ADD_NONE">
+		<value>No plants found</value>
+	</data>
+	<data name="PLANT_ADD_DESCR">
+		<value>Description</value>
+	</data>
+	<data name="PLANT_ADD_BLOOMSTART">
+		<value>Bloom start</value>
+	</data>
+	<data name="PLANT_ADD_MONTH">
+		<value>Month</value>
+	</data>
+	<data name="PLANT_ADD_DAY">
+		<value>Day</value>
+	</data>
+	<data name="PLANT_ADD_BLOOMEND">
+		<value>Bloom end</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL">
+		<value>Availability</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_NO">
+		<value>No presence</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_LOW">
+		<value>Low presence</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_AVG">
+		<value>Average presence</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_STRONG">
+		<value>Strong presence</value>
+	</data>
+	<data name="PLANT_ADD_ERROR1">
+		<value>Select a plant.</value>
+	</data>
+	<data name="PLANT_ADD_OBSMSG">
+		<value>Great! You've created a new plant. Would you like to add an observation to your plant?</value>
+	</data>
+	<data name="PLANT_ADD_OBSTITLE">
+		<value>Add an observation to your plant?</value>
+	</data>
+	<data name="PLANT_ADD_OBSNO">
+		<value>No</value>
+	</data>
+	<data name="OBS_ADD_TITLE">
+		<value>Add Plant Observation</value>
+	</data>
+	<data name="OBS_ADD_ERROR1">
+		<value>Missing apiary.</value>
+	</data>
+	<data name="OBS_ADD_ERROR2">
+		<value>Unable to load plant configurations.</value>
+	</data>
+	<data name="OBS_ADD_ERROR3">
+		<value>Unable to create plant observation.</value>
+	</data>
+	<data name="OBS_ADD_SELECTPLANT">
+		<value>Select Plant Configuration</value>
+	</data>
+	<data name="OBS_ADD_DATE">
+		<value>Date of observation</value>
+	</data>
+	<data name="OBS_ADD_NOTE">
+		<value>Note</value>
+	</data>
+	<data name="OBS_ADD_SELECTPHENO">
+		<value>Select pheno stage</value>
+	</data>
 </root>

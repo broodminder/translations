@@ -3075,4 +3075,88 @@
     <data name="CT_CE_TAGHEADER_4">
         <value>Transição de colónia - Observações</value>
     </data>
+    <data name="PLANT_ADDPLANT">
+        <value>Adicionar planta</value>
+    </data>
+    <data name="PLANT_CHART_OBS_ON">
+        <value>Observado em</value>
+    </data>
+    <data name="PLANT_CHART_FORC_ON">
+        <value>Previsão em</value>
+    </data>
+    <data name="PLANT_ADD_TITLE">
+        <value>Adicionar configuração de planta</value>
+    </data>
+    <data name="PLANT_ADD_SEARCH">
+        <value>Pesquisar planta</value>
+    </data>
+    <data name="PLANT_ADD_NONE">
+        <value>Nenhuma planta encontrada</value>
+    </data>
+    <data name="PLANT_ADD_DESCR">
+        <value>Descrição</value>
+    </data>
+    <data name="PLANT_ADD_BLOOMSTART">
+        <value>Início da floração</value>
+    </data>
+    <data name="PLANT_ADD_MONTH">
+        <value>Mês</value>
+    </data>
+    <data name="PLANT_ADD_DAY">
+        <value>Dia</value>
+    </data>
+    <data name="PLANT_ADD_BLOOMEND">
+        <value>Fim da floração</value>
+    </data>
+    <data name="PLANT_ADD_AVAIL">
+        <value>Disponibilidade</value>
+    </data>
+    <data name="PLANT_ADD_AVAIL_NO">
+        <value>Sem presença</value>
+    </data>
+    <data name="PLANT_ADD_AVAIL_LOW">
+        <value>Presença baixa</value>
+    </data>
+    <data name="PLANT_ADD_AVAIL_AVG">
+        <value>Presença média</value>
+    </data>
+    <data name="PLANT_ADD_AVAIL_STRONG">
+        <value>Presença forte</value>
+    </data>
+    <data name="PLANT_ADD_ERROR1">
+        <value>Selecione uma planta.</value>
+    </data>
+    <data name="PLANT_ADD_OBSMSG">
+        <value>Ótimo! Criou uma nova planta. Deseja adicionar uma observação à sua planta?</value>
+    </data>
+    <data name="PLANT_ADD_OBSTITLE">
+        <value>Adicionar uma observação à sua planta?</value>
+    </data>
+    <data name="PLANT_ADD_OBSNO">
+        <value>Não</value>
+    </data>
+    <data name="OBS_ADD_TITLE">
+        <value>Adicionar observação de planta</value>
+    </data>
+    <data name="OBS_ADD_ERROR1">
+        <value>Apiário em falta.</value>
+    </data>
+    <data name="OBS_ADD_ERROR2">
+        <value>Não é possível carregar as configurações de planta.</value>
+    </data>
+    <data name="OBS_ADD_ERROR3">
+        <value>Não é possível criar a observação de planta.</value>
+    </data>
+    <data name="OBS_ADD_SELECTPLANT">
+        <value>Selecionar configuração de planta</value>
+    </data>
+    <data name="OBS_ADD_DATE">
+        <value>Data da observação</value>
+    </data>
+    <data name="OBS_ADD_NOTE">
+        <value>Nota</value>
+    </data>
+    <data name="OBS_ADD_SELECTPHENO">
+        <value>Selecionar fase fenológica</value>
+    </data>
 </root>
