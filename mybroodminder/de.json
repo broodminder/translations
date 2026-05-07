@@ -557,7 +557,7 @@
         "MOVE_TITLE": "Gerät bewegen",
         "MOVE_EXP": "Dies beendet den aktuellen Standort und startet einen neuen.",
         "SELECT_DEVICE": "Gerät auswählen",
-        "SELECT_APIARY": "Bienenstand auswählen",
+        "SELECT_APIARY": "Bienenshof auswählen",
         "SELECT_HIVE": "Beute auswählen",
         "SELECT_POSITION": "Position auswählen",
         "START_DAY": "Starttag",
@@ -585,7 +585,7 @@
         }
     },
     "HIVE_APIARY_LOCATION_HIST": {
-        "APIARY": "Bienenstand",
+        "APIARY": "Bienenhof",
         "START": "Start",
         "START_OPEN": "offen",
         "END": "Ende",
@@ -593,28 +593,28 @@
         "MOVE": "Bewegen",
         "EDIT": {
             "ADD": "Hinzufügen",
-            "SELECT_APIARY": "Bienenstand auswählen",
+            "SELECT_APIARY": "Bienenhof auswählen",
             "SUCCESS": "Änderungen gespeichert",
-            "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenstands",
-            "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenstands",
-            "ERROR_LOCATION_REQUIRED": "Beute erfordert mindestens einen Bienenstand",
-            "ERROR_APIARY_REQUIRED": "Für alle Standorte muss ein Bienenstand ausgewählt werden"
+            "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenhofs",
+            "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenhofs",
+            "ERROR_LOCATION_REQUIRED": "Beute erfordert mindestens einen Bienenhof",
+            "ERROR_APIARY_REQUIRED": "Für alle Standorte muss ein Bienenhof ausgewählt werden"
         }
     },
     "APIARY_CRUD": {
-        "CREATE_TITLE": "Bienenstand erstellen",
-        "EDIT_TITLE": "Bienenstand bearbeiten",
+        "CREATE_TITLE": "Bienenhof erstellen",
+        "EDIT_TITLE": "Bienenhof bearbeiten",
         "NAME": "Name",
         "COLOR": "Farbe",
         "ZIPCODE": "Postleitzahl",
-        "EDIT_ZIP_EXP": "Sie können den Standort für einen Bienenstand, der Daten enthält, nicht ändern.",
+        "EDIT_ZIP_EXP": "Sie können den Standort für einen Bienenhof, der Daten enthält, nicht ändern.",
         "COUNTRY": "Ländercode",
         "PRIVATE": "Privat (Daten nicht teilen) Premium-Funktion",
         "PRIVATE_TOOLTIP": "Bitte erwägen Sie, Ihre Daten zu teilen. Sie helfen Forschern auf der ganzen Welt, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
         "NOT_PRIVATE_TOOLTIP": "Vielen Dank, dass Sie Ihre Daten teilen. Sie helfen Forschern auf der ganzen Welt, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
         "ERROR_COUNTRY": "Gültigen Ländercode auswählen",
-        "SUCCESS_CREATED": "Bienenstand erstellt",
-        "SUCCESS_UPDATED": "Bienenstand aktualisiert",
+        "SUCCESS_CREATED": "Bienenhof erstellt",
+        "SUCCESS_UPDATED": "Bienenhof aktualisiert",
         "ZIP_INFO": "Die Postleitzahl wird für Wetterdienste verwendet. Geben Sie eine gültige Postleitzahl ein, um das Beste aus Ihren MyBroodMinder-Daten zu machen.",
         "ZIP_SELECTION": {
             "NOT_FOUND": "Postleitzahl nicht gefunden",
@@ -628,12 +628,12 @@
         "EDIT_LOCATION": {
             "BUTTON": "Ort bearbeiten",
             "COORDINATE": "Koordinate",
-            "TITLE": "Bienenstandsort bearbeiten",
-            "INFO": "Dieser Standort wird sowohl zur Abfrage des Wetters als auch zur Anzeige Ihres Bienenstands auf gemeinsam genutzten Websites wie BeeCounted.org verwendet. Dies wird zusammen mit Ihren öffentlichen Domänendaten offengelegt und sollte nicht der genaue Standort Ihres Bienenstands sein.",
-            "POSTAL_ERROR": "Die ausgewählten Koordinaten liegen außerhalb der Postleitzahl des Bienenstands. Dies kann nicht geändert werden.",
+            "TITLE": "Bienenhofsort bearbeiten",
+            "INFO": "Dieser Standort wird sowohl zur Abfrage des Wetters als auch zur Anzeige Ihres Bienenhofs auf gemeinsam genutzten Websites wie BeeCounted.org verwendet. Dies wird zusammen mit Ihren öffentlichen Domänendaten offengelegt und sollte nicht der genaue Standort Ihres Bienenhofs sein.",
+            "POSTAL_ERROR": "Die ausgewählten Koordinaten liegen außerhalb der Postleitzahl des Bienenhofs. Dies kann nicht geändert werden.",
             "POSTAL_CHANGE": {
                 "TITLE": "Postleitzahl ändern",
-                "TEXT": "Möchten Sie den Bienenstand auf die neue Postleitzahl {{value}} ändern?",
+                "TEXT": "Möchten Sie den Bienenhof auf die neue Postleitzahl {{value}} ändern?",
                 "CONFIRM": "Ja"
             }
         },
@@ -644,7 +644,7 @@
             "START_OPEN": "offen",
             "END": "Ende",
             "END_OPEN": "aktuell",
-            "DESCRIPTION": "Wählen Sie ein Gerät oder einen Hub als Ihre Bienenstandswetterquelle für Luftfeuchtigkeit und/oder Temperatur aus. Jeder Zeitraum ohne ein Gerät wird standardmäßig auf Weather Source zurückgesetzt.",
+            "DESCRIPTION": "Wählen Sie ein Gerät oder einen Hub als Ihre Bienenhofswetterquelle für Luftfeuchtigkeit und/oder Temperatur aus. Jeder Zeitraum ohne ein Gerät wird standardmäßig auf Weather Source zurückgesetzt.",
             "MEASUREMENT": "Messung",
             "EDIT": {
                 "EDIT_TEMPERATURE": "Temperaturquelle bearbeiten",
@@ -654,14 +654,14 @@
                 "SELECT_DEVICE": "Gerät auswählen",
                 "ENDING_CURRENT": "Endquelle",
                 "SUCCESS": "Änderungen gespeichert",
-                "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenstands",
-                "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenstands",
+                "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenhofs",
+                "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenhofs",
                 "ERROR_DEVICE_REQUIRED": "Für alle Wettersensoren muss ein Gerät ausgewählt werden",
                 "ERROR_START_REQUIRED": "Für die Wettersensorquelle muss eine Startzeit ausgewählt werden"
             },
             "DIALOG": {
                 "TITLE": "Wetter bearbeiten",
-                "SUCCESS_UPDATED": "Wetter des Bienenstands aktualisiert",
+                "SUCCESS_UPDATED": "Wetter des Bienenhofs aktualisiert",
                 "TEMPERATURE": "Temperatur",
                 "HUMIDITY": "Luftfeuchtigkeit",
                 "ADD_TEMPERATURE": "Temperatur hinzufügen",
@@ -674,9 +674,9 @@
         "EDIT_TITLE": "Beute bearbeiten",
         "NAME": "Name",
         "COLOR": "Farbe",
-        "SELECT_APIARY": "Bienenstand auswählen",
+        "SELECT_APIARY": "Bienenhof auswählen",
         "DESCRIPTION": "Beschreibung",
-        "ERROR_APIARY": "Bienenstand auswählen",
+        "ERROR_APIARY": "Bienenhof auswählen",
         "SUCCESS_CREATED": "Beute erstellt",
         "SUCCESS_UPDATED": "Beute aktualisiert",
         "DISPLAY": {
@@ -708,10 +708,10 @@
         },
         "MOVE": {
             "TITLE": "Beute bewegen",
-            "EXP": "Alle Daten in dieser Beute bleiben gleich, aber dies platziert die Beute ab diesem Datum im ausgewählten Bienenstand. Dies spiegelt sich in den Wetterdaten und Bienenstandansichten wider.",
+            "EXP": "Alle Daten in dieser Beute bleiben gleich, aber dies platziert die Beute ab diesem Datum im ausgewählten Bienenhof. Dies spiegelt sich in den Wetterdaten und Bienenhofansichten wider.",
             "DAY": "Neuer Standortstarttag",
             "TIME": "Zeit",
-            "SELECT_APIARY": "Bienenstand auswählen",
+            "SELECT_APIARY": "Bienenhof auswählen",
             "SUCCESS": "Beute bewegt"
         }
     },
@@ -959,37 +959,37 @@
         "SAVE": "Speichern"
     },
     "CONFIGURE_APIARIES": {
-        "ADD": "Bienenhaus hinzufügen",
-        "NAME": "Name des Bienenhauses",
+        "ADD": "Bienenhof hinzufügen",
+        "NAME": "Name des Bienenhofes",
         "ZIPCODE": "Postleitzahl",
         "SHARE": "Teilen",
         "ACTIVE": "Aktiv",
         "SHOW_INACTIVE": "Inaktive anzeigen",
         "CONFIRM_DELETE_WINDOW": {
-            "TITLE": "Bienenhaus löschen",
-            "MESSAGE": "Möchten Sie das Bienenhaus {{name}} wirklich löschen? Dies löscht das Bienenhaus dauerhaft.",
+            "TITLE": "Bienenhof löschen",
+            "MESSAGE": "Möchten Sie den Bienenhof {{name}} wirklich löschen? Dies löscht den Biebnenhof dauerhaft.",
             "CONFIRM": "Ja"
         },
         "CANNOT_DELETE_WINDOW": {
-            "TITLE": "Bienenhaus kann nicht gelöscht werden",
-            "MESSAGE": "Dieses Bienenhaus enthält die folgenden Bienenstöcke: {{hives}} Sie können dieses Bienenhaus erst löschen, wenn Sie diese Bienenstöcke gelöscht oder verschoben haben."
+            "TITLE": "Bienenhof kann nicht gelöscht werden",
+            "MESSAGE": "Dieser Bienenhof enthält die folgenden Bienenstöcke: {{hives}} Sie können diesen Bienenhof erst löschen, wenn Sie diese Bienenstöcke gelöscht oder verschoben haben."
         },
         "CONFIRM_INACTIVE_WINDOW": {
-            "TITLE": "Bienenhaus als inaktiv festlegen",
-            "MESSAGE": "Dies setzt alle Bienenstöcke in diesem Bienenhaus als inaktiv, beendet alle Gerätestandorte in jedem Bienenstock und entfernt das Bienenhaus aus Ihren Ansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenhaus oder seinen Bienenstöcken übertragen. Dies kann nicht rückgängig gemacht werden. Bienenhaus {{name}} als inaktiv festlegen?",
+            "TITLE": "Bienenhof als inaktiv festlegen",
+            "MESSAGE": "Dies setzt alle Bienenstöcke in diesem Bienenhof als inaktiv, beendet alle Gerätestandorte in jedem Bienenstock und entfernt den Bienenhof aus Ihren Ansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenhof oder seinen Bienenstöcken übertragen. Dies kann nicht rückgängig gemacht werden. Bienenhof {{name}} als inaktiv festlegen?",
             "CONFIRM": "Ja"
         },
-        "UPDATED_SUCCESS": "Bienenhaus aktualisiert",
-        "DELETE_SUCCESS": "Bienenhaus gelöscht",
-        "DELETE_ERROR": "Fehler beim Löschen des Bienenhauses"
+        "UPDATED_SUCCESS": "Bienenhof aktualisiert",
+        "DELETE_SUCCESS": "Bienenhof gelöscht",
+        "DELETE_ERROR": "Fehler beim Löschen des Bienenhofes"
     },
     "CONFIGURE_HIVES": {
         "ADD": "Bienenstock hinzufügen",
         "NAME": "Name des Bienenstocks",
         "CODE": "Bienenstock-Code",
-        "APIARY": "Bienenhaus",
+        "APIARY": "Bienenhof",
         "LOCATION_HISTORY": "Gerätehistorie",
-        "APIARY_HISTORY": "Bienenhaus-Historie",
+        "APIARY_HISTORY": "Bienenhof-Historie",
         "ACTIVE": "Aktiv",
         "CONFIRM_DELETE_WINDOW": {
             "TITLE": "Bienenstock löschen",
@@ -998,7 +998,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE": "Bienenstock als inaktiv festlegen",
-            "MESSAGE": "Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhausansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock {{name}} als inaktiv festlegen?",
+            "MESSAGE": "Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhofansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock {{name}} als inaktiv festlegen?",
             "CONFIRM": "Ja",
             "REASON": "Grund auswählen",
             "REASONS": {
@@ -1017,16 +1017,16 @@
         "FILTER": "Filter",
         "BATTERY": "Batterie",
         "NAME": "Name",
-        "APIARY": "Bienenhaus",
-        "LAST_UPLOAD": "Letzter Upload",
-        "TELECOM": "Telekommunikation",
+        "APIARY": "Bienenhof",
+        "LAST_UPLOAD": "Letzte Datenübermittlung",
+        "TELECOM": "Anbieter",
         "SIM": "SIM",
         "EDIT": "Verwalten",
         "THIRD_PARTY_DEVICE": "Gerät von Drittanbietern",
         "MANAGE": {
             "TITLE": "Verwalten",
             "CLOSE": "Fertig",
-            "SELECT_APIARY": "Bienenhaus auswählen",
+            "SELECT_APIARY": "Bienenhof auswählen",
             "UPDATED_SUCCESS": "Hub aktualisiert",
             "BACK_BUTTON": "Zurück"
         }
@@ -1040,7 +1040,7 @@
         "ADDRESS": "Geräteadresse",
         "LOCATION": "Aktueller Standort",
         "DATA_RECEIVED": "Letzte Datenübermittlung",
-        "LOCATION_HISTORY": "Standorthistorie",
+        "LOCATION_HISTORY": "Frühere Standorte des Gerätes",
         "BATTERY": "Batterie",
         "ADD_LOCATION": "Standort hinzufügen",
         "ACTIVE": "Aktiv",
@@ -1069,7 +1069,7 @@
         "DELETE": "Löschen",
         "CANCEL": "Abbrechen",
         "DISMISS": "Abweisen",
-        "APIARY": "Bienenhaus",
+        "APIARY": "Bienenhof",
         "HIVE": "Bienenstock",
         "DEVICE": "Gerät",
         "POSITION": "Position"
@@ -1213,23 +1213,23 @@
         "SEC2_ITEM2": "Sensoren auslesen",
         "SEC2_ITEM3": "Datenverlaufsdaten anzeigen",
         "SEC2_ITEM4": "Logbuch",
-        "SEC2_ITEM5": "Wetteralmanach",
+        "SEC2_ITEM5": "Wetter Bauernkalender",
         "SEC2_ITEM6": "Standorte von Bienenstock/Sensoren verwalten",
         "SEC2_ITEM7": "Wettervorhersage",
         "SEC2_ITEM8": "Nektarvorhersage",
         "SEC2_ITEM9": "Bienenstockproduktivität",
         "SEC2_ITEM10": "Brutkastenschätzer",
-        "SEC2_ITEM11": "Rucher- und Bienenstockwarnungen",
+        "SEC2_ITEM11": "Bienengof und Bienenstockwarnungen",
         "SEC2_ITEM12": "Blühkalender",
         "SEC2_ITEM13": "Blütevorhersage",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Daten speichern",
-        "SEC3_ITEM2": "Rucher/Bienenstockverwaltung",
+        "SEC3_ITEM2": "Bienenhof/Bienenstockverwaltung",
         "SEC3_ITEM3": "Logbuch",
         "SEC3_ITEM4": "Berechnete Ergebnisse - Analytik",
         "SEC3_ITEM5": "Dashboards",
-        "SEC3_ITEM6": "Mehrstockauswahl zum Vergleich von Bienenstöcken und Ruchern",
-        "SEC3_ITEM7": "Bienenstock/Rucherfotos",
+        "SEC3_ITEM6": "Mehrstockauswahl zum Vergleich von Bienenstöcken und Bienenhöfen",
+        "SEC3_ITEM7": "Bienenstock/Bienenhof Fotos",
         "SEC3_ITEM8": "Wettervorhersage",
         "SEC3_ITEM9": "Sensor-, Bienenstock- und Wetterwarnungen",
         "SEC3_ITEM10": "Zellen-Hub (Echtzeitdaten) Unterstützung",
@@ -1364,34 +1364,34 @@
     },
     "FITNESS_CODE": {
         "B1": {
-            "MSG": "Dead hive"
+            "MSG": "Ihr Bienenstock wurde als tot erkannt"
         },
         "B2": {
-            "MSG": "Stolen hive"
+            "MSG": "Gestohlener Bienenstock"
         },
         "R1": {
-            "MSG": "Very weak hive"
+            "MSG": "Sehr schwacher Bienenstock"
         },
         "O1": {
-            "MSG": "Weak hive or in strong decrease"
+            "MSG": "Schwacher Bienenstock oder Stock mit starker fallender Tendenz"
         },
         "O2": {
-            "MSG": "Potential swarm"
+            "MSG": "Potentieller Schwarm"
         },
         "O3": {
-            "MSG": "Overheating"
+            "MSG": "Überhitzung"
         },
         "O4": {
-            "MSG": "Extreme cold"
+            "MSG": "Extreme Kålte"
         },
         "O5": {
-            "MSG": "Rapid weight loss, being robbed"
+            "MSG": "Rascher Gewichtsverslust, wird ausgeraubt"
         },
         "G1": {
-            "MSG": "Healthy"
+            "MSG": "Gesund"
         },
         "G2": {
-            "MSG": "No data or no weather"
+            "MSG": "Keine Daten oder kein Wetter"
         }
     },
     "CHART": {
@@ -1700,7 +1700,7 @@
     "INSP_CONF": {
         "APPLIES": {
             "HIVE": "Bienenstock",
-            "APIARY": "Bienenstand"
+            "APIARY": "Bienenhof"
         },
         "DEFAULT": "Standard",
         "SUPER+": "Super hinzugefügt",
@@ -1717,10 +1717,10 @@
         "CANDIFEED": "Zuckerfütterung",
         "SYRUPFEED": "Fütterung mit Sirup",
         "PATTIESFEED": "Fütterung mit Pastillen",
-        "REQUEEN": "Neue Königin",
+        "REQUEEN": "Umweiseln",
         "QUEENLINEAGE": "Königinnenherkunft",
         "HARVEST": "Ernte",
-        "INSTALLPKG": "Installiertes Paket",
+        "INSTALLPKG": "Schwarm/Paket Einschlagen",
         "NUCLEUSHIVE": "Installierter Kernbienenstock",
         "SPLITQUEENREMOVE": "Teilung mit Entfernung der Königin",
         "NECTARFLOW": "Nektarfluss",
@@ -1773,11 +1773,11 @@
         "MATEDQUEEN": "Begattete Königin",
         "BREEDERQUEENCELL": "Zucht-Weiselzelle",
         "EMERGEDVIRGIN": "Ausgeschlüpfte Jungkönigin (1-3 Tage alt)",
-        "FERTILEVIRGIN": "Befruchtete Jungkönigin (4 oder mehr Tage alt)",
+        "FERTILEVIRGIN": "Fruchtbare Jungkönigin (4 oder mehr Tage alt)",
         "CONFIRMEDQUEEN": "Bestätigte Königin",
         "INSTALLEDPACKAGE": "Installierte Paketbienen (begattete Königin)",
-        "INSTALLEDPRIMARYSWARM": "Installierter Erstschwarm (begattete Königin)",
-        "INSTALLEDSECONDARYSWARM": "Installierter Nachschwarm (befruchtete Jungkönigin)"
+        "INSTALLEDPRIMARYSWARM": "Installierter Erstschwarm (Begattete Königin)",
+        "INSTALLEDSECONDARYSWARM": "Installierter Nachschwarm (Fruchtbare Jungkönigin)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Brutstadien",
@@ -2048,8 +2048,8 @@
                 "BATTERY": "Batterie",
                 "BROOD": "Brut",
                 "NOTES": "Notizen",
-                "APIARY_IMAGE": "Bienenstandbild",
-                "APIARY_MAP": "Bienenstände Karte",
+                "APIARY_IMAGE": "Bienenhofbild",
+                "APIARY_MAP": "Bienenhöfe Karte",
                 "FORAGING": "Sammelindex",
                 "NECTAR": "Nektarflussindex",
                 "HIVE_TEXT": "Bienenstocktext",
@@ -2231,7 +2231,7 @@
         "NAV": {
             "HOME": {
                 "TITLE": "Startseite",
-                "TEXT": "Besuchen Sie die Startseite, um eine Übersicht Ihrer aktiven Bienenstöcke und Bienenstände anzuzeigen."
+                "TEXT": "Besuchen Sie die Startseite, um eine Übersicht Ihrer aktiven Bienenstöcke und Bienenhöfe anzuzeigen."
             },
             "HIVE": {
                 "TITLE": "Einen Bienenstock anzeigen",
@@ -2243,8 +2243,8 @@
                 "TEXT": "Klicken Sie auf Mehrfachauswahl, um mehrere Bienenstöcke gleichzeitig anzuzeigen."
             },
             "APIARY": {
-                "TITLE": "Bienenstand auswählen",
-                "TEXT": "Klicken Sie auf einen Bienenstand, um seine Bienenstöcke aus Ihrer Anzeige hinzuzufügen oder zu entfernen."
+                "TITLE": "Bienenhof auswählen",
+                "TEXT": "Klicken Sie auf einen Bienenhof, um seine Bienenstöcke aus Ihrer Anzeige hinzuzufügen oder zu entfernen."
             }
         },
         "DASH": {
@@ -2290,7 +2290,7 @@
             "HIVE_COLOR": {
                 "TITLE": "Bienenstockfarbe anpassen",
                 "TEXT_1": "Bearbeiten Sie Ihren Bienenstock, um die Bienenstockfarbe zu ändern. Dies ist anpassbar, damit Sie mehrere Bienenstöcke auf demselben Dashboard leicht anzeigen können.",
-                "TEXT_2": "Dies kann auch für jede Ihrer Bienenstandorte gemacht werden, um die Wettersymbolfarbe festzulegen."
+                "TEXT_2": "Dies kann auch für jede Ihrer Bienenhoforte gemacht werden, um die Wettersymbolfarbe festzulegen."
             }
         },
         "END": {
@@ -2303,22 +2303,22 @@
     },
     "HOME": {
         "HIVES": "Bienenstöcke",
-        "APIARIES": "Bienenstände",
+        "APIARIES": "Bienenhöfe",
         "EMPTY": {
             "TEXT_1": "Willkommen bei MyBroodMinder! Dies ist die Startseite!",
-            "TEXT_2": " Hier sehen Sie eine Schnellansicht Ihrer Bienenstöcke und Bienenstände. Bienenstöcke und Bienenstände werden hier angezeigt, wenn sie aktiv mit zugewiesenen Geräten sind.",
-            "TEXT_3": "Geteilte Bienenstände werden hier nicht angezeigt.",
+            "TEXT_2": " Hier sehen Sie eine Schnellansicht Ihrer Bienenstöcke und Bienenhöfe. Bienenstöcke und Bienenhöfe werden hier angezeigt, wenn sie aktiv mit zugewiesenen Geräten sind.",
+            "TEXT_3": "Geteilte Bienenhöfe werden hier nicht angezeigt.",
             "TEXT_4": "Es scheint, als hätten Sie nichts, was dieser Beschreibung entspricht.",
             "TEXT_5": "Ab jetzt können Sie:",
             "TEXT_LI_1A": "Verwenden Sie",
-            "TEXT_LI_1B": "oben links, um Bienenstöcke, Bienenstände und Geräte zu Ihrem Konto hinzuzufügen",
+            "TEXT_LI_1B": "oben links, um Bienenstöcke, Bienenhöfe und Geräte zu Ihrem Konto hinzuzufügen",
             "TEXT_LI_2": "Oder laden Sie die BroodMinder Bees-App herunter, um sie auch zu verwalten."
         },
         "BLOCKED": {
             "TITLE": "Startseite",
             "MISSING": "Was Ihnen fehlt!",
             "DESCR_HIVES": "Ein schneller Überblick über den aktuellen Zustand Ihrer Stöcke. Anzeige von Notizen, Warnungen und Gesundheitsstatistiken.",
-            "DESCR_APIARIES": "Ein schneller Überblick über den aktuellen Zustand Ihres Bienenstands. Anzeige von Notizen, Warnungen, Wetter und Vorhersagen."
+            "DESCR_APIARIES": "Ein schneller Überblick über den aktuellen Zustand Ihres Bienenhofs. Anzeige von Notizen, Warnungen, Wetter und Vorhersagen."
         }
     },
     "MEMBERSHIP_BLOCKS": {
@@ -2384,8 +2384,8 @@
             }
         },
         "NEW_APIARY": {
-            "TITLE": "Pflanzen zu Ihrem Bienenstand hinzufügen?",
-            "TEXT": "Super! Sie haben einen neuen Bienenstand erstellt. Möchten Sie einige Pflanzen hinzufügen, die wichtig für Ihre Bienen sind?",
+            "TITLE": "Pflanzen zu Ihrem Bienenhof hinzufügen?",
+            "TEXT": "Super! Sie haben einen neuen Bienenhof erstellt. Möchten Sie einige Pflanzen hinzufügen, die wichtig für Ihre Bienen sind?",
             "YES": "Ja",
             "NO": "Nein"
         },
@@ -2494,7 +2494,7 @@
             "INCOMPLETE_ID":"Fehlgeschlagen - Unvollständige Daten",
             "FAIL":"Fehlgeschlagen",
             "SUCCEED":"Erfolgreich",
-            "RESTART":"Neu starten"
+            "RESTART":"Wiederstart"
         },
         "CREATE_UPDATE":{
             "LINKED_FROM":"Verknüpft von",
@@ -2583,7 +2583,7 @@
                 "LARVA":"Larve",
                 "PUPA":"Puppe",
                 "UNF_VIRGIN":"unfruchtbare Jungfrau",
-                "FER_VIRGIN":"fruchtbare Jungfrau",
+                "FER_VIRGIN":"fruchtbare Jungfrau", 
                 "MATED":"begattete Königin",
                 "ESTABLISHED":"etabliert und stabil",
                 "STABLE":"stabil",
