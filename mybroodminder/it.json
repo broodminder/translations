@@ -1651,6 +1651,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Fasi Fenologiche"
+            },
+            "GDD":{
+                "TITLE":"Gradi Giorno di Crescita",
+                "YAXIS":"GDD ({{label}}·giorni)",
+                "FILTER_DAILY":"GDD giornalieri",
+                "FILTER_CUMULATIVE":"GDD cumulativi"
             }
         }
     },
@@ -2057,7 +2063,8 @@
                 "HIVE_COLONYTRANSITION": "Transizione del Calabrone",
                 "HIVE_COLONYTRANSITION_CAL": "Calendario della Transizione del Calabrone",
                 "BLOOM": "Fioritura",
-                "BLOOM_FORECAST": "Previsioni Fioritura"
+                "BLOOM_FORECAST": "Previsioni Fioritura",
+                "GDD":"Gradi Giorno di Crescita"
             }
         },
         "CHART": {

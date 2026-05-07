@@ -1650,6 +1650,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Estágios Fenológicos"
+            },
+            "GDD":{
+                "TITLE":"Vekstgraddager",
+                "YAXIS":"GDD ({{label}}·dager)",
+                "FILTER_DAILY":"Daglige vekstgraddager",
+                "FILTER_CUMULATIVE":"Akkumulerte vekstgraddager"
             }
         }
     },
@@ -2056,7 +2062,8 @@
                 "HIVE_COLONYTRANSITION": "Transição de Colônia",
                 "HIVE_COLONYTRANSITION_CAL": "Calendário de Transição de Colônia",
                 "BLOOM": "Floração",
-                "BLOOM_FORECAST": "Previsão de Floração"
+                "BLOOM_FORECAST": "Previsão de Floração",
+                "GDD":"Vekstgraddager"
             }
         },
         "CHART": {

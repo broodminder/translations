@@ -1651,6 +1651,11 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Etapas fenológicas"
+            },"GDD":{
+                "TITLE":"Grados Día de Crecimiento",
+                "YAXIS":"GDD ({{label}}·días)",
+                "FILTER_DAILY":"GDD diarios",
+                "FILTER_CUMULATIVE":"GDD acumulados"
             }
         }
     },
@@ -2057,7 +2062,8 @@
                 "HIVE_COLONYTRANSITION": "Colonia en Transición",
                 "HIVE_COLONYTRANSITION_CAL": "Calendario de transición de la colonia",
                 "BLOOM": "Calendario de Plantas",
-                "BLOOM_FORECAST": "Bloom Forecast"
+                "BLOOM_FORECAST": "Bloom Forecast",
+                "GDD":"Grados Día de Crecimiento"
             }
         },
         "CHART": {

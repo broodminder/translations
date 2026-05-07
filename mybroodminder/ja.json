@@ -1651,6 +1651,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "フェノステージ"
+            },
+            "GDD":{
+                "TITLE":"生育度日",
+                "YAXIS":"GDD ({{label}}·日)",
+                "FILTER_DAILY":"日別生育度日",
+                "FILTER_CUMULATIVE":"積算生育度日"
             }
         }
     },
@@ -2057,7 +2063,8 @@
                 "HIVE_COLONYTRANSITION": "コロニーの移行",
                 "HIVE_COLONYTRANSITION_CAL": "コロニーの移行カレンダー",
                 "BLOOM": "花開き",
-                "BLOOM_FORECAST": "花開きの予測"
+                "BLOOM_FORECAST": "花開きの予測",
+                "GDD":"生育度日"
             }
         },
         "CHART": {

@@ -1651,6 +1651,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Phänostadien"
+            },
+            "GDD":{
+                "TITLE":"Wachstumsgradtage",
+                "YAXIS":"WGT ({{label}}·Tage)",
+                "FILTER_DAILY":"Tägliche Wachstumsgradtage",
+                "FILTER_CUMULATIVE":"Kumulierte Wachstumsgradtage"
             }
         }
     },
@@ -2057,7 +2063,8 @@
                 "HIVE_COLONYTRANSITION": "Kolonieübergang",
                 "HIVE_COLONYTRANSITION_CAL": "Kolonieübergangskalender",
                 "BLOOM": "Blüte",
-                "BLOOM_FORECAST": "Blühvorhersage"
+                "BLOOM_FORECAST": "Blühvorhersage",
+                "GDD":"Wachstumsgradtage"
             }
         },
         "CHART": {

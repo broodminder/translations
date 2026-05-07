@@ -1650,6 +1650,12 @@
             },
             "PHENO_FORECAST":{
                 "FILTER_DAILY":"Pheno Stages"
+            },
+            "GDD":{
+                "TITLE":"Growing Degree Days",
+                "YAXIS":"GDD ({{label}}·days)",
+                "FILTER_DAILY":"Daily GDD",
+                "FILTER_CUMULATIVE":"Accumulated GDD"
             }
         }
     },
@@ -2056,7 +2062,8 @@
                 "HIVE_COLONYTRANSITION":"Colony Transition",
                 "HIVE_COLONYTRANSITION_CAL":"Colony Transition Calendar",
                 "BLOOM":"Plant timeline",
-                "BLOOM_FORECAST":"Bloom Forecast"
+                "BLOOM_FORECAST":"Bloom Forecast",
+                "GDD":"Growing Degree Days"
             }
         },
         "CHART":{

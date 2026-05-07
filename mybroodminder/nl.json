@@ -1650,6 +1650,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Fenologische stadia"
+            },
+            "GDD":{
+                "TITLE":"Groeigraaddagen",
+                "YAXIS":"GDD ({{label}}·dagen)",
+                "FILTER_DAILY":"Dagelijkse groeigraaddagen",
+                "FILTER_CUMULATIVE":"Cumulatieve groeigraaddagen"
             }
         }
     },
@@ -2056,7 +2062,8 @@
                 "HIVE_COLONYTRANSITION": "Kolonie Transitie",
                 "HIVE_COLONYTRANSITION_CAL": "Kolonie Transitie Kalender",
                 "BLOOM": "Bloei",
-                "BLOOM_FORECAST": "Bloei Voorspelling"
+                "BLOOM_FORECAST": "Bloei Voorspelling",
+                "GDD":"Groeigraaddagen"
             }
         },
         "CHART": {

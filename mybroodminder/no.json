@@ -1650,6 +1650,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Fenostadier"
+            },
+            "GDD":{
+                "TITLE":"Vekstgraddager",
+                "YAXIS":"GDD ({{label}}·dager)",
+                "FILTER_DAILY":"Daglige vekstgraddager",
+                "FILTER_CUMULATIVE":"Akkumulerte vekstgraddager"
             }
         }
     },
@@ -2056,7 +2062,8 @@
                 "HIVE_COLONYTRANSITION": "Koloni Overgang",
                 "HIVE_COLONYTRANSITION_CAL": "Koloni Overgang Kalender",
                 "BLOOM": "Blomst",
-                "BLOOM_FORECAST": "Blomsterprognose"
+                "BLOOM_FORECAST": "Blomsterprognose",
+                "GDD":"Vekstgraddager"
             }
         },
         "CHART": {

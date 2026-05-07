@@ -1650,6 +1650,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Stades phénologiques"
+            },
+            "GDD":{
+                "TITLE":"Degrés-jours de croissance",
+                "YAXIS":"DJC ({{label}}·jours)",
+                "FILTER_DAILY":"DJC quotidiens",
+                "FILTER_CUMULATIVE":"DJC cumulés"
             }
         }
     },
@@ -2056,7 +2062,8 @@
                 "HIVE_COLONYTRANSITION": "Colonie en Transition",
                 "HIVE_COLONYTRANSITION_CAL": "Calendrier de transition de la colonie",
                 "BLOOM": "Calendrier des Plantes",
-                "BLOOM_FORECAST": "Prévision de Floraison"
+                "BLOOM_FORECAST": "Prévision de Floraison",
+                "GDD":"Degrés-jours de croissance"
             }
         },
         "CHART": {
