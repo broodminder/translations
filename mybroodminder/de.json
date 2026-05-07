@@ -1394,31 +1394,31 @@
             "MSG": "Keine Daten oder kein Wetter"
         }
     },
-    "CHART": {
+   "CHART": {
         "DATA_TYPES": {
             "WEIGHT": {
-                "TITLE": "Weight",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight",
-                "FILTER_HOURLY": "Weight Hourly",
-                "FILTER_DAILY": "Weight Daily"
+                "TITLE": "Gewicht",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewicht",
+                "FILTER_HOURLY": "Gewicht stündlich",
+                "FILTER_DAILY": "Gewicht täglich"
             },
             "PROD": {
-                "TITLE": "Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Productivity",
-                "FILTER_HOURLY": "Productivity Hourly",
-                "FILTER_DAILY": "Productivity Daily"
+                "TITLE": "Produktivität",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Produktivität",
+                "FILTER_HOURLY": "Produktivität stündlich",
+                "FILTER_DAILY": "Produktivität täglich"
             },
             "BATTERY": {
-                "TITLE": "Battery",
-                "YAXIS": "Battery (%)",
-                "FILTER": "Battery"
+                "TITLE": "Batterie",
+                "YAXIS": "Batterie (%)",
+                "FILTER": "Batterie"
             },
             "TEMP_EVENTS": {
-                "TITLE": "Temperature Events",
+                "TITLE": "Temperaturereignisse",
                 "YAXIS": "",
-                "FILTER": "Temperature Events"
+                "FILTER": "Temperaturereignisse"
             },
             "AUDIO": {
                 "TITLE": "Vibration",
@@ -1426,224 +1426,224 @@
                 "FILTER": "Vibration"
             },
             "RADAR": {
-                "TITLE": "Radar Signal",
-                "YAXIS": "Radar Signal ({{label}})",
-                "FILTER": "Radar Signal"
+                "TITLE": "Radarsignal",
+                "YAXIS": "Radarsignal ({{label}})",
+                "FILTER": "Radarsignal"
             },
             "BEECOUNT": {
-                "TITLE": "Bee Count",
-                "YAXIS": "Bees ({{label}})",
-                "FILTER": "Bees",
-                "UNIT": "bees/min"
+                "TITLE": "Bienenzählung",
+                "YAXIS": "Bienen ({{label}})",
+                "FILTER": "Bienen",
+                "UNIT": "Bienen/Min"
             },
             "BROOD": {
-                "TITLE": "Brood",
-                "YAXIS": "Brood (%)",
-                "FILTER": "Brood"
+                "TITLE": "Brut",
+                "YAXIS": "Brut (%)",
+                "FILTER": "Brut"
             },
             "TEMP_MIN": {
-                "TITLE": "Min Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Temperature"
+                "TITLE": "Min. Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Min. Temperatur"
             },
             "TEMP_MEAN": {
-                "TITLE": "Mean Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Mean Temperature"
+                "TITLE": "Durchschnittstemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Durchschnittstemperatur"
             },
             "TEMP_MAX": {
-                "TITLE": "Max Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Temperature"
+                "TITLE": "Max. Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Max. Temperatur"
             },
             "TEMP_MIN_EXT": {
-                "TITLE": "Min External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min External Temperature"
+                "TITLE": "Min. Außentemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Min. Außentemperatur"
             },
             "TEMP_MAX_EXT": {
-                "TITLE": "Max External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max External Temperature"
+                "TITLE": "Max. Außentemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Max. Außentemperatur"
             },
             "HUMID_MIN": {
-                "TITLE": "Min Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Min Humidity"
+                "TITLE": "Min. Luftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Min. Luftfeuchtigkeit"
             },
             "HUMID_MAX": {
-                "TITLE": "Max Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Humidity"
+                "TITLE": "Max. Luftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Max. Luftfeuchtigkeit"
             },
             "GAIN": {
-                "TITLE": "Weight Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight Gain"
+                "TITLE": "Gewichtszunahme",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewichtszunahme"
             },
             "GAIN_CUMUL": {
-                "TITLE": "Cumulative Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Weight Gain"
+                "TITLE": "Kumulative Zunahme",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Kumulative Gewichtszunahme"
             },
             "PROD_CUMUL": {
-                "TITLE": "Cumulative Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Productivity"
+                "TITLE": "Kumulative Produktivität",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Kumulative Produktivität"
             },
             "HUMID_MAX_EXT": {
-                "TITLE": "External Humidity Max",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Max"
+                "TITLE": "Max. Außenluftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Max. Außenluftfeuchtigkeit"
             },
             "HUMID_MIN_EXT": {
-                "TITLE": "External Humidity Min",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Min"
+                "TITLE": "Min. Außenluftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Min. Außenluftfeuchtigkeit"
             },
             "TEMP_WEATHER": {
-                "TITLE": "Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Weather Temperature"
+                "TITLE": "Wettertemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Wettertemperatur"
             },
             "TEMP_MIN_WEATHER": {
-                "TITLE": "Min Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Weather Temperature"
+                "TITLE": "Min. Wettertemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Min. Wettertemperatur"
             },
             "TEMP_MAX_WEATHER": {
-                "TITLE": "Max Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Weather Temperature"
+                "TITLE": "Max. Wettertemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Max. Wettertemperatur"
             },
             "HUMID_MIN_WEATHER": {
-                "TITLE": "Min Weather Humidity",
-                "YAXIS": "Humidity (%)",
+                "TITLE": "Min. Wetterfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
                 "FILTER": ""
             },
             "HUMID_MAX_WEATHER": {
-                "TITLE": "Max Weather Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Weather Humidity"
+                "TITLE": "Max. Wetterfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Max. Wetterfeuchtigkeit"
             },
             "WEATHER": {
-                "TITLE": "Weather",
+                "TITLE": "Wetter",
                 "YAXIS": "",
-                "FILTER": "Weather Daily"
+                "FILTER": "Wetter täglich"
             },
             "WIND_MAX": {
-                "TITLE": "Max Wind",
+                "TITLE": "Max. Wind",
                 "YAXIS": "Wind ({{label}})",
-                "FILTER": "Max Wind"
+                "FILTER": "Max. Wind"
             },
             "HIVE_HEALTH": {
-                "TITLE": "Hive Health",
+                "TITLE": "Bienenstockgesundheit",
                 "YAXIS": "",
-                "FILTER": "Hive Health"
+                "FILTER": "Bienenstockgesundheit"
             },
             "LUNAR": {
-                "TITLE": "Lunar Calendar",
+                "TITLE": "Mondkalender",
                 "YAXIS": "",
-                "FILTER": "Lunar Daily"
+                "FILTER": "Mondkalender täglich"
             },
             "ALERTS_NOTES": {
-                "TITLE": "Alerts and Notes",
+                "TITLE": "Warnungen und Notizen",
                 "YAXIS": " ({{label}})",
-                "FILTER": "Alerts and Notes"
+                "FILTER": "Warnungen und Notizen"
             },
             "ALERTS": {
-                "TITLE": "Alerts",
+                "TITLE": "Warnungen",
                 "YAXIS": "",
-                "FILTER": "Alerts"
+                "FILTER": "Warnungen"
             },
             "NOTES": {
-                "TITLE": "Notes",
+                "TITLE": "Notizen",
                 "YAXIS": "",
-                "FILTER_APIARY": "Apiary Notes",
-                "FILTER_HIVE": "Hive Notes"
+                "FILTER_APIARY": "Bienenstand-Notizen",
+                "FILTER_HIVE": "Bienenstock-Notizen"
             },
             "PRECIP": {
-                "TITLE": "Precipitation",
-                "YAXIS": "Precipitation ({{label}})",
-                "FILTER": "Precipitation",
-                "FILTER_DAILY": "Precipitation Daily"
+                "TITLE": "Niederschlag",
+                "YAXIS": "Niederschlag ({{label}})",
+                "FILTER": "Niederschlag",
+                "FILTER_DAILY": "Niederschlag täglich"
             },
             "TEMP": {
-                "TITLE": "Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Temperature",
-                "FILTER_HOURLY": "Temperature Hourly"
+                "TITLE": "Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Temperatur",
+                "FILTER_HOURLY": "Temperatur stündlich"
             },
             "WIND": {
                 "TITLE": "Wind",
                 "YAXIS": "Wind ({{label}})",
                 "FILTER": "Wind",
-                "FILTER_HOURLY": "Wind Hourly"
+                "FILTER_HOURLY": "Wind stündlich"
             },
             "RAIN": {
-                "TITLE": "Rainfall",
-                "YAXIS": "Rainfall ({{label}})",
-                "FILTER": "Rainfall",
-                "FILTER_HOURLY": "Rain Hourly",
-                "FILTER_CUMULATIVE": "Rain Cumulative"
+                "TITLE": "Regenmenge",
+                "YAXIS": "Regenmenge ({{label}})",
+                "FILTER": "Regenmenge",
+                "FILTER_HOURLY": "Regen stündlich",
+                "FILTER_CUMULATIVE": "Regen kumulativ"
             },
             "HUMID": {
-                "TITLE": "Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Humidity",
-                "FILTER_HOURLY": "Humidity Hourly"
+                "TITLE": "Luftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Luftfeuchtigkeit",
+                "FILTER_HOURLY": "Luftfeuchtigkeit stündlich"
             },
             "CLOUD_COVER": {
-                "TITLE": "Cloud Cover",
-                "YAXIS": "Cloud Cover (%)",
-                "FILTER": "Cloud Cover",
-                "FILTER_HOURLY": "Cloud Cover Hourly"
+                "TITLE": "Bewölkung",
+                "YAXIS": "Bewölkung (%)",
+                "FILTER": "Bewölkung",
+                "FILTER_HOURLY": "Bewölkung stündlich"
             },
             "NECTAR": {
-                "TITLE": "Nectar flow index",
-                "YAXIS": "Nectar flow index (%)",
-                "FILTER": "Nectar flow"
+                "TITLE": "Nektarfluss-Index",
+                "YAXIS": "Nektarfluss-Index (%)",
+                "FILTER": "Nektarfluss"
             },
             "FLIGHT": {
-                "TITLE": "Foraging index",
-                "YAXIS": "Foraging index (%)",
-                "FILTER": "Foraging index"
+                "TITLE": "Sammelflug-Index",
+                "YAXIS": "Sammelflug-Index (%)",
+                "FILTER": "Sammelflug-Index"
             },
             "BC_ACTIV_DUR": {
-                "TITLE": "Foraging Duration",
-                "YAXIS": "Foraging Duration (hours)",
-                "FILTER": "Foraging Duration",
-                "UNIT": "hours"
+                "TITLE": "Sammelflugdauer",
+                "YAXIS": "Sammelflugdauer (Stunden)",
+                "FILTER": "Sammelflugdauer",
+                "UNIT": "Stunden"
             },
             "BC_FOR": {
-                "TITLE": "Foraging Trips",
-                "YAXIS": "Foraging (k trips/day)",
-                "FILTER": "Foraging Trips",
-                "UNIT": "trips/day"
+                "TITLE": "Sammelflüge",
+                "YAXIS": "Sammelflüge (Tsd. Flüge/Tag)",
+                "FILTER": "Sammelflüge",
+                "UNIT": "Flüge/Tag"
             },
             "BC_WORK_PER": {
-                "TITLE": "Foraging Periods",
-                "YAXIS": "Periods per day",
-                "FILTER": "Foraging Periods",
-                "UNIT": "working sessions"
+                "TITLE": "Sammelflugperioden",
+                "YAXIS": "Perioden pro Tag",
+                "FILTER": "Sammelflugperioden",
+                "UNIT": "Arbeitsperioden"
             },
             "MF_DUR": {
-                "TITLE": "Mating Flight Duration",
-                "YAXIS": "Flight Window (hours)",
-                "FILTER": "Flight Window (hours)",
-                "UNIT": "hours"
+                "TITLE": "Begattungsflugdauer",
+                "YAXIS": "Flugfenster (Stunden)",
+                "FILTER": "Flugfenster (Stunden)",
+                "UNIT": "Stunden"
             },
             "MF_COUNT": {
-                "TITLE": "Mating Flight Count",
-                "YAXIS": "flights/day",
-                "FILTER": "Mating Flight Count",
-                "UNIT": "flights/day"
+                "TITLE": "Anzahl Begattungsflüge",
+                "YAXIS": "Flüge/Tag",
+                "FILTER": "Anzahl Begattungsflüge",
+                "UNIT": "Flüge/Tag"
             },
             "MF_SESS": {
-                "TITLE": "Mating Flight Sessions",
-                "YAXIS": "Sessions/day",
-                "FILTER": "Mating Flight Sessions",
-                "UNIT": "sessions/day"
+                "TITLE": "Begattungsflug-Sitzungen",
+                "YAXIS": "Sitzungen/Tag",
+                "FILTER": "Begattungsflug-Sitzungen",
+                "UNIT": "Sitzungen/Tag"
             },
             "PLANT_BLOOM": {
                 "FILTER_DAILY": "Blüteperiode",

@@ -1393,263 +1393,263 @@
             "MSG": "No data or no weather"
         }
     },
-    "CHART": {
+   "CHART": {
         "DATA_TYPES": {
             "WEIGHT": {
-                "TITLE": "Weight",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight",
-                "FILTER_HOURLY": "Weight Hourly",
-                "FILTER_DAILY": "Weight Daily"
+                "TITLE": "Gewicht",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewicht",
+                "FILTER_HOURLY": "Gewicht per uur",
+                "FILTER_DAILY": "Gewicht per dag"
             },
             "PROD": {
-                "TITLE": "Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Productivity",
-                "FILTER_HOURLY": "Productivity Hourly",
-                "FILTER_DAILY": "Productivity Daily"
+                "TITLE": "Productiviteit",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Productiviteit",
+                "FILTER_HOURLY": "Productiviteit per uur",
+                "FILTER_DAILY": "Productiviteit per dag"
             },
             "BATTERY": {
-                "TITLE": "Battery",
-                "YAXIS": "Battery (%)",
-                "FILTER": "Battery"
+                "TITLE": "Batterij",
+                "YAXIS": "Batterij (%)",
+                "FILTER": "Batterij"
             },
             "TEMP_EVENTS": {
-                "TITLE": "Temperature Events",
+                "TITLE": "Temperatuurgebeurtenissen",
                 "YAXIS": "",
-                "FILTER": "Temperature Events"
+                "FILTER": "Temperatuurgebeurtenissen"
             },
             "AUDIO": {
-                "TITLE": "Vibration",
-                "YAXIS": "Vibration ({{label}})",
-                "FILTER": "Vibration"
+                "TITLE": "Trilling",
+                "YAXIS": "Trilling ({{label}})",
+                "FILTER": "Trilling"
             },
             "RADAR": {
-                "TITLE": "Radar",
-                "YAXIS": "Radar ({{label}})",
-                "FILTER": "Radar"
+                "TITLE": "Radarsignaal",
+                "YAXIS": "Radarsignaal ({{label}})",
+                "FILTER": "Radarsignaal"
             },
             "BEECOUNT": {
-                "TITLE": "Bee Count",
-                "YAXIS": "Bee Count ({{label}})",
-                "FILTER": "Bee Count",
-                "UNIT": "bees/min"
+                "TITLE": "Bijentelling",
+                "YAXIS": "Bijen ({{label}})",
+                "FILTER": "Bijen",
+                "UNIT": "bijen/min"
             },
             "BROOD": {
-                "TITLE": "Brood",
-                "YAXIS": "Brood (%)",
-                "FILTER": "Brood"
+                "TITLE": "Broed",
+                "YAXIS": "Broed (%)",
+                "FILTER": "Broed"
             },
             "TEMP_MIN": {
-                "TITLE": "Min Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Temperature"
+                "TITLE": "Min. temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Min. temperatuur"
             },
             "TEMP_MEAN": {
-                "TITLE": "Mean Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Mean Temperature"
+                "TITLE": "Gemiddelde temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Gemiddelde temperatuur"
             },
             "TEMP_MAX": {
-                "TITLE": "Max Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Temperature"
+                "TITLE": "Max. temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Max. temperatuur"
             },
             "TEMP_MIN_EXT": {
-                "TITLE": "Min External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min External Temperature"
+                "TITLE": "Min. buitentemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Min. buitentemperatuur"
             },
             "TEMP_MAX_EXT": {
-                "TITLE": "Max External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max External Temperature"
+                "TITLE": "Max. buitentemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Max. buitentemperatuur"
             },
             "HUMID_MIN": {
-                "TITLE": "Min Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Min Humidity"
+                "TITLE": "Min. luchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Min. luchtvochtigheid"
             },
             "HUMID_MAX": {
-                "TITLE": "Max Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Humidity"
+                "TITLE": "Max. luchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Max. luchtvochtigheid"
             },
             "GAIN": {
-                "TITLE": "Weight Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight Gain"
+                "TITLE": "Gewichtstoename",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewichtstoename"
             },
             "GAIN_CUMUL": {
-                "TITLE": "Cumulative Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Weight Gain"
+                "TITLE": "Cumulatieve toename",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Cumulatieve gewichtstoename"
             },
             "PROD_CUMUL": {
-                "TITLE": "Cumulative Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Productivity"
+                "TITLE": "Cumulatieve productiviteit",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Cumulatieve productiviteit"
             },
             "HUMID_MAX_EXT": {
-                "TITLE": "External Humidity Max",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Max"
+                "TITLE": "Max. buitenluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Max. buitenluchtvochtigheid"
             },
             "HUMID_MIN_EXT": {
-                "TITLE": "External Humidity Min",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Min"
+                "TITLE": "Min. buitenluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Min. buitenluchtvochtigheid"
             },
             "TEMP_WEATHER": {
-                "TITLE": "Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Weather Temperature"
+                "TITLE": "Weertemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Weertemperatuur"
             },
             "TEMP_MIN_WEATHER": {
-                "TITLE": "Min Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Weather Temperature"
+                "TITLE": "Min. weertemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Min. weertemperatuur"
             },
             "TEMP_MAX_WEATHER": {
-                "TITLE": "Max Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Weather Temperature"
+                "TITLE": "Max. weertemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Max. weertemperatuur"
             },
             "HUMID_MIN_WEATHER": {
-                "TITLE": "Min Weather Humidity",
-                "YAXIS": "Humidity (%)",
+                "TITLE": "Min. weerluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
                 "FILTER": ""
             },
             "HUMID_MAX_WEATHER": {
-                "TITLE": "Max Weather Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Weather Humidity"
+                "TITLE": "Max. weerluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Max. weerluchtvochtigheid"
             },
             "WEATHER": {
-                "TITLE": "Weather",
+                "TITLE": "Weer",
                 "YAXIS": "",
-                "FILTER": "Weather Daily"
+                "FILTER": "Weer per dag"
             },
             "WIND_MAX": {
-                "TITLE": "Max Wind",
+                "TITLE": "Max. wind",
                 "YAXIS": "Wind ({{label}})",
-                "FILTER": "Max Wind"
+                "FILTER": "Max. wind"
             },
             "HIVE_HEALTH": {
-                "TITLE": "Hive Health",
+                "TITLE": "Gezondheid bijenkast",
                 "YAXIS": "",
-                "FILTER": "Hive Health"
+                "FILTER": "Gezondheid bijenkast"
             },
             "LUNAR": {
-                "TITLE": "Lunar Calendar",
+                "TITLE": "Maankalender",
                 "YAXIS": "",
-                "FILTER": "Lunar Daily"
+                "FILTER": "Maan per dag"
             },
             "ALERTS_NOTES": {
-                "TITLE": "Alerts and Notes",
+                "TITLE": "Meldingen en notities",
                 "YAXIS": " ({{label}})",
-                "FILTER": "Alerts and Notes"
+                "FILTER": "Meldingen en notities"
             },
             "ALERTS": {
-                "TITLE": "Alerts",
+                "TITLE": "Meldingen",
                 "YAXIS": "",
-                "FILTER": "Alerts"
+                "FILTER": "Meldingen"
             },
             "NOTES": {
-                "TITLE": "Notes",
+                "TITLE": "Notities",
                 "YAXIS": "",
-                "FILTER_APIARY": "Apiary Notes",
-                "FILTER_HIVE": "Hive Notes"
+                "FILTER_APIARY": "Bijenstandnotities",
+                "FILTER_HIVE": "Bijenkastnotities"
             },
             "PRECIP": {
-                "TITLE": "Precipitation",
-                "YAXIS": "Precipitation ({{label}})",
-                "FILTER": "Precipitation",
-                "FILTER_DAILY": "Precipitation Daily"
+                "TITLE": "Neerslag",
+                "YAXIS": "Neerslag ({{label}})",
+                "FILTER": "Neerslag",
+                "FILTER_DAILY": "Neerslag per dag"
             },
             "TEMP": {
-                "TITLE": "Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Temperature",
-                "FILTER_HOURLY": "Temperature Hourly"
+                "TITLE": "Temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Temperatuur",
+                "FILTER_HOURLY": "Temperatuur per uur"
             },
             "WIND": {
                 "TITLE": "Wind",
                 "YAXIS": "Wind ({{label}})",
                 "FILTER": "Wind",
-                "FILTER_HOURLY": "Wind Hourly"
+                "FILTER_HOURLY": "Wind per uur"
             },
             "RAIN": {
-                "TITLE": "Rainfall",
-                "YAXIS": "Rainfall ({{label}})",
-                "FILTER": "Rainfall",
-                "FILTER_HOURLY": "Rain Hourly",
-                "FILTER_CUMULATIVE": "Rain Cumulative"
+                "TITLE": "Regenval",
+                "YAXIS": "Regenval ({{label}})",
+                "FILTER": "Regenval",
+                "FILTER_HOURLY": "Regen per uur",
+                "FILTER_CUMULATIVE": "Regen cumulatief"
             },
             "HUMID": {
-                "TITLE": "Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Humidity",
-                "FILTER_HOURLY": "Humidity Hourly"
+                "TITLE": "Luchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Luchtvochtigheid",
+                "FILTER_HOURLY": "Luchtvochtigheid per uur"
             },
             "CLOUD_COVER": {
-                "TITLE": "Cloud Cover",
-                "YAXIS": "Cloud Cover (%)",
-                "FILTER": "Cloud Cover",
-                "FILTER_HOURLY": "Cloud Cover Hourly"
+                "TITLE": "Bewolking",
+                "YAXIS": "Bewolking (%)",
+                "FILTER": "Bewolking",
+                "FILTER_HOURLY": "Bewolking per uur"
             },
             "NECTAR": {
-                "TITLE": "Nectar flow index",
-                "YAXIS": "Nectar flow index (%)",
-                "FILTER": "Nectar flow"
+                "TITLE": "Nectarstroomindex",
+                "YAXIS": "Nectarstroomindex (%)",
+                "FILTER": "Nectarstroom"
             },
             "FLIGHT": {
-                "TITLE": "Foraging index",
-                "YAXIS": "Foraging index (%)",
-                "FILTER": "Foraging index"
+                "TITLE": "Foerageerindex",
+                "YAXIS": "Foerageerindex (%)",
+                "FILTER": "Foerageerindex"
             },
             "BC_ACTIV_DUR": {
-                "TITLE": "Foraging Duration",
-                "YAXIS": "Foraging Duration (hours)",
-                "FILTER": "Foraging Duration",
-                "UNIT": "hours"
+                "TITLE": "Foerageerduur",
+                "YAXIS": "Foerageerduur (uren)",
+                "FILTER": "Foerageerduur",
+                "UNIT": "uren"
             },
             "BC_FOR": {
-                "TITLE": "Foraging Trips",
-                "YAXIS": "Foraging (k trips/day)",
-                "FILTER": "Foraging Trips",
-                "UNIT": "trips/day"
+                "TITLE": "Foerageervluchten",
+                "YAXIS": "Foerageren (k vluchten/dag)",
+                "FILTER": "Foerageervluchten",
+                "UNIT": "vluchten/dag"
             },
             "BC_WORK_PER": {
-                "TITLE": "Foraging Periods",
-                "YAXIS": "Periods per day",
-                "FILTER": "Foraging Periods",
-                "UNIT": "periods/day"
+                "TITLE": "Foerageerperiodes",
+                "YAXIS": "Periodes per dag",
+                "FILTER": "Foerageerperiodes",
+                "UNIT": "werkperiodes"
             },
             "MF_DUR": {
-                "TITLE": "Mating Flight Duration",
-                "YAXIS": "Flight Window (hours)",
-                "FILTER": "Flight Window (hours)",
-                "UNIT": "hours"
+                "TITLE": "Bruidsvluchtduur",
+                "YAXIS": "Vluchtvenster (uren)",
+                "FILTER": "Vluchtvenster (uren)",
+                "UNIT": "uren"
             },
             "MF_COUNT": {
-                "TITLE": "Mating Flight Count",
-                "YAXIS": "flights/day",
-                "FILTER": "Mating Flight Count",
-                "UNIT": "flights/day"
+                "TITLE": "Aantal bruidsvluchten",
+                "YAXIS": "vluchten/dag",
+                "FILTER": "Aantal bruidsvluchten",
+                "UNIT": "vluchten/dag"
             },
             "MF_SESS": {
-                "TITLE": "Mating Flight Sessions",
-                "YAXIS": "Sessions/day",
-                "FILTER": "Mating Flight Sessions",
-                "UNIT": "sessions/day"
+                "TITLE": "Bruidsvluchtsessies",
+                "YAXIS": "Sessies/dag",
+                "FILTER": "Bruidsvluchtsessies",
+                "UNIT": "sessies/dag"
             },
             "PLANT_BLOOM": {
                 "FILTER_DAILY": "Bloeiperiode",
                 "YAXIS": "Plant"
             },
             "PHENO_FORECAST": {
-                "FILTER_DAILY": "Fenologische Stadia"
+                "FILTER_DAILY": "Fenologische stadia"
             }
         }
     },
