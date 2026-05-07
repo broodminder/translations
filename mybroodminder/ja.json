@@ -2222,6 +2222,16 @@
         },
         "WEATHER": {
             "TITLE": "天気"
+        },
+       "PLANTS":{
+            "TITLE":"植物",
+            "BLOOM_FORECAST":"開花予報",
+            "BLOOM":"開花"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"コロニー遷移",
+            "COLONY_TRANSITION_CAL":"コロニー遷移カレンダー"
         }
     },
     "F_TOUR": {
@@ -2496,6 +2506,7 @@
         "QDT":"QDT",
         "QDT_TEXT":"女王蜂の発育期間(女王の卵から最初の産卵まで)",
         "NOT_APPLICABLE":"該当なし",
+        "IN_PROGRESS":"コロニー遷移中",
         "STATUS":{
             "INCOMPLETE":"未完了",
             "INCOMPLETE_ID":"失敗 - データ不完全",

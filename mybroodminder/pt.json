@@ -2221,6 +2221,16 @@
         },
         "WEATHER": {
             "TITLE": "Tempo"
+        },
+        "PLANTS":{
+            "TITLE":"Plantas",
+            "BLOOM_FORECAST":"Previsão de Floração",
+            "BLOOM":"Floração"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"Transição da Colónia",
+            "COLONY_TRANSITION_CAL":"Calendário de Transição da Colónia"
         }
     },
     "F_TOUR": {
@@ -2495,6 +2505,7 @@
         "QDT":"QDT",
         "QDT_TEXT":"Tempo de desenvolvimento da rainha (do ovo da rainha até ao seu primeiro ovo)",
         "NOT_APPLICABLE":"n/a",
+        "IN_PROGRESS":"Transição da colónia em curso",
         "STATUS":{
             "INCOMPLETE":"Incompleto",
             "INCOMPLETE_ID":"Falhou - Dados incompletos",

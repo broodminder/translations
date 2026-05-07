@@ -2221,6 +2221,16 @@
         },
         "WEATHER":{
             "TITLE":"Weather"
+        },
+        "PLANTS":{
+            "TITLE":"Plants",
+            "BLOOM_FORECAST":"Bloom Forecast",
+            "BLOOM":"Bloom"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"Colony Transition",
+            "COLONY_TRANSITION_CAL":"Colony Transition Calendar"
         }
     },
     "F_TOUR":{
@@ -2495,6 +2505,7 @@
         "QDT":"QDT",
         "QDT_TEXT":"Queen Development time (from queen egg to her first egg)",
         "NOT_APPLICABLE":"n/a",
+        "IN_PROGRESS":"Colony transition in progress",
         "STATUS":{
             "INCOMPLETE":"Incomplete",
             "INCOMPLETE_ID":"Failed - Incomplete data",

@@ -2222,6 +2222,16 @@
         },
         "WEATHER": {
             "TITLE": "Wetter"
+        },
+        "PLANTS":{
+            "TITLE":"Pflanzen",
+            "BLOOM_FORECAST":"Blütenvorhersage",
+            "BLOOM":"Blüte"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"Volksübergang",
+            "COLONY_TRANSITION_CAL":"Volksübergangskalender"
         }
     },
     "F_TOUR": {
@@ -2496,6 +2506,7 @@
         "QDT":"QDT",
         "QDT_TEXT":"Königinnen-Entwicklungszeit (vom Königinnen-Ei bis zu ihrem ersten Ei)",
         "NOT_APPLICABLE":"n/v",
+        "IN_PROGRESS":"Volksübergang in Bearbeitung",
         "STATUS":{
             "INCOMPLETE":"Unvollständig",
             "INCOMPLETE_ID":"Fehlgeschlagen - Unvollständige Daten",
