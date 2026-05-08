@@ -337,7 +337,7 @@
 		<value>In der Nähe</value>
 	</data>
 	<data name="DEVICE_STATUS_WAITING">
-		<value>Wartend</value>
+		<value>Abwarten</value>
 	</data>
 	<data name="DEVICE_STATUS_CONNECTING">
 		<value>Verbinden</value>
@@ -391,7 +391,7 @@
 		<value>Aktuelle Synchronisation abbrechen</value>
 	</data>
 	<data name="SYNC_INPROGRESS_DISMISS">
-		<value>Verwerfen</value>
+		<value>Löschen</value>
 	</data>
 	<data name="SYNC_STATUS">
 		<value>Synchronisationsstatus</value>
@@ -589,7 +589,7 @@
 		<value>*Bienenstock ist erforderlich</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Standort am Bienenstock</value>
+		<value>Standort im/am Bienenstock</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
 		<value>Position auswählen</value>
@@ -1312,7 +1312,7 @@
 		<value>Notiz nicht aktualisiert</value>
 	</data>
 	<data name="NOTE_APIARY_WARNING">
-		<value>Apiary-Notizen werden auf Ihrem MyBroodMinder-Konto hochgeladen und auf der Website angezeigt, sind jedoch in dieser App nicht sichtbar.</value>
+		<value>Bienenhof-Notizen werden auf Ihrem MyBroodMinder-Konto hochgeladen und auf der Website angezeigt, sind jedoch in dieser App nicht sichtbar.</value>
 	</data>
 	<data name="HIVE_CU_UTITLE">
 		<value>{0} bearbeiten</value>
@@ -1831,7 +1831,7 @@
 		<value>Gerätebenachrichtigungen</value>
 	</data>
 	<data name="DEVICEALERT_DISMISS">
-		<value>Verwerfen</value>
+		<value>Löschen</value>
 	</data>
 	<data name="DEVICEALERT_UPDATE">
 		<value>Aktualisieren</value>
@@ -1849,10 +1849,10 @@
 		<value>Gerät nahe am Probengrenzwert</value>
 	</data>
 	<data name="HIVEINACTIVE_TITLE">
-		<value>Hive als inaktiv setzen</value>
+		<value>Bienenstock als inaktiv setzen</value>
 	</data>
 	<data name="HIVEINACTIVE_MESSAGE">
-		<value>Dies beendet alle Gerätestandorte im Hive und entfernt den Hive aus Ihren Bienenhausansichten. Vorhandene Daten bleiben erhalten, jedoch werden neue Daten nicht mehr zu diesem Hive übertragen. Dies kann nicht rückgängig gemacht werden. Hive als inaktiv setzen?</value>
+		<value>Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhofansichten. Vorhandene Daten bleiben erhalten, jedoch werden neue Daten nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock als inaktiv setzen?</value>
 	</data>
 	<data name="HIVEINACTIVE_CONFIRM">
 		<value>Ja</value>
@@ -1876,16 +1876,16 @@
 		<value>Mit einem anderen Volk vereinigt</value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS">
-		<value>Hive als inaktiv gesetzt</value>
+		<value>Bienenstock als inaktiv gesetzt</value>
 	</data>
 	<data name="HIVEINACTIVE_ERROR">
-		<value>Fehler, Hive nicht als inaktiv gesetzt</value>
+		<value>Fehler, Bienenstock nicht als inaktiv gesetzt</value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION1">
-		<value>Hive als inaktiv gesetzt. Es ist hier nicht mehr sichtbar, aber weiterhin unter </value>
+		<value>Bienenstock als inaktiv gesetzt. Es ist hier nicht mehr sichtbar, aber weiterhin unter </value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
-		<value>Alle Hives können hier gefunden werden </value>
+		<value>Alle Bienenstöcke können hier gefunden werden </value>
 	</data>
 	<data name="CALIBRATION_SET">
 		<value>Einstellen</value>
@@ -2032,7 +2032,7 @@
 		<value>Paket installiert</value>
 	</data>
 	<data name="INSP_T_NUCLEUSHIVE">
-		<value>Nucleus-Hive installiert</value>
+		<value>Nucleus-Bienenstock installiert</value>
 	</data>
 	<data name="INSP_T_SPLITQUEENREMOVE">
 		<value>Teilung mit Entfernung der Königin</value>
@@ -2323,7 +2323,7 @@
 		<value>Sammelindex</value>
 	</data>
 	<data name="VAPIARY_NEWAPENOTE">
-		<value>Neue Bienenhausnotiz</value>
+		<value>Neue Bienenhofnotiz</value>
 	</data>
 	<data name="VAPIARY_FORECAST_TITLE">
 		<value>Vorhersage</value>
@@ -2347,7 +2347,7 @@
 		<value>Keine Inspektionen seit 2 Wochen.</value>
 	</data>
 	<data name="VAPIARY_REFRESH">
-		<value>Bienenhausdaten aktualisieren</value>
+		<value>Bienenhofdaten aktualisieren</value>
 	</data>
 	<data name="WEIGHT_TITLE">
 		<value>Gewicht</value>
@@ -2413,28 +2413,28 @@
 		<value>Aktualisierte Daten verzögert</value>
 	</data>
 	<data name="VHIVE_NOHIVE">
-		<value>Hive erstellen oder auswählen</value>
+		<value>Bienenstock erstellen oder auswählen</value>
 	</data>
 	<data name="VHIVE_NEWHIVE">
-		<value>Neue Hive</value>
+		<value>Neuer Bienenstock</value>
 	</data>
 	<data name="VHIVE_HNOTE">
-		<value>Neue Hive-Notiz</value>
+		<value>Neue Bienenstock-Notiz</value>
 	</data>
 	<data name="VHIVE_ANOTE">
-		<value>Neue Apiary-Notiz</value>
+		<value>Neue Bienenhof-Notiz</value>
 	</data>
 	<data name="VHIVE_REFRESH">
-		<value>Hive-Daten aktualisieren</value>
+		<value>Bienenstock-Daten aktualisieren</value>
 	</data>
 	<data name="ADDI_TITLE">
 		<value>Element hinzufügen</value>
 	</data>
 	<data name="ADDI_NOTE_APIARY">
-		<value>Apiary-Notiz hinzufügen</value>
+		<value>Bienenhof-Notiz hinzufügen</value>
 	</data>
 	<data name="ADDI_NOTE_HIVE">
-		<value>Hive-Notiz hinzufügen</value>
+		<value>Bienenstock-Notiz hinzufügen</value>
 	</data>
 	<data name="ADDI_NOTE_CT">
 		<value>Übergang fortsetzen</value>
@@ -2446,13 +2446,13 @@
 		<value>{0} Notiz</value>
 	</data>
 	<data name="CU_NOTE_HIVETITLE">
-		<value>Hive-Notiz erstellen</value>
+		<value>Bienenstock-Notiz erstellen</value>
 	</data>
 	<data name="CU_NOTE_HIVE_SEL">
-		<value>Hives auswählen (erstellt Notiz für jedes)</value>
+		<value>Bienenstöcke auswählen (erstellt Notiz für jedes)</value>
 	</data>
 	<data name="CU_NOTE_HIVE_ERROR">
-		<value>*Hive erforderlich</value>
+		<value>*Bienenstock erforderlich</value>
 	</data>
 	<data name="CU_NOTE_DATE">
 		<value>Datum</value>
@@ -2548,7 +2548,7 @@
 		<value>Batteriespar-Einstellungen</value>
 	</data>
 	<data name="BSSET_HUBEN">
-		<value>Hub in Apiary vorhanden</value>
+		<value>Hub im Bienenhof vorhanden</value>
 	</data>
 	<data name="BSSET_ASEN">
 		<value>Schwarmdetektion planen</value>
@@ -2593,7 +2593,7 @@
 		<value>Aktivitätsplanung</value>
 	</data>
 	<data name="BSSET_HP_EXP_MESSAGE">
-		<value>Wählen Sie dies aus, wenn Sie einen BroodMinder-Hub in Ihrer Apiary haben</value>
+		<value>Wählen Sie dies aus, wenn Sie einen BroodMinder-Hub in Ihrem Bienenhof haben</value>
 	</data>
 	<data name="BSSET_AS_EXP_MESSAGE">
 		<value>Die Reduzierung der Zeit, in der Ihre Sensoren nach Schwärmen suchen, verlängert die Batterielaufzeit.</value>
@@ -2623,10 +2623,10 @@
 		<value>Nicht berechnet</value>
 	</data>
 	<data name="PREMIUM_HIVES_REMAINING">
-		<value>Auf Ihrem Konto verbleiben noch {0} Hive-Speicherplätze</value>
+		<value>Auf Ihrem Konto verbleiben noch {0} Bienenstock-Speicherplätze</value>
 	</data>
 	<data name="PREMIUM_HIVE_REMAINING">
-		<value>{0} verbleibender Hive-Speicherplatz auf Ihrem Konto</value>
+		<value>{0} verbleibender Bienenstock-Speicherplatz auf Ihrem Konto</value>
 	</data>
 	<data name="PREMIUM_HIVES_NONE">
 		<value>Über der Grenze</value>

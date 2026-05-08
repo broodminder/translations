@@ -46,11 +46,11 @@
         "MEMBERSHIPS": "Mitgliedschaftsoptionen",
         "NEW": {
             "TITLE": "Neu",
-            "APIARY": "Bienenstock",
+            "APIARY": "Bienenhof",
             "HIVE": "Bienenstock",
             "DEVICE": "Gerät",
             "DASHBOARD": "Benutzerdefiniertes Dashboard",
-            "APIARY_NOTE": "Bienenstocknotiz",
+            "APIARY_NOTE": "Bienenhofnotiz",
             "HIVE_NOTE": "Bienenstocknotiz"
         },
         "MULTI_SELECT": "Mehrere auswählen",
@@ -143,7 +143,7 @@
             "LINK_4": "BroodMinder-SubHub",
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_7": "S1:E17 BroodMinder-W3 Vollwaage",
             "LINK_8": "S1:E19 BroodMinder-DIY"
         },
         "MYBROODMINDER": {
@@ -231,7 +231,7 @@
         },
         "HIVE": {
             "TITLE": "Bienenstock",
-            "DESCRIPTION": "Diese Ansicht zeigt eine schnelle Diagrammübersicht für jeden Bienenstock. Gewichtsanzeigereihenfolge: schwerster Wert. Luftfeuchtigkeit und Temperaturanzeigereihenfolge: 1-Above Lower Brood Box 2-Above Upper Brood Box 3-Under Inner Cover 4-Other 5-Custom (highest value) 6-Outside Hive 7-Scale Under Hive"
+            "DESCRIPTION": "Diese Ansicht zeigt eine schnelle Diagrammübersicht für jeden Bienenstock. Gewichtsanzeigereihenfolge: schwerster Wert. Luftfeuchtigkeit und Temperaturanzeigereihenfolge: 1-Über der unteren Brutkammer 2-Über der oberen Brutkammer 3-Unter dem Inneren Deckel 4-Sonst 5-Benutzer (höchster Wert) 6-Ausserhalb vom Bienenstock 7-Waage unterm Bienenstock"
         },
         "SUMMARY": {
             "TITLE": "Zusammenfassung",
@@ -316,19 +316,19 @@
         "CHART_TITLE": "Geräteübersicht für {{name}}",
         "LOCATION_PIN_START": "S",
         "LOCATION_PIN_END": "E",
-        "LOCATION_HISTORY": "Standorthistorie des Geräts",
+        "LOCATION_HISTORY": "Standortgeschichte des Geräts",
         "LOCATION_ADD": "Standort hinzufügen",
         "LOADING": "Lade Gerätesensormessungen",
         "DOWNLOAD": "CSV-Daten herunterladen",
         "DOWNLOAD_VIEW": "Angezeigten Zeitraum herunterladen",
-        "DOWNLOAD_HIST": "Vollständige Historie herunterladen",
+        "DOWNLOAD_HIST": "Vollständige Geschichte herunterladen",
         "OUTLIER_SHOW": "Dateneditor anzeigen",
         "OUTLIER_HIDE": "Dateneditor ausblenden",
         "EDITOR": {
             "TITLE": "Dateneditor",
-            "DESCRIPTION": "Zoom chart or click point to filter readings below.",
-            "BUTTON_NONE": "Select readings to remove in table below",
-            "BUTTON_SELECTED": "Remove selected",
+            "DESCRIPTION": "Grafik vergrössern oder Punkt anklicken um untenstehende Daten zu filtrieren.",
+            "BUTTON_NONE": "Wähle Eintragungen zur Entfernung von untenstehender Tabelle",
+            "BUTTON_SELECTED": "Auswahl entfernen",
             "REMOVE": "Entfernen",
             "NONE": "Keine Messungen für diesen Zeitraum",
             "TIMESTAMP": "Zeitstempel",
@@ -382,7 +382,7 @@
         "ADDRESS": "Geräteadresse",
         "MODEL": "Modell",
         "FIRMWARE": "Firmware",
-        "UPLOAD_TIME": "Letzter Upload-Zeitpunkt",
+        "UPLOAD_TIME": "Letzte Hochladung",
         "CHART_TITLE": "Hub Readings for {{name}}",
         "READING_COUNT": "Grafische Messungen: {{count}}",
         "CHART_LOADING": "Lade Hub-Messungen",
@@ -393,7 +393,7 @@
             "TITLE": "Hochgeladene Geräte",
             "DEVICE": "Gerät",
             "SIGNAL": "Signal",
-            "TIMESTAMP": "Upload-Zeitpunkt",
+            "TIMESTAMP": "Hochladung",
             "HIVE": "Bienenstock",
             "POSITION": "Position"
         }
@@ -424,7 +424,7 @@
         "SKIP": "Überspringen",
         "NEXT": "Weiter",
         "CLOSE": "Schließen",
-        "FEATURE_1": "Erstmalig, erstelle eine Beute",
+        "FEATURE_1": "Erstmalig, erstelle eine Bienenstock",
         "FEATURE_2": "Daten anzeigen",
         "FEATURE_3": "Konfiguration und Bewegung von Geräten",
         "FEATURE_4": "Anzeigen von CELL/WiFi/Hub-Status"
@@ -498,7 +498,7 @@
         "TITLE": "{{value}} Notizen",
         "ADD_TOOLTIP": "Notiz hinzufügen",
         "DOWNLOAD_TOOLTIP": "Notizen herunterladen",
-        "HIVE": "Beute",
+        "HIVE": "Bienenstock",
         "DATE": "Datum",
         "PIN": "Pin",
         "DESCRIPTION": "Beschreibung",
@@ -537,7 +537,7 @@
         "FIRMWARE": "Firmware"
     },
     "LOCATION_HIST": {
-        "HIVE": "Beute",
+        "HIVE": "Bienenstock",
         "POSITION": "Position",
         "DEVICE_NAME": "Gerätename",
         "DEVICE_ADDRESS": "Geräteadresse",
@@ -558,7 +558,7 @@
         "MOVE_EXP": "Dies beendet den aktuellen Standort und startet einen neuen.",
         "SELECT_DEVICE": "Gerät auswählen",
         "SELECT_APIARY": "Bienenshof auswählen",
-        "SELECT_HIVE": "Beute auswählen",
+        "SELECT_HIVE": "Bienenstock auswählen",
         "SELECT_POSITION": "Position auswählen",
         "START_DAY": "Starttag",
         "START_TIME": "Startzeit",
@@ -567,12 +567,12 @@
         "MOVED_DAY": "Neuer Standortstarttag",
         "MOVED_TIME": "Zeit",
         "ERROR_DEVICE": "Gerät hat einen Standort, der diesen Zeitpunkt überschneidet",
-        "ERROR_HIVE": "Beute hat Gerät, das diese Position überschneidet",
+        "ERROR_HIVE": "Bienenstock hat Gerät, das diese Position überschneidet",
         "ERROR_TIME": "Der Standort hat eine Endzeit vor der Startzeit",
         "ERROR_GENERAL": "Fehler beim Erstellen des Gerätestandorts",
-        "ERROR_INACTIVE_HIVE": "Der Standort kann keine Endzeit nach der Inaktivitätszeit der Beute haben",
+        "ERROR_INACTIVE_HIVE": "Der Standort kann keine Endzeit nach der Inaktivitätszeit der Bienenstock haben",
         "ERROR_MOVE_TIME": "Kann den Standort nicht vor dem Start beenden. Setzen Sie die Zeit auf nach {{currentEnd}}",
-        "SUCCESS_MOVED": "Gerät in Beute verschoben",
+        "SUCCESS_MOVED": "Gerät in Bienenstock verschoben",
         "SUCCESS_ENDED": "Aktueller Standort beendet",
         "CREATE": "Erstellen",
         "ADVANCED": {
@@ -597,7 +597,7 @@
             "SUCCESS": "Änderungen gespeichert",
             "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenhofs",
             "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenhofs",
-            "ERROR_LOCATION_REQUIRED": "Beute erfordert mindestens einen Bienenhof",
+            "ERROR_LOCATION_REQUIRED": "Bienenstock erfordert mindestens einen Bienenhof",
             "ERROR_APIARY_REQUIRED": "Für alle Standorte muss ein Bienenhof ausgewählt werden"
         }
     },
@@ -670,15 +670,15 @@
         }
     },
     "HIVE_CRUD": {
-        "CREATE_TITLE": "Beute erstellen",
-        "EDIT_TITLE": "Beute bearbeiten",
+        "CREATE_TITLE": "Bienenstock erstellen",
+        "EDIT_TITLE": "Bienenstock bearbeiten",
         "NAME": "Name",
         "COLOR": "Farbe",
         "SELECT_APIARY": "Bienenhof auswählen",
         "DESCRIPTION": "Beschreibung",
         "ERROR_APIARY": "Bienenhof auswählen",
-        "SUCCESS_CREATED": "Beute erstellt",
-        "SUCCESS_UPDATED": "Beute aktualisiert",
+        "SUCCESS_CREATED": "Bienenstock erstellt",
+        "SUCCESS_UPDATED": "Bienenstock aktualisiert",
         "DISPLAY": {
             "DESCRIPTION": "Einstellungen für die Mehrfachauswahlansicht",
             "WEIGHT": {
@@ -701,18 +701,18 @@
             },
             "BATTERY": {
                 "DESCRIPTION": "Zu graphierendes Batteriegerät im Multiselect-Modus",
-                "AUTO": "Niedrigste Gerätebatterie in der Beute im Multiselect-Modus anzeigen",
+                "AUTO": "Niedrigste Gerätebatterie in der Bienenstock im Multiselect-Modus anzeigen",
                 "NONE": "Kein Batteriegerät im Multiselect-Modus anzeigen",
                 "ALL": "Alle Geräte im Multiselect-Modus anzeigen"
             }
         },
         "MOVE": {
-            "TITLE": "Beute bewegen",
-            "EXP": "Alle Daten in dieser Beute bleiben gleich, aber dies platziert die Beute ab diesem Datum im ausgewählten Bienenhof. Dies spiegelt sich in den Wetterdaten und Bienenhofansichten wider.",
+            "TITLE": "Bienenstock bewegen",
+            "EXP": "Alle Daten in dieser Bienenstock bleiben gleich, aber dies platziert die Bienenstock ab diesem Datum im ausgewählten Bienenhof. Dies spiegelt sich in den Wetterdaten und Bienenhofansichten wider.",
             "DAY": "Neuer Standortstarttag",
             "TIME": "Zeit",
             "SELECT_APIARY": "Bienenhof auswählen",
-            "SUCCESS": "Beute bewegt"
+            "SUCCESS": "Bienenstock bewegt"
         }
     },
     "DEVICE_CRUD": {
@@ -732,7 +732,7 @@
         "SUCCESS_UPDATED": "Gerät aktualisiert",
         "PLACE_TITLE": "Gerät platzieren",
         "SELECT_POSITION": "Position auswählen",
-        "SUCCESS_PLACED": "Gerät in der Beute platziert",
+        "SUCCESS_PLACED": "Gerät in der Bienenstock platziert",
         "THIRD_PARTY": {
             "TITLE": "Gerät von Drittanbietern hinzufügen",
             "PROVIDER": "Anbieter wählen",
@@ -748,11 +748,11 @@
     "NOTE_CRUD": {
         "CREATE_TITLE": "Notiz erstellen",
         "EDIT_TITLE": "Notiz bearbeiten",
-        "NO_HIVE": "Keine Beute",
+        "NO_HIVE": "Keine Bienenstock",
         "ADD_TAG": "Tag hinzufügen",
         "DATE": "Datum",
-        "SUCCESS_CREATED": "Notiz in Beute erstellt",
-        "SUCCESS_UPDATED": "Notiz in Beute aktualisiert",
+        "SUCCESS_CREATED": "Notiz in Bienenstock erstellt",
+        "SUCCESS_UPDATED": "Notiz in Bienenstock aktualisiert",
         "ERROR_TIME": "Ungültige Zeit",
         "SHOW_MORE_TAGS":"Weitere Tags anzeigen",
         "APIARY": {
@@ -988,8 +988,8 @@
         "NAME": "Name des Bienenstocks",
         "CODE": "Bienenstock-Code",
         "APIARY": "Bienenhof",
-        "LOCATION_HISTORY": "Gerätehistorie",
-        "APIARY_HISTORY": "Bienenhof-Historie",
+        "LOCATION_HISTORY": "Geräte-Ortsgeschichte",
+        "APIARY_HISTORY": "Bienenhof-Geschichte",
         "ACTIVE": "Aktiv",
         "CONFIRM_DELETE_WINDOW": {
             "TITLE": "Bienenstock löschen",
@@ -1718,11 +1718,11 @@
         "BROODADD": "Hinzugefügte Brutrahmen",
         "BROODREMOVE": "Entfernte Brutrahmen",
         "COMBINEDHIVES": "Kombinierte Bienenstöcke",
-        "SWARM": "Schwarmbildung",
+        "SWARM": "Schwarm",
         "SECONDARYSWARM": "Nachschwarm",
         "CANDIFEED": "Zuckerfütterung",
         "SYRUPFEED": "Fütterung mit Sirup",
-        "PATTIESFEED": "Fütterung mit Pastillen",
+        "PATTIESFEED": "Fütterung mit Pollen-Fladen",
         "REQUEEN": "Umweiseln",
         "QUEENLINEAGE": "Königinnenherkunft",
         "HARVEST": "Ernte",
@@ -1762,7 +1762,7 @@
         "DRONE": "Anwesenheit von Drohnen",
         "BUZZINGHIVE": "Bienenstock mit legender Arbeiterin",
         "MOSAICBROOD": "Verstreute Brut",
-        "QUEENCELLSEEN": "Königinnenzelle gesehen",
+        "QUEENCELLSEEN": "Weiselzelle gesehen",
         "SUPERSEDUREEMERGENCY": "Austausch/ Notfall",
         "YOUNGLARVA": "Junge Larve",
         "OLDERLARVA": "Ältere Larve",
@@ -2109,9 +2109,9 @@
             "NO_DATA": "Keine Daten",
             "EDIT_CHART": "Diagramm bearbeiten",
             "DOWNLOAD_CHART": "Diagrammbild herunterladen",
-            "ZOOM_X": "X-Achsen-Zoom",
-            "ZOOM_Y": "Y-Achsen-Zoom",
-            "ZOOM_CANCEL": "Zoom abbrechen",
+            "ZOOM_X": "Vergrösserung der X-Achse",
+            "ZOOM_Y": "Vergrösserung der Y-Achse",
+            "ZOOM_CANCEL": "Vergrösserung abbrechen",
             "IMAGE": {
                 "ADD": "Bild hinzufügen",
                 "REMOVE": "Bild entfernen",
@@ -2197,7 +2197,7 @@
             },
             "PLANT_FORECAST": {
                 "TITLE": "Blütenprognose",
-                "APIARY": "Bienenstockstand",
+                "APIARY": "Bienenhof",
                 "PLANT": "Pflanze",
                 "DESCRIPTION": "Beschreibung",
                 "BBCH": "BBCH",
