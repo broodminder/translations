@@ -3076,87 +3076,87 @@
 		<value>Transición de colonia - Observaciones</value>
 	</data>
 	<data name="PLANT_ADDPLANT">
-		<value>Add Plant</value>
+		<value>Añadir planta</value>
 	</data>
 	<data name="PLANT_CHART_OBS_ON">
-		<value>Observed on</value>
+		<value>Observado el</value>
 	</data>
 	<data name="PLANT_CHART_FORC_ON">
-		<value>Forecast on</value>
+		<value>Pronóstico el</value>
 	</data>
 	<data name="PLANT_ADD_TITLE">
-		<value>Add Plant Configuration</value>
+		<value>Añadir configuración de planta</value>
 	</data>
 	<data name="PLANT_ADD_SEARCH">
-		<value>Search plant</value>
+		<value>Buscar planta</value>
 	</data>
 	<data name="PLANT_ADD_NONE">
-		<value>No plants found</value>
+		<value>No se encontraron plantas</value>
 	</data>
 	<data name="PLANT_ADD_DESCR">
-		<value>Description</value>
+		<value>Descripción</value>
 	</data>
 	<data name="PLANT_ADD_BLOOMSTART">
-		<value>Bloom start</value>
+		<value>Inicio de floración</value>
 	</data>
 	<data name="PLANT_ADD_MONTH">
-		<value>Month</value>
+		<value>Mes</value>
 	</data>
 	<data name="PLANT_ADD_DAY">
-		<value>Day</value>
+		<value>Día</value>
 	</data>
 	<data name="PLANT_ADD_BLOOMEND">
-		<value>Bloom end</value>
+		<value>Fin de floración</value>
 	</data>
 	<data name="PLANT_ADD_AVAIL">
-		<value>Availability</value>
+		<value>Disponibilidad</value>
 	</data>
 	<data name="PLANT_ADD_AVAIL_NO">
-		<value>No presence</value>
+		<value>Sin presencia</value>
 	</data>
 	<data name="PLANT_ADD_AVAIL_LOW">
-		<value>Low presence</value>
+		<value>Presencia baja</value>
 	</data>
 	<data name="PLANT_ADD_AVAIL_AVG">
-		<value>Average presence</value>
+		<value>Presencia media</value>
 	</data>
 	<data name="PLANT_ADD_AVAIL_STRONG">
-		<value>Strong presence</value>
+		<value>Presencia fuerte</value>
 	</data>
 	<data name="PLANT_ADD_ERROR1">
-		<value>Select a plant.</value>
+		<value>Seleccione una planta.</value>
 	</data>
 	<data name="PLANT_ADD_OBSMSG">
-		<value>Great! You've created a new plant. Would you like to add an observation to your plant?</value>
+		<value>¡Excelente! Ha creado una nueva planta. ¿Desea añadir una observación a su planta?</value>
 	</data>
 	<data name="PLANT_ADD_OBSTITLE">
-		<value>Add an observation to your plant?</value>
+		<value>¿Añadir una observación a su planta?</value>
 	</data>
 	<data name="PLANT_ADD_OBSNO">
 		<value>No</value>
 	</data>
 	<data name="OBS_ADD_TITLE">
-		<value>Add Plant Observation</value>
+		<value>Añadir observación de planta</value>
 	</data>
 	<data name="OBS_ADD_ERROR1">
-		<value>Missing apiary.</value>
+		<value>Falta el apiario.</value>
 	</data>
 	<data name="OBS_ADD_ERROR2">
-		<value>Unable to load plant configurations.</value>
+		<value>No se pueden cargar las configuraciones de planta.</value>
 	</data>
 	<data name="OBS_ADD_ERROR3">
-		<value>Unable to create plant observation.</value>
+		<value>No se puede crear la observación de planta.</value>
 	</data>
 	<data name="OBS_ADD_SELECTPLANT">
-		<value>Select Plant Configuration</value>
+		<value>Seleccionar configuración de planta</value>
 	</data>
 	<data name="OBS_ADD_DATE">
-		<value>Date of observation</value>
+		<value>Fecha de observación</value>
 	</data>
 	<data name="OBS_ADD_NOTE">
-		<value>Note</value>
+		<value>Nota</value>
 	</data>
 	<data name="OBS_ADD_SELECTPHENO">
-		<value>Select pheno stage</value>
+		<value>Seleccionar fase fenológica</value>
 	</data>
 </root>
