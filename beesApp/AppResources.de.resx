@@ -121,7 +121,7 @@
 		<value>Batteriesparer aktivieren/deaktivieren</value>
 	</data>
 	<data name="SETTINGS_SHOWFIRMWARE">
-		<value>Verfügbare Firmware-Updates anzeigen</value>
+		<value>Verfügbare Firmware Aktualisierung anzeigen</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
 		<value>CSV bei SubHub-Synchronisation speichern</value>
@@ -1027,7 +1027,7 @@
 		<value>Firmware-Aktualisierungsfortschritt: </value>
 	</data>
 	<data name="FIRMWARE_BACK">
-		<value>Firmware-Update läuft. Sie müssen hier bleiben, damit es abgeschlossen werden kann. Das Zurückgehen bricht das Update ab und wird nicht empfohlen.</value>
+		<value>Firmware Aktualisierung läuft. Sie müssen hier bleiben, damit es abgeschlossen werden kann. Das Zurückgehen bricht das Update ab und wird nicht empfohlen.</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL">
 		<value>Update abbrechen?</value>
@@ -1051,7 +1051,7 @@
 		<value>Synchronisation fehlgeschlagen</value>
 	</data>
 	<data name="FIRMWARE_CANCELLED">
-		<value>Firmware-Update abgebrochen</value>
+		<value>Firmware Aktualisierung abgebrochen</value>
 	</data>
 	<data name="FIRMWARE_CONNECTED">
 		<value>Mit Gerät verbunden</value>
@@ -1060,7 +1060,7 @@
 		<value>Aktualisierung konnte nicht gestartet werden</value>
 	</data>
 	<data name="FIRMWARE_SUCCESS">
-		<value>Firmware-Update erfolgreich</value>
+		<value>Firmware Aktualisierung erfolgreich</value>
 	</data>
 	<data name="FIRMWARE_COMPLETE">
 		<value>Erfolgreich abgeschlossen</value>
@@ -1567,7 +1567,7 @@
 		<value>Tippen Sie auf die Synchronisierungsübersicht, um eine detailliertere Liste des Synchronisierungsstatus jedes Geräts anzuzeigen.</value>
 	</data>
 	<data name="FIRMWARESTATUS_NOTFOUND">
-		<value>Firmware-Update nicht gefunden</value>
+		<value>Firmware-Aktualisierung nicht gefunden</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTING">
 		<value>Verbindung wird hergestellt, kann 60 Sekunden dauern</value>
@@ -1831,7 +1831,7 @@
 		<value>Gerätebenachrichtigungen</value>
 	</data>
 	<data name="DEVICEALERT_DISMISS">
-		<value>Löschen</value>
+		<value>Später</value>
 	</data>
 	<data name="DEVICEALERT_UPDATE">
 		<value>Aktualisieren</value>
@@ -1843,10 +1843,10 @@
 		<value>Niedrige Batterie</value>
 	</data>
 	<data name="DEVICEALERT_FIRMWARE">
-		<value>Firmware-Update verfügbar</value>
+		<value>Firmware-Aktualisierung verfügbar</value>
 	</data>
 	<data name="DEVICEALERT_SAMPLELIMIT">
-		<value>Gerät nahe am Probengrenzwert</value>
+		<value>Gerät nahe an der maximalen Anzahl Messungen</value>
 	</data>
 	<data name="HIVEINACTIVE_TITLE">
 		<value>Bienenstock als inaktiv setzen</value>
@@ -2521,7 +2521,7 @@
 		<value>Nur geeignete anzeigen</value>
 	</data>
 	<data name="BSCHANGE_NEEDSUPDATE">
-		<value>Firmware-Update erforderlich</value>
+		<value>Firmware Aktualisierung erforderlich</value>
 	</data>
 	<data name="BSCHANGE_NOTELIGIBLE">
 		<value>Nicht geeignet</value>
