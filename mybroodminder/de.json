@@ -1040,7 +1040,7 @@
         "ADDRESS": "Geräteadresse",
         "LOCATION": "Aktueller Standort",
         "DATA_RECEIVED": "Letzte Datenübermittlung",
-        "LOCATION_HISTORY": "Frühere Standorte des Gerätes",
+        "LOCATION_HISTORY": "Standortgeschichte",
         "BATTERY": "Batterie",
         "ADD_LOCATION": "Standort hinzufügen",
         "ACTIVE": "Aktiv",
