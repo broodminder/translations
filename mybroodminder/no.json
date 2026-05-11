@@ -1145,9 +1145,9 @@
         }
     },
     "POSITIONS": {
-        "UNDER_INNER_COVER": "Under indre deksel",
-        "ABOVE_LOWER_BROOD_BOX": "Over nedre yngelkasse",
-        "ABOVE_UPPER_BROOD_BOX": "Over øvre yngelkasse",
+        "UNDER_INNER_COVER": "Indre deksel",
+        "ABOVE_LOWER_BROOD_BOX": "Nedre yngelkasse",
+        "ABOVE_UPPER_BROOD_BOX": "Øvre yngelkasse",
         "OUTSIDE_HIVE": "Utenfor kube",
         "SCALE_UNDER_HIVE": "Skala under kube",
         "SCALE_UNDER_HIVE_BACK": "Skala under kube (bak)",
