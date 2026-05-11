@@ -96,6 +96,15 @@
 	<data name="COMMON_NOT_APPICABLE">
 		<value>s/o</value>
 	</data>
+	<data name="COMMON_YES">
+		<value>Oui</value>
+	</data>
+	<data name="COMMON_TRUE">
+		<value>Vrai</value>
+	</data>
+	<data name="COMMON_FALSE">
+		<value>Faux</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Compte</value>
 	</data>
@@ -3158,5 +3167,11 @@
 	</data>
 	<data name="OBS_ADD_SELECTPHENO">
 		<value>Sélectionner le stade phénologique</value>
+	</data>
+	<data name="NOTE_STARTCT_TITLE">
+		<value>Démarrer la Transition de Colonie</value>
+	</data>
+	<data name="NOTE_STARTCT_MESSAGE">
+		<value>Cette étiquette peut démarrer un cycle de transition de colonie. Souhaitez-vous le faire ?</value>
 	</data>
 </root>

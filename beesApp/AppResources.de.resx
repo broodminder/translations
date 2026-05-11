@@ -96,6 +96,15 @@
 	<data name="COMMON_NOT_APPICABLE">
 		<value>n/v</value>
 	</data>
+	<data name="COMMON_YES">
+		<value>Ja</value>
+	</data>
+	<data name="COMMON_TRUE">
+		<value>Wahr</value>
+	</data>
+	<data name="COMMON_FALSE">
+		<value>Falsch</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Konto</value>
 	</data>
@@ -3158,5 +3167,11 @@
 	</data>
 	<data name="OBS_ADD_SELECTPHENO">
 		<value>Phänologische Phase auswählen</value>
+	</data>
+	<data name="NOTE_STARTCT_TITLE">
+		<value>Start Colony Transition</value>
+	</data>
+	<data name="NOTE_STARTCT_MESSAGE">
+		<value>This tag can start a colony transition cycle. Would you like to do that?</value>
 	</data>
 </root>

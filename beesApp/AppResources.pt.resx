@@ -96,6 +96,15 @@
     <data name="COMMON_NOT_APPICABLE">
 		<value>n/a</value>
 	</data>
+    <data name="COMMON_YES">
+		<value>Sim</value>
+	</data>
+	<data name="COMMON_TRUE">
+		<value>Verdadeiro</value>
+	</data>
+	<data name="COMMON_FALSE">
+		<value>Falso</value>
+	</data>
     <data name="SETTINGS_ACCOUNT">
         <value>Conta</value>
     </data>
@@ -3159,4 +3168,10 @@
     <data name="OBS_ADD_SELECTPHENO">
         <value>Selecionar fase fenológica</value>
     </data>
+    <data name="NOTE_STARTCT_TITLE">
+		<value>Iniciar Transição da Colónia</value>
+	</data>
+	<data name="NOTE_STARTCT_MESSAGE">
+		<value>Esta etiqueta pode iniciar um ciclo de transição da colónia. Deseja fazê-lo?</value>
+	</data>
 </root>
