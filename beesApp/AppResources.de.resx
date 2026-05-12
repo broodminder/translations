@@ -2038,10 +2038,10 @@
 		<value>Ernte</value>
 	</data>
 	<data name="INSP_T_INSTALLPKG">
-		<value>Paket installiert</value>
+		<value>Schwarm / Paket einlogiert</value>
 	</data>
 	<data name="INSP_T_NUCLEUSHIVE">
-		<value>Nucleus-Bienenstock installiert</value>
+		<value>Nucleus-Bienenstock einlogiert</value>
 	</data>
 	<data name="INSP_T_SPLITQUEENREMOVE">
 		<value>Teilung mit Entfernung der Königin</value>
@@ -2473,10 +2473,10 @@
 		<value> Hier etwas schreiben ...</value>
 	</data>
 	<data name="CU_NOTE_TAGS">
-		<value>Tags auswählen</value>
+		<value>Markierungen auswählen</value>
 	</data>
 	<data name="CU_NOTE_ADD_TAGS">
-		<value>Tags hinzufügen</value>
+		<value>Markierungen hinzufügen</value>
     </data>
 	<data name="BSCHANGE_TITLE">
 		<value>Batteriesparer</value>
@@ -2995,7 +2995,7 @@
 		<value>Kontrolle 1</value>
 	</data>
 	<data name="CT_CE_I1_CAPTITLE">
-		<value>Installation</value>
+		<value>Einlogieren</value>
 	</data>
 	<data name="CT_CE_I2_TITLE">
 		<value>Kontrolle 2</value>
@@ -3169,9 +3169,9 @@
 		<value>Phänologische Phase auswählen</value>
 	</data>
 	<data name="NOTE_STARTCT_TITLE">
-		<value>Start Colony Transition</value>
+		<value>Volksübergang Starten</value>
 	</data>
 	<data name="NOTE_STARTCT_MESSAGE">
-		<value>This tag can start a colony transition cycle. Would you like to do that?</value>
+		<value>Diese Markierung kann einen Volksübergang auslösen. Möchten Sie fortfahren?</value>
 	</data>
 </root>
