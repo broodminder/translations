@@ -1146,9 +1146,9 @@
         }
     },
     "POSITIONS": {
-        "UNDER_INNER_COVER": "Inneren Deckel",
-        "ABOVE_LOWER_BROOD_BOX": "Unterer Brutkiste",
-        "ABOVE_UPPER_BROOD_BOX": "Oberer Brutkiste",
+        "UNDER_INNER_COVER": "Unter dem inneren Deckel",
+        "ABOVE_LOWER_BROOD_BOX": "Über der unteren Brutkiste",
+        "ABOVE_UPPER_BROOD_BOX": "Über der oberen Brutkiste",
         "OUTSIDE_HIVE": "Außerhalb des Bienenstocks",
         "SCALE_UNDER_HIVE": "Waage unter dem Bienenstock",
         "SCALE_UNDER_HIVE_BACK": "Waage unter dem Bienenstock (Hinten)",
