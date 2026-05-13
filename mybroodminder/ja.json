@@ -1072,7 +1072,8 @@
         "APIARY": "養蜂場",
         "HIVE": "ハイブ",
         "DEVICE": "デバイス",
-        "POSITION": "位置"
+        "POSITION": "位置",
+        "BETA": "ベータ"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",

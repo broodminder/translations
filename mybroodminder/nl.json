@@ -1072,7 +1072,8 @@
         "APIARY": "Bijenstal",
         "HIVE": "Bijenkast",
         "DEVICE": "Sensor",
-        "POSITION": "Positie"
+        "POSITION": "Positie",
+        "BETA": "Bèta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",

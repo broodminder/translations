@@ -1072,7 +1072,8 @@
         "APIARY": "Rucher",
         "HIVE": "Ruche",
         "DEVICE": "Capteur",
-        "POSITION": "Position"
+        "POSITION": "Position",
+        "BETA": "Bêta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",

@@ -1072,7 +1072,8 @@
         "APIARY": "Bigård",
         "HIVE": "Kube",
         "DEVICE": "Enhet",
-        "POSITION": "Posisjon"
+        "POSITION": "Posisjon",
+        "BETA": "Beta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",

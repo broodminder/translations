@@ -1072,8 +1072,10 @@
         "APIARY": "Bienenhof",
         "HIVE": "Bienenstock",
         "DEVICE": "Gerät",
-        "POSITION": "Position"
+        "POSITION": "Position",
+        "BETA"  : "Beta"
     },
+    
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
         "LINK": "Bienenstock auf BeeCounted.org anzeigen",

@@ -1072,7 +1072,8 @@
         "APIARY": "Alveare",
         "HIVE": "Alveare",
         "DEVICE": "Dispositivo",
-        "POSITION": "Posizione"
+        "POSITION": "Posizione",
+        "BETA": "Beta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",

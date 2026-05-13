@@ -1072,7 +1072,8 @@
         "APIARY": "Colmenar",
         "HIVE": "Colmena",
         "DEVICE": "Sensor",
-        "POSITION": "Ubicación"
+        "POSITION": "Ubicación",
+        "BETA": "Beta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",

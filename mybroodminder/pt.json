@@ -1072,7 +1072,8 @@
         "APIARY": "Apiário",
         "HIVE": "Colmeia",
         "DEVICE": "Dispositivo",
-        "POSITION": "Posição"
+        "POSITION": "Posição",
+        "BETA": "Beta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
