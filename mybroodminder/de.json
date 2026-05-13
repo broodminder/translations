@@ -1726,8 +1726,8 @@
         "REQUEEN": "Umweiseln",
         "QUEENLINEAGE": "Königinnenherkunft",
         "HARVEST": "Ernte",
-        "INSTALLPKG": "Schwarm/Paket Einschlagen",
-        "NUCLEUSHIVE": "Installierter Kernbienenstock",
+        "INSTALLPKG": "Schwarm/Paket Einlogieren",
+        "NUCLEUSHIVE": "einlogierter Kernbienenstock",
         "SPLITQUEENREMOVE": "Teilung mit Entfernung der Königin",
         "NECTARFLOW": "Nektarfluss",
         "MITEOAVAPOR": "Milbenbehandlung: Oxalsäureverdampfung",
@@ -1781,9 +1781,9 @@
         "EMERGEDVIRGIN": "Ausgeschlüpfte Jungkönigin (1-3 Tage alt)",
         "FERTILEVIRGIN": "Fruchtbare Jungkönigin (4 oder mehr Tage alt)",
         "CONFIRMEDQUEEN": "Bestätigte Königin",
-        "INSTALLEDPACKAGE": "Installierte Paketbienen (begattete Königin)",
-        "INSTALLEDPRIMARYSWARM": "Installierter Erstschwarm (Begattete Königin)",
-        "INSTALLEDSECONDARYSWARM": "Installierter Nachschwarm (Fruchtbare Jungkönigin)"
+        "INSTALLEDPACKAGE": "Einlogierte Paketbienen (begattete Königin)",
+        "INSTALLEDPRIMARYSWARM": "Einlogierter Erstschwarm (Begattete Königin)",
+        "INSTALLEDSECONDARYSWARM": "Einlogierter Nachschwarm (Fruchtbare Jungkönigin)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Brutstadien",
@@ -2557,7 +2557,7 @@
             },
             "I1":{
                 "TITLE":"Kontrolle 1",
-                "TITLE_CAP":"Installation",
+                "TITLE_CAP":"Einlogieren",
                 "SWM":"Alle Weiselzellen bis auf eine oder zwei der ältesten entfernen. Entwicklungsstadium der ältesten bestimmen.",
                 "SPLT":"Sicherstellen, dass der Ableger Eier und Larven, Weiselzelle(n) oder eine lebende Königin hat",
                 "REQ":"Ressourcen bereitstellen, damit das Volk eine neue Königin nachziehen kann. Es wird angenommen, dass die Mutterkönigin während dieser Kontrolle entfernt wurde. Andernfalls muss das Alter der jüngsten verbleibenden Brut beurteilt und dokumentiert werden.",
