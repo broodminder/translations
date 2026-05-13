@@ -2395,7 +2395,7 @@
                     "TITLE": "Beobachtung löschen",
                     "TEXT": "Möchten Sie diese Beobachtung wirklich löschen?",
                     "YES": "Ja, Beobachtung löschen",
-                    "NO": "Abbrechen",
+                    "NO": "Nein",
                     "SUCCESS": "Beobachtung gelöscht"
                 }
             }
@@ -2423,7 +2423,7 @@
                 "TITLE": "Eine Beobachtung für eine andere Pflanze machen?",
                 "TEXT": "Sie verlieren die aktuelle Beobachtung. Möchten Sie fortfahren?",
                 "YES": "Fortfahren ohne Änderungen",
-                "NO": "Abbrechen"
+                "NO": "Nein"
             }
         },
         "ADD_CONFIGURATION": {
@@ -2467,7 +2467,7 @@
             "TITLE": "Pflanze löschen",
             "TEXT": "Möchten Sie diese Pflanze wirklich löschen?",
             "YES": "Ja, Pflanze löschen",
-            "NO": "Abbrechen",
+            "NO": "Nein",
             "SUCCESS": "Pflanze gelöscht"
         }
     },
