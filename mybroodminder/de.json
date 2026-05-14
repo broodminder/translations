@@ -749,12 +749,12 @@
         "CREATE_TITLE": "Notiz erstellen",
         "EDIT_TITLE": "Notiz bearbeiten",
         "NO_HIVE": "Keine Bienenstock",
-        "ADD_TAG": "Tag hinzufügen",
+        "ADD_TAG": "Markierung hinzufügen",
         "DATE": "Datum",
         "SUCCESS_CREATED": "Notiz in Bienenstock erstellt",
         "SUCCESS_UPDATED": "Notiz in Bienenstock aktualisiert",
         "ERROR_TIME": "Ungültige Zeit",
-        "SHOW_MORE_TAGS":"Weitere Tags anzeigen",
+        "SHOW_MORE_TAGS":"Weitere Markierungen anzeigen",
         "APIARY": {
             "STATE": "Allgemeiner Zustand"
         }
@@ -2146,7 +2146,7 @@
                 "DATE": "Datum",
                 "DESCRIPTION": "Beschreibung",
                 "NO_DESCR": "Keine Beschreibung",
-                "TAGS": "Tags",
+                "TAGS": "Markierungen",
                 "DELETE_ALERT": {
                     "TITLE": "Alarm löschen",
                     "MESSAGE": "Sind Sie sicher, dass Sie diesen Alarm löschen möchten?",
