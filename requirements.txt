@@ -43,7 +43,7 @@ pycparser==2.22
 pydantic==2.6.1
 pydantic_core==2.16.2
 pydyf==0.10.0
-Pygments==2.17.2
+Pygments==2.20.0
 pymdown-extensions>=10.16.1
 pyphen==0.15.0
 python-dateutil==2.8.2
