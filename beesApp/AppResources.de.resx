@@ -2956,7 +2956,7 @@
 		<value>Stille Umweiselung</value>
 	</data>
 	<data name="CT_TAGS_SUB_RESTART">
-		<value>Wiederholen vom Zyklus</value>
+		<value>Zyklus-Neustart</value>
 	</data>
 	<data name="CT_CE_TITLE">
 		<value>Volksübergang</value>
