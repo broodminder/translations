@@ -193,7 +193,7 @@
 		<value>Debug-Protokoll herunterladen</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_TURNOFFFULLDBL">
-		<value>Vollständiges Debug-Logging deaktivieren</value>
+		<value>Komplettes Debug-Logging deaktivieren</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_MESSAGE">
 		<value>Geräte entfernen, die nicht zum MyBroodMinder-Konto {0} gehören?</value>
@@ -1144,7 +1144,7 @@
 		<value>CSV-Dateien des Subhubs löschen</value>
 	</data>
 	<data name="SUBHUBDETAIL_CONTEXT_SYNCFULL">
-		<value>Vollständiges Synchronisieren des SubHub-Logs</value>
+		<value>Komplettes Synchronisieren des SubHub-Logs</value>
 	</data>
 	<data name="SUBHUBDETAIL_SYNCSINCE">
 		<value>Alle Geräte seit {0} synchronisieren</value>
@@ -1273,7 +1273,7 @@
 		<value>App-Version</value>
 	</data>
 	<data name="HELP_LOGGING">
-		<value>Vollständige Debug-Protokollierung aktiviert</value>
+		<value>Komplette Debug-Protokollierung aktiviert</value>
 	</data>
 	<data name="HELP_FROMERR">
 		<value>Absenderfeld erforderlich</value>
@@ -2962,10 +2962,10 @@
 		<value>Volksübergang</value>
 	</data>
 	<data name="CT_STATUS_INCOMPLETE">
-		<value>Unvollständig</value>
+		<value>Unvoll-ständig</value>
 	</data>
 	<data name="CT_STATUS_COMPLETE">
-		<value>Vollständig</value>
+		<value>Komplett</value>
 	</data>
 	<data name="CT_STATUS_RESTARTED">
 		<value>Neu gestartet</value>
