@@ -2950,13 +2950,13 @@
 		<value>Datum zu spät, keine Änderung vorgenommen</value>
 	</data>
 	<data name="CT_TAGS_SUB_WDBROOD">
-		<value>Worker/Drone Brood</value>
+		<value>Arbeiterinnen- und Dronenbrut</value>
 	</data>
 	<data name="CT_TAGS_SUB_SUP">
-		<value>Supersedure Queen</value>
+		<value>Stille Umweiselung</value>
 	</data>
 	<data name="CT_TAGS_SUB_RESTART">
-		<value>Cycle Restart</value>
+		<value>Wiederholen vom Zyklus</value>
 	</data>
 	<data name="CT_CE_TITLE">
 		<value>Volksübergang</value>
