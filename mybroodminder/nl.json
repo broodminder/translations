@@ -2531,6 +2531,10 @@
             "YES":"Ja",
             "NO":"Nee"
         },
+        "START_TRANSITION":{
+            "TITLE":"Kolonie-overgang starten",
+            "MESSAGE":"Met deze tag kun je een kolonie-overgangscyclus starten. Wil je dat doen?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Ontwikkelingsstadium van de OUDSTE moerdop die in de kast is achtergelaten.",
             "I1_SPLT":"Ontwikkelingsstadium van de OUDSTE koninginnenkweekbron die in de kast is achtergelaten.",

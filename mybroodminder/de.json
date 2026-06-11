@@ -2533,6 +2533,10 @@
             "YES":"Ja",
             "NO":"Nein"
         },
+        "START_TRANSITION":{
+            "TITLE":"Volksübergang Starten",
+            "MESSAGE":"Diese Markierung kann einen Volksübergang auslösen. Möchten Sie fortfahren?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle.",
             "I1_SPLT":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Königinnenaufzuchtsressource.",

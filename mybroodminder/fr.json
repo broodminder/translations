@@ -2531,6 +2531,10 @@
             "YES":"Oui",
             "NO":"Non"
         },
+        "START_TRANSITION":{
+            "TITLE":"Démarrer la Transition de Colonie",
+            "MESSAGE":"Cette étiquette peut démarrer un cycle de transition de colonie. Souhaitez-vous le faire ?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Stade de développement de la PLUS ANCIENNE cellule royale laissée dans la ruche.",
             "I1_SPLT":"Stade de développement de la PLUS ANCIENNE ressource d'élevage de reine laissée dans la ruche.",

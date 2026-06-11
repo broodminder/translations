@@ -2531,6 +2531,10 @@
             "YES":"Yes",
             "NO":"No"
         },
+        "START_TRANSITION":{
+            "TITLE":"Start Colony Transition",
+            "MESSAGE":"This tag can start a colony transition cycle. Would you like to do that?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Development stage of the OLDEST queen cell left in the hive.",
             "I1_SPLT":"Development Stage of the OLDEST queen rearing resource left in the hive.",

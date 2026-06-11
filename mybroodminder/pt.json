@@ -2531,6 +2531,10 @@
             "YES":"Sim",
             "NO":"Não"
         },
+        "START_TRANSITION":{
+            "TITLE":"Iniciar Transição da Colónia",
+            "MESSAGE":"Esta etiqueta pode iniciar um ciclo de transição da colónia. Deseja fazê-lo?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Fase de desenvolvimento da célula real MAIS ANTIGA deixada na colmeia.",
             "I1_SPLT":"Fase de desenvolvimento do recurso de criação de rainha MAIS ANTIGO deixado na colmeia.",

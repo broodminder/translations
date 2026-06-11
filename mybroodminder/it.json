@@ -2532,6 +2532,10 @@
             "YES":"Sì",
             "NO":"No"
         },
+        "START_TRANSITION":{
+            "TITLE":"Avvia transizione della colonia",
+            "MESSAGE":"Questo tag può avviare un ciclo di transizione della colonia. Vuoi procedere?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Fase di sviluppo della cella reale PIÙ VECCHIA lasciata nell'arnia.",
             "I1_SPLT":"Fase di sviluppo della risorsa di allevamento della regina PIÙ VECCHIA lasciata nell'arnia.",

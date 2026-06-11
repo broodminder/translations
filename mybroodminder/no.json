@@ -2531,6 +2531,10 @@
             "YES":"Ja",
             "NO":"Nei"
         },
+        "START_TRANSITION":{
+            "TITLE":"Start koloniovergang",
+            "MESSAGE":"Denne taggen kan starte en koloniovergangssyklus. Vil du gjøre det?"
+        },
         "TAG_DESCRIPTIONS":{
             "I1_SWM":"Utviklingsstadium for den ELDSTE dronningcellen som er igjen i kuben.",
             "I1_SPLT":"Utviklingsstadium for den ELDSTE dronningsoppdrettsressursen som er igjen i kuben.",
