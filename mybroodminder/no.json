@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Merknad opprettet i kube",
         "SUCCESS_UPDATED": "Merknad oppdatert i kube",
         "ERROR_TIME": "Ugyldig tid",
+        "SHOW_MORE_TAGS":"Vis flere tagger",
         "APIARY": {
             "STATE": "Generell tilstand"
         }
@@ -1071,7 +1072,8 @@
         "APIARY": "Bigård",
         "HIVE": "Kube",
         "DEVICE": "Enhet",
-        "POSITION": "Posisjon"
+        "POSITION": "Posisjon",
+        "BETA": "Beta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -1144,9 +1146,9 @@
         }
     },
     "POSITIONS": {
-        "UNDER_INNER_COVER": "Under indre deksel",
-        "ABOVE_LOWER_BROOD_BOX": "Over nedre yngelkasse",
-        "ABOVE_UPPER_BROOD_BOX": "Over øvre yngelkasse",
+        "UNDER_INNER_COVER": "Indre deksel",
+        "ABOVE_LOWER_BROOD_BOX": "Nedre yngelkasse",
+        "ABOVE_UPPER_BROOD_BOX": "Øvre yngelkasse",
         "OUTSIDE_HIVE": "Utenfor kube",
         "SCALE_UNDER_HIVE": "Skala under kube",
         "SCALE_UNDER_HIVE_BACK": "Skala under kube (bak)",
@@ -1649,6 +1651,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Fenostadier"
+            },
+            "GDD":{
+                "TITLE":"Vekstgraddager",
+                "YAXIS":"GDD ({{label}}·dager)",
+                "FILTER_DAILY":"Daglige vekstgraddager",
+                "FILTER_CUMULATIVE":"Akkumulerte vekstgraddager"
             }
         }
     },
@@ -2055,7 +2063,8 @@
                 "HIVE_COLONYTRANSITION": "Koloni Overgang",
                 "HIVE_COLONYTRANSITION_CAL": "Koloni Overgang Kalender",
                 "BLOOM": "Blomst",
-                "BLOOM_FORECAST": "Blomsterprognose"
+                "BLOOM_FORECAST": "Blomsterprognose",
+                "GDD":"Vekstgraddager"
             }
         },
         "CHART": {
@@ -2213,6 +2222,16 @@
         },
         "WEATHER": {
             "TITLE": "Vær"
+        },
+        "PLANTS":{
+            "TITLE":"Planter",
+            "BLOOM_FORECAST":"Blomstringsvarsel",
+            "BLOOM":"Blomstring"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"Koloniovergang",
+            "COLONY_TRANSITION_CAL":"Koloniovergangskalender"
         }
     },
     "F_TOUR": {
@@ -2487,6 +2506,7 @@
         "QDT":"QDT",
         "QDT_TEXT":"Dronningens utviklingstid (fra dronningegg til hennes første egg)",
         "NOT_APPLICABLE":"i.a.",
+        "IN_PROGRESS":"Koloniovergang pågår",
         "STATUS":{
             "INCOMPLETE":"Ufullstendig",
             "INCOMPLETE_ID":"Mislyktes - Ufullstendige data",
@@ -2502,7 +2522,30 @@
         "DELETE":{
             "TITLE:":"Slett koloniovergang",
             "MESSAGE":"Vil du slette denne syklusen?",
-            "YES":"Ja"
+            "CONFIRM":"Ja"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspeksjon for koloniovergang",
+            "PROMPT":"Denne kuben er i en koloniovergang, startet",
+            "QUESTION":". Vil du legge til en koloniovergangsinspeksjon?",
+            "YES":"Ja",
+            "NO":"Nei"
+        },
+        "START_TRANSITION":{
+            "TITLE":"Start koloniovergang",
+            "MESSAGE":"Denne taggen kan starte en koloniovergangssyklus. Vil du gjøre det?"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Utviklingsstadium for den ELDSTE dronningcellen som er igjen i kuben.",
+            "I1_SPLT":"Utviklingsstadium for den ELDSTE dronningsoppdrettsressursen som er igjen i kuben.",
+            "I1_REQ_TAG1":"Utviklingsstadium for den ELDSTE dronningcellen eller dronningen du tilsetter kuben.",
+            "I1_REQ_TAG2":"Hvis kuben var dronningløs: utviklingsstadium for den YNGSTE yngelen som er igjen i kuben.",
+            "I1_SEQ_TAG1":"Utviklingsstadium for den ELDSTE dronningcellen eller dronningen som er igjen i kuben.",
+            "I1_SEQ_TAG2":"Utviklingsstadium for den YNGSTE yngelen som er igjen i kuben.",
+            "I2_ALL":"Utviklingsstadium for den ELDSTE dronningsoppdrettsressursen som ble igjen i kuben under inspeksjon 1.",
+            "I3_ALL":"Utviklingsstadium for den ELDSTE nye yngelen. Hopp over dataregistrering her og registrer data i inspeksjon 4 hvis forseglet yngel er funnet eller kolonien har sverget.",
+            "I34_ALL":"Utviklingsstadium for den ELDSTE nye yngelen",
+            "I4_ALL":"Koloniovergang - Observasjoner"
         },
         "CYCLE_DESCR":
         {
@@ -2554,6 +2597,7 @@
             "RESTART":"Syklus-omstart"
         },
         "CAL":{
+            "TITLE":"Koloniovergangskalender",
             "LEGEND_NEWQUEEN":"Tegnforklaring for ny dronnings livssyklus",
             "LEGEND_ACTION":"Tegnforklaring for anbefalt handling",
             "TOOLTIP":{
@@ -2581,7 +2625,8 @@
                 "SENSITIVE_SHORT":"sensitiv utviklingsfase",
                 "DRONE_COMB_SHORT":"fjern dronetavle",
                 "OAV_SHORT":"oav-behandling",
-                "ADD_BROOD_SHORT":"tilsett yngel"
+                "ADD_BROOD_SHORT":"tilsett yngel",
+                "VIEW_DATE_RANGE":"Vis relevant datointervall"
             }
         },
         "TABLE":{

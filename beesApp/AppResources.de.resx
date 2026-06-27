@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
+<root>`
 	<resheader name="resmimetype">
 		<value>text/microsoft-resx</value>
 	</resheader>
@@ -93,6 +93,18 @@
 	<data name="COMMON_COPIED">
 		<value>In die Zwischenablage kopiert</value>
 	</data>
+	<data name="COMMON_NOT_APPICABLE">
+		<value>n/v</value>
+	</data>
+	<data name="COMMON_YES">
+		<value>Ja</value>
+	</data>
+	<data name="COMMON_TRUE">
+		<value>Wahr</value>
+	</data>
+	<data name="COMMON_FALSE">
+		<value>Falsch</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Konto</value>
 	</data>
@@ -118,7 +130,7 @@
 		<value>Batteriesparer aktivieren/deaktivieren</value>
 	</data>
 	<data name="SETTINGS_SHOWFIRMWARE">
-		<value>Verfügbare Firmware-Updates anzeigen</value>
+		<value>Verfügbare Firmware Aktualisierung anzeigen</value>
 	</data>
 	<data name="SETTINGS_SUBHUBCSV">
 		<value>CSV bei SubHub-Synchronisation speichern</value>
@@ -181,7 +193,7 @@
 		<value>Debug-Protokoll herunterladen</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_TURNOFFFULLDBL">
-		<value>Vollständiges Debug-Logging deaktivieren</value>
+		<value>Komplettes Debug-Logging deaktivieren</value>
 	</data>
 	<data name="SETTINGS_ADVANCED_REMOVEDEVICES_MESSAGE">
 		<value>Geräte entfernen, die nicht zum MyBroodMinder-Konto {0} gehören?</value>
@@ -334,7 +346,7 @@
 		<value>In der Nähe</value>
 	</data>
 	<data name="DEVICE_STATUS_WAITING">
-		<value>Wartend</value>
+		<value>Abwarten</value>
 	</data>
 	<data name="DEVICE_STATUS_CONNECTING">
 		<value>Verbinden</value>
@@ -388,7 +400,7 @@
 		<value>Aktuelle Synchronisation abbrechen</value>
 	</data>
 	<data name="SYNC_INPROGRESS_DISMISS">
-		<value>Verwerfen</value>
+		<value>Löschen</value>
 	</data>
 	<data name="SYNC_STATUS">
 		<value>Synchronisationsstatus</value>
@@ -586,7 +598,7 @@
 		<value>*Bienenstock ist erforderlich</value>
 	</data>
 	<data name="ADD_DEVICE_LOCATION">
-		<value>Standort am Bienenstock</value>
+		<value>Standort im/am Bienenstock</value>
 	</data>
 	<data name="ADD_DEVICE_SELECTPOSITION">
 		<value>Position auswählen</value>
@@ -975,6 +987,9 @@
 	<data name="DEVICES_CELL_SLEEP2">
 		<value>Tippen Sie hier, um zu aktivieren.</value>
 	</data>
+	<data name="EDITLOCATION_CURRENT">
+		<value>Aktuellen Standort bearbeiten in</value>
+	</data>
 	<data name="EDITLOCATION_LOCATION">
 		<value>Standort am Bienenstock</value>
 	</data>
@@ -1021,7 +1036,7 @@
 		<value>Firmware-Aktualisierungsfortschritt: </value>
 	</data>
 	<data name="FIRMWARE_BACK">
-		<value>Firmware-Update läuft. Sie müssen hier bleiben, damit es abgeschlossen werden kann. Das Zurückgehen bricht das Update ab und wird nicht empfohlen.</value>
+		<value>Firmware Aktualisierung läuft. Sie müssen hier bleiben, damit es abgeschlossen werden kann. Das Zurückgehen bricht das Update ab und wird nicht empfohlen.</value>
 	</data>
 	<data name="FIRMWARE_BACKCANCEL">
 		<value>Update abbrechen?</value>
@@ -1045,7 +1060,7 @@
 		<value>Synchronisation fehlgeschlagen</value>
 	</data>
 	<data name="FIRMWARE_CANCELLED">
-		<value>Firmware-Update abgebrochen</value>
+		<value>Firmware Aktualisierung abgebrochen</value>
 	</data>
 	<data name="FIRMWARE_CONNECTED">
 		<value>Mit Gerät verbunden</value>
@@ -1054,7 +1069,7 @@
 		<value>Aktualisierung konnte nicht gestartet werden</value>
 	</data>
 	<data name="FIRMWARE_SUCCESS">
-		<value>Firmware-Update erfolgreich</value>
+		<value>Firmware Aktualisierung erfolgreich</value>
 	</data>
 	<data name="FIRMWARE_COMPLETE">
 		<value>Erfolgreich abgeschlossen</value>
@@ -1129,7 +1144,7 @@
 		<value>CSV-Dateien des Subhubs löschen</value>
 	</data>
 	<data name="SUBHUBDETAIL_CONTEXT_SYNCFULL">
-		<value>Vollständiges Synchronisieren des SubHub-Logs</value>
+		<value>Komplettes Synchronisieren des SubHub-Logs</value>
 	</data>
 	<data name="SUBHUBDETAIL_SYNCSINCE">
 		<value>Alle Geräte seit {0} synchronisieren</value>
@@ -1258,7 +1273,7 @@
 		<value>App-Version</value>
 	</data>
 	<data name="HELP_LOGGING">
-		<value>Vollständige Debug-Protokollierung aktiviert</value>
+		<value>Komplette Debug-Protokollierung aktiviert</value>
 	</data>
 	<data name="HELP_FROMERR">
 		<value>Absenderfeld erforderlich</value>
@@ -1306,7 +1321,7 @@
 		<value>Notiz nicht aktualisiert</value>
 	</data>
 	<data name="NOTE_APIARY_WARNING">
-		<value>Apiary-Notizen werden auf Ihrem MyBroodMinder-Konto hochgeladen und auf der Website angezeigt, sind jedoch in dieser App nicht sichtbar.</value>
+		<value>Bienenhof-Notizen werden auf Ihrem MyBroodMinder-Konto hochgeladen und auf der Website angezeigt, sind jedoch in dieser App nicht sichtbar.</value>
 	</data>
 	<data name="HIVE_CU_UTITLE">
 		<value>{0} bearbeiten</value>
@@ -1561,7 +1576,7 @@
 		<value>Tippen Sie auf die Synchronisierungsübersicht, um eine detailliertere Liste des Synchronisierungsstatus jedes Geräts anzuzeigen.</value>
 	</data>
 	<data name="FIRMWARESTATUS_NOTFOUND">
-		<value>Firmware-Update nicht gefunden</value>
+		<value>Firmware-Aktualisierung nicht gefunden</value>
 	</data>
 	<data name="FIRMWARESTATUS_CONNECTING">
 		<value>Verbindung wird hergestellt, kann 60 Sekunden dauern</value>
@@ -1825,7 +1840,7 @@
 		<value>Gerätebenachrichtigungen</value>
 	</data>
 	<data name="DEVICEALERT_DISMISS">
-		<value>Verwerfen</value>
+		<value>Später</value>
 	</data>
 	<data name="DEVICEALERT_UPDATE">
 		<value>Aktualisieren</value>
@@ -1837,16 +1852,16 @@
 		<value>Niedrige Batterie</value>
 	</data>
 	<data name="DEVICEALERT_FIRMWARE">
-		<value>Firmware-Update verfügbar</value>
+		<value>Firmware-Aktualisierung verfügbar</value>
 	</data>
 	<data name="DEVICEALERT_SAMPLELIMIT">
-		<value>Gerät nahe am Probengrenzwert</value>
+		<value>Gerät nahe an der maximalen Anzahl Messungen</value>
 	</data>
 	<data name="HIVEINACTIVE_TITLE">
-		<value>Hive als inaktiv setzen</value>
+		<value>Bienenstock als inaktiv setzen</value>
 	</data>
 	<data name="HIVEINACTIVE_MESSAGE">
-		<value>Dies beendet alle Gerätestandorte im Hive und entfernt den Hive aus Ihren Bienenhausansichten. Vorhandene Daten bleiben erhalten, jedoch werden neue Daten nicht mehr zu diesem Hive übertragen. Dies kann nicht rückgängig gemacht werden. Hive als inaktiv setzen?</value>
+		<value>Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhofansichten. Vorhandene Daten bleiben erhalten, jedoch werden neue Daten nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock als inaktiv setzen?</value>
 	</data>
 	<data name="HIVEINACTIVE_CONFIRM">
 		<value>Ja</value>
@@ -1870,16 +1885,16 @@
 		<value>Mit einem anderen Volk vereinigt</value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS">
-		<value>Hive als inaktiv gesetzt</value>
+		<value>Bienenstock als inaktiv gesetzt</value>
 	</data>
 	<data name="HIVEINACTIVE_ERROR">
-		<value>Fehler, Hive nicht als inaktiv gesetzt</value>
+		<value>Fehler, Bienenstock nicht als inaktiv gesetzt</value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION1">
-		<value>Hive als inaktiv gesetzt. Es ist hier nicht mehr sichtbar, aber weiterhin unter </value>
+		<value>Bienenstock als inaktiv gesetzt. Es ist hier nicht mehr sichtbar, aber weiterhin unter </value>
 	</data>
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
-		<value>Alle Hives können hier gefunden werden </value>
+		<value>Alle Bienenstöcke können hier gefunden werden </value>
 	</data>
 	<data name="CALIBRATION_SET">
 		<value>Einstellen</value>
@@ -2023,10 +2038,10 @@
 		<value>Ernte</value>
 	</data>
 	<data name="INSP_T_INSTALLPKG">
-		<value>Paket installiert</value>
+		<value>Schwarm / Paket einlogiert</value>
 	</data>
 	<data name="INSP_T_NUCLEUSHIVE">
-		<value>Nucleus-Hive installiert</value>
+		<value>Nucleus-Bienenstock einlogiert</value>
 	</data>
 	<data name="INSP_T_SPLITQUEENREMOVE">
 		<value>Teilung mit Entfernung der Königin</value>
@@ -2136,6 +2151,66 @@
 	<data name="INSP_T_QUEENCELLSEEN">
 		<value>Königinnenzelle gesehen</value>
 	</data>
+	<data name="INSP_T_YOUNGLARVA">
+		<value>Junge Larven</value>
+	</data>
+	<data name="INSP_T_OLDERLARVA">
+		<value>Ältere Larven</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD1">
+		<value>Verdeckelte Arbeiterinnenbrut (1 Wabe)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD2">
+		<value>Verdeckelte Arbeiterinnenbrut (2 Waben)</value>
+	</data>
+	<data name="INSP_T_CAPPEDWORKERBROOD3">
+		<value>Verdeckelte Arbeiterinnenbrut (3+ Waben)</value>
+	</data>
+	<data name="INSP_T_CAPPEDDRONEBROODONLY">
+		<value>Nur verdeckelte Drohnenbrut</value>
+	</data>
+	<data name="INSP_T_NOBROOD">
+		<value>Keine Brut</value>
+	</data>
+	<data name="INSP_T_NOEGG">
+		<value>Keine Eier</value>
+	</data>
+	<data name="INSP_T_OPENQUEENCELL">
+		<value>Offene Weiselzelle</value>
+	</data>
+	<data name="INSP_T_CAPPEDQUEENCELL">
+		<value>Verdeckelte Weiselzelle</value>
+	</data>
+	<data name="INSP_T_EMERGEDQUEENCELL">
+		<value>Geschlüpfte Weiselzelle</value>
+	</data>
+	<data name="INSP_T_NOQUEENCELL">
+		<value>Keine Weiselzelle, hat Eier/Larven</value>
+	</data>
+	<data name="INSP_T_MATEDQUEEN">
+		<value>Begattete Königin</value>
+	</data>
+	<data name="INSP_T_BREEDERQUEENCELL">
+		<value>Zuchtweiselzelle</value>
+	</data>
+	<data name="INSP_T_EMERGEDVIRGIN">
+		<value>Geschlüpfte Jungfrau (1-3 Tage alt)</value>
+	</data>
+	<data name="INSP_T_FERTILEVIRGIN">
+		<value>Geschlechtsreife Jungfrau (4 oder mehr Tage alt)</value>
+	</data>
+	<data name="INSP_T_CONFIRMEDQUEEN">
+		<value>Bestätigte Königin</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPACKAGE">
+		<value>Eingesetztes Bienenpaket (begattete Königin)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDPRIMARYSWARM">
+		<value>Eingesetzter Vorschwarm (begattete Königin)</value>
+	</data>
+	<data name="INSP_T_INSTALLEDSECONDARYSWARM">
+		<value>Eingesetzter Nachschwarm (geschlechtsreife Jungfrau)</value>
+	</data>
 	<data name="INSP_C_BEESBROODSTG">
 		<value>Brutstadien</value>
 	</data>
@@ -2151,6 +2226,9 @@
 	<data name="INSP_C_FEEDING">
 		<value>Fütterung</value>
 	</data>
+	<data name="INSP_C_COLONYTRANSITION">
+        <value>Volksübergang</value>
+    </data>
 	<data name="FITNESS_C_B1">
 		<value>Totenvolk</value>
 	</data>
@@ -2254,7 +2332,7 @@
 		<value>Sammelindex</value>
 	</data>
 	<data name="VAPIARY_NEWAPENOTE">
-		<value>Neue Bienenhausnotiz</value>
+		<value>Neue Bienenhofnotiz</value>
 	</data>
 	<data name="VAPIARY_FORECAST_TITLE">
 		<value>Vorhersage</value>
@@ -2278,7 +2356,7 @@
 		<value>Keine Inspektionen seit 2 Wochen.</value>
 	</data>
 	<data name="VAPIARY_REFRESH">
-		<value>Bienenhausdaten aktualisieren</value>
+		<value>Bienenhofdaten aktualisieren</value>
 	</data>
 	<data name="WEIGHT_TITLE">
 		<value>Gewicht</value>
@@ -2344,40 +2422,46 @@
 		<value>Aktualisierte Daten verzögert</value>
 	</data>
 	<data name="VHIVE_NOHIVE">
-		<value>Hive erstellen oder auswählen</value>
+		<value>Bienenstock erstellen oder auswählen</value>
 	</data>
 	<data name="VHIVE_NEWHIVE">
-		<value>Neue Hive</value>
+		<value>Neuer Bienenstock</value>
 	</data>
 	<data name="VHIVE_HNOTE">
-		<value>Neue Hive-Notiz</value>
+		<value>Neue Bienenstock-Notiz</value>
 	</data>
 	<data name="VHIVE_ANOTE">
-		<value>Neue Apiary-Notiz</value>
+		<value>Neue Bienenhof-Notiz</value>
 	</data>
 	<data name="VHIVE_REFRESH">
-		<value>Hive-Daten aktualisieren</value>
+		<value>Bienenstock-Daten aktualisieren</value>
 	</data>
 	<data name="ADDI_TITLE">
 		<value>Element hinzufügen</value>
 	</data>
 	<data name="ADDI_NOTE_APIARY">
-		<value>Apiary-Notiz hinzufügen</value>
+		<value>Bienenhof-Notiz hinzufügen</value>
 	</data>
 	<data name="ADDI_NOTE_HIVE">
-		<value>Hive-Notiz hinzufügen</value>
+		<value>Bienenstock-Notiz hinzufügen</value>
+	</data>
+	<data name="ADDI_NOTE_CT">
+		<value>Übergang fortsetzen</value>
+	</data>
+	<data name="ADDI_NOTE_OBS">
+		<value>Pflanzenbeobachtung hinzufügen</value>
 	</data>
 	<data name="CU_NOTE_TITLE_U">
 		<value>{0} Notiz</value>
 	</data>
 	<data name="CU_NOTE_HIVETITLE">
-		<value>Hive-Notiz erstellen</value>
+		<value>Bienenstock-Notiz erstellen</value>
 	</data>
 	<data name="CU_NOTE_HIVE_SEL">
-		<value>Hives auswählen (erstellt Notiz für jedes)</value>
+		<value>Bienenstöcke auswählen (erstellt Notiz für jedes)</value>
 	</data>
 	<data name="CU_NOTE_HIVE_ERROR">
-		<value>*Hive erforderlich</value>
+		<value>*Bienenstock erforderlich</value>
 	</data>
 	<data name="CU_NOTE_DATE">
 		<value>Datum</value>
@@ -2389,10 +2473,10 @@
 		<value> Hier etwas schreiben ...</value>
 	</data>
 	<data name="CU_NOTE_TAGS">
-		<value>Tags auswählen</value>
+		<value>Markierungen auswählen</value>
 	</data>
 	<data name="CU_NOTE_ADD_TAGS">
-		<value>Tags hinzufügen</value>
+		<value>Markierungen hinzufügen</value>
     </data>
 	<data name="BSCHANGE_TITLE">
 		<value>Batteriesparer</value>
@@ -2446,7 +2530,7 @@
 		<value>Nur geeignete anzeigen</value>
 	</data>
 	<data name="BSCHANGE_NEEDSUPDATE">
-		<value>Firmware-Update erforderlich</value>
+		<value>Firmware Aktualisierung erforderlich</value>
 	</data>
 	<data name="BSCHANGE_NOTELIGIBLE">
 		<value>Nicht geeignet</value>
@@ -2473,7 +2557,7 @@
 		<value>Batteriespar-Einstellungen</value>
 	</data>
 	<data name="BSSET_HUBEN">
-		<value>Hub in Apiary vorhanden</value>
+		<value>Hub im Bienenhof vorhanden</value>
 	</data>
 	<data name="BSSET_ASEN">
 		<value>Schwarmdetektion planen</value>
@@ -2518,7 +2602,7 @@
 		<value>Aktivitätsplanung</value>
 	</data>
 	<data name="BSSET_HP_EXP_MESSAGE">
-		<value>Wählen Sie dies aus, wenn Sie einen BroodMinder-Hub in Ihrer Apiary haben</value>
+		<value>Wählen Sie dies aus, wenn Sie einen BroodMinder-Hub in Ihrem Bienenhof haben</value>
 	</data>
 	<data name="BSSET_AS_EXP_MESSAGE">
 		<value>Die Reduzierung der Zeit, in der Ihre Sensoren nach Schwärmen suchen, verlängert die Batterielaufzeit.</value>
@@ -2548,10 +2632,10 @@
 		<value>Nicht berechnet</value>
 	</data>
 	<data name="PREMIUM_HIVES_REMAINING">
-		<value>Auf Ihrem Konto verbleiben noch {0} Hive-Speicherplätze</value>
+		<value>Auf Ihrem Konto verbleiben noch {0} Bienenstock-Speicherplätze</value>
 	</data>
 	<data name="PREMIUM_HIVE_REMAINING">
-		<value>{0} verbleibender Hive-Speicherplatz auf Ihrem Konto</value>
+		<value>{0} verbleibender Bienenstock-Speicherplatz auf Ihrem Konto</value>
 	</data>
 	<data name="PREMIUM_HIVES_NONE">
 		<value>Über der Grenze</value>
@@ -2866,12 +2950,228 @@
 		<value>Datum zu spät, keine Änderung vorgenommen</value>
 	</data>
 	<data name="CT_TAGS_SUB_WDBROOD">
-		<value>Worker/Drone Brood</value>
+		<value>Arbeiterinnen- und Dronenbrut</value>
 	</data>
 	<data name="CT_TAGS_SUB_SUP">
-		<value>Supersedure Queen</value>
+		<value>Stille Umweiselung</value>
 	</data>
 	<data name="CT_TAGS_SUB_RESTART">
-		<value>Cycle Restart</value>
+		<value>Zyklus-Neustart</value>
+	</data>
+	<data name="CT_CE_TITLE">
+		<value>Volksübergang</value>
+	</data>
+	<data name="CT_STATUS_INCOMPLETE">
+		<value>Unvoll-ständig</value>
+	</data>
+	<data name="CT_STATUS_COMPLETE">
+		<value>Komplett</value>
+	</data>
+	<data name="CT_STATUS_RESTARTED">
+		<value>Neu gestartet</value>
+	</data>
+	<data name="CT_STATUS_FAILED">
+		<value>Fehlgeschlagen</value>
+	</data>
+	<data name="CT_STATUS_FAILED_INC_DATA">
+		<value>Fehlgeschlagen - Unvollständige Daten</value>
+	</data>
+	<data name="CT_CE_RESTART_TITLE">
+		<value>Mit verknüpftem Zyklus fortfahren</value>
+	</data>
+	<data name="CT_CE_RESTART_MSG">
+		<value>Ein Schwarm oder eine Umweiselung beendet diesen Zyklus und startet einen neuen. Möchten Sie jetzt einen neuen Zyklus starten?</value>
+	</data>
+	<data name="CT_CE_RESTART_CONFIRM">
+		<value>Ja</value>
+	</data>
+	<data name="CT_CE_RESTART_CANCEL">
+		<value>Abbrechen</value>
+	</data>
+	<data name="CT_CE_I0_TITLE">
+		<value>Zyklusbeginn</value>
+	</data>
+	<data name="CT_CE_I1_TITLE">
+		<value>Kontrolle 1</value>
+	</data>
+	<data name="CT_CE_I1_CAPTITLE">
+		<value>Einlogieren</value>
+	</data>
+	<data name="CT_CE_I2_TITLE">
+		<value>Kontrolle 2</value>
+	</data>
+	<data name="CT_CE_I3_TITLE">
+		<value>Kontrolle 3</value>
+	</data>
+	<data name="CT_CE_I34_TITLE">
+		<value>Kontrolle auf neue Brut</value>
+	</data>
+	<data name="CT_CE_I4_TITLE">
+		<value>Kontrolle 4</value>
+	</data>
+	<data name="CT_CE_I1_SHORTDESC_CAP">
+		<value>Typ der eingesetzten Königin protokollieren</value>
+	</data>
+	<data name="CT_CE_I12_SHORTDESC">
+		<value>Königinnenentwicklung prüfen</value>
+	</data>
+	<data name="CT_CE_I3_SHORTDESC">
+		<value>Eier/junge Larven prüfen</value>
+	</data>
+	<data name="CT_CE_I34_SHORTDESC">
+		<value>Auf neue Brut prüfen</value>
+	</data>
+	<data name="CT_CE_I4_SHORTDESC">
+		<value>Auf verdeckelte Brut prüfen</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SWM">
+		<value>Alle Weiselzellen bis auf eine oder zwei der ältesten entfernen. Entwicklungsstadium der ältesten bestimmen.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SPLT">
+		<value>Sicherstellen, dass der Ableger Eier und Larven, Weiselzelle(n) oder eine lebende Königin hat</value>
+	</data>
+	<data name="CT_CE_I1_DESC_REQ">
+		<value>Ressourcen bereitstellen, damit das Volk eine neue Königin nachziehen kann. Es wird angenommen, dass die Mutterkönigin während dieser Kontrolle entfernt wurde. Andernfalls muss das Alter der jüngsten verbleibenden Brut beurteilt und dokumentiert werden.</value>
+	</data>
+	<data name="CT_CE_I1_DESC_SEQ">
+		<value>Entwicklungsstadium der Königin (Zelle) dokumentieren und jüngste Brut im Stock finden, um zu bestimmen, wann die Mutterkönigin verloren ging</value>
+	</data>
+	<data name="CT_CE_I2_DESC">
+		<value>Sicherstellen, dass die Königinnenentwicklung wie erwartet verläuft. Alle zusätzlichen Weiselzellen entfernen, die das Volk seit Kontrolle 1 nachgezogen haben könnte.</value>
+	</data>
+	<data name="CT_CE_I3_DESC">
+		<value>Auf Eier oder Larven prüfen. Wabe mit Eiern und/oder jungen Larven einfügen, falls keine Brut gefunden wird.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_1">
+		<value>Auf verdeckelte Arbeiterinnenbrut prüfen. Die neue Königin ist bestätigt und der Zyklus ist abgeschlossen, falls gefunden. Keine weitere Maßnahme erforderlich</value>
+	</data>
+	<data name="CT_CE_I4_DESC_2">
+		<value>Brutlos oder nur Drohnenbrut: Erfordert Umweiselung mit einer begatteten Königin. Ein erneuter Versuch mit einer Wabe mit Eiern und jungen Larven wird aufgrund fehlender Ammenbienen im Stock nicht empfohlen.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3A">
+		<value>Offene oder verdeckelte Weiselzelle(n): Erfolgreiche Königinnenentwicklung, da die neue Königin befruchtete Eier gelegt hat. Das Volk versucht jedoch, sie zu ersetzen. Weiselzellen entfernen, wenn QDT weniger als 35 beträgt und die Mutterkönigin gefunden wurde.</value>
+	</data>
+	<data name="CT_CE_I4_DESC_3B">
+		<value>Zelle einer geschlüpften Jungfrau oder lebende Jungfrau: Volk hat die neue Königin ersetzt</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SWM">
+		<value>Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SPLT">
+		<value>Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Königinnenaufzuchtsressource.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_1">
+		<value>Entwicklungsstadium der ÄLTESTEN Weiselzelle oder Königin, die Sie dem Stock hinzufügen.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_REQ_2">
+		<value>Falls der Stock weisellos war: Entwicklungsstadium der JÜNGSTEN im Stock verbliebenen Brut.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_1">
+		<value>Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle oder Königin.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_1_SEQ_2">
+		<value>Entwicklungsstadium der JÜNGSTEN im Stock verbliebenen Brut.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_2">
+		<value>Entwicklungsstadium der ÄLTESTEN bei Kontrolle 1 im Stock verbliebenen Königinnenaufzuchtsressource.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_3">
+		<value>Entwicklungsstadium der ÄLTESTEN neuen Brut. Überspringen Sie die Dateneingabe hier und geben Sie die Daten bei Kontrolle 4 ein, falls verdeckelte Brut gefunden wird oder das Volk geschwärmt ist.</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_34">
+		<value>Entwicklungsstadium der ÄLTESTEN neuen Brut</value>
+	</data>
+	<data name="CT_CE_TAGHEADER_4">
+		<value>Volksübergang - Beobachtungen</value>
+	</data>
+	<data name="PLANT_ADDPLANT">
+		<value>Pflanze hinzufügen</value>
+	</data>
+	<data name="PLANT_CHART_OBS_ON">
+		<value>Beobachtet am</value>
+	</data>
+	<data name="PLANT_CHART_FORC_ON">
+		<value>Vorhersage am</value>
+	</data>
+	<data name="PLANT_ADD_TITLE">
+		<value>Pflanzenkonfiguration hinzufügen</value>
+	</data>
+	<data name="PLANT_ADD_SEARCH">
+		<value>Pflanze suchen</value>
+	</data>
+	<data name="PLANT_ADD_NONE">
+		<value>Keine Pflanzen gefunden</value>
+	</data>
+	<data name="PLANT_ADD_DESCR">
+		<value>Beschreibung</value>
+	</data>
+	<data name="PLANT_ADD_BLOOMSTART">
+		<value>Blühbeginn</value>
+	</data>
+	<data name="PLANT_ADD_MONTH">
+		<value>Monat</value>
+	</data>
+	<data name="PLANT_ADD_DAY">
+		<value>Tag</value>
+	</data>
+	<data name="PLANT_ADD_BLOOMEND">
+		<value>Blühende</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL">
+		<value>Verfügbarkeit</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_NO">
+		<value>Nicht vorhanden</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_LOW">
+		<value>Geringes Vorkommen</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_AVG">
+		<value>Mittleres Vorkommen</value>
+	</data>
+	<data name="PLANT_ADD_AVAIL_STRONG">
+		<value>Starkes Vorkommen</value>
+	</data>
+	<data name="PLANT_ADD_ERROR1">
+		<value>Wählen Sie eine Pflanze aus.</value>
+	</data>
+	<data name="PLANT_ADD_OBSMSG">
+		<value>Großartig! Sie haben eine neue Pflanze erstellt. Möchten Sie eine Beobachtung zu Ihrer Pflanze hinzufügen?</value>
+	</data>
+	<data name="PLANT_ADD_OBSTITLE">
+		<value>Eine Beobachtung zu Ihrer Pflanze hinzufügen?</value>
+	</data>
+	<data name="PLANT_ADD_OBSNO">
+		<value>Nein</value>
+	</data>
+	<data name="OBS_ADD_TITLE">
+		<value>Pflanzenbeobachtung hinzufügen</value>
+	</data>
+	<data name="OBS_ADD_ERROR1">
+		<value>Bienenstand fehlt.</value>
+	</data>
+	<data name="OBS_ADD_ERROR2">
+		<value>Pflanzenkonfigurationen können nicht geladen werden.</value>
+	</data>
+	<data name="OBS_ADD_ERROR3">
+		<value>Pflanzenbeobachtung kann nicht erstellt werden.</value>
+	</data>
+	<data name="OBS_ADD_SELECTPLANT">
+		<value>Pflanzenkonfiguration auswählen</value>
+	</data>
+	<data name="OBS_ADD_DATE">
+		<value>Datum der Beobachtung</value>
+	</data>
+	<data name="OBS_ADD_NOTE">
+		<value>Notiz</value>
+	</data>
+	<data name="OBS_ADD_SELECTPHENO">
+		<value>Phänologische Phase auswählen</value>
+	</data>
+	<data name="NOTE_STARTCT_TITLE">
+		<value>Volksübergang Starten</value>
+	</data>
+	<data name="NOTE_STARTCT_MESSAGE">
+		<value>Diese Markierung kann einen Volksübergang auslösen. Möchten Sie fortfahren?</value>
 	</data>
 </root>

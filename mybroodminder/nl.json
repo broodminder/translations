@@ -754,6 +754,7 @@
         "SUCCESS_CREATED": "Notitie aangemaakt voor bijenkast",
         "SUCCESS_UPDATED": "Notitie bijgewerkt voor bijenkast",
         "ERROR_TIME": "Ongeldige tijd",
+        "SHOW_MORE_TAGS":"Meer tags tonen",
         "APIARY": {
             "STATE": "General State"
         }
@@ -1071,7 +1072,8 @@
         "APIARY": "Bijenstal",
         "HIVE": "Bijenkast",
         "DEVICE": "Sensor",
-        "POSITION": "Positie"
+        "POSITION": "Positie",
+        "BETA": "Bèta"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -1392,263 +1394,269 @@
             "MSG": "No data or no weather"
         }
     },
-    "CHART": {
+   "CHART": {
         "DATA_TYPES": {
             "WEIGHT": {
-                "TITLE": "Weight",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight",
-                "FILTER_HOURLY": "Weight Hourly",
-                "FILTER_DAILY": "Weight Daily"
+                "TITLE": "Gewicht",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewicht",
+                "FILTER_HOURLY": "Gewicht per uur",
+                "FILTER_DAILY": "Gewicht per dag"
             },
             "PROD": {
-                "TITLE": "Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Productivity",
-                "FILTER_HOURLY": "Productivity Hourly",
-                "FILTER_DAILY": "Productivity Daily"
+                "TITLE": "Productiviteit",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Productiviteit",
+                "FILTER_HOURLY": "Productiviteit per uur",
+                "FILTER_DAILY": "Productiviteit per dag"
             },
             "BATTERY": {
-                "TITLE": "Battery",
-                "YAXIS": "Battery (%)",
-                "FILTER": "Battery"
+                "TITLE": "Batterij",
+                "YAXIS": "Batterij (%)",
+                "FILTER": "Batterij"
             },
             "TEMP_EVENTS": {
-                "TITLE": "Temperature Events",
+                "TITLE": "Temperatuurgebeurtenissen",
                 "YAXIS": "",
-                "FILTER": "Temperature Events"
+                "FILTER": "Temperatuurgebeurtenissen"
             },
             "AUDIO": {
-                "TITLE": "Vibration",
-                "YAXIS": "Vibration ({{label}})",
-                "FILTER": "Vibration"
+                "TITLE": "Trilling",
+                "YAXIS": "Trilling ({{label}})",
+                "FILTER": "Trilling"
             },
             "RADAR": {
-                "TITLE": "Radar",
-                "YAXIS": "Radar ({{label}})",
-                "FILTER": "Radar"
+                "TITLE": "Radarsignaal",
+                "YAXIS": "Radarsignaal ({{label}})",
+                "FILTER": "Radarsignaal"
             },
             "BEECOUNT": {
-                "TITLE": "Bee Count",
-                "YAXIS": "Bee Count ({{label}})",
-                "FILTER": "Bee Count",
-                "UNIT": "bees/min"
+                "TITLE": "Bijentelling",
+                "YAXIS": "Bijen ({{label}})",
+                "FILTER": "Bijen",
+                "UNIT": "bijen/min"
             },
             "BROOD": {
-                "TITLE": "Brood",
-                "YAXIS": "Brood (%)",
-                "FILTER": "Brood"
+                "TITLE": "Broed",
+                "YAXIS": "Broed (%)",
+                "FILTER": "Broed"
             },
             "TEMP_MIN": {
-                "TITLE": "Min Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Temperature"
+                "TITLE": "Min. temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Min. temperatuur"
             },
             "TEMP_MEAN": {
-                "TITLE": "Mean Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Mean Temperature"
+                "TITLE": "Gemiddelde temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Gemiddelde temperatuur"
             },
             "TEMP_MAX": {
-                "TITLE": "Max Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Temperature"
+                "TITLE": "Max. temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Max. temperatuur"
             },
             "TEMP_MIN_EXT": {
-                "TITLE": "Min External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min External Temperature"
+                "TITLE": "Min. buitentemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Min. buitentemperatuur"
             },
             "TEMP_MAX_EXT": {
-                "TITLE": "Max External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max External Temperature"
+                "TITLE": "Max. buitentemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Max. buitentemperatuur"
             },
             "HUMID_MIN": {
-                "TITLE": "Min Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Min Humidity"
+                "TITLE": "Min. luchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Min. luchtvochtigheid"
             },
             "HUMID_MAX": {
-                "TITLE": "Max Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Humidity"
+                "TITLE": "Max. luchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Max. luchtvochtigheid"
             },
             "GAIN": {
-                "TITLE": "Weight Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight Gain"
+                "TITLE": "Gewichtstoename",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewichtstoename"
             },
             "GAIN_CUMUL": {
-                "TITLE": "Cumulative Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Weight Gain"
+                "TITLE": "Cumulatieve toename",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Cumulatieve gewichtstoename"
             },
             "PROD_CUMUL": {
-                "TITLE": "Cumulative Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Productivity"
+                "TITLE": "Cumulatieve productiviteit",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Cumulatieve productiviteit"
             },
             "HUMID_MAX_EXT": {
-                "TITLE": "External Humidity Max",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Max"
+                "TITLE": "Max. buitenluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Max. buitenluchtvochtigheid"
             },
             "HUMID_MIN_EXT": {
-                "TITLE": "External Humidity Min",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Min"
+                "TITLE": "Min. buitenluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Min. buitenluchtvochtigheid"
             },
             "TEMP_WEATHER": {
-                "TITLE": "Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Weather Temperature"
+                "TITLE": "Weertemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Weertemperatuur"
             },
             "TEMP_MIN_WEATHER": {
-                "TITLE": "Min Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Weather Temperature"
+                "TITLE": "Min. weertemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Min. weertemperatuur"
             },
             "TEMP_MAX_WEATHER": {
-                "TITLE": "Max Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Weather Temperature"
+                "TITLE": "Max. weertemperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Max. weertemperatuur"
             },
             "HUMID_MIN_WEATHER": {
-                "TITLE": "Min Weather Humidity",
-                "YAXIS": "Humidity (%)",
+                "TITLE": "Min. weerluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
                 "FILTER": ""
             },
             "HUMID_MAX_WEATHER": {
-                "TITLE": "Max Weather Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Weather Humidity"
+                "TITLE": "Max. weerluchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Max. weerluchtvochtigheid"
             },
             "WEATHER": {
-                "TITLE": "Weather",
+                "TITLE": "Weer",
                 "YAXIS": "",
-                "FILTER": "Weather Daily"
+                "FILTER": "Weer per dag"
             },
             "WIND_MAX": {
-                "TITLE": "Max Wind",
+                "TITLE": "Max. wind",
                 "YAXIS": "Wind ({{label}})",
-                "FILTER": "Max Wind"
+                "FILTER": "Max. wind"
             },
             "HIVE_HEALTH": {
-                "TITLE": "Hive Health",
+                "TITLE": "Gezondheid bijenkast",
                 "YAXIS": "",
-                "FILTER": "Hive Health"
+                "FILTER": "Gezondheid bijenkast"
             },
             "LUNAR": {
-                "TITLE": "Lunar Calendar",
+                "TITLE": "Maankalender",
                 "YAXIS": "",
-                "FILTER": "Lunar Daily"
+                "FILTER": "Maan per dag"
             },
             "ALERTS_NOTES": {
-                "TITLE": "Alerts and Notes",
+                "TITLE": "Meldingen en notities",
                 "YAXIS": " ({{label}})",
-                "FILTER": "Alerts and Notes"
+                "FILTER": "Meldingen en notities"
             },
             "ALERTS": {
-                "TITLE": "Alerts",
+                "TITLE": "Meldingen",
                 "YAXIS": "",
-                "FILTER": "Alerts"
+                "FILTER": "Meldingen"
             },
             "NOTES": {
-                "TITLE": "Notes",
+                "TITLE": "Notities",
                 "YAXIS": "",
-                "FILTER_APIARY": "Apiary Notes",
-                "FILTER_HIVE": "Hive Notes"
+                "FILTER_APIARY": "Bijenstandnotities",
+                "FILTER_HIVE": "Bijenkastnotities"
             },
             "PRECIP": {
-                "TITLE": "Precipitation",
-                "YAXIS": "Precipitation ({{label}})",
-                "FILTER": "Precipitation",
-                "FILTER_DAILY": "Precipitation Daily"
+                "TITLE": "Neerslag",
+                "YAXIS": "Neerslag ({{label}})",
+                "FILTER": "Neerslag",
+                "FILTER_DAILY": "Neerslag per dag"
             },
             "TEMP": {
-                "TITLE": "Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Temperature",
-                "FILTER_HOURLY": "Temperature Hourly"
+                "TITLE": "Temperatuur",
+                "YAXIS": "Temperatuur ({{label}})",
+                "FILTER": "Temperatuur",
+                "FILTER_HOURLY": "Temperatuur per uur"
             },
             "WIND": {
                 "TITLE": "Wind",
                 "YAXIS": "Wind ({{label}})",
                 "FILTER": "Wind",
-                "FILTER_HOURLY": "Wind Hourly"
+                "FILTER_HOURLY": "Wind per uur"
             },
             "RAIN": {
-                "TITLE": "Rainfall",
-                "YAXIS": "Rainfall ({{label}})",
-                "FILTER": "Rainfall",
-                "FILTER_HOURLY": "Rain Hourly",
-                "FILTER_CUMULATIVE": "Rain Cumulative"
+                "TITLE": "Regenval",
+                "YAXIS": "Regenval ({{label}})",
+                "FILTER": "Regenval",
+                "FILTER_HOURLY": "Regen per uur",
+                "FILTER_CUMULATIVE": "Regen cumulatief"
             },
             "HUMID": {
-                "TITLE": "Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Humidity",
-                "FILTER_HOURLY": "Humidity Hourly"
+                "TITLE": "Luchtvochtigheid",
+                "YAXIS": "Luchtvochtigheid (%)",
+                "FILTER": "Luchtvochtigheid",
+                "FILTER_HOURLY": "Luchtvochtigheid per uur"
             },
             "CLOUD_COVER": {
-                "TITLE": "Cloud Cover",
-                "YAXIS": "Cloud Cover (%)",
-                "FILTER": "Cloud Cover",
-                "FILTER_HOURLY": "Cloud Cover Hourly"
+                "TITLE": "Bewolking",
+                "YAXIS": "Bewolking (%)",
+                "FILTER": "Bewolking",
+                "FILTER_HOURLY": "Bewolking per uur"
             },
             "NECTAR": {
-                "TITLE": "Nectar flow index",
-                "YAXIS": "Nectar flow index (%)",
-                "FILTER": "Nectar flow"
+                "TITLE": "Nectarstroomindex",
+                "YAXIS": "Nectarstroomindex (%)",
+                "FILTER": "Nectarstroom"
             },
             "FLIGHT": {
-                "TITLE": "Foraging index",
-                "YAXIS": "Foraging index (%)",
-                "FILTER": "Foraging index"
+                "TITLE": "Foerageerindex",
+                "YAXIS": "Foerageerindex (%)",
+                "FILTER": "Foerageerindex"
             },
             "BC_ACTIV_DUR": {
-                "TITLE": "Foraging Duration",
-                "YAXIS": "Foraging Duration (hours)",
-                "FILTER": "Foraging Duration",
-                "UNIT": "hours"
+                "TITLE": "Foerageerduur",
+                "YAXIS": "Foerageerduur (uren)",
+                "FILTER": "Foerageerduur",
+                "UNIT": "uren"
             },
             "BC_FOR": {
-                "TITLE": "Foraging Trips",
-                "YAXIS": "Foraging (k trips/day)",
-                "FILTER": "Foraging Trips",
-                "UNIT": "trips/day"
+                "TITLE": "Foerageervluchten",
+                "YAXIS": "Foerageren (k vluchten/dag)",
+                "FILTER": "Foerageervluchten",
+                "UNIT": "vluchten/dag"
             },
             "BC_WORK_PER": {
-                "TITLE": "Foraging Periods",
-                "YAXIS": "Periods per day",
-                "FILTER": "Foraging Periods",
-                "UNIT": "periods/day"
+                "TITLE": "Foerageerperiodes",
+                "YAXIS": "Periodes per dag",
+                "FILTER": "Foerageerperiodes",
+                "UNIT": "werkperiodes"
             },
             "MF_DUR": {
-                "TITLE": "Mating Flight Duration",
-                "YAXIS": "Flight Window (hours)",
-                "FILTER": "Flight Window (hours)",
-                "UNIT": "hours"
+                "TITLE": "Bruidsvluchtduur",
+                "YAXIS": "Vluchtvenster (uren)",
+                "FILTER": "Vluchtvenster (uren)",
+                "UNIT": "uren"
             },
             "MF_COUNT": {
-                "TITLE": "Mating Flight Count",
-                "YAXIS": "flights/day",
-                "FILTER": "Mating Flight Count",
-                "UNIT": "flights/day"
+                "TITLE": "Aantal bruidsvluchten",
+                "YAXIS": "vluchten/dag",
+                "FILTER": "Aantal bruidsvluchten",
+                "UNIT": "vluchten/dag"
             },
             "MF_SESS": {
-                "TITLE": "Mating Flight Sessions",
-                "YAXIS": "Sessions/day",
-                "FILTER": "Mating Flight Sessions",
-                "UNIT": "sessions/day"
+                "TITLE": "Bruidsvluchtsessies",
+                "YAXIS": "Sessies/dag",
+                "FILTER": "Bruidsvluchtsessies",
+                "UNIT": "sessies/dag"
             },
             "PLANT_BLOOM": {
                 "FILTER_DAILY": "Bloeiperiode",
                 "YAXIS": "Plant"
             },
             "PHENO_FORECAST": {
-                "FILTER_DAILY": "Fenologische Stadia"
+                "FILTER_DAILY": "Fenologische stadia"
+            },
+            "GDD":{
+                "TITLE":"Groeigraaddagen",
+                "YAXIS":"GDD ({{label}}·dagen)",
+                "FILTER_DAILY":"Dagelijkse groeigraaddagen",
+                "FILTER_CUMULATIVE":"Cumulatieve groeigraaddagen"
             }
         }
     },
@@ -1991,200 +1999,201 @@
             }
         }
     },
-    "CONFIGURE_DASHBOARDS": {
-        "NAME": "Name",
-        "VISIBLE": "Visible",
-        "DUPLICATE_TOOLTIP": "Duplicate",
+   "CONFIGURE_DASHBOARDS": {
+        "NAME": "Naam",
+        "VISIBLE": "Zichtbaar",
+        "DUPLICATE_TOOLTIP": "Dupliceren",
         "DELETE": {
-            "TITLE": "Delete {{name}}",
-            "MESSAGE": "Are you sure you want to delete this dashboard ({{name}})?",
-            "WARNING": "There are {{count}} public shared links connected to this dashboard. Deleting will break these links.",
-            "CONFIRM": "Delete",
-            "CANCEL": "Cancel",
-            "SUCCESS": "Dashboard removed",
-            "FAIL": "Error removing dashboard"
+            "TITLE": "{{name}} verwijderen",
+            "MESSAGE": "Weet u zeker dat u dit dashboard ({{name}}) wilt verwijderen?",
+            "WARNING": "Er zijn {{count}} openbaar gedeelde links verbonden met dit dashboard. Verwijderen zal deze links verbreken.",
+            "CONFIRM": "Verwijderen",
+            "CANCEL": "Annuleren",
+            "SUCCESS": "Dashboard verwijderd",
+            "FAIL": "Fout bij verwijderen van dashboard"
         },
         "HIDE": {
-            "TITLE": "Hide {{name}}",
-            "MESSAGE": "Are you sure you want to hide this dashboard ({{name}})?",
-            "MESSAGE_2": "You can undo this from the Configure page.",
-            "CONFIRM": "Hide",
-            "CANCEL": "Cancel",
-            "HIDDEN": "Dashboard hidden",
-            "VISIBLE": "Dashboard visible"
+            "TITLE": "{{name}} verbergen",
+            "MESSAGE": "Weet u zeker dat u dit dashboard ({{name}}) wilt verbergen?",
+            "MESSAGE_2": "U kunt dit ongedaan maken via de Configuratiepagina.",
+            "CONFIRM": "Verbergen",
+            "CANCEL": "Annuleren",
+            "HIDDEN": "Dashboard verborgen",
+            "VISIBLE": "Dashboard zichtbaar"
         },
         "DUPLICATE": {
-            "TITLE": "Copy {{name}}",
-            "MESSAGE": "Would you like to create a copy of this dashboard ({{name}})?",
-            "CONFIRM": "Create",
-            "CANCEL": "Cancel",
-            "NAME_SUFFIX": "copy",
-            "SUCCESS": "Dashboard created",
-            "FAIL": "Error creating dashboard"
+            "TITLE": "{{name}} kopiëren",
+            "MESSAGE": "Wilt u een kopie van dit dashboard ({{name}}) maken?",
+            "CONFIRM": "Aanmaken",
+            "CANCEL": "Annuleren",
+            "NAME_SUFFIX": "kopie",
+            "SUCCESS": "Dashboard aangemaakt",
+            "FAIL": "Fout bij aanmaken van dashboard"
         },
         "DASHBOARD": {
-            "TITLE_CREATE": "Create Dashboard",
-            "TITLE_EDIT": "Edit {{name}}",
-            "NAME": "Name",
-            "WARNING": "There are {{count}} public shared links connected to this dashboard. Any changes you make will affect those links.",
-            "AVAILABLE": "Available Charts",
-            "ACTIVE": "Active Charts",
-            "DRAG": "Drag chart to add to dashboard",
-            "SUCCESS": "Dashboard updated",
-            "FAIL": "Error updating dashboard",
+            "TITLE_CREATE": "Dashboard aanmaken",
+            "TITLE_EDIT": "{{name}} bewerken",
+            "NAME": "Naam",
+            "WARNING": "Er zijn {{count}} openbaar gedeelde links verbonden met dit dashboard. Wijzigingen die u maakt, zullen die links beïnvloeden.",
+            "AVAILABLE": "Beschikbare grafieken",
+            "ACTIVE": "Actieve grafieken",
+            "DRAG": "Sleep grafiek om aan dashboard toe te voegen",
+            "SUCCESS": "Dashboard bijgewerkt",
+            "FAIL": "Fout bij bijwerken van dashboard",
             "CHART_NAMES": {
-                "WEIGHT": "Weight",
-                "PROD": "Productivity",
-                "WEIGHT_CHANGE": "Weight Change",
-                "TEMP": "Temperature",
-                "HUMID": "Humidity",
-                "BEECOUNT": "Bee Count",
-                "RAIN": "Rain",
+                "WEIGHT": "Gewicht",
+                "PROD": "Productiviteit",
+                "WEIGHT_CHANGE": "Gewichtsverandering",
+                "TEMP": "Temperatuur",
+                "HUMID": "Luchtvochtigheid",
+                "BEECOUNT": "Bijentelling",
+                "RAIN": "Regen",
                 "WIND": "Wind",
-                "CLOUD_COVER": "Cloud Cover",
-                "MATING_FLIGHTS": "Mating Flight Window",
-                "BATTERY": "Battery",
-                "BROOD": "Brood",
-                "NOTES": "Notes",
-                "APIARY_IMAGE": "Apiary Image",
-                "APIARY_MAP": "Apiaries Map",
-                "FORAGING": "Foraging Index",
-                "NECTAR": "Nectar Flow Index",
-                "HIVE_TEXT": "Hive Text",
-                "HIVE_TEXT_SUMMARY": "Text",
+                "CLOUD_COVER": "Bewolking",
+                "MATING_FLIGHTS": "Bruidsvluchtvenster",
+                "BATTERY": "Batterij",
+                "BROOD": "Broed",
+                "NOTES": "Notities",
+                "APIARY_IMAGE": "Bijenstand-afbeelding",
+                "APIARY_MAP": "Bijenstandenkaart",
+                "FORAGING": "Foerageerindex",
+                "NECTAR": "Nectarstroomindex",
+                "HIVE_TEXT": "Bijenkasttekst",
+                "HIVE_TEXT_SUMMARY": "Tekst",
                 "HIVE_COLONYTRANSITION": "Kolonie Transitie",
                 "HIVE_COLONYTRANSITION_CAL": "Kolonie Transitie Kalender",
                 "BLOOM": "Bloei",
-                "BLOOM_FORECAST": "Bloei Voorspelling"
+                "BLOOM_FORECAST": "Bloei Voorspelling",
+                "GDD":"Groeigraaddagen"
             }
         },
         "CHART": {
-            "TITLE_CREATE": "Create Chart",
-            "TITLE_EDIT": "Edit {{name}}",
-            "NAME": "Name",
+            "TITLE_CREATE": "Grafiek aanmaken",
+            "TITLE_EDIT": "{{name}} bewerken",
+            "NAME": "Naam",
             "FILTERS": {
-                "AVAILABLE": "Available",
-                "ACTIVE": "Active"
+                "AVAILABLE": "Beschikbaar",
+                "ACTIVE": "Actief"
             },
-            "HEIGHT": "Height",
-            "DEFAULT": "Default ({{value}})",
-            "LEGEND": "Show Legend",
-            "BROOD_ZONE": "Show Brood Zone",
-            "NORMAL_HUMID": "Show Normal Humidity",
-            "APIARY_LOCATIONS": "Show Apiary Locations",
-            "TODAY_LINE": "Show Today Line",
-            "SUCCESS": "Chart updated",
-            "FAIL": "Error updating chart"
+            "HEIGHT": "Hoogte",
+            "DEFAULT": "Standaard ({{value}})",
+            "LEGEND": "Legenda tonen",
+            "BROOD_ZONE": "Broedzone tonen",
+            "NORMAL_HUMID": "Normale luchtvochtigheid tonen",
+            "APIARY_LOCATIONS": "Locaties van bijenstanden tonen",
+            "TODAY_LINE": "Lijn van vandaag tonen",
+            "SUCCESS": "Grafiek bijgewerkt",
+            "FAIL": "Fout bij bijwerken van grafiek"
         }
     },
     "DASHBOARD": {
         "CONTEXT": {
-            "EDIT_DASH": "Edit Dashboard",
-            "HIDE_DASH": "Hide Dashboard",
-            "DELETE_DASH": "Delete Dashboard",
-            "SHARE_DASH": "Share Dashboard",
-            "EDIT_SHARE_DASH": "Edit Shared Links",
+            "EDIT_DASH": "Dashboard bewerken",
+            "HIDE_DASH": "Dashboard verbergen",
+            "DELETE_DASH": "Dashboard verwijderen",
+            "SHARE_DASH": "Dashboard delen",
+            "EDIT_SHARE_DASH": "Gedeelde links bewerken",
             "DOWNLOAD": {
-                "MENU": "Download Options",
-                "TITLE": "Download",
-                "NOTES": "Notes CSV",
-                "HOURLY_READINGS": "Hourly Readings CSV",
-                "DAILY_READINGS": "Daily Readings CSV",
-                "HOURLY_WEATHER": "Hourly Weather CSV",
-                "DAILY_WEATHER": "Daily Weather CSV",
-                "DOWNLOAD": "Download",
-                "WARNING": "You need premium for hive csv downloads."
+                "MENU": "Downloadopties",
+                "TITLE": "Downloaden",
+                "NOTES": "Notities CSV",
+                "HOURLY_READINGS": "Uurmetingen CSV",
+                "DAILY_READINGS": "Dagmetingen CSV",
+                "HOURLY_WEATHER": "Uurweer CSV",
+                "DAILY_WEATHER": "Dagweer CSV",
+                "DOWNLOAD": "Downloaden",
+                "WARNING": "U heeft premium nodig voor het downloaden van bijenkast-CSV's."
             }
         },
         "CHART": {
-            "NO_DATA": "No data",
-            "EDIT_CHART": "Edit Chart",
-            "DOWNLOAD_CHART": "Download Chart Image",
-            "ZOOM_X": "X-Axis Zoom",
-            "ZOOM_Y": "Y-Axis Zoom",
-            "ZOOM_CANCEL": "Cancel Zoom",
+            "NO_DATA": "Geen gegevens",
+            "EDIT_CHART": "Grafiek bewerken",
+            "DOWNLOAD_CHART": "Grafiekafbeelding downloaden",
+            "ZOOM_X": "X-as zoomen",
+            "ZOOM_Y": "Y-as zoomen",
+            "ZOOM_CANCEL": "Zoomen annuleren",
             "IMAGE": {
-                "ADD": "Add Picture",
-                "REMOVE": "Remove Picture",
-                "DROP": "Drop your custom picture here",
-                "UPLOADING": "Uploading {{value}}%",
-                "ERROR_TYPE": "Image not allowed, jpeg and png only",
-                "ERROR_SIZE": "Image too large, 6MB allowed",
-                "SUCCESS": "File uploaded"
+                "ADD": "Afbeelding toevoegen",
+                "REMOVE": "Afbeelding verwijderen",
+                "DROP": "Sleep uw aangepaste afbeelding hier",
+                "UPLOADING": "Uploaden {{value}}%",
+                "ERROR_TYPE": "Afbeelding niet toegestaan, alleen jpeg en png",
+                "ERROR_SIZE": "Afbeelding te groot, maximaal 6 MB toegestaan",
+                "SUCCESS": "Bestand geüpload"
             },
             "MAP": {
-                "EDIT": "Edit Map"
+                "EDIT": "Kaart bewerken"
             },
             "NOTES": {
-                "TITLE": "{{count}} Notes",
-                "ADD": "Add Note",
-                "ERROR": "Note details not found",
-                "MORE": "Load More",
-                "LOADING": "Loading",
-                "SHOWING": "Showing"
+                "TITLE": "{{count}} notities",
+                "ADD": "Notitie toevoegen",
+                "ERROR": "Notitiedetails niet gevonden",
+                "MORE": "Meer laden",
+                "LOADING": "Laden",
+                "SHOWING": "Weergeven"
             },
             "ALERTS": {
                 "EDIT": {
-                    "TITLE": "Edit Alert",
-                    "SUCCESS": "Alert updated",
-                    "FAIL": "Error updating alert"
+                    "TITLE": "Melding bewerken",
+                    "SUCCESS": "Melding bijgewerkt",
+                    "FAIL": "Fout bij bijwerken van melding"
                 },
-                "ERROR": "Alert details not found"
+                "ERROR": "Meldingsdetails niet gevonden"
             },
             "ALERT_NOTE_TABLE": {
-                "DATE": "Date",
-                "DESCRIPTION": "Description",
-                "NO_DESCR": "No description",
-                "TAGS": "Tags",
+                "DATE": "Datum",
+                "DESCRIPTION": "Omschrijving",
+                "NO_DESCR": "Geen omschrijving",
+                "TAGS": "Labels",
                 "DELETE_ALERT": {
-                    "TITLE": "Delete Alert",
-                    "MESSAGE": "Are you sure you want to delete this alert?",
-                    "CONFIRM": "Delete",
-                    "SUCCESS": "Alert deleted",
-                    "ERROR": "Error deleting alert"
+                    "TITLE": "Melding verwijderen",
+                    "MESSAGE": "Weet u zeker dat u deze melding wilt verwijderen?",
+                    "CONFIRM": "Verwijderen",
+                    "SUCCESS": "Melding verwijderd",
+                    "ERROR": "Fout bij verwijderen van melding"
                 }
             },
             "APIARY_OVERVIEW": {
-                "RAIN": "Rain",
+                "RAIN": "Regen",
                 "WIND": "Wind",
-                "MAX_TEMP": "Max Temp",
-                "NOTES": "Notes",
-                "ALERTS": "Alerts",
-                "NECTAR": "Nectar Idx",
-                "FORAGING": "Foraging Idx",
-                "MIN_TEMP": "Min Temp",
-                "WEATHER": "Weather"
+                "MAX_TEMP": "Max. temp.",
+                "NOTES": "Notities",
+                "ALERTS": "Meldingen",
+                "NECTAR": "Nectarindex",
+                "FORAGING": "Foerageerindex",
+                "MIN_TEMP": "Min. temp.",
+                "WEATHER": "Weer"
             },
             "HIVE_OVERVIEW": {
-                "NAME": "Name",
-                "DATE": "Date",
-                "FITNESS": "Fitness",
-                "BROOD": "Brood",
-                "WEIGHT": "Weight",
-                "PROD": "Productivity",
-                "FORAG": "Foraging",
-                "FORAG_DESC": "Total bee trips per day | Overall foraging duration (hours) | Working periods over the day",
-                "ALERTS": "Alerts",
-                "NOTES": "Notes",
-                "HISTORY": "History",
-                "HISTORY_TOOLTIP": "History"
+                "NAME": "Naam",
+                "DATE": "Datum",
+                "FITNESS": "Conditie",
+                "BROOD": "Broed",
+                "WEIGHT": "Gewicht",
+                "PROD": "Productiviteit",
+                "FORAG": "Foerageren",
+                "FORAG_DESC": "Totaal aantal bijenvluchten per dag | Totale foerageerduur (uren) | Werkperiodes over de dag",
+                "ALERTS": "Meldingen",
+                "NOTES": "Notities",
+                "HISTORY": "Geschiedenis",
+                "HISTORY_TOOLTIP": "Geschiedenis"
             },
             "HIVE_TEXT": {
-                "NAME": "Name",
-                "DATE": "Date",
-                "LOCATION": "Location",
-                "LAST_SEEN": "Last Seen",
-                "TEMP": "Temperature",
-                "HUMID": "Humidity",
-                "WEIGHT": "Weight",
-                "GAIN_S": "Gain (since sunrise)",
+                "NAME": "Naam",
+                "DATE": "Datum",
+                "LOCATION": "Locatie",
+                "LAST_SEEN": "Laatst gezien",
+                "TEMP": "Temperatuur",
+                "HUMID": "Luchtvochtigheid",
+                "WEIGHT": "Gewicht",
+                "GAIN_S": "Toename (sinds zonsopgang)",
                 "BEEDAR": "Beedar",
-                "BATTERY": "Battery",
-                "NO_DATA": "No data in time range",
-                "GAIN": "Gain",
-                "SUNRISE": "Sunrise",
-                "INITIAL": "Initial",
-                "LATEST": "Latest"
+                "BATTERY": "Batterij",
+                "NO_DATA": "Geen gegevens in tijdsbereik",
+                "GAIN": "Toename",
+                "SUNRISE": "Zonsopgang",
+                "INITIAL": "Begin",
+                "LATEST": "Laatste"
             },
             "PLANT_FORECAST": {
                 "TITLE": "Bloei Voorspelling",
@@ -2199,118 +2208,128 @@
     },
     "GLOBAL_DASHBOARDS": {
         "CLASSIC": {
-            "TITLE": "Classic",
-            "WEIGHT": "Weight",
-            "WEIGHT_CHANGE": "Weight Change",
-            "TEMP": "Temperature",
-            "HUMID": "Humidity",
-            "BATTERY": "Battery",
+            "TITLE": "Klassiek",
+            "WEIGHT": "Gewicht",
+            "WEIGHT_CHANGE": "Gewichtsverandering",
+            "TEMP": "Temperatuur",
+            "HUMID": "Luchtvochtigheid",
+            "BATTERY": "Batterij",
             "RADAR": "Radar",
-            "AUDIO": "Vibration"
+            "AUDIO": "Trilling"
         },
         "CALENDAR": {
-            "TITLE": "Calendar"
+            "TITLE": "Kalender"
         },
         "WEATHER": {
-            "TITLE": "Weather"
+            "TITLE": "Weer"
+        },
+        "PLANTS":{
+            "TITLE":"Planten",
+            "BLOOM_FORECAST":"Bloeivoorspelling",
+            "BLOOM":"Bloei"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"Kolonie Transitie",
+            "COLONY_TRANSITION_CAL":"Kolonie Transitie Kalender"
         }
     },
     "F_TOUR": {
-        "NEXT": "Next",
-        "BACK": "Back",
+        "NEXT": "Volgende",
+        "BACK": "Terug",
         "START": {
-            "TITLE": "New and Improved MyBroodMinder!",
-            "TEXT": "Welcome to the new and improved MyBroodMinder! We have added new features, charts, and data. Learn more here.",
-            "NAV_BUTTON": "Navigation",
+            "TITLE": "Nieuwe en verbeterde MyBroodMinder!",
+            "TEXT": "Welkom bij de nieuwe en verbeterde MyBroodMinder! We hebben nieuwe functies, grafieken en gegevens toegevoegd. Lees hier meer.",
+            "NAV_BUTTON": "Navigatie",
             "DASH_BUTTON": "Dashboards",
-            "EXTRAS_BUTTON": "Extras",
-            "DONE_BUTTON": "Done"
+            "EXTRAS_BUTTON": "Extra's",
+            "DONE_BUTTON": "Klaar"
         },
         "NAV": {
             "HOME": {
-                "TITLE": "Home Page",
-                "TEXT": "Visit the home page to view an overview of your active hives and apiaries."
+                "TITLE": "Startpagina",
+                "TEXT": "Bezoek de startpagina voor een overzicht van uw actieve bijenkasten en bijenstanden."
             },
             "HIVE": {
-                "TITLE": "View a hive",
-                "TEXT_1": "Click on a hive name to view it on a dashboard",
-                "TEXT_2": "Click on the hive again to remove it."
+                "TITLE": "Een bijenkast bekijken",
+                "TEXT_1": "Klik op de naam van een bijenkast om deze op een dashboard te bekijken",
+                "TEXT_2": "Klik nogmaals op de bijenkast om deze te verwijderen."
             },
             "MULTI": {
-                "TITLE": "Enable Multi-Select",
-                "TEXT": "Click multi-select to display multiple hives at once."
+                "TITLE": "Meerdere selecteren inschakelen",
+                "TEXT": "Klik op meerdere selecteren om meerdere bijenkasten tegelijk weer te geven."
             },
             "APIARY": {
-                "TITLE": "Click Apiary",
-                "TEXT": "Click an Apiary to add or remove its hives from your display."
+                "TITLE": "Klik op bijenstand",
+                "TEXT": "Klik op een bijenstand om de bijbehorende bijenkasten toe te voegen of te verwijderen uit uw weergave."
             }
         },
         "DASH": {
             "DASHBOARDS": {
-                "TITLE": "New Views and Visualizations!",
-                "TEXT": "Click on a dashboard name to view your data in different ways!"
+                "TITLE": "Nieuwe weergaven en visualisaties!",
+                "TEXT": "Klik op de naam van een dashboard om uw gegevens op verschillende manieren te bekijken!"
             },
             "NEW": {
-                "TITLE": "Custom Dashboards",
-                "TEXT": "Create your own dashboard. Add and arrange charts to suit your needs."
+                "TITLE": "Aangepaste dashboards",
+                "TEXT": "Maak uw eigen dashboard. Voeg grafieken toe en rangschik ze naar wens."
             },
             "DASH_OPT": {
-                "TITLE": "Dashboard Options",
-                "TEXT": "Click for more dashboard options."
+                "TITLE": "Dashboardopties",
+                "TEXT": "Klik voor meer dashboardopties."
             },
             "CHART_EDIT": {
-                "TITLE": "Chart Options",
-                "TEXT": "Click to edit chart options."
+                "TITLE": "Grafiekopties",
+                "TEXT": "Klik om grafiekopties te bewerken."
             },
             "CHART_FILTER": {
-                "TITLE": "Chart Filters",
-                "TEXT_1": "Click to zoom.",
-                "TEXT_2": "Click to remove and add data to your chart."
+                "TITLE": "Grafiekfilters",
+                "TEXT_1": "Klik om in te zoomen.",
+                "TEXT_2": "Klik om gegevens uit uw grafiek te verwijderen of toe te voegen."
             }
         },
         "EXTRAS": {
             "DATE": {
-                "TITLE": "Date Range",
-                "TEXT": "Select date range and optionaly show forecast."
+                "TITLE": "Datumbereik",
+                "TEXT": "Selecteer een datumbereik en toon optioneel de voorspelling."
             },
             "CONF": {
-                "TITLE": "Advanced Options",
-                "TEXT": "Click configure to view more advanced options."
+                "TITLE": "Geavanceerde opties",
+                "TEXT": "Klik op configureren om meer geavanceerde opties te bekijken."
             },
             "CONF_DASH": {
-                "TITLE": "Advanced Dashboard Options",
-                "TEXT": "Edit, un-hide, duplicate, etc..."
+                "TITLE": "Geavanceerde dashboardopties",
+                "TEXT": "Bewerken, zichtbaar maken, dupliceren, enz..."
             },
             "CONF_ALERT": {
-                "TITLE": "Advanced Alert Options",
-                "TEXT": "Edit alert settings, email, and frequency."
+                "TITLE": "Geavanceerde meldingsopties",
+                "TEXT": "Bewerk meldingsinstellingen, e-mail en frequentie."
             },
             "HIVE_COLOR": {
-                "TITLE": "Customize Hive Color",
-                "TEXT_1": "Edit your hive to change the hive color. This is customizable so you can easily view multiple hives on the same dashboard.",
-                "TEXT_2": "This can also be done for each of your apiaries to specify the weather color."
+                "TITLE": "Bijenkastkleur aanpassen",
+                "TEXT_1": "Bewerk uw bijenkast om de kleur ervan te wijzigen. Dit is aanpasbaar, zodat u eenvoudig meerdere bijenkasten op hetzelfde dashboard kunt bekijken.",
+                "TEXT_2": "Dit kan ook voor elk van uw bijenstanden om de weerkleur te specificeren."
             }
         },
         "END": {
-            "TITLE": "That's All",
-            "TEXT_1": "For more help and information view our documentation.",
-            "TEXT_2": "We hope you enjoy it!!",
-            "TEXT_3": "-The BroodMinder Team",
-            "DONE": "Done"
+            "TITLE": "Dat is alles",
+            "TEXT_1": "Voor meer hulp en informatie kunt u onze documentatie bekijken.",
+            "TEXT_2": "We hopen dat u ervan geniet!!",
+            "TEXT_3": "-Het BroodMinder Team",
+            "DONE": "Klaar"
         }
     },
     "HOME": {
-        "HIVES": "Hives",
-        "APIARIES": "Apiaries",
+        "HIVES": "Bijenkasten",
+        "APIARIES": "Bijenstanden",
         "EMPTY": {
-            "TEXT_1": "Welcome to MyBroodMinder! This is the home page!",
-            "TEXT_2": " This is a quick view for your hives and apiaries. Hives and apiaries are displayed here if they are active with devices assigned.",
-            "TEXT_3": "Shared apiaries are not shown here.",
-            "TEXT_4": "It appears you have nothing fitting this description.",
-            "TEXT_5": "From now on you can:",
-            "TEXT_LI_1A": "Use",
-            "TEXT_LI_1B": "on the top left to add hives, apiaries, and devices to your account",
-            "TEXT_LI_2": "Or download BroodMinder Bees app to manage them too."
+            "TEXT_1": "Welkom bij MyBroodMinder! Dit is de startpagina!",
+            "TEXT_2": " Dit is een snel overzicht van uw bijenkasten en bijenstanden. Bijenkasten en bijenstanden worden hier weergegeven als ze actief zijn met toegewezen apparaten.",
+            "TEXT_3": "Gedeelde bijenstanden worden hier niet weergegeven.",
+            "TEXT_4": "Het lijkt erop dat u niets heeft dat aan deze beschrijving voldoet.",
+            "TEXT_5": "Vanaf nu kunt u:",
+            "TEXT_LI_1A": "Gebruik",
+            "TEXT_LI_1B": "linksboven om bijenkasten, bijenstanden en apparaten aan uw account toe te voegen",
+            "TEXT_LI_2": "Of download de BroodMinder Bees-app om ze ook te beheren."
         },
         "BLOCKED": {
             "TITLE": "Thuis",
@@ -2487,6 +2506,7 @@
         "QDT":"QDT",
         "QDT_TEXT":"Koninginnenontwikkelingstijd (van koninginnenei tot haar eerste ei)",
         "NOT_APPLICABLE":"n.v.t.",
+        "IN_PROGRESS":"Kolonie transitie bezig",
         "STATUS":{
             "INCOMPLETE":"Onvolledig",
             "INCOMPLETE_ID":"Mislukt - Onvolledige gegevens",
@@ -2502,7 +2522,30 @@
         "DELETE":{
             "TITLE:":"Kolonie-overgang verwijderen",
             "MESSAGE":"Wilt u deze cyclus verwijderen?",
-            "YES":"Ja"
+            "CONFIRM":"Ja"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Inspectie voor kolonie-overgang",
+            "PROMPT":"Deze kast bevindt zich in een kolonie-overgang, begonnen op",
+            "QUESTION":". Wilt u een kolonie-overgangsinspectie toevoegen?",
+            "YES":"Ja",
+            "NO":"Nee"
+        },
+        "START_TRANSITION":{
+            "TITLE":"Kolonie-overgang starten",
+            "MESSAGE":"Met deze tag kun je een kolonie-overgangscyclus starten. Wil je dat doen?"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Ontwikkelingsstadium van de OUDSTE moerdop die in de kast is achtergelaten.",
+            "I1_SPLT":"Ontwikkelingsstadium van de OUDSTE koninginnenkweekbron die in de kast is achtergelaten.",
+            "I1_REQ_TAG1":"Ontwikkelingsstadium van de OUDSTE moerdop of koningin die u aan de kast toevoegt.",
+            "I1_REQ_TAG2":"Als de kast koninginloos was: ontwikkelingsstadium van het JONGSTE broed dat in de kast is achtergelaten.",
+            "I1_SEQ_TAG1":"Ontwikkelingsstadium van de OUDSTE moerdop of koningin die in de kast is achtergelaten.",
+            "I1_SEQ_TAG2":"Ontwikkelingsstadium van het JONGSTE broed dat in de kast is achtergelaten.",
+            "I2_ALL":"Ontwikkelingsstadium van de OUDSTE koninginnenkweekbron die tijdens inspectie 1 in de kast is achtergelaten.",
+            "I3_ALL":"Ontwikkelingsstadium van het OUDSTE nieuwe broed. Sla de gegevensinvoer hier over en voer gegevens in bij inspectie 4 als gesloten broed wordt gevonden of de kolonie is gezwermd.",
+            "I34_ALL":"Ontwikkelingsstadium van het OUDSTE nieuwe broed",
+            "I4_ALL":"Kolonie-overgang - Waarnemingen"
         },
         "CYCLE_DESCR":
         {
@@ -2554,6 +2597,7 @@
             "RESTART":"Cyclus herstart"
         },
         "CAL":{
+            "TITLE":"Kolonie-overgangskalender",
             "LEGEND_NEWQUEEN":"Legenda levenscyclus nieuwe koningin",
             "LEGEND_ACTION":"Legenda aanbevolen actie",
             "TOOLTIP":{
@@ -2581,7 +2625,8 @@
                 "SENSITIVE_SHORT":"gevoelige ontwikkelingsfase",
                 "DRONE_COMB_SHORT":"darrenraat verwijderen",
                 "OAV_SHORT":"oav-behandeling",
-                "ADD_BROOD_SHORT":"broed toevoegen"
+                "ADD_BROOD_SHORT":"broed toevoegen",
+                "VIEW_DATE_RANGE":"Relevante datumbereik bekijken"
             }
         },
         "TABLE":{

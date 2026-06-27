@@ -46,11 +46,11 @@
         "MEMBERSHIPS": "Mitgliedschaftsoptionen",
         "NEW": {
             "TITLE": "Neu",
-            "APIARY": "Bienenstock",
+            "APIARY": "Bienenhof",
             "HIVE": "Bienenstock",
             "DEVICE": "Gerät",
             "DASHBOARD": "Benutzerdefiniertes Dashboard",
-            "APIARY_NOTE": "Bienenstocknotiz",
+            "APIARY_NOTE": "Bienenhofnotiz",
             "HIVE_NOTE": "Bienenstocknotiz"
         },
         "MULTI_SELECT": "Mehrere auswählen",
@@ -143,7 +143,7 @@
             "LINK_4": "BroodMinder-SubHub",
             "LINK_5": "BroodMinder-WIFI",
             "LINK_6": "BroodMinder-CELL",
-            "LINK_7": "S1:E17 BroodMinder-W3 Full Hive Scale",
+            "LINK_7": "S1:E17 BroodMinder-W3 Vollwaage",
             "LINK_8": "S1:E19 BroodMinder-DIY"
         },
         "MYBROODMINDER": {
@@ -231,7 +231,7 @@
         },
         "HIVE": {
             "TITLE": "Bienenstock",
-            "DESCRIPTION": "Diese Ansicht zeigt eine schnelle Diagrammübersicht für jeden Bienenstock. Gewichtsanzeigereihenfolge: schwerster Wert. Luftfeuchtigkeit und Temperaturanzeigereihenfolge: 1-Above Lower Brood Box 2-Above Upper Brood Box 3-Under Inner Cover 4-Other 5-Custom (highest value) 6-Outside Hive 7-Scale Under Hive"
+            "DESCRIPTION": "Diese Ansicht zeigt eine schnelle Diagrammübersicht für jeden Bienenstock. Gewichtsanzeigereihenfolge: schwerster Wert. Luftfeuchtigkeit und Temperaturanzeigereihenfolge: 1-Über der unteren Brutkammer 2-Über der oberen Brutkammer 3-Unter dem Inneren Deckel 4-Sonst 5-Benutzer (höchster Wert) 6-Ausserhalb vom Bienenstock 7-Waage unterm Bienenstock"
         },
         "SUMMARY": {
             "TITLE": "Zusammenfassung",
@@ -316,19 +316,19 @@
         "CHART_TITLE": "Geräteübersicht für {{name}}",
         "LOCATION_PIN_START": "S",
         "LOCATION_PIN_END": "E",
-        "LOCATION_HISTORY": "Standorthistorie des Geräts",
+        "LOCATION_HISTORY": "Standortgeschichte des Geräts",
         "LOCATION_ADD": "Standort hinzufügen",
         "LOADING": "Lade Gerätesensormessungen",
         "DOWNLOAD": "CSV-Daten herunterladen",
         "DOWNLOAD_VIEW": "Angezeigten Zeitraum herunterladen",
-        "DOWNLOAD_HIST": "Vollständige Historie herunterladen",
+        "DOWNLOAD_HIST": "Vollständige Geschichte herunterladen",
         "OUTLIER_SHOW": "Dateneditor anzeigen",
         "OUTLIER_HIDE": "Dateneditor ausblenden",
         "EDITOR": {
             "TITLE": "Dateneditor",
-            "DESCRIPTION": "Zoom chart or click point to filter readings below.",
-            "BUTTON_NONE": "Select readings to remove in table below",
-            "BUTTON_SELECTED": "Remove selected",
+            "DESCRIPTION": "Grafik vergrössern oder Punkt anklicken um untenstehende Daten zu filtrieren.",
+            "BUTTON_NONE": "Wähle Eintragungen zur Entfernung von untenstehender Tabelle",
+            "BUTTON_SELECTED": "Auswahl entfernen",
             "REMOVE": "Entfernen",
             "NONE": "Keine Messungen für diesen Zeitraum",
             "TIMESTAMP": "Zeitstempel",
@@ -382,7 +382,7 @@
         "ADDRESS": "Geräteadresse",
         "MODEL": "Modell",
         "FIRMWARE": "Firmware",
-        "UPLOAD_TIME": "Letzter Upload-Zeitpunkt",
+        "UPLOAD_TIME": "Letzte Hochladung",
         "CHART_TITLE": "Hub Readings for {{name}}",
         "READING_COUNT": "Grafische Messungen: {{count}}",
         "CHART_LOADING": "Lade Hub-Messungen",
@@ -393,7 +393,7 @@
             "TITLE": "Hochgeladene Geräte",
             "DEVICE": "Gerät",
             "SIGNAL": "Signal",
-            "TIMESTAMP": "Upload-Zeitpunkt",
+            "TIMESTAMP": "Hochladung",
             "HIVE": "Bienenstock",
             "POSITION": "Position"
         }
@@ -424,7 +424,7 @@
         "SKIP": "Überspringen",
         "NEXT": "Weiter",
         "CLOSE": "Schließen",
-        "FEATURE_1": "Erstmalig, erstelle eine Beute",
+        "FEATURE_1": "Erstmalig, erstelle eine Bienenstock",
         "FEATURE_2": "Daten anzeigen",
         "FEATURE_3": "Konfiguration und Bewegung von Geräten",
         "FEATURE_4": "Anzeigen von CELL/WiFi/Hub-Status"
@@ -498,7 +498,7 @@
         "TITLE": "{{value}} Notizen",
         "ADD_TOOLTIP": "Notiz hinzufügen",
         "DOWNLOAD_TOOLTIP": "Notizen herunterladen",
-        "HIVE": "Beute",
+        "HIVE": "Bienenstock",
         "DATE": "Datum",
         "PIN": "Pin",
         "DESCRIPTION": "Beschreibung",
@@ -537,7 +537,7 @@
         "FIRMWARE": "Firmware"
     },
     "LOCATION_HIST": {
-        "HIVE": "Beute",
+        "HIVE": "Bienenstock",
         "POSITION": "Position",
         "DEVICE_NAME": "Gerätename",
         "DEVICE_ADDRESS": "Geräteadresse",
@@ -557,8 +557,8 @@
         "MOVE_TITLE": "Gerät bewegen",
         "MOVE_EXP": "Dies beendet den aktuellen Standort und startet einen neuen.",
         "SELECT_DEVICE": "Gerät auswählen",
-        "SELECT_APIARY": "Bienenstand auswählen",
-        "SELECT_HIVE": "Beute auswählen",
+        "SELECT_APIARY": "Bienenshof auswählen",
+        "SELECT_HIVE": "Bienenstock auswählen",
         "SELECT_POSITION": "Position auswählen",
         "START_DAY": "Starttag",
         "START_TIME": "Startzeit",
@@ -567,12 +567,12 @@
         "MOVED_DAY": "Neuer Standortstarttag",
         "MOVED_TIME": "Zeit",
         "ERROR_DEVICE": "Gerät hat einen Standort, der diesen Zeitpunkt überschneidet",
-        "ERROR_HIVE": "Beute hat Gerät, das diese Position überschneidet",
+        "ERROR_HIVE": "Bienenstock hat Gerät, das diese Position überschneidet",
         "ERROR_TIME": "Der Standort hat eine Endzeit vor der Startzeit",
         "ERROR_GENERAL": "Fehler beim Erstellen des Gerätestandorts",
-        "ERROR_INACTIVE_HIVE": "Der Standort kann keine Endzeit nach der Inaktivitätszeit der Beute haben",
+        "ERROR_INACTIVE_HIVE": "Der Standort kann keine Endzeit nach der Inaktivitätszeit der Bienenstock haben",
         "ERROR_MOVE_TIME": "Kann den Standort nicht vor dem Start beenden. Setzen Sie die Zeit auf nach {{currentEnd}}",
-        "SUCCESS_MOVED": "Gerät in Beute verschoben",
+        "SUCCESS_MOVED": "Gerät in Bienenstock verschoben",
         "SUCCESS_ENDED": "Aktueller Standort beendet",
         "CREATE": "Erstellen",
         "ADVANCED": {
@@ -585,7 +585,7 @@
         }
     },
     "HIVE_APIARY_LOCATION_HIST": {
-        "APIARY": "Bienenstand",
+        "APIARY": "Bienenhof",
         "START": "Start",
         "START_OPEN": "offen",
         "END": "Ende",
@@ -593,28 +593,28 @@
         "MOVE": "Bewegen",
         "EDIT": {
             "ADD": "Hinzufügen",
-            "SELECT_APIARY": "Bienenstand auswählen",
+            "SELECT_APIARY": "Bienenhof auswählen",
             "SUCCESS": "Änderungen gespeichert",
-            "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenstands",
-            "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenstands",
-            "ERROR_LOCATION_REQUIRED": "Beute erfordert mindestens einen Bienenstand",
-            "ERROR_APIARY_REQUIRED": "Für alle Standorte muss ein Bienenstand ausgewählt werden"
+            "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenhofs",
+            "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenhofs",
+            "ERROR_LOCATION_REQUIRED": "Bienenstock erfordert mindestens einen Bienenhof",
+            "ERROR_APIARY_REQUIRED": "Für alle Standorte muss ein Bienenhof ausgewählt werden"
         }
     },
     "APIARY_CRUD": {
-        "CREATE_TITLE": "Bienenstand erstellen",
-        "EDIT_TITLE": "Bienenstand bearbeiten",
+        "CREATE_TITLE": "Bienenhof erstellen",
+        "EDIT_TITLE": "Bienenhof bearbeiten",
         "NAME": "Name",
         "COLOR": "Farbe",
         "ZIPCODE": "Postleitzahl",
-        "EDIT_ZIP_EXP": "Sie können den Standort für einen Bienenstand, der Daten enthält, nicht ändern.",
+        "EDIT_ZIP_EXP": "Sie können den Standort für einen Bienenhof, der Daten enthält, nicht ändern.",
         "COUNTRY": "Ländercode",
         "PRIVATE": "Privat (Daten nicht teilen) Premium-Funktion",
         "PRIVATE_TOOLTIP": "Bitte erwägen Sie, Ihre Daten zu teilen. Sie helfen Forschern auf der ganzen Welt, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
         "NOT_PRIVATE_TOOLTIP": "Vielen Dank, dass Sie Ihre Daten teilen. Sie helfen Forschern auf der ganzen Welt, mehr über unsere kostbaren Honigbienen und unsere Umwelt zu erfahren und Interventionen zu entwickeln.",
         "ERROR_COUNTRY": "Gültigen Ländercode auswählen",
-        "SUCCESS_CREATED": "Bienenstand erstellt",
-        "SUCCESS_UPDATED": "Bienenstand aktualisiert",
+        "SUCCESS_CREATED": "Bienenhof erstellt",
+        "SUCCESS_UPDATED": "Bienenhof aktualisiert",
         "ZIP_INFO": "Die Postleitzahl wird für Wetterdienste verwendet. Geben Sie eine gültige Postleitzahl ein, um das Beste aus Ihren MyBroodMinder-Daten zu machen.",
         "ZIP_SELECTION": {
             "NOT_FOUND": "Postleitzahl nicht gefunden",
@@ -628,12 +628,12 @@
         "EDIT_LOCATION": {
             "BUTTON": "Ort bearbeiten",
             "COORDINATE": "Koordinate",
-            "TITLE": "Bienenstandsort bearbeiten",
-            "INFO": "Dieser Standort wird sowohl zur Abfrage des Wetters als auch zur Anzeige Ihres Bienenstands auf gemeinsam genutzten Websites wie BeeCounted.org verwendet. Dies wird zusammen mit Ihren öffentlichen Domänendaten offengelegt und sollte nicht der genaue Standort Ihres Bienenstands sein.",
-            "POSTAL_ERROR": "Die ausgewählten Koordinaten liegen außerhalb der Postleitzahl des Bienenstands. Dies kann nicht geändert werden.",
+            "TITLE": "Bienenhofsort bearbeiten",
+            "INFO": "Dieser Standort wird sowohl zur Abfrage des Wetters als auch zur Anzeige Ihres Bienenhofs auf gemeinsam genutzten Websites wie BeeCounted.org verwendet. Dies wird zusammen mit Ihren öffentlichen Domänendaten offengelegt und sollte nicht der genaue Standort Ihres Bienenhofs sein.",
+            "POSTAL_ERROR": "Die ausgewählten Koordinaten liegen außerhalb der Postleitzahl des Bienenhofs. Dies kann nicht geändert werden.",
             "POSTAL_CHANGE": {
                 "TITLE": "Postleitzahl ändern",
-                "TEXT": "Möchten Sie den Bienenstand auf die neue Postleitzahl {{value}} ändern?",
+                "TEXT": "Möchten Sie den Bienenhof auf die neue Postleitzahl {{value}} ändern?",
                 "CONFIRM": "Ja"
             }
         },
@@ -644,7 +644,7 @@
             "START_OPEN": "offen",
             "END": "Ende",
             "END_OPEN": "aktuell",
-            "DESCRIPTION": "Wählen Sie ein Gerät oder einen Hub als Ihre Bienenstandswetterquelle für Luftfeuchtigkeit und/oder Temperatur aus. Jeder Zeitraum ohne ein Gerät wird standardmäßig auf Weather Source zurückgesetzt.",
+            "DESCRIPTION": "Wählen Sie ein Gerät oder einen Hub als Ihre Bienenhofswetterquelle für Luftfeuchtigkeit und/oder Temperatur aus. Jeder Zeitraum ohne ein Gerät wird standardmäßig auf Weather Source zurückgesetzt.",
             "MEASUREMENT": "Messung",
             "EDIT": {
                 "EDIT_TEMPERATURE": "Temperaturquelle bearbeiten",
@@ -654,14 +654,14 @@
                 "SELECT_DEVICE": "Gerät auswählen",
                 "ENDING_CURRENT": "Endquelle",
                 "SUCCESS": "Änderungen gespeichert",
-                "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenstands",
-                "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenstands",
+                "ERROR_INVALID_PREV_OVERLAP": "Zeit ungültig, überlappt den vorherigen Standort des Bienenhofs",
+                "ERROR_INVALID_NEXT_OVERLAP": "Zeit ungültig, überlappt den nächsten Standort des Bienenhofs",
                 "ERROR_DEVICE_REQUIRED": "Für alle Wettersensoren muss ein Gerät ausgewählt werden",
                 "ERROR_START_REQUIRED": "Für die Wettersensorquelle muss eine Startzeit ausgewählt werden"
             },
             "DIALOG": {
                 "TITLE": "Wetter bearbeiten",
-                "SUCCESS_UPDATED": "Wetter des Bienenstands aktualisiert",
+                "SUCCESS_UPDATED": "Wetter des Bienenhofs aktualisiert",
                 "TEMPERATURE": "Temperatur",
                 "HUMIDITY": "Luftfeuchtigkeit",
                 "ADD_TEMPERATURE": "Temperatur hinzufügen",
@@ -670,15 +670,15 @@
         }
     },
     "HIVE_CRUD": {
-        "CREATE_TITLE": "Beute erstellen",
-        "EDIT_TITLE": "Beute bearbeiten",
+        "CREATE_TITLE": "Bienenstock erstellen",
+        "EDIT_TITLE": "Bienenstock bearbeiten",
         "NAME": "Name",
         "COLOR": "Farbe",
-        "SELECT_APIARY": "Bienenstand auswählen",
+        "SELECT_APIARY": "Bienenhof auswählen",
         "DESCRIPTION": "Beschreibung",
-        "ERROR_APIARY": "Bienenstand auswählen",
-        "SUCCESS_CREATED": "Beute erstellt",
-        "SUCCESS_UPDATED": "Beute aktualisiert",
+        "ERROR_APIARY": "Bienenhof auswählen",
+        "SUCCESS_CREATED": "Bienenstock erstellt",
+        "SUCCESS_UPDATED": "Bienenstock aktualisiert",
         "DISPLAY": {
             "DESCRIPTION": "Einstellungen für die Mehrfachauswahlansicht",
             "WEIGHT": {
@@ -701,18 +701,18 @@
             },
             "BATTERY": {
                 "DESCRIPTION": "Zu graphierendes Batteriegerät im Multiselect-Modus",
-                "AUTO": "Niedrigste Gerätebatterie in der Beute im Multiselect-Modus anzeigen",
+                "AUTO": "Niedrigste Gerätebatterie in der Bienenstock im Multiselect-Modus anzeigen",
                 "NONE": "Kein Batteriegerät im Multiselect-Modus anzeigen",
                 "ALL": "Alle Geräte im Multiselect-Modus anzeigen"
             }
         },
         "MOVE": {
-            "TITLE": "Beute bewegen",
-            "EXP": "Alle Daten in dieser Beute bleiben gleich, aber dies platziert die Beute ab diesem Datum im ausgewählten Bienenstand. Dies spiegelt sich in den Wetterdaten und Bienenstandansichten wider.",
+            "TITLE": "Bienenstock bewegen",
+            "EXP": "Alle Daten in dieser Bienenstock bleiben gleich, aber dies platziert die Bienenstock ab diesem Datum im ausgewählten Bienenhof. Dies spiegelt sich in den Wetterdaten und Bienenhofansichten wider.",
             "DAY": "Neuer Standortstarttag",
             "TIME": "Zeit",
-            "SELECT_APIARY": "Bienenstand auswählen",
-            "SUCCESS": "Beute bewegt"
+            "SELECT_APIARY": "Bienenhof auswählen",
+            "SUCCESS": "Bienenstock bewegt"
         }
     },
     "DEVICE_CRUD": {
@@ -732,7 +732,7 @@
         "SUCCESS_UPDATED": "Gerät aktualisiert",
         "PLACE_TITLE": "Gerät platzieren",
         "SELECT_POSITION": "Position auswählen",
-        "SUCCESS_PLACED": "Gerät in der Beute platziert",
+        "SUCCESS_PLACED": "Gerät in der Bienenstock platziert",
         "THIRD_PARTY": {
             "TITLE": "Gerät von Drittanbietern hinzufügen",
             "PROVIDER": "Anbieter wählen",
@@ -748,12 +748,13 @@
     "NOTE_CRUD": {
         "CREATE_TITLE": "Notiz erstellen",
         "EDIT_TITLE": "Notiz bearbeiten",
-        "NO_HIVE": "Keine Beute",
-        "ADD_TAG": "Tag hinzufügen",
+        "NO_HIVE": "Keine Bienenstock",
+        "ADD_TAG": "Markierung hinzufügen",
         "DATE": "Datum",
-        "SUCCESS_CREATED": "Notiz in Beute erstellt",
-        "SUCCESS_UPDATED": "Notiz in Beute aktualisiert",
+        "SUCCESS_CREATED": "Notiz in Bienenstock erstellt",
+        "SUCCESS_UPDATED": "Notiz in Bienenstock aktualisiert",
         "ERROR_TIME": "Ungültige Zeit",
+        "SHOW_MORE_TAGS":"Weitere Markierungen anzeigen",
         "APIARY": {
             "STATE": "Allgemeiner Zustand"
         }
@@ -958,37 +959,37 @@
         "SAVE": "Speichern"
     },
     "CONFIGURE_APIARIES": {
-        "ADD": "Bienenhaus hinzufügen",
-        "NAME": "Name des Bienenhauses",
+        "ADD": "Bienenhof hinzufügen",
+        "NAME": "Name des Bienenhofes",
         "ZIPCODE": "Postleitzahl",
         "SHARE": "Teilen",
         "ACTIVE": "Aktiv",
         "SHOW_INACTIVE": "Inaktive anzeigen",
         "CONFIRM_DELETE_WINDOW": {
-            "TITLE": "Bienenhaus löschen",
-            "MESSAGE": "Möchten Sie das Bienenhaus {{name}} wirklich löschen? Dies löscht das Bienenhaus dauerhaft.",
+            "TITLE": "Bienenhof löschen",
+            "MESSAGE": "Möchten Sie den Bienenhof {{name}} wirklich löschen? Dies löscht den Biebnenhof dauerhaft.",
             "CONFIRM": "Ja"
         },
         "CANNOT_DELETE_WINDOW": {
-            "TITLE": "Bienenhaus kann nicht gelöscht werden",
-            "MESSAGE": "Dieses Bienenhaus enthält die folgenden Bienenstöcke: {{hives}} Sie können dieses Bienenhaus erst löschen, wenn Sie diese Bienenstöcke gelöscht oder verschoben haben."
+            "TITLE": "Bienenhof kann nicht gelöscht werden",
+            "MESSAGE": "Dieser Bienenhof enthält die folgenden Bienenstöcke: {{hives}} Sie können diesen Bienenhof erst löschen, wenn Sie diese Bienenstöcke gelöscht oder verschoben haben."
         },
         "CONFIRM_INACTIVE_WINDOW": {
-            "TITLE": "Bienenhaus als inaktiv festlegen",
-            "MESSAGE": "Dies setzt alle Bienenstöcke in diesem Bienenhaus als inaktiv, beendet alle Gerätestandorte in jedem Bienenstock und entfernt das Bienenhaus aus Ihren Ansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenhaus oder seinen Bienenstöcken übertragen. Dies kann nicht rückgängig gemacht werden. Bienenhaus {{name}} als inaktiv festlegen?",
+            "TITLE": "Bienenhof als inaktiv festlegen",
+            "MESSAGE": "Dies setzt alle Bienenstöcke in diesem Bienenhof als inaktiv, beendet alle Gerätestandorte in jedem Bienenstock und entfernt den Bienenhof aus Ihren Ansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenhof oder seinen Bienenstöcken übertragen. Dies kann nicht rückgängig gemacht werden. Bienenhof {{name}} als inaktiv festlegen?",
             "CONFIRM": "Ja"
         },
-        "UPDATED_SUCCESS": "Bienenhaus aktualisiert",
-        "DELETE_SUCCESS": "Bienenhaus gelöscht",
-        "DELETE_ERROR": "Fehler beim Löschen des Bienenhauses"
+        "UPDATED_SUCCESS": "Bienenhof aktualisiert",
+        "DELETE_SUCCESS": "Bienenhof gelöscht",
+        "DELETE_ERROR": "Fehler beim Löschen des Bienenhofes"
     },
     "CONFIGURE_HIVES": {
         "ADD": "Bienenstock hinzufügen",
         "NAME": "Name des Bienenstocks",
         "CODE": "Bienenstock-Code",
-        "APIARY": "Bienenhaus",
-        "LOCATION_HISTORY": "Gerätehistorie",
-        "APIARY_HISTORY": "Bienenhaus-Historie",
+        "APIARY": "Bienenhof",
+        "LOCATION_HISTORY": "Geräte-Ortsgeschichte",
+        "APIARY_HISTORY": "Bienenhof-Geschichte",
         "ACTIVE": "Aktiv",
         "CONFIRM_DELETE_WINDOW": {
             "TITLE": "Bienenstock löschen",
@@ -997,7 +998,7 @@
         },
         "CONFIRM_INACTIVE_WINDOW": {
             "TITLE": "Bienenstock als inaktiv festlegen",
-            "MESSAGE": "Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhausansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock {{name}} als inaktiv festlegen?",
+            "MESSAGE": "Dies beendet alle Gerätestandorte im Bienenstock und entfernt den Bienenstock aus Ihren Bienenhofansichten. Vorhandene Daten bleiben erhalten, aber neue Daten werden nicht mehr zu diesem Bienenstock übertragen. Dies kann nicht rückgängig gemacht werden. Bienenstock {{name}} als inaktiv festlegen?",
             "CONFIRM": "Ja",
             "REASON": "Grund auswählen",
             "REASONS": {
@@ -1016,16 +1017,16 @@
         "FILTER": "Filter",
         "BATTERY": "Batterie",
         "NAME": "Name",
-        "APIARY": "Bienenhaus",
-        "LAST_UPLOAD": "Letzter Upload",
-        "TELECOM": "Telekommunikation",
+        "APIARY": "Bienenhof",
+        "LAST_UPLOAD": "Letzte Datenübermittlung",
+        "TELECOM": "Anbieter",
         "SIM": "SIM",
         "EDIT": "Verwalten",
         "THIRD_PARTY_DEVICE": "Gerät von Drittanbietern",
         "MANAGE": {
             "TITLE": "Verwalten",
             "CLOSE": "Fertig",
-            "SELECT_APIARY": "Bienenhaus auswählen",
+            "SELECT_APIARY": "Bienenhof auswählen",
             "UPDATED_SUCCESS": "Hub aktualisiert",
             "BACK_BUTTON": "Zurück"
         }
@@ -1039,7 +1040,7 @@
         "ADDRESS": "Geräteadresse",
         "LOCATION": "Aktueller Standort",
         "DATA_RECEIVED": "Letzte Datenübermittlung",
-        "LOCATION_HISTORY": "Standorthistorie",
+        "LOCATION_HISTORY": "Standortgeschichte",
         "BATTERY": "Batterie",
         "ADD_LOCATION": "Standort hinzufügen",
         "ACTIVE": "Aktiv",
@@ -1068,11 +1069,13 @@
         "DELETE": "Löschen",
         "CANCEL": "Abbrechen",
         "DISMISS": "Abweisen",
-        "APIARY": "Bienenhaus",
+        "APIARY": "Bienenhof",
         "HIVE": "Bienenstock",
         "DEVICE": "Gerät",
-        "POSITION": "Position"
+        "POSITION": "Position",
+        "BETA"  : "Beta"
     },
+    
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
         "LINK": "Bienenstock auf BeeCounted.org anzeigen",
@@ -1146,8 +1149,8 @@
     },
     "POSITIONS": {
         "UNDER_INNER_COVER": "Unter dem inneren Deckel",
-        "ABOVE_LOWER_BROOD_BOX": "Über unterer Brutkiste",
-        "ABOVE_UPPER_BROOD_BOX": "Über oberer Brutkiste",
+        "ABOVE_LOWER_BROOD_BOX": "Über der unteren Brutkiste",
+        "ABOVE_UPPER_BROOD_BOX": "Über der oberen Brutkiste",
         "OUTSIDE_HIVE": "Außerhalb des Bienenstocks",
         "SCALE_UNDER_HIVE": "Waage unter dem Bienenstock",
         "SCALE_UNDER_HIVE_BACK": "Waage unter dem Bienenstock (Hinten)",
@@ -1212,23 +1215,23 @@
         "SEC2_ITEM2": "Sensoren auslesen",
         "SEC2_ITEM3": "Datenverlaufsdaten anzeigen",
         "SEC2_ITEM4": "Logbuch",
-        "SEC2_ITEM5": "Wetteralmanach",
+        "SEC2_ITEM5": "Wetter Bauernkalender",
         "SEC2_ITEM6": "Standorte von Bienenstock/Sensoren verwalten",
         "SEC2_ITEM7": "Wettervorhersage",
         "SEC2_ITEM8": "Nektarvorhersage",
         "SEC2_ITEM9": "Bienenstockproduktivität",
         "SEC2_ITEM10": "Brutkastenschätzer",
-        "SEC2_ITEM11": "Rucher- und Bienenstockwarnungen",
+        "SEC2_ITEM11": "Bienengof und Bienenstockwarnungen",
         "SEC2_ITEM12": "Blühkalender",
         "SEC2_ITEM13": "Blütevorhersage",
         "SECTION3": "MyBroodMinder.com",
         "SEC3_ITEM1": "Daten speichern",
-        "SEC3_ITEM2": "Rucher/Bienenstockverwaltung",
+        "SEC3_ITEM2": "Bienenhof/Bienenstockverwaltung",
         "SEC3_ITEM3": "Logbuch",
         "SEC3_ITEM4": "Berechnete Ergebnisse - Analytik",
         "SEC3_ITEM5": "Dashboards",
-        "SEC3_ITEM6": "Mehrstockauswahl zum Vergleich von Bienenstöcken und Ruchern",
-        "SEC3_ITEM7": "Bienenstock/Rucherfotos",
+        "SEC3_ITEM6": "Mehrstockauswahl zum Vergleich von Bienenstöcken und Bienenhöfen",
+        "SEC3_ITEM7": "Bienenstock/Bienenhof Fotos",
         "SEC3_ITEM8": "Wettervorhersage",
         "SEC3_ITEM9": "Sensor-, Bienenstock- und Wetterwarnungen",
         "SEC3_ITEM10": "Zellen-Hub (Echtzeitdaten) Unterstützung",
@@ -1363,61 +1366,61 @@
     },
     "FITNESS_CODE": {
         "B1": {
-            "MSG": "Dead hive"
+            "MSG": "Ihr Bienenstock wurde als tot erkannt"
         },
         "B2": {
-            "MSG": "Stolen hive"
+            "MSG": "Gestohlener Bienenstock"
         },
         "R1": {
-            "MSG": "Very weak hive"
+            "MSG": "Sehr schwacher Bienenstock"
         },
         "O1": {
-            "MSG": "Weak hive or in strong decrease"
+            "MSG": "Schwacher Bienenstock oder Stock mit starker fallender Tendenz"
         },
         "O2": {
-            "MSG": "Potential swarm"
+            "MSG": "Potentieller Schwarm"
         },
         "O3": {
-            "MSG": "Overheating"
+            "MSG": "Überhitzung"
         },
         "O4": {
-            "MSG": "Extreme cold"
+            "MSG": "Extreme Kålte"
         },
         "O5": {
-            "MSG": "Rapid weight loss, being robbed"
+            "MSG": "Rascher Gewichtsverslust, wird ausgeraubt"
         },
         "G1": {
-            "MSG": "Healthy"
+            "MSG": "Gesund"
         },
         "G2": {
-            "MSG": "No data or no weather"
+            "MSG": "Keine Daten oder kein Wetter"
         }
     },
-    "CHART": {
+   "CHART": {
         "DATA_TYPES": {
             "WEIGHT": {
-                "TITLE": "Weight",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight",
-                "FILTER_HOURLY": "Weight Hourly",
-                "FILTER_DAILY": "Weight Daily"
+                "TITLE": "Gewicht",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewicht",
+                "FILTER_HOURLY": "Gewicht stündlich",
+                "FILTER_DAILY": "Gewicht täglich"
             },
             "PROD": {
-                "TITLE": "Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Productivity",
-                "FILTER_HOURLY": "Productivity Hourly",
-                "FILTER_DAILY": "Productivity Daily"
+                "TITLE": "Produktivität",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Produktivität",
+                "FILTER_HOURLY": "Produktivität stündlich",
+                "FILTER_DAILY": "Produktivität täglich"
             },
             "BATTERY": {
-                "TITLE": "Battery",
-                "YAXIS": "Battery (%)",
-                "FILTER": "Battery"
+                "TITLE": "Batterie",
+                "YAXIS": "Batterie (%)",
+                "FILTER": "Batterie"
             },
             "TEMP_EVENTS": {
-                "TITLE": "Temperature Events",
+                "TITLE": "Temperaturereignisse",
                 "YAXIS": "",
-                "FILTER": "Temperature Events"
+                "FILTER": "Temperaturereignisse"
             },
             "AUDIO": {
                 "TITLE": "Vibration",
@@ -1425,224 +1428,224 @@
                 "FILTER": "Vibration"
             },
             "RADAR": {
-                "TITLE": "Radar Signal",
-                "YAXIS": "Radar Signal ({{label}})",
-                "FILTER": "Radar Signal"
+                "TITLE": "Radarsignal",
+                "YAXIS": "Radarsignal ({{label}})",
+                "FILTER": "Radarsignal"
             },
             "BEECOUNT": {
-                "TITLE": "Bee Count",
-                "YAXIS": "Bees ({{label}})",
-                "FILTER": "Bees",
-                "UNIT": "bees/min"
+                "TITLE": "Bienenzählung",
+                "YAXIS": "Bienen ({{label}})",
+                "FILTER": "Bienen",
+                "UNIT": "Bienen/Min"
             },
             "BROOD": {
-                "TITLE": "Brood",
-                "YAXIS": "Brood (%)",
-                "FILTER": "Brood"
+                "TITLE": "Brut",
+                "YAXIS": "Brut (%)",
+                "FILTER": "Brut"
             },
             "TEMP_MIN": {
-                "TITLE": "Min Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Temperature"
+                "TITLE": "Min. Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Min. Temperatur"
             },
             "TEMP_MEAN": {
-                "TITLE": "Mean Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Mean Temperature"
+                "TITLE": "Durchschnittstemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Durchschnittstemperatur"
             },
             "TEMP_MAX": {
-                "TITLE": "Max Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Temperature"
+                "TITLE": "Max. Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Max. Temperatur"
             },
             "TEMP_MIN_EXT": {
-                "TITLE": "Min External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min External Temperature"
+                "TITLE": "Min. Außentemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Min. Außentemperatur"
             },
             "TEMP_MAX_EXT": {
-                "TITLE": "Max External Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max External Temperature"
+                "TITLE": "Max. Außentemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Max. Außentemperatur"
             },
             "HUMID_MIN": {
-                "TITLE": "Min Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Min Humidity"
+                "TITLE": "Min. Luftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Min. Luftfeuchtigkeit"
             },
             "HUMID_MAX": {
-                "TITLE": "Max Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Humidity"
+                "TITLE": "Max. Luftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Max. Luftfeuchtigkeit"
             },
             "GAIN": {
-                "TITLE": "Weight Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Weight Gain"
+                "TITLE": "Gewichtszunahme",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Gewichtszunahme"
             },
             "GAIN_CUMUL": {
-                "TITLE": "Cumulative Gain",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Weight Gain"
+                "TITLE": "Kumulative Zunahme",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Kumulative Gewichtszunahme"
             },
             "PROD_CUMUL": {
-                "TITLE": "Cumulative Productivity",
-                "YAXIS": "Weight ({{label}})",
-                "FILTER": "Cumulative Productivity"
+                "TITLE": "Kumulative Produktivität",
+                "YAXIS": "Gewicht ({{label}})",
+                "FILTER": "Kumulative Produktivität"
             },
             "HUMID_MAX_EXT": {
-                "TITLE": "External Humidity Max",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Max"
+                "TITLE": "Max. Außenluftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Max. Außenluftfeuchtigkeit"
             },
             "HUMID_MIN_EXT": {
-                "TITLE": "External Humidity Min",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "External Humidity Min"
+                "TITLE": "Min. Außenluftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Min. Außenluftfeuchtigkeit"
             },
             "TEMP_WEATHER": {
-                "TITLE": "Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Weather Temperature"
+                "TITLE": "Wettertemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Wettertemperatur"
             },
             "TEMP_MIN_WEATHER": {
-                "TITLE": "Min Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Min Weather Temperature"
+                "TITLE": "Min. Wettertemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Min. Wettertemperatur"
             },
             "TEMP_MAX_WEATHER": {
-                "TITLE": "Max Weather Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Max Weather Temperature"
+                "TITLE": "Max. Wettertemperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Max. Wettertemperatur"
             },
             "HUMID_MIN_WEATHER": {
-                "TITLE": "Min Weather Humidity",
-                "YAXIS": "Humidity (%)",
+                "TITLE": "Min. Wetterfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
                 "FILTER": ""
             },
             "HUMID_MAX_WEATHER": {
-                "TITLE": "Max Weather Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Max Weather Humidity"
+                "TITLE": "Max. Wetterfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Max. Wetterfeuchtigkeit"
             },
             "WEATHER": {
-                "TITLE": "Weather",
+                "TITLE": "Wetter",
                 "YAXIS": "",
-                "FILTER": "Weather Daily"
+                "FILTER": "Wetter täglich"
             },
             "WIND_MAX": {
-                "TITLE": "Max Wind",
+                "TITLE": "Max. Wind",
                 "YAXIS": "Wind ({{label}})",
-                "FILTER": "Max Wind"
+                "FILTER": "Max. Wind"
             },
             "HIVE_HEALTH": {
-                "TITLE": "Hive Health",
+                "TITLE": "Bienenstockgesundheit",
                 "YAXIS": "",
-                "FILTER": "Hive Health"
+                "FILTER": "Bienenstockgesundheit"
             },
             "LUNAR": {
-                "TITLE": "Lunar Calendar",
+                "TITLE": "Mondkalender",
                 "YAXIS": "",
-                "FILTER": "Lunar Daily"
+                "FILTER": "Mondkalender täglich"
             },
             "ALERTS_NOTES": {
-                "TITLE": "Alerts and Notes",
+                "TITLE": "Warnungen und Notizen",
                 "YAXIS": " ({{label}})",
-                "FILTER": "Alerts and Notes"
+                "FILTER": "Warnungen und Notizen"
             },
             "ALERTS": {
-                "TITLE": "Alerts",
+                "TITLE": "Warnungen",
                 "YAXIS": "",
-                "FILTER": "Alerts"
+                "FILTER": "Warnungen"
             },
             "NOTES": {
-                "TITLE": "Notes",
+                "TITLE": "Notizen",
                 "YAXIS": "",
-                "FILTER_APIARY": "Apiary Notes",
-                "FILTER_HIVE": "Hive Notes"
+                "FILTER_APIARY": "Bienenstand-Notizen",
+                "FILTER_HIVE": "Bienenstock-Notizen"
             },
             "PRECIP": {
-                "TITLE": "Precipitation",
-                "YAXIS": "Precipitation ({{label}})",
-                "FILTER": "Precipitation",
-                "FILTER_DAILY": "Precipitation Daily"
+                "TITLE": "Niederschlag",
+                "YAXIS": "Niederschlag ({{label}})",
+                "FILTER": "Niederschlag",
+                "FILTER_DAILY": "Niederschlag täglich"
             },
             "TEMP": {
-                "TITLE": "Temperature",
-                "YAXIS": "Temperature ({{label}})",
-                "FILTER": "Temperature",
-                "FILTER_HOURLY": "Temperature Hourly"
+                "TITLE": "Temperatur",
+                "YAXIS": "Temperatur ({{label}})",
+                "FILTER": "Temperatur",
+                "FILTER_HOURLY": "Temperatur stündlich"
             },
             "WIND": {
                 "TITLE": "Wind",
                 "YAXIS": "Wind ({{label}})",
                 "FILTER": "Wind",
-                "FILTER_HOURLY": "Wind Hourly"
+                "FILTER_HOURLY": "Wind stündlich"
             },
             "RAIN": {
-                "TITLE": "Rainfall",
-                "YAXIS": "Rainfall ({{label}})",
-                "FILTER": "Rainfall",
-                "FILTER_HOURLY": "Rain Hourly",
-                "FILTER_CUMULATIVE": "Rain Cumulative"
+                "TITLE": "Regenmenge",
+                "YAXIS": "Regenmenge ({{label}})",
+                "FILTER": "Regenmenge",
+                "FILTER_HOURLY": "Regen stündlich",
+                "FILTER_CUMULATIVE": "Regen kumulativ"
             },
             "HUMID": {
-                "TITLE": "Humidity",
-                "YAXIS": "Humidity (%)",
-                "FILTER": "Humidity",
-                "FILTER_HOURLY": "Humidity Hourly"
+                "TITLE": "Luftfeuchtigkeit",
+                "YAXIS": "Luftfeuchtigkeit (%)",
+                "FILTER": "Luftfeuchtigkeit",
+                "FILTER_HOURLY": "Luftfeuchtigkeit stündlich"
             },
             "CLOUD_COVER": {
-                "TITLE": "Cloud Cover",
-                "YAXIS": "Cloud Cover (%)",
-                "FILTER": "Cloud Cover",
-                "FILTER_HOURLY": "Cloud Cover Hourly"
+                "TITLE": "Bewölkung",
+                "YAXIS": "Bewölkung (%)",
+                "FILTER": "Bewölkung",
+                "FILTER_HOURLY": "Bewölkung stündlich"
             },
             "NECTAR": {
-                "TITLE": "Nectar flow index",
-                "YAXIS": "Nectar flow index (%)",
-                "FILTER": "Nectar flow"
+                "TITLE": "Nektarfluss-Index",
+                "YAXIS": "Nektarfluss-Index (%)",
+                "FILTER": "Nektarfluss"
             },
             "FLIGHT": {
-                "TITLE": "Foraging index",
-                "YAXIS": "Foraging index (%)",
-                "FILTER": "Foraging index"
+                "TITLE": "Sammelflug-Index",
+                "YAXIS": "Sammelflug-Index (%)",
+                "FILTER": "Sammelflug-Index"
             },
             "BC_ACTIV_DUR": {
-                "TITLE": "Foraging Duration",
-                "YAXIS": "Foraging Duration (hours)",
-                "FILTER": "Foraging Duration",
-                "UNIT": "hours"
+                "TITLE": "Sammelflugdauer",
+                "YAXIS": "Sammelflugdauer (Stunden)",
+                "FILTER": "Sammelflugdauer",
+                "UNIT": "Stunden"
             },
             "BC_FOR": {
-                "TITLE": "Foraging Trips",
-                "YAXIS": "Foraging (k trips/day)",
-                "FILTER": "Foraging Trips",
-                "UNIT": "trips/day"
+                "TITLE": "Sammelflüge",
+                "YAXIS": "Sammelflüge (Tsd. Flüge/Tag)",
+                "FILTER": "Sammelflüge",
+                "UNIT": "Flüge/Tag"
             },
             "BC_WORK_PER": {
-                "TITLE": "Foraging Periods",
-                "YAXIS": "Periods per day",
-                "FILTER": "Foraging Periods",
-                "UNIT": "working sessions"
+                "TITLE": "Sammelflugperioden",
+                "YAXIS": "Perioden pro Tag",
+                "FILTER": "Sammelflugperioden",
+                "UNIT": "Arbeitsperioden"
             },
             "MF_DUR": {
-                "TITLE": "Mating Flight Duration",
-                "YAXIS": "Flight Window (hours)",
-                "FILTER": "Flight Window (hours)",
-                "UNIT": "hours"
+                "TITLE": "Begattungsflugdauer",
+                "YAXIS": "Flugfenster (Stunden)",
+                "FILTER": "Flugfenster (Stunden)",
+                "UNIT": "Stunden"
             },
             "MF_COUNT": {
-                "TITLE": "Mating Flight Count",
-                "YAXIS": "flights/day",
-                "FILTER": "Mating Flight Count",
-                "UNIT": "flights/day"
+                "TITLE": "Anzahl Begattungsflüge",
+                "YAXIS": "Flüge/Tag",
+                "FILTER": "Anzahl Begattungsflüge",
+                "UNIT": "Flüge/Tag"
             },
             "MF_SESS": {
-                "TITLE": "Mating Flight Sessions",
-                "YAXIS": "Sessions/day",
-                "FILTER": "Mating Flight Sessions",
-                "UNIT": "sessions/day"
+                "TITLE": "Begattungsflug-Sitzungen",
+                "YAXIS": "Sitzungen/Tag",
+                "FILTER": "Begattungsflug-Sitzungen",
+                "UNIT": "Sitzungen/Tag"
             },
             "PLANT_BLOOM": {
                 "FILTER_DAILY": "Blüteperiode",
@@ -1650,6 +1653,12 @@
             },
             "PHENO_FORECAST": {
                 "FILTER_DAILY": "Phänostadien"
+            },
+            "GDD":{
+                "TITLE":"Wachstumsgradtage",
+                "YAXIS":"WGT ({{label}}·Tage)",
+                "FILTER_DAILY":"Tägliche Wachstumsgradtage",
+                "FILTER_CUMULATIVE":"Kumulierte Wachstumsgradtage"
             }
         }
     },
@@ -1699,7 +1708,7 @@
     "INSP_CONF": {
         "APPLIES": {
             "HIVE": "Bienenstock",
-            "APIARY": "Bienenstand"
+            "APIARY": "Bienenhof"
         },
         "DEFAULT": "Standard",
         "SUPER+": "Super hinzugefügt",
@@ -1711,23 +1720,23 @@
         "BROODADD": "Hinzugefügte Brutrahmen",
         "BROODREMOVE": "Entfernte Brutrahmen",
         "COMBINEDHIVES": "Kombinierte Bienenstöcke",
-        "SWARM": "Schwarmbildung",
+        "SWARM": "Schwarm",
         "SECONDARYSWARM": "Nachschwarm",
-        "CANDIFEED": "Zuckerfütterung",
+        "CANDIFEED": "Fütterung mit Zucker",
         "SYRUPFEED": "Fütterung mit Sirup",
-        "PATTIESFEED": "Fütterung mit Pastillen",
-        "REQUEEN": "Neue Königin",
+        "PATTIESFEED": "Fütterung mit Pollen-Fladen",
+        "REQUEEN": "Umweiseln",
         "QUEENLINEAGE": "Königinnenherkunft",
         "HARVEST": "Ernte",
-        "INSTALLPKG": "Installiertes Paket",
-        "NUCLEUSHIVE": "Installierter Kernbienenstock",
+        "INSTALLPKG": "Schwarm/Paket Einlogieren",
+        "NUCLEUSHIVE": "Einlogierter Kernbienenstock",
         "SPLITQUEENREMOVE": "Teilung mit Entfernung der Königin",
         "NECTARFLOW": "Nektarfluss",
-        "MITEOAVAPOR": "Milbenbehandlung: Oxalsäureverdampfung",
-        "MITEOADRIBBLE": "Milbenbehandlung: Oxalsäureträufelung",
-        "MITEFORMICPRO": "Milbenbehandlung: Formic Pro",
-        "MITESTRIPADD": "Milbenbehandlung: Streifen hinzufügen",
-        "MITESTRIPREMOVE": "Milbenbehandlung: Streifen entfernen",
+        "MITEOAVAPOR": "Milbenkur: Oxalsäureverdampfung",
+        "MITEOADRIBBLE": "Milbenkur: Oxalsäureträufelung",
+        "MITEFORMICPRO": "Milbenbkur: Formic Pro",
+        "MITESTRIPADD": "Milbenbenkur: Streifen hinzufügen",
+        "MITESTRIPREMOVE": "Milbenkur: Streifen entfernen",
         "MITECOUNTLOUNGE": "Milbenzählung auf dem Klebefilm",
         "MITECOUNTWASH": "Milbenzählung durch Waschen",
         "STARTFEED": "Fütterung beginnen",
@@ -1748,35 +1757,35 @@
         "LOWRES": "Niedriger Ressourcenbestand",
         "NORMRES": "Mittlerer Ressourcenbestand",
         "HIGHRES": "Hoher Ressourcenbestand",
-        "EGG": "Anwesenheit von Eiern",
-        "LARVA": "Anwesenheit von Larven",
-        "PUPA": "Anwesenheit von verdeckter Brut",
-        "DRONEBROOD": "Anwesenheit von Drohnennachwuchs",
-        "DRONE": "Anwesenheit von Drohnen",
-        "BUZZINGHIVE": "Bienenstock mit legender Arbeiterin",
+        "EGG": "Eiern Gesehen",
+        "LARVA": "Larven Gesehen",
+        "PUPA": "Verdeckelte Brut Gesehen",
+        "DRONEBROOD": "Drohnenbrut Gesehen",
+        "DRONE": "Drohnen Gesehen",
+        "BUZZINGHIVE": "Bienenvolk mit legenden Arbeiterinnen",
         "MOSAICBROOD": "Verstreute Brut",
-        "QUEENCELLSEEN": "Königinnenzelle gesehen",
+        "QUEENCELLSEEN": "Weiselzelle gesehen",
         "SUPERSEDUREEMERGENCY": "Austausch/ Notfall",
         "YOUNGLARVA": "Junge Larve",
         "OLDERLARVA": "Ältere Larve",
-        "CAPPEDWORKERBROOD1": "Gedeckte Arbeiterbrut (1 Wabe)",
-        "CAPPEDWORKERBROOD2": "Gedeckte Arbeiterbrut (2 Waben)",
-        "CAPPEDWORKERBROOD3": "Gedeckte Arbeiterbrut (3+ Waben)",
+        "CAPPEDWORKERBROOD1": "Verdeckelte Arbeiterbrut (1 Wabe)",
+        "CAPPEDWORKERBROOD2": "Verdeckelte Arbeiterbrut (2 Waben)",
+        "CAPPEDWORKERBROOD3": "Verdeckelte Arbeiterbrut (3+ Waben)",
         "CAPPEDDRONEBROODONLY": "Nur gedeckte Drohnenbrut",
         "NOBROOD": "Keine Brut",
         "NOEGG": "Kein Ei",
         "OPENQUEENCELL": "Offene Weiselzelle",
-        "CAPPEDQUEENCELL": "Gedeckte Weiselzelle",
+        "CAPPEDQUEENCELL": "verdeckelte Weiselzelle",
         "EMERGEDQUEENCELL": "Ausgeschlüpfte Weiselzelle",
         "NOQUEENCELL": "Keine Weiselzelle, hat Eier/Larven",
         "MATEDQUEEN": "Begattete Königin",
         "BREEDERQUEENCELL": "Zucht-Weiselzelle",
         "EMERGEDVIRGIN": "Ausgeschlüpfte Jungkönigin (1-3 Tage alt)",
-        "FERTILEVIRGIN": "Befruchtete Jungkönigin (4 oder mehr Tage alt)",
+        "FERTILEVIRGIN": "Fruchtbare Jungkönigin (4 oder mehr Tage alt)",
         "CONFIRMEDQUEEN": "Bestätigte Königin",
-        "INSTALLEDPACKAGE": "Installierte Paketbienen (begattete Königin)",
-        "INSTALLEDPRIMARYSWARM": "Installierter Erstschwarm (begattete Königin)",
-        "INSTALLEDSECONDARYSWARM": "Installierter Nachschwarm (befruchtete Jungkönigin)"
+        "INSTALLEDPACKAGE": "Einlogierte Paketbienen (begattete Königin)",
+        "INSTALLEDPRIMARYSWARM": "Einlogierter Erstschwarm (Begattete Königin)",
+        "INSTALLEDSECONDARYSWARM": "Einlogierter Nachschwarm (Fruchtbare Jungkönigin)"
     },
     "INSP_CATEG": {
         "BEESBROODSTG": "Brutstadien",
@@ -2047,8 +2056,8 @@
                 "BATTERY": "Batterie",
                 "BROOD": "Brut",
                 "NOTES": "Notizen",
-                "APIARY_IMAGE": "Bienenstandbild",
-                "APIARY_MAP": "Bienenstände Karte",
+                "APIARY_IMAGE": "Bienenhofbild",
+                "APIARY_MAP": "Bienenhöfe Karte",
                 "FORAGING": "Sammelindex",
                 "NECTAR": "Nektarflussindex",
                 "HIVE_TEXT": "Bienenstocktext",
@@ -2056,7 +2065,8 @@
                 "HIVE_COLONYTRANSITION": "Kolonieübergang",
                 "HIVE_COLONYTRANSITION_CAL": "Kolonieübergangskalender",
                 "BLOOM": "Blüte",
-                "BLOOM_FORECAST": "Blühvorhersage"
+                "BLOOM_FORECAST": "Blühvorhersage",
+                "GDD":"Wachstumsgradtage"
             }
         },
         "CHART": {
@@ -2101,9 +2111,9 @@
             "NO_DATA": "Keine Daten",
             "EDIT_CHART": "Diagramm bearbeiten",
             "DOWNLOAD_CHART": "Diagrammbild herunterladen",
-            "ZOOM_X": "X-Achsen-Zoom",
-            "ZOOM_Y": "Y-Achsen-Zoom",
-            "ZOOM_CANCEL": "Zoom abbrechen",
+            "ZOOM_X": "Vergrösserung der X-Achse",
+            "ZOOM_Y": "Vergrösserung der Y-Achse",
+            "ZOOM_CANCEL": "Vergrösserung abbrechen",
             "IMAGE": {
                 "ADD": "Bild hinzufügen",
                 "REMOVE": "Bild entfernen",
@@ -2136,7 +2146,7 @@
                 "DATE": "Datum",
                 "DESCRIPTION": "Beschreibung",
                 "NO_DESCR": "Keine Beschreibung",
-                "TAGS": "Tags",
+                "TAGS": "Markierungen",
                 "DELETE_ALERT": {
                     "TITLE": "Alarm löschen",
                     "MESSAGE": "Sind Sie sicher, dass Sie diesen Alarm löschen möchten?",
@@ -2189,7 +2199,7 @@
             },
             "PLANT_FORECAST": {
                 "TITLE": "Blütenprognose",
-                "APIARY": "Bienenstockstand",
+                "APIARY": "Bienenhof",
                 "PLANT": "Pflanze",
                 "DESCRIPTION": "Beschreibung",
                 "BBCH": "BBCH",
@@ -2214,6 +2224,16 @@
         },
         "WEATHER": {
             "TITLE": "Wetter"
+        },
+        "PLANTS":{
+            "TITLE":"Pflanzen",
+            "BLOOM_FORECAST":"Blütenvorhersage",
+            "BLOOM":"Blüte"
+        },
+        "QUEENMINDER":{
+            "TITLE":"QueenMinder",
+            "COLONY_TRANSITION":"Volksübergang",
+            "COLONY_TRANSITION_CAL":"Volksübergangskalender"
         }
     },
     "F_TOUR": {
@@ -2230,7 +2250,7 @@
         "NAV": {
             "HOME": {
                 "TITLE": "Startseite",
-                "TEXT": "Besuchen Sie die Startseite, um eine Übersicht Ihrer aktiven Bienenstöcke und Bienenstände anzuzeigen."
+                "TEXT": "Besuchen Sie die Startseite, um eine Übersicht Ihrer aktiven Bienenstöcke und Bienenhöfe anzuzeigen."
             },
             "HIVE": {
                 "TITLE": "Einen Bienenstock anzeigen",
@@ -2242,8 +2262,8 @@
                 "TEXT": "Klicken Sie auf Mehrfachauswahl, um mehrere Bienenstöcke gleichzeitig anzuzeigen."
             },
             "APIARY": {
-                "TITLE": "Bienenstand auswählen",
-                "TEXT": "Klicken Sie auf einen Bienenstand, um seine Bienenstöcke aus Ihrer Anzeige hinzuzufügen oder zu entfernen."
+                "TITLE": "Bienenhof auswählen",
+                "TEXT": "Klicken Sie auf einen Bienenhof, um seine Bienenstöcke aus Ihrer Anzeige hinzuzufügen oder zu entfernen."
             }
         },
         "DASH": {
@@ -2289,7 +2309,7 @@
             "HIVE_COLOR": {
                 "TITLE": "Bienenstockfarbe anpassen",
                 "TEXT_1": "Bearbeiten Sie Ihren Bienenstock, um die Bienenstockfarbe zu ändern. Dies ist anpassbar, damit Sie mehrere Bienenstöcke auf demselben Dashboard leicht anzeigen können.",
-                "TEXT_2": "Dies kann auch für jede Ihrer Bienenstandorte gemacht werden, um die Wettersymbolfarbe festzulegen."
+                "TEXT_2": "Dies kann auch für jede Ihrer Bienenhoforte gemacht werden, um die Wettersymbolfarbe festzulegen."
             }
         },
         "END": {
@@ -2302,22 +2322,22 @@
     },
     "HOME": {
         "HIVES": "Bienenstöcke",
-        "APIARIES": "Bienenstände",
+        "APIARIES": "Bienenhöfe",
         "EMPTY": {
             "TEXT_1": "Willkommen bei MyBroodMinder! Dies ist die Startseite!",
-            "TEXT_2": " Hier sehen Sie eine Schnellansicht Ihrer Bienenstöcke und Bienenstände. Bienenstöcke und Bienenstände werden hier angezeigt, wenn sie aktiv mit zugewiesenen Geräten sind.",
-            "TEXT_3": "Geteilte Bienenstände werden hier nicht angezeigt.",
+            "TEXT_2": " Hier sehen Sie eine Schnellansicht Ihrer Bienenstöcke und Bienenhöfe. Bienenstöcke und Bienenhöfe werden hier angezeigt, wenn sie aktiv mit zugewiesenen Geräten sind.",
+            "TEXT_3": "Geteilte Bienenhöfe werden hier nicht angezeigt.",
             "TEXT_4": "Es scheint, als hätten Sie nichts, was dieser Beschreibung entspricht.",
             "TEXT_5": "Ab jetzt können Sie:",
             "TEXT_LI_1A": "Verwenden Sie",
-            "TEXT_LI_1B": "oben links, um Bienenstöcke, Bienenstände und Geräte zu Ihrem Konto hinzuzufügen",
+            "TEXT_LI_1B": "oben links, um Bienenstöcke, Bienenhöfe und Geräte zu Ihrem Konto hinzuzufügen",
             "TEXT_LI_2": "Oder laden Sie die BroodMinder Bees-App herunter, um sie auch zu verwalten."
         },
         "BLOCKED": {
             "TITLE": "Startseite",
             "MISSING": "Was Ihnen fehlt!",
             "DESCR_HIVES": "Ein schneller Überblick über den aktuellen Zustand Ihrer Stöcke. Anzeige von Notizen, Warnungen und Gesundheitsstatistiken.",
-            "DESCR_APIARIES": "Ein schneller Überblick über den aktuellen Zustand Ihres Bienenstands. Anzeige von Notizen, Warnungen, Wetter und Vorhersagen."
+            "DESCR_APIARIES": "Ein schneller Überblick über den aktuellen Zustand Ihres Bienenhofs. Anzeige von Notizen, Warnungen, Wetter und Vorhersagen."
         }
     },
     "MEMBERSHIP_BLOCKS": {
@@ -2377,14 +2397,14 @@
                     "TITLE": "Beobachtung löschen",
                     "TEXT": "Möchten Sie diese Beobachtung wirklich löschen?",
                     "YES": "Ja, Beobachtung löschen",
-                    "NO": "Abbrechen",
+                    "NO": "Nein",
                     "SUCCESS": "Beobachtung gelöscht"
                 }
             }
         },
         "NEW_APIARY": {
-            "TITLE": "Pflanzen zu Ihrem Bienenstand hinzufügen?",
-            "TEXT": "Super! Sie haben einen neuen Bienenstand erstellt. Möchten Sie einige Pflanzen hinzufügen, die wichtig für Ihre Bienen sind?",
+            "TITLE": "Pflanzen zu Ihrem Bienenhof hinzufügen?",
+            "TEXT": "Super! Sie haben einen neuen Bienenhof erstellt. Möchten Sie einige Pflanzen hinzufügen, die wichtig für Ihre Bienen sind?",
             "YES": "Ja",
             "NO": "Nein"
         },
@@ -2405,7 +2425,7 @@
                 "TITLE": "Eine Beobachtung für eine andere Pflanze machen?",
                 "TEXT": "Sie verlieren die aktuelle Beobachtung. Möchten Sie fortfahren?",
                 "YES": "Fortfahren ohne Änderungen",
-                "NO": "Abbrechen"
+                "NO": "Nein"
             }
         },
         "ADD_CONFIGURATION": {
@@ -2449,7 +2469,7 @@
             "TITLE": "Pflanze löschen",
             "TEXT": "Möchten Sie diese Pflanze wirklich löschen?",
             "YES": "Ja, Pflanze löschen",
-            "NO": "Abbrechen",
+            "NO": "Nein",
             "SUCCESS": "Pflanze gelöscht"
         }
     },
@@ -2488,12 +2508,13 @@
         "QDT":"QDT",
         "QDT_TEXT":"Königinnen-Entwicklungszeit (vom Königinnen-Ei bis zu ihrem ersten Ei)",
         "NOT_APPLICABLE":"n/v",
+        "IN_PROGRESS":"Volksübergang in Bearbeitung",
         "STATUS":{
             "INCOMPLETE":"Unvollständig",
             "INCOMPLETE_ID":"Fehlgeschlagen - Unvollständige Daten",
             "FAIL":"Fehlgeschlagen",
             "SUCCEED":"Erfolgreich",
-            "RESTART":"Neu starten"
+            "RESTART":"Wiederstart"
         },
         "CREATE_UPDATE":{
             "LINKED_FROM":"Verknüpft von",
@@ -2503,7 +2524,30 @@
         "DELETE":{
             "TITLE:":"Volksübergang löschen",
             "MESSAGE":"Möchten Sie diesen Zyklus löschen?",
-            "YES":"Ja"
+            "CONFIRM":"Ja"
+        },
+        "INSPECTION_DIALOG":{
+            "TITLE":"Kontrolle für Volksübergang",
+            "PROMPT":"Dieser Stock befindet sich in einem Volksübergang, begonnen am",
+            "QUESTION":". Möchten Sie eine Volksübergangskontrolle hinzufügen?",
+            "YES":"Ja",
+            "NO":"Nein"
+        },
+        "START_TRANSITION":{
+            "TITLE":"Volksübergang Starten",
+            "MESSAGE":"Diese Markierung kann einen Volksübergang auslösen. Möchten Sie fortfahren?"
+        },
+        "TAG_DESCRIPTIONS":{
+            "I1_SWM":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle.",
+            "I1_SPLT":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Königinnenaufzuchtsressource.",
+            "I1_REQ_TAG1":"Entwicklungsstadium der ÄLTESTEN Weiselzelle oder Königin, die Sie dem Stock hinzufügen.",
+            "I1_REQ_TAG2":"Falls der Stock weisellos war: Entwicklungsstadium der JÜNGSTEN im Stock verbliebenen Brut.",
+            "I1_SEQ_TAG1":"Entwicklungsstadium der ÄLTESTEN im Stock verbliebenen Weiselzelle oder Königin.",
+            "I1_SEQ_TAG2":"Entwicklungsstadium der JÜNGSTEN im Stock verbliebenen Brut.",
+            "I2_ALL":"Entwicklungsstadium der ÄLTESTEN bei Kontrolle 1 im Stock verbliebenen Königinnenaufzuchtsressource.",
+            "I3_ALL":"Entwicklungsstadium der ÄLTESTEN neuen Brut. Überspringen Sie die Dateneingabe hier und geben Sie die Daten bei Kontrolle 4 ein, falls verdeckelte Brut gefunden wird oder das Volk geschwärmt ist.",
+            "I34_ALL":"Entwicklungsstadium der ÄLTESTEN neuen Brut",
+            "I4_ALL":"Volksübergang - Beobachtungen"
         },
         "CYCLE_DESCR":
         {
@@ -2519,7 +2563,7 @@
             },
             "I1":{
                 "TITLE":"Kontrolle 1",
-                "TITLE_CAP":"Installation",
+                "TITLE_CAP":"Einlogieren",
                 "SWM":"Alle Weiselzellen bis auf eine oder zwei der ältesten entfernen. Entwicklungsstadium der ältesten bestimmen.",
                 "SPLT":"Sicherstellen, dass der Ableger Eier und Larven, Weiselzelle(n) oder eine lebende Königin hat",
                 "REQ":"Ressourcen bereitstellen, damit das Volk eine neue Königin nachziehen kann. Es wird angenommen, dass die Mutterkönigin während dieser Kontrolle entfernt wurde. Andernfalls muss das Alter der jüngsten verbleibenden Brut beurteilt und dokumentiert werden.",
@@ -2555,14 +2599,15 @@
             "RESTART":"Zyklus-Neustart"
         },
         "CAL":{
+            "TITLE":"Volksübergangskalender",
             "LEGEND_NEWQUEEN":"Legende Lebenszyklus der neuen Königin",
             "LEGEND_ACTION":"Legende empfohlene Maßnahme",
             "TOOLTIP":{
                 "EGG":"Ei",
                 "LARVA":"Larve",
                 "PUPA":"Puppe",
-                "UNF_VIRGIN":"unbegattete Jungfrau",
-                "FER_VIRGIN":"begattete Jungfrau",
+                "UNF_VIRGIN":"unfruchtbare Jungfrau",
+                "FER_VIRGIN":"fruchtbare Jungfrau", 
                 "MATED":"begattete Königin",
                 "ESTABLISHED":"etabliert und stabil",
                 "STABLE":"stabil",
@@ -2582,7 +2627,8 @@
                 "SENSITIVE_SHORT":"empfindliche Entwicklungsphase",
                 "DRONE_COMB_SHORT":"Drohnenwabe entfernen",
                 "OAV_SHORT":"OAV-Behandlung",
-                "ADD_BROOD_SHORT":"Brut hinzufügen"
+                "ADD_BROOD_SHORT":"Brut hinzufügen",
+                "VIEW_DATE_RANGE":"Relevanten Datumsbereich anzeigen"
             }
         },
         "TABLE":{
