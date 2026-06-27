@@ -652,7 +652,7 @@
 		<value>Vue en temps réel</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_SETRATE">
-		<value>Définir Fréquence</value>
+		<value>Intervalle de mesure</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
 		<value>Vider la mémoire du capteur</value>
@@ -661,7 +661,7 @@
 		<value>Dépannage</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
-		<value>Effacer les données locales</value>
+		<value>Effacer les données du téléphone</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
 		<value>Envoyer Données Locales</value>
