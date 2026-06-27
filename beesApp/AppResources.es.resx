@@ -640,7 +640,7 @@
 		<value>Ver en Tiempo Real</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_SETRATE">
-		<value>Ajustar frecuencia</value>
+		<value>Intervalo de medición</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_CLEARLOG">
 		<value>Vaciar la memoria del sensor</value>
@@ -649,7 +649,7 @@
 		<value>Solucionar problemas</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_DELETEDATA">
-		<value>Eliminar Datos Locales</value>
+		<value>Borrar Datos del móvil</value>
 	</data>
 	<data name="DEVICEDETAIL_CONTEXT_UPLOADLOCAL">
 		<value>Subir datos locales</value>
