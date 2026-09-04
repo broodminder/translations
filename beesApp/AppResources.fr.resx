@@ -3174,4 +3174,346 @@
 	<data name="NOTE_STARTCT_MESSAGE">
 		<value>Cette étiquette peut démarrer un cycle de transition de colonie. Souhaitez-vous le faire ?</value>
 	</data>
+	<data name="BTVDETAIL_OUT_RANGE1">
+		<value>Hors de portée</value>
+	</data>
+	<data name="BTVDETAIL_OUT_RANGE2">
+		<value>BeeTV n'est pas à portée du Bluetooth.</value>
+	</data>
+	<data name="BTVDETAIL_OUT_RANGE3">
+		<value>Rapprochez-vous de la ruche pour accéder à la caméra.</value>
+	</data>
+	<data name="BTVDETAIL_REFRESH">
+		<value>Actualiser</value>
+	</data>
+	<data name="BTVDETAIL_IN_RANGE1">
+		<value>À portée</value>
+	</data>
+	<data name="BTVDETAIL_IN_RANGE2">
+		<value>Vue en direct</value>
+	</data>
+	<data name="BTVDETAIL_IN_RANGE3">
+		<value>BeeTV est à portée du Bluetooth.</value>
+	</data>
+	<data name="BTVDETAIL_IN_RANGE4">
+		<value>Connecté au wifi BeeTV</value>
+	</data>
+	<data name="BTVDETAIL_BATT">
+		<value>Batterie</value>
+	</data>
+	<data name="BTVDETAIL_TEMP">
+		<value>Temp.</value>
+	</data>
+	<data name="BTVDETAIL_FIRM">
+		<value>Firmware</value>
+	</data>
+	<data name="BTVDETAIL_INTERVAL">
+		<value>Intervalle d'enregistrement</value>
+	</data>
+	<data name="BTVDETAIL_INTERVAL_DESCR">
+		<value>Toutes les {0} heures</value>
+	</data>
+	<data name="BTVDETAIL_AUTO_EN">
+		<value>Activé</value>
+	</data>
+	<data name="BTVDETAIL_AUTO_DIS">
+		<value>Désactivé</value>
+	</data>
+	<data name="BTVDETAIL_SCHEDULE">
+		<value>Programmation</value>
+	</data>
+	<data name="BTVDETAIL_PHOTOS">
+		<value>Photos</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOS">
+		<value>Vidéos</value>
+	</data>
+	<data name="BTVDETAIL_SD">
+		<value>SD libre</value>
+	</data>
+	<data name="BTVDETAIL_SIDE_FLIP">
+		<value>Retourner</value>
+	</data>
+	<data name="BTVDETAIL_SIDE_REFRESH">
+		<value>Actualiser</value>
+	</data>
+	<data name="BTVDETAIL_SIDE_SCHED">
+		<value>Programmation</value>
+	</data>
+	<data name="BTVDETAIL_SIDE_STORAGE">
+		<value>Stockage</value>
+	</data>
+	<data name="BTVDETAIL_SIDE_WIFI">
+		<value>Wifi</value>
+	</data>
+	<data name="BTVDETAIL_SNAP">
+		<value>Instantané</value>
+	</data>
+	<data name="BTVDETAIL_RECORD">
+		<value>Enregistrer</value>
+	</data>
+	<data name="BTVDETAIL_RECORDSTOP">
+		<value>Arrêter</value>
+	</data>
+	<data name="BTVDETAIL_LIGHT_TITLE">
+		<value>Éclairage</value>
+	</data>
+	<data name="BTVDETAIL_LIGHT_WHITE">
+		<value>Blanc</value>
+	</data>
+	<data name="BTVDETAIL_LIGHT_IR">
+		<value>Infrarouge</value>
+	</data>
+	<data name="BTVDETAIL_LIGHT_RED">
+		<value>Rouge</value>
+	</data>
+	<data name="BTVDETAIL_LIGHT_UV">
+		<value>Ultraviolet</value>
+	</data>
+	<data name="BTVDETAIL_START">
+		<value>Démarrer la vue en direct</value>
+	</data>
+	<data name="BTVDETAIL_STOP">
+		<value>Arrêter la vue en direct</value>
+	</data>
+	<data name="BTVDETAIL_AUTOPROG_EN">
+		<value>Activer AutoProg</value>
+	</data>
+	<data name="BTVDETAIL_AUTOPROG_DIS">
+		<value>Désactiver AutoProg</value>
+	</data>
+	<data name="BTVDETAIL_SHOWTOOLS">
+		<value>Afficher les outils de débogage</value>
+	</data>
+	<data name="BTVDETAIL_FIRMWARE_TITLE">
+		<value>Mise à jour du firmware</value>
+	</data>
+	<data name="BTVDETAIL_FIRMWARE_MESSAGE">
+		<value>Il est recommandé de disposer d'une batterie complètement chargée pour effectuer une mise à jour. Celle-ci ne doit pas être réalisée lorsque BeeTV se trouve dans la ruche.</value>
+	</data>
+	<data name="BTVDETAIL_FIRMWARE_OK">
+		<value>Continuer</value>
+	</data>
+	<data name="BTVDETAIL_RATE_HOURS">
+		<value>{0} HEURES</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_LONG">
+		<value>L'opération prend plus de temps que prévu, toujours en cours...</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_BLE_CONNECTING">
+		<value>Connexion Bluetooth en cours</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_BLE_CONNECTED">
+		<value>Bluetooth connecté</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_STEP">
+		<value>Étape {0}/3</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_BOOTING">
+		<value>Démarrage de BeeTV</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_BOOTED">
+		<value>BeeTV démarré</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_INIT">
+		<value>Initialisation de BeeTV</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_RUNNING">
+		<value>BeeTV en fonctionnement</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_WIFI_ATTEMPT">
+		<value>Tentative de connexion wifi</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_WIFI_CONNECTED">
+		<value>Wifi connecté</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_STARTINGSTREAM">
+		<value>Démarrage du flux</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_STARTINGREALTIME">
+		<value>Démarrage du temps réel</value>
+	</data>
+	<data name="BTVDETAIL_PROGRESS_REALTIMEOFF">
+		<value>Temps réel désactivé</value>
+	</data>
+	<data name="BTVDETAIL_IMAGEFAILED">
+		<value>Image non capturée</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOSTART">
+		<value>Enregistrement vidéo démarré</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOERROR">
+		<value>L'enregistrement vidéo n'a pas démarré</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOCONVERT">
+		<value>Conversion de la vidéo</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOCONVERT_ERROR">
+		<value>Échec de la conversion de la vidéo</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOFILE_ERROR">
+		<value>Le fichier vidéo n'a pas été créé</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOSAVE_ERROR">
+		<value>Vidéo non enregistrée</value>
+	</data>
+	<data name="BTVDETAIL_VIDEOSAVE">
+		<value>Vidéo enregistrée</value>
+	</data>
+	<data name="BTVSETTINGS_TITLE">
+		<value>Programmation des enregistrements</value>
+	</data>
+	<data name="BTVSETTINGS_ENABLE_AUTO">
+		<value>Activer l'enregistrement automatique</value>
+	</data>
+	<data name="BTVSETTINGS_RATE_TITLE">
+		<value>Capturer toutes les</value>
+	</data>
+	<data name="BTVSETTINGS_RATE_MINUTES">
+		<value>{0} minutes</value>
+	</data>
+	<data name="BTVSETTINGS_RATE_1HOUR">
+		<value>1 heure</value>
+	</data>
+	<data name="BTVSETTINGS_RATE_HOURS">
+		<value>{0} heures</value>
+	</data>
+	<data name="BTVSETTINGS_ACTIVE">
+		<value>Actif entre</value>
+	</data>
+	<data name="BTVSETTINGS_ACTIVE_START">
+		<value>Début</value>
+	</data>
+	<data name="BTVSETTINGS_ACTIVE_END">
+		<value>Fin</value>
+	</data>
+	<data name="BTVSETTINGS_MEDIA_TITLE">
+		<value>Médias &amp; éclairage</value>
+	</data>
+	<data name="BTVSETTINGS_LIGHT">
+		<value>Lumière</value>
+	</data>
+	<data name="BTVSETTINGS_PHOTO">
+		<value>Photo</value>
+	</data>
+	<data name="BTVSETTINGS_VIDEO">
+		<value>Vidéo</value>
+	</data>
+	<data name="BTVSETTINGS_UPLOAD">
+		<value>Envoi</value>
+	</data>
+	<data name="BTVSETTINGS_WHITE">
+		<value>Blanc (visible)</value>
+	</data>
+	<data name="BTVSETTINGS_IR">
+		<value>Rouge (IR)</value>
+	</data>
+	<data name="BTVSETTINGS_RED">
+		<value>Rouge</value>
+	</data>
+	<data name="BTVSETTINGS_UV">
+		<value>Ultraviolet</value>
+	</data>
+	<data name="BTVSETTINGS_DURATION">
+		<value>Durée de la vidéo</value>
+	</data>
+	<data name="BTVSETTINGS_DURATION_1SECOND">
+		<value>1 seconde</value>
+	</data>
+	<data name="BTVSETTINGS_DURATION_SECONDS">
+		<value>{0} secondes</value>
+	</data>
+	<data name="BTVSETTINGS_LIGHT_TITLE">
+		<value>Intensité de l'éclairage</value>
+	</data>
+	<data name="BTVSETTINGS_BATTERY_TITLE">
+		<value>Autonomie estimée de la batterie</value>
+	</data>
+	<data name="BTVSETTINGS_DAYS">
+		<value>jours</value>
+	</data>
+	<data name="BTVSETTINGS_HOURS_VIDEO">
+		<value>heures de vidéo enregistrée</value>
+	</data>
+	<data name="BTVWIFI_TITLE">
+		<value>Configuration du wifi BeeTV</value>
+	</data>
+	<data name="BTVWIFI_TESTSAVED">
+		<value>Tester la configuration enregistrée</value>
+	</data>
+	<data name="BTVWIFI_PASSWORD_HIDDEN">
+		<value>Mot de passe masqué</value>
+	</data>
+	<data name="BTVWIFI_PASSWORD_WARN">
+		<value>**Le mot de passe n'est pas lu depuis BeeTV. Ce champ restera vide même si un réseau est configuré.**</value>
+	</data>
+	<data name="BTVWIFI_SAVEANDTEST">
+		<value>Enregistrer et tester</value>
+	</data>
+	<data name="BTVWIFI_LAST_RUN">
+		<value>Dernière exécution</value>
+	</data>
+	<data name="BTVWIFI_REASON">
+		<value>Motif wifi</value>
+	</data>
+	<data name="BTVWIFI_STATE">
+		<value>État du wifi</value>
+	</data>
+	<data name="BTVWIFI_GETSTATS">
+		<value>Obtenir les statistiques wifi</value>
+	</data>
+	<data name="BTVWIFI_REASON_0A">
+		<value>Non connecté, réseau non configuré</value>
+	</data>
+	<data name="BTVWIFI_REASON_0B">
+		<value>Le réseau wifi était connecté</value>
+	</data>
+	<data name="BTVWIFI_REASON_1">
+		<value>Configuration de test manquante</value>
+	</data>
+	<data name="BTVWIFI_REASON_2">
+		<value>Échec du démarrage de WPA supplicant</value>
+	</data>
+	<data name="BTVWIFI_REASON_3">
+		<value>SSID non concordant</value>
+	</data>
+	<data name="BTVWIFI_REASON_4">
+		<value>Délai d'association dépassé</value>
+	</data>
+	<data name="BTVWIFI_REASON_5">
+		<value>Échec du script de test</value>
+	</data>
+	<data name="BTVWIFI_REASON_6">
+		<value>Erreur de test inattendue</value>
+	</data>
+	<data name="BTVWIFI_REASON_9">
+		<value>Inconnu/aucun état</value>
+	</data>
+	<data name="BTVWIFI_STATE_0">
+		<value>Test en cours</value>
+	</data>
+	<data name="BTVWIFI_STATE_1">
+		<value>Réussi</value>
+	</data>
+	<data name="BTVWIFI_STATE_2">
+		<value>Échec</value>
+	</data>
+	<data name="BTVWIFI_STATE_9">
+		<value>Inconnu</value>
+	</data>
+	<data name="BTVWIFI_CONNECTION_CONFIRMED">
+		<value>Connexion wifi confirmée</value>
+	</data>
+	<data name="BTVWIFI_CONNECTION_TESTSUCCESSFUL">
+		<value>Test réussi, reconnexion à BeeTV</value>
+	</data>
+	<data name="BTVWIFI_CONNECTION_FAILED">
+		<value>Échec de la connexion wifi</value>
+	</data>
+	<data name="BTVWIFI_CONNECTION_FAILED_REASON">
+		<value>Échec de la connexion wifi ({0}), réessayez</value>
+	</data>
+	<data name="BTVWIFI_CONNECTION_FAILED_RECON">
+		<value>Échec de la connexion wifi, reconnexion à BeeTV</value>
+	</data>
 </root>
