@@ -1073,7 +1073,8 @@
         "HIVE": "Bienenstock",
         "DEVICE": "Gerät",
         "POSITION": "Position",
-        "BETA"  : "Beta"
+        "BETA"  : "Beta",
+        "CLOSE": "Schließen"
     },
     
     "BEECOUNTED": {
@@ -2347,6 +2348,11 @@
         "UNLOCK": "Aktualisieren Sie Ihr Konto, um dieses Feature freizuschalten",
         "HIVE_ADD_FREE": "Sie haben {{activeHiveCount}} aktive Stöcke. Ihre kostenlose Mitgliedschaft erlaubt {{hivesAllowed}}.",
         "HIVE_ADD": "Sie haben {{activeHiveCount}} aktive Stöcke. Ihre Mitgliedschaft erlaubt {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE": "Dashboard kann nicht erstellt werden",
+        "HIVE_ADD_TITLE": "Bienenstock kann nicht erstellt werden",
+        "HIVE_ADD_MSG": "Upgrade dein Konto oder deaktiviere Bienenstöcke, um einen neuen Bienenstock zu erstellen.",
+        "HIVE_ADD_MANAGE": "Bienenstöcke verwalten",
+        "HIVE_ADD_UPGRADE": "UPGRADE",
         "HOME_PAGE": "Diese Ansicht zeigt berechnete Daten an. Ihre kostenlose Mitgliedschaft enthält diese Analysen nicht.",
         "DATE_PICKER": "Bereich über 13 Monate und Vorhersage sind in einer kostenlosen Mitgliedschaft nicht verfügbar.",
         "HUB_DATA": "Hub-Daten wurden mit Ihrer kostenlosen Mitgliedschaft nicht hochgeladen",

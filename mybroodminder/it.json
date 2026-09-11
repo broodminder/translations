@@ -1073,7 +1073,8 @@
         "HIVE": "Alveare",
         "DEVICE": "Dispositivo",
         "POSITION": "Posizione",
-        "BETA": "Beta"
+        "BETA": "Beta",
+        "CLOSE": "Chiudi"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2346,6 +2347,11 @@
         "UNLOCK": "Aggiorna il tuo account per sbloccare questa funzionalità",
         "HIVE_ADD_FREE": "Hai {{activeHiveCount}} arnie attive. Il tuo abbonamento gratuito consente {{hivesAllowed}}.",
         "HIVE_ADD": "Hai {{activeHiveCount}} arnie attive. Il tuo abbonamento consente {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE": "Impossibile creare la dashboard",
+        "HIVE_ADD_TITLE": "Impossibile creare l'alveare",
+        "HIVE_ADD_MSG": "Esegui l'upgrade dell'account o disattiva degli alveari per creare un nuovo alveare.",
+        "HIVE_ADD_MANAGE": "Gestisci alveari",
+        "HIVE_ADD_UPGRADE": "UPGRADE",
         "HOME_PAGE": "Questa vista mostra dati calcolati. Il tuo abbonamento gratuito non include queste analisi.",
         "DATE_PICKER": "Intervallo oltre 13 mesi e la previsione non è disponibile in un abbonamento gratuito.",
         "HUB_DATA": "Dati hub non caricati con il tuo abbonamento gratuito",

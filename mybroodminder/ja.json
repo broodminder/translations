@@ -1073,7 +1073,8 @@
         "HIVE": "ハイブ",
         "DEVICE": "デバイス",
         "POSITION": "位置",
-        "BETA": "ベータ"
+        "BETA": "ベータ",
+        "CLOSE": "閉じる"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2346,6 +2347,11 @@
         "UNLOCK": "機能をアンロックするにはアカウントをアップグレードしてください",
         "HIVE_ADD_FREE": "アクティブなハイブが{{activeHiveCount}}個あります。無料メンバーシップでは{{hivesAllowed}}個が許可されています。",
         "HIVE_ADD": "アクティブなハイブが{{activeHiveCount}}個あります。メンバーシップでは{{hivesAllowed}}個が許可されています。",
+        "DASHBOARD_ADD_TITLE": "ダッシュボードを作成できません",
+        "HIVE_ADD_TITLE": "巣箱を作成できません",
+        "HIVE_ADD_MSG": "新しい巣箱を作成するには、アカウントをアップグレードするか、巣箱を無効化してください。",
+        "HIVE_ADD_MANAGE": "巣箱の管理",
+        "HIVE_ADD_UPGRADE": "アップグレード",
         "HOME_PAGE": "このビューは計算されたデータを表示します。無料メンバーシップにはこれらの分析が含まれていません。",
         "DATE_PICKER": "13か月を超える範囲でフォアキャストは無料メンバーシップでは利用できません。",
         "HUB_DATA": "無料メンバーシップではハブデータをアップロードできません",

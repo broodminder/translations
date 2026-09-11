@@ -1073,7 +1073,8 @@
         "HIVE": "Bijenkast",
         "DEVICE": "Sensor",
         "POSITION": "Positie",
-        "BETA": "Bèta"
+        "BETA": "Bèta",
+        "CLOSE": "Sluiten"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2345,6 +2346,11 @@
         "UNLOCK": "Upgrade je account om deze functie te ontgrendelen",
         "HIVE_ADD_FREE": "Je hebt {{activeHiveCount}} actieve bijenkorven. Je gratis lidmaatschap staat {{hivesAllowed}} toe.",
         "HIVE_ADD": "Je hebt {{activeHiveCount}} actieve bijenkorven. Je lidmaatschap staat {{hivesAllowed}} toe.",
+        "DASHBOARD_ADD_TITLE": "Kan dashboard niet maken",
+        "HIVE_ADD_TITLE": "Kan bijenkast niet maken",
+        "HIVE_ADD_MSG": "Upgrade je account of deactiveer bijenkasten om een nieuwe bijenkast te maken.",
+        "HIVE_ADD_MANAGE": "Bijenkasten beheren",
+        "HIVE_ADD_UPGRADE": "UPGRADEN",
         "HOME_PAGE": "Dit overzicht toont berekende gegevens. Je gratis lidmaatschap omvat deze analyses niet.",
         "DATE_PICKER": "Reikwijdte van 13 maanden en voorspelling is niet beschikbaar bij een gratis lidmaatschap.",
         "HUB_DATA": "Hubgegevens niet geüpload met je gratis lidmaatschap",

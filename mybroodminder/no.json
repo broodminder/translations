@@ -1073,7 +1073,8 @@
         "HIVE": "Kube",
         "DEVICE": "Enhet",
         "POSITION": "Posisjon",
-        "BETA": "Beta"
+        "BETA": "Beta",
+        "CLOSE": "Lukk"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2345,6 +2346,11 @@
         "UNLOCK": "Oppgrader kontoen din for å låse opp denne funksjonen",
         "HIVE_ADD_FREE": "Du har {{activeHiveCount}} aktive kuber. Ditt gratis medlemskap tillater {{hivesAllowed}}.",
         "HIVE_ADD": "Du har {{activeHiveCount}} aktive kuber. Medlemskapet ditt tillater {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE": "Kan ikke opprette dashbord",
+        "HIVE_ADD_TITLE": "Kan ikke opprette bikube",
+        "HIVE_ADD_MSG": "Oppgrader kontoen eller deaktiver bikuber for å opprette en ny bikube.",
+        "HIVE_ADD_MANAGE": "Administrer bikuber",
+        "HIVE_ADD_UPGRADE": "OPPGRADER",
         "HOME_PAGE": "Denne visningen viser beregnede data. Ditt gratis medlemskap inkluderer ikke disse analysene.",
         "DATE_PICKER": "Oversikt over 13 måneder og prognose er ikke tilgjengelig på et gratis medlemskap.",
         "HUB_DATA": "Hub-data er ikke lastet opp med ditt gratis medlemskap",

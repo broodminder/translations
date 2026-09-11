@@ -1073,7 +1073,8 @@
         "HIVE": "Hive",
         "DEVICE": "Device",
         "POSITION": "Position",
-        "BETA"  : "Beta"
+        "BETA"  : "Beta",
+        "CLOSE":"Close"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2345,6 +2346,11 @@
         "UNLOCK":"Upgrade your account to unlock this feature",
         "HIVE_ADD_FREE":"You have {{activeHiveCount}} active hives. Your free membership allows {{hivesAllowed}}.",
         "HIVE_ADD":"You have {{activeHiveCount}} active hives. Your membership allows {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE":"Cannot create dashboard",
+        "HIVE_ADD_TITLE":"Cannot create hive",
+        "HIVE_ADD_MSG":"Upgrade account or deactivate hives to create a new hive.",
+        "HIVE_ADD_MANAGE":"Manage Hives",
+        "HIVE_ADD_UPGRADE":"UPGRADE",
         "HOME_PAGE":"This view shows computed data. Your free membership does not include these analytics.",
         "DATE_PICKER":"Range over 13 months and forecast is not available on a free membership.",
         "HUB_DATA":"Hub data not uploaded with your free membership",

@@ -1073,7 +1073,8 @@
         "HIVE": "Colmeia",
         "DEVICE": "Dispositivo",
         "POSITION": "Posição",
-        "BETA": "Beta"
+        "BETA": "Beta",
+        "CLOSE": "Fechar"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2345,6 +2346,11 @@
         "UNLOCK": "Atualize sua conta para desbloquear esse recurso",
         "HIVE_ADD_FREE": "Você tem {{activeHiveCount}} colmeias ativas. Sua associação gratuita permite {{hivesAllowed}}.",
         "HIVE_ADD": "Você tem {{activeHiveCount}} colmeias ativas. Sua associação permite {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE": "Não é possível criar o painel",
+        "HIVE_ADD_TITLE": "Não é possível criar a colmeia",
+        "HIVE_ADD_MSG": "Faça upgrade da sua conta ou desative colmeias para criar uma nova colmeia.",
+        "HIVE_ADD_MANAGE": "Gerir colmeias",
+        "HIVE_ADD_UPGRADE": "FAZER UPGRADE",
         "HOME_PAGE": "Essa visualização mostra dados calculados. Sua associação gratuita não inclui essas análises.",
         "DATE_PICKER": "Intervalo ao longo de 13 meses e a previsão não está disponível em uma associação gratuita.",
         "HUB_DATA": "Dados do Hub não carregados com sua associação gratuita",

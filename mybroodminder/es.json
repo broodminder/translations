@@ -1073,7 +1073,8 @@
         "HIVE": "Colmena",
         "DEVICE": "Sensor",
         "POSITION": "Ubicación",
-        "BETA": "Beta"
+        "BETA": "Beta",
+        "CLOSE": "Cerrar"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2345,6 +2346,11 @@
         "UNLOCK": "Mejore tu cuenta para desbloquear esta funcionalidad.",
         "HIVE_ADD_FREE": "Tiene {{activeHiveCount}} colmenas activas. Tu abono gratuito permite {{hivesAllowed}}.",
         "HIVE_ADD": "Tiene {{activeHiveCount}} colmenas activas. Tu abono permite {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE": "No se puede crear el panel",
+        "HIVE_ADD_TITLE": "No se puede crear la colmena",
+        "HIVE_ADD_MSG": "Mejora tu cuenta o desactiva colmenas para crear una nueva colmena.",
+        "HIVE_ADD_MANAGE": "Gestionar colmenas",
+        "HIVE_ADD_UPGRADE": "MEJORAR PLAN",
         "HOME_PAGE": "Esta vista muestra datos calculados. Tu abono gratuito no incluye estas analíticas.",
         "DATE_PICKER": "El rango de 13 meses y la previsión no están disponibles con un abono gratuito.",
         "HUB_DATA": "Datos del router no cargados con Tu abono gratuito.",

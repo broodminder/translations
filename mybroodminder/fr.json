@@ -1073,7 +1073,8 @@
         "HIVE": "Ruche",
         "DEVICE": "Capteur",
         "POSITION": "Position",
-        "BETA": "Bêta"
+        "BETA": "Bêta",
+        "CLOSE": "Fermer"
     },
     "BEECOUNTED": {
         "TITLE": "BeeCounted.org",
@@ -2345,6 +2346,11 @@
         "UNLOCK": "Améliorez votre compte pour débloquer cette fonctionnalité.",
         "HIVE_ADD_FREE": "Vous avez {{activeHiveCount}} ruches actives. Votre adhésion gratuite autorise {{hivesAllowed}}.",
         "HIVE_ADD": "Vous avez {{activeHiveCount}} ruches actives. Votre adhésion autorise {{hivesAllowed}}.",
+        "DASHBOARD_ADD_TITLE": "Impossible de créer le tableau de bord",
+        "HIVE_ADD_TITLE": "Impossible de créer la ruche",
+        "HIVE_ADD_MSG": "Passez à une offre supérieure ou désactivez des ruches pour en créer une nouvelle.",
+        "HIVE_ADD_MANAGE": "Gérer les ruches",
+        "HIVE_ADD_UPGRADE": "METTRE À NIVEAU",
         "HOME_PAGE": "Cette vue affiche des données calculées. Votre adhésion gratuite n'inclut pas ces analyses.",
         "DATE_PICKER": "La plage sur 13 mois et les prévisions ne sont pas disponibles avec une adhésion gratuite.",
         "HUB_DATA": "Données du hub non téléchargées avec votre adhésion gratuite.",
