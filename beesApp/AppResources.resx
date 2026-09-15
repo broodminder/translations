@@ -48,6 +48,9 @@
 	<data name="COMMON_CANCEL">
 		<value>Cancel</value>
 	</data>
+	<data name="COMMON_CLOSE">
+		<value>Close</value>
+	</data>
 	<data name="COMMON_OK">
 		<value>Ok</value>
 	</data>
@@ -2227,8 +2230,8 @@
 		<value>Feeding</value>
 	</data>
 	<data name="INSP_C_COLONYTRANSITION">
-        <value>Colony Transition</value>
-    </data>
+		<value>Colony Transition</value>
+	</data>
 	<data name="FITNESS_C_B1">
 		<value>Dead hive</value>
 	</data>
@@ -2261,190 +2264,190 @@
 	</data>
 	<data name="NOTES_TITLE">
 		<value>Notes</value>
-    </data>
+	</data>
 	<data name="NOTES_LIST_THIS">
 		<value>This week</value>
-    </data>
+	</data>
 	<data name="NOTES_LIST_LAST">
 		<value>Last week</value>
-    </data>
+	</data>
 	<data name="NOTES_LIST_OLDER">
 		<value>Older</value>
-    </data>
+	</data>
 	<data name="NOTES_LIST_EMPTY">
 		<value>none</value>
-    </data>
+	</data>
 	<data name="NOTES_LOAD">
 		<value>Load before {0}</value>
-    </data>
+	</data>
 	<data name="NOTES_DELETE_TITLE">
 		<value>Delete Note</value>
-    </data>
+	</data>
 	<data name="NOTES_DELETE_MESSAGE">
 		<value>Are you sure you want to delete this note? This cannot be undone.</value>
-    </data>
+	</data>
 	<data name="NOTES_DELETE_CONFIRM">
 		<value>Yes, delete note</value>
-    </data>
+	</data>
 	<data name="NOTES_NODESCR">
 		<value>No description</value>
-    </data>
+	</data>
 	<data name="ALERTS_TITLE">
 		<value>Alerts</value>
-    </data>
+	</data>
 	<data name="ALERTS_THIS">
 		<value>This week</value>
-    </data>
+	</data>
 	<data name="ALERTS_LAST">
 		<value>Last week</value>
-    </data>
+	</data>
 	<data name="ALERTS_EMPTY">
 		<value>none</value>
-    </data>
+	</data>
 	<data name="ALERTS_POPUP_ACTTKN">
 		<value>Action already taken</value>
-    </data>
+	</data>
 	<data name="NECTAR_TITLE">
 		<value>Nectar Flow Index</value>
-    </data>
+	</data>
 	<data name="WEATHER_TITLE">
 		<value>Weather</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_RAIN">
 		<value>Rain</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_WIND">
 		<value>Wind</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_MAXTEMP">
 		<value>Max Temp</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_MINTEMP">
 		<value>Min Temp</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_WEATHER">
 		<value>Weather</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_NECTAR">
 		<value>Nectar Index</value>
-    </data>
+	</data>
 	<data name="WEATHER_Y_FORAG">
 		<value>Foraging Index</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NEWAPENOTE">
 		<value>New Apiary Note</value>
-    </data>
+	</data>
 	<data name="VAPIARY_FORECAST_TITLE">
 		<value>Forecast</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NECTAR_TITLE">
 		<value>Nectar Idx</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NECTAR_AVG">
 		<value>{0} days avg</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NECTAR_NONE">
 		<value>No data</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NOTES_TITLE">
 		<value>Last Inspection</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NOTES_TIME">
 		<value>{0} days ago</value>
-    </data>
+	</data>
 	<data name="VAPIARY_NOTES_NONE">
 		<value>No inspections for 2 weeks.</value>
-    </data>
+	</data>
 	<data name="VAPIARY_REFRESH">
 		<value>Refresh Apiary Data</value>
-    </data>
+	</data>
 	<data name="WEIGHT_TITLE">
 		<value>Weight</value>
-    </data>
+	</data>
 	<data name="PROD_TITLE">
 		<value>Productivity</value>
-    </data>
+	</data>
 	<data name="PROD_PROD">
 		<value>Productivity</value>
-    </data>
+	</data>
 	<data name="PROD_CUMUL">
 		<value>Cummulative</value>
-    </data>
+	</data>
 	<data name="PROD_3D">
 		<value>3 day</value>
-    </data>
+	</data>
 	<data name="PROD_5D">
 		<value>5 day</value>
-    </data>
+	</data>
 	<data name="PROD_7D">
 		<value>7 day</value>
-    </data>
+	</data>
 	<data name="TEMP_TITLE">
 		<value>Temperature</value>
-    </data>
+	</data>
 	<data name="TEMP_MAX">
 		<value>max</value>
-    </data>
+	</data>
 	<data name="TEMP_MIN">
 		<value>min</value>
-    </data>
+	</data>
 	<data name="TEMP_VAR">
 		<value>var</value>
-    </data>
+	</data>
 	<data name="TEMP_BROODZONE">
 		<value>Brood Zone</value>
-    </data>
+	</data>
 	<data name="HUMID_TITLE">
 		<value>Humidity</value>
-    </data>
+	</data>
 	<data name="HUMID_MAX">
 		<value>max</value>
-    </data>
+	</data>
 	<data name="HUMID_MIN">
 		<value>min</value>
-    </data>
+	</data>
 	<data name="HUMID_VAR">
 		<value>var</value>
-    </data>
+	</data>
 	<data name="HUMID_NORMALZONE">
 		<value>Normal</value>
-    </data>
+	</data>
 	<data name="BROOD_TITLE">
 		<value>Brood</value>
-    </data>
+	</data>
 	<data name="VHIVE_DATA_REF">
 		<value>Refreshing data</value>
-    </data>
+	</data>
 	<data name="VHIVE_DATA_FOUND">
 		<value>Updated data found</value>
-    </data>
+	</data>
 	<data name="VHIVE_DATA_DELAY">
 		<value>Updated data delayed</value>
-    </data>
+	</data>
 	<data name="VHIVE_NOHIVE">
 		<value>Create or select Hive</value>
-    </data>
+	</data>
 	<data name="VHIVE_NEWHIVE">
 		<value>New Hive</value>
-    </data>
+	</data>
 	<data name="VHIVE_HNOTE">
 		<value>New Hive Note</value>
-    </data>
+	</data>
 	<data name="VHIVE_ANOTE">
 		<value>New Apiary Note</value>
-    </data>
+	</data>
 	<data name="VHIVE_REFRESH">
 		<value>Refresh Hive Data</value>
-    </data>
+	</data>
 	<data name="ADDI_TITLE">
 		<value>Add Item</value>
-    </data>
+	</data>
 	<data name="ADDI_NOTE_APIARY">
 		<value>Add Apiary Note</value>
-    </data>
+	</data>
 	<data name="ADDI_NOTE_HIVE">
 		<value>Add Hive Note</value>
-    </data>
+	</data>
 	<data name="ADDI_NOTE_CT">
 		<value>Continue Transition</value>
 	</data>
@@ -2453,160 +2456,160 @@
 	</data>
 	<data name="CU_NOTE_TITLE_U">
 		<value>Edit {0} Note</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_HIVETITLE">
 		<value>Create Hive Note</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_HIVE_SEL">
 		<value>Select hives (creates note for each)</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_HIVE_ERROR">
 		<value>*Hive required</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_DATE">
 		<value>Date</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_NOTE">
 		<value>Note</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_NOTEPLACEHOLDER">
 		<value> Write something ...</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_TAGS">
 		<value>Select tags</value>
-    </data>
+	</data>
 	<data name="CU_NOTE_ADD_TAGS">
 		<value>Add Tags</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_TITLE">
 		<value>Battery Saver</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_EN_BTN">
 		<value>Enable/Update</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_DIS_BTN">
 		<value>Disable</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_SETUP">
 		<value>Setup</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_CHOOSEOPT">
 		<value>Nothing in progress, choose an option above</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_HUBMODE_EN">
 		<value>"Hub Present Mode Enabled</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_HUBMODE_DIS">
 		<value>Hub Present Mode Disabled</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_AS_EN">
 		<value>Activity Scheduling Enabled</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_AS_SPAN">
 		<value>Activity running from {0} to {1} between {2} and {3}</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_AS_DIS">
 		<value>Activity Scheduling Disabled</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_INCL">
 		<value>Include ineligible</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_CHANGEWARN">
 		<value>Changing settings may take 10 mintutes</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_DISWARN">
 		<value>Disabling battery saver may take 10 minutes</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_CANCELSYNC">
 		<value>Canceling apiary sync</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_STARTING">
 		<value>Starting</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_INCL_IN">
 		<value>Include ineligible</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_ONLY_EL">
 		<value>Show only eligible</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_NEEDSUPDATE">
 		<value>Needs firmware update</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_NOTELIGIBLE">
 		<value>Not eligible</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_ERR">
 		<value>Error - retrying</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_CONNECTING_APPLYING">
 		<value>Connecting and applying settings</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_FINISHED">
 		<value>Finished</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_CONNECTING_OFF">
 		<value>Connecting and turning off BS</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_SEEN_SECONDS">
 		<value>Seen {0} seconds ago</value>
-    </data>
+	</data>
 	<data name="BSCHANGE_SEEN_AGO">
 		<value>Seen {0} ago</value>
-    </data>
+	</data>
 	<data name="BSSET_TITLE">
 		<value>Battery Saver Settings</value>
-    </data>
+	</data>
 	<data name="BSSET_HUBEN">
 		<value>Hub Present in Apiary</value>
-    </data>
+	</data>
 	<data name="BSSET_ASEN">
 		<value>Schedule Swarm Detection</value>
-    </data>
+	</data>
 	<data name="BSSET_STARTON">
 		<value>Start On</value>
-    </data>
+	</data>
 	<data name="BSSET_STARTMONTH">
 		<value>Start Month</value>
-    </data>
+	</data>
 	<data name="BSSET_STARTDAY">
 		<value>Start Day</value>
-    </data>
+	</data>
 	<data name="BSSET_ENDON">
 		<value>End On</value>
-    </data>
+	</data>
 	<data name="BSSET_ENDMONTH">
 		<value>End Month</value>
-    </data>
+	</data>
 	<data name="BSSET_ENDDAY">
 		<value>End Day</value>
-    </data>
+	</data>
 	<data name="BSSET_FROM">
 		<value>From</value>
-    </data>
+	</data>
 	<data name="BSSET_TO">
 		<value>To</value>
-    </data>
+	</data>
 	<data name="BSSET_DONE">
 		<value>Done</value>
-    </data>
+	</data>
 	<data name="BSSET_EST">
 		<value>Battery Life Estimate</value>
-    </data>
+	</data>
 	<data name="BSSET_YEARS">
 		<value>years</value>
-    </data>
+	</data>
 	<data name="BSSET_HP_EXP_TITLE">
 		<value>Hub Present Mode</value>
-    </data>
+	</data>
 	<data name="BSSET_AS_EXP_TITLE">
 		<value>Activity Scheduling</value>
-    </data>
+	</data>
 	<data name="BSSET_HP_EXP_MESSAGE">
 		<value>Select this if you have a BroodMinder Hub in your apiary</value>
-    </data>
+	</data>
 	<data name="BSSET_AS_EXP_MESSAGE">
 		<value>Reducing the time when your sensors are watching for swarms will extend battery life.</value>
-    </data>
+	</data>
 	<data name="BSSET_HELP">
 		<value>Help</value>
 	</data>
@@ -2637,294 +2640,294 @@
 	<data name="PREMIUM_HIVE_REMAINING">
 		<value>{0} hive space remaining on your account</value>
 	</data>
-	 <data name="PREMIUM_HIVES_NONE">
+	<data name="PREMIUM_HIVES_NONE">
 		<value>Over the limit</value>
 	</data>
 	<data name="PREMIUM_NO_ALERTS">
 		<value>No calculated alerts available</value>
 	</data>
-    <data name="ALERT_CODE.201.NAME">
-        <value>Possible heavy rain</value>
-    </data>
-    <data name="ALERT_CODE.201.DESCR">
-        <value>Triggered when rainfall exceeds chosen threshold next day.</value>
-    </data>
-    <data name="ALERT_CODE.201.MSG">
-        <value>Rainfall will exceed {0}</value>
-    </data>
-    <data name="ALERT_CODE.202.NAME">
-        <value>Possible heavy snow</value>
-    </data>
-    <data name="ALERT_CODE.202.DESCR">
-        <value>Triggered when snowfall exceeds chosen threshold next day.</value>
-    </data>
-    <data name="ALERT_CODE.202.MSG">
-        <value>Snowfall will exceed {0}</value>
-    </data>
-    <data name="ALERT_CODE.203.NAME">
-        <value>Possible strong wind</value>
-    </data>
-    <data name="ALERT_CODE.203.DESCR">
-        <value>Triggered when wind exceeds chosen threshold next day.</value>
-    </data>
-    <data name="ALERT_CODE.203.MSG">
-        <value>Wind will exceed {0}</value>
-    </data>
-    <data name="ALERT_CODE.204.NAME">
-        <value>Possible cold day ahead</value>
-    </data>
-    <data name="ALERT_CODE.204.DESCR">
-        <value>Triggered when an upcoming cold day is detected, i.e. below specified temperature threshold.</value>
-    </data>
-    <data name="ALERT_CODE.204.MSG">
-        <value>Temperatures will be unusually cold</value>
-    </data>
-    <data name="ALERT_CODE.205.NAME">
-        <value>Oxalic acid treatment</value>
-    </data>
-    <data name="ALERT_CODE.205.DESCR">
-        <value>Triggered when the average brood in your hives is below the set threshold. This is an indication allowing you to treat your hives with oxalic acid at the right time.</value>
-    </data>
-    <data name="ALERT_CODE.205.MSG">
-        <value>It's time to treat your hives</value>
-    </data>
-    <data name="ALERT_CODE.206.NAME">
-        <value>Possible hot day ahead</value>
-    </data>
-    <data name="ALERT_CODE.206.DESCR">
-        <value>Triggered when an upcoming hot day is detected, i.e. above specified temperature threshold.</value>
-    </data>
-    <data name="ALERT_CODE.206.MSG">
-        <value>Temperatures will be unusually hot</value>
-    </data>
-    <data name="ALERT_CODE.301.NAME">
-        <value>High internal temperature</value>
-    </data>
-    <data name="ALERT_CODE.301.DESCR">
-        <value>Triggered when internal temperature exceeds chosen threshold.</value>
-    </data>
-    <data name="ALERT_CODE.301.MSG">
-        <value>Internal temperature above {0}</value>
-    </data>
-    <data name="ALERT_CODE.302.NAME">
-        <value>Low internal temperature</value>
-    </data>
-    <data name="ALERT_CODE.302.DESCR">
-        <value>Triggered when internal temperature is below chosen threshold.</value>
-    </data>
-    <data name="ALERT_CODE.302.MSG">
-        <value>Internal temperature below {0}</value>
-    </data>
-    <data name="ALERT_CODE.303.NAME">
-        <value>Significant resource provision</value>
-    </data>
-    <data name="ALERT_CODE.303.DESCR">
-        <value>Triggered when incoming weight of the day in hive exceeds chosen threshold.</value>
-    </data>
-    <data name="ALERT_CODE.303.MSG">
-        <value>Your bees stock gain exceeds {0}</value>
-    </data>
-    <data name="ALERT_CODE.305.NAME">
-        <value>Weak brood</value>
-    </data>
-    <data name="ALERT_CODE.305.DESCR">
-        <value>Triggered when brood percentage is below chosen threshold.</value>
-    </data>
-    <data name="ALERT_CODE.305.MSG">
-        <value>Brood below {0}</value>
-    </data>
-    <data name="ALERT_CODE.306.NAME">
-        <value>High internal humidity</value>
-    </data>
-    <data name="ALERT_CODE.306.DESCR">
-        <value>Triggered when internal humidity exceeds chosen threshold.</value>
-    </data>
-    <data name="ALERT_CODE.306.MSG">
-        <value>Internal humidity above {0}</value>
-    </data>
-    <data name="ALERT_CODE.307.NAME">
-        <value>Low internal humidity</value>
-    </data>
-    <data name="ALERT_CODE.307.DESCR">
-        <value>Triggered when internal humidity is below chosen threshold.</value>
-    </data>
-    <data name="ALERT_CODE.307.MSG">
-        <value>Internal humidity below {0}</value>
-    </data>
-    <data name="ALERT_CODE.311.NAME">
-        <value>Honeydew</value>
-    </data>
-    <data name="ALERT_CODE.311.DESCR">
-        <value>Triggered when weight contribution to hive exceeds chosen threshold over the last week.</value>
-    </data>
-    <data name="ALERT_CODE.311.MSG">
-        <value>Incoming weights over last week exceeding {0}</value>
-    </data>
-    <data name="ALERT_CODE.312.NAME">
-        <value>Weight limit exceeded</value>
-    </data>
-    <data name="ALERT_CODE.312.DESCR">
-        <value>Triggered when indicated weight limit is exceeded.</value>
-    </data>
-    <data name="ALERT_CODE.312.MSG">
-        <value>Your hive weight exceeds {0}</value>
-    </data>
-    <data name="ALERT_CODE.321.NAME">
-        <value>Swarm</value>
-    </data>
-    <data name="ALERT_CODE.321.DESCR">
-        <value>Triggered when a potential swarm occurs (Hub provides more efficiency).</value>
-    </data>
-    <data name="ALERT_CODE.321.MSG">
-        <value>Potential swarm detected around 2pm</value>
-    </data>
-    <data name="ALERT_CODE.322.NAME">
-        <value>Swarm risk</value>
-    </data>
-    <data name="ALERT_CODE.322.DESCR">
-        <value>Triggered when swarm risk is high on one of your hives next day.</value>
-    </data>
-    <data name="ALERT_CODE.322.MSG">
-        <value>Expected swarm day</value>
-    </data>
-    <data name="ALERT_CODE.323.NAME">
-        <value>Adding a super</value>
-    </data>
-    <data name="ALERT_CODE.323.DESCR">
-        <value>Indicate minimum weight of an empty super.</value>
-    </data>
-    <data name="ALERT_CODE.323.MSG">
-        <value>You added a super</value>
-    </data>
-    <data name="ALERT_CODE.324.NAME">
-        <value>Removing a super</value>
-    </data>
-    <data name="ALERT_CODE.324.DESCR">
-        <value>Indicate maximum weight of a full super.</value>
-    </data>
-    <data name="ALERT_CODE.324.MSG">
-        <value>You removed a super</value>
-    </data>
-    <data name="ALERT_CODE.401.NAME">
-        <value>Low battery</value>
-    </data>
-    <data name="ALERT_CODE.401.DESCR">
-        <value>Triggered when your sensor's battery level is below selected threshold.</value>
-    </data>
-    <data name="ALERT_CODE.401.MSG">
-        <value></value>
-    </data>
-    <data name="ALERT_CODE.401b.NAME">
-        <value>Low battery</value>
-    </data>
-    <data name="ALERT_CODE.401b.DESCR">
-        <value>Triggered when your W sensor's battery level is below selected threshold.</value>
-    </data>
-    <data name="ALERT_CODE.401b.MSG">
-        <value>Replace battery of </value>
-    </data>
-    <data name="ALERT_CODE.401t.NAME">
-        <value>Low battery</value>
-    </data>
-    <data name="ALERT_CODE.401t.DESCR">
-        <value>Triggered when your T sensor's battery level is below selected threshold.</value>
-    </data>
-    <data name="ALERT_CODE.401t.MSG">
-        <value>Replace battery of </value>
-    </data>
-    <data name="ALERT_CODE.402.NAME">
-        <value>Device disconnection</value>
-    </data>
-    <data name="ALERT_CODE.402.DESCR">
-        <value>Triggered when one of your sensors no longer transmits data (or punctually) during each chosen period. Only works with a Hub.</value>
-    </data>
-    <data name="ALERT_CODE.402.MSG">
-        <value></value>
-    </data>
-    <data name="ALERT_CODE.402t.NAME">
-        <value>Device disconnection</value>
-    </data>
-    <data name="ALERT_CODE.402t.DESCR">
-        <value>Triggered when your T sensor no longer transmits data during last day.</value>
-    </data>
-    <data name="ALERT_CODE.402t.MSG">
-        <value>{REF} disconnected since {DATE}</value>
-    </data>
-    <data name="ALERT_CODE.402w.NAME">
-        <value>Device disconnection</value>
-    </data>
-    <data name="ALERT_CODE.402w.DESCR">
-        <value>Triggered when your W sensor no longer transmits data during last day.</value>
-    </data>
-    <data name="ALERT_CODE.402w.MSG">
-        <value>{REF} disconnected since {DATE}</value>
-    </data>
-    <data name="ALERT_CODE.403b.NAME">
-        <value>Poor signal</value>
-    </data>
-    <data name="ALERT_CODE.403b.DESCR">
-        <value>Triggered when your W sensor transmits few data during last day.</value>
-    </data>
-    <data name="ALERT_CODE.403b.MSG">
-        <value>{REF} poor signal since {DATE}</value>
-    </data>
-    <data name="ALERT_CODE.403t.NAME">
-        <value>Poor signal</value>
-    </data>
-    <data name="ALERT_CODE.403t.DESCR">
-        <value>Triggered when your T sensor transmits few data during last day.</value>
-    </data>
-    <data name="ALERT_CODE.403t.MSG">
-        <value>{REF} poor signal since {DATE}</value>
-    </data>
-    <data name="ALERT_CODE.404.NAME">
-        <value>Weather station stopped</value>
-    </data>
-    <data name="ALERT_CODE.404.DESCR">
-        <value>Triggered when your weather station stops transmitting data. Requires own weather station.</value>
-    </data>
-    <data name="ALERT_CODE.404.MSG">
-        <value>Data transmission error from your weather station since {DATE}</value>
-    </data>
-    <data name="ALERT_CODE.405.NAME">
-        <value>Stolen hive</value>
-    </data>
-    <data name="ALERT_CODE.405.DESCR">
-        <value>Triggered when your hive's weight becomes abnormally low.</value>
-    </data>
-    <data name="ALERT_CODE.405.MSG">
-        <value>Your hive weight is abnormally low</value>
-    </data>
-    <data name="ALERT_CODE.406.NAME">
-        <value>Dead hive</value>
-    </data>
-    <data name="ALERT_CODE.406.DESCR">
-        <value>Our algorithm detects every day if your hive is dead based on various parameters we have set.</value>
-    </data>
-    <data name="ALERT_CODE.406.MSG">
-        <value>Your hive has been detected dead</value>
-    </data>
+	<data name="ALERT_CODE.201.NAME">
+		<value>Possible heavy rain</value>
+	</data>
+	<data name="ALERT_CODE.201.DESCR">
+		<value>Triggered when rainfall exceeds chosen threshold next day.</value>
+	</data>
+	<data name="ALERT_CODE.201.MSG">
+		<value>Rainfall will exceed {0}</value>
+	</data>
+	<data name="ALERT_CODE.202.NAME">
+		<value>Possible heavy snow</value>
+	</data>
+	<data name="ALERT_CODE.202.DESCR">
+		<value>Triggered when snowfall exceeds chosen threshold next day.</value>
+	</data>
+	<data name="ALERT_CODE.202.MSG">
+		<value>Snowfall will exceed {0}</value>
+	</data>
+	<data name="ALERT_CODE.203.NAME">
+		<value>Possible strong wind</value>
+	</data>
+	<data name="ALERT_CODE.203.DESCR">
+		<value>Triggered when wind exceeds chosen threshold next day.</value>
+	</data>
+	<data name="ALERT_CODE.203.MSG">
+		<value>Wind will exceed {0}</value>
+	</data>
+	<data name="ALERT_CODE.204.NAME">
+		<value>Possible cold day ahead</value>
+	</data>
+	<data name="ALERT_CODE.204.DESCR">
+		<value>Triggered when an upcoming cold day is detected, i.e. below specified temperature threshold.</value>
+	</data>
+	<data name="ALERT_CODE.204.MSG">
+		<value>Temperatures will be unusually cold</value>
+	</data>
+	<data name="ALERT_CODE.205.NAME">
+		<value>Oxalic acid treatment</value>
+	</data>
+	<data name="ALERT_CODE.205.DESCR">
+		<value>Triggered when the average brood in your hives is below the set threshold. This is an indication allowing you to treat your hives with oxalic acid at the right time.</value>
+	</data>
+	<data name="ALERT_CODE.205.MSG">
+		<value>It's time to treat your hives</value>
+	</data>
+	<data name="ALERT_CODE.206.NAME">
+		<value>Possible hot day ahead</value>
+	</data>
+	<data name="ALERT_CODE.206.DESCR">
+		<value>Triggered when an upcoming hot day is detected, i.e. above specified temperature threshold.</value>
+	</data>
+	<data name="ALERT_CODE.206.MSG">
+		<value>Temperatures will be unusually hot</value>
+	</data>
+	<data name="ALERT_CODE.301.NAME">
+		<value>High internal temperature</value>
+	</data>
+	<data name="ALERT_CODE.301.DESCR">
+		<value>Triggered when internal temperature exceeds chosen threshold.</value>
+	</data>
+	<data name="ALERT_CODE.301.MSG">
+		<value>Internal temperature above {0}</value>
+	</data>
+	<data name="ALERT_CODE.302.NAME">
+		<value>Low internal temperature</value>
+	</data>
+	<data name="ALERT_CODE.302.DESCR">
+		<value>Triggered when internal temperature is below chosen threshold.</value>
+	</data>
+	<data name="ALERT_CODE.302.MSG">
+		<value>Internal temperature below {0}</value>
+	</data>
+	<data name="ALERT_CODE.303.NAME">
+		<value>Significant resource provision</value>
+	</data>
+	<data name="ALERT_CODE.303.DESCR">
+		<value>Triggered when incoming weight of the day in hive exceeds chosen threshold.</value>
+	</data>
+	<data name="ALERT_CODE.303.MSG">
+		<value>Your bees stock gain exceeds {0}</value>
+	</data>
+	<data name="ALERT_CODE.305.NAME">
+		<value>Weak brood</value>
+	</data>
+	<data name="ALERT_CODE.305.DESCR">
+		<value>Triggered when brood percentage is below chosen threshold.</value>
+	</data>
+	<data name="ALERT_CODE.305.MSG">
+		<value>Brood below {0}</value>
+	</data>
+	<data name="ALERT_CODE.306.NAME">
+		<value>High internal humidity</value>
+	</data>
+	<data name="ALERT_CODE.306.DESCR">
+		<value>Triggered when internal humidity exceeds chosen threshold.</value>
+	</data>
+	<data name="ALERT_CODE.306.MSG">
+		<value>Internal humidity above {0}</value>
+	</data>
+	<data name="ALERT_CODE.307.NAME">
+		<value>Low internal humidity</value>
+	</data>
+	<data name="ALERT_CODE.307.DESCR">
+		<value>Triggered when internal humidity is below chosen threshold.</value>
+	</data>
+	<data name="ALERT_CODE.307.MSG">
+		<value>Internal humidity below {0}</value>
+	</data>
+	<data name="ALERT_CODE.311.NAME">
+		<value>Honeydew</value>
+	</data>
+	<data name="ALERT_CODE.311.DESCR">
+		<value>Triggered when weight contribution to hive exceeds chosen threshold over the last week.</value>
+	</data>
+	<data name="ALERT_CODE.311.MSG">
+		<value>Incoming weights over last week exceeding {0}</value>
+	</data>
+	<data name="ALERT_CODE.312.NAME">
+		<value>Weight limit exceeded</value>
+	</data>
+	<data name="ALERT_CODE.312.DESCR">
+		<value>Triggered when indicated weight limit is exceeded.</value>
+	</data>
+	<data name="ALERT_CODE.312.MSG">
+		<value>Your hive weight exceeds {0}</value>
+	</data>
+	<data name="ALERT_CODE.321.NAME">
+		<value>Swarm</value>
+	</data>
+	<data name="ALERT_CODE.321.DESCR">
+		<value>Triggered when a potential swarm occurs (Hub provides more efficiency).</value>
+	</data>
+	<data name="ALERT_CODE.321.MSG">
+		<value>Potential swarm detected around 2pm</value>
+	</data>
+	<data name="ALERT_CODE.322.NAME">
+		<value>Swarm risk</value>
+	</data>
+	<data name="ALERT_CODE.322.DESCR">
+		<value>Triggered when swarm risk is high on one of your hives next day.</value>
+	</data>
+	<data name="ALERT_CODE.322.MSG">
+		<value>Expected swarm day</value>
+	</data>
+	<data name="ALERT_CODE.323.NAME">
+		<value>Adding a super</value>
+	</data>
+	<data name="ALERT_CODE.323.DESCR">
+		<value>Indicate minimum weight of an empty super.</value>
+	</data>
+	<data name="ALERT_CODE.323.MSG">
+		<value>You added a super</value>
+	</data>
+	<data name="ALERT_CODE.324.NAME">
+		<value>Removing a super</value>
+	</data>
+	<data name="ALERT_CODE.324.DESCR">
+		<value>Indicate maximum weight of a full super.</value>
+	</data>
+	<data name="ALERT_CODE.324.MSG">
+		<value>You removed a super</value>
+	</data>
+	<data name="ALERT_CODE.401.NAME">
+		<value>Low battery</value>
+	</data>
+	<data name="ALERT_CODE.401.DESCR">
+		<value>Triggered when your sensor's battery level is below selected threshold.</value>
+	</data>
+	<data name="ALERT_CODE.401.MSG">
+		<value></value>
+	</data>
+	<data name="ALERT_CODE.401b.NAME">
+		<value>Low battery</value>
+	</data>
+	<data name="ALERT_CODE.401b.DESCR">
+		<value>Triggered when your W sensor's battery level is below selected threshold.</value>
+	</data>
+	<data name="ALERT_CODE.401b.MSG">
+		<value>Replace battery of </value>
+	</data>
+	<data name="ALERT_CODE.401t.NAME">
+		<value>Low battery</value>
+	</data>
+	<data name="ALERT_CODE.401t.DESCR">
+		<value>Triggered when your T sensor's battery level is below selected threshold.</value>
+	</data>
+	<data name="ALERT_CODE.401t.MSG">
+		<value>Replace battery of </value>
+	</data>
+	<data name="ALERT_CODE.402.NAME">
+		<value>Device disconnection</value>
+	</data>
+	<data name="ALERT_CODE.402.DESCR">
+		<value>Triggered when one of your sensors no longer transmits data (or punctually) during each chosen period. Only works with a Hub.</value>
+	</data>
+	<data name="ALERT_CODE.402.MSG">
+		<value></value>
+	</data>
+	<data name="ALERT_CODE.402t.NAME">
+		<value>Device disconnection</value>
+	</data>
+	<data name="ALERT_CODE.402t.DESCR">
+		<value>Triggered when your T sensor no longer transmits data during last day.</value>
+	</data>
+	<data name="ALERT_CODE.402t.MSG">
+		<value>{REF} disconnected since {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.402w.NAME">
+		<value>Device disconnection</value>
+	</data>
+	<data name="ALERT_CODE.402w.DESCR">
+		<value>Triggered when your W sensor no longer transmits data during last day.</value>
+	</data>
+	<data name="ALERT_CODE.402w.MSG">
+		<value>{REF} disconnected since {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.403b.NAME">
+		<value>Poor signal</value>
+	</data>
+	<data name="ALERT_CODE.403b.DESCR">
+		<value>Triggered when your W sensor transmits few data during last day.</value>
+	</data>
+	<data name="ALERT_CODE.403b.MSG">
+		<value>{REF} poor signal since {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.403t.NAME">
+		<value>Poor signal</value>
+	</data>
+	<data name="ALERT_CODE.403t.DESCR">
+		<value>Triggered when your T sensor transmits few data during last day.</value>
+	</data>
+	<data name="ALERT_CODE.403t.MSG">
+		<value>{REF} poor signal since {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.404.NAME">
+		<value>Weather station stopped</value>
+	</data>
+	<data name="ALERT_CODE.404.DESCR">
+		<value>Triggered when your weather station stops transmitting data. Requires own weather station.</value>
+	</data>
+	<data name="ALERT_CODE.404.MSG">
+		<value>Data transmission error from your weather station since {DATE}</value>
+	</data>
+	<data name="ALERT_CODE.405.NAME">
+		<value>Stolen hive</value>
+	</data>
+	<data name="ALERT_CODE.405.DESCR">
+		<value>Triggered when your hive's weight becomes abnormally low.</value>
+	</data>
+	<data name="ALERT_CODE.405.MSG">
+		<value>Your hive weight is abnormally low</value>
+	</data>
+	<data name="ALERT_CODE.406.NAME">
+		<value>Dead hive</value>
+	</data>
+	<data name="ALERT_CODE.406.DESCR">
+		<value>Our algorithm detects every day if your hive is dead based on various parameters we have set.</value>
+	</data>
+	<data name="ALERT_CODE.406.MSG">
+		<value>Your hive has been detected dead</value>
+	</data>
 	<data name="PHENOSTEP.7.DESCR">
-        <value>Beginning of bud burst: green shoot tips just visible</value>
-    </data>
+		<value>Beginning of bud burst: green shoot tips just visible</value>
+	</data>
 	<data name="PHENOSTEP.11.DESCR">
-        <value>First leaf unfolded and spread away from shoot</value>
-    </data>
+		<value>First leaf unfolded and spread away from shoot</value>
+	</data>
 	<data name="PHENOSTEP.55.DESCR">
-        <value>Flower buds visible (still closed)</value>
-    </data>
+		<value>Flower buds visible (still closed)</value>
+	</data>
 	<data name="PHENOSTEP.61.DESCR">
-        <value>Beginning of flowering: 10% of flowers open</value>
-    </data>
+		<value>Beginning of flowering: 10% of flowers open</value>
+	</data>
 	<data name="PHENOSTEP.65.DESCR">
-        <value>Full flowering: 50% of flowers open</value>
-    </data>
+		<value>Full flowering: 50% of flowers open</value>
+	</data>
 	<data name="PHENOSTEP.69.DESCR">
-        <value>End of flowering: all petals fallen</value>
-    </data>
+		<value>End of flowering: all petals fallen</value>
+	</data>
 	<data name="PHENOSTEP.61.IN">
-        <value>{0} Blooming in {1} days</value>
-    </data>
+		<value>{0} Blooming in {1} days</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT_FREE">
 		<value>Free Membership</value>
 	</data>
@@ -3366,6 +3369,9 @@
 	<data name="BTVSETTINGS_ENABLE_AUTO">
 		<value>Enable Automatic Recording</value>
 	</data>
+	<data name="BTVSETTINGS_AUTO_DISABLE">
+		<value>Do not run</value>
+	</data>
 	<data name="BTVSETTINGS_RATE_TITLE">
 		<value>Capture every</value>
 	</data>
@@ -3435,6 +3441,18 @@
 	<data name="BTVSETTINGS_HOURS_VIDEO">
 		<value>hours of recorded video</value>
 	</data>
+	<data name="BTVSETTINGS_WARN_TITLE">
+		<value>Warning</value>
+	</data>
+	<data name="BTVSETTINGS_WARN_MESSAGE">
+		<value>Leaving page without saving changes. Would you like to save them?</value>
+	</data>
+	<data name="BTVSETTINGS_WARN_SAVE">
+		<value>Save Changes</value>
+	</data>
+	<data name="BTVSETTINGS_WARN_LEAVE">
+		<value>Don't Save</value>
+	</data>
 	<data name="BTVWIFI_TITLE">
 		<value>BeeTV Wifi Setup</value>
 	</data>
@@ -3450,6 +3468,15 @@
 	<data name="BTVWIFI_SAVEANDTEST">
 		<value>Save &amp; Test</value>
 	</data>
+	<data name="BTVWIFI_SAVESTART">
+		<value>Setting Wifi</value>
+	</data>
+	<data name="BTVWIFI_SAVEFAIL">
+		<value>Error, not updated, try again</value>
+	</data>
+	<data name="BTVWIFI_SAVEOK">
+		<value>Wifi updated</value>
+	</data>
 	<data name="BTVWIFI_LAST_RUN">
 		<value>Last Run</value>
 	</data>
@@ -3459,8 +3486,38 @@
 	<data name="BTVWIFI_STATE">
 		<value>Wifi State</value>
 	</data>
+	<data name="BTVWIFI_DURATION">
+		<value>Duration of connection test</value>
+	</data>
+	<data name="BTVWIFI_TESTING">
+		<value>Testing beeTV wifi connection to {0}</value>
+	</data>
+	<data name="BTVWIFI_SUBERROR">
+		<value>Status subscribe error</value>
+	</data>
+	<data name="BTVWIFI_POP_RESULTS">
+		<value>Wifi Test Results</value>
+	</data>
+	<data name="BTVWIFI_POP_STATE">
+		<value>State</value>
+	</data>
+	<data name="BTVWIFI_POP_REASON">
+		<value>Reason</value>
+	</data>
+	<data name="BTVWIFI_POP_DURATION">
+		<value>Duration</value>
+	</data>
+	<data name="BTVWIFI_">
+		<value></value>
+	</data>
 	<data name="BTVWIFI_GETSTATS">
 		<value>Get Wifi Stats</value>
+	</data>
+	<data name="BTVWIFI_GETSTATS_NONE">
+		<value>No stats</value>
+	</data>
+	<data name="BTVWIFI_GETSTATS_ERROR">
+		<value>Error getting stats</value>
 	</data>
 	<data name="BTVWIFI_REASON_0A">
 		<value>Not connected, network not set</value>
@@ -3469,22 +3526,43 @@
 		<value>Wifi network was connected</value>
 	</data>
 	<data name="BTVWIFI_REASON_1">
-		<value>Missing test configuration</value>
+		<value>Password too short</value>
 	</data>
 	<data name="BTVWIFI_REASON_2">
-		<value>WPA supplicant start failed</value>
+		<value>Password too long</value>
+	</data>
+	<data name="BTVWIFI_REASON_3PROG">
+		<value>Reading settings</value>
 	</data>
 	<data name="BTVWIFI_REASON_3">
-		<value>SSID mismatch</value>
+		<value>WPA supplicant start failed</value>
+	</data>
+	<data name="BTVWIFI_REASON_4PROG">
+		<value>Attempting to connect to AP</value>
 	</data>
 	<data name="BTVWIFI_REASON_4">
 		<value>Association timeout</value>
 	</data>
 	<data name="BTVWIFI_REASON_5">
-		<value>Test script failed</value>
+		<value>SSID mismatch</value>
+	</data>
+	<data name="BTVWIFI_REASON_6PROG">
+		<value>Checking ip address</value>
 	</data>
 	<data name="BTVWIFI_REASON_6">
-		<value>Unexpected test error</value>
+		<value>DHCP failed ( no real client IPv4 / SoftAP leftover)</value>
+	</data>
+	<data name="BTVWIFI_REASON_7PROG">
+		<value>Checking internet connection</value>
+	</data>
+	<data name="BTVWIFI_REASON_7">
+		<value>Internet unreachable</value>
+	</data>
+	<data name="BTVWIFI_REASON_8PROG">
+		<value>Uploading test file</value>
+	</data>
+	<data name="BTVWIFI_REASON_8">
+		<value>Upload failed</value>
 	</data>
 	<data name="BTVWIFI_REASON_9">
 		<value>Unknown/no status</value>
@@ -3501,6 +3579,9 @@
 	<data name="BTVWIFI_STATE_9">
 		<value>Unknown</value>
 	</data>
+	<data name="BTVWIFI_CONNECTION_TEST">
+		<value>Test in progress</value>
+	</data>
 	<data name="BTVWIFI_CONNECTION_CONFIRMED">
 		<value>Wifi connection confirmed</value>
 	</data>
@@ -3515,5 +3596,62 @@
 	</data>
 	<data name="BTVWIFI_CONNECTION_FAILED_RECON">
 		<value>Wifi failed to connect, reconnecting to BeeTV</value>
+	</data>
+	<data name="BTVCONTENT_TITLE">
+		<value>{0} Content</value>
+	</data>
+	<data name="BTVCONTENT_PHOTOS">
+		<value>Photos</value>
+	</data>
+	<data name="BTVCONTENT_VIDEOS">
+		<value>Videos</value>
+	</data>
+	<data name="BTVCONTENT_ELAPSED">
+		<value>Elapsed</value>
+	</data>
+	<data name="BTVCONTENT_ELAPSEDSECONDS">
+		<value>seconds</value>
+	</data>
+	<data name="BTVCONTENT_WIFIDOWNLOAD_PHOTO">
+		<value>Download All Photos over Wifi (slow)</value>
+	</data>
+	<data name="BTVCONTENT_WIFIDOWNLOAD_VIDEO">
+		<value>Download All Videos over Wifi (slow)</value>
+	</data>
+	<data name="BTVCONTENT_USBDOWNLOAD_PHOTO">
+		<value>Download All Photos to USB</value>
+	</data>
+	<data name="BTVCONTENT_USPDOWNLOAD_VIDEO">
+		<value>Download All Videos to USB</value>
+	</data>
+	<data name="BTVCONTENT_DELETEPHOTO">
+		<value>Delete All Photos</value>
+	</data>
+	<data name="BTVCONTENT_DELETEVIDEO">
+		<value>Delete All Videos</value>
+	</data>
+	<data name="BTVCONTENT_TRANSFER_BLOCK">
+		<value>Transfer in progress, cannot download.</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_MESSAGE_PHOTO">
+		<value>Are you sure you want to delete all photos?</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_MESSAGE_VIDEO">
+		<value>Are you sure you want to delete all videos?</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_CONFIRM">
+		<value>Yes, Delete</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_OK">
+		<value>Deleted</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_BLOCK">
+		<value>Transfer in progress, cannot delete.</value>
+	</data>
+	<data name="BTVCONTENT_TRANSFER_SUCCESS">
+		<value>Success. Transfered in {0} seconds.</value>
+	</data>
+	<data name="BTVCONTENT_TRANSFER_FAIL">
+		<value>Failed. Failed in {0} seconds.</value>
 	</data>
 </root>

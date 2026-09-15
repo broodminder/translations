@@ -48,6 +48,9 @@
 	<data name="COMMON_CANCEL">
 		<value>Cancelar</value>
 	</data>
+	<data name="COMMON_CLOSE">
+		<value>Cerrar</value>
+	</data>
 	<data name="COMMON_OK">
 		<value>Ok</value>
 	</data>
@@ -3366,6 +3369,9 @@
 	<data name="BTVSETTINGS_ENABLE_AUTO">
 		<value>Activar grabación automática</value>
 	</data>
+	<data name="BTVSETTINGS_AUTO_DISABLE">
+		<value>No ejecutar</value>
+	</data>
 	<data name="BTVSETTINGS_RATE_TITLE">
 		<value>Capturar cada</value>
 	</data>
@@ -3435,6 +3441,18 @@
 	<data name="BTVSETTINGS_HOURS_VIDEO">
 		<value>horas de video grabado</value>
 	</data>
+	<data name="BTVSETTINGS_WARN_TITLE">
+		<value>Advertencia</value>
+	</data>
+	<data name="BTVSETTINGS_WARN_MESSAGE">
+		<value>Vas a salir de la página sin guardar los cambios. ¿Quieres guardarlos?</value>
+	</data>
+	<data name="BTVSETTINGS_WARN_SAVE">
+		<value>Guardar cambios</value>
+	</data>
+	<data name="BTVSETTINGS_WARN_LEAVE">
+		<value>No guardar</value>
+	</data>
 	<data name="BTVWIFI_TITLE">
 		<value>Configuración del wifi de BeeTV</value>
 	</data>
@@ -3450,6 +3468,15 @@
 	<data name="BTVWIFI_SAVEANDTEST">
 		<value>Guardar y probar</value>
 	</data>
+	<data name="BTVWIFI_SAVESTART">
+		<value>Configurando wifi</value>
+	</data>
+	<data name="BTVWIFI_SAVEFAIL">
+		<value>Error, no se actualizó, inténtalo de nuevo</value>
+	</data>
+	<data name="BTVWIFI_SAVEOK">
+		<value>Wifi actualizado</value>
+	</data>
 	<data name="BTVWIFI_LAST_RUN">
 		<value>Última ejecución</value>
 	</data>
@@ -3459,8 +3486,38 @@
 	<data name="BTVWIFI_STATE">
 		<value>Estado del wifi</value>
 	</data>
+	<data name="BTVWIFI_DURATION">
+		<value>Duración de la prueba de conexión</value>
+	</data>
+	<data name="BTVWIFI_TESTING">
+		<value>Probando la conexión wifi de beeTV con {0}</value>
+	</data>
+	<data name="BTVWIFI_SUBERROR">
+		<value>Error de suscripción al estado</value>
+	</data>
+	<data name="BTVWIFI_POP_RESULTS">
+		<value>Resultados de la prueba de wifi</value>
+	</data>
+	<data name="BTVWIFI_POP_STATE">
+		<value>Estado</value>
+	</data>
+	<data name="BTVWIFI_POP_REASON">
+		<value>Motivo</value>
+	</data>
+	<data name="BTVWIFI_POP_DURATION">
+		<value>Duración</value>
+	</data>
+	<data name="BTVWIFI_">
+		<value></value>
+	</data>
 	<data name="BTVWIFI_GETSTATS">
-		<value>Obtener estadísticas del wifi</value>
+		<value>Obtener estadísticas de wifi</value>
+	</data>
+	<data name="BTVWIFI_GETSTATS_NONE">
+		<value>Sin estadísticas</value>
+	</data>
+	<data name="BTVWIFI_GETSTATS_ERROR">
+		<value>Error al obtener las estadísticas</value>
 	</data>
 	<data name="BTVWIFI_REASON_0A">
 		<value>Sin conexión, red no configurada</value>
@@ -3469,22 +3526,43 @@
 		<value>Se conectó a la red wifi</value>
 	</data>
 	<data name="BTVWIFI_REASON_1">
-		<value>Falta la configuración de prueba</value>
+		<value>Contraseña demasiado corta</value>
 	</data>
 	<data name="BTVWIFI_REASON_2">
-		<value>Error al iniciar WPA supplicant</value>
+		<value>Contraseña demasiado larga</value>
+	</data>
+	<data name="BTVWIFI_REASON_3PROG">
+		<value>Leyendo la configuración</value>
 	</data>
 	<data name="BTVWIFI_REASON_3">
-		<value>El SSID no coincide</value>
+		<value>Error al iniciar WPA supplicant</value>
+	</data>
+	<data name="BTVWIFI_REASON_4PROG">
+		<value>Intentando conectar al AP</value>
 	</data>
 	<data name="BTVWIFI_REASON_4">
-		<value>Tiempo de asociación agotado</value>
+		<value>Tiempo de espera de asociación agotado</value>
 	</data>
 	<data name="BTVWIFI_REASON_5">
-		<value>Error en el script de prueba</value>
+		<value>El SSID no coincide</value>
+	</data>
+	<data name="BTVWIFI_REASON_6PROG">
+		<value>Comprobando la dirección IP</value>
 	</data>
 	<data name="BTVWIFI_REASON_6">
-		<value>Error inesperado en la prueba</value>
+		<value>Error de DHCP (sin IPv4 de cliente real / residuo de SoftAP)</value>
+	</data>
+	<data name="BTVWIFI_REASON_7PROG">
+		<value>Comprobando la conexión a Internet</value>
+	</data>
+	<data name="BTVWIFI_REASON_7">
+		<value>Internet no accesible</value>
+	</data>
+	<data name="BTVWIFI_REASON_8PROG">
+		<value>Subiendo el archivo de prueba</value>
+	</data>
+	<data name="BTVWIFI_REASON_8">
+		<value>Error al subir el archivo</value>
 	</data>
 	<data name="BTVWIFI_REASON_9">
 		<value>Desconocido/sin estado</value>
@@ -3501,6 +3579,9 @@
 	<data name="BTVWIFI_STATE_9">
 		<value>Desconocido</value>
 	</data>
+	<data name="BTVWIFI_CONNECTION_TEST">
+		<value>Prueba en curso</value>
+	</data>
 	<data name="BTVWIFI_CONNECTION_CONFIRMED">
 		<value>Conexión wifi confirmada</value>
 	</data>
@@ -3515,5 +3596,62 @@
 	</data>
 	<data name="BTVWIFI_CONNECTION_FAILED_RECON">
 		<value>No se pudo conectar al wifi, reconectando a BeeTV</value>
+	</data>
+	<data name="BTVCONTENT_TITLE">
+		<value>Contenido de {0}</value>
+	</data>
+	<data name="BTVCONTENT_PHOTOS">
+		<value>Fotos</value>
+	</data>
+	<data name="BTVCONTENT_VIDEOS">
+		<value>Vídeos</value>
+	</data>
+	<data name="BTVCONTENT_ELAPSED">
+		<value>Transcurrido</value>
+	</data>
+	<data name="BTVCONTENT_ELAPSEDSECONDS">
+		<value>segundos</value>
+	</data>
+	<data name="BTVCONTENT_WIFIDOWNLOAD_PHOTO">
+		<value>Descargar todas las fotos por wifi (lento)</value>
+	</data>
+	<data name="BTVCONTENT_WIFIDOWNLOAD_VIDEO">
+		<value>Descargar todos los vídeos por wifi (lento)</value>
+	</data>
+	<data name="BTVCONTENT_USBDOWNLOAD_PHOTO">
+		<value>Descargar todas las fotos a USB</value>
+	</data>
+	<data name="BTVCONTENT_USPDOWNLOAD_VIDEO">
+		<value>Descargar todos los vídeos a USB</value>
+	</data>
+	<data name="BTVCONTENT_DELETEPHOTO">
+		<value>Eliminar todas las fotos</value>
+	</data>
+	<data name="BTVCONTENT_DELETEVIDEO">
+		<value>Eliminar todos los vídeos</value>
+	</data>
+	<data name="BTVCONTENT_TRANSFER_BLOCK">
+		<value>Transferencia en curso, no se puede descargar.</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_MESSAGE_PHOTO">
+		<value>¿Seguro que quieres eliminar todas las fotos?</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_MESSAGE_VIDEO">
+		<value>¿Seguro que quieres eliminar todos los vídeos?</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_CONFIRM">
+		<value>Sí, eliminar</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_OK">
+		<value>Eliminado</value>
+	</data>
+	<data name="BTVCONTENT_DELETE_BLOCK">
+		<value>Transferencia en curso, no se puede eliminar.</value>
+	</data>
+	<data name="BTVCONTENT_TRANSFER_SUCCESS">
+		<value>Correcto. Transferido en {0} segundos.</value>
+	</data>
+	<data name="BTVCONTENT_TRANSFER_FAIL">
+		<value>Error. Falló en {0} segundos.</value>
 	</data>
 </root>
