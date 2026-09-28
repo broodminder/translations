@@ -1899,12 +1899,6 @@
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
 		<value>Todas las colmenas se encuentran aqui </value>
 	</data>
-	<data name="CALIBRATION_SET">
-		<value>Definir</value>
-	</data>
-	<data name="CALIBRATION_TARE_ALL">
-		<value>Tarar Todo</value>
-	</data>
 	<data name="CALIBRATION_WARNING_MESSAGE">
 		<value>Esta es una función avanzada. Los cambios realizados aquí afectarán al funcionamiento de su bascula. Proceda con precaución.</value>
 	</data>
@@ -1914,9 +1908,6 @@
 	<data name="CALIBRATION_WARNING_CONTINUE">
 		<value>Continuar</value>
 	</data>
-	<data name="CALIBRATION_TOTAL_WEIGHT">
-		<value>Peso Total</value>
-	</data>
 	<data name="CALIBRATION_SAMPLE">
 		<value>Sample</value>
 	</data>
@@ -1925,6 +1916,9 @@
 	</data>
 	<data name="CALIBRATION_SETTING_J">
 		<value>Ajuste {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_ALL">
+		<value>todas</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} Set</value>
@@ -1947,20 +1941,92 @@
 	<data name="CALIBRATION_OFFSET">
 		<value>Offset</value>
 	</data>
-	<data name="CALIBRATION_SCALE_ALL">
-		<value>Calibrar todos los canales</value>
+	<data name="CALIBRATION_LIVE">
+		<value>En vivo</value>
 	</data>
-	<data name="CALIBRATION_PERCENT">
-		<value>Porciento</value>
+	<data name="CALIBRATION_TOTAL">
+		<value>Total</value>
 	</data>
-	<data name="CALIBRATION_SET_DIVISOR_ALL">
-		<value>Fijar divisor para todos los canales</value>
+	<data name="CALIBRATION_TEMPERATURE">
+		<value>Temperatura</value>
 	</data>
-	<data name="CALIBRATION_SCALING_ALL">
-		<value>Calibrando todos los divisores de {0}</value>
+	<data name="CALIBRATION_SCALE_TYPE">
+		<value>Tipo de báscula</value>
 	</data>
-	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-		<value>Fijar todos los divisores en {0}</value>
+	<data name="CALIBRATION_TEST_WEIGHT">
+		<value>Peso de prueba</value>
+	</data>
+	<data name="CALIBRATION_TARE">
+		<value>Tara</value>
+	</data>
+	<data name="CALIBRATION_POS1">
+		<value>Pos 1</value>
+	</data>
+	<data name="CALIBRATION_POS2">
+		<value>Pos 2</value>
+	</data>
+	<data name="CALIBRATION_POS3">
+		<value>Pos 3</value>
+	</data>
+	<data name="CALIBRATION_POS4">
+		<value>Pos 4</value>
+	</data>
+	<data name="CALIBRATION_TEST">
+		<value>Probar</value>
+	</data>
+	<data name="CALIBRATION_SAVE_CAL">
+		<value>Guardar calibración</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG">
+		<value>Registro del sistema</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG_CLEAR">
+		<value>Borrar</value>
+	</data>
+	<data name="CALIBRATION_READING_W_1">
+		<value>Leyendo el peso en la 1.ª esquina.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_2">
+		<value>Leyendo el peso en la 2.ª esquina.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_3">
+		<value>Leyendo el peso en la 3.ª esquina.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_4">
+		<value>Leyendo el peso en la 4.ª esquina.</value>
+	</data>
+	<data name="CALIBRATION_CALCULATING">
+		<value>Calculando</value>
+	</data>
+	<data name="CALIBRATION_TESTING">
+		<value>Nuevos divisores establecidos, probando</value>
+	</data>
+	<data name="CALIBRATION_TESTING_FAIL">
+		<value>Prueba incorrecta, no se establecieron los nuevos divisores</value>
+	</data>
+	<data name="CALIBRATION_TEST_LONG">
+		<value>Deja que la báscula cambie de temperatura sin mover la báscula ni el peso de prueba.</value>
+	</data>
+	<data name="CALIBRATION_AWAITING">
+		<value>Pos{0}: esperando valores similares, diferencia total {1}</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE">
+		<value>Pos {0} completada</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_TEST">
+		<value>Pulsa Probar para comprobar los nuevos valores.</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_NEXT">
+		<value>Coloca el peso en la siguiente esquina y pulsa POS {0}.</value>
+	</data>
+	<data name="CALIBRATION_TEST_WEIGHT_SET">
+		<value>Peso de prueba establecido en {0}</value>
+	</data>
+	<data name="CALIBRATION_START_POS1">
+		<value>Coloca el peso en la primera esquina y pulsa POS 1.</value>
+	</data>
+	<data name="CALIBRATION_SCALE_TYPE_SET">
+		<value>Tipo de báscula establecido en {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
 		<value>Eliminar la cuenta</value>

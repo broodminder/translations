@@ -1899,12 +1899,6 @@
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
 		<value>Toutes les ruches sont ici </value>
 	</data>
-	<data name="CALIBRATION_SET">
-		<value>Enregistrer </value>
-	</data>
-	<data name="CALIBRATION_TARE_ALL">
-		<value>Tarer Tout</value>
-	</data>
 	<data name="CALIBRATION_WARNING_MESSAGE">
 		<value>Ceci est une fonction avancée. Les modifications apportées ici affecteront le fonctionnement de votre balance. Procédez avec prudence.</value>
 	</data>
@@ -1914,9 +1908,6 @@
 	<data name="CALIBRATION_WARNING_CONTINUE">
 		<value>Continuer</value>
 	</data>
-	<data name="CALIBRATION_TOTAL_WEIGHT">
-		<value>Poids Total</value>
-	</data>
 	<data name="CALIBRATION_SAMPLE">
 		<value>Sample</value>
 	</data>
@@ -1925,6 +1916,9 @@
 	</data>
 	<data name="CALIBRATION_SETTING_J">
 		<value>Réglage {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_ALL">
+		<value>toutes</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} Réglé</value>
@@ -1945,22 +1939,94 @@
 		<value>Diviseur</value>
 	</data>
 	<data name="CALIBRATION_OFFSET">
-		<value>Décalage</value>
+		<value>Offset</value>
 	</data>
-	<data name="CALIBRATION_SCALE_ALL">
-		<value>Calibrer tous les canaux</value>
+	<data name="CALIBRATION_LIVE">
+		<value>En direct</value>
 	</data>
-	<data name="CALIBRATION_PERCENT">
-		<value>Pourcent</value>
+	<data name="CALIBRATION_TOTAL">
+		<value>Total</value>
 	</data>
-	<data name="CALIBRATION_SET_DIVISOR_ALL">
-		<value>Diviseur uniforme sur tous les canaux</value>
+	<data name="CALIBRATION_TEMPERATURE">
+		<value>Température</value>
 	</data>
-	<data name="CALIBRATION_SCALING_ALL">
-		<value>Mise à l'échelle de tous les diviseurs de {0}</value>
+	<data name="CALIBRATION_SCALE_TYPE">
+		<value>Type de balance</value>
 	</data>
-	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-		<value>Réglage de tous les diviseurs sur {0}</value>
+	<data name="CALIBRATION_TEST_WEIGHT">
+		<value>Poids de test</value>
+	</data>
+	<data name="CALIBRATION_TARE">
+		<value>Tare</value>
+	</data>
+	<data name="CALIBRATION_POS1">
+		<value>Pos 1</value>
+	</data>
+	<data name="CALIBRATION_POS2">
+		<value>Pos 2</value>
+	</data>
+	<data name="CALIBRATION_POS3">
+		<value>Pos 3</value>
+	</data>
+	<data name="CALIBRATION_POS4">
+		<value>Pos 4</value>
+	</data>
+	<data name="CALIBRATION_TEST">
+		<value>Test</value>
+	</data>
+	<data name="CALIBRATION_SAVE_CAL">
+		<value>Enregistrer l'étalonnage</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG">
+		<value>Journal système</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG_CLEAR">
+		<value>Effacer</value>
+	</data>
+	<data name="CALIBRATION_READING_W_1">
+		<value>Lecture du poids sur le 1er coin.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_2">
+		<value>Lecture du poids sur le 2e coin.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_3">
+		<value>Lecture du poids sur le 3e coin.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_4">
+		<value>Lecture du poids sur le 4e coin.</value>
+	</data>
+	<data name="CALIBRATION_CALCULATING">
+		<value>Calcul en cours</value>
+	</data>
+	<data name="CALIBRATION_TESTING">
+		<value>Nouveaux diviseurs définis, test en cours</value>
+	</data>
+	<data name="CALIBRATION_TESTING_FAIL">
+		<value>Test incorrect, nouveaux diviseurs non définis</value>
+	</data>
+	<data name="CALIBRATION_TEST_LONG">
+		<value>Laissez la balance changer de température sans déplacer la balance ni le poids de test.</value>
+	</data>
+	<data name="CALIBRATION_AWAITING">
+		<value>Pos{0} : en attente de valeurs similaires, écart total {1}</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE">
+		<value>Pos {0} terminée</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_TEST">
+		<value>Appuyez sur Test pour vérifier les nouvelles valeurs.</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_NEXT">
+		<value>Placez le poids sur le coin suivant et appuyez sur POS {0}.</value>
+	</data>
+	<data name="CALIBRATION_TEST_WEIGHT_SET">
+		<value>Poids de test réglé sur {0}</value>
+	</data>
+	<data name="CALIBRATION_START_POS1">
+		<value>Placez le poids sur le premier coin et appuyez sur POS 1.</value>
+	</data>
+	<data name="CALIBRATION_SCALE_TYPE_SET">
+		<value>Type de balance réglé sur {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
 		<value>Effacer le compte</value>

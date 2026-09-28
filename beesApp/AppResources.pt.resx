@@ -1899,12 +1899,6 @@
     <data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
         <value>Todas as colmeias podem ser encontradas aqui </value>
     </data>
-    <data name="CALIBRATION_SET">
-        <value>Definir</value>
-    </data>
-    <data name="CALIBRATION_TARE_ALL">
-        <value>Tarar Todos</value>
-    </data>
     <data name="CALIBRATION_WARNING_MESSAGE">
         <value>Esta é uma funcionalidade avançada. As alterações aqui afetarão o funcionamento da sua balança. Prossiga com cuidado.</value>
     </data>
@@ -1914,9 +1908,6 @@
     <data name="CALIBRATION_WARNING_CONTINUE">
         <value>Continuar</value>
     </data>
-    <data name="CALIBRATION_TOTAL_WEIGHT">
-        <value>Peso Total</value>
-    </data>
     <data name="CALIBRATION_SAMPLE">
         <value>Amostra</value>
     </data>
@@ -1925,6 +1916,9 @@
     </data>
     <data name="CALIBRATION_SETTING_J">
         <value>Definindo {0}</value>
+    </data>
+    <data name="CALIBRATION_SETTING_ALL">
+        <value>todas</value>
     </data>
     <data name="CALIBRATION_JSET">
         <value>{0} Definido</value>
@@ -1945,22 +1939,94 @@
         <value>Divisor</value>
     </data>
     <data name="CALIBRATION_OFFSET">
-        <value>Desvio</value>
+        <value>Offset</value>
     </data>
-    <data name="CALIBRATION_SCALE_ALL">
-        <value>Escalar todos os canais</value>
+    <data name="CALIBRATION_LIVE">
+        <value>Em direto</value>
     </data>
-    <data name="CALIBRATION_PERCENT">
-        <value>Percentual</value>
+    <data name="CALIBRATION_TOTAL">
+        <value>Total</value>
     </data>
-    <data name="CALIBRATION_SET_DIVISOR_ALL">
-        <value>Definir divisor para todos os canais</value>
+    <data name="CALIBRATION_TEMPERATURE">
+        <value>Temperatura</value>
     </data>
-    <data name="CALIBRATION_SCALING_ALL">
-        <value>Escalar todos os divisores por {0}</value>
+    <data name="CALIBRATION_SCALE_TYPE">
+        <value>Tipo de balança</value>
     </data>
-    <data name="CALIBRATION_SETTING_DIVISORS_ALL">
-        <value>Definindo todos os divisores para {0}</value>
+    <data name="CALIBRATION_TEST_WEIGHT">
+        <value>Peso de teste</value>
+    </data>
+    <data name="CALIBRATION_TARE">
+        <value>Tara</value>
+    </data>
+    <data name="CALIBRATION_POS1">
+        <value>Pos 1</value>
+    </data>
+    <data name="CALIBRATION_POS2">
+        <value>Pos 2</value>
+    </data>
+    <data name="CALIBRATION_POS3">
+        <value>Pos 3</value>
+    </data>
+    <data name="CALIBRATION_POS4">
+        <value>Pos 4</value>
+    </data>
+    <data name="CALIBRATION_TEST">
+        <value>Testar</value>
+    </data>
+    <data name="CALIBRATION_SAVE_CAL">
+        <value>Guardar calibração</value>
+    </data>
+    <data name="CALIBRATION_SYSTEM_LOG">
+        <value>Registo do sistema</value>
+    </data>
+    <data name="CALIBRATION_SYSTEM_LOG_CLEAR">
+        <value>Limpar</value>
+    </data>
+    <data name="CALIBRATION_READING_W_1">
+        <value>A ler o peso no 1.º canto.</value>
+    </data>
+    <data name="CALIBRATION_READING_W_2">
+        <value>A ler o peso no 2.º canto.</value>
+    </data>
+    <data name="CALIBRATION_READING_W_3">
+        <value>A ler o peso no 3.º canto.</value>
+    </data>
+    <data name="CALIBRATION_READING_W_4">
+        <value>A ler o peso no 4.º canto.</value>
+    </data>
+    <data name="CALIBRATION_CALCULATING">
+        <value>A calcular</value>
+    </data>
+    <data name="CALIBRATION_TESTING">
+        <value>Novos divisores definidos, a testar</value>
+    </data>
+    <data name="CALIBRATION_TESTING_FAIL">
+        <value>Teste incorreto, novos divisores não definidos</value>
+    </data>
+    <data name="CALIBRATION_TEST_LONG">
+        <value>Deixe a balança mudar de temperatura sem mover a balança nem o peso de teste.</value>
+    </data>
+    <data name="CALIBRATION_AWAITING">
+        <value>Pos{0}: a aguardar valores semelhantes, diferença total {1}</value>
+    </data>
+    <data name="CALIBRATION_POS_COMPLETE">
+        <value>Pos {0} concluída</value>
+    </data>
+    <data name="CALIBRATION_POS_COMPLETE_TEST">
+        <value>Prima Testar para verificar os novos valores.</value>
+    </data>
+    <data name="CALIBRATION_POS_COMPLETE_NEXT">
+        <value>Coloque o peso no canto seguinte e prima POS {0}.</value>
+    </data>
+    <data name="CALIBRATION_TEST_WEIGHT_SET">
+        <value>Peso de teste definido para {0}</value>
+    </data>
+    <data name="CALIBRATION_START_POS1">
+        <value>Coloque o peso no primeiro canto e prima POS 1.</value>
+    </data>
+    <data name="CALIBRATION_SCALE_TYPE_SET">
+        <value>Tipo de balança definido para {0}</value>
     </data>
     <data name="DELETE_ACCOUNT_TITLE">
         <value>Excluir Conta</value>

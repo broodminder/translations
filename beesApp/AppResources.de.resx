@@ -1899,12 +1899,6 @@
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
 		<value>Alle Bienenstöcke können hier gefunden werden </value>
 	</data>
-	<data name="CALIBRATION_SET">
-		<value>Einstellen</value>
-	</data>
-	<data name="CALIBRATION_TARE_ALL">
-		<value>Alle tare</value>
-	</data>
 	<data name="CALIBRATION_WARNING_MESSAGE">
 		<value>Dies ist eine fortgeschrittene Funktion. Änderungen hier wirken sich auf die Funktionsweise Ihrer Waage aus. Fahren Sie vorsichtig fort.</value>
 	</data>
@@ -1914,9 +1908,6 @@
 	<data name="CALIBRATION_WARNING_CONTINUE">
 		<value>Weiter</value>
 	</data>
-	<data name="CALIBRATION_TOTAL_WEIGHT">
-		<value>Gesamtgewicht</value>
-	</data>
 	<data name="CALIBRATION_SAMPLE">
 		<value>Beispiel</value>
 	</data>
@@ -1925,6 +1916,9 @@
 	</data>
 	<data name="CALIBRATION_SETTING_J">
 		<value>Einstellung {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_ALL">
+		<value>alle</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} eingestellt</value>
@@ -1947,20 +1941,92 @@
 	<data name="CALIBRATION_OFFSET">
 		<value>Offset</value>
 	</data>
-	<data name="CALIBRATION_SCALE_ALL">
-		<value>Alle Kanäle skalieren</value>
+	<data name="CALIBRATION_LIVE">
+		<value>Live</value>
 	</data>
-	<data name="CALIBRATION_PERCENT">
-		<value>Prozent</value>
+	<data name="CALIBRATION_TOTAL">
+		<value>Gesamt</value>
 	</data>
-	<data name="CALIBRATION_SET_DIVISOR_ALL">
-		<value>Teiler für alle Kanäle setzen</value>
+	<data name="CALIBRATION_TEMPERATURE">
+		<value>Temperatur</value>
 	</data>
-	<data name="CALIBRATION_SCALING_ALL">
-		<value>Skaliere alle Teiler um {0}</value>
+	<data name="CALIBRATION_SCALE_TYPE">
+		<value>Waagentyp</value>
 	</data>
-	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-		<value>Setze alle Teiler auf {0}</value>
+	<data name="CALIBRATION_TEST_WEIGHT">
+		<value>Prüfgewicht</value>
+	</data>
+	<data name="CALIBRATION_TARE">
+		<value>Tara</value>
+	</data>
+	<data name="CALIBRATION_POS1">
+		<value>Pos 1</value>
+	</data>
+	<data name="CALIBRATION_POS2">
+		<value>Pos 2</value>
+	</data>
+	<data name="CALIBRATION_POS3">
+		<value>Pos 3</value>
+	</data>
+	<data name="CALIBRATION_POS4">
+		<value>Pos 4</value>
+	</data>
+	<data name="CALIBRATION_TEST">
+		<value>Test</value>
+	</data>
+	<data name="CALIBRATION_SAVE_CAL">
+		<value>Kalibrierung speichern</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG">
+		<value>Systemprotokoll</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG_CLEAR">
+		<value>Löschen</value>
+	</data>
+	<data name="CALIBRATION_READING_W_1">
+		<value>Gewicht an der 1. Ecke wird gemessen.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_2">
+		<value>Gewicht an der 2. Ecke wird gemessen.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_3">
+		<value>Gewicht an der 3. Ecke wird gemessen.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_4">
+		<value>Gewicht an der 4. Ecke wird gemessen.</value>
+	</data>
+	<data name="CALIBRATION_CALCULATING">
+		<value>Berechnung läuft</value>
+	</data>
+	<data name="CALIBRATION_TESTING">
+		<value>Neue Divisoren gesetzt, Test läuft</value>
+	</data>
+	<data name="CALIBRATION_TESTING_FAIL">
+		<value>Test fehlgeschlagen, neue Divisoren nicht gesetzt</value>
+	</data>
+	<data name="CALIBRATION_TEST_LONG">
+		<value>Temperaturänderung der Waage abwarten, ohne die Waage oder das Prüfgewicht zu bewegen.</value>
+	</data>
+	<data name="CALIBRATION_AWAITING">
+		<value>Pos{0}: Warten auf ähnliche Werte, Gesamtdifferenz {1}</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE">
+		<value>Pos {0} abgeschlossen</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_TEST">
+		<value>Drücken Sie „Test“, um die neuen Werte zu prüfen.</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_NEXT">
+		<value>Gewicht auf die nächste Ecke stellen und POS {0} drücken.</value>
+	</data>
+	<data name="CALIBRATION_TEST_WEIGHT_SET">
+		<value>Prüfgewicht auf {0} eingestellt</value>
+	</data>
+	<data name="CALIBRATION_START_POS1">
+		<value>Gewicht auf die erste Ecke stellen und POS 1 drücken.</value>
+	</data>
+	<data name="CALIBRATION_SCALE_TYPE_SET">
+		<value>Waagentyp auf {0} eingestellt</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
 		<value>Konto löschen</value>

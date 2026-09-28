@@ -1899,12 +1899,6 @@
 	<data name="HIVEINACTIVE_SUCCESS_EXPLANATION2">
 		<value>All hives can be found here </value>
 	</data>
-	<data name="CALIBRATION_SET">
-		<value>Set</value>
-	</data>
-	<data name="CALIBRATION_TARE_ALL">
-		<value>Tare All</value>
-	</data>
 	<data name="CALIBRATION_WARNING_MESSAGE">
 		<value>This is an advanced feature. Changes here will affect how your scale operates. Proceed with caution.</value>
 	</data>
@@ -1914,9 +1908,6 @@
 	<data name="CALIBRATION_WARNING_CONTINUE">
 		<value>Continue</value>
 	</data>
-	<data name="CALIBRATION_TOTAL_WEIGHT">
-		<value>Total Weight</value>
-	</data>
 	<data name="CALIBRATION_SAMPLE">
 		<value>Sample</value>
 	</data>
@@ -1925,6 +1916,9 @@
 	</data>
 	<data name="CALIBRATION_SETTING_J">
 		<value>Setting {0}</value>
+	</data>
+	<data name="CALIBRATION_SETTING_ALL">
+		<value>all</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} Set</value>
@@ -1947,20 +1941,92 @@
 	<data name="CALIBRATION_OFFSET">
 		<value>Offset</value>
 	</data>
-	<data name="CALIBRATION_SCALE_ALL">
-		<value>Scale all channels</value>
+	<data name="CALIBRATION_LIVE">
+		<value>Live</value>
 	</data>
-	<data name="CALIBRATION_PERCENT">
-		<value>Percent</value>
+	<data name="CALIBRATION_TOTAL">
+		<value>Total</value>
 	</data>
-	<data name="CALIBRATION_SET_DIVISOR_ALL">
-		<value>Set divisor for all channels</value>
+	<data name="CALIBRATION_TEMPERATURE">
+		<value>Temperature</value>
 	</data>
-	<data name="CALIBRATION_SCALING_ALL">
-		<value>Scaling all divisors by {0}</value>
+	<data name="CALIBRATION_SCALE_TYPE">
+		<value>Scale Type</value>
 	</data>
-	<data name="CALIBRATION_SETTING_DIVISORS_ALL">
-		<value>Setting all divisors to {0}</value>
+	<data name="CALIBRATION_TEST_WEIGHT">
+		<value>Test Weight</value>
+	</data>
+	<data name="CALIBRATION_TARE">
+		<value>Tare</value>
+	</data>
+	<data name="CALIBRATION_POS1">
+		<value>Pos 1</value>
+	</data>
+	<data name="CALIBRATION_POS2">
+		<value>Pos 2</value>
+	</data>
+	<data name="CALIBRATION_POS3">
+		<value>Pos 3</value>
+	</data>
+	<data name="CALIBRATION_POS4">
+		<value>Pos 4</value>
+	</data>
+	<data name="CALIBRATION_TEST">
+		<value>Test</value>
+	</data>
+	<data name="CALIBRATION_SAVE_CAL">
+		<value>Save Calibration</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG">
+		<value>System Log</value>
+	</data>
+	<data name="CALIBRATION_SYSTEM_LOG_CLEAR">
+		<value>Clear</value>
+	</data>
+	<data name="CALIBRATION_READING_W_1">
+		<value>Reading weight on 1st corner.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_2">
+		<value>Reading weight on 2nd corner.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_3">
+		<value>Reading weight on 3rd corner.</value>
+	</data>
+	<data name="CALIBRATION_READING_W_4">
+		<value>Reading weight on 4th corner.</value>
+	</data>
+	<data name="CALIBRATION_CALCULATING">
+		<value>Calculating</value>
+	</data>
+	<data name="CALIBRATION_TESTING">
+		<value>Set new divisors, testing</value>
+	</data>
+	<data name="CALIBRATION_TESTING_FAIL">
+		<value>Test bad, new divisors not set</value>
+	</data>
+	<data name="CALIBRATION_TEST_LONG">
+		<value>Allow scale to change temperature without moving scale or test weight.</value>
+	</data>
+	<data name="CALIBRATION_AWAITING">
+		<value>Pos{0}: Awaiting similar values, total dif {1}</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE">
+		<value>Pos {0} complete</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_TEST">
+		<value>Press Test to check new values.</value>
+	</data>
+	<data name="CALIBRATION_POS_COMPLETE_NEXT">
+		<value>Place weight on next corner and press POS {0}.</value>
+	</data>
+	<data name="CALIBRATION_TEST_WEIGHT_SET">
+		<value>Test weight set to {0}</value>
+	</data>
+	<data name="CALIBRATION_START_POS1">
+		<value>Put weight on first corner and press POS 1.</value>
+	</data>
+	<data name="CALIBRATION_SCALE_TYPE_SET">
+		<value>Scale type set to {0}</value>
 	</data>
 	<data name="DELETE_ACCOUNT_TITLE">
 		<value>Delete Account</value>
