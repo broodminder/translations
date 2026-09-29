@@ -1917,8 +1917,11 @@
     <data name="CALIBRATION_SETTING_J">
         <value>Definindo {0}</value>
     </data>
-    <data name="CALIBRATION_SETTING_ALL">
-        <value>todas</value>
+   <data name="CALIBRATION_SETTING_ALL">
+        <value>A definir todos</value>
+    </data>
+    <data name="CALIBRATION_AllSET">
+        <value>Todos definidos</value>
     </data>
     <data name="CALIBRATION_JSET">
         <value>{0} Definido</value>

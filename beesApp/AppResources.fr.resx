@@ -1918,7 +1918,10 @@
 		<value>Réglage {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_ALL">
-		<value>toutes</value>
+		<value>Étalonnage en cours</value>
+	</data>
+	<data name="CALIBRATION_AllSET">
+		<value>Étalonnage effectué</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} Réglé</value>

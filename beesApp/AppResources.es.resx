@@ -1918,7 +1918,10 @@
 		<value>Ajuste {0}</value>
 	</data>
 	<data name="CALIBRATION_SETTING_ALL">
-		<value>todas</value>
+		<value>Estableciendo todos</value>
+	</data>
+	<data name="CALIBRATION_AllSET">
+		<value>Todos establecidos</value>
 	</data>
 	<data name="CALIBRATION_JSET">
 		<value>{0} Set</value>
