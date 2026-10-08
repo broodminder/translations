@@ -3349,10 +3349,10 @@
 		<value>Detener vista en vivo</value>
 	</data>
 	<data name="BTVDETAIL_AUTOPROG_EN">
-		<value>Activar AutoProg</value>
+		<value>Activar programación</value>
 	</data>
 	<data name="BTVDETAIL_AUTOPROG_DIS">
-		<value>Desactivar AutoProg</value>
+		<value>Desactivar programación</value>
 	</data>
 	<data name="BTVDETAIL_SHOWTOOLS">
 		<value>Mostrar herramientas de depuración</value>
