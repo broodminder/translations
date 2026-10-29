@@ -1160,7 +1160,8 @@
         "CUSTOM_4": "Personnalisé (4)",
         "CUSTOM_5": "Personnalisé (5)",
         "CUSTOM_6": "Personnalisé (6)",
-        "CUSTOM_7": "Personnalisé (7)"
+        "CUSTOM_7": "Personnalisé (7)",
+        "SCALES_COMBINED": "Balances combinées"
     },
     "RESEARCH_DOWNLOAD": {
         "H_NAME": "NOM",

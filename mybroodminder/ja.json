@@ -1161,7 +1161,8 @@
         "CUSTOM_4": "カスタム (4)",
         "CUSTOM_5": "カスタム (5)",
         "CUSTOM_6": "カスタム (6)",
-        "CUSTOM_7": "カスタム (7)"
+        "CUSTOM_7": "カスタム (7)",
+        "SCALES_COMBINED": "スケール合算"
     },
     "RESEARCH_DOWNLOAD": {
         "H_NAME": "名前",

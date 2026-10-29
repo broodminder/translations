@@ -1160,7 +1160,8 @@
         "CUSTOM_4": "Tilpasset (4)",
         "CUSTOM_5": "Tilpasset (5)",
         "CUSTOM_6": "Tilpasset (6)",
-        "CUSTOM_7": "Tilpasset (7)"
+        "CUSTOM_7": "Tilpasset (7)",
+        "SCALES_COMBINED": "Vekter kombinert"
     },
     "RESEARCH_DOWNLOAD": {
         "H_NAME": "NAVN",

@@ -1162,7 +1162,8 @@
         "CUSTOM_4": "Benutzerdefiniert (4)",
         "CUSTOM_5": "Benutzerdefiniert (5)",
         "CUSTOM_6": "Benutzerdefiniert (6)",
-        "CUSTOM_7": "Benutzerdefiniert (7)"
+        "CUSTOM_7": "Benutzerdefiniert (7)",
+        "SCALES_COMBINED": "Waagen kombiniert"
     },
     "RESEARCH_DOWNLOAD": {
         "H_NAME": "NAME",

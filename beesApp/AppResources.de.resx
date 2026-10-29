@@ -108,6 +108,9 @@
 	<data name="COMMON_FALSE">
 		<value>Falsch</value>
 	</data>
+	<data name="SCALES_COMBINED">
+		<value>Waagen kombiniert</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Konto</value>
 	</data>

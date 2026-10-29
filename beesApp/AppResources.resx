@@ -108,6 +108,9 @@
 	<data name="COMMON_FALSE">
 		<value>False</value>
 	</data>
+	<data name="SCALES_COMBINED">
+		<value>Scales Combined</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Account</value>
 	</data>

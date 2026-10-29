@@ -108,6 +108,9 @@
 	<data name="COMMON_FALSE">
 		<value>Faux</value>
 	</data>
+	<data name="SCALES_COMBINED">
+		<value>Balances combinées</value>
+	</data>
 	<data name="SETTINGS_ACCOUNT">
 		<value>Compte</value>
 	</data>
